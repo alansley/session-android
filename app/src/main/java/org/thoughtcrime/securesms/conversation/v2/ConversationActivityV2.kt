@@ -308,6 +308,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                 handleSwipeToReply(message)
             },
             onItemLongPress = { message, position, view ->
+
+                Log.d("[ACL]", "[Lazy adapter] Hit onItemLongPress")
+
                 if (!viewModel.isMessageRequestThread &&
                     viewModel.canReactToMessages
                 ) {
@@ -322,9 +325,24 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                 }
             },
             onAttachmentNeedsDownload = { attachmentId, mmsId ->
+
+                Log.d("[ACL]", "[Lazy adapter] Hit onAttachmentNeedsDownload") //
+                //val job = AttachmentDownloadJob(attachmentId, mmsId)
+                //job.
+
                 // Start download (on IO thread)
                 lifecycleScope.launch(Dispatchers.IO) {
                     JobQueue.shared.add(AttachmentDownloadJob(attachmentId, mmsId))
+
+                    // TODO: Add spinner to view or set 'use spinner' flag here for correct construction when we hit `onItemLongPress`
+                }.also { attachmentDownloadJob ->
+
+                    // ACL: CANNOT DO THIS - it runs immediately even before the attachment has downloaded!
+
+                    // Remove download attachment from network spinner when the download is complete
+                    attachmentDownloadJob.invokeOnCompletion {
+                        Log.d("[ACL]", "[Lazy adapter onAttachmentNeedsDownload] Attachment download is complete!")
+                    }
                 }
             },
             glide = glide,
@@ -760,6 +778,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     }
 
     override fun onPrepareOptionsMenu(menu: Menu): Boolean {
+
+        Log.d("[ACL]", "Hit onPrepareOptionsMenu") //Nope not this one
+
         val recipient = viewModel.recipient ?: return false
         if (!viewModel.isMessageRequestThread) {
             ConversationMenuHelper.onPrepareOptionsMenu(
@@ -1235,6 +1256,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
 
     // `position` is the adapter position; not the visual position
     private fun handleLongPress(message: MessageRecord, position: Int) {
+
+        Log.d("[ACL]", "[ConversationActivityV2] Hit handleLongPress") // Nah, it's not this one when you click and hold and a message to bring up the actions
+
         val actionMode = this.actionMode
         val actionModeCallback = ConversationActionModeCallback(adapter, viewModel.threadId, this)
         actionModeCallback.delegate = this
@@ -1243,6 +1267,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
             adapter.toggleSelection(message, position)
             this.actionMode = startActionMode(actionModeCallback, ActionMode.TYPE_PRIMARY)
         } else {
+
+
+
             adapter.toggleSelection(message, position)
             actionModeCallback.updateActionModeMenu(actionMode.menu)
             if (adapter.selectedItems.isEmpty()) {
@@ -1523,6 +1550,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                 OpenGroupManager.isUserModerator(this, openGroup.id, userPublicKey, viewModel.blindedPublicKey)
             } ?: false
             val fragment = ReactionsDialogFragment.create(messageId, isUserModerator)
+
+            Log.d("[ACL]", "Hit onReactionLongClicked!") // Nah, it's not this one when you click and hold and a message to bring up the actions
+
             fragment.show(supportFragmentManager, null)
         }
     }
@@ -1809,6 +1839,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     }
 
     override fun selectMessages(messages: Set<MessageRecord>) {
+
+        Log.d("[ACL]", "[ConversationActivityV2] Hit selectMessages") // Nah, it's not this one when you click and hold and a message to bring up the actions
+
         handleLongPress(messages.first(), 0) //TODO: begin selection mode
     }
 
@@ -1948,6 +1981,13 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
 
     override fun saveAttachment(messages: Set<MessageRecord>) {
         val message = messages.first() as MmsMessageRecord
+
+        // TODO: Localise the msg in this toast!
+        if (message.isMediaPending) {
+            Toast.makeText(this, "Please wait until attached data has finished downloading.", Toast.LENGTH_LONG).show()
+            return
+        }
+
         SaveAttachmentTask.showWarningDialog(this) {
             Permissions.with(this)
                 .request(Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -1959,18 +1999,26 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                 }
                 .onAllGranted {
                     endActionMode()
+
                     val attachments: List<SaveAttachmentTask.Attachment?> = Stream.of(message.slideDeck.slides)
                         .filter { s: Slide -> s.uri != null && (s.hasImage() || s.hasVideo() || s.hasAudio() || s.hasDocument()) }
                         .map { s: Slide -> SaveAttachmentTask.Attachment(s.uri!!, s.contentType, message.dateReceived, s.fileName.orNull()) }
                         .toList()
+
                     if (attachments.isNotEmpty()) {
                         val saveTask = SaveAttachmentTask(this)
+
+                        //saveTask.
+
                         saveTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, *attachments.toTypedArray())
                         if (!message.isOutgoing) {
                             sendMediaSavedNotification()
                         }
                         return@onAllGranted
                     }
+
+                    Log.d("[ACL]", "Attachments list is empty so we're going to moan.")
+
                     Toast.makeText(this,
                         resources.getQuantityString(R.plurals.ConversationFragment_error_while_saving_attachments_to_sd_card, 1),
                         Toast.LENGTH_LONG).show()

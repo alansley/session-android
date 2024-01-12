@@ -67,9 +67,16 @@ class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int 
     }
 
     override fun doInBackground(vararg attachments: Attachment?): Pair<Int, String?> {
+
+        // Note: We can call `publishProgress` here if we wish.
+        Log.d("[ACL]", "In `doInBackground`")
+
         if (attachments.isEmpty()) {
             throw IllegalArgumentException("Must pass in at least one attachment")
         }
+
+        var progressPercent: Int = 0
+        this.publishProgress()
 
         try {
             val context = contextReference.get()
@@ -98,23 +105,42 @@ class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int 
 
     @Throws(IOException::class)
     private fun saveAttachment(context: Context, attachment: Attachment): String? {
+
+        Log.d("[ACL]", "[SaveAttachmentTask] Asked to save attachment: $attachment")
+
         val contentType = Objects.requireNonNull(MediaUtil.getCorrectedMimeType(attachment.contentType))!!
+
+        // Make sure we have a filename or generate one if needs be
         var fileName = attachment.fileName
         if (fileName == null) fileName = generateOutputFileName(contentType, attachment.date)
         fileName = sanitizeOutputFileName(fileName)
+
         val outputUri: Uri = getMediaStoreContentUriForType(contentType)
         val mediaUri = createOutputUri(outputUri, contentType, fileName)
+
         val updateValues = ContentValues()
         PartAuthority.getAttachmentStream(context, attachment.uri).use { inputStream ->
-            if (inputStream == null) {
-                return null
-            }
+            if (inputStream == null) { return null }
+
+            var wang = this.onProgressUpdate()
+
+            //inputStream.read() // This will return -1 if we've reached the end of the stream - BUT - we can prolly hit the end of the stream while we attempt DL before stream is complete
+
             if (outputUri.scheme == ContentResolver.SCHEME_FILE) {
+
+                Log.d("[ACL]", "Content resolver reckons this is a scheme file.")
+
                 FileOutputStream(mediaUri!!.path).use { outputStream ->
+
+                    Log.d("[ACL]", "Content resolver about to copy input->output (SCHEME file).")
+
                     StreamUtil.copy(inputStream, outputStream)
                     MediaScannerConnection.scanFile(context, arrayOf(mediaUri.path), arrayOf(contentType), null)
                 }
             } else {
+
+                Log.d("[ACL]", "Content resolver about to copy input->output (NON-scheme file).") // THIS
+
                 context.contentResolver.openOutputStream(mediaUri!!, "w").use { outputStream ->
                     val total: Long = StreamUtil.copy(inputStream, outputStream)
                     if (total > 0) {
@@ -229,7 +255,32 @@ class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int 
 
     override fun onPostExecute(result: Pair<Int, String?>) {
         super.onPostExecute(result)
+
+        Log.d("[ACL]", "Hit onPostExecute with status: ${this.status.toString()}")
+
         val context = contextReference.get() ?: return
+
+        Log.d("[ACL]", "Context is okay")
+
+        // Note: AsyncTasks are deprecated since Android 11 / API 30 - but migrating to Kotlin
+        // Coroutines (preferred) or Java Executors (fallback) is going to be non-trivial and should
+        // likely be deferred to a specific ticket related to replacing AsyncTasks across the entire
+        // codebase.
+        // See: https://kotlinlang.org/docs/coroutines-overview.html
+        // See: https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html
+        when (this.status) {
+
+
+
+            // TODO: Make this text multilingual!
+            Status.PENDING, Status.RUNNING -> {
+                Toast.makeText(this.context, "Please wait until download completes to save attachment.", Toast.LENGTH_SHORT)
+                return
+            }
+            Status.FINISHED -> {
+                // Attachment download has completed and we are free to continue with the save operation as below
+            }
+        }
 
         when (result.first) {
             RESULT_FAILURE -> {
