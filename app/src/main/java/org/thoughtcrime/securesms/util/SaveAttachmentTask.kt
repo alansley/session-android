@@ -16,6 +16,7 @@ import org.session.libsession.utilities.task.ProgressDialogAsyncTask
 import org.session.libsignal.utilities.ExternalStorageUtil
 import org.session.libsignal.utilities.Log
 import org.thoughtcrime.securesms.mms.PartAuthority
+import org.thoughtcrime.securesms.net.ChunkedDataFetcher
 import org.thoughtcrime.securesms.showSessionDialog
 import java.io.File
 import java.io.FileOutputStream
@@ -28,6 +29,12 @@ import java.util.concurrent.TimeUnit
 /**
  * Saves attachment files to an external storage using [MediaStore] API.
  * Requires [android.Manifest.permission.WRITE_EXTERNAL_STORAGE] on API 28 and below.
+ *
+ * Note: AsyncTasks are deprecated since Android 11 / API 30 - but migrating to Kotlin Coroutines
+ * (preferred) or Java Executors (fallback) is going to be non-trivial and should likely be deferred
+ * to a specific ticket related to replacing AsyncTasks across the entire codebase.
+ * See: https://kotlinlang.org/docs/coroutines-overview.html
+ * See: https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html
  */
 class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int = 1) :
     ProgressDialogAsyncTask<SaveAttachmentTask.Attachment, Void, Pair<Int, String?>>(
@@ -68,8 +75,7 @@ class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int 
 
     override fun doInBackground(vararg attachments: Attachment?): Pair<Int, String?> {
 
-        // Note: We can call `publishProgress` here if we wish.
-        Log.d("[ACL]", "In `doInBackground`")
+        Log.d("[ACL]", "Hit SaveAttachmentTask.doInBackground")
 
         if (attachments.isEmpty()) {
             throw IllegalArgumentException("Must pass in at least one attachment")
@@ -122,10 +128,6 @@ class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int 
         PartAuthority.getAttachmentStream(context, attachment.uri).use { inputStream ->
             if (inputStream == null) { return null }
 
-            var wang = this.onProgressUpdate()
-
-            //inputStream.read() // This will return -1 if we've reached the end of the stream - BUT - we can prolly hit the end of the stream while we attempt DL before stream is complete
-
             if (outputUri.scheme == ContentResolver.SCHEME_FILE) {
 
                 Log.d("[ACL]", "Content resolver reckons this is a scheme file.")
@@ -135,11 +137,18 @@ class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int 
                     Log.d("[ACL]", "Content resolver about to copy input->output (SCHEME file).")
 
                     StreamUtil.copy(inputStream, outputStream)
-                    MediaScannerConnection.scanFile(context, arrayOf(mediaUri.path), arrayOf(contentType), null)
-                }
-            } else {
 
-                Log.d("[ACL]", "Content resolver about to copy input->output (NON-scheme file).") // THIS
+
+                    //MediaScannerConnection.scanFile(context, arrayOf(mediaUri.path), arrayOf(contentType), null)
+                    //val attachmentDownloadedCallback = ChunkedDataFetcher.Callback(outputStream)
+                    //attachmentDownloadedCallback.onSuccess(
+                    //if (inputStream.)
+                    //-> { Log.d("[ACL]", "Hit attachmentDownloadedCallback!") }
+                    //MediaScannerConnection.scanFile(context, arrayOf(mediaUri.path), arrayOf(contentType), attachmentDownloadedCallback)
+                }
+            } else { // THIS TRIGGERS WITH A ZIP FILE
+
+                Log.d("[ACL]", "Content resolver about to copy input->output (NON-scheme file).")
 
                 context.contentResolver.openOutputStream(mediaUri!!, "w").use { outputStream ->
                     val total: Long = StreamUtil.copy(inputStream, outputStream)
@@ -253,40 +262,35 @@ class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int 
         return File(fileName).name
     }
 
+    // Note: When a task hits `onPostExecute` its status is still RUNNING (because this post-execute
+    // element of the task is still considered part of the task!)
+    @Deprecated("Deprecated in Java")
     override fun onPostExecute(result: Pair<Int, String?>) {
         super.onPostExecute(result)
 
         Log.d("[ACL]", "Hit onPostExecute with status: ${this.status.toString()}")
 
         val context = contextReference.get() ?: return
-
         Log.d("[ACL]", "Context is okay")
 
-        // Note: AsyncTasks are deprecated since Android 11 / API 30 - but migrating to Kotlin
-        // Coroutines (preferred) or Java Executors (fallback) is going to be non-trivial and should
-        // likely be deferred to a specific ticket related to replacing AsyncTasks across the entire
-        // codebase.
-        // See: https://kotlinlang.org/docs/coroutines-overview.html
-        // See: https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html
+        /*
         when (this.status) {
-
-
-
             // TODO: Make this text multilingual!
             Status.PENDING, Status.RUNNING -> {
+                Log.d("[ACL]", "Hit SaveAttachmentTask.onPostExectute and status is PENDING or RUNNING")
                 Toast.makeText(this.context, "Please wait until download completes to save attachment.", Toast.LENGTH_SHORT)
                 return
             }
             Status.FINISHED -> {
+                Log.d("[ACL]", "Hit SaveAttachmentTask.onPostExectute and status is FINISHED")
                 // Attachment download has completed and we are free to continue with the save operation as below
             }
         }
+        */
 
         when (result.first) {
             RESULT_FAILURE -> {
-                val message = context.resources.getQuantityText(
-                        R.plurals.ConversationFragment_error_while_saving_attachments_to_sd_card,
-                        attachmentCount)
+                val message = context.resources.getQuantityText(R.plurals.ConversationFragment_error_while_saving_attachments_to_sd_card, attachmentCount)
                 Toast.makeText(context, message, Toast.LENGTH_LONG).show()
             }
 

@@ -45,6 +45,7 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ReportFragment.Companion.reportFragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
@@ -54,6 +55,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.annimon.stream.Stream
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.CompletionHandler
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.channels.Channel
@@ -324,18 +326,38 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                     onDeselect(message, position, it)
                 }
             },
-            onAttachmentNeedsDownload = { attachmentId, mmsId ->
+            onAttachmentNeedsDownload = { attachmentId, mmsId, attachmentIconViewId ->
+
+                //message.
+                //mmsId.
 
                 Log.d("[ACL]", "[Lazy adapter] Hit onAttachmentNeedsDownload") //
                 //val job = AttachmentDownloadJob(attachmentId, mmsId)
                 //job.
 
                 // Start download (on IO thread)
-                lifecycleScope.launch(Dispatchers.IO) {
-                    JobQueue.shared.add(AttachmentDownloadJob(attachmentId, mmsId))
+                // Note: `invokeOnCompletion` occurs instantly on this downloadJob so it's of no use
+                // in determining when an attachment has finished downloading, instead have a look
+                // at `AttachmentDownloadJob.handleSuccess` etc. which are the methods that trigger
+                // when an attachment _actually_ finishes downloading.
+                var downloadJob = lifecycleScope.launch(Dispatchers.IO) {
 
+                    val attachmentDownloadJob = AttachmentDownloadJob(attachmentId, mmsId, attachmentIconViewId)
+                    JobQueue.shared.add(attachmentDownloadJob)
+                }
+
+                //var completionHander = CompletionHandler()
+
+                downloadJob.invokeOnCompletion {
+                    Log.d("[ACL]", "ConversationActivity.downloadJob thinks it has completed!")
+                }
+
+
+
+                    /*
                     // TODO: Add spinner to view or set 'use spinner' flag here for correct construction when we hit `onItemLongPress`
-                }.also { attachmentDownloadJob ->
+
+                    .also { attachmentDownloadJob ->
 
                     // ACL: CANNOT DO THIS - it runs immediately even before the attachment has downloaded!
 
@@ -343,7 +365,8 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                     attachmentDownloadJob.invokeOnCompletion {
                         Log.d("[ACL]", "[Lazy adapter onAttachmentNeedsDownload] Attachment download is complete!")
                     }
-                }
+                     */
+
             },
             glide = glide,
             lifecycleCoroutineScope = lifecycleScope
@@ -1984,7 +2007,8 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
 
         // TODO: Localise the msg in this toast!
         if (message.isMediaPending) {
-            Toast.makeText(this, "Please wait until attached data has finished downloading.", Toast.LENGTH_LONG).show()
+            Log.d("[ACL]", "Hit ConversationActivityV2.saveAttachment with media pending so creating toast and bailing!")
+            Toast.makeText(this, resources.getString(R.string.SaveAttachmentTask_wait_until_attachment_has_finished_downloading), Toast.LENGTH_LONG).show()
             return
         }
 
@@ -2008,16 +2032,15 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                     if (attachments.isNotEmpty()) {
                         val saveTask = SaveAttachmentTask(this)
 
-                        //saveTask.
+                        val taskInProgress = saveTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, *attachments.toTypedArray())
 
-                        saveTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, *attachments.toTypedArray())
+
+
                         if (!message.isOutgoing) {
                             sendMediaSavedNotification()
                         }
                         return@onAllGranted
                     }
-
-                    Log.d("[ACL]", "Attachments list is empty so we're going to moan.")
 
                     Toast.makeText(this,
                         resources.getQuantityString(R.plurals.ConversationFragment_error_while_saving_attachments_to_sd_card, 1),
@@ -2143,6 +2166,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     inner class ReactionsToolbarListener constructor(val message: MessageRecord) : OnActionSelectedListener {
 
         override fun onActionSelected(action: ConversationReactionOverlay.Action) {
+
             val selectedItems = setOf(message)
             when (action) {
                 ConversationReactionOverlay.Action.REPLY -> reply(selectedItems)

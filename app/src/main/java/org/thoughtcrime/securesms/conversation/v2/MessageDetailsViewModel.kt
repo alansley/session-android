@@ -106,11 +106,12 @@ class MessageDetailsViewModel @Inject constructor(
         val state = state.value ?: return
         val mmsRecord = state.mmsRecord ?: return
         val slide = mmsRecord.slideDeck.slides[index] ?: return
+
         // only open to downloaded images
         if (slide.transferState == AttachmentTransferProgress.TRANSFER_PROGRESS_FAILED) {
             // Restart download here (on IO thread)
             (slide.asAttachment() as? DatabaseAttachment)?.let { attachment ->
-                onAttachmentNeedsDownload(attachment.attachmentId.rowId, state.mmsRecord.getId())
+                onAttachmentNeedsDownload(attachment.attachmentId.rowId, state.mmsRecord.getId(), null)
             }
         }
 
@@ -123,9 +124,9 @@ class MessageDetailsViewModel @Inject constructor(
         }
     }
 
-    fun onAttachmentNeedsDownload(attachmentId: Long, mmsId: Long) {
+    fun onAttachmentNeedsDownload(attachmentId: Long, mmsId: Long, attachmentIconViewId: Int?) {
         viewModelScope.launch(Dispatchers.IO) {
-            JobQueue.shared.add(AttachmentDownloadJob(attachmentId, mmsId))
+            JobQueue.shared.add(AttachmentDownloadJob(attachmentId, mmsId, attachmentIconViewId))
         }
     }
 }

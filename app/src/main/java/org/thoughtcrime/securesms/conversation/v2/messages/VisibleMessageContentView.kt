@@ -65,7 +65,7 @@ class VisibleMessageContentView : ConstraintLayout {
         thread: Recipient,
         searchQuery: String? = null,
         contactIsTrusted: Boolean = true,
-        onAttachmentNeedsDownload: (Long, Long) -> Unit,
+        onAttachmentNeedsDownload: (Long, Long, Int?) -> Unit,
         suppressThumbnails: Boolean = false
     ) {
         // Background
@@ -137,7 +137,7 @@ class VisibleMessageContentView : ConstraintLayout {
                 val attachmentId = dbAttachment.attachmentId.rowId
                 if (attach.transferState == AttachmentTransferProgress.TRANSFER_PROGRESS_PENDING
                     && MessagingModuleConfiguration.shared.storage.getAttachmentUploadJob(attachmentId) == null) {
-                    onAttachmentNeedsDownload(attachmentId, dbAttachment.mmsId)
+                    onAttachmentNeedsDownload(attachmentId, dbAttachment.mmsId, binding.documentView.documentViewIconImageView.id)
                 }
             }
             message.linkPreviews.forEach { preview ->
@@ -145,7 +145,7 @@ class VisibleMessageContentView : ConstraintLayout {
                 val attachmentId = previewThumbnail.attachmentId.rowId
                 if (previewThumbnail.transferState == AttachmentTransferProgress.TRANSFER_PROGRESS_PENDING
                     && MessagingModuleConfiguration.shared.storage.getAttachmentUploadJob(attachmentId) == null) {
-                    onAttachmentNeedsDownload(attachmentId, previewThumbnail.mmsId)
+                    onAttachmentNeedsDownload(attachmentId, previewThumbnail.mmsId, null)
                 }
             }
         }
@@ -204,7 +204,7 @@ class VisibleMessageContentView : ConstraintLayout {
                     onContentClick.add { event ->
                         binding.albumThumbnailView.root.calculateHitObject(event, message, thread, onAttachmentNeedsDownload)
                     }
-                } else {
+                } else { // Message is incoming w/ attachment(s) from untrusted source
                     hideBody = true
                     binding.albumThumbnailView.root.clearViews()
                     binding.untrustedView.root.bind(UntrustedAttachmentView.AttachmentType.MEDIA, VisibleMessageContentView.getTextColor(context,message))

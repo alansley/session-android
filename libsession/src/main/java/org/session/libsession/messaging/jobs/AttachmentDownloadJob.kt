@@ -1,5 +1,6 @@
 package org.session.libsession.messaging.jobs
 
+import android.view.View
 import okhttp3.HttpUrl
 import org.session.libsession.messaging.MessagingModuleConfiguration
 import org.session.libsession.messaging.open_groups.OpenGroupApi
@@ -18,7 +19,11 @@ import java.io.File
 import java.io.FileInputStream
 import java.io.InputStream
 
-class AttachmentDownloadJob(val attachmentID: Long, val databaseMessageID: Long) : Job {
+// Note: The attachment icon view ID is required so that we can initially set the icon as some kind
+// of 'download-in-progress' drawable such as a spinner, and then when we hit `handle<RESULT>` we
+// can change the icon drawable to a more accurate representation of the attachment download status
+// such as a file icon for `handleSuccess` or a red-circle-with-diagonal line for `handleFailure` etc.
+class AttachmentDownloadJob(val attachmentID: Long, val databaseMessageID: Long, val attachmentIconViewId: Int?) : Job {
     override var delegate: JobDelegate? = null
     override var id: String? = null
     override var failureCount: Int = 0
@@ -40,6 +45,7 @@ class AttachmentDownloadJob(val attachmentID: Long, val databaseMessageID: Long)
         // Keys used for database storage
         private val ATTACHMENT_ID_KEY = "attachment_id"
         private val TS_INCOMING_MESSAGE_ID_KEY = "tsIncoming_message_id"
+        private val ATTACHMENT_ICON_VIEW_ID = "attachment_icon_view_id"
     }
 
     override suspend fun execute(dispatcherName: String) {
@@ -172,6 +178,9 @@ class AttachmentDownloadJob(val attachmentID: Long, val databaseMessageID: Long)
     }
 
     private fun handleSuccess(dispatcherName: String) {
+
+        Log.d("[ACL]", "THIS TRIGGERS WHEN THE ATTACHMENT DOWNLOAD COMPLETES!")
+
         Log.w("AttachmentDownloadJob", "Attachment downloaded successfully.")
         delegate?.handleJobSucceeded(this, dispatcherName)
     }
@@ -204,7 +213,7 @@ class AttachmentDownloadJob(val attachmentID: Long, val databaseMessageID: Long)
     class Factory : Job.Factory<AttachmentDownloadJob> {
 
         override fun create(data: Data): AttachmentDownloadJob {
-            return AttachmentDownloadJob(data.getLong(ATTACHMENT_ID_KEY), data.getLong(TS_INCOMING_MESSAGE_ID_KEY))
+            return AttachmentDownloadJob(data.getLong(ATTACHMENT_ID_KEY), data.getLong(TS_INCOMING_MESSAGE_ID_KEY), data.getInt(ATTACHMENT_ICON_VIEW_ID))
         }
     }
 }

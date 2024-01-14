@@ -43,7 +43,7 @@ class ConversationAdapter(
     private val onItemSwipeToReply: (MessageRecord, Int) -> Unit,
     private val onItemLongPress: (MessageRecord, Int, VisibleMessageView) -> Unit,
     private val onDeselect: (MessageRecord, Int) -> Unit,
-    private val onAttachmentNeedsDownload: (Long, Long) -> Unit,
+    private val onAttachmentNeedsDownload: (Long, Long, Int?) -> Unit,
     private val glide: GlideRequests,
     lifecycleCoroutineScope: LifecycleCoroutineScope
 ) : CursorRecyclerViewAdapter<ViewHolder>(context, cursor) {

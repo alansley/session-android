@@ -149,7 +149,9 @@ fun MessageDetails(
     onResend: (() -> Unit)? = null,
     onDelete: () -> Unit = {},
     onClickImage: (Int) -> Unit = {},
-    onAttachmentNeedsDownload: (Long, Long) -> Unit = { _, _ -> }
+    //onAttachmentNeedsDownload: KFunction3<Long, Long, Int?, Unit> = { } // KFunction3<Long, Long, Int?, Unit> = { } //{ _, _, _ -> } as KFunction3<Long, Long, Int?, Unit>
+
+   onAttachmentNeedsDownload: (Long, Long, Int?) -> Unit = {}
 ) {
     Column(
         modifier = Modifier

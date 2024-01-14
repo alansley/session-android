@@ -37,14 +37,10 @@ public abstract class ProgressDialogAsyncTask<Params, Progress, Result> extends 
   @Override
   protected void onPreExecute() {
 
-    Log.d("[ACL]", "Hit ProgressDialogAsyncTask onPreExecute");
+    Log.d("[ACL]", "Hit ProgressDialogAsyncTask.onPreExecute");
 
     final Context context = contextReference.get();
     if (context != null) progress = ProgressDialog.show(context, title, message, true);
-
-    //var wang = progress.getProgress();
-    //progress.show();
-
   }
 
   @Override
