@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
+        android:keepScreenOn="true"
         app:player_layout_id="@layout/media_preview_exoplayer_layout"/>
 
 </FrameLayout>
