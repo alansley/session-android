@@ -45,6 +45,7 @@ import androidx.lifecycle.Lifecycle;
 import org.session.libsession.utilities.ServiceUtil;
 import org.session.libsession.utilities.Stub;
 import org.session.libsignal.utilities.ListenableFuture;
+import org.session.libsignal.utilities.Log;
 import org.session.libsignal.utilities.SettableFuture;
 
 public final class ViewUtil {
@@ -60,6 +61,9 @@ public final class ViewUtil {
   }
 
   public static void focusAndShowKeyboard(@NonNull View view) {
+
+    Log.d("[ACL]", "Hit focusAndShowKeyboard");
+
     view.requestFocus();
     if (view.hasWindowFocus()) {
       showTheKeyboardNow(view);
@@ -77,6 +81,9 @@ public final class ViewUtil {
   }
 
   private static void showTheKeyboardNow(@NonNull View view) {
+
+    Log.d("[ACL]", "Hit showTheKeyboardNow");
+
     if (view.isFocused()) {
       view.post(() -> {
         InputMethodManager inputMethodManager = ServiceUtil.getInputMethodManager(view.getContext());

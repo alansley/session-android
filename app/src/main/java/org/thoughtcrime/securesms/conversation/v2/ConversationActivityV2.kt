@@ -3,6 +3,7 @@ package org.thoughtcrime.securesms.conversation.v2
 import android.Manifest
 import android.animation.FloatEvaluator
 import android.animation.ValueAnimator
+import android.annotation.SuppressLint
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
@@ -33,12 +34,17 @@ import android.view.WindowManager
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.Toast
+
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.annotation.DimenRes
 import androidx.core.text.set
 import androidx.core.text.toSpannable
+import androidx.core.view.ViewCompat
+import androidx.core.view.ViewCompat.setWindowInsetsAnimationCallback
+import androidx.core.view.WindowInsetsAnimationCompat
+import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.drawToBitmap
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
@@ -52,8 +58,11 @@ import androidx.loader.app.LoaderManager
 import androidx.loader.content.Loader
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+
 import com.annimon.stream.Stream
+
 import dagger.hilt.android.AndroidEntryPoint
+
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.channels.Channel
@@ -62,10 +71,13 @@ import kotlinx.coroutines.flow.consumeAsFlow
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+
 import network.loki.messenger.R
 import network.loki.messenger.databinding.ActivityConversationV2Binding
 import network.loki.messenger.databinding.ViewVisibleMessageBinding
+
 import nl.komponents.kovenant.ui.successUi
+
 import org.session.libsession.messaging.MessagingModuleConfiguration
 import org.session.libsession.messaging.contacts.Contact
 import org.session.libsession.messaging.jobs.AttachmentDownloadJob
@@ -100,6 +112,7 @@ import org.session.libsignal.utilities.ListenableFuture
 import org.session.libsignal.utilities.Log
 import org.session.libsignal.utilities.guava.Optional
 import org.session.libsignal.utilities.hexEncodedPrivateKey
+
 import org.thoughtcrime.securesms.ApplicationContext
 import org.thoughtcrime.securesms.PassphraseRequiredActionBarActivity
 import org.thoughtcrime.securesms.attachments.ScreenshotObserver
@@ -116,6 +129,7 @@ import org.thoughtcrime.securesms.conversation.v2.dialogs.LinkPreviewDialog
 import org.thoughtcrime.securesms.conversation.v2.dialogs.SendSeedDialog
 import org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarButton
 import org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarDelegate
+import org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarEditText
 import org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarRecordingViewDelegate
 import org.thoughtcrime.securesms.conversation.v2.input_bar.mentions.MentionCandidatesView
 import org.thoughtcrime.securesms.conversation.v2.menus.ConversationActionModeCallback
@@ -177,21 +191,25 @@ import org.thoughtcrime.securesms.util.SimpleTextWatcher
 import org.thoughtcrime.securesms.util.isScrolledToBottom
 import org.thoughtcrime.securesms.util.push
 import org.thoughtcrime.securesms.util.toPx
+
 import java.lang.ref.WeakReference
 import java.util.Locale
 import java.util.concurrent.ExecutionException
 import java.util.concurrent.atomic.AtomicBoolean
 import java.util.concurrent.atomic.AtomicLong
 import java.util.concurrent.atomic.AtomicReference
+
 import javax.inject.Inject
+
 import kotlin.math.abs
 import kotlin.math.min
 import kotlin.math.roundToInt
 import kotlin.math.sqrt
 
-// Some things that seemingly belong to the input bar (e.g. the voice message recording UI) are actually
-// part of the conversation activity layout. This is just because it makes the layout a lot simpler. The
-// price we pay is a bit of back and forth between the input bar and the conversation activity.
+// Note: Some things that seemingly belong to the input bar (e.g. the voice message recording UI)
+// are actually part of the conversation activity layout. This is just because it makes the layout a
+// lot simpler. The price we pay is a bit of back and forth between the input bar and the
+// conversation activity.
 @AndroidEntryPoint
 class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDelegate,
     InputBarRecordingViewDelegate, AttachmentManager.AttachmentListener, ActivityDispatcher,
@@ -347,6 +365,8 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     private lateinit var reactionDelegate: ConversationReactionDelegate
     private val reactWithAnyEmojiStartPage = -1
 
+    private var softKeyboardIsVisible: Boolean? = false
+
     // region Settings
     companion object {
         // Extras
@@ -366,6 +386,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     // endregion
 
     // region Lifecycle
+    @SuppressLint("NewApi")
     override fun onCreate(savedInstanceState: Bundle?, isReady: Boolean) {
         super.onCreate(savedInstanceState, isReady)
         binding = ActivityConversationV2Binding.inflate(layoutInflater)
@@ -415,7 +436,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         setUpBlockedBanner()
         binding!!.searchBottomBar.setEventListener(this)
         updateSendAfterApprovalText()
-        showOrHideInputIfNeeded()
+        showOrHideInputBarIfNeeded()
         setUpMessageRequestsBar()
 
         val weakActivity = WeakReference(this)
@@ -466,6 +487,26 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                 }
             }
         }
+
+        binding?.root?.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
+
+        /*
+        setWindowInsetsAnimationCallback(binding.root, object : Callback(DISPATCH_MODE_CONTINUE_ON_SUBTREE) {
+
+        }
+            override fun onProgress(insets: WindowInsetsCompat, runningAnimations: MutableList<WindowInsetsAnimationCompat>): WindowInsetsCompat {
+                currentWindowInsets = insets
+                return insets
+            }
+
+            override fun onEnd(animation: WindowInsetsAnimationCompat) {
+                super.onEnd(animation)
+                val keyboardIsVisible = currentWindowInsets.isVisible(WindowInsetsCompat.Type.ime())
+                if (keyboardIsVisible) { //do your stuff }
+            }
+        })
+
+         */
     }
 
     override fun onResume() {
@@ -552,17 +593,73 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         binding!!.conversationRecyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
 
             override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+
+
+                super.onScrolled(recyclerView, dx, dy)
+
+
+
+                // ACL put the below line back
                 handleRecyclerViewScrolled()
             }
 
             override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+                super.onScrollStateChanged(recyclerView, newState)
+                Log.d("[ACL]", "Hit onScrollStateChanged (currently empty)!")
 
+                //setUpInputBar()
+
+                //recyclerView.
             }
         })
 
         binding!!.conversationRecyclerView.addOnLayoutChangeListener { _, _, _, _, _, _, _, _, _ ->
             showScrollToBottomButtonIfApplicable()
         }
+
+        // Scroll to bottom on show soft keyboard
+        //Log.d("[ACL]", "Setting to be scroll container!")
+        //binding!!.conversationRecyclerView.isScrollContainer = true;
+    }
+
+    // Note: This gets called when you click on the message entry element to bring up the soft keyboard
+    private fun handleRecyclerViewScrolled() {
+        Log.d("[ACL]", "Hit handleRecyclerViewScrolled")
+
+        val binding = binding ?: return
+        val wasTypingIndicatorVisibleBefore = binding.typingIndicatorViewContainer.isVisible
+        binding.typingIndicatorViewContainer.isVisible = wasTypingIndicatorVisibleBefore && isScrolledToBottom
+        showScrollToBottomButtonIfApplicable()
+        val maybeTargetVisiblePosition = if (reverseMessageList) layoutManager?.findFirstVisibleItemPosition() else layoutManager?.findLastVisibleItemPosition()
+        val targetVisiblePosition = maybeTargetVisiblePosition ?: RecyclerView.NO_POSITION
+        if (!firstLoad.get() && targetVisiblePosition != RecyclerView.NO_POSITION) {
+            val visibleItemTimestamp = adapter.getTimestampForItemAt(targetVisiblePosition)
+            if (visibleItemTimestamp != null) {
+                bufferedLastSeenChannel.trySend(visibleItemTimestamp)
+            }
+        }
+
+        if (reverseMessageList) {
+            unreadCount = min(unreadCount, targetVisiblePosition).coerceAtLeast(0)
+        }
+        else {
+            val layoutUnreadCount = layoutManager?.let { (it.itemCount - 1) - it.findLastVisibleItemPosition() }
+                ?: RecyclerView.NO_POSITION
+            unreadCount = min(unreadCount, layoutUnreadCount).coerceAtLeast(0)
+        }
+        updateUnreadCountIndicator()
+
+
+        // THIS WORKS!!!
+        // TODO: Find a way to do the below without needing API level 30!
+        softKeyboardIsVisible = binding.root.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
+        Log.d("[ACL]", "Soft keyboard now visible: $softKeyboardIsVisible")
+
+        /*
+        val rootId = binding.root.id
+        val rootIdString = resources.getResourceName(rootId)
+        Log.d("[ACL]", "The root view is: $rootIdString")
+        */
     }
 
     // called from onCreate
@@ -616,6 +713,55 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         cameraButton.layoutParams = RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.MATCH_PARENT)
         cameraButton.onUp = { showCamera() }
         cameraButton.snIsEnabled = false
+
+        /*
+        var inputBarEditText = binding.root.findViewById<InputBarEditText>(R.id.inputBarEditText)
+        if (inputBarEditText != null) {
+            Log.d("[ACL]", "Could NOT find inputBarEditText")
+        } else {
+            Log.d("[ACL]", "FOUND inputBarEditText")
+        }
+
+        val insets = ViewCompat.getRootWindowInsets(binding.root) ?: return
+        val imeVisible = insets.isVisible(WindowInsetsCompat.Type.ime())
+        val imeHeight = insets.getInsets(WindowInsetsCompat.Type.ime()).bottom
+
+        ViewCompat.setOnApplyWindowInsetsListener(inputBarEditText) { _, insets ->
+            val imeVisible = insets.isVisible(WindowInsetsCompat.Type.ime())
+            val imeHeight = insets.getInsets(WindowInsetsCompat.Type.ime()).bottom
+
+            Log.d("[ACL]", "imeVisible is: $imeVisible and imeHeight is $imeHeight")
+
+            insets
+        }
+
+         */
+
+
+        /*
+        inputBarEditText.viewTreeObserver.addOnGlobalLayoutListener {
+            val isSoftInputShown = inputBarEditText.sofisShown
+            if (isSoftInputShown) {
+                Log.d("[ACL]", "Soft keyboard is now visible")
+            } else {
+                Log.d("[ACL]", "Soft keyboard is now hidden")
+            }
+        }
+        */
+
+        /*
+        editText = findViewById(R.id.edit_text)
+        editText.viewTreeObserver.addOnGlobalLayoutListener {
+            val isSoftInputShown = editText.isSoftInputShown()
+            if (isSoftInputShown) {
+                println("Soft keyboard is visible")
+            } else {
+                println("Soft keyboard is hidden")
+            }
+
+         */
+
+
     }
 
     // called from onCreate
@@ -735,11 +881,15 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     }
 
     private fun scrollToFirstUnreadMessageIfNeeded(isFirstLoad: Boolean = false, shouldHighlight: Boolean = false): Int {
+
+        Log.d("[ACL]", "Hit scrollToFirstUnreadMessageIfNeeded!")
+
         val lastSeenTimestamp = threadDb.getLastSeenAndHasSent(viewModel.threadId).first()
         val lastSeenItemPosition = adapter.findLastSeenItemPosition(lastSeenTimestamp) ?: return -1
 
         // If this is triggered when first opening a conversation then we want to position the top
         // of the first unread message in the middle of the screen
+        // TODO: Is the middle of the screen a little low? Would a third down the screen be better (i.e., divide by 3 rather than 2?) Ask Harris! -ACL
         if (isFirstLoad && !reverseMessageList) {
             layoutManager?.scrollToPositionWithOffset(lastSeenItemPosition, ((layoutManager?.height ?: 0) / 2))
 
@@ -748,7 +898,12 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
             return lastSeenItemPosition
         }
 
+        // TODO: This 3 literal sounds a bit arbitrary, and I'm struggling to get my head around
+        // TODO: this... If the position of a last seen item is less than 3 (that is, it's one of
+        // TODO: the first 3 messages in the conversation view) then skip scrolling to the last seen
+        // TODO: message... other wise do? What if they're long messages? I don't get it... -ACL
         if (lastSeenItemPosition <= 3) { return lastSeenItemPosition }
+
         binding?.conversationRecyclerView?.scrollToPosition(lastSeenItemPosition)
         return lastSeenItemPosition
     }
@@ -783,8 +938,11 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     // endregion
 
     // region Animation & Updating
+    // Note: This method is triggered when we receive a new message
     override fun onModified(recipient: Recipient) {
         viewModel.updateRecipient()
+
+        Log.d("[ACL]", "Hit onModified!")
 
         runOnUiThread {
             val threadRecipient = viewModel.recipient ?: return@runOnUiThread
@@ -795,7 +953,10 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
             invalidateOptionsMenu()
             updateSubtitle()
             updateSendAfterApprovalText()
-            showOrHideInputIfNeeded()
+            showOrHideInputBarIfNeeded()
+
+            // DO THIS ACL
+            // callAMethodHereToScrollDownIfUserIsNearEndOfReadMessages
 
             binding?.toolbarContent?.profilePictureView?.update(threadRecipient)
             binding?.toolbarContent?.conversationTitleView?.text = when {
@@ -809,14 +970,49 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         binding?.textSendAfterApproval?.isVisible = viewModel.showSendAfterApprovalText
     }
 
-    private fun showOrHideInputIfNeeded() {
+    // Note: This method is solely concerned with whether the *inputBar* should be visible or not
+    // (org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarEditText in view_input_bar.xml)
+    // It does not show/hide the soft keyboard or get triggered when the soft keyboard is shown or
+    // hidden, nor is it involved with the user clicking the 'Message' EditText in the inputBar.
+    private fun showOrHideInputBarIfNeeded() {
+        //Log.d("[ACL]", "Hit showOrHideInputIfNeeded")
+        val binding = binding ?: return
+
         val recipient = viewModel.recipient
+        val inputBar = binding.inputBar
         if (recipient != null && recipient.isClosedGroupRecipient) {
             val group = groupDb.getGroup(recipient.address.toGroupString()).orNull()
             val isActive = (group?.isActive == true)
-            binding?.inputBar?.showInput = isActive
+
+            //Log.d("[ACL]", "showOrHide - Setting inputBar.showInput to: $isActive")
+
+            inputBar.showInput = isActive
         } else {
-            binding?.inputBar?.showInput = true
+            //Log.d("[ACL]", "showOrHide - Setting inputBar.showInput to true!")
+            inputBar.showInput = true
+        }
+
+        //Log.d("[ACL]", "showInput is: ${inputBar.showInput}")
+
+        //val crvLayoutManager = binding.conversationRecyclerView?.layoutManager
+        //if (crvLayoutManager == null) return
+        //val linLayoutManager = crvLayoutManager as LinearLayoutManager
+
+
+        //softKeyboardIsVisible = binding?.root?.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
+
+        if (inputBar.showInput) {
+
+            if (layoutManager == null) { Log.d("[ACL]", "Layout manager if nuuuuuulllllllllll - gonna bail") }
+
+            // Note: Using `lastVisibleItemPosition` rather than `lastCompletelyVisibleItemPosition`
+            val lastVisiblePosition: Int = layoutManager?.findLastVisibleItemPosition() ?: return
+
+            Log.d("[ACL]", "Hit onScrolled w/ last vis pos $lastVisiblePosition - about to call `handleRecyclerViewScrolled`")
+
+            if (lastVisiblePosition != -1 && lastVisiblePosition < adapter.itemCount - 1) {
+                binding.conversationRecyclerView.smoothScrollToPosition(lastVisiblePosition)
+            }
         }
     }
 
@@ -1033,30 +1229,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         animation.start()
     }
 
-    private fun handleRecyclerViewScrolled() {
-        val binding = binding ?: return
-        val wasTypingIndicatorVisibleBefore = binding.typingIndicatorViewContainer.isVisible
-        binding.typingIndicatorViewContainer.isVisible = wasTypingIndicatorVisibleBefore && isScrolledToBottom
-        showScrollToBottomButtonIfApplicable()
-        val maybeTargetVisiblePosition = if (reverseMessageList) layoutManager?.findFirstVisibleItemPosition() else layoutManager?.findLastVisibleItemPosition()
-        val targetVisiblePosition = maybeTargetVisiblePosition ?: RecyclerView.NO_POSITION
-        if (!firstLoad.get() && targetVisiblePosition != RecyclerView.NO_POSITION) {
-            val visibleItemTimestamp = adapter.getTimestampForItemAt(targetVisiblePosition)
-            if (visibleItemTimestamp != null) {
-                bufferedLastSeenChannel.trySend(visibleItemTimestamp)
-            }
-        }
 
-        if (reverseMessageList) {
-            unreadCount = min(unreadCount, targetVisiblePosition).coerceAtLeast(0)
-        }
-        else {
-            val layoutUnreadCount = layoutManager?.let { (it.itemCount - 1) - it.findLastVisibleItemPosition() }
-                ?: RecyclerView.NO_POSITION
-            unreadCount = min(unreadCount, layoutUnreadCount).coerceAtLeast(0)
-        }
-        updateUnreadCountIndicator()
-    }
 
     private fun updatePlaceholder() {
         val recipient = viewModel.recipient
@@ -1091,10 +1264,16 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     }
 
     private fun showScrollToBottomButtonIfApplicable() {
+
+        Log.d("[ACL]", "Hit showScrollToBottomButtonIfApplicable")
+
         binding?.scrollToBottomButton?.isVisible = !emojiPickerVisible && !isScrolledToBottom && adapter.itemCount > 0
     }
 
     private fun updateUnreadCountIndicator() {
+
+        Log.d("[ACL]", "Hit updateUnreadCountIndicator")
+
         val binding = binding ?: return
         val formattedUnreadCount = if (unreadCount < 10000) unreadCount.toString() else "9999+"
         binding.unreadCountTextView.text = formattedUnreadCount

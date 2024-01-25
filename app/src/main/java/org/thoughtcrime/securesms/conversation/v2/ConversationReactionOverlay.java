@@ -34,6 +34,7 @@ import org.session.libsession.messaging.open_groups.OpenGroup;
 import org.session.libsession.utilities.TextSecurePreferences;
 import org.session.libsession.utilities.ThemeUtil;
 import org.session.libsession.utilities.recipients.Recipient;
+import org.session.libsignal.utilities.Log;
 import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
 import org.thoughtcrime.securesms.components.emoji.RecentEmojiPageModel;
 import org.thoughtcrime.securesms.components.menu.ActionItem;
@@ -419,6 +420,7 @@ public final class ConversationReactionOverlay extends FrameLayout {
     }
 
     if (selectedConversationModel.getFocusedView() != null) {
+      Log.d("[ACL]", "About to `focusAndShowKeyboard`");
       ViewUtil.focusAndShowKeyboard(selectedConversationModel.getFocusedView());
     }
 
