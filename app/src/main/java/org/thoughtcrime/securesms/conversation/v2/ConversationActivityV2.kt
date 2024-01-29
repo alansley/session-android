@@ -294,9 +294,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     private val isScrolledToBottom: Boolean
         get() = binding?.conversationRecyclerView?.isScrolledToBottom ?: true
 
-    private val View.isKeyboardVisible: Boolean
+    private val isKeyboardVisible: Boolean
         get() = WindowInsetsCompat
-            .toWindowInsetsCompat(binding!!.root.rootWindowInsets)
+            .toWindowInsetsCompat(binding?.conversationRecyclerView?.rootWindowInsets!!)
             .isVisible(WindowInsetsCompat.Type.ime())
 
     private val layoutManager: LinearLayoutManager?
@@ -672,7 +672,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         }
         updateUnreadCountIndicator()
 
-        Log.d("[ACL2]", "IME Keyboard is visible: ${binding.inputBar.isKeyboardVisible}")
+        //Log.d("[ACL2]", "IME Keyboard is visible: ${binding.inputBar.isKeyboardVisible}")
 
 
         // THIS WORKS!!!
@@ -680,12 +680,15 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
          if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
              val softKeyboardIsVisible = binding.root.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
              Log.d("[ACL]", "[NON-COMPAT] Soft keyboard now visible: $softKeyboardIsVisible")
+
+            
         }
         else {
              val softKeyboardIsVisible2 = WindowInsetsCompat.toWindowInsetsCompat(binding.root.rootWindowInsets).isVisible(WindowInsetsCompat.Type.ime())
              Log.d("[ACL]", "[***COMPAT***] Soft keyboard now visible: $softKeyboardIsVisible2")
-         }
+        }
 
+        Log.d("[ACL]", "Testing if keyboard vis: $isKeyboardVisible")
 
         /*
         setDecorFitsSystemWindows(window, false)
