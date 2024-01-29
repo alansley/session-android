@@ -43,11 +43,15 @@ import androidx.core.text.set
 import androidx.core.text.toSpannable
 import androidx.core.view.ViewCompat
 import androidx.core.view.ViewCompat.setWindowInsetsAnimationCallback
+import androidx.core.view.WindowCompat
+import androidx.core.view.WindowCompat.*
 import androidx.core.view.WindowInsetsAnimationCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.drawToBitmap
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
+import androidx.core.view.setPadding
+import androidx.core.view.size
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.Observer
@@ -652,8 +656,22 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
 
         // THIS WORKS!!!
         // TODO: Find a way to do the below without needing API level 30!
-        softKeyboardIsVisible = binding.root.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
-        Log.d("[ACL]", "Soft keyboard now visible: $softKeyboardIsVisible")
+        //softKeyboardIsVisible = binding.root.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
+        //Log.d("[ACL]", "Soft keyboard now visible: $softKeyboardIsVisible")
+
+        /*
+        setDecorFitsSystemWindows(window, false)
+        ViewCompat.setOnApplyWindowInsetsListener(binding.contentView) { _, insets ->
+            val imeHeight = insets.getInsets(WindowInsetsCompat.Type.ime()).bottom
+            Log.d("[ACL]", "IME height is: $imeHeight")
+            //binding.root.setPadding(0, 0, 0, imeHeight)
+            //binding.conversationRecyclerView.setPadding(0, 0, 0, imeHeight)
+            binding.contentView.setPadding(0, 0, 0, imeHeight)
+            insets
+        }
+
+         */
+
 
         /*
         val rootId = binding.root.id
@@ -886,6 +904,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
 
         val lastSeenTimestamp = threadDb.getLastSeenAndHasSent(viewModel.threadId).first()
         val lastSeenItemPosition = adapter.findLastSeenItemPosition(lastSeenTimestamp) ?: return -1
+        //val lastSeenItemPosition = adapter.findLastSeenItemPosition(lastSeenTimestamp) ?: -1
+
+
 
         // If this is triggered when first opening a conversation then we want to position the top
         // of the first unread message in the middle of the screen
@@ -901,7 +922,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         // TODO: This 3 literal sounds a bit arbitrary, and I'm struggling to get my head around
         // TODO: this... If the position of a last seen item is less than 3 (that is, it's one of
         // TODO: the first 3 messages in the conversation view) then skip scrolling to the last seen
-        // TODO: message... other wise do? What if they're long messages? I don't get it... -ACL
+        // TODO: message... otherwise do? What if they're long messages? I don't get it... -ACL
         if (lastSeenItemPosition <= 3) { return lastSeenItemPosition }
 
         binding?.conversationRecyclerView?.scrollToPosition(lastSeenItemPosition)
@@ -1266,6 +1287,41 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     private fun showScrollToBottomButtonIfApplicable() {
 
         Log.d("[ACL]", "Hit showScrollToBottomButtonIfApplicable")
+
+        //val wang = adapter.itemCount
+
+
+        val currentVertOffset = binding?.conversationRecyclerView?.computeVerticalScrollOffset()
+        Log.d("[ACL]", "currentVertOffset: $currentVertOffset")
+
+
+        val indexOfLastChild = binding?.conversationRecyclerView?.size
+        Log.d("[ACL]", "Index of vert child: $indexOfLastChild")
+
+        val indexOfLastChildViaAdapter = binding?.conversationRecyclerView?.adapter?.itemCount
+        Log.d("[ACL]", "Index of last child via adapter: $indexOfLastChildViaAdapter")
+
+        val currentVerticalScrollOffset = binding?.conversationRecyclerView?.computeVerticalScrollOffset()
+        Log.d("[ACL]", "Computed vertical scroll OFFSET: $currentVerticalScrollOffset")
+
+        val currentVerticalScrollRange = binding?.conversationRecyclerView?.computeVerticalScrollRange()
+        Log.d("[ACL]", "Computed vertical scroll RANGE: $currentVerticalScrollRange")
+
+        val indexOfLastPartiallyVisible = layoutManager?.findLastVisibleItemPosition()
+        Log.d("[ACL]", "Index of last PARTIALLY visible view is: $indexOfLastPartiallyVisible")
+
+        val indexOfLastCompletelyVisible = layoutManager?.findLastCompletelyVisibleItemPosition()
+        Log.d("[ACL]", "Index of last COMPLETELY visible view is: $indexOfLastCompletelyVisible")
+
+        val heightPx = binding?.conversationRecyclerView?.height
+        Log.d("[ACL]", "CRV height: $heightPx")
+
+
+
+
+
+        //Log.d("[ACL]", "Last seen item position is: ${binding.conversationRecyclerView.computeVerticalScrollOffset()}")
+
 
         binding?.scrollToBottomButton?.isVisible = !emojiPickerVisible && !isScrolledToBottom && adapter.itemCount > 0
     }

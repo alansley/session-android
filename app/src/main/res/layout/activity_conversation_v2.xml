@@ -8,7 +8,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    <!-- android:windowSoftInputMode="adjustResize" > -->
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -28,8 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/typingIndicatorViewContainer"
-        android:layout_below="@id/toolbar"
-        android:windowSoftInputMode="adjustResize" />
+        android:layout_below="@id/toolbar" />
 
     <org.thoughtcrime.securesms.conversation.v2.components.TypingIndicatorViewContainer
         android:focusable="false"
