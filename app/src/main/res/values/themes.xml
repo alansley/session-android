@@ -388,6 +388,7 @@
         <item name="scroll_to_bottom_button_border">@color/classic_dark_3</item>
         <item name="conversation_unread_count_indicator_background">@color/classic_dark_4</item>
         <item name="message_selected">@color/classic_dark_2</item>
+        <item name="android:windowFullscreen">false</item>
     </style>
 
     <style name="Classic.Light">
@@ -474,6 +475,7 @@
         <item name="scroll_to_bottom_button_border">@color/classic_light_2</item>
         <item name="conversation_unread_count_indicator_background">@color/classic_dark_4</item>
         <item name="message_selected">@color/classic_light_4</item>
+        <item name="android:windowFullscreen">false</item>
 
     </style>
 
@@ -557,6 +559,7 @@
         <item name="scroll_to_bottom_button_border">?colorPrimary</item>
         <item name="conversation_unread_count_indicator_background">@color/ocean_dark_4</item>
         <item name="message_selected">@color/ocean_dark_1</item>
+        <item name="android:windowFullscreen">false</item>
 
     </style>
 
@@ -644,6 +647,7 @@
         <item name="conversation_unread_background_color">@color/ocean_light_6</item>
         <item name="conversation_pinned_icon_color">?android:textColorSecondary</item>
         <item name="message_selected">@color/ocean_light_5</item>
+        <item name="android:windowFullscreen">false</item>
     </style>
 
     <!-- For testing / XML rendering -->
@@ -723,6 +727,7 @@
         <item name="scroll_to_bottom_button_border">@color/classic_dark_3</item>
         <item name="conversation_unread_count_indicator_background">@color/classic_dark_4</item>
         <item name="message_selected">@color/classic_dark_2</item>
+        <item name="android:windowFullscreen">false</item>
     </style>
 
 

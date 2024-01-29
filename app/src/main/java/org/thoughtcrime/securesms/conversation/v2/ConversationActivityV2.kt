@@ -42,15 +42,12 @@ import androidx.annotation.DimenRes
 import androidx.core.text.set
 import androidx.core.text.toSpannable
 import androidx.core.view.ViewCompat
-import androidx.core.view.ViewCompat.setWindowInsetsAnimationCallback
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowCompat.*
-import androidx.core.view.WindowInsetsAnimationCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.drawToBitmap
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
-import androidx.core.view.setPadding
 import androidx.core.view.size
 import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.Lifecycle
@@ -133,7 +130,6 @@ import org.thoughtcrime.securesms.conversation.v2.dialogs.LinkPreviewDialog
 import org.thoughtcrime.securesms.conversation.v2.dialogs.SendSeedDialog
 import org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarButton
 import org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarDelegate
-import org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarEditText
 import org.thoughtcrime.securesms.conversation.v2.input_bar.InputBarRecordingViewDelegate
 import org.thoughtcrime.securesms.conversation.v2.input_bar.mentions.MentionCandidatesView
 import org.thoughtcrime.securesms.conversation.v2.menus.ConversationActionModeCallback
@@ -298,6 +294,11 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     private val isScrolledToBottom: Boolean
         get() = binding?.conversationRecyclerView?.isScrolledToBottom ?: true
 
+    private val View.isKeyboardVisible: Boolean
+        get() = WindowInsetsCompat
+            .toWindowInsetsCompat(binding!!.root.rootWindowInsets)
+            .isVisible(WindowInsetsCompat.Type.ime())
+
     private val layoutManager: LinearLayoutManager?
         get() { return binding?.conversationRecyclerView?.layoutManager as LinearLayoutManager? }
 
@@ -369,7 +370,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     private lateinit var reactionDelegate: ConversationReactionDelegate
     private val reactWithAnyEmojiStartPage = -1
 
-    private var softKeyboardIsVisible: Boolean? = false
+    //private var softKeyboardIsVisible: Boolean? = false
 
     // region Settings
     companion object {
@@ -434,6 +435,24 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
             }
         }
 
+        // Set it so that we pass through the insets to the content View
+
+        // THIS STOPS THE INPUT BAR FROM BEING DISPLAYED!
+        //WindowCompat.setDecorFitsSystemWindows(window, false)
+
+
+        // THIS NEVER GETS CALLED
+        binding?.root?.let {
+            ViewCompat.setOnApplyWindowInsetsListener(it) { _, insets ->
+                val imeVisible = insets.isVisible(WindowInsetsCompat.Type.ime())
+                val imeHeight = insets.getInsets(WindowInsetsCompat.Type.ime()).bottom
+
+                Log.d("[ACL]", "IME visible: $imeVisible - IME height: $imeHeight")
+
+                insets
+            }
+        }
+
         updateUnreadCountIndicator()
         updateSubtitle()
         updatePlaceholder()
@@ -492,7 +511,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
             }
         }
 
-        binding?.root?.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
+        //binding?.root?.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
 
         /*
         setWindowInsetsAnimationCallback(binding.root, object : Callback(DISPATCH_MODE_CONTINUE_ON_SUBTREE) {
@@ -653,24 +672,39 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         }
         updateUnreadCountIndicator()
 
+        Log.d("[ACL2]", "IME Keyboard is visible: ${binding.inputBar.isKeyboardVisible}")
+
 
         // THIS WORKS!!!
         // TODO: Find a way to do the below without needing API level 30!
-        //softKeyboardIsVisible = binding.root.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
-        //Log.d("[ACL]", "Soft keyboard now visible: $softKeyboardIsVisible")
+         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+             val softKeyboardIsVisible = binding.root.rootWindowInsets?.isVisible(WindowInsetsCompat.Type.ime())
+             Log.d("[ACL]", "[NON-COMPAT] Soft keyboard now visible: $softKeyboardIsVisible")
+        }
+        else {
+             val softKeyboardIsVisible2 = WindowInsetsCompat.toWindowInsetsCompat(binding.root.rootWindowInsets).isVisible(WindowInsetsCompat.Type.ime())
+             Log.d("[ACL]", "[***COMPAT***] Soft keyboard now visible: $softKeyboardIsVisible2")
+         }
+
 
         /*
         setDecorFitsSystemWindows(window, false)
         ViewCompat.setOnApplyWindowInsetsListener(binding.contentView) { _, insets ->
-            val imeHeight = insets.getInsets(WindowInsetsCompat.Type.ime()).bottom
-            Log.d("[ACL]", "IME height is: $imeHeight")
+
+            Log.d("[ACL]", "Hit setOnApplyWindowInsetsListener!!!!!!!!!!!!!!!!!!!!!!!!!")
+
+            //val imeHeight = insets.getInsets(WindowInsetsCompat.Type.ime()).bottom
+            //Log.d("[ACL]", "IME height is: $imeHeight")
+
             //binding.root.setPadding(0, 0, 0, imeHeight)
             //binding.conversationRecyclerView.setPadding(0, 0, 0, imeHeight)
-            binding.contentView.setPadding(0, 0, 0, imeHeight)
+
+            //binding.contentView.setPadding(0, 0, 0, imeHeight)
             insets
         }
+        */
 
-         */
+
 
 
         /*
@@ -1290,13 +1324,15 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
 
         //val wang = adapter.itemCount
 
+        Log.d("[ACL]", "KEYBOARD VIS: ${binding?.inputBar?.isKeyboardVisible}")
+
 
         val currentVertOffset = binding?.conversationRecyclerView?.computeVerticalScrollOffset()
         Log.d("[ACL]", "currentVertOffset: $currentVertOffset")
 
 
-        val indexOfLastChild = binding?.conversationRecyclerView?.size
-        Log.d("[ACL]", "Index of vert child: $indexOfLastChild")
+        val numItemsInRecyclerView = binding?.conversationRecyclerView?.size
+        Log.d("[ACL]", "Num items in recycler view: $numItemsInRecyclerView")
 
         val indexOfLastChildViaAdapter = binding?.conversationRecyclerView?.adapter?.itemCount
         Log.d("[ACL]", "Index of last child via adapter: $indexOfLastChildViaAdapter")
@@ -1311,12 +1347,12 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         Log.d("[ACL]", "Index of last PARTIALLY visible view is: $indexOfLastPartiallyVisible")
 
         val indexOfLastCompletelyVisible = layoutManager?.findLastCompletelyVisibleItemPosition()
-        Log.d("[ACL]", "Index of last COMPLETELY visible view is: $indexOfLastCompletelyVisible")
+        Log.d("[ACL]", "Index of last COMPLETELY visible view is: $indexOfLastCompletelyVisible") // Thi
 
         val heightPx = binding?.conversationRecyclerView?.height
-        Log.d("[ACL]", "CRV height: $heightPx")
+        Log.d("[ACL]", "Conversation recycler view height: $heightPx")
 
-
+        // If
 
 
 
