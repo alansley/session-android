@@ -38,7 +38,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session דורש את הרשאת האחסון על מנת לצרף תצלומים, וידיאוים, או שמע, אבל היא נדחתה לצמיתות. אנא המשך אל תפריט הגדרות היישום, בחר \"הרשאות\", אפשר את \"אחסון\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session דורש את הרשאת המצלמה על מנת לצלם תצלומים, אבל היא נדחתה לצמיתות. אנא המשך אל תפריט הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מצלמה\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">שגיאה בניגון שמע!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">היום</string>
     <string name="BucketedThreadMedia_Yesterday">אתמול</string>

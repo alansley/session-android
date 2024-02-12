@@ -38,7 +38,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Требуется разрешение на доступ к хранилищу для возможности прикрепления фото, видео и аудио, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите Настройки, выберите Приложения, найдите Session, затем выберите Разрешения и включите Хранилище.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Чтобы сделать фото требуется разрешение на доступ к камере, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите Настройки, выберите Приложения, найдите Session, затем выберите Разрешения и включите Камеру.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Ошибка при воспроизведении аудио!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Сегодня</string>
     <string name="BucketedThreadMedia_Yesterday">Вчера</string>

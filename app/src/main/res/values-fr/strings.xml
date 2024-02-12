@@ -34,7 +34,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session exige l’autorisation « Stockage » afin de joindre des photos, des vidéos ou du contenu audio, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner « Autorisations » et activer « Stockage ».</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session exige l’autorisation « Appareil photo » afin de prendre des photos, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner « Autorisations » et activer « Appareil photo ».</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Erreur de lecture du fichier audio !</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Aujourd’hui</string>
     <string name="BucketedThreadMedia_Yesterday">Hier</string>

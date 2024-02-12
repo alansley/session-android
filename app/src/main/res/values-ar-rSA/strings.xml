@@ -42,7 +42,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">يحتاج Session إلى إذن سعة التخزين من أجل إضافة الصور والمرفقات ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">يحتاج Session إلى إذن الكاميرا من أجل التقاط صور ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">خطأ في تشغيل الصوت!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">اليوم</string>
     <string name="BucketedThreadMedia_Yesterday">البارحة</string>

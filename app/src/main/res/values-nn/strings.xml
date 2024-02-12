@@ -29,7 +29,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session treng tilgang til lagring for å legga ved bilete, film eller lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session treng tilgang til kameraet for å ta bilete, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Det oppstod ein feil under lydavspeling.</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">I dag</string>
     <string name="BucketedThreadMedia_Yesterday">I går</string>

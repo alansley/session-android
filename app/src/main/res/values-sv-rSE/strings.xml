@@ -34,7 +34,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session behöver behörigheten Lagring för att bifoga bilder, video och ljud men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session behöver behörigheten Kamera för att ta bilder men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Fel vid uppspelning av ljud!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Idag</string>
     <string name="BucketedThreadMedia_Yesterday">Igår</string>

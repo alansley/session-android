@@ -20,7 +20,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session memerlukan akses ke Penyimpanan untuk mengirimkan foto, video, atau suara, tetapi saat ini telah ditolak secara permanen. Harap lanjutkan ke menu pengaturan aplikasi, Pilih \"Izin\", dan aktifkan \"Penyimpanan\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session memerlukan akses ke Kamera untuk mengambil foto, tetapi saat ini telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, Pilih \"Izin\", dan aktifkan \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Gagal memutar audio!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Hari ini</string>
     <string name="BucketedThreadMedia_Yesterday">Kemarin</string>

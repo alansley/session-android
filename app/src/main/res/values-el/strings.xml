@@ -34,7 +34,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio"> Το Session χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για να μπορούμε να επισυνάψουμε φωτογραφίες, βίντεο ή κομμάτια ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\". </string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Το Session χρειάζεται τα δικαιώματα Κάμερας για να μπορούμε να τραβάμε φωτογραφίες, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε τα \"Κάμερα\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Πρόβλημα κατά την αναπαραγωγή ήχου!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Σήμερα</string>
     <string name="BucketedThreadMedia_Yesterday">Χθες</string>

@@ -34,7 +34,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">O Session requer permissão de acesso ao armazenamento de forma a poder anexar fotos, vídeo e áudio, mas esta foi negada permanentemente. Por favor, aceda ao menu de definições da aplicação, seleccione \"Permissões\" e ative \"Armazenamento\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">O Session requer permissão de acesso à câmara para poder tirar fotos, mas esta foi negada permanentemente. Por favor aceda às definições da aplicação, seleccione \"Permissões\" e ative \"Câmara\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Erro ao reproduzir áudio!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Hoje</string>
     <string name="BucketedThreadMedia_Yesterday">Ontem</string>

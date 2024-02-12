@@ -35,7 +35,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session richiede l\'autorizzazione all\'accesso della memoria per allegare foto, video o audio, ma è stata negata in modo permanente. Si prega di continuare con il menu delle impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Archiviazione\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session ha bisogno dell\'autorizzazione alla fotocamera per poter scattare foto, ma il permesso è stato negato permanentemente. Utilizza il menu delle impostazioni dell\'app, seleziona \"Autorizzazioni\" e abilita la voce \"Fotocamera\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Errore nel riprodurre l\'audio!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Oggi</string>
     <string name="BucketedThreadMedia_Yesterday">Ieri</string>

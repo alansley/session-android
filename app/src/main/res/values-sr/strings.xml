@@ -35,7 +35,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Сесија треба дозволу за складиште да би закачио слике, видео клипове или аудио снимке, али је забрањена заувек. Молим те да наставиш у мени подешавања, селектуј \"Дозволе\", и омогући \"Складиште\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Сесија треба дозволу за камеру да би сликао слике, али је забрањена заувек. Молим те да наставиш у мени подешавања, селектуј \"Дозволе\", и омогући \"Камеру\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Грешка пуштања звука!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Данас</string>
     <string name="BucketedThreadMedia_Yesterday">Јуче</string>

@@ -34,7 +34,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session kræver tilladelse til lagring for at kunne vedhæfte billeder, videoer eller lyd, men den er blevet permanent nægtet. Fortsæt til menuen for appindstillinger, vælg \"Tilladelser\", og aktiver \"Lagring\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session kræver tilladelse til kameraet for at kunne tage billeder, men den er blevet permanent nægtet. Fortsæt til app-indstillingerne, vælg \"Tilladelser\", og aktiver \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Fejl ved afspilning af lyd!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">I dag</string>
     <string name="BucketedThreadMedia_Yesterday">I går</string>

@@ -32,7 +32,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session 需要\"存储空间\"权限才能发送图片、视频以及音频，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Session 应用，并启用\"存储空间\"权限。</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session 需要\"相机\"权限才能拍照并发送相片，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Session 应用，并启用\"相机\"权限。</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">播放音频时出错！</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">今天</string>
     <string name="BucketedThreadMedia_Yesterday">昨天</string>

@@ -34,7 +34,6 @@
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session requiere el permiso de Almacenamiento para poder adjuntar fotos, vídeos o audio, pero se ha denegado permanentemente. Por favor, vaya al menú de configuración de la aplicación, seleccione \"Permisos\" y habilite \"Almacenamiento\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session necesita acceso a la cámara para tomar fotos y verificar las cifras de seguridad de tus chats. Por favor, ve al menú de configuración de la aplicación, selecciona «Permisos» y activa «Cámara».</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">¡Error al reproducir audio!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Hoy</string>
     <string name="BucketedThreadMedia_Yesterday">Ayer</string>
