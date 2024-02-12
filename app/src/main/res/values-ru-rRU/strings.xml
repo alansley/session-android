@@ -641,7 +641,6 @@
     <string name="activity_backup_restore_title">Восстановление резервной копии</string>
     <string name="activity_backup_restore_select_file">Выбрать файл</string>
     <string name="activity_backup_restore_explanation_1">Выберите файл резервной копии и введите парольную фразу, с которой он был создан.</string>
-    <string name="activity_backup_restore_passphrase">Фраза из 30 цифр</string>
     <string name="activity_link_device_skip_prompt">Это занимает некоторое время, хотите пропустить?</string>
     <string name="activity_link_device_link_device">Привязать устройство</string>
     <string name="activity_link_device_recovery_phrase">Фраза для восстановления доступа</string>
