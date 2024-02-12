@@ -17,7 +17,6 @@
         <item quantity="one">%d missatge per conversa</item>
         <item quantity="other">%dmissatges per conversa</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Voleu suprimir els missatges antics?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Això reduirà immediatament totes les converses al missatge més recent.</item>
         <item quantity="other">Això reduirà immediatament totes les converses als %d missatges més recents.</item>

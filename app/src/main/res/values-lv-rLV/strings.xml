@@ -18,7 +18,6 @@
         <item quantity="one">Sarakstē ir %d ziņojums</item>
         <item quantity="other">sarakstē ir %d ziņojumi</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Dzēst visus vecos ziņojumus?</string>
     <string name="ApplicationPreferencesActivity_delete">Dzēst</string>
     <string name="ApplicationPreferencesActivity_Off">Izslēgts</string>
     <!-- DraftDatabase -->

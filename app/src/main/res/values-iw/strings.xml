@@ -19,7 +19,6 @@
         <item quantity="many">%d הודעות לשיחה</item>
         <item quantity="other">%d הודעות לשיחה</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">למחוק את כל ההודעות הישנות עכשיו?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">זה יקצץ מיד את כל השיחות אל ההודעה החדשה ביותר.</item>
         <item quantity="two">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>

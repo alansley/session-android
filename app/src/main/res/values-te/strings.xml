@@ -17,7 +17,6 @@
         <item quantity="one">సంభాషణకు %d సందేశం</item>
         <item quantity="other">సంభాషణకు %d సందేశం</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">పాత సందేశాలన్ని ఇప్పుడు చెరిపివేయాలా?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">ఇది వెంటనే ఇటీవల సందేశానికి అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
         <item quantity="other">ఇది వెంటనే ఇటీవల  %d  సందేశాలకు  అన్ని సంభాశనలో సవరణ చేస్తుంది</item>

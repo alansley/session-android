@@ -17,7 +17,6 @@
         <item quantity="one">%d پیام در هر گفتگو</item>
         <item quantity="other">%d پیام در هر گفتگو</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">همه‌ی پیام‌های قدیمی حذف شوند؟</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">این گزینه فورا تمامی مکالمات شما را به پیام آخر کاهش خواهد داد.</item>
         <item quantity="other">این گزینه فورا تمامی مکالمات شما را به %d پیام آخر کاهش خواهد داد.</item>

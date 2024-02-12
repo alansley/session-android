@@ -18,7 +18,6 @@
         <item quantity="many">%d správ na konverzáciu</item>
         <item quantity="other">%d správ na konverzáciu</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Zmazať všetky staré správy?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Týmto sa premažú všetky konverzácie až na poslednú správu.</item>
         <item quantity="few">Týmto sa premažú všetky konverzácie až na posledné %d správy.</item>

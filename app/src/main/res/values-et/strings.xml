@@ -13,7 +13,6 @@
         <item quantity="one">%d sõnum vestluse kohta</item>
         <item quantity="other">%d sõnumit vestluse kohta</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Kustutad kõik vanad sõnumid nüüd?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">See piirab koheselt kõiki vestlusi, jättes alles ainult viimase sõnumi.</item>
         <item quantity="other">See piirab koheselt kõiki vestlusi, jättes alles ainult %d viimast sõnumit.</item>

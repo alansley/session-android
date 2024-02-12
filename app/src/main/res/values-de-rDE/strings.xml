@@ -17,7 +17,6 @@
         <item quantity="one">%d Nachricht je Unterhaltung</item>
         <item quantity="other">%d Nachrichten je Unterhaltung</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Alle alten Nachrichten löschen?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Kürzt sofort alle Unterhaltungen bis auf die letzte Nachricht.</item>
         <item quantity="other">Kürzt sofort alle Unterhaltungen bis auf die %d letzten Nachrichten.</item>

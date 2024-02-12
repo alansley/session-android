@@ -17,7 +17,6 @@
         <item quantity="one">%d संदेश प्रति बातचीत</item>
         <item quantity="other">%d संदेश प्रति बातचीत</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">सभी पुराने संदेश अभी नष्ट करें?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">यह तुरंत सभी वार्तालापों को हाल ही के संदेश में ट्रिम कर देगा।</item>
         <item quantity="other">यह तुरंत सभी वार्तालापों को हाल ही के %d संदेशों में ट्रिम कर देगा।</item>

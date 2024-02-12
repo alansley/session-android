@@ -16,7 +16,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">대화방당 %d개의 메시지</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">지금 모든 이전 메시지를 삭제하시겠습니까?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">모든 대화를 최근 메시지 %d개로 줄입니다.</item>
     </plurals>

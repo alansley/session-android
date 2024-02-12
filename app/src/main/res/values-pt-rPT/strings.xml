@@ -17,7 +17,6 @@
         <item quantity="one">%d mensagem por conversa</item>
         <item quantity="other">%d mensagens por conversa</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Apagar todas as mensagens antigas?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Isto irá reduzir as conversas anteriores à mensagem mais recente.</item>
         <item quantity="other">Isto irá imediatamente reduzir as conversações às %d mensagens mais recentes.</item>

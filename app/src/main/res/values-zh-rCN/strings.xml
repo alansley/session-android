@@ -16,7 +16,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">每个会话限制 %d 条消息</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">删除所有旧消息？</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">这将会立刻整理所有会话到 %d 最近的信息</item>
     </plurals>

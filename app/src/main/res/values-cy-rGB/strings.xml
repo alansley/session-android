@@ -17,7 +17,6 @@
         <item quantity="many">%d neges i bob sgwrs</item>
         <item quantity="other">%d neges i bob sgwrs</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Dileu hen negeseuon nawr?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="zero">Bydd hyn yn tocio pob sgwrs i\'r neges ddiweddaraf.</item>
         <item quantity="one">Bydd hyn yn tocio pob sgwrs i\'r %d neges ddiweddaraf.</item>

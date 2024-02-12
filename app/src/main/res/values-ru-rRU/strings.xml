@@ -19,7 +19,6 @@
         <item quantity="many">%d сообщений в разговоре</item>
         <item quantity="other">%d сообщений в разговоре</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Удалить все старые сообщения?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Все разговоры будут обрезаны до одного последнего сообщения.</item>
         <item quantity="few">Все разговоры будут обрезаны до %d последних сообщений.</item>

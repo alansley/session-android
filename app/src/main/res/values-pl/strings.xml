@@ -19,7 +19,6 @@
         <item quantity="many">%d wiadomości na rozmowę</item>
         <item quantity="other">%d wiadomości na rozmowę</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Usunąć wszystkie stare wiadomości?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do najnowszej wiadomości.</item>
         <item quantity="few">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do %d najnowszych wiadomości.</item>

@@ -17,7 +17,6 @@
         <item quantity="few">%d поруке по преписци</item>
         <item quantity="other">%d порука по преписци</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Обрисати старе поруке сада?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Ово ће одмах да скрати све преписке на најскорију поруку.</item>
         <item quantity="few">Ово ће одмах да скрати све преписке на %d најскорије поруке.</item>

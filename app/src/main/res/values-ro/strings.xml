@@ -19,7 +19,6 @@
         <item quantity="few">%d mesaje per conversație</item>
         <item quantity="other">%d  mesaje per conversație</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Şterg toate mesajele vechi acum?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Această acțiune va scurta toate conversațiile până la cel mai recent mesaj.</item>
         <item quantity="few">Această acțiune va scurta toate conversațiile până la cele mai recente %d mesaje.</item>

@@ -17,7 +17,6 @@
         <item quantity="one">%d meddelande per konversation</item>
         <item quantity="other">%d meddelanden per konversation</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Radera alla gamla meddelanden nu?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Detta kommer omedelbart trimma alla konversationer till det senaste meddelandet.</item>
         <item quantity="other">Detta kommer omedelbart trimma alla konversationer till de %d senaste meddelanden.</item>
