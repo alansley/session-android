@@ -533,7 +533,6 @@
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Սկանավորել QR Կոդ</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">Սկանավորեք մեկի QR կոդը, որ սկսեք սեանս։ QR կոդը կարող եք գտնել հաշվի կարգավորումների մեջ՝ QR կոդի նշանի վրա սեղմելուց հետո։</string>
     <string name="fragment_enter_public_key_edit_text_hint">Գրեք session այդին կամ ONS անունը</string>
-    <string name="fragment_enter_public_key_explanation">Օգտագործողները կարող են կիսվել իրենց session-ի այդի-ով մտնելով իրենք կարգավորումներ և սեղմելով կիսվել կոճակը կամ կիսվելով QR կոդով.</string>
     <string name="fragment_enter_public_key_error_message">Խնդրում ենք ստուգել session-ի այդին կամ ONS-ը և փորձել նորից.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session-ին պետք հասանելիություն տեսախցիկին որպեսզի սքանավորի QR կոդը</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Տեսախցիկի հասանելիություն</string>

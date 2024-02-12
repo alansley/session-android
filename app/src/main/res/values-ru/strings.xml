@@ -550,7 +550,6 @@
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Сканировать QR-код</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">Сканируйте QR-код пользователя, чтобы начать сессию. QR-коды можно найти, нажав значок QR-кода в настройках учетной записи.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Введите Session ID или ONS имя</string>
-    <string name="fragment_enter_public_key_explanation">Пользователи могут поделиться своим Session ID, зайдя в настройки своей учетной записи и нажав «Отправить Session ID», или поделившись своим QR-кодом.</string>
     <string name="fragment_enter_public_key_error_message">Пожалуйста, проверьте Session ID или ONS имя и попробуйте снова.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session нужен доступ к камере для сканирования QR-кодов</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Предоставить доступ к камере</string>

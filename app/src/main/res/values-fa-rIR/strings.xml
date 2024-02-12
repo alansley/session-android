@@ -548,7 +548,6 @@
     <string name="activity_create_private_chat_scan_qr_code_tab_title">اسکن کد QR</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">برای شروع Session، کد QR کاربر را اسکن کنید. با ضربه زدن روی نماد کد QR در تنظیمات حساب کاربری، کدهای QR را می‌توان یافت.</string>
     <string name="fragment_enter_public_key_edit_text_hint">شماره session نامعتبر</string>
-    <string name="fragment_enter_public_key_explanation">کاربران می‌توانند شناسه‌ی Session خود را با رفتن به تنظیمات حساب خود و ضربه زدن به Share Session ID یا با به اشتراک گذاشتن کد QR خود‌، با دیگران به اشتراک بگذارند.</string>
     <string name="fragment_enter_public_key_error_message">لطفا آی‌دی سشن یا اسم ONS را بررسی کنید و سپس دوباره امتحان کنید.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">برنامه Session برای اسکن کدهای QR احتیاج دارد به دوربین دسترسی داشته باشد</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">اجازه دسترسی به دوربین</string>

@@ -519,7 +519,6 @@
     <string name="activity_create_private_chat_scan_qr_code_tab_title">掃描 QR Code</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">掃描 QR Code 以開始一個 Session，您可以在帳戶設定中找到您的 QR Code。</string>
     <string name="fragment_enter_public_key_edit_text_hint">請輸入您的 ID 或 ONS 的名稱</string>
-    <string name="fragment_enter_public_key_explanation">使用者可以進入帳戶設定中，點擊分享 Session ID 或直接分享其 QR Code。</string>
     <string name="fragment_enter_public_key_error_message">請檢查 Session ID 或 ONS，然後再試一次。</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session 需要使用相機存取權來掃描 QR Codes</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">授與相機權限</string>

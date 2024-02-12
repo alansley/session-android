@@ -524,7 +524,6 @@
     <string name="activity_create_private_chat_enter_session_id_tab_title">Entajpu Session ID-on</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skani QR-Kodon</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">Skanu QR-kodon de uzanto por komenci sesion. QR-kodoj povas esti trovitaj per tuŝeti la QR-kodan bildeton en la konta agordo.</string>
-    <string name="fragment_enter_public_key_explanation">Uzantoj povas kunhavigi sian Session ID-on per irante en sia konta agordo kaj tuŝeti \"Kunhavigi Session ID-on\", aŭ per kunhavigi sian QR-kodon.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Sesio bezonas fotilan aliron por skani QR-kodojn</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Permesi Fotilan Aliron</string>
     <string name="activity_create_closed_group_title">Nova Ferma Grupo</string>

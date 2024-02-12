@@ -525,7 +525,6 @@ för nyckelutbyte!</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skanna QR-kod</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">Skanna en användares QR-kod för att starta en session. QR-koder kan finnas genom att trycka på ikonen för QR-kod i kontoinställningarna.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Ange sessions-ID eller ONS-namn</string>
-    <string name="fragment_enter_public_key_explanation">Användare kan dela sitt sessions-ID genom att gå in på sina kontoinställningar och trycka på \"Dela sessions-ID\" eller genom att dela sin QR-kod.</string>
     <string name="fragment_enter_public_key_error_message">Kontrollera sessions-ID eller ONS-namn och försök igen.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Sessionen behöver kameraåtkomst för att skanna QR-koder</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Tillåt kameraåtkomst</string>

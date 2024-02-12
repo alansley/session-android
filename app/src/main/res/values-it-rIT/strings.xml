@@ -526,7 +526,6 @@ scambia un altro messaggio!</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Scansiona il codice QR</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">Scansiona il codice QR di un utente per avviare una sessione. Puoi trovare i codici QR toccando l\'icona Codice QR nelle impostazioni dell\'account.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Inserisci ID Sessione o nome ONS</string>
-    <string name="fragment_enter_public_key_explanation">Gli utenti possono condividere il proprio ID Sessione accedendo alle impostazioni del proprio account e toccando \"Condividi ID Sessione\" o condividendo il proprio codice QR.</string>
     <string name="fragment_enter_public_key_error_message">Controllare l\'ID Sessione o il nome ONS e riprovare.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">La Sessione richiede l\'accesso alla fotocamera per scansionare i codici QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Consenti Accesso Fotocamera</string>

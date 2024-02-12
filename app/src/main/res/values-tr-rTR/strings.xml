@@ -525,7 +525,6 @@ iletisi alındı!</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR Kodunu Tara</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">Bir oturumu başlatmak için bir kullanıcının QR kodunu tarayın. QR kodları, hesap ayarlarındaki QR kodu simgesine dokunarak bulunabilir.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Session kimliğini veya ONS adını girin</string>
-    <string name="fragment_enter_public_key_explanation">Kullanıcılar, hesap ayarlarına gidip \"Session Kimliğini Paylaş\"a dokunarak veya QR kodlarını paylaşarak Session Kimliklerini paylaşabilirler.</string>
     <string name="fragment_enter_public_key_error_message">Lütfen Session kimliğini veya ONS adını kontrol edin ve tekrar deneyin.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session’ın QR kodlarını taramak için kamera erişimine ihtiyacı var</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Kameraya erişim izni ver</string>

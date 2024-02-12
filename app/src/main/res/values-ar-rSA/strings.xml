@@ -572,7 +572,6 @@
     <string name="activity_create_private_chat_scan_qr_code_tab_title">مسح رمز الاستجابة السريع\"QR\"</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">امسح رمز QR المستخدم لبدء جلسة معه. يمكن الحصول على رموز الـQR بالضغط على أيقونة رمز الـQR في إعدادات الحساب.</string>
     <string name="fragment_enter_public_key_edit_text_hint">أدخل عنوان التعريف أو اسم ONS</string>
-    <string name="fragment_enter_public_key_explanation">يُمكن للمستخدمين مشاركة مُعرّف الجلسة الخاص بهم بالذهاب إلى إعدادات حسابهم و الضغط على \"مشاركة مُعرّف الجلسة\"، أو عبر مشاركة رمز QR الخاص بهم.</string>
     <string name="fragment_enter_public_key_error_message">تحقق من عنوان التعريف أو اِسم ONS و حاول مجددًا.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">تحتاج الجلسة إلى الوصول إلى الكاميرا لمسح رموز QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">منح صلاحية الكاميرا</string>

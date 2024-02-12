@@ -548,7 +548,6 @@
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skanowania QR code</string>
     <string name="activity_create_private_chat_scan_qr_code_explanation">Zeskanuj kod QR użytkownika, aby rozpocząć sesję. Kody QR można znaleźć, dotykając ikony kodu QR w ustawieniach konta.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Wprowadź ID sesji lub nazwę ONS</string>
-    <string name="fragment_enter_public_key_explanation">Użytkownicy mogą udostępnić swój identyfikator Session, przechodząc do ustawień konta i klikając opcję Udostępnij identyfikator Session lub udostępniając kod QR.</string>
     <string name="fragment_enter_public_key_error_message">Proszę sprawdzić ID sesji lub nazwę ONS i spróbować ponownie.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session wymaga dostępu do kamery, aby skanować kody QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Udziel dostępu do kamery</string>
