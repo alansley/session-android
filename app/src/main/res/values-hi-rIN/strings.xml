@@ -43,7 +43,6 @@
     <string name="ContactsCursorLoader_groups">समूह </string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">भेजने में असफल रहा, विवरण के लिए टैप करें।</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">कुंजी एक्सचेंज संदेश प्राप्त हुआ, प्रक्रिया करने के लिए टैप करें।</string>
     <string name="ConversationItem_click_to_approve_unencrypted">भेजने में असफल रहा, असुरक्षित फ़ॉलबैक के लिए टैप करें</string>
     <string name="ConversationItem_unable_to_open_media">इस मीडिया को खोलने में सक्षम कोई ऐप नहीं मिल सकता है।</string>
     <string name="ConversationItem_copied_text">%s अनुकरण </string>

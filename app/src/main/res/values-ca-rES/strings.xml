@@ -43,7 +43,6 @@
     <string name="ContactsCursorLoader_groups">Grups</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Ha fallat l\'enviament. Toqueu per a saber-ne més</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">S\'ha rebut el missatge de l\'intercanvi de la clau, toqueu per a processar-lo.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Ha fallat l\'enviament. Toqueu per al mode no segur.</string>
     <string name="ConversationItem_unable_to_open_media">No s\'ha trobat una aplicació que pugui obrir aquest fitxer.</string>
     <string name="ConversationItem_copied_text">S\'ha copiat %s</string>

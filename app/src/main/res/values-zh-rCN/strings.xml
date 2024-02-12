@@ -41,7 +41,6 @@
     <string name="ContactsCursorLoader_groups">群组</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">发送失败，点击查看详情</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">收到密钥交换消息，点击进行处理</string>
     <string name="ConversationItem_click_to_approve_unencrypted">发送失败，点击使用不安全的方式发送</string>
     <string name="ConversationItem_unable_to_open_media">无法找到能打开该媒体的应用</string>
     <string name="ConversationItem_copied_text">已复制 %s</string>

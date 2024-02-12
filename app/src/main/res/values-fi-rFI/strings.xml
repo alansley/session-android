@@ -43,7 +43,6 @@
     <string name="ContactsCursorLoader_groups">Ryhmät</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Lähetys epäonnistui, napauta nähdäksesi lisätietoja</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Avaintenvaihtoviesti vastaanotettu. Aloita käsittely napauttamalla.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Lähetys epäonnistui, napauta lähettääksesi suojaamattomana</string>
     <string name="ConversationItem_unable_to_open_media">Median avaamiseen ei löytynyt sovellusta.</string>
     <string name="ConversationItem_copied_text">Kopioitu: %s</string>

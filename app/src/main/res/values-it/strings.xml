@@ -44,7 +44,6 @@
     <string name="ContactsCursorLoader_groups">Gruppi</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Invio fallito, tocca per dettagli</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Ricevuto un messaggio con chiave di scambio, tocca per processarlo.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Invio fallito, tocca per invio non sicuro</string>
     <string name="ConversationItem_unable_to_open_media">Impossibile trovare un\'app per aprire il file.</string>
     <string name="ConversationItem_copied_text">Copiato %s</string>

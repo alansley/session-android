@@ -43,7 +43,6 @@
     <string name="ContactsCursorLoader_groups">Grupos</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Falha ao enviar, toque para mais detalhes</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Foi recebida uma mensagem para intercâmbio de chaves, toque para processar.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Falha ao enviar, pressione para enviar pelo modo inseguro</string>
     <string name="ConversationItem_unable_to_open_media">Não foi possível encontrar uma aplicação capaz de abrir este ficheiro.</string>
     <string name="ConversationItem_copied_text">Copiado %s</string>

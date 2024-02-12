@@ -43,7 +43,6 @@
     <string name="ContactsCursorLoader_groups">Grupper</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Afsendelse mislykkedes, tryk for detaljer</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Udvekslingsnøgle er modtaget. Tryk for at behandle.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Fejl ved afsendelse, tryk for at sende usikret</string>
     <string name="ConversationItem_unable_to_open_media">Kan ikke finde en app, der kan åbne dette medie.</string>
     <string name="ConversationItem_copied_text">Kopierede %s</string>

@@ -51,7 +51,6 @@
     <string name="ContactsCursorLoader_groups">مجموعات</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">فشل الإرسال , اضغط للحصول على معلومات</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">تم استلام رسالة تبادل مفاتيح، أنقر للمتابعة.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">فشل الإرسال، انقر للرد الغير آمن</string>
     <string name="ConversationItem_unable_to_open_media">لم يتم العثور على تطبيق قادر على فتح الملف.</string>
     <string name="ConversationItem_copied_text">تم نسخ %s</string>

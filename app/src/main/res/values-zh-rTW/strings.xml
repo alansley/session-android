@@ -42,7 +42,6 @@
     <string name="ContactsCursorLoader_groups">群組</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">傳送失敗，點擊以了解細節。</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">接收到金鑰交換訊息，按此開始處理。</string>
     <string name="ConversationItem_click_to_approve_unencrypted">傳送失敗，點擊不安全的訊息退回</string>
     <string name="ConversationItem_unable_to_open_media">找不到合適的應用程式來開啟媒體檔案。</string>
     <string name="ConversationItem_copied_text">已複製 %s</string>

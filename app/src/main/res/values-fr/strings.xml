@@ -43,7 +43,6 @@
     <string name="ContactsCursorLoader_groups">Groupes</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Échec d’envoi, touchez pour obtenir des détails</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Vous avez reçu un message d’échange de clés. Touchez pour le traiter.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Échec de l’envoi, touchez pour utiliser la solution de rechange non sécurisée</string>
     <string name="ConversationItem_unable_to_open_media">Impossible de trouver une appli pour ouvrir ce média.</string>
     <string name="ConversationItem_copied_text">Copié %s</string>

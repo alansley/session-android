@@ -47,7 +47,6 @@
     <string name="ContactsCursorLoader_groups">Группы</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Ошибка отправки. Нажмите для подробностей</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Получено сообщение обмена ключами. Нажмите, чтобы его обработать.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Отправка не удалась, нажмите для негарантированного отката</string>
     <string name="ConversationItem_unable_to_open_media">Не найдено приложение, которое может открыть этот медиа-файл.</string>
     <string name="ConversationItem_copied_text">Скопировано: %s</string>

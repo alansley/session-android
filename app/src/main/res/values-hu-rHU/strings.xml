@@ -43,7 +43,6 @@
     <string name="ContactsCursorLoader_groups">Csoportok</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Sikertelen küldés, koppints a részletekért</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Kulcs-csere üzenet érkezett, koppints a feldolgozáshoz.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Sikertelen küldés, koppints a titkosítatlan üzenetküldéshez</string>
     <string name="ConversationItem_unable_to_open_media">Nem található olyan alkalmazás, ami képes lenne megnyitni ezt a médiafájlt.</string>
     <string name="ConversationItem_copied_text">%s másolva</string>

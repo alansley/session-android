@@ -40,7 +40,6 @@
     <string name="ContactsCursorLoader_groups">그룹</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">전송 실패, 탭해서 자세히 보기</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">받은 키 교환 메시지를 처리하려면 터치하세요.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">전송 실패, 탭해서 안전하지 않게 보내기</string>
     <string name="ConversationItem_unable_to_open_media">미디어를 열 수 있는 앱이 없음</string>
     <string name="ConversationItem_copied_text">복사됨 %s</string>

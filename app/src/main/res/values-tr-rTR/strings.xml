@@ -43,7 +43,6 @@
     <string name="ContactsCursorLoader_groups">Gruplar</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Gönderme başarısız, ayrıntılar için dokunun</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Anahtar takas iletisi alındı, işlemek için dokunun.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Gönderme başarısız oldu, şifresiz göndermek için dokunun</string>
     <string name="ConversationItem_unable_to_open_media">Bu medyayı açabilen bir uygulama bulunamadı.</string>
     <string name="ConversationItem_copied_text">%s kopyalandı</string>
