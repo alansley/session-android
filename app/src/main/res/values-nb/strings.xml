@@ -161,7 +161,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Mottatt en melding som er kryptert med en gammel versjon av Session som ikke lenger støttes. Be avsenderen om å oppdatere til nyeste versjon og sende meldinga på nytt.</string>
     <string name="MessageRecord_left_group">Du har forlatt gruppa.</string>
-    <string name="MessageRecord_you_updated_group">Du har oppdatert gruppa.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Utløpstid for meldinger</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Meldinger går ikke ut på tid.</string>

@@ -161,7 +161,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Morët një mesazh të fshehtëzuar duke përdorur një version të vjetër të Session-it, që nuk mirëmbahet më. Ju lutemi, kërkojini dërguesit ta përditësojë me versionin më të ri dhe ta ridërgojë mesazhin.</string>
     <string name="MessageRecord_left_group">E keni lënë grupin.</string>
-    <string name="MessageRecord_you_updated_group">E përditësuat grupin.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Zhdukje mesazhesh</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Mesazhet tuaja nuk do të skadojnë.</string>

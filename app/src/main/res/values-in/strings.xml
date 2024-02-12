@@ -136,7 +136,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung. Harap minta pengirim untuk memperbarui ke versi terbaru dan mengirim ulang pesannya.</string>
     <string name="MessageRecord_left_group">Anda telah meninggalkan grup.</string>
-    <string name="MessageRecord_you_updated_group">Anda memperbarui grup.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Menghilangkan pesan</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Pesan Anda tidak akan kadaluwarsa.</string>

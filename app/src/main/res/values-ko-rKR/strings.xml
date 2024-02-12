@@ -139,7 +139,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">지원하지 않는 Session 버전으로 부터 암호화된 메시지를 받았습니다. 상대방에게 최신 버전으로 업데이트 하고 다시 보내기를 요청해 주세요.</string>
     <string name="MessageRecord_left_group">그룹에서 퇴장했습니다.</string>
-    <string name="MessageRecord_you_updated_group">그룹을 갱신하였습니다.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">사라지는 메시지들</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">당신의 메시지들은 시한만료되지 않을 것입니다.</string>

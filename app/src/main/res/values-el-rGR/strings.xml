@@ -161,7 +161,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Λήφθηκε ένα μήνυμα που είναι κρυπτογραφημένο με μια παλιά έκδοση του Session που πλέον δεν υποστηρίζεται. Παρακαλώ ζητήστε από τον αποστολέα να αναβαθμίσει στην πιο πρόσφατη έκδοση και να ξαναστείλει το μήνυμα.</string>
     <string name="MessageRecord_left_group">Αποχωρήσατε από την ομάδα.</string>
-    <string name="MessageRecord_you_updated_group">Ενημερώσατε την ομάδα</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Μηνήματα που εξαφανίζονται</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Τα μηνύματά σας δε θα λήξουν.</string>

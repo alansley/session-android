@@ -161,7 +161,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">یک پیام رمزنگاری شده با استفاده از نسخه‌ای قدیمی از Signal که دیگر پشتیبانی نمی‌شود برایتان ارسال شده است، لطفاً از فرستنده بخواهید نرم‌افزار Session خود را به آخرین نسخه بروزرسانی کرده و مجدداً پیام را برای شما ارسال کند.</string>
     <string name="MessageRecord_left_group">شما گروه را ترک کرده اید.</string>
-    <string name="MessageRecord_you_updated_group">شما گروه را بروزرسانی کردید</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">پیامهای نشان داده نشده</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">پیام های شما منقضی نخواهد شد.</string>

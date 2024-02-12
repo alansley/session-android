@@ -179,7 +179,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">התקבלה הודעה מוצפנת ע\"י שימוש בגרסה ישנה של Session שאינה נתמכת יותר. אנא בקש מהשולח לעדכן אל הגרסה העדכנית ביותר ולשלוח מחדש את ההודעה.</string>
     <string name="MessageRecord_left_group">עזבת את הקבוצה.</string>
-    <string name="MessageRecord_you_updated_group">עדכנת את הקבוצה.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">הודעות נעלמות</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">ההודעות שלך לא יפוגו.</string>

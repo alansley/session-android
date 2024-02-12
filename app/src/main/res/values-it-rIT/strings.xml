@@ -162,7 +162,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Hai ricevuto un messaggio cifrato usando una vecchia versione di Session che non è più supportata. Ti preghiamo di chiedere al mittente di aggiornare l\'app e rimandare il messaggio.</string>
     <string name="MessageRecord_left_group">Hai lasciato il gruppo.</string>
-    <string name="MessageRecord_you_updated_group">Hai aggiornato il gruppo.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Messaggi a scomparsa</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">I tuoi messaggi non scadranno.</string>
