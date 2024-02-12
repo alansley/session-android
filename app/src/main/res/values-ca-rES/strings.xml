@@ -65,7 +65,6 @@
     <string name="ConversationActivity_unblock">Desbloca</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">El fitxer adjunt excedeix la mida màxima per a aquest tipus de missatges.</string>
     <string name="ConversationActivity_unable_to_record_audio">No s\'ha pogut enregistrar l\'àudio.</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">No hi ha cap aplicació que pugui obrir aquest enllaç.</string>
     <string name="ConversationActivity_invite_to_open_group">Afegeix membres</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Per enviar missatges d\'àudio, permeteu que el Session tingui accés al micròfon.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">El Session necessita el permís del micròfon per tal d\'enviar missatges d\'àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi el micròfon.</string>

@@ -66,7 +66,6 @@
     <string name="ConversationActivity_unblock">अनब्लॉक करें</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">आपके द्वारा भेजा जा रहा संदेश आकार सीमा से अधिक है।</string>
     <string name="ConversationActivity_unable_to_record_audio">ऑडियो रिकॉर्ड करने में अस्मर्थ</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">आपके डिवाइस पर इस लिंक को संभालने के लिए कोई ऐप उपलब्ध नहीं है।</string>
     <string name="ConversationActivity_invite_to_open_group">सदस्य जोड़ें</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ऑडियो संदेश भेजने के लिए माइक्रोफोन की अनुमति Session को दें।</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ऑडियो संदेशों को भेजने के लिए Session को माइक्रोफ़ोन अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"माइक्रोफ़ोन\" सक्षम करें।</string>

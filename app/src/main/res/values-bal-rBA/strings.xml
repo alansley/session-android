@@ -47,7 +47,6 @@
     <string name="ConversationActivity_unblock">Buka blokir</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Lampiran melebihi batas ukuran untuk tipe pesan yang Anda kirimkan.</string>
     <string name="ConversationActivity_unable_to_record_audio">Tidak bisa merekam audio!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi tersedia untuk menangani tautan ini pada perangkat Anda</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Untuk mengirim pesan suara, izinkan Session mengakses mikrofon Anda.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session memerlukan akses ke Mikrofon untuk mengirim pesan audio, namun ditolak secara permanen. Mohon lanjutkan ke pengaturan aplikasi, pilih \"Izin\" dan aktifkan \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Untuk merekam foto dan video, izinkan Session mengakses kamera.</string>

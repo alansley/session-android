@@ -63,7 +63,6 @@
     <string name="ConversationActivity_unblock">차단 해제</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">첨부파일 크기 제한 초과됨</string>
     <string name="ConversationActivity_unable_to_record_audio">오디오 녹음할 수 없음</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">작업을 처리할 수 있는 앱 없음</string>
     <string name="ConversationActivity_invite_to_open_group">멤버 추가</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">음성 메시지를 보내기 위해서, 세션이 마이크에 접근할 수 있게 허용해주세요.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session이 음성 메시지를 보내기 위한 마이크 권한이 영구적으로 차단되었습니다. 앱 설정에서 \"권한\" 탭을 클릭하고, \"마이크\" 권한을 허용해주세요.</string>

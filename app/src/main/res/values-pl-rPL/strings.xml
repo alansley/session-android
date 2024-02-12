@@ -70,7 +70,6 @@
     <string name="ConversationActivity_unblock">Odblokuj</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Rozmiar tego załącznika przekracza limit wiadomości.</string>
     <string name="ConversationActivity_unable_to_record_audio">Nie udało się nagrać dźwięku!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Brak aplikacji do obsługi tego linku na Twoim urządzeniu.</string>
     <string name="ConversationActivity_invite_to_open_group">Dodaj członków</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Aby wysyłać wiadomości głosowe, zezwól Session na dostęp do mikrofonu.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session wymaga pozwolenia na dostęp do mikrofonu w celu umożliwienia wysyłania wiadomości głosowych, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Mikrofon\".</string>

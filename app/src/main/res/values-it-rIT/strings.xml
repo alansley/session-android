@@ -67,7 +67,6 @@
     <string name="ConversationActivity_unblock">Sblocca</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">L\'allegato che stai cercando di inviare supera le dimensioni consentite</string>
     <string name="ConversationActivity_unable_to_record_audio">Impossibile registrare il messaggio!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Sul tuo dispositivo non sono presenti app per gestire questo link.</string>
     <string name="ConversationActivity_invite_to_open_group">Aggiungi membri</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Per poter mandare un messaggio audio, permetti a Session di accedere al tuo microfono.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session richiede l\'autorizzazione all\'uso del microfono per inviare messaggi audio, ma è stata negata in modo permanente. Si prega di continuare con le impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Microfono\".</string>

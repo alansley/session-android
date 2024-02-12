@@ -68,7 +68,6 @@
     <string name="ConversationActivity_unblock">בטל חסימה</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">הצרופה חורגת ממגבלות הגודל עבור הסוג של ההודעה שאתה שולח.</string>
     <string name="ConversationActivity_unable_to_record_audio">לא היה ניתן להקליט שמע!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">אין יישום זמין לטיפול בקישור זה במכשיר שלך.</string>
     <string name="ConversationActivity_invite_to_open_group">הוסף משתמשים</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">כדי לשלוח הודעות שמע, אפשר ל-Session לקבל גישה אל המיקרופון שלך.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session דורש את הרשאת המיקרופון על מנת לשלוח הודעות שמע, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מיקרופון\".</string>

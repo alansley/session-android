@@ -54,7 +54,6 @@
     <string name="ConversationActivity_unblock">Không chặn</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Văn bản đính kèm vượt quá giới hạn kích cỡ cho loại tin nhắn mà bạn đang gửi.</string>
     <string name="ConversationActivity_unable_to_record_audio">Không thể ghi âm!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Thiết bị của bạn không có ứng dụng nào tương ứng để mở đường dẫn này.</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Session cần được truy cập microphone để gửi tin nhắn thoại.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session cần truy cập microphone để gửi tin nhắn thoại, nhưng quyền này đã bị chặn. Hãy đến phần cài đặt, chọn \"Quyền truy cập\" và kích hoạt \"Microphone\".</string>
     <!-- ConversationFragment -->

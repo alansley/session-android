@@ -56,7 +56,6 @@
     <string name="ConversationActivity_unblock">Fjern blokkering</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Vedlegg overskrid maksimal storleiksgrense for gjeldande meldingstype.</string>
     <string name="ConversationActivity_unable_to_record_audio">Klarte ikkje å ta opp lydar.</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har inga program på denne eininga som kan handtera denne lenkja.</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">La Session få tilgang til mikrofonen for å senda lydmeldingar.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session treng tilgang til mikrofonen for å senda lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon».</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Gi Session tilgang til kameraet for å ta bilete eller videoopptak.</string>

@@ -63,7 +63,6 @@
     <string name="ConversationActivity_unblock">ブロック解除</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">添付ファイルのサイズが上限を超えています</string>
     <string name="ConversationActivity_unable_to_record_audio">録音できません！</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">このリンクを扱えるアプリがインストールされていません</string>
     <string name="ConversationActivity_invite_to_open_group">メンバーを追加</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">音声メッセージを送るには、Sessionのマイクへのアクセスを許可してください。</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Sessionで音声メッセージを添付するには、『マイク』へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』へのアクセス許可を有効にしてください。</string>

@@ -66,7 +66,6 @@
     <string name="ConversationActivity_unblock">Desbloquear</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Anexo excede limites de tamanho para o tipo de mensagem que você está enviando.</string>
     <string name="ConversationActivity_unable_to_record_audio">Incapaz de gravar áudio!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Não tem nenhum app disponível para lidar com este link em seu dispositivo.</string>
     <string name="ConversationActivity_invite_to_open_group">Adicionar membros</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Session precisa de acesso ao microfone para enviar mensagens de áudio.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session precisa de acesso ao microfone para enviar mensagens de áudio, mas ele foi permanentemente negado. Por favor continue para configurações de app, selecione \"Permissões\", e habilite \"Microfone\".</string>

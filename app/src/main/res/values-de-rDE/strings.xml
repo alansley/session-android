@@ -66,7 +66,6 @@
     <string name="ConversationActivity_unblock">Entsperren</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Der Anhang überschreitet die Größenbeschränkungen für den Nachrichtentyp.</string>
     <string name="ConversationActivity_unable_to_record_audio">Audioaufnahme nicht möglich!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Es ist keine App verfügbar, um diesem Link auf deinem Gerät zu folgen.</string>
     <string name="ConversationActivity_invite_to_open_group">Mitglieder hinzufügen</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Erlaube Session zum Versenden von Sprachnachrichten Zugriff auf dein Mikrofon.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session benötigt die Berechtigung »Mikrofon« für das Senden von Sprachnachrichten, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Mikrofon«.</string>

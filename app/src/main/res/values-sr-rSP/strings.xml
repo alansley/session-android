@@ -67,7 +67,6 @@
     <string name="ConversationActivity_unblock">Одблокирај</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Прилог прекорачује ограничење величине за тип поруке коју шаљете.</string>
     <string name="ConversationActivity_unable_to_record_audio">Не могу да снимим звук!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нема апликације за руковање овом везом на вашем уређају.</string>
     <string name="ConversationActivity_invite_to_open_group">Додај чланове</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Сесија треба дозволу за микрофон да шаље аудио поруке.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Сесија треба дозволу за микрофон да пошаље аудио поруке, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Микрофон\".</string>

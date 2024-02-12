@@ -70,7 +70,6 @@
     <string name="ConversationActivity_unblock">Разблокировать</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Вложение превышает допустимый размер для данного типа сообщения.</string>
     <string name="ConversationActivity_unable_to_record_audio">Невозможно записать аудио!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">На вашем устройстве не найдено приложение для открытия этой ссылки.</string>
     <string name="ConversationActivity_invite_to_open_group">Добавить участников</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Для отправки аудиосообщений разрешите Session доступ к микрофону.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Для отправки аудиосообщений требуется разрешение на доступ к микрофону, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите в «Настройки», выберите «Приложения», найдите Session, затем выберите «Разрешения» и включите Микрофон.</string>

@@ -49,7 +49,6 @@
     <string name="ConversationActivity_unblock">Fungua</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Kiambatisho kimezidi ukubwa wa aina ya ujumbe unaotuma</string>
     <string name="ConversationActivity_unable_to_record_audio">Haiwezi kurekodi sauti!</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
     <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Kutuma ujumbe wa sauti, kuruhusu ufikiaji wa Session  kwenye kipaza sauti yako.</string>
     <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kipaza sauti\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ili kukamata picha na video, kuruhusu upatikanaji wa Session kwa kamera.</string>
