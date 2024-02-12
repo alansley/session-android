@@ -129,12 +129,6 @@
       <item>@color/accent_red</item>
   </string-array>
 
-  <string-array name="pref_led_blink_pattern_entries">
-    <item>@string/preferences__fast</item>
-    <item>@string/preferences__normal</item>
-    <item>@string/preferences__slow</item>
-  </string-array>
-
   <string-array name="pref_led_blink_pattern_values" translatable="false">
     <item>300,300</item>
     <item>500,2000</item>
