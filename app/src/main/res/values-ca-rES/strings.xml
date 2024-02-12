@@ -160,7 +160,6 @@
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">S\'ha rebut un missatge encriptat amb una versió antiga del Session que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
     <string name="MessageRecord_left_group">Heu abandonat el grup.</string>
     <string name="MessageRecord_you_updated_group">Heu actualitzat el grup.</string>
-    <string name="MessageRecord_s_updated_group">%s ha actualitzat el grup.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Missatges efímers</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">El missatges no caducaran.</string>

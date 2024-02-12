@@ -167,7 +167,6 @@
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Հաղորդագրությունը չի ուղարկվել, քանի որ session-ի տվյալ տարբերակը հնացել է, խնդրում ենք թարմացնել այն, և ուղարկեք հաղորդագրությունը նորից.</string>
     <string name="MessageRecord_left_group">Դուք դուրս եկաք խմբից։</string>
     <string name="MessageRecord_you_updated_group">Դուք թարմացրեցիք զրուցարանը.</string>
-    <string name="MessageRecord_s_updated_group">%s զրուցարանը թարմացվել է.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Անհետացող հաղորդագրություններ</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Ձեր հաղորդագրությունների ժամկետը չի սպառվի:</string>

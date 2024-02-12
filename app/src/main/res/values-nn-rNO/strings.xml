@@ -140,7 +140,6 @@
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Mottok ei melding som er kryptert med ein gammal versjon av Session som ikkje lenger vert støtta. Be avsendaren om å oppdatera til nyaste versjon og senda meldinga på nytt.</string>
     <string name="MessageRecord_left_group">Du har forlate gruppa.</string>
     <string name="MessageRecord_you_updated_group">Du oppdaterte gruppa.</string>
-    <string name="MessageRecord_s_updated_group">%s oppdaterte gruppa.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Utløpstid for meldingar</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Meldingar går ikkje ut på tid.</string>

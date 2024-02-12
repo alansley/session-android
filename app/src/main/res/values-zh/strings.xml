@@ -152,7 +152,6 @@
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">已收到的信息使用了旧版本的 Signal 进行加密，并且已经不再被支持。请联系发送者升级 Session 到最新版本然后再次发送该信息。</string>
     <string name="MessageRecord_left_group">您已经离开了此群组。</string>
     <string name="MessageRecord_you_updated_group">您更新了此群组</string>
-    <string name="MessageRecord_s_updated_group">%s 更新了此群组。</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">阅后即焚</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">您的信息将不会过期。</string>

@@ -183,7 +183,6 @@
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Отримано повідомлення, яке зашифроване старою версією Session, яка вже не підтримується. Попросіть друга оновитися до останньої версії та надіслати повідомлення знову.</string>
     <string name="MessageRecord_left_group">Ви покинули групу.</string>
     <string name="MessageRecord_you_updated_group">Ви оновили групу.</string>
-    <string name="MessageRecord_s_updated_group">%s оновив групу.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Зникнення повідомлень</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Ваші повідомлення не зникатимуть.</string>

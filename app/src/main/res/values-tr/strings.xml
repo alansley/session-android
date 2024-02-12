@@ -162,7 +162,6 @@
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Artık desteklenmeyen eski bir Signal sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Session\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
     <string name="MessageRecord_left_group">Gruptan ayrıldınız.</string>
     <string name="MessageRecord_you_updated_group">Grubu güncellediniz.</string>
-    <string name="MessageRecord_s_updated_group">%s grubu güncelledi.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">Kaybolan iletiler</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">İletileriniz kaybolmayacak.</string>

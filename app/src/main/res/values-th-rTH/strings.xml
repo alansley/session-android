@@ -126,7 +126,6 @@
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ได้รับข้อความที่เข้ารหัสด้วย Session รุ่นเก่าที่ไม่รองรับอีกต่อไปแล้ว โปรดขอให้ผู้ส่งอัพเดตแอปเป็นเวอร์ชันล่าสุดและส่งข้อความอีกครั้ง</string>
     <string name="MessageRecord_left_group">คุณได้ออกจากกลุ่ม</string>
     <string name="MessageRecord_you_updated_group">คุณได้อัพเดตกลุ่ม</string>
-    <string name="MessageRecord_s_updated_group">%s ได้อัพเดตกลุ่ม</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">ข้อความที่ลบตัวเอง</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">ข้อความของคุณจะไม่หมดอายุ</string>
