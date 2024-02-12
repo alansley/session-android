@@ -53,7 +53,6 @@
     <string name="ConversationItem_click_to_approve_unencrypted">Отправка не удалась, нажмите для негарантированного отката</string>
     <string name="ConversationItem_unable_to_open_media">Не найдено приложение, которое может открыть этот медиа-файл.</string>
     <string name="ConversationItem_copied_text">Скопировано: %s</string>
-    <string name="ConversationItem_pending">&#160; Ожидание</string>
     <!-- ConversationActivity -->
     <string name="ConversationActivity_add_attachment">Добавить вложение</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Извините, произошла ошибка при обработке вложения.</string>
