@@ -141,6 +141,7 @@
     <item>3000,3000</item>
   </string-array>
 
+    <!--
   <string-array name="pref_repeat_alerts_entries">
       <item>@string/preferences__never</item>
       <item>@string/preferences__one_time</item>
@@ -149,6 +150,7 @@
       <item>@string/preferences__five_times</item>
       <item>@string/preferences__ten_times</item>
   </string-array>
+  -->
 
   <string-array name="pref_repeat_alerts_values" translatable="false">
       <item>0</item>
