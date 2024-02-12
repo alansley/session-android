@@ -16,7 +16,6 @@
         <item quantity="other">นี่จะตัดการสนทนาทั้งหมดให้สั้นลงเหลือแค่ %d ข้อความล่าสุดโดยทันที</item>
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">ลบ</string>
-    <string name="ApplicationPreferencesActivity_On">เปิด</string>
     <string name="ApplicationPreferencesActivity_Off">ปิด</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ภาพ)</string>

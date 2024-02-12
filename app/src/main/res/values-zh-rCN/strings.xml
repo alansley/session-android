@@ -21,7 +21,6 @@
         <item quantity="other">这将会立刻整理所有会话到 %d 最近的信息</item>
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">删除</string>
-    <string name="ApplicationPreferencesActivity_On">开启</string>
     <string name="ApplicationPreferencesActivity_Off">关闭</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(图片)</string>

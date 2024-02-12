@@ -21,7 +21,6 @@
         <item quantity="other">모든 대화를 최근 메시지 %d개로 줄입니다.</item>
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">삭제</string>
-    <string name="ApplicationPreferencesActivity_On">사용</string>
     <string name="ApplicationPreferencesActivity_Off">사용 안함</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(이미지)</string>

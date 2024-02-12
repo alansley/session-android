@@ -171,7 +171,6 @@
         <item quantity="other">This will immediately trim all conversations to the %d most recent messages.</item>
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Delete</string>
-    <string name="ApplicationPreferencesActivity_On">On</string>
     <string name="ApplicationPreferencesActivity_Off">Off</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(image)</string>

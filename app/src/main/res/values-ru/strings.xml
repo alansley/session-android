@@ -27,7 +27,6 @@
         <item quantity="other">Все разговоры будут обрезаны до %d последних сообщений.</item>
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Удалить</string>
-    <string name="ApplicationPreferencesActivity_On">Включено</string>
     <string name="ApplicationPreferencesActivity_Off">Выключено</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(изображение)</string>
