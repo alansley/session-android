@@ -486,7 +486,6 @@
     <string name="BackupDialog_copied_to_clipboard">已复制到剪切板</string>
     <string name="LocalBackupJob_creating_backup">正在创建备份…</string>
     <string name="ProgressPreference_d_messages_so_far">已处理 %d 条消息</string>
-    <string name="BackupUtil_never">永不</string>
     <string name="preferences_app_protection__screen_lock">锁屏</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">使用 Android 锁屏或者指纹锁定 Session</string>
     <!-- Conversation activity -->
