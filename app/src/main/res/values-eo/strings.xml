@@ -17,10 +17,6 @@
         <item quantity="one">Po %d mesaĝo en interparolado</item>
         <item quantity="other">Po %d mesaĝoj en interparolo</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Tio tuj tondetos ĉiujn konversaciojn al la plej lastatempa mesaĝo.</item>
-        <item quantity="other">Tio tuj tondetos ĉiujn interparolojn al la %d plej lastatempaj mesaĝoj.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Forviŝi</string>
     <string name="ApplicationPreferencesActivity_Off">Malŝaltita</string>
     <!-- DraftDatabase -->

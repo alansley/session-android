@@ -19,12 +19,6 @@
         <item quantity="many">%d zpráv na konverzaci</item>
         <item quantity="other">%d zpráv na konverzaci</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Tímto zkrátíte všechny konverzace na poslední zprávu.</item>
-        <item quantity="few">Tímto zkrátíte všechny konverzace na posledních %d zprávy.</item>
-        <item quantity="many">Tímto zkrátíte všechny konverzace na posledních %d zpráv.</item>
-        <item quantity="other">Tímto zkrátíte všechny konverzace na posledních %d zpráv.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Smazat</string>
     <string name="ApplicationPreferencesActivity_Off">Vyp.</string>
     <!-- DraftDatabase -->

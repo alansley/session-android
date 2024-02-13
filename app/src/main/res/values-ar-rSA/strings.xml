@@ -21,14 +21,6 @@
         <item quantity="many">%d</item>
         <item quantity="other">%d رسائل في كل محادثة</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="zero">تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-        <item quantity="one">سوف يتم تقليم كل المحادثات إلى أحدث رسالة.</item>
-        <item quantity="two">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-        <item quantity="few">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-        <item quantity="many">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-        <item quantity="other">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">حذف</string>
     <string name="ApplicationPreferencesActivity_Off">مغلق</string>
     <!-- DraftDatabase -->

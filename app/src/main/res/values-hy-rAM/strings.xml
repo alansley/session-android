@@ -18,10 +18,6 @@
         <item quantity="one">%d հաղորդագրություն խոսակցությունում</item>
         <item quantity="other">%d նամակներ մի զրույցի համար</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև վերջին հաղորդագրությունը.</item>
-        <item quantity="other">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև %d վերջին հաղորդագրությունը.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Ջնջել</string>
     <string name="ApplicationPreferencesActivity_Off">Անջատված</string>
     <!-- DraftDatabase -->

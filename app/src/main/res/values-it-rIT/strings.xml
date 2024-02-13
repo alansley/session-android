@@ -18,10 +18,6 @@
         <item quantity="one">%d messaggio per conversazione</item>
         <item quantity="other">%d messaggi per conversazione</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Questo porterà immediatamente tutte le conversazioni al messaggio più recente.</item>
-        <item quantity="other">Saranno ridotte immediatamente tutte le conversazioni ai %d messaggi più recenti.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Eliminare</string>
     <string name="ApplicationPreferencesActivity_Off">Off</string>
     <!-- DraftDatabase -->

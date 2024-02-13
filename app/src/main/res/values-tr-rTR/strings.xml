@@ -17,10 +17,6 @@
         <item quantity="one">Sohbet başına %d ileti</item>
         <item quantity="other">Sohbet başına %d ileti</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Bu işlem tüm sohbetleri en yeni iletiye kadar kırpar.</item>
-        <item quantity="other">Bu işlem tüm sohbetleri en yeni %d iletiye kadar kırpar.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Sil</string>
     <string name="ApplicationPreferencesActivity_Off">Kapalı</string>
     <!-- DraftDatabase -->

@@ -17,9 +17,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">每個對話中有 %d 個訊息</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">這將會立即裁剪所有對話至 %d 最新訊息。</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">刪除</string>
     <string name="ApplicationPreferencesActivity_Off">關</string>
     <!-- DraftDatabase -->

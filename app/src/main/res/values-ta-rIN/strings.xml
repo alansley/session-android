@@ -12,10 +12,6 @@
     <string name="AbstractNotificationBuilder_new_message">புதிய செய்தி</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">இது உடனடியாக அனைத்து உரையாடல்களையும் மிக சமீபத்திய செய்திகளுக்கு ஒழுங்கமைக்கும்.</item>
-        <item quantity="other">இது உடனடியாக அனைத்து உரையாடல்களையும் %d மிக சமீபத்திய செய்திகளுக்கு ஒழுங்கமைக்கும்.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">நீக்கு</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">படம்</string>

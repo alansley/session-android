@@ -17,10 +17,6 @@
         <item quantity="one">%d üzenet beszélgetésenként</item>
         <item quantity="other">%d üzenet beszélgetésenként</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Ez azonnal csonkolni fogja az összes beszélgetést a legfrissebb üzenetre.</item>
-        <item quantity="other">Ezzel kitörlöd az összes beszélgetés régebbi üzeneteit, és csak a(z) %d legfrissebbek fognak megmaradni.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Törlés</string>
     <string name="ApplicationPreferencesActivity_Off">Ki</string>
     <!-- DraftDatabase -->

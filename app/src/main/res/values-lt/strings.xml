@@ -19,12 +19,6 @@
         <item quantity="many">%d žinučių pokalbyje</item>
         <item quantity="other">%d žinučių pokalbyje</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Tai nedelsiant išvalys visus pokalbius iki %d naujausios žinutės.</item>
-        <item quantity="few">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
-        <item quantity="many">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
-        <item quantity="other">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Ištrinti</string>
     <string name="ApplicationPreferencesActivity_Off">Išjungta</string>
     <!-- DraftDatabase -->

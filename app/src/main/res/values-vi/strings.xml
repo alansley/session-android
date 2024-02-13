@@ -15,9 +15,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">%d tin nhắn trong mỗi cuộc trò chuyện</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">Thao tác này sẽ thu ngắn tức thì tất cả các cuộc hội thoại đến %d tin nhắn gần nhất.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Xóa</string>
     <string name="ApplicationPreferencesActivity_Off">Tắt</string>
     <!-- DraftDatabase -->

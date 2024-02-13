@@ -14,10 +14,6 @@
         <item quantity="one">Serê gotûbêjê %d peyam</item>
         <item quantity="other">Serê gotûbêjê %d peyam </item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Ev ê niha hemû gotûbêjan biqusîne û wê tenê peyama herî nû bimîne.</item>
-        <item quantity="other">Ev ê niha hemû gotûbêjan biqusîne û wê tenê %d peyamên herî nû bimînin.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Jê bibe</string>
     <string name="ApplicationPreferencesActivity_Off">Girtî</string>
     <!-- DraftDatabase -->

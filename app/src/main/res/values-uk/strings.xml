@@ -19,12 +19,6 @@
         <item quantity="many">%d повідомлень на розмову</item>
         <item quantity="other">%d повідомлень на розмову</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Це одразу скоротить всі розмови до %d останнього повідомлення.</item>
-        <item quantity="few">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
-        <item quantity="many">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
-        <item quantity="other">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Видалити</string>
     <string name="ApplicationPreferencesActivity_Off">Вимкнути</string>
     <!-- DraftDatabase -->

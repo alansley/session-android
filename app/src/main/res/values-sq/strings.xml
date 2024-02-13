@@ -17,10 +17,6 @@
         <item quantity="one">%d mesazh për bisedë</item>
         <item quantity="other">%d mesazhe për bisedë</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Kjo do të qethë menjëherë krejt bisedat deri te mesazhi më i ri.</item>
-        <item quantity="other">Kjo do të qethë menjëherë krejt bisedat deri te %d mesazhet më të rinj.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Fshije</string>
     <string name="ApplicationPreferencesActivity_Off">Fikur</string>
     <!-- DraftDatabase -->

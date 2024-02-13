@@ -17,10 +17,6 @@
         <item quantity="one">%d viesti per keskustelu</item>
         <item quantity="other">%d viestiä per keskustelu</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Tämä karsii välittömästi kaikki keskustelut viimeisimpään viestiin.</item>
-        <item quantity="other">Tämä karsii välittömästi kaikki keskustelut %d viimeisimpään viestiin.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Poista</string>
     <string name="ApplicationPreferencesActivity_Off">Pois päältä</string>
     <!-- DraftDatabase -->

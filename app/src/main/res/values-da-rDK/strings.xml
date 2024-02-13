@@ -17,10 +17,6 @@
         <item quantity="one">%d besked pr. samtale</item>
         <item quantity="other">%d beskeder pr. samtale</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Dette vil øjeblikkeligt reducere alle samtaler til den nyeste besked.</item>
-        <item quantity="other">Dette vil øjeblikkeligt reducere alle samtaler til de %d nyeste beskeder.</item>
-    </plurals>
     <string name="ApplicationPreferencesActivity_delete">Slet</string>
     <string name="ApplicationPreferencesActivity_Off">Slukket</string>
     <!-- DraftDatabase -->
