@@ -415,8 +415,6 @@
     <string name="Permissions_permission_required">需要權限</string>
     <string name="Permissions_continue">繼續</string>
     <string name="Permissions_not_now">稍後</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">備份將會儲存到外部儲存空間，並以下方的密碼加密。你必須擁有這個密碼來還原此備份。</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已經寫下密碼。沒有密碼，我將無法還原此備份。</string>
     <string name="registration_activity__skip">略過</string>
     <string name="BackupDialog_copied_to_clipboard">已複製到剪貼簿</string>
     <string name="preferences_app_protection__screen_lock">螢幕鎖定</string>

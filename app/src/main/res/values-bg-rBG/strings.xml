@@ -403,8 +403,6 @@
     <string name="Permissions_permission_required">Нужда от разрешение за достъп</string>
     <string name="Permissions_continue">Продължи</string>
     <string name="Permissions_not_now">Не сега</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Архивите ще бъдат запазени на външно хранилище и криптирани с паролата задена по-долу. Трябва да използвате същата парола за въстановяване от архива.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Записах тази парола. Без нея, няма да мога да възстановя архива.</string>
     <string name="registration_activity__skip">Пропусни</string>
     <string name="BackupDialog_copied_to_clipboard">Копирано</string>
     <string name="preferences_app_protection__screen_lock">Заключен екран</string>

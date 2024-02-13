@@ -406,8 +406,6 @@
     <string name="Permissions_permission_required">アクセス許可が必要です</string>
     <string name="Permissions_continue">続行</string>
     <string name="Permissions_not_now">後にする</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">バックアップは外部ストレージにパスフレーズで暗号化して保存されます。バックアップのリストアには、このパスフレーズが必要です。</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">パスフレーズを書き留めました。パスフレーズがなければ、バックアップをリストアできません。</string>
     <string name="registration_activity__skip">スキップする</string>
     <string name="BackupDialog_copied_to_clipboard">クリップボードにコピーしました</string>
     <string name="preferences_app_protection__screen_lock">画面ロック</string>

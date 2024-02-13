@@ -409,8 +409,6 @@
     <string name="Permissions_permission_required">需要相应权限</string>
     <string name="Permissions_continue">继续</string>
     <string name="Permissions_not_now">不是现在</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">备份将会保存到外部存储并使用下面的密码加密。您必须使用此密码才能恢复备份。</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已记下此密码。如果没有该密码，我将无法恢复备份</string>
     <string name="registration_activity__skip">略过</string>
     <string name="BackupDialog_copied_to_clipboard">已复制到剪切板</string>
     <string name="preferences_app_protection__screen_lock">锁屏</string>

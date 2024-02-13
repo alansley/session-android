@@ -420,8 +420,6 @@
     <string name="Permissions_permission_required">Berechtigung erforderlich</string>
     <string name="Permissions_continue">Weiter</string>
     <string name="Permissions_not_now">Nicht jetzt</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Datensicherungen werden im Gerätespeicher gespeichert und mit der unten genannten Passphrase verschlüsselt. Die Passphrase ist notwendig, um die Sicherung später wiederherzustellen.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ich habe mir diese Passphrase notiert. Ohne sie werde ich keine Sicherung wiederherstellen können.</string>
     <string name="registration_activity__skip">Überspringen</string>
     <string name="BackupDialog_copied_to_clipboard">In Zwischenablage kopiert</string>
     <string name="preferences_app_protection__screen_lock">Bildschirmsperre</string>

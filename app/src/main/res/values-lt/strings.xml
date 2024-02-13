@@ -440,8 +440,6 @@
     <string name="Permissions_permission_required">Reikalingas leidimas</string>
     <string name="Permissions_continue">Tęsti</string>
     <string name="Permissions_not_now">Ne dabar</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Atsarginės kopijos bus įrašytos į išorinę saugyklą ir bus užšifruotos, naudojant žemiau esančią slaptafrazę. Norėdami atkurti atsarginę kopiją, privalėsite turėti šią slaptafrazę.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Aš užsirašiau šią slaptafrazę. Be jos aš negalėsiu atkurti atsarginės kopijos.</string>
     <string name="registration_activity__skip">Praleisti</string>
     <string name="BackupDialog_copied_to_clipboard">Nukopijuota į iškarpinę</string>
     <string name="preferences_app_protection__screen_lock">Ekrano užraktas</string>

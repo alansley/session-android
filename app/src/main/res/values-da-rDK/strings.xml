@@ -420,8 +420,6 @@ udveksel besked!</string>
     <string name="Permissions_permission_required">Tilladelse krævet</string>
     <string name="Permissions_continue">Fortsæt</string>
     <string name="Permissions_not_now">Ikke nu</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backup´s vil blive gemt til ekstern placering og krypteret med koden herunder. Du skal kende denne kode for at kunne genskabe fra backup´en</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Jeg har nedskrevet koden. Uden den vil jeg ikke have mulighed for at genskabe fra backup</string>
     <string name="registration_activity__skip">Spring over</string>
     <string name="BackupDialog_copied_to_clipboard">Kopieret til udklipsholder</string>
     <string name="preferences_app_protection__screen_lock">Skærmlås</string>

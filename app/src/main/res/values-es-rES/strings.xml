@@ -421,8 +421,6 @@ de intercambio de claves!</string>
     <string name="Permissions_permission_required">Permiso necesario</string>
     <string name="Permissions_continue">Continuar</string>
     <string name="Permissions_not_now">Ahora no</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Las copias de seguridad se guardarán en una unidad de almacenamiento externo y se cifrarán con la clave de debajo. Necesitas esta clave para poder restaurar una copia de seguridad.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">He anotado esta clave. Sé que sin ella, no podré restaurar la copia de seguridad.</string>
     <string name="registration_activity__skip">Omitir</string>
     <string name="BackupDialog_copied_to_clipboard">Copiado al portapapeles</string>
     <string name="preferences_app_protection__screen_lock">Bloqueo de pantalla</string>

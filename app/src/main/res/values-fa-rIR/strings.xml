@@ -444,8 +444,6 @@
     <string name="Permissions_permission_required">مجوز لازم است</string>
     <string name="Permissions_continue">ادامه</string>
     <string name="Permissions_not_now">حالا نه</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">پشتیبان ها روی یک حافظه خارجی ذخیره خواهند شد و با عبارت عبور زیر رمزنگاری خواهند شد. شما باید عبارت عبور زیر را داشته باشید تا پشتیبان خود را بازیابی کنید.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">من این گذرمتن را نوشته‌ام. بدون آن نخواهم توانست یک پشتیبان را بازگردانی کنم.</string>
     <string name="registration_activity__skip">پرش</string>
     <string name="BackupDialog_copied_to_clipboard">در حافظه موقت کپی شد</string>
     <string name="preferences_app_protection__screen_lock">قفل Session</string>

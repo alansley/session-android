@@ -423,8 +423,6 @@
     <string name="Permissions_permission_required">Engedély szükséges</string>
     <string name="Permissions_continue">Folytatás</string>
     <string name="Permissions_not_now">Most nem</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">A biztonsági mentések külső tárolóra lesznek mentve, és az alábbi jelmondattal lesznek titkosítva. Ezt a jelmondatot kell megadnod a biztonsági mentés visszaállításához.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Feljegyeztem ezt a jelmondatot. Enélkül nem leszek képes visszaállítani biztonsági mentést.</string>
     <string name="registration_activity__skip">Kihagyás</string>
     <string name="BackupDialog_copied_to_clipboard">Vágólapra másolva</string>
     <string name="preferences_app_protection__screen_lock">Képernyőzár</string>

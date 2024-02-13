@@ -429,8 +429,6 @@
     <string name="Permissions_permission_required">Անհրաժեշտ է թույլտվություն</string>
     <string name="Permissions_continue">Շարունակել</string>
     <string name="Permissions_not_now">Ոչ հիմա</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Կրկնօրինակները կպահվեն արտաքին պահեստում և կգաղտնագրվեն ստորև գրված գաղտնաբառով. Կրկնօրինակը վերականգնելու համար դուք պետք է ունենաք այս գաղտնաբառը.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ես գրել եմ այս գաղտնաբառը. Առանց դրա, ես չեմ կարողանա վերականգնել կրկնօրինակը.</string>
     <string name="registration_activity__skip">Բաց թողնել</string>
     <string name="BackupDialog_copied_to_clipboard">Պատճենվել է կցարանում</string>
     <string name="preferences_app_protection__screen_lock">Էկրանային կողպում</string>

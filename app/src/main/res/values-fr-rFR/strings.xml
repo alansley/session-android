@@ -446,8 +446,6 @@
     <string name="Permissions_permission_required">Permission exigée</string>
     <string name="Permissions_continue">Continuer</string>
     <string name="Permissions_not_now">Pas maintenant</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Les sauvegardes sont enregistrées dans la mémoire externe et chiffrées avec la phrase de passe ci-dessous. Vous devez avoir cette phrase de passe afin de restaurer la sauvegarde.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">J’ai pris cette phrase de passe par écrit. Sans elle, je ne pourrai pas restaurer une sauvegarde.</string>
     <string name="registration_activity__skip">Ignorer</string>
     <string name="BackupDialog_copied_to_clipboard">Copié dans le presse-papiers</string>
     <string name="preferences_app_protection__screen_lock">Verrouiller Session</string>

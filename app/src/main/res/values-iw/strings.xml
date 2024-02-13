@@ -435,8 +435,6 @@
     <string name="Permissions_permission_required">דרושה הרשאה</string>
     <string name="Permissions_continue">המשך</string>
     <string name="Permissions_not_now">לא עכשיו</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">גיבויים יישמרו בהתקן חיצוני ויוצפנו עם משפט־הסיסמה למטה. חייב להיות לך משפט־סיסמה זה על מנת לשחזר גיבוי.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">כתבתי משפט־סיסמה זה. בלעדיו, לא אוכל לשחזר גיבוי.</string>
     <string name="registration_activity__skip">דלג</string>
     <string name="BackupDialog_copied_to_clipboard">הועתק ללוח</string>
     <string name="preferences_app_protection__screen_lock">נעילת מסך</string>

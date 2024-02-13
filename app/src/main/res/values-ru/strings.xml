@@ -446,8 +446,6 @@
     <string name="Permissions_permission_required">Требуется разрешение</string>
     <string name="Permissions_continue">Продолжить</string>
     <string name="Permissions_not_now">Не сейчас</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервные копии будут сохранены во внешнем хранилище и зашифрованы с помощью парольной фразы. Для восстановления резервной копии у вас должна быть эта фраза.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записал эту парольную фразу. Без нее я не смогу восстановить резервную копию.</string>
     <string name="registration_activity__skip">Пропустить</string>
     <string name="BackupDialog_copied_to_clipboard">Скопировано в буфер</string>
     <string name="preferences_app_protection__screen_lock">Блокировка экрана</string>

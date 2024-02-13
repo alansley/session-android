@@ -382,8 +382,6 @@
     <string name="Permissions_permission_required">ទាមទារការអនុញ្ញាត</string>
     <string name="Permissions_continue">បន្ត</string>
     <string name="Permissions_not_now">ពេលក្រោយ</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">ការបម្រុងទុក នឹងត្រូវរក្សាទុកនៅលើអង្គរក្សាទុកខាងក្រៅ និងកូដនីយកម្មជាមួយឃ្លាសម្ងាត់ខាងក្រោម។ អ្នកត្រូវមានឃ្លាសម្ងាត់នេះដើម្បីស្តារការបម្រុងទុកឡើងវិញ។</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">ខ្ញុំបានកត់ឃ្លាសម្ងាត់ទុកហើយ។ បើគ្មានវា ខ្ញុំនឹងមិនអាចស្តារការបម្រុងទុកបានទេ។</string>
     <string name="registration_activity__skip">រំលង</string>
     <string name="BackupDialog_copied_to_clipboard">បានចម្លងទៅ clipboard</string>
     <string name="preferences_app_protection__screen_lock">ចាក់សោរអេក្រង់</string>

@@ -384,8 +384,6 @@
     <string name="Permissions_permission_required">అనుమతి అవసరం</string>
     <string name="Permissions_continue">కొనసాగించు</string>
     <string name="Permissions_not_now">ఇప్పుడు కాదు</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">బ్యాకప్ బాహ్య నిల్వకి సేవ్ చేయబడుతుంది మరియు పాస్ఫ్రేజ్తో గుప్తీకరించబడుతుంది. బ్యాకప్ను పునరుద్ధరించడానికి మీరు తప్పనిసరిగా ఈ పాస్ఫ్రేజ్ను కలిగి ఉండాలి.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">నేను ఈ పాస్ఫ్రేజ్ని వ్రాశాను. ఇది లేకుండా, నేను ఒక బ్యాకప్ పునరుద్ధరించడానికి సాధ్యం కాదు.</string>
     <string name="registration_activity__skip">వదిలివేయి</string>
     <string name="BackupDialog_copied_to_clipboard">క్లిప్బోర్డ్కు కాపీ చేయబడింది</string>
     <string name="preferences_app_protection__screen_lock">స్క్రీన్ తాళం</string>

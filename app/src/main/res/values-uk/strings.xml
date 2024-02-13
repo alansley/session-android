@@ -447,8 +447,6 @@
     <string name="Permissions_permission_required">Необхідний дозвіл</string>
     <string name="Permissions_continue">Продовжити</string>
     <string name="Permissions_not_now">Не зараз</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервна копія буду збережена у зовнішньому сховищі та зашифрована за допомогою наведеної нижче фрази-паролю. Ви повинні використати її для відновлення резервної копії.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записав цю фразу-пароль. Без неї я не зможу відновити резервну копію.</string>
     <string name="registration_activity__skip">Пропустити</string>
     <string name="BackupDialog_copied_to_clipboard">Скопійовано до буфера обміну</string>
     <string name="preferences_app_protection__screen_lock">Блокування екрану</string>

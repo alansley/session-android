@@ -390,8 +390,6 @@
     <string name="Permissions_permission_required">Luba on vajalik</string>
     <string name="Permissions_continue">Jätka</string>
     <string name="Permissions_not_now">Mitte praegu</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Varundused salvestatakse välismällu ja krüptitakse valitud salaväljendiga. Sul peab see salaväljend olemas olema, et taastada antud varundust.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ma olen salaväljendi üles kirjutanud. Ilma selleta ei saa ma varundust taastada.</string>
     <string name="registration_activity__skip">Jäta vahele</string>
     <string name="BackupDialog_copied_to_clipboard">Lõikelauale kopeeritud</string>
     <string name="preferences_app_protection__screen_lock">Ekraanilukk</string>

@@ -444,8 +444,6 @@
     <string name="Permissions_permission_required">Vyžadovaná oprávnění</string>
     <string name="Permissions_continue">Pokračovat</string>
     <string name="Permissions_not_now">Teď ne</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Zálohy budou uloženy na externí úložiště a zašifrovány níže uvedeným heslem. Toto heslo musíte znát abyste mohli zálohy obnovit.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Heslo jsem si zapsal. Bez něj nebudu schopen obnovit data ze zálohy.</string>
     <string name="registration_activity__skip">Přeskočit</string>
     <string name="BackupDialog_copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="preferences_app_protection__screen_lock">Zámek obrazovky</string>
