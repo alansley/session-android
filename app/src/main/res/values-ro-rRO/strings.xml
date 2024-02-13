@@ -184,8 +184,6 @@
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Primit mesajul conform caruia
 schimbul de chei este corupt </string>
-    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">Mesaj de schimb de chei primit pentru o versiune de protocol invalidă.
-    </string>
     <string name="SmsMessageRecord_duplicate_message">Mesaj duplicat.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupul a fost actualizat</string>

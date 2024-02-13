@@ -331,8 +331,6 @@
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Received corrupted key
         exchange message!
     </string>
-    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">        Received key exchange message for invalid protocol version.
-    </string>
     <string name="SmsMessageRecord_duplicate_message">Duplicate message.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Group updated</string>
