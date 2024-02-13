@@ -193,7 +193,6 @@
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Otrzymano uszkodzony klucz!</string>
     <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Otrzymano wiadomość z nowym numerem bezpieczeństwa. Dotknij, aby przetworzyć i wyświetlić.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Zresetowałeś(aś) bezpieczną sesję.</string>
     <string name="SmsMessageRecord_duplicate_message">Duplikuj wiadomość.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupa zaktualizowana</string>

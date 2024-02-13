@@ -151,7 +151,6 @@
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">받은 키 교환 메시지가 손상되었습니다.</string>
     <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">새 안전번호가 담긴 메시지를 수신했습니다. 두드려서 표시와 처리를 시작하십시오.</string>
-    <string name="SmsMessageRecord_secure_session_reset">당신은 안전 세션을 초기화 했습니다.</string>
     <string name="SmsMessageRecord_duplicate_message">중복된 메시지</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">그룹이 갱신되었습니다</string>

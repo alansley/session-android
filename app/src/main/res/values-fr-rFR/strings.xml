@@ -181,7 +181,6 @@
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Vous avez reçu un message d’échange de clés corrompu !</string>
     <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">        Le message d\'échange de clé reçu est pour une version du protocole invalide.    </string>
     <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Vous avez reçu un message avec un nouveau numéro de sécurité. Touchez pour le traiter et l’afficher.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Vous avez réinitialisé la session sécurisée.</string>
     <string name="SmsMessageRecord_duplicate_message">Message en double.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Le groupe a été mis à jour</string>
