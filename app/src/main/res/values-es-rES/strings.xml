@@ -426,7 +426,6 @@ de intercambio de claves!</string>
     <string name="registration_activity__skip">Omitir</string>
     <string name="RegistrationActivity_backup_failure_downgrade">No se pueden importar copias de seguridad de versiones más recientes de Session</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">La clave de la copia de seguridad es incorrecta</string>
-    <string name="BackupDialog_enable_local_backups">¿Activar copias de seguridad locales?</string>
     <string name="BackupDialog_copied_to_clipboard">Copiado al portapapeles</string>
     <string name="preferences_app_protection__screen_lock">Bloqueo de pantalla</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Bloquea el acceso a Session con el código de bloqueo de Android o la huella dactilar.</string>
