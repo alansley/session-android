@@ -428,7 +428,6 @@
     <string name="RegistrationActivity_backup_failure_downgrade">Kan geen back-ups importeren uit nieuwere versies van Session</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">Verkeerd back-upwachtwoord</string>
     <string name="BackupDialog_enable_local_backups">Session back-ups laten maken?</string>
-    <string name="BackupDialog_enable_backups">Back-ups inschakelen</string>
     <string name="BackupDialog_copied_to_clipboard">Gekopieerd naar klembord</string>
     <string name="preferences_app_protection__screen_lock">Schermvergrendeling</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Vergrendel Session met de Android-schermvergrendeling of vingerafdruk.</string>

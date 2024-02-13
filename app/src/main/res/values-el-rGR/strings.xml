@@ -428,7 +428,6 @@
     <string name="RegistrationActivity_backup_failure_downgrade">Δεν μπορούμε να εισάγουμε αντίγραφα ασφαλείας από νεότερες εκδόσεις του Session</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">Λάθος φράση-κλειδί αντίγραφου ασφαλείας</string>
     <string name="BackupDialog_enable_local_backups">Ενεργοποίηση τοπικών αντίγραφων ασφαλείας;</string>
-    <string name="BackupDialog_enable_backups">Ενεργοποίηση αντίγραφων ασφαλείας</string>
     <string name="BackupDialog_copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
     <string name="preferences_app_protection__screen_lock">Κλείδωμα οθόνης</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Κλείδωμα της πρόσβασης στο Session με την οθόνη κλειδώματος του Android ή με δακτυλικό αποτύπωμα</string>
