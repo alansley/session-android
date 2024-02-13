@@ -430,7 +430,6 @@
     <string name="BackupDialog_enable_local_backups">Session back-ups laten maken?</string>
     <string name="BackupDialog_enable_backups">Back-ups inschakelen</string>
     <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Verklaar dat je het begrijpt door het selectievakje aan te vinken.</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Als je Signal niet langer back-ups wilt laten maken, dan zal Signal ook alle bestaande back-ups van /Session/Backups wissen, om er zeker van te zijn dat er geen oude gesprekken op je apparaat achterblijven.</string>
     <string name="BackupDialog_copied_to_clipboard">Gekopieerd naar klembord</string>
     <string name="preferences_app_protection__screen_lock">Schermvergrendeling</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Vergrendel Session met de Android-schermvergrendeling of vingerafdruk.</string>
