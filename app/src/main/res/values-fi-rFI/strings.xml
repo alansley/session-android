@@ -424,7 +424,6 @@ on viallinen!</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Olen kirjoittanut ylös tämän salalauseen. Ilman sitä, en pysty palauttamaan varmuuskopiota.</string>
     <string name="registration_activity__skip">Ohita</string>
     <string name="RegistrationActivity_backup_failure_downgrade">Varmuuskopioita ei voida tuoda Sessionin uudemmista versioista</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Virheellinen varmuuskopion salalause</string>
     <string name="BackupDialog_copied_to_clipboard">Kopioitu leikepöydälle</string>
     <string name="preferences_app_protection__screen_lock">Näytön lukitus</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lukitse Session Androidin näytön lukituksella tai sormenjäljellä</string>

@@ -366,7 +366,6 @@
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">การสำรองข้อมูลจะถูกบันทึกไว้ที่ที่เก็บข้อมูลภายนอกและถูกเข้ารหัสด้วยวลีรหัสผ่านด้านล่างนี้ คุณจะต้องใช้วลีรหัสผ่านนี้เพื่อคืนค่าสำรองข้อมูล</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">ฉันได้จดบันทึกวลีรหัสผ่านนี้แล้ว หากจำไม่ได้ ฉันจะไม่สามารถคืนค่าสำรองข้อมูลได้</string>
     <string name="registration_activity__skip">ข้าม</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">วลีรหัสผ่านของการสำรองข้อมูลไม่ถูกต้อง</string>
     <string name="BackupDialog_copied_to_clipboard">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
     <string name="preferences_app_protection__screen_lock">ล็อกหน้าจอ</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">ล็อกการเข้าถึง Session ด้วยการล็อกหน้าจอของ Android หรือลายนิ้วมือ</string>

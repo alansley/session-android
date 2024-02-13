@@ -413,7 +413,6 @@
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已记下此密码。如果没有该密码，我将无法恢复备份。</string>
     <string name="registration_activity__skip">略过</string>
     <string name="RegistrationActivity_backup_failure_downgrade">不能导入来自新版本的 Session 备份。</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">备份密码错误</string>
     <string name="BackupDialog_copied_to_clipboard">已复制到剪切板</string>
     <string name="preferences_app_protection__screen_lock">锁屏</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">使用 Android 锁屏或者指纹锁定 Session</string>

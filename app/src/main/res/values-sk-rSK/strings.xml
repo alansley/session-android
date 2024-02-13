@@ -441,7 +441,6 @@ výmeny kľúčov.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Heslo som si zapísal/a, bez hesla nebudem schopný/á obnoviť zálohy.</string>
     <string name="registration_activity__skip">Preskočiť</string>
     <string name="RegistrationActivity_backup_failure_downgrade">Zálohy z novšej verzie Session sa nedajú importovať.</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Nesprávne heslo pre zálohy</string>
     <string name="BackupDialog_copied_to_clipboard">Skopírované do schránky</string>
     <string name="preferences_app_protection__screen_lock">Zámok obrazovky</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Uzamknúť Session pomocou zámku obrazovky Androidu alebo odtlačkom prstu</string>

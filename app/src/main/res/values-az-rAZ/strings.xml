@@ -426,7 +426,6 @@
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Bu parolu özümdə qeyd olaraq saxladım. Bu parol olmadan, nüsxəni bərpa edə bilmərəm.</string>
     <string name="registration_activity__skip">Ötür</string>
     <string name="RegistrationActivity_backup_failure_downgrade">Session-ın yeni versiyalarından nüsxələr idxal edə bilmir</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Nüsxə parolu yanlışdır</string>
     <string name="BackupDialog_copied_to_clipboard">Lövhəyə kopyalandı</string>
     <string name="preferences_app_protection__screen_lock">Ekran kilidi</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Android ekran kilidi və ya barmaq izi ilə Session-a müraciəti kilidlə</string>

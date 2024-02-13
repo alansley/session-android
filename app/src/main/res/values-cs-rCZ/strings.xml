@@ -448,7 +448,6 @@
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Heslo jsem si zapsal. Bez něj nebudu schopen obnovit data ze zálohy.</string>
     <string name="registration_activity__skip">Přeskočit</string>
     <string name="RegistrationActivity_backup_failure_downgrade">Nemohu naimportovat zálohy z novější verze aplikace Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Chybné heslo k záloze</string>
     <string name="BackupDialog_copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="preferences_app_protection__screen_lock">Zámek obrazovky</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Zamknout přístup k Sessionu zámkem obrazovky Androidu nebo otiskem prstu.</string>

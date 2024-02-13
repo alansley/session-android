@@ -444,7 +444,6 @@
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Aš užsirašiau šią slaptafrazę. Be jos aš negalėsiu atkurti atsarginės kopijos.</string>
     <string name="registration_activity__skip">Praleisti</string>
     <string name="RegistrationActivity_backup_failure_downgrade">Nepavyksta importuoti atsarginių kopijų iš naujesnių Session versijų</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Neteisinga atsarginės kopijos slaptafrazė</string>
     <string name="BackupDialog_copied_to_clipboard">Nukopijuota į iškarpinę</string>
     <string name="preferences_app_protection__screen_lock">Ekrano užraktas</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Užrakinti prieigą prie Session, naudojant „Android“ ekrano užraktą ar piršto atspaudą</string>

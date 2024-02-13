@@ -426,7 +426,6 @@
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ik heb dit wachtwoord opgeschreven. Zonder dit wachtwoord kan ik deze back-up niet terugzetten.</string>
     <string name="registration_activity__skip">Overslaan</string>
     <string name="RegistrationActivity_backup_failure_downgrade">Kan geen back-ups importeren uit nieuwere versies van Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Verkeerd back-upwachtwoord</string>
     <string name="BackupDialog_copied_to_clipboard">Gekopieerd naar klembord</string>
     <string name="preferences_app_protection__screen_lock">Schermvergrendeling</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Vergrendel Session met de Android-schermvergrendeling of vingerafdruk.</string>

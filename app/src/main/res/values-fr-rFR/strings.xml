@@ -450,7 +450,6 @@
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">J’ai pris cette phrase de passe par écrit. Sans elle, je ne pourrai pas restaurer une sauvegarde.</string>
     <string name="registration_activity__skip">Ignorer</string>
     <string name="RegistrationActivity_backup_failure_downgrade">Impossible d’importer des sauvegardes de versions plus récentes de Session.</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">La phrase de passe de la sauvegarde est erronée</string>
     <string name="BackupDialog_copied_to_clipboard">Copié dans le presse-papiers</string>
     <string name="preferences_app_protection__screen_lock">Verrouiller Session</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Nécessite une empreinte digitale, un code PIN, un schéma ou un mot de passe pour déverrouiller Session.</string>
