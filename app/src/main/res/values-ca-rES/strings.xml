@@ -170,7 +170,6 @@
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">S\'ha rebut un missatge corromput
 d\'intercanvi de claus!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">S\'ha rebut un missatge amb un número de seguretat nou. Toqueu per processar-lo i mostrar-lo.</string>
     <string name="SmsMessageRecord_duplicate_message">Missatge duplicat.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">S\'ha actualitzat el grup</string>

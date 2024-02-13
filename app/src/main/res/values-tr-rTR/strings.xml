@@ -173,7 +173,6 @@
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Bozulmuş anahtar takas
 iletisi alındı!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Yeni güvenlik numarası ile ileti alındı. İşlemek ve görüntülemek için dokunun.</string>
     <string name="SmsMessageRecord_duplicate_message">Tekrarlanan ileti.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grup güncellendi</string>
