@@ -471,7 +471,6 @@
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">يتم حفظ النسخ الاحتياطية إلى سعة التخزين مشفرة بالعبارة السرية التالية، ومن الضروري حفظها من أجل استعادة قاعدة البيانات.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">قمت بتدوين العبارة السرية، ولا يمكنني استعادة قاعدة البيانات بدونها.</string>
     <string name="registration_activity__skip">تخطى</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">لا يمكن استيراد النسخ الاحتياطية من الإصدارات الأحدث</string>
     <string name="BackupDialog_copied_to_clipboard">نسخ إلى الحافظة</string>
     <string name="preferences_app_protection__screen_lock">قفل الشاشة</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">منع النفاذ إلى Session عبر تعيين قفل الشاشة أو بصمة الإصبع</string>

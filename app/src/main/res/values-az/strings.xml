@@ -425,7 +425,6 @@
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Nüsxələmələr xarici anbarda saxlanılacaq və aşağıdakı parolla şifrələnəcək. Bir nüsxəni bərpa etmək üçün bu parola sahib olmalısınız.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Bu parolu özümdə qeyd olaraq saxladım. Bu parol olmadan, nüsxəni bərpa edə bilmərəm.</string>
     <string name="registration_activity__skip">Ötür</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Session-ın yeni versiyalarından nüsxələr idxal edə bilmir</string>
     <string name="BackupDialog_copied_to_clipboard">Lövhəyə kopyalandı</string>
     <string name="preferences_app_protection__screen_lock">Ekran kilidi</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Android ekran kilidi və ya barmaq izi ilə Session-a müraciəti kilidlə</string>

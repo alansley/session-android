@@ -425,7 +425,6 @@
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Τα αντίγραφα ασφαλείας αποθηκεύονται στην εξωτερική μνήμη και κρυπτογραφούνται με την παρακάτω φράση-κλειδί. Πρέπει να γνωρίζετε αυτή τη φράση-κλειδί για να επανακτήσετε το αντίγραφο ασφαλείας.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Σημείωσα σε χαρτί αυτή τη φράση-κλειδί. Χωρίς αυτή, δε θα μπορέσω να επανακτήσω το αντίγραφο ασφαλείας.</string>
     <string name="registration_activity__skip">Παράλειψη</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Δεν μπορούμε να εισάγουμε αντίγραφα ασφαλείας από νεότερες εκδόσεις του Session</string>
     <string name="BackupDialog_copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
     <string name="preferences_app_protection__screen_lock">Κλείδωμα οθόνης</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Κλείδωμα της πρόσβασης στο Session με την οθόνη κλειδώματος του Android ή με δακτυλικό αποτύπωμα</string>

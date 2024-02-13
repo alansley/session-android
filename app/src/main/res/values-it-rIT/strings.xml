@@ -425,7 +425,6 @@ scambia un altro messaggio!</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">I backup verranno salvati nella memoria esterna e crittografati con la passphrase qui sotto. Sarà necessario avere questa passphrase per ripristinare il backup.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ho scritto questa passphrase. Senza di questa non sarò in grado di ripristinare il backup</string>
     <string name="registration_activity__skip">Salta</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Impossibile importare backup da versioni più recenti di Session</string>
     <string name="BackupDialog_copied_to_clipboard">Aggiunto agli appunti</string>
     <string name="preferences_app_protection__screen_lock">Blocco schermo</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Blocca l\'accesso a Session con il blocco schermo di Android o la tua impronta digitale</string>

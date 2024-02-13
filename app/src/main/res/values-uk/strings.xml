@@ -450,7 +450,6 @@
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервна копія буду збережена у зовнішньому сховищі та зашифрована за допомогою наведеної нижче фрази-паролю. Ви повинні використати її для відновлення резервної копії.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записав цю фразу-пароль. Без неї я не зможу відновити резервну копію.</string>
     <string name="registration_activity__skip">Пропустити</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Неможливо імпортувати резервні копії з новіших версій Session</string>
     <string name="BackupDialog_copied_to_clipboard">Скопійовано до буфера обміну</string>
     <string name="preferences_app_protection__screen_lock">Блокування екрану</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Заблокувати доступ до Session через налаштування Андроїд</string>

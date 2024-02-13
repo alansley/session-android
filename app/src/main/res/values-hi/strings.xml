@@ -424,7 +424,6 @@
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">बैकअप को बाहरी स्टोरेज में सहेजा जाएगा और नीचे पासफ्रेज से एन्क्रिप्ट किया जाएगा। बैकअप को पुनर्स्थापित करने के लिए आपके पास यह पासफ्रेज़ होना चाहिए।</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">मैंने इस पासफ्रेज को लिखा है। इसके बिना, मैं बैकअप को पुनर्स्थापित करने में असमर्थ हूं।</string>
     <string name="registration_activity__skip">छोड़ दे </string>
-    <string name="RegistrationActivity_backup_failure_downgrade">सेशन के नए वर्जन से बैकअप लाने में असमर्थ</string>
     <string name="BackupDialog_copied_to_clipboard">क्लिपबोर्ड पर कॉपी किया गया है</string>
     <string name="preferences_app_protection__screen_lock">स्क्रीन लॉक</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">एंड्रॉइड स्क्रीन लॉक या फिंगरप्रिंट के साथ Session एक्सेस लॉक करें</string>
