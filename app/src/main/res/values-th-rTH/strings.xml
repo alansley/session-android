@@ -374,7 +374,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">ปิดใช้งานและลบการสำรองข้อมูลในเครื่องทั้งหมดหรือไม่</string>
     <string name="BackupDialog_delete_backups_statement">ลบการสำรองข้อมูล</string>
     <string name="BackupDialog_copied_to_clipboard">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
-    <string name="LocalBackupJob_creating_backup">กำลังสร้างการสำรองข้อมูล...</string>
     <string name="preferences_app_protection__screen_lock">ล็อกหน้าจอ</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">ล็อกการเข้าถึง Session ด้วยการล็อกหน้าจอของ Android หรือลายนิ้วมือ</string>
     <!-- Conversation activity -->

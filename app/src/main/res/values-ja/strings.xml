@@ -418,7 +418,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">すべてのローカルバックアップを削除して無効にしますか？</string>
     <string name="BackupDialog_delete_backups_statement">バックアップを削除</string>
     <string name="BackupDialog_copied_to_clipboard">クリップボードにコピーしました</string>
-    <string name="LocalBackupJob_creating_backup">バックアップを作成しています...</string>
     <string name="preferences_app_protection__screen_lock">画面ロック</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Sessionを画面ロックや指紋認証でロックする</string>
     <!-- Conversation activity -->

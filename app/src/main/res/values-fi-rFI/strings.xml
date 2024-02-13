@@ -432,7 +432,6 @@ on viallinen!</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Otetaanko paikalliset varmuuskopiot pois käytöstä ja poistetaanko ne?</string>
     <string name="BackupDialog_delete_backups_statement">Poista varmuuskopiot</string>
     <string name="BackupDialog_copied_to_clipboard">Kopioitu leikepöydälle</string>
-    <string name="LocalBackupJob_creating_backup">Luodaan varmuuskopiota...</string>
     <string name="preferences_app_protection__screen_lock">Näytön lukitus</string>
     <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lukitse Session Androidin näytön lukituksella tai sormenjäljellä</string>
     <!-- Conversation activity -->
