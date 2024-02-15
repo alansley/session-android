@@ -50,7 +50,7 @@ import org.session.libsignal.utilities.Log;
 import org.session.libsignal.utilities.Pair;
 import org.session.libsignal.utilities.guava.Optional;
 import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.contacts.ContactUtil;
+//import org.thoughtcrime.securesms.contacts.ContactUtil;
 import org.thoughtcrime.securesms.database.MessagingDatabase.MarkedMessageInfo;
 import org.thoughtcrime.securesms.database.helpers.SQLCipherOpenHelper;
 import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord;
@@ -835,10 +835,6 @@ public class ThreadDatabase extends Database {
   private @NonNull String getFormattedBodyFor(@NonNull MessageRecord messageRecord) {
     if (messageRecord.isMms()) {
       MmsMessageRecord record = (MmsMessageRecord) messageRecord;
-      if (record.getSharedContacts().size() > 0) {
-        Contact contact = ((MmsMessageRecord) messageRecord).getSharedContacts().get(0);
-        return ContactUtil.getStringSummary(context, contact).toString();
-      }
       String attachmentString = record.getSlideDeck().getBody();
       if (!attachmentString.isEmpty()) {
         if (!messageRecord.getBody().isEmpty()) {

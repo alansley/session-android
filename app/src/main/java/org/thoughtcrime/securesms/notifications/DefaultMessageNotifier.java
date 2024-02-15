@@ -46,7 +46,6 @@ import org.session.libsession.messaging.utilities.SessionId;
 import org.session.libsession.messaging.utilities.SodiumUtilities;
 import org.session.libsession.snode.SnodeAPI;
 import org.session.libsession.utilities.Address;
-import org.session.libsession.utilities.Contact;
 import org.session.libsession.utilities.ServiceUtil;
 import org.session.libsession.utilities.TextSecurePreferences;
 import org.session.libsession.utilities.recipients.Recipient;
@@ -54,7 +53,6 @@ import org.session.libsignal.utilities.IdPrefix;
 import org.session.libsignal.utilities.Log;
 import org.session.libsignal.utilities.Util;
 import org.thoughtcrime.securesms.ApplicationContext;
-import org.thoughtcrime.securesms.contacts.ContactUtil;
 import org.thoughtcrime.securesms.conversation.v2.ConversationActivityV2;
 import org.thoughtcrime.securesms.conversation.v2.utilities.MentionManagerUtilities;
 import org.thoughtcrime.securesms.conversation.v2.utilities.MentionUtilities;
@@ -488,9 +486,6 @@ public class DefaultMessageNotifier implements MessageNotifier {
         body = SpanUtil.italic(context.getString(R.string.message_requests_notification));
       } else if (KeyCachingService.isLocked(context)) {
         body = SpanUtil.italic(context.getString(R.string.MessageNotifier_locked_message));
-      } else if (record.isMms() && !((MmsMessageRecord) record).getSharedContacts().isEmpty()) {
-        Contact contact = ((MmsMessageRecord) record).getSharedContacts().get(0);
-        body = ContactUtil.getStringSummary(context, contact);
       } else if (record.isMms() && TextUtils.isEmpty(body) && !((MmsMessageRecord) record).getSlideDeck().getSlides().isEmpty()) {
         slideDeck = ((MediaMmsMessageRecord)record).getSlideDeck();
         body = SpanUtil.italic(slideDeck.getBody());
