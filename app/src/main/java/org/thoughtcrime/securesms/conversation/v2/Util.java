@@ -331,7 +331,7 @@ public class Util {
   }
 
   public static void writeTextToClipboard(@NonNull Context context, @NonNull String text) {
-    writeTextToClipboard(context, context.getString(R.string.app_name), text);
+    writeTextToClipboard(context, context.getString(R.string.sessionMessenger), text);
   }
 
   public static void writeTextToClipboard(@NonNull Context context, @NonNull String label, @NonNull String text) {
