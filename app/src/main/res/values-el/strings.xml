@@ -595,7 +595,7 @@
     <string name="activity_join_public_chat_scan_qr_code_tab_title">Σάρωση QR κωδικού</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Σαρώστε τον κωδικό QR της ανοικτής ομάδας που θα θέλατε να συμμετάσχετε</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Εισάγετε μια διεύθυνση ανοικτής ομάδας</string>
-    <string name="activity_settings_title">Ρυθμίσεις</string>
+    <string name="sessionSettings">Ρυθμίσεις</string>
     <string name="activity_settings_display_name_edit_text_hint">Εισάγετε ένα όνομα</string>
     <string name="activity_settings_display_name_missing_error">Παρακαλώ διαλέξτε ένα όνομα εμφάνισης</string>
     <string name="activity_settings_display_name_too_long_error">Παρακαλώ επιλέξτε ένα μικρότερο όνομα εμφάνισης</string>

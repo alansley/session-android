@@ -138,7 +138,7 @@
         <activity
             android:name="org.thoughtcrime.securesms.preferences.SettingsActivity"
             android:screenOrientation="portrait"
-            android:label="@string/activity_settings_title" />
+            android:label="@string/sessionSettings" />
         <activity
             android:name="org.thoughtcrime.securesms.home.PathActivity"
             android:screenOrientation="portrait" />

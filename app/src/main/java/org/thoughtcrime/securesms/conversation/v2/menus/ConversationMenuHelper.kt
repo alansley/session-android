@@ -189,7 +189,7 @@ object ConversationMenuHelper {
             context.showSessionDialog {
                 title(R.string.ConversationActivity_call_title)
                 text(R.string.ConversationActivity_call_prompt)
-                button(R.string.activity_settings_title, R.string.AccessibilityId_settings) {
+                button(R.string.sessionSettings, R.string.AccessibilityId_settings) {
                     Intent(context, PrivacySettingsActivity::class.java).let(context::startActivity)
                 }
                 cancelButton()

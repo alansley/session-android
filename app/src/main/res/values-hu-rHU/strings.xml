@@ -596,7 +596,7 @@
     <string name="activity_join_public_chat_scan_qr_code_tab_title">QR kód beolvasása</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Olvassa be annak a nyitott csoportnak a QR kódját, amelyhez csatlakozni szeretne</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Adjon meg egy nyilvános csoport URL-címét </string>
-    <string name="activity_settings_title">Beállítások</string>
+    <string name="sessionSettings">Beállítások</string>
     <string name="activity_settings_display_name_edit_text_hint">Írja be a megjelenítendő nevet</string>
     <string name="activity_settings_display_name_missing_error">Válasszon megjelenítési nevet</string>
     <string name="activity_settings_display_name_too_long_error">Válasszon rövidebb megjelenítési nevet</string>
