@@ -552,7 +552,6 @@
     <string name="view_seed_reminder_subtitle_2">点击并按住遮盖住的单词以显示您的恢复口令，请将它安全地存储以保护您的Session ID。</string>
     <string name="view_seed_reminder_subtitle_3">请确保将恢复口令存储在安全的地方</string>
     <string name="onionRoutingPath">路径</string>
-    <string name="activity_path_explanation">Session会通过其去中心化网络中的多个服务节点跳转消息以隐藏IP。以下国家是您目前的消息连接跳转服务节点所在地：</string>
     <string name="activity_path_device_row_title">您</string>
     <string name="activity_path_guard_node_row_title">入口节点</string>
     <string name="activity_path_service_node_row_title">服务节点</string>

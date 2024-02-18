@@ -754,7 +754,6 @@
     <string name="view_seed_reminder_subtitle_2">Tap and hold the redacted words to reveal your recovery phrase, then store it safely to secure your Session ID.</string>
     <string name="view_seed_reminder_subtitle_3">Make sure to store your recovery phrase in a safe place</string>
     <string name="onionRoutingPath">Path</string>
-    <string name="activity_path_explanation">Session hides your IP by bouncing your messages through several Service Nodes in Session\'s decentralized network. These are the countries your connection is currently being bounced through:</string>
     <string name="activity_path_device_row_title">You</string>
     <string name="activity_path_guard_node_row_title">Entry Node</string>
     <string name="activity_path_service_node_row_title">Service Node</string>
@@ -1044,5 +1043,6 @@
     <string name="activity_conversation_empty_state_default">You have no messages from <b>%s</b>.\nSend a message to start the conversation!</string>
 
     <string name="unread_marker">Unread Messages</string>
+    <string name="onionRoutingPathDescription">Session hides your IP by routing your messages through multiple service nodes in Session\'s decentralized network. This is your current path:</string>
 
 </resources>

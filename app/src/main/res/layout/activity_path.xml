@@ -17,7 +17,7 @@
         android:textColor="?android:textColorPrimary"
         android:alpha="0.6"
         android:textAlignment="center"
-        android:text="@string/activity_path_explanation" />
+        android:text="@string/onionRoutingPathDescription" />
 
     <RelativeLayout
         android:layout_width="match_parent"
