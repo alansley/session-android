@@ -371,7 +371,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="onionRoutingPath">Đường đi</string>
     <string name="activity_path_guard_node_row_title">Nút khởi đầu</string>
     <string name="activity_path_service_node_row_title">Nút Dịch vụ</string>
-    <string name="activity_path_destination_row_title">Điểm đến</string>
+    <string name="onionRoutingPathDestination">Điểm đến</string>
     <string name="activity_path_learn_more_button_title">Tìm hiểu thêm</string>
     <string name="activity_create_private_chat_title">Session mới</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Nhập Session ID</string>
