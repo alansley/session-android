@@ -219,7 +219,7 @@
     <string name="KeyCachingService_passphrase_cached">Sessionのロック解除</string>
     <string name="KeyCachingService_lock">Sessionをロック</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">あなた</string>
+    <string name="onionRoutingPathYou">あなた</string>
     <string name="MediaPreviewActivity_unssuported_media_type">サポートされないメディア種別</string>
     <string name="MediaPreviewActivity_draft">下書き</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Sessionが外部ストレージにデータを保存するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『ストレージ』へのアクセス許可を有効にしてください。</string>

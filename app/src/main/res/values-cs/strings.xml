@@ -251,7 +251,7 @@
     <string name="KeyCachingService_passphrase_cached">Session je odemčen</string>
     <string name="KeyCachingService_lock">Zamknout Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Vy</string>
+    <string name="onionRoutingPathYou">Vy</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nepodporovaný typ dat</string>
     <string name="MediaPreviewActivity_draft">Koncept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session potřebuje oprávnění pro přístup k úložišti aby mohl zapisovat do externího úložiště, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>

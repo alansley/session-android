@@ -228,7 +228,7 @@
     <string name="KeyCachingService_passphrase_cached">Session 已經解鎖</string>
     <string name="KeyCachingService_lock">鎖定 Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">您</string>
+    <string name="onionRoutingPathYou">您</string>
     <string name="MediaPreviewActivity_unssuported_media_type">不支援的媒體類型</string>
     <string name="MediaPreviewActivity_draft">草稿</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">會話需要儲存空間存取權才能保存到外部儲存空間，但它已被永久拒絕。 請前往變更權限，啟用「儲存空間」。</string>

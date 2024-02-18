@@ -253,7 +253,7 @@
     <string name="KeyCachingService_passphrase_cached">Session разблокирован</string>
     <string name="KeyCachingService_lock">Заблокировать Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Вы</string>
+    <string name="onionRoutingPathYou">Вы</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Неподдерживаемый тип медиафайла</string>
     <string name="MediaPreviewActivity_draft">Черновик</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Для сохранения во внешнее хранилище приложению Session требуется доступ к хранилищу, однако это разрешение было вами безвозвратно отклонено. Чтобы предоставить это разрешение вручную заново, перейдите в настройки вашего устройства в раздел «Приложения», найдите Session, выберите «Разрешения», и разрешите «Файлы и медиаконтент».</string>

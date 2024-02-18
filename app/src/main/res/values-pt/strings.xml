@@ -233,7 +233,7 @@
     <string name="KeyCachingService_passphrase_cached">Session está destrancado</string>
     <string name="KeyCachingService_lock">Trancar Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Você</string>
+    <string name="onionRoutingPathYou">Você</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Tipo de mídia não-suportado</string>
     <string name="MediaPreviewActivity_draft">Rascunho</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">O Session precisa de acesso ao armazenamento para poder salvar em um armazenamento externo, mas a permissão está sendo recusada. Por favor vá até as configurações, selecione \"Permissões\", e ative o \"Armazenamento\".</string>

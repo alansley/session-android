@@ -251,7 +251,7 @@
     <string name="KeyCachingService_passphrase_cached">Session jest odblokowany</string>
     <string name="KeyCachingService_lock">Zablokuj Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Ty</string>
+    <string name="onionRoutingPathYou">Ty</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nieobsługiwany typ multimediów</string>
     <string name="MediaPreviewActivity_draft">Szkic</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session wymaga pozwolenia na dostęp do danych telefonu w celu zapisu do pamięci zewnętrznej, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Przechowywanie\".</string>

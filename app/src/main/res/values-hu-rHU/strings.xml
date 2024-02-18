@@ -234,7 +234,7 @@
     <string name="KeyCachingService_passphrase_cached">Session feloldva</string>
     <string name="KeyCachingService_lock">Session zárolása</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Te</string>
+    <string name="onionRoutingPathYou">Te</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nem támogatott médiatípus</string>
     <string name="MediaPreviewActivity_draft">Piszkozat</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">A Session- nek szüksége van fájlhozzáférési engedélyekhez, hogy menteni tudjon külső tárhelyre. Kérlek, hogy a rendszerbeállításokban engedélyezd a \"fájlok és média\" opciót a Session számára.</string>

@@ -231,7 +231,7 @@ on viallinen!</string>
     <string name="KeyCachingService_passphrase_cached">Sessionin lukitus on auki</string>
     <string name="KeyCachingService_lock">Lukitse Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Sinä</string>
+    <string name="onionRoutingPathYou">Sinä</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Median tyyppiä ei tueta</string>
     <string name="MediaPreviewActivity_draft">Luonnos</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session tarvitsee luvan tallentaakseen ulkoiseen tallennustilaan, mutta se on pysyvästi kielletty. Jatka sovelluksen asetuksiin, valitse \"luvat\", ja käytä \"tallennustilaa\".</string>

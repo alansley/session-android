@@ -193,7 +193,7 @@
     <string name="KeyCachingService_signal_passphrase_cached">열려면 터치하세요.</string>
     <string name="KeyCachingService_passphrase_cached">Session 잠금 해제 됨</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">나</string>
+    <string name="onionRoutingPathYou">나</string>
     <string name="MediaPreviewActivity_unssuported_media_type">지원되지 않는 미디어 형식</string>
     <!-- MessageNotifier -->
     <string name="MessageNotifier_d_new_messages_in_d_conversations">대화 %2$d개에 새 메시지 %1$d개</string>

@@ -211,7 +211,7 @@
     <string name="KeyCachingService_passphrase_cached">Session on avatud</string>
     <string name="KeyCachingService_lock">Lukusta Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Sina</string>
+    <string name="onionRoutingPathYou">Sina</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Mittetoetatud meediatüüp</string>
     <string name="MediaPreviewActivity_draft">Mustand</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Õiguste puudumise tõttu pole võimalik välisele andmekandjale salvestada.</string>

@@ -233,7 +233,7 @@
     <string name="KeyCachingService_passphrase_cached">Το Session ξεκλειδώθηκε</string>
     <string name="KeyCachingService_lock">Κλείδωμα του Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Εσείς</string>
+    <string name="onionRoutingPathYou">Εσείς</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Μη υποστηριζόμενος τύπος πολυμέσων</string>
     <string name="MediaPreviewActivity_draft">Πρόχειρο</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να αποθηκεύσει στην εξωτερική μνήμη, αλλά αυτό έχει μόνιμα αποκλειστεί . Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\".</string>

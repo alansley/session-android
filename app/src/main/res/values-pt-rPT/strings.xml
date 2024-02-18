@@ -232,7 +232,7 @@ foi recebida está corrompida!</string>
     <string name="KeyCachingService_passphrase_cached">O Session está desbloqueado</string>
     <string name="KeyCachingService_lock">Bloquear Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Você</string>
+    <string name="onionRoutingPathYou">Você</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Tipo de multimédia não suportado</string>
     <string name="MediaPreviewActivity_draft">Rascunho</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">O Session requer permissão de acesso ao armazenamento para escrever no armazenamento externo, mas esta foi negada permanentemente. Por favor, aceda às definições da aplicação, selecione \"Permissões\" e ative \"Armazenamento\".</string>

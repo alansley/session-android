@@ -232,7 +232,7 @@ iletisi alındı!</string>
     <string name="KeyCachingService_passphrase_cached">Session kilidi açık</string>
     <string name="KeyCachingService_lock">Session\'i Kilitle</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Siz</string>
+    <string name="onionRoutingPathYou">Siz</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Desteklenmeyen medya türü</string>
     <string name="MediaPreviewActivity_draft">Taslak</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, harici depolamaya kaydetmek için depolama erişimine ihtiyaç duyuyor, ancak kalıcı olarak reddedildi. Lütfen uygulama ayarlarına girin, \"İzinler\"i seçin ve \"Depolama\" özelliğini etkinleştirin.</string>

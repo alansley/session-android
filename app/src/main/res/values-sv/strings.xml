@@ -232,7 +232,7 @@ för nyckelutbyte!</string>
     <string name="KeyCachingService_passphrase_cached">Session är olåst</string>
     <string name="KeyCachingService_lock">Lås Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Du</string>
+    <string name="onionRoutingPathYou">Du</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Mediatypen stöds ej</string>
     <string name="MediaPreviewActivity_draft">Utkast</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session behöver behörigheten Lagring för att spara till extern lagring men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>

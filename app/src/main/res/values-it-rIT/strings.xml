@@ -233,7 +233,7 @@ scambia un altro messaggio!</string>
     <string name="KeyCachingService_passphrase_cached">Session è sbloccato</string>
     <string name="KeyCachingService_lock">Blocca Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Tu</string>
+    <string name="onionRoutingPathYou">Tu</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Tipo di media non supportato</string>
     <string name="MediaPreviewActivity_draft">Bozza</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session richiede l\'autorizzazione per salvare in memoria, ma è stata negata in modo permanente. Si prega di proseguire alle impostazioni dell\'app, selezionare \"Autorizzazioni\", quindi abilitare \"Archiviazione\".</string>

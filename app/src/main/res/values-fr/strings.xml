@@ -239,7 +239,7 @@
     <string name="KeyCachingService_passphrase_cached">Session est déverrouillé</string>
     <string name="KeyCachingService_lock">Verrouiller Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Vous</string>
+    <string name="onionRoutingPathYou">Vous</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Type de médias non pris en charge</string>
     <string name="MediaPreviewActivity_draft">Brouillon</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">La session a besoin d\'un accès au stockage afin d\'enregistrer sur le stockage externe, mais cet accès a été refusé de manière permanente. Veuillez continuer dans les paramètres de l\'application, sélectionner « Permissions », et activer « Stockage ».</string>

@@ -233,7 +233,7 @@
     <string name="KeyCachingService_passphrase_cached">Session is ontgrendeld</string>
     <string name="KeyCachingService_lock">Vergrendel Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Jij</string>
+    <string name="onionRoutingPathYou">Jij</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Niet-ondersteund mediatype</string>
     <string name="MediaPreviewActivity_draft">Concept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session heeft toegang tot de camera nodig om een QR-code te scannen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Camera’ in.</string>

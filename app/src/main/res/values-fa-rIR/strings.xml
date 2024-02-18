@@ -238,7 +238,7 @@
     <string name="KeyCachingService_passphrase_cached">Session قفل شده است</string>
     <string name="KeyCachingService_lock">قفل Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">شما</string>
+    <string name="onionRoutingPathYou">شما</string>
     <string name="MediaPreviewActivity_unssuported_media_type">نوع رسانه پشتیبانی نشده</string>
     <string name="MediaPreviewActivity_draft">پیش نویس</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session برای ذخیره در حافظه‌ی خارجی نیاز به دسترسی به حافظه دارد اما این دسترسی به طور همیشگی رد شده است. لطفا به بخش برنامه در تنظیمات تلفن همراه خود رفته و پس از یافتن Session وارد بخش دسترسی ها شده و گزینه حافظه را فعال کنید.</string>

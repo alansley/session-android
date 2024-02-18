@@ -232,7 +232,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="KeyCachingService_passphrase_cached">Session er låst opp</string>
     <string name="KeyCachingService_lock">Lås Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Deg</string>
+    <string name="onionRoutingPathYou">Deg</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Ustøttet medietype</string>
     <string name="MediaPreviewActivity_draft">Utkast</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session trenger lagringstilgang for å lagre til ekstern lagring, men den har blitt permanent nektet. Fortsett til appinnstillingene, velg «Tillatelser» og aktiver «Lagring».</string>

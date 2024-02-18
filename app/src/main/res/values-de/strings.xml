@@ -231,7 +231,7 @@
     <string name="KeyCachingService_passphrase_cached">Session ist entsperrt</string>
     <string name="KeyCachingService_lock">Session sperren</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Du</string>
+    <string name="onionRoutingPathYou">Du</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nicht unterstützter Medieninhaltetyp</string>
     <string name="MediaPreviewActivity_draft">Entwurf</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Die Sitzung benötigt Speicherzugriff, um auf einem externen Speicher zu speichern, aber dieser wurde dauerhaft verweigert. Gehe bitte zu den App-Einstellungen, wähle »Berechtigungen« und aktiviere »Speicher«.</string>

@@ -240,7 +240,7 @@
     <string name="KeyCachingService_passphrase_cached">Session је откључан</string>
     <string name="KeyCachingService_lock">Закључај Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Ви</string>
+    <string name="onionRoutingPathYou">Ви</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Неподржан тип медијума</string>
     <string name="MediaPreviewActivity_draft">Нацрт</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Сесија треба дозволу за складиште да сачува у спољашње складиште, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Складиште\".</string>

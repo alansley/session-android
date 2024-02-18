@@ -232,7 +232,7 @@
     <string name="KeyCachingService_passphrase_cached">Session खुला है </string>
     <string name="KeyCachingService_lock">Session पर ताला लगाओ</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">आप</string>
+    <string name="onionRoutingPathYou">आप</string>
     <string name="MediaPreviewActivity_unssuported_media_type">असमर्थित मीडिया प्रकार</string>
     <string name="MediaPreviewActivity_draft">प्रारूप</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">बाहरी भंडारण को सहेजने के लिए Session को स्टोरेज अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"संग्रहण\" सक्षम करें।</string>

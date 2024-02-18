@@ -222,7 +222,7 @@
     <string name="KeyCachingService_passphrase_cached"> Session 已解锁</string>
     <string name="KeyCachingService_lock">锁定 Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">您</string>
+    <string name="onionRoutingPathYou">您</string>
     <string name="MediaPreviewActivity_unssuported_media_type">不支持的媒体类型</string>
     <string name="MediaPreviewActivity_draft">草稿</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session 需要存储权限以写入外部存储，但是该权限已经被永久拒绝。请进入应用程序设置，点击权限，并启用“存储”。</string>

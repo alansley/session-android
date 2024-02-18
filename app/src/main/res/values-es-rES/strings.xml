@@ -232,7 +232,7 @@ de intercambio de claves!</string>
     <string name="KeyCachingService_passphrase_cached">Session está desbloqueado</string>
     <string name="KeyCachingService_lock">Bloquear Session</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Tú</string>
+    <string name="onionRoutingPathYou">Tú</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Formato de contenido incompatible</string>
     <string name="MediaPreviewActivity_draft">Borrador</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">La sesión necesita acceso de almacenamiento para guardar en el almacenamiento externo, pero se ha denegado permanentemente. Por favor, continúe con la configuración de la aplicación, seleccione \"Permisos\" y active \"Almacenar\".</string>

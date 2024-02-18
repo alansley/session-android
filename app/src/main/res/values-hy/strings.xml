@@ -240,7 +240,7 @@
     <string name="KeyCachingService_passphrase_cached">Session֊ը ապակողպված է</string>
     <string name="KeyCachingService_lock">Արգելափակել Session֊ը</string>
     <!-- MediaPreviewActivity -->
-    <string name="MediaPreviewActivity_you">Դուք</string>
+    <string name="onionRoutingPathYou">Դուք</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Մեդիաֆայլի չաջակցվող տեսակ</string>
     <string name="MediaPreviewActivity_draft">Սևագիր</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session֊ին պետք են հիշողությունից օգտվելու թույլտվությունները ֆայլեր ստեղծելու համար, բայց այն արգելված է։ Բացեք ծրագրի կարգավորումներն ու ընտրեք «Թույլտվություններ»֊ը, ապա միացրեք «Հիշողություն» թույլտվությունը։</string>
