@@ -563,7 +563,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="view_seed_reminder_subtitle_1">Sikre kontoen din ved å lagre din gjenopprettingsfrase</string>
     <string name="view_seed_reminder_subtitle_2">Trykk og hold inne de overflødige ordene for å hente gjenopprettingsfrasen din, og lagre den trygt å sikre din Session-ID.</string>
     <string name="view_seed_reminder_subtitle_3">Pass på å lagre gjenopprettingsfrasen på et sikkert sted</string>
-    <string name="activity_path_title">Bane</string>
+    <string name="onionRoutingPath">Bane</string>
     <string name="activity_path_explanation">Session skjuler din IP ved å laste ned meldingene dine gjennom flere Service Noder i Sessions desentraliserte nettverk. Disse er landene som koblingen din for øyeblikket blir kontaktet gjennom:</string>
     <string name="activity_path_device_row_title">Du</string>
     <string name="activity_path_guard_node_row_title">Enhetens node</string>

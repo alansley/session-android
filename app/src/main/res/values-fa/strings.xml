@@ -563,7 +563,7 @@
     <string name="view_seed_reminder_subtitle_1">با ذخیره کردن عبارت بازیابی، از حساب خود را محافظت کنید</string>
     <string name="view_seed_reminder_subtitle_2">برای فاش کردن عبارت بازیابی، بر روی کلمات redacted ضربه زده و نگه دارید، سپس با خیال راحت آن را ذخیره کنید تا از شناسه‌ی Session خود محافظت نمایید.</string>
     <string name="view_seed_reminder_subtitle_3">حتماً عبارت بازیابی خود را در مکانی امن ذخیره کنید</string>
-    <string name="activity_path_title">مسیر</string>
+    <string name="onionRoutingPath">مسیر</string>
     <string name="activity_path_explanation">اپ Session، ‌آی‌پی شما را با استفاده از فرستادن پیام‌های‌تان از طریق چندین سرویسِ گره در شبکه غیرمتمرکز Session مخفی می‌کند. اینها کشورهایی هستند که اتصال شما در حال حاضر از طریق آن فراخوانی می‌شوند:</string>
     <string name="activity_path_device_row_title">شما</string>
     <string name="activity_path_guard_node_row_title">گره ورودی</string>

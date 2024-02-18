@@ -564,7 +564,7 @@ scambia un altro messaggio!</string>
     <string name="view_seed_reminder_subtitle_1">Proteggi il tuo account salvando la frase di recupero</string>
     <string name="view_seed_reminder_subtitle_2">Tocca e tieni premute le parole redatte per rivelare la frase di recupero, salva in modo sicuro per proteggere il tuo ID Sessione.</string>
     <string name="view_seed_reminder_subtitle_3">Assicurati di salvare la frase di recupero in un luogo sicuro</string>
-    <string name="activity_path_title">Percorso</string>
+    <string name="onionRoutingPath">Percorso</string>
     <string name="activity_path_explanation">Session nasconde il tuo IP facendo rimbalzare i messaggi attraverso diversi nodi di servizio nella sua rete decentralizzata. Questi sono i paesi in cui la connessione viene rimbalzata attualmente:</string>
     <string name="activity_path_device_row_title">Tu</string>
     <string name="activity_path_guard_node_row_title">Nodo di entrata</string>

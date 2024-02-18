@@ -589,7 +589,7 @@
     <string name="view_seed_reminder_subtitle_1">Sécurisez votre compte en sauvegardant votre phrase de récupération</string>
     <string name="view_seed_reminder_subtitle_2">Appuyez et maintenez les mots masqués pour révéler votre phrase de récupération, puis stockez-la en toute sécurité pour sécuriser votre Session ID.</string>
     <string name="view_seed_reminder_subtitle_3">Assurez-vous de conserver votre phrase de récupération dans un endroit sûr</string>
-    <string name="activity_path_title">Chemin</string>
+    <string name="onionRoutingPath">Chemin</string>
     <string name="activity_path_explanation">Session occulte votre adresse IP en envoyant vos messages via plusieurs nœuds de service dans le réseau décentralisé de Session. Voici les pays par le biais desquels votre connexion est actuellement envoyée :</string>
     <string name="activity_path_device_row_title">Vous</string>
     <string name="activity_path_guard_node_row_title">Nœud d’entrée</string>

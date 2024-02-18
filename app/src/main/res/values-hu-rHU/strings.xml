@@ -565,7 +565,7 @@
     <string name="view_seed_reminder_subtitle_1">Biztosítsa fiókját a helyreállítási szöveg elmentésével</string>
     <string name="view_seed_reminder_subtitle_2">Érintse meg és tartsa lenyomva a szerkesztett szavakat, hogy felfedje a helyreállítási kifejezést, majd tárolja biztonságosan Session-azonosítója biztonsága érdekében.</string>
     <string name="view_seed_reminder_subtitle_3">Ügyeljen arra, hogy a helyreállítási szöveget biztonságos helyen tárolja</string>
-    <string name="activity_path_title">Útvonal</string>
+    <string name="onionRoutingPath">Útvonal</string>
     <string name="activity_path_explanation">A Session elrejti IP címét azzal, hogy az üzeneteket a Session decentralizált hálózatának több szolgáltatási csomópontján vezeti keresztül. Ezek azok az országok, ahol a kapcsolat jelenleg átmegy:</string>
     <string name="activity_path_device_row_title">Te</string>
     <string name="activity_path_guard_node_row_title">Belépési csomópont</string>

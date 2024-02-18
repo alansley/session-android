@@ -369,7 +369,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="view_seed_reminder_subtitle_1">Bảo vệ tài khoản của bạn bằng việc bảo vệ cụm từ khôi phục của bạn</string>
     <string name="view_seed_reminder_subtitle_2">Chạm và giữ cụm từ bị che để hiển thị cụm từ khôi phục của bạn, sau đó lưu nó cẩn thận để bảo vệ Session ID của bạn.</string>
     <string name="view_seed_reminder_subtitle_3">Hãy lưu cụm từ khôi phục của bạn ở một nơi an toàn</string>
-    <string name="activity_path_title">Đường đi</string>
+    <string name="onionRoutingPath">Đường đi</string>
     <string name="activity_path_explanation">Session ẩn IP của bạn bằng cách luân chuyển tin nhắn của bạn qua một số Nút Dịch vụ trong mạng lưới phân cấp của Session. Đây là các nước mà kết nối của bạn đang được luân chuyển: </string>
     <string name="activity_path_device_row_title">Bạn</string>
     <string name="activity_path_guard_node_row_title">Nút khởi đầu</string>

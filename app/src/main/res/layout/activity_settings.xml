@@ -147,7 +147,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_toEndOf="@+id/pathContainer"
-                        android:text="@string/activity_path_title" />
+                        android:text="@string/onionRoutingPath" />
                 </RelativeLayout>
 
                 <View

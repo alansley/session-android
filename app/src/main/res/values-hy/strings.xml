@@ -571,7 +571,7 @@
     <string name="view_seed_reminder_subtitle_1">Պահեք ձեր անվտանգությունը պահպանելով session-ի բանալին</string>
     <string name="view_seed_reminder_subtitle_2">Հպեք և պահեք տրված բառերը՝ ձեր վերականգնման բանալին գտնելու համար, այնուհետև պահեք այն ապահով՝ ձեր Session ID-ն ապահով պահելու համար.</string>
     <string name="view_seed_reminder_subtitle_3">Վստահ եղեք որ ձեր վերականգման բանալին հուսալի տեղում է</string>
-    <string name="activity_path_title">Ուղի</string>
+    <string name="onionRoutingPath">Ուղի</string>
     <string name="activity_path_explanation">Սեանսը թաքցնում է Ձեր IP հասցեն Ձեր հաղորդագրությունները տանելով Սեանսի ապահով ցանցերի Ծառայության Հանգույցներով։ Սրանք այն երկրներն են, որոնցով Ձեր հաղորդագրություններն անցնում են․</string>
     <string name="activity_path_device_row_title">Դուք</string>
     <string name="activity_path_guard_node_row_title">Մուտքային Հանգույց</string>

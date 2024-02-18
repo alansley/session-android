@@ -43,7 +43,7 @@ class PathActivity : PassphraseRequiredActionBarActivity() {
         super.onCreate(savedInstanceState, isReady)
         binding = ActivityPathBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        supportActionBar!!.title = resources.getString(R.string.activity_path_title)
+        supportActionBar!!.title = resources.getString(R.string.onionRoutingPath)
         binding.pathRowsContainer.disableClipping()
         binding.learnMoreButton.setOnClickListener { learnMore() }
         update(false)

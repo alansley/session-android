@@ -563,7 +563,7 @@ de intercambio de claves!</string>
     <string name="view_seed_reminder_subtitle_1">Protege tu cuenta guardando tu frase de recuperación</string>
     <string name="view_seed_reminder_subtitle_2">Toca y mantén presionadas las palabras redactadas para revelar tu frase de recuperación, después guárdala de manera segura para proteger tu ID de Session.</string>
     <string name="view_seed_reminder_subtitle_3">Asegúrate de guardar tu frase de recuperación en un lugar seguro</string>
-    <string name="activity_path_title">Ruta</string>
+    <string name="onionRoutingPath">Ruta</string>
     <string name="activity_path_explanation">Session oculta tu dirección IP haciendo rebotar tus mensajes a través de los Nodos de servicio de la red descentralizada de Session. Estos son los países por los que tu conexión está siendo rebotada actualmente.</string>
     <string name="activity_path_device_row_title">Tú</string>
     <string name="activity_path_guard_node_row_title">Nodo de Entrada</string>

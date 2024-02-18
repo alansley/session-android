@@ -588,7 +588,7 @@
     <string name="view_seed_reminder_subtitle_1">Защитите свой аккаунт, сохранив секретную фразу</string>
     <string name="view_seed_reminder_subtitle_2">Нажмите и удерживайте сокращенные слова, чтобы открыть секретную фразу, а затем сохраните ее в надежном месте, чтобы защитить свой Session ID.</string>
     <string name="view_seed_reminder_subtitle_3">Обязательно сохраните секретную фразу в надежном месте</string>
-    <string name="activity_path_title">Маршрут</string>
+    <string name="onionRoutingPath">Маршрут</string>
     <string name="activity_path_explanation">Session скрывает ваш IP, перенаправляя ваши сообщения через несколько сервисных узлов своей децентрализованной сети. Вот страны, через которые в данный момент проходит ваш сеанс связи:</string>
     <string name="activity_path_device_row_title">Вы</string>
     <string name="activity_path_guard_node_row_title">Узел входа</string>
