@@ -394,7 +394,6 @@ on viallinen!</string>
         <item quantity="other">%d tuntia</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Rivinvaihto lähettää</string>
     <string name="preferences__send_link_previews">Lähetä esikatselukuva linkeistä</string>
     <string name="preferences__screen_security">Näytön suojaus</string>
     <string name="sessionNotifications">Ilmoitukset</string>
@@ -431,9 +430,7 @@ on viallinen!</string>
     <string name="incognitoKeyboard">Yksityinen näppäimistö</string>
     <string name="preferences__read_receipts">Lukukuittaukset</string>
     <string name="preferences__typing_indicators">Kirjoitustilaindikaattori</string>
-    <string name="preferences__light_theme">Vaalea</string>
-    <string name="preferences__dark_theme">Tumma</string>
-    <string name="preferences_chats__message_trimming">Keskustelujen karsiminen</string>
+    <string name="conversationsMessageTrimming">Keskustelujen karsiminen</string>
     <string name="preferences_advanced__use_system_emoji">Käytä järjestelmän hymiöitä</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Ota Sessionin oletushymiöt pois käytöstä</string>
     <string name="preferences_notifications__messages">Viestit</string>
@@ -589,7 +586,6 @@ on viallinen!</string>
     <string name="activity_settings_devices_button_title">Laitteet</string>
     <string name="activity_settings_invite_button_title">Kutsu ystäviä</string>
     <string name="activity_settings_faq_button_title">UKK</string>
-    <string name="activity_settings_recovery_phrase_button_title">Palautuslauseke</string>
     <string name="activity_settings_clear_all_data_button_title">Tyhjennä tiedot</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Tyhjennä Tiedot Mukaan Lukien Verkko</string>
     <string name="activity_settings_help_translate_session">Auta meitä kääntämään Session</string>
@@ -632,7 +628,7 @@ on viallinen!</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Poista käyttäjä ryhmästä</string>
     <string name="activity_select_contacts_title">Valitse Yhteystiedot</string>
     <string name="view_reset_secure_session_done_message">Suojattu istunto alustettu</string>
-    <string name="dialog_ui_mode_title">Teema</string>
+    <string name="appearanceThemes">Teema</string>
     <string name="dialog_ui_mode_option_day">Päivä</string>
     <string name="dialog_ui_mode_option_night">Yö</string>
     <string name="dialog_ui_mode_option_system_default">Järjestelmän oletus</string>
@@ -647,7 +643,6 @@ on viallinen!</string>
     <string name="activity_backup_restore_passphrase">30-merkkinen pääsykoodi</string>
     <string name="activity_link_device_skip_prompt">Tämä kestää jonkin aikaa, haluaisitko ohittaa?</string>
     <string name="activity_link_device_link_device">Yhdistä laite</string>
-    <string name="activity_link_device_recovery_phrase">Palautusvirke</string>
     <string name="activity_link_device_scan_qr_code">Skannaa QR-koodi</string>
     <string name="activity_link_device_qr_message">Siirry asetuksiin → palautusvirke toisella laitteellasi näyttääksesi QR-koodisi.</string>
     <string name="activity_join_public_chat_join_rooms">Tai liity johonkin näistä…</string>
@@ -657,7 +652,6 @@ on viallinen!</string>
     <string name="activity_pn_mode_slow_mode">Hidastila</string>
     <string name="activity_pn_mode_fast_mode_explanation">Sinulle ilmoitetaan uusista viesteistä luotettavasti ja viivyttelemättä Applen ilmoituspalvelua käyttäen.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session tarkistaa taustalla ajoittain uudet viestit.</string>
-    <string name="fragment_recovery_phrase_title">Palautusvirke</string>
     <string name="activity_prompt_passphrase_session_locked">Session on lukittu</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Avaa napauttamalla</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Anna nimimerkki</string>

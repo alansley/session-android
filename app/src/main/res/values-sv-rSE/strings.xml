@@ -395,7 +395,6 @@ för nyckelutbyte!</string>
         <item quantity="other">%d timmar</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Entertangenten skickar</string>
     <string name="preferences__send_link_previews">Sicka länkförhandsvisning</string>
     <string name="preferences__screen_security">Skärmsäkerhet</string>
     <string name="sessionNotifications">Aviseringar</string>
@@ -432,9 +431,7 @@ för nyckelutbyte!</string>
     <string name="incognitoKeyboard">Inkognito-tangentbord</string>
     <string name="preferences__read_receipts">Läskvittenser</string>
     <string name="preferences__typing_indicators">Skrivindikatorer</string>
-    <string name="preferences__light_theme">Ljust</string>
-    <string name="preferences__dark_theme">Mörkt</string>
-    <string name="preferences_chats__message_trimming">Trimma meddelanden</string>
+    <string name="conversationsMessageTrimming">Trimma meddelanden</string>
     <string name="preferences_advanced__use_system_emoji">Använd systemets emojier</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inaktivera Sessions inbyggda emojier</string>
     <string name="preferences_notifications__messages">Meddelanden</string>
@@ -590,7 +587,6 @@ för nyckelutbyte!</string>
     <string name="activity_settings_devices_button_title">Enheter</string>
     <string name="activity_settings_invite_button_title">Bjud in en vän</string>
     <string name="activity_settings_faq_button_title">Vanliga frågor</string>
-    <string name="activity_settings_recovery_phrase_button_title">Återställningsfras</string>
     <string name="activity_settings_clear_all_data_button_title">Rensa data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Rensa data inklusive nätverk</string>
     <string name="activity_settings_help_translate_session">Hjälp oss att översätta Session</string>
@@ -633,7 +629,7 @@ för nyckelutbyte!</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Ta bort användare från grupp</string>
     <string name="activity_select_contacts_title">Välj Kontakter</string>
     <string name="view_reset_secure_session_done_message">Säker Session återställd</string>
-    <string name="dialog_ui_mode_title">Tema</string>
+    <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Dag</string>
     <string name="dialog_ui_mode_option_night">Natt</string>
     <string name="dialog_ui_mode_option_system_default">Systemets inställning</string>
@@ -648,7 +644,6 @@ för nyckelutbyte!</string>
     <string name="activity_backup_restore_passphrase">30-siffrig lösenfras</string>
     <string name="activity_link_device_skip_prompt">Detta tar ett tag, vill du hoppa över?</string>
     <string name="activity_link_device_link_device">Länka en enhet</string>
-    <string name="activity_link_device_recovery_phrase">Återställningsfras</string>
     <string name="activity_link_device_scan_qr_code">Skanna QR-kod</string>
     <string name="activity_link_device_qr_message">Navigera till Inställningar → Återställningsfras på din andra enhet för att visa din QR-kod.</string>
     <string name="activity_join_public_chat_join_rooms">Eller gå med i en av dessa…</string>
@@ -658,7 +653,6 @@ för nyckelutbyte!</string>
     <string name="activity_pn_mode_slow_mode">Långsamt läge</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session kommer då och då att leta efter nya meddelanden i bakgrunden.</string>
-    <string name="fragment_recovery_phrase_title">Återställningsfras</string>
     <string name="activity_prompt_passphrase_session_locked">Session är låst</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Tryck om du vill låsa upp</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Ange smeknamn</string>

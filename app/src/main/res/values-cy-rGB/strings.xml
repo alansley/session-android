@@ -413,7 +413,6 @@
         <item quantity="other">%d awr</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Pwyso Enter i anfon</string>
     <string name="preferences__send_link_previews">Anfon rhagolwg dolen</string>
     <string name="preferences__screen_security">Diogelu\'r sgrin</string>
     <string name="sessionNotifications">Hysbysiadau</string>
@@ -449,9 +448,7 @@
     <string name="incognitoKeyboard">Bysellfwrdd dirgel</string>
     <string name="preferences__read_receipts">Derbynebau darllen</string>
     <string name="preferences__typing_indicators">Dangosyddion Teipio</string>
-    <string name="preferences__light_theme">Golau</string>
-    <string name="preferences__dark_theme">Tywyll</string>
-    <string name="preferences_chats__message_trimming">Tocio sgyrsiau</string>
+    <string name="conversationsMessageTrimming">Tocio sgyrsiau</string>
     <string name="preferences_advanced__use_system_emoji">Defnyddio gwenogluniau\'r system</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Analluogi cefnogaeth gwenogluniau Session</string>
     <string name="preferences_notifications__messages">Negeseuon</string>

@@ -388,7 +388,6 @@
         <item quantity="other">%d horas</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Tecla Intro para enviar</string>
     <string name="preferences__send_link_previews">Enviar previsualizacións das ligazóns.</string>
     <string name="preferences__screen_security">Seguranza da pantalla</string>
     <string name="sessionNotifications">Notificacións</string>
@@ -424,9 +423,7 @@
     <string name="incognitoKeyboard">Teclado de incógnito</string>
     <string name="preferences__read_receipts">Confirmacións de lectura</string>
     <string name="preferences__typing_indicators">Indicador de escritura</string>
-    <string name="preferences__light_theme">Claro</string>
-    <string name="preferences__dark_theme">Escuro</string>
-    <string name="preferences_chats__message_trimming">Recorte das mensaxes</string>
+    <string name="conversationsMessageTrimming">Recorte das mensaxes</string>
     <string name="preferences_advanced__use_system_emoji">Utilizar sistema emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desactiva o soporte emoji integrado en Session</string>
     <string name="preferences_notifications__messages">Mensaxes</string>

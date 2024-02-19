@@ -383,7 +383,6 @@
         <item quantity="other">%d 小时</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">按下回车键发送</string>
     <string name="preferences__send_link_previews">发送链接预览</string>
     <string name="preferences__screen_security">屏幕安全性</string>
     <string name="sessionNotifications">通知</string>
@@ -420,9 +419,7 @@
     <string name="incognitoKeyboard">隐身键盘</string>
     <string name="preferences__read_receipts">已读回执</string>
     <string name="preferences__typing_indicators">“正在输入”提示</string>
-    <string name="preferences__light_theme">明亮</string>
-    <string name="preferences__dark_theme">黑暗</string>
-    <string name="preferences_chats__message_trimming">信息整理</string>
+    <string name="conversationsMessageTrimming">信息整理</string>
     <string name="preferences_advanced__use_system_emoji">使用系统表情符号</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">禁用 Session 内置的表情支持</string>
     <string name="preferences_notifications__messages">消息</string>
@@ -578,7 +575,6 @@
     <string name="activity_settings_devices_button_title">设备</string>
     <string name="activity_settings_invite_button_title">邀请朋友</string>
     <string name="activity_settings_faq_button_title">常见问题</string>
-    <string name="activity_settings_recovery_phrase_button_title">恢复口令</string>
     <string name="activity_settings_clear_all_data_button_title">清除数据</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">清除包括网络在内的数据</string>
     <string name="activity_settings_help_translate_session">帮助我们翻译 Session</string>
@@ -621,7 +617,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">从群组中移除用户</string>
     <string name="activity_select_contacts_title">选择联系人</string>
     <string name="view_reset_secure_session_done_message">安全会话重置完毕</string>
-    <string name="dialog_ui_mode_title">主题</string>
+    <string name="appearanceThemes">主题</string>
     <string name="dialog_ui_mode_option_day">白昼</string>
     <string name="dialog_ui_mode_option_night">夜间</string>
     <string name="dialog_ui_mode_option_system_default">系统默认</string>
@@ -636,7 +632,6 @@
     <string name="activity_backup_restore_passphrase">30位数的密码</string>
     <string name="activity_link_device_skip_prompt">这需要一点时间，您想要跳过吗？</string>
     <string name="activity_link_device_link_device">关联设备</string>
-    <string name="activity_link_device_recovery_phrase">恢复口令</string>
     <string name="activity_link_device_scan_qr_code">扫描二维码</string>
     <string name="activity_link_device_qr_message">在您的其他设备上导航到设置 -> 恢复口令以显示您的 QR 代码</string>
     <string name="activity_join_public_chat_join_rooms">或加入下列群组…</string>
@@ -646,7 +641,6 @@
     <string name="activity_pn_mode_slow_mode">慢速模式</string>
     <string name="activity_pn_mode_fast_mode_explanation">新消息将通过 Google 通知服务器即时可靠地发送</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session 将不时在后台获取新消息</string>
-    <string name="fragment_recovery_phrase_title">恢复口令</string>
     <string name="activity_prompt_passphrase_session_locked">Session 已锁定</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">点击解锁</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">输入昵称</string>

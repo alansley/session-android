@@ -373,7 +373,6 @@
         <item quantity="other">%d часа</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Клавишът Enter се използва за изпращане</string>
     <string name="preferences__send_link_previews">Изпращане на визуализации на връзката</string>
     <string name="preferences__screen_security">Сигурност на екрана</string>
     <string name="sessionNotifications">Известия</string>
@@ -410,9 +409,7 @@
     <string name="incognitoKeyboard">Тайна клавиатура</string>
     <string name="preferences__read_receipts">Потвърждения за прочитане</string>
     <string name="preferences__typing_indicators">Индикатори за писане</string>
-    <string name="preferences__light_theme">Светла</string>
-    <string name="preferences__dark_theme">Тъмна</string>
-    <string name="preferences_chats__message_trimming">Съкращаване на съобщенията</string>
+    <string name="conversationsMessageTrimming">Съкращаване на съобщенията</string>
     <string name="preferences_advanced__use_system_emoji">Използване на вградените emoji-та</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Деактивирай вградена в Session подръжка на emoji-та</string>
     <string name="preferences_notifications__messages">Съобщения</string>

@@ -403,7 +403,6 @@
         <item quantity="other">%d сати</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Ентер тастер шаље</string>
     <string name="preferences__screen_security">Безбедност екрана</string>
     <string name="sessionNotifications">Обавештавање</string>
     <string name="notificationsLedColor">Боја ЛЕД светла</string>
@@ -438,9 +437,7 @@
     <string name="preferences__default">Подразумеван</string>
     <string name="incognitoKeyboard">Инкогнито тастатура</string>
     <string name="preferences__read_receipts">Потврде читања</string>
-    <string name="preferences__light_theme">Светла</string>
-    <string name="preferences__dark_theme">Тамна</string>
-    <string name="preferences_chats__message_trimming">Скраћивање порука</string>
+    <string name="conversationsMessageTrimming">Скраћивање порука</string>
     <string name="preferences_advanced__use_system_emoji">Користи системски емоџи</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Искључи уграђене Session-ове емоџије</string>
     <string name="preferences_notifications__messages">Поруке</string>

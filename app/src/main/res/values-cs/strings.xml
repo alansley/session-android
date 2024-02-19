@@ -418,7 +418,6 @@
         <item quantity="other">%d hodin</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Klávesa Enter odesílá</string>
     <string name="preferences__send_link_previews">Odesílat náhledy odkazu</string>
     <string name="preferences__screen_security">Zabezpečení obrazovky</string>
     <string name="sessionNotifications">Upozornění</string>
@@ -455,9 +454,7 @@
     <string name="incognitoKeyboard">Inkognito klávesnice</string>
     <string name="preferences__read_receipts">Info o přečtení</string>
     <string name="preferences__typing_indicators">Indikátory psaní</string>
-    <string name="preferences__light_theme">Světlý</string>
-    <string name="preferences__dark_theme">Tmavý</string>
-    <string name="preferences_chats__message_trimming">Ořezávání práv</string>
+    <string name="conversationsMessageTrimming">Ořezávání práv</string>
     <string name="preferences_advanced__use_system_emoji">Použít systémové smajlíky</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Zakázat použití interních smajlíků aplikace Session </string>
     <string name="preferences_notifications__messages">Zprávy</string>
@@ -613,7 +610,6 @@
     <string name="activity_settings_devices_button_title">Zařízení</string>
     <string name="activity_settings_invite_button_title">Pozvat přítele</string>
     <string name="activity_settings_faq_button_title">Často kladené dotazy</string>
-    <string name="activity_settings_recovery_phrase_button_title">Fráze pro obnovení</string>
     <string name="activity_settings_clear_all_data_button_title">Vymazat data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Smazat data včetně sítě</string>
     <string name="activity_settings_help_translate_session">Pomozte nám přeložit Session</string>
@@ -656,7 +652,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">Odebrat uživatele ze skupiny</string>
     <string name="activity_select_contacts_title">Vyber kontakty</string>
     <string name="view_reset_secure_session_done_message">Zabezpečená relace byla obnovena</string>
-    <string name="dialog_ui_mode_title">Motiv</string>
+    <string name="appearanceThemes">Motiv</string>
     <string name="dialog_ui_mode_option_day">Den</string>
     <string name="dialog_ui_mode_option_night">Noc</string>
     <string name="dialog_ui_mode_option_system_default">Výchozí nastavení</string>
@@ -671,7 +667,6 @@
     <string name="activity_backup_restore_passphrase">Přístupové heslo o délce 30 čísel</string>
     <string name="activity_link_device_skip_prompt">Trvá to trochu déle, chcete přeskočit?</string>
     <string name="activity_link_device_link_device">Propojit zařízení</string>
-    <string name="activity_link_device_recovery_phrase">Fráze pro obnovení</string>
     <string name="activity_link_device_scan_qr_code">Naskenovat QR kód</string>
     <string name="activity_link_device_qr_message">Přejděte do Nastavení → Fráze pro obnovení na vašem dalším zařízení a zobrazte svůj QR kód.</string>
     <string name="activity_join_public_chat_join_rooms">Nebo se připojte k jedné z těchto…</string>
@@ -681,7 +676,6 @@
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
     <string name="activity_pn_mode_fast_mode_explanation">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session občas zkontroluje nové zprávy na pozadí.</string>
-    <string name="fragment_recovery_phrase_title">Fráze pro obnovení</string>
     <string name="activity_prompt_passphrase_session_locked">Session je zamčený</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Klepněte pro odemčení</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Zadej přezdívku</string>

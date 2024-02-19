@@ -395,7 +395,6 @@ de intercambio de claves!</string>
         <item quantity="other">%d horas</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Enviar al tocar «Intro»</string>
     <string name="preferences__send_link_previews">Enviar previsualizaciones</string>
     <string name="preferences__screen_security">Seguridad de pantalla</string>
     <string name="sessionNotifications">Notificaciones</string>
@@ -432,9 +431,7 @@ de intercambio de claves!</string>
     <string name="incognitoKeyboard">Teclado incógnito</string>
     <string name="preferences__read_receipts">Notificaciones de lectura</string>
     <string name="preferences__typing_indicators">Indicadores de tecleo</string>
-    <string name="preferences__light_theme">Claro</string>
-    <string name="preferences__dark_theme">Oscuro</string>
-    <string name="preferences_chats__message_trimming">Recorte de mensajes en chats</string>
+    <string name="conversationsMessageTrimming">Recorte de mensajes en chats</string>
     <string name="preferences_advanced__use_system_emoji">Usar emoji del sistema</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desactivar soporte de emoji integrado de Session</string>
     <string name="preferences_notifications__messages">Mensajes</string>
@@ -590,7 +587,6 @@ de intercambio de claves!</string>
     <string name="activity_settings_devices_button_title">Dispositivos</string>
     <string name="activity_settings_invite_button_title">Invitar a un amigo</string>
     <string name="activity_settings_faq_button_title">Preguntas frecuentes</string>
-    <string name="activity_settings_recovery_phrase_button_title">Frase de recuperación</string>
     <string name="activity_settings_clear_all_data_button_title">Borrar datos</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Limpiar Datos Incluyendo La Red</string>
     <string name="activity_settings_help_translate_session">Ayúdanos a traducir Session</string>
@@ -633,7 +629,7 @@ de intercambio de claves!</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Eliminar usuario del grupo</string>
     <string name="activity_select_contacts_title">Elegir contactos</string>
     <string name="view_reset_secure_session_done_message">Reinicio seguro de sesión hecho</string>
-    <string name="dialog_ui_mode_title">Tema</string>
+    <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Día</string>
     <string name="dialog_ui_mode_option_night">Noche</string>
     <string name="dialog_ui_mode_option_system_default">Predeterminado del sistema</string>
@@ -648,7 +644,6 @@ de intercambio de claves!</string>
     <string name="activity_backup_restore_passphrase">Clave de acceso de 30 dígitos</string>
     <string name="activity_link_device_skip_prompt">Esto está tomando un tiempo, ¿te gustaría saltarlo?</string>
     <string name="activity_link_device_link_device">Vincular un Dispositivo</string>
-    <string name="activity_link_device_recovery_phrase">Frase de Recuperación</string>
     <string name="activity_link_device_scan_qr_code">Escanear Código QR</string>
     <string name="activity_link_device_qr_message">Navega a Ajustes → Frase de Recuperación en tu otro dispositivo para mostrar tu código QR.</string>
     <string name="activity_join_public_chat_join_rooms">O únete a uno de estos…</string>
@@ -658,7 +653,6 @@ de intercambio de claves!</string>
     <string name="activity_pn_mode_slow_mode">Modo Lento</string>
     <string name="activity_pn_mode_fast_mode_explanation">Se le notificará de los nuevos mensajes de forma fiable e inmediata usando los servidores de notificaciones de Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session comprobará ocasionalmente si hay nuevos mensajes en segundo plano.</string>
-    <string name="fragment_recovery_phrase_title">Frase de recuperación</string>
     <string name="activity_prompt_passphrase_session_locked">Session está Bloqueado</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Toca para Desbloquear</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Escriba un apodo</string>

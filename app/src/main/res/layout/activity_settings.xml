@@ -289,7 +289,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_toEndOf="@+id/messageRequestsContainer"
-                        android:text="@string/activity_settings_message_requests_button_title" />
+                        android:text="@string/sessionMessageRequests" />
                 </RelativeLayout>
 
                 <View
@@ -394,7 +394,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_toEndOf="@+id/seedContainer"
-                        android:text="@string/activity_settings_recovery_phrase_button_title"  />
+                        android:text="@string/sessionRecoveryPassword"  />
                 </RelativeLayout>
 
                 <View

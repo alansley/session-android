@@ -341,7 +341,6 @@ ranti pakalla yupaykunamanta</string>
         <item quantity="other">%dpachakuna</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Yaykuna tecla hillaywan kachapay.</string>
     <string name="preferences__screen_security">Rikuripa pakallayachina</string>
     <string name="sessionNotifications">Willachikuna</string>
     <string name="notificationsLedColor">LEDpa tulpu</string>
@@ -376,9 +375,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="preferences__default">Ña rurashka </string>
     <string name="incognitoKeyboard">Killkana hillay pakallaku</string>
     <string name="preferences__read_receipts">Killkakatinata willachik </string>
-    <string name="preferences__light_theme">Punchalla</string>
-    <string name="preferences__dark_theme">Yanalla</string>
-    <string name="preferences_chats__message_trimming">Chaskimanta pitishka</string>
+    <string name="conversationsMessageTrimming">Chaskimanta pitishka</string>
     <string name="preferences_advanced__use_system_emoji">Anta llikapa ñawikukunata rikuchipay</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Sessionpa ñawikukunapa yanapayta anchuchipay</string>
     <string name="preferences_notifications__messages">Chaskikuna</string>

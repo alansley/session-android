@@ -410,7 +410,6 @@ schimbul de chei este corupt </string>
         <item quantity="other">%d ore</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Trimiteți cu Enter</string>
     <string name="preferences__send_link_previews">Trimite previzualizarea link-urilor</string>
     <string name="preferences__screen_security">Securitate ecran</string>
     <string name="sessionNotifications">Notificări</string>
@@ -447,9 +446,7 @@ schimbul de chei este corupt </string>
     <string name="incognitoKeyboard">Tastatură incognito</string>
     <string name="preferences__read_receipts">Confirmări de citire</string>
     <string name="preferences__typing_indicators">Indicatori tastare</string>
-    <string name="preferences__light_theme">Deschisă</string>
-    <string name="preferences__dark_theme">Închisă</string>
-    <string name="preferences_chats__message_trimming">Scurtarea mesajelor</string>
+    <string name="conversationsMessageTrimming">Scurtarea mesajelor</string>
     <string name="preferences_advanced__use_system_emoji">Foloseşte emoji de sistem</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Dezactivați icoanele emoji oferite de Session </string>
     <string name="preferences_notifications__messages">Mesaje</string>

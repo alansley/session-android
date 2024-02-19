@@ -390,7 +390,6 @@ d\'intercanvi de claus!</string>
         <item quantity="other">%d hores</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Envia amb la tecla Retorn</string>
     <string name="preferences__send_link_previews">Envia previsualitzacions d\'enllaços</string>
     <string name="preferences__screen_security">Seguretat de la pantalla</string>
     <string name="sessionNotifications">Notificacions</string>
@@ -427,9 +426,7 @@ d\'intercanvi de claus!</string>
     <string name="incognitoKeyboard">Teclat d\'incògnit</string>
     <string name="preferences__read_receipts">Confirmació de lectura</string>
     <string name="preferences__typing_indicators">Indicadors de tecleig</string>
-    <string name="preferences__light_theme">Clar</string>
-    <string name="preferences__dark_theme">Fosc</string>
-    <string name="preferences_chats__message_trimming">Escapçament de missatges</string>
+    <string name="conversationsMessageTrimming">Escapçament de missatges</string>
     <string name="preferences_advanced__use_system_emoji">Usa els emoji del sistema</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inhabilita els emojis inclosos al Session</string>
     <string name="preferences_notifications__messages">Missatges</string>
@@ -579,7 +576,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_settings_display_name_missing_error">Tria un nom a mostrar, si us plau</string>
     <string name="activity_settings_display_name_too_long_error">Tria un nom a mostra més curt, si us plau</string>
     <string name="activity_settings_devices_button_title">Dispositius</string>
-    <string name="activity_settings_recovery_phrase_button_title">Frase de recuperació</string>
     <string name="activity_settings_clear_all_data_button_title">Neteja les dades</string>
     <string name="activity_settings_help_translate_session">Ajuda\'ns a traduir Session</string>
     <string name="notificationsStyle">Estil de notificacions</string>
@@ -616,7 +612,7 @@ d\'intercanvi de claus!</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Elimina l\'usuari del grup</string>
     <string name="activity_select_contacts_title">Selecciona contactes</string>
     <string name="view_reset_secure_session_done_message">S\'ha fet el restabliment de la sessió segura</string>
-    <string name="dialog_ui_mode_title">Tema</string>
+    <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Dia</string>
     <string name="dialog_ui_mode_option_night">Nit</string>
     <string name="dialog_ui_mode_option_system_default">Per defecte del sistema</string>
@@ -638,7 +634,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_pn_mode_slow_mode">Mode lent</string>
     <string name="activity_pn_mode_fast_mode_explanation">Es notificaran els missatges de forma immediata i fiable fent servir els servidors de notificació de Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session ocasionalment comprovarà en pla secundari si hi ha nous missatges.</string>
-    <string name="fragment_recovery_phrase_title">Frase de recuperació</string>
     <string name="activity_prompt_passphrase_session_locked">El Session està blocat</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Toca per a desblocar</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Introdueix una sobrenom</string>

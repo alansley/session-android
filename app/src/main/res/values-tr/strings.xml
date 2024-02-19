@@ -395,7 +395,6 @@ iletisi alındı!</string>
         <item quantity="other">%d saat</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Enter tuşu ile gönder</string>
     <string name="preferences__send_link_previews">Bağlantı ön izlemelerini gönder</string>
     <string name="preferences__screen_security">Ekran güvenliği</string>
     <string name="sessionNotifications">Bildirimler</string>
@@ -432,9 +431,7 @@ iletisi alındı!</string>
     <string name="incognitoKeyboard">Gizli klavye</string>
     <string name="preferences__read_receipts">Okundu bilgisi</string>
     <string name="preferences__typing_indicators">\'Yazıyor\' göstergeleri</string>
-    <string name="preferences__light_theme">Açık</string>
-    <string name="preferences__dark_theme">Koyu</string>
-    <string name="preferences_chats__message_trimming">İleti kırpma</string>
+    <string name="conversationsMessageTrimming">İleti kırpma</string>
     <string name="preferences_advanced__use_system_emoji">Sistem emojilerini kullan</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session\'in dahili emoji desteğini devre dışı bırak</string>
     <string name="preferences_notifications__messages">İletiler</string>
@@ -590,7 +587,6 @@ iletisi alındı!</string>
     <string name="activity_settings_devices_button_title">Cihazlar</string>
     <string name="activity_settings_invite_button_title">Bir arkadaş davet et</string>
     <string name="activity_settings_faq_button_title">SSS</string>
-    <string name="activity_settings_recovery_phrase_button_title">Kurtarma Sözcük Grubu</string>
     <string name="activity_settings_clear_all_data_button_title">Verileri Temizle</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Ağ Dahil Verileri Temizle</string>
     <string name="activity_settings_help_translate_session">Session programını çevirmemize yardımcı olun</string>
@@ -633,7 +629,7 @@ iletisi alındı!</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Kullanıcıyı gruptan kaldır</string>
     <string name="activity_select_contacts_title">Kişileri Seçin</string>
     <string name="view_reset_secure_session_done_message">Güvenli oturum sıfırlaması tamamlandı</string>
-    <string name="dialog_ui_mode_title">Tema</string>
+    <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Gün</string>
     <string name="dialog_ui_mode_option_night">Gece</string>
     <string name="dialog_ui_mode_option_system_default">Sistem varsayılanı</string>
@@ -648,7 +644,6 @@ iletisi alındı!</string>
     <string name="activity_backup_restore_passphrase">30 basamaklı parola</string>
     <string name="activity_link_device_skip_prompt">Bu biraz uzun sürüyor, atlamak ister misiniz?</string>
     <string name="activity_link_device_link_device">Bir Cihazı Bağla</string>
-    <string name="activity_link_device_recovery_phrase">Kurtarma Sözcük Grubu</string>
     <string name="activity_link_device_scan_qr_code">QR Kodunu Tara</string>
     <string name="activity_link_device_qr_message">QR kodunuzu göstermek için diğer cihazınızda Ayarlar → Kurtarma İfadesi\'ne gidin.</string>
     <string name="activity_join_public_chat_join_rooms">Veya bunlardan birine katılın…</string>
@@ -658,7 +653,6 @@ iletisi alındı!</string>
     <string name="activity_pn_mode_slow_mode">Yavaş Mod</string>
     <string name="activity_pn_mode_fast_mode_explanation">Google\'ın bildirim sunucularını kullanarak yeni iletilerden güvenilir ve anında haberdar olacaksınız.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session ara sıra arka planda yeni mesajları kontrol eder.</string>
-    <string name="fragment_recovery_phrase_title">Kurtarma Sözcük Grubu</string>
     <string name="activity_prompt_passphrase_session_locked">Session kilitli</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Açmak için dokun</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Bir kullanıcı adı girin</string>

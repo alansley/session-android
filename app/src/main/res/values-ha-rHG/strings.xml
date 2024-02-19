@@ -359,7 +359,6 @@
         <item quantity="other">%d demjimêr</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Tîpa Enter dişîne</string>
     <string name="preferences__send_link_previews">Pêşdîtinên girêdanê bişîne</string>
     <string name="preferences__screen_security">Ewlehiya ekranê</string>
     <string name="sessionNotifications">Danezan</string>
@@ -395,9 +394,7 @@
     <string name="incognitoKeyboard">Textenivîsa veşartî</string>
     <string name="preferences__read_receipts">Girtekan bixwîne</string>
     <string name="preferences__typing_indicators">Nîşandêrên nivîsandinê</string>
-    <string name="preferences__light_theme">Sivik</string>
-    <string name="preferences__dark_theme">Tarî</string>
-    <string name="preferences_chats__message_trimming">Qusandina peyamê</string>
+    <string name="conversationsMessageTrimming">Qusandina peyamê</string>
     <string name="preferences_advanced__use_system_emoji">Emojiya pergalê bi kar bîne</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Piştgiriya emojiyê a daxilî ya Sessionê neçalak bike </string>
     <string name="preferences_notifications__messages">Peyam</string>

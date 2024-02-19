@@ -133,7 +133,7 @@
         <activity
             android:name="org.thoughtcrime.securesms.messagerequests.MessageRequestsActivity"
             android:exported="false"
-            android:label="@string/activity_message_requests_title"
+            android:label="@string/sessionMessageRequests"
             android:screenOrientation="portrait" />
         <activity
             android:name="org.thoughtcrime.securesms.preferences.SettingsActivity"

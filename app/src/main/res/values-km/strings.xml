@@ -355,7 +355,6 @@
         <item quantity="other">%d ម៉ោង</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">ចុច Enter ដើម្បីផ្ញើ</string>
     <string name="preferences__send_link_previews">ការមើល ការផ្ញើតំណភ្ជាប់</string>
     <string name="preferences__screen_security">អេក្រង់សុវត្ថិភាព</string>
     <string name="sessionNotifications">សារជូនដំណឹង</string>
@@ -392,9 +391,7 @@
     <string name="incognitoKeyboard">ក្តារចុចអនាមឹក</string>
     <string name="preferences__read_receipts">ទទួលបានការអាន</string>
     <string name="preferences__typing_indicators">វាស់ការវាយអក្សរ</string>
-    <string name="preferences__light_theme">ភ្លឺ</string>
-    <string name="preferences__dark_theme">ងងឹត</string>
-    <string name="preferences_chats__message_trimming">តម្រឹមសារ</string>
+    <string name="conversationsMessageTrimming">តម្រឹមសារ</string>
     <string name="preferences_advanced__use_system_emoji">ប្រើរូបអារម្មណ៍emoji នៅក្នុងប្រព័ន្ធ</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">បិទមិនប្រើរូបអារម្មណ៍emoji របស់ Session</string>
     <string name="preferences_notifications__messages">សារ</string>

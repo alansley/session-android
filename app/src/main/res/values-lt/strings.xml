@@ -415,7 +415,6 @@
         <item quantity="other">%d valandų</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">„Enter“ (Įvedimo) klavišas išsiunčia</string>
     <string name="preferences__send_link_previews">Siųsti nuorodų peržiūras</string>
     <string name="preferences__screen_security">Ekrano saugumas</string>
     <string name="sessionNotifications">Pranešimai</string>
@@ -452,9 +451,7 @@
     <string name="incognitoKeyboard">Inkognito klaviatūra</string>
     <string name="preferences__read_receipts">Pranešimai apie žinučių skaitymą</string>
     <string name="preferences__typing_indicators">Rašymo indikatoriai</string>
-    <string name="preferences__light_theme">Šviesus</string>
-    <string name="preferences__dark_theme">Tamsus</string>
-    <string name="preferences_chats__message_trimming">Žinučių išvalymas</string>
+    <string name="conversationsMessageTrimming">Žinučių išvalymas</string>
     <string name="preferences_advanced__use_system_emoji">Naudoti sistemos jaustukus</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Išjungti Session įtaisytą jaustukų palaikymą</string>
     <string name="preferences_notifications__messages">Žinutės</string>
@@ -596,7 +593,6 @@
     <string name="activity_settings_display_name_missing_error">Pasirinkite rodomą vardą</string>
     <string name="activity_settings_display_name_too_long_error">Pasirinkite trumpesnį rodomą vardą</string>
     <string name="activity_settings_devices_button_title">Įrenginiai</string>
-    <string name="activity_settings_recovery_phrase_button_title">Atkūrimo frazė</string>
     <string name="activity_settings_clear_all_data_button_title">Išvalyti duomenis</string>
     <string name="activity_settings_help_translate_session">Padėkite išversti Session</string>
     <string name="notificationsStyle">Pranešimų stilius</string>
@@ -632,7 +628,7 @@
     <string name="activity_edit_closed_group_group_name_too_long_error">Įveskite trumpesnį grupės pavadinimą</string>
     <string name="activity_edit_closed_group_not_enough_group_members_error">Grupėse privalo būti bent 1 grupės narys</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Šalinti naudotoją iš grupės</string>
-    <string name="dialog_ui_mode_title">Apipavidalinimas</string>
+    <string name="appearanceThemes">Apipavidalinimas</string>
     <string name="dialog_ui_mode_option_day">Dieninis</string>
     <string name="dialog_ui_mode_option_night">Naktinis</string>
     <string name="dialog_ui_mode_option_system_default">Sistemos numatytasis</string>
@@ -643,7 +639,6 @@
     <string name="dialog_backup_activation_failed">Nepavyko aktyvuoti atsarginių kopijų. Bandykite dar kartą arba susisiekite su palaikymu.</string>
     <string name="activity_backup_restore_title">Atkurti atsarginę kopiją</string>
     <string name="activity_link_device_link_device">Susieti įrenginį</string>
-    <string name="activity_link_device_recovery_phrase">Atkūrimo frazė</string>
     <string name="activity_link_device_scan_qr_code">Skenuoti QR kodą</string>
     <string name="activity_join_public_chat_join_rooms">Arba prisijunkite prie vienos iš šių…</string>
     <string name="activity_pn_mode_message_notifications">Pranešimai apie žinutes</string>
@@ -652,7 +647,6 @@
     <string name="activity_pn_mode_slow_mode">Lėta veiksena</string>
     <string name="activity_pn_mode_fast_mode_explanation">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session programėlė retkarčiais fone tikrins, ar yra naujų žinučių.</string>
-    <string name="fragment_recovery_phrase_title">Atkūrimo frazė</string>
     <string name="activity_prompt_passphrase_session_locked">Session yra užrakinta</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Bakstelėkite norėdami atrakinti</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Įveskite slapyvardį</string>

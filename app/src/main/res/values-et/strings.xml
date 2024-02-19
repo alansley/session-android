@@ -363,7 +363,6 @@
         <item quantity="other">%d tundi</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Sisestusklahv saadab</string>
     <string name="preferences__send_link_previews">Saada linkide eelvaateid</string>
     <string name="preferences__screen_security">Kuva turvamine</string>
     <string name="sessionNotifications">Teated</string>
@@ -400,9 +399,7 @@
     <string name="incognitoKeyboard">Inkognito klaviatuur</string>
     <string name="preferences__read_receipts">Lugemiskinnitused</string>
     <string name="preferences__typing_indicators">Kirjutamisindikaatorid</string>
-    <string name="preferences__light_theme">Hele</string>
-    <string name="preferences__dark_theme">Tume</string>
-    <string name="preferences_chats__message_trimming">Sõnumi piiramine</string>
+    <string name="conversationsMessageTrimming">Sõnumi piiramine</string>
     <string name="preferences_advanced__use_system_emoji">Kasuta süsteemi emojisid</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Keela Sessionisse sisseehitatud emoji-tugi</string>
     <string name="preferences_notifications__messages">Sõnumid</string>

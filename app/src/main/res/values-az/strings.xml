@@ -396,7 +396,6 @@
         <item quantity="other">%d saat</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Enter düyməsi ilə göndər</string>
     <string name="preferences__send_link_previews">Bağlantı önbaxışlarını göndər</string>
     <string name="preferences__screen_security">Ekran güvənliyi</string>
     <string name="sessionNotifications">Bildirişlər</string>
@@ -433,9 +432,7 @@
     <string name="incognitoKeyboard">Gizli klaviatura</string>
     <string name="preferences__read_receipts">Oxundu bildirişləri</string>
     <string name="preferences__typing_indicators">Yazma göstəriciləri</string>
-    <string name="preferences__light_theme">Açıq</string>
-    <string name="preferences__dark_theme">Tünd</string>
-    <string name="preferences_chats__message_trimming">Mesajları kəsmə</string>
+    <string name="conversationsMessageTrimming">Mesajları kəsmə</string>
     <string name="preferences_advanced__use_system_emoji">Sistem ifadəsini istifadə et</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session-un daxili ifadə dəstəyini sıradan çıxart</string>
     <string name="preferences_notifications__messages">Mesajlar</string>
@@ -591,7 +588,6 @@
     <string name="activity_settings_devices_button_title">Cihazlar</string>
     <string name="activity_settings_invite_button_title">Dostu dəvət edin</string>
     <string name="activity_settings_faq_button_title">TSS</string>
-    <string name="activity_settings_recovery_phrase_button_title">Bərpa parolu</string>
     <string name="activity_settings_clear_all_data_button_title">Verilənləri təmizlə</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Şəbəkə daxil olmaqla verilənləri təmizlə</string>
     <string name="activity_settings_help_translate_session">Session-un tərcüməsinə kömək et</string>
@@ -634,7 +630,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">İstifadəçini qrupdan çıxart</string>
     <string name="activity_select_contacts_title">Əlaqələri seç</string>
     <string name="view_reset_secure_session_done_message">Güvənli seans sıfırlanması bitdi</string>
-    <string name="dialog_ui_mode_title">Tema</string>
+    <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Gündüz</string>
     <string name="dialog_ui_mode_option_night">Gecə</string>
     <string name="dialog_ui_mode_option_system_default">İlkin sistem</string>
@@ -649,7 +645,6 @@
     <string name="activity_backup_restore_passphrase">30 rəqəmli parol</string>
     <string name="activity_link_device_skip_prompt">Bu bir az vaxt apara bilər, ötürmək istəyirsiniz?</string>
     <string name="activity_link_device_link_device">Bir cihazla əlaqə yarat</string>
-    <string name="activity_link_device_recovery_phrase">Bərpa parolu</string>
     <string name="activity_link_device_scan_qr_code">QR kodu skan et</string>
     <string name="activity_link_device_qr_message">QR kodunu göstərmək üçün digər cihazınızda Tənzimləmələr → \"Bərpa parolu\"na gedin.</string>
     <string name="activity_join_public_chat_join_rooms">Və ya bunlardan birinə qoşulun…</string>
@@ -659,7 +654,6 @@
     <string name="activity_pn_mode_slow_mode">Yavaş rejim</string>
     <string name="activity_pn_mode_fast_mode_explanation">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session, arada arxaplanda yeni mesajları yoxlayacaq.</string>
-    <string name="fragment_recovery_phrase_title">Bərpa parolu</string>
     <string name="activity_prompt_passphrase_session_locked">Session kilidlidir</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Kilidi açmaq üçün toxunun</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Bir ləqəb daxil edin</string>

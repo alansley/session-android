@@ -411,7 +411,6 @@
         <item quantity="other">%d שעות</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">מקש Enter שולח</string>
     <string name="preferences__send_link_previews">שלח קדם־תצוגות של קישורים</string>
     <string name="preferences__screen_security">אבטחת מסך</string>
     <string name="sessionNotifications">התראות</string>
@@ -448,9 +447,7 @@
     <string name="incognitoKeyboard">מקלדת סמויה</string>
     <string name="preferences__read_receipts">אישורי קריאה</string>
     <string name="preferences__typing_indicators">מחווני הקלדה</string>
-    <string name="preferences__light_theme">בהירה</string>
-    <string name="preferences__dark_theme">חשוכה</string>
-    <string name="preferences_chats__message_trimming">קיצוץ הודעה</string>
+    <string name="conversationsMessageTrimming">קיצוץ הודעה</string>
     <string name="preferences_advanced__use_system_emoji">השתמש באימוג\'י של מערכת</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">השבת תמיכת אימוג\'י מובנית של Session</string>
     <string name="preferences_notifications__messages">הודעות</string>

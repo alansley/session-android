@@ -396,7 +396,6 @@
         <item quantity="other">%d horas</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Tecla Enter envia</string>
     <string name="preferences__send_link_previews">Enviar previews de link</string>
     <string name="preferences__screen_security">Segurança de tela</string>
     <string name="sessionNotifications">Notificações</string>
@@ -433,9 +432,7 @@
     <string name="incognitoKeyboard">Teclado incógnito</string>
     <string name="preferences__read_receipts">Recibos de leitura</string>
     <string name="preferences__typing_indicators">Indicadores de digitação</string>
-    <string name="preferences__light_theme">Claro</string>
-    <string name="preferences__dark_theme">Escuro</string>
-    <string name="preferences_chats__message_trimming">Aparamento de Mensagem</string>
+    <string name="conversationsMessageTrimming">Aparamento de Mensagem</string>
     <string name="preferences_advanced__use_system_emoji">Usar emoji do sistema</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desabilitar suporte de emoji embutido de Session</string>
     <string name="preferences_notifications__messages">Mensagens</string>
@@ -591,7 +588,6 @@
     <string name="activity_settings_devices_button_title">Dispositivos</string>
     <string name="activity_settings_invite_button_title">Convide um amigo</string>
     <string name="activity_settings_faq_button_title">Perguntas Frequentes</string>
-    <string name="activity_settings_recovery_phrase_button_title">Frase de Recuperação</string>
     <string name="activity_settings_clear_all_data_button_title">Limpar Dados</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Limpar Dados Incluindo Rede</string>
     <string name="activity_settings_help_translate_session">Ajude-nos a traduzir o Session</string>
@@ -634,7 +630,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">Remover usuária(o) de grupo</string>
     <string name="activity_select_contacts_title">Selecionar Contatos</string>
     <string name="view_reset_secure_session_done_message">Reset de sessão segura feito</string>
-    <string name="dialog_ui_mode_title">Tema</string>
+    <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Dia</string>
     <string name="dialog_ui_mode_option_night">Noite</string>
     <string name="dialog_ui_mode_option_system_default">Default de sistema</string>
@@ -649,7 +645,6 @@
     <string name="activity_backup_restore_passphrase">Senha de 30 dígitos</string>
     <string name="activity_link_device_skip_prompt">Isto está demorando um pouco, tu gostarias de pular?</string>
     <string name="activity_link_device_link_device">Vincular um Dispositivo</string>
-    <string name="activity_link_device_recovery_phrase">Frase de Recuperação</string>
     <string name="activity_link_device_scan_qr_code">Ler Código QR</string>
     <string name="activity_link_device_qr_message">Vá até as configurações → Frase de Recuperação em seu outro dispositivo para mostrar o seu código QR.</string>
     <string name="activity_join_public_chat_join_rooms">Ou junte-se a um desses…</string>
@@ -659,7 +654,6 @@
     <string name="activity_pn_mode_slow_mode">Modo Lento</string>
     <string name="activity_pn_mode_fast_mode_explanation">Você será notificado de forma confiável e imediata sobre novas mensagens usando os servidores de notificação da Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">O session verificará ocasionalmente por novas mensagens em segundo plano.</string>
-    <string name="fragment_recovery_phrase_title">Frase de Recuperação</string>
     <string name="activity_prompt_passphrase_session_locked">Session está Trancado</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Toque para destrancar</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Digite um apelido</string>

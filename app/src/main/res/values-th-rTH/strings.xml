@@ -334,7 +334,6 @@
         <item quantity="other">%d ชั่วโมง</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">ป้อนคีย์เพื่อส่ง</string>
     <string name="preferences__screen_security">ความปลอดภัยหน้าจอ</string>
     <string name="sessionNotifications">การแจ้งเตือน</string>
     <string name="notificationsLedColor">สี LED</string>
@@ -369,9 +368,7 @@
     <string name="preferences__default">ค่าเริ่มต้น</string>
     <string name="incognitoKeyboard">แป้นพิมพ์แบบลับ</string>
     <string name="preferences__read_receipts">ใบตอบรับเมื่ออ่าน</string>
-    <string name="preferences__light_theme">สว่าง</string>
-    <string name="preferences__dark_theme">มืด</string>
-    <string name="preferences_chats__message_trimming">ตัดข้อความให้สั้นลง</string>
+    <string name="conversationsMessageTrimming">ตัดข้อความให้สั้นลง</string>
     <string name="preferences_advanced__use_system_emoji">ใช้อีโมจิของระบบ</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">ปิดใช้งานการรองรับอีโมจิของ Session เอง</string>
     <string name="preferences_notifications__messages">ข้อความ</string>

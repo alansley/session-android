@@ -380,7 +380,6 @@
         <item quantity="other">%d時間</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">エンターキーで送信</string>
     <string name="preferences__send_link_previews">リンクプレビューを送る</string>
     <string name="preferences__screen_security">画面セキュリティ</string>
     <string name="sessionNotifications">通知</string>
@@ -417,9 +416,7 @@
     <string name="incognitoKeyboard">プライバシーキーボード</string>
     <string name="preferences__read_receipts">既読通知</string>
     <string name="preferences__typing_indicators">入力中アイコン</string>
-    <string name="preferences__light_theme">ライト</string>
-    <string name="preferences__dark_theme">ダーク</string>
-    <string name="preferences_chats__message_trimming">メッセージの削減</string>
+    <string name="conversationsMessageTrimming">メッセージの削減</string>
     <string name="preferences_advanced__use_system_emoji">システムの絵文字を使う</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session独自の絵文字機能を無効にする</string>
     <string name="preferences_notifications__messages">メッセージ</string>
@@ -575,7 +572,6 @@
     <string name="activity_settings_devices_button_title">デバイス</string>
     <string name="activity_settings_invite_button_title">友達を招待</string>
     <string name="activity_settings_faq_button_title">よくある質問</string>
-    <string name="activity_settings_recovery_phrase_button_title">リカバリーフレーズ</string>
     <string name="activity_settings_clear_all_data_button_title">データを消去する</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">ネットワークを含むデータを消去</string>
     <string name="activity_settings_help_translate_session">セッションの翻訳にご協力ください</string>
@@ -618,7 +614,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">ユーザーをグループから削除</string>
     <string name="activity_select_contacts_title">連絡先を選択</string>
     <string name="view_reset_secure_session_done_message">セキュアなセッションのリセットが完了しました</string>
-    <string name="dialog_ui_mode_title">テーマ</string>
+    <string name="appearanceThemes">テーマ</string>
     <string name="dialog_ui_mode_option_day">デイ</string>
     <string name="dialog_ui_mode_option_night">ナイト</string>
     <string name="dialog_ui_mode_option_system_default">システムの既定値</string>

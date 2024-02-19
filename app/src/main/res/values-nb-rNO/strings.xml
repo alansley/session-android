@@ -395,7 +395,6 @@ nøkkelutvekslingsmelding.</string>
         <item quantity="other">%d timer</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Send med enter-tast</string>
     <string name="preferences__send_link_previews">Send linkforhåndsvisninger</string>
     <string name="preferences__screen_security">Skjermsikkerhet</string>
     <string name="sessionNotifications">Varsler</string>
@@ -432,9 +431,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="incognitoKeyboard">Inkognito-tastatur</string>
     <string name="preferences__read_receipts">Lesebekreftelser</string>
     <string name="preferences__typing_indicators">Skriverindikatorer</string>
-    <string name="preferences__light_theme">Lys</string>
-    <string name="preferences__dark_theme">Mørk</string>
-    <string name="preferences_chats__message_trimming">Automatisk sletting</string>
+    <string name="conversationsMessageTrimming">Automatisk sletting</string>
     <string name="preferences_advanced__use_system_emoji">Bruk systemets emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i Session</string>
     <string name="preferences_notifications__messages">Meldinger</string>
@@ -590,7 +587,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_settings_devices_button_title">Enheter</string>
     <string name="activity_settings_invite_button_title">Inviter en venn</string>
     <string name="activity_settings_faq_button_title">Ofte Stilte Spørsmål</string>
-    <string name="activity_settings_recovery_phrase_button_title">Gjenopprettingsfrase</string>
     <string name="activity_settings_clear_all_data_button_title">Fjern data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Fjern data inkludert nettverk</string>
     <string name="activity_settings_help_translate_session">Hjelp oss med å oversette Session</string>
@@ -633,7 +629,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Fjern bruker fra gruppen</string>
     <string name="activity_select_contacts_title">Velg kontakter</string>
     <string name="view_reset_secure_session_done_message">Sikker Session tilbakestilling ferdig</string>
-    <string name="dialog_ui_mode_title">Tema</string>
+    <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Dag</string>
     <string name="dialog_ui_mode_option_night">Natt</string>
     <string name="dialog_ui_mode_option_system_default">Systemstandard</string>
@@ -648,7 +644,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_backup_restore_passphrase">30-digit passphrase</string>
     <string name="activity_link_device_skip_prompt">Dette tar en stund, vil du hoppe over?</string>
     <string name="activity_link_device_link_device">Koble til en enhet</string>
-    <string name="activity_link_device_recovery_phrase">Gjenopprettingsfrase</string>
     <string name="activity_link_device_scan_qr_code">Skann QR-kode</string>
     <string name="activity_link_device_qr_message">Naviger til innstillinger → Gjenopprettingsfrasen på din andre enhet for å vise QR-koden.</string>
     <string name="activity_join_public_chat_join_rooms">Eller bli med i en av disse…</string>
@@ -658,7 +653,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_pn_mode_slow_mode">Langsom Modus</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session vil av og til sjekke nye meldinger i bakgrunnen.</string>
-    <string name="fragment_recovery_phrase_title">Gjenopprettingsfrase</string>
     <string name="activity_prompt_passphrase_session_locked">Session er låst</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Trykk for å låse opp</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Skriv inn et kallenavn</string>

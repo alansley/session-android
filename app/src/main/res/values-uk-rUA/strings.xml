@@ -419,7 +419,6 @@
         <item quantity="other">%d годин</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Enter надсилає повідомлення</string>
     <string name="preferences__send_link_previews">Перегляд відправлених посилань</string>
     <string name="preferences__screen_security">Безпека екрану</string>
     <string name="sessionNotifications">Сповіщення</string>
@@ -456,9 +455,7 @@
     <string name="incognitoKeyboard">Клавіатура в режимі \"інкогніто\"</string>
     <string name="preferences__read_receipts">Звіти про прочитання</string>
     <string name="preferences__typing_indicators">Індикатор введення тексту</string>
-    <string name="preferences__light_theme">Світла</string>
-    <string name="preferences__dark_theme">Темна</string>
-    <string name="preferences_chats__message_trimming">Обрізка повідомлень</string>
+    <string name="conversationsMessageTrimming">Обрізка повідомлень</string>
     <string name="preferences_advanced__use_system_emoji">Використовувати системні emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Вимкнути вбудовану в Session підтримку emoji</string>
     <string name="preferences_notifications__messages">Повідомлення</string>
@@ -616,7 +613,6 @@
     <string name="activity_settings_devices_button_title">Пристрої</string>
     <string name="activity_settings_invite_button_title">Запросити друга</string>
     <string name="activity_settings_faq_button_title">Часті питання</string>
-    <string name="activity_settings_recovery_phrase_button_title">Фраза відновлення</string>
     <string name="activity_settings_clear_all_data_button_title">Видалити дані</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Видалити дані та аккаунт</string>
     <string name="activity_settings_help_translate_session">Допоможіть нам перекласти Session</string>
@@ -659,7 +655,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">Викинути користувача з групи</string>
     <string name="activity_select_contacts_title">Обрати контакти</string>
     <string name="view_reset_secure_session_done_message">Скидання безпечної сесії завершено</string>
-    <string name="dialog_ui_mode_title">Тема</string>
+    <string name="appearanceThemes">Тема</string>
     <string name="dialog_ui_mode_option_day">День</string>
     <string name="dialog_ui_mode_option_night">Ніч</string>
     <string name="dialog_ui_mode_option_system_default">За замовчуванням системи</string>
@@ -674,7 +670,6 @@
     <string name="activity_backup_restore_passphrase">30-символьний пароль</string>
     <string name="activity_link_device_skip_prompt">Це займає деякий час, ви б хотіли це пропустити?</string>
     <string name="activity_link_device_link_device">Зв\'язати пристрій</string>
-    <string name="activity_link_device_recovery_phrase">Фраза відновлення</string>
     <string name="activity_link_device_scan_qr_code">Сканувати QR-код</string>
     <string name="activity_link_device_qr_message">Перейдіть до Налаштувань → Фраза відновлення на вашому іншому пристрої, щоб відобразити ваш QR-код.</string>
     <string name="activity_join_public_chat_join_rooms">Або приєднуйтесь до одного з цих…</string>
@@ -684,7 +679,6 @@
     <string name="activity_pn_mode_slow_mode">Медленний режим</string>
     <string name="activity_pn_mode_fast_mode_explanation">Вас надійно повідомлятимуть про нові сповіщщеня негайно, використовуючи сервери сповіщень Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session буде періодично перевіряти наявність нових повідомлень у фоновому режимі.</string>
-    <string name="fragment_recovery_phrase_title">Фраза відновлення</string>
     <string name="activity_prompt_passphrase_session_locked">Ви заблоковали Session</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Торкніться, щоб розблокувати</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Введіть псевдонім</string>

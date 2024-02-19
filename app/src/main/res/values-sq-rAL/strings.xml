@@ -394,7 +394,6 @@
         <item quantity="other">%d orë</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Tasti Enter dërgon</string>
     <string name="preferences__send_link_previews">Dërgo paraparje lidhjesh</string>
     <string name="preferences__screen_security">Siguri ekrani</string>
     <string name="sessionNotifications">Njoftime</string>
@@ -431,9 +430,7 @@
     <string name="incognitoKeyboard">Tastatur e fshehtë</string>
     <string name="preferences__read_receipts">Dëftesa leximi</string>
     <string name="preferences__typing_indicators">Tregues shtypjeje</string>
-    <string name="preferences__light_theme">E çelët</string>
-    <string name="preferences__dark_theme">E errët</string>
-    <string name="preferences_chats__message_trimming">Shkurtim mesazhesh</string>
+    <string name="conversationsMessageTrimming">Shkurtim mesazhesh</string>
     <string name="preferences_advanced__use_system_emoji">Përdor emoji të sistemit</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Çaktivizo mbulimin e brendshëm të Session-it për emoji-t</string>
     <string name="preferences_notifications__messages">Mesazhe</string>

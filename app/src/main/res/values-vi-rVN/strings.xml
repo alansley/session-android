@@ -244,7 +244,6 @@ trao đổi chìa khóa bị hỏng!</string>
         <item quantity="other">%d tiếng</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Phím Enter gửi đi</string>
     <string name="preferences__screen_security">An ninh màn hình</string>
     <string name="sessionNotifications">Thông báo</string>
     <string name="notificationsLedColor">Màu LED</string>
@@ -277,9 +276,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="preferences__trim_all_conversations_now">Lập tức rút ngắn tất cả các cuộc hội thoại</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Quét tất cả các cuộc hội thoại và áp dụng giới hạn độ dài hội thoại</string>
     <string name="preferences__default">Mặc định</string>
-    <string name="preferences__light_theme">Lợt</string>
-    <string name="preferences__dark_theme">Đậm</string>
-    <string name="preferences_chats__message_trimming">Thu gọn tin nhắn</string>
+    <string name="conversationsMessageTrimming">Thu gọn tin nhắn</string>
     <string name="preferences_advanced__use_system_emoji">Sử dụng ký tự biểu cảm hệ thống</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Tắt hỗ trợ ký tự biểu cảm mặc định của Session</string>
     <!-- **************************************** -->
@@ -397,7 +394,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_settings_display_name_missing_error">Vui lòng chọn một tên hiển thị </string>
     <string name="activity_settings_display_name_too_long_error">Vui lòng chọn một tên hiển thị ngắn hơn </string>
     <string name="activity_settings_devices_button_title">Thiết bị</string>
-    <string name="activity_settings_recovery_phrase_button_title">Cụm từ khôi phục</string>
     <string name="activity_settings_clear_all_data_button_title">Xóa dữ liệu</string>
     <string name="notificationsStyle">Kiểu thông báo</string>
     <string name="activity_notification_settings_content_section_title">Nội dung thông báo</string>

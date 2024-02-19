@@ -394,7 +394,6 @@ udveksel besked!</string>
         <item quantity="other">%d timer</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">[Enter] sender besked</string>
     <string name="preferences__send_link_previews">Send link eksempelvisning</string>
     <string name="preferences__screen_security">Skærmsikkerhed</string>
     <string name="sessionNotifications">Notifikationer</string>
@@ -431,9 +430,7 @@ udveksel besked!</string>
     <string name="incognitoKeyboard">Inkognito tastatur</string>
     <string name="preferences__read_receipts">Læst af modtager</string>
     <string name="preferences__typing_indicators">Skrive indikator</string>
-    <string name="preferences__light_theme">Lyst</string>
-    <string name="preferences__dark_theme">Mørkt</string>
-    <string name="preferences_chats__message_trimming">Trimning af beskeder</string>
+    <string name="conversationsMessageTrimming">Trimning af beskeder</string>
     <string name="preferences_advanced__use_system_emoji">Brug system-emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Deaktivér Sessions indbyggede emoji understøttelse</string>
     <string name="preferences_notifications__messages">Beskeder</string>
@@ -574,7 +571,6 @@ udveksel besked!</string>
     <string name="activity_settings_devices_button_title">Enheder</string>
     <string name="activity_settings_invite_button_title">Inviter en ven</string>
     <string name="activity_settings_faq_button_title">Ofte stillede spørgsmål</string>
-    <string name="activity_settings_recovery_phrase_button_title">Gendannelsesssætning</string>
     <string name="activity_settings_clear_all_data_button_title">Ryd data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Ryd Data Inklusiv Netværk</string>
     <string name="activity_settings_help_translate_session">Hjælp os med at oversætte Session</string>
@@ -612,7 +608,7 @@ udveksel besked!</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Fjern bruger fra gruppe</string>
     <string name="activity_select_contacts_title">Vælg Kontakter</string>
     <string name="view_reset_secure_session_done_message">Sikker sessions nulstilling færdig</string>
-    <string name="dialog_ui_mode_title">Tema</string>
+    <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Dag</string>
     <string name="dialog_ui_mode_option_night">Nat</string>
     <string name="dialog_ui_mode_option_system_default">Systemstandard</string>
@@ -624,7 +620,6 @@ udveksel besked!</string>
     <string name="activity_backup_restore_select_file">Vælg en fil</string>
     <string name="activity_link_device_skip_prompt">Dette tager et stykke tid, vil du gerne springe over?</string>
     <string name="activity_link_device_link_device">Forbind en enhed</string>
-    <string name="activity_link_device_recovery_phrase">Gendannelsessætning</string>
     <string name="activity_link_device_scan_qr_code">Skan QR-kode</string>
     <string name="activity_link_device_qr_message">Naviger til Indstillinger → Gendannelsessætning på din anden enhed, for at vise din QR-kode.</string>
     <string name="activity_join_public_chat_join_rooms">Eller deltag i en af disse…</string>

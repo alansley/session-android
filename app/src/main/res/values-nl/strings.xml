@@ -396,7 +396,6 @@
         <item quantity="other">%d uur</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Enter-toets verzendt</string>
     <string name="preferences__send_link_previews">Voorbeeldweergaven verzenden</string>
     <string name="preferences__screen_security">Schermafdrukken blokkeren</string>
     <string name="sessionNotifications">Meldingen</string>
@@ -433,9 +432,7 @@
     <string name="incognitoKeyboard">Incognito toetsenbord</string>
     <string name="preferences__read_receipts">Leesbevestigingen</string>
     <string name="preferences__typing_indicators">Typindicatoren</string>
-    <string name="preferences__light_theme">Licht</string>
-    <string name="preferences__dark_theme">Donker</string>
-    <string name="preferences_chats__message_trimming">Beperk bewaartermijn</string>
+    <string name="conversationsMessageTrimming">Beperk bewaartermijn</string>
     <string name="preferences_advanced__use_system_emoji">Gebruik systeem-emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Schakel de ingebouwde emoji-ondersteuning van Session uit.</string>
     <string name="preferences_notifications__messages">Berichten</string>
@@ -591,7 +588,6 @@
     <string name="activity_settings_devices_button_title">Apparaten</string>
     <string name="activity_settings_invite_button_title">Nodig een vriend uit</string>
     <string name="activity_settings_faq_button_title">Veelgestelde vragen (FAQ)</string>
-    <string name="activity_settings_recovery_phrase_button_title">Herstel zin</string>
     <string name="activity_settings_clear_all_data_button_title">Gegevens wissen</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Wis Data, Inclusief Netwerk</string>
     <string name="activity_settings_help_translate_session">Help ons om Sessie the vertalen</string>
@@ -634,7 +630,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">Gebruiker uit de groep verwijderen</string>
     <string name="activity_select_contacts_title">Contacten selecteren</string>
     <string name="view_reset_secure_session_done_message">Beveiligde sessie opnieuw ingesteld</string>
-    <string name="dialog_ui_mode_title">Thema</string>
+    <string name="appearanceThemes">Thema</string>
     <string name="dialog_ui_mode_option_day">Dag</string>
     <string name="dialog_ui_mode_option_night">Nacht</string>
     <string name="dialog_ui_mode_option_system_default">Systeemstandaard</string>
@@ -649,7 +645,6 @@
     <string name="activity_backup_restore_passphrase">Wachtwoordzin met 30 tekens</string>
     <string name="activity_link_device_skip_prompt">Dit duurt een tijdje, wilt u het overslaan?</string>
     <string name="activity_link_device_link_device">Koppel een apparaat</string>
-    <string name="activity_link_device_recovery_phrase">Herstel zin</string>
     <string name="activity_link_device_scan_qr_code">QR-code scannen</string>
     <string name="activity_link_device_qr_message">Navigeer naar Instellingen → Herstel zin op je andere apparaat om je QR-code te tonen.</string>
     <string name="activity_join_public_chat_join_rooms">Of neem deel aan een van deze...</string>
@@ -659,7 +654,6 @@
     <string name="activity_pn_mode_slow_mode">Langzame modus</string>
     <string name="activity_pn_mode_fast_mode_explanation">U wordt op een betrouwbare en directe manier op de hoogte gebracht van nieuwe berichten via Googles notificatieservers.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Sessie controleert af en toe op nieuwe berichten op de achtergrond.</string>
-    <string name="fragment_recovery_phrase_title">Herstel zin</string>
     <string name="activity_prompt_passphrase_session_locked">Sessie is vergrendeld</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Tik om te ontgrendelen</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Bijnaam invoeren</string>

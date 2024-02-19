@@ -185,7 +185,7 @@ private class LinkDeviceActivityAdapter(private val activity: LinkDeviceActivity
 
     override fun getPageTitle(index: Int): CharSequence {
         return when (index) {
-            0 -> activity.getString(R.string.activity_link_device_recovery_phrase)
+            0 -> activity.getString(R.string.sessionRecoveryPassword)
             1 -> activity.getString(R.string.activity_link_device_scan_qr_code)
             else -> throw IllegalStateException()
         }

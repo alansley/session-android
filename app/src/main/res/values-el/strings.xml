@@ -396,7 +396,6 @@
         <item quantity="other">%d ώρες</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Το Enter αποστέλλει</string>
     <string name="preferences__send_link_previews">Αποστολή προεπισκοπήσεων συνδέσμων</string>
     <string name="preferences__screen_security">Ασφάλεια οθόνης</string>
     <string name="sessionNotifications">Ειδοποιήσεις</string>
@@ -433,9 +432,7 @@
     <string name="incognitoKeyboard">Κρυφό πληκτρολόγιο</string>
     <string name="preferences__read_receipts">Αποδεικτικά ανάγνωσης</string>
     <string name="preferences__typing_indicators">Δείκτες πληκτρολόγησης</string>
-    <string name="preferences__light_theme">Φωτεινό</string>
-    <string name="preferences__dark_theme">Σκοτεινό</string>
-    <string name="preferences_chats__message_trimming">Περικοπή μηνυμάτων</string>
+    <string name="conversationsMessageTrimming">Περικοπή μηνυμάτων</string>
     <string name="preferences_advanced__use_system_emoji">Χρήση emoji συστήματος</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Απενεργοποίηση της ενσωματωμένης υποστήριξης για emoji του Session</string>
     <string name="preferences_notifications__messages">Μηνύματα</string>
@@ -591,7 +588,6 @@
     <string name="activity_settings_devices_button_title">Συσκευές</string>
     <string name="activity_settings_invite_button_title">Προσκαλέστε ένα φίλο</string>
     <string name="activity_settings_faq_button_title">Συχνές ερωτήσεις</string>
-    <string name="activity_settings_recovery_phrase_button_title">Φράση Ανάκτησης</string>
     <string name="activity_settings_clear_all_data_button_title">Εκκαθάριση Δεδομένων</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Εκκαθάριση Δεδομένων Με Το Δίκτυο</string>
     <string name="activity_settings_help_translate_session">Βοηθήστε μας να μεταφράσουμε τo Session</string>
@@ -634,7 +630,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">Αφαίρεση Χρήστη Από την Ομάδα</string>
     <string name="activity_select_contacts_title">Επιλογή Επαφών</string>
     <string name="view_reset_secure_session_done_message">Η ασφαλής επαναφορά ολοκληρώθηκε</string>
-    <string name="dialog_ui_mode_title">Θέμα</string>
+    <string name="appearanceThemes">Θέμα</string>
     <string name="dialog_ui_mode_option_day">Ημέρα</string>
     <string name="dialog_ui_mode_option_night">Νύχτα</string>
     <string name="dialog_ui_mode_option_system_default">Προεπιλογή συστήματος</string>
@@ -649,7 +645,6 @@
     <string name="activity_backup_restore_passphrase">φράση 30-ψηφίων</string>
     <string name="activity_link_device_skip_prompt">Αυτό παίρνει λίγο χρόνο, θα θέλατε να παραλείψετε;</string>
     <string name="activity_link_device_link_device">Σύνδεση Συσκευής</string>
-    <string name="activity_link_device_recovery_phrase">Φράση Ανάκτησης</string>
     <string name="activity_link_device_scan_qr_code">Σάρωση QR κωδικού</string>
     <string name="activity_link_device_qr_message">Μεταβείτε στις Ρυθμίσεις → Φράση Ανάκτησης στην άλλη συσκευή σας για να εμφανίσετε τον QR κωδικό σας.</string>
     <string name="activity_join_public_chat_join_rooms">Ή συνδεθείτε σε ένα από αυτά…</string>
@@ -659,7 +654,6 @@
     <string name="activity_pn_mode_slow_mode">Αργή Επιλογή</string>
     <string name="activity_pn_mode_fast_mode_explanation">Θα ειδοποιηθείτε για νέα μηνύματα αξιόπιστα και άμεσα χρησιμοποιώντας τους διακομιστές ειδοποιήσεων της Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Το Session θα ελέγχει κατά καιρούς για νέα μηνύματα στο παρασκήνιο.</string>
-    <string name="fragment_recovery_phrase_title">Φράση Ανάκτησης</string>
     <string name="activity_prompt_passphrase_session_locked">Το Session είναι κλειδωμένο</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Πατήστε για ξεκλείδωμα</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Εισαγωγή ψευδώνυμου</string>

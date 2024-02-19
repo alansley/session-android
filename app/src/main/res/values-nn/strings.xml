@@ -349,7 +349,6 @@ nøkkelutvekslingsmelding.</string>
         <item quantity="other">%d timar</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Send med linjeskift</string>
     <string name="preferences__send_link_previews">Send lenkjesniktitt</string>
     <string name="preferences__screen_security">Skjermtryggleik</string>
     <string name="sessionNotifications">Varsel</string>
@@ -383,9 +382,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="incognitoKeyboard">Inkognitotastatur</string>
     <string name="preferences__read_receipts">Lesekvitteringar</string>
     <string name="preferences__typing_indicators">Tastevisning</string>
-    <string name="preferences__light_theme">Lys</string>
-    <string name="preferences__dark_theme">Mørk</string>
-    <string name="preferences_chats__message_trimming">Meldingsforkorting</string>
+    <string name="conversationsMessageTrimming">Meldingsforkorting</string>
     <string name="preferences_advanced__use_system_emoji">Bruk emoji på systemet</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i Session</string>
     <string name="preferences_notifications__messages">Meldingar</string>

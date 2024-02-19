@@ -397,7 +397,6 @@
         <item quantity="other">%d órája</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">Küldés az Enter lenyomásával</string>
     <string name="preferences__send_link_previews">Hivatkozások előnézeti képének küldése</string>
     <string name="preferences__screen_security">Képernyőbiztonság</string>
     <string name="sessionNotifications">Értesítések</string>
@@ -434,9 +433,7 @@
     <string name="incognitoKeyboard">Inkognitó billentyűzet</string>
     <string name="preferences__read_receipts">Olvasási nyugták</string>
     <string name="preferences__typing_indicators">Gépelésindikátorok</string>
-    <string name="preferences__light_theme">Világos</string>
-    <string name="preferences__dark_theme">Sötét</string>
-    <string name="preferences_chats__message_trimming">Üzenetek csonkítása</string>
+    <string name="conversationsMessageTrimming">Üzenetek csonkítása</string>
     <string name="preferences_advanced__use_system_emoji">Rendszer emojik használata</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">A Session beépített emoji-támogatásának letiltása</string>
     <string name="preferences_notifications__messages">Üzenetek</string>
@@ -592,7 +589,6 @@
     <string name="activity_settings_devices_button_title">Eszközök</string>
     <string name="activity_settings_invite_button_title">Barát meghívása</string>
     <string name="activity_settings_faq_button_title">Gyakori kérdések</string>
-    <string name="activity_settings_recovery_phrase_button_title">Helyreállítási kódmondat</string>
     <string name="activity_settings_clear_all_data_button_title">Adataid törlése</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Adatok törlése, beleértve a hálózatot is</string>
     <string name="activity_settings_help_translate_session">Segítsen nekünk a Session lefordításában</string>
@@ -635,7 +631,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">Felhasználó eltávolítása a csoportból</string>
     <string name="activity_select_contacts_title">Névjegyek kiválasztása</string>
     <string name="view_reset_secure_session_done_message">Biztonságos munkamenet visszaállítás kész</string>
-    <string name="dialog_ui_mode_title">Téma</string>
+    <string name="appearanceThemes">Téma</string>
     <string name="dialog_ui_mode_option_day">Ki</string>
     <string name="dialog_ui_mode_option_night">Be</string>
     <string name="dialog_ui_mode_option_system_default">Alapértelmezett</string>
@@ -650,7 +646,6 @@
     <string name="activity_backup_restore_passphrase">30-betűs kódmondat</string>
     <string name="activity_link_device_skip_prompt">Ez eltarthat egy ideig, szeretnéd átugrani?</string>
     <string name="activity_link_device_link_device">Eszköz társítása</string>
-    <string name="activity_link_device_recovery_phrase">Visszaállítási kódmondat</string>
     <string name="activity_link_device_scan_qr_code">QR kód beolvasása</string>
     <string name="activity_link_device_qr_message">A QR-kód megjelenítéséhez nyissa meg a Beállítások → Helyreállítási kifejezés elemet másik eszközén. </string>
     <string name="activity_join_public_chat_join_rooms">Vagy csatlakozz ezekhez…</string>
@@ -660,7 +655,6 @@
     <string name="activity_pn_mode_slow_mode">Lassított mód</string>
     <string name="activity_pn_mode_fast_mode_explanation">A Google értesítési szerverein keresztül megbízhatóan és azonnal értesítést kapsz az új üzenetekről.</string>
     <string name="activity_pn_mode_slow_mode_explanation">A Session alkalmanként, az új üzeneteket a háttérben fogja ellenőrizni.</string>
-    <string name="fragment_recovery_phrase_title">Visszaállítási kódmondat</string>
     <string name="activity_prompt_passphrase_session_locked">Session zárolva</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Koppintson a feloldáshoz</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Írjon be egy becenevet</string>

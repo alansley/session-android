@@ -442,7 +442,6 @@
         <item quantity="other">%d ساعة</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">مفتاح الدخول يقوم بالإرسال</string>
     <string name="preferences__send_link_previews">إرسال معاينة الرابط</string>
     <string name="preferences__screen_security">تأمين الشاشة</string>
     <string name="sessionNotifications">الإشعارات</string>
@@ -479,9 +478,7 @@
     <string name="incognitoKeyboard">وضع التستّر للوحة المفاتيح</string>
     <string name="preferences__read_receipts">قراءة تقارير الإستلام</string>
     <string name="preferences__typing_indicators">مؤشرات الكتابة</string>
-    <string name="preferences__light_theme">فاتح</string>
-    <string name="preferences__dark_theme">داكن</string>
-    <string name="preferences_chats__message_trimming">تقليم الرسالة</string>
+    <string name="conversationsMessageTrimming">تقليم الرسالة</string>
     <string name="preferences_advanced__use_system_emoji">استخدام الرموز التعبيرية بالنظام</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">تعطيل الرموز التعبيرية المدمجة في Session</string>
     <string name="preferences_notifications__messages">الرسائل</string>
@@ -637,7 +634,6 @@
     <string name="activity_settings_devices_button_title">الأجهزة</string>
     <string name="activity_settings_invite_button_title">أُدع صديق</string>
     <string name="activity_settings_faq_button_title">الأسئلة الأكثر طرحاً</string>
-    <string name="activity_settings_recovery_phrase_button_title">عبارة الإسترداد</string>
     <string name="activity_settings_clear_all_data_button_title">مسح البيانات</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">مسح البيانات بما في ذلك الشبكة</string>
     <string name="activity_settings_help_translate_session">ساعدنا في ترجمة سيشن</string>
@@ -680,7 +676,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">إلغي مستخدم من المجموعة</string>
     <string name="activity_select_contacts_title">اِختر متصلين</string>
     <string name="view_reset_secure_session_done_message">تم إعادة تعيين الجلسة الآمنة</string>
-    <string name="dialog_ui_mode_title">الشكل</string>
+    <string name="appearanceThemes">الشكل</string>
     <string name="dialog_ui_mode_option_day">نهار</string>
     <string name="dialog_ui_mode_option_night">ليل</string>
     <string name="dialog_ui_mode_option_system_default">اختيارات النضام</string>
@@ -695,7 +691,6 @@
     <string name="activity_backup_restore_passphrase">جملة مرور مكونة من 30 عنصر</string>
     <string name="activity_link_device_skip_prompt">هذا يستغرق بعض الوقت، هل تريد أن تتخطى؟</string>
     <string name="activity_link_device_link_device">اربط جهاز</string>
-    <string name="activity_link_device_recovery_phrase">جملة الاسترجاع</string>
     <string name="activity_link_device_scan_qr_code">اِفحص رمز QR</string>
     <string name="activity_link_device_qr_message">اِذهب إلى التعديلات جملة الاِسترجاع في جهازك الاآخر لإظهار رمز QR الخاص بك.</string>
     <string name="activity_join_public_chat_join_rooms">أو انضم إلى واحدة من…</string>
@@ -705,7 +700,6 @@
     <string name="activity_pn_mode_slow_mode">الوضع البطيء</string>
     <string name="activity_pn_mode_fast_mode_explanation">سوف يتم إشعارك بالرسائل بشكل موثوق و فوري بإستخدام خوادم جوجل للإشعارات.</string>
     <string name="activity_pn_mode_slow_mode_explanation">سيقوم سيشن بالتحقق من وجود رسائل جديدة بشكل دوري في الخلفية.</string>
-    <string name="fragment_recovery_phrase_title">عبارة الإسترداد</string>
     <string name="activity_prompt_passphrase_session_locked">إن سيشن مُقفَل</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">انقر للفتح</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">أدخل اسم</string>

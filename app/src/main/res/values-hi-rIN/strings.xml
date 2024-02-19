@@ -395,7 +395,6 @@
         <item quantity="other">%dघंटे </item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_title">दर्ज कुंजी भेजता है</string>
     <string name="preferences__send_link_previews">लिंक प्रिव्यू भेजें</string>
     <string name="preferences__screen_security">स्क्रीन सुरक्षा</string>
     <string name="sessionNotifications">सूचनाएं</string>
@@ -432,9 +431,7 @@
     <string name="incognitoKeyboard">गुप्त कीबोर्ड</string>
     <string name="preferences__read_receipts">पढ़ने की रसीदें</string>
     <string name="preferences__typing_indicators">टाइपिंग सूचक</string>
-    <string name="preferences__light_theme">रोशनी </string>
-    <string name="preferences__dark_theme">अँधेरा </string>
-    <string name="preferences_chats__message_trimming">संदेश ट्रिमिंग</string>
+    <string name="conversationsMessageTrimming">संदेश ट्रिमिंग</string>
     <string name="preferences_advanced__use_system_emoji">सिस्टम इमोजी का प्रयोग करें</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session के अंतर्निहित इमोजी समर्थन को अक्षम करें</string>
     <string name="preferences_notifications__messages">संदेश</string>
@@ -590,7 +587,6 @@
     <string name="activity_settings_devices_button_title">डिवाइसेज़</string>
     <string name="activity_settings_invite_button_title">किसी मित्र को आमंत्रित करें</string>
     <string name="activity_settings_faq_button_title">अकसर किये गए सवाल</string>
-    <string name="activity_settings_recovery_phrase_button_title">पुनर्प्राप्ति वाक्यांश</string>
     <string name="activity_settings_clear_all_data_button_title">डेटा हटाएं</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">डाटा नेटवर्क के समेत साफ करें।</string>
     <string name="activity_settings_help_translate_session">सेशन का अनुवाद करने में सहायता करें</string>
@@ -633,7 +629,7 @@
     <string name="fragment_edit_group_bottom_sheet_remove">उपयोगकर्ता को ग्रुप से निकालें</string>
     <string name="activity_select_contacts_title">कांटेक्ट चुनें</string>
     <string name="view_reset_secure_session_done_message">सुरक्षित सेशन रीसेट कर दिया गया है</string>
-    <string name="dialog_ui_mode_title">थीम</string>
+    <string name="appearanceThemes">थीम</string>
     <string name="dialog_ui_mode_option_day">हलका</string>
     <string name="dialog_ui_mode_option_night">अंधेरा</string>
     <string name="dialog_ui_mode_option_system_default">सिस्टम डिफ़ॉल्ट का इस्तेमाल करें</string>
@@ -648,7 +644,6 @@
     <string name="activity_backup_restore_passphrase">30 अंक का पासफ्रेस</string>
     <string name="activity_link_device_skip_prompt">यह समय ले रहा है, इसे छोड़ दें?</string>
     <string name="activity_link_device_link_device">डिवाइस को लिंक करें</string>
-    <string name="activity_link_device_recovery_phrase">पुनर्प्राप्ति वाक्यांश</string>
     <string name="activity_link_device_scan_qr_code">QR कोड को स्कैन करें</string>
     <string name="activity_link_device_qr_message">अपना क्यूआर कोड दिखाने के लिए अपने अन्य डिवाइस पर सेटिंग्स →पुनर्प्राप्ति वाक्यांश में जाएंं।</string>
     <string name="activity_join_public_chat_join_rooms">या इनमें से एक को जोड़ें...</string>
@@ -658,7 +653,6 @@
     <string name="activity_pn_mode_slow_mode">स्लो मोड</string>
     <string name="activity_pn_mode_fast_mode_explanation">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session कभी-कभी पृष्ठभूमि में नए संदेशों की जांच करेगा।</string>
-    <string name="fragment_recovery_phrase_title">पुनर्प्राप्ति वाक्यांश</string>
     <string name="activity_prompt_passphrase_session_locked">Session लॉक है</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">अनलॉक करने के लिए टैप करें</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">उपनाम चुनें</string>

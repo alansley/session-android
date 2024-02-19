@@ -186,7 +186,6 @@
     <string name="activity_settings_devices_button_title">Ierīces</string>
     <string name="activity_settings_invite_button_title">Uzaicināt draugu</string>
     <string name="activity_settings_faq_button_title">Biežāk uzdotie jautājumi</string>
-    <string name="activity_settings_recovery_phrase_button_title">Atjaunošanas frāze</string>
     <string name="activity_settings_clear_all_data_button_title">Izdzēst datus</string>
     <string name="activity_settings_help_translate_session">Palīdzi mums pārtulkot Session</string>
     <string name="notificationsStyle">Paziņojuma izskats</string>
@@ -212,7 +211,7 @@
     <string name="activity_edit_closed_group_group_name_too_long_error">Lūdzu, ievadiet īsāku grupas nosaukumu</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Dzēst lietotāju no grupas</string>
     <string name="activity_select_contacts_title">Izvēlieties kontaktus</string>
-    <string name="dialog_ui_mode_title">Izskats</string>
+    <string name="appearanceThemes">Izskats</string>
     <string name="dialog_ui_mode_option_day">Diena</string>
     <string name="dialog_ui_mode_option_night">Nakts</string>
     <string name="activity_conversation_menu_copy_session_id">Kopēt Session ID</string>
