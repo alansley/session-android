@@ -90,7 +90,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">Menghapus</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Menghapus pesan...</string>
-    <string name="MediaOverviewActivity_Documents">Dokumen</string>
     <string name="MediaOverviewActivity_Select_all">Pilih semua</string>
     <string name="MediaOverviewActivity_collecting_attachments">Mengumpulkan lampiran...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -105,7 +104,7 @@
     <string name="MediaSendActivity_camera_unavailable">Kamera tidak tersedia.</string>
     <string name="MediaSendActivity_message_to_s">kirim pesan ke %s</string>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Semua media</string>
+    <string name="conversationsSettingsAllMedia">Semua media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung, Harap beri tahu pengirim untuk memutakhirkan ke versi terbaru dan kirim ulang pesannya.</string>
     <string name="MessageRecord_left_group">Anda telah keluar dari grup.</string>
@@ -243,7 +242,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Putar</string>
     <string name="audio_view__pause_accessibility_description">Jeda</string>
-    <string name="audio_view__download_accessibility_description">Unduh</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
@@ -289,7 +287,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="arrays__name_and_message">Nama dan pesan</string>
     <string name="notificationsContentShowNameOnly">Nama saja</string>
     <string name="arrays__images">Gambar</string>
-    <string name="arrays__documents">Dokumen</string>
     <string name="arrays__small">Kecil</string>
     <string name="arrays__large">Besar</string>
     <string name="arrays__extra_large">Ekstra besar</string>
@@ -359,7 +356,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Ubah grup</string>
     <string name="conversation__menu_leave_group">Keluar grup</string>
-    <string name="conversation__menu_view_all_media">Semua media</string>
     <string name="conversation__menu_add_shortcut">tambahkan ke layar utama</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Lebarkan munculan</string>
@@ -368,9 +364,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="conversation_group_options__conversation">Percakapan</string>
     <string name="conversation_group_options__broadcast">Siaran</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Simpan</string>
     <string name="media_preview__forward_title">Teruskan</string>
-    <string name="media_preview__all_media_title">Semua media</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Tidak ada dokumen</string>
     <!-- media_preview_activity -->
@@ -429,7 +423,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_display_name_edit_text_hint">Masukkan nama</string>
     <string name="activity_display_name_display_name_missing_error">Pilih nama yang ditampilkan</string>
     <string name="activity_display_name_display_name_too_long_error">Nama yang dibuat terlalu panjang</string>
-    <string name="activity_pn_mode_recommended_option_tag">Direkomendasikan</string>
+    <string name="recommended">Direkomendasikan</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pilih salah satu opsi</string>
     <string name="activity_home_empty_state_message">Anda belum memiliki kontak</string>
     <string name="activity_home_empty_state_button_title">Mulai sebuah Session</string>
@@ -482,7 +476,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="dialog_clear_all_data_title">Hapus semua data</string>
     <string name="dialog_clear_all_data_explanation">Pesan, Session, dan kontak anda akan dihapus secara permanen</string>
     <string name="activity_qr_code_title">Kode QR</string>
-    <string name="activity_qr_code_view_my_qr_code_tab_title">Lihat kode QR saya</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Pindai kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>
     <string name="fragment_view_my_qr_code_explanation">Ini adalah kode QR anda. Pengguna lain bisa memindainya untuk memulai percakapan dengan anda</string>

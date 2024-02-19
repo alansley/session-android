@@ -133,7 +133,6 @@
     <string name="LongMessageActivity_message_from_s">Mensagem de %1$s</string>
     <string name="LongMessageActivity_your_message">Sua mensagem</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Mídia</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Deletar mensagem selecionada?</item>
         <item quantity="other">Deletar mensagens selecionadas?</item>
@@ -144,7 +143,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Deletando</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Deletando mensagens...</string>
-    <string name="MediaOverviewActivity_Documents">Documentos</string>
     <string name="MediaOverviewActivity_Select_all">Selecionar todos</string>
     <string name="MediaOverviewActivity_collecting_attachments">Coletando anexos...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -163,7 +161,7 @@
         <item quantity="other">Você não pode compartilhar mais de %d itens.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Todas as mídias</string>
+    <string name="conversationsSettingsAllMedia">Todas as mídias</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Recebida uma mensagem encriptada usando uma versão antiga de Session que não é mais suportada. Por favor peça o(a) enviador(a) que atualize para a versão mais recente e reenvie a mensagem.</string>
     <string name="MessageRecord_left_group">Você saiu do grupo.</string>
@@ -320,7 +318,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Tocar</string>
     <string name="audio_view__pause_accessibility_description">Pausar</string>
-    <string name="audio_view__download_accessibility_description">Baixar</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Juntar-se</string>
     <string name="open_group_invitation_view__open_group_invitation">Abrir convite do grupo</string>
@@ -377,7 +374,6 @@
     <string name="arrays__images">Imagens</string>
     <string name="arrays__audio">Áudio</string>
     <string name="arrays__video">Vídeo</string>
-    <string name="arrays__documents">Documentos</string>
     <string name="arrays__small">Pequeno</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Grande</string>
@@ -457,7 +453,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editar grupo</string>
     <string name="conversation__menu_leave_group">Sair de grupo</string>
-    <string name="conversation__menu_view_all_media">Todas as mídias</string>
     <string name="conversation__menu_add_shortcut">Adicionar a tela inicial</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandir popup</string>
@@ -466,9 +461,7 @@
     <string name="conversation_group_options__conversation">Conversa</string>
     <string name="conversation_group_options__broadcast">Transmissão</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Salvar</string>
     <string name="media_preview__forward_title">Avançar</string>
-    <string name="media_preview__all_media_title">Todas as mídias</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Nenhum documento</string>
     <!-- media_preview_activity -->
@@ -528,7 +521,7 @@
     <string name="activity_display_name_edit_text_hint">Entre um nome de display</string>
     <string name="activity_display_name_display_name_missing_error">Escolha um nome de display</string>
     <string name="activity_display_name_display_name_too_long_error">Escolha um nome de exibição mais curto</string>
-    <string name="activity_pn_mode_recommended_option_tag">Recomendado</string>
+    <string name="recommended">Recomendado</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Escolha uma opção</string>
     <string name="activity_home_empty_state_message">Você ainda não possui contatos</string>
     <string name="activity_home_empty_state_button_title">Iniciar uma sessão</string>
@@ -595,7 +588,6 @@
     <string name="dialog_clear_all_data_local_only">Excluir apenas</string>
     <string name="dialog_clear_all_data_clear_network">Toda a conta</string>
     <string name="activity_qr_code_title">Código QR</string>
-    <string name="activity_qr_code_view_my_qr_code_tab_title">Ver meu código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Escanear código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneie o código QR de alguém para iniciar uma conversa com essa pessoa</string>
     <string name="fragment_view_my_qr_code_title">Me escaneie</string>
@@ -644,7 +636,6 @@
     <string name="activity_prompt_passphrase_tap_to_unlock">Toque para destrancar</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Digite um apelido</string>
     <string name="invalid_public_key">Chave pública inválida</string>
-    <string name="document">Documento</string>
     <string name="dialog_blocked_title">Desbloquear %s?</string>
     <string name="dialog_blocked_explanation">Você tem certeza que deseja desbloquear %s?</string>
     <string name="dialog_join_open_group_title">Juntar-se a %s?</string>
@@ -658,12 +649,12 @@
     <string name="dialog_link_preview_enable_button_title">Ativar</string>
     <string name="dialog_download_title">Confiar em %s?</string>
     <string name="dialog_download_explanation">Você tem certeza que deseja baixar a mídia enviada por %s?</string>
-    <string name="dialog_download_button_title">Baixar</string>
+    <string name="download">Baixar</string>
     <string name="activity_conversation_blocked_banner_text">%s está bloqueado. Desbloqueiá-los?</string>
     <string name="activity_conversation_attachment_prep_failed">Falha ao preparar o anexo para envio.</string>
     <string name="media">Mídia</string>
     <string name="UntrustedAttachmentView_download_attachment">Toque para baixar %s</string>
-    <string name="message_details_header__error">Erro</string>
+    <string name="_error">Erro</string>
     <string name="dialog_send_seed_title">Aviso</string>
     <string name="dialog_send_seed_explanation">Esta é a tua frase de recuperação. Se tu enviares isto para alguém, eles terão total acesso à tua conta.</string>
     <string name="dialog_send_seed_send_button_title">Enviar</string>

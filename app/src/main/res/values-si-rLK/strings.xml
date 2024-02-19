@@ -57,8 +57,6 @@
     <string name="LongMessageActivity_message_from_s">%1$s වෙතින් පණිවිඩය</string>
     <string name="LongMessageActivity_your_message">ඔබගේ පණීවිඩය</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">මාධ්‍යය</string>
-    <string name="MediaOverviewActivity_Documents">ලේඛන</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">බහුමාධ්‍ය පණිවිඩය</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">මාධ්‍ය පණිවිඩය බාගතවෙමින්</string>
@@ -67,7 +65,7 @@
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_message_to_s">%s වෙත පණිවිඩය</string>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">සියලුම මාධ්‍යය</string>
+    <string name="conversationsSettingsAllMedia">සියලුම මාධ්‍යය</string>
     <!-- MessageRecord -->
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_disappearing_messages">නොපෙනී යන පණිවිඩ</string>
@@ -133,7 +131,6 @@
     <!-- conversation_item_received -->
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">වාදනය</string>
-    <string name="audio_view__download_accessibility_description">බාගන්න</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">එක්වන්න</string>
     <!-- QuoteView -->
@@ -171,15 +168,12 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">සමූහය සංස්කරණය</string>
     <string name="conversation__menu_leave_group">සමූහය හැරයන්න</string>
-    <string name="conversation__menu_view_all_media">සියලුම මාධ්‍යය</string>
     <string name="conversation__menu_add_shortcut">මුල් තිරයට එකතු කරන්න</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->
     <string name="conversation_group_options__delivery">බාරදීම</string>
     <string name="conversation_group_options__conversation">සම්භාෂණය</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">සුරකින්න</string>
-    <string name="media_preview__all_media_title">සියලුම මාධ්‍යය</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">ලේඛන නැත</string>
     <!-- media_preview_activity -->
@@ -204,7 +198,7 @@
     <string name="cancel">අවලංගු</string>
     <string name="view_fake_chat_bubble_1">සෙෂන් යනු කුමක්ද?</string>
     <string name="activity_restore_title">ගිණුම ප්‍රත්‍යර්පණය කරන්න</string>
-    <string name="activity_pn_mode_recommended_option_tag">නිර්දේශිත</string>
+    <string name="recommended">නිර්දේශිත</string>
     <string name="activity_create_closed_group_edit_text_hint">සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="activity_create_closed_group_group_name_missing_error">සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="activity_create_closed_group_group_name_too_long_error">කෙටි සමූහ නාමයක් ඇතුල් කරන්න</string>
@@ -243,11 +237,11 @@
     <string name="open">විවෘත</string>
     <string name="dialog_link_preview_enable_button_title">සබල කරන්න</string>
     <string name="dialog_download_title">%s විශ්වාස ද?</string>
-    <string name="dialog_download_button_title">බාගන්න</string>
+    <string name="download">බාගන්න</string>
     <string name="activity_conversation_blocked_banner_text">%s අවහිර කර ඇත. අනවහිර කරනවාද?</string>
     <string name="media">මාධ්‍යය</string>
     <string name="UntrustedAttachmentView_download_attachment">%s බාගැනීමට තට්ටු කරන්න</string>
-    <string name="message_details_header__error">දෝෂය</string>
+    <string name="_error">දෝෂය</string>
     <string name="dialog_send_seed_title">අවවාදයයි</string>
     <string name="dialog_send_seed_send_button_title">යවන්න</string>
     <string name="notify_type_all">සියල්ල</string>

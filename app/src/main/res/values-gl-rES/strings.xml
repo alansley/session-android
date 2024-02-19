@@ -132,7 +132,6 @@
     <string name="LongMessageActivity_message_from_s">Mensaxe de %1$s</string>
     <string name="LongMessageActivity_your_message">A túa mensaxe</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Ficheiros multimedia</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Borrar a mensaxe seleccionada?</item>
         <item quantity="other">Borrar as mensaxes seleccionadas?</item>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Borrando</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Borrando mensaxes...</string>
-    <string name="MediaOverviewActivity_Documents">Documentos</string>
     <string name="MediaOverviewActivity_Select_all">Seleccionar todo</string>
     <string name="MediaOverviewActivity_collecting_attachments">Recompilando anexos...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -162,7 +160,7 @@
         <item quantity="other">Non podes compartir máis de %d elementos.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Ficheiros multimedia</string>
+    <string name="conversationsSettingsAllMedia">Ficheiros multimedia</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Recibiuse unha mensaxe cifrada a través dunha versión antiga de Session que xa non ten soporte. Por favor, pídelle ao remitente que actualice a súa versión e volva enviar a mensaxe.</string>
     <string name="MessageRecord_left_group">Abandonaches o grupo.</string>
@@ -315,7 +313,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Reproducir</string>
     <string name="audio_view__pause_accessibility_description">Pausar</string>
-    <string name="audio_view__download_accessibility_description">Descargar</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Entrar no grupo</string>
     <string name="open_group_guidelines_pinned_message">Mensaxe fixada</string>
@@ -370,7 +367,6 @@
     <string name="arrays__images">Imaxes</string>
     <string name="arrays__audio">Audio</string>
     <string name="arrays__video">Vídeo</string>
-    <string name="arrays__documents">Documentos</string>
     <string name="arrays__small">Pequeno</string>
     <string name="arrays__large">Grande</string>
     <string name="arrays__extra_large">Moi grande</string>
@@ -448,7 +444,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editar grupo</string>
     <string name="conversation__menu_leave_group">Abandonar grupo</string>
-    <string name="conversation__menu_view_all_media">Ficheiros multimedia</string>
     <string name="conversation__menu_add_shortcut">Engadir á pantalla de inicio</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandir xanela emerxente</string>
@@ -457,9 +452,7 @@
     <string name="conversation_group_options__conversation">Conversa</string>
     <string name="conversation_group_options__broadcast">Difusión</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Gardar</string>
     <string name="media_preview__forward_title">Reenviar</string>
-    <string name="media_preview__all_media_title">Ficheiros multimedia</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Sen documentos</string>
     <!-- media_preview_activity -->

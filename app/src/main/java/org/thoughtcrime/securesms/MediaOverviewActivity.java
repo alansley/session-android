@@ -176,8 +176,8 @@ public class MediaOverviewActivity extends PassphraseRequiredActionBarActivity {
 
     @Override
     public CharSequence getPageTitle(int position) {
-      if      (position == 0) return getString(R.string.MediaOverviewActivity_Media);
-      else if (position == 1) return getString(R.string.MediaOverviewActivity_Documents);
+      if      (position == 0) return getString(R.string.media);
+      else if (position == 1) return getString(R.string.files);
       else                    throw new AssertionError();
     }
   }

@@ -66,7 +66,7 @@ class MessageDetailsViewModel @Inject constructor(
                     record = record,
                     sent = dateSent.let(::Date).toString().let { TitledText(R.string.message_details_header__sent, it) },
                     received = dateReceived.let(::Date).toString().let { TitledText(R.string.message_details_header__received, it) },
-                    error = lokiMessageDatabase.getErrorMessage(id)?.let { TitledText(R.string.message_details_header__error, it) },
+                    error = lokiMessageDatabase.getErrorMessage(id)?.let { TitledText(R.string._error, it) },
                     senderInfo = individualRecipient.run { name?.let { TitledText(it, address.serialize()) } },
                     sender = individualRecipient,
                     thread = threadDb.getRecipientForThreadId(threadId)!!,

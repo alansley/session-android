@@ -78,10 +78,8 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">အသံဖမ်းရန် ခလုပ်ကိုဖိထားပါ၊ ပို့ရန် ခလုပ်ကိုလွှတ်လိုက်ပါ</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">ရုပ်၊သံ၊ပုံ များ</string>
     <string name="MediaOverviewActivity_Media_delete_progress_title">ဖျက်နေဆဲ</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">စာများဖျက်နေသည်</string>
-    <string name="MediaOverviewActivity_Documents">စာရွက်စာတမ်းများ</string>
     <string name="MediaOverviewActivity_Select_all">အားလုံးကို ရွေးပါ</string>
     <string name="MediaOverviewActivity_collecting_attachments">ပူးတွဲဖိုင်များကို စုစည်းနေသည် </string>
     <!-- NotificationMmsMessageRecord -->
@@ -91,7 +89,7 @@
     <!-- MediaPickerActivity -->
     <!-- MediaSendActivity -->
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">ရုပ်/သံ/ပုံ စာများအားလုံး</string>
+    <string name="conversationsSettingsAllMedia">ရုပ်/သံ/ပုံ စာများအားလုံး</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ထပ်မံပံ့ပိုးမှုမရှိတော့သော Session ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား signal နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
     <string name="MessageRecord_left_group">အဖွဲ့မှ သင်ထွက်လိုက်သည်။</string>
@@ -226,7 +224,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">ဖွင့်သည်</string>
     <string name="audio_view__pause_accessibility_description">ခဏရပ်သည်</string>
-    <string name="audio_view__download_accessibility_description">ကူးဆွဲသည်</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">အသံ</string>
@@ -276,7 +273,6 @@
     <string name="arrays__images">ပုံများ</string>
     <string name="arrays__audio">အသံ</string>
     <string name="arrays__video">ဗီဒီယို</string>
-    <string name="arrays__documents">စာရွက်စာတမ်းများ</string>
     <string name="arrays__small">သေးငယ်သော</string>
     <string name="arrays__normal">ပုံမှန်</string>
     <string name="arrays__large">ကြီးသော</string>
@@ -348,7 +344,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">အဖွဲ့ကို ပြင်မည်</string>
     <string name="conversation__menu_leave_group">အဖွဲ့မှ ထွက်မည်</string>
-    <string name="conversation__menu_view_all_media">ရုပ်/သံ/ပုံ စာများအားလုံး</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">popup ကို တိုးချဲ့ပါ</string>
     <!-- conversation_group_options -->
@@ -356,9 +351,7 @@
     <string name="conversation_group_options__conversation">စကားဝိုင်း</string>
     <string name="conversation_group_options__broadcast">ထုတ်လွှင့်ပါ</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">သိမ်းထားပါ။</string>
     <string name="media_preview__forward_title">ထပ်ဆင့် ပေးပို့ပါ။</string>
-    <string name="media_preview__all_media_title">ရုပ်/သံ/ပုံ စာများအားလုံး</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">စာရွက်စာတမ်းများ မရှိပါ။ </string>
     <!-- media_preview_activity -->

@@ -133,7 +133,6 @@
     <string name="LongMessageActivity_message_from_s">Μήνυμα από τον/την %1$s</string>
     <string name="LongMessageActivity_your_message">Το μήνυμά σας</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Πολυμέσα</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Διαγραφή επιλεγμένου μηνύματος;</item>
         <item quantity="other">Διαγραφή επιλεγμένων μηνυμάτων;</item>
@@ -144,7 +143,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Γίνεται διαγραφή</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Διαγραφή μηνυμάτων...</string>
-    <string name="MediaOverviewActivity_Documents">Αρχεία</string>
     <string name="MediaOverviewActivity_Select_all">Επιλογή όλων</string>
     <string name="MediaOverviewActivity_collecting_attachments">Τα συνημμένα συλλέγονται...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -163,7 +161,7 @@
         <item quantity="other">Δεν μπορείτε να μοιραστείτε πάνω από %d αντικείμενα.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Όλα τα πολυμέσα</string>
+    <string name="conversationsSettingsAllMedia">Όλα τα πολυμέσα</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Λήφθηκε ένα μήνυμα που είναι κρυπτογραφημένο με μια παλιά έκδοση του Session που πλέον δεν υποστηρίζεται. Παρακαλώ ζητήστε από τον αποστολέα να αναβαθμίσει στην πιο πρόσφατη έκδοση και να ξαναστείλει το μήνυμα.</string>
     <string name="MessageRecord_left_group">Αποχωρήσατε από την ομάδα.</string>
@@ -320,7 +318,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Αναπαραγωγή</string>
     <string name="audio_view__pause_accessibility_description">Παύση</string>
-    <string name="audio_view__download_accessibility_description">Λήψη</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Εγγραφείτε</string>
     <string name="open_group_invitation_view__open_group_invitation">Πρόσκληση ανοιχτής ομάδας</string>
@@ -377,7 +374,6 @@
     <string name="arrays__images">Εικόνες</string>
     <string name="arrays__audio">Ήχοι</string>
     <string name="arrays__video">Βίντεο</string>
-    <string name="arrays__documents">Αρχεία</string>
     <string name="arrays__small">Μικρό</string>
     <string name="arrays__normal">Κανονικό</string>
     <string name="arrays__large">Μεγάλο</string>
@@ -457,7 +453,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Επεξεργασία ομάδας</string>
     <string name="conversation__menu_leave_group">Αποχώρηση από την ομάδα</string>
-    <string name="conversation__menu_view_all_media">Όλα τα πολυμέσα</string>
     <string name="conversation__menu_add_shortcut">Προσθήκη στην κεντρική οθόνη</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Επέκταση popup</string>
@@ -466,9 +461,7 @@
     <string name="conversation_group_options__conversation">Συνομιλία</string>
     <string name="conversation_group_options__broadcast">Αποστολή σε όλους/ες</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Αποθήκευση</string>
     <string name="media_preview__forward_title">Προώθηση</string>
-    <string name="media_preview__all_media_title">Όλα τα πολυμέσα</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Δεν υπάρχουν έγγραφα</string>
     <!-- media_preview_activity -->
@@ -528,7 +521,7 @@
     <string name="activity_display_name_edit_text_hint">Εισάγετε όνομα εμφάνισης</string>
     <string name="activity_display_name_display_name_missing_error">Παρακαλώ επιλέξτε ένα εμφανιζόμενο όνομα</string>
     <string name="activity_display_name_display_name_too_long_error">Παρακαλώ επιλέξτε ένα μικρότερο όνομα εμφάνισης</string>
-    <string name="activity_pn_mode_recommended_option_tag">Προτεινόμενο</string>
+    <string name="recommended">Προτεινόμενο</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Παρακαλούμε κάντε μια επιλογή</string>
     <string name="activity_home_empty_state_message">Δεν υπάρχουν επαφές</string>
     <string name="activity_home_empty_state_button_title">Ξεκινήστε μια συνομιλία</string>
@@ -595,7 +588,6 @@
     <string name="dialog_clear_all_data_local_only">Διαγραφή Μόνο</string>
     <string name="dialog_clear_all_data_clear_network">Ολόκληρος ο Λογαριασμός</string>
     <string name="activity_qr_code_title">QR κωδικός</string>
-    <string name="activity_qr_code_view_my_qr_code_tab_title">Προβολή Του Qr Κώδικά Μου</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Σαρώστε τον κωδικό QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Σαρώστε τον κωδικό QR κάποιου για να ξεκινήσετε μια συνομιλία μαζί του</string>
     <string name="fragment_view_my_qr_code_title">Σάρωσέ Με</string>
@@ -644,7 +636,6 @@
     <string name="activity_prompt_passphrase_tap_to_unlock">Πατήστε για ξεκλείδωμα</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Εισαγωγή ψευδώνυμου</string>
     <string name="invalid_public_key">Μη έγκυρο δημόσιο κλειδί</string>
-    <string name="document">Έγγραφο</string>
     <string name="dialog_blocked_title">Ξεμπλοκάρισμα %s;</string>
     <string name="dialog_blocked_explanation">Είστε βέβαιοι ότι θέλετε να ξεμπλοκάρετε %s;</string>
     <string name="dialog_join_open_group_title">Συμμετοχή %s;</string>
@@ -658,12 +649,12 @@
     <string name="dialog_link_preview_enable_button_title">Ενεργοποίηση</string>
     <string name="dialog_download_title">Έμπιστο %s;</string>
     <string name="dialog_download_explanation">Είστε βέβαιοι ότι θέλετε να κατεβάσετε τα πολυμέσα που στάλθηκαν από %s;</string>
-    <string name="dialog_download_button_title">Λήψη</string>
+    <string name="download">Λήψη</string>
     <string name="activity_conversation_blocked_banner_text">%s έχει αποκλειστεί. Ξεμπλοκάρισμα;</string>
     <string name="activity_conversation_attachment_prep_failed">Αποτυχία προετοιμασίας συνημμένου για αποστολή.</string>
     <string name="media">Πολυμέσα</string>
     <string name="UntrustedAttachmentView_download_attachment">Αγγίξτε για λήψη %s</string>
-    <string name="message_details_header__error">Σφάλμα</string>
+    <string name="_error">Σφάλμα</string>
     <string name="dialog_send_seed_title">Προειδοποίηση</string>
     <string name="dialog_send_seed_explanation">Αυτή είναι η φράση ανάκτησής σας. Αν την στείλετε σε κάποιον θα έχει πλήρη πρόσβαση στο λογαριασμό σας.</string>
     <string name="dialog_send_seed_send_button_title">Αποστολή</string>

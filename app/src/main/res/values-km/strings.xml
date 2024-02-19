@@ -112,7 +112,6 @@
     <string name="LongMessageActivity_message_from_s">សារពី %1$s</string>
     <string name="LongMessageActivity_your_message">សាររបស់អ្នក</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">ព័ត៌មាន</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="other">លុបសារដែលបានជ្រើសរើស?</item>
     </plurals>
@@ -121,7 +120,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">កំពុងលុប</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">កំពុងលុបសារ...</string>
-    <string name="MediaOverviewActivity_Documents">ឯកសារ</string>
     <string name="MediaOverviewActivity_Select_all">ជ្រើសរើសទាំងអស់</string>
     <string name="MediaOverviewActivity_collecting_attachments">កំពុងប្រមូលឯកសារភ្ជាប់...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -139,7 +137,7 @@
         <item quantity="other">អ្នកមិនអាចចែករំលែកចំនួនលើសពី %d ។</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">ព័ត៌មានទាំងអស់</string>
+    <string name="conversationsSettingsAllMedia">ព័ត៌មានទាំងអស់</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Session ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
     <string name="MessageRecord_left_group">អ្នកបានចាកចេញពីក្រុម។</string>
@@ -286,7 +284,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">បើក</string>
     <string name="audio_view__pause_accessibility_description">ផ្អាក់</string>
-    <string name="audio_view__download_accessibility_description">ទាញយក</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">សំឡេង</string>
@@ -337,7 +334,6 @@
     <string name="arrays__images">រូបភាព</string>
     <string name="arrays__audio">សំឡេង</string>
     <string name="arrays__video">វីដេអូ</string>
-    <string name="arrays__documents">ឯកសារ</string>
     <string name="arrays__small">តូច</string>
     <string name="arrays__normal">ធម្មតា</string>
     <string name="arrays__large">ធំ</string>
@@ -414,7 +410,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">កែប្រែក្រុម</string>
     <string name="conversation__menu_leave_group">ចាកចេញពីក្រុម</string>
-    <string name="conversation__menu_view_all_media">ព័ត៌មានទាំងអស់</string>
     <string name="conversation__menu_add_shortcut">បន្ថែមទៅអេក្រង់ដើម</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ពង្រីកការផុសឡើង</string>
@@ -423,9 +418,7 @@
     <string name="conversation_group_options__conversation">សន្ទនា</string>
     <string name="conversation_group_options__broadcast">ផ្សព្វផ្សាយ</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">រក្សាទុក</string>
     <string name="media_preview__forward_title">បញ្ជូនបន្ត</string>
-    <string name="media_preview__all_media_title">ព័ត៌មានទាំងអស់</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">គ្មានឯកសារ</string>
     <!-- media_preview_activity -->

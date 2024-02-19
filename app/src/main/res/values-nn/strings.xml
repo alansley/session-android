@@ -126,7 +126,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Slettar</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Slettar meldingar …</string>
-    <string name="MediaOverviewActivity_Documents">Dokument</string>
     <string name="MediaOverviewActivity_Select_all">Vel alle</string>
     <string name="MediaOverviewActivity_collecting_attachments">Hentar vedlegg …</string>
     <!-- NotificationMmsMessageRecord -->
@@ -283,7 +282,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_item_received__contact_photo_description">Kontaktfoto</string>
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Spel</string>
-    <string name="audio_view__download_accessibility_description">Last ned</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">Lyd</string>
@@ -331,7 +329,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="notificationsContentShowNameOnly">Berre namn</string>
     <string name="arrays__images">Bilete</string>
     <string name="arrays__audio">Lyd</string>
-    <string name="arrays__documents">Dokument</string>
     <string name="arrays__small">Liten</string>
     <string name="arrays__large">Stor</string>
     <string name="arrays__extra_large">Veldig stor</string>
@@ -413,7 +410,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_group_options__conversation">Samtale</string>
     <string name="conversation_group_options__broadcast">Kringkast</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Lagra</string>
     <string name="media_preview__forward_title">Vidaresend</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Ingen dokument</string>

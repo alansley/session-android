@@ -104,7 +104,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">แตะค้างไว้เพื่อบันทึกข้อความเสียง ปล่อยเพื่อส่ง</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">สื่อ</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="other">ลบข้อความที่เลือกหรือไม่</item>
     </plurals>
@@ -113,7 +112,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">กำลังลบ</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">กำลังลบข้อความ...</string>
-    <string name="MediaOverviewActivity_Documents">เอกสาร</string>
     <string name="MediaOverviewActivity_Select_all">เลือกทั้งหมด</string>
     <string name="MediaOverviewActivity_collecting_attachments">รวบรวมสิ่งแนบ...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -123,7 +121,7 @@
     <!-- MediaPickerActivity -->
     <!-- MediaSendActivity -->
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">สื่อทั้งหมด</string>
+    <string name="conversationsSettingsAllMedia">สื่อทั้งหมด</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ได้รับข้อความที่เข้ารหัสด้วย Session รุ่นเก่าที่ไม่รองรับอีกต่อไปแล้ว โปรดขอให้ผู้ส่งอัพเดตแอปเป็นเวอร์ชันล่าสุดและส่งข้อความอีกครั้ง</string>
     <string name="MessageRecord_left_group">คุณได้ออกจากกลุ่ม</string>
@@ -265,7 +263,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">เล่น</string>
     <string name="audio_view__pause_accessibility_description">หยุดชั่วคราว</string>
-    <string name="audio_view__download_accessibility_description">ดาวน์โหลด</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">เสียง</string>
@@ -316,7 +313,6 @@
     <string name="arrays__images">ภาพ</string>
     <string name="arrays__audio">เสียง</string>
     <string name="arrays__video">วิดีโอ</string>
-    <string name="arrays__documents">เอกสาร</string>
     <string name="arrays__small">เล็ก</string>
     <string name="arrays__normal">ปกติ</string>
     <string name="arrays__large">ใหญ่</string>
@@ -391,7 +387,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">แก้ไขกลุ่ม</string>
     <string name="conversation__menu_leave_group">ออกจากกลุ่ม</string>
-    <string name="conversation__menu_view_all_media">สื่อทั้งหมด</string>
     <string name="conversation__menu_add_shortcut">เพิ่มไปยังหน้าจอหลัก</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ขยายป็อปอัพ</string>
@@ -400,9 +395,7 @@
     <string name="conversation_group_options__conversation">สนทนา</string>
     <string name="conversation_group_options__broadcast">เผยแพร่</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">บันทึก</string>
     <string name="media_preview__forward_title">ส่งต่อ</string>
-    <string name="media_preview__all_media_title">สื่อทั้งหมด</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">ไม่มีเอกสาร</string>
     <!-- media_preview_activity -->

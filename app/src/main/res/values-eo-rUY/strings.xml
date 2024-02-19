@@ -133,7 +133,6 @@
     <string name="LongMessageActivity_message_from_s">Mesaĝo el %1$s</string>
     <string name="LongMessageActivity_your_message">Via mesaĝo</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Aŭdvidaĵo</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Ĉu forviŝi elektitan mesaĝon?</item>
         <item quantity="other">Ĉu forigi elektitajn mesaĝojn?</item>
@@ -144,7 +143,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Forviŝante</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Forviŝante mesaĝojn...</string>
-    <string name="MediaOverviewActivity_Documents">Dokumentoj</string>
     <string name="MediaOverviewActivity_Select_all">Elekti ĉiujn</string>
     <string name="MediaOverviewActivity_collecting_attachments">Kolekto de kunsendaĵoj...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -163,7 +161,7 @@
         <item quantity="other">Vi ne povas kunhavigi pli ol %d elementojn.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Ĉiuj aŭvidaĵoj</string>
+    <string name="conversationsSettingsAllMedia">Ĉiuj aŭvidaĵoj</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vi ricevis mesaĝon ĉifrita per malnova Session-a versio, kiu ne plu estas subtenata. Bonvolu peti la sendinton ĝisdatigi al la plej freŝa versio, kaj resendi la mesaĝon.</string>
     <string name="MessageRecord_left_group">Vi forlasis la grupon.</string>
@@ -319,7 +317,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Ludi</string>
     <string name="audio_view__pause_accessibility_description">Paŭzigi</string>
-    <string name="audio_view__download_accessibility_description">Elŝuti</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Aliĝi</string>
     <string name="open_group_invitation_view__open_group_invitation">Invito de malferma grupo</string>
@@ -376,7 +373,6 @@
     <string name="arrays__images">Bildoj</string>
     <string name="arrays__audio">Sonaĵo</string>
     <string name="arrays__video">Videaĵo</string>
-    <string name="arrays__documents">Dokumentoj</string>
     <string name="arrays__small">Eta</string>
     <string name="arrays__normal">Normala</string>
     <string name="arrays__large">Granda</string>
@@ -456,7 +452,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Modifi grupon</string>
     <string name="conversation__menu_leave_group">Forlasi la grupon</string>
-    <string name="conversation__menu_view_all_media">Ĉiuj aŭvidaĵoj</string>
     <string name="conversation__menu_add_shortcut">Aldonita al la ĉefekrano</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Montri spruĉmenuon</string>
@@ -465,9 +460,7 @@
     <string name="conversation_group_options__conversation">Interparolo</string>
     <string name="conversation_group_options__broadcast">Dissendo</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Konservi</string>
     <string name="media_preview__forward_title">Plusendi</string>
-    <string name="media_preview__all_media_title">Ĉiuj aŭvidaĵoj</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Neniu dokumento</string>
     <!-- media_preview_activity -->
@@ -527,7 +520,7 @@
     <string name="activity_display_name_edit_text_hint">Entajpu vidigan nomon</string>
     <string name="activity_display_name_display_name_missing_error">Bonvolu elekti vidigan nomon</string>
     <string name="activity_display_name_display_name_too_long_error">Bonvolu elekti plej mallongan vidigan nomon</string>
-    <string name="activity_pn_mode_recommended_option_tag">Rekomendate</string>
+    <string name="recommended">Rekomendate</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Bonvolu Elekti Opcion</string>
     <string name="activity_home_empty_state_message">Vi ankoraŭ ne havas kontaktojn</string>
     <string name="activity_home_empty_state_button_title">Komenci Sesion</string>
@@ -589,7 +582,6 @@
     <string name="dialog_clear_all_data_local_only">Forviŝi Sole</string>
     <string name="dialog_clear_all_data_clear_network">Tuta Konto</string>
     <string name="activity_qr_code_title">QR-Kodo</string>
-    <string name="activity_qr_code_view_my_qr_code_tab_title">Vidi Mian QR-Kodon</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skani QR-Kodon</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skani ies QR-kodon por komenci konversacion kun si</string>
     <string name="fragment_view_my_qr_code_title">Skanu Min</string>
@@ -633,7 +625,6 @@
     <string name="activity_prompt_passphrase_tap_to_unlock">Tuŝetu por Malŝlosi</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Entajpu alnomon</string>
     <string name="invalid_public_key">Malvalida publika ŝlosilo</string>
-    <string name="document">Dokumento</string>
     <string name="dialog_blocked_title">Ĉu Malbloki %s?</string>
     <string name="dialog_blocked_explanation">Ĉu vi certas, ke vi volas malbloki %s?</string>
     <string name="dialog_join_open_group_title">Aliĝi al %s?</string>
@@ -645,11 +636,11 @@
     <string name="dialog_link_preview_enable_button_title">Ŝalti</string>
     <string name="dialog_download_title">Ĉu konfidi %s?</string>
     <string name="dialog_download_explanation">Ĉu vi certas ke vi volas elŝuti aŭdvidaĵon senditan de %s?</string>
-    <string name="dialog_download_button_title">Elŝuti</string>
+    <string name="download">Elŝuti</string>
     <string name="activity_conversation_blocked_banner_text">%s estas blokita. Ĉu malbloki tiun?</string>
     <string name="media">Aŭdvidaĵo</string>
     <string name="UntrustedAttachmentView_download_attachment">Frapetu por elŝuti %s</string>
-    <string name="message_details_header__error">Eraro</string>
+    <string name="_error">Eraro</string>
     <string name="dialog_send_seed_title">Averto</string>
     <string name="dialog_send_seed_explanation">Ĉi tio estas via ripara frazo. Se vi sendas ĝin al iu, tiam tiu havos tutan aliron al via konto.</string>
     <string name="dialog_send_seed_send_button_title">Sendi</string>

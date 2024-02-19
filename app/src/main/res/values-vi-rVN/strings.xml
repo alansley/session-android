@@ -97,7 +97,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">Đang xóa</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Đang xóa tin nhắn...</string>
-    <string name="MediaOverviewActivity_Documents">Tài liệu</string>
     <string name="MediaOverviewActivity_Select_all">Chọn tất cả</string>
     <string name="MediaOverviewActivity_collecting_attachments">Đang thu thập đính kèm...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -233,7 +232,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="arrays__images">Hình ảnh</string>
     <string name="arrays__audio">Nhạc</string>
     <string name="arrays__video">Đoạn phim</string>
-    <string name="arrays__documents">Tài liệu</string>
     <string name="arrays__normal">Bình thường</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -302,7 +300,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="conversation_group_options__conversation">Chuyện trò</string>
     <string name="conversation_group_options__broadcast">Phát rộng</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Lưu</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Xem trước tệp đa phương tiện</string>
@@ -344,7 +341,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_display_name_edit_text_hint">Nhập một tên hiển thị</string>
     <string name="activity_display_name_display_name_missing_error">Vui lòng chọn một tên hiển thị</string>
     <string name="activity_display_name_display_name_too_long_error">Vui lòng chọn tên hiển thị ngắn hơn</string>
-    <string name="activity_pn_mode_recommended_option_tag">Khuyến nghị</string>
+    <string name="recommended">Khuyến nghị</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Vui lòng lựa chọn </string>
     <string name="activity_home_empty_state_message">Bạn chưa có danh bạ </string>
     <string name="activity_home_empty_state_button_title">Bắt đầu một Session</string>
@@ -398,7 +395,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="dialog_clear_all_data_title">Xóa tất cả dữ liệu</string>
     <string name="dialog_clear_all_data_explanation">Thao tác này sẽ xóa vĩnh viễn các tin nhắn, sessions, và danh bạ của bạn.</string>
     <string name="activity_qr_code_title">Mã QR</string>
-    <string name="activity_qr_code_view_my_qr_code_tab_title">Xem mã QR của tôi</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Quét mã QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Quét mã QR của ai đó để bắt đầu trò chuyện với họ</string>
     <string name="fragment_view_my_qr_code_explanation">Đây là mã QR của bạn. Những người dùng khác có thể quét mã này và bắt đầu session với bạn.</string>

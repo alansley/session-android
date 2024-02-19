@@ -133,7 +133,6 @@
     <string name="LongMessageActivity_message_from_s">Mesazh prej %1$s</string>
     <string name="LongMessageActivity_your_message">Mesazhi Juaj</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Media</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Të fshihet mesazhi i përzgjedhur?</item>
         <item quantity="other">Të fshihen mesazhet e përzgjedhur?</item>
@@ -144,7 +143,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Po fshihet</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Po fshihen mesazhet…</string>
-    <string name="MediaOverviewActivity_Documents">Dokumente</string>
     <string name="MediaOverviewActivity_Select_all">Përzgjidhi krejt</string>
     <string name="MediaOverviewActivity_collecting_attachments">Po mblidhen bashkëngjitje…</string>
     <!-- NotificationMmsMessageRecord -->
@@ -163,7 +161,7 @@
         <item quantity="other">S\’mund të ndani me të tjerët më shumë se %d objekte.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Krejt mediat</string>
+    <string name="conversationsSettingsAllMedia">Krejt mediat</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Morët një mesazh të fshehtëzuar duke përdorur një version të vjetër të Session-it, që nuk mirëmbahet më. Ju lutemi, kërkojini dërguesit ta përditësojë me versionin më të ri dhe ta ridërgojë mesazhin.</string>
     <string name="MessageRecord_left_group">E keni lënë grupin.</string>
@@ -318,7 +316,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Luaje</string>
     <string name="audio_view__pause_accessibility_description">Ndalesë</string>
-    <string name="audio_view__download_accessibility_description">Shkarkoje</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Bashkohu</string>
     <string name="open_group_invitation_view__open_group_invitation">Hap ftesën në grup</string>
@@ -375,7 +372,6 @@
     <string name="arrays__images">Figura</string>
     <string name="arrays__audio">Audio</string>
     <string name="arrays__video">Video</string>
-    <string name="arrays__documents">Dokumente</string>
     <string name="arrays__small">Të vogla</string>
     <string name="arrays__normal">Normale</string>
     <string name="arrays__large">Të mëdha</string>
@@ -455,7 +451,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Përpunoni grup</string>
     <string name="conversation__menu_leave_group">Braktise grupin</string>
-    <string name="conversation__menu_view_all_media">Krejt mediat</string>
     <string name="conversation__menu_add_shortcut">Shtoje te skena e kreut</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Zgjero flluskën</string>
@@ -464,9 +459,7 @@
     <string name="conversation_group_options__conversation">Bisedë</string>
     <string name="conversation_group_options__broadcast">Transmetim</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Ruaje</string>
     <string name="media_preview__forward_title">Përcilleni</string>
-    <string name="media_preview__all_media_title">Krejt mediat</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">S\’ka dokumenta</string>
     <!-- media_preview_activity -->

@@ -141,7 +141,6 @@
     <string name="LongMessageActivity_message_from_s">Mesaj de la %1$s</string>
     <string name="LongMessageActivity_your_message">Mesajul dvs.</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Media</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Șterg mesajul selectat?</item>
         <item quantity="few">Șterg mesajele selectate?</item>
@@ -154,7 +153,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Se șterge</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Se șterg mesajele...</string>
-    <string name="MediaOverviewActivity_Documents">Documente</string>
     <string name="MediaOverviewActivity_Select_all">Selectează tot</string>
     <string name="MediaOverviewActivity_collecting_attachments">Se colectează atașamentele...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -174,7 +172,7 @@
         <item quantity="other">Nu puteți partaja mai mult de %d elemente.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Toate fișierele media</string>
+    <string name="conversationsSettingsAllMedia">Toate fișierele media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Ai primit un mesaj care a fost criptat cu o versiune mai veche de Session care nu mai este suportată. Roagă-l pe expeditor să-și actualizeze aplicația la ultima versiune și să retrimită mesajul.</string>
     <string name="MessageRecord_left_group">Ați parăsit grupul.</string>
@@ -333,7 +331,6 @@ schimbul de chei este corupt </string>
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Redare</string>
     <string name="audio_view__pause_accessibility_description">Pauză</string>
-    <string name="audio_view__download_accessibility_description">Descarcă</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Alătură-te</string>
     <string name="open_group_invitation_view__open_group_invitation">Deschide invitația în grup</string>
@@ -390,7 +387,6 @@ schimbul de chei este corupt </string>
     <string name="arrays__images">Imagini</string>
     <string name="arrays__audio">Audio</string>
     <string name="arrays__video">Video</string>
-    <string name="arrays__documents">Documente</string>
     <string name="arrays__small">Mic</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Mare</string>
@@ -471,7 +467,6 @@ schimbul de chei este corupt </string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editează grupul</string>
     <string name="conversation__menu_leave_group">Părăseşte grupul</string>
-    <string name="conversation__menu_view_all_media">Toate fișierele media</string>
     <string name="conversation__menu_add_shortcut">Adaugă pe ecranul principal</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Extinde popup-ul</string>
@@ -480,9 +475,7 @@ schimbul de chei este corupt </string>
     <string name="conversation_group_options__conversation">Conversație</string>
     <string name="conversation_group_options__broadcast">Difuzare</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Salvează</string>
     <string name="media_preview__forward_title">Redirecționează</string>
-    <string name="media_preview__all_media_title">Toate fișierele media</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Nu aveți documente</string>
     <!-- media_preview_activity -->

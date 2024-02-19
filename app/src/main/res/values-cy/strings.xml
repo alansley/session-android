@@ -147,7 +147,6 @@
     <string name="LongMessageActivity_message_from_s">Neges gan %1$s</string>
     <string name="LongMessageActivity_your_message">Eich neges</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Cyfryngau</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="zero">Dileu\'r negeseuon hyn?</item>
         <item quantity="one">Dileu\'r negeseuon hyn?</item>
@@ -166,7 +165,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Wrthi\'n dileu</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Dileu negeseuon...</string>
-    <string name="MediaOverviewActivity_Documents">Dogfennau</string>
     <string name="MediaOverviewActivity_Select_all">Dewis popeth</string>
     <string name="MediaOverviewActivity_collecting_attachments">Casglu atodiadau...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -189,7 +187,7 @@
         <item quantity="other">Nid oes modd rhannu mwy na %d eitem.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Pob cyfrwng</string>
+    <string name="conversationsSettingsAllMedia">Pob cyfrwng</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Wedi derbyn neges wedi\'i hamgryptio gan ddefnyddio hen fersiwn o Session nad yw bellach yn cael ei gefnogi. Gofynnwch i\'r anfonwr ddiweddaru i\'r fersiwn ddiweddaraf ac ail-anfon y neges.</string>
     <string name="MessageRecord_left_group">Rydych wedi gadael y grŵp.</string>
@@ -339,7 +337,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Chwarae</string>
     <string name="audio_view__pause_accessibility_description">Oedi</string>
-    <string name="audio_view__download_accessibility_description">Llwytho i lawr</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">Sain</string>
@@ -390,7 +387,6 @@
     <string name="arrays__images">Lluniau</string>
     <string name="arrays__audio">Sain</string>
     <string name="arrays__video">Fideo</string>
-    <string name="arrays__documents">Dogfennau</string>
     <string name="arrays__small">Bach</string>
     <string name="arrays__normal">Canolig</string>
     <string name="arrays__large">Mawr</string>
@@ -471,7 +467,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Golygu grŵp</string>
     <string name="conversation__menu_leave_group">Gadael y grŵp</string>
-    <string name="conversation__menu_view_all_media">Pob cyfrwng</string>
     <string name="conversation__menu_add_shortcut">Ychwanegu at y sgrin gartref</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Ehangu llamlen</string>
@@ -480,9 +475,7 @@
     <string name="conversation_group_options__conversation">Sgwrs</string>
     <string name="conversation_group_options__broadcast">Darlledu</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Cadw</string>
     <string name="media_preview__forward_title">Ymlaen</string>
-    <string name="media_preview__all_media_title">Pob cyfrwng</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Dim dogfennau</string>
     <!-- media_preview_activity -->

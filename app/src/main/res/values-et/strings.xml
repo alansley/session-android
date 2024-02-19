@@ -117,7 +117,6 @@
     <string name="LongMessageActivity_message_from_s">Sõnum kasutajalt %1$s</string>
     <string name="LongMessageActivity_your_message">Sinu sõnum</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Meedia</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Kustutad valitud sõnumi?</item>
         <item quantity="other">Kustutad valitud sõnumid?</item>
@@ -128,7 +127,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Kustutan</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Kustutan sõnumeid...</string>
-    <string name="MediaOverviewActivity_Documents">Dokumendid</string>
     <string name="MediaOverviewActivity_Select_all">Vali kõik</string>
     <string name="MediaOverviewActivity_collecting_attachments">Kogun manuseid...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -147,7 +145,7 @@
         <item quantity="other">Sa ei saa jagada rohkem kui %d üksust.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Kogu meedia</string>
+    <string name="conversationsSettingsAllMedia">Kogu meedia</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vastuvõetud sõnum, mis on krüptitud kasutades vana, mittetoetatud Sessioni versiooni. Palun palu saatjal uuendada uusimale versioonile ja siis sõnum uuesti saata.</string>
     <string name="MessageRecord_left_group">Sa lahkusid grupist.</string>
@@ -295,7 +293,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Esita</string>
     <string name="audio_view__pause_accessibility_description">Paus</string>
-    <string name="audio_view__download_accessibility_description">Laadi alla</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">Heli</string>
@@ -344,7 +341,6 @@
     <string name="notificationsContentShowNameOnly">Ainult nimi</string>
     <string name="arrays__images">Pildid</string>
     <string name="arrays__audio">Heli</string>
-    <string name="arrays__documents">Dokumendid</string>
     <string name="arrays__small">Väike</string>
     <string name="arrays__normal">Keskmine</string>
     <string name="arrays__large">Suur</string>
@@ -422,7 +418,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Muuda gruppi</string>
     <string name="conversation__menu_leave_group">Lahku grupist</string>
-    <string name="conversation__menu_view_all_media">Kogu meedia</string>
     <string name="conversation__menu_add_shortcut">Lisa avakuvale</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Laienda hüpikut</string>
@@ -431,9 +426,7 @@
     <string name="conversation_group_options__conversation">Vestlus</string>
     <string name="conversation_group_options__broadcast">Kanna üle</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Salvesta</string>
     <string name="media_preview__forward_title">Edasta</string>
-    <string name="media_preview__all_media_title">Kogu meedia</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Dokumente pole</string>
     <!-- media_preview_activity -->

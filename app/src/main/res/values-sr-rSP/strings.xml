@@ -138,7 +138,6 @@
     <string name="LongMessageActivity_message_from_s">Порука од %1$s</string>
     <string name="LongMessageActivity_your_message">Ваша порука</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Медији</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Обрисати изабрану поруку?</item>
         <item quantity="few">Обрисати изабране поруке?</item>
@@ -151,7 +150,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Брисање</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Бришем поруке...</string>
-    <string name="MediaOverviewActivity_Documents">Документи</string>
     <string name="MediaOverviewActivity_Select_all">Изабери све</string>
     <string name="MediaOverviewActivity_collecting_attachments">Сакупљам прилоге...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -171,7 +169,7 @@
         <item quantity="other">Не можеш да делиш више од %d предмета.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Сви медији</string>
+    <string name="conversationsSettingsAllMedia">Сви медији</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Примљена је порука шифрована старим издањем Session-a које више није подржано. Замолите пошиљаоца да надогради на најновије издање и поново пошаље поруку.</string>
     <string name="MessageRecord_left_group">Напустили сте групу.</string>
@@ -326,7 +324,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Пусти</string>
     <string name="audio_view__pause_accessibility_description">Паузирај</string>
-    <string name="audio_view__download_accessibility_description">Преузми</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Придружи се</string>
     <string name="open_group_invitation_view__open_group_invitation">Позивница за отворену групу</string>
@@ -383,7 +380,6 @@
     <string name="arrays__images">Слике</string>
     <string name="arrays__audio">Звук</string>
     <string name="arrays__video">Видео</string>
-    <string name="arrays__documents">Документи</string>
     <string name="arrays__small">Мали</string>
     <string name="arrays__normal">Нормалан</string>
     <string name="arrays__large">Велики</string>
@@ -460,7 +456,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Уреди групу</string>
     <string name="conversation__menu_leave_group">Напусти групу</string>
-    <string name="conversation__menu_view_all_media">Сви медији</string>
     <string name="conversation__menu_add_shortcut">Додај на почетни екран</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Рашири прозорче</string>
@@ -469,9 +464,7 @@
     <string name="conversation_group_options__conversation">Преписка</string>
     <string name="conversation_group_options__broadcast">Емитовање</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Сачувај</string>
     <string name="media_preview__forward_title">Проследи</string>
-    <string name="media_preview__all_media_title">Сви медији</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Преглед медијума</string>
@@ -494,7 +487,7 @@
     <!-- Conversation activity -->
     <!-- Session -->
     <string name="activity_display_name_display_name_too_long_error">Молимо вас да изаберете краће приказно име</string>
-    <string name="activity_pn_mode_recommended_option_tag">Препоручено</string>
+    <string name="recommended">Препоручено</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Молимо Вас да одаберете опцију</string>
     <string name="activity_home_empty_state_message">Још увек немате ниједан контакт</string>
     <string name="activity_home_empty_state_button_title">Почни сесију</string>

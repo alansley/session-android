@@ -87,7 +87,7 @@ private class QRCodeActivityAdapter(val activity: QRCodeActivity) : FragmentPage
 
     override fun getPageTitle(index: Int): CharSequence? {
         return when (index) {
-            0 -> activity.resources.getString(R.string.activity_qr_code_view_my_qr_code_tab_title)
+            0 -> activity.resources.getString(R.string.view)
             1 -> activity.resources.getString(R.string.activity_qr_code_view_scan_qr_code_tab_title)
             else -> throw IllegalStateException()
         }

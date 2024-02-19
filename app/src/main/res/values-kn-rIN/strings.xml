@@ -67,10 +67,8 @@
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_your_message">ನಿಮ್ಮ ಸಂದೇಶ</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">ಮಾಧ್ಯಮ</string>
     <string name="MediaOverviewActivity_Media_delete_progress_title">ಅಳಿಸಿ ಹಾಕಲಾಗುತ್ತಿದೆ</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ ಹಾಕಲಾಗುತ್ತಿದೆ...</string>
-    <string name="MediaOverviewActivity_Documents">ದಾಖಲೆಗಳು</string>
     <string name="MediaOverviewActivity_Select_all">ಎಲ್ಲ ಆಯ್ದುಕೊಳ್ಳಿ</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ಮಲ್ಟಿಮೀಡಿಯಾ ಸಂದೇಶ</string>
@@ -130,7 +128,6 @@
     <!-- conversation_item_received -->
     <!-- audio_view -->
     <string name="audio_view__pause_accessibility_description">ವಿರಾಮ</string>
-    <string name="audio_view__download_accessibility_description">ಡೌನ್ಲೋಡ್</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">ಸೇರಿ</string>
     <string name="open_group_guidelines_community_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
@@ -163,7 +160,6 @@
     <string name="arrays__images">ಚಿತ್ರಗಳು</string>
     <string name="arrays__audio">ಆಡಿಯೋ</string>
     <string name="arrays__video">ವೀಡಿಯೊ</string>
-    <string name="arrays__documents">ದಾಖಲೆಗಳು</string>
     <string name="arrays__small">ಸಣ್ಣ</string>
     <string name="arrays__normal">ಸಾಮಾನ್ಯ</string>
     <string name="arrays__large">ದೊಡ್ಡ</string>
@@ -209,7 +205,6 @@
     <!-- conversation_unmuted -->
     <!-- conversation -->
     <string name="conversation__menu_leave_group">ಗುಂಪನ್ನು ತೊರೆಯಿರಿ</string>
-    <string name="conversation__menu_view_all_media">ಎಲ್ಲ ಮಾಧ್ಯಮ</string>
     <string name="conversation__menu_add_shortcut">ಮುಖಪುಟಕ್ಕೆ ಸೇರಿಸು</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->
@@ -252,9 +247,9 @@
     <string name="activity_backup_restore_select_file">ಕಡತವೊಂದನ್ನು ಆಯ್ಕೆಮಾಡು</string>
     <string name="open">ತೆರೆ</string>
     <string name="dialog_link_preview_enable_button_title">ಸಕ್ರಿಯಗೊಳಿಸು</string>
-    <string name="dialog_download_button_title">ಡೌನ್ಲೋಡ್</string>
+    <string name="download">ಡೌನ್ಲೋಡ್</string>
     <string name="media">ಮಾಧ್ಯಮ</string>
-    <string name="message_details_header__error">ದೋಷ</string>
+    <string name="_error">ದೋಷ</string>
     <string name="dialog_send_seed_title">ಎಚ್ಚರಿಕೆ</string>
     <string name="dialog_send_seed_send_button_title">ಕಳುಹಿಸಿ</string>
     <string name="notify_type_all">ಎಲ್ಲ</string>

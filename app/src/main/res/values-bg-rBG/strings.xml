@@ -125,7 +125,6 @@
     <string name="LongMessageActivity_message_from_s">Съобщение от %1$s</string>
     <string name="LongMessageActivity_your_message">Вашето съобщение</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Медия</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Изтриване на избраното съобщение?</item>
         <item quantity="other">Изтриване на избраните съобщения?</item>
@@ -136,7 +135,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Изтриване</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Изтриване на съобщения...</string>
-    <string name="MediaOverviewActivity_Documents">Документи</string>
     <string name="MediaOverviewActivity_Select_all">Избери всичко</string>
     <string name="MediaOverviewActivity_collecting_attachments">Събиране на прикачени файлове...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -155,7 +153,7 @@
         <item quantity="other">Не можете да споделяте повече от %d елементи.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Всички прикачените файлове</string>
+    <string name="conversationsSettingsAllMedia">Всички прикачените файлове</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Получихте съобщение криптирано със стара версия на Session, която вече не се поддържа. Моля, помолете изпращача да обнови версията си и да препрати съобщението.</string>
     <string name="MessageRecord_left_group">Напуснахте групата.</string>
@@ -303,7 +301,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Пускане</string>
     <string name="audio_view__pause_accessibility_description">Пауза</string>
-    <string name="audio_view__download_accessibility_description">Изтегляне</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">Аудио</string>
@@ -354,7 +351,6 @@
     <string name="arrays__images">Изображения</string>
     <string name="arrays__audio">Аудио</string>
     <string name="arrays__video">Видео</string>
-    <string name="arrays__documents">Документи</string>
     <string name="arrays__small">Малък</string>
     <string name="arrays__normal">Нормален</string>
     <string name="arrays__large">Голям</string>
@@ -434,7 +430,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Промяна на групата</string>
     <string name="conversation__menu_leave_group">Напускане на групата</string>
-    <string name="conversation__menu_view_all_media">Всички прикачените файлове</string>
     <string name="conversation__menu_add_shortcut">Добавяне на работния плот</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Разшири диалога</string>
@@ -443,9 +438,7 @@
     <string name="conversation_group_options__conversation">Разговор</string>
     <string name="conversation_group_options__broadcast">Предаване</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Запази</string>
     <string name="media_preview__forward_title">Препращане</string>
-    <string name="media_preview__all_media_title">Всички прикачени файлове</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Няма документи</string>
     <!-- media_preview_activity -->

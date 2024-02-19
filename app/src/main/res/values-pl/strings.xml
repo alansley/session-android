@@ -147,7 +147,6 @@
     <string name="LongMessageActivity_message_from_s">Wiadomość od %1$s</string>
     <string name="LongMessageActivity_your_message">Twoja wiadomość</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Multimedia</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Usunąć wybraną wiadomość?</item>
         <item quantity="few">Usunąć wybrane wiadomości?</item>
@@ -162,7 +161,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Usuwanie</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Usuwanie wiadomości...</string>
-    <string name="MediaOverviewActivity_Documents">Dokumenty</string>
     <string name="MediaOverviewActivity_Select_all">Zaznacz wszystko</string>
     <string name="MediaOverviewActivity_collecting_attachments">Zbieranie załączników...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -183,7 +181,7 @@
         <item quantity="other">Nie można udostępnić więcej niż %d multimediów.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Wszystkie multimedia</string>
+    <string name="conversationsSettingsAllMedia">Wszystkie multimedia</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Otrzymano zaszyfrowaną wiadomość wysłaną przy użyciu starej wersji Session, która nie jest już wspierana. Poproś nadawcę tej wiadomości o zaktualizowanie aplikacji do najnowszej wersji i przesłanie wiadomości ponownie.</string>
     <string name="MessageRecord_left_group">Opuściłeś(aś) grupę.</string>
@@ -340,7 +338,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Odtwórz</string>
     <string name="audio_view__pause_accessibility_description">Pauza</string>
-    <string name="audio_view__download_accessibility_description">Pobierz</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Dołącz</string>
     <string name="open_group_invitation_view__open_group_invitation">Otwórz zaproszenie do grupy</string>
@@ -397,7 +394,6 @@
     <string name="arrays__images">Zdjęcia</string>
     <string name="arrays__audio">Dźwięk</string>
     <string name="arrays__video">Wideo</string>
-    <string name="arrays__documents">Dokumenty</string>
     <string name="arrays__small">Mały</string>
     <string name="arrays__normal">Normalny</string>
     <string name="arrays__large">Duży</string>
@@ -479,7 +475,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Edytuj grupę</string>
     <string name="conversation__menu_leave_group">Opuść grupę</string>
-    <string name="conversation__menu_view_all_media">Wszystkie multimedia</string>
     <string name="conversation__menu_add_shortcut">Dodaj do ekranu głównego</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Powiększ okno</string>
@@ -488,9 +483,7 @@
     <string name="conversation_group_options__conversation">Konwersacja</string>
     <string name="conversation_group_options__broadcast">Nadawanie</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Zapisz</string>
     <string name="media_preview__forward_title">Przekaż dalej</string>
-    <string name="media_preview__all_media_title">Wszystkie multimedia</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Brak dokumentów</string>
     <!-- media_preview_activity -->
@@ -550,7 +543,7 @@
     <string name="activity_display_name_edit_text_hint">Wprowadź wyświetlaną nazwę</string>
     <string name="activity_display_name_display_name_missing_error">Wybierz wyświetlaną nazwę</string>
     <string name="activity_display_name_display_name_too_long_error">Wybierz krótszą wyświetlaną nazwę</string>
-    <string name="activity_pn_mode_recommended_option_tag">Zalecana</string>
+    <string name="recommended">Zalecana</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Wybierz opcję</string>
     <string name="activity_home_empty_state_message">Nie masz jeszcze żadnych kontaktów</string>
     <string name="activity_home_empty_state_button_title">Rozpocznij sesję</string>
@@ -617,7 +610,6 @@
     <string name="dialog_clear_all_data_local_only">Tylko urządzenie</string>
     <string name="dialog_clear_all_data_clear_network">Całe konto</string>
     <string name="activity_qr_code_title">Kod QR</string>
-    <string name="activity_qr_code_view_my_qr_code_tab_title">Wyświetl mój kod QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skanowania QR code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Zeskanuj czyjś kod QR, aby rozpocząć z nim rozmowę</string>
     <string name="fragment_view_my_qr_code_title">Zeskanuj mnie</string>
@@ -666,7 +658,6 @@
     <string name="activity_prompt_passphrase_tap_to_unlock">Dotknij by odblokować</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Wpisz pseudonim</string>
     <string name="invalid_public_key">Nieprawidłowy klucz publiczny</string>
-    <string name="document">Dokument</string>
     <string name="dialog_blocked_title">Odblokować %s?</string>
     <string name="dialog_blocked_explanation">Czy na pewno chcesz odblokować %s?</string>
     <string name="dialog_join_open_group_title">Dołącz do %s?</string>
@@ -680,12 +671,12 @@
     <string name="dialog_link_preview_enable_button_title">Włącz</string>
     <string name="dialog_download_title">Zaufać %s?</string>
     <string name="dialog_download_explanation">Czy na pewno chcesz pobrać multimedia wysłane przez %s?</string>
-    <string name="dialog_download_button_title">Pobierz</string>
+    <string name="download">Pobierz</string>
     <string name="activity_conversation_blocked_banner_text">%s jest zablokowany. Odblokować?</string>
     <string name="activity_conversation_attachment_prep_failed">Nie udało się przygotować załącznika do wysłania.</string>
     <string name="media">Multimedia</string>
     <string name="UntrustedAttachmentView_download_attachment">Kliknij by pobrać %s</string>
-    <string name="message_details_header__error">Błąd</string>
+    <string name="_error">Błąd</string>
     <string name="dialog_send_seed_title">Uwaga</string>
     <string name="dialog_send_seed_explanation">To jest Twoja fraza odzyskiwania. Jeśli wyślesz ją do kogoś, będzie miał pełny dostęp do Twojego konta.</string>
     <string name="dialog_send_seed_send_button_title">Wyślij</string>

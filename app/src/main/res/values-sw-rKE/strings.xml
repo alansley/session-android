@@ -91,10 +91,8 @@
     <string name="LongMessageActivity_unable_to_find_message">imeshindikana kutafuta ujumbe</string>
     <string name="LongMessageActivity_your_message">ujumbe wako</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Vyombo vya habari</string>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Inafutwa</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Kufuta meseji</string>
-    <string name="MediaOverviewActivity_Documents">nyaraka</string>
     <string name="MediaOverviewActivity_Select_all">Chagua vyote</string>
     <string name="MediaOverviewActivity_collecting_attachments">kukusanya viambatisho</string>
     <!-- NotificationMmsMessageRecord -->
@@ -107,7 +105,7 @@
     <string name="MediaSendActivity_add_a_caption">ongeza maelezo</string>
     <string name="MediaSendActivity_camera_unavailable">kamera haipatikani</string>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Vyombo vyote vya habari</string>
+    <string name="conversationsSettingsAllMedia">Vyombo vyote vya habari</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Imepokea ujumbe uliofichwa kwa kutumia toleo la zamani la Session ambayo haitumiki tena. Tafadhali kumwomba mtumaji kuwasasishe kwa toleo la hivi karibuni na kurejesha ujumbe.</string>
     <string name="MessageRecord_left_group">umetoka kwenye kundi</string>
@@ -244,7 +242,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">cheza</string>
     <string name="audio_view__pause_accessibility_description">pumzika</string>
-    <string name="audio_view__download_accessibility_description">pakua</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">Sauti</string>
@@ -293,7 +290,6 @@
     <string name="notificationsContentShowNameOnly">jina tu</string>
     <string name="arrays__images">picha</string>
     <string name="arrays__audio">Sauti</string>
-    <string name="arrays__documents">nyaraka</string>
     <string name="arrays__small">ndogo</string>
     <string name="arrays__normal">Kawaida</string>
     <string name="arrays__large">kubwa</string>
@@ -367,7 +363,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Hariri kikundi</string>
     <string name="conversation__menu_leave_group">Toka kwenye kikundi</string>
-    <string name="conversation__menu_view_all_media">Vyombo vyote vya habari</string>
     <string name="conversation__menu_add_shortcut">Ongeza kwenye skrini ya nyumbani</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Kupanua popup</string>
@@ -376,9 +371,7 @@
     <string name="conversation_group_options__conversation">Mazungumzo</string>
     <string name="conversation_group_options__broadcast">Kutangaza</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Hifadhi</string>
     <string name="media_preview__forward_title">Mbele</string>
-    <string name="media_preview__all_media_title">Vyombo vyote vya habari</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Hakuna nyaraka</string>
     <!-- media_preview_activity -->

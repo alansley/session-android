@@ -133,7 +133,6 @@
     <string name="LongMessageActivity_message_from_s">Meddelande från %1$s</string>
     <string name="LongMessageActivity_your_message">Ditt meddelande</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Media</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Radera valt meddelande?</item>
         <item quantity="other">Radera valda meddelanden?</item>
@@ -144,7 +143,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Raderar</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Raderar meddelanden...</string>
-    <string name="MediaOverviewActivity_Documents">Dokument</string>
     <string name="MediaOverviewActivity_Select_all">Markera alla</string>
     <string name="MediaOverviewActivity_collecting_attachments">Samlar bifogade filer...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -163,7 +161,7 @@
         <item quantity="other">Du kan inte dela mer än %d objekt.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">All media</string>
+    <string name="conversationsSettingsAllMedia">All media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Tog emot ett meddelande som krypterats med en tidigare version av Session som inte längre stöds. Be avsändaren uppdatera till senaste versionen och skicka om meddelandet.</string>
     <string name="MessageRecord_left_group">Du har lämnat gruppen.</string>
@@ -319,7 +317,6 @@ för nyckelutbyte!</string>
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Spela</string>
     <string name="audio_view__pause_accessibility_description">Pausa</string>
-    <string name="audio_view__download_accessibility_description">Hämta</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Gå med</string>
     <string name="open_group_invitation_view__open_group_invitation">Öppen gruppinbjudan</string>
@@ -376,7 +373,6 @@ för nyckelutbyte!</string>
     <string name="arrays__images">Bilder</string>
     <string name="arrays__audio">Ljud</string>
     <string name="arrays__video">Filmer</string>
-    <string name="arrays__documents">Dokument</string>
     <string name="arrays__small">Liten</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Stor</string>
@@ -456,7 +452,6 @@ för nyckelutbyte!</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Ändra grupp</string>
     <string name="conversation__menu_leave_group">Lämna grupp</string>
-    <string name="conversation__menu_view_all_media">All media</string>
     <string name="conversation__menu_add_shortcut">Lägg till på hemskärmen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandera popup</string>
@@ -465,9 +460,7 @@ för nyckelutbyte!</string>
     <string name="conversation_group_options__conversation">Konversation</string>
     <string name="conversation_group_options__broadcast">Sändning</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Spara</string>
     <string name="media_preview__forward_title">Vidarebefordra</string>
-    <string name="media_preview__all_media_title">All media</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Inga dokument</string>
     <!-- media_preview_activity -->
@@ -527,7 +520,7 @@ för nyckelutbyte!</string>
     <string name="activity_display_name_edit_text_hint">Ange ett visningsnamn</string>
     <string name="activity_display_name_display_name_missing_error">Vänligen välj ett visningsnamn</string>
     <string name="activity_display_name_display_name_too_long_error">Vänligen välj ett kortare visningsnamn</string>
-    <string name="activity_pn_mode_recommended_option_tag">Rekommenderat</string>
+    <string name="recommended">Rekommenderat</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Välj ett alternativ</string>
     <string name="activity_home_empty_state_message">Du har inga kontakter än</string>
     <string name="activity_home_empty_state_button_title">Starta en Session</string>
@@ -594,7 +587,6 @@ för nyckelutbyte!</string>
     <string name="dialog_clear_all_data_local_only">Endast rensa</string>
     <string name="dialog_clear_all_data_clear_network">Hela kontot</string>
     <string name="activity_qr_code_title">QR-kod</string>
-    <string name="activity_qr_code_view_my_qr_code_tab_title">Visa min QR-kod</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skanna QR-kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skanna någons QR-kod för att starta en konversation med dem</string>
     <string name="fragment_view_my_qr_code_title">Skanna mig</string>
@@ -643,7 +635,6 @@ för nyckelutbyte!</string>
     <string name="activity_prompt_passphrase_tap_to_unlock">Tryck om du vill låsa upp</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Ange smeknamn</string>
     <string name="invalid_public_key">Ogiltig publik nyckel</string>
-    <string name="document">Dokument</string>
     <string name="dialog_blocked_title">Avblockera %s?</string>
     <string name="dialog_blocked_explanation">Är du säker på att du vill avblockera %s?</string>
     <string name="dialog_join_open_group_title">Gå med %s?</string>
@@ -657,12 +648,12 @@ för nyckelutbyte!</string>
     <string name="dialog_link_preview_enable_button_title">Aktivera</string>
     <string name="dialog_download_title">Lita på %s?</string>
     <string name="dialog_download_explanation">Är du säker du vill hämta media skickat av %s?</string>
-    <string name="dialog_download_button_title">Hämta</string>
+    <string name="download">Hämta</string>
     <string name="activity_conversation_blocked_banner_text">%s är blockerad. Avblockera dem?</string>
     <string name="activity_conversation_attachment_prep_failed">Det gick inte att förbereda bifogad fil för sändning.</string>
     <string name="media">Media</string>
     <string name="UntrustedAttachmentView_download_attachment">Tryck för att ladda ner %s</string>
-    <string name="message_details_header__error">Fel</string>
+    <string name="_error">Fel</string>
     <string name="dialog_send_seed_title">Varning</string>
     <string name="dialog_send_seed_explanation">Detta är din återställningsfras. Om du skickar den till någon kommer de att ha full tillgång till ditt konto.</string>
     <string name="dialog_send_seed_send_button_title">Skicka</string>

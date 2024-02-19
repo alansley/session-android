@@ -114,13 +114,11 @@
     <string name="LongMessageActivity_message_from_s">Pesan dari %1$s</string>
     <string name="LongMessageActivity_your_message">Pesan anda</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Media</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="other">Hapus pesan yang dipilih?</item>
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Menghapus</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Menghapus pesan...</string>
-    <string name="MediaOverviewActivity_Documents">Dokumen</string>
     <string name="MediaOverviewActivity_Select_all">Pilih semua</string>
     <string name="MediaOverviewActivity_collecting_attachments">Mengumpulkan semua lampiran...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -138,7 +136,7 @@
         <item quantity="other">Anda tidak dapat membagikan lebih dari %d item.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Semua media</string>
+    <string name="conversationsSettingsAllMedia">Semua media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung. Harap minta pengirim untuk memperbarui ke versi terbaru dan mengirim ulang pesannya.</string>
     <string name="MessageRecord_left_group">Anda telah meninggalkan grup.</string>
@@ -264,7 +262,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Mainkan</string>
     <string name="audio_view__pause_accessibility_description">Jeda</string>
-    <string name="audio_view__download_accessibility_description">Unduh</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">Gabung</string>
     <string name="open_group_invitation_view__open_group_invitation">Undangan grup terbuka</string>
@@ -313,7 +310,6 @@
     <string name="arrays__images">Gambar</string>
     <string name="arrays__audio">Suara</string>
     <string name="arrays__video">Video</string>
-    <string name="arrays__documents">Dokumen</string>
     <string name="arrays__small">Kecil</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Besar</string>
@@ -366,13 +362,10 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Ubah grup</string>
     <string name="conversation__menu_leave_group">Tinggalkan grup</string>
-    <string name="conversation__menu_view_all_media">Semua media</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->
     <string name="conversation_group_options__conversation">Percakapan</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Simpan</string>
-    <string name="media_preview__all_media_title">Semua media</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Tidak ada dokumen</string>
     <!-- media_preview_activity -->
@@ -411,7 +404,7 @@
     <string name="activity_display_name_edit_text_hint">Masukkan nama</string>
     <string name="activity_display_name_display_name_missing_error">Pilih nama yang ditampilkan</string>
     <string name="activity_display_name_display_name_too_long_error">Pilih nama yang lebih pendek</string>
-    <string name="activity_pn_mode_recommended_option_tag">Direkomendasikan</string>
+    <string name="recommended">Direkomendasikan</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pilih salah satu opsi</string>
     <string name="activity_home_empty_state_message">Anda belum memiliki kontak</string>
     <string name="activity_home_empty_state_button_title">Memulai Session</string>
@@ -463,7 +456,7 @@
     <string name="open">Buka</string>
     <string name="activity_conversation_blocked_banner_text">%s diblokir. Buka blokir?</string>
     <string name="UntrustedAttachmentView_download_attachment">Tekan untuk mengunduh %s</string>
-    <string name="message_details_header__error">Galat</string>
+    <string name="_error">Galat</string>
     <string name="dialog_send_seed_title">Peringatan</string>
     <string name="dialog_send_seed_send_button_title">Kirim</string>
     <string name="notify_type_all">Semua</string>

@@ -145,7 +145,6 @@
     <string name="LongMessageActivity_message_from_s">הודעה מאת %1$s</string>
     <string name="LongMessageActivity_your_message">ההודעה שלך</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">מדיה</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">למחוק הודעה נבחרת?</item>
         <item quantity="two">למחוק הודעות נבחרות?</item>
@@ -160,7 +159,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">מוחק</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">מוחק הודעות...</string>
-    <string name="MediaOverviewActivity_Documents">מסמכים</string>
     <string name="MediaOverviewActivity_Select_all">בחר הכל</string>
     <string name="MediaOverviewActivity_collecting_attachments">אוסף צרופות...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -181,7 +179,7 @@
         <item quantity="other">אינך יכול לשתף יותר מ־%d פריטים.</item>
     </plurals>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">כל המדיה</string>
+    <string name="conversationsSettingsAllMedia">כל המדיה</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">התקבלה הודעה מוצפנת ע\"י שימוש בגרסה ישנה של Session שאינה נתמכת יותר. אנא בקש מהשולח לעדכן אל הגרסה העדכנית ביותר ולשלוח מחדש את ההודעה.</string>
     <string name="MessageRecord_left_group">עזבת את הקבוצה.</string>
@@ -337,7 +335,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">נגן</string>
     <string name="audio_view__pause_accessibility_description">השהה</string>
-    <string name="audio_view__download_accessibility_description">הורד</string>
     <!-- open_group_invitation_view -->
     <string name="open_group_invitation_view__join_accessibility_description">להצטרפות</string>
     <string name="open_group_guidelines_pinned_message">הודעה נעוצה</string>
@@ -390,7 +387,6 @@
     <string name="arrays__images">תמונות</string>
     <string name="arrays__audio">שמע</string>
     <string name="arrays__video">וידיאו</string>
-    <string name="arrays__documents">מסמכים</string>
     <string name="arrays__small">קטן</string>
     <string name="arrays__normal">רגיל</string>
     <string name="arrays__large">גדול</string>
@@ -470,7 +466,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">ערוך קבוצה</string>
     <string name="conversation__menu_leave_group">עזוב קבוצה</string>
-    <string name="conversation__menu_view_all_media">כל המדיה</string>
     <string name="conversation__menu_add_shortcut">הוסף אל מסך הבית</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">הרחב חלון קופץ</string>
@@ -479,9 +474,7 @@
     <string name="conversation_group_options__conversation">שיחה</string>
     <string name="conversation_group_options__broadcast">שידור</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">שמור</string>
     <string name="media_preview__forward_title">העבר הלאה</string>
-    <string name="media_preview__all_media_title">כל המדיה</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">אין מסמכים</string>
     <!-- media_preview_activity -->

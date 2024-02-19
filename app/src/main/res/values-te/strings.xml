@@ -125,7 +125,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">మాటతో కూడిన సందేశాన్ని రికార్డు చేయుటకు తడుతూనే ఉంచి , పంపుటకు వదిలివేయండి.</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">మీడియా</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">ఎంపిక చేసిన సందేశాలను తొలగించాలా?</item>
         <item quantity="other">ఎంచుకున్న సందేశాలు తొలగించాలా?</item>
@@ -136,7 +135,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">తొలగిపోతున్నాయ్</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">సందేశాలను తొలగిస్తోంది ...</string>
-    <string name="MediaOverviewActivity_Documents">పత్రాలు</string>
     <string name="MediaOverviewActivity_Select_all">అన్నీ ఎంచుకో</string>
     <string name="MediaOverviewActivity_collecting_attachments">జోడింపుల సేకరణ ...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -147,7 +145,7 @@
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_camera_unavailable">కెమెరా అందుబాటులో లేదు.</string>
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">అన్ని మీడియా</string>
+    <string name="conversationsSettingsAllMedia">అన్ని మీడియా</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ఇకపై మద్దతు అని Session యొక్క పాత సంస్కరణను ఉపయోగించి ఎన్క్రిప్ట్ ఒక సందేశాన్ని పొందింది. దయచేసి ఇటీవల సంస్కరణకు అప్డేట్ మరియు సందేశాన్ని మళ్లీ పంపినవారు అడగండి</string>
     <string name="MessageRecord_left_group">మీరు సమూహం నుండి వైదొలిగారు</string>
@@ -290,7 +288,6 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">నడుపు</string>
     <string name="audio_view__pause_accessibility_description">నిలుపు</string>
-    <string name="audio_view__download_accessibility_description">దిగుమతి</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">ఆడియో</string>
@@ -341,7 +338,6 @@
     <string name="arrays__images">చిత్రాలు</string>
     <string name="arrays__audio">ఆడియో</string>
     <string name="arrays__video">వీడియో</string>
-    <string name="arrays__documents">పత్రాలు</string>
     <string name="arrays__small">చిన్న</string>
     <string name="arrays__normal">సాధారణంగా</string>
     <string name="arrays__large">పెద్ద</string>
@@ -417,7 +413,6 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">సమూహాన్ని మార్చు</string>
     <string name="conversation__menu_leave_group">సమూహాన్ని వదులు</string>
-    <string name="conversation__menu_view_all_media">అన్ని మీడియా</string>
     <string name="conversation__menu_add_shortcut">హోమ్ స్క్రీన్కు జోడించండి</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">పాపప్ విస్తరించు </string>
@@ -426,9 +421,7 @@
     <string name="conversation_group_options__conversation">సంభాషణ</string>
     <string name="conversation_group_options__broadcast">ప్రసారం </string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">భద్రపరుచు</string>
     <string name="media_preview__forward_title">బదలాయించు</string>
-    <string name="media_preview__all_media_title">అన్ని మీడియా</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">పత్రాలు లేవు</string>
     <!-- media_preview_activity -->

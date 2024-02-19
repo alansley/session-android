@@ -109,7 +109,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Shuk uyaychaskita rurankapakka llapishpa charipay, kachankapakka llapishkata kacharipay.</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media">Uyayrikuchikkuna</string>
     <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
         <item quantity="one">Akllashka chaskita pichanayanchu</item>
         <item quantity="other">Akllashka chaskikunata pichanayanchu</item>
@@ -120,7 +119,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Pichakun</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Chaskikunata pichakun...</string>
-    <string name="MediaOverviewActivity_Documents">Pankakuna</string>
     <string name="MediaOverviewActivity_Select_all">Tukuyta akllana</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia chaski</string>
@@ -129,7 +127,7 @@
     <!-- MediaPickerActivity -->
     <!-- MediaSendActivity -->
     <!-- MediaRepository -->
-    <string name="MediaRepository_all_media">Tukuylla uyayrikuchik</string>
+    <string name="conversationsSettingsAllMedia">Tukuylla uyayrikuchik</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Shuk pakalla chaski chayamurka ñawpa Signalmanta, mana paskarita usharinchu. Maykan kachamushkaman Sessionta mushukyachichun mañapay, chaski chayamuchun.</string>
     <string name="MessageRecord_left_group"> Tantanakuymanta  llukshirka.</string>
@@ -271,7 +269,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">Purichina</string>
     <string name="audio_view__pause_accessibility_description">Samachina</string>
-    <string name="audio_view__download_accessibility_description">Uriyakuchina</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_audio">Uyariy</string>
@@ -322,7 +319,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="arrays__images">Shuyukuna</string>
     <string name="arrays__audio">Uyariy</string>
     <string name="arrays__video">Shuyurikuchik</string>
-    <string name="arrays__documents">Pankakuna</string>
     <string name="arrays__small">Uchilla</string>
     <string name="arrays__normal">Chayshina</string>
     <string name="arrays__large">Hatun</string>
@@ -398,7 +394,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Tantanakuyta mushukyachina</string>
     <string name="conversation__menu_leave_group">Kay tantanakuy ukumanta llukshinkapak munankichu.</string>
-    <string name="conversation__menu_view_all_media">Tukuylla uyayrikuchik</string>
     <string name="conversation__menu_add_shortcut">Kallari rikuchinaman churapay</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Chayamushkata ñapash hatunyachina </string>
@@ -407,9 +402,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="conversation_group_options__conversation">Rimarikuna</string>
     <string name="conversation_group_options__broadcast">Wayraman llukchina</string>
     <!-- media_preview -->
-    <string name="media_preview__save_title">Allichina</string>
     <string name="media_preview__forward_title">Ñawpaman katipay</string>
-    <string name="media_preview__all_media_title">Tukuylla uyayrikuchik</string>
     <!-- media_overview -->
     <string name="media_overview_documents_fragment__no_documents_found">Kilkashka pankakuna illanmi</string>
     <!-- media_preview_activity -->

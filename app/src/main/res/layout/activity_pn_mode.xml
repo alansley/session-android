@@ -67,7 +67,7 @@
                 android:textSize="@dimen/small_font_size"
                 android:textColor="?colorAccent"
                 android:textStyle="bold"
-                android:text="@string/activity_pn_mode_recommended_option_tag" />
+                android:text="@string/recommended" />
 
         </org.thoughtcrime.securesms.util.PNModeView>
 
