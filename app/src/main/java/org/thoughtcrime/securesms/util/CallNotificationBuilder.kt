@@ -39,7 +39,7 @@ class CallNotificationBuilder {
 
             val pendingIntent = PendingIntent.getActivity(context, 0, contentIntent, PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE)
 
-            val text = context.getString(R.string.CallNotificationBuilder_first_call_message)
+            val text = context.getString(R.string.callsYouMissedCallPermissions)
 
             val builder = NotificationCompat.Builder(context, NotificationChannels.CALLS)
                     .setSound(null)
@@ -74,7 +74,7 @@ class CallNotificationBuilder {
 
             when (type) {
                 TYPE_INCOMING_CONNECTING -> {
-                    builder.setContentText(context.getString(R.string.CallNotificationBuilder_connecting))
+                    builder.setContentText(context.getString(R.string.callsConnecting))
                             .setNotificationSilent()
                 }
                 TYPE_INCOMING_PRE_OFFER,
@@ -85,7 +85,7 @@ class CallNotificationBuilder {
                             context,
                             WebRtcCallService.ACTION_DENY_CALL,
                             R.drawable.ic_close_grey600_32dp,
-                            R.string.NotificationBarManager__deny_call
+                            R.string.decline
                     ))
                     // if notifications aren't enabled, we will trigger the intent from WebRtcCallService
                     builder.setFullScreenIntent(getFullScreenPendingIntent(
@@ -100,7 +100,7 @@ class CallNotificationBuilder {
                     builder.priority = NotificationCompat.PRIORITY_MAX
                 }
                 TYPE_OUTGOING_RINGING -> {
-                    builder.setContentText(context.getString(R.string.NotificationBarManager__establishing_signal_call))
+                    builder.setContentText(context.getString(R.string.callsConnecting))
                     builder.addAction(getServiceNotificationAction(
                             context,
                             WebRtcCallService.ACTION_LOCAL_HANGUP,

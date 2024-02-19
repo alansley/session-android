@@ -230,8 +230,7 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session needs camera access to take photos and videos, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session needs camera access to take photos or videos.</string>
     <string name="ConversationActivity_search_position">%1$d of %2$d</string>
-    <string name="ConversationActivity_call_title">Call Permissions Required</string>
-    <string name="ConversationActivity_call_prompt">You can enable the \'Voice and video calls\' permission in the Privacy Settings.</string>
+    <string name="callsPermissionsRequired">Call Permissions Required</string>
     <string name="ConversationActivity_send_after_approval">You will be able to send voice messages and attachments once the recipient has approved this message request</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
@@ -863,22 +862,15 @@
     <string name="NewConversationButton_ClosedGroupTooltip">Closed Group</string>
     <string name="NewConversationButton_OpenGroupTooltip">Open Group</string>
     <string name="messageRequestsNew">You have a new message request</string>
-    <string name="CallNotificationBuilder_connecting">Connecting…</string>
     <string name="NotificationBarManager__incoming_signal_call">Incoming call</string>
-    <string name="NotificationBarManager__deny_call">Deny call</string>
     <string name="NotificationBarManager__answer_call">Answer call</string>
     <string name="callsInProgress">Call in progress</string>
-    <string name="NotificationBarManager__establishing_signal_call">Establishing call</string>
     <string name="NotificationBarManager__end_call">End call</string>
-    <string name="accept_call">Accept Call</string>
-    <string name="decline_call">Decline call</string>
     <string name="preferences__voice_video_calls">Voice and Video Calls</string>
     <string name="preferences__calls_beta">Calls (Beta)</string>
     <string name="preferences__allow_access_voice_video">Enables voice and video calls to and from other users.</string>
-    <string name="CallNotificationBuilder_first_call_message">You missed a call because you need to enable the \'Voice and video calls\' permission in the Privacy Settings.</string>
     <string name="WebRtcCallActivity_Session_Call">Session Call</string>
-    <string name="WebRtcCallActivity_Reconnecting">Reconnecting…</string>
-    <string name="CallNotificationBuilder_system_notification_message">Having notifications disabled will prevent you from receiving calls, go to Session notification settings?</string>
+    <string name="callsReconnecting">Reconnecting…</string>
     <string name="dismiss">Dismiss</string>
     <string name="activity_settings_conversations_button_title">Conversations</string>
     <string name="activity_settings_message_appearance_button_title">Appearance</string>
@@ -1003,5 +995,9 @@
     <string name="callsCalledYou">[Test Name] called you</string>
     <string name="none">None</string>
     <string name="callsMissedCallFrom">Missed call from [Test Name]</string>
+    <string name="callsYouMissedCallPermissions">You missed a call from [Test Name] because you haven\'t enabled Voice and Video Calls in Privacy Settings.</string>
+    <string name="callsPermissionsRequiredDescription">You can enable the \'Voice and Video Calls\' permission in the Privacy Settings.</string>
+    <string name="callsNotificationsRequired">Voice and Video Calls require notifications to be enabled in your device system settings.</string>
+    <string name="callsConnecting">Connecting...</string>
 
 </resources>

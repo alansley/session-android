@@ -187,8 +187,8 @@ object ConversationMenuHelper {
 
         if (!TextSecurePreferences.isCallNotificationsEnabled(context)) {
             context.showSessionDialog {
-                title(R.string.ConversationActivity_call_title)
-                text(R.string.ConversationActivity_call_prompt)
+                title(R.string.callsPermissionsRequired)
+                text(R.string.callsPermissionsRequiredDescription)
                 button(R.string.sessionSettings, R.string.AccessibilityId_settings) {
                     Intent(context, PrivacySettingsActivity::class.java).let(context::startActivity)
                 }

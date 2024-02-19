@@ -89,7 +89,7 @@
         <item quantity="one">Ez végelegesen törölni fogja a kiválasztott üzenetet.</item>
         <item quantity="other">Ez véglegesen törölni fogja mind a(z) %1$d db kiválasztott üzenetet.</item>
     </plurals>
-    <string name="ConversationActivity_call_title">Hívás engedély szükséges</string>
+    <string name="callsPermissionsRequired">Hívás engedély szükséges</string>
     <string name="ConversationFragment_ban_selected_user">Tiltod ezt a felhasználót?</string>
     <string name="ConversationFragment_save_to_sd_card">Mentés tárolóra?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">

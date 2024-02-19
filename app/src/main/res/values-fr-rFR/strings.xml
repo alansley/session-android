@@ -81,8 +81,7 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session a besoin de l’autorisation Appareil photo afin de prendre des photos ou des vidéos, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner Autorisations et activer Appareil photo.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session a besoin de l’autorisation Appareil photo pour prendre des photos ou des vidéos</string>
     <string name="ConversationActivity_search_position">%1$d sur %2$d</string>
-    <string name="ConversationActivity_call_title">Autorisations d\'appel requises</string>
-    <string name="ConversationActivity_call_prompt">Vous pouvez activer la permission \"Appels vocaux et vidéo\" dans les paramètres de confidentialité.</string>
+    <string name="callsPermissionsRequired">Autorisations d\'appel requises</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Supprimer le message sélectionné ?</item>
@@ -696,22 +695,15 @@
     <string name="NewConversationButton_ClosedGroupTooltip">Groupes privés</string>
     <string name="NewConversationButton_OpenGroupTooltip">Groupe public</string>
     <string name="messageRequestsNew">Vous avez une nouvelle demande de message</string>
-    <string name="CallNotificationBuilder_connecting">Connexion…</string>
     <string name="NotificationBarManager__incoming_signal_call">Appel entrant</string>
-    <string name="NotificationBarManager__deny_call">Refuser l’appel</string>
     <string name="NotificationBarManager__answer_call">Répondre à l’appel</string>
     <string name="callsInProgress">Appel en cours</string>
-    <string name="NotificationBarManager__establishing_signal_call">Établissement de l\'appel</string>
     <string name="NotificationBarManager__end_call">Raccrocher</string>
-    <string name="accept_call">Accepter l\'appel</string>
-    <string name="decline_call">Refuser l\'appel</string>
     <string name="preferences__voice_video_calls">Appels vocaux et vidéos</string>
     <string name="preferences__calls_beta">Appels (Bêta)</string>
     <string name="preferences__allow_access_voice_video">Active les appels vocaux et vidéo vers et depuis d\'autres utilisateurs.</string>
-    <string name="CallNotificationBuilder_first_call_message">Vous avez manqué un appel car vous devez activer la permission « Appels vocaux et vidéo » dans les paramètres de confidentialité.</string>
     <string name="WebRtcCallActivity_Session_Call">Appel Session</string>
-    <string name="WebRtcCallActivity_Reconnecting">Reconnexion…</string>
-    <string name="CallNotificationBuilder_system_notification_message">Les notifications désactivées vous empêcheront de recevoir des appels, aller dans les paramètres de notification de session?</string>
+    <string name="callsReconnecting">Reconnexion…</string>
     <string name="dismiss">Rejeter</string>
     <string name="activity_settings_conversations_button_title">Conversations</string>
     <string name="activity_settings_message_appearance_button_title">Apparence</string>

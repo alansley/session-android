@@ -155,7 +155,7 @@ class ConversationAdapter(
                     viewHolder.view.setOnClickListener {
                         context.showSessionDialog {
                             title(R.string.callsMissedCallFrom)
-                            text(R.string.CallNotificationBuilder_first_call_message)
+                            text(R.string.callsYouMissedCallPermissions)
                             button(R.string.sessionSettings) {
                                 Intent(context, PrivacySettingsActivity::class.java)
                                     .let(context::startActivity)

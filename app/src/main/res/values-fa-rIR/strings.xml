@@ -80,8 +80,7 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session برای گرفتن عکس و فیلم، نیازمند دسترسی به دوربین دارد ولی این دسترسی برای همیشه قطع شده است. لطفا برای ادامه دادن، به بخش منوی تنظیمات برنامه رفته، \"اجازه ها\" را انتخاب کرده و گزینه ی \"دوربین\" را فعال نمایید.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session برای عکس گرفتن یا ضبط ویدیو نیاز به دسترسی به دوربین دارد</string>
     <string name="ConversationActivity_search_position">%1$d از %2$d</string>
-    <string name="ConversationActivity_call_title">دسترسی تلفن مورد نیاز است</string>
-    <string name="ConversationActivity_call_prompt">می‌توانید مجوز «تماس‌های صوتی و تصویری» را در تنظیمات حریم خصوصی فعال کنید.</string>
+    <string name="callsPermissionsRequired">دسترسی تلفن مورد نیاز است</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">پیام های انتخاب شده حذف شوند؟</item>
@@ -693,22 +692,15 @@
     <string name="NewConversationButton_ClosedGroupTooltip">گروه‌های خصوصی</string>
     <string name="NewConversationButton_OpenGroupTooltip">گروه‌های باز</string>
     <string name="messageRequestsNew">شما درخواست پیام جدیدی دارید</string>
-    <string name="CallNotificationBuilder_connecting">در حال اتصال…</string>
     <string name="NotificationBarManager__incoming_signal_call">تماس دریافتی</string>
-    <string name="NotificationBarManager__deny_call">رد تماس</string>
     <string name="NotificationBarManager__answer_call">پاسخ به تماس</string>
     <string name="callsInProgress">در حال تماس...</string>
-    <string name="NotificationBarManager__establishing_signal_call">برقراری تماس</string>
     <string name="NotificationBarManager__end_call">پایان تماس</string>
-    <string name="accept_call">پذیرفتن تماس</string>
-    <string name="decline_call">رد تماس</string>
     <string name="preferences__voice_video_calls">تماس‌های صوتی و تصویری</string>
     <string name="preferences__calls_beta">تماس‌ها (بتا)</string>
     <string name="preferences__allow_access_voice_video">فعال‌سازی تماس‌های صوتی و تصویری به و از کاربران دیگر.</string>
-    <string name="CallNotificationBuilder_first_call_message">شما تماسی را از دست دادید زیرا باید مجوز «تماس‌های صوتی و تصویری» را در تنظیمات حریم خصوصی فعال کنید.</string>
     <string name="WebRtcCallActivity_Session_Call">تماس Session</string>
-    <string name="WebRtcCallActivity_Reconnecting">در حال اتصال دوباره...</string>
-    <string name="CallNotificationBuilder_system_notification_message">غیرفعال بودن اعلان‌ها از دریافت تماس جلوگیری می‌کند، رفتن به تنظیمات اعلان Session ؟</string>
+    <string name="callsReconnecting">در حال اتصال دوباره...</string>
     <string name="dismiss">رد کردن</string>
     <string name="activity_settings_conversations_button_title">مکالمات</string>
     <string name="activity_settings_message_appearance_button_title">ظاهر</string>
