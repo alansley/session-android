@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">अनब्लॉक करें</string>
     <!-- Slide -->
     <string name="Slide_image">तस्वीर </string>
-    <string name="Slide_audio">ऑडियो </string>
-    <string name="Slide_video">वीडियो </string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">दूषित कुंजी प्राप्त की
          संदेश का आदान-प्रदान करें!</string>
@@ -192,9 +190,6 @@
     <string name="ThreadRecord_group_updated">समूह अद्यतन</string>
     <string name="ThreadRecord_left_the_group">समूह छोड़ दिया</string>
     <string name="ThreadRecord_secure_session_reset">सुरक्षित सत्र रीसेट कर दिया गया है</string>
-    <string name="ThreadRecord_called">आपने बुलाया </string>
-    <string name="ThreadRecord_called_you">आपको बुलाया </string>
-    <string name="ThreadRecord_missed_call">मिस कॉल</string>
     <string name="ThreadRecord_media_message">मीडिया संदेश</string>
     <string name="ThreadRecord_s_is_on_signal">%sअब Session पर हैं! </string>
     <string name="ThreadRecord_disappearing_messages_disabled">संदेश जो गायब हो जाते हैं अक्षम</string>
@@ -268,8 +263,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">वीडियो खोलने में त्रुटि</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">ऑडियो</string>
-    <string name="attachment_type_selector__audio_description">ऑडियो </string>
     <string name="attachment_type_selector__contact">संपर्क</string>
     <string name="attachment_type_selector__contact_description">संपर्क</string>
     <string name="attachment_type_selector__camera">कैमरा</string>
@@ -301,7 +294,6 @@
     <string name="conversation_item__secure_message_description">सुरक्षित संदेश</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">भेजना विफल</string>
-    <string name="conversation_item_sent__pending_approval_description">लंबित अनुमोदन</string>
     <string name="conversation_item_sent__delivered_description">पहुंचा दिया</string>
     <string name="conversation_item_sent__message_read">संदेश पढ़ा</string>
     <!-- conversation_item_received -->
@@ -316,8 +308,6 @@
     <string name="open_group_guidelines_community_guidelines">सामुदायिक निर्देश</string>
     <string name="open_group_guidelines_read">पढ़ें</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">ऑडियो</string>
-    <string name="QuoteView_video">वीडियो </string>
     <string name="QuoteView_photo">फ़ोटो</string>
     <string name="QuoteView_original_missing">मूल संदेश नहीं मिला</string>
     <!-- conversation_fragment -->
@@ -361,8 +351,8 @@
     <string name="arrays__disabled">अक्षम</string>
     <string name="notificationsContentShowNameOnly">केवल नाम</string>
     <string name="arrays__images">तसवीरें </string>
-    <string name="arrays__audio">ऑडियो </string>
-    <string name="arrays__video">वीडियो </string>
+    <string name="audio">ऑडियो </string>
+    <string name="video">वीडियो </string>
     <string name="arrays__small">छोटा</string>
     <string name="arrays__normal">साधारण</string>
     <string name="arrays__large">विशाल</string>
@@ -382,7 +372,6 @@
     <string name="preferences__led_color_unknown">अनजान</string>
     <string name="preferences__pref_led_blink_title">एलईडी ब्लिंक पैटर्न</string>
     <string name="notificationsSound">आवाज़ </string>
-    <string name="preferences__silent">मूक</string>
     <string name="preferences__repeat_alerts">अलर्ट दोहराएं</string>
     <string name="preferences__never">कभी नहीं</string>
     <string name="preferences__one_time">एक बार</string>

@@ -108,8 +108,6 @@
     <string name="RecipientPreferenceActivity_unblock">ဘလော့ဖြည်ပါ </string>
     <!-- Slide -->
     <string name="Slide_image">ပုံ</string>
-    <string name="Slide_audio">အသံ</string>
-    <string name="Slide_video">ဗီဒီယို</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">အလဲအလှယ်စာတိုသော့ အလွဲများလက်ခံရရှိပါသည်။</string>
     <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">လုံခြုံရေးနံပါတ်အသစ်ပါသောစာ လက်ခံရရှိပါသည်။ ကြည့်ရန်နှိပ်ပါ။</string>
@@ -120,9 +118,6 @@
     <string name="ThreadRecord_group_updated">အဖွဲ့ကို ပြင်ဆင်ပြီး</string>
     <string name="ThreadRecord_left_the_group">အဖွဲ့မှထွက်သွားသည်</string>
     <string name="ThreadRecord_secure_session_reset">လုံခြုံသော ဆက်ရှင်ကိုပြန်ညှိပြီး။</string>
-    <string name="ThreadRecord_called">သင်မှခေါ်သည်</string>
-    <string name="ThreadRecord_called_you">သင့်ထံခေါ်သည်</string>
-    <string name="ThreadRecord_missed_call">လွတ်သွားသော ဖုန်းခေါ်ဆိုမှု</string>
     <string name="ThreadRecord_media_message">ရုပ်/သံ/ပုံပါစာ</string>
     <string name="ThreadRecord_s_is_on_signal">%s က Session တွင်ရှိသည်!</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">စာများသည် %s အတွင်းပျောက်သွားရန် ချိန်ညှိထားသည်။</string>
@@ -180,8 +175,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">ဗီဒီယိုဖွင့်စဥ်အမှားတစ်ခုခုကြုံသည်</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">အသံ</string>
-    <string name="attachment_type_selector__audio_description">အသံ</string>
     <string name="attachment_type_selector__contact">လိပ်စာ</string>
     <string name="attachment_type_selector__contact_description">လိပ်စာ</string>
     <string name="attachment_type_selector__camera">ကင်မရာ </string>
@@ -209,7 +202,6 @@
     <string name="conversation_item__secure_message_description">လုံခြုံသောစာ</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">ပေးပို့ချက် မအောင်မြင်ပါ</string>
-    <string name="conversation_item_sent__pending_approval_description">ခွင့်ပြုချက်ယူရန် ဆိုင်းငံ့ထားခြင်း</string>
     <string name="conversation_item_sent__delivered_description">ပေးပို့ပြီး</string>
     <string name="conversation_item_sent__message_read">စာဖတ်၍ ပြီးစီး။</string>
     <!-- conversation_item_received -->
@@ -219,8 +211,6 @@
     <string name="audio_view__pause_accessibility_description">ခဏရပ်သည်</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">အသံ</string>
-    <string name="QuoteView_video">ဗီဒီယို</string>
     <string name="QuoteView_photo">ရုပ်ပုံ</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">အောက်သို့ ဆွဲလိုက်ပါ</string>
@@ -263,8 +253,8 @@
     <string name="arrays__disabled">မလုပ်ဆောင်နိုင်ပါ</string>
     <string name="notificationsContentShowNameOnly">အမည်တစ်ခုတည်းသာ</string>
     <string name="arrays__images">ပုံများ</string>
-    <string name="arrays__audio">အသံ</string>
-    <string name="arrays__video">ဗီဒီယို</string>
+    <string name="audio">အသံ</string>
+    <string name="video">ဗီဒီယို</string>
     <string name="arrays__small">သေးငယ်သော</string>
     <string name="arrays__normal">ပုံမှန်</string>
     <string name="arrays__large">ကြီးသော</string>
@@ -279,7 +269,6 @@
     <string name="preferences__led_color_unknown">မသိ</string>
     <string name="preferences__pref_led_blink_title">LED လင်းမည့်ပုံစံ</string>
     <string name="notificationsSound">အသံ</string>
-    <string name="preferences__silent">အသံတိတ်</string>
     <string name="preferences__repeat_alerts">အသိပေးချက်ကို ထပ်​ပြောပါ</string>
     <string name="preferences__never">ဘယ်တော့မှ</string>
     <string name="preferences__one_time">တစ်ကြိမ်</string>

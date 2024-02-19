@@ -123,7 +123,7 @@ class MessageRequestsActivity : PassphraseRequiredActionBarActivity(), Conversat
         }
 
         showSessionDialog {
-            text(resources.getString(R.string.message_requests_clear_all_message))
+            text(resources.getString(R.string.messageRequestsClearAllExplanation))
             button(R.string.yes) { doDeleteAllAndBlock() }
             button(R.string.no)
         }

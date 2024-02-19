@@ -199,8 +199,6 @@
     <string name="RecipientPreferenceActivity_unblock">Odblokovat</string>
     <!-- Slide -->
     <string name="Slide_image">Obrázek</string>
-    <string name="Slide_audio">Zvuk</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Obdržen neplatný požadavek na výměnu klíčů.</string>
     <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Přijata zpráva s novým bezpečnostním kódem. Klikněte pro její zpracování a zobrazení.</string>
@@ -211,9 +209,6 @@
     <string name="ThreadRecord_group_updated">Skupina upravena</string>
     <string name="ThreadRecord_left_the_group">Opustil skupinu.</string>
     <string name="ThreadRecord_secure_session_reset">Reset zabezpečené konverzace.</string>
-    <string name="ThreadRecord_called">Vy jste volal</string>
-    <string name="ThreadRecord_called_you">Volal vás</string>
-    <string name="ThreadRecord_missed_call">Zmeškaný hovor</string>
     <string name="ThreadRecord_media_message">Multimediální zpráva</string>
     <string name="ThreadRecord_s_is_on_signal">%s má Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Mizení zpráv je zakázáno</string>
@@ -289,8 +284,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Chyba při přehrávání videa</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Zvuk</string>
-    <string name="attachment_type_selector__audio_description">Zvuk</string>
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -322,7 +315,6 @@
     <string name="conversation_item__secure_message_description">Zabezpečená zpráva</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Odeslání selhalo</string>
-    <string name="conversation_item_sent__pending_approval_description">Čeká na schválení</string>
     <string name="conversation_item_sent__delivered_description">Doručeno</string>
     <string name="conversation_item_sent__message_read">Zpráva přečtena</string>
     <!-- conversation_item_received -->
@@ -337,8 +329,6 @@
     <string name="open_group_guidelines_community_guidelines">Pravidla komunity</string>
     <string name="open_group_guidelines_read">Číst</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Zvuk</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Fotografie</string>
     <string name="QuoteView_original_missing">Původní zpráva nebyla nalezena</string>
     <!-- conversation_fragment -->
@@ -382,8 +372,8 @@
     <string name="arrays__disabled">Zakázáno</string>
     <string name="notificationsContentShowNameOnly">Pouze jméno</string>
     <string name="arrays__images">Obrázky</string>
-    <string name="arrays__audio">Zvuk</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Zvuk</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Malé</string>
     <string name="arrays__normal">Normálně</string>
     <string name="arrays__large">Velké</string>
@@ -405,7 +395,6 @@
     <string name="preferences__led_color_unknown">Neznámý</string>
     <string name="preferences__pref_led_blink_title">Schéma blikání LED</string>
     <string name="notificationsSound">Zvuk</string>
-    <string name="preferences__silent">Ticho</string>
     <string name="preferences__repeat_alerts">Opakovat upozornění</string>
     <string name="preferences__never">Nikdy</string>
     <string name="preferences__one_time">Jednou</string>

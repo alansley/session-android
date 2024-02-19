@@ -133,9 +133,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="ThreadRecord_group_updated">Grup diperbarui</string>
     <string name="ThreadRecord_left_the_group">Meninggalkan grup</string>
     <string name="ThreadRecord_secure_session_reset">Sesi aman disetel ulang.</string>
-    <string name="ThreadRecord_called">Anda memanggil</string>
-    <string name="ThreadRecord_called_you">Memanggil Anda</string>
-    <string name="ThreadRecord_missed_call">Panggilan tak terjawab</string>
     <string name="ThreadRecord_media_message">Pesan media</string>
     <string name="ThreadRecord_s_is_on_signal">%s ada di Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Pesan menghilang dinonaktifkan</string>
@@ -226,7 +223,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="conversation_item__secure_message_description">Pesan aman</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Gagal Mengirim</string>
-    <string name="conversation_item_sent__pending_approval_description">Persetujuan Tertunda</string>
     <string name="conversation_item_sent__delivered_description">Terkirim</string>
     <string name="conversation_item_sent__message_read">Pesan terbaca</string>
     <!-- conversation_item_received -->
@@ -292,7 +288,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="preferences__led_color_unknown">Tidak dikenal</string>
     <string name="preferences__pref_led_blink_title">Pola kedip LED</string>
     <string name="notificationsSound">Bunyi</string>
-    <string name="preferences__silent">Diam</string>
     <string name="preferences__repeat_alerts">Ulangi peringatan</string>
     <string name="preferences__never">Tidak pernah</string>
     <string name="preferences__one_time">Sekali saja</string>

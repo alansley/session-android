@@ -185,8 +185,6 @@
     <string name="RecipientPreferenceActivity_unblock">رفع مسدودیت</string>
     <!-- Slide -->
     <string name="Slide_image">تصویر</string>
-    <string name="Slide_audio">صدا</string>
-    <string name="Slide_video">ویدئو</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">دریافت کلید خراب
 تبادل پیام!</string>
@@ -198,9 +196,6 @@
     <string name="ThreadRecord_group_updated">گروه به روز شد</string>
     <string name="ThreadRecord_left_the_group">گروه را ترک کرد</string>
     <string name="ThreadRecord_secure_session_reset">تنظیم مجدد جلسه امن.</string>
-    <string name="ThreadRecord_called">شما تماس گرفتید</string>
-    <string name="ThreadRecord_called_you">با شما تماس گرفت</string>
-    <string name="ThreadRecord_missed_call">تماس از دست رفته</string>
     <string name="ThreadRecord_media_message">پیام رسانه</string>
     <string name="ThreadRecord_s_is_on_signal">%s در Session است!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">پیام های نابود شونده غیر فعال شد</string>
@@ -274,8 +269,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">خطا در پخش ویدیو</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">صدا</string>
-    <string name="attachment_type_selector__audio_description">صوت</string>
     <string name="attachment_type_selector__contact">مخاطب</string>
     <string name="attachment_type_selector__contact_description">مخاطب</string>
     <string name="attachment_type_selector__camera">دوربین</string>
@@ -307,7 +300,6 @@
     <string name="conversation_item__secure_message_description">پیام امن</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">ارسال نشد</string>
-    <string name="conversation_item_sent__pending_approval_description">در انتظار تایید</string>
     <string name="conversation_item_sent__delivered_description">تحویل</string>
     <string name="conversation_item_sent__message_read">پیام خوانده شده</string>
     <!-- conversation_item_received -->
@@ -322,8 +314,6 @@
     <string name="open_group_guidelines_community_guidelines">راهنمای انجمن</string>
     <string name="open_group_guidelines_read">خواندن</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">صوت</string>
-    <string name="QuoteView_video">ویدئو</string>
     <string name="QuoteView_photo">تصویر</string>
     <string name="QuoteView_original_missing">پیام اصلی یافت نشد</string>
     <!-- conversation_fragment -->
@@ -367,8 +357,8 @@
     <string name="arrays__disabled">غیر فعال</string>
     <string name="notificationsContentShowNameOnly">فقط نام</string>
     <string name="arrays__images">تصویر</string>
-    <string name="arrays__audio">صدا</string>
-    <string name="arrays__video">ویدئو</string>
+    <string name="audio">صدا</string>
+    <string name="video">ویدئو</string>
     <string name="arrays__small">کوچک</string>
     <string name="arrays__normal">عادی</string>
     <string name="arrays__large">بزرگ</string>
@@ -395,7 +385,6 @@
     <string name="preferences__pref_led_blink_title">الگوی چشمک زدن</string>
     <string name="notificationsSound">صدا</string>
     <string name="preferences__in_app_sounds">صدا وقتی برنامه باز است</string>
-    <string name="preferences__silent">بی صدا</string>
     <string name="preferences__repeat_alerts">تکرار هشدار</string>
     <string name="preferences__never">هرگز</string>
     <string name="preferences__one_time">یکبار</string>
@@ -452,7 +441,7 @@
     <string name="conversation_context__menu_resend_message">پیام فرستادن مجدد</string>
     <string name="conversation_context__menu_reply">پاسخ</string>
     <string name="conversation_context__menu_reply_to_message">پاسخ به پیام</string>
-    <string name="conversation_context__menu_call">تماس گرفتن</string>
+    <string name="call">تماس گرفتن</string>
     <string name="conversation_context__menu_select">انتخاب</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">ذخیره پیوست</string>
@@ -689,27 +678,26 @@
     <string name="mark_all_as_read">علامت‌گذاری همه بعنوان خوانده شده</string>
     <string name="messages">پیام‌ها</string>
     <string name="sessionMessageRequests">درخواست های پیام</string>
-    <string name="message_requests_send_notice">ارسال پیام به این کاربر موجب می‌شود درخواست پیام او به صورت خودکار قبول گردد و باعث آشکار شدن کد شناسایی Session شما میشود.</string>
+    <string name="messageRequestsAcceptDescription">ارسال پیام به این کاربر موجب می‌شود درخواست پیام او به صورت خودکار قبول گردد و باعث آشکار شدن کد شناسایی Session شما میشود.</string>
     <string name="accept">پذیرفتن</string>
     <string name="decline">رد کردن</string>
-    <string name="message_requests_clear_all">حذف همه</string>
+    <string name="clearAll">حذف همه</string>
     <string name="message_requests_decline_message">آیا مطمئن هستید که می خواهید این درخواست پیام را رد کنید؟</string>
     <string name="message_requests_block_message">آیا مطمئن هستید که می خواهید این درخواست پیام را رد کنید؟</string>
     <string name="message_requests_deleted">درخواست پیام حذف شد</string>
-    <string name="message_requests_clear_all_message">آیا مطمئن هستید که می خواهید تمام درخواست های پیام را پاک کنید؟</string>
     <string name="message_requests_cleared">درخواست های پیام حذف شد</string>
-    <string name="message_requests_accepted">درخواست پیام شما قبول شد.</string>
-    <string name="message_requests_pending">درخواست پیام شما در انتظار پاسخ می باشد.</string>
+    <string name="messageRequestsAccepted">درخواست پیام شما قبول شد.</string>
+    <string name="messageRequestPending">درخواست پیام شما در انتظار پاسخ می باشد.</string>
     <string name="messageRequestsNonePending">هیچ درخواست پیامی وجود ندارد</string>
     <string name="NewConversationButton_SessionTooltip">پیام مستقیم</string>
     <string name="NewConversationButton_ClosedGroupTooltip">گروه‌های خصوصی</string>
     <string name="NewConversationButton_OpenGroupTooltip">گروه‌های باز</string>
-    <string name="message_requests_notification">شما درخواست پیام جدیدی دارید</string>
+    <string name="messageRequestsNew">شما درخواست پیام جدیدی دارید</string>
     <string name="CallNotificationBuilder_connecting">در حال اتصال…</string>
     <string name="NotificationBarManager__incoming_signal_call">تماس دریافتی</string>
     <string name="NotificationBarManager__deny_call">رد تماس</string>
     <string name="NotificationBarManager__answer_call">پاسخ به تماس</string>
-    <string name="NotificationBarManager_call_in_progress">در حال تماس...</string>
+    <string name="callsInProgress">در حال تماس...</string>
     <string name="NotificationBarManager__establishing_signal_call">برقراری تماس</string>
     <string name="NotificationBarManager__end_call">پایان تماس</string>
     <string name="accept_call">پذیرفتن تماس</string>
@@ -717,7 +705,6 @@
     <string name="preferences__voice_video_calls">تماس‌های صوتی و تصویری</string>
     <string name="preferences__calls_beta">تماس‌ها (بتا)</string>
     <string name="preferences__allow_access_voice_video">فعال‌سازی تماس‌های صوتی و تصویری به و از کاربران دیگر.</string>
-    <string name="CallNotificationBuilder_first_call_title">تماس از دست رفته</string>
     <string name="CallNotificationBuilder_first_call_message">شما تماسی را از دست دادید زیرا باید مجوز «تماس‌های صوتی و تصویری» را در تنظیمات حریم خصوصی فعال کنید.</string>
     <string name="WebRtcCallActivity_Session_Call">تماس Session</string>
     <string name="WebRtcCallActivity_Reconnecting">در حال اتصال دوباره...</string>

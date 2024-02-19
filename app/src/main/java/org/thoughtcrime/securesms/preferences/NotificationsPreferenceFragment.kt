@@ -138,7 +138,7 @@ class NotificationsPreferenceFragment : ListSummaryPreferenceFragment() {
         override fun onPreferenceChange(preference: Preference, newValue: Any): Boolean {
             val value = newValue as? Uri
             if (value == null || TextUtils.isEmpty(value.toString())) {
-                preference.setSummary(R.string.preferences__silent)
+                preference.setSummary(R.string.none)
             } else {
                 RingtoneManager.getRingtone(activity, value)
                     ?.getTitle(activity)

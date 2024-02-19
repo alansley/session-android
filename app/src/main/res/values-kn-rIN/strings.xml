@@ -103,8 +103,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">ಆಡಿಯೋ</string>
-    <string name="attachment_type_selector__audio_description">ಆಡಿಯೋ</string>
     <string name="attachment_type_selector__camera">ಕ್ಯಾಮರಾ</string>
     <string name="attachment_type_selector__camera_description">ಕ್ಯಾಮರಾ</string>
     <string name="attachment_type_selector__location">ಸ್ಥಳ</string>
@@ -130,8 +128,6 @@
     <string name="open_group_guidelines_community_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
     <string name="open_group_guidelines_read">ಓದು</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">ಆಡಿಯೋ</string>
-    <string name="QuoteView_video">ವೀಡಿಯೊ</string>
     <string name="QuoteView_photo">ಚಿತ್ರಪಟ</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -154,8 +150,8 @@
     <string name="arrays__disabled">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದೆ</string>
     <string name="notificationsContentShowNameOnly">ಹೆಸರು ಮಾತ್ರ</string>
     <string name="arrays__images">ಚಿತ್ರಗಳು</string>
-    <string name="arrays__audio">ಆಡಿಯೋ</string>
-    <string name="arrays__video">ವೀಡಿಯೊ</string>
+    <string name="audio">ಆಡಿಯೋ</string>
+    <string name="video">ವೀಡಿಯೊ</string>
     <string name="arrays__small">ಸಣ್ಣ</string>
     <string name="arrays__normal">ಸಾಮಾನ್ಯ</string>
     <string name="arrays__large">ದೊಡ್ಡ</string>
@@ -167,7 +163,6 @@
     <string name="notificationsLedColor">ಎಲಿಡಿ ಬಣ್ಣ</string>
     <string name="preferences__led_color_unknown">ಗೊತ್ತಿರದ</string>
     <string name="notificationsSound">ಶಬ್ಧ</string>
-    <string name="preferences__silent">ನಿಶ್ಯಬ್ದ</string>
     <string name="preferences__one_time">ಒಮ್ಮೆ</string>
     <string name="preferences__two_times">ಎರಡು ಬಾರಿ</string>
     <string name="preferences__three_times">ಮೂರು ಬಾರಿ</string>

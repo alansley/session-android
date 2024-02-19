@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Fjern blokering</string>
     <!-- Slide -->
     <string name="Slide_image">Billede</string>
-    <string name="Slide_audio">Lyd</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Modtog ugyldig nøgle
 udveksel besked!</string>
@@ -192,9 +190,6 @@ udveksel besked!</string>
     <string name="ThreadRecord_group_updated">Gruppe opdateret</string>
     <string name="ThreadRecord_left_the_group">Har forladt gruppen</string>
     <string name="ThreadRecord_secure_session_reset">Nulstil sikker forbindelse</string>
-    <string name="ThreadRecord_called">Du ringede</string>
-    <string name="ThreadRecord_called_you">Ringede til mig</string>
-    <string name="ThreadRecord_missed_call">Mistet opkald</string>
     <string name="ThreadRecord_media_message">Mediebesked</string>
     <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Beskeder med tidsudløb deaktiveret</string>
@@ -267,8 +262,6 @@ udveksel besked!</string>
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Kunne ikke afspille video</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Lyd</string>
-    <string name="attachment_type_selector__audio_description">Lyd</string>
     <string name="attachment_type_selector__contact">Kontaktperson</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -300,7 +293,6 @@ udveksel besked!</string>
     <string name="conversation_item__secure_message_description">Sikker besked</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Afsendelse fejlet</string>
-    <string name="conversation_item_sent__pending_approval_description">Afventer godkendelse</string>
     <string name="conversation_item_sent__delivered_description">Besked leveret</string>
     <string name="conversation_item_sent__message_read">Besked læst</string>
     <!-- conversation_item_received -->
@@ -315,8 +307,6 @@ udveksel besked!</string>
     <string name="open_group_guidelines_community_guidelines">Retningslinjer for medlemmer</string>
     <string name="open_group_guidelines_read">Læst</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Lyd</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Billed</string>
     <string name="QuoteView_original_missing">Original besked ikke fundet</string>
     <!-- conversation_fragment -->
@@ -360,8 +350,8 @@ udveksel besked!</string>
     <string name="arrays__disabled">Deaktiverét</string>
     <string name="notificationsContentShowNameOnly">Kun navn</string>
     <string name="arrays__images">Billeder</string>
-    <string name="arrays__audio">Lyd</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Lyd</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Lille</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Stor</string>
@@ -381,7 +371,6 @@ udveksel besked!</string>
     <string name="preferences__led_color_unknown">Ukendt</string>
     <string name="preferences__pref_led_blink_title">LED blinke mønster</string>
     <string name="notificationsSound">Lyd</string>
-    <string name="preferences__silent">Lydløs</string>
     <string name="preferences__repeat_alerts">Gentag alarmer</string>
     <string name="preferences__never">Aldrig</string>
     <string name="preferences__one_time">1 gang</string>

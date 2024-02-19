@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Zhbllokoje</string>
     <!-- Slide -->
     <string name="Slide_image">Figurë</string>
-    <string name="Slide_audio">Audio</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">U mor mesazh dëmtuar
         shkëmbimi kyçesh!</string>
@@ -192,9 +190,6 @@
     <string name="ThreadRecord_group_updated">Grupi u përditësua</string>
     <string name="ThreadRecord_left_the_group">Iku nga grupi</string>
     <string name="ThreadRecord_secure_session_reset">Sesioni i sigurt u kthye te parazgjedhjet.</string>
-    <string name="ThreadRecord_called">Ju thirrët</string>
-    <string name="ThreadRecord_called_you">Ju thirri</string>
-    <string name="ThreadRecord_missed_call">Thirrje e humbur</string>
     <string name="ThreadRecord_media_message">Mesazh media</string>
     <string name="ThreadRecord_s_is_on_signal">%s është në Session! </string>
     <string name="ThreadRecord_disappearing_messages_disabled">Zhdukja e mesazheve është e çaktivizuar</string>
@@ -267,8 +262,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Gabim në luajtjen e videos</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Audio</string>
-    <string name="attachment_type_selector__audio_description">Audio</string>
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -300,7 +293,6 @@
     <string name="conversation_item__secure_message_description">Mesazh i siguruar</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Dërgimi Dështoi</string>
-    <string name="conversation_item_sent__pending_approval_description">Në Pritje të Miratimit</string>
     <string name="conversation_item_sent__delivered_description">U dorëzua</string>
     <string name="conversation_item_sent__message_read">Mesazhi u lexua</string>
     <!-- conversation_item_received -->
@@ -315,8 +307,6 @@
     <string name="open_group_guidelines_community_guidelines">Udhëzimet e komunitetit</string>
     <string name="open_group_guidelines_read">Lexo</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Audio</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">S\’u gjet mesazhi origjinal</string>
     <!-- conversation_fragment -->
@@ -360,8 +350,8 @@
     <string name="arrays__disabled">E çaktivizuar</string>
     <string name="notificationsContentShowNameOnly">Vetëm emrin</string>
     <string name="arrays__images">Figura</string>
-    <string name="arrays__audio">Audio</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Të vogla</string>
     <string name="arrays__normal">Normale</string>
     <string name="arrays__large">Të mëdha</string>
@@ -381,7 +371,6 @@
     <string name="preferences__led_color_unknown">E panjohur</string>
     <string name="preferences__pref_led_blink_title">Rregullsi xixëllimi LED-i</string>
     <string name="notificationsSound">Tingull</string>
-    <string name="preferences__silent">Heshtazi</string>
     <string name="preferences__repeat_alerts">Alarme të përsëritur</string>
     <string name="preferences__never">Kurrë</string>
     <string name="preferences__one_time">Një herë</string>

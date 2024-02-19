@@ -219,8 +219,6 @@
     <string name="RecipientPreferenceActivity_unblock">رفع الحظر</string>
     <!-- Slide -->
     <string name="Slide_image">صورة</string>
-    <string name="Slide_audio">صوت</string>
-    <string name="Slide_video">فيديو</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">تم استلام رسالة تبادل مفاتيح تالفة.</string>
     <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">تم استلام رسالة برقم أمان جديد. انقر للمعالجة والعرض.</string>
@@ -231,9 +229,6 @@
     <string name="ThreadRecord_group_updated">تم تحديث المحموعة</string>
     <string name="ThreadRecord_left_the_group">غادر المجموعة</string>
     <string name="ThreadRecord_secure_session_reset">إعادة ضبط جلسة آمنة.</string>
-    <string name="ThreadRecord_called">مكالمات صادرة</string>
-    <string name="ThreadRecord_called_you">مكالمات واردة</string>
-    <string name="ThreadRecord_missed_call">مكالمة فائتة</string>
     <string name="ThreadRecord_media_message">رسالة وسائط متعددة</string>
     <string name="ThreadRecord_s_is_on_signal">%sمتواجد على Session !</string>
     <string name="ThreadRecord_disappearing_messages_disabled">تم تعطيل الرسائل المخفية</string>
@@ -311,8 +306,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">خطأ في تشغيل الفيديو</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">صوت</string>
-    <string name="attachment_type_selector__audio_description">صوت</string>
     <string name="attachment_type_selector__contact">جهة اتصال</string>
     <string name="attachment_type_selector__contact_description">متصل</string>
     <string name="attachment_type_selector__camera">كاميرا</string>
@@ -344,7 +337,6 @@
     <string name="conversation_item__secure_message_description">رسالة آمنة</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">الإرسال فشل</string>
-    <string name="conversation_item_sent__pending_approval_description">في انتظار الموافقة</string>
     <string name="conversation_item_sent__delivered_description">تم تسليم الرسالة</string>
     <string name="conversation_item_sent__message_read">تم قراءة الرسالة </string>
     <!-- conversation_item_received -->
@@ -359,8 +351,6 @@
     <string name="open_group_guidelines_community_guidelines">المبادئ التوجيهية للمجتمع</string>
     <string name="open_group_guidelines_read">قراءة</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">صوت</string>
-    <string name="QuoteView_video">فيديو</string>
     <string name="QuoteView_photo">صورة</string>
     <string name="QuoteView_original_missing">لم يتم العثور على الرسالة الأصلية</string>
     <!-- conversation_fragment -->
@@ -404,8 +394,8 @@
     <string name="arrays__disabled">معطل</string>
     <string name="notificationsContentShowNameOnly">الاسم فقط</string>
     <string name="arrays__images">صور</string>
-    <string name="arrays__audio">صوت</string>
-    <string name="arrays__video">فيديو</string>
+    <string name="audio">صوت</string>
+    <string name="video">فيديو</string>
     <string name="arrays__small">صغيرة</string>
     <string name="arrays__normal">طبيعي</string>
     <string name="arrays__large">كبيرة</string>
@@ -429,7 +419,6 @@
     <string name="preferences__led_color_unknown">مجهول</string>
     <string name="preferences__pref_led_blink_title">نمط وميض LED</string>
     <string name="notificationsSound">صوت</string>
-    <string name="preferences__silent">صامت</string>
     <string name="preferences__repeat_alerts">تكرار التنبيهات</string>
     <string name="preferences__never">أبدا</string>
     <string name="preferences__one_time">مرة واحدة</string>

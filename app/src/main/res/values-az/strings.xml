@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Əngəldən çıxart</string>
     <!-- Slide -->
     <string name="Slide_image">Təsvir</string>
-    <string name="Slide_audio">Səs</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Zədəli açar mübadilə
          mesajı alındı!
@@ -193,9 +191,6 @@
     <string name="ThreadRecord_group_updated">Qrup yeniləndi</string>
     <string name="ThreadRecord_left_the_group">Qrupu tərk etdi</string>
     <string name="ThreadRecord_secure_session_reset">Güvənli seansı sıfırlandı.</string>
-    <string name="ThreadRecord_called">Zəng etdiniz</string>
-    <string name="ThreadRecord_called_you">Sizə zəng etdi</string>
-    <string name="ThreadRecord_missed_call">Cavabsız zəng</string>
     <string name="ThreadRecord_media_message">Media mesajı</string>
     <string name="ThreadRecord_s_is_on_signal">%s artıq Session-dadır!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Yox olan mesajlar sıradan çıxarıldı</string>
@@ -269,8 +264,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Video oxutma xətası</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Səs</string>
-    <string name="attachment_type_selector__audio_description">Səs</string>
     <string name="attachment_type_selector__contact">Əlaqə</string>
     <string name="attachment_type_selector__contact_description">Əlaqə</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -302,7 +295,6 @@
     <string name="conversation_item__secure_message_description">Güvənli mesaj</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Göndərilmədi</string>
-    <string name="conversation_item_sent__pending_approval_description">Təsdiq gözlənilir</string>
     <string name="conversation_item_sent__delivered_description">Çatdırıldı</string>
     <string name="conversation_item_sent__message_read">Mesaj oxundu</string>
     <!-- conversation_item_received -->
@@ -317,8 +309,6 @@
     <string name="open_group_guidelines_community_guidelines">Cəmiyyət təlimatları</string>
     <string name="open_group_guidelines_read">Oxundu</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Səs</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Orijinal mesaj tapılmadı</string>
     <!-- conversation_fragment -->
@@ -362,8 +352,8 @@
     <string name="arrays__disabled">Sıradan çıxarıldı</string>
     <string name="notificationsContentShowNameOnly">Yalnız ad</string>
     <string name="arrays__images">Təsvirlər</string>
-    <string name="arrays__audio">Səs</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Səs</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Kiçik</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Böyük</string>
@@ -383,7 +373,6 @@
     <string name="preferences__led_color_unknown">Bilinmir</string>
     <string name="preferences__pref_led_blink_title">LED yanıb sönmə forması</string>
     <string name="notificationsSound">Səs</string>
-    <string name="preferences__silent">Səssiz</string>
     <string name="preferences__repeat_alerts">Xəbərdarlıqları təkrarla</string>
     <string name="preferences__never">Heç vaxt</string>
     <string name="preferences__one_time">Bir dəfə</string>

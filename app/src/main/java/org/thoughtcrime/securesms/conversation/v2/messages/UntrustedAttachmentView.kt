@@ -30,7 +30,7 @@ class UntrustedAttachmentView: LinearLayout {
     // region Updating
     fun bind(attachmentType: AttachmentType, @ColorInt textColor: Int) {
         val (iconRes, stringRes) = when (attachmentType) {
-            AttachmentType.AUDIO -> R.drawable.ic_microphone to R.string.Slide_audio
+            AttachmentType.AUDIO -> R.drawable.ic_microphone to R.string.audio
             AttachmentType.DOCUMENT -> R.drawable.ic_document_large_light to R.string.files
             AttachmentType.MEDIA -> R.drawable.ic_image_white_24dp to R.string.media
         }

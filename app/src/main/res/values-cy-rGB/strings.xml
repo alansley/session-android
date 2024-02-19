@@ -205,8 +205,6 @@
     <string name="RecipientPreferenceActivity_unblock">Dadrwystro</string>
     <!-- Slide -->
     <string name="Slide_image">Llun</string>
-    <string name="Slide_audio">Sain</string>
-    <string name="Slide_video">Fideo</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Wedi derbyn neges cyfnewid
                      allwedd llygredig!</string>
@@ -218,9 +216,6 @@
     <string name="ThreadRecord_group_updated">Grŵp wedi\'i ddiweddaru</string>
     <string name="ThreadRecord_left_the_group">Wedi gadael y grŵp.</string>
     <string name="ThreadRecord_secure_session_reset">Ailosod sesiwn ddiogel.</string>
-    <string name="ThreadRecord_called">Galwoch chi</string>
-    <string name="ThreadRecord_called_you">Wedi\'ch galw chi</string>
-    <string name="ThreadRecord_missed_call">Galwad coll</string>
     <string name="ThreadRecord_media_message">Neges cyfryngau</string>
     <string name="ThreadRecord_s_is_on_signal">Mae %s ar Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Negeseuon diflanedig wedi\'u hanalluogi</string>
@@ -292,8 +287,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Gwall wrth chwarae fideo</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Sain</string>
-    <string name="attachment_type_selector__audio_description">Sain</string>
     <string name="attachment_type_selector__contact">Cysylltiad</string>
     <string name="attachment_type_selector__contact_description">Cysylltiad</string>
     <string name="attachment_type_selector__location">Lleoliad</string>
@@ -321,7 +314,6 @@
     <string name="conversation_item__secure_message_description">Neges ddiogel</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Methwyd Anfon</string>
-    <string name="conversation_item_sent__pending_approval_description">Dan Ystyriaeth</string>
     <string name="conversation_item_sent__delivered_description">Wedi\'i drosglwyddo</string>
     <string name="conversation_item_sent__message_read">Neges wedi\'i ddarllen</string>
     <!-- conversation_item_received -->
@@ -331,8 +323,6 @@
     <string name="audio_view__pause_accessibility_description">Oedi</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Sain</string>
-    <string name="QuoteView_video">Fideo</string>
     <string name="QuoteView_photo">Llun</string>
     <string name="QuoteView_original_missing">Heb ganfod y neges wreiddiol</string>
     <!-- conversation_fragment -->
@@ -376,8 +366,8 @@
     <string name="arrays__disabled">Analluogwyd</string>
     <string name="notificationsContentShowNameOnly">Enw yn unig</string>
     <string name="arrays__images">Lluniau</string>
-    <string name="arrays__audio">Sain</string>
-    <string name="arrays__video">Fideo</string>
+    <string name="audio">Sain</string>
+    <string name="video">Fideo</string>
     <string name="arrays__small">Bach</string>
     <string name="arrays__normal">Canolig</string>
     <string name="arrays__large">Mawr</string>
@@ -401,7 +391,6 @@
     <string name="preferences__led_color_unknown">Anhysbys</string>
     <string name="preferences__pref_led_blink_title">Patrwm fflachio\'r LED</string>
     <string name="notificationsSound">Sain</string>
-    <string name="preferences__silent">Tawel</string>
     <string name="preferences__repeat_alerts">Ailadrodd rhybuddion</string>
     <string name="preferences__never">Byth</string>
     <string name="preferences__one_time">Unwaith</string>

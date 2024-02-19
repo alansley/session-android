@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">رفع انسداد</string>
     <!-- Slide -->
     <string name="Slide_image">تصویر</string>
-    <string name="Slide_audio">صدا</string>
-    <string name="Slide_video">ویدئو</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">دریافت کلید خراب
 تبادل پیام!</string>
@@ -192,9 +190,6 @@
     <string name="ThreadRecord_group_updated">گروه به روز شد</string>
     <string name="ThreadRecord_left_the_group">گروه را ترک کرد</string>
     <string name="ThreadRecord_secure_session_reset">تنظیم مجدد جلسه امن.</string>
-    <string name="ThreadRecord_called">شما تماس گرفتید</string>
-    <string name="ThreadRecord_called_you">با شما تماس گرفت</string>
-    <string name="ThreadRecord_missed_call">تماس از دست رفته</string>
     <string name="ThreadRecord_media_message">پیام رسانه</string>
     <string name="ThreadRecord_s_is_on_signal">%s در Session است!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">پیام های نابود شونده غیر فعال شد</string>
@@ -268,8 +263,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">خطا در پخش ویدیو</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">صدا</string>
-    <string name="attachment_type_selector__audio_description">صوت</string>
     <string name="attachment_type_selector__contact">مخاطب</string>
     <string name="attachment_type_selector__contact_description">مخاطب</string>
     <string name="attachment_type_selector__camera">دوربین</string>
@@ -301,7 +294,6 @@
     <string name="conversation_item__secure_message_description">پیام امن</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">ارسال نشد</string>
-    <string name="conversation_item_sent__pending_approval_description">در انتظار تایید</string>
     <string name="conversation_item_sent__delivered_description">تحویل</string>
     <string name="conversation_item_sent__message_read">پیام خوانده شده</string>
     <!-- conversation_item_received -->
@@ -316,8 +308,6 @@
     <string name="open_group_guidelines_community_guidelines">راهنمای انجمن</string>
     <string name="open_group_guidelines_read">خواندن</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">صوت</string>
-    <string name="QuoteView_video">ویدئو</string>
     <string name="QuoteView_photo">تصویر</string>
     <string name="QuoteView_original_missing">پیام اصلی یافت نشد</string>
     <!-- conversation_fragment -->
@@ -361,8 +351,8 @@
     <string name="arrays__disabled">غیر فعال</string>
     <string name="notificationsContentShowNameOnly">تنها نام</string>
     <string name="arrays__images">تصویر</string>
-    <string name="arrays__audio">صدا</string>
-    <string name="arrays__video">ویدئو</string>
+    <string name="audio">صدا</string>
+    <string name="video">ویدئو</string>
     <string name="arrays__small">کوچک</string>
     <string name="arrays__normal">عادی</string>
     <string name="arrays__large">بزرگ</string>
@@ -382,7 +372,6 @@
     <string name="preferences__led_color_unknown">ناشناخته</string>
     <string name="preferences__pref_led_blink_title">الگوی چشمک زدن</string>
     <string name="notificationsSound">زنگ</string>
-    <string name="preferences__silent">بی صدا</string>
     <string name="preferences__repeat_alerts">تکرار هشدار</string>
     <string name="preferences__never">هرگز</string>
     <string name="preferences__one_time">یکبار</string>

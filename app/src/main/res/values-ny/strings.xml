@@ -146,8 +146,6 @@
     <string name="RecipientPreferenceActivity_unblock">Pakashkamanta llukchi</string>
     <!-- Slide -->
     <string name="Slide_image">Shuyu</string>
-    <string name="Slide_audio">Uyariy</string>
-    <string name="Slide_video">Shuyurikuchik</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Shuk mana alli chaski chayamurka 
 ranti pakalla yupaykunamanta</string>
@@ -159,9 +157,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="ThreadRecord_group_updated">Tantanakuy mushukyashka</string>
     <string name="ThreadRecord_left_the_group">Tanatakuymanta llukshi</string>
     <string name="ThreadRecord_secure_session_reset">Kutinlla alliman kallari</string>
-    <string name="ThreadRecord_called">Kayarka</string>
-    <string name="ThreadRecord_called_you">Kayachirka</string>
-    <string name="ThreadRecord_missed_call">Kayayta mana kutichishka</string>
     <string name="ThreadRecord_media_message">Willachik hillay chaski</string>
     <string name="ThreadRecord_s_is_on_signal">¡%s Sessionpimi kan!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Chaski chinkachik wichashka</string>
@@ -225,8 +220,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Shuyukuyurita mana purichi usharkachu.</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Uyariy</string>
-    <string name="attachment_type_selector__audio_description">Uyariy</string>
     <string name="attachment_type_selector__contact">Yupay mashi</string>
     <string name="attachment_type_selector__contact_description">Yupay mashi</string>
     <string name="attachment_type_selector__camera">Shuyullukchik</string>
@@ -254,7 +247,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="conversation_item__secure_message_description">Chaskita wakaychina</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Kachakushpa pantarka</string>
-    <string name="conversation_item_sent__pending_approval_description">Arinina shuyakunmi</string>
     <string name="conversation_item_sent__delivered_description">Chayashka</string>
     <string name="conversation_item_sent__message_read">Killkakatishka chaski</string>
     <!-- conversation_item_received -->
@@ -264,8 +256,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="audio_view__pause_accessibility_description">Samachina</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Uyariy</string>
-    <string name="QuoteView_video">Shuyukuyuriy</string>
     <string name="QuoteView_photo">Shuyu</string>
     <string name="QuoteView_original_missing">Mana kallari chaskita taririnchu</string>
     <!-- conversation_fragment -->
@@ -309,8 +299,8 @@ ranti pakalla yupaykunamanta</string>
     <string name="arrays__disabled">Mana paskashka</string>
     <string name="notificationsContentShowNameOnly">Shutilla</string>
     <string name="arrays__images">Shuyukuna</string>
-    <string name="arrays__audio">Uyariy</string>
-    <string name="arrays__video">Shuyurikuchik</string>
+    <string name="audio">Uyariy</string>
+    <string name="video">Shuyurikuchik</string>
     <string name="arrays__small">Uchilla</string>
     <string name="arrays__normal">Chayshina</string>
     <string name="arrays__large">Hatun</string>
@@ -329,7 +319,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="preferences__led_color_unknown">Mana riksishka</string>
     <string name="preferences__pref_led_blink_title">LEDpa imashina achik sipuriy</string>
     <string name="notificationsSound">Wakay uyari</string>
-    <string name="preferences__silent">Upallayachina</string>
     <string name="preferences__repeat_alerts">Kutinlla unancha wakay</string>
     <string name="preferences__never">Nimamanta</string>
     <string name="preferences__one_time">Shukkutin</string>

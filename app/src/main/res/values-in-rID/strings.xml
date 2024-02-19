@@ -153,8 +153,6 @@
     <string name="RecipientPreferenceActivity_unblock">Buka blokir</string>
     <!-- Slide -->
     <string name="Slide_image">Gambar</string>
-    <string name="Slide_audio">Suara</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Menerima kunci yang rusak
         bertukar pesan!
@@ -166,9 +164,6 @@
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grup diperbarui</string>
     <string name="ThreadRecord_left_the_group">Meninggalkan grup</string>
-    <string name="ThreadRecord_called">Anda menelpon</string>
-    <string name="ThreadRecord_called_you">Menelpon anda</string>
-    <string name="ThreadRecord_missed_call">Panggilan tidak terjawab</string>
     <string name="ThreadRecord_media_message">Pesan media</string>
     <string name="ThreadRecord_s_is_on_signal">%s ada di Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Menghilangkan pesan dinonaktifkan</string>
@@ -225,8 +220,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Gagal memutar video</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Suara</string>
-    <string name="attachment_type_selector__audio_description">Suara</string>
     <string name="attachment_type_selector__contact">Kontak</string>
     <string name="attachment_type_selector__contact_description">Kontak</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -260,8 +253,6 @@
     <string name="open_group_guidelines_pinned_message">Pesan yang disematkan</string>
     <string name="open_group_guidelines_community_guidelines">Pedoman komunitas</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Suara</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Pesan asli tidak ditemukan</string>
     <!-- conversation_fragment -->
@@ -298,8 +289,8 @@
     <string name="arrays__disabled">Dinonaktifkan</string>
     <string name="notificationsContentShowNameOnly">Hanya nama</string>
     <string name="arrays__images">Gambar</string>
-    <string name="arrays__audio">Suara</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Suara</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Kecil</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Besar</string>

@@ -186,8 +186,6 @@
     <string name="RecipientPreferenceActivity_unblock">Débloquer</string>
     <!-- Slide -->
     <string name="Slide_image">Image</string>
-    <string name="Slide_audio">Son</string>
-    <string name="Slide_video">Vidéo</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Vous avez reçu un message d’échange de clés corrompu !</string>
     <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">        Le message d\'échange de clé reçu est pour une version du protocole invalide.    </string>
@@ -199,9 +197,6 @@
     <string name="ThreadRecord_group_updated">Le groupe a été mis à jour</string>
     <string name="ThreadRecord_left_the_group">A quitté le groupe</string>
     <string name="ThreadRecord_secure_session_reset">La session sécurisée a été réinitialisée.</string>
-    <string name="ThreadRecord_called">Vous avez appelé</string>
-    <string name="ThreadRecord_called_you">Vous a appelé·e</string>
-    <string name="ThreadRecord_missed_call">Appel manqué</string>
     <string name="ThreadRecord_media_message">Message multimédia</string>
     <string name="ThreadRecord_s_is_on_signal">%s est sur Session !</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Les messages éphémères sont désactivés</string>
@@ -275,8 +270,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Erreur de lecture de la vidéo</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Son</string>
-    <string name="attachment_type_selector__audio_description">Fichiers audios</string>
     <string name="attachment_type_selector__contact">Contact</string>
     <string name="attachment_type_selector__contact_description">Contact</string>
     <string name="attachment_type_selector__camera">Appareil photo</string>
@@ -308,7 +301,6 @@
     <string name="conversation_item__secure_message_description">Message sécurisé</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Échec d’envoi</string>
-    <string name="conversation_item_sent__pending_approval_description">En attente d’approbation</string>
     <string name="conversation_item_sent__delivered_description">Transmis</string>
     <string name="conversation_item_sent__message_read">Message lu</string>
     <!-- conversation_item_received -->
@@ -323,8 +315,6 @@
     <string name="open_group_guidelines_community_guidelines">Règles de la communauté</string>
     <string name="open_group_guidelines_read">Lire</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Contenu audio</string>
-    <string name="QuoteView_video">Vidéo</string>
     <string name="QuoteView_photo">Photo</string>
     <string name="QuoteView_original_missing">Le message original est introuvable</string>
     <!-- conversation_fragment -->
@@ -368,8 +358,8 @@
     <string name="arrays__disabled">Désactivé</string>
     <string name="notificationsContentShowNameOnly">Nom uniquement</string>
     <string name="arrays__images">Images</string>
-    <string name="arrays__audio">Son</string>
-    <string name="arrays__video">Vidéo</string>
+    <string name="audio">Son</string>
+    <string name="video">Vidéo</string>
     <string name="arrays__small">Petite</string>
     <string name="arrays__normal">Normale</string>
     <string name="arrays__large">Grande</string>
@@ -396,7 +386,6 @@
     <string name="preferences__pref_led_blink_title">Rythme de clignotement de la DEL</string>
     <string name="notificationsSound">Son</string>
     <string name="preferences__in_app_sounds">Son à l\'ouverture de l\'application</string>
-    <string name="preferences__silent">Silencieux</string>
     <string name="preferences__repeat_alerts">Répéter les alertes</string>
     <string name="preferences__never">Jamais</string>
     <string name="preferences__one_time">Une fois</string>
@@ -454,7 +443,7 @@
     <string name="conversation_context__menu_resend_message">Renvoyer le message</string>
     <string name="conversation_context__menu_reply">Répondre</string>
     <string name="conversation_context__menu_reply_to_message">Répondre au message</string>
-    <string name="conversation_context__menu_call">Appeler</string>
+    <string name="call">Appeler</string>
     <string name="conversation_context__menu_select">Sélectionner</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Enregistrer la pièce jointe</string>
@@ -692,27 +681,26 @@
     <string name="mark_all_as_read">Tout marquer comme lu</string>
     <string name="messages">Messages</string>
     <string name="sessionMessageRequests">Demandes de message</string>
-    <string name="message_requests_send_notice">Envoyer un message à cet utilisateur acceptera automatiquement sa demande de message et révélera votre ID de session.</string>
+    <string name="messageRequestsAcceptDescription">Envoyer un message à cet utilisateur acceptera automatiquement sa demande de message et révélera votre ID de session.</string>
     <string name="accept">Accepter</string>
     <string name="decline">Refuser</string>
-    <string name="message_requests_clear_all">Effacer tout</string>
+    <string name="clearAll">Effacer tout</string>
     <string name="message_requests_decline_message">Êtes-vous sûr de vouloir refuser cette demande de message ?</string>
     <string name="message_requests_block_message">Êtes-vous sûr de vouloir supprimer cette demande de message ?</string>
     <string name="message_requests_deleted">Demande de message supprimée</string>
-    <string name="message_requests_clear_all_message">Êtes-vous sûr de vouloir supprimer toutes les demandes de message ?</string>
     <string name="message_requests_cleared">Demandes de message supprimées</string>
-    <string name="message_requests_accepted">Votre demande de message a été acceptée.</string>
-    <string name="message_requests_pending">Votre demande de message est en attente.</string>
+    <string name="messageRequestsAccepted">Votre demande de message a été acceptée.</string>
+    <string name="messageRequestPending">Votre demande de message est en attente.</string>
     <string name="messageRequestsNonePending">Aucune demande de message en attente</string>
     <string name="NewConversationButton_SessionTooltip">Message privé</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Groupes privés</string>
     <string name="NewConversationButton_OpenGroupTooltip">Groupe public</string>
-    <string name="message_requests_notification">Vous avez une nouvelle demande de message</string>
+    <string name="messageRequestsNew">Vous avez une nouvelle demande de message</string>
     <string name="CallNotificationBuilder_connecting">Connexion…</string>
     <string name="NotificationBarManager__incoming_signal_call">Appel entrant</string>
     <string name="NotificationBarManager__deny_call">Refuser l’appel</string>
     <string name="NotificationBarManager__answer_call">Répondre à l’appel</string>
-    <string name="NotificationBarManager_call_in_progress">Appel en cours</string>
+    <string name="callsInProgress">Appel en cours</string>
     <string name="NotificationBarManager__establishing_signal_call">Établissement de l\'appel</string>
     <string name="NotificationBarManager__end_call">Raccrocher</string>
     <string name="accept_call">Accepter l\'appel</string>
@@ -720,7 +708,6 @@
     <string name="preferences__voice_video_calls">Appels vocaux et vidéos</string>
     <string name="preferences__calls_beta">Appels (Bêta)</string>
     <string name="preferences__allow_access_voice_video">Active les appels vocaux et vidéo vers et depuis d\'autres utilisateurs.</string>
-    <string name="CallNotificationBuilder_first_call_title">Appel Manqué</string>
     <string name="CallNotificationBuilder_first_call_message">Vous avez manqué un appel car vous devez activer la permission « Appels vocaux et vidéo » dans les paramètres de confidentialité.</string>
     <string name="WebRtcCallActivity_Session_Call">Appel Session</string>
     <string name="WebRtcCallActivity_Reconnecting">Reconnexion…</string>

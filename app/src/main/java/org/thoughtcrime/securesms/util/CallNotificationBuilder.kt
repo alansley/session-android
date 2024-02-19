@@ -46,7 +46,7 @@ class CallNotificationBuilder {
                     .setSmallIcon(R.drawable.ic_baseline_call_24)
                     .setContentIntent(pendingIntent)
                     .setPriority(NotificationCompat.PRIORITY_HIGH)
-                    .setContentTitle(context.getString(R.string.CallNotificationBuilder_first_call_title))
+                    .setContentTitle(context.getString(R.string.callsMissedCallFrom))
                     .setContentText(text)
                     .setStyle(NotificationCompat.BigTextStyle().bigText(text))
                     .setAutoCancel(true)
@@ -109,7 +109,7 @@ class CallNotificationBuilder {
                     ))
                 }
                 else -> {
-                    builder.setContentText(context.getString(R.string.NotificationBarManager_call_in_progress))
+                    builder.setContentText(context.getString(R.string.callsInProgress))
                     builder.addAction(getServiceNotificationAction(
                             context,
                             WebRtcCallService.ACTION_LOCAL_HANGUP,

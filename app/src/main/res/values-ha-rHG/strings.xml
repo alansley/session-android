@@ -159,8 +159,6 @@
     <string name="RecipientPreferenceActivity_unblock">Astengê rakirin</string>
     <!-- Slide -->
     <string name="Slide_image">Wêne</string>
-    <string name="Slide_audio">Deng</string>
-    <string name="Slide_video">Vîdyo</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Peyama veguhastina
         mifteyê xirabe hat!
@@ -173,9 +171,6 @@
     <string name="ThreadRecord_group_updated">Kom hat hildemandin</string>
     <string name="ThreadRecord_left_the_group">Ji komê derket</string>
     <string name="ThreadRecord_secure_session_reset">Danişîna parastî nûsazîne.</string>
-    <string name="ThreadRecord_called">Te bang kir</string>
-    <string name="ThreadRecord_called_you">Bang li te kir</string>
-    <string name="ThreadRecord_missed_call">Banga bêbersiv</string>
     <string name="ThreadRecord_media_message">Peyama medyayê</string>
     <string name="ThreadRecord_s_is_on_signal">%s beşdarî Sessionê bûye!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Peyamên wenda dibin ne çalak e</string>
@@ -243,8 +238,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Çewtiya lêdana vîdyoyê</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Deng</string>
-    <string name="attachment_type_selector__audio_description">Deng</string>
     <string name="attachment_type_selector__contact">Berdeng</string>
     <string name="attachment_type_selector__contact_description">Berdeng</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -272,7 +265,6 @@
     <string name="conversation_item__secure_message_description">Peyama parastî</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Şandin serneket</string>
-    <string name="conversation_item_sent__pending_approval_description">Pejirandina hilawistî </string>
     <string name="conversation_item_sent__delivered_description">Hat gihandin</string>
     <string name="conversation_item_sent__message_read">Peyam hat xwendin</string>
     <!-- conversation_item_received -->
@@ -282,8 +274,6 @@
     <string name="audio_view__pause_accessibility_description">Rawestîne</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Deng</string>
-    <string name="QuoteView_video">Vidyo</string>
     <string name="QuoteView_photo">Wêne</string>
     <string name="QuoteView_original_missing">Peyama orjînal nehate dîtin</string>
     <!-- conversation_fragment -->
@@ -327,8 +317,8 @@
     <string name="arrays__disabled">Neçalakkirî</string>
     <string name="notificationsContentShowNameOnly">Tenê nav</string>
     <string name="arrays__images">Wêne</string>
-    <string name="arrays__audio">Deng</string>
-    <string name="arrays__video">Vîdyo</string>
+    <string name="audio">Deng</string>
+    <string name="video">Vîdyo</string>
     <string name="arrays__small">Biçûk</string>
     <string name="arrays__large">Mezin</string>
     <string name="arrays__extra_large">Gelek mezin</string>
@@ -347,7 +337,6 @@
     <string name="preferences__led_color_unknown">Nenas</string>
     <string name="preferences__pref_led_blink_title">Qalibê pêketin û tefandina LEDê</string>
     <string name="notificationsSound">Deng</string>
-    <string name="preferences__silent">Bêdeng</string>
     <string name="preferences__repeat_alerts">Hişyariyan dubare bike</string>
     <string name="preferences__never">Tu car</string>
     <string name="preferences__one_time">Carek</string>

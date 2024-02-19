@@ -163,7 +163,6 @@
     <string name="RecipientPreferenceActivity_unblock">Eemalda blokeering</string>
     <!-- Slide -->
     <string name="Slide_image">Pilt</string>
-    <string name="Slide_audio">Heli</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Vastuvõetud korrumpeerunud
         võtmevahetussõnum!
@@ -176,9 +175,6 @@
     <string name="ThreadRecord_group_updated">Grupp uuendatud</string>
     <string name="ThreadRecord_left_the_group">Lahkus grupist</string>
     <string name="ThreadRecord_secure_session_reset">Turvaline sessioon lähtestatud.</string>
-    <string name="ThreadRecord_called">Sa helistasid</string>
-    <string name="ThreadRecord_called_you">Helistas sulle</string>
-    <string name="ThreadRecord_missed_call">Vastamata kõne</string>
     <string name="ThreadRecord_media_message">Meediasõnum</string>
     <string name="ThreadRecord_s_is_on_signal">%s on Sessionis!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Haihtuvad sõnumid keelatud</string>
@@ -246,8 +242,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Video esitamisel tekkis viga</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Heli</string>
-    <string name="attachment_type_selector__audio_description">Heli</string>
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kaamera</string>
@@ -277,7 +271,6 @@
     <string name="conversation_item__secure_message_description">Turvaline sõnum</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Saatmine ebaõnnestus</string>
-    <string name="conversation_item_sent__pending_approval_description">Ootab kinnitust</string>
     <string name="conversation_item_sent__delivered_description">Kohale toimetatud</string>
     <string name="conversation_item_sent__message_read">Sõnum loetud</string>
     <!-- conversation_item_received -->
@@ -287,7 +280,6 @@
     <string name="audio_view__pause_accessibility_description">Paus</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Heli</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Originaalsõnumit ei leitud</string>
     <!-- conversation_fragment -->
@@ -331,7 +323,7 @@
     <string name="arrays__disabled">Keelatud</string>
     <string name="notificationsContentShowNameOnly">Ainult nimi</string>
     <string name="arrays__images">Pildid</string>
-    <string name="arrays__audio">Heli</string>
+    <string name="audio">Heli</string>
     <string name="arrays__small">Väike</string>
     <string name="arrays__normal">Keskmine</string>
     <string name="arrays__large">Suur</string>
@@ -351,7 +343,6 @@
     <string name="preferences__led_color_unknown">Tundmatu</string>
     <string name="preferences__pref_led_blink_title">LEDi välkumismuster</string>
     <string name="notificationsSound">Heli</string>
-    <string name="preferences__silent">Vaikne</string>
     <string name="preferences__repeat_alerts">Korda teateid</string>
     <string name="preferences__never">Mitte kunagi</string>
     <string name="preferences__one_time">Üks kord</string>

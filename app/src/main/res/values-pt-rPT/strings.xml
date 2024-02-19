@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Desbloquear</string>
     <!-- Slide -->
     <string name="Slide_image">Imagem</string>
-    <string name="Slide_audio">Áudio</string>
-    <string name="Slide_video">Vídeo</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">A mensagem de intercâmbio de chaves que
 foi recebida está corrompida!</string>
@@ -192,9 +190,6 @@ foi recebida está corrompida!</string>
     <string name="ThreadRecord_group_updated">Grupo atualizado</string>
     <string name="ThreadRecord_left_the_group">Abandonou o grupo</string>
     <string name="ThreadRecord_secure_session_reset">Sessão segura reiniciada.</string>
-    <string name="ThreadRecord_called">Você ligou</string>
-    <string name="ThreadRecord_called_you">Ligou-lhe</string>
-    <string name="ThreadRecord_missed_call">Chamada perdida</string>
     <string name="ThreadRecord_media_message">Mensagem multimédia</string>
     <string name="ThreadRecord_s_is_on_signal">%s está no Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Destruição de mensagens desactivada</string>
@@ -264,8 +259,6 @@ foi recebida está corrompida!</string>
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Erro ao reproduzir o vídeo</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Áudio</string>
-    <string name="attachment_type_selector__audio_description">Áudio</string>
     <string name="attachment_type_selector__contact">Contacto</string>
     <string name="attachment_type_selector__contact_description">Contacto</string>
     <string name="attachment_type_selector__camera">Câmara</string>
@@ -297,7 +290,6 @@ foi recebida está corrompida!</string>
     <string name="conversation_item__secure_message_description">Mensagem segura</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Falha no envio</string>
-    <string name="conversation_item_sent__pending_approval_description">Aprovação pendente</string>
     <string name="conversation_item_sent__delivered_description">Entregue</string>
     <string name="conversation_item_sent__message_read">Mensagem lida</string>
     <!-- conversation_item_received -->
@@ -312,8 +304,6 @@ foi recebida está corrompida!</string>
     <string name="open_group_guidelines_community_guidelines">Normas da Comunidade</string>
     <string name="open_group_guidelines_read">Ler</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Áudio</string>
-    <string name="QuoteView_video">Vídeo</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Não foi encontrada a mensagem original</string>
     <!-- conversation_fragment -->
@@ -357,8 +347,8 @@ foi recebida está corrompida!</string>
     <string name="arrays__disabled">Desativada</string>
     <string name="notificationsContentShowNameOnly">Apenas o nome</string>
     <string name="arrays__images">Imagens</string>
-    <string name="arrays__audio">Áudio</string>
-    <string name="arrays__video">Vídeo</string>
+    <string name="audio">Áudio</string>
+    <string name="video">Vídeo</string>
     <string name="arrays__small">Pequena</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Grande</string>
@@ -378,7 +368,6 @@ foi recebida está corrompida!</string>
     <string name="preferences__led_color_unknown">Desconhecido</string>
     <string name="preferences__pref_led_blink_title">Padrão do piscar do LED</string>
     <string name="notificationsSound">Som</string>
-    <string name="preferences__silent">Silencioso</string>
     <string name="preferences__repeat_alerts">Repetir alertas</string>
     <string name="preferences__never">Nunca</string>
     <string name="preferences__one_time">Uma vez</string>

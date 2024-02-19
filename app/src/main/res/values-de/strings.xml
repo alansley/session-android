@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Freigeben</string>
     <!-- Slide -->
     <string name="Slide_image">Bild</string>
-    <string name="Slide_audio">Audio</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Fehlerhafte Schlüsselaustausch-Nachricht empfangen</string>
     <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Nachricht mit neuer Sicherheitsnummer empfangen. Zum Verarbeiten und Anzeigen antippen.</string>
@@ -191,9 +189,6 @@
     <string name="ThreadRecord_group_updated">Gruppe aktualisiert</string>
     <string name="ThreadRecord_left_the_group">Gruppe verlassen</string>
     <string name="ThreadRecord_secure_session_reset">Verschlüsselung neu gestartet</string>
-    <string name="ThreadRecord_called">Ausgegangener Anruf</string>
-    <string name="ThreadRecord_called_you">Eingegangener Anruf</string>
-    <string name="ThreadRecord_missed_call">Entgangener Anruf</string>
     <string name="ThreadRecord_media_message">Nachricht mit Medieninhalten</string>
     <string name="ThreadRecord_s_is_on_signal">%s ist bei Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Verschwindende Nachrichten deaktiviert</string>
@@ -267,8 +262,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Fehler bei Videowiedergabe</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Audio</string>
-    <string name="attachment_type_selector__audio_description">Audio</string>
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -300,7 +293,6 @@
     <string name="conversation_item__secure_message_description">Sichere Nachricht</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Versand gescheitert</string>
-    <string name="conversation_item_sent__pending_approval_description">Bestätigung ausstehend</string>
     <string name="conversation_item_sent__delivered_description">Zugestellt</string>
     <string name="conversation_item_sent__message_read">Nachricht gelesen</string>
     <!-- conversation_item_received -->
@@ -315,8 +307,6 @@
     <string name="open_group_guidelines_community_guidelines">Gruppenrichtlinien</string>
     <string name="open_group_guidelines_read">Lesen</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Audio</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Originalnachricht nicht gefunden</string>
     <!-- conversation_fragment -->
@@ -360,8 +350,8 @@
     <string name="arrays__disabled">Deaktiviert</string>
     <string name="notificationsContentShowNameOnly">Nur Name</string>
     <string name="arrays__images">Bilder</string>
-    <string name="arrays__audio">Audio</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Klein</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Groß</string>
@@ -381,7 +371,6 @@
     <string name="preferences__led_color_unknown">Unbekannt</string>
     <string name="preferences__pref_led_blink_title">LED-Blinkmuster</string>
     <string name="notificationsSound">Ton</string>
-    <string name="preferences__silent">Lautlos</string>
     <string name="preferences__repeat_alerts">Benachrichtigungen wiederholen</string>
     <string name="preferences__never">Nie</string>
     <string name="preferences__one_time">Einmal</string>

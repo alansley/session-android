@@ -157,7 +157,6 @@
     <string name="RecipientPreferenceActivity_unblock">Fjern blokkering</string>
     <!-- Slide -->
     <string name="Slide_image">Bilete</string>
-    <string name="Slide_audio">Lyd</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Mottok øydelagt
 nøkkelutvekslingsmelding.</string>
@@ -169,9 +168,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="ThreadRecord_group_updated">Grupper oppdatert</string>
     <string name="ThreadRecord_left_the_group">Forlét gruppa</string>
     <string name="ThreadRecord_secure_session_reset">Sikker økt tilbakestilt.</string>
-    <string name="ThreadRecord_called">Du ringte</string>
-    <string name="ThreadRecord_called_you">Ringte deg</string>
-    <string name="ThreadRecord_missed_call">Usvart anrop</string>
     <string name="ThreadRecord_media_message">Mediemelding</string>
     <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Forsvinnande meldingar skrudd av</string>
@@ -240,8 +236,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Klarte ikkje spela videoen</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Lyd</string>
-    <string name="attachment_type_selector__audio_description">Lyd</string>
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -268,7 +262,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_item__secure_message_description">Sikker melding</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Feil ved sending</string>
-    <string name="conversation_item_sent__pending_approval_description">Ventar på godkjenning</string>
     <string name="conversation_item_sent__delivered_description">Levert</string>
     <string name="conversation_item_sent__message_read">Melding lesen</string>
     <!-- conversation_item_received -->
@@ -277,7 +270,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="audio_view__play_accessibility_description">Spel</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Lyd</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Fann ikkje den opphavlege meldinga</string>
     <!-- conversation_fragment -->
@@ -320,7 +312,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__disabled">Slått av</string>
     <string name="notificationsContentShowNameOnly">Berre namn</string>
     <string name="arrays__images">Bilete</string>
-    <string name="arrays__audio">Lyd</string>
+    <string name="audio">Lyd</string>
     <string name="arrays__small">Liten</string>
     <string name="arrays__large">Stor</string>
     <string name="arrays__extra_large">Veldig stor</string>
@@ -339,7 +331,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="preferences__led_color_unknown">Ukjend</string>
     <string name="preferences__pref_led_blink_title">LED-blinkemønster</string>
     <string name="notificationsSound">Lyd</string>
-    <string name="preferences__silent">Stille</string>
     <string name="preferences__repeat_alerts">Gjenta varsel</string>
     <string name="preferences__never">Aldri</string>
     <string name="preferences__one_time">Éin gong</string>

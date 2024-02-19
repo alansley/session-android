@@ -197,8 +197,6 @@
     <string name="RecipientPreferenceActivity_unblock">Atblokuoti</string>
     <!-- Slide -->
     <string name="Slide_image">Paveikslas</string>
-    <string name="Slide_audio">Garsas</string>
-    <string name="Slide_video">Vaizdas</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Gauta sugadinta šifro
         apsikeitimo žinutė!
@@ -211,9 +209,6 @@
     <string name="ThreadRecord_group_updated">Grupė atnaujinta</string>
     <string name="ThreadRecord_left_the_group">išėjo iš grupės</string>
     <string name="ThreadRecord_secure_session_reset">Saugusis seansas atstatytas.</string>
-    <string name="ThreadRecord_called">Jūs skambinote</string>
-    <string name="ThreadRecord_called_you">Jums skambino</string>
-    <string name="ThreadRecord_missed_call">Praleistas skambutis</string>
     <string name="ThreadRecord_media_message">Medijos žinutė</string>
     <string name="ThreadRecord_s_is_on_signal">%s atėjo į Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Išnykstančios žinutės išjungtos</string>
@@ -288,8 +283,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Klaida, atkuriant vaizdo įrašą</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Garsas</string>
-    <string name="attachment_type_selector__audio_description">Garso įrašai</string>
     <string name="attachment_type_selector__contact">Adresatas</string>
     <string name="attachment_type_selector__contact_description">Adresatas</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -321,7 +314,6 @@
     <string name="conversation_item__secure_message_description">Saugi žinutė</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Siuntimas nepavyko</string>
-    <string name="conversation_item_sent__pending_approval_description">Laukiama patvirtinimo</string>
     <string name="conversation_item_sent__delivered_description">Pristatyta</string>
     <string name="conversation_item_sent__message_read">Žinutė perskaityta</string>
     <!-- conversation_item_received -->
@@ -335,8 +327,6 @@
     <string name="open_group_guidelines_pinned_message">Prisegta žinutė</string>
     <string name="open_group_guidelines_read">Skaityti</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Garso įrašai</string>
-    <string name="QuoteView_video">Vaizdo įrašai</string>
     <string name="QuoteView_photo">Nuotrauka</string>
     <string name="QuoteView_original_missing">Pradinė žinutė nerasta</string>
     <!-- conversation_fragment -->
@@ -380,8 +370,8 @@
     <string name="arrays__disabled">Išjungta</string>
     <string name="notificationsContentShowNameOnly">Tik vardą</string>
     <string name="arrays__images">Paveikslai</string>
-    <string name="arrays__audio">Garso įrašai</string>
-    <string name="arrays__video">Vaizdo įrašai</string>
+    <string name="audio">Garso įrašai</string>
+    <string name="video">Vaizdo įrašai</string>
     <string name="arrays__small">Mažas</string>
     <string name="arrays__normal">Normalus</string>
     <string name="arrays__large">Didelis</string>
@@ -403,7 +393,6 @@
     <string name="preferences__led_color_unknown">Nežinoma</string>
     <string name="preferences__pref_led_blink_title">Šviesos diodo mirksėjimo šablonas</string>
     <string name="notificationsSound">Garsas</string>
-    <string name="preferences__silent">Tyliai</string>
     <string name="preferences__repeat_alerts">Kartoti įspėjimus</string>
     <string name="preferences__never">Niekada</string>
     <string name="preferences__one_time">Vieną kartą</string>

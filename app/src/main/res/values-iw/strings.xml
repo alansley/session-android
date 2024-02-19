@@ -197,8 +197,6 @@
     <string name="RecipientPreferenceActivity_unblock">בטל חסימה</string>
     <!-- Slide -->
     <string name="Slide_image">תמונה</string>
-    <string name="Slide_audio">שמע</string>
-    <string name="Slide_video">וידיאו</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">התקבל מפתח פגום
 החלף הודעה!</string>
@@ -210,9 +208,6 @@
     <string name="ThreadRecord_group_updated">הקבוצה עודכנה</string>
     <string name="ThreadRecord_left_the_group">עזב את הקבוצה</string>
     <string name="ThreadRecord_secure_session_reset">שיח מאובטח אופס.</string>
-    <string name="ThreadRecord_called">התקשרת</string>
-    <string name="ThreadRecord_called_you">התקשר אליך</string>
-    <string name="ThreadRecord_missed_call">שיחה שלא נענתה</string>
     <string name="ThreadRecord_media_message">הודעת מדיה</string>
     <string name="ThreadRecord_s_is_on_signal">%s משתמש ב-Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">הודעות נעלמות הושבתו</string>
@@ -286,8 +281,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">שגיאה בניגון וידיאו</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">שמע</string>
-    <string name="attachment_type_selector__audio_description">שמע</string>
     <string name="attachment_type_selector__contact">איש קשר</string>
     <string name="attachment_type_selector__contact_description">איש קשר</string>
     <string name="attachment_type_selector__camera">מצלמה</string>
@@ -319,7 +312,6 @@
     <string name="conversation_item__secure_message_description">הודעה מאובטחת</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">השליחה נכשלה</string>
-    <string name="conversation_item_sent__pending_approval_description">ממתין לאישור</string>
     <string name="conversation_item_sent__delivered_description">נמסר</string>
     <string name="conversation_item_sent__message_read">הודעה נקראה</string>
     <!-- conversation_item_received -->
@@ -331,8 +323,6 @@
     <string name="open_group_invitation_view__join_accessibility_description">להצטרפות</string>
     <string name="open_group_guidelines_pinned_message">הודעה נעוצה</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">שמע</string>
-    <string name="QuoteView_video">וידיאו</string>
     <string name="QuoteView_photo">תצלום</string>
     <string name="QuoteView_original_missing">הודעה מקורית לא נמצאה</string>
     <!-- conversation_fragment -->
@@ -376,8 +366,8 @@
     <string name="arrays__disabled">מושבת</string>
     <string name="notificationsContentShowNameOnly">שם בלבד</string>
     <string name="arrays__images">תמונות</string>
-    <string name="arrays__audio">שמע</string>
-    <string name="arrays__video">וידיאו</string>
+    <string name="audio">שמע</string>
+    <string name="video">וידיאו</string>
     <string name="arrays__small">קטן</string>
     <string name="arrays__normal">רגיל</string>
     <string name="arrays__large">גדול</string>
@@ -399,7 +389,6 @@
     <string name="preferences__led_color_unknown">לא ידוע</string>
     <string name="preferences__pref_led_blink_title">תבנית הבהוב LED</string>
     <string name="notificationsSound">קול</string>
-    <string name="preferences__silent">שקט</string>
     <string name="preferences__repeat_alerts">התראות חוזרות</string>
     <string name="preferences__never">לעולם לא</string>
     <string name="preferences__one_time">פעם אחת</string>

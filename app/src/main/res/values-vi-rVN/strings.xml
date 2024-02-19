@@ -117,17 +117,12 @@
     <string name="RecipientPreferenceActivity_unblock">Không chặn</string>
     <!-- Slide -->
     <string name="Slide_image">Ảnh</string>
-    <string name="Slide_audio">Đoạn nhạc</string>
-    <string name="Slide_video">Đoạn phim</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Nhận được thông tin
 trao đổi chìa khóa bị hỏng!</string>
     <string name="SmsMessageRecord_duplicate_message">Tin nhắn trùng lập.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_secure_session_reset">Đã tái thiết lập phiên bảo mật.</string>
-    <string name="ThreadRecord_called">Bạn đã gọi</string>
-    <string name="ThreadRecord_called_you">Đã gọi cho bạn</string>
-    <string name="ThreadRecord_missed_call">Cuộc gọi nhỡ</string>
     <string name="ThreadRecord_media_message">Tin nhắn đa phương tiện</string>
     <!-- UpdateApkReadyListener -->
     <!-- MessageDisplayHelper -->
@@ -161,7 +156,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Âm thanh</string>
     <string name="attachment_type_selector__contact">Liên lạc</string>
     <string name="attachment_type_selector__camera">Máy ảnh</string>
     <string name="attachment_type_selector__location">Vị trí</string>
@@ -179,15 +173,12 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="conversation_item__secure_message_description">Tin nhắn có mã hóa</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Gửi thất bại</string>
-    <string name="conversation_item_sent__pending_approval_description">Chờ Chấp Thuận</string>
     <string name="conversation_item_sent__delivered_description">Đã giao</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Hình liên lạc</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Âm thanh</string>
-    <string name="QuoteView_video">Đoạn phim</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
     <!-- giphy_fragment -->
@@ -223,8 +214,8 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="arrays__disabled">Tắt</string>
     <string name="notificationsContentShowNameOnly">Tên thôi</string>
     <string name="arrays__images">Hình ảnh</string>
-    <string name="arrays__audio">Nhạc</string>
-    <string name="arrays__video">Đoạn phim</string>
+    <string name="audio">Nhạc</string>
+    <string name="video">Đoạn phim</string>
     <string name="arrays__normal">Bình thường</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -237,7 +228,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="preferences__led_color_unknown">Không rõ</string>
     <string name="preferences__pref_led_blink_title">Mô hình chớp nháy LED</string>
     <string name="notificationsSound">Âm thanh</string>
-    <string name="preferences__silent">Yên lặng</string>
     <string name="preferences__repeat_alerts">Lập lại cảnh báo</string>
     <string name="preferences__never">Không bao giờ</string>
     <string name="preferences__one_time">Một lần</string>

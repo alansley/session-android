@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Engeli kaldır</string>
     <!-- Slide -->
     <string name="Slide_image">Görüntü</string>
-    <string name="Slide_audio">Ses</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Bozulmuş anahtar takas
 iletisi alındı!</string>
@@ -192,9 +190,6 @@ iletisi alındı!</string>
     <string name="ThreadRecord_group_updated">Grup güncellendi</string>
     <string name="ThreadRecord_left_the_group">Gruptan ayrıldı</string>
     <string name="ThreadRecord_secure_session_reset">Güvenli oturumu sıfırla.</string>
-    <string name="ThreadRecord_called">Aradınız</string>
-    <string name="ThreadRecord_called_you">Sizi aradı</string>
-    <string name="ThreadRecord_missed_call">Cevapsız arama</string>
     <string name="ThreadRecord_media_message">İçerik iletisi</string>
     <string name="ThreadRecord_s_is_on_signal">%s Session\'e katıldı!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Kaybolan iletiler devre dışı</string>
@@ -268,8 +263,6 @@ iletisi alındı!</string>
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Video oynatılırken hata</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Ses</string>
-    <string name="attachment_type_selector__audio_description">Ses</string>
     <string name="attachment_type_selector__contact">Kişi</string>
     <string name="attachment_type_selector__contact_description">Kişi</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -301,7 +294,6 @@ iletisi alındı!</string>
     <string name="conversation_item__secure_message_description">Güvenli ileti</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Gönderme başarısız</string>
-    <string name="conversation_item_sent__pending_approval_description">Bekleyen Onaylama</string>
     <string name="conversation_item_sent__delivered_description">Gönderildi</string>
     <string name="conversation_item_sent__message_read">İleti okundu</string>
     <!-- conversation_item_received -->
@@ -316,8 +308,6 @@ iletisi alındı!</string>
     <string name="open_group_guidelines_community_guidelines">Topluluk İlkeleri</string>
     <string name="open_group_guidelines_read">Okundu</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Ses</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Fotoğraf</string>
     <string name="QuoteView_original_missing">İletinin aslı bulunamadı</string>
     <!-- conversation_fragment -->
@@ -361,8 +351,8 @@ iletisi alındı!</string>
     <string name="arrays__disabled">Devre dışı</string>
     <string name="notificationsContentShowNameOnly">Yalnızca isim</string>
     <string name="arrays__images">Görüntüler</string>
-    <string name="arrays__audio">Ses</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Ses</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Küçük</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Büyük</string>
@@ -382,7 +372,6 @@ iletisi alındı!</string>
     <string name="preferences__led_color_unknown">Bilinmeyen</string>
     <string name="preferences__pref_led_blink_title">LED yanıp sönme şekli</string>
     <string name="notificationsSound">Zil Sesi</string>
-    <string name="preferences__silent">Sessiz</string>
     <string name="preferences__repeat_alerts">Uyarıları tekrarla</string>
     <string name="preferences__never">Asla</string>
     <string name="preferences__one_time">Bir kez</string>

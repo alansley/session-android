@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Ξεμπλοκάρισμα</string>
     <!-- Slide -->
     <string name="Slide_image">Εικόνα</string>
-    <string name="Slide_audio">Ήχος</string>
-    <string name="Slide_video">Βίντεο</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Ελήφθη προβληματικό μήνυμα
 ανταλλαγής κλειδιών!
@@ -193,9 +191,6 @@
     <string name="ThreadRecord_group_updated">Η ομάδα ενημερώθηκε</string>
     <string name="ThreadRecord_left_the_group">Έφυγες από την ομάδα</string>
     <string name="ThreadRecord_secure_session_reset">Η ασφαλής συνεδρία επανεκκινήθηκε.</string>
-    <string name="ThreadRecord_called">Τον/την καλέσατε</string>
-    <string name="ThreadRecord_called_you">Σας κάλεσε</string>
-    <string name="ThreadRecord_missed_call">Αναπάντητη κλήση</string>
     <string name="ThreadRecord_media_message">Μήνυμα πολυμέσων</string>
     <string name="ThreadRecord_s_is_on_signal">Ο/Η %s είναι στο Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Τα μηνύματα που εξαφανίζονται απενεργοποιήθηκαν</string>
@@ -269,8 +264,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Πρόβλημα κατά την απαπαραγωγή του βίντεο</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Ήχος</string>
-    <string name="attachment_type_selector__audio_description">Ήχος</string>
     <string name="attachment_type_selector__contact">Επαφή</string>
     <string name="attachment_type_selector__contact_description">Επαφή</string>
     <string name="attachment_type_selector__camera">Κάμερα</string>
@@ -302,7 +295,6 @@
     <string name="conversation_item__secure_message_description">Ασφαλές μήνυμα</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Η αποστολή απέτυχε</string>
-    <string name="conversation_item_sent__pending_approval_description">Η έγκριση εκκρεμεί</string>
     <string name="conversation_item_sent__delivered_description">Παραδόθηκε</string>
     <string name="conversation_item_sent__message_read">Το μήνυμα διαβάστηκε</string>
     <!-- conversation_item_received -->
@@ -317,8 +309,6 @@
     <string name="open_group_guidelines_community_guidelines">Οδηγίες Κοινότητας</string>
     <string name="open_group_guidelines_read">Διαβάστηκε</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Ήχος</string>
-    <string name="QuoteView_video">Βίντεο</string>
     <string name="QuoteView_photo">Φωτογραφία</string>
     <string name="QuoteView_original_missing">Το αρχικό μήνυμα δε βρέθηκε</string>
     <!-- conversation_fragment -->
@@ -362,8 +352,8 @@
     <string name="arrays__disabled">Απενεργοποιημένο</string>
     <string name="notificationsContentShowNameOnly">Μόνο όνομα</string>
     <string name="arrays__images">Εικόνες</string>
-    <string name="arrays__audio">Ήχοι</string>
-    <string name="arrays__video">Βίντεο</string>
+    <string name="audio">Ήχοι</string>
+    <string name="video">Βίντεο</string>
     <string name="arrays__small">Μικρό</string>
     <string name="arrays__normal">Κανονικό</string>
     <string name="arrays__large">Μεγάλο</string>
@@ -383,7 +373,6 @@
     <string name="preferences__led_color_unknown">Άγνωστο</string>
     <string name="preferences__pref_led_blink_title">Μοτίβο αναβοσβησίματος του LED</string>
     <string name="notificationsSound">Ήχος</string>
-    <string name="preferences__silent">Σε σίγαση</string>
     <string name="preferences__repeat_alerts">Επανάληψη ειδοποιήσεων</string>
     <string name="preferences__never">Ποτέ</string>
     <string name="preferences__one_time">Μια φορά</string>

@@ -100,7 +100,7 @@
                     android:id="@+id/audio_button"
                     android:layout_width="42dp"
                     android:layout_height="42dp"
-                    android:contentDescription="@string/attachment_type_selector__audio_description"
+                    android:contentDescription="@string/audio"
                     android:scaleType="center"
                     android:src="@drawable/ic_headset_white_24dp"
                     app:circleColor="@color/orange_400" />
@@ -110,7 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="@string/attachment_type_selector__audio" />
+                    android:text="@string/audio" />
 
             </LinearLayout>
 

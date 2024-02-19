@@ -190,8 +190,6 @@
     <string name="RecipientPreferenceActivity_unblock">Deblochează</string>
     <!-- Slide -->
     <string name="Slide_image">Imagine</string>
-    <string name="Slide_audio">Audio</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Primit mesajul conform caruia
 schimbul de chei este corupt </string>
@@ -205,9 +203,6 @@ schimbul de chei este corupt </string>
     <string name="ThreadRecord_group_updated">Grupul a fost actualizat</string>
     <string name="ThreadRecord_left_the_group">A părăsit grupul</string>
     <string name="ThreadRecord_secure_session_reset">Sesiune securizată resetată.</string>
-    <string name="ThreadRecord_called">Ați apelat</string>
-    <string name="ThreadRecord_called_you">Te-a apelat</string>
-    <string name="ThreadRecord_missed_call">Apel nepreluat</string>
     <string name="ThreadRecord_media_message">Mesaj media</string>
     <string name="ThreadRecord_s_is_on_signal">%s folosește Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Mesajele care dispar sunt dezactivate</string>
@@ -282,8 +277,6 @@ schimbul de chei este corupt </string>
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Eroare la redarea video!</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Audio</string>
-    <string name="attachment_type_selector__audio_description">Audio</string>
     <string name="attachment_type_selector__contact">Contact</string>
     <string name="attachment_type_selector__contact_description">Contact</string>
     <string name="attachment_type_selector__camera">Cameră</string>
@@ -315,7 +308,6 @@ schimbul de chei este corupt </string>
     <string name="conversation_item__secure_message_description">Mesaj securizat</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Trimiterea a eşuat</string>
-    <string name="conversation_item_sent__pending_approval_description">În așteptare pentru aprobare </string>
     <string name="conversation_item_sent__delivered_description">Livrat</string>
     <string name="conversation_item_sent__message_read">Mesaj citit</string>
     <!-- conversation_item_received -->
@@ -330,8 +322,6 @@ schimbul de chei este corupt </string>
     <string name="open_group_guidelines_community_guidelines">Regulile comunității</string>
     <string name="open_group_guidelines_read">Citește</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Audio</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Poză</string>
     <string name="QuoteView_original_missing">Mesajul original nu a fost găsit</string>
     <!-- conversation_fragment -->
@@ -375,8 +365,8 @@ schimbul de chei este corupt </string>
     <string name="arrays__disabled">Dezactivat</string>
     <string name="notificationsContentShowNameOnly">Doar numele</string>
     <string name="arrays__images">Imagini</string>
-    <string name="arrays__audio">Audio</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Mic</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Mare</string>
@@ -397,7 +387,6 @@ schimbul de chei este corupt </string>
     <string name="preferences__led_color_unknown">Necunoscut</string>
     <string name="preferences__pref_led_blink_title">Tipar de clipire LED</string>
     <string name="notificationsSound">Sunet</string>
-    <string name="preferences__silent">Silențios</string>
     <string name="preferences__repeat_alerts">Repetă alerte</string>
     <string name="preferences__never">Niciodată</string>
     <string name="preferences__one_time">O dată</string>

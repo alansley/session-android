@@ -22,6 +22,6 @@
         android:visibility="gone"
         tools:visibility="visible"
         android:layout_gravity="center_vertical"
-        android:contentDescription="@string/conversation_item_sent__pending_approval_description" />
+        android:contentDescription="@string/messageRequestPending" />
 
 </merge>

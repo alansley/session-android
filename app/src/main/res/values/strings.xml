@@ -336,8 +336,6 @@
     <string name="RecipientPreferenceActivity_unblock">Unblock</string>
     <!-- Slide -->
     <string name="Slide_image">Image</string>
-    <string name="Slide_audio">Audio</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Received corrupted key
         exchange message!
@@ -352,9 +350,6 @@
     <string name="ThreadRecord_group_updated">Group updated</string>
     <string name="ThreadRecord_left_the_group">Left the group</string>
     <string name="ThreadRecord_secure_session_reset">Secure session reset.</string>
-    <string name="ThreadRecord_called">You called</string>
-    <string name="ThreadRecord_called_you">Called you</string>
-    <string name="ThreadRecord_missed_call">Missed call</string>
     <string name="ThreadRecord_media_message">Media message</string>
     <string name="ThreadRecord_s_is_on_signal">%s is on Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Disappearing messages disabled</string>
@@ -428,8 +423,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Error playing video</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Audio</string>
-    <string name="attachment_type_selector__audio_description">Audio</string>
     <string name="attachment_type_selector__contact">Contact</string>
     <string name="attachment_type_selector__contact_description">Contact</string>
     <string name="attachment_type_selector__camera">Camera</string>
@@ -462,7 +455,6 @@
     <string name="conversation_item__secure_message_description">Secure message</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Send Failed</string>
-    <string name="conversation_item_sent__pending_approval_description">Pending Approval</string>
     <string name="conversation_item_sent__delivered_description">Delivered</string>
     <string name="conversation_item_sent__message_read">Message read</string>
     <!-- conversation_item_received -->
@@ -477,8 +469,6 @@
     <string name="open_group_guidelines_community_guidelines">Community guidelines</string>
     <string name="open_group_guidelines_read">Read</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Audio</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Photo</string>
     <string name="QuoteView_original_missing">Original message not found</string>
     <!-- conversation_fragment -->
@@ -528,8 +518,8 @@
     <string name="arrays__disabled">Disabled</string>
     <string name="notificationsContentShowNameOnly">Name Only</string>
     <string name="arrays__images">Images</string>
-    <string name="arrays__audio">Audio</string>
-    <string name="arrays__video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
     <string name="arrays__small">Small</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Large</string>
@@ -556,7 +546,6 @@
     <string name="preferences__pref_led_blink_title">LED blink pattern</string>
     <string name="notificationsSound">Sound</string>
     <string name="preferences__in_app_sounds">Sound when App is Open</string>
-    <string name="preferences__silent">Silent</string>
     <string name="preferences__repeat_alerts">Repeat alerts</string>
     <string name="preferences__never">Never</string>
     <string name="preferences__one_time">One time</string>
@@ -618,7 +607,7 @@
     <string name="conversation_context__menu_resend_message">Resend message</string>
     <string name="conversation_context__menu_reply">Reply</string>
     <string name="conversation_context__menu_reply_to_message">Reply to message</string>
-    <string name="conversation_context__menu_call">Call</string>
+    <string name="call">Call</string>
     <string name="conversation_context__menu_select">Select</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Save attachment</string>
@@ -859,27 +848,26 @@
     <string name="mark_all_as_read">Mark all as read</string>
     <string name="messages">Messages</string>
     <string name="sessionMessageRequests">Message Requests</string>
-    <string name="message_requests_send_notice">Sending a message to this user will automatically accept their message request and reveal your Session ID.</string>
+    <string name="messageRequestsAcceptDescription">Sending a message to this user will automatically accept their message request and reveal your Session ID.</string>
     <string name="accept">Accept</string>
     <string name="decline">Decline</string>
-    <string name="message_requests_clear_all">Clear All</string>
+    <string name="clearAll">Clear All</string>
     <string name="message_requests_decline_message">Are you sure you want to decline this message request?</string>
     <string name="message_requests_block_message">Are you sure you want to block this message request?</string>
     <string name="message_requests_deleted">Message request deleted</string>
-    <string name="message_requests_clear_all_message">Are you sure you want to clear all message requests?</string>
     <string name="message_requests_cleared">Message requests deleted</string>
-    <string name="message_requests_accepted">Your message request has been accepted.</string>
-    <string name="message_requests_pending">Your message request is currently pending.</string>
+    <string name="messageRequestsAccepted">Your message request has been accepted.</string>
+    <string name="messageRequestPending">Your message request is currently pending.</string>
     <string name="messageRequestsNonePending">No pending message requests</string>
     <string name="NewConversationButton_SessionTooltip">Direct Message</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Closed Group</string>
     <string name="NewConversationButton_OpenGroupTooltip">Open Group</string>
-    <string name="message_requests_notification">You have a new message request</string>
+    <string name="messageRequestsNew">You have a new message request</string>
     <string name="CallNotificationBuilder_connecting">Connecting…</string>
     <string name="NotificationBarManager__incoming_signal_call">Incoming call</string>
     <string name="NotificationBarManager__deny_call">Deny call</string>
     <string name="NotificationBarManager__answer_call">Answer call</string>
-    <string name="NotificationBarManager_call_in_progress">Call in progress</string>
+    <string name="callsInProgress">Call in progress</string>
     <string name="NotificationBarManager__establishing_signal_call">Establishing call</string>
     <string name="NotificationBarManager__end_call">End call</string>
     <string name="accept_call">Accept Call</string>
@@ -887,7 +875,6 @@
     <string name="preferences__voice_video_calls">Voice and Video Calls</string>
     <string name="preferences__calls_beta">Calls (Beta)</string>
     <string name="preferences__allow_access_voice_video">Enables voice and video calls to and from other users.</string>
-    <string name="CallNotificationBuilder_first_call_title">Call Missed</string>
     <string name="CallNotificationBuilder_first_call_message">You missed a call because you need to enable the \'Voice and video calls\' permission in the Privacy Settings.</string>
     <string name="WebRtcCallActivity_Session_Call">Session Call</string>
     <string name="WebRtcCallActivity_Reconnecting">Reconnecting…</string>
@@ -1010,5 +997,11 @@
     <string name="displayNameDescription">It can be your real name, an alias, or anything else you like — and you can change it at any time.</string>
     <string name="notificationsMentionsOnly">Mentions Only</string>
     <string name="notificationsMostRecent">Most recent from [USER NAME]</string>
+    <string name="messageRequestsClearAllExplanation">Are you sure you want to clear all message and group invites?</string>
+    <string name="messageRequestsDelete">Are you sure you want to delete this message request?</string>
+    <string name="callsYouCalled">You called [Test Name]</string>
+    <string name="callsCalledYou">[Test Name] called you</string>
+    <string name="none">None</string>
+    <string name="callsMissedCallFrom">Missed call from [Test Name]</string>
 
 </resources>

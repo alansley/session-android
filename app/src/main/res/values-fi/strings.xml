@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Poista esto</string>
     <!-- Slide -->
     <string name="Slide_image">Kuva</string>
-    <string name="Slide_audio">Äänitallenne</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Vastaanotettu avaintenvaihtoviesti 
 on viallinen!</string>
@@ -192,9 +190,6 @@ on viallinen!</string>
     <string name="ThreadRecord_group_updated">Ryhmä päivitetty</string>
     <string name="ThreadRecord_left_the_group">Poistui ryhmästä</string>
     <string name="ThreadRecord_secure_session_reset">Suojattu istunto alustettu</string>
-    <string name="ThreadRecord_called">Soitit puhelun</string>
-    <string name="ThreadRecord_called_you">Soitti sinulle</string>
-    <string name="ThreadRecord_missed_call">Vastaamatta jäänyt puhelu</string>
     <string name="ThreadRecord_media_message">Mediaviesti</string>
     <string name="ThreadRecord_s_is_on_signal">%s käyttää Sessionia!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Katoavat viestit poistettu käytöstä</string>
@@ -267,8 +262,6 @@ on viallinen!</string>
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Virhe videon toistossa</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Äänitallenne</string>
-    <string name="attachment_type_selector__audio_description">Äänitallenne</string>
     <string name="attachment_type_selector__contact">Yhteystieto</string>
     <string name="attachment_type_selector__contact_description">Yhteystieto</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -300,7 +293,6 @@ on viallinen!</string>
     <string name="conversation_item__secure_message_description">Salattu viesti</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Lähetys epäonnistui</string>
-    <string name="conversation_item_sent__pending_approval_description">Odottaa hyväksyntää</string>
     <string name="conversation_item_sent__delivered_description">Toimitettu</string>
     <string name="conversation_item_sent__message_read">Viesti luettu</string>
     <!-- conversation_item_received -->
@@ -315,8 +307,6 @@ on viallinen!</string>
     <string name="open_group_guidelines_community_guidelines">Yhteisön normit</string>
     <string name="open_group_guidelines_read">Lue</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Äänitallenne</string>
-    <string name="QuoteView_video">Video</string>
     <string name="QuoteView_photo">Kuva</string>
     <string name="QuoteView_original_missing">Alkuperäistä viestiä ei löytynyt</string>
     <!-- conversation_fragment -->
@@ -360,8 +350,8 @@ on viallinen!</string>
     <string name="arrays__disabled">Poissa</string>
     <string name="notificationsContentShowNameOnly">Vain nimi</string>
     <string name="arrays__images">Kuvat</string>
-    <string name="arrays__audio">Äänitallenteet</string>
-    <string name="arrays__video">Videot</string>
+    <string name="audio">Äänitallenteet</string>
+    <string name="video">Videot</string>
     <string name="arrays__small">Pieni</string>
     <string name="arrays__normal">Normaali</string>
     <string name="arrays__large">Suuri</string>
@@ -381,7 +371,6 @@ on viallinen!</string>
     <string name="preferences__led_color_unknown">Tuntematon</string>
     <string name="preferences__pref_led_blink_title">LED:in vilkkumistahti</string>
     <string name="notificationsSound">Ääni</string>
-    <string name="preferences__silent">Ei ääntä</string>
     <string name="preferences__repeat_alerts">Hälytysten toisto</string>
     <string name="preferences__never">Älä toista</string>
     <string name="preferences__one_time">Kerran</string>

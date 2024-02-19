@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Malbloki</string>
     <!-- Slide -->
     <string name="Slide_image">Bildo</string>
-    <string name="Slide_audio">Sonaĵo</string>
-    <string name="Slide_video">Video</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Ricevis difektitan mesaĝon
         pri interŝanĝo de ŝlosiloj!</string>
@@ -192,9 +190,6 @@
     <string name="ThreadRecord_group_updated">Grupo ĝisdatigita</string>
     <string name="ThreadRecord_left_the_group">Forlasis la grupon</string>
     <string name="ThreadRecord_secure_session_reset">Sekura seanco restarigita.</string>
-    <string name="ThreadRecord_called">Vi telefonis</string>
-    <string name="ThreadRecord_called_you">Telefonis vin</string>
-    <string name="ThreadRecord_missed_call">Maltrafita alvoko</string>
     <string name="ThreadRecord_media_message">Aŭdvida mesaĝo</string>
     <string name="ThreadRecord_s_is_on_signal">%s estas ĉe Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Memviŝontaj mesaĝoj malŝaltita</string>
@@ -268,8 +263,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Eraro dum ludo de videaĵo</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Sonaĵo</string>
-    <string name="attachment_type_selector__audio_description">Sonaĵo</string>
     <string name="attachment_type_selector__contact">Kontakto</string>
     <string name="attachment_type_selector__contact_description">Kontakto</string>
     <string name="attachment_type_selector__camera">Fotilo</string>
@@ -301,7 +294,6 @@
     <string name="conversation_item__secure_message_description">Sekura mesaĝo</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Sendo malsukcesis</string>
-    <string name="conversation_item_sent__pending_approval_description">Atendado de aprobo</string>
     <string name="conversation_item_sent__delivered_description">Liverita</string>
     <string name="conversation_item_sent__message_read">Mesaĝo legita</string>
     <!-- conversation_item_received -->
@@ -316,8 +308,6 @@
     <string name="open_group_guidelines_community_guidelines">Komunumaj Reguloj</string>
     <string name="open_group_guidelines_read">Legita</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Sonaĵo</string>
-    <string name="QuoteView_video">Videaĵo</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Origina mesaĝo ne troveblas</string>
     <!-- conversation_fragment -->
@@ -361,8 +351,8 @@
     <string name="arrays__disabled">Malŝaltita</string>
     <string name="notificationsContentShowNameOnly">Nur nomon</string>
     <string name="arrays__images">Bildoj</string>
-    <string name="arrays__audio">Sonaĵo</string>
-    <string name="arrays__video">Videaĵo</string>
+    <string name="audio">Sonaĵo</string>
+    <string name="video">Videaĵo</string>
     <string name="arrays__small">Eta</string>
     <string name="arrays__normal">Normala</string>
     <string name="arrays__large">Granda</string>
@@ -382,7 +372,6 @@
     <string name="preferences__led_color_unknown">Nekonata</string>
     <string name="preferences__pref_led_blink_title">LED-a pulsa modelo</string>
     <string name="notificationsSound">Sono</string>
-    <string name="preferences__silent">Silento</string>
     <string name="preferences__repeat_alerts">Ripeti avertojn</string>
     <string name="preferences__never">Neniam</string>
     <string name="preferences__one_time">Unufoje</string>

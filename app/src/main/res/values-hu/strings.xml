@@ -180,8 +180,6 @@
     <string name="RecipientPreferenceActivity_unblock">Feloldás</string>
     <!-- Slide -->
     <string name="Slide_image">Kép</string>
-    <string name="Slide_audio">Hang</string>
-    <string name="Slide_video">Videó</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Sérült kulcs-csere
 üzenet érkezett!
@@ -194,9 +192,6 @@
     <string name="ThreadRecord_group_updated">Csoport frissítve</string>
     <string name="ThreadRecord_left_the_group">Elhagyta a csoportot</string>
     <string name="ThreadRecord_secure_session_reset">Biztonságos munkamenet újraindítva.</string>
-    <string name="ThreadRecord_called">Te hívtad</string>
-    <string name="ThreadRecord_called_you">Hívott téged</string>
-    <string name="ThreadRecord_missed_call">Nem fogadott hívás</string>
     <string name="ThreadRecord_media_message">Média üzenet</string>
     <string name="ThreadRecord_s_is_on_signal">%s elérhető a Session-on!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Eltűnő üzenetek letiltva</string>
@@ -270,8 +265,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Hiba történt a videó lejátszásakor</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Hang</string>
-    <string name="attachment_type_selector__audio_description">Hang</string>
     <string name="attachment_type_selector__contact">Névjegy</string>
     <string name="attachment_type_selector__contact_description">Névjegy</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -303,7 +296,6 @@
     <string name="conversation_item__secure_message_description">Biztonságos üzenet</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Küldés sikertelen</string>
-    <string name="conversation_item_sent__pending_approval_description">Jóváhagyás függőben</string>
     <string name="conversation_item_sent__delivered_description">Kézbesítve</string>
     <string name="conversation_item_sent__message_read">Üzenet elolvasva</string>
     <!-- conversation_item_received -->
@@ -318,8 +310,6 @@
     <string name="open_group_guidelines_community_guidelines">Közösségi irányelvek</string>
     <string name="open_group_guidelines_read">Olvas</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Hang</string>
-    <string name="QuoteView_video">Videó</string>
     <string name="QuoteView_photo">Fotó</string>
     <string name="QuoteView_original_missing">Az eredeti üzenet nem található</string>
     <!-- conversation_fragment -->
@@ -363,8 +353,8 @@
     <string name="arrays__disabled">Letiltva</string>
     <string name="notificationsContentShowNameOnly">Csak név</string>
     <string name="arrays__images">Képek</string>
-    <string name="arrays__audio">Hang</string>
-    <string name="arrays__video">Videó</string>
+    <string name="audio">Hang</string>
+    <string name="video">Videó</string>
     <string name="arrays__small">Kicsi</string>
     <string name="arrays__normal">Normál</string>
     <string name="arrays__large">Nagy</string>
@@ -384,7 +374,6 @@
     <string name="preferences__led_color_unknown">Ismeretlen</string>
     <string name="preferences__pref_led_blink_title">LED villogás mintázata</string>
     <string name="notificationsSound">Hang</string>
-    <string name="preferences__silent">Csendes</string>
     <string name="preferences__repeat_alerts">Figyelmeztetések ismétlése</string>
     <string name="preferences__never">Soha</string>
     <string name="preferences__one_time">Egyszer</string>

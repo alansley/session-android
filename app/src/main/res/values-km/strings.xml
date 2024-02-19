@@ -155,8 +155,6 @@
     <string name="RecipientPreferenceActivity_unblock">បើកវិញ</string>
     <!-- Slide -->
     <string name="Slide_image">រូបភាព</string>
-    <string name="Slide_audio">សំឡេង</string>
-    <string name="Slide_video">វីដេអូ</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">បានទទួលសារផ្លាស់ប្តូរ
 សោរមានបញ្ហា!</string>
@@ -168,9 +166,6 @@
     <string name="ThreadRecord_group_updated">បានធ្វើបច្ចុប្បន្នភាពក្រុម</string>
     <string name="ThreadRecord_left_the_group">បានចាកចេញពីក្រុម</string>
     <string name="ThreadRecord_secure_session_reset">កំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ</string>
-    <string name="ThreadRecord_called">អ្នកបានហៅ</string>
-    <string name="ThreadRecord_called_you">បានហៅមកអ្នក</string>
-    <string name="ThreadRecord_missed_call">ការហៅមិនបានទទួល</string>
     <string name="ThreadRecord_media_message">សារក្នុងប្រព័ន្ធផ្សព្វផ្សាយ</string>
     <string name="ThreadRecord_s_is_on_signal">%s ប្រើ Session!​</string>
     <string name="ThreadRecord_disappearing_messages_disabled">សារបាត់ទៅវិញបានបិទ</string>
@@ -237,8 +232,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">មានបញ្ហាចាក់មើលវីដេអូ</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">សំឡេង</string>
-    <string name="attachment_type_selector__audio_description">សំឡេង</string>
     <string name="attachment_type_selector__contact">ទំនាក់ទំនង</string>
     <string name="attachment_type_selector__contact_description">ទំនាក់ទំនង</string>
     <string name="attachment_type_selector__camera">កាមេរ៉ា</string>
@@ -268,7 +261,6 @@
     <string name="conversation_item__secure_message_description">សារសុវត្ថិភាព</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">ផ្ញើបរាជ័យ</string>
-    <string name="conversation_item_sent__pending_approval_description">រង់ចាំការអនុម័ត</string>
     <string name="conversation_item_sent__delivered_description">បានបញ្ចូន</string>
     <string name="conversation_item_sent__message_read">សារបានអានរួច</string>
     <!-- conversation_item_received -->
@@ -278,8 +270,6 @@
     <string name="audio_view__pause_accessibility_description">ផ្អាក់</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">សំឡេង</string>
-    <string name="QuoteView_video">វីដេអូ</string>
     <string name="QuoteView_photo">រូបភាព</string>
     <string name="QuoteView_original_missing">រកមិនឃើញសារដើម</string>
     <!-- conversation_fragment -->
@@ -323,8 +313,8 @@
     <string name="arrays__disabled">បានបិទ</string>
     <string name="notificationsContentShowNameOnly">ឈ្មោះតែប៉ុណ្ណោះ</string>
     <string name="arrays__images">រូបភាព</string>
-    <string name="arrays__audio">សំឡេង</string>
-    <string name="arrays__video">វីដេអូ</string>
+    <string name="audio">សំឡេង</string>
+    <string name="video">វីដេអូ</string>
     <string name="arrays__small">តូច</string>
     <string name="arrays__normal">ធម្មតា</string>
     <string name="arrays__large">ធំ</string>
@@ -343,7 +333,6 @@
     <string name="preferences__led_color_unknown">មិនដឹង</string>
     <string name="preferences__pref_led_blink_title">លំនាំលោតភ្លើង LED</string>
     <string name="notificationsSound">សំឡេង</string>
-    <string name="preferences__silent">ស្ងាត់</string>
     <string name="preferences__repeat_alerts">ជូនដំណឹងច្រើនដង</string>
     <string name="preferences__never">មិនដែល</string>
     <string name="preferences__one_time">ម្តង</string>

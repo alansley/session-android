@@ -169,8 +169,6 @@
     <string name="RecipientPreferenceActivity_unblock">解除屏蔽</string>
     <!-- Slide -->
     <string name="Slide_image">图片</string>
-    <string name="Slide_audio">音频</string>
-    <string name="Slide_video">视频</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">收到损坏的密钥
 交换消息！</string>
@@ -182,9 +180,6 @@
     <string name="ThreadRecord_group_updated">群组已更新</string>
     <string name="ThreadRecord_left_the_group">离开此群组</string>
     <string name="ThreadRecord_secure_session_reset">安全会话已重设</string>
-    <string name="ThreadRecord_called">您呼叫的</string>
-    <string name="ThreadRecord_called_you">呼叫您的</string>
-    <string name="ThreadRecord_missed_call">未接来电</string>
     <string name="ThreadRecord_media_message">多媒体信息</string>
     <string name="ThreadRecord_s_is_on_signal">%s 在 Session 上！</string>
     <string name="ThreadRecord_disappearing_messages_disabled">阅后即焚已禁用</string>
@@ -257,8 +252,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">播放视频时出错</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">音频</string>
-    <string name="attachment_type_selector__audio_description">音频</string>
     <string name="attachment_type_selector__contact">联系人</string>
     <string name="attachment_type_selector__contact_description">联系人</string>
     <string name="attachment_type_selector__camera">相机</string>
@@ -290,7 +283,6 @@
     <string name="conversation_item__secure_message_description">安全消息</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">发送失败</string>
-    <string name="conversation_item_sent__pending_approval_description">等待批准</string>
     <string name="conversation_item_sent__delivered_description">已送达</string>
     <string name="conversation_item_sent__message_read">消息已读</string>
     <!-- conversation_item_received -->
@@ -305,8 +297,6 @@
     <string name="open_group_guidelines_community_guidelines">社群准则</string>
     <string name="open_group_guidelines_read">阅读</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">音频</string>
-    <string name="QuoteView_video">视频</string>
     <string name="QuoteView_photo">图片</string>
     <string name="QuoteView_original_missing">未找到原消息</string>
     <!-- conversation_fragment -->
@@ -350,8 +340,8 @@
     <string name="arrays__disabled">禁用</string>
     <string name="notificationsContentShowNameOnly">仅名称</string>
     <string name="arrays__images">图片</string>
-    <string name="arrays__audio">音频</string>
-    <string name="arrays__video">视频</string>
+    <string name="audio">音频</string>
+    <string name="video">视频</string>
     <string name="arrays__small">小尺寸</string>
     <string name="arrays__normal">正常尺寸</string>
     <string name="arrays__large">大尺寸</string>
@@ -370,7 +360,6 @@
     <string name="preferences__led_color_unknown">未知</string>
     <string name="preferences__pref_led_blink_title">LED闪烁规律</string>
     <string name="notificationsSound">声音</string>
-    <string name="preferences__silent">静音</string>
     <string name="preferences__repeat_alerts">重复警报</string>
     <string name="preferences__never">永不</string>
     <string name="preferences__one_time">一次</string>

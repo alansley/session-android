@@ -178,7 +178,6 @@
     <string name="RecipientPreferenceActivity_unblock">Desbloquear</string>
     <!-- Slide -->
     <string name="Slide_image">Imaxe</string>
-    <string name="Slide_video">Vídeo</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Recibida unha mensaxe de
         intercambio de chaves danada!
@@ -191,9 +190,6 @@
     <string name="ThreadRecord_group_updated">Grupo actualizado</string>
     <string name="ThreadRecord_left_the_group">Abandonou o grupo</string>
     <string name="ThreadRecord_secure_session_reset">Restablecer sesión segura.</string>
-    <string name="ThreadRecord_called">Chamaches a</string>
-    <string name="ThreadRecord_called_you">Chamoute</string>
-    <string name="ThreadRecord_missed_call">Chamada perdida</string>
     <string name="ThreadRecord_media_message">Mensaxe multimedia</string>
     <string name="ThreadRecord_s_is_on_signal">%s está en Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Desaparición das mensaxes desactivada</string>
@@ -264,8 +260,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Erro ao reproducir o vídeo</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Audio</string>
-    <string name="attachment_type_selector__audio_description">Audio</string>
     <string name="attachment_type_selector__contact">Contacto</string>
     <string name="attachment_type_selector__contact_description">Contacto</string>
     <string name="attachment_type_selector__camera">Cámara</string>
@@ -297,7 +291,6 @@
     <string name="conversation_item__secure_message_description">Mensaxe segura</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Erro ao enviar</string>
-    <string name="conversation_item_sent__pending_approval_description">Pendente de aprobación</string>
     <string name="conversation_item_sent__delivered_description">Entregado</string>
     <string name="conversation_item_sent__message_read">Mensaxe lida</string>
     <!-- conversation_item_received -->
@@ -311,8 +304,6 @@
     <string name="open_group_guidelines_community_guidelines">Directrices da comunidade</string>
     <string name="open_group_guidelines_read">Ler</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Audio</string>
-    <string name="QuoteView_video">Vídeo</string>
     <string name="QuoteView_photo">Fotografía</string>
     <string name="QuoteView_original_missing">Non se atopou a mensaxe orixinal</string>
     <!-- conversation_fragment -->
@@ -356,8 +347,8 @@
     <string name="arrays__disabled">Desactivado</string>
     <string name="notificationsContentShowNameOnly">Só o nome</string>
     <string name="arrays__images">Imaxes</string>
-    <string name="arrays__audio">Audio</string>
-    <string name="arrays__video">Vídeo</string>
+    <string name="audio">Audio</string>
+    <string name="video">Vídeo</string>
     <string name="arrays__small">Pequeno</string>
     <string name="arrays__large">Grande</string>
     <string name="arrays__extra_large">Moi grande</string>
@@ -376,7 +367,6 @@
     <string name="preferences__led_color_unknown">Descoñecido</string>
     <string name="preferences__pref_led_blink_title">Intermitencia do LED</string>
     <string name="notificationsSound">Son</string>
-    <string name="preferences__silent">En silencio</string>
     <string name="preferences__repeat_alerts">Repetir alertas</string>
     <string name="preferences__never">Nunca</string>
     <string name="preferences__one_time">Unha vez</string>

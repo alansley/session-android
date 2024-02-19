@@ -46,7 +46,7 @@ class ControlMessageView : LinearLayout {
                 binding.iconImageView.visibility = View.VISIBLE
             }
             message.isMessageRequestResponse -> {
-                messageBody = context.getString(R.string.message_requests_accepted)
+                messageBody = context.getString(R.string.messageRequestsAccepted)
                 binding.root.contentDescription=context.getString(R.string.AccessibilityId_message_request_config_message)
             }
             message.isCallLog -> {

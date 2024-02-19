@@ -200,8 +200,6 @@
     <string name="RecipientPreferenceActivity_unblock">Розблокувати</string>
     <!-- Slide -->
     <string name="Slide_image">Зображення</string>
-    <string name="Slide_audio">Аудіо</string>
-    <string name="Slide_video">Відео</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Отримано пошкоджене 
 повідомлення обміну ключами!</string>
@@ -213,9 +211,6 @@
     <string name="ThreadRecord_group_updated">Групу оновлено</string>
     <string name="ThreadRecord_left_the_group">Покинути групу</string>
     <string name="ThreadRecord_secure_session_reset">Скидання безпечного сеансу.</string>
-    <string name="ThreadRecord_called">Ви телефонували</string>
-    <string name="ThreadRecord_called_you">Вам телефонували</string>
-    <string name="ThreadRecord_missed_call">Пропущений виклик</string>
     <string name="ThreadRecord_media_message">Медіа повідомлення</string>
     <string name="ThreadRecord_s_is_on_signal">%s приєднався до Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Зникаючі повідомлення заборонені</string>
@@ -291,8 +286,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Помилка відтворення відео</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Аудіо</string>
-    <string name="attachment_type_selector__audio_description">Аудіо</string>
     <string name="attachment_type_selector__contact">Контакт</string>
     <string name="attachment_type_selector__contact_description">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
@@ -324,7 +317,6 @@
     <string name="conversation_item__secure_message_description">Захищене повідомлення</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Не вдалося відправити</string>
-    <string name="conversation_item_sent__pending_approval_description">Очікує підтвердження</string>
     <string name="conversation_item_sent__delivered_description">Доставлено</string>
     <string name="conversation_item_sent__message_read">Повідомлення прочитане</string>
     <!-- conversation_item_received -->
@@ -339,8 +331,6 @@
     <string name="open_group_guidelines_community_guidelines">Правила спільноти</string>
     <string name="open_group_guidelines_read">Прочитано</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Аудіо</string>
-    <string name="QuoteView_video">Відео</string>
     <string name="QuoteView_photo">Світлини</string>
     <string name="QuoteView_original_missing">Оригінальне повідомлення не знайдено</string>
     <!-- conversation_fragment -->
@@ -384,8 +374,8 @@
     <string name="arrays__disabled">Вимкнено</string>
     <string name="notificationsContentShowNameOnly">Тільки ім\'я</string>
     <string name="arrays__images">Зображення</string>
-    <string name="arrays__audio">Аудіо</string>
-    <string name="arrays__video">Відео</string>
+    <string name="audio">Аудіо</string>
+    <string name="video">Відео</string>
     <string name="arrays__small">Малий</string>
     <string name="arrays__normal">Звичайний</string>
     <string name="arrays__large">Великий</string>
@@ -407,7 +397,6 @@
     <string name="preferences__led_color_unknown">Невідомо</string>
     <string name="preferences__pref_led_blink_title">Шаблон мерехтіння LED</string>
     <string name="notificationsSound">Звук</string>
-    <string name="preferences__silent">Беззвучно</string>
     <string name="preferences__repeat_alerts">Повторити сигнал</string>
     <string name="preferences__never">Ніколи</string>
     <string name="preferences__one_time">Один раз</string>

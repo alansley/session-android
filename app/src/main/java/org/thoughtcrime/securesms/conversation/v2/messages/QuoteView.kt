@@ -98,7 +98,7 @@ class QuoteView @JvmOverloads constructor(context: Context, attrs: AttributeSet?
                 attachments.audioSlide != null -> {
                     binding.quoteViewAttachmentPreviewImageView.setImageResource(R.drawable.ic_microphone)
                     binding.quoteViewAttachmentPreviewImageView.isVisible = true
-                    binding.quoteViewBodyTextView.text = resources.getString(R.string.Slide_audio)
+                    binding.quoteViewBodyTextView.text = resources.getString(R.string.audio)
                 }
                 attachments.documentSlide != null -> {
                     binding.quoteViewAttachmentPreviewImageView.setImageResource(R.drawable.ic_document_large_light)
@@ -111,7 +111,7 @@ class QuoteView @JvmOverloads constructor(context: Context, attrs: AttributeSet?
                     binding.quoteViewAttachmentThumbnailImageView.root.radius = toPx(4, resources)
                     binding.quoteViewAttachmentThumbnailImageView.root.setImageResource(glide, slide, false, null)
                     binding.quoteViewAttachmentThumbnailImageView.root.isVisible = true
-                    binding.quoteViewBodyTextView.text = if (MediaUtil.isVideo(slide.asAttachment())) resources.getString(R.string.Slide_video) else resources.getString(R.string.Slide_image)
+                    binding.quoteViewBodyTextView.text = if (MediaUtil.isVideo(slide.asAttachment())) resources.getString(R.string.video) else resources.getString(R.string.Slide_image)
                 }
             }
         }

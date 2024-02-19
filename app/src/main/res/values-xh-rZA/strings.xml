@@ -101,17 +101,12 @@
     <string name="RecipientPreferenceActivity_unblock">sumulula</string>
     <!-- Slide -->
     <string name="Slide_image">ekifaananyi</string>
-    <string name="Slide_audio">edoboozi</string>
-    <string name="Slide_video">Olutambi</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_secure_session_reset">Resetinga akadde akekusifu</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%sresettinga akade akekusifu</string>
     <string name="SmsMessageRecord_duplicate_message">Ddamu message</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_secure_session_reset">Akadde akekusifu karesetinge nate</string>
-    <string name="ThreadRecord_called">wakubye</string>
-    <string name="ThreadRecord_called_you">yakubidde</string>
-    <string name="ThreadRecord_missed_call">missed call</string>
     <string name="ThreadRecord_media_message">obubaka bwemikutu</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Message yakusanguka mu dakiika %s</string>
     <!-- UpdateApkReadyListener -->
@@ -145,7 +140,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">doboozi</string>
     <string name="attachment_type_selector__location">wosangibwa</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Loading contacts</string>
@@ -161,15 +155,12 @@
     <string name="conversation_item__secure_message_description">Message ekumiidwa</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">okusindika kuganye</string>
-    <string name="conversation_item_sent__pending_approval_description">kilindilila kukakasibwa</string>
     <string name="conversation_item_sent__delivered_description">Etuuse</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Ekifananyi kya kontakiti</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">edoboozi</string>
-    <string name="QuoteView_video">Olutambi</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Noonya GIFs ne sticka</string>
@@ -208,8 +199,8 @@
     <string name="arrays__disabled">Egyiddwaako</string>
     <string name="notificationsContentShowNameOnly">Linnya lyoka</string>
     <string name="arrays__images">Ebifaananyi</string>
-    <string name="arrays__audio">Doboozi</string>
-    <string name="arrays__video">Vidiyo</string>
+    <string name="audio">Doboozi</string>
+    <string name="video">Vidiyo</string>
     <string name="arrays__normal">Kyabulijjo</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -223,7 +214,6 @@
     <string name="preferences__led_color_unknown">Tekimanyikiddwa</string>
     <string name="preferences__pref_led_blink_title">Screen yo erage etya</string>
     <string name="notificationsSound">Doboozi</string>
-    <string name="preferences__silent">Kusirika</string>
     <string name="preferences__repeat_alerts">ndiganamu okutemezebwako</string>
     <string name="preferences__never">tekirisoboka</string>
     <string name="preferences__one_time">Mulundi gumu</string>

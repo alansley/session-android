@@ -179,8 +179,6 @@
     <string name="RecipientPreferenceActivity_unblock">Avblockera</string>
     <!-- Slide -->
     <string name="Slide_image">Bilder</string>
-    <string name="Slide_audio">Ljud</string>
-    <string name="Slide_video">Filmer</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Tog emot skadat meddelande
 för nyckelutbyte!</string>
@@ -192,9 +190,6 @@ för nyckelutbyte!</string>
     <string name="ThreadRecord_group_updated">Grupp uppdaterad</string>
     <string name="ThreadRecord_left_the_group">Lämnade gruppen</string>
     <string name="ThreadRecord_secure_session_reset">Säker session nollställd.</string>
-    <string name="ThreadRecord_called">Du ringde</string>
-    <string name="ThreadRecord_called_you">Ringde dig</string>
-    <string name="ThreadRecord_missed_call">Missat samtal</string>
     <string name="ThreadRecord_media_message">Mediameddelande</string>
     <string name="ThreadRecord_s_is_on_signal">%s finns på Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Försvinnande meddelanden inaktiverat</string>
@@ -268,8 +263,6 @@ för nyckelutbyte!</string>
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Fel vid videouppspelning</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Ljud</string>
-    <string name="attachment_type_selector__audio_description">Ljud</string>
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
@@ -301,7 +294,6 @@ för nyckelutbyte!</string>
     <string name="conversation_item__secure_message_description">Säkert meddelande</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Sändningen misslyckades</string>
-    <string name="conversation_item_sent__pending_approval_description">Avvaktar godkännande</string>
     <string name="conversation_item_sent__delivered_description">Levererat</string>
     <string name="conversation_item_sent__message_read">Meddelande läst</string>
     <!-- conversation_item_received -->
@@ -316,8 +308,6 @@ för nyckelutbyte!</string>
     <string name="open_group_guidelines_community_guidelines">Communityns riktlinjer</string>
     <string name="open_group_guidelines_read">Läst</string>
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Ljud</string>
-    <string name="QuoteView_video">Filmer</string>
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Hittade inte originalmeddelandet.</string>
     <!-- conversation_fragment -->
@@ -361,8 +351,8 @@ för nyckelutbyte!</string>
     <string name="arrays__disabled">Inaktiverad</string>
     <string name="notificationsContentShowNameOnly">Endast namn</string>
     <string name="arrays__images">Bilder</string>
-    <string name="arrays__audio">Ljud</string>
-    <string name="arrays__video">Filmer</string>
+    <string name="audio">Ljud</string>
+    <string name="video">Filmer</string>
     <string name="arrays__small">Liten</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Stor</string>
@@ -382,7 +372,6 @@ för nyckelutbyte!</string>
     <string name="preferences__led_color_unknown">Okänd</string>
     <string name="preferences__pref_led_blink_title">Blinkmönster på ljusindikator</string>
     <string name="notificationsSound">Ljud</string>
-    <string name="preferences__silent">Tyst</string>
     <string name="preferences__repeat_alerts">Upprepa aviseringar</string>
     <string name="preferences__never">Aldrig</string>
     <string name="preferences__one_time">En gång</string>

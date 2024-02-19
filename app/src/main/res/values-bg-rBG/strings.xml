@@ -171,8 +171,6 @@
     <string name="RecipientPreferenceActivity_unblock">Отблокиране</string>
     <!-- Slide -->
     <string name="Slide_image">Изображение</string>
-    <string name="Slide_audio">Аудио</string>
-    <string name="Slide_video">Видео</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Съобщението за обмяна на ключ
 е объркано!</string>
@@ -184,9 +182,6 @@
     <string name="ThreadRecord_group_updated">Групата е обновена</string>
     <string name="ThreadRecord_left_the_group">Напусна групата</string>
     <string name="ThreadRecord_secure_session_reset">Започване на нова сигурна сесия.</string>
-    <string name="ThreadRecord_called">Вие се обадихте</string>
-    <string name="ThreadRecord_called_you">Ви се обади</string>
-    <string name="ThreadRecord_missed_call">Пропуснато обаждане</string>
     <string name="ThreadRecord_media_message">Медийно съобщение</string>
     <string name="ThreadRecord_s_is_on_signal">%s е в Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Изчезващите съобщения са деактивирани</string>
@@ -255,8 +250,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">Грешка при пускане на видео</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">Аудио</string>
-    <string name="attachment_type_selector__audio_description">Аудио</string>
     <string name="attachment_type_selector__contact">Контакт</string>
     <string name="attachment_type_selector__contact_description">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
@@ -285,7 +278,6 @@
     <string name="conversation_item__secure_message_description">Подсигурено съобщение</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Неуспешно Изпращане</string>
-    <string name="conversation_item_sent__pending_approval_description">Очаква Потвърждение</string>
     <string name="conversation_item_sent__delivered_description">Доставено</string>
     <string name="conversation_item_sent__message_read">Съобщението е прочетено</string>
     <!-- conversation_item_received -->
@@ -295,8 +287,6 @@
     <string name="audio_view__pause_accessibility_description">Пауза</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">Аудио</string>
-    <string name="QuoteView_video">Видео</string>
     <string name="QuoteView_photo">Снимка</string>
     <string name="QuoteView_original_missing">Оригиналното съобщение не е открито</string>
     <!-- conversation_fragment -->
@@ -340,8 +330,8 @@
     <string name="arrays__disabled">Деактивирано</string>
     <string name="notificationsContentShowNameOnly">Само име</string>
     <string name="arrays__images">Изображения</string>
-    <string name="arrays__audio">Аудио</string>
-    <string name="arrays__video">Видео</string>
+    <string name="audio">Аудио</string>
+    <string name="video">Видео</string>
     <string name="arrays__small">Малък</string>
     <string name="arrays__normal">Нормален</string>
     <string name="arrays__large">Голям</string>
@@ -361,7 +351,6 @@
     <string name="preferences__led_color_unknown">Непознат</string>
     <string name="preferences__pref_led_blink_title">LED известяване</string>
     <string name="notificationsSound">Мелодия</string>
-    <string name="preferences__silent">Тих</string>
     <string name="preferences__repeat_alerts">Повтарящи се аларми</string>
     <string name="preferences__never">Никога</string>
     <string name="preferences__one_time">Само веднъж</string>

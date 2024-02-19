@@ -94,11 +94,11 @@ public class ThreadRecord extends DisplayRecord {
       String draftText = context.getString(R.string.draft);
       return emphasisAdded(draftText + " " + getBody(), 0, draftText.length());
     } else if (SmsDatabase.Types.isOutgoingCall(type)) {
-      return emphasisAdded(context.getString(network.loki.messenger.R.string.ThreadRecord_called));
+      return emphasisAdded(context.getString(R.string.callsYouCalled));
     } else if (SmsDatabase.Types.isIncomingCall(type)) {
-      return emphasisAdded(context.getString(network.loki.messenger.R.string.ThreadRecord_called_you));
+      return emphasisAdded(context.getString(R.string.callsCalledYou));
     } else if (SmsDatabase.Types.isMissedCall(type)) {
-      return emphasisAdded(context.getString(network.loki.messenger.R.string.ThreadRecord_missed_call));
+      return emphasisAdded(context.getString(R.string.callsMissedCallFrom));
     } else if (SmsDatabase.Types.isJoinedType(type)) {
       return emphasisAdded(context.getString(R.string.ThreadRecord_s_is_on_signal, getRecipient().toShortString()));
     } else if (SmsDatabase.Types.isExpirationTimerUpdate(type)) {
@@ -120,7 +120,7 @@ public class ThreadRecord extends DisplayRecord {
     } else if (SmsDatabase.Types.isIdentityDefault(type)) {
       return emphasisAdded(context.getString(R.string.ThreadRecord_you_marked_unverified));
     } else if (MmsSmsColumns.Types.isMessageRequestResponse(type)) {
-      return emphasisAdded(context.getString(R.string.message_requests_accepted));
+      return emphasisAdded(context.getString(R.string.messageRequestsAccepted));
     } else if (getCount() == 0) {
       return new SpannableString(context.getString(R.string.ThreadRecord_empty_message));
     } else {

@@ -58,7 +58,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="@dimen/medium_spacing"
             android:layout_marginBottom="@dimen/massive_spacing"
-            android:text="@string/message_requests_clear_all" />
+            android:text="@string/clearAll" />
 
     </RelativeLayout>
 

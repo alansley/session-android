@@ -164,8 +164,6 @@
     <string name="RecipientPreferenceActivity_unblock">అనుమతించు</string>
     <!-- Slide -->
     <string name="Slide_image">చిత్రం</string>
-    <string name="Slide_audio">ఆడియో</string>
-    <string name="Slide_video">వీడియో</string>
     <!-- SmsMessageRecord -->
     <string name="SmsMessageRecord_received_corrupted_key_exchange_message">తప్ఫు కీ స్వీకరించబడినది , సందేసమును మర్చండి </string>
     <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">నూతన భద్రతా సంఖ్యను సందేశంలో అందుకునాం . ప్రాసెస్ మరియు ప్రదర్శనకు నొక్కండి.</string>
@@ -176,9 +174,6 @@
     <string name="ThreadRecord_group_updated">సమూహం నవీకరించబడింది</string>
     <string name="ThreadRecord_left_the_group">సమూహన్ని వదిలివేయుట</string>
     <string name="ThreadRecord_secure_session_reset">సురక్షిత సెషన్ పునరుద్ధరించు.</string>
-    <string name="ThreadRecord_called">మీరు కాల్ చెసారు</string>
-    <string name="ThreadRecord_called_you">మీకు కాల్ చెసారు</string>
-    <string name="ThreadRecord_missed_call">తప్పిన కాల్</string>
     <string name="ThreadRecord_media_message">మీడియ సందేశం</string>
     <string name="ThreadRecord_s_is_on_signal">1%s Session ఉంది!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">కనుమరుగవుతున్న సందేశాలు నిలిపివేయబడ్డాయి</string>
@@ -242,8 +237,6 @@
     <!-- VideoPlayer -->
     <string name="VideoPlayer_error_playing_video">వీడియో ప్రదర్శనా లోపం</string>
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__audio">ఆడియో</string>
-    <string name="attachment_type_selector__audio_description">ఆడియో</string>
     <string name="attachment_type_selector__contact">పరిచయం</string>
     <string name="attachment_type_selector__contact_description">పరిచయం</string>
     <string name="attachment_type_selector__camera">కెమెరా</string>
@@ -273,7 +266,6 @@
     <string name="conversation_item__secure_message_description">సురక్షిత సందేశం</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">పంపడం విఫలమైంది</string>
-    <string name="conversation_item_sent__pending_approval_description">మిగిలి ఉన్న ఆమోదం</string>
     <string name="conversation_item_sent__delivered_description">పంపిణి ఐనది</string>
     <string name="conversation_item_sent__message_read">సందేశం చదవబడింది</string>
     <!-- conversation_item_received -->
@@ -283,8 +275,6 @@
     <string name="audio_view__pause_accessibility_description">నిలుపు</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_audio">ఆడియో</string>
-    <string name="QuoteView_video">వీడియో</string>
     <string name="QuoteView_photo">ఫోటో</string>
     <string name="QuoteView_original_missing">అసలు సందేశం కనుగొనబడలేదు</string>
     <!-- conversation_fragment -->
@@ -328,8 +318,8 @@
     <string name="arrays__disabled">అచేతనం అయింది</string>
     <string name="notificationsContentShowNameOnly">పేరు మాత్రమే </string>
     <string name="arrays__images">చిత్రాలు</string>
-    <string name="arrays__audio">ఆడియో</string>
-    <string name="arrays__video">వీడియో</string>
+    <string name="audio">ఆడియో</string>
+    <string name="video">వీడియో</string>
     <string name="arrays__small">చిన్న</string>
     <string name="arrays__normal">సాధారణంగా</string>
     <string name="arrays__large">పెద్ద</string>
@@ -348,7 +338,6 @@
     <string name="preferences__led_color_unknown">తెలియని</string>
     <string name="preferences__pref_led_blink_title">ఎల్ఇడి రెప్పపాటు నమూనా</string>
     <string name="notificationsSound">శబ్దము</string>
-    <string name="preferences__silent">మౌనం</string>
     <string name="preferences__repeat_alerts">రిపీట్ హెచ్చరికలు</string>
     <string name="preferences__never">ఎప్పుడూ</string>
     <string name="preferences__one_time">ఒక్కసారి</string>
