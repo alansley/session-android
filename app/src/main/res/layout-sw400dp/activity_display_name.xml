@@ -28,7 +28,7 @@
         android:layout_marginRight="@dimen/very_large_spacing"
         android:textSize="@dimen/medium_font_size"
         android:textColor="?android:textColorPrimary"
-        android:text="@string/activity_display_name_explanation" />
+        android:text="@string/displayNameDescription" />
 
     <EditText
         style="@style/SessionEditText"

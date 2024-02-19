@@ -149,7 +149,7 @@ public class RecipientDatabase extends Database {
   }
 
   public static final int NOTIFY_TYPE_ALL = 0;
-  public static final int NOTIFY_TYPE_MENTIONS = 1;
+  public static final int NOTIFY_TYPE_MENTIONS_ONLY = 1;
   public static final int NOTIFY_TYPE_NONE = 2;
 
   public RecipientDatabase(Context context, SQLCipherOpenHelper databaseHelper) {
@@ -324,7 +324,7 @@ public class RecipientDatabase extends Database {
   /**
    *
    * @param recipient to modify notifications for
-   * @param notifyType the new notification type {@link #NOTIFY_TYPE_ALL}, {@link #NOTIFY_TYPE_MENTIONS} or {@link #NOTIFY_TYPE_NONE}
+   * @param notifyType the new notification type {@link #NOTIFY_TYPE_ALL}, {@link #NOTIFY_TYPE_MENTIONS_ONLY} or {@link #NOTIFY_TYPE_NONE}
    */
   public void setNotifyType(@NonNull Recipient recipient, int notifyType) {
     ContentValues values = new ContentValues();

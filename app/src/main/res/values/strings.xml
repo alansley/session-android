@@ -389,8 +389,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Delete message?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">This will permanently delete this message.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d new messages in %2$d conversations</string>
-    <string name="MessageNotifier_most_recent_from_s">Most recent from: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d new messages in %2$d conversations</string>
     <string name="MessageNotifier_locked_message">Locked message</string>
     <string name="MessageNotifier_message_delivery_failed">Message delivery failed.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Failed to deliver message.</string>
@@ -696,7 +695,6 @@
     <string name="activity_register_explanation">Your Session ID is the unique address people can use to contact you on Session. With no connection to your real identity, your Session ID is totally anonymous and private by design.</string>
     <string name="activity_restore_title">Restore your account</string>
     <string name="displayNamePick">Pick your display name</string>
-    <string name="activity_display_name_explanation">This will be your name when you use Session. It can be your real name, an alias, or anything else you like.</string>
     <string name="displayNameEnter">Enter a display name</string>
     <string name="displayNameErrorDescription">Please pick a display name</string>
     <string name="displayNameErrorDescriptionShorter">Please pick a shorter display name</string>
@@ -820,7 +818,7 @@
     <string name="activity_link_device_scan_qr_code">Scan QR Code</string>
     <string name="activity_link_device_qr_message">Navigate to Settings → Recovery Phrase on your other device to show your QR code.</string>
     <string name="activity_join_public_chat_join_rooms">Or join one of these…</string>
-    <string name="activity_pn_mode_explanation">There are two ways Session can notify you of new messages.</string>
+    <string name="onboardingMessageNotificationExplaination">There are two ways Session can notify you of new messages.</string>
     <string name="activity_pn_mode_fast_mode">Fast Mode</string>
     <string name="activity_pn_mode_slow_mode">Slow Mode</string>
     <string name="activity_pn_mode_fast_mode_explanation">You’ll be notified of new messages reliably and immediately using Google’s notification servers.</string>
@@ -852,7 +850,6 @@
     <string name="warning">Warning</string>
     <string name="dialog_send_seed_send_button_title">Send</string>
     <string name="notify_type_all">All</string>
-    <string name="notify_type_mentions">Mentions</string>
     <string name="deleted_message">This message has been deleted</string>
     <string name="delete_message_for_me">Delete just for me</string>
     <string name="delete_message_for_everyone">Delete for everyone</string>
@@ -873,7 +870,7 @@
     <string name="message_requests_cleared">Message requests deleted</string>
     <string name="message_requests_accepted">Your message request has been accepted.</string>
     <string name="message_requests_pending">Your message request is currently pending.</string>
-    <string name="message_request_empty_state_message">No pending message requests</string>
+    <string name="messageRequestsNonePending">No pending message requests</string>
     <string name="NewConversationButton_SessionTooltip">Direct Message</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Closed Group</string>
     <string name="NewConversationButton_OpenGroupTooltip">Open Group</string>
@@ -1010,5 +1007,8 @@
     <string name="notificationsContentShowNameAndContent">Name and Content</string>
     <string name="recoveryPasswordEnter">Enter your recovery password</string>
     <string name="recoveryPasswordWarningSendDescription">This is your recovery password. If you send it to someone they\'ll have full access to your account.</string>
+    <string name="displayNameDescription">It can be your real name, an alias, or anything else you like — and you can change it at any time.</string>
+    <string name="notificationsMentionsOnly">Mentions Only</string>
+    <string name="notificationsMostRecent">Most recent from [USER NAME]</string>
 
 </resources>

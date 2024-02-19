@@ -165,8 +165,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Hapus pesan?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Pesan ini akan dihapus secara permanen.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d pesan baru dalam %2$d percakapan</string>
-    <string name="MessageNotifier_most_recent_from_s">Paling baru dari: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d pesan baru dalam %2$d percakapan</string>
     <string name="MessageNotifier_locked_message">Pesan terkunci</string>
     <string name="MessageNotifier_message_delivery_failed">Pengiriman pesan gagal.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Gagal mengirimkan pesan.</string>
@@ -408,7 +407,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_register_explanation">Session ID adalah alamat unik yang bisa digunakan untuk mengontak anda. Tanpa koneksi dengan identitas asli, Session ID anda didesain bersifat anonim dan rahasia.</string>
     <string name="activity_restore_title">Kembalikan akun</string>
     <string name="displayNamePick">Pilih nama yang ditampilkan</string>
-    <string name="activity_display_name_explanation">Ini akan menjadi nama anda ketika menggunakan Session. Bisa merupakan nama asli, alias, atau apapun yang anda suka</string>
     <string name="displayNameEnter">Masukkan nama</string>
     <string name="displayNameErrorDescription">Pilih nama yang ditampilkan</string>
     <string name="displayNameErrorDescriptionShorter">Nama yang dibuat terlalu panjang</string>

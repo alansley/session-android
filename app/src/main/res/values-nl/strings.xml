@@ -230,8 +230,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Bericht wissen?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Dit bericht zal onherroepelijk gewist worden.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nieuwe berichten in %2$d gesprekken</string>
-    <string name="MessageNotifier_most_recent_from_s">Meest recente van: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nieuwe berichten in %2$d gesprekken</string>
     <string name="MessageNotifier_locked_message">Versleuteld bericht</string>
     <string name="MessageNotifier_message_delivery_failed">Berichtaflevering mislukt.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Het bericht afleveren is mislukt.</string>
@@ -505,7 +504,6 @@
     <string name="activity_register_explanation">Uw Sessie-ID is het unieke adres dat mensen kunnen gebruiken om contact met u op te nemen via Sessie. Zonder verbinding met je echte identiteit, is je Sessie-ID volledig anoniem en privé.</string>
     <string name="activity_restore_title">Uw account herstellen</string>
     <string name="displayNamePick">Kies je weergavenaam</string>
-    <string name="activity_display_name_explanation">Dit is je naam wanneer je Sessie gebruikt. Het kan je echte naam zijn, een alias, of wat je maar wilt.</string>
     <string name="displayNameEnter">Voer een weergavenaam in</string>
     <string name="displayNameErrorDescription">Kies a.u.b. een weergavenaam</string>
     <string name="displayNameErrorDescriptionShorter">Kies a.u.b. een kortere weergavenaam</string>
@@ -612,7 +610,7 @@
     <string name="activity_link_device_scan_qr_code">QR-code scannen</string>
     <string name="activity_link_device_qr_message">Navigeer naar Instellingen → Herstel zin op je andere apparaat om je QR-code te tonen.</string>
     <string name="activity_join_public_chat_join_rooms">Of neem deel aan een van deze...</string>
-    <string name="activity_pn_mode_explanation">Er zijn twee manieren waarop de Sessie u op de hoogte kan stellen van nieuwe berichten.</string>
+    <string name="onboardingMessageNotificationExplaination">Er zijn twee manieren waarop de Sessie u op de hoogte kan stellen van nieuwe berichten.</string>
     <string name="activity_pn_mode_fast_mode">Snelle modus</string>
     <string name="activity_pn_mode_slow_mode">Langzame modus</string>
     <string name="activity_pn_mode_fast_mode_explanation">U wordt op een betrouwbare en directe manier op de hoogte gebracht van nieuwe berichten via Googles notificatieservers.</string>
@@ -643,7 +641,6 @@
     <string name="warning">Waarschuwing</string>
     <string name="dialog_send_seed_send_button_title">Versturen</string>
     <string name="notify_type_all">Alle</string>
-    <string name="notify_type_mentions">Vermeldingen</string>
     <string name="deleted_message">Dit bericht is verwijderd</string>
     <string name="delete_message_for_me">Verwijder alleen voor mij</string>
     <string name="delete_message_for_everyone">Verwijder voor iedereen</string>

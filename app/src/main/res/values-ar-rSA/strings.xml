@@ -268,8 +268,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">أَتريد حذف الرسالة ؟</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">سوف يقوم هذا بحذف الرسالة كُليًا.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d رسائل جديدة في %2$d محادثات</string>
-    <string name="MessageNotifier_most_recent_from_s">الأحدث من: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d رسائل جديدة في %2$d محادثات</string>
     <string name="MessageNotifier_locked_message">رسالة مؤمنة</string>
     <string name="MessageNotifier_message_delivery_failed">فشل توصيل الرسالة.</string>
     <string name="MessageNotifier_failed_to_deliver_message">فشل توصيل الرسالة.</string>
@@ -551,7 +550,6 @@
     <string name="activity_register_explanation">عنوان تعريفك هو عنوان وحيد خاص بك, يمكن للناس الاتصال بك عن طريقه. دون معرفة هويتك الحقيقية, هذا العنوان مصمم ليكون خاص و مجهول.</string>
     <string name="activity_restore_title">استرجع حسابك</string>
     <string name="displayNamePick">أختر اِسم الاِظهار</string>
-    <string name="activity_display_name_explanation">هذا سيكون اِسمك عندما تستخدم Session. قد يكون اِسمك الحقيقي, اِسم مستعار أو اي شيئ ترغب به.</string>
     <string name="displayNameEnter">ادخل اسم الِاظهار</string>
     <string name="displayNameErrorDescription">اِختر اسم من فضلك</string>
     <string name="displayNameErrorDescriptionShorter">اِختر اسم اقصر من فضلك</string>
@@ -658,7 +656,7 @@
     <string name="activity_link_device_scan_qr_code">اِفحص رمز QR</string>
     <string name="activity_link_device_qr_message">اِذهب إلى التعديلات جملة الاِسترجاع في جهازك الاآخر لإظهار رمز QR الخاص بك.</string>
     <string name="activity_join_public_chat_join_rooms">أو انضم إلى واحدة من…</string>
-    <string name="activity_pn_mode_explanation">يوجد طريقتين لتلقي التنبيهات.</string>
+    <string name="onboardingMessageNotificationExplaination">يوجد طريقتين لتلقي التنبيهات.</string>
     <string name="activity_pn_mode_fast_mode">الوضع السريع</string>
     <string name="activity_pn_mode_slow_mode">الوضع البطيء</string>
     <string name="activity_pn_mode_fast_mode_explanation">سوف يتم إشعارك بالرسائل بشكل موثوق و فوري بإستخدام خوادم جوجل للإشعارات.</string>
@@ -689,7 +687,6 @@
     <string name="warning">تحذير</string>
     <string name="dialog_send_seed_send_button_title">أرسل</string>
     <string name="notify_type_all">كل</string>
-    <string name="notify_type_mentions">عند ذكر الاِسم</string>
     <string name="deleted_message">تم حذف هذه الرسالة</string>
     <string name="delete_message_for_me">اِحذف من عندي</string>
     <string name="delete_message_for_everyone">اِحذف من عند الجميع</string>

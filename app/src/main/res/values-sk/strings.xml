@@ -244,8 +244,7 @@ výmeny kľúčov.</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Vymazať správu?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Týmto natrvalo odstánite túto správu.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nové správy v %2$d konverzáciách</string>
-    <string name="MessageNotifier_most_recent_from_s">Najnovšie od: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nové správy v %2$d konverzáciách</string>
     <string name="MessageNotifier_locked_message">Uzamknutá správa</string>
     <string name="MessageNotifier_message_delivery_failed">Doručenie správy zlyhalo.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Správu sa nepodarilo doručiť.</string>
@@ -520,7 +519,6 @@ výmeny kľúčov.</string>
     <string name="activity_register_explanation">Vaše Session ID je jedinečná adresa, ktorú môžu ľudia použiť aby sa s vami skontaktovali v Session. Pretože Session ID nemá žiadne spojenie s vašou skutočnou identitou, je Session ID úplne anonymné a súkromé.</string>
     <string name="activity_restore_title">Obnoviť účet</string>
     <string name="displayNamePick">Vyberte svoje zobrazované meno</string>
-    <string name="activity_display_name_explanation">Toto bude vaše meno pri používaní Session. Môže to byť vaše skutočné meno, prezývka alebo čokoľvek čo chcete.</string>
     <string name="displayNameEnter">Zadajte zobrazované meno</string>
     <string name="displayNameErrorDescription">Zvoľte prosím zobrazované meno</string>
     <string name="displayNameErrorDescriptionShorter">Zvoľte prosím kratšie zobrazované meno</string>

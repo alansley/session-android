@@ -191,8 +191,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Chaskita pichanayanchu</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Kayka kay chaskita pichankapachami.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$dmushuk chaskikuna %2$drimarikunapi.</string>
-    <string name="MessageNotifier_most_recent_from_s">Kaymanta %1$sashtawan chayrallakuna </string>
+    <string name="notificationsAndroidSystem">%1$dmushuk chaskikuna %2$drimarikunapi.</string>
     <string name="MessageNotifier_locked_message">Chaski wichaska</string>
     <string name="MessageNotifier_message_delivery_failed">Chaskita kachayta mana usharkachu.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Chaskita kachakushpa mana usharkachu</string>

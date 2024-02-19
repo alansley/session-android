@@ -229,8 +229,7 @@ iletisi alındı!</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">İletiyi sil?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Bu eylem bu iletiyi kalıcı olarak silecektir.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%2$d sohbetten %1$d yeni ileti</string>
-    <string name="MessageNotifier_most_recent_from_s">En yeni ileti: %1$s</string>
+    <string name="notificationsAndroidSystem">%2$d sohbetten %1$d yeni ileti</string>
     <string name="MessageNotifier_locked_message">Kilitli ileti</string>
     <string name="MessageNotifier_message_delivery_failed">İleti teslimi başarısız oldu.</string>
     <string name="MessageNotifier_failed_to_deliver_message">İleti teslim edilemedi.</string>
@@ -504,7 +503,6 @@ iletisi alındı!</string>
     <string name="activity_register_explanation">Session Kimliğiniz, kişilerin Session\'da sizinle iletişim kurmak için kullanabileceği benzersiz adrestir. Gerçek kimliğinizle hiçbir bağlantısı olmadan, Session Kimliğiniz tasarım gereği tamamen anonim ve özeldir.</string>
     <string name="activity_restore_title">Hesabınızı geri yükleyin</string>
     <string name="displayNamePick">Görünen adınızı seçin</string>
-    <string name="activity_display_name_explanation">Bu, Session kullandığınızda adınız olacaktır. Gerçek adınız, takma adınız veya istediğiniz herhangi bir şey olabilir.</string>
     <string name="displayNameEnter">Bir görünen ad girin</string>
     <string name="displayNameErrorDescription">Lütfen bir görünen ad seçin</string>
     <string name="displayNameErrorDescriptionShorter">Lütfen daha kısa bir görünen ad seçin</string>
@@ -611,7 +609,7 @@ iletisi alındı!</string>
     <string name="activity_link_device_scan_qr_code">QR Kodunu Tara</string>
     <string name="activity_link_device_qr_message">QR kodunuzu göstermek için diğer cihazınızda Ayarlar → Kurtarma İfadesi\'ne gidin.</string>
     <string name="activity_join_public_chat_join_rooms">Veya bunlardan birine katılın…</string>
-    <string name="activity_pn_mode_explanation">Session\'ın sizi yeni mesajlar hakkında bilgilendirmesinin iki yolu vardır.</string>
+    <string name="onboardingMessageNotificationExplaination">Session\'ın sizi yeni mesajlar hakkında bilgilendirmesinin iki yolu vardır.</string>
     <string name="activity_pn_mode_fast_mode">Hızlı Mod</string>
     <string name="activity_pn_mode_slow_mode">Yavaş Mod</string>
     <string name="activity_pn_mode_fast_mode_explanation">Google\'ın bildirim sunucularını kullanarak yeni iletilerden güvenilir ve anında haberdar olacaksınız.</string>
@@ -642,7 +640,6 @@ iletisi alındı!</string>
     <string name="warning">Uyarı</string>
     <string name="dialog_send_seed_send_button_title">Gönder</string>
     <string name="notify_type_all">Hepsi</string>
-    <string name="notify_type_mentions">Etiketler</string>
     <string name="deleted_message">Bu mesaj silindi</string>
     <string name="delete_message_for_me">Sadece benim için sil</string>
     <string name="delete_message_for_everyone">Herkesten sil</string>

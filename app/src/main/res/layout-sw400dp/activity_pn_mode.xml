@@ -30,7 +30,7 @@
             android:layout_marginRight="@dimen/very_large_spacing"
             android:textSize="@dimen/medium_font_size"
             android:textColor="?android:textColorPrimary"
-            android:text="@string/activity_pn_mode_explanation" />
+            android:text="@string/onboardingMessageNotificationExplaination" />
 
         <org.thoughtcrime.securesms.util.PNModeView
             android:contentDescription="@string/AccessibilityId_fast_mode_notifications_option"

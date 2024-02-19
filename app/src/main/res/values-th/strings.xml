@@ -186,8 +186,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">ลบข้อความหรือไม่</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">นี่จะเป็นการลบข้อความนี้โดยถาวร</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">มี %1$d ข้อความใหม่ใน %2$d การสนทนา</string>
-    <string name="MessageNotifier_most_recent_from_s">ล่าสุดจาก: %1$s</string>
+    <string name="notificationsAndroidSystem">มี %1$d ข้อความใหม่ใน %2$d การสนทนา</string>
     <string name="MessageNotifier_locked_message">ข้อความที่ถูกล็อก</string>
     <string name="MessageNotifier_message_delivery_failed">การส่งข้อความล้มเหลว</string>
     <string name="MessageNotifier_failed_to_deliver_message">ส่งข้อความล้มเหลว</string>

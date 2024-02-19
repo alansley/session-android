@@ -125,8 +125,7 @@
     <string name="onionRoutingPathYou">Gwe</string>
     <string name="MediaPreviewActivity_unssuported_media_type"> ekika kino ekya  Tekiwaniriddwa </string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d obubaka obupya mu %2$d mboozi</string>
-    <string name="MessageNotifier_most_recent_from_s">Ebiyiseewo okuva:%1$s</string>
+    <string name="notificationsAndroidSystem">%1$d obubaka obupya mu %2$d mboozi</string>
     <string name="MessageNotifier_message_delivery_failed">obubaka buganye okugenda</string>
     <string name="MessageNotifier_failed_to_deliver_message">biganye okusindika obubaka</string>
     <string name="MessageNotifier_error_delivering_message">ensobi mukuwereza obubaka</string>

@@ -225,8 +225,7 @@ d\'intercanvi de claus!</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Voleu suprimir el missatge?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Aquest missatge se suprimirà permanentment.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d missatges nous a %2$d converses</string>
-    <string name="MessageNotifier_most_recent_from_s">Més recent de: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d missatges nous a %2$d converses</string>
     <string name="MessageNotifier_locked_message">Missatge blocat</string>
     <string name="MessageNotifier_message_delivery_failed">El missatge no s\'ha pogut entregar.</string>
     <string name="MessageNotifier_failed_to_deliver_message">No s\'ha pogut entregar el missatge.</string>
@@ -499,7 +498,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_register_explanation">El teu ID de Session és l\'adreça única que els usuaris poden utilitzar per a contactar-te a Session. Sense cap connexió amb la teva identitat real, el teu ID de Session ID per disseny és totalment anònim i privat.</string>
     <string name="activity_restore_title">Restableix el teu compte</string>
     <string name="displayNamePick">Tria el nom que es mostrarà</string>
-    <string name="activity_display_name_explanation">Aquest serà el teu nom quan facis servir Session. Pot ser el teu nom real, un àlies o qualsevol altra cosa que t\'agradi.</string>
     <string name="displayNameEnter">Escriu el nom a mostrar</string>
     <string name="displayNameErrorDescription">Tria un nom a mostrar, si us plau</string>
     <string name="displayNameErrorDescriptionShorter">Selecciona un nom de visualització més curt</string>
@@ -593,7 +591,7 @@ d\'intercanvi de claus!</string>
     <string name="activity_link_device_skip_prompt">Això triga un xic, t\'ho vols saltar?</string>
     <string name="activity_link_device_link_device">Enllaça un dispositiu</string>
     <string name="activity_join_public_chat_join_rooms">O uneix-te a alguns d\'aquests…</string>
-    <string name="activity_pn_mode_explanation">Hi ha dues maneres per les quals Session et pot notificar els missatges nous.</string>
+    <string name="onboardingMessageNotificationExplaination">Hi ha dues maneres per les quals Session et pot notificar els missatges nous.</string>
     <string name="activity_pn_mode_fast_mode">Mode ràpid</string>
     <string name="activity_pn_mode_slow_mode">Mode lent</string>
     <string name="activity_pn_mode_fast_mode_explanation">Es notificaran els missatges de forma immediata i fiable fent servir els servidors de notificació de Google.</string>

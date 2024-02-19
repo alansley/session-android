@@ -250,8 +250,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Видалити повідомлення?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Це назавжди видалить це повідомлення.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d нових повідомлень у %2$d розмовах</string>
-    <string name="MessageNotifier_most_recent_from_s">Останнє від: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d нових повідомлень у %2$d розмовах</string>
     <string name="MessageNotifier_locked_message">Заблоковане повідомлення</string>
     <string name="MessageNotifier_message_delivery_failed">Збій доставки повідомлення.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Не вдалось доставити повідомлення.</string>
@@ -529,7 +528,6 @@
     <string name="activity_register_explanation">Ваш Session ID є унікальною адресою, якою люди будуть зв’язуватимися з вами в Session. При відсутньому з\'єднанні з вашою реальною особистістю, Session ID є абсолютно анонімним та приватним, по дизайну.</string>
     <string name="activity_restore_title">Відновити обліковий запис</string>
     <string name="displayNamePick">Виберіть ваш псевдонім для показу</string>
-    <string name="activity_display_name_explanation">Це буде ваше ім\'я яке ви використовуєте в Session. Воно може бути вашим дійсним ім\'ям, альясом або чимусь іншим.</string>
     <string name="displayNameEnter">Введіть відображуватинимий псевдонім</string>
     <string name="displayNameErrorDescription">Будь ласка, виберіть відображуватимий псевдонім</string>
     <string name="displayNameErrorDescriptionShorter">Будь ласка, виберіть коротший псевдонім</string>
@@ -636,7 +634,7 @@
     <string name="activity_link_device_scan_qr_code">Сканувати QR-код</string>
     <string name="activity_link_device_qr_message">Перейдіть до Налаштувань → Фраза відновлення на вашому іншому пристрої, щоб відобразити ваш QR-код.</string>
     <string name="activity_join_public_chat_join_rooms">Або приєднуйтесь до одного з цих…</string>
-    <string name="activity_pn_mode_explanation">Існує два способи Session може сповіщати вас про нові повідомлення.</string>
+    <string name="onboardingMessageNotificationExplaination">Існує два способи Session може сповіщати вас про нові повідомлення.</string>
     <string name="activity_pn_mode_fast_mode">Швидкий режим</string>
     <string name="activity_pn_mode_slow_mode">Медленний режим</string>
     <string name="activity_pn_mode_fast_mode_explanation">Вас надійно повідомлятимуть про нові сповіщщеня негайно, використовуючи сервери сповіщень Google.</string>

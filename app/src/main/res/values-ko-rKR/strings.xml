@@ -187,8 +187,7 @@
     <string name="onionRoutingPathYou">나</string>
     <string name="MediaPreviewActivity_unssuported_media_type">지원되지 않는 미디어 형식</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">대화 %2$d개에 새 메시지 %1$d개</string>
-    <string name="MessageNotifier_most_recent_from_s">%1$s님에게서 최근 메시지</string>
+    <string name="notificationsAndroidSystem">대화 %2$d개에 새 메시지 %1$d개</string>
     <string name="MessageNotifier_message_delivery_failed">메시지 전송 실패</string>
     <string name="MessageNotifier_failed_to_deliver_message">메시지가 전송되지 않았습니다.</string>
     <string name="MessageNotifier_error_delivering_message">메시지 전송 오류 발생</string>
@@ -401,7 +400,6 @@
     <string name="activity_edit_closed_group_add_members">멤버 추가</string>
     <string name="activity_link_device_scan_qr_code">QR 코드 스캔</string>
     <string name="notify_type_all">모두</string>
-    <string name="notify_type_mentions">멘션만</string>
     <string name="conversation_pin">고정</string>
     <string name="conversation_unpin">고정 해제</string>
 </resources>

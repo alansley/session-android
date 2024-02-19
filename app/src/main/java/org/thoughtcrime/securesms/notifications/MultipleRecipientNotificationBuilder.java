@@ -44,7 +44,7 @@ public class MultipleRecipientNotificationBuilder extends AbstractNotificationBu
   }
 
   public void setMessageCount(int messageCount, int threadCount) {
-    setSubText(context.getString(R.string.MessageNotifier_d_new_messages_in_d_conversations,
+    setSubText(context.getString(R.string.notificationsAndroidSystem,
                                  messageCount, threadCount));
     setContentInfo(String.valueOf(messageCount));
     setNumber(messageCount);
@@ -56,7 +56,7 @@ public class MultipleRecipientNotificationBuilder extends AbstractNotificationBu
       displayName = getGroupDisplayName(recipient, threadRecipient.isOpenGroupRecipient());
     }
     if (privacy.isDisplayContact()) {
-      setContentText(context.getString(R.string.MessageNotifier_most_recent_from_s, displayName));
+      setContentText(context.getString(R.string.notificationsMostRecent, displayName));
     }
 
     if (recipient.getNotificationChannel() != null) {

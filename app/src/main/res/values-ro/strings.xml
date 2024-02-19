@@ -242,8 +242,7 @@ schimbul de chei este corupt </string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Șterg mesajul?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Această acțiune va șterge permanent mesajul.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d mesaje noi în %2$d conversaţii</string>
-    <string name="MessageNotifier_most_recent_from_s">Cel mai recent de la: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d mesaje noi în %2$d conversaţii</string>
     <string name="MessageNotifier_locked_message">Mesaj blocat</string>
     <string name="MessageNotifier_message_delivery_failed">Livrarea mesajului a eșuat.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Mesajul nu a putut fi trimis.</string>
@@ -519,7 +518,6 @@ schimbul de chei este corupt </string>
     <string name="activity_register_explanation">ID-ul de sesiune este adresa ta unică pe care persoanele o pot folosi pentru a te contacta în Session. Neavând conexiune la identitatea ta reală, ID-ul tău Session este complet anonim și privat prin design.</string>
     <string name="activity_restore_title">Recuperează-ți contul</string>
     <string name="displayNamePick">Alegeți numele afișat</string>
-    <string name="activity_display_name_explanation">Acesta va fi numele tău când folosești Session. Poate fi numele tău, un pseudonim, sau orice altceva dorești.</string>
     <string name="displayNameEnter">Alege un nume de afișat</string>
     <string name="displayNameErrorDescription">Vă rugăm să alegeți un nume de afișare</string>
     <string name="onionRoutingPathEntryNode">Nod de intrare</string>

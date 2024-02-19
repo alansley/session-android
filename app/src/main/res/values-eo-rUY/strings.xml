@@ -229,8 +229,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Ĉu forviŝi mesaĝon?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tio daŭre forviŝos ĉi tiun mesaĝon.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d novaj mesaĝoj en %2$d interparoloj</string>
-    <string name="MessageNotifier_most_recent_from_s">Plej lasta de: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d novaj mesaĝoj en %2$d interparoloj</string>
     <string name="MessageNotifier_locked_message">Ŝlosita mesaĝo</string>
     <string name="MessageNotifier_message_delivery_failed">Mesaĝa livero malsukcesis.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Malsukcesis liveri mesaĝon.</string>
@@ -504,7 +503,6 @@
     <string name="activity_register_explanation">Via Session ID estas la unika adreso kiun homoj povas uzi por kontakti en Session. Sen ligo al via vera identeco, via Session ID estas tute anonima kaj privata per dezajno.</string>
     <string name="activity_restore_title">Restaŭri vian konton</string>
     <string name="displayNamePick">Elektu vian vidigan nomon</string>
-    <string name="activity_display_name_explanation">Ĉi tio estos via nomo kiam vi uzas Sesion. Ĝi povas esti via vera nomo, alinomo, aŭ io ajn alia vi volas.</string>
     <string name="displayNameEnter">Entajpu vidigan nomon</string>
     <string name="displayNameErrorDescription">Bonvolu elekti vidigan nomon</string>
     <string name="displayNameErrorDescriptionShorter">Bonvolu elekti plej mallongan vidigan nomon</string>
@@ -629,7 +627,6 @@
     <string name="warning">Averto</string>
     <string name="dialog_send_seed_send_button_title">Sendi</string>
     <string name="notify_type_all">Tutaj</string>
-    <string name="notify_type_mentions">Mencioj</string>
     <string name="deleted_message">Ĉi tiu mesaĝo estis forigita</string>
     <string name="delete_message_for_me">Forigi sole por mi</string>
     <string name="delete_message_for_everyone">Forigi por ĉiuj</string>

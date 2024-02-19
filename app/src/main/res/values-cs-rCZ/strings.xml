@@ -248,8 +248,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Smazat zprávu?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tímto trvale smažete tuto zprávu.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nových zpráv v %2$d konverzacích</string>
-    <string name="MessageNotifier_most_recent_from_s">Poslední od: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nových zpráv v %2$d konverzacích</string>
     <string name="MessageNotifier_locked_message">Zamčená zpráva</string>
     <string name="MessageNotifier_message_delivery_failed">Selhalo doručení zprávy.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Selhalo doručení zprávy.</string>
@@ -527,7 +526,6 @@
     <string name="activity_register_explanation">Vaše Session ID je jedinečná adresa, kterou mohou lidé použít k vašemu kontaktování na Session. Bez jakékoli návaznosti na vaší skutečnou identitu je vaše Session ID stavbou zcela anonymní a soukromí chránící.</string>
     <string name="activity_restore_title">Obnovit účet</string>
     <string name="displayNamePick">Vaše jméno</string>
-    <string name="activity_display_name_explanation">Toto bude váš pseudonym během používání Session. Může to být vaše skutečné jméno, alias, nebo cokoliv jiného, co se vám líbí.</string>
     <string name="displayNameEnter">Zadejte pseudonym</string>
     <string name="displayNameErrorDescription">Vyberte prosím pseudonym</string>
     <string name="displayNameErrorDescriptionShorter">Vyberte prosím kratší pseudonym</string>
@@ -634,7 +632,7 @@
     <string name="activity_link_device_scan_qr_code">Naskenovat QR kód</string>
     <string name="activity_link_device_qr_message">Přejděte do Nastavení → Fráze pro obnovení na vašem dalším zařízení a zobrazte svůj QR kód.</string>
     <string name="activity_join_public_chat_join_rooms">Nebo se připojte k jedné z těchto…</string>
-    <string name="activity_pn_mode_explanation">Existují dva způsoby, jak vás může Session upozorňovat na nové zprávy.</string>
+    <string name="onboardingMessageNotificationExplaination">Existují dva způsoby, jak vás může Session upozorňovat na nové zprávy.</string>
     <string name="activity_pn_mode_fast_mode">Rychlý režim</string>
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
     <string name="activity_pn_mode_fast_mode_explanation">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
@@ -665,7 +663,6 @@
     <string name="warning">Varování</string>
     <string name="dialog_send_seed_send_button_title">Odeslat</string>
     <string name="notify_type_all">Vše</string>
-    <string name="notify_type_mentions">Zmínky</string>
     <string name="deleted_message">Tato zpráva byla odstraněna</string>
     <string name="delete_message_for_me">Smazat pouze pro mě</string>
     <string name="delete_message_for_everyone">Smazat pro všechny</string>

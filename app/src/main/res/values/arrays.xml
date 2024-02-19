@@ -225,7 +225,7 @@
     </string-array>
     <string-array name="notify_types">
         <item>@string/notify_type_all</item>
-        <item>@string/notify_type_mentions</item>
+        <item>@string/notificationsMentionsOnly</item>
     </string-array>
 
 </resources>

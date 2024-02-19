@@ -228,8 +228,7 @@ udveksel besked!</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Slet besked?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Dette sletter beskeden permanent</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nye beskeder i %2$d samtaler</string>
-    <string name="MessageNotifier_most_recent_from_s">Seneste fra: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nye beskeder i %2$d samtaler</string>
     <string name="MessageNotifier_locked_message">Låst besked</string>
     <string name="MessageNotifier_message_delivery_failed">Levering af besked mislykkedes</string>
     <string name="MessageNotifier_failed_to_deliver_message">Kunne ikke levere besked</string>
@@ -503,7 +502,6 @@ udveksel besked!</string>
     <string name="activity_register_explanation">Dit Session ID er den unikke adresse, som folk kan bruge til at kontakte dig i Session. Dit Session ID har ingen tilknytning til din rigtige identitet og er helt anonymt og privat.</string>
     <string name="activity_restore_title">Gendan din konto</string>
     <string name="displayNamePick">Vælg dit visningsnavn</string>
-    <string name="activity_display_name_explanation">Dette vil være dit navn, når du bruger Session. Det kan være dit rigtige navn, et alias eller noget helt andet.</string>
     <string name="displayNameEnter">Tast et visningsnavn</string>
     <string name="displayNameErrorDescription">Vælg venligst et display navn</string>
     <string name="displayNameErrorDescriptionShorter">Vælg venligst et kortere display navn</string>
@@ -592,7 +590,7 @@ udveksel besked!</string>
     <string name="activity_link_device_scan_qr_code">Skan QR-kode</string>
     <string name="activity_link_device_qr_message">Naviger til Indstillinger → Gendannelsessætning på din anden enhed, for at vise din QR-kode.</string>
     <string name="activity_join_public_chat_join_rooms">Eller deltag i en af disse…</string>
-    <string name="activity_pn_mode_explanation">Der er to måder Session kan underrette dig om nye beskeder.</string>
+    <string name="onboardingMessageNotificationExplaination">Der er to måder Session kan underrette dig om nye beskeder.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Indtast et kaldenavn</string>
     <string name="invalid_public_key">Ugyldig public key</string>
     <string name="dialog_open_url_title">Åben URL?</string>

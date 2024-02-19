@@ -228,8 +228,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Nachricht löschen?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Dies wird diese Nachricht unwiderruflich löschen.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d neue Nachrichten in %2$d Unterhaltungen</string>
-    <string name="MessageNotifier_most_recent_from_s">Neueste von: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d neue Nachrichten in %2$d Unterhaltungen</string>
     <string name="MessageNotifier_locked_message">Gesperrte Nachricht</string>
     <string name="MessageNotifier_message_delivery_failed">Nachrichtenübermittlung gescheitert.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Nachrichtenübermittlung gescheitert.</string>
@@ -503,7 +502,6 @@
     <string name="activity_register_explanation">Ihre Session ID ist die eindeutige Adresse, unter der Personen Sie über Session kontaktieren können. Ihre Session ID ist nicht mit Ihrer realen Identität verbunden, völlig anonym und von Natur aus privat.</string>
     <string name="activity_restore_title">Ihr Konto wiederherstellen</string>
     <string name="displayNamePick">Wählen Sie Ihren Anzeigenamen</string>
-    <string name="activity_display_name_explanation">Dies ist Ihr Name, wenn Sie Session verwenden. Es kann Ihr richtiger Name, ein Alias oder etwas andere sein.</string>
     <string name="displayNameEnter">Geben Sie einen Anzeigenamen ein</string>
     <string name="displayNameErrorDescription">Bitte wählen Sie einen Anzeigenamen</string>
     <string name="displayNameErrorDescriptionShorter">Bitte wählen Sie einen kürzeren Anzeigenamen</string>
@@ -610,7 +608,7 @@
     <string name="activity_link_device_scan_qr_code">QR-Code scannen</string>
     <string name="activity_link_device_qr_message">Navigiere zu Einstellungen → Wiederherstellungssatz auf deinem anderen Gerät, um deinen QR-Code anzuzeigen.</string>
     <string name="activity_join_public_chat_join_rooms">Oder tritt diesen bei…</string>
-    <string name="activity_pn_mode_explanation">Session kann dich auf zwei Arten über neue Nachrichten informieren.</string>
+    <string name="onboardingMessageNotificationExplaination">Session kann dich auf zwei Arten über neue Nachrichten informieren.</string>
     <string name="activity_pn_mode_fast_mode">Schneller Modus</string>
     <string name="activity_pn_mode_slow_mode">Langsamer Modus</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du wirst über neue Nachrichten zuverlässig und sofort über Google\'s Server benachrichtigt.</string>
@@ -641,7 +639,6 @@
     <string name="warning">Warnung</string>
     <string name="dialog_send_seed_send_button_title">Senden</string>
     <string name="notify_type_all">Alle</string>
-    <string name="notify_type_mentions">Erwähnungen</string>
     <string name="deleted_message">Die Nachricht wurde gelöscht</string>
     <string name="delete_message_for_me">Nur für mich löschen</string>
     <string name="delete_message_for_everyone">Für alle löschen</string>

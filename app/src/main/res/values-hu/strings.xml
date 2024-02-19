@@ -231,8 +231,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Törlöd az üzenetet?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Ez véglegesen törölni fogja ezt az üzenetet.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d új üzenet %2$d beszélgetésben</string>
-    <string name="MessageNotifier_most_recent_from_s">Legutóbb tőle: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d új üzenet %2$d beszélgetésben</string>
     <string name="MessageNotifier_locked_message">Zárolt üzenet</string>
     <string name="MessageNotifier_message_delivery_failed">Üzenet kézbesítése sikertelen.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Nem sikerült az üzenet kézbesítése.</string>
@@ -506,7 +505,6 @@
     <string name="activity_register_explanation">A Session azonosító az az egyedi cím, amelyet az emberek használhatnak, hogy kapcsolatba lépjenek Önnel a Sessionon. Mivel nincs kapcsolat a valódi személyazonosságával, az Session azonosító teljesen névtelen, és privát.</string>
     <string name="activity_restore_title">Fiók visszaállítása</string>
     <string name="displayNamePick">Válassza ki a megjelenítendő nevet</string>
-    <string name="activity_display_name_explanation">Ez lesz az ön neve, amikor használja a Session alkalmazást. Ez lehet a valódi neve, álneve, vagy bármi más, ami tetszik.</string>
     <string name="displayNameEnter">Írja be a megjelenítendő nevet</string>
     <string name="displayNameErrorDescription">Kérjük, válassza ki a megjelenítendő nevet</string>
     <string name="displayNameErrorDescriptionShorter">Válasszon rövidebb megjelenítési nevet</string>
@@ -613,7 +611,7 @@
     <string name="activity_link_device_scan_qr_code">QR kód beolvasása</string>
     <string name="activity_link_device_qr_message">A QR-kód megjelenítéséhez nyissa meg a Beállítások → Helyreállítási kifejezés elemet másik eszközén. </string>
     <string name="activity_join_public_chat_join_rooms">Vagy csatlakozz ezekhez…</string>
-    <string name="activity_pn_mode_explanation">2 mód van arra, hogy a Session értesítsen téged új üzenetekről.</string>
+    <string name="onboardingMessageNotificationExplaination">2 mód van arra, hogy a Session értesítsen téged új üzenetekről.</string>
     <string name="activity_pn_mode_fast_mode">Gyorsított mód</string>
     <string name="activity_pn_mode_slow_mode">Lassított mód</string>
     <string name="activity_pn_mode_fast_mode_explanation">A Google értesítési szerverein keresztül megbízhatóan és azonnal értesítést kapsz az új üzenetekről.</string>
@@ -644,7 +642,6 @@
     <string name="warning">Figyelmeztetés</string>
     <string name="dialog_send_seed_send_button_title">Küldés</string>
     <string name="notify_type_all">Összes</string>
-    <string name="notify_type_mentions">Említések</string>
     <string name="deleted_message">Ezt az üzenetet törölték</string>
     <string name="delete_message_for_me">Törlés csak nálam</string>
     <string name="delete_message_for_everyone">Törlés mindenkinél</string>

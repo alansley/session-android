@@ -248,8 +248,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Usunąć wiadomość?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Spowoduje to trwałe usunięcie tej wiadomości.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nowych wiadomości w %2$d rozmowach</string>
-    <string name="MessageNotifier_most_recent_from_s">Najnowsza z: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nowych wiadomości w %2$d rozmowach</string>
     <string name="MessageNotifier_locked_message">Wiadomość zablokowana</string>
     <string name="MessageNotifier_message_delivery_failed">Nie udało się dostarczyć wiadomości.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Dostarczenie wiadomości nie powiodło się.</string>
@@ -527,7 +526,6 @@
     <string name="activity_register_explanation">Twój identyfikator Session to unikalny adres, za pomocą którego można się z Tobą kontaktować w Session. Bez połączenia z twoją prawdziwą tożsamością, identyfikator Session jest z założenia całkowicie anonimowy i prywatny.</string>
     <string name="activity_restore_title">Przywróć swoje konto</string>
     <string name="displayNamePick">Wybierz swoją nazwę wyświetlaną</string>
-    <string name="activity_display_name_explanation">To będzie twoje imię, kiedy będziesz używać Session. Może to być twoje prawdziwe imię, pseudonim lub cokolwiek innego, co lubisz.</string>
     <string name="displayNameEnter">Wprowadź wyświetlaną nazwę</string>
     <string name="displayNameErrorDescription">Wybierz wyświetlaną nazwę</string>
     <string name="displayNameErrorDescriptionShorter">Wybierz krótszą wyświetlaną nazwę</string>
@@ -634,7 +632,7 @@
     <string name="activity_link_device_scan_qr_code">Skanuj kod QR</string>
     <string name="activity_link_device_qr_message">Przejdź do Ustawień → Fraza odzyskiwania na innym urządzeniu, aby wyświetlić kod QR.</string>
     <string name="activity_join_public_chat_join_rooms">Lub dołącz do jednego z tych…</string>
-    <string name="activity_pn_mode_explanation">Istnieją dwa sposoby powiadamiania o nowych wiadomościach.</string>
+    <string name="onboardingMessageNotificationExplaination">Istnieją dwa sposoby powiadamiania o nowych wiadomościach.</string>
     <string name="activity_pn_mode_fast_mode">Tryb szybki</string>
     <string name="activity_pn_mode_slow_mode">Tryb wolny</string>
     <string name="activity_pn_mode_fast_mode_explanation">Zostaniesz natychmiast powiadomiony o nowych wiadomościach w niezawodny sposób przy użyciu serwerów powiadomień Google.</string>
@@ -665,7 +663,6 @@
     <string name="warning">Uwaga</string>
     <string name="dialog_send_seed_send_button_title">Wyślij</string>
     <string name="notify_type_all">Wszystko</string>
-    <string name="notify_type_mentions">Wzmianki</string>
     <string name="deleted_message">Ta wiadomość została usunięta</string>
     <string name="delete_message_for_me">Usuń tylko dla mnie</string>
     <string name="delete_message_for_everyone">Usuń dla wszystkich</string>

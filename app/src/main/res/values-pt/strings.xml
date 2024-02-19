@@ -230,8 +230,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Deletar mensagem?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Isto vai permanentemente deletar esta mensagem.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d mensagens novas em %2$d conversas</string>
-    <string name="MessageNotifier_most_recent_from_s">Mais recente de: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d mensagens novas em %2$d conversas</string>
     <string name="MessageNotifier_locked_message">Mensagem trancada</string>
     <string name="MessageNotifier_message_delivery_failed">Envio de mensagem falhou.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Falha ao enviar mensagem.</string>
@@ -505,7 +504,6 @@
     <string name="activity_register_explanation">Sua Session ID é o endereço exclusivo que pessoas podem usar para contactar você em Session. Com nenhuma conexão com sua identidade real, sua Session ID é totalmente anônima e privada por design.</string>
     <string name="activity_restore_title">Restaurar sua conta</string>
     <string name="displayNamePick">Escolha seu nome de display</string>
-    <string name="activity_display_name_explanation">Este será o seu nome quando você usar Session. Pode ser seu nome verdadeiro, um alias, ou qualquer outra coisa que você quiser.</string>
     <string name="displayNameEnter">Entre um nome de display</string>
     <string name="displayNameErrorDescription">Escolha um nome de display</string>
     <string name="displayNameErrorDescriptionShorter">Escolha um nome de exibição mais curto</string>
@@ -612,7 +610,7 @@
     <string name="activity_link_device_scan_qr_code">Ler Código QR</string>
     <string name="activity_link_device_qr_message">Vá até as configurações → Frase de Recuperação em seu outro dispositivo para mostrar o seu código QR.</string>
     <string name="activity_join_public_chat_join_rooms">Ou junte-se a um desses…</string>
-    <string name="activity_pn_mode_explanation">Existem duas maneiras que o Session poder notificar você sobre novas mensagens.</string>
+    <string name="onboardingMessageNotificationExplaination">Existem duas maneiras que o Session poder notificar você sobre novas mensagens.</string>
     <string name="activity_pn_mode_fast_mode">Modo Rápido</string>
     <string name="activity_pn_mode_slow_mode">Modo Lento</string>
     <string name="activity_pn_mode_fast_mode_explanation">Você será notificado de forma confiável e imediata sobre novas mensagens usando os servidores de notificação da Google.</string>
@@ -643,7 +641,6 @@
     <string name="warning">Aviso</string>
     <string name="dialog_send_seed_send_button_title">Enviar</string>
     <string name="notify_type_all">Tudo</string>
-    <string name="notify_type_mentions">Menções</string>
     <string name="deleted_message">Esta mensagem foi excluída</string>
     <string name="delete_message_for_me">Excluir apenas para mim</string>
     <string name="delete_message_for_everyone">Excluir para todos</string>

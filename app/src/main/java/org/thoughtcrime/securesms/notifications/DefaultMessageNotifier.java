@@ -509,7 +509,7 @@ public class DefaultMessageNotifier implements MessageNotifier {
         cache.put(threadId, blindedPublicKey);
       }
       if (threadRecipients == null || !threadRecipients.isMuted()) {
-        if (threadRecipients != null && threadRecipients.notifyType == RecipientDatabase.NOTIFY_TYPE_MENTIONS) {
+        if (threadRecipients != null && threadRecipients.notifyType == RecipientDatabase.NOTIFY_TYPE_MENTIONS_ONLY) {
           // check if mentioned here
           boolean isQuoteMentioned = false;
           if (record instanceof MmsMessageRecord) {

@@ -236,8 +236,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Обрисати поруку?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Ово ће трајно да обрише ову поруку.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d нових порука у %2$d преписки</string>
-    <string name="MessageNotifier_most_recent_from_s">Најскорија од: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d нових порука у %2$d преписки</string>
     <string name="MessageNotifier_locked_message">Закључана порука</string>
     <string name="MessageNotifier_message_delivery_failed">Испорука поруке није успела.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Не успех да испоручим поруку.</string>

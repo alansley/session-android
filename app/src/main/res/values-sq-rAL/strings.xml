@@ -228,8 +228,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Të fshihet mesazhi?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Kjo do ta fshijë përgjithmonë këtë mesazh.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d mesazhe të reja në %2$d biseda</string>
-    <string name="MessageNotifier_most_recent_from_s">Më të rejat nga: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d mesazhe të reja në %2$d biseda</string>
     <string name="MessageNotifier_locked_message">Mesazh i kyçur</string>
     <string name="MessageNotifier_message_delivery_failed">Dërgimi i mesazhit dështoi.</string>
     <string name="MessageNotifier_failed_to_deliver_message">S\’u arrit të dërgohej mesazhi.</string>

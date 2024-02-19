@@ -230,8 +230,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Mesaj silinsin?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Bu, bu mesajı birdəfəlik siləcək.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%2$d danışıqda %1$d yeni mesaj</string>
-    <string name="MessageNotifier_most_recent_from_s">Ən son: %1$s</string>
+    <string name="notificationsAndroidSystem">%2$d danışıqda %1$d yeni mesaj</string>
     <string name="MessageNotifier_locked_message">Kilidli mesaj</string>
     <string name="MessageNotifier_message_delivery_failed">Mesaj çatdırılmadı.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Mesaj çatdırılması uğursuz oldu.</string>
@@ -505,7 +504,6 @@
     <string name="activity_register_explanation">Session kimliyiniz, əlaqələrin Session-da sizinlə əlaqə saxlamaq üçün istifadə edəcəyi unikal bir ünvandır. Gerçək kimliyinizlə heç bir bağlantısı olmadan, Session kimliyiniz, ümumilikdə anonimlik və gizlilik üzərinə dizayn edilmişdir.</string>
     <string name="activity_restore_title">Hesabınızı bərpa edin</string>
     <string name="displayNamePick">Ekran adınızı seçin</string>
-    <string name="activity_display_name_explanation">Bu, Session istifadə edərkən adınız olacaq. Gerçək adınız, ləqəbiniz və ya istədiyiniz başqa bir ad ola bilər.</string>
     <string name="displayNameEnter">Ekran adını daxil edin</string>
     <string name="displayNameErrorDescription">Zəhmət olmasa bir ekran adı seçin</string>
     <string name="displayNameErrorDescriptionShorter">Zəhmət olmasa qısa bir ekran adı seçin</string>
@@ -612,7 +610,7 @@
     <string name="activity_link_device_scan_qr_code">QR kodu skan et</string>
     <string name="activity_link_device_qr_message">QR kodunu göstərmək üçün digər cihazınızda Tənzimləmələr → \"Bərpa parolu\"na gedin.</string>
     <string name="activity_join_public_chat_join_rooms">Və ya bunlardan birinə qoşulun…</string>
-    <string name="activity_pn_mode_explanation">Session-un, sizi yeni mesajlar barəsində xəbərdar etməsinin iki yolu var.</string>
+    <string name="onboardingMessageNotificationExplaination">Session-un, sizi yeni mesajlar barəsində xəbərdar etməsinin iki yolu var.</string>
     <string name="activity_pn_mode_fast_mode">Sürətli rejim</string>
     <string name="activity_pn_mode_slow_mode">Yavaş rejim</string>
     <string name="activity_pn_mode_fast_mode_explanation">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
@@ -643,7 +641,6 @@
     <string name="warning">Xəbərdarlıq</string>
     <string name="dialog_send_seed_send_button_title">Göndər</string>
     <string name="notify_type_all">Hamısı</string>
-    <string name="notify_type_mentions">Ad çəkmələr</string>
     <string name="deleted_message">Bu mesaj silindi</string>
     <string name="delete_message_for_me">Yalnız mənim üçün sil</string>
     <string name="delete_message_for_everyone">Hər kəs üçün sil</string>

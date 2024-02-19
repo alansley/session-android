@@ -225,8 +225,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Borrar mensaxe?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Isto borrará de xeito permanente esta mensaxe.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d novas mensaxes en %2$d conversas</string>
-    <string name="MessageNotifier_most_recent_from_s">Máis recente de: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d novas mensaxes en %2$d conversas</string>
     <string name="MessageNotifier_locked_message">Mensaxe bloqueada</string>
     <string name="MessageNotifier_message_delivery_failed">Erro na entrega da mensaxe.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Erro ao entregar a mensaxe.</string>

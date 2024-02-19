@@ -208,8 +208,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">సందేశాన్ని తొలగించాలా?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">ఇది శాశ్వతంగా ఈ సందేశాన్ని తొలగిస్తుంది.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%2$d సంభాషణలొ కొత్త %1$d సందేశాలు</string>
-    <string name="MessageNotifier_most_recent_from_s">ఇటీవల నుండి: %1$s</string>
+    <string name="notificationsAndroidSystem">%2$d సంభాషణలొ కొత్త %1$d సందేశాలు</string>
     <string name="MessageNotifier_locked_message">బంధించబడిన సందేశం</string>
     <string name="MessageNotifier_message_delivery_failed">సందేశం పంపుట విఫలమైనది.</string>
     <string name="MessageNotifier_failed_to_deliver_message">సందేషాన్ని చెర్చడం విఫలమైనది.</string>

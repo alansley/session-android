@@ -229,8 +229,7 @@ foi recebida está corrompida!</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Apagar mensagem?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Isto irá eliminar permanentemente esta mensagem.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d novas mensagens em %2$d conversas</string>
-    <string name="MessageNotifier_most_recent_from_s">Mais recente de: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d novas mensagens em %2$d conversas</string>
     <string name="MessageNotifier_locked_message">Mensagem bloqueada</string>
     <string name="MessageNotifier_message_delivery_failed">Falha na entrega de mensagem.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Falha na entrega da mensagem.</string>
@@ -500,7 +499,6 @@ foi recebida está corrompida!</string>
     <string name="activity_register_explanation">Seu ID Session é o endereço exclusivo que as pessoas podem usar para entrar em contato com você no Session. Sem conexão com sua identidade real, seu ID Session é totalmente anônimo e privado por definição.</string>
     <string name="activity_restore_title">Restaurar sua conta</string>
     <string name="displayNamePick">Escolha seu nome de exibição</string>
-    <string name="activity_display_name_explanation">Este será o seu nome quando usar o Session. Pode ser seu nome verdadeiro, um apelido ou qualquer outra coisa que você quiser.</string>
     <string name="displayNameEnter">Digite um nome de exibição</string>
     <string name="displayNameErrorDescription">Escolha um nome de exibição</string>
     <string name="displayNameErrorDescriptionShorter">Escolha um nome de exibição mais curto</string>

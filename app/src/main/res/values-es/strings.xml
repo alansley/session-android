@@ -229,8 +229,7 @@ de intercambio de claves!</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">¿Eliminar mensaje?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Este mensaje se eliminará permanentemente.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d mensajes nuevos en %2$d chats</string>
-    <string name="MessageNotifier_most_recent_from_s">Más recientes desde: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d mensajes nuevos en %2$d chats</string>
     <string name="MessageNotifier_locked_message">Mensaje cerrado</string>
     <string name="MessageNotifier_message_delivery_failed">Fallo al entregar el mensaje.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Fallo al entregar mensaje.</string>
@@ -504,7 +503,6 @@ de intercambio de claves!</string>
     <string name="activity_register_explanation">Tu ID de Session es la dirección única que las personas pueden usar para contactarte en Session. Por diseño, tu ID de Session es totalmente anónima y privada, sin vínculo con tu identidad real.</string>
     <string name="activity_restore_title">Restaura tu cuenta</string>
     <string name="displayNamePick">Elige tu nombre</string>
-    <string name="activity_display_name_explanation">Este será tu nombre al usar Session. Puede ser tu nombre real, un alias, o lo que prefieras.</string>
     <string name="displayNameEnter">Ingresa un nombre para mostrar</string>
     <string name="displayNameErrorDescription">Por favor, elige un nombre para mostrar</string>
     <string name="displayNameErrorDescriptionShorter">Por favor, elige un nombre para mostrar más corto</string>
@@ -611,7 +609,7 @@ de intercambio de claves!</string>
     <string name="activity_link_device_scan_qr_code">Escanear Código QR</string>
     <string name="activity_link_device_qr_message">Navega a Ajustes → Frase de Recuperación en tu otro dispositivo para mostrar tu código QR.</string>
     <string name="activity_join_public_chat_join_rooms">O únete a uno de estos…</string>
-    <string name="activity_pn_mode_explanation">Hay dos maneras en las que Session puede notificarle de nuevos mensajes.</string>
+    <string name="onboardingMessageNotificationExplaination">Hay dos maneras en las que Session puede notificarle de nuevos mensajes.</string>
     <string name="activity_pn_mode_fast_mode">Modo Rápido</string>
     <string name="activity_pn_mode_slow_mode">Modo Lento</string>
     <string name="activity_pn_mode_fast_mode_explanation">Se le notificará de los nuevos mensajes de forma fiable e inmediata usando los servidores de notificaciones de Google.</string>
@@ -642,7 +640,6 @@ de intercambio de claves!</string>
     <string name="warning">Alerta</string>
     <string name="dialog_send_seed_send_button_title">Enviar</string>
     <string name="notify_type_all">Todas</string>
-    <string name="notify_type_mentions">Menciónes</string>
     <string name="deleted_message">Este mensaje ha sido borrado</string>
     <string name="delete_message_for_me">Borrar solo para mí</string>
     <string name="delete_message_for_everyone">Borrar para todos</string>

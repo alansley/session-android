@@ -229,8 +229,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">चयनित संदेश हटाएं?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">यह इस संदेश को स्थायी रूप से हटा देगा।</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%2$d बातचीत में %1$d नए संदेश</string>
-    <string name="MessageNotifier_most_recent_from_s">%1$s से हाल ही में</string>
+    <string name="notificationsAndroidSystem">%2$d बातचीत में %1$d नए संदेश</string>
     <string name="MessageNotifier_locked_message">लॉक संदेश</string>
     <string name="MessageNotifier_message_delivery_failed">संदेश प्रेषण असफल हुआ</string>
     <string name="MessageNotifier_failed_to_deliver_message">संदेश देने में विफल रहा</string>
@@ -504,7 +503,6 @@
     <string name="activity_register_explanation">आपकी Session ID एक ऐसा अनोखा पता है जिसका उपयोग करके लोग आपसे Session पर संपर्क कर सकते हैं। आपकी वास्तविक पहचान से कोई संबंध नहीं होने के कारण, आपका Session ID डिज़ाइन द्वारा पूरी तरह से गुमनाम और निजी है |</string>
     <string name="activity_restore_title">अकाउंट रिस्टोर करें</string>
     <string name="displayNamePick">अपना प्रदर्शन नाम चुनें</string>
-    <string name="activity_display_name_explanation">यह सेशन इस्तेमाल करते समय आपका नाम होगा। यह आपका असली नाम, उपनाम या कुछ और भी हो सकता है।</string>
     <string name="displayNameEnter">डिस्प्ले नाम डालें</string>
     <string name="displayNameErrorDescription">कृपया एक डिस्प्ले नाम चुनें</string>
     <string name="displayNameErrorDescriptionShorter">कृपया एक छोटा डिसप्ले नाम चुनें</string>
@@ -611,7 +609,7 @@
     <string name="activity_link_device_scan_qr_code">QR कोड को स्कैन करें</string>
     <string name="activity_link_device_qr_message">अपना क्यूआर कोड दिखाने के लिए अपने अन्य डिवाइस पर सेटिंग्स →पुनर्प्राप्ति वाक्यांश में जाएंं।</string>
     <string name="activity_join_public_chat_join_rooms">या इनमें से एक को जोड़ें...</string>
-    <string name="activity_pn_mode_explanation">सेशन आपको नए संदेश के बारे में दो तरीकों से बता सकता है</string>
+    <string name="onboardingMessageNotificationExplaination">सेशन आपको नए संदेश के बारे में दो तरीकों से बता सकता है</string>
     <string name="activity_pn_mode_fast_mode">फास्ट मोड</string>
     <string name="activity_pn_mode_slow_mode">स्लो मोड</string>
     <string name="activity_pn_mode_fast_mode_explanation">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
@@ -641,7 +639,6 @@
     <string name="warning">चेतावनी!</string>
     <string name="dialog_send_seed_send_button_title">भेजें</string>
     <string name="notify_type_all">सभी</string>
-    <string name="notify_type_mentions">उल्लेख</string>
     <string name="deleted_message">ये संदेश मिटा दिया है</string>
     <string name="delete_message_for_me">स्वयं के लिये मिटाये</string>
     <string name="delete_message_for_everyone">सभी के लिए संदेश मिटायें</string>

@@ -236,8 +236,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Supprimer le message ?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Ce message sera supprimé définitivement.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nouveaux messages dans %2$d conversations</string>
-    <string name="MessageNotifier_most_recent_from_s">Le plus récent de : %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nouveaux messages dans %2$d conversations</string>
     <string name="MessageNotifier_locked_message">Message verrouillé</string>
     <string name="MessageNotifier_message_delivery_failed">La transmission du message a échoué.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Échec de transmission du message.</string>
@@ -532,7 +531,6 @@
     <string name="activity_register_explanation">Votre Session ID est l\'identifiant unique que les gens utilisent pour vous contacter dans Session. Sans lien avec votre identité réelle, votre Session ID est complètement anonyme et privé.</string>
     <string name="activity_restore_title">Restaurez votre compte</string>
     <string name="displayNamePick">Choisissez votre nom d\'utilisateur</string>
-    <string name="activity_display_name_explanation">Ce sera votre nom lorsque vous utiliserez Session. Il peut s\'agir de votre vrai nom, d\'un pseudo ou de ce que vous voulez.</string>
     <string name="displayNameEnter">Saisissez un nom d\'utilisateur</string>
     <string name="displayNameErrorDescription">Veuillez choisir un nom d\'utilisateur</string>
     <string name="displayNameErrorDescriptionShorter">Veuillez choisir un nom d\'utilisateur plus court</string>
@@ -653,7 +651,7 @@
     <string name="activity_link_device_scan_qr_code">Scanner le QR Code</string>
     <string name="activity_link_device_qr_message">Allez dans Paramètres → Phrase de récupération sur votre autre appareil pour afficher votre QR code.</string>
     <string name="activity_join_public_chat_join_rooms">Ou rejoignez l\'un(e) de ceux-ci…</string>
-    <string name="activity_pn_mode_explanation">Session peut vous avertir de la présence de nouveaux messages de deux façons.</string>
+    <string name="onboardingMessageNotificationExplaination">Session peut vous avertir de la présence de nouveaux messages de deux façons.</string>
     <string name="activity_pn_mode_fast_mode">Mode rapide</string>
     <string name="activity_pn_mode_slow_mode">Mode lent</string>
     <string name="activity_pn_mode_fast_mode_explanation">Vous serez averti de nouveaux messages de manière fiable et immédiate en utilisant les serveurs de notification de Google.</string>
@@ -685,7 +683,6 @@
     <string name="warning">Attention</string>
     <string name="dialog_send_seed_send_button_title">Envoyer</string>
     <string name="notify_type_all">Tous</string>
-    <string name="notify_type_mentions">Mentions</string>
     <string name="deleted_message">Ce message a été supprimé</string>
     <string name="delete_message_for_me">Supprimer pour moi uniquement</string>
     <string name="delete_message_for_everyone">Supprimer pour tout le monde</string>
@@ -706,7 +703,7 @@
     <string name="message_requests_cleared">Demandes de message supprimées</string>
     <string name="message_requests_accepted">Votre demande de message a été acceptée.</string>
     <string name="message_requests_pending">Votre demande de message est en attente.</string>
-    <string name="message_request_empty_state_message">Aucune demande de message en attente</string>
+    <string name="messageRequestsNonePending">Aucune demande de message en attente</string>
     <string name="NewConversationButton_SessionTooltip">Message privé</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Groupes privés</string>
     <string name="NewConversationButton_OpenGroupTooltip">Groupe public</string>

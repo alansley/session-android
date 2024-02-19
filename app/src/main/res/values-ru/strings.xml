@@ -250,8 +250,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Удалить сообщение?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Это сообщение будет безвозвратно удалено.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d новых сообщений в %2$d диалогах</string>
-    <string name="MessageNotifier_most_recent_from_s">Последнее от %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d новых сообщений в %2$d диалогах</string>
     <string name="MessageNotifier_locked_message">Сообщение скрыто</string>
     <string name="MessageNotifier_message_delivery_failed">Сбой доставки сообщения.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Не удалось доставить сообщение.</string>
@@ -529,7 +528,6 @@
     <string name="activity_register_explanation">Ваш Session ID - это уникальный адрес, который другие пользователи могут использовать для связи с вами при помощи Session. Поскольку ваш Session ID никак не связан с вашей настоящей личностью, он по определению является полностью анонимным и конфиденциальным.</string>
     <string name="activity_restore_title">Восстановите свой аккаунт</string>
     <string name="displayNamePick">Выберите ваше отображаемое имя</string>
-    <string name="activity_display_name_explanation">Это имя будет отображаться, когда вы используете Session. Это может быть ваше настоящее имя, псевдоним или что угодно по вашему выбору.</string>
     <string name="displayNameEnter">Введите отображаемое имя</string>
     <string name="displayNameErrorDescription">Пожалуйста, выберите отображаемое имя</string>
     <string name="displayNameErrorDescriptionShorter">Пожалуйста, выберите более короткое отображаемое имя</string>
@@ -636,7 +634,7 @@
     <string name="activity_link_device_scan_qr_code">Сканировать QR-код</string>
     <string name="activity_link_device_qr_message">Перейдите в Настройки → Фраза для восстановления доступа на другом устройстве, чтобы показать ваш QR код.</string>
     <string name="activity_join_public_chat_join_rooms">Или присоединитесь к одной из этих…</string>
-    <string name="activity_pn_mode_explanation">Существует два способа оповещения о новых сообщениях.</string>
+    <string name="onboardingMessageNotificationExplaination">Существует два способа оповещения о новых сообщениях.</string>
     <string name="activity_pn_mode_fast_mode">Ускоренный режим</string>
     <string name="activity_pn_mode_slow_mode">Медленный режим</string>
     <string name="activity_pn_mode_fast_mode_explanation">Вы будете получать уведомления о новых сообщениях надежно и сразу же с помощью серверов уведомлений Google.</string>
@@ -667,7 +665,6 @@
     <string name="warning">Предупреждение</string>
     <string name="dialog_send_seed_send_button_title">Отправить</string>
     <string name="notify_type_all">Все</string>
-    <string name="notify_type_mentions">Упоминания</string>
     <string name="deleted_message">Это сообщение было удалено</string>
     <string name="delete_message_for_me">Удалить только для меня</string>
     <string name="delete_message_for_everyone">Удалить для всех</string>

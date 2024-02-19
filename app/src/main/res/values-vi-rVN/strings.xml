@@ -140,8 +140,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="onionRoutingPathYou">Bạn</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Không hỗ trợ dạng truyền thông này</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d tin nhắn mới trong %2$d cuộc chuyện trò</string>
-    <string name="MessageNotifier_most_recent_from_s">Gần đây nhất từ: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d tin nhắn mới trong %2$d cuộc chuyện trò</string>
     <string name="MessageNotifier_message_delivery_failed">Phân phối tin nhắn bị thất bại.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Thất bại trong việc phân phối tin.</string>
     <string name="MessageNotifier_error_delivering_message">Có lỗi khi phân phối tin.</string>
@@ -328,7 +327,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_register_explanation">Session ID của bạn là địa chỉ duy nhất mà mọi người có thể dùng để liên lạc với bạn trên ứng dụng Session. Session ID của bạn được thiết kế đảm bảo tuyệt đối ẩn danh và riêng tư vì nó không liên kết với danh tính thật của bạn.</string>
     <string name="activity_restore_title">Khôi phục lại tài khoản của bạn</string>
     <string name="displayNamePick">Chọn tên hiển thị của bạn</string>
-    <string name="activity_display_name_explanation">Đây là tên của bạn khi sử dụng Session. Nó có thể là tên thật, tên gọi khác của bạn hoặc bất kì tên nào bạn thích.</string>
     <string name="displayNameEnter">Nhập một tên hiển thị</string>
     <string name="displayNameErrorDescription">Vui lòng chọn một tên hiển thị</string>
     <string name="displayNameErrorDescriptionShorter">Vui lòng chọn tên hiển thị ngắn hơn</string>

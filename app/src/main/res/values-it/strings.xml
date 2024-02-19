@@ -230,8 +230,7 @@ scambia un altro messaggio!</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Eliminare il messaggio?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Questo messaggio verrà eliminato definitivamente.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nuovi messaggi in %2$d conversazioni</string>
-    <string name="MessageNotifier_most_recent_from_s">Il più recente da: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nuovi messaggi in %2$d conversazioni</string>
     <string name="MessageNotifier_locked_message">Messaggio bloccato</string>
     <string name="MessageNotifier_message_delivery_failed">L\'invio del messaggio non è riuscito</string>
     <string name="MessageNotifier_failed_to_deliver_message">L\'invio del messaggio non è riuscito</string>
@@ -505,7 +504,6 @@ scambia un altro messaggio!</string>
     <string name="activity_register_explanation">L\'ID Sessione è l\'indirizzo univoco che le persone possono utilizzare per contattarti su Session. L\'ID Sessione permette di eliminare ogni connessione con la tua identità reale: l\'ID Sessione è completamente anonimo e privato.</string>
     <string name="activity_restore_title">Ripristina il tuo account</string>
     <string name="displayNamePick">Scegli il nome da visualizzare</string>
-    <string name="activity_display_name_explanation">Questo sarà il tuo nome quando usi una Sessione. Può essere il tuo vero nome, un soprannome o qualsiasi altra cosa.</string>
     <string name="displayNameEnter">Inserisci il nome da visualizzare</string>
     <string name="displayNameErrorDescription">Scegli il nome da visualizzare</string>
     <string name="displayNameErrorDescriptionShorter">Scegli un nome più breve</string>
@@ -612,7 +610,7 @@ scambia un altro messaggio!</string>
     <string name="activity_link_device_scan_qr_code">Scansiona codice QR</string>
     <string name="activity_link_device_qr_message">Vai su Impostazioni → Frase di recupero sul tuo altro dispositivo per mostrare il tuo codice QR.</string>
     <string name="activity_join_public_chat_join_rooms">Oppure unisciti a uno di questi…</string>
-    <string name="activity_pn_mode_explanation">Ci sono due modi in cui Session ti può notificare nuovi messaggi.</string>
+    <string name="onboardingMessageNotificationExplaination">Ci sono due modi in cui Session ti può notificare nuovi messaggi.</string>
     <string name="activity_pn_mode_fast_mode">Modalità Veloce</string>
     <string name="activity_pn_mode_slow_mode">Modalità Lenta</string>
     <string name="activity_pn_mode_fast_mode_explanation">Riceverai notifiche di nuovi messaggi in modo affidabile e immediato utilizzando i server di notifica di Google.</string>
@@ -643,7 +641,6 @@ scambia un altro messaggio!</string>
     <string name="warning">Attenzione</string>
     <string name="dialog_send_seed_send_button_title">Invia</string>
     <string name="notify_type_all">Tutte</string>
-    <string name="notify_type_mentions">Menzioni</string>
     <string name="deleted_message">Questo messaggio è stato eliminato</string>
     <string name="delete_message_for_me">Elimina solo per me</string>
     <string name="delete_message_for_everyone">Elimina per tutti</string>

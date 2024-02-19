@@ -229,8 +229,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Vil du slette denne meldinga?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Meldinga blir slettet for godt.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nye meldinger i %2$d samtaler</string>
-    <string name="MessageNotifier_most_recent_from_s">Nyeste fra: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nye meldinger i %2$d samtaler</string>
     <string name="MessageNotifier_locked_message">Låst melding</string>
     <string name="MessageNotifier_message_delivery_failed">Levering av melding mislyktes.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Klarte ikke å levere melding.</string>
@@ -504,7 +503,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_register_explanation">Din Session-ID er den unike adressen folk kan bruke for å kontakte deg på Session. Uten en forbindelse til din virkelige identitet er din Session-ID laget for å være fullstendig anonym og privat.</string>
     <string name="activity_restore_title">Gjenopprett kontoen din</string>
     <string name="displayNamePick">Velg ditt visningsnavn</string>
-    <string name="activity_display_name_explanation">Dette vil være navnet ditt når du bruker Session. Det kan være ditt virkelige navn, en alias, eller alt annet du vil.</string>
     <string name="displayNameEnter">Skriv inn et visningsnavn</string>
     <string name="displayNameErrorDescription">Vennligst velg et visningsnavn</string>
     <string name="displayNameErrorDescriptionShorter">Vennligst velg et kortere visningsnavn</string>
@@ -611,7 +609,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_link_device_scan_qr_code">Skann QR-kode</string>
     <string name="activity_link_device_qr_message">Naviger til innstillinger → Gjenopprettingsfrasen på din andre enhet for å vise QR-koden.</string>
     <string name="activity_join_public_chat_join_rooms">Eller bli med i en av disse…</string>
-    <string name="activity_pn_mode_explanation">Det er to måter Session kan gi beskjed om nye meldinger på.</string>
+    <string name="onboardingMessageNotificationExplaination">Det er to måter Session kan gi beskjed om nye meldinger på.</string>
     <string name="activity_pn_mode_fast_mode">Rask modus</string>
     <string name="activity_pn_mode_slow_mode">Langsom Modus</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
@@ -642,7 +640,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="warning">Advarsel</string>
     <string name="dialog_send_seed_send_button_title">Send</string>
     <string name="notify_type_all">Alle</string>
-    <string name="notify_type_mentions">Omtalelser</string>
     <string name="deleted_message">Denne meldingen har blitt slettet</string>
     <string name="delete_message_for_me">Slett kun for meg</string>
     <string name="delete_message_for_everyone">Slett for alle</string>

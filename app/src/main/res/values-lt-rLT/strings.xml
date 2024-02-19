@@ -247,8 +247,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Ištrinti žinutę?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tai visiems laikams ištrins šią žinutę.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d naujų(-os) žinutės(-ių) %2$d pokalbyje(-iuose)</string>
-    <string name="MessageNotifier_most_recent_from_s">Paskiausia nuo: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d naujų(-os) žinutės(-ių) %2$d pokalbyje(-iuose)</string>
     <string name="MessageNotifier_locked_message">Užrakinta žinutė</string>
     <string name="MessageNotifier_message_delivery_failed">Žinutės pristatymas nepavyko.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Nepavyko pristatyti žinutės.</string>
@@ -523,7 +522,6 @@
     <string name="activity_register_explanation">Jūsų Session ID yra unikalus adresas, kurį žmonės gali naudoti, kad susisiektų su jumis per Session programėlę. Neturėdamas jokių sąsajų su jūsų tikrąja tapatybe, jūsų Session ID yra tyčia visiškai anoniminis ir privatus.</string>
     <string name="activity_restore_title">Atkurkite savo paskyrą</string>
     <string name="displayNamePick">Pasirinkite savo rodomą vardą</string>
-    <string name="activity_display_name_explanation">Tai bus jūsų vardas, kai naudositės Session. Tai gali būti jūsų tikras vardas, slapyvardis ar bet kas kita.</string>
     <string name="displayNameEnter">Įveskite pasirinktą rodomą vardą</string>
     <string name="displayNameErrorDescription">Pasirinkite rodomą vardą</string>
     <string name="displayNameErrorDescriptionShorter">Pasirinkite trumpesnį rodomą vardą</string>
@@ -607,7 +605,7 @@
     <string name="activity_link_device_link_device">Susieti įrenginį</string>
     <string name="activity_link_device_scan_qr_code">Skenuoti QR kodą</string>
     <string name="activity_join_public_chat_join_rooms">Arba prisijunkite prie vienos iš šių…</string>
-    <string name="activity_pn_mode_explanation">Yra du būdai kaip Session gali jums pranešti apie naujas žinutes.</string>
+    <string name="onboardingMessageNotificationExplaination">Yra du būdai kaip Session gali jums pranešti apie naujas žinutes.</string>
     <string name="activity_pn_mode_fast_mode">Greita veiksena</string>
     <string name="activity_pn_mode_slow_mode">Lėta veiksena</string>
     <string name="activity_pn_mode_fast_mode_explanation">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>

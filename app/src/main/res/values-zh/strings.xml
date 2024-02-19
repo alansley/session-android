@@ -219,8 +219,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">删除消息吗？</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">这将会永久删除消息。</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d 新信息是在 %2$d 中的会话</string>
-    <string name="MessageNotifier_most_recent_from_s">最新的邮件来自：%1$s</string>
+    <string name="notificationsAndroidSystem">%1$d 新信息是在 %2$d 中的会话</string>
     <string name="MessageNotifier_locked_message">锁定的消息</string>
     <string name="MessageNotifier_message_delivery_failed">信息发送失败。</string>
     <string name="MessageNotifier_failed_to_deliver_message">信息发送失败</string>
@@ -492,7 +491,6 @@
     <string name="activity_register_explanation">您的Session ID是其他用户在与您聊天时使用的独一无二的地址。Session ID与您的真实身份无关，它在设计上完全是匿名且私密的。</string>
     <string name="activity_restore_title">恢复您的帐号</string>
     <string name="displayNamePick">选择您想显示的名称</string>
-    <string name="activity_display_name_explanation">这就是您在使用Session时的名字。它可以是您的真实姓名，别名或您喜欢的其他任何名称。</string>
     <string name="displayNameEnter">输入您想显示的名称</string>
     <string name="displayNameErrorDescription">请设定一个名称</string>
     <string name="displayNameErrorDescriptionShorter">请设定一个较短的名称</string>
@@ -599,7 +597,7 @@
     <string name="activity_link_device_scan_qr_code">扫描二维码</string>
     <string name="activity_link_device_qr_message">在您的其他设备上导航到设置 -> 恢复口令以显示您的 QR 代码。</string>
     <string name="activity_join_public_chat_join_rooms">或加入下列群组…</string>
-    <string name="activity_pn_mode_explanation">我们有两种方式来向您发送消息通知。</string>
+    <string name="onboardingMessageNotificationExplaination">我们有两种方式来向您发送消息通知。</string>
     <string name="activity_pn_mode_fast_mode">快速模式</string>
     <string name="activity_pn_mode_slow_mode">慢速模式</string>
     <string name="activity_pn_mode_fast_mode_explanation">新消息将通过 Google 通知服务器即时可靠地发送。</string>
@@ -630,7 +628,6 @@
     <string name="warning">警告</string>
     <string name="dialog_send_seed_send_button_title">发送</string>
     <string name="notify_type_all">所有的</string>
-    <string name="notify_type_mentions">提到我的</string>
     <string name="deleted_message">消息已删除</string>
     <string name="delete_message_for_me">仅为我删除</string>
     <string name="delete_message_for_everyone">为所有人删除</string>

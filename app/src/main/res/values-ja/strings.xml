@@ -216,8 +216,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">メッセージを削除しますか？</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">このメッセージを完全に削除します。</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%2$d個の会話に%1$d個の新着メッセージ</string>
-    <string name="MessageNotifier_most_recent_from_s">最新の受信: %1$s</string>
+    <string name="notificationsAndroidSystem">%2$d個の会話に%1$d個の新着メッセージ</string>
     <string name="MessageNotifier_locked_message">ロックされたメッセージ</string>
     <string name="MessageNotifier_message_delivery_failed">メッセージの配信に失敗しました。</string>
     <string name="MessageNotifier_failed_to_deliver_message">メッセージの配信に失敗しました。</string>
@@ -489,7 +488,6 @@
     <string name="activity_register_explanation">Session ID は、Session で連絡を取るために使用できる一意のアドレスです。本当のアイデンティティに関係なく、あなたの Session ID は設計上完全に匿名でプライベートです。</string>
     <string name="activity_restore_title">アカウントを復元する</string>
     <string name="displayNamePick">表示名を選択してください</string>
-    <string name="activity_display_name_explanation">これは、Session を使用するときの名前になります。あなたの本当の名前、エイリアス、またはあなたが好きな他のものに設定することができます。</string>
     <string name="displayNameEnter">表示名を入力してください</string>
     <string name="displayNameErrorDescription">表示名を選択してください</string>
     <string name="displayNameErrorDescriptionShorter">短い表示名を選択してください</string>

@@ -228,8 +228,7 @@ on viallinen!</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Poistetaanko viesti?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tämä poistaa pysyvästi tämän viestin.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d uutta viestiä %2$d keskustelussa</string>
-    <string name="MessageNotifier_most_recent_from_s">Uusin lähettäjältä: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d uutta viestiä %2$d keskustelussa</string>
     <string name="MessageNotifier_locked_message">Lukittu viesti</string>
     <string name="MessageNotifier_message_delivery_failed">Viestin toimitus epäonnistui.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Viestin lähetys ei onnistunut.</string>
@@ -503,7 +502,6 @@ on viallinen!</string>
     <string name="activity_register_explanation">Session ID on yksilöllinen osoite, jonka avulla muut voivat ottaa sinuun yhteyttä Sessionissa. Sillä ei ole yhteyttä todelliseen identiteettiisi, Session ID on täysin anonyymi ja yksityinen tarkoituksella.</string>
     <string name="activity_restore_title">Palauta sinun tili</string>
     <string name="displayNamePick">Valitse näyttönimi</string>
-    <string name="activity_display_name_explanation">Tämä on nimesi, kun käytät Sessionia. Se voi olla oikea nimesi, kutsumanimi tai mitä tahansa muuta haluat.</string>
     <string name="displayNameEnter">Syötä näyttönimi</string>
     <string name="displayNameErrorDescription">Valitse näyttönimi</string>
     <string name="displayNameErrorDescriptionShorter">Valitse lyhyempi näyttönimi</string>
@@ -610,7 +608,7 @@ on viallinen!</string>
     <string name="activity_link_device_scan_qr_code">Skannaa QR-koodi</string>
     <string name="activity_link_device_qr_message">Siirry asetuksiin → palautusvirke toisella laitteellasi näyttääksesi QR-koodisi.</string>
     <string name="activity_join_public_chat_join_rooms">Tai liity johonkin näistä…</string>
-    <string name="activity_pn_mode_explanation">On kaksi tapaa joilla Session voi ilmoittaa sinulle uusista viesteistä.</string>
+    <string name="onboardingMessageNotificationExplaination">On kaksi tapaa joilla Session voi ilmoittaa sinulle uusista viesteistä.</string>
     <string name="activity_pn_mode_fast_mode">Nopea tila</string>
     <string name="activity_pn_mode_slow_mode">Hidastila</string>
     <string name="activity_pn_mode_fast_mode_explanation">Sinulle ilmoitetaan uusista viesteistä luotettavasti ja viivyttelemättä Applen ilmoituspalvelua käyttäen.</string>
@@ -641,7 +639,6 @@ on viallinen!</string>
     <string name="warning">Varoitus</string>
     <string name="dialog_send_seed_send_button_title">Lähetä</string>
     <string name="notify_type_all">Kaikki</string>
-    <string name="notify_type_mentions">Maininnat</string>
     <string name="deleted_message">Tämä viesti on poistettu</string>
     <string name="delete_message_for_me">Poista vain minulta</string>
     <string name="delete_message_for_everyone">Poista kaikilta</string>

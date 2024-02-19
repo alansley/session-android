@@ -237,8 +237,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Ջնջե՞լ նամակը</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Սա ընդմիշտ կջնջի այս հաղորդագրությունը:</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d նոր հաղորդագրություններ %2$d խոսակցություններում</string>
-    <string name="MessageNotifier_most_recent_from_s">Վերջինը %1$s֊ից</string>
+    <string name="notificationsAndroidSystem">%1$d նոր հաղորդագրություններ %2$d խոսակցություններում</string>
     <string name="MessageNotifier_locked_message">Կողպված հաղորդագրություն</string>
     <string name="MessageNotifier_message_delivery_failed">Հաղորդագրության առաքումը ձախողվեց:</string>
     <string name="MessageNotifier_failed_to_deliver_message">Չհաջողվեց առաքել հաղորդագրությունը.</string>
@@ -512,7 +511,6 @@
     <string name="activity_register_explanation">Ձեր Սեանսի ինքնությունը հատուկ հասցե է, որը մարդիկ պիտի օգտագործեն Ձեզ հետ Սեանսով կապ հաստատելու համար։ Ձեր իրական ինքնության հետ կապ չունենալով, Ձեր Սեանսի ինքնությունն լիովին գաղտնի է։</string>
     <string name="activity_restore_title">Վերականգնել ձեր հաշիվը</string>
     <string name="displayNamePick">Ընտրեք ցուցադրվող անուն</string>
-    <string name="activity_display_name_explanation">Այս անունը կցուցադրվի, երբ Դուք կօգտվեք Սեանսից։ Այն կարող է լինել Ձեր անունը, կեղծանուն, կամ որևիցե այլ բան։</string>
     <string name="displayNameEnter">Մուտքագրեք ցուցադրվող անուն</string>
     <string name="displayNameErrorDescription">Խնդրում ենք գրել անուն</string>
     <string name="displayNameErrorDescriptionShorter">Խնդրում ենք ընտրել կարճ անուն</string>
@@ -619,7 +617,7 @@
     <string name="activity_link_device_scan_qr_code">Սկանավորել QR Կոդը</string>
     <string name="activity_link_device_qr_message">Անցեք Կարգավորումներ → Վերականգնման Բառակապակցություն՝ ձեր QR կոդը ցուցադրելու համար:</string>
     <string name="activity_join_public_chat_join_rooms">Կամ միացե՛ք սրանցից մեկին…</string>
-    <string name="activity_pn_mode_explanation">Երկու եղանակով Session-ը կարող է ձեզ տեղեկացնել նոր հաղորդագրությունների մասին:</string>
+    <string name="onboardingMessageNotificationExplaination">Երկու եղանակով Session-ը կարող է ձեզ տեղեկացնել նոր հաղորդագրությունների մասին:</string>
     <string name="activity_pn_mode_fast_mode">Արագ ռեժիմ</string>
     <string name="activity_pn_mode_slow_mode">Դանդաղ ռեժիմ</string>
     <string name="activity_pn_mode_fast_mode_explanation">Դուք մշտապես և անմիջապես կտեղեկացվեք նոր հաղորդագրությունների մասին՝ օգտագործելով Google-ի ծանուցումների սերվերները:</string>
@@ -650,7 +648,6 @@
     <string name="warning">Զգուշացում</string>
     <string name="dialog_send_seed_send_button_title">Ուղարկել</string>
     <string name="notify_type_all">Բոլորը</string>
-    <string name="notify_type_mentions">Հիշեցումներ</string>
     <string name="deleted_message">Այս հաղորդագրությունը ջնջվել է</string>
     <string name="delete_message_for_me">Ջնջել միայն իմ համար</string>
     <string name="delete_message_for_everyone">Ջնջել բոլորի համար</string>

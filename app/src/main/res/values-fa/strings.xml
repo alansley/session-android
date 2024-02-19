@@ -229,8 +229,7 @@
     <string name="MediaPreviewActivity_media_delete_confirmation_title">حذف پیام؟</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">این باعث حذف این پیام به صورت دائم خواهد شد.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d پیام در %2$d گفتگو</string>
-    <string name="MessageNotifier_most_recent_from_s">پیام های اخیر: %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d پیام در %2$d گفتگو</string>
     <string name="MessageNotifier_locked_message">پیام قفل شده</string>
     <string name="MessageNotifier_message_delivery_failed">تحویل پیام شکست خورده است.</string>
     <string name="MessageNotifier_failed_to_deliver_message">ناموفق برای تحویل پیام.</string>
@@ -504,7 +503,6 @@
     <string name="activity_register_explanation">شناسه‌ی Session شما آدرس منحصر به فردی است که افراد می‌توانند از طریق آن با شما در Session تماس بگیرند. شناسه‌ی Session شما، بدون اتصال با هویت واقعی شما، کاملاً ناشناس و خصوصی است.</string>
     <string name="activity_restore_title">حساب کاربری خود را بازیابی کنید</string>
     <string name="displayNamePick">نام خود را برای نمایش انتخاب کنید</string>
-    <string name="activity_display_name_explanation">این نام شما هنگام استفاده از Session خواهد بود. این نام می‌تواند نام واقعی شما، نام مستعار یا هر چیز دیگری که دوست دارید، باشد.</string>
     <string name="displayNameEnter">نام نمایشی را وارد کنید</string>
     <string name="displayNameErrorDescription">لطفا نام نمایشی را انتخاب کنید</string>
     <string name="displayNameErrorDescriptionShorter">لطفا نام نمایشی کوتاه‌تری انتخاب کنید</string>
@@ -611,7 +609,7 @@
     <string name="activity_link_device_scan_qr_code">اسکن کد QR</string>
     <string name="activity_link_device_qr_message">برای دیدن کد QR خود، در دستگاه دیگرتان به «تنظیمات ← عبارت بازیابی» مراجعه کنید.</string>
     <string name="activity_join_public_chat_join_rooms">یا به یکی از این‌ها بپیوندید…</string>
-    <string name="activity_pn_mode_explanation">دو راه برای اطلاع رسانی شما از پیام‌های جدید در نشست وجود دارد.</string>
+    <string name="onboardingMessageNotificationExplaination">دو راه برای اطلاع رسانی شما از پیام‌های جدید در نشست وجود دارد.</string>
     <string name="activity_pn_mode_fast_mode">حالت سریع</string>
     <string name="activity_pn_mode_slow_mode">حالت آهسته</string>
     <string name="activity_pn_mode_fast_mode_explanation">شما سریع و مطمئن با استفاده از سرور‌های اطلاع‌رسانی گوگل از پیام‌های جدید مطلع می‌شوید.</string>
@@ -642,7 +640,6 @@
     <string name="warning">هشدار</string>
     <string name="dialog_send_seed_send_button_title">ارسال</string>
     <string name="notify_type_all">همه</string>
-    <string name="notify_type_mentions">مخاطب قرارداده‌شده‌ها</string>
     <string name="deleted_message">این پیام حذف شده است</string>
     <string name="delete_message_for_me">حذف برای من</string>
     <string name="delete_message_for_everyone">حذف برای همه</string>

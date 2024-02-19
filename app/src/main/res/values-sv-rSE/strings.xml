@@ -229,8 +229,7 @@ för nyckelutbyte!</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Radera meddelande?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Detta kommer permanent radera detta meddelande.</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nya meddelanden i %2$d konversationer</string>
-    <string name="MessageNotifier_most_recent_from_s">Senaste från %1$s</string>
+    <string name="notificationsAndroidSystem">%1$d nya meddelanden i %2$d konversationer</string>
     <string name="MessageNotifier_locked_message">Låst meddelande</string>
     <string name="MessageNotifier_message_delivery_failed">Meddelandeleverans misslyckades.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Kunde inte leverera meddelande.</string>
@@ -504,7 +503,6 @@ för nyckelutbyte!</string>
     <string name="activity_register_explanation">Ditt Session-ID är den unika adress folk kan använda för att kontakta dig på Session. Ditt Session-ID är helt anonymt och privat rakt igenom, helt utan koppling till din riktiga identitet.</string>
     <string name="activity_restore_title">Återställ ditt konto</string>
     <string name="displayNamePick">Välj visningsnamn</string>
-    <string name="activity_display_name_explanation">Detta blir ditt namn när du använder Session. Det kan vara ditt riktiga namn, ett alias eller något annat du gillar.</string>
     <string name="displayNameEnter">Ange ett visningsnamn</string>
     <string name="displayNameErrorDescription">Vänligen välj ett visningsnamn</string>
     <string name="displayNameErrorDescriptionShorter">Vänligen välj ett kortare visningsnamn</string>
@@ -611,7 +609,7 @@ för nyckelutbyte!</string>
     <string name="activity_link_device_scan_qr_code">Skanna QR-kod</string>
     <string name="activity_link_device_qr_message">Navigera till Inställningar → Återställningsfras på din andra enhet för att visa din QR-kod.</string>
     <string name="activity_join_public_chat_join_rooms">Eller gå med i en av dessa…</string>
-    <string name="activity_pn_mode_explanation">Det finns två sätt som Session kan meddela dig om nya meddelanden på.</string>
+    <string name="onboardingMessageNotificationExplaination">Det finns två sätt som Session kan meddela dig om nya meddelanden på.</string>
     <string name="activity_pn_mode_fast_mode">Snabbläge</string>
     <string name="activity_pn_mode_slow_mode">Långsamt läge</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
@@ -642,7 +640,6 @@ för nyckelutbyte!</string>
     <string name="warning">Varning</string>
     <string name="dialog_send_seed_send_button_title">Skicka</string>
     <string name="notify_type_all">Alla</string>
-    <string name="notify_type_mentions">Omnämningar</string>
     <string name="deleted_message">Detta meddelande har tagits bort</string>
     <string name="delete_message_for_me">Ta bort för mig</string>
     <string name="delete_message_for_everyone">Ta bort för alla</string>
