@@ -93,11 +93,11 @@
 
     </PreferenceCategory> -->
 
-    <PreferenceCategory android:title="@string/preferences__incognito_keyboard">
+    <PreferenceCategory android:title="@string/incognitoKeyboard">
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="pref_incognito_keyboard"
-            android:title="@string/preferences__incognito_keyboard"
+            android:title="@string/incognitoKeyboard"
             android:summary="@string/preferences__request_keyboard_to_disable_personalized_learning"/>
     </PreferenceCategory>
 
