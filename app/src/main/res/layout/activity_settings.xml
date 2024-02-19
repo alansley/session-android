@@ -181,7 +181,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_toEndOf="@+id/privacyContainer"
-                        android:text="@string/activity_settings_privacy_button_title" />
+                        android:text="@string/sessionPrivacy" />
                 </RelativeLayout>
 
                 <View
