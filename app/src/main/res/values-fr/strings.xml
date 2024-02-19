@@ -456,7 +456,6 @@
     <string name="preferences_advanced__use_system_emoji">Utiliser les émojis du système</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Désactiver la prise en charge des émojis intégrés à Session</string>
     <string name="preferences_app_protection__screen_security">Sécurité d\'écran</string>
-    <string name="preferences_chats__chats">Conversations</string>
     <string name="preferences_notifications__messages">Messages</string>
     <string name="preferences_notifications__in_chat_sounds">Sons des conversations</string>
     <string name="preferences_notifications__content">Contenu de la notification</string>
@@ -617,7 +616,6 @@
     <string name="activity_settings_display_name_missing_error">Veuillez choisir un nom d\'utilisateur</string>
     <string name="activity_settings_display_name_too_long_error">Veuillez choisir un nom d\'utilisateur plus court</string>
     <string name="activity_settings_message_requests_button_title">Demandes de message</string>
-    <string name="activity_settings_chats_button_title">Conversations</string>
     <string name="activity_settings_devices_button_title">Appareils reliés</string>
     <string name="activity_settings_invite_button_title">Inviter un ami</string>
     <string name="activity_settings_faq_button_title">FAQ</string>
@@ -745,7 +743,6 @@
     <string name="conversation_pin">Épingler</string>
     <string name="conversation_unpin">Désépingler</string>
     <string name="mark_all_as_read">Tout marquer comme lu</string>
-    <string name="global_search_contacts_groups">Contacts et Groupes</string>
     <string name="global_search_messages">Messages</string>
     <string name="activity_message_requests_title">Demandes de message</string>
     <string name="message_requests_send_notice">Envoyer un message à cet utilisateur acceptera automatiquement sa demande de message et révélera votre ID de session.</string>

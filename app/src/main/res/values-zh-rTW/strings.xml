@@ -431,7 +431,6 @@
     <string name="preferences_chats__message_trimming">訊息整理</string>
     <string name="preferences_advanced__use_system_emoji">使用系統表情符號</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">停用 Session 內建的表情支援</string>
-    <string name="preferences_chats__chats">聊天</string>
     <string name="preferences_notifications__messages">訊息</string>
     <string name="preferences_notifications__in_chat_sounds">聊天音效</string>
     <string name="preferences_notifications__priority">優先順序</string>
@@ -582,7 +581,6 @@
     <string name="activity_settings_display_name_edit_text_hint">輸入您的名稱</string>
     <string name="activity_settings_display_name_missing_error">請選擇一個名稱</string>
     <string name="activity_settings_display_name_too_long_error">請使用一個較短的名稱</string>
-    <string name="activity_settings_chats_button_title">聊天</string>
     <string name="activity_settings_devices_button_title">裝置</string>
     <string name="activity_settings_invite_button_title">邀請好友</string>
     <string name="activity_settings_faq_button_title">常見問題</string>
@@ -695,7 +693,6 @@
     <string name="conversation_pin">釘選</string>
     <string name="conversation_unpin">取消釘選</string>
     <string name="mark_all_as_read">全部標示為已讀</string>
-    <string name="global_search_contacts_groups">聯絡人群組</string>
     <string name="global_search_messages">訊息</string>
     <string name="NewConversationButton_SessionTooltip">直接傳訊</string>
     <string name="NewConversationButton_ClosedGroupTooltip">已關閉的群組</string>

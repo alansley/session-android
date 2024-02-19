@@ -438,7 +438,6 @@ scambia un altro messaggio!</string>
     <string name="preferences_chats__message_trimming">Cancellazione messaggi</string>
     <string name="preferences_advanced__use_system_emoji">Usa le emoji di sistema</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Disattiva le emoji di Session</string>
-    <string name="preferences_chats__chats">Conversazioni</string>
     <string name="preferences_notifications__messages">Messaggi</string>
     <string name="preferences_notifications__in_chat_sounds">Suoni in chat</string>
     <string name="preferences_notifications__priority">Priorità</string>
@@ -589,7 +588,6 @@ scambia un altro messaggio!</string>
     <string name="activity_settings_display_name_edit_text_hint">Inserisci il nome da visualizzare</string>
     <string name="activity_settings_display_name_missing_error">Scegli il nome da visualizzare</string>
     <string name="activity_settings_display_name_too_long_error">Scegli un nome più breve</string>
-    <string name="activity_settings_chats_button_title">Chat</string>
     <string name="activity_settings_devices_button_title">Dispositivi</string>
     <string name="activity_settings_invite_button_title">Invita un amico</string>
     <string name="activity_settings_faq_button_title">FAQ</string>
@@ -702,7 +700,6 @@ scambia un altro messaggio!</string>
     <string name="conversation_pin">Fissa</string>
     <string name="conversation_unpin">Non fissare in alto</string>
     <string name="mark_all_as_read">Segna tutto come già letto</string>
-    <string name="global_search_contacts_groups">Contatti e Gruppi</string>
     <string name="global_search_messages">Messaggi</string>
     <string name="NewConversationButton_SessionTooltip">Messaggio Privato</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Gruppo Chiuso</string>

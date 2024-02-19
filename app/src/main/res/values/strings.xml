@@ -616,7 +616,6 @@
     <string name="preferences_advanced__use_system_emoji">Use system emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Disable Session\'s built-in emoji support</string>
     <string name="preferences_app_protection__screen_security">Screen Security</string>
-    <string name="preferences_chats__chats">Chats</string>
     <string name="preferences_notifications__messages">Messages</string>
     <string name="preferences_notifications__in_chat_sounds">In-chat sounds</string>
     <string name="preferences_notifications__content">Notification Content</string>
@@ -784,7 +783,6 @@
     <string name="activity_settings_display_name_missing_error">Please pick a display name</string>
     <string name="activity_settings_display_name_too_long_error">Please pick a shorter display name</string>
     <string name="activity_settings_message_requests_button_title">Message Requests</string>
-    <string name="activity_settings_chats_button_title">Chats</string>
     <string name="activity_settings_devices_button_title">Devices</string>
     <string name="activity_settings_invite_button_title">Invite a Friend</string>
     <string name="activity_settings_faq_button_title">FAQ</string>
@@ -912,7 +910,6 @@
     <string name="conversation_pin">Pin</string>
     <string name="conversation_unpin">Unpin</string>
     <string name="mark_all_as_read">Mark all as read</string>
-    <string name="global_search_contacts_groups">Contacts and Groups</string>
     <string name="global_search_messages">Messages</string>
     <string name="activity_message_requests_title">Message Requests</string>
     <string name="message_requests_send_notice">Sending a message to this user will automatically accept their message request and reveal your Session ID.</string>
@@ -1040,5 +1037,6 @@
     <string name="callsVoiceAndVideoBeta">Voice and Video Calls (Beta)</string>
     <string name="callsVoiceAndVideoModalDescription">Your IP is visible to your call partner and an Oxen Foundation server while using beta calls.</string>
     <string name="incognitoKeyboardDescription">Request incognito mode if available. Depending on the keyboard you are using, your keyboard may ignore this request.</string>
+    <string name="sessionConversations">Conversations</string>
 
 </resources>

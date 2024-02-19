@@ -455,7 +455,6 @@
     <string name="preferences_advanced__use_system_emoji">سیستم استفاده از Emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">غیرفعال کردن پشتیبانی از شکلک های ساخته شده Session</string>
     <string name="preferences_app_protection__screen_security">امنیت صفحه</string>
-    <string name="preferences_chats__chats">چت ها</string>
     <string name="preferences_notifications__messages">پیام ها</string>
     <string name="preferences_notifications__in_chat_sounds">صداهای درون گفت‌و‌گو</string>
     <string name="preferences_notifications__content">محتوی اعلان</string>
@@ -614,7 +613,6 @@
     <string name="activity_settings_display_name_missing_error">لطفا یک نام انتخاب کنید</string>
     <string name="activity_settings_display_name_too_long_error">لطفا یک نام نمایشی کوتاه‌تر انتخاب کنید</string>
     <string name="activity_settings_message_requests_button_title">درخواست های پیام</string>
-    <string name="activity_settings_chats_button_title">گفت‌وگوها</string>
     <string name="activity_settings_devices_button_title">دستگاه‌ها</string>
     <string name="activity_settings_invite_button_title">دعوت از یک دوست</string>
     <string name="activity_settings_faq_button_title">سوالات متداول</string>
@@ -742,7 +740,6 @@
     <string name="conversation_pin">سنجاق کردن</string>
     <string name="conversation_unpin">برداشتن سنجاق</string>
     <string name="mark_all_as_read">علامت‌گذاری همه بعنوان خوانده شده</string>
-    <string name="global_search_contacts_groups">گروه‌ها و مخاطبین</string>
     <string name="global_search_messages">پیام‌ها</string>
     <string name="activity_message_requests_title">درخواست های پیام</string>
     <string name="message_requests_send_notice">ارسال پیام به این کاربر موجب می‌شود درخواست پیام او به صورت خودکار قبول گردد و باعث آشکار شدن کد شناسایی Session شما میشود.</string>

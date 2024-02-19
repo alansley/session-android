@@ -445,7 +445,6 @@
     <string name="preferences_chats__message_trimming">Նամակների կարճեցում</string>
     <string name="preferences_advanced__use_system_emoji">Օգտագործել համակարգի էմոջին</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Անջատել Session-ի ներկառուցված էմոջիների ապահովումը</string>
-    <string name="preferences_chats__chats">Չատեր</string>
     <string name="preferences_notifications__messages">Նամակներ</string>
     <string name="preferences_notifications__in_chat_sounds">Ձայներ չատում</string>
     <string name="preferences_notifications__priority">Առաջնայնություն</string>
@@ -596,7 +595,6 @@
     <string name="activity_settings_display_name_edit_text_hint">Մուտքագրեք ցուցադրվող անուն</string>
     <string name="activity_settings_display_name_missing_error">Այս դաշտը չպիտի լինի դատարկ</string>
     <string name="activity_settings_display_name_too_long_error">Այս ցուցադրվող անունը չափազանց երկար է</string>
-    <string name="activity_settings_chats_button_title">Զրույցներ</string>
     <string name="activity_settings_devices_button_title">Սարքեր</string>
     <string name="activity_settings_invite_button_title">Հրավիրել ընկերոջը</string>
     <string name="activity_settings_faq_button_title">Հաճախակի տրվող հարցեր</string>
@@ -709,7 +707,6 @@
     <string name="conversation_pin">Ամրացնել</string>
     <string name="conversation_unpin">Արձակել</string>
     <string name="mark_all_as_read">Նշել բոլորը, որպես տեսնված</string>
-    <string name="global_search_contacts_groups">Կոնտակտներ և խմբեր</string>
     <string name="global_search_messages">Հաղորդագրություններ</string>
     <string name="NewConversationButton_SessionTooltip">Անմիջական հաղորդագրություն</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Փակ խումբ</string>

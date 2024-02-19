@@ -462,7 +462,6 @@
     <string name="preferences_chats__message_trimming">Обрезка сообщений</string>
     <string name="preferences_advanced__use_system_emoji">Использовать системные эмодзи</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Отключить встроенные эмодзи Session</string>
-    <string name="preferences_chats__chats">Чаты</string>
     <string name="preferences_notifications__messages">Сообщения</string>
     <string name="preferences_notifications__in_chat_sounds">Звуки в чате</string>
     <string name="preferences_notifications__priority">Приоритет</string>
@@ -613,7 +612,6 @@
     <string name="activity_settings_display_name_edit_text_hint">Введите отображаемое имя</string>
     <string name="activity_settings_display_name_missing_error">Пожалуйста, выберите отображаемое имя</string>
     <string name="activity_settings_display_name_too_long_error">Пожалуйста, выберите более короткое отображаемое имя</string>
-    <string name="activity_settings_chats_button_title">Чаты</string>
     <string name="activity_settings_devices_button_title">Устройства</string>
     <string name="activity_settings_invite_button_title">Пригласить друга</string>
     <string name="activity_settings_faq_button_title">Часто задаваемые вопросы</string>

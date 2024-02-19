@@ -272,7 +272,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
                     }
 
                     if (contactResults.isNotEmpty()) {
-                        contactResults.add(0, GlobalSearchAdapter.Model.Header(R.string.global_search_contacts_groups))
+                        contactResults.add(0, GlobalSearchAdapter.Model.Header(R.string.sessionConversations))
                     }
 
                     val unreadThreadMap = result.messages

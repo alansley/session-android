@@ -484,7 +484,6 @@
     <string name="preferences_chats__message_trimming">تقليم الرسالة</string>
     <string name="preferences_advanced__use_system_emoji">استخدام الرموز التعبيرية بالنظام</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">تعطيل الرموز التعبيرية المدمجة في Session</string>
-    <string name="preferences_chats__chats">دردشة</string>
     <string name="preferences_notifications__messages">الرسائل</string>
     <string name="preferences_notifications__in_chat_sounds">أصوات خلال الدردشة</string>
     <string name="preferences_notifications__priority">أولوية</string>
@@ -635,7 +634,6 @@
     <string name="activity_settings_display_name_edit_text_hint">ادخِل إسم العرض</string>
     <string name="activity_settings_display_name_missing_error">الرجاء إختيار إسم العرض</string>
     <string name="activity_settings_display_name_too_long_error">الرجاء إختيار اسم عرض أقصر</string>
-    <string name="activity_settings_chats_button_title">المحادثات</string>
     <string name="activity_settings_devices_button_title">الأجهزة</string>
     <string name="activity_settings_invite_button_title">أُدع صديق</string>
     <string name="activity_settings_faq_button_title">الأسئلة الأكثر طرحاً</string>
