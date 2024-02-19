@@ -14,7 +14,6 @@
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">ಎಲ್ಲಾ ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
-    <string name="ApplicationPreferencesActivity_delete">ಅಳಿಸು</string>
     <string name="ApplicationPreferencesActivity_On">ಆನ್</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ಚಿತ್ರ)</string>
@@ -195,7 +194,6 @@
     <string name="preferences__delete_old_messages">ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ</string>
     <string name="_default">ಪೂರ್ವನಿಯೋಜಿತ</string>
     <string name="preferences_notifications__messages">ಸಂದೇಶಗಳು</string>
-    <string name="preferences_notifications__priority">ಆದ್ಯತೆ</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -245,7 +243,7 @@
     <string name="activity_qr_code_view_scan_qr_code_tab_title">QR ಕೋಡ್‌ ಸ್ಕ್ಯಾನ್‌ ಮಾಡಿ</string>
     <string name="fragment_view_my_qr_code_share_title">QR ಸಂಕೇತವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
     <!-- Next round of translation -->
-    <string name="menu_done_button">ಆಗಿದೆ</string>
+    <string name="done">ಆಗಿದೆ</string>
     <string name="activity_edit_closed_group_edit_members">ಸದಸ್ಯರು</string>
     <string name="activity_edit_closed_group_add_members">ಸದಸ್ಯರನ್ನು ಸೇರಿಸು</string>
     <string name="dialog_ui_mode_option_day">ಹಗಲು</string>

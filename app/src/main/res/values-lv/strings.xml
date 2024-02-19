@@ -19,7 +19,6 @@
         <item quantity="other">sarakstē ir %d ziņojumi</item>
     </plurals>
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Dzēst visus vecos ziņojumus?</string>
-    <string name="ApplicationPreferencesActivity_delete">Dzēst</string>
     <string name="ApplicationPreferencesActivity_On">Ieslēgts</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(attēls)</string>
@@ -200,7 +199,7 @@
     <string name="fragment_contact_selection_closed_groups_title">Slēgtās grupas</string>
     <string name="fragment_contact_selection_open_groups_title">Atvērtās grupas</string>
     <!-- Next round of translation -->
-    <string name="menu_done_button">Pabeigts</string>
+    <string name="done">Pabeigts</string>
     <string name="activity_edit_closed_group_title">Rediģēt grupu</string>
     <string name="activity_edit_closed_group_edit_members">Dalībnieki</string>
     <string name="activity_edit_closed_group_add_members">Pievienot dalībniekus</string>

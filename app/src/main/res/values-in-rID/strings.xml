@@ -20,7 +20,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">Ini akan memangkas semua percakapan menjadi %d percakapan terbaru.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Hapus</string>
     <string name="ApplicationPreferencesActivity_On">Hidup</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(gambar)</string>
@@ -311,7 +310,6 @@
     <string name="arrays__disabled">Dinonaktifkan</string>
     <string name="arrays__name_and_message">Nama dan pesan</string>
     <string name="notificationsContentShowNameOnly">Hanya nama</string>
-    <string name="arrays__no_name_or_message">Tanpa nama atau pesan</string>
     <string name="arrays__images">Gambar</string>
     <string name="arrays__audio">Suara</string>
     <string name="arrays__video">Video</string>
@@ -391,7 +389,6 @@
     <string name="BackupDialog_enable_backups">Aktifkan backup</string>
     <string name="BackupDialog_delete_backups">Hapus backup?</string>
     <string name="BackupDialog_delete_backups_statement">Hapus backup</string>
-    <string name="BackupDialog_copied_to_clipboard">Salin ke clipboard</string>
     <string name="LocalBackupJob_creating_backup">Membuat backup...</string>
     <string name="ProgressPreference_d_messages_so_far">%d pesan sejauh ini</string>
     <string name="preferences_app_protection__screen_lock">Kunci layar</string>
@@ -402,7 +399,7 @@
     <string name="continue_2">Lanjutkan</string>
     <string name="copy">Salin</string>
     <string name="invalid_url">URL salah</string>
-    <string name="copied_to_clipboard">Salin ke clipboard</string>
+    <string name="copied">Salin ke clipboard</string>
     <string name="next">Berikutnya</string>
     <string name="activity_register_title">Ucapkan halo pada Session ID anda</string>
     <string name="activity_register_explanation">Session ID adalah alamat unik yang bisa digunakan untuk mengontak anda. Tanpa koneksi dengan identitas asli, Session ID anda didesain bersifat anonim dan rahasia.</string>
@@ -443,7 +440,7 @@
     <string name="fragment_contact_selection_empty_contacts">Anda belum memiliki kontak</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Terapkan</string>
-    <string name="menu_done_button">Selesai</string>
+    <string name="done">Selesai</string>
     <string name="activity_edit_closed_group_title">Ubah Grup</string>
     <string name="activity_edit_closed_group_edit_text_hint">Masukkan nama grup</string>
     <string name="activity_edit_closed_group_edit_members">Anggota</string>
@@ -457,7 +454,6 @@
     <string name="details">Detail</string>
     <string name="activity_backup_restore_select_file">Pilih file</string>
     <string name="activity_link_device_scan_qr_code">Pindai kode QR</string>
-    <string name="activity_pn_mode_message_notifications">Notifikasi Pesan</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session sesekali akan memeriksa pesan baru di latar belakang.</string>
     <string name="activity_prompt_passphrase_session_locked">Session terkunci</string>
     <string name="dialog_blocked_title">Buka blokir %s?</string>

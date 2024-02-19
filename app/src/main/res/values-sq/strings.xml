@@ -22,7 +22,6 @@
         <item quantity="one">Kjo do të qethë menjëherë krejt bisedat deri te mesazhi më i ri.</item>
         <item quantity="other">Kjo do të qethë menjëherë krejt bisedat deri te %d mesazhet më të rinj.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Fshije</string>
     <string name="ApplicationPreferencesActivity_On">Ndezur</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(figurë)</string>
@@ -373,7 +372,6 @@
     <string name="arrays__disabled">E çaktivizuar</string>
     <string name="arrays__name_and_message">Emër dhe mesazh</string>
     <string name="notificationsContentShowNameOnly">Vetëm emrin</string>
-    <string name="arrays__no_name_or_message">Pa emër ose mesazh</string>
     <string name="arrays__images">Figura</string>
     <string name="arrays__audio">Audio</string>
     <string name="arrays__video">Video</string>
@@ -431,7 +429,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Çaktivizo mbulimin e brendshëm të Session-it për emoji-t</string>
     <string name="preferences_notifications__messages">Mesazhe</string>
     <string name="preferences_notifications__in_chat_sounds">Tinguj në fjalosje</string>
-    <string name="preferences_notifications__priority">Përparësi</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -493,7 +490,6 @@
     <string name="BackupDialog_delete_backups">Të fshihen kopjeruajtjet?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Të çaktivizohen dhe fshihen krejt kopjeruajtjet vendore?</string>
     <string name="BackupDialog_delete_backups_statement">Fshiji kopjeruajtjet</string>
-    <string name="BackupDialog_copied_to_clipboard">U kopjua në të papastër</string>
     <string name="LocalBackupJob_creating_backup">Po krijohet kopjeruajtje…</string>
     <string name="ProgressPreference_d_messages_so_far">%d mesazhe deri këtu</string>
     <string name="BackupUtil_never">Kurrë</string>
@@ -506,7 +502,7 @@
     <string name="continue_2">Vazhdo</string>
     <string name="copy">Kopjoje</string>
     <string name="invalid_url">URL e pavlefshme</string>
-    <string name="copied_to_clipboard">Kopjo në klipbord</string>
+    <string name="copied">Kopjo në klipbord</string>
     <string name="next">Tutje</string>
     <string name="share">Shpërndaje</string>
     <string name="invalid_session_id">Session ID e gabuar</string>

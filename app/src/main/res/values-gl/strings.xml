@@ -22,7 +22,6 @@
         <item quantity="one">Isto reducirá todas as conversas á mensaxe máis recente.</item>
         <item quantity="other">Isto reducirá todas as conversas ás %d mensaxes máis recentes.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Borrar</string>
     <string name="ApplicationPreferencesActivity_On">Activado</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imaxe)</string>
@@ -368,7 +367,6 @@
     <string name="arrays__disabled">Desactivado</string>
     <string name="arrays__name_and_message">Nome e mensaxe</string>
     <string name="notificationsContentShowNameOnly">Só o nome</string>
-    <string name="arrays__no_name_or_message">Nin o nome nin a mensaxe</string>
     <string name="arrays__images">Imaxes</string>
     <string name="arrays__audio">Audio</string>
     <string name="arrays__video">Vídeo</string>
@@ -424,7 +422,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desactiva o soporte emoji integrado en Session</string>
     <string name="preferences_notifications__messages">Mensaxes</string>
     <string name="preferences_notifications__in_chat_sounds">Sons durante a conversa</string>
-    <string name="preferences_notifications__priority">Prioridade</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -486,7 +483,6 @@
     <string name="BackupDialog_delete_backups">Borrar copias de seguranza?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Desactivar e borrar todas as copias de seguranza locais?</string>
     <string name="BackupDialog_delete_backups_statement">Borrar copias de seguranza</string>
-    <string name="BackupDialog_copied_to_clipboard">Copiado ao portapapeis</string>
     <string name="LocalBackupJob_creating_backup">Creando copia de seguranza...</string>
     <string name="ProgressPreference_d_messages_so_far">%d mensaxes ata o momento</string>
     <string name="BackupUtil_never">Nunca</string>
@@ -499,7 +495,7 @@
     <string name="continue_2">Continuar</string>
     <string name="copy">Copiar</string>
     <string name="invalid_url">URL inválido</string>
-    <string name="copied_to_clipboard">Copiado ao portapapeis</string>
+    <string name="copied">Copiado ao portapapeis</string>
     <string name="next">Seguinte</string>
     <string name="share">Partillar</string>
     <string name="invalid_session_id">ID de Session inválido</string>

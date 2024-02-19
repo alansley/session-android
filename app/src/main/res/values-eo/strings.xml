@@ -22,7 +22,6 @@
         <item quantity="one">Tio tuj tondetos ĉiujn konversaciojn al la plej lastatempa mesaĝo.</item>
         <item quantity="other">Tio tuj tondetos ĉiujn interparolojn al la %d plej lastatempaj mesaĝoj.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Forviŝi</string>
     <string name="ApplicationPreferencesActivity_On">Ŝaltita</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bildo)</string>
@@ -374,7 +373,6 @@
     <string name="arrays__disabled">Malŝaltita</string>
     <string name="arrays__name_and_message">Nomon kaj mesaĝon</string>
     <string name="notificationsContentShowNameOnly">Nur nomon</string>
-    <string name="arrays__no_name_or_message">Nek nomon aŭ mesaĝon</string>
     <string name="arrays__images">Bildoj</string>
     <string name="arrays__audio">Sonaĵo</string>
     <string name="arrays__video">Videaĵo</string>
@@ -432,7 +430,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Malebligi emoĝiaron de Session</string>
     <string name="preferences_notifications__messages">Mesaĝoj</string>
     <string name="preferences_notifications__in_chat_sounds">Sonoj dum interparolado</string>
-    <string name="preferences_notifications__priority">Prioritato</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -494,7 +491,6 @@
     <string name="BackupDialog_delete_backups">Ĉu forviŝi savkopiojn?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Ĉu malŝalti kaj forviŝi ĉiujn lokajn savkopiojn?</string>
     <string name="BackupDialog_delete_backups_statement">Forviŝi savkopiojn</string>
-    <string name="BackupDialog_copied_to_clipboard">Kopiite al tondujo</string>
     <string name="LocalBackupJob_creating_backup">Kreo de savkopio...</string>
     <string name="ProgressPreference_d_messages_so_far">%d mesaĝoj ĝis nun</string>
     <string name="BackupUtil_never">Neniam</string>
@@ -507,7 +503,7 @@
     <string name="continue_2">Daŭrigi</string>
     <string name="copy">Kopii</string>
     <string name="invalid_url">Malvalida URL</string>
-    <string name="copied_to_clipboard">Kopiite al tondejo</string>
+    <string name="copied">Kopiite al tondejo</string>
     <string name="next">Sekva</string>
     <string name="share">Kunhavigi</string>
     <string name="invalid_session_id">Malvalida Session ID</string>
@@ -547,8 +543,8 @@
     <string name="view_seed_reminder_subtitle_2">Tuŝadu la kaŝitajn vortojn por malkaŝi vian riparan frazon, tiam konservi ĝin sekure por sekurigi vian Session ID-on.</string>
     <string name="view_seed_reminder_subtitle_3">Certigu konservi vian riparan frazon en sekura loko</string>
     <string name="onionRoutingPath">Vojo</string>
-    <string name="activity_path_guard_node_row_title">Enira Nodo</string>
-    <string name="activity_path_service_node_row_title">Serva Nodo</string>
+    <string name="onionRoutingPathEntryNode">Enira Nodo</string>
+    <string name="onionRoutingPathServiceNode">Serva Nodo</string>
     <string name="onionRoutingPathDestination">Celo</string>
     <string name="learnMore">Lerni pli</string>
     <string name="activity_path_resolving_progress">Solvante…</string>
@@ -605,7 +601,7 @@
     <string name="fragment_contact_selection_empty_contacts">Vi ankoraŭ ne havas kontaktojn</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Apliki</string>
-    <string name="menu_done_button">Farite</string>
+    <string name="done">Farite</string>
     <string name="activity_edit_closed_group_title">Redakti Grupon</string>
     <string name="activity_edit_closed_group_edit_text_hint">Entajpu novan grupnomon</string>
     <string name="activity_edit_closed_group_edit_members">Membroj</string>
@@ -630,7 +626,6 @@
     <string name="activity_link_device_link_device">Ligi Aparaton</string>
     <string name="activity_link_device_scan_qr_code">Skani QR-Kodon</string>
     <string name="activity_join_public_chat_join_rooms">Aŭ aliĝu unu de ĉi tiuj…</string>
-    <string name="activity_pn_mode_message_notifications">Sciigoj pri Mesaĝoj</string>
     <string name="activity_pn_mode_fast_mode">Rapida Reĝimo</string>
     <string name="activity_pn_mode_slow_mode">Malrapida Maniero</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session foje serĉos novajn mesaĝojn en la fono.</string>

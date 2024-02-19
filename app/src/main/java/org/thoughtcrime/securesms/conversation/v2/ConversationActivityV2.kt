@@ -1159,7 +1159,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         val clip = ClipData.newPlainText("Session ID", sessionId)
         val manager = getSystemService(PassphraseRequiredActionBarActivity.CLIPBOARD_SERVICE) as ClipboardManager
         manager.setPrimaryClip(clip)
-        Toast.makeText(this, R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, R.string.copied, Toast.LENGTH_SHORT).show()
     }
 
     override fun copyOpenGroupUrl(thread: Recipient) {
@@ -1171,7 +1171,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         val clip = ClipData.newPlainText("Community URL", openGroup.joinURL)
         val manager = getSystemService(PassphraseRequiredActionBarActivity.CLIPBOARD_SERVICE) as ClipboardManager
         manager.setPrimaryClip(clip)
-        Toast.makeText(this, R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, R.string.copied, Toast.LENGTH_SHORT).show()
     }
 
     override fun showExpiringMessagesDialog(thread: Recipient) {
@@ -1898,7 +1898,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         if (TextUtils.isEmpty(result)) { return }
         val manager = getSystemService(CLIPBOARD_SERVICE) as ClipboardManager
         manager.setPrimaryClip(ClipData.newPlainText("Message Content", result))
-        Toast.makeText(this, R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, R.string.copied, Toast.LENGTH_SHORT).show()
         endActionMode()
     }
 
@@ -1907,7 +1907,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         val clip = ClipData.newPlainText("Session ID", sessionID)
         val manager = getSystemService(CLIPBOARD_SERVICE) as ClipboardManager
         manager.setPrimaryClip(clip)
-        Toast.makeText(this, R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, R.string.copied, Toast.LENGTH_SHORT).show()
         endActionMode()
     }
 

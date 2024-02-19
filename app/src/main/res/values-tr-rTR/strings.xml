@@ -22,7 +22,6 @@
         <item quantity="one">Bu işlem tüm sohbetleri en yeni iletiye kadar kırpar.</item>
         <item quantity="other">Bu işlem tüm sohbetleri en yeni %d iletiye kadar kırpar.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Sil</string>
     <string name="ApplicationPreferencesActivity_On">Açık</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(görüntü)</string>
@@ -374,7 +373,6 @@ iletisi alındı!</string>
     <string name="arrays__disabled">Devre dışı</string>
     <string name="arrays__name_and_message">İsim ve ileti</string>
     <string name="notificationsContentShowNameOnly">Yalnızca isim</string>
-    <string name="arrays__no_name_or_message">İsim veya ileti yok</string>
     <string name="arrays__images">Görüntüler</string>
     <string name="arrays__audio">Ses</string>
     <string name="arrays__video">Video</string>
@@ -432,7 +430,6 @@ iletisi alındı!</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session\'in dahili emoji desteğini devre dışı bırak</string>
     <string name="preferences_notifications__messages">İletiler</string>
     <string name="preferences_notifications__in_chat_sounds">Sohbet içi sesler</string>
-    <string name="preferences_notifications__priority">Öncelik</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -494,7 +491,6 @@ iletisi alındı!</string>
     <string name="BackupDialog_delete_backups">Yedekleri sil?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Tüm yerel yedekler devre dışı bırakılıp silinsin mi?</string>
     <string name="BackupDialog_delete_backups_statement">Yedekleri sil</string>
-    <string name="BackupDialog_copied_to_clipboard">Panoya kopyalandı</string>
     <string name="LocalBackupJob_creating_backup">Yedek oluşturuluyor...</string>
     <string name="ProgressPreference_d_messages_so_far">Şimdiye kadar %d ileti</string>
     <string name="BackupUtil_never">Asla</string>
@@ -507,7 +503,7 @@ iletisi alındı!</string>
     <string name="continue_2">Devam Et</string>
     <string name="copy">Kopyala</string>
     <string name="invalid_url">Geçersiz URL</string>
-    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="copied">Panoya kopyalandı</string>
     <string name="next">İleri</string>
     <string name="share">Paylaş</string>
     <string name="invalid_session_id">Geçersiz Session ID\'si</string>
@@ -547,8 +543,8 @@ iletisi alındı!</string>
     <string name="view_seed_reminder_subtitle_2">Kurtarma ifadenizi ortaya çıkarmak için düzeltilen kelimelere dokunun ve basılı tutun, ardından Session kimliğinizi korumak için güvenli bir şekilde saklayın.</string>
     <string name="view_seed_reminder_subtitle_3">Kurtarma ifadenizi güvenli bir yerde sakladığınızdan emin olun</string>
     <string name="onionRoutingPath">Yol</string>
-    <string name="activity_path_guard_node_row_title">Giriş Düğüm</string>
-    <string name="activity_path_service_node_row_title">Hizmet Düğüm</string>
+    <string name="onionRoutingPathEntryNode">Giriş Düğüm</string>
+    <string name="onionRoutingPathServiceNode">Hizmet Düğüm</string>
     <string name="onionRoutingPathDestination">Hedef Konum</string>
     <string name="learnMore">Fazlasını Öğrenin</string>
     <string name="activity_path_resolving_progress">Çözümleniyor…</string>
@@ -610,7 +606,7 @@ iletisi alındı!</string>
     <string name="fragment_contact_selection_empty_contacts">Henüz kayıtlı kişi yok</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Uygula</string>
-    <string name="menu_done_button">Tamamlandı</string>
+    <string name="done">Tamamlandı</string>
     <string name="activity_edit_closed_group_title">Grubu Düzenle</string>
     <string name="activity_edit_closed_group_edit_text_hint">Yeni bir grup adı girin</string>
     <string name="activity_edit_closed_group_edit_members">Üyeler</string>
@@ -638,7 +634,6 @@ iletisi alındı!</string>
     <string name="activity_link_device_scan_qr_code">QR Kodunu Tara</string>
     <string name="activity_link_device_qr_message">QR kodunuzu göstermek için diğer cihazınızda Ayarlar → Kurtarma İfadesi\'ne gidin.</string>
     <string name="activity_join_public_chat_join_rooms">Veya bunlardan birine katılın…</string>
-    <string name="activity_pn_mode_message_notifications">Mesaj Bildirimleri</string>
     <string name="activity_pn_mode_explanation">Session\'ın sizi yeni mesajlar hakkında bilgilendirmesinin iki yolu vardır.</string>
     <string name="activity_pn_mode_fast_mode">Hızlı Mod</string>
     <string name="activity_pn_mode_slow_mode">Yavaş Mod</string>
@@ -677,7 +672,6 @@ iletisi alındı!</string>
     <string name="delete_message_for_me">Sadece benim için sil</string>
     <string name="delete_message_for_everyone">Herkesten sil</string>
     <string name="delete_message_for_me_and_recipient">Ben ve %s için sil</string>
-    <string name="dialog_share_logs_explanation">Sorun giderme amacıyla paylaşabilmek için uygulama kayıtlarını dışa aktarmak ister misiniz?</string>
     <string name="conversation_pin">Sabitle</string>
     <string name="conversation_unpin">Sabitlemeyi kaldır</string>
 </resources>

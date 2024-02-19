@@ -23,7 +23,6 @@
         <item quantity="one">Questo porterà immediatamente tutte le conversazioni al messaggio più recente.</item>
         <item quantity="other">Saranno ridotte immediatamente tutte le conversazioni ai %d messaggi più recenti.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Eliminare</string>
     <string name="ApplicationPreferencesActivity_On">On</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(immagine)</string>
@@ -375,7 +374,6 @@ scambia un altro messaggio!</string>
     <string name="arrays__disabled">Disattivato</string>
     <string name="arrays__name_and_message">Nome e messaggio</string>
     <string name="notificationsContentShowNameOnly">Solo nome</string>
-    <string name="arrays__no_name_or_message">Né nome, né messaggio</string>
     <string name="arrays__images">Immagini</string>
     <string name="arrays__audio">Audio</string>
     <string name="arrays__video">Video</string>
@@ -433,7 +431,6 @@ scambia un altro messaggio!</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Disattiva le emoji di Session</string>
     <string name="preferences_notifications__messages">Messaggi</string>
     <string name="preferences_notifications__in_chat_sounds">Suoni in chat</string>
-    <string name="preferences_notifications__priority">Priorità</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -495,7 +492,6 @@ scambia un altro messaggio!</string>
     <string name="BackupDialog_delete_backups">Cancellare i backup?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Disabilitare e cancellare tutti backup locali?</string>
     <string name="BackupDialog_delete_backups_statement">Cancellare i backup</string>
-    <string name="BackupDialog_copied_to_clipboard">Aggiunto agli appunti</string>
     <string name="LocalBackupJob_creating_backup">Creazione backup...</string>
     <string name="ProgressPreference_d_messages_so_far">Ancora %d messaggi</string>
     <string name="BackupUtil_never">Mai</string>
@@ -508,7 +504,7 @@ scambia un altro messaggio!</string>
     <string name="continue_2">Continua</string>
     <string name="copy">Copia</string>
     <string name="invalid_url">URL non valido</string>
-    <string name="copied_to_clipboard">Copiato negli appunti</string>
+    <string name="copied">Copiato negli appunti</string>
     <string name="next">Successivo</string>
     <string name="share">Condividi</string>
     <string name="invalid_session_id">ID Sessione non valido</string>
@@ -548,8 +544,8 @@ scambia un altro messaggio!</string>
     <string name="view_seed_reminder_subtitle_2">Tocca e tieni premute le parole redatte per rivelare la frase di recupero, salva in modo sicuro per proteggere il tuo ID Sessione.</string>
     <string name="view_seed_reminder_subtitle_3">Assicurati di salvare la frase di recupero in un luogo sicuro</string>
     <string name="onionRoutingPath">Percorso</string>
-    <string name="activity_path_guard_node_row_title">Nodo di entrata</string>
-    <string name="activity_path_service_node_row_title">Nodo di servizio</string>
+    <string name="onionRoutingPathEntryNode">Nodo di entrata</string>
+    <string name="onionRoutingPathServiceNode">Nodo di servizio</string>
     <string name="onionRoutingPathDestination">Destinazione</string>
     <string name="learnMore">Per saperne di più</string>
     <string name="activity_path_resolving_progress">In Risoluzione…</string>
@@ -611,7 +607,7 @@ scambia un altro messaggio!</string>
     <string name="fragment_contact_selection_empty_contacts">Non hai ancora nessun contatto</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Applica</string>
-    <string name="menu_done_button">Fatto</string>
+    <string name="done">Fatto</string>
     <string name="activity_edit_closed_group_title">Modifica Gruppo</string>
     <string name="activity_edit_closed_group_edit_text_hint">Inserisci un nuovo nome per il gruppo</string>
     <string name="activity_edit_closed_group_edit_members">Membri</string>
@@ -639,7 +635,6 @@ scambia un altro messaggio!</string>
     <string name="activity_link_device_scan_qr_code">Scansiona codice QR</string>
     <string name="activity_link_device_qr_message">Vai su Impostazioni → Frase di recupero sul tuo altro dispositivo per mostrare il tuo codice QR.</string>
     <string name="activity_join_public_chat_join_rooms">Oppure unisciti a uno di questi…</string>
-    <string name="activity_pn_mode_message_notifications">Notifiche Messaggi</string>
     <string name="activity_pn_mode_explanation">Ci sono due modi in cui Session ti può notificare nuovi messaggi.</string>
     <string name="activity_pn_mode_fast_mode">Modalità Veloce</string>
     <string name="activity_pn_mode_slow_mode">Modalità Lenta</string>
@@ -678,7 +673,6 @@ scambia un altro messaggio!</string>
     <string name="delete_message_for_me">Elimina solo per me</string>
     <string name="delete_message_for_everyone">Elimina per tutti</string>
     <string name="delete_message_for_me_and_recipient">Elimina per me e %s</string>
-    <string name="dialog_share_logs_explanation">Vuoi esportare i log dell\'applicazione per essere in grado di condividerli per risolvere i problemi?</string>
     <string name="conversation_pin">Fissa</string>
     <string name="conversation_unpin">Non fissare in alto</string>
     <string name="mark_all_as_read">Segna tutto come già letto</string>

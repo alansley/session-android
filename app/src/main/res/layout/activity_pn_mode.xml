@@ -20,7 +20,7 @@
             android:textStyle="bold"
             android:textColor="?android:textColorPrimary"
             android:contentDescription="@string/AccessibilityId_message_notifications"
-            android:text="@string/activity_pn_mode_message_notifications" />
+            android:text="@string/notificationsMessage" />
 
         <TextView
             android:layout_width="match_parent"

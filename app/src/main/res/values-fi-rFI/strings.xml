@@ -22,7 +22,6 @@
         <item quantity="one">Tämä karsii välittömästi kaikki keskustelut viimeisimpään viestiin.</item>
         <item quantity="other">Tämä karsii välittömästi kaikki keskustelut %d viimeisimpään viestiin.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Poista</string>
     <string name="ApplicationPreferencesActivity_On">Päällä</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(kuva)</string>
@@ -373,7 +372,6 @@ on viallinen!</string>
     <string name="arrays__disabled">Poissa</string>
     <string name="arrays__name_and_message">Nimi ja viesti</string>
     <string name="notificationsContentShowNameOnly">Vain nimi</string>
-    <string name="arrays__no_name_or_message">Ei nimeä eikä viestiä</string>
     <string name="arrays__images">Kuvat</string>
     <string name="arrays__audio">Äänitallenteet</string>
     <string name="arrays__video">Videot</string>
@@ -431,7 +429,6 @@ on viallinen!</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Ota Sessionin oletushymiöt pois käytöstä</string>
     <string name="preferences_notifications__messages">Viestit</string>
     <string name="preferences_notifications__in_chat_sounds">Keskustelun sisäiset äänet</string>
-    <string name="preferences_notifications__priority">Prioriteetti</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -493,7 +490,6 @@ on viallinen!</string>
     <string name="BackupDialog_delete_backups">Poistetaanko varmuuskopiot?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Otetaanko paikalliset varmuuskopiot pois käytöstä ja poistetaanko ne?</string>
     <string name="BackupDialog_delete_backups_statement">Poista varmuuskopiot</string>
-    <string name="BackupDialog_copied_to_clipboard">Kopioitu leikepöydälle</string>
     <string name="LocalBackupJob_creating_backup">Luodaan varmuuskopiota...</string>
     <string name="ProgressPreference_d_messages_so_far">%d viestiä tähän mennessä</string>
     <string name="BackupUtil_never">ei koskaan</string>
@@ -506,7 +502,7 @@ on viallinen!</string>
     <string name="continue_2">Jatka</string>
     <string name="copy">Kopioi</string>
     <string name="invalid_url">Virheellinen URL</string>
-    <string name="copied_to_clipboard">Kopioitu leikepöydälle</string>
+    <string name="copied">Kopioitu leikepöydälle</string>
     <string name="next">Seuraava</string>
     <string name="share">Jaa</string>
     <string name="invalid_session_id">Virheellinen Session ID</string>
@@ -546,8 +542,8 @@ on viallinen!</string>
     <string name="view_seed_reminder_subtitle_2">Napauta ja pidä piiloteettuja sanoja paljastaaksesi palautuslauseen, ja säästä se turvallisesti suojataksesi Session tilisi.</string>
     <string name="view_seed_reminder_subtitle_3">Varmista, että säilytät palautuslauseesi turvallisessa paikassa</string>
     <string name="onionRoutingPath">Polku</string>
-    <string name="activity_path_guard_node_row_title">Sisääntulon Solmu</string>
-    <string name="activity_path_service_node_row_title">Palvelu Solmu</string>
+    <string name="onionRoutingPathEntryNode">Sisääntulon Solmu</string>
+    <string name="onionRoutingPathServiceNode">Palvelu Solmu</string>
     <string name="onionRoutingPathDestination">Päämäärä</string>
     <string name="learnMore">Lisätietoja</string>
     <string name="activity_path_resolving_progress">Ratkaistaan…</string>
@@ -609,7 +605,7 @@ on viallinen!</string>
     <string name="fragment_contact_selection_empty_contacts">Sinulla ei ole vielä yhtään kontaktia</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Käytä</string>
-    <string name="menu_done_button">Valmis</string>
+    <string name="done">Valmis</string>
     <string name="activity_edit_closed_group_title">Muokkaa ryhmää</string>
     <string name="activity_edit_closed_group_edit_text_hint">Syötä uusi ryhmän nimi</string>
     <string name="activity_edit_closed_group_edit_members">Jäsenet</string>
@@ -637,7 +633,6 @@ on viallinen!</string>
     <string name="activity_link_device_scan_qr_code">Skannaa QR-koodi</string>
     <string name="activity_link_device_qr_message">Siirry asetuksiin → palautusvirke toisella laitteellasi näyttääksesi QR-koodisi.</string>
     <string name="activity_join_public_chat_join_rooms">Tai liity johonkin näistä…</string>
-    <string name="activity_pn_mode_message_notifications">Viesti-ilmoitukset</string>
     <string name="activity_pn_mode_explanation">On kaksi tapaa joilla Session voi ilmoittaa sinulle uusista viesteistä.</string>
     <string name="activity_pn_mode_fast_mode">Nopea tila</string>
     <string name="activity_pn_mode_slow_mode">Hidastila</string>
@@ -676,7 +671,6 @@ on viallinen!</string>
     <string name="delete_message_for_me">Poista vain minulta</string>
     <string name="delete_message_for_everyone">Poista kaikilta</string>
     <string name="delete_message_for_me_and_recipient">Poista minulta ja henkilöltä %s</string>
-    <string name="dialog_share_logs_explanation">Haluaisitko estää applikaatiosi lokien pystyä jakamaan ongelmatilanteissa?</string>
     <string name="conversation_pin">Koodi</string>
     <string name="conversation_unpin">Ohita koodi</string>
 </resources>

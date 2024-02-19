@@ -22,7 +22,6 @@
         <item quantity="one">Isto irá imediatamente reduzir todas as conversas para a mensagem mais recente.</item>
         <item quantity="other">Isto irá imediatamente reduzir todas as conversas para as %d mensagens mais recentes.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Deletar</string>
     <string name="ApplicationPreferencesActivity_On">Ligado</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imagem)</string>
@@ -375,7 +374,6 @@
     <string name="arrays__disabled">Desabilitado</string>
     <string name="arrays__name_and_message">Nome e mensagem</string>
     <string name="notificationsContentShowNameOnly">Nome somente</string>
-    <string name="arrays__no_name_or_message">Nenhum nome ou mensagem</string>
     <string name="arrays__images">Imagens</string>
     <string name="arrays__audio">Áudio</string>
     <string name="arrays__video">Vídeo</string>
@@ -433,7 +431,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desabilitar suporte de emoji embutido de Session</string>
     <string name="preferences_notifications__messages">Mensagens</string>
     <string name="preferences_notifications__in_chat_sounds">Sons em-chat</string>
-    <string name="preferences_notifications__priority">Prioridade</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -495,7 +492,6 @@
     <string name="BackupDialog_delete_backups">Deletar backups?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Desabilitar e deletar todos os backups locais?</string>
     <string name="BackupDialog_delete_backups_statement">Deletar backups</string>
-    <string name="BackupDialog_copied_to_clipboard">Copiada para clipboard</string>
     <string name="LocalBackupJob_creating_backup">Criando backup...</string>
     <string name="ProgressPreference_d_messages_so_far">%d mensagens até agora</string>
     <string name="BackupUtil_never">Nunca</string>
@@ -508,7 +504,7 @@
     <string name="continue_2">Continuar</string>
     <string name="copy">Copiar</string>
     <string name="invalid_url">URL inválido</string>
-    <string name="copied_to_clipboard">Copiado para clipboard</string>
+    <string name="copied">Copiado para clipboard</string>
     <string name="next">Próximo</string>
     <string name="share">Compartilhar</string>
     <string name="invalid_session_id">Session ID inválida</string>
@@ -548,8 +544,8 @@
     <string name="view_seed_reminder_subtitle_2">Toque e segure as palavras editadas para revelar sua frase de recuperação e armazene-a com segurança para proteger seu ID Session.</string>
     <string name="view_seed_reminder_subtitle_3">Guarde sua frase de recuperação em um local seguro</string>
     <string name="onionRoutingPath">Caminho</string>
-    <string name="activity_path_guard_node_row_title">Nó de Entrada</string>
-    <string name="activity_path_service_node_row_title">Nó de Serviço</string>
+    <string name="onionRoutingPathEntryNode">Nó de Entrada</string>
+    <string name="onionRoutingPathServiceNode">Nó de Serviço</string>
     <string name="onionRoutingPathDestination">Destino</string>
     <string name="learnMore">Saber mais</string>
     <string name="activity_path_resolving_progress">Resolvendo…</string>
@@ -611,7 +607,7 @@
     <string name="fragment_contact_selection_empty_contacts">Você ainda não possui contatos</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Aplicar</string>
-    <string name="menu_done_button">Concluído</string>
+    <string name="done">Concluído</string>
     <string name="activity_edit_closed_group_title">Editar Grupo</string>
     <string name="activity_edit_closed_group_edit_text_hint">Insira um novo nome para o grupo</string>
     <string name="activity_edit_closed_group_edit_members">Membros</string>
@@ -639,7 +635,6 @@
     <string name="activity_link_device_scan_qr_code">Ler Código QR</string>
     <string name="activity_link_device_qr_message">Vá até as configurações → Frase de Recuperação em seu outro dispositivo para mostrar o seu código QR.</string>
     <string name="activity_join_public_chat_join_rooms">Ou junte-se a um desses…</string>
-    <string name="activity_pn_mode_message_notifications">Notificações Push</string>
     <string name="activity_pn_mode_explanation">Existem duas maneiras que o Session poder notificar você sobre novas mensagens.</string>
     <string name="activity_pn_mode_fast_mode">Modo Rápido</string>
     <string name="activity_pn_mode_slow_mode">Modo Lento</string>
@@ -678,7 +673,6 @@
     <string name="delete_message_for_me">Excluir apenas para mim</string>
     <string name="delete_message_for_everyone">Excluir para todos</string>
     <string name="delete_message_for_me_and_recipient">Excluir para mim e %s</string>
-    <string name="dialog_share_logs_explanation">Gostaria de exportar os logs da aplicação para poder compartilhar para solucionar problemas?</string>
     <string name="conversation_pin">Fixar</string>
     <string name="conversation_unpin">Desafixar</string>
 </resources>

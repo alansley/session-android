@@ -22,7 +22,6 @@
         <item quantity="one">Detta kommer omedelbart trimma alla konversationer till det senaste meddelandet.</item>
         <item quantity="other">Detta kommer omedelbart trimma alla konversationer till de %d senaste meddelanden.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Radera</string>
     <string name="ApplicationPreferencesActivity_On">På</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bild)</string>
@@ -374,7 +373,6 @@ för nyckelutbyte!</string>
     <string name="arrays__disabled">Inaktiverad</string>
     <string name="arrays__name_and_message">Namn och meddelande</string>
     <string name="notificationsContentShowNameOnly">Endast namn</string>
-    <string name="arrays__no_name_or_message">Inget namn eller meddelande</string>
     <string name="arrays__images">Bilder</string>
     <string name="arrays__audio">Ljud</string>
     <string name="arrays__video">Filmer</string>
@@ -432,7 +430,6 @@ för nyckelutbyte!</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inaktivera Sessions inbyggda emojier</string>
     <string name="preferences_notifications__messages">Meddelanden</string>
     <string name="preferences_notifications__in_chat_sounds">Ljud i konversationer</string>
-    <string name="preferences_notifications__priority">Prioritet</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -494,7 +491,6 @@ för nyckelutbyte!</string>
     <string name="BackupDialog_delete_backups">Ta bort säkerhetskopior?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Inaktivera och ta bort alla lokala säkerhetskopior?</string>
     <string name="BackupDialog_delete_backups_statement">Ta bort säkerhetskopior</string>
-    <string name="BackupDialog_copied_to_clipboard">Kopierade till urklipp</string>
     <string name="LocalBackupJob_creating_backup">Skapar säkerhetskopia...</string>
     <string name="ProgressPreference_d_messages_so_far">%d meddelanden än så länge</string>
     <string name="BackupUtil_never">Aldrig</string>
@@ -507,7 +503,7 @@ för nyckelutbyte!</string>
     <string name="continue_2">Fortsätt</string>
     <string name="copy">Kopiera</string>
     <string name="invalid_url">Ogiltig URL</string>
-    <string name="copied_to_clipboard">Kopierade till urklipp</string>
+    <string name="copied">Kopierade till urklipp</string>
     <string name="next">Nästa</string>
     <string name="share">Dela</string>
     <string name="invalid_session_id">Ogiltigt Sessions-ID</string>
@@ -547,8 +543,8 @@ för nyckelutbyte!</string>
     <string name="view_seed_reminder_subtitle_2">Tryck på och håll ned de dolda orden för att avslöja din återställningsfras och lagra dem på ett säkert sätt för att säkra ditt Session-ID.</string>
     <string name="view_seed_reminder_subtitle_3">Se till att spara din återställningsfras på en säker plats</string>
     <string name="onionRoutingPath">Sökväg</string>
-    <string name="activity_path_guard_node_row_title">Entrénod</string>
-    <string name="activity_path_service_node_row_title">Tjänstnod</string>
+    <string name="onionRoutingPathEntryNode">Entrénod</string>
+    <string name="onionRoutingPathServiceNode">Tjänstnod</string>
     <string name="onionRoutingPathDestination">Destination</string>
     <string name="learnMore">Mer info</string>
     <string name="activity_path_resolving_progress">Laddar…</string>
@@ -610,7 +606,7 @@ för nyckelutbyte!</string>
     <string name="fragment_contact_selection_empty_contacts">Du har inga kontakter än</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Tillämpa</string>
-    <string name="menu_done_button">Klar</string>
+    <string name="done">Klar</string>
     <string name="activity_edit_closed_group_title">Redigera Grupp</string>
     <string name="activity_edit_closed_group_edit_text_hint">Ange ett nytt gruppnamn</string>
     <string name="activity_edit_closed_group_edit_members">Medlemmar</string>
@@ -638,7 +634,6 @@ för nyckelutbyte!</string>
     <string name="activity_link_device_scan_qr_code">Skanna QR-kod</string>
     <string name="activity_link_device_qr_message">Navigera till Inställningar → Återställningsfras på din andra enhet för att visa din QR-kod.</string>
     <string name="activity_join_public_chat_join_rooms">Eller gå med i en av dessa…</string>
-    <string name="activity_pn_mode_message_notifications">Meddelandeaviseringar</string>
     <string name="activity_pn_mode_explanation">Det finns två sätt som Session kan meddela dig om nya meddelanden på.</string>
     <string name="activity_pn_mode_fast_mode">Snabbläge</string>
     <string name="activity_pn_mode_slow_mode">Långsamt läge</string>

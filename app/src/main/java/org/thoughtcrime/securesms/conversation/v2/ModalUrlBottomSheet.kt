@@ -17,7 +17,6 @@ import android.widget.Toast
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import network.loki.messenger.R
 import network.loki.messenger.databinding.FragmentModalUrlBottomSheetBinding
-import org.thoughtcrime.securesms.util.UiModeUtilities
 
 class ModalUrlBottomSheet(private val url: String): BottomSheetDialogFragment(), View.OnClickListener {
     private lateinit var binding: FragmentModalUrlBottomSheetBinding
@@ -53,7 +52,7 @@ class ModalUrlBottomSheet(private val url: String): BottomSheetDialogFragment(),
         val clip = ClipData.newPlainText("URL", url)
         val manager = requireContext().getSystemService(CLIPBOARD_SERVICE) as ClipboardManager
         manager.setPrimaryClip(clip)
-        Toast.makeText(requireContext(), R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
+        Toast.makeText(requireContext(), R.string.copied, Toast.LENGTH_SHORT).show()
         dismiss()
     }
 

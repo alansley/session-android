@@ -17,7 +17,6 @@
         <item quantity="one">Kayka ñapashmi chayralla rimarishkata pitinka.</item>
         <item quantity="other">Kayka ñapashmi kay %d chayralla rimarishkata pitinka.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Pichana</string>
     <string name="ApplicationPreferencesActivity_On">Hapichishka</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(shuyu)</string>
@@ -320,7 +319,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="arrays__disabled">Mana paskashka</string>
     <string name="arrays__name_and_message">Shuti, chaskipash</string>
     <string name="notificationsContentShowNameOnly">Shutilla</string>
-    <string name="arrays__no_name_or_message">Chaski, shutipash mana tiyanchu</string>
     <string name="arrays__images">Shuyukuna</string>
     <string name="arrays__audio">Uyariy</string>
     <string name="arrays__video">Shuyurikuchik</string>
@@ -376,7 +374,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Sessionpa ñawikukunapa yanapayta anchuchipay</string>
     <string name="preferences_notifications__messages">Chaskikuna</string>
     <string name="preferences_notifications__in_chat_sounds">Rimaripi wakay</string>
-    <string name="preferences_notifications__priority">Kallaripi</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -435,7 +432,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="BackupDialog_delete_backups">Chayshinalla wakaychishkakunata pichanayanchu</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Tukuylla chayshinalla wakaychishkakunata wichashpa pichanayanchu</string>
     <string name="BackupDialog_delete_backups_statement">Chayshinalla wakaychishkakunata pichana</string>
-    <string name="BackupDialog_copied_to_clipboard">Panka allichik ukupi chayshina allichishka kan</string>
     <string name="LocalBackupJob_creating_backup">Chayshinalla wakaychishkakunata wiñachikun</string>
     <string name="ProgressPreference_d_messages_so_far">Kunankaman %d chaskikuna</string>
     <string name="BackupUtil_never">Nimamanta</string>

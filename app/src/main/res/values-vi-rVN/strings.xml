@@ -19,7 +19,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">Thao tác này sẽ thu ngắn tức thì tất cả các cuộc hội thoại đến %d tin nhắn gần nhất.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Xóa</string>
     <string name="ApplicationPreferencesActivity_On">Mở</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(hình)</string>
@@ -231,7 +230,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="arrays__disabled">Tắt</string>
     <string name="arrays__name_and_message">Tên và tin nhắn</string>
     <string name="notificationsContentShowNameOnly">Tên thôi</string>
-    <string name="arrays__no_name_or_message">Không có tên hay tin nhắn</string>
     <string name="arrays__images">Hình ảnh</string>
     <string name="arrays__audio">Nhạc</string>
     <string name="arrays__video">Đoạn phim</string>
@@ -315,7 +313,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_continue">Tiếp tục</string>
     <string name="registration_activity__skip">Bỏ qua</string>
-    <string name="BackupDialog_copied_to_clipboard">Sao chép vào bảng ghi tạm</string>
     <string name="BackupUtil_never">Không bao giờ</string>
     <string name="AppProtectionPreferenceFragment_none">Không</string>
     <!-- Conversation activity -->
@@ -323,7 +320,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="continue_2">Tiếp tục</string>
     <string name="copy">Sao chép</string>
     <string name="invalid_url">URL không hợp lệ</string>
-    <string name="copied_to_clipboard">Sao chép vào bộ nhớ tạm</string>
+    <string name="copied">Sao chép vào bộ nhớ tạm</string>
     <string name="next">Tiếp</string>
     <string name="share">Chia sẻ</string>
     <string name="invalid_session_id">Session ID không hợp lệ</string>
@@ -362,8 +359,8 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="view_seed_reminder_subtitle_2">Chạm và giữ cụm từ bị che để hiển thị cụm từ khôi phục của bạn, sau đó lưu nó cẩn thận để bảo vệ Session ID của bạn.</string>
     <string name="view_seed_reminder_subtitle_3">Hãy lưu cụm từ khôi phục của bạn ở một nơi an toàn</string>
     <string name="onionRoutingPath">Đường đi</string>
-    <string name="activity_path_guard_node_row_title">Nút khởi đầu</string>
-    <string name="activity_path_service_node_row_title">Nút Dịch vụ</string>
+    <string name="onionRoutingPathEntryNode">Nút khởi đầu</string>
+    <string name="onionRoutingPathServiceNode">Nút Dịch vụ</string>
     <string name="onionRoutingPathDestination">Điểm đến</string>
     <string name="learnMore">Tìm hiểu thêm</string>
     <string name="activity_create_private_chat_title">Session mới</string>

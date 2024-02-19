@@ -20,7 +20,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">这将会立刻整理所有会话到 %d 最近的信息。</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">删除</string>
     <string name="ApplicationPreferencesActivity_On">开启</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(图片)</string>
@@ -363,7 +362,6 @@
     <string name="arrays__disabled">禁用</string>
     <string name="arrays__name_and_message">名称和消息</string>
     <string name="notificationsContentShowNameOnly">仅名称</string>
-    <string name="arrays__no_name_or_message">无名称或消息</string>
     <string name="arrays__images">图片</string>
     <string name="arrays__audio">音频</string>
     <string name="arrays__video">视频</string>
@@ -420,7 +418,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">禁用 Session 内置的表情支持</string>
     <string name="preferences_notifications__messages">消息</string>
     <string name="preferences_notifications__in_chat_sounds">聊天音效</string>
-    <string name="preferences_notifications__priority">优先级</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -482,7 +479,6 @@
     <string name="BackupDialog_delete_backups">删除备份吗？</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">关闭并且删除所有本地备份吗？</string>
     <string name="BackupDialog_delete_backups_statement">删除备份</string>
-    <string name="BackupDialog_copied_to_clipboard">已复制到剪切板</string>
     <string name="LocalBackupJob_creating_backup">正在创建备份…</string>
     <string name="ProgressPreference_d_messages_so_far">已处理 %d 条消息</string>
     <string name="BackupUtil_never">永不</string>
@@ -495,7 +491,7 @@
     <string name="continue_2">继续</string>
     <string name="copy">复制</string>
     <string name="invalid_url">无效的链接</string>
-    <string name="copied_to_clipboard">复制到剪贴板</string>
+    <string name="copied">复制到剪贴板</string>
     <string name="next">下一步</string>
     <string name="share">共享</string>
     <string name="invalid_session_id">无效的Session ID</string>
@@ -535,8 +531,8 @@
     <string name="view_seed_reminder_subtitle_2">点击并按住遮盖住的单词以显示您的恢复口令，请将它安全地存储以保护您的Session ID。</string>
     <string name="view_seed_reminder_subtitle_3">请确保将恢复口令存储在安全的地方</string>
     <string name="onionRoutingPath">路径</string>
-    <string name="activity_path_guard_node_row_title">入口节点</string>
-    <string name="activity_path_service_node_row_title">服务节点</string>
+    <string name="onionRoutingPathEntryNode">入口节点</string>
+    <string name="onionRoutingPathServiceNode">服务节点</string>
     <string name="onionRoutingPathDestination">目的地</string>
     <string name="learnMore">了解更多</string>
     <string name="activity_path_resolving_progress">正在解决…</string>
@@ -598,7 +594,7 @@
     <string name="fragment_contact_selection_empty_contacts">您还没有任何联系人</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">应用</string>
-    <string name="menu_done_button">完成</string>
+    <string name="done">完成</string>
     <string name="activity_edit_closed_group_title">编辑群组</string>
     <string name="activity_edit_closed_group_edit_text_hint">输入新群组名称</string>
     <string name="activity_edit_closed_group_edit_members">成员</string>
@@ -626,7 +622,6 @@
     <string name="activity_link_device_scan_qr_code">扫描二维码</string>
     <string name="activity_link_device_qr_message">在您的其他设备上导航到设置 -> 恢复口令以显示您的 QR 代码。</string>
     <string name="activity_join_public_chat_join_rooms">或加入下列群组…</string>
-    <string name="activity_pn_mode_message_notifications">消息通知</string>
     <string name="activity_pn_mode_explanation">我们有两种方式来向您发送消息通知。</string>
     <string name="activity_pn_mode_fast_mode">快速模式</string>
     <string name="activity_pn_mode_slow_mode">慢速模式</string>
@@ -665,7 +660,6 @@
     <string name="delete_message_for_me">仅为我删除</string>
     <string name="delete_message_for_everyone">为所有人删除</string>
     <string name="delete_message_for_me_and_recipient">为我和 %s 删除</string>
-    <string name="dialog_share_logs_explanation">导出日志以供分享和排除故障？</string>
     <string name="conversation_pin">置顶</string>
     <string name="conversation_unpin">取消置顶</string>
 </resources>

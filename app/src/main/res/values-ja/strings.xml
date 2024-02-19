@@ -19,7 +19,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">最新の%d個のメッセージ以外を削除します</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">削除</string>
     <string name="ApplicationPreferencesActivity_On">オン</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(画像)</string>
@@ -360,7 +359,6 @@
     <string name="arrays__disabled">無効</string>
     <string name="arrays__name_and_message">名前とメッセージ</string>
     <string name="notificationsContentShowNameOnly">名前のみ</string>
-    <string name="arrays__no_name_or_message">名前もメッセージも非表示</string>
     <string name="arrays__images">画像</string>
     <string name="arrays__audio">音声</string>
     <string name="arrays__video">動画</string>
@@ -417,7 +415,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session独自の絵文字機能を無効にする</string>
     <string name="preferences_notifications__messages">メッセージ</string>
     <string name="preferences_notifications__in_chat_sounds">チャット中の着信音</string>
-    <string name="preferences_notifications__priority">優先度</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -479,7 +476,6 @@
     <string name="BackupDialog_delete_backups">バックアップを削除しますか？</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">すべてのローカルバックアップを削除して無効にしますか？</string>
     <string name="BackupDialog_delete_backups_statement">バックアップを削除</string>
-    <string name="BackupDialog_copied_to_clipboard">クリップボードにコピーしました</string>
     <string name="LocalBackupJob_creating_backup">バックアップを作成しています...</string>
     <string name="ProgressPreference_d_messages_so_far">今、%d個メッセージ</string>
     <string name="BackupUtil_never">なし</string>
@@ -492,7 +488,7 @@
     <string name="continue_2">続行する</string>
     <string name="copy">コピーする</string>
     <string name="invalid_url">URL が無効です</string>
-    <string name="copied_to_clipboard">クリップボードにコピーされました</string>
+    <string name="copied">クリップボードにコピーされました</string>
     <string name="next">次</string>
     <string name="share">共有する</string>
     <string name="invalid_session_id">Session ID が無効です</string>
@@ -532,8 +528,8 @@
     <string name="view_seed_reminder_subtitle_2">編集された単語をタップして長押ししてリカバリーフレーズを表示し、それを安全に保管して Session ID を保護します。</string>
     <string name="view_seed_reminder_subtitle_3">リカバリーフレーズは安全な場所に保管してください</string>
     <string name="onionRoutingPath">パス</string>
-    <string name="activity_path_guard_node_row_title">エントリーノード</string>
-    <string name="activity_path_service_node_row_title">サービスノード</string>
+    <string name="onionRoutingPathEntryNode">エントリーノード</string>
+    <string name="onionRoutingPathServiceNode">サービスノード</string>
     <string name="onionRoutingPathDestination">目的先</string>
     <string name="learnMore">詳細</string>
     <string name="activity_path_resolving_progress">解決中...</string>
@@ -595,7 +591,7 @@
     <string name="fragment_contact_selection_empty_contacts">まだ連絡先がありません</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">適用する</string>
-    <string name="menu_done_button">完了</string>
+    <string name="done">完了</string>
     <string name="activity_edit_closed_group_title">グループを編集</string>
     <string name="activity_edit_closed_group_edit_text_hint">新しいグループ名を入力してください</string>
     <string name="activity_edit_closed_group_edit_members">メンバー</string>

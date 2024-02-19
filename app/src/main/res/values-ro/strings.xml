@@ -25,7 +25,6 @@
         <item quantity="few">Această acțiune va scurta toate conversațiile până la cele mai recente %d mesaje.</item>
         <item quantity="other">Această acțiune va scurta toate conversațiile până la cele mai recente %d mesaje.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Ștergeți</string>
     <string name="ApplicationPreferencesActivity_On">Activate</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imagine)</string>
@@ -388,7 +387,6 @@ schimbul de chei este corupt </string>
     <string name="arrays__disabled">Dezactivat</string>
     <string name="arrays__name_and_message">Nume şi mesaj</string>
     <string name="notificationsContentShowNameOnly">Doar numele</string>
-    <string name="arrays__no_name_or_message">Niciun nume sau mesaj</string>
     <string name="arrays__images">Imagini</string>
     <string name="arrays__audio">Audio</string>
     <string name="arrays__video">Video</string>
@@ -447,7 +445,6 @@ schimbul de chei este corupt </string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Dezactivați icoanele emoji oferite de Session </string>
     <string name="preferences_notifications__messages">Mesaje</string>
     <string name="preferences_notifications__in_chat_sounds">Sunete în conversație</string>
-    <string name="preferences_notifications__priority">Prioritate</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -509,7 +506,6 @@ schimbul de chei este corupt </string>
     <string name="BackupDialog_delete_backups">Șterg backup-urile?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Dezactivez și șterg toate backup-urile locale?</string>
     <string name="BackupDialog_delete_backups_statement">Șterge backup-urile</string>
-    <string name="BackupDialog_copied_to_clipboard">S-a copiat în clipboard</string>
     <string name="LocalBackupJob_creating_backup">Se creează backup-ul...</string>
     <string name="ProgressPreference_d_messages_so_far">%d mesaje până acum</string>
     <string name="BackupUtil_never">Niciodată</string>
@@ -522,7 +518,7 @@ schimbul de chei este corupt </string>
     <string name="continue_2">Continuă</string>
     <string name="copy">Copiază</string>
     <string name="invalid_url">URL invalid</string>
-    <string name="copied_to_clipboard">Copiat în clipboard</string>
+    <string name="copied">Copiat în clipboard</string>
     <string name="next">Următorul</string>
     <string name="share">Distribuie</string>
     <string name="invalid_session_id">ID sesiune nevalid</string>
@@ -545,8 +541,8 @@ schimbul de chei este corupt </string>
     <string name="activity_display_name_explanation">Acesta va fi numele tău când folosești Session. Poate fi numele tău, un pseudonim, sau orice altceva dorești.</string>
     <string name="activity_display_name_edit_text_hint">Alege un nume de afișat</string>
     <string name="activity_display_name_display_name_missing_error">Vă rugăm să alegeți un nume de afișare</string>
-    <string name="activity_path_guard_node_row_title">Nod de intrare</string>
-    <string name="activity_path_service_node_row_title">Nod servicii</string>
+    <string name="onionRoutingPathEntryNode">Nod de intrare</string>
+    <string name="onionRoutingPathServiceNode">Nod servicii</string>
     <string name="onionRoutingPathDestination">Destinație</string>
     <string name="learnMore">Aflați mai multe</string>
     <string name="activity_path_resolving_progress">Se rezolvă…</string>

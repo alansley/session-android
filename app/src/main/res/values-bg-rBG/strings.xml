@@ -21,7 +21,6 @@
         <item quantity="one">Това ще скъси всички разговори до най-новoто съобщение.</item>
         <item quantity="other">Това ще скъси всички разговори до %dте най-нови съобщения.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Изтрий</string>
     <string name="ApplicationPreferencesActivity_On">Активирано</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(изображение)</string>
@@ -352,7 +351,6 @@
     <string name="arrays__disabled">Деактивирано</string>
     <string name="arrays__name_and_message">Име и съобщение</string>
     <string name="notificationsContentShowNameOnly">Само име</string>
-    <string name="arrays__no_name_or_message">Няма име или съобщения</string>
     <string name="arrays__images">Изображения</string>
     <string name="arrays__audio">Аудио</string>
     <string name="arrays__video">Видео</string>
@@ -410,7 +408,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Деактивирай вградена в Session подръжка на emoji-та</string>
     <string name="preferences_notifications__messages">Съобщения</string>
     <string name="preferences_notifications__in_chat_sounds">Звуци в чатове</string>
-    <string name="preferences_notifications__priority">Приоритет</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -472,7 +469,6 @@
     <string name="BackupDialog_delete_backups">Изтриване на архивите?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Деактивиране и изтриване на всички локални архиви?</string>
     <string name="BackupDialog_delete_backups_statement">Изтриване на архиви</string>
-    <string name="BackupDialog_copied_to_clipboard">Копирано</string>
     <string name="LocalBackupJob_creating_backup">Създаване на архив...</string>
     <string name="ProgressPreference_d_messages_so_far">%d съобщения до тук</string>
     <string name="BackupUtil_never">Никога</string>

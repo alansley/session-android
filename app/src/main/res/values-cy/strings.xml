@@ -26,7 +26,6 @@
         <item quantity="many">Bydd hyn yn tocio pob sgwrs i\'r %d neges ddiweddaraf.</item>
         <item quantity="other">Bydd hyn yn tocio pob sgwrs i\'r %d neges ddiweddaraf.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Dileu</string>
     <string name="ApplicationPreferencesActivity_On">Ymlaen</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(llun)</string>
@@ -388,7 +387,6 @@
     <string name="arrays__disabled">Analluogwyd</string>
     <string name="arrays__name_and_message">Enw a neges</string>
     <string name="notificationsContentShowNameOnly">Enw yn unig</string>
-    <string name="arrays__no_name_or_message">Dim enw na neges</string>
     <string name="arrays__images">Lluniau</string>
     <string name="arrays__audio">Sain</string>
     <string name="arrays__video">Fideo</string>
@@ -449,7 +447,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Analluogi cefnogaeth gwenogluniau Session</string>
     <string name="preferences_notifications__messages">Negeseuon</string>
     <string name="preferences_notifications__in_chat_sounds">Seiniau wrth sgwrsio</string>
-    <string name="preferences_notifications__priority">Blaenoriaeth</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -509,7 +506,6 @@
     <string name="BackupDialog_delete_backups">Dileu copïau wrth gefn?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Analluogi a dileu\'r copïau wrth gefn lleol?</string>
     <string name="BackupDialog_delete_backups_statement">Dileu copïau wrth gefn</string>
-    <string name="BackupDialog_copied_to_clipboard">Wedi\'i gopïo i\'r clipfwrdd</string>
     <string name="LocalBackupJob_creating_backup">Creu copi wrth gefn ...</string>
     <string name="ProgressPreference_d_messages_so_far">%d neges hyd yn hyn</string>
     <string name="BackupUtil_never">Byth</string>

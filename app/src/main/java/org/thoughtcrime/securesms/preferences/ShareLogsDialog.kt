@@ -39,7 +39,7 @@ class ShareLogsDialog : DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog = createSessionDialog {
         title(R.string.helpReportABugExportLogs)
-        text(R.string.dialog_share_logs_explanation)
+        text(R.string.helpReportABugExportLogsDescription)
         button(R.string.share, dismiss = false) { shareLogs() }
         cancelButton { dismiss() }
     }

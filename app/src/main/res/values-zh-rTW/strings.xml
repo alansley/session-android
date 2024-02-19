@@ -21,7 +21,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">這將會立即裁剪所有對話至 %d 最新訊息。</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">刪除</string>
     <string name="ApplicationPreferencesActivity_On">開</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(圖片)</string>
@@ -369,7 +368,6 @@
     <string name="arrays__disabled">停用</string>
     <string name="arrays__name_and_message">名字與訊息</string>
     <string name="notificationsContentShowNameOnly">僅名字</string>
-    <string name="arrays__no_name_or_message">不顯示名字或訊息</string>
     <string name="arrays__images">圖片</string>
     <string name="arrays__audio">音訊</string>
     <string name="arrays__video">影片</string>
@@ -426,7 +424,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">停用 Session 內建的表情支援</string>
     <string name="preferences_notifications__messages">訊息</string>
     <string name="preferences_notifications__in_chat_sounds">聊天音效</string>
-    <string name="preferences_notifications__priority">優先順序</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -488,7 +485,6 @@
     <string name="BackupDialog_delete_backups">刪除備份？</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">關閉及刪除所有本機備份？</string>
     <string name="BackupDialog_delete_backups_statement">刪除備份</string>
-    <string name="BackupDialog_copied_to_clipboard">已複製到剪貼簿</string>
     <string name="LocalBackupJob_creating_backup">正在建立備份...</string>
     <string name="ProgressPreference_d_messages_so_far">目前有 %d 則訊息</string>
     <string name="BackupUtil_never">永不</string>
@@ -501,7 +497,7 @@
     <string name="continue_2">繼續</string>
     <string name="copy">複製</string>
     <string name="invalid_url">無效網址</string>
-    <string name="copied_to_clipboard">已複製到剪貼簿</string>
+    <string name="copied">已複製到剪貼簿</string>
     <string name="next">下一步</string>
     <string name="share">分享</string>
     <string name="invalid_session_id">無效的 Session ID</string>
@@ -541,8 +537,8 @@
     <string name="view_seed_reminder_subtitle_2">點擊並按住已編輯的字詞以顯示您的恢復短語，然後將其妥善保管以保護您的 Session ID。</string>
     <string name="view_seed_reminder_subtitle_3">請確保將您的恢復短語存儲在安全的地方</string>
     <string name="onionRoutingPath">路徑</string>
-    <string name="activity_path_guard_node_row_title">入口節點</string>
-    <string name="activity_path_service_node_row_title">服務節點</string>
+    <string name="onionRoutingPathEntryNode">入口節點</string>
+    <string name="onionRoutingPathServiceNode">服務節點</string>
     <string name="onionRoutingPathDestination">目的地</string>
     <string name="learnMore">瞭解更多</string>
     <string name="activity_path_resolving_progress">解決中...</string>
@@ -604,7 +600,7 @@
     <string name="fragment_contact_selection_empty_contacts">您尚未添加聯絡人</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">應用</string>
-    <string name="menu_done_button">完成</string>
+    <string name="done">完成</string>
     <string name="activity_edit_closed_group_title">編輯群組</string>
     <string name="activity_edit_closed_group_edit_text_hint">輸入新的群組名稱</string>
     <string name="activity_edit_closed_group_edit_members">成員</string>
@@ -632,7 +628,6 @@
     <string name="activity_link_device_scan_qr_code">掃描 QR Code</string>
     <string name="activity_link_device_qr_message">請使用您其他的裝置並前往「設定」→「回復用字句」來顯示您的QR Code。</string>
     <string name="activity_join_public_chat_join_rooms">或加入這些群組⋯</string>
-    <string name="activity_pn_mode_message_notifications">訊息通知</string>
     <string name="activity_pn_mode_explanation">Session 有兩種方式向您傳送通知。</string>
     <string name="activity_pn_mode_fast_mode">快速模式</string>
     <string name="activity_pn_mode_slow_mode">慢速模式</string>
@@ -671,7 +666,6 @@
     <string name="delete_message_for_me">只為我自己刪除</string>
     <string name="delete_message_for_everyone">從所有人的裝置上刪除</string>
     <string name="delete_message_for_me_and_recipient">為我和 %s 刪除</string>
-    <string name="dialog_share_logs_explanation">您想輸出及分享應用程式的記錄以供我們做故障檢修嗎？</string>
     <string name="conversation_pin">釘選</string>
     <string name="conversation_unpin">取消釘選</string>
     <string name="mark_all_as_read">全部標示為已讀</string>

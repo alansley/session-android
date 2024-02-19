@@ -26,7 +26,6 @@
         <item quantity="many">Tímto zkrátíte všechny konverzace na posledních %d zpráv.</item>
         <item quantity="other">Tímto zkrátíte všechny konverzace na posledních %d zpráv.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Smazat</string>
     <string name="ApplicationPreferencesActivity_On">Zap.</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(obrázek)</string>
@@ -395,7 +394,6 @@
     <string name="arrays__disabled">Zakázáno</string>
     <string name="arrays__name_and_message">Jméno a zpráva</string>
     <string name="notificationsContentShowNameOnly">Pouze jméno</string>
-    <string name="arrays__no_name_or_message">Žádné jméno ani zprávy</string>
     <string name="arrays__images">Obrázky</string>
     <string name="arrays__audio">Zvuk</string>
     <string name="arrays__video">Video</string>
@@ -455,7 +453,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Zakázat použití interních smajlíků aplikace Session </string>
     <string name="preferences_notifications__messages">Zprávy</string>
     <string name="preferences_notifications__in_chat_sounds">Zvuk během konverzace</string>
-    <string name="preferences_notifications__priority">Priorita</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -517,7 +514,6 @@
     <string name="BackupDialog_delete_backups">Smazat zálohy?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Zakázat a vymazat všechny interní zálohy?</string>
     <string name="BackupDialog_delete_backups_statement">Smazat zálohy</string>
-    <string name="BackupDialog_copied_to_clipboard">Zkopírováno do schránky</string>
     <string name="LocalBackupJob_creating_backup">Vytvářím zálohu...</string>
     <string name="ProgressPreference_d_messages_so_far">%dzpráv zatím</string>
     <string name="BackupUtil_never">Nikdy</string>
@@ -530,7 +526,7 @@
     <string name="continue_2">Pokračovat</string>
     <string name="copy">Kopírovat</string>
     <string name="invalid_url">Neplatná adresa URL</string>
-    <string name="copied_to_clipboard">Zkopírováno do schránky</string>
+    <string name="copied">Zkopírováno do schránky</string>
     <string name="next">Další</string>
     <string name="share">Sdílet</string>
     <string name="invalid_session_id">Neplatné Session ID</string>
@@ -570,8 +566,8 @@
     <string name="view_seed_reminder_subtitle_2">Pro zobrazení fráze pro obnovení klepněte a podržte redigovaná slova a poté ji bezpečně uložte, abyste si ochránili své Session ID.</string>
     <string name="view_seed_reminder_subtitle_3">Uchovejte svou frázi pro obnovení na bezpečném místě</string>
     <string name="onionRoutingPath">Cesta</string>
-    <string name="activity_path_guard_node_row_title">Vstupní uzel</string>
-    <string name="activity_path_service_node_row_title">Provozní uzel</string>
+    <string name="onionRoutingPathEntryNode">Vstupní uzel</string>
+    <string name="onionRoutingPathServiceNode">Provozní uzel</string>
     <string name="onionRoutingPathDestination">Cíl</string>
     <string name="learnMore">Další informace</string>
     <string name="activity_path_resolving_progress">Připojování…</string>
@@ -633,7 +629,7 @@
     <string name="fragment_contact_selection_empty_contacts">Zatím nemáte žádné kontakty</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Použít</string>
-    <string name="menu_done_button">Hotovo</string>
+    <string name="done">Hotovo</string>
     <string name="activity_edit_closed_group_title">Upravit skupinu</string>
     <string name="activity_edit_closed_group_edit_text_hint">Zadejte název nové skupiny</string>
     <string name="activity_edit_closed_group_edit_members">Členové</string>
@@ -661,7 +657,6 @@
     <string name="activity_link_device_scan_qr_code">Naskenovat QR kód</string>
     <string name="activity_link_device_qr_message">Přejděte do Nastavení → Fráze pro obnovení na vašem dalším zařízení a zobrazte svůj QR kód.</string>
     <string name="activity_join_public_chat_join_rooms">Nebo se připojte k jedné z těchto…</string>
-    <string name="activity_pn_mode_message_notifications">Upozornění na zprávy</string>
     <string name="activity_pn_mode_explanation">Existují dva způsoby, jak vás může Session upozorňovat na nové zprávy.</string>
     <string name="activity_pn_mode_fast_mode">Rychlý režim</string>
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
@@ -700,7 +695,6 @@
     <string name="delete_message_for_me">Smazat pouze pro mě</string>
     <string name="delete_message_for_everyone">Smazat pro všechny</string>
     <string name="delete_message_for_me_and_recipient">Odstranit pro mě a %s</string>
-    <string name="dialog_share_logs_explanation">Chcete exportovat záznamy aplikace, abyste je mohl sdílet pro řešení problémů?</string>
     <string name="conversation_pin">Připnout</string>
     <string name="conversation_unpin">Odepnout</string>
 </resources>

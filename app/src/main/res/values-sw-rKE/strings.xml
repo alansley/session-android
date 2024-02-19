@@ -11,7 +11,6 @@
     <string name="AlbumThumbnailView_plus">/+ 1%d</string>
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Futa sasa meseji zote za zamani </string>
-    <string name="ApplicationPreferencesActivity_delete">Futa</string>
     <string name="ApplicationPreferencesActivity_On">Waka</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(picha)</string>
@@ -292,7 +291,6 @@
     <string name="arrays__disabled">kuzuia</string>
     <string name="arrays__name_and_message">jina na ujumbe</string>
     <string name="notificationsContentShowNameOnly">jina tu</string>
-    <string name="arrays__no_name_or_message">hakuna jina wala ujumbe</string>
     <string name="arrays__images">picha</string>
     <string name="arrays__audio">Sauti</string>
     <string name="arrays__documents">nyaraka</string>
@@ -345,7 +343,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">kuzuia Session iliyojengwa kusaidia emoji</string>
     <string name="preferences_notifications__messages">ujumbe</string>
     <string name="preferences_notifications__in_chat_sounds">sauti wakati wa mazungumzo</string>
-    <string name="preferences_notifications__priority">Kipaumbele</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -405,7 +402,6 @@
     <string name="BackupDialog_delete_backups">Futa vifungo?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Zima na kufuta salama zote za ndani?</string>
     <string name="BackupDialog_delete_backups_statement">Futa salama</string>
-    <string name="BackupDialog_copied_to_clipboard">Ilikopishwa kwenye ubao wa video</string>
     <string name="LocalBackupJob_creating_backup">Kujenga salama</string>
     <string name="ProgressPreference_d_messages_so_far">1%d ujumbe hadi sasa</string>
     <string name="BackupUtil_never">Haiwezekani</string>

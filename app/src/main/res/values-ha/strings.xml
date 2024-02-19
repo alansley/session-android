@@ -19,7 +19,6 @@
         <item quantity="one">Ev ê niha hemû gotûbêjan biqusîne û wê tenê peyama herî nû bimîne.</item>
         <item quantity="other">Ev ê niha hemû gotûbêjan biqusîne û wê tenê %d peyamên herî nû bimînin.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Jê bibe</string>
     <string name="ApplicationPreferencesActivity_On">Vekirî</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(wêne)</string>
@@ -339,7 +338,6 @@
     <string name="arrays__disabled">Neçalakkirî</string>
     <string name="arrays__name_and_message">Nav û peyam</string>
     <string name="notificationsContentShowNameOnly">Tenê nav</string>
-    <string name="arrays__no_name_or_message">Nav an peyam nîn e</string>
     <string name="arrays__images">Wêne</string>
     <string name="arrays__audio">Deng</string>
     <string name="arrays__video">Vîdyo</string>
@@ -395,7 +393,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Piştgiriya emojiyê a daxilî ya Sessionê neçalak bike </string>
     <string name="preferences_notifications__messages">Peyam</string>
     <string name="preferences_notifications__in_chat_sounds">Dengên di gotûbêjê de</string>
-    <string name="preferences_notifications__priority">Pêşkî</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -455,7 +452,6 @@
     <string name="BackupDialog_delete_backups">Paşekeftan jê bibe?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Hemû paşekeftên xwecihî neçalak bike û jê bibe?</string>
     <string name="BackupDialog_delete_backups_statement">Paşekeftan jê bibe</string>
-    <string name="BackupDialog_copied_to_clipboard">Hat kopîkirin</string>
     <string name="LocalBackupJob_creating_backup">Paşekeft tê avakirin...</string>
     <string name="ProgressPreference_d_messages_so_far">Heta niha %d peyam</string>
     <string name="BackupUtil_never">Qet</string>

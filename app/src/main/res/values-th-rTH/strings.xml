@@ -15,7 +15,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">นี่จะตัดการสนทนาทั้งหมดให้สั้นลงเหลือแค่ %d ข้อความล่าสุดโดยทันที</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">ลบ</string>
     <string name="ApplicationPreferencesActivity_On">เปิด</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ภาพ)</string>
@@ -314,7 +313,6 @@
     <string name="arrays__disabled">ปิดใช้งานแล้ว</string>
     <string name="arrays__name_and_message">ชื่อและข้อความ</string>
     <string name="notificationsContentShowNameOnly">ชื่อเท่านั้น</string>
-    <string name="arrays__no_name_or_message">ไม่มีชื่อหรือข้อความ</string>
     <string name="arrays__images">ภาพ</string>
     <string name="arrays__audio">เสียง</string>
     <string name="arrays__video">วิดีโอ</string>
@@ -369,7 +367,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">ปิดใช้งานการรองรับอีโมจิของ Session เอง</string>
     <string name="preferences_notifications__messages">ข้อความ</string>
     <string name="preferences_notifications__in_chat_sounds">เสียงภายในแชต</string>
-    <string name="preferences_notifications__priority">ความสำคัญ</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -428,7 +425,6 @@
     <string name="BackupDialog_delete_backups">ลบการสำรองข้อมูลหรือไม่</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">ปิดใช้งานและลบการสำรองข้อมูลในเครื่องทั้งหมดหรือไม่</string>
     <string name="BackupDialog_delete_backups_statement">ลบการสำรองข้อมูล</string>
-    <string name="BackupDialog_copied_to_clipboard">คัดลอกไปยังคลิปบอร์ดแล้ว</string>
     <string name="LocalBackupJob_creating_backup">กำลังสร้างการสำรองข้อมูล...</string>
     <string name="ProgressPreference_d_messages_so_far">%d ข้อความจนถึงตอนนี้</string>
     <string name="BackupUtil_never">ไม่เลย</string>

@@ -22,7 +22,6 @@
         <item quantity="one">Bu, bütün danışıqları dərhal ən son mesaja qədər kəsəcək.</item>
         <item quantity="other">Bu, bütün danışıqları dərhal ən son %d mesaja qədər kəsəcək.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Sil</string>
     <string name="ApplicationPreferencesActivity_On">Açıq</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(təsvir)</string>
@@ -375,7 +374,6 @@
     <string name="arrays__disabled">Sıradan çıxarıldı</string>
     <string name="arrays__name_and_message">Ad və mesajlar</string>
     <string name="notificationsContentShowNameOnly">Yalnız ad</string>
-    <string name="arrays__no_name_or_message">Ad və ya mesaj yoxdur</string>
     <string name="arrays__images">Təsvirlər</string>
     <string name="arrays__audio">Səs</string>
     <string name="arrays__video">Video</string>
@@ -433,7 +431,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session-un daxili ifadə dəstəyini sıradan çıxart</string>
     <string name="preferences_notifications__messages">Mesajlar</string>
     <string name="preferences_notifications__in_chat_sounds">Söhbət daxili səslər</string>
-    <string name="preferences_notifications__priority">Prioritet</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -495,7 +492,6 @@
     <string name="BackupDialog_delete_backups">Nüsxələr silinsin?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Bütün yerli nüsxələr sıradan çıxarılıb silinsin?</string>
     <string name="BackupDialog_delete_backups_statement">Nüsxəni sil</string>
-    <string name="BackupDialog_copied_to_clipboard">Lövhəyə kopyalandı</string>
     <string name="LocalBackupJob_creating_backup">Nüsxə yaradılır...</string>
     <string name="ProgressPreference_d_messages_so_far">İndiyə qədər %d mesaj</string>
     <string name="BackupUtil_never">Heç vaxt</string>
@@ -508,7 +504,7 @@
     <string name="continue_2">Davam</string>
     <string name="copy">Kopyala</string>
     <string name="invalid_url">Etibarsız URL</string>
-    <string name="copied_to_clipboard">Lövhəyə kopyalandı</string>
+    <string name="copied">Lövhəyə kopyalandı</string>
     <string name="next">Növbəti</string>
     <string name="share">Paylaş</string>
     <string name="invalid_session_id">Etibarsız Session Kimliyi</string>
@@ -548,8 +544,8 @@
     <string name="view_seed_reminder_subtitle_2">Bərpa parolunuzu aşkarlamaq üçün düzəldilmiş sözlərə basılı saxlayın, daha sonra Session kimliyinizi qorumaq üçün güvənli bir yerdə saxlayın.</string>
     <string name="view_seed_reminder_subtitle_3">Bərpa parolunuzu etibarlı bir yerdə saxladığınıza əmin olun</string>
     <string name="onionRoutingPath">Yol</string>
-    <string name="activity_path_guard_node_row_title">Giriş Düyünü</string>
-    <string name="activity_path_service_node_row_title">Xidmət Düyünü</string>
+    <string name="onionRoutingPathEntryNode">Giriş Düyünü</string>
+    <string name="onionRoutingPathServiceNode">Xidmət Düyünü</string>
     <string name="onionRoutingPathDestination">Təyinat</string>
     <string name="learnMore">Daha Ətraflı</string>
     <string name="activity_path_resolving_progress">Həll edilir…</string>
@@ -611,7 +607,7 @@
     <string name="fragment_contact_selection_empty_contacts">Hələ heç bir əlaqəniz yoxdur</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Tətbiq et</string>
-    <string name="menu_done_button">Bitdi</string>
+    <string name="done">Bitdi</string>
     <string name="activity_edit_closed_group_title">Qrupa düzəliş et</string>
     <string name="activity_edit_closed_group_edit_text_hint">Yeni bir qrup adı daxil edin</string>
     <string name="activity_edit_closed_group_edit_members">Üzvlər</string>
@@ -639,7 +635,6 @@
     <string name="activity_link_device_scan_qr_code">QR kodu skan et</string>
     <string name="activity_link_device_qr_message">QR kodunu göstərmək üçün digər cihazınızda Tənzimləmələr → \"Bərpa parolu\"na gedin.</string>
     <string name="activity_join_public_chat_join_rooms">Və ya bunlardan birinə qoşulun…</string>
-    <string name="activity_pn_mode_message_notifications">Mesaj bildirişləri</string>
     <string name="activity_pn_mode_explanation">Session-un, sizi yeni mesajlar barəsində xəbərdar etməsinin iki yolu var.</string>
     <string name="activity_pn_mode_fast_mode">Sürətli rejim</string>
     <string name="activity_pn_mode_slow_mode">Yavaş rejim</string>
@@ -678,7 +673,6 @@
     <string name="delete_message_for_me">Yalnız mənim üçün sil</string>
     <string name="delete_message_for_everyone">Hər kəs üçün sil</string>
     <string name="delete_message_for_me_and_recipient">Mən və %s üçün sil</string>
-    <string name="dialog_share_logs_explanation">Problemlərin aradan qaldırılması məqsədilə paylaşmaq üçün tətbiqetmə jurnallarını ixrac etmək istəyirsiniz?</string>
     <string name="conversation_pin">Sancaqla</string>
     <string name="conversation_unpin">Sancağı götür</string>
 </resources>

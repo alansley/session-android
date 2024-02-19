@@ -22,7 +22,6 @@
         <item quantity="one">Ez azonnal csonkolni fogja az összes beszélgetést a legfrissebb üzenetre.</item>
         <item quantity="other">Ezzel kitörlöd az összes beszélgetés régebbi üzeneteit, és csak a(z) %d legfrissebbek fognak megmaradni.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Törlés</string>
     <string name="ApplicationPreferencesActivity_On">Be</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(kép)</string>
@@ -376,7 +375,6 @@
     <string name="arrays__disabled">Letiltva</string>
     <string name="arrays__name_and_message">Név és üzenet</string>
     <string name="notificationsContentShowNameOnly">Csak név</string>
-    <string name="arrays__no_name_or_message">Se név, se üzenet</string>
     <string name="arrays__images">Képek</string>
     <string name="arrays__audio">Hang</string>
     <string name="arrays__video">Videó</string>
@@ -434,7 +432,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">A Session beépített emoji-támogatásának letiltása</string>
     <string name="preferences_notifications__messages">Üzenetek</string>
     <string name="preferences_notifications__in_chat_sounds">Csevegésen belüli hangok</string>
-    <string name="preferences_notifications__priority">Prioritás</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -496,7 +493,6 @@
     <string name="BackupDialog_delete_backups">Törlöd a biztonsági mentéseket?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Letiltod és törlöd az összes helyi biztonsági mentést?</string>
     <string name="BackupDialog_delete_backups_statement">Biztonsági mentések törlése</string>
-    <string name="BackupDialog_copied_to_clipboard">Vágólapra másolva</string>
     <string name="LocalBackupJob_creating_backup">Biztonsági mentés létrehozása...</string>
     <string name="ProgressPreference_d_messages_so_far">Eddig %d db üzenet</string>
     <string name="BackupUtil_never">Soha</string>
@@ -509,7 +505,7 @@
     <string name="continue_2">Folytatás</string>
     <string name="copy">Másolás</string>
     <string name="invalid_url">Érvénytelen URL</string>
-    <string name="copied_to_clipboard">Vágólapra másolva</string>
+    <string name="copied">Vágólapra másolva</string>
     <string name="next">Következő</string>
     <string name="share">Megosztás</string>
     <string name="invalid_session_id">Érvénytelen Session azonosító</string>
@@ -549,8 +545,8 @@
     <string name="view_seed_reminder_subtitle_2">Érintse meg és tartsa lenyomva a szerkesztett szavakat, hogy felfedje a helyreállítási kifejezést, majd tárolja biztonságosan Session-azonosítója biztonsága érdekében.</string>
     <string name="view_seed_reminder_subtitle_3">Ügyeljen arra, hogy a helyreállítási szöveget biztonságos helyen tárolja</string>
     <string name="onionRoutingPath">Útvonal</string>
-    <string name="activity_path_guard_node_row_title">Belépési csomópont</string>
-    <string name="activity_path_service_node_row_title">Szolgáltatási csomópont</string>
+    <string name="onionRoutingPathEntryNode">Belépési csomópont</string>
+    <string name="onionRoutingPathServiceNode">Szolgáltatási csomópont</string>
     <string name="onionRoutingPathDestination">Célállomás</string>
     <string name="learnMore">Tudj meg többet</string>
     <string name="activity_path_resolving_progress">Feloldás...</string>
@@ -612,7 +608,7 @@
     <string name="fragment_contact_selection_empty_contacts">Még nincsenek névjegyei</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Alkalmaz</string>
-    <string name="menu_done_button">Kész</string>
+    <string name="done">Kész</string>
     <string name="activity_edit_closed_group_title">Csoport szerkesztése</string>
     <string name="activity_edit_closed_group_edit_text_hint">Írjon be egy új csoportnevet</string>
     <string name="activity_edit_closed_group_edit_members">Tagok</string>
@@ -640,7 +636,6 @@
     <string name="activity_link_device_scan_qr_code">QR kód beolvasása</string>
     <string name="activity_link_device_qr_message">A QR-kód megjelenítéséhez nyissa meg a Beállítások → Helyreállítási kifejezés elemet másik eszközén. </string>
     <string name="activity_join_public_chat_join_rooms">Vagy csatlakozz ezekhez…</string>
-    <string name="activity_pn_mode_message_notifications">Üzenet értesítések</string>
     <string name="activity_pn_mode_explanation">2 mód van arra, hogy a Session értesítsen téged új üzenetekről.</string>
     <string name="activity_pn_mode_fast_mode">Gyorsított mód</string>
     <string name="activity_pn_mode_slow_mode">Lassított mód</string>
@@ -679,7 +674,6 @@
     <string name="delete_message_for_me">Törlés csak nálam</string>
     <string name="delete_message_for_everyone">Törlés mindenkinél</string>
     <string name="delete_message_for_me_and_recipient">Törlés nekem és neki: %s</string>
-    <string name="dialog_share_logs_explanation">Szeretné exportálni az alkalmazásnaplóit, hogy megoszthassa a hibaelhárításhoz?</string>
     <string name="conversation_pin">Kitűzés</string>
     <string name="conversation_unpin">Kitűzés eltávolítása</string>
 </resources>

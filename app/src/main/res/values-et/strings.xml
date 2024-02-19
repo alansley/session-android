@@ -18,7 +18,6 @@
         <item quantity="one">See piirab koheselt kõiki vestlusi, jättes alles ainult viimase sõnumi.</item>
         <item quantity="other">See piirab koheselt kõiki vestlusi, jättes alles ainult %d viimast sõnumit.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Kustuta</string>
     <string name="ApplicationPreferencesActivity_On">Sees</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(pilt)</string>
@@ -343,7 +342,6 @@
     <string name="arrays__disabled">Keelatud</string>
     <string name="arrays__name_and_message">Nimi ja sõnum</string>
     <string name="notificationsContentShowNameOnly">Ainult nimi</string>
-    <string name="arrays__no_name_or_message">Ei nime ega sõnumit</string>
     <string name="arrays__images">Pildid</string>
     <string name="arrays__audio">Heli</string>
     <string name="arrays__documents">Dokumendid</string>
@@ -400,7 +398,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Keela Sessionisse sisseehitatud emoji-tugi</string>
     <string name="preferences_notifications__messages">Sõnumid</string>
     <string name="preferences_notifications__in_chat_sounds">Vestlusesisesed helid</string>
-    <string name="preferences_notifications__priority">Prioriteet</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -460,7 +457,6 @@
     <string name="BackupDialog_delete_backups">Kustutad varundused?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Kustuta ja keela kõik kohalikud varundused?</string>
     <string name="BackupDialog_delete_backups_statement">Kustuta varundused</string>
-    <string name="BackupDialog_copied_to_clipboard">Lõikelauale kopeeritud</string>
     <string name="LocalBackupJob_creating_backup">Varunduse loomine...</string>
     <string name="ProgressPreference_d_messages_so_far">Siiani leidsime %d sõnumit</string>
     <string name="BackupUtil_never">Mitte kunagi</string>

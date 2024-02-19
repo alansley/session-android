@@ -170,7 +170,6 @@
         <item quantity="one">This will immediately trim all conversations to the most recent message.</item>
         <item quantity="other">This will immediately trim all conversations to the %d most recent messages.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Delete</string>
     <string name="ApplicationPreferencesActivity_On">On</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(image)</string>
@@ -541,7 +540,6 @@
     <string name="arrays__disabled">Disabled</string>
     <string name="arrays__name_and_message">Name and Content</string>
     <string name="notificationsContentShowNameOnly">Name Only</string>
-    <string name="arrays__no_name_or_message">No Name or Content</string>
     <string name="arrays__images">Images</string>
     <string name="arrays__audio">Audio</string>
     <string name="arrays__video">Video</string>
@@ -614,7 +612,6 @@
     <string name="preferences_notifications__content">Notification Content</string>
     <string name="preferences_notifications__content_message">Show:</string>
     <string name="preferences_notifications__summary">The information shown in notifications.</string>
-    <string name="preferences_notifications__priority">Priority</string>
     <string name="preferences_app_protection__screenshot_notifications">Screenshot Notifications</string>
     <string name="preferences_app_protected__screenshot_notifications_summary">Receive a notification when a contact takes a screenshot of a one-to-one chat.</string>
     <string name="preferences__message_requests_category">Message Requests</string>
@@ -685,7 +682,6 @@
     <string name="BackupDialog_delete_backups">Delete backups?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Disable and delete all local backups?</string>
     <string name="BackupDialog_delete_backups_statement">Delete backups</string>
-    <string name="BackupDialog_copied_to_clipboard">Copied to clipboard</string>
     <string name="LocalBackupJob_creating_backup">Creating backup...</string>
     <string name="ProgressPreference_d_messages_so_far">%d messages so far</string>
     <string name="BackupUtil_never">Never</string>
@@ -699,7 +695,7 @@
     <string name="copy">Copy</string>
     <string name="close">Close</string>
     <string name="invalid_url">Invalid URL</string>
-    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="copied">Copied to clipboard</string>
     <string name="next">Next</string>
     <string name="share">Share</string>
     <string name="invalid_session_id">Invalid Session ID</string>
@@ -739,8 +735,8 @@
     <string name="view_seed_reminder_subtitle_2">Tap and hold the redacted words to reveal your recovery phrase, then store it safely to secure your Session ID.</string>
     <string name="view_seed_reminder_subtitle_3">Make sure to store your recovery phrase in a safe place</string>
     <string name="onionRoutingPath">Path</string>
-    <string name="activity_path_guard_node_row_title">Entry Node</string>
-    <string name="activity_path_service_node_row_title">Service Node</string>
+    <string name="onionRoutingPathEntryNode">Entry Node</string>
+    <string name="onionRoutingPathServiceNode">Service Node</string>
     <string name="onionRoutingPathDestination">Destination</string>
     <string name="learnMore">Learn More</string>
     <string name="activity_path_resolving_progress">Resolving…</string>
@@ -819,7 +815,7 @@
     <string name="fragment_contact_selection_empty_contacts">You don\'t have any contacts yet</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Apply</string>
-    <string name="menu_done_button">Done</string>
+    <string name="done">Done</string>
     <string name="activity_edit_closed_group_title">Edit Group</string>
     <string name="activity_edit_closed_group_edit_text_hint">Enter a new group name</string>
     <string name="activity_edit_closed_group_edit_members">Members</string>
@@ -847,7 +843,6 @@
     <string name="activity_link_device_scan_qr_code">Scan QR Code</string>
     <string name="activity_link_device_qr_message">Navigate to Settings → Recovery Phrase on your other device to show your QR code.</string>
     <string name="activity_join_public_chat_join_rooms">Or join one of these…</string>
-    <string name="activity_pn_mode_message_notifications">Message Notifications</string>
     <string name="activity_pn_mode_explanation">There are two ways Session can notify you of new messages.</string>
     <string name="activity_pn_mode_fast_mode">Fast Mode</string>
     <string name="activity_pn_mode_slow_mode">Slow Mode</string>
@@ -887,7 +882,6 @@
     <string name="delete_message_for_me">Delete just for me</string>
     <string name="delete_message_for_everyone">Delete for everyone</string>
     <string name="delete_message_for_me_and_recipient">Delete for me and %s</string>
-    <string name="dialog_share_logs_explanation">Would you like to export your application logs to be able to share for troubleshooting?</string>
     <string name="conversation_pin">Pin</string>
     <string name="conversation_unpin">Unpin</string>
     <string name="mark_all_as_read">Mark all as read</string>
@@ -1029,5 +1023,9 @@
     <string name="helpWedLoveYourFeedback">We\'d love your feedback</string>
     <string name="off">Off</string>
     <string name="accountIDCopy">Copy Account ID</string>
+    <string name="helpReportABugExportLogsDescription">Export your logs, then upload the file through Session\'s Help Desk.</string>
+    <string name="notificationsGoToAndroidSettings">Go to Android notification settings</string>
+    <string name="notificationsContentShowNoNameOrContent">No Name or Content</string>
+    <string name="notificationsMessage">Message notifications</string>
 
 </resources>

@@ -22,7 +22,6 @@
         <item quantity="one">Αυτό θα περικόψει άμεσα όλες τις συνομιλίες στο πιο πρόσφατο μήνυμα.</item>
         <item quantity="other">Αυτό θα περικόψει άμεσα όλες τις συνομιλίες στα %d πιο πρόσφατα μηνύματα.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Διαγραφή</string>
     <string name="ApplicationPreferencesActivity_On">Ενεργοποιημένο</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(εικόνα)</string>
@@ -375,7 +374,6 @@
     <string name="arrays__disabled">Απενεργοποιημένο</string>
     <string name="arrays__name_and_message">Όνομα και μήνυμα</string>
     <string name="notificationsContentShowNameOnly">Μόνο όνομα</string>
-    <string name="arrays__no_name_or_message">Χωρίς όνομα ή μήνυμα</string>
     <string name="arrays__images">Εικόνες</string>
     <string name="arrays__audio">Ήχοι</string>
     <string name="arrays__video">Βίντεο</string>
@@ -433,7 +431,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Απενεργοποίηση της ενσωματωμένης υποστήριξης για emoji του Session</string>
     <string name="preferences_notifications__messages">Μηνύματα</string>
     <string name="preferences_notifications__in_chat_sounds">Ήχοι μέσα στη συνομιλία</string>
-    <string name="preferences_notifications__priority">Προτεραιότητα</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -495,7 +492,6 @@
     <string name="BackupDialog_delete_backups">Διαγραφή αντίγραφων ασφαλείας;</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Απενεργοποίηση και διαγραφή όλων των τοπικών αντίγραφων ασφαλείας;</string>
     <string name="BackupDialog_delete_backups_statement">Διαγραφή αντίγραφων ασφαλείας</string>
-    <string name="BackupDialog_copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
     <string name="LocalBackupJob_creating_backup">Το αντίγραφο ασφαλείας δημιουργείται...</string>
     <string name="ProgressPreference_d_messages_so_far">%d μηνύματα μέχρι τώρα</string>
     <string name="BackupUtil_never">Ποτέ</string>
@@ -508,7 +504,7 @@
     <string name="continue_2">Συνέχεια</string>
     <string name="copy">Αντιγραφή</string>
     <string name="invalid_url">Μη έγκυρη διεύθυνση</string>
-    <string name="copied_to_clipboard">Αντιγράφηκε στο πρόχειρο</string>
+    <string name="copied">Αντιγράφηκε στο πρόχειρο</string>
     <string name="next">Επόμενο</string>
     <string name="share">Διαμοιρασμός</string>
     <string name="invalid_session_id">Μη έγκυρη Session ταυτότητα</string>
@@ -548,8 +544,8 @@
     <string name="view_seed_reminder_subtitle_2">Πατήστε παρατεταμένα τις λέξεις που τροποποιήθηκαν για να αποκαλύψετε τη φράση ανάκτησης και μετά αποθηκεύστε την με ασφάλεια για να εξασφαλίσετε το αναγνωριστικό σας.</string>
     <string name="view_seed_reminder_subtitle_3">Φροντίστε να αποθηκεύσετε τη φράση ανάκτησής σας σε ασφαλές μέρος</string>
     <string name="onionRoutingPath">Διαδρομή</string>
-    <string name="activity_path_guard_node_row_title">Κόμβος Εισόδου</string>
-    <string name="activity_path_service_node_row_title">Κόμβος Υπηρεσίας</string>
+    <string name="onionRoutingPathEntryNode">Κόμβος Εισόδου</string>
+    <string name="onionRoutingPathServiceNode">Κόμβος Υπηρεσίας</string>
     <string name="onionRoutingPathDestination">Προορισμός</string>
     <string name="learnMore">Μάθετε περισσότερα</string>
     <string name="activity_path_resolving_progress">Επίλυση…</string>
@@ -611,7 +607,7 @@
     <string name="fragment_contact_selection_empty_contacts">Δεν έχετε επαφές ακόμη</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Εφαρμογή</string>
-    <string name="menu_done_button">Τέλος</string>
+    <string name="done">Τέλος</string>
     <string name="activity_edit_closed_group_title">Επεξεργασία Ομάδας</string>
     <string name="activity_edit_closed_group_edit_text_hint">Εισαγωγή νέου ονόματος ομάδας</string>
     <string name="activity_edit_closed_group_edit_members">Μέλη</string>
@@ -639,7 +635,6 @@
     <string name="activity_link_device_scan_qr_code">Σάρωση QR κωδικού</string>
     <string name="activity_link_device_qr_message">Μεταβείτε στις Ρυθμίσεις → Φράση Ανάκτησης στην άλλη συσκευή σας για να εμφανίσετε τον QR κωδικό σας.</string>
     <string name="activity_join_public_chat_join_rooms">Ή συνδεθείτε σε ένα από αυτά…</string>
-    <string name="activity_pn_mode_message_notifications">Ειδοποίησεις μηνυμάτων</string>
     <string name="activity_pn_mode_explanation">Υπάρχουν δύο τρόποι με τους οποίους το Session μπορεί να σας ειδοποιήσει για νέα μηνύματα.</string>
     <string name="activity_pn_mode_fast_mode">Γρήγορη Επιλογή</string>
     <string name="activity_pn_mode_slow_mode">Αργή Επιλογή</string>
@@ -678,7 +673,6 @@
     <string name="delete_message_for_me">Διαγραφή μόνο για μενα</string>
     <string name="delete_message_for_everyone">Διαγραφή για όλους</string>
     <string name="delete_message_for_me_and_recipient">Διαγραφή για μένα και %s</string>
-    <string name="dialog_share_logs_explanation">Θα θέλατε να μοιραστείτε τα αρχεία καταγραφής της εφαρμογής σας για την αντιμετώπιση προβλημάτων;</string>
     <string name="conversation_pin">Καρφίτσωμα</string>
     <string name="conversation_unpin">Ξεκαρφίτσωμα</string>
 </resources>

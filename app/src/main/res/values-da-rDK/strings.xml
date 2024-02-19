@@ -22,7 +22,6 @@
         <item quantity="one">Dette vil øjeblikkeligt reducere alle samtaler til den nyeste besked.</item>
         <item quantity="other">Dette vil øjeblikkeligt reducere alle samtaler til de %d nyeste beskeder.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Slet</string>
     <string name="ApplicationPreferencesActivity_On">Tændt</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(billede)</string>
@@ -373,7 +372,6 @@ udveksel besked!</string>
     <string name="arrays__disabled">Deaktiverét</string>
     <string name="arrays__name_and_message">Navn og besked</string>
     <string name="notificationsContentShowNameOnly">Kun navn</string>
-    <string name="arrays__no_name_or_message">Hverken navn eller besked</string>
     <string name="arrays__images">Billeder</string>
     <string name="arrays__audio">Lyd</string>
     <string name="arrays__video">Video</string>
@@ -431,7 +429,6 @@ udveksel besked!</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Deaktivér Sessions indbyggede emoji understøttelse</string>
     <string name="preferences_notifications__messages">Beskeder</string>
     <string name="preferences_notifications__in_chat_sounds">Chat lyde</string>
-    <string name="preferences_notifications__priority">Prioritet</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -493,7 +490,6 @@ udveksel besked!</string>
     <string name="BackupDialog_delete_backups">Skal sikkerhedskopier slettes?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Deaktivér og slet alle lokale backup\'s?</string>
     <string name="BackupDialog_delete_backups_statement">Slet backup\'s</string>
-    <string name="BackupDialog_copied_to_clipboard">Kopieret til udklipsholder</string>
     <string name="LocalBackupJob_creating_backup">Opretter backup...</string>
     <string name="ProgressPreference_d_messages_so_far">%d beskeder ind til videre</string>
     <string name="BackupUtil_never">Aldrig</string>
@@ -506,7 +502,7 @@ udveksel besked!</string>
     <string name="continue_2">Fortsæt</string>
     <string name="copy">Kopiér</string>
     <string name="invalid_url">Ugyldig Webadresse</string>
-    <string name="copied_to_clipboard">Kopieret til udklipsholder</string>
+    <string name="copied">Kopieret til udklipsholder</string>
     <string name="next">Næste</string>
     <string name="share">Del</string>
     <string name="invalid_session_id">Ugyldigt Session ID</string>
@@ -591,7 +587,7 @@ udveksel besked!</string>
     <string name="fragment_contact_selection_empty_contacts">Du har ingen kontakter endnu</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Anvend</string>
-    <string name="menu_done_button">Færdig</string>
+    <string name="done">Færdig</string>
     <string name="activity_edit_closed_group_title">Rediger Gruppe</string>
     <string name="activity_edit_closed_group_edit_text_hint">Indtast et nyt gruppenavn</string>
     <string name="activity_edit_closed_group_edit_members">Medlemmer</string>
@@ -635,7 +631,6 @@ udveksel besked!</string>
     <string name="delete_message_for_me">Slet kun for mig</string>
     <string name="delete_message_for_everyone">Slet for alle</string>
     <string name="delete_message_for_me_and_recipient">Slet for mig og %s</string>
-    <string name="dialog_share_logs_explanation">Ønsker du at eksportere dine applikationslogs for at kunne dele for fejlfinding?</string>
     <string name="conversation_pin">Fastgør</string>
     <string name="conversation_unpin">Frigør</string>
 </resources>

@@ -23,7 +23,6 @@
         <item quantity="few">Ово ће одмах да скрати све преписке на %d најскорије поруке.</item>
         <item quantity="other">Ово ће одмах да скрати све преписке на %d најскоријих порука.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Обриши</string>
     <string name="ApplicationPreferencesActivity_On">Укључено</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(слика)</string>
@@ -381,7 +380,6 @@
     <string name="arrays__disabled">Искључи</string>
     <string name="arrays__name_and_message">Име и поруку</string>
     <string name="notificationsContentShowNameOnly">Само име</string>
-    <string name="arrays__no_name_or_message">Ни име ни поруку</string>
     <string name="arrays__images">Слике</string>
     <string name="arrays__audio">Звук</string>
     <string name="arrays__video">Видео</string>
@@ -438,7 +436,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Искључи уграђене Session-ове емоџије</string>
     <string name="preferences_notifications__messages">Поруке</string>
     <string name="preferences_notifications__in_chat_sounds">Звуци ћаскања</string>
-    <string name="preferences_notifications__priority">Приоритет</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -491,7 +488,6 @@
     <string name="BackupDialog_delete_backups">Обрисати резерве?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Да искључим и обришем све локалне резерве?</string>
     <string name="BackupDialog_delete_backups_statement">Обриши резерве</string>
-    <string name="BackupDialog_copied_to_clipboard">Копирано на клипборд</string>
     <string name="LocalBackupJob_creating_backup">Правим резерву...</string>
     <string name="BackupUtil_never">Никад</string>
     <string name="AppProtectionPreferenceFragment_none">Ништа</string>

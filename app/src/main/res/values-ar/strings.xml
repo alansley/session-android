@@ -30,7 +30,6 @@
         <item quantity="many">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
         <item quantity="other">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">حذف</string>
     <string name="ApplicationPreferencesActivity_On">يعمل</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(صورة)</string>
@@ -417,7 +416,6 @@
     <string name="arrays__disabled">معطل</string>
     <string name="arrays__name_and_message">الاسم والرسالة</string>
     <string name="notificationsContentShowNameOnly">الاسم فقط</string>
-    <string name="arrays__no_name_or_message">لا يوجد أسم أو رسالة</string>
     <string name="arrays__images">صور</string>
     <string name="arrays__audio">صوت</string>
     <string name="arrays__video">فيديو</string>
@@ -479,7 +477,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">تعطيل الرموز التعبيرية المدمجة في Session</string>
     <string name="preferences_notifications__messages">الرسائل</string>
     <string name="preferences_notifications__in_chat_sounds">أصوات خلال الدردشة</string>
-    <string name="preferences_notifications__priority">أولوية</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -541,7 +538,6 @@
     <string name="BackupDialog_delete_backups">هل تود حذف النسخ الإحتياطية ؟</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">أتريد تعطيل و حذف كافة النُّسخ الإحتياطية المحلية ؟</string>
     <string name="BackupDialog_delete_backups_statement">حذف النسخ الإحتياطية</string>
-    <string name="BackupDialog_copied_to_clipboard">نسخ إلى الحافظة</string>
     <string name="LocalBackupJob_creating_backup">جارٍ إنشاء نسخة احتياطية...</string>
     <string name="ProgressPreference_d_messages_so_far">%dرسالة إلى الآن</string>
     <string name="BackupUtil_never">أبدا</string>
@@ -554,7 +550,7 @@
     <string name="continue_2">متابعة</string>
     <string name="copy">اِنسخ</string>
     <string name="invalid_url">عنوان تعريف خاطئ</string>
-    <string name="copied_to_clipboard">تم النسخ الى الحافظة المؤقتة</string>
+    <string name="copied">تم النسخ الى الحافظة المؤقتة</string>
     <string name="next">التالي</string>
     <string name="share">شارك</string>
     <string name="invalid_session_id">عنوان تعريف خاطئ</string>
@@ -594,8 +590,8 @@
     <string name="view_seed_reminder_subtitle_2">انقر بإستمرار على الكلمات المغطاة للكشف عن كلمات إسترداد حسابك، ثم قم بتخزينها بأمان للحفاظ على معرّف الجلسة الخاص بك.</string>
     <string name="view_seed_reminder_subtitle_3">تأكد من الإحتفاظ بكلمات الإسترجاع الخاصة بك في مكان آمن</string>
     <string name="onionRoutingPath">مسار</string>
-    <string name="activity_path_guard_node_row_title">عقدة الدخول</string>
-    <string name="activity_path_service_node_row_title">عقدة الخدمة</string>
+    <string name="onionRoutingPathEntryNode">عقدة الدخول</string>
+    <string name="onionRoutingPathServiceNode">عقدة الخدمة</string>
     <string name="onionRoutingPathDestination">الوجهة</string>
     <string name="learnMore">لمعرفة المزيد</string>
     <string name="activity_path_resolving_progress">جار ربط الاِتصال…</string>
@@ -657,7 +653,7 @@
     <string name="fragment_contact_selection_empty_contacts">لا تملك اي متصلين لحد الان</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">طبِق</string>
-    <string name="menu_done_button">تم</string>
+    <string name="done">تم</string>
     <string name="activity_edit_closed_group_title">عَدِل المجموعة</string>
     <string name="activity_edit_closed_group_edit_text_hint">أدخل إسم جديد للمجموعة</string>
     <string name="activity_edit_closed_group_edit_members">أعضاء</string>
@@ -685,7 +681,6 @@
     <string name="activity_link_device_scan_qr_code">اِفحص رمز QR</string>
     <string name="activity_link_device_qr_message">اِذهب إلى التعديلات جملة الاِسترجاع في جهازك الاآخر لإظهار رمز QR الخاص بك.</string>
     <string name="activity_join_public_chat_join_rooms">أو انضم إلى واحدة من…</string>
-    <string name="activity_pn_mode_message_notifications">تنبيهات الرسائل</string>
     <string name="activity_pn_mode_explanation">يوجد طريقتين لتلقي التنبيهات.</string>
     <string name="activity_pn_mode_fast_mode">الوضع السريع</string>
     <string name="activity_pn_mode_slow_mode">الوضع البطيء</string>
@@ -724,7 +719,6 @@
     <string name="delete_message_for_me">اِحذف من عندي</string>
     <string name="delete_message_for_everyone">اِحذف من عند الجميع</string>
     <string name="delete_message_for_me_and_recipient">أحذف من عندي و من عند %s</string>
-    <string name="dialog_share_logs_explanation">هل ترغب في تصدير سجلات ليتم مشاركتها من أجل اكتشاف الأخطاء وتصحيحها؟</string>
     <string name="conversation_pin">ًًًُُثَبت</string>
     <string name="conversation_unpin">الغ التثبيت</string>
 </resources>

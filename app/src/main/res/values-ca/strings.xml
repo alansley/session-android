@@ -22,7 +22,6 @@
         <item quantity="one">Això reduirà immediatament totes les converses al missatge més recent.</item>
         <item quantity="other">Això reduirà immediatament totes les converses als %d missatges més recents.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Suprimeix</string>
     <string name="ApplicationPreferencesActivity_On">Actiu</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imatge)</string>
@@ -369,7 +368,6 @@ d\'intercanvi de claus!</string>
     <string name="arrays__disabled">Inhabilitat</string>
     <string name="arrays__name_and_message">Nom i missatge</string>
     <string name="notificationsContentShowNameOnly">Només el nom</string>
-    <string name="arrays__no_name_or_message">Sense nom ni missatge</string>
     <string name="arrays__images">Imatges</string>
     <string name="arrays__audio">Àudio</string>
     <string name="arrays__video">Vídeo</string>
@@ -427,7 +425,6 @@ d\'intercanvi de claus!</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inhabilita els emojis inclosos al Session</string>
     <string name="preferences_notifications__messages">Missatges</string>
     <string name="preferences_notifications__in_chat_sounds">Sons del xat</string>
-    <string name="preferences_notifications__priority">Prioritat</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -488,7 +485,6 @@ d\'intercanvi de claus!</string>
     <string name="BackupDialog_delete_backups">Voleu suprimir les còpies de seguretat?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Voleu inhabilitar i suprimir totes les còpies de seguretat locals?</string>
     <string name="BackupDialog_delete_backups_statement">Suprimeix les còpies de seguretat</string>
-    <string name="BackupDialog_copied_to_clipboard">Copiat al porta-retalls</string>
     <string name="LocalBackupJob_creating_backup">S\'està creant una còpia de seguretat...</string>
     <string name="ProgressPreference_d_messages_so_far">%d missatges fins ara...</string>
     <string name="BackupUtil_never">Mai</string>
@@ -501,7 +497,7 @@ d\'intercanvi de claus!</string>
     <string name="continue_2">Continua</string>
     <string name="copy">Copia</string>
     <string name="invalid_url">URL invàlida</string>
-    <string name="copied_to_clipboard">Copiat al porta-retalls</string>
+    <string name="copied">Copiat al porta-retalls</string>
     <string name="next">Següent</string>
     <string name="share">Comparteix</string>
     <string name="invalid_session_id">ID de Session invàlid</string>
@@ -541,8 +537,8 @@ d\'intercanvi de claus!</string>
     <string name="view_seed_reminder_subtitle_2">Mantingues premudes les paraules redactades per a mostrar la teva frase de recuperació. Desa-la de manera segura per a protegir la teva ID de Session.</string>
     <string name="view_seed_reminder_subtitle_3">Assegura\'t d\'emmagatzemar la frase de recuperació en un lloc segur</string>
     <string name="onionRoutingPath">Ruta</string>
-    <string name="activity_path_guard_node_row_title">Node d\'entrada</string>
-    <string name="activity_path_service_node_row_title">Node de servei</string>
+    <string name="onionRoutingPathEntryNode">Node d\'entrada</string>
+    <string name="onionRoutingPathServiceNode">Node de servei</string>
     <string name="onionRoutingPathDestination">Destinació</string>
     <string name="learnMore">Aprèn-ne més</string>
     <string name="activity_create_private_chat_title">Nova sessió</string>
@@ -593,7 +589,7 @@ d\'intercanvi de claus!</string>
     <string name="fragment_contact_selection_empty_contacts">Encara no hi tens cap contacte</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Aplica</string>
-    <string name="menu_done_button">Fet</string>
+    <string name="done">Fet</string>
     <string name="activity_edit_closed_group_title">Edita el Grup</string>
     <string name="activity_edit_closed_group_edit_text_hint">Introdueix un nou nom del grup</string>
     <string name="activity_edit_closed_group_edit_members">Membres</string>
@@ -619,7 +615,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_link_device_skip_prompt">Això triga un xic, t\'ho vols saltar?</string>
     <string name="activity_link_device_link_device">Enllaça un dispositiu</string>
     <string name="activity_join_public_chat_join_rooms">O uneix-te a alguns d\'aquests…</string>
-    <string name="activity_pn_mode_message_notifications">Notificacions de missatge</string>
     <string name="activity_pn_mode_explanation">Hi ha dues maneres per les quals Session et pot notificar els missatges nous.</string>
     <string name="activity_pn_mode_fast_mode">Mode ràpid</string>
     <string name="activity_pn_mode_slow_mode">Mode lent</string>

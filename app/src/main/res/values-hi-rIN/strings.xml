@@ -22,7 +22,6 @@
         <item quantity="one">यह तुरंत सभी वार्तालापों को हाल ही के संदेश में ट्रिम कर देगा।</item>
         <item quantity="other">यह तुरंत सभी वार्तालापों को हाल ही के %d संदेशों में ट्रिम कर देगा।</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">नष्ट करें</string>
     <string name="ApplicationPreferencesActivity_On">ऑन</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(तस्वीर)</string>
@@ -374,7 +373,6 @@
     <string name="arrays__disabled">अक्षम</string>
     <string name="arrays__name_and_message">नाम और संदेश</string>
     <string name="notificationsContentShowNameOnly">केवल नाम</string>
-    <string name="arrays__no_name_or_message">कोई नाम या संदेश नहीं</string>
     <string name="arrays__images">तसवीरें </string>
     <string name="arrays__audio">ऑडियो </string>
     <string name="arrays__video">वीडियो </string>
@@ -432,7 +430,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session के अंतर्निहित इमोजी समर्थन को अक्षम करें</string>
     <string name="preferences_notifications__messages">संदेश</string>
     <string name="preferences_notifications__in_chat_sounds">चैट में आवाज</string>
-    <string name="preferences_notifications__priority">प्राथमिकता</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -494,7 +491,6 @@
     <string name="BackupDialog_delete_backups">बैकअप हटाएं?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">सभी स्थानीय बैकअप अक्षम करें और हटाएं?</string>
     <string name="BackupDialog_delete_backups_statement">बैकअप हटाएं</string>
-    <string name="BackupDialog_copied_to_clipboard">क्लिपबोर्ड पर कॉपी किया गया है</string>
     <string name="LocalBackupJob_creating_backup">बैकअप बनाया जा रहा है</string>
     <string name="ProgressPreference_d_messages_so_far">अब तक %d संदेश</string>
     <string name="BackupUtil_never">कभी नहीं</string>
@@ -507,7 +503,7 @@
     <string name="continue_2">जारी रखें</string>
     <string name="copy">कॉपी करें</string>
     <string name="invalid_url">अमान्य यूआरएल</string>
-    <string name="copied_to_clipboard">क्लिपबोर्ड पर कॉपी किया गया है</string>
+    <string name="copied">क्लिपबोर्ड पर कॉपी किया गया है</string>
     <string name="next">अगला</string>
     <string name="share">साझा करें</string>
     <string name="invalid_session_id">अमान्य सेशन आईडी</string>
@@ -547,8 +543,8 @@
     <string name="view_seed_reminder_subtitle_2">अपना पुनर्प्राप्ति वाक्यांश प्रकट करने के लिए संशोधित शब्दों को टैप और होल्ड करें, फिर अपनी Session ID को सुरक्षित करने के लिए इसे सुरक्षित रूप से संग्रहीत करें।</string>
     <string name="view_seed_reminder_subtitle_3">अपने रिकवरी फ्रेज को एक सुरक्षित जगह रखे</string>
     <string name="onionRoutingPath">पथ</string>
-    <string name="activity_path_guard_node_row_title">प्रवेश नोड</string>
-    <string name="activity_path_service_node_row_title">सर्विस नोड</string>
+    <string name="onionRoutingPathEntryNode">प्रवेश नोड</string>
+    <string name="onionRoutingPathServiceNode">सर्विस नोड</string>
     <string name="onionRoutingPathDestination">गंतव्य</string>
     <string name="learnMore">अधिक जानें</string>
     <string name="activity_path_resolving_progress">हल किया जा रहा है</string>
@@ -610,7 +606,7 @@
     <string name="fragment_contact_selection_empty_contacts">अभी तक आपके पास कोई कॉन्टैक्ट्स नहीं हैं</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">लागू करें</string>
-    <string name="menu_done_button">पूरा हुआ</string>
+    <string name="done">पूरा हुआ</string>
     <string name="activity_edit_closed_group_title">ग्रुप बदलें</string>
     <string name="activity_edit_closed_group_edit_text_hint">ग्रुप का नया नाम डालें</string>
     <string name="activity_edit_closed_group_edit_members">सदस्य</string>
@@ -638,7 +634,6 @@
     <string name="activity_link_device_scan_qr_code">QR कोड को स्कैन करें</string>
     <string name="activity_link_device_qr_message">अपना क्यूआर कोड दिखाने के लिए अपने अन्य डिवाइस पर सेटिंग्स →पुनर्प्राप्ति वाक्यांश में जाएंं।</string>
     <string name="activity_join_public_chat_join_rooms">या इनमें से एक को जोड़ें...</string>
-    <string name="activity_pn_mode_message_notifications">संदेश सूचनाएं</string>
     <string name="activity_pn_mode_explanation">सेशन आपको नए संदेश के बारे में दो तरीकों से बता सकता है</string>
     <string name="activity_pn_mode_fast_mode">फास्ट मोड</string>
     <string name="activity_pn_mode_slow_mode">स्लो मोड</string>

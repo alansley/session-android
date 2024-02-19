@@ -23,7 +23,6 @@
         <item quantity="one">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև վերջին հաղորդագրությունը.</item>
         <item quantity="other">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև %d վերջին հաղորդագրությունը.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Ջնջել</string>
     <string name="ApplicationPreferencesActivity_On">Միացրած</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(նկար)</string>
@@ -382,7 +381,6 @@
     <string name="arrays__disabled">Անջատված</string>
     <string name="arrays__name_and_message">Անունը և նամակը</string>
     <string name="notificationsContentShowNameOnly">Միայն անունը</string>
-    <string name="arrays__no_name_or_message">Չկա անուն կամ հաղորդագրություն</string>
     <string name="arrays__images">Նկարներ</string>
     <string name="arrays__audio">Աուդիո</string>
     <string name="arrays__video">Վիդեո</string>
@@ -440,7 +438,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Անջատել Session-ի ներկառուցված էմոջիների ապահովումը</string>
     <string name="preferences_notifications__messages">Նամակներ</string>
     <string name="preferences_notifications__in_chat_sounds">Ձայներ չատում</string>
-    <string name="preferences_notifications__priority">Առաջնայնություն</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -502,7 +499,6 @@
     <string name="BackupDialog_delete_backups">Ջնջե՞լ կրկնօրինակը։</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Անջատե՞լ և ջնջե՞լ բոլոր տեղական կրկնօրինակները:</string>
     <string name="BackupDialog_delete_backups_statement">Ջնջել կրկնօրինակը։</string>
-    <string name="BackupDialog_copied_to_clipboard">Պատճենվել է կցարանում</string>
     <string name="LocalBackupJob_creating_backup">Ստեղծվուն է կրկնօրինակ...</string>
     <string name="ProgressPreference_d_messages_so_far">Մինչ այժմ %d հաղորդագրություն</string>
     <string name="BackupUtil_never">Երբեք</string>
@@ -515,7 +511,7 @@
     <string name="continue_2">Շարունակել</string>
     <string name="copy">Պատճենել</string>
     <string name="invalid_url">Սխալ Հղում</string>
-    <string name="copied_to_clipboard">Պատճենվել է կցարանում</string>
+    <string name="copied">Պատճենվել է կցարանում</string>
     <string name="next">Հաջորդը</string>
     <string name="share">Կիսվել</string>
     <string name="invalid_session_id">Սխալ Session ID</string>
@@ -555,8 +551,8 @@
     <string name="view_seed_reminder_subtitle_2">Հպեք և պահեք տրված բառերը՝ ձեր վերականգնման բանալին գտնելու համար, այնուհետև պահեք այն ապահով՝ ձեր Session ID-ն ապահով պահելու համար.</string>
     <string name="view_seed_reminder_subtitle_3">Վստահ եղեք որ ձեր վերականգման բանալին հուսալի տեղում է</string>
     <string name="onionRoutingPath">Ուղի</string>
-    <string name="activity_path_guard_node_row_title">Մուտքային Հանգույց</string>
-    <string name="activity_path_service_node_row_title">Ծառայության Հանգույց</string>
+    <string name="onionRoutingPathEntryNode">Մուտքային Հանգույց</string>
+    <string name="onionRoutingPathServiceNode">Ծառայության Հանգույց</string>
     <string name="onionRoutingPathDestination">Նպատակակետ</string>
     <string name="learnMore">Իմանալ Ավելին</string>
     <string name="activity_path_resolving_progress">Լուծում է…</string>
@@ -618,7 +614,7 @@
     <string name="fragment_contact_selection_empty_contacts">Դուք դեռ որևէ կոնտակտ չունեք</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Հաստատել</string>
-    <string name="menu_done_button">Վերջ</string>
+    <string name="done">Վերջ</string>
     <string name="activity_edit_closed_group_title">Խմբագրել խումբը</string>
     <string name="activity_edit_closed_group_edit_text_hint">Մուտքագրեք նոր խմբի անուն</string>
     <string name="activity_edit_closed_group_edit_members">Անդամներ</string>
@@ -646,7 +642,6 @@
     <string name="activity_link_device_scan_qr_code">Սկանավորել QR Կոդը</string>
     <string name="activity_link_device_qr_message">Անցեք Կարգավորումներ → Վերականգնման Բառակապակցություն՝ ձեր QR կոդը ցուցադրելու համար:</string>
     <string name="activity_join_public_chat_join_rooms">Կամ միացե՛ք սրանցից մեկին…</string>
-    <string name="activity_pn_mode_message_notifications">Հաղորդագրության ծանուցումներ</string>
     <string name="activity_pn_mode_explanation">Երկու եղանակով Session-ը կարող է ձեզ տեղեկացնել նոր հաղորդագրությունների մասին:</string>
     <string name="activity_pn_mode_fast_mode">Արագ ռեժիմ</string>
     <string name="activity_pn_mode_slow_mode">Դանդաղ ռեժիմ</string>
@@ -685,7 +680,6 @@
     <string name="delete_message_for_me">Ջնջել միայն իմ համար</string>
     <string name="delete_message_for_everyone">Ջնջել բոլորի համար</string>
     <string name="delete_message_for_me_and_recipient">Ջնջել ինձ և %s-ի համար</string>
-    <string name="dialog_share_logs_explanation">Ցանկանու՞մ եք արտահանել ձեր հավելվածի մատյանները, որպեսզի կարողանաք կիսվել անսարքությունների վերացման համար:</string>
     <string name="conversation_pin">Ամրացնել</string>
     <string name="conversation_unpin">Արձակել</string>
     <string name="mark_all_as_read">Նշել բոլորը, որպես տեսնված</string>

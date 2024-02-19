@@ -89,7 +89,7 @@ class SeedActivity : BaseActionBarActivity() {
         val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         val clip = ClipData.newPlainText("Seed", seed)
         clipboard.setPrimaryClip(clip)
-        Toast.makeText(this, R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, R.string.copied, Toast.LENGTH_SHORT).show()
     }
     // endregion
 }

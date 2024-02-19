@@ -26,7 +26,6 @@
         <item quantity="many">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do %d najnowszych wiadomości.</item>
         <item quantity="other">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do %d najnowszych wiadomości.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Usuń</string>
     <string name="ApplicationPreferencesActivity_On">Włączone</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(obraz)</string>
@@ -395,7 +394,6 @@
     <string name="arrays__disabled">Wyłączone</string>
     <string name="arrays__name_and_message">Imię i wiadomość</string>
     <string name="notificationsContentShowNameOnly">Tylko nazwa</string>
-    <string name="arrays__no_name_or_message">Brak imienia lub wiadomości</string>
     <string name="arrays__images">Zdjęcia</string>
     <string name="arrays__audio">Dźwięk</string>
     <string name="arrays__video">Wideo</string>
@@ -455,7 +453,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Wyłącz wbudowane wspomaganie emoji Session</string>
     <string name="preferences_notifications__messages">Wiadomości</string>
     <string name="preferences_notifications__in_chat_sounds">Dźwięki podczas rozmowy</string>
-    <string name="preferences_notifications__priority">Priorytet</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -517,7 +514,6 @@
     <string name="BackupDialog_delete_backups">Usunąć kopie zapasowe?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Wyłączyć i usunąć wszystkie lokalne kopie zapasowe?</string>
     <string name="BackupDialog_delete_backups_statement">Usuń kopie zapasowe</string>
-    <string name="BackupDialog_copied_to_clipboard">Skopiowane do schowka</string>
     <string name="LocalBackupJob_creating_backup">Tworzenie kopii zapasowej...</string>
     <string name="ProgressPreference_d_messages_so_far">%d wiadomości</string>
     <string name="BackupUtil_never">Nigdy</string>
@@ -530,7 +526,7 @@
     <string name="continue_2">Kontynuuj</string>
     <string name="copy">Kopiuj</string>
     <string name="invalid_url">Nieprawidłowy URL</string>
-    <string name="copied_to_clipboard">Skopiowano do schowka</string>
+    <string name="copied">Skopiowano do schowka</string>
     <string name="next">Dalej</string>
     <string name="share">Udostępnij</string>
     <string name="invalid_session_id">Nieprawidłowy identyfikator Session</string>
@@ -570,8 +566,8 @@
     <string name="view_seed_reminder_subtitle_2">Stuknij i przytrzymaj zredagowane słowa, aby odsłonić frazę odzyskiwania, a następnie przechowuj ją w bezpiecznym miejscu, aby zabezpieczyć identyfikator Session.</string>
     <string name="view_seed_reminder_subtitle_3">Pamiętaj, aby przechowywać frazę odzyskiwania w bezpiecznym miejscu</string>
     <string name="onionRoutingPath">Ścieżka</string>
-    <string name="activity_path_guard_node_row_title">Węzeł wejścia</string>
-    <string name="activity_path_service_node_row_title">Węzeł serwisowy</string>
+    <string name="onionRoutingPathEntryNode">Węzeł wejścia</string>
+    <string name="onionRoutingPathServiceNode">Węzeł serwisowy</string>
     <string name="onionRoutingPathDestination">Miejsce docelowe</string>
     <string name="learnMore">Dowiedz się więcej</string>
     <string name="activity_path_resolving_progress">Ładowanie…</string>
@@ -633,7 +629,7 @@
     <string name="fragment_contact_selection_empty_contacts">Nie masz jeszcze żadnych kontaktów</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Zastosuj</string>
-    <string name="menu_done_button">Gotowe</string>
+    <string name="done">Gotowe</string>
     <string name="activity_edit_closed_group_title">Edytuj grupę</string>
     <string name="activity_edit_closed_group_edit_text_hint">Wpisz nazwę grupy</string>
     <string name="activity_edit_closed_group_edit_members">Członkowie</string>
@@ -661,7 +657,6 @@
     <string name="activity_link_device_scan_qr_code">Skanuj kod QR</string>
     <string name="activity_link_device_qr_message">Przejdź do Ustawień → Fraza odzyskiwania na innym urządzeniu, aby wyświetlić kod QR.</string>
     <string name="activity_join_public_chat_join_rooms">Lub dołącz do jednego z tych…</string>
-    <string name="activity_pn_mode_message_notifications">Powiadomienia o wiadomości</string>
     <string name="activity_pn_mode_explanation">Istnieją dwa sposoby powiadamiania o nowych wiadomościach.</string>
     <string name="activity_pn_mode_fast_mode">Tryb szybki</string>
     <string name="activity_pn_mode_slow_mode">Tryb wolny</string>
@@ -700,7 +695,6 @@
     <string name="delete_message_for_me">Usuń tylko dla mnie</string>
     <string name="delete_message_for_everyone">Usuń dla wszystkich</string>
     <string name="delete_message_for_me_and_recipient">Usuń dla mnie i %s</string>
-    <string name="dialog_share_logs_explanation">Czy chcesz wyeksportować logi aplikacji, aby móc je udostępniać do rozwiązywania problemów?</string>
     <string name="conversation_pin">Przypnij</string>
     <string name="conversation_unpin">Odepnij</string>
 </resources>

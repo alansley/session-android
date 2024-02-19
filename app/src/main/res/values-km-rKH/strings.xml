@@ -17,7 +17,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">វានឹងតម្រឹមការសន្ទនាទាំងអស់ភ្លាមៗ ទៅជាសារថ្មីៗ ចំនួន%d។</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">លុប</string>
     <string name="ApplicationPreferencesActivity_On">បើក</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(រូបភាព)</string>
@@ -335,7 +334,6 @@
     <string name="arrays__disabled">បានបិទ</string>
     <string name="arrays__name_and_message">ឈ្មោះ និងសារ</string>
     <string name="notificationsContentShowNameOnly">ឈ្មោះតែប៉ុណ្ណោះ</string>
-    <string name="arrays__no_name_or_message">ពុំមានឈ្មោះ ឬសារ</string>
     <string name="arrays__images">រូបភាព</string>
     <string name="arrays__audio">សំឡេង</string>
     <string name="arrays__video">វីដេអូ</string>
@@ -392,7 +390,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">បិទមិនប្រើរូបអារម្មណ៍emoji របស់ Session</string>
     <string name="preferences_notifications__messages">សារ</string>
     <string name="preferences_notifications__in_chat_sounds">សំឡេងក្នុងការជជែក</string>
-    <string name="preferences_notifications__priority">អទិភាព</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -452,7 +449,6 @@
     <string name="BackupDialog_delete_backups">លុបការបម្រុងទុក?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">បិទ និងលុបចោលការបម្រុងទុកខាងក្នុងទាំងអស់?</string>
     <string name="BackupDialog_delete_backups_statement">លុបការបម្រុងទុក</string>
-    <string name="BackupDialog_copied_to_clipboard">បានចម្លងទៅ clipboard</string>
     <string name="LocalBackupJob_creating_backup">កំពុងបង្កើតការបម្រុងទុក...</string>
     <string name="ProgressPreference_d_messages_so_far">ឥឡូវនេះសារ%d</string>
     <string name="BackupUtil_never">មិនធ្លាប់</string>

@@ -9,7 +9,6 @@
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">စာအဟောင်းများအားလုံးဖျက်မှာလား?</string>
-    <string name="ApplicationPreferencesActivity_delete">ဖျက်ပါ</string>
     <string name="ApplicationPreferencesActivity_On">ဖွင့်ပါ</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ရုပ်ပုံ) </string>
@@ -274,7 +273,6 @@
     <string name="arrays__disabled">မလုပ်ဆောင်နိုင်ပါ</string>
     <string name="arrays__name_and_message">အမည်နှင့် စာ</string>
     <string name="notificationsContentShowNameOnly">အမည်တစ်ခုတည်းသာ</string>
-    <string name="arrays__no_name_or_message">အမည် သို့မဟုတ် စာ မရှိ</string>
     <string name="arrays__images">ပုံများ</string>
     <string name="arrays__audio">အသံ</string>
     <string name="arrays__video">ဗီဒီယို</string>
@@ -326,7 +324,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session ရဲ့ emoji ကို ပိတ်ပါ</string>
     <string name="preferences_notifications__messages">စာများ</string>
     <string name="preferences_notifications__in_chat_sounds">စကားပြောနေစဥ် အသံ</string>
-    <string name="preferences_notifications__priority">ဦးစားပေး</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -384,7 +381,6 @@
     <string name="BackupDialog_delete_backups">အရံသိမ်းဆည်းထားမှုများကို ဖျက်ပစ်မည်လား?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">ဖုန်းထဲတွင် အရံသိမ်းထားသောဖိုင်များကို ပိတ်ပြီး ဖျက်မည်လား?</string>
     <string name="BackupDialog_delete_backups_statement">အရံသိမ်းထားသည်များကို ဖျက်မည်</string>
-    <string name="BackupDialog_copied_to_clipboard">clipboard သို့ ကူးယူပါ</string>
     <string name="LocalBackupJob_creating_backup">အရံသိမ်းဆည်းမှုများ ဖန်တီးနေပါသည်...</string>
     <string name="ProgressPreference_d_messages_so_far">လက်ရှိအချိန်အထိ %d စာ ရှိပါသည်</string>
     <string name="BackupUtil_never">ဘယ်တော့မှ</string>

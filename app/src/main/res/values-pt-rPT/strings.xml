@@ -22,7 +22,6 @@
         <item quantity="one">Isto irá reduzir as conversas anteriores à mensagem mais recente.</item>
         <item quantity="other">Isto irá imediatamente reduzir as conversações às %d mensagens mais recentes.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Eliminar</string>
     <string name="ApplicationPreferencesActivity_On">Ligadas</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imagem)</string>
@@ -370,7 +369,6 @@ foi recebida está corrompida!</string>
     <string name="arrays__disabled">Desativada</string>
     <string name="arrays__name_and_message">Nome e mensagem</string>
     <string name="notificationsContentShowNameOnly">Apenas o nome</string>
-    <string name="arrays__no_name_or_message">Sem nome ou mensagem</string>
     <string name="arrays__images">Imagens</string>
     <string name="arrays__audio">Áudio</string>
     <string name="arrays__video">Vídeo</string>
@@ -428,7 +426,6 @@ foi recebida está corrompida!</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desativar o suporte de emojis próprios do Session</string>
     <string name="preferences_notifications__messages">Mensagens</string>
     <string name="preferences_notifications__in_chat_sounds">Sons na conversa</string>
-    <string name="preferences_notifications__priority">Prioridade</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -490,7 +487,6 @@ foi recebida está corrompida!</string>
     <string name="BackupDialog_delete_backups">Eliminar cópias de segurança?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Desativar e eliminar todas as cópias de segurança locais?</string>
     <string name="BackupDialog_delete_backups_statement">Eliminar cópias de segurança</string>
-    <string name="BackupDialog_copied_to_clipboard">Copiado para a área de transferência</string>
     <string name="LocalBackupJob_creating_backup">A criar cópia de segurança...</string>
     <string name="ProgressPreference_d_messages_so_far">%d mensagens até à data</string>
     <string name="BackupUtil_never">Nunca</string>
@@ -503,7 +499,7 @@ foi recebida está corrompida!</string>
     <string name="continue_2">Continuar</string>
     <string name="copy">Copiar</string>
     <string name="invalid_url">URL inválido</string>
-    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="copied">Copiado para a área de transferência</string>
     <string name="next">Próximo</string>
     <string name="share">Compartilhar</string>
     <string name="invalid_session_id">ID Session inválido</string>
@@ -543,8 +539,8 @@ foi recebida está corrompida!</string>
     <string name="view_seed_reminder_subtitle_2">Toque e segure as palavras editadas para revelar sua frase de recuperação e armazene-a com segurança para proteger seu ID Session.</string>
     <string name="view_seed_reminder_subtitle_3">Guarde sua frase de recuperação em um local seguro</string>
     <string name="onionRoutingPath">Caminho</string>
-    <string name="activity_path_guard_node_row_title">Nó de Entrada</string>
-    <string name="activity_path_service_node_row_title">Nó de Serviço</string>
+    <string name="onionRoutingPathEntryNode">Nó de Entrada</string>
+    <string name="onionRoutingPathServiceNode">Nó de Serviço</string>
     <string name="onionRoutingPathDestination">Destino</string>
     <string name="learnMore">Saber mais</string>
     <string name="activity_path_resolving_progress">A resolver…</string>

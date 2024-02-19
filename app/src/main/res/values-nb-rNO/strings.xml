@@ -22,7 +22,6 @@
         <item quantity="one">Dette forkorter alle samtaler til den nyeste meldinga umiddelbart.</item>
         <item quantity="other">Dette forkorter alle samtaler til de %d siste meldingene umiddelbart.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Slett</string>
     <string name="ApplicationPreferencesActivity_On">På</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bilde)</string>
@@ -374,7 +373,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__disabled">Slått av</string>
     <string name="arrays__name_and_message">Navn og melding</string>
     <string name="notificationsContentShowNameOnly">Bare navn</string>
-    <string name="arrays__no_name_or_message">Ingen navn eller melding</string>
     <string name="arrays__images">Bilder</string>
     <string name="arrays__audio">Lyd</string>
     <string name="arrays__video">Video</string>
@@ -432,7 +430,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i Session</string>
     <string name="preferences_notifications__messages">Meldinger</string>
     <string name="preferences_notifications__in_chat_sounds">Samtalelyder</string>
-    <string name="preferences_notifications__priority">Prioritet</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -494,7 +491,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="BackupDialog_delete_backups">Vil du slette disse sikkerhetskopiene?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Vil du slå av og slette alle lokale sikkerhetskopier?</string>
     <string name="BackupDialog_delete_backups_statement">Slett sikkerhetskopier</string>
-    <string name="BackupDialog_copied_to_clipboard">Kopiert til utklippstavle</string>
     <string name="LocalBackupJob_creating_backup">Tar sikkerhetskopi …</string>
     <string name="ProgressPreference_d_messages_so_far">%d meldinger hittil</string>
     <string name="BackupUtil_never">Aldri</string>
@@ -507,7 +503,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="continue_2">Fortsett</string>
     <string name="copy">Kopier</string>
     <string name="invalid_url">Ugyldig URL</string>
-    <string name="copied_to_clipboard">Kopiert til utklippstavle</string>
+    <string name="copied">Kopiert til utklippstavle</string>
     <string name="next">Neste</string>
     <string name="share">Del</string>
     <string name="invalid_session_id">Ugyldig Session ID</string>
@@ -547,8 +543,8 @@ nøkkelutvekslingsmelding.</string>
     <string name="view_seed_reminder_subtitle_2">Trykk og hold inne de overflødige ordene for å hente gjenopprettingsfrasen din, og lagre den trygt å sikre din Session-ID.</string>
     <string name="view_seed_reminder_subtitle_3">Pass på å lagre gjenopprettingsfrasen på et sikkert sted</string>
     <string name="onionRoutingPath">Bane</string>
-    <string name="activity_path_guard_node_row_title">Enhetens node</string>
-    <string name="activity_path_service_node_row_title">Tjeneste node</string>
+    <string name="onionRoutingPathEntryNode">Enhetens node</string>
+    <string name="onionRoutingPathServiceNode">Tjeneste node</string>
     <string name="onionRoutingPathDestination">Destinasjon</string>
     <string name="learnMore">Lær mer</string>
     <string name="activity_path_resolving_progress">Løser…</string>
@@ -610,7 +606,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="fragment_contact_selection_empty_contacts">Du har ingen kontakter ennå</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Bruk</string>
-    <string name="menu_done_button">Ferdig</string>
+    <string name="done">Ferdig</string>
     <string name="activity_edit_closed_group_title">Rediger gruppe</string>
     <string name="activity_edit_closed_group_edit_text_hint">Skriv inn nytt gruppenavn</string>
     <string name="activity_edit_closed_group_edit_members">Medlemmer</string>
@@ -638,7 +634,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_link_device_scan_qr_code">Skann QR-kode</string>
     <string name="activity_link_device_qr_message">Naviger til innstillinger → Gjenopprettingsfrasen på din andre enhet for å vise QR-koden.</string>
     <string name="activity_join_public_chat_join_rooms">Eller bli med i en av disse…</string>
-    <string name="activity_pn_mode_message_notifications">Meldingsvarsel</string>
     <string name="activity_pn_mode_explanation">Det er to måter Session kan gi beskjed om nye meldinger på.</string>
     <string name="activity_pn_mode_fast_mode">Rask modus</string>
     <string name="activity_pn_mode_slow_mode">Langsom Modus</string>
@@ -677,7 +672,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="delete_message_for_me">Slett kun for meg</string>
     <string name="delete_message_for_everyone">Slett for alle</string>
     <string name="delete_message_for_me_and_recipient">Slett for meg og %s</string>
-    <string name="dialog_share_logs_explanation">Ønsker du å eksportere applikasjonsloggene dine for å kunne dele for feilsøking?</string>
     <string name="conversation_pin">Fest</string>
     <string name="conversation_unpin">Løsne</string>
 </resources>

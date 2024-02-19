@@ -26,7 +26,6 @@
         <item quantity="many">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
         <item quantity="other">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Видалити</string>
     <string name="ApplicationPreferencesActivity_On">Увімк.</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(зображення)</string>
@@ -396,7 +395,6 @@
     <string name="arrays__disabled">Вимкнено</string>
     <string name="arrays__name_and_message">Ім\'я та повідомлення</string>
     <string name="notificationsContentShowNameOnly">Тільки ім\'я</string>
-    <string name="arrays__no_name_or_message">Немає імені чи повідомлення</string>
     <string name="arrays__images">Зображення</string>
     <string name="arrays__audio">Аудіо</string>
     <string name="arrays__video">Відео</string>
@@ -456,7 +454,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Вимкнути вбудовану в Session підтримку emoji</string>
     <string name="preferences_notifications__messages">Повідомлення</string>
     <string name="preferences_notifications__in_chat_sounds">Звуки чату</string>
-    <string name="preferences_notifications__priority">Пріорітет</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -520,7 +517,6 @@
     <string name="BackupDialog_delete_backups">Видалити резервні копії?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Вимкнути та видалити усі локальні резервні копії?</string>
     <string name="BackupDialog_delete_backups_statement">Видалити резервні копії</string>
-    <string name="BackupDialog_copied_to_clipboard">Скопійовано до буфера обміну</string>
     <string name="LocalBackupJob_creating_backup">Створення резервної копії...</string>
     <string name="ProgressPreference_d_messages_so_far">Залишилось %d повідомлень</string>
     <string name="BackupUtil_never">Ніколи</string>
@@ -533,7 +529,7 @@
     <string name="continue_2">Далі</string>
     <string name="copy">Скопіювати</string>
     <string name="invalid_url">Недійсне URL посилання</string>
-    <string name="copied_to_clipboard">Скопійовано в буфер обміну</string>
+    <string name="copied">Скопійовано в буфер обміну</string>
     <string name="next">Далі</string>
     <string name="share">Поділитися</string>
     <string name="invalid_session_id">Невірна Session ID адресса</string>
@@ -573,8 +569,8 @@
     <string name="view_seed_reminder_subtitle_2">Натисніть і втримуйте приховані слова, щоб розкрити вашу фразу відновлення, запишіть її на папері, щоб безпечно захистити вашу Session ID адресу.</string>
     <string name="view_seed_reminder_subtitle_3">Переконайтеся, що ви записали свою фразу відновлення на папері і поклали її в безпечне місце</string>
     <string name="onionRoutingPath">Шлях</string>
-    <string name="activity_path_guard_node_row_title">Вхідний Вузел</string>
-    <string name="activity_path_service_node_row_title">Сервісний Вузел</string>
+    <string name="onionRoutingPathEntryNode">Вхідний Вузел</string>
+    <string name="onionRoutingPathServiceNode">Сервісний Вузел</string>
     <string name="onionRoutingPathDestination">Місце призначення</string>
     <string name="learnMore">Дізнатися більше</string>
     <string name="activity_path_resolving_progress">Визначаємо…</string>
@@ -636,7 +632,7 @@
     <string name="fragment_contact_selection_empty_contacts">У вас ще немає Session контактів</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Застосувати</string>
-    <string name="menu_done_button">Готово</string>
+    <string name="done">Готово</string>
     <string name="activity_edit_closed_group_title">Редагувати Групу</string>
     <string name="activity_edit_closed_group_edit_text_hint">Введіть нове ім’я группи</string>
     <string name="activity_edit_closed_group_edit_members">Учасники</string>
@@ -664,7 +660,6 @@
     <string name="activity_link_device_scan_qr_code">Сканувати QR-код</string>
     <string name="activity_link_device_qr_message">Перейдіть до Налаштувань → Фраза відновлення на вашому іншому пристрої, щоб відобразити ваш QR-код.</string>
     <string name="activity_join_public_chat_join_rooms">Або приєднуйтесь до одного з цих…</string>
-    <string name="activity_pn_mode_message_notifications">Сповіщення повідомлень</string>
     <string name="activity_pn_mode_explanation">Існує два способи Session може сповіщати вас про нові повідомлення.</string>
     <string name="activity_pn_mode_fast_mode">Швидкий режим</string>
     <string name="activity_pn_mode_slow_mode">Медленний режим</string>

@@ -26,7 +26,6 @@
         <item quantity="many">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>
         <item quantity="other">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">מחק</string>
     <string name="ApplicationPreferencesActivity_On">מופעל</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(תמונה)</string>
@@ -388,7 +387,6 @@
     <string name="arrays__disabled">מושבת</string>
     <string name="arrays__name_and_message">שם והודעה</string>
     <string name="notificationsContentShowNameOnly">שם בלבד</string>
-    <string name="arrays__no_name_or_message">ללא שם או הודעה</string>
     <string name="arrays__images">תמונות</string>
     <string name="arrays__audio">שמע</string>
     <string name="arrays__video">וידיאו</string>
@@ -448,7 +446,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">השבת תמיכת אימוג\'י מובנית של Session</string>
     <string name="preferences_notifications__messages">הודעות</string>
     <string name="preferences_notifications__in_chat_sounds">צלילים בתוך התכתבויות</string>
-    <string name="preferences_notifications__priority">עדיפות</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -508,7 +505,6 @@
     <string name="BackupDialog_delete_backups">למחוק גיבויים?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">להשבית ולמחוק את כל הגיבויים המקומיים?</string>
     <string name="BackupDialog_delete_backups_statement">מחק גיבויים</string>
-    <string name="BackupDialog_copied_to_clipboard">הועתק ללוח</string>
     <string name="LocalBackupJob_creating_backup">יוצר גיבוי...</string>
     <string name="ProgressPreference_d_messages_so_far">%d הודעות עד כה</string>
     <string name="BackupUtil_never">לעולם לא</string>

@@ -22,7 +22,6 @@
         <item quantity="one">ఇది వెంటనే ఇటీవల సందేశానికి అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
         <item quantity="other">ఇది వెంటనే ఇటీవల  %d  సందేశాలకు  అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">తొలగించండి</string>
     <string name="ApplicationPreferencesActivity_On">ఆన్</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(చిత్రం)</string>
@@ -339,7 +338,6 @@
     <string name="arrays__disabled">అచేతనం అయింది</string>
     <string name="arrays__name_and_message">పేరు మరియు సందేశం</string>
     <string name="notificationsContentShowNameOnly">పేరు మాత్రమే </string>
-    <string name="arrays__no_name_or_message">పేరు లేదా సందేశం</string>
     <string name="arrays__images">చిత్రాలు</string>
     <string name="arrays__audio">ఆడియో</string>
     <string name="arrays__video">వీడియో</string>
@@ -395,7 +393,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session యొక్క అంతర్నిర్మిత ఎమోజి మద్దతును నిలిపివేయి  </string>
     <string name="preferences_notifications__messages">సందేశాలు</string>
     <string name="preferences_notifications__in_chat_sounds">చాట్ శబ్దాలు</string>
-    <string name="preferences_notifications__priority">ప్రాధాన్యత</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -455,7 +452,6 @@
     <string name="BackupDialog_delete_backups">బ్యాకప్లను తొలగించాలా?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">అన్ని స్థానిక బ్యాకప్లను తొలగించి, డిసేబుల్ చేయాలా?</string>
     <string name="BackupDialog_delete_backups_statement">బ్యాకప్లను తొలిగించు</string>
-    <string name="BackupDialog_copied_to_clipboard">క్లిప్బోర్డ్కు కాపీ చేయబడింది</string>
     <string name="LocalBackupJob_creating_backup">బ్యాకప్ను సృష్టిస్తోంది ...</string>
     <string name="ProgressPreference_d_messages_so_far">ఇప్పటివరకు %d సందేశాలు</string>
     <string name="BackupUtil_never">ఎప్పుడూ</string>

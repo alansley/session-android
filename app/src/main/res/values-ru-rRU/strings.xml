@@ -26,7 +26,6 @@
         <item quantity="many">Все разговоры будут обрезаны до %d последних сообщений.</item>
         <item quantity="other">Все разговоры будут обрезаны до %d последних сообщений.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Удалить</string>
     <string name="ApplicationPreferencesActivity_On">Включено</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(изображение)</string>
@@ -397,7 +396,6 @@
     <string name="arrays__disabled">Отключено</string>
     <string name="arrays__name_and_message">Имя и сообщение</string>
     <string name="notificationsContentShowNameOnly">Только имя</string>
-    <string name="arrays__no_name_or_message">Ни имени, ни сообщения</string>
     <string name="arrays__images">Изображения</string>
     <string name="arrays__audio">Аудио</string>
     <string name="arrays__video">Видео</string>
@@ -457,7 +455,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Отключить встроенные эмодзи Session</string>
     <string name="preferences_notifications__messages">Сообщения</string>
     <string name="preferences_notifications__in_chat_sounds">Звуки в чате</string>
-    <string name="preferences_notifications__priority">Приоритет</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -519,7 +516,6 @@
     <string name="BackupDialog_delete_backups">Удалить резервные копии?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Отключить и удалить все локальные резервные копии?</string>
     <string name="BackupDialog_delete_backups_statement">Удалить резервные копии</string>
-    <string name="BackupDialog_copied_to_clipboard">Скопировано в буфер</string>
     <string name="LocalBackupJob_creating_backup">Создание резервной копии...</string>
     <string name="ProgressPreference_d_messages_so_far">еще %d сообщений</string>
     <string name="BackupUtil_never">Никогда</string>
@@ -532,7 +528,7 @@
     <string name="continue_2">Продолжить</string>
     <string name="copy">Копировать</string>
     <string name="invalid_url">Неверная ссылка</string>
-    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="copied">Скопировано в буфер обмена</string>
     <string name="next">Далее</string>
     <string name="share">Поделиться</string>
     <string name="invalid_session_id">Неверный Session ID</string>
@@ -572,8 +568,8 @@
     <string name="view_seed_reminder_subtitle_2">Нажмите и удерживайте сокращенные слова, чтобы открыть секретную фразу, а затем сохраните ее в надежном месте, чтобы защитить свой Session ID.</string>
     <string name="view_seed_reminder_subtitle_3">Обязательно сохраните секретную фразу в надежном месте</string>
     <string name="onionRoutingPath">Маршрут</string>
-    <string name="activity_path_guard_node_row_title">Узел входа</string>
-    <string name="activity_path_service_node_row_title">Служебный узел</string>
+    <string name="onionRoutingPathEntryNode">Узел входа</string>
+    <string name="onionRoutingPathServiceNode">Служебный узел</string>
     <string name="onionRoutingPathDestination">Место назначения</string>
     <string name="learnMore">Узнать больше</string>
     <string name="activity_path_resolving_progress">Идет определение…</string>
@@ -635,7 +631,7 @@
     <string name="fragment_contact_selection_empty_contacts">У вас еще нет контактов</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Применить</string>
-    <string name="menu_done_button">Готово</string>
+    <string name="done">Готово</string>
     <string name="activity_edit_closed_group_title">Редактировать группу</string>
     <string name="activity_edit_closed_group_edit_text_hint">Введите название новой группы</string>
     <string name="activity_edit_closed_group_edit_members">Участники</string>
@@ -663,7 +659,6 @@
     <string name="activity_link_device_scan_qr_code">Сканировать QR-код</string>
     <string name="activity_link_device_qr_message">Перейдите в Настройки → Фраза для восстановления доступа на другом устройстве, чтобы показать ваш QR код.</string>
     <string name="activity_join_public_chat_join_rooms">Или присоединитесь к одной из этих…</string>
-    <string name="activity_pn_mode_message_notifications">Уведомления о Сообщениях</string>
     <string name="activity_pn_mode_explanation">Существует два способа оповещения о новых сообщениях.</string>
     <string name="activity_pn_mode_fast_mode">Ускоренный режим</string>
     <string name="activity_pn_mode_slow_mode">Медленный режим</string>
@@ -702,7 +697,6 @@
     <string name="delete_message_for_me">Удалить только для меня</string>
     <string name="delete_message_for_everyone">Удалить для всех</string>
     <string name="delete_message_for_me_and_recipient">Удалить для меня и %s</string>
-    <string name="dialog_share_logs_explanation">Вы хотите экспортировать журналы приложений, чтобы иметь возможность делиться для устранения неполадок?</string>
     <string name="conversation_pin">Закрепить</string>
     <string name="conversation_unpin">Открепить</string>
 </resources>

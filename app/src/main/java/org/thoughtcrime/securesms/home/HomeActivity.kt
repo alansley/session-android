@@ -493,7 +493,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
                 val clip = ClipData.newPlainText("Session ID", thread.recipient.address.toString())
                 val manager = getSystemService(PassphraseRequiredActionBarActivity.CLIPBOARD_SERVICE) as ClipboardManager
                 manager.setPrimaryClip(clip)
-                Toast.makeText(this, R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.copied, Toast.LENGTH_SHORT).show()
             }
             else if (thread.recipient.isOpenGroupRecipient) {
                 val threadId = threadDb.getThreadIdIfExistsFor(thread.recipient) ?: return@onCopyConversationId Unit
@@ -502,7 +502,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
                 val clip = ClipData.newPlainText("Community URL", openGroup.joinURL)
                 val manager = getSystemService(PassphraseRequiredActionBarActivity.CLIPBOARD_SERVICE) as ClipboardManager
                 manager.setPrimaryClip(clip)
-                Toast.makeText(this, R.string.copied_to_clipboard, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, R.string.copied, Toast.LENGTH_SHORT).show()
             }
         }
         bottomSheet.onBlockTapped = {

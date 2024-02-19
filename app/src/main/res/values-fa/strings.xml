@@ -22,7 +22,6 @@
         <item quantity="one">این گزینه فورا تمامی مکالمات شما را به پیام آخر کاهش خواهد داد.</item>
         <item quantity="other">این گزینه فورا تمامی مکالمات شما را به %d پیام آخر کاهش خواهد داد.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">حذف</string>
     <string name="ApplicationPreferencesActivity_On">فعال</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(تصویر)</string>
@@ -374,7 +373,6 @@
     <string name="arrays__disabled">غیر فعال</string>
     <string name="arrays__name_and_message">نام و پیام</string>
     <string name="notificationsContentShowNameOnly">تنها نام</string>
-    <string name="arrays__no_name_or_message">بدون نام و یا پیام</string>
     <string name="arrays__images">تصویر</string>
     <string name="arrays__audio">صدا</string>
     <string name="arrays__video">ویدئو</string>
@@ -432,7 +430,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">غیرفعال کردن پشتیبانی از شکلک های ساخته شده Session</string>
     <string name="preferences_notifications__messages">پیام ها</string>
     <string name="preferences_notifications__in_chat_sounds">صداهای درون گفت‌و‌گو</string>
-    <string name="preferences_notifications__priority">اولویت</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -494,7 +491,6 @@
     <string name="BackupDialog_delete_backups">حذف پشتیبان ها؟</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">غیرفعال سازی و پاک کردن همه پشتیبان های محلی؟</string>
     <string name="BackupDialog_delete_backups_statement">حذف پشتیبان ها</string>
-    <string name="BackupDialog_copied_to_clipboard">روی کلیپ بورد کپی شد</string>
     <string name="LocalBackupJob_creating_backup">ایجاد پشتیبان...</string>
     <string name="ProgressPreference_d_messages_so_far">%d پیام تا به الان</string>
     <string name="BackupUtil_never">هرگز</string>
@@ -507,7 +503,7 @@
     <string name="continue_2">ادامه </string>
     <string name="copy">کپی کردن</string>
     <string name="invalid_url">URL نامعتبر است</string>
-    <string name="copied_to_clipboard">در کلیپ‌بورد کپی شد</string>
+    <string name="copied">در کلیپ‌بورد کپی شد</string>
     <string name="next">بعدی</string>
     <string name="share">اشتراک‌گذاری</string>
     <string name="invalid_session_id">شناسه‌ی Session نامعتبر است.</string>
@@ -547,8 +543,8 @@
     <string name="view_seed_reminder_subtitle_2">برای فاش کردن عبارت بازیابی، بر روی کلمات redacted ضربه زده و نگه دارید، سپس با خیال راحت آن را ذخیره کنید تا از شناسه‌ی Session خود محافظت نمایید.</string>
     <string name="view_seed_reminder_subtitle_3">حتماً عبارت بازیابی خود را در مکانی امن ذخیره کنید</string>
     <string name="onionRoutingPath">مسیر</string>
-    <string name="activity_path_guard_node_row_title">گره ورودی</string>
-    <string name="activity_path_service_node_row_title">گره سرویس</string>
+    <string name="onionRoutingPathEntryNode">گره ورودی</string>
+    <string name="onionRoutingPathServiceNode">گره سرویس</string>
     <string name="onionRoutingPathDestination">مقصد</string>
     <string name="learnMore">بیشتر بدانید</string>
     <string name="activity_path_resolving_progress">در حال اصلاح…</string>
@@ -610,7 +606,7 @@
     <string name="fragment_contact_selection_empty_contacts">شما هنوز هیچ مخاطبی ندارید</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">اعمال</string>
-    <string name="menu_done_button">انجام شد</string>
+    <string name="done">انجام شد</string>
     <string name="activity_edit_closed_group_title">ویرایش گروه</string>
     <string name="activity_edit_closed_group_edit_text_hint">نام گروهی جدید وارد کنید</string>
     <string name="activity_edit_closed_group_edit_members">اعضا</string>
@@ -638,7 +634,6 @@
     <string name="activity_link_device_scan_qr_code">اسکن کد QR</string>
     <string name="activity_link_device_qr_message">برای دیدن کد QR خود، در دستگاه دیگرتان به «تنظیمات ← عبارت بازیابی» مراجعه کنید.</string>
     <string name="activity_join_public_chat_join_rooms">یا به یکی از این‌ها بپیوندید…</string>
-    <string name="activity_pn_mode_message_notifications">اعلان‌های پیام</string>
     <string name="activity_pn_mode_explanation">دو راه برای اطلاع رسانی شما از پیام‌های جدید در نشست وجود دارد.</string>
     <string name="activity_pn_mode_fast_mode">حالت سریع</string>
     <string name="activity_pn_mode_slow_mode">حالت آهسته</string>
@@ -677,7 +672,6 @@
     <string name="delete_message_for_me">حذف برای من</string>
     <string name="delete_message_for_everyone">حذف برای همه</string>
     <string name="delete_message_for_me_and_recipient">حذف برای من و %s</string>
-    <string name="dialog_share_logs_explanation">آیا می خواهید از گزارشات برنامه خود خروجی بگیرید تا بتوانید برای عیب یابی به اشتراک بگذارید؟</string>
     <string name="conversation_pin">سنجاق کردن</string>
     <string name="conversation_unpin">برداشتن سنجاق</string>
 </resources>

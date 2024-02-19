@@ -26,7 +26,6 @@
         <item quantity="many">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
         <item quantity="other">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Ištrinti</string>
     <string name="ApplicationPreferencesActivity_On">Įjungta</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(paveikslas)</string>
@@ -392,7 +391,6 @@
     <string name="arrays__disabled">Išjungta</string>
     <string name="arrays__name_and_message">Vardą ir žinutę</string>
     <string name="notificationsContentShowNameOnly">Tik vardą</string>
-    <string name="arrays__no_name_or_message">Jokio vardo ar žinutės</string>
     <string name="arrays__images">Paveikslai</string>
     <string name="arrays__audio">Garso įrašai</string>
     <string name="arrays__video">Vaizdo įrašai</string>
@@ -452,7 +450,6 @@
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Išjungti Session įtaisytą jaustukų palaikymą</string>
     <string name="preferences_notifications__messages">Žinutės</string>
     <string name="preferences_notifications__in_chat_sounds">Garsai pokalbiuose</string>
-    <string name="preferences_notifications__priority">Pirmenybė</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -512,7 +509,6 @@
     <string name="BackupDialog_delete_backups">Ištrinti atsargines kopijas?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Išjungti ir ištrinti visas vietines atsargines kopijas?</string>
     <string name="BackupDialog_delete_backups_statement">Ištrinti atsargines kopijas</string>
-    <string name="BackupDialog_copied_to_clipboard">Nukopijuota į iškarpinę</string>
     <string name="LocalBackupJob_creating_backup">Daroma atsarginė kopija...</string>
     <string name="ProgressPreference_d_messages_so_far">Jau %d žinučių</string>
     <string name="BackupUtil_never">Niekada</string>
@@ -525,7 +521,7 @@
     <string name="continue_2">Tęsti</string>
     <string name="copy">Kopijuoti</string>
     <string name="invalid_url">Neteisingas URL</string>
-    <string name="copied_to_clipboard">Nukopijuota į iškarpinę</string>
+    <string name="copied">Nukopijuota į iškarpinę</string>
     <string name="next">Kitas</string>
     <string name="share">Bendrinti</string>
     <string name="invalid_session_id">Neteisingas Session ID</string>
@@ -562,8 +558,8 @@
     <string name="view_seed_reminder_subtitle_2">Bakstelėkite ir laikykite ant redaguotų žodžių, kad būtų atskleista jūsų atkūrimo frazė. Tuomet, laikykite ją saugioje vietoje, kad apsaugotumėte savo Session ID.</string>
     <string name="view_seed_reminder_subtitle_3">Užtikrinkite, kad laikytumėte savo atkūrimo frazę saugioje vietoje</string>
     <string name="onionRoutingPath">Kelias</string>
-    <string name="activity_path_guard_node_row_title">Įėjimo mazgas</string>
-    <string name="activity_path_service_node_row_title">Aptarnavimo mazgas</string>
+    <string name="onionRoutingPathEntryNode">Įėjimo mazgas</string>
+    <string name="onionRoutingPathServiceNode">Aptarnavimo mazgas</string>
     <string name="onionRoutingPathDestination">Paskirties vieta</string>
     <string name="learnMore">Sužinoti daugiau</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Įveskite Session ID</string>
@@ -612,7 +608,7 @@
     <string name="fragment_contact_selection_empty_contacts">Kol kas neturite jokių adresatų</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Taikyti</string>
-    <string name="menu_done_button">Atlikta</string>
+    <string name="done">Atlikta</string>
     <string name="activity_edit_closed_group_title">Taisyti grupę</string>
     <string name="activity_edit_closed_group_edit_members">Nariai</string>
     <string name="activity_edit_closed_group_add_members">Pridėti narius</string>
@@ -632,7 +628,6 @@
     <string name="activity_link_device_link_device">Susieti įrenginį</string>
     <string name="activity_link_device_scan_qr_code">Skenuoti QR kodą</string>
     <string name="activity_join_public_chat_join_rooms">Arba prisijunkite prie vienos iš šių…</string>
-    <string name="activity_pn_mode_message_notifications">Pranešimai apie žinutes</string>
     <string name="activity_pn_mode_explanation">Yra du būdai kaip Session gali jums pranešti apie naujas žinutes.</string>
     <string name="activity_pn_mode_fast_mode">Greita veiksena</string>
     <string name="activity_pn_mode_slow_mode">Lėta veiksena</string>

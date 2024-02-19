@@ -25,7 +25,6 @@
         <item quantity="many">Týmto sa premažú všetky konverzácie až na posledných %d správ.</item>
         <item quantity="other">Týmto sa premažú všetky konverzácie až na posledných %d správ.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete">Zmazať</string>
     <string name="ApplicationPreferencesActivity_On">Zapnuté</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(obrázok)</string>
@@ -390,7 +389,6 @@ výmeny kľúčov.</string>
     <string name="arrays__disabled">Zakázané</string>
     <string name="arrays__name_and_message">Meno a správu</string>
     <string name="notificationsContentShowNameOnly">Iba meno</string>
-    <string name="arrays__no_name_or_message">Bez mena a správy</string>
     <string name="arrays__images">Obrázky</string>
     <string name="arrays__audio">Zvuk</string>
     <string name="arrays__video">Video</string>
@@ -450,7 +448,6 @@ výmeny kľúčov.</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Vypnúť emoji zabudované v Sessione</string>
     <string name="preferences_notifications__messages">Správy</string>
     <string name="preferences_notifications__in_chat_sounds">Zvuky v chate</string>
-    <string name="preferences_notifications__priority">Priorita</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -511,7 +508,6 @@ výmeny kľúčov.</string>
     <string name="BackupDialog_delete_backups">Vymazať zálohy?</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Zakázať a vymazať všetky lokálne zálohy?</string>
     <string name="BackupDialog_delete_backups_statement">Vymazať zálohy</string>
-    <string name="BackupDialog_copied_to_clipboard">Skopírované do schránky</string>
     <string name="LocalBackupJob_creating_backup">Vytváranie zálohy...</string>
     <string name="ProgressPreference_d_messages_so_far">Zatiaľ %d správ</string>
     <string name="BackupUtil_never">Nikdy</string>
@@ -524,7 +520,7 @@ výmeny kľúčov.</string>
     <string name="continue_2">Pokračovať</string>
     <string name="copy">Kopírovať</string>
     <string name="invalid_url">Neplatná URL adresa</string>
-    <string name="copied_to_clipboard">Skopírované do schránky</string>
+    <string name="copied">Skopírované do schránky</string>
     <string name="next">Ďalej</string>
     <string name="share">Zdieľať</string>
     <string name="invalid_session_id">Neplatné Session ID</string>
@@ -560,8 +556,8 @@ výmeny kľúčov.</string>
     <string name="view_seed_reminder_subtitle_1">Zabezpečte svoj účet uložením frázy obnovenia</string>
     <string name="view_seed_reminder_subtitle_3">Uistite sa, že frázu na obnovenie máte uloženú na bezpečnom mieste</string>
     <string name="onionRoutingPath">Cesta</string>
-    <string name="activity_path_guard_node_row_title">Vstupný uzol</string>
-    <string name="activity_path_service_node_row_title">Servisný uzol</string>
+    <string name="onionRoutingPathEntryNode">Vstupný uzol</string>
+    <string name="onionRoutingPathServiceNode">Servisný uzol</string>
     <string name="onionRoutingPathDestination">Cieľ</string>
     <string name="learnMore">Viac informácií</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Zadajte Session ID</string>
@@ -607,7 +603,7 @@ výmeny kľúčov.</string>
     <string name="fragment_contact_selection_empty_contacts">Zatiaľ nemáte žiadne kontakty</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Použiť</string>
-    <string name="menu_done_button">Dokončené</string>
+    <string name="done">Dokončené</string>
     <string name="activity_edit_closed_group_title">Upraviť skupinu</string>
     <string name="activity_edit_closed_group_edit_text_hint">Zadajte názov skupiny</string>
     <string name="activity_edit_closed_group_edit_members">Členovia</string>
@@ -630,7 +626,6 @@ výmeny kľúčov.</string>
     <string name="activity_backup_restore_passphrase">30-znaková prístupová fráza</string>
     <string name="activity_link_device_link_device">Pripojiť zariadenie</string>
     <string name="activity_join_public_chat_join_rooms">Alebo sa pripojte k jednej z týchto…</string>
-    <string name="activity_pn_mode_message_notifications">Upozornenia na správy</string>
     <string name="activity_pn_mode_fast_mode">Rýchly režim</string>
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
 </resources>
