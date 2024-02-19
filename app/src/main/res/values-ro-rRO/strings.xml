@@ -195,7 +195,6 @@
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Deblochez acest contact?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">O să poți primi din nou mesaje și apeluri de la acest contact.</string>
     <string name="RecipientPreferenceActivity_unblock">Deblochează</string>
-    <string name="RecipientPreferenceActivity_notification_settings">Setări notificări</string>
     <!-- Slide -->
     <string name="Slide_image">Imagine</string>
     <string name="Slide_audio">Audio</string>
@@ -414,7 +413,7 @@ schimbul de chei este corupt </string>
     <string name="preferences__pref_enter_sends_title">Trimiteți cu Enter</string>
     <string name="preferences__send_link_previews">Trimite previzualizarea link-urilor</string>
     <string name="preferences__screen_security">Securitate ecran</string>
-    <string name="preferences__notifications">Notificări</string>
+    <string name="sessionNotifications">Notificări</string>
     <string name="preferences__led_color">Culoare LED</string>
     <string name="preferences__led_color_unknown">Necunoscut</string>
     <string name="preferences__pref_led_blink_title">Tipar de clipire LED</string>

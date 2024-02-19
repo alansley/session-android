@@ -216,7 +216,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_toEndOf="@+id/notificationsContainer"
-                        android:text="@string/activity_settings_notifications_button_title"
+                        android:text="@string/sessionNotifications"
                         />
                 </RelativeLayout>
 

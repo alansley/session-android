@@ -246,7 +246,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- preferences.xml -->
     <string name="preferences__pref_enter_sends_title">Phím Enter gửi đi</string>
     <string name="preferences__screen_security">An ninh màn hình</string>
-    <string name="preferences__notifications">Thông báo</string>
+    <string name="sessionNotifications">Thông báo</string>
     <string name="preferences__led_color">Màu LED</string>
     <string name="preferences__led_color_unknown">Không rõ</string>
     <string name="preferences__pref_led_blink_title">Mô hình chớp nháy LED</string>
@@ -396,12 +396,10 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_settings_display_name_edit_text_hint">Nhập tên hiển thị</string>
     <string name="activity_settings_display_name_missing_error">Vui lòng chọn một tên hiển thị </string>
     <string name="activity_settings_display_name_too_long_error">Vui lòng chọn một tên hiển thị ngắn hơn </string>
-    <string name="activity_settings_notifications_button_title">Thông báo</string>
     <string name="activity_settings_chats_button_title">Trò chuyện</string>
     <string name="activity_settings_devices_button_title">Thiết bị</string>
     <string name="activity_settings_recovery_phrase_button_title">Cụm từ khôi phục</string>
     <string name="activity_settings_clear_all_data_button_title">Xóa dữ liệu</string>
-    <string name="activity_notification_settings_title">Thông báo</string>
     <string name="activity_notification_settings_style_section_title">Kiểu thông báo</string>
     <string name="activity_notification_settings_content_section_title">Nội dung thông báo</string>
     <string name="sessionPrivacy">Riêng tưy</string>

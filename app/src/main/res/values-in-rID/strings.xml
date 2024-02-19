@@ -158,7 +158,6 @@
     <string name="RecipientPreferenceActivity_block">Blokir</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Buka blokir kontak ini?</string>
     <string name="RecipientPreferenceActivity_unblock">Buka blokir</string>
-    <string name="RecipientPreferenceActivity_notification_settings">Pengaturan notifikasi</string>
     <!-- Slide -->
     <string name="Slide_image">Gambar</string>
     <string name="Slide_audio">Suara</string>
@@ -331,7 +330,7 @@
         <item quantity="other">%d jam</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__notifications">Notifikasi</string>
+    <string name="sessionNotifications">Notifikasi</string>
     <string name="preferences__led_color">Warna LED</string>
     <string name="preferences__led_color_unknown">Tidak Dikenal</string>
     <string name="preferences__one_time">Satu kali</string>

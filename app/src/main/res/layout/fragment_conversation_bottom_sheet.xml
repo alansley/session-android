@@ -90,7 +90,7 @@
         android:id="@+id/notificationsTextView"
         style="@style/BottomSheetActionItem"
         android:drawableStart="@drawable/ic_outline_notification_important_24"
-        android:text="@string/RecipientPreferenceActivity_notification_settings"
+        android:text="@string/sessionNotifications"
         tools:visibility="visible"
         android:visibility="gone"
         />

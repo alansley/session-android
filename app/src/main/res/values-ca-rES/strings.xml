@@ -393,7 +393,7 @@ d\'intercanvi de claus!</string>
     <string name="preferences__pref_enter_sends_title">Envia amb la tecla Retorn</string>
     <string name="preferences__send_link_previews">Envia previsualitzacions d\'enllaços</string>
     <string name="preferences__screen_security">Seguretat de la pantalla</string>
-    <string name="preferences__notifications">Notificacions</string>
+    <string name="sessionNotifications">Notificacions</string>
     <string name="preferences__led_color">Color del LED</string>
     <string name="preferences__led_color_unknown">Desconegut</string>
     <string name="preferences__pref_led_blink_title">Patró lluminós per al LED</string>
@@ -579,13 +579,11 @@ d\'intercanvi de claus!</string>
     <string name="activity_settings_display_name_edit_text_hint">Entre un nom a mostrar</string>
     <string name="activity_settings_display_name_missing_error">Tria un nom a mostrar, si us plau</string>
     <string name="activity_settings_display_name_too_long_error">Tria un nom a mostra més curt, si us plau</string>
-    <string name="activity_settings_notifications_button_title">Notificacions</string>
     <string name="activity_settings_chats_button_title">Xats</string>
     <string name="activity_settings_devices_button_title">Dispositius</string>
     <string name="activity_settings_recovery_phrase_button_title">Frase de recuperació</string>
     <string name="activity_settings_clear_all_data_button_title">Neteja les dades</string>
     <string name="activity_settings_help_translate_session">Ajuda\'ns a traduir Session</string>
-    <string name="activity_notification_settings_title">Notificacions</string>
     <string name="activity_notification_settings_style_section_title">Estil de notificacions</string>
     <string name="activity_notification_settings_content_section_title">Contingut de notificacions</string>
     <string name="sessionPrivacy">Privadesa</string>

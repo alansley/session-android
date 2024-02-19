@@ -75,9 +75,9 @@ class PrivacySettingsPreferenceFragment : ListSummaryPreferenceFragment() {
         if (isEnabled && !areNotificationsEnabled(requireActivity())) {
             // show a dialog saying that calls won't work properly if you don't have notifications on at a system level
             showSessionDialog {
-                title(R.string.CallNotificationBuilder_system_notification_title)
+                title(R.string.sessionNotifications)
                 text(R.string.CallNotificationBuilder_system_notification_message)
-                button(R.string.activity_notification_settings_title) {
+                button(R.string.sessionNotifications) {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                         Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
                             .putExtra(Settings.EXTRA_APP_PACKAGE, BuildConfig.APPLICATION_ID)

@@ -192,7 +192,6 @@
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Одлокирати овај контакт?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Поново можете да примате поруке и позиве од овог контакта.</string>
     <string name="RecipientPreferenceActivity_unblock">Одблокирај</string>
-    <string name="RecipientPreferenceActivity_notification_settings">Подешавања обавештења</string>
     <!-- Slide -->
     <string name="Slide_image">Слика</string>
     <string name="Slide_audio">Звук</string>
@@ -406,7 +405,7 @@
     <!-- preferences.xml -->
     <string name="preferences__pref_enter_sends_title">Ентер тастер шаље</string>
     <string name="preferences__screen_security">Безбедност екрана</string>
-    <string name="preferences__notifications">Обавештавање</string>
+    <string name="sessionNotifications">Обавештавање</string>
     <string name="preferences__led_color">Боја ЛЕД светла</string>
     <string name="preferences__led_color_unknown">Непозната</string>
     <string name="preferences__pref_led_blink_title">Трептање ЛЕД светла</string>

@@ -416,7 +416,7 @@ výmeny kľúčov.</string>
     <string name="preferences__pref_enter_sends_title">Odoslať stlačením klávesy Enter</string>
     <string name="preferences__send_link_previews">Posielať náhľady stránok</string>
     <string name="preferences__screen_security">Zabezpečenie obrazovky</string>
-    <string name="preferences__notifications">Upozornenia</string>
+    <string name="sessionNotifications">Upozornenia</string>
     <string name="preferences__led_color">LED farba</string>
     <string name="preferences__led_color_unknown">Neznáma</string>
     <string name="preferences__pref_led_blink_title">Sekvencia blikania LED</string>
@@ -596,12 +596,10 @@ výmeny kľúčov.</string>
     <string name="activity_settings_display_name_edit_text_hint">Zadajte zobrazované meno</string>
     <string name="activity_settings_display_name_missing_error">Zvoľte prosím zobrazované meno</string>
     <string name="activity_settings_display_name_too_long_error">Zvoľte prosím kratšie zobrazované meno</string>
-    <string name="activity_settings_notifications_button_title">Upozornenia</string>
     <string name="activity_settings_devices_button_title">Zariadenia</string>
     <string name="activity_settings_recovery_phrase_button_title">Fráza pre obnovenie</string>
     <string name="activity_settings_clear_all_data_button_title">Odstrániť dáta</string>
     <string name="activity_settings_help_translate_session">Pomôžte nám preložiť Session</string>
-    <string name="activity_notification_settings_title">Upozornenia</string>
     <string name="activity_notification_settings_style_section_title">Štýl upozornenia</string>
     <string name="activity_notification_settings_content_section_title">Obsah upozornenia</string>
     <string name="sessionPrivacy">Súkromie</string>
