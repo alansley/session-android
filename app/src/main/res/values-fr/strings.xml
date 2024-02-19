@@ -24,7 +24,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Supprimer</string>
     <string name="ApplicationPreferencesActivity_On">Activé</string>
-    <string name="ApplicationPreferencesActivity_Off">Désactivé</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(image)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
@@ -259,7 +258,6 @@
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Contact</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">Valeur par défaut</string>
     <string name="NotificationChannel_calls">Appels</string>
     <string name="NotificationChannel_failures">Échecs</string>
     <string name="NotificationChannel_backups">Sauvegardes</string>
@@ -316,7 +314,6 @@
     <string name="conversation_activity__enable_signal_for_sms">Gérer les textos avec Session</string>
     <!-- conversation_input_panel -->
     <string name="conversation_input_panel__slide_to_cancel">Faire glisser pour annuler</string>
-    <string name="conversation_input_panel__cancel">Annuler</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Message multimédia</string>
     <string name="conversation_item__secure_message_description">Message sécurisé</string>
@@ -393,7 +390,6 @@
     <string name="arrays__normal">Normale</string>
     <string name="arrays__large">Grande</string>
     <string name="arrays__extra_large">Très grande</string>
-    <string name="arrays__default">Valeur par défaut</string>
     <string name="arrays__high">Élevée</string>
     <string name="arrays__max">Maximale</string>
     <!-- plurals.xml -->
@@ -441,7 +437,7 @@
     <string name="preferences__conversation_length_limit">Limite de taille des conversations</string>
     <string name="preferences__trim_all_conversations_now">Réduire toutes les conversations maintenant</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Analyser toutes les conversations et imposer des limites de longueur de conversation</string>
-    <string name="preferences__default">Valeur par défaut</string>
+    <string name="_default">Valeur par défaut</string>
     <string name="incognitoKeyboard">Clavier incognito</string>
     <string name="preferences__read_receipts">Accusés de lecture</string>
     <string name="preferences__read_receipts_summary">Envoyer des accusés de lecture dans les conversations individuelles.</string>
@@ -612,9 +608,9 @@
     <string name="activity_settings_display_name_missing_error">Veuillez choisir un nom d\'utilisateur</string>
     <string name="activity_settings_display_name_too_long_error">Veuillez choisir un nom d\'utilisateur plus court</string>
     <string name="activity_settings_devices_button_title">Appareils reliés</string>
-    <string name="activity_settings_invite_button_title">Inviter un ami</string>
-    <string name="activity_settings_faq_button_title">FAQ</string>
-    <string name="activity_settings_clear_all_data_button_title">Effacer les données</string>
+    <string name="sessionInviteAFriend">Inviter un ami</string>
+    <string name="helpFAQ">FAQ</string>
+    <string name="sessionClearData">Effacer les données</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Effacer les données et le réseau</string>
     <string name="notificationsStyle">Style de notification</string>
     <string name="activity_notification_settings_content_section_title">Contenu de notification</string>
@@ -671,7 +667,6 @@
     <string name="dialog_ui_mode_option_day">Jour</string>
     <string name="dialog_ui_mode_option_night">Nuit</string>
     <string name="dialog_ui_mode_option_system_default">Défaut du système</string>
-    <string name="activity_conversation_menu_copy_session_id">Copier le Session ID</string>
     <string name="attachment">Fichier joint</string>
     <string name="attachment_type_voice_message">Message vocal</string>
     <string name="details">Détails</string>
@@ -752,7 +747,6 @@
     <string name="NotificationBarManager__deny_call">Refuser l’appel</string>
     <string name="NotificationBarManager__answer_call">Répondre à l’appel</string>
     <string name="NotificationBarManager_call_in_progress">Appel en cours</string>
-    <string name="NotificationBarManager__cancel_call">Annuler l’appel</string>
     <string name="NotificationBarManager__establishing_signal_call">Établissement de l\'appel</string>
     <string name="NotificationBarManager__end_call">Raccrocher</string>
     <string name="accept_call">Accepter l\'appel</string>

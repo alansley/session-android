@@ -177,7 +177,7 @@ class NotificationsPreferenceFragment : ListSummaryPreferenceFragment() {
         private val TAG = NotificationsPreferenceFragment::class.java.simpleName
         fun getSummary(context: Context): CharSequence = when (isNotificationsEnabled(context)) {
                 true -> R.string.ApplicationPreferencesActivity_On
-                false -> R.string.ApplicationPreferencesActivity_Off
+                false -> R.string.off
             }.let(context::getString)
     }
 }

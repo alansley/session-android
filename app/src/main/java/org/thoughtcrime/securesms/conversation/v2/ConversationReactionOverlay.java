@@ -675,7 +675,7 @@ public final class ConversationReactionOverlay extends FrameLayout {
     // Copy Session ID
     if (recipient.isGroupRecipient() && !recipient.isOpenGroupRecipient() && !message.getRecipient().getAddress().toString().equals(userPublicKey)) {
       items.add(new ActionItem(
-              R.attr.menu_copy_icon, getContext().getResources().getString(R.string.activity_conversation_menu_copy_session_id), () -> handleActionItemClicked(Action.COPY_SESSION_ID))
+              R.attr.menu_copy_icon, getContext().getResources().getString(R.string.accountIDCopy), () -> handleActionItemClicked(Action.COPY_SESSION_ID))
       );
     }
     // Delete message

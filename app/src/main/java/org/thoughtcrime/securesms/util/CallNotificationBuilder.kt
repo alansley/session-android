@@ -105,7 +105,7 @@ class CallNotificationBuilder {
                             context,
                             WebRtcCallService.ACTION_LOCAL_HANGUP,
                             R.drawable.ic_call_end_grey600_32dp,
-                            R.string.NotificationBarManager__cancel_call
+                            R.string.cancel
                     ))
                 }
                 else -> {

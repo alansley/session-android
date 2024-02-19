@@ -25,7 +25,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Обриши</string>
     <string name="ApplicationPreferencesActivity_On">Укључено</string>
-    <string name="ApplicationPreferencesActivity_Off">Искључено</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(слика)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(звук)</string>
@@ -259,7 +258,6 @@
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Контакт</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">Подразумеван</string>
     <string name="NotificationChannel_calls">Позиви</string>
     <string name="NotificationChannel_failures">Грешке</string>
     <string name="NotificationChannel_backups">Резерве</string>
@@ -316,7 +314,6 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Закључај снимање аудио прилога</string>
     <string name="conversation_activity__enable_signal_for_sms">Укључите Session за СМС</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__cancel">Одустани</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Мултимедијална порука</string>
     <string name="conversation_item__secure_message_description">Обезбеђена порука</string>
@@ -393,7 +390,6 @@
     <string name="arrays__normal">Нормалан</string>
     <string name="arrays__large">Велики</string>
     <string name="arrays__extra_large">Веома велики</string>
-    <string name="arrays__default">Подразумеван</string>
     <string name="arrays__high">Висок</string>
     <string name="arrays__max">Највиши</string>
     <!-- plurals.xml -->
@@ -434,7 +430,7 @@
     <string name="preferences__conversation_length_limit">Ограничење дужине преписке</string>
     <string name="preferences__trim_all_conversations_now">Скрати све преписке сада</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Претражи све преписке и наметни ограничења дужине</string>
-    <string name="preferences__default">Подразумеван</string>
+    <string name="_default">Подразумеван</string>
     <string name="incognitoKeyboard">Инкогнито тастатура</string>
     <string name="preferences__read_receipts">Потврде читања</string>
     <string name="conversationsMessageTrimming">Скраћивање порука</string>

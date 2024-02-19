@@ -20,7 +20,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Kustuta</string>
     <string name="ApplicationPreferencesActivity_On">Sees</string>
-    <string name="ApplicationPreferencesActivity_Off">Väljas</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(pilt)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(heli)</string>
@@ -230,7 +229,6 @@
     <string name="MessageNotifier_you_have_pending_signal_messages">Sul on ootel Sessioni sõnumeid, koputa vaatamiseks</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">Vaikimisi</string>
     <string name="NotificationChannel_calls">Kõned</string>
     <string name="NotificationChannel_failures">Ebaõnnestumised</string>
     <string name="NotificationChannel_backups">Varundused</string>
@@ -285,7 +283,6 @@
     <string name="conversation_activity__enable_signal_for_sms">Luba Session SMSide jaoks</string>
     <!-- conversation_input_panel -->
     <string name="conversation_input_panel__slide_to_cancel">Libista tühistamiseks</string>
-    <string name="conversation_input_panel__cancel">Loobu</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Meediasõnum</string>
     <string name="conversation_item__secure_message_description">Turvaline sõnum</string>
@@ -354,7 +351,6 @@
     <string name="arrays__normal">Keskmine</string>
     <string name="arrays__large">Suur</string>
     <string name="arrays__extra_large">Ekstrasuur</string>
-    <string name="arrays__default">Vaikimisi</string>
     <string name="arrays__high">Kõrge</string>
     <string name="arrays__max">Maksimaalne</string>
     <!-- plurals.xml -->
@@ -395,7 +391,7 @@
     <string name="preferences__conversation_length_limit">Vestluse pikkuse limiit</string>
     <string name="preferences__trim_all_conversations_now">Piira kõik vestlused nüüd</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Skaneeri kõiki vestlusi ja jõusta vestluspikkuse limiite</string>
-    <string name="preferences__default">Vaikimisi</string>
+    <string name="_default">Vaikimisi</string>
     <string name="incognitoKeyboard">Inkognito klaviatuur</string>
     <string name="preferences__read_receipts">Lugemiskinnitused</string>
     <string name="preferences__typing_indicators">Kirjutamisindikaatorid</string>

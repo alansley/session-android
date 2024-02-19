@@ -11,7 +11,6 @@
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_On">සක්‍රීයයි</string>
-    <string name="ApplicationPreferencesActivity_Off">අක්‍රීයයි</string>
     <!-- DraftDatabase -->
     <!-- AttachmentManager -->
     <!-- AudioSlidePlayer -->
@@ -125,7 +124,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">යවන්න</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__cancel">අවලංගු</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">මාධ්‍යය පණිවිඩය</string>
     <string name="conversation_item__secure_message_description">ආරක්ෂිත පණීවිඩය</string>
@@ -217,7 +215,7 @@
     <string name="fragment_enter_chat_url_edit_text_hint">විවෘත සමූහ ඒ.ස.නි. ක් ඇතුල්කරන්න</string>
     <string name="sessionSettings">සැකසුම්</string>
     <string name="activity_settings_devices_button_title">උපාංග</string>
-    <string name="activity_settings_faq_button_title">නිති පැණ</string>
+    <string name="helpFAQ">නිති පැණ</string>
     <string name="activity_notification_settings_content_section_title">දැනුම්දීමේ අන්තර්ගතය</string>
     <string name="sessionPrivacy">පෞද්ගලිකත්වය</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">නම වෙනස් කරන්න</string>

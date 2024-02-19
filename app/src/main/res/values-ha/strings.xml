@@ -21,7 +21,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Jê bibe</string>
     <string name="ApplicationPreferencesActivity_On">Vekirî</string>
-    <string name="ApplicationPreferencesActivity_Off">Girtî</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(wêne)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(deng)</string>
@@ -227,7 +226,6 @@
     <string name="MessageNotifier_you_have_pending_signal_messages">Peyamên hilawistî yên Sessionê hene, ji bo vekî û werbigirî bitepîne</string>
     <string name="MessageNotifier_unknown_contact_message">Berdeng</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">Jixweber</string>
     <string name="NotificationChannel_calls">Gazî</string>
     <string name="NotificationChannel_failures">Çewtî</string>
     <string name="NotificationChannel_backups">Paşkeft</string>
@@ -280,7 +278,6 @@
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Servehîya deng tomar bike û bişîne</string>
     <string name="conversation_activity__enable_signal_for_sms">Ji bo SMS Sessionê çalak bike</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__cancel">Betal</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Peyama medya</string>
     <string name="conversation_item__secure_message_description">Peyama parastî</string>
@@ -350,7 +347,6 @@
     <string name="arrays__small">Biçûk</string>
     <string name="arrays__large">Mezin</string>
     <string name="arrays__extra_large">Gelek mezin</string>
-    <string name="arrays__default">Jixweber</string>
     <string name="arrays__high">Bilind</string>
     <string name="arrays__max">Herî bilind</string>
     <!-- plurals.xml -->
@@ -390,7 +386,7 @@
     <string name="preferences__conversation_length_limit">Sînora direjiya axaftinê</string>
     <string name="preferences__trim_all_conversations_now">Hemû axaftinan qut bike</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Hemû gotûbêjan sken bike û zorê bide ku sînorên dirêjiya axaftinê</string>
-    <string name="preferences__default">Jixweber</string>
+    <string name="_default">Jixweber</string>
     <string name="incognitoKeyboard">Textenivîsa veşartî</string>
     <string name="preferences__read_receipts">Girtekan bixwîne</string>
     <string name="preferences__typing_indicators">Nîşandêrên nivîsandinê</string>

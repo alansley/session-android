@@ -24,7 +24,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">తొలగించండి</string>
     <string name="ApplicationPreferencesActivity_On">ఆన్</string>
-    <string name="ApplicationPreferencesActivity_Off">ఆఫ్</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(చిత్రం)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ఆడియో)</string>
@@ -229,7 +228,6 @@
     <string name="MessageNotifier_you_have_pending_signal_messages">మీ Session సందేశాలు పెండింగ్లో ఉన్నాయి, తెరవడానికి మరియు తిరిగి పొందడానికి నొక్కండి</string>
     <string name="MessageNotifier_unknown_contact_message">పరిచయం</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">అప్రమేయం</string>
     <string name="NotificationChannel_calls">కాల్స్</string>
     <string name="NotificationChannel_failures">వైఫల్యాలు</string>
     <string name="NotificationChannel_backups">బ్యాకప్లు</string>
@@ -280,7 +278,6 @@
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">రికార్డు మరియు ఆడియో అటాచ్మెంట్ పంపడానికి</string>
     <string name="conversation_activity__enable_signal_for_sms">ఎస్సెమ్మెస్ చేతనం</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__cancel">రద్దు</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">మీడియ సందేశం</string>
     <string name="conversation_item__secure_message_description">సురక్షిత సందేశం</string>
@@ -351,7 +348,6 @@
     <string name="arrays__normal">సాధారణంగా</string>
     <string name="arrays__large">పెద్ద</string>
     <string name="arrays__extra_large">చాలా పెద్దది</string>
-    <string name="arrays__default">అప్రమేయం</string>
     <string name="arrays__high">అధికం</string>
     <string name="arrays__max">గరిష్టం</string>
     <!-- plurals.xml -->
@@ -391,7 +387,7 @@
     <string name="preferences__conversation_length_limit">సంభాషణ విస్తృతికి పరిమితి</string>
     <string name="preferences__trim_all_conversations_now">ఇప్పుడు అన్ని సంభాషణలు  కత్తిరించి సరి చేయుట </string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">అన్ని సంభాషణలు స్కాన్ చేసి తద్వారా సంభాషణ పొడవు పరిమితులు అమలుపరచు</string>
-    <string name="preferences__default">అప్రమేయ</string>
+    <string name="_default">అప్రమేయ</string>
     <string name="incognitoKeyboard">అజ్ఞాత కీబోర్డ్</string>
     <string name="preferences__read_receipts">చదివిన రసీదులు</string>
     <string name="conversationsMessageTrimming">సందేశం కత్తిరించి సరి చేయుట </string>

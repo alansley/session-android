@@ -16,7 +16,6 @@
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">ಎಲ್ಲಾ ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
     <string name="ApplicationPreferencesActivity_delete">ಅಳಿಸು</string>
     <string name="ApplicationPreferencesActivity_On">ಆನ್</string>
-    <string name="ApplicationPreferencesActivity_Off">ಆಫ್</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ಚಿತ್ರ)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ಆಡಿಯೋ)</string>
@@ -125,7 +124,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">ಕಳುಹಿಸಿ</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__cancel">ರದ್ದುಪಡಿಸಿ</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">ಮೀಡಿಯಾ ಸಂದೇಶ</string>
     <string name="conversation_item__secure_message_description">ಸುರಕ್ಷಿತ ಸಂದೇಶ</string>
@@ -171,7 +169,6 @@
     <string name="arrays__normal">ಸಾಮಾನ್ಯ</string>
     <string name="arrays__large">ದೊಡ್ಡ</string>
     <string name="arrays__extra_large">ಅತಿ ದೊಡ್ಡ</string>
-    <string name="arrays__default">ಪೂರ್ವನಿಯೋಜಿತ</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__screen_security">ಪರದೆಯ ಭದ್ರತೆ</string>
@@ -196,7 +193,7 @@
     <string name="preferences__normal">ಸಾಮಾನ್ಯ</string>
     <string name="preferences__slow">ನಿಧಾನ</string>
     <string name="preferences__delete_old_messages">ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ</string>
-    <string name="preferences__default">ಪೂರ್ವನಿಯೋಜಿತ</string>
+    <string name="_default">ಪೂರ್ವನಿಯೋಜಿತ</string>
     <string name="preferences_notifications__messages">ಸಂದೇಶಗಳು</string>
     <string name="preferences_notifications__priority">ಆದ್ಯತೆ</string>
     <!-- **************************************** -->
@@ -241,7 +238,7 @@
     <string name="activity_create_private_chat_title">ಹೊಸ ಸೆಷನ್</string>
     <string name="sessionSettings">ಸಂಯೋಜನೆಗಳು</string>
     <string name="activity_settings_devices_button_title">ಸಾಧನಗಳು</string>
-    <string name="activity_settings_invite_button_title">ಒರ್ವ ಸ್ನೇಹಿತನನ್ನು ಆಮಂತ್ರಿಸಿ</string>
+    <string name="sessionInviteAFriend">ಒರ್ವ ಸ್ನೇಹಿತನನ್ನು ಆಮಂತ್ರಿಸಿ</string>
     <string name="sessionPrivacy">ಖಾಸಗಿತನ</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">ಹೆಸರು ಬದಲಾಯಿಸಿ</string>
     <string name="dialog_clear_all_data_clear_network">ಇಡೀ ಖಾತೆ</string>

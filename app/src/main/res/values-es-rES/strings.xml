@@ -24,7 +24,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Borrar</string>
     <string name="ApplicationPreferencesActivity_On">Activo</string>
-    <string name="ApplicationPreferencesActivity_Off">Inactivo</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imágen)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
@@ -252,7 +251,6 @@ de intercambio de claves!</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Contacto</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">Por defecto</string>
     <string name="NotificationChannel_calls">Llamadas</string>
     <string name="NotificationChannel_failures">Fallos</string>
     <string name="NotificationChannel_backups">Copias de seguridad</string>
@@ -309,7 +307,6 @@ de intercambio de claves!</string>
     <string name="conversation_activity__enable_signal_for_sms">Activar Session para SMS</string>
     <!-- conversation_input_panel -->
     <string name="conversation_input_panel__slide_to_cancel">Desliza para cancelar</string>
-    <string name="conversation_input_panel__cancel">Cancelar</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mensaje multimedia</string>
     <string name="conversation_item__secure_message_description">Mensaje cifrado</string>
@@ -386,7 +383,6 @@ de intercambio de claves!</string>
     <string name="arrays__normal">Normal</string>
     <string name="arrays__large">Grande</string>
     <string name="arrays__extra_large">Extra grande</string>
-    <string name="arrays__default">Por defecto</string>
     <string name="arrays__high">Alto</string>
     <string name="arrays__max">Máximo</string>
     <!-- plurals.xml -->
@@ -427,7 +423,7 @@ de intercambio de claves!</string>
     <string name="preferences__conversation_length_limit">Límite de longitud de chat</string>
     <string name="preferences__trim_all_conversations_now">Recortar ahora todos los chats</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Escanear todos lo chats y aplicar los límites de longitud</string>
-    <string name="preferences__default">Por defecto</string>
+    <string name="_default">Por defecto</string>
     <string name="incognitoKeyboard">Teclado incógnito</string>
     <string name="preferences__read_receipts">Notificaciones de lectura</string>
     <string name="preferences__typing_indicators">Indicadores de tecleo</string>
@@ -584,9 +580,9 @@ de intercambio de claves!</string>
     <string name="activity_settings_display_name_missing_error">Por favor, elige un nombre para mostrar</string>
     <string name="activity_settings_display_name_too_long_error">Por favor, elige un nombre para mostrar más corto</string>
     <string name="activity_settings_devices_button_title">Dispositivos</string>
-    <string name="activity_settings_invite_button_title">Invitar a un amigo</string>
-    <string name="activity_settings_faq_button_title">Preguntas frecuentes</string>
-    <string name="activity_settings_clear_all_data_button_title">Borrar datos</string>
+    <string name="sessionInviteAFriend">Invitar a un amigo</string>
+    <string name="helpFAQ">Preguntas frecuentes</string>
+    <string name="sessionClearData">Borrar datos</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Limpiar Datos Incluyendo La Red</string>
     <string name="notificationsStyle">Estilo de Notificación</string>
     <string name="activity_notification_settings_content_section_title">Contenido de Notificación</string>
@@ -629,7 +625,6 @@ de intercambio de claves!</string>
     <string name="dialog_ui_mode_option_day">Día</string>
     <string name="dialog_ui_mode_option_night">Noche</string>
     <string name="dialog_ui_mode_option_system_default">Predeterminado del sistema</string>
-    <string name="activity_conversation_menu_copy_session_id">Copiar ID de Session</string>
     <string name="attachment">Adjunto</string>
     <string name="attachment_type_voice_message">Mensaje de voz</string>
     <string name="details">Detalles</string>

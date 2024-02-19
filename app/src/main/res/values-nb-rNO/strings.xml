@@ -24,7 +24,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Slett</string>
     <string name="ApplicationPreferencesActivity_On">På</string>
-    <string name="ApplicationPreferencesActivity_Off">Av</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bilde)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
@@ -252,7 +251,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">Forvalgt</string>
     <string name="NotificationChannel_calls">Samtaler</string>
     <string name="NotificationChannel_failures">Feil</string>
     <string name="NotificationChannel_backups">Sikkerhetskopiering</string>
@@ -309,7 +307,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_activity__enable_signal_for_sms">Bruk Session for SMS</string>
     <!-- conversation_input_panel -->
     <string name="conversation_input_panel__slide_to_cancel">Skyv for å avbryte</string>
-    <string name="conversation_input_panel__cancel">Avbryt</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediemelding</string>
     <string name="conversation_item__secure_message_description">Sikker melding</string>
@@ -386,7 +383,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__normal">Vanlig</string>
     <string name="arrays__large">Stor</string>
     <string name="arrays__extra_large">Ekstra stor</string>
-    <string name="arrays__default">Forvalgt</string>
     <string name="arrays__high">Høy</string>
     <string name="arrays__max">Maks</string>
     <!-- plurals.xml -->
@@ -427,7 +423,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="preferences__conversation_length_limit">Lengdegrense for samtaler</string>
     <string name="preferences__trim_all_conversations_now">Rydd opp i alle samtaler nå</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Søk gjennom alle samtaler og tving lengdegrenser for samtaler</string>
-    <string name="preferences__default">Forvalgt</string>
+    <string name="_default">Forvalgt</string>
     <string name="incognitoKeyboard">Inkognito-tastatur</string>
     <string name="preferences__read_receipts">Lesebekreftelser</string>
     <string name="preferences__typing_indicators">Skriverindikatorer</string>
@@ -584,9 +580,9 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_settings_display_name_missing_error">Vennligst velg et visningsnavn</string>
     <string name="activity_settings_display_name_too_long_error">Vennligst velg et kortere visningsnavn</string>
     <string name="activity_settings_devices_button_title">Enheter</string>
-    <string name="activity_settings_invite_button_title">Inviter en venn</string>
-    <string name="activity_settings_faq_button_title">Ofte Stilte Spørsmål</string>
-    <string name="activity_settings_clear_all_data_button_title">Fjern data</string>
+    <string name="sessionInviteAFriend">Inviter en venn</string>
+    <string name="helpFAQ">Ofte Stilte Spørsmål</string>
+    <string name="sessionClearData">Fjern data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Fjern data inkludert nettverk</string>
     <string name="notificationsStyle">Varsling Stil</string>
     <string name="activity_notification_settings_content_section_title">Varsling innhold</string>
@@ -629,7 +625,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="dialog_ui_mode_option_day">Dag</string>
     <string name="dialog_ui_mode_option_night">Natt</string>
     <string name="dialog_ui_mode_option_system_default">Systemstandard</string>
-    <string name="activity_conversation_menu_copy_session_id">Kopier Session-ID</string>
     <string name="attachment">Vedlegg</string>
     <string name="attachment_type_voice_message">Talemelding</string>
     <string name="details">Detaljer</string>

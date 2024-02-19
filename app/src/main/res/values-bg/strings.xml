@@ -23,7 +23,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Изтрий</string>
     <string name="ApplicationPreferencesActivity_On">Активирано</string>
-    <string name="ApplicationPreferencesActivity_Off">Деактивирано</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(изображение)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(аудио)</string>
@@ -239,7 +238,6 @@
     <string name="MessageNotifier_you_have_pending_signal_messages">Имате непрочетени Session съобщения, натиснете, за да ги отворите и прегледате</string>
     <string name="MessageNotifier_unknown_contact_message">Контакт</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">По подразбиране</string>
     <string name="NotificationChannel_calls">Обаждания</string>
     <string name="NotificationChannel_failures">Грешки</string>
     <string name="NotificationChannel_backups">Архиви</string>
@@ -293,7 +291,6 @@
     <string name="conversation_activity__enable_signal_for_sms">Активиране на Session за SMS-и</string>
     <!-- conversation_input_panel -->
     <string name="conversation_input_panel__slide_to_cancel">Плъзнете за отказ</string>
-    <string name="conversation_input_panel__cancel">Отказ</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Медийно съобщение</string>
     <string name="conversation_item__secure_message_description">Подсигурено съобщение</string>
@@ -364,7 +361,6 @@
     <string name="arrays__normal">Нормален</string>
     <string name="arrays__large">Голям</string>
     <string name="arrays__extra_large">Много голям</string>
-    <string name="arrays__default">По подразбиране</string>
     <string name="arrays__high">Високо</string>
     <string name="arrays__max">Максимално</string>
     <!-- plurals.xml -->
@@ -405,7 +401,7 @@
     <string name="preferences__conversation_length_limit">Граница за дължина на разговора</string>
     <string name="preferences__trim_all_conversations_now">Скъси всички разговори сега</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Сканирай всички разговори и приложи ограничението за дължина на разговори</string>
-    <string name="preferences__default">По подразбиране</string>
+    <string name="_default">По подразбиране</string>
     <string name="incognitoKeyboard">Тайна клавиатура</string>
     <string name="preferences__read_receipts">Потвърждения за прочитане</string>
     <string name="preferences__typing_indicators">Индикатори за писане</string>

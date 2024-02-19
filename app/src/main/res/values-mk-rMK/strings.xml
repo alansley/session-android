@@ -11,7 +11,6 @@
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">စာအဟောင်းများအားလုံးဖျက်မှာလား?</string>
     <string name="ApplicationPreferencesActivity_delete">ဖျက်ပါ</string>
     <string name="ApplicationPreferencesActivity_On">ဖွင့်ပါ</string>
-    <string name="ApplicationPreferencesActivity_Off">ပိတ်ပါ</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ရုပ်ပုံ) </string>
     <string name="DraftDatabase_Draft_audio_snippet">(အသံ)</string>
@@ -172,7 +171,6 @@
     <string name="MessageNotifier_you_have_pending_signal_messages">Sessionတွင် စာပေးပို့/လက်ခံမှုကို ဆိုင်းငံ့ထားပါသည်၊ ပြန်ဖွင့်ရန် နှိပ်လိုက်ပါ</string>
     <string name="MessageNotifier_unknown_contact_message">အဆက်အသွယ်</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">မူလ</string>
     <string name="NotificationChannel_calls">ဖုန်းခေါ်ဆိုမှုများ</string>
     <string name="NotificationChannel_backups">အရံသိမ်းဆည်းမှုများ</string>
     <string name="NotificationChannel_other">အခြား</string>
@@ -216,7 +214,6 @@
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">အသံဖမ်းပြီး ပေးပို့လိုက်ပါ</string>
     <string name="conversation_activity__enable_signal_for_sms">Session မှာ SMS ပို့လို့ရပါပြီ</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__cancel">မလုပ်တော့ပါ</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">ရုပ်/သံ/ပုံပါစာ</string>
     <string name="conversation_item__secure_message_description">လုံခြုံသောစာ</string>
@@ -286,7 +283,6 @@
     <string name="arrays__normal">ပုံမှန်</string>
     <string name="arrays__large">ကြီးသော</string>
     <string name="arrays__extra_large">အလွန် ကြီးသော</string>
-    <string name="arrays__default">မူလ</string>
     <string name="arrays__high">မြင့်သော</string>
     <string name="arrays__max">အများဆုံး</string>
     <!-- plurals.xml -->
@@ -322,7 +318,7 @@
     <string name="preferences__conversation_length_limit">စာလုံးရေ အကန့်အသတ်</string>
     <string name="preferences__trim_all_conversations_now">စကားဝိုင်းများအားလုံးကို အခု ညှိပါ</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">စကားဝိုင်းများအားလုံးကို သေချာကြည့်ပြီး စကားဝိုင်း၏ အရှည်ကန့်သတ်ချက်ကို အတည်ပြုပါ</string>
-    <string name="preferences__default">မူလ</string>
+    <string name="_default">မူလ</string>
     <string name="incognitoKeyboard">နောက်ယောင်ခံမှု မရှိသည့် ကီးဘုတ်</string>
     <string name="preferences__read_receipts">ဖတ်ပြီးပြီ</string>
     <string name="conversationsMessageTrimming">စာများကို ညှိခြင်း</string>

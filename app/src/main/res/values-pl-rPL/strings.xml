@@ -28,7 +28,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Usuń</string>
     <string name="ApplicationPreferencesActivity_On">Włączone</string>
-    <string name="ApplicationPreferencesActivity_Off">Wyłączone</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(obraz)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(dźwięk)</string>
@@ -271,7 +270,6 @@
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">Domyślny</string>
     <string name="NotificationChannel_calls">Połączenia</string>
     <string name="NotificationChannel_failures">Awarie</string>
     <string name="NotificationChannel_backups">Kopie zapasowe</string>
@@ -330,7 +328,6 @@
     <string name="conversation_activity__enable_signal_for_sms">Włącz obsługę SMS w Session</string>
     <!-- conversation_input_panel -->
     <string name="conversation_input_panel__slide_to_cancel">Przesuń, aby anulować</string>
-    <string name="conversation_input_panel__cancel">Anuluj</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Wiadomość multimedialna</string>
     <string name="conversation_item__secure_message_description">Bezpieczna wiadomość</string>
@@ -407,7 +404,6 @@
     <string name="arrays__normal">Normalny</string>
     <string name="arrays__large">Duży</string>
     <string name="arrays__extra_large">Bardzo duży</string>
-    <string name="arrays__default">Domyślny</string>
     <string name="arrays__high">Wysoki</string>
     <string name="arrays__max">Maksymalny</string>
     <!-- plurals.xml -->
@@ -450,7 +446,7 @@
     <string name="preferences__conversation_length_limit">Limit długości konwersacji</string>
     <string name="preferences__trim_all_conversations_now">Przytnij wszystkie konwersacje teraz</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Przeskanuj wszystkie konwersacje i przytnij do określonej długości</string>
-    <string name="preferences__default">Domyślne</string>
+    <string name="_default">Domyślne</string>
     <string name="incognitoKeyboard">Klawiatura w trybie prywatnym</string>
     <string name="preferences__read_receipts">Potwierdzenia przeczytania</string>
     <string name="preferences__typing_indicators">Wskaźniki pisania</string>
@@ -607,9 +603,9 @@
     <string name="activity_settings_display_name_missing_error">Wybierz wyświetlaną nazwę</string>
     <string name="activity_settings_display_name_too_long_error">Wybierz krótszą wyświetlaną nazwę</string>
     <string name="activity_settings_devices_button_title">Urządzenia</string>
-    <string name="activity_settings_invite_button_title">Zaproś znajomego</string>
-    <string name="activity_settings_faq_button_title">FAQ</string>
-    <string name="activity_settings_clear_all_data_button_title">Wyczyść dane</string>
+    <string name="sessionInviteAFriend">Zaproś znajomego</string>
+    <string name="helpFAQ">FAQ</string>
+    <string name="sessionClearData">Wyczyść dane</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Wyczyść dane łącznie z siecią</string>
     <string name="notificationsStyle">Styl powiadomienia</string>
     <string name="activity_notification_settings_content_section_title">Treść powiadomienia</string>
@@ -652,7 +648,6 @@
     <string name="dialog_ui_mode_option_day">Dzień</string>
     <string name="dialog_ui_mode_option_night">Noc</string>
     <string name="dialog_ui_mode_option_system_default">Domyślny dla systemu</string>
-    <string name="activity_conversation_menu_copy_session_id">Skopiuj ID sesji</string>
     <string name="attachment">Załącznik</string>
     <string name="attachment_type_voice_message">Wiadomość głosowa</string>
     <string name="details">Szczegóły</string>

@@ -20,7 +20,6 @@
     </plurals>
     <string name="ApplicationPreferencesActivity_delete">Slett</string>
     <string name="ApplicationPreferencesActivity_On">På</string>
-    <string name="ApplicationPreferencesActivity_Off">Av</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bilete)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
@@ -222,7 +221,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_messages">Forvald</string>
     <string name="NotificationChannel_calls">Samtalar</string>
     <string name="NotificationChannel_failures">Feil</string>
     <string name="NotificationChannel_backups">Reservekopiar</string>
@@ -274,7 +272,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Ta opp og senda lydvedlegg</string>
     <string name="conversation_activity__enable_signal_for_sms">Aktiver Session for SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__cancel">Avbryt</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediemelding</string>
     <string name="conversation_item__secure_message_description">Sikker melding</string>
@@ -340,7 +337,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__small">Liten</string>
     <string name="arrays__large">Stor</string>
     <string name="arrays__extra_large">Veldig stor</string>
-    <string name="arrays__default">Forvald</string>
     <string name="arrays__high">Høg</string>
     <string name="arrays__max">Maks</string>
     <!-- plurals.xml -->
@@ -378,7 +374,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="preferences__conversation_length_limit">Lengdgrense for samtalar</string>
     <string name="preferences__trim_all_conversations_now">Rydd opp i alle samtalar no</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Søk gjennom alle samtalar og tving lengdgrenser for samtalar</string>
-    <string name="preferences__default">Forvald</string>
+    <string name="_default">Forvald</string>
     <string name="incognitoKeyboard">Inkognitotastatur</string>
     <string name="preferences__read_receipts">Lesekvitteringar</string>
     <string name="preferences__typing_indicators">Tastevisning</string>
