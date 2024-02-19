@@ -399,10 +399,10 @@
     <string name="preferences__send_link_previews">लिंक प्रिव्यू भेजें</string>
     <string name="preferences__screen_security">स्क्रीन सुरक्षा</string>
     <string name="sessionNotifications">सूचनाएं</string>
-    <string name="preferences__led_color">LED रंग </string>
+    <string name="notificationsLedColor">LED रंग </string>
     <string name="preferences__led_color_unknown">अनजान</string>
     <string name="preferences__pref_led_blink_title">एलईडी ब्लिंक पैटर्न</string>
-    <string name="preferences__sound">आवाज़ </string>
+    <string name="notificationsSound">आवाज़ </string>
     <string name="preferences__silent">मूक</string>
     <string name="preferences__repeat_alerts">अलर्ट दोहराएं</string>
     <string name="preferences__never">कभी नहीं</string>
@@ -411,7 +411,7 @@
     <string name="preferences__three_times">तीन बार</string>
     <string name="preferences__five_times">पांच बार </string>
     <string name="preferences__ten_times">दस बार </string>
-    <string name="preferences__vibrate"> वाइब्रेट</string>
+    <string name="notificationsVibrate"> वाइब्रेट</string>
     <string name="preferences__green">हरा</string>
     <string name="preferences__red">लाल</string>
     <string name="preferences__blue">नीला</string>
@@ -596,11 +596,11 @@
     <string name="activity_settings_clear_all_data_button_title">डेटा हटाएं</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">डाटा नेटवर्क के समेत साफ करें।</string>
     <string name="activity_settings_help_translate_session">सेशन का अनुवाद करने में सहायता करें</string>
-    <string name="activity_notification_settings_style_section_title">अधिसूचना शैली</string>
+    <string name="notificationsStyle">अधिसूचना शैली</string>
     <string name="activity_notification_settings_content_section_title">सूचना विषय सूची</string>
     <string name="sessionPrivacy">गोपनियता</string>
-    <string name="preferences_notifications_strategy_category_title">सूचना रणनीति</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">तीव्र मोड इस्तेमाल करे</string>
+    <string name="notificationsStrategy">सूचना रणनीति</string>
+    <string name="useFastMode">तीव्र मोड इस्तेमाल करे</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">नाम बदलें</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">डिवाइस को अनलिंक करें</string>

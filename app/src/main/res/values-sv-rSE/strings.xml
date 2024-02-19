@@ -399,10 +399,10 @@ för nyckelutbyte!</string>
     <string name="preferences__send_link_previews">Sicka länkförhandsvisning</string>
     <string name="preferences__screen_security">Skärmsäkerhet</string>
     <string name="sessionNotifications">Aviseringar</string>
-    <string name="preferences__led_color">Färg på ljusindikator</string>
+    <string name="notificationsLedColor">Färg på ljusindikator</string>
     <string name="preferences__led_color_unknown">Okänd</string>
     <string name="preferences__pref_led_blink_title">Blinkmönster på ljusindikator</string>
-    <string name="preferences__sound">Ljud</string>
+    <string name="notificationsSound">Ljud</string>
     <string name="preferences__silent">Tyst</string>
     <string name="preferences__repeat_alerts">Upprepa aviseringar</string>
     <string name="preferences__never">Aldrig</string>
@@ -411,7 +411,7 @@ för nyckelutbyte!</string>
     <string name="preferences__three_times">Tre gånger</string>
     <string name="preferences__five_times">Fem gånger</string>
     <string name="preferences__ten_times">Tio gånger</string>
-    <string name="preferences__vibrate">Vibrera</string>
+    <string name="notificationsVibrate">Vibrera</string>
     <string name="preferences__green">Grön</string>
     <string name="preferences__red">Röd</string>
     <string name="preferences__blue">Blå</string>
@@ -596,11 +596,11 @@ för nyckelutbyte!</string>
     <string name="activity_settings_clear_all_data_button_title">Rensa data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Rensa data inklusive nätverk</string>
     <string name="activity_settings_help_translate_session">Hjälp oss att översätta Session</string>
-    <string name="activity_notification_settings_style_section_title">Aviseringsutseende</string>
+    <string name="notificationsStyle">Aviseringsutseende</string>
     <string name="activity_notification_settings_content_section_title">Aviseringsinnehåll</string>
     <string name="sessionPrivacy">Integritet</string>
-    <string name="preferences_notifications_strategy_category_title">Strategi för aviseringar</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">Använd snabbläge</string>
+    <string name="notificationsStrategy">Strategi för aviseringar</string>
+    <string name="useFastMode">Använd snabbläge</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Byt Namn</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Kopplar bort enhet</string>

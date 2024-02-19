@@ -312,10 +312,10 @@
     <string name="preferences__pref_enter_sends_title">Enter키로 메시지 보내기</string>
     <string name="preferences__screen_security">화면 보안</string>
     <string name="sessionNotifications">알림</string>
-    <string name="preferences__led_color">알림등 색상</string>
+    <string name="notificationsLedColor">알림등 색상</string>
     <string name="preferences__led_color_unknown">알 수 없음</string>
     <string name="preferences__pref_led_blink_title">알림등 반복 패턴</string>
-    <string name="preferences__sound">소리</string>
+    <string name="notificationsSound">소리</string>
     <string name="preferences__silent">무음</string>
     <string name="preferences__repeat_alerts">알림 반복</string>
     <string name="preferences__never">안함</string>
@@ -324,7 +324,7 @@
     <string name="preferences__three_times">3번</string>
     <string name="preferences__five_times">5번</string>
     <string name="preferences__ten_times">10번</string>
-    <string name="preferences__vibrate">진동</string>
+    <string name="notificationsVibrate">진동</string>
     <string name="preferences__green">녹색</string>
     <string name="preferences__red">빨간색</string>
     <string name="preferences__blue">파란색</string>

@@ -294,10 +294,10 @@
     <string name="preferences__pref_enter_sends_title">ထည့်ထားတဲ့ ကီးပို့ပါ</string>
     <string name="preferences__screen_security">အဖွင့်စာမျက်နှာ လုံခြုံရေး</string>
     <string name="sessionNotifications">အသိပေးချက်များ</string>
-    <string name="preferences__led_color">LED အရောင်</string>
+    <string name="notificationsLedColor">LED အရောင်</string>
     <string name="preferences__led_color_unknown">မသိ</string>
     <string name="preferences__pref_led_blink_title">LED လင်းမည့်ပုံစံ</string>
-    <string name="preferences__sound">အသံ</string>
+    <string name="notificationsSound">အသံ</string>
     <string name="preferences__silent">အသံတိတ်</string>
     <string name="preferences__repeat_alerts">အသိပေးချက်ကို ထပ်​ပြောပါ</string>
     <string name="preferences__never">ဘယ်တော့မှ</string>
@@ -306,7 +306,7 @@
     <string name="preferences__three_times">သုံးကြိမ်</string>
     <string name="preferences__five_times">ငါးကြိမ်</string>
     <string name="preferences__ten_times">ဆယ်ကြိမ်</string>
-    <string name="preferences__vibrate">တုန်ခါသည်</string>
+    <string name="notificationsVibrate">တုန်ခါသည်</string>
     <string name="preferences__green">အစိမ်း</string>
     <string name="preferences__red">အနီ</string>
     <string name="preferences__blue">အပြာ</string>

@@ -230,10 +230,10 @@
     <string name="preferences__pref_enter_sends_title">Epeesa eliyingira lyerisindika</string>
     <string name="preferences__screen_security">Okukuuma Screen yo</string>
     <string name="sessionNotifications">Obude</string>
-    <string name="preferences__led_color">Langi ya screen eraga</string>
+    <string name="notificationsLedColor">Langi ya screen eraga</string>
     <string name="preferences__led_color_unknown">Tekimanyikiddwa</string>
     <string name="preferences__pref_led_blink_title">Screen yo erage etya</string>
-    <string name="preferences__sound">Doboozi</string>
+    <string name="notificationsSound">Doboozi</string>
     <string name="preferences__silent">Kusirika</string>
     <string name="preferences__repeat_alerts">ndiganamu okutemezebwako</string>
     <string name="preferences__never">tekirisoboka</string>
@@ -242,7 +242,7 @@
     <string name="preferences__three_times">Mirundi esatu</string>
     <string name="preferences__five_times">Emirundi etaano </string>
     <string name="preferences__ten_times">Mirundi kumi</string>
-    <string name="preferences__vibrate">Okuwuluguma</string>
+    <string name="notificationsVibrate">Okuwuluguma</string>
     <string name="preferences__green">Kilagala</string>
     <string name="preferences__red">kimyuffu</string>
     <string name="preferences__orange">Kakyuungwa</string>

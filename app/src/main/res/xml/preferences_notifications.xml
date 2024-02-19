@@ -2,11 +2,11 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="@string/preferences_notifications_strategy_category_title">
+    <PreferenceCategory android:title="@string/notificationsStrategy">
 
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:key="pref_key_use_fcm"
-            android:title="@string/preferences_notifications_strategy_category_fast_mode_title"
+            android:title="@string/useFastMode"
             android:summary="@string/preferences_notifications_strategy_category_fast_mode_summary"
             android:defaultValue="false" />
 
@@ -15,11 +15,11 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/activity_notification_settings_style_section_title">
+    <PreferenceCategory android:title="@string/notificationsStyle">
 
         <org.thoughtcrime.securesms.preferences.widgets.SignalPreference
             android:key="pref_key_ringtone"
-            android:title="@string/preferences__sound"
+            android:title="@string/notificationsSound"
             android:persistent="false"
             android:defaultValue="content://settings/system/notification_sound" />
 
@@ -32,7 +32,7 @@
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:key="pref_key_vibrate"
             android:defaultValue="true"
-            android:title="@string/preferences__vibrate" />
+            android:title="@string/notificationsVibrate" />
 
     </PreferenceCategory>
 

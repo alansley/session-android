@@ -398,10 +398,10 @@ udveksel besked!</string>
     <string name="preferences__send_link_previews">Send link eksempelvisning</string>
     <string name="preferences__screen_security">Skærmsikkerhed</string>
     <string name="sessionNotifications">Notifikationer</string>
-    <string name="preferences__led_color">LED farve</string>
+    <string name="notificationsLedColor">LED farve</string>
     <string name="preferences__led_color_unknown">Ukendt</string>
     <string name="preferences__pref_led_blink_title">LED blinke mønster</string>
-    <string name="preferences__sound">Lyd</string>
+    <string name="notificationsSound">Lyd</string>
     <string name="preferences__silent">Lydløs</string>
     <string name="preferences__repeat_alerts">Gentag alarmer</string>
     <string name="preferences__never">Aldrig</string>
@@ -410,7 +410,7 @@ udveksel besked!</string>
     <string name="preferences__three_times">3 gange</string>
     <string name="preferences__five_times">4 gange</string>
     <string name="preferences__ten_times">10 gange</string>
-    <string name="preferences__vibrate">Vibration</string>
+    <string name="notificationsVibrate">Vibration</string>
     <string name="preferences__green">Grøn</string>
     <string name="preferences__red">Rød</string>
     <string name="preferences__blue">Blå</string>
@@ -580,10 +580,10 @@ udveksel besked!</string>
     <string name="activity_settings_clear_all_data_button_title">Ryd data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Ryd Data Inklusiv Netværk</string>
     <string name="activity_settings_help_translate_session">Hjælp os med at oversætte Session</string>
-    <string name="activity_notification_settings_style_section_title">Notifikationsstil</string>
+    <string name="notificationsStyle">Notifikationsstil</string>
     <string name="activity_notification_settings_content_section_title">Meddelelsesindhold</string>
     <string name="sessionPrivacy">Privatliv</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">Brug Hurtig Tilstand</string>
+    <string name="useFastMode">Brug Hurtig Tilstand</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Rediger navn</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Frakobl enhed</string>
     <string name="dialog_clear_all_data_title">Ryd Alt Data</string>

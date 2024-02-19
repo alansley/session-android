@@ -353,10 +353,10 @@ nøkkelutvekslingsmelding.</string>
     <string name="preferences__send_link_previews">Send lenkjesniktitt</string>
     <string name="preferences__screen_security">Skjermtryggleik</string>
     <string name="sessionNotifications">Varsel</string>
-    <string name="preferences__led_color">LED-farge</string>
+    <string name="notificationsLedColor">LED-farge</string>
     <string name="preferences__led_color_unknown">Ukjend</string>
     <string name="preferences__pref_led_blink_title">LED-blinkemønster</string>
-    <string name="preferences__sound">Lyd</string>
+    <string name="notificationsSound">Lyd</string>
     <string name="preferences__silent">Stille</string>
     <string name="preferences__repeat_alerts">Gjenta varsel</string>
     <string name="preferences__never">Aldri</string>
@@ -365,7 +365,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="preferences__three_times">Tre gongar</string>
     <string name="preferences__five_times">Fem gongar</string>
     <string name="preferences__ten_times">Ti gongar</string>
-    <string name="preferences__vibrate">Vibrer</string>
+    <string name="notificationsVibrate">Vibrer</string>
     <string name="preferences__green">Grøn</string>
     <string name="preferences__red">Raud</string>
     <string name="preferences__blue">Blå</string>

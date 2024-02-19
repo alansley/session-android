@@ -387,10 +387,10 @@
     <string name="preferences__send_link_previews">发送链接预览</string>
     <string name="preferences__screen_security">屏幕安全性</string>
     <string name="sessionNotifications">通知</string>
-    <string name="preferences__led_color">LED颜色</string>
+    <string name="notificationsLedColor">LED颜色</string>
     <string name="preferences__led_color_unknown">未知</string>
     <string name="preferences__pref_led_blink_title">LED闪烁规律</string>
-    <string name="preferences__sound">声音</string>
+    <string name="notificationsSound">声音</string>
     <string name="preferences__silent">静音</string>
     <string name="preferences__repeat_alerts">重复警报</string>
     <string name="preferences__never">永不</string>
@@ -399,7 +399,7 @@
     <string name="preferences__three_times">三次</string>
     <string name="preferences__five_times">五次</string>
     <string name="preferences__ten_times">十次</string>
-    <string name="preferences__vibrate">振动</string>
+    <string name="notificationsVibrate">振动</string>
     <string name="preferences__green">绿色</string>
     <string name="preferences__red">红色</string>
     <string name="preferences__blue">蓝色</string>
@@ -584,11 +584,11 @@
     <string name="activity_settings_clear_all_data_button_title">清除数据</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">清除包括网络在内的数据</string>
     <string name="activity_settings_help_translate_session">帮助我们翻译 Session</string>
-    <string name="activity_notification_settings_style_section_title">通知风格</string>
+    <string name="notificationsStyle">通知风格</string>
     <string name="activity_notification_settings_content_section_title">通知内容</string>
     <string name="sessionPrivacy">隐私</string>
-    <string name="preferences_notifications_strategy_category_title">通知选项</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">使用快速模式</string>
+    <string name="notificationsStrategy">通知选项</string>
+    <string name="useFastMode">使用快速模式</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">新消息将通过 Google 通知服务器即时可靠地发送</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">更换名称</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">断开设备关联</string>

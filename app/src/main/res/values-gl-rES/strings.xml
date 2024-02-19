@@ -392,10 +392,10 @@
     <string name="preferences__send_link_previews">Enviar previsualizacións das ligazóns.</string>
     <string name="preferences__screen_security">Seguranza da pantalla</string>
     <string name="sessionNotifications">Notificacións</string>
-    <string name="preferences__led_color">Cor LED</string>
+    <string name="notificationsLedColor">Cor LED</string>
     <string name="preferences__led_color_unknown">Descoñecido</string>
     <string name="preferences__pref_led_blink_title">Intermitencia do LED</string>
-    <string name="preferences__sound">Son</string>
+    <string name="notificationsSound">Son</string>
     <string name="preferences__silent">En silencio</string>
     <string name="preferences__repeat_alerts">Repetir alertas</string>
     <string name="preferences__never">Nunca</string>
@@ -404,7 +404,7 @@
     <string name="preferences__three_times">Tres veces</string>
     <string name="preferences__five_times">Cinco veces</string>
     <string name="preferences__ten_times">Dez veces</string>
-    <string name="preferences__vibrate">Vibrar</string>
+    <string name="notificationsVibrate">Vibrar</string>
     <string name="preferences__green">Verde</string>
     <string name="preferences__red">Vermello</string>
     <string name="preferences__blue">Azul</string>

@@ -400,10 +400,10 @@
     <string name="preferences__send_link_previews">Enviar previews de link</string>
     <string name="preferences__screen_security">Segurança de tela</string>
     <string name="sessionNotifications">Notificações</string>
-    <string name="preferences__led_color">Cor do LED</string>
+    <string name="notificationsLedColor">Cor do LED</string>
     <string name="preferences__led_color_unknown">Desconhecida</string>
     <string name="preferences__pref_led_blink_title">Padrão de piscagem do LED</string>
-    <string name="preferences__sound">Som</string>
+    <string name="notificationsSound">Som</string>
     <string name="preferences__silent">Silencioso</string>
     <string name="preferences__repeat_alerts">Repetir alertas</string>
     <string name="preferences__never">Nunca</string>
@@ -412,7 +412,7 @@
     <string name="preferences__three_times">Três vezes</string>
     <string name="preferences__five_times">Cinco vezes</string>
     <string name="preferences__ten_times">Dez vezes</string>
-    <string name="preferences__vibrate">Vibrar</string>
+    <string name="notificationsVibrate">Vibrar</string>
     <string name="preferences__green">Verde</string>
     <string name="preferences__red">Vermelho</string>
     <string name="preferences__blue">Azul</string>
@@ -597,11 +597,11 @@
     <string name="activity_settings_clear_all_data_button_title">Limpar Dados</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Limpar Dados Incluindo Rede</string>
     <string name="activity_settings_help_translate_session">Ajude-nos a traduzir o Session</string>
-    <string name="activity_notification_settings_style_section_title">Estilo de Notificação</string>
+    <string name="notificationsStyle">Estilo de Notificação</string>
     <string name="activity_notification_settings_content_section_title">Conteúdo de Notificação</string>
     <string name="sessionPrivacy">Privacidade</string>
-    <string name="preferences_notifications_strategy_category_title">Estratégia de Notificação</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">Usar Modo Rápido</string>
+    <string name="notificationsStrategy">Estratégia de Notificação</string>
+    <string name="useFastMode">Usar Modo Rápido</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Você será notificado de forma confiável e imediata sobre novas mensagens usando os servidores de notificação da Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Mudar nome</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Deslinkar dispositivo</string>

@@ -400,10 +400,10 @@
     <string name="preferences__send_link_previews">Αποστολή προεπισκοπήσεων συνδέσμων</string>
     <string name="preferences__screen_security">Ασφάλεια οθόνης</string>
     <string name="sessionNotifications">Ειδοποιήσεις</string>
-    <string name="preferences__led_color">Χρώμα LED</string>
+    <string name="notificationsLedColor">Χρώμα LED</string>
     <string name="preferences__led_color_unknown">Άγνωστο</string>
     <string name="preferences__pref_led_blink_title">Μοτίβο αναβοσβησίματος του LED</string>
-    <string name="preferences__sound">Ήχος</string>
+    <string name="notificationsSound">Ήχος</string>
     <string name="preferences__silent">Σε σίγαση</string>
     <string name="preferences__repeat_alerts">Επανάληψη ειδοποιήσεων</string>
     <string name="preferences__never">Ποτέ</string>
@@ -412,7 +412,7 @@
     <string name="preferences__three_times">Τρεις φορές</string>
     <string name="preferences__five_times">Πέντε φορές</string>
     <string name="preferences__ten_times">Δέκα φορές</string>
-    <string name="preferences__vibrate">Δόνηση</string>
+    <string name="notificationsVibrate">Δόνηση</string>
     <string name="preferences__green">Πράσινο</string>
     <string name="preferences__red">Κόκκινο</string>
     <string name="preferences__blue">Μπλε</string>
@@ -597,11 +597,11 @@
     <string name="activity_settings_clear_all_data_button_title">Εκκαθάριση Δεδομένων</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Εκκαθάριση Δεδομένων Με Το Δίκτυο</string>
     <string name="activity_settings_help_translate_session">Βοηθήστε μας να μεταφράσουμε τo Session</string>
-    <string name="activity_notification_settings_style_section_title">Στυλ ειδοποιήσεων</string>
+    <string name="notificationsStyle">Στυλ ειδοποιήσεων</string>
     <string name="activity_notification_settings_content_section_title">Περιεχόμενο Ειδοποιήσεων</string>
     <string name="sessionPrivacy">Απόρρητο</string>
-    <string name="preferences_notifications_strategy_category_title">Περιεχόμενο Ειδοποιήσεων</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">Χρήση Ταχείας Λειτουργίας</string>
+    <string name="notificationsStrategy">Περιεχόμενο Ειδοποιήσεων</string>
+    <string name="useFastMode">Χρήση Ταχείας Λειτουργίας</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Θα ειδοποιηθείτε για νέα μηνύματα αξιόπιστα και άμεσα χρησιμοποιώντας τους διακομιστές ειδοποιήσεων της Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Αλλαγή ονόματος</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Αποσύνδεση Συσκευής</string>

@@ -401,10 +401,10 @@
     <string name="preferences__send_link_previews">Hivatkozások előnézeti képének küldése</string>
     <string name="preferences__screen_security">Képernyőbiztonság</string>
     <string name="sessionNotifications">Értesítések</string>
-    <string name="preferences__led_color">LED színe</string>
+    <string name="notificationsLedColor">LED színe</string>
     <string name="preferences__led_color_unknown">Ismeretlen</string>
     <string name="preferences__pref_led_blink_title">LED villogás mintázata</string>
-    <string name="preferences__sound">Hang</string>
+    <string name="notificationsSound">Hang</string>
     <string name="preferences__silent">Csendes</string>
     <string name="preferences__repeat_alerts">Figyelmeztetések ismétlése</string>
     <string name="preferences__never">Soha</string>
@@ -413,7 +413,7 @@
     <string name="preferences__three_times">Háromszor</string>
     <string name="preferences__five_times">Ötször</string>
     <string name="preferences__ten_times">Tízszer</string>
-    <string name="preferences__vibrate">Rezgés</string>
+    <string name="notificationsVibrate">Rezgés</string>
     <string name="preferences__green">Zöld</string>
     <string name="preferences__red">Vörös</string>
     <string name="preferences__blue">Kék</string>
@@ -598,11 +598,11 @@
     <string name="activity_settings_clear_all_data_button_title">Adataid törlése</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Adatok törlése, beleértve a hálózatot is</string>
     <string name="activity_settings_help_translate_session">Segítsen nekünk a Session lefordításában</string>
-    <string name="activity_notification_settings_style_section_title">Értesítések stílusa</string>
+    <string name="notificationsStyle">Értesítések stílusa</string>
     <string name="activity_notification_settings_content_section_title">Értesítés tartalma</string>
     <string name="sessionPrivacy">Adatvédelem</string>
-    <string name="preferences_notifications_strategy_category_title">Értesítések módja</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">Használja a Gyors módot</string>
+    <string name="notificationsStrategy">Értesítések módja</string>
+    <string name="useFastMode">Használja a Gyors módot</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">A Google értesítési szerverein keresztül megbízhatóan és azonnal értesítést kap az új üzenetekről.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Név módosítása</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Eszköz társításának megszüntetése</string>

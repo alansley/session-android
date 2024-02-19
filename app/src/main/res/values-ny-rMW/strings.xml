@@ -344,10 +344,10 @@ ranti pakalla yupaykunamanta</string>
     <string name="preferences__pref_enter_sends_title">Yaykuna tecla hillaywan kachapay.</string>
     <string name="preferences__screen_security">Rikuripa pakallayachina</string>
     <string name="sessionNotifications">Willachikuna</string>
-    <string name="preferences__led_color">LEDpa tulpu</string>
+    <string name="notificationsLedColor">LEDpa tulpu</string>
     <string name="preferences__led_color_unknown">Mana riksishka</string>
     <string name="preferences__pref_led_blink_title">LEDpa imashina achik sipuriy</string>
-    <string name="preferences__sound">Wakay uyari</string>
+    <string name="notificationsSound">Wakay uyari</string>
     <string name="preferences__silent">Upallayachina</string>
     <string name="preferences__repeat_alerts">Kutinlla unancha wakay</string>
     <string name="preferences__never">Nimamanta</string>
@@ -356,7 +356,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="preferences__three_times">Kimsakutin</string>
     <string name="preferences__five_times">Pishkakutin</string>
     <string name="preferences__ten_times">Chunkakutin</string>
-    <string name="preferences__vibrate">Chukchuy</string>
+    <string name="notificationsVibrate">Chukchuy</string>
     <string name="preferences__green">Waylla</string>
     <string name="preferences__red">Puka</string>
     <string name="preferences__blue">Ankas</string>

@@ -359,10 +359,10 @@
     <string name="preferences__send_link_previews">ការមើល ការផ្ញើតំណភ្ជាប់</string>
     <string name="preferences__screen_security">អេក្រង់សុវត្ថិភាព</string>
     <string name="sessionNotifications">សារជូនដំណឹង</string>
-    <string name="preferences__led_color">ពណ៌​LED</string>
+    <string name="notificationsLedColor">ពណ៌​LED</string>
     <string name="preferences__led_color_unknown">មិនដឹង</string>
     <string name="preferences__pref_led_blink_title">លំនាំលោតភ្លើង LED</string>
-    <string name="preferences__sound">សំឡេង</string>
+    <string name="notificationsSound">សំឡេង</string>
     <string name="preferences__silent">ស្ងាត់</string>
     <string name="preferences__repeat_alerts">ជូនដំណឹងច្រើនដង</string>
     <string name="preferences__never">មិនដែល</string>
@@ -371,7 +371,7 @@
     <string name="preferences__three_times">៣ដង</string>
     <string name="preferences__five_times">៥ដង</string>
     <string name="preferences__ten_times">១០ដង</string>
-    <string name="preferences__vibrate">ញ័រ</string>
+    <string name="notificationsVibrate">ញ័រ</string>
     <string name="preferences__green">ពណ៌បៃតង</string>
     <string name="preferences__red">ពណ៌ក្រហម</string>
     <string name="preferences__blue">ពណ៌ខៀវ</string>

@@ -307,10 +307,10 @@ memproses pertukaran kunci korupsi.</string>
     <string name="preferences__send_link_previews">Kirim pratinjau tautan</string>
     <string name="preferences__screen_security">Keamanan Layar</string>
     <string name="sessionNotifications">Pemberitahuan</string>
-    <string name="preferences__led_color">Warna LED</string>
+    <string name="notificationsLedColor">Warna LED</string>
     <string name="preferences__led_color_unknown">Tidak dikenal</string>
     <string name="preferences__pref_led_blink_title">Pola kedip LED</string>
-    <string name="preferences__sound">Bunyi</string>
+    <string name="notificationsSound">Bunyi</string>
     <string name="preferences__silent">Diam</string>
     <string name="preferences__repeat_alerts">Ulangi peringatan</string>
     <string name="preferences__never">Tidak pernah</string>
@@ -319,7 +319,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="preferences__three_times">Tiga kali</string>
     <string name="preferences__five_times">Lima kali</string>
     <string name="preferences__ten_times">Sepuluh kali</string>
-    <string name="preferences__vibrate">Getar</string>
+    <string name="notificationsVibrate">Getar</string>
     <string name="preferences__green">Hijau</string>
     <string name="preferences__red">Merah</string>
     <string name="preferences__blue">Biru</string>
@@ -488,10 +488,10 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_settings_devices_button_title">Perangkat</string>
     <string name="activity_settings_recovery_phrase_button_title">Kata pemulihan</string>
     <string name="activity_settings_clear_all_data_button_title">Hapus data</string>
-    <string name="activity_notification_settings_style_section_title">Gaya notifikasi</string>
+    <string name="notificationsStyle">Gaya notifikasi</string>
     <string name="activity_notification_settings_content_section_title">Isi notifikasi</string>
     <string name="sessionPrivacy">Privasi</string>
-    <string name="preferences_notifications_strategy_category_title">Strategi notofikasi</string>
+    <string name="notificationsStrategy">Strategi notofikasi</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Ubah nama</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Putuskan koneksi dengan perangkat</string>
     <string name="dialog_seed_title">Kata pemulihan anda</string>

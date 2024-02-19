@@ -363,10 +363,10 @@
     <string name="preferences__send_link_previews">Pêşdîtinên girêdanê bişîne</string>
     <string name="preferences__screen_security">Ewlehiya ekranê</string>
     <string name="sessionNotifications">Danezan</string>
-    <string name="preferences__led_color">Rengê LED</string>
+    <string name="notificationsLedColor">Rengê LED</string>
     <string name="preferences__led_color_unknown">Nenas</string>
     <string name="preferences__pref_led_blink_title">Qalibê pêketin û tefandina LEDê</string>
-    <string name="preferences__sound">Deng</string>
+    <string name="notificationsSound">Deng</string>
     <string name="preferences__silent">Bêdeng</string>
     <string name="preferences__repeat_alerts">Hişyariyan dubare bike</string>
     <string name="preferences__never">Tu car</string>
@@ -375,7 +375,7 @@
     <string name="preferences__three_times">Sê caran</string>
     <string name="preferences__five_times">Pênc caran</string>
     <string name="preferences__ten_times">Deh caran</string>
-    <string name="preferences__vibrate">Lerizîn</string>
+    <string name="notificationsVibrate">Lerizîn</string>
     <string name="preferences__green">Kesk</string>
     <string name="preferences__red">Sor</string>
     <string name="preferences__blue">Şîn</string>

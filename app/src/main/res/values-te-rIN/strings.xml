@@ -363,10 +363,10 @@
     <string name="preferences__pref_enter_sends_title">ఎంటర్ కీ పంపుతుంది </string>
     <string name="preferences__screen_security">స్క్రీన్ భద్రత</string>
     <string name="sessionNotifications">ప్రకటనలు</string>
-    <string name="preferences__led_color">ఎల్ఈడి రంగు</string>
+    <string name="notificationsLedColor">ఎల్ఈడి రంగు</string>
     <string name="preferences__led_color_unknown">తెలియని</string>
     <string name="preferences__pref_led_blink_title">ఎల్ఇడి రెప్పపాటు నమూనా</string>
-    <string name="preferences__sound">శబ్దము</string>
+    <string name="notificationsSound">శబ్దము</string>
     <string name="preferences__silent">మౌనం</string>
     <string name="preferences__repeat_alerts">రిపీట్ హెచ్చరికలు</string>
     <string name="preferences__never">ఎప్పుడూ</string>
@@ -375,7 +375,7 @@
     <string name="preferences__three_times">మూడు సార్లు</string>
     <string name="preferences__five_times">ఐదు సార్లు</string>
     <string name="preferences__ten_times">పది సార్లు</string>
-    <string name="preferences__vibrate">ప్రకంపన</string>
+    <string name="notificationsVibrate">ప్రకంపన</string>
     <string name="preferences__green">ఆకు పచ్చ</string>
     <string name="preferences__red">ఎరుపు</string>
     <string name="preferences__blue">నీలం</string>

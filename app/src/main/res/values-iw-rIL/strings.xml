@@ -415,10 +415,10 @@
     <string name="preferences__send_link_previews">שלח קדם־תצוגות של קישורים</string>
     <string name="preferences__screen_security">אבטחת מסך</string>
     <string name="sessionNotifications">התראות</string>
-    <string name="preferences__led_color">צבע LED</string>
+    <string name="notificationsLedColor">צבע LED</string>
     <string name="preferences__led_color_unknown">לא ידוע</string>
     <string name="preferences__pref_led_blink_title">תבנית הבהוב LED</string>
-    <string name="preferences__sound">קול</string>
+    <string name="notificationsSound">קול</string>
     <string name="preferences__silent">שקט</string>
     <string name="preferences__repeat_alerts">התראות חוזרות</string>
     <string name="preferences__never">לעולם לא</string>
@@ -427,7 +427,7 @@
     <string name="preferences__three_times">שלוש פעמים</string>
     <string name="preferences__five_times">חמש פעמים</string>
     <string name="preferences__ten_times">עשר פעמים</string>
-    <string name="preferences__vibrate">רטט</string>
+    <string name="notificationsVibrate">רטט</string>
     <string name="preferences__green">ירוק</string>
     <string name="preferences__red">אדום</string>
     <string name="preferences__blue">כחול</string>

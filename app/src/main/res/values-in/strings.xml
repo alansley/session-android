@@ -331,14 +331,14 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="sessionNotifications">Notifikasi</string>
-    <string name="preferences__led_color">Warna LED</string>
+    <string name="notificationsLedColor">Warna LED</string>
     <string name="preferences__led_color_unknown">Tidak Dikenal</string>
     <string name="preferences__one_time">Satu kali</string>
     <string name="preferences__two_times">Dua kali</string>
     <string name="preferences__three_times">Tiga kali</string>
     <string name="preferences__five_times">Lima kali</string>
     <string name="preferences__ten_times">Sepuluh kali</string>
-    <string name="preferences__vibrate">Getar</string>
+    <string name="notificationsVibrate">Getar</string>
     <string name="preferences__green">Hijau</string>
     <string name="preferences__red">Merah</string>
     <string name="preferences__blue">Biru</string>

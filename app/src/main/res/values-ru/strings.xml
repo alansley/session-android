@@ -424,10 +424,10 @@
     <string name="preferences__send_link_previews">Отправлять предпросмотр ссылки</string>
     <string name="preferences__screen_security">Защита экрана</string>
     <string name="sessionNotifications">Уведомления</string>
-    <string name="preferences__led_color">Цвет светодиода</string>
+    <string name="notificationsLedColor">Цвет светодиода</string>
     <string name="preferences__led_color_unknown">Неизвестен</string>
     <string name="preferences__pref_led_blink_title">Мигание светодиода</string>
-    <string name="preferences__sound">Мелодия</string>
+    <string name="notificationsSound">Мелодия</string>
     <string name="preferences__silent">Без звука</string>
     <string name="preferences__repeat_alerts">Повторять сигналы</string>
     <string name="preferences__never">Никогда</string>
@@ -436,7 +436,7 @@
     <string name="preferences__three_times">Три раза</string>
     <string name="preferences__five_times">Пять раз</string>
     <string name="preferences__ten_times">Десять раз</string>
-    <string name="preferences__vibrate">Вибрация</string>
+    <string name="notificationsVibrate">Вибрация</string>
     <string name="preferences__green">Зеленый</string>
     <string name="preferences__red">Красный</string>
     <string name="preferences__blue">Синий</string>
@@ -621,11 +621,11 @@
     <string name="activity_settings_clear_all_data_button_title">Очистить данные</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Очистить данные включая учетную запись</string>
     <string name="activity_settings_help_translate_session">Помогите нам перевести Session</string>
-    <string name="activity_notification_settings_style_section_title">Стиль уведомлений</string>
+    <string name="notificationsStyle">Стиль уведомлений</string>
     <string name="activity_notification_settings_content_section_title">Содержание уведомления</string>
     <string name="sessionPrivacy">Конфиденциальность</string>
-    <string name="preferences_notifications_strategy_category_title">Метод уведомлений</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">Использовать быстрый режим</string>
+    <string name="notificationsStrategy">Метод уведомлений</string>
+    <string name="useFastMode">Использовать быстрый режим</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Вы будете получать уведомления о новых сообщениях надежно и сразу же с помощью серверов уведомлений Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Сменить имя</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Отключить устройство</string>

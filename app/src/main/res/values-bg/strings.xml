@@ -377,10 +377,10 @@
     <string name="preferences__send_link_previews">Изпращане на визуализации на връзката</string>
     <string name="preferences__screen_security">Сигурност на екрана</string>
     <string name="sessionNotifications">Известия</string>
-    <string name="preferences__led_color">LED цвят</string>
+    <string name="notificationsLedColor">LED цвят</string>
     <string name="preferences__led_color_unknown">Непознат</string>
     <string name="preferences__pref_led_blink_title">LED известяване</string>
-    <string name="preferences__sound">Мелодия</string>
+    <string name="notificationsSound">Мелодия</string>
     <string name="preferences__silent">Тих</string>
     <string name="preferences__repeat_alerts">Повтарящи се аларми</string>
     <string name="preferences__never">Никога</string>
@@ -389,7 +389,7 @@
     <string name="preferences__three_times">Три пъти</string>
     <string name="preferences__five_times">Пет пъти</string>
     <string name="preferences__ten_times">Десет пъти</string>
-    <string name="preferences__vibrate">Вибрация</string>
+    <string name="notificationsVibrate">Вибрация</string>
     <string name="preferences__green">Зелен</string>
     <string name="preferences__red">Червен</string>
     <string name="preferences__blue">Син</string>

@@ -414,10 +414,10 @@ schimbul de chei este corupt </string>
     <string name="preferences__send_link_previews">Trimite previzualizarea link-urilor</string>
     <string name="preferences__screen_security">Securitate ecran</string>
     <string name="sessionNotifications">Notificări</string>
-    <string name="preferences__led_color">Culoare LED</string>
+    <string name="notificationsLedColor">Culoare LED</string>
     <string name="preferences__led_color_unknown">Necunoscut</string>
     <string name="preferences__pref_led_blink_title">Tipar de clipire LED</string>
-    <string name="preferences__sound">Sunet</string>
+    <string name="notificationsSound">Sunet</string>
     <string name="preferences__silent">Silențios</string>
     <string name="preferences__repeat_alerts">Repetă alerte</string>
     <string name="preferences__never">Niciodată</string>
@@ -426,7 +426,7 @@ schimbul de chei este corupt </string>
     <string name="preferences__three_times">De trei ori</string>
     <string name="preferences__five_times">De cinci ori</string>
     <string name="preferences__ten_times">De zece ori</string>
-    <string name="preferences__vibrate">Vibrează</string>
+    <string name="notificationsVibrate">Vibrează</string>
     <string name="preferences__green">Verde</string>
     <string name="preferences__red">Roşu</string>
     <string name="preferences__blue">Albastru</string>

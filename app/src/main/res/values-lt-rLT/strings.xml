@@ -419,10 +419,10 @@
     <string name="preferences__send_link_previews">Siųsti nuorodų peržiūras</string>
     <string name="preferences__screen_security">Ekrano saugumas</string>
     <string name="sessionNotifications">Pranešimai</string>
-    <string name="preferences__led_color">Šviesos diodo spalva</string>
+    <string name="notificationsLedColor">Šviesos diodo spalva</string>
     <string name="preferences__led_color_unknown">Nežinoma</string>
     <string name="preferences__pref_led_blink_title">Šviesos diodo mirksėjimo šablonas</string>
-    <string name="preferences__sound">Garsas</string>
+    <string name="notificationsSound">Garsas</string>
     <string name="preferences__silent">Tyliai</string>
     <string name="preferences__repeat_alerts">Kartoti įspėjimus</string>
     <string name="preferences__never">Niekada</string>
@@ -431,7 +431,7 @@
     <string name="preferences__three_times">Tris kartus</string>
     <string name="preferences__five_times">Penkis kartus</string>
     <string name="preferences__ten_times">Dešimt kartų</string>
-    <string name="preferences__vibrate">Vibruoti</string>
+    <string name="notificationsVibrate">Vibruoti</string>
     <string name="preferences__green">Žalia</string>
     <string name="preferences__red">Raudona</string>
     <string name="preferences__blue">Mėlyna</string>
@@ -601,11 +601,11 @@
     <string name="activity_settings_recovery_phrase_button_title">Atkūrimo frazė</string>
     <string name="activity_settings_clear_all_data_button_title">Išvalyti duomenis</string>
     <string name="activity_settings_help_translate_session">Padėkite išversti Session</string>
-    <string name="activity_notification_settings_style_section_title">Pranešimų stilius</string>
+    <string name="notificationsStyle">Pranešimų stilius</string>
     <string name="activity_notification_settings_content_section_title">Pranešimų turinys</string>
     <string name="sessionPrivacy">Privatumas</string>
-    <string name="preferences_notifications_strategy_category_title">Pranešimų strategija</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">Naudoti greitą veikseną</string>
+    <string name="notificationsStrategy">Pranešimų strategija</string>
+    <string name="useFastMode">Naudoti greitą veikseną</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Keisti pavadinimą</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Atsieti įrenginį</string>

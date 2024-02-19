@@ -384,10 +384,10 @@
     <string name="preferences__send_link_previews">リンクプレビューを送る</string>
     <string name="preferences__screen_security">画面セキュリティ</string>
     <string name="sessionNotifications">通知</string>
-    <string name="preferences__led_color">LED色</string>
+    <string name="notificationsLedColor">LED色</string>
     <string name="preferences__led_color_unknown">不明</string>
     <string name="preferences__pref_led_blink_title">LED点滅パターン</string>
-    <string name="preferences__sound">着信音</string>
+    <string name="notificationsSound">着信音</string>
     <string name="preferences__silent">無音</string>
     <string name="preferences__repeat_alerts">アラートの繰り返し</string>
     <string name="preferences__never">なし</string>
@@ -396,7 +396,7 @@
     <string name="preferences__three_times">3回</string>
     <string name="preferences__five_times">5回</string>
     <string name="preferences__ten_times">10回</string>
-    <string name="preferences__vibrate">振動</string>
+    <string name="notificationsVibrate">振動</string>
     <string name="preferences__green">緑</string>
     <string name="preferences__red">赤</string>
     <string name="preferences__blue">青</string>
@@ -581,11 +581,11 @@
     <string name="activity_settings_clear_all_data_button_title">データを消去する</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">ネットワークを含むデータを消去</string>
     <string name="activity_settings_help_translate_session">セッションの翻訳にご協力ください</string>
-    <string name="activity_notification_settings_style_section_title">通知スタイル</string>
+    <string name="notificationsStyle">通知スタイル</string>
     <string name="activity_notification_settings_content_section_title">通知内容</string>
     <string name="sessionPrivacy">プライバシー</string>
-    <string name="preferences_notifications_strategy_category_title">通知戦略</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">高速モードを使用する</string>
+    <string name="notificationsStrategy">通知戦略</string>
+    <string name="useFastMode">高速モードを使用する</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Googleの通知サーバーを使用して、新しいメッセージが確実かつ即座に通知されます。</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">名前を変更する</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">デバイスのリンクを解除する</string>

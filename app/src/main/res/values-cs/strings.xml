@@ -422,10 +422,10 @@
     <string name="preferences__send_link_previews">Odesílat náhledy odkazu</string>
     <string name="preferences__screen_security">Zabezpečení obrazovky</string>
     <string name="sessionNotifications">Upozornění</string>
-    <string name="preferences__led_color">Barva LED</string>
+    <string name="notificationsLedColor">Barva LED</string>
     <string name="preferences__led_color_unknown">Neznámý</string>
     <string name="preferences__pref_led_blink_title">Schéma blikání LED</string>
-    <string name="preferences__sound">Zvuk</string>
+    <string name="notificationsSound">Zvuk</string>
     <string name="preferences__silent">Ticho</string>
     <string name="preferences__repeat_alerts">Opakovat upozornění</string>
     <string name="preferences__never">Nikdy</string>
@@ -434,7 +434,7 @@
     <string name="preferences__three_times">Třikrát</string>
     <string name="preferences__five_times">Pětkrát</string>
     <string name="preferences__ten_times">Desetkrát</string>
-    <string name="preferences__vibrate">Vibrovat</string>
+    <string name="notificationsVibrate">Vibrovat</string>
     <string name="preferences__green">Zelená</string>
     <string name="preferences__red">Červená</string>
     <string name="preferences__blue">Modrá</string>
@@ -619,11 +619,11 @@
     <string name="activity_settings_clear_all_data_button_title">Vymazat data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Smazat data včetně sítě</string>
     <string name="activity_settings_help_translate_session">Pomozte nám přeložit Session</string>
-    <string name="activity_notification_settings_style_section_title">Styl oznámení</string>
+    <string name="notificationsStyle">Styl oznámení</string>
     <string name="activity_notification_settings_content_section_title">Obsah oznámení</string>
     <string name="sessionPrivacy">Soukromí</string>
-    <string name="preferences_notifications_strategy_category_title">Styl oznámení</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_title">Použít rychlý režim</string>
+    <string name="notificationsStrategy">Styl oznámení</string>
+    <string name="useFastMode">Použít rychlý režim</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Změnit jméno</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojit zařízení</string>
