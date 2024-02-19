@@ -359,7 +359,6 @@ udveksel besked!</string>
     <string name="arrays__settings_default">Standardindstillinger</string>
     <string name="arrays__enabled">Aktiveret</string>
     <string name="arrays__disabled">Deaktiverét</string>
-    <string name="arrays__name_and_message">Navn og besked</string>
     <string name="notificationsContentShowNameOnly">Kun navn</string>
     <string name="arrays__images">Billeder</string>
     <string name="arrays__audio">Lyd</string>
@@ -503,12 +502,11 @@ udveksel besked!</string>
     <string name="activity_register_title">Sig hej til dit Session ID</string>
     <string name="activity_register_explanation">Dit Session ID er den unikke adresse, som folk kan bruge til at kontakte dig i Session. Dit Session ID har ingen tilknytning til din rigtige identitet og er helt anonymt og privat.</string>
     <string name="activity_restore_title">Gendan din konto</string>
-    <string name="activity_restore_seed_edit_text_hint">Angiv din genoprettelsessætning</string>
-    <string name="activity_display_name_title_2">Vælg dit visningsnavn</string>
+    <string name="displayNamePick">Vælg dit visningsnavn</string>
     <string name="activity_display_name_explanation">Dette vil være dit navn, når du bruger Session. Det kan være dit rigtige navn, et alias eller noget helt andet.</string>
-    <string name="activity_display_name_edit_text_hint">Tast et visningsnavn</string>
-    <string name="activity_display_name_display_name_missing_error">Vælg venligst et display navn</string>
-    <string name="activity_display_name_display_name_too_long_error">Vælg venligst et kortere display navn</string>
+    <string name="displayNameEnter">Tast et visningsnavn</string>
+    <string name="displayNameErrorDescription">Vælg venligst et display navn</string>
+    <string name="displayNameErrorDescriptionShorter">Vælg venligst et kortere display navn</string>
     <string name="recommended">Anbefalet</string>
     <string name="activity_home_empty_state_message">Du har ingen kontakter endnu</string>
     <string name="activity_home_empty_state_button_title">Start en Session</string>
@@ -605,7 +603,7 @@ udveksel besked!</string>
     <string name="download">Hent</string>
     <string name="media">Medie</string>
     <string name="_error">Fejl</string>
-    <string name="dialog_send_seed_title">Advarsel</string>
+    <string name="warning">Advarsel</string>
     <string name="dialog_send_seed_send_button_title">Send</string>
     <string name="notify_type_all">Alle</string>
     <string name="deleted_message">Denne besked er blevet slettet</string>

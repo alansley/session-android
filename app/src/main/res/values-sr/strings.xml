@@ -367,7 +367,6 @@
     <string name="arrays__settings_default">Подразумевана поставка</string>
     <string name="arrays__enabled">Укључи</string>
     <string name="arrays__disabled">Искључи</string>
-    <string name="arrays__name_and_message">Име и поруку</string>
     <string name="notificationsContentShowNameOnly">Само име</string>
     <string name="arrays__images">Слике</string>
     <string name="arrays__audio">Звук</string>
@@ -477,7 +476,7 @@
     <string name="AppProtectionPreferenceFragment_none">Ништа</string>
     <!-- Conversation activity -->
     <!-- Session -->
-    <string name="activity_display_name_display_name_too_long_error">Молимо вас да изаберете краће приказно име</string>
+    <string name="displayNameErrorDescriptionShorter">Молимо вас да изаберете краће приказно име</string>
     <string name="recommended">Препоручено</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Молимо Вас да одаберете опцију</string>
     <string name="activity_home_empty_state_message">Још увек немате ниједан контакт</string>

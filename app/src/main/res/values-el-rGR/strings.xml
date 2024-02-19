@@ -361,7 +361,6 @@
     <string name="arrays__settings_default">Προκαθορισμένες ρυθμίσεις</string>
     <string name="arrays__enabled">Ενεργοποιημένο</string>
     <string name="arrays__disabled">Απενεργοποιημένο</string>
-    <string name="arrays__name_and_message">Όνομα και μήνυμα</string>
     <string name="notificationsContentShowNameOnly">Μόνο όνομα</string>
     <string name="arrays__images">Εικόνες</string>
     <string name="arrays__audio">Ήχοι</string>
@@ -505,12 +504,11 @@
     <string name="activity_register_title">Πείτε γεια στη Session ταυτότητά σας</string>
     <string name="activity_register_explanation">Η Session ταυτότητά σας είναι η μοναδική διεύθυνση που μπορούν να χρησιμοποιήσουν τα άτομα για να επικοινωνήσουν μαζί σας στο Session. Χωρίς σύνδεση με την πραγματική σας ταυτότητα, η Session ταυτότητά σας είναι εντελώς ανώνυμη και ιδιωτική.</string>
     <string name="activity_restore_title">Επαναφορά του λογαριασμού σας</string>
-    <string name="activity_restore_seed_edit_text_hint">Εισάγετε τη φράση ανάκτησης σας</string>
-    <string name="activity_display_name_title_2">Επιλέξτε το εμφανιζόμενο όνομα σας</string>
+    <string name="displayNamePick">Επιλέξτε το εμφανιζόμενο όνομα σας</string>
     <string name="activity_display_name_explanation">Αυτό θα είναι το όνομά σας όταν χρησιμοποιείτε το Session. Μπορεί να είναι το πραγματικό σας όνομα, ένα ψευδώνυμο ή οτιδήποτε άλλο θέλετε.</string>
-    <string name="activity_display_name_edit_text_hint">Εισάγετε όνομα εμφάνισης</string>
-    <string name="activity_display_name_display_name_missing_error">Παρακαλώ επιλέξτε ένα εμφανιζόμενο όνομα</string>
-    <string name="activity_display_name_display_name_too_long_error">Παρακαλώ επιλέξτε ένα μικρότερο όνομα εμφάνισης</string>
+    <string name="displayNameEnter">Εισάγετε όνομα εμφάνισης</string>
+    <string name="displayNameErrorDescription">Παρακαλώ επιλέξτε ένα εμφανιζόμενο όνομα</string>
+    <string name="displayNameErrorDescriptionShorter">Παρακαλώ επιλέξτε ένα μικρότερο όνομα εμφάνισης</string>
     <string name="recommended">Προτεινόμενο</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Παρακαλούμε κάντε μια επιλογή</string>
     <string name="activity_home_empty_state_message">Δεν υπάρχουν επαφές</string>
@@ -556,9 +554,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Σαρώστε τον κωδικό QR της ανοικτής ομάδας που θα θέλατε να συμμετάσχετε</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Εισάγετε μια διεύθυνση ανοικτής ομάδας</string>
     <string name="sessionSettings">Ρυθμίσεις</string>
-    <string name="activity_settings_display_name_edit_text_hint">Εισάγετε ένα όνομα</string>
-    <string name="activity_settings_display_name_missing_error">Παρακαλώ διαλέξτε ένα όνομα εμφάνισης</string>
-    <string name="activity_settings_display_name_too_long_error">Παρακαλώ επιλέξτε ένα μικρότερο όνομα εμφάνισης</string>
     <string name="activity_settings_devices_button_title">Συσκευές</string>
     <string name="sessionInviteAFriend">Προσκαλέστε ένα φίλο</string>
     <string name="helpFAQ">Συχνές ερωτήσεις</string>
@@ -645,8 +640,7 @@
     <string name="media">Πολυμέσα</string>
     <string name="UntrustedAttachmentView_download_attachment">Αγγίξτε για λήψη %s</string>
     <string name="_error">Σφάλμα</string>
-    <string name="dialog_send_seed_title">Προειδοποίηση</string>
-    <string name="dialog_send_seed_explanation">Αυτή είναι η φράση ανάκτησής σας. Αν την στείλετε σε κάποιον θα έχει πλήρη πρόσβαση στο λογαριασμό σας.</string>
+    <string name="warning">Προειδοποίηση</string>
     <string name="dialog_send_seed_send_button_title">Αποστολή</string>
     <string name="notify_type_all">Ολες</string>
     <string name="notify_type_mentions">Αναφορες</string>

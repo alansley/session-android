@@ -527,7 +527,6 @@
     <string name="arrays__settings_default">Settings default</string>
     <string name="arrays__enabled">Enabled</string>
     <string name="arrays__disabled">Disabled</string>
-    <string name="arrays__name_and_message">Name and Content</string>
     <string name="notificationsContentShowNameOnly">Name Only</string>
     <string name="arrays__images">Images</string>
     <string name="arrays__audio">Audio</string>
@@ -696,12 +695,11 @@
     <string name="activity_register_title">Say hello to your Session ID</string>
     <string name="activity_register_explanation">Your Session ID is the unique address people can use to contact you on Session. With no connection to your real identity, your Session ID is totally anonymous and private by design.</string>
     <string name="activity_restore_title">Restore your account</string>
-    <string name="activity_restore_seed_edit_text_hint">Enter your recovery phrase</string>
-    <string name="activity_display_name_title_2">Pick your display name</string>
+    <string name="displayNamePick">Pick your display name</string>
     <string name="activity_display_name_explanation">This will be your name when you use Session. It can be your real name, an alias, or anything else you like.</string>
-    <string name="activity_display_name_edit_text_hint">Enter a display name</string>
-    <string name="activity_display_name_display_name_missing_error">Please pick a display name</string>
-    <string name="activity_display_name_display_name_too_long_error">Please pick a shorter display name</string>
+    <string name="displayNameEnter">Enter a display name</string>
+    <string name="displayNameErrorDescription">Please pick a display name</string>
+    <string name="displayNameErrorDescriptionShorter">Please pick a shorter display name</string>
     <string name="recommended">Recommended</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Please Pick an Option</string>
     <string name="activity_home_empty_state_message">You don\'t have any contacts yet</string>
@@ -750,9 +748,6 @@
     <string name="activity_settings_set_display_picture">Set display picture</string>
     <string name="activity_settings_upload">Upload</string>
     <string name="activity_settings_remove">Remove</string>
-    <string name="activity_settings_display_name_edit_text_hint">Enter a display name</string>
-    <string name="activity_settings_display_name_missing_error">Please pick a display name</string>
-    <string name="activity_settings_display_name_too_long_error">Please pick a shorter display name</string>
     <string name="activity_settings_devices_button_title">Devices</string>
     <string name="sessionInviteAFriend">Invite a Friend</string>
     <string name="helpFAQ">FAQ</string>
@@ -854,8 +849,7 @@
     <string name="media">Media</string>
     <string name="UntrustedAttachmentView_download_attachment">Tap to download %s</string>
     <string name="_error">Error</string>
-    <string name="dialog_send_seed_title">Warning</string>
-    <string name="dialog_send_seed_explanation">This is your recovery phrase. If you send it to someone they\'ll have full access to your account.</string>
+    <string name="warning">Warning</string>
     <string name="dialog_send_seed_send_button_title">Send</string>
     <string name="notify_type_all">All</string>
     <string name="notify_type_mentions">Mentions</string>
@@ -1013,5 +1007,8 @@
     <string name="selectAll">Select All</string>
     <string name="draft">Draft</string>
     <string name="recoveryPasswordExplanation">To load your account, enter the recovery password that was given to you when you signed up.</string>
+    <string name="notificationsContentShowNameAndContent">Name and Content</string>
+    <string name="recoveryPasswordEnter">Enter your recovery password</string>
+    <string name="recoveryPasswordWarningSendDescription">This is your recovery password. If you send it to someone they\'ll have full access to your account.</string>
 
 </resources>

@@ -379,7 +379,6 @@
     <string name="arrays__settings_default">Pagal nustatymų numatymą</string>
     <string name="arrays__enabled">Įjungta</string>
     <string name="arrays__disabled">Išjungta</string>
-    <string name="arrays__name_and_message">Vardą ir žinutę</string>
     <string name="notificationsContentShowNameOnly">Tik vardą</string>
     <string name="arrays__images">Paveikslai</string>
     <string name="arrays__audio">Garso įrašai</string>
@@ -523,12 +522,11 @@
     <string name="activity_register_title">Pasisveikinkite su savo Session ID</string>
     <string name="activity_register_explanation">Jūsų Session ID yra unikalus adresas, kurį žmonės gali naudoti, kad susisiektų su jumis per Session programėlę. Neturėdamas jokių sąsajų su jūsų tikrąja tapatybe, jūsų Session ID yra tyčia visiškai anoniminis ir privatus.</string>
     <string name="activity_restore_title">Atkurkite savo paskyrą</string>
-    <string name="activity_restore_seed_edit_text_hint">Įveskite savo atkūrimo frazę</string>
-    <string name="activity_display_name_title_2">Pasirinkite savo rodomą vardą</string>
+    <string name="displayNamePick">Pasirinkite savo rodomą vardą</string>
     <string name="activity_display_name_explanation">Tai bus jūsų vardas, kai naudositės Session. Tai gali būti jūsų tikras vardas, slapyvardis ar bet kas kita.</string>
-    <string name="activity_display_name_edit_text_hint">Įveskite pasirinktą rodomą vardą</string>
-    <string name="activity_display_name_display_name_missing_error">Pasirinkite rodomą vardą</string>
-    <string name="activity_display_name_display_name_too_long_error">Pasirinkite trumpesnį rodomą vardą</string>
+    <string name="displayNameEnter">Įveskite pasirinktą rodomą vardą</string>
+    <string name="displayNameErrorDescription">Pasirinkite rodomą vardą</string>
+    <string name="displayNameErrorDescriptionShorter">Pasirinkite trumpesnį rodomą vardą</string>
     <string name="recommended">Rekomenduojama</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pasirinkite parinktį</string>
     <string name="activity_home_empty_state_message">Kol kas neturite jokių adresatų</string>
@@ -565,9 +563,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Nuskenuokite atviros grupės, prie kurios norėtumėte prisijungti, QR kodą</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Įveskite atviros grupės URL</string>
     <string name="sessionSettings">Nustatymai</string>
-    <string name="activity_settings_display_name_edit_text_hint">Įveskite pasirinktą rodomą vardą</string>
-    <string name="activity_settings_display_name_missing_error">Pasirinkite rodomą vardą</string>
-    <string name="activity_settings_display_name_too_long_error">Pasirinkite trumpesnį rodomą vardą</string>
     <string name="activity_settings_devices_button_title">Įrenginiai</string>
     <string name="sessionClearData">Išvalyti duomenis</string>
     <string name="notificationsStyle">Pranešimų stilius</string>
@@ -632,7 +627,7 @@
     <string name="download">Atsisiųsti</string>
     <string name="activity_conversation_attachment_prep_failed">Nepavyko paruošti priedo išsiuntimui.</string>
     <string name="_error">Klaida</string>
-    <string name="dialog_send_seed_title">Įspėjimas</string>
+    <string name="warning">Įspėjimas</string>
     <string name="dialog_send_seed_send_button_title">Siųsti</string>
     <string name="deleted_message">Ši žinutė ištrinta</string>
     <string name="delete_message_for_me">Ištrinti tik man</string>

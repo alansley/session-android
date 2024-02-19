@@ -349,7 +349,6 @@
     <string name="arrays__settings_default">设为默认</string>
     <string name="arrays__enabled">启用</string>
     <string name="arrays__disabled">禁用</string>
-    <string name="arrays__name_and_message">名称和消息</string>
     <string name="notificationsContentShowNameOnly">仅名称</string>
     <string name="arrays__images">图片</string>
     <string name="arrays__audio">音频</string>
@@ -492,12 +491,11 @@
     <string name="activity_register_title">向您的Session ID打个招呼吧</string>
     <string name="activity_register_explanation">您的Session ID是其他用户在与您聊天时使用的独一无二的地址。Session ID与您的真实身份无关，它在设计上完全是匿名且私密的</string>
     <string name="activity_restore_title">恢复您的帐号</string>
-    <string name="activity_restore_seed_edit_text_hint">输入您的恢复口令</string>
-    <string name="activity_display_name_title_2">选择您想显示的名称</string>
+    <string name="displayNamePick">选择您想显示的名称</string>
     <string name="activity_display_name_explanation">这就是您在使用Session时的名字。它可以是您的真实姓名，别名或您喜欢的其他任何名称</string>
-    <string name="activity_display_name_edit_text_hint">输入您想显示的名称</string>
-    <string name="activity_display_name_display_name_missing_error">请设定一个名称</string>
-    <string name="activity_display_name_display_name_too_long_error">请设定一个较短的名称</string>
+    <string name="displayNameEnter">输入您想显示的名称</string>
+    <string name="displayNameErrorDescription">请设定一个名称</string>
+    <string name="displayNameErrorDescriptionShorter">请设定一个较短的名称</string>
     <string name="recommended">推荐的选项</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">请选择一个选项</string>
     <string name="activity_home_empty_state_message">您还没有任何联系人</string>
@@ -543,9 +541,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">扫描您想加入的公开群组的二维码</string>
     <string name="fragment_enter_chat_url_edit_text_hint">输入公开群组链接</string>
     <string name="sessionSettings">设置</string>
-    <string name="activity_settings_display_name_edit_text_hint">输入您想显示的名称</string>
-    <string name="activity_settings_display_name_missing_error">请设定一个名称</string>
-    <string name="activity_settings_display_name_too_long_error">请设定一个较短的名称</string>
     <string name="activity_settings_devices_button_title">设备</string>
     <string name="sessionInviteAFriend">邀请朋友</string>
     <string name="helpFAQ">常见问题</string>
@@ -632,8 +627,7 @@
     <string name="media">媒体文件</string>
     <string name="UntrustedAttachmentView_download_attachment">点击下载 %s</string>
     <string name="_error">错误</string>
-    <string name="dialog_send_seed_title">警告</string>
-    <string name="dialog_send_seed_explanation">这是您的恢复口令。如果您将其发送给某人，他们将完全有权访问您的帐户</string>
+    <string name="warning">警告</string>
     <string name="dialog_send_seed_send_button_title">发送</string>
     <string name="notify_type_all">所有的</string>
     <string name="notify_type_mentions">提到我的</string>

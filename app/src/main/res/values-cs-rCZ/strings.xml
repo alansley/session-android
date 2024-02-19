@@ -381,7 +381,6 @@
     <string name="arrays__settings_default">Výchozí nastavení</string>
     <string name="arrays__enabled">Povoleno</string>
     <string name="arrays__disabled">Zakázáno</string>
-    <string name="arrays__name_and_message">Jméno a zpráva</string>
     <string name="notificationsContentShowNameOnly">Pouze jméno</string>
     <string name="arrays__images">Obrázky</string>
     <string name="arrays__audio">Zvuk</string>
@@ -527,12 +526,11 @@
     <string name="activity_register_title">Přivítejte své nové Session ID</string>
     <string name="activity_register_explanation">Vaše Session ID je jedinečná adresa, kterou mohou lidé použít k vašemu kontaktování na Session. Bez jakékoli návaznosti na vaší skutečnou identitu je vaše Session ID stavbou zcela anonymní a soukromí chránící.</string>
     <string name="activity_restore_title">Obnovit účet</string>
-    <string name="activity_restore_seed_edit_text_hint">Zadejte frázi pro obnovení</string>
-    <string name="activity_display_name_title_2">Vaše jméno</string>
+    <string name="displayNamePick">Vaše jméno</string>
     <string name="activity_display_name_explanation">Toto bude váš pseudonym během používání Session. Může to být vaše skutečné jméno, alias, nebo cokoliv jiného, co se vám líbí.</string>
-    <string name="activity_display_name_edit_text_hint">Zadejte pseudonym</string>
-    <string name="activity_display_name_display_name_missing_error">Vyberte prosím pseudonym</string>
-    <string name="activity_display_name_display_name_too_long_error">Vyberte prosím kratší pseudonym</string>
+    <string name="displayNameEnter">Zadejte pseudonym</string>
+    <string name="displayNameErrorDescription">Vyberte prosím pseudonym</string>
+    <string name="displayNameErrorDescriptionShorter">Vyberte prosím kratší pseudonym</string>
     <string name="recommended">Doporučeno</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Prosím vyberte možnost</string>
     <string name="activity_home_empty_state_message">Zatím nemáte žádné kontakty</string>
@@ -578,9 +576,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Naskenujte QR kód otevřené skupiny, ke které se chcete připojit</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Zadejte URL adresu otevřené skupiny</string>
     <string name="sessionSettings">Nastavení</string>
-    <string name="activity_settings_display_name_edit_text_hint">Zadejte zobrazované jméno</string>
-    <string name="activity_settings_display_name_missing_error">Vyberte prosím zobrazované jméno</string>
-    <string name="activity_settings_display_name_too_long_error">Vyberte prosím kratší zobrazované jméno</string>
     <string name="activity_settings_devices_button_title">Zařízení</string>
     <string name="sessionInviteAFriend">Pozvat přítele</string>
     <string name="helpFAQ">Často kladené dotazy</string>
@@ -667,8 +662,7 @@
     <string name="media">Média</string>
     <string name="UntrustedAttachmentView_download_attachment">Klepněte pro stažení %s</string>
     <string name="_error">Chyba</string>
-    <string name="dialog_send_seed_title">Varování</string>
-    <string name="dialog_send_seed_explanation">Toto je vaše obnovovací fráze. Pokud ji někomu pošlete, bude mít plný přístup k vašemu účtu.</string>
+    <string name="warning">Varování</string>
     <string name="dialog_send_seed_send_button_title">Odeslat</string>
     <string name="notify_type_all">Vše</string>
     <string name="notify_type_mentions">Zmínky</string>

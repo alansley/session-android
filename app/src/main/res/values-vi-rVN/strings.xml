@@ -222,7 +222,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="arrays__settings_default">Thiết đặt mặc định</string>
     <string name="arrays__enabled">Mở</string>
     <string name="arrays__disabled">Tắt</string>
-    <string name="arrays__name_and_message">Tên và tin nhắn</string>
     <string name="notificationsContentShowNameOnly">Tên thôi</string>
     <string name="arrays__images">Hình ảnh</string>
     <string name="arrays__audio">Nhạc</string>
@@ -328,12 +327,11 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_register_title">Bắt đầu với Session ID của bạn</string>
     <string name="activity_register_explanation">Session ID của bạn là địa chỉ duy nhất mà mọi người có thể dùng để liên lạc với bạn trên ứng dụng Session. Session ID của bạn được thiết kế đảm bảo tuyệt đối ẩn danh và riêng tư vì nó không liên kết với danh tính thật của bạn.</string>
     <string name="activity_restore_title">Khôi phục lại tài khoản của bạn</string>
-    <string name="activity_restore_seed_edit_text_hint">Nhập cụm từ khôi phục của bạn.</string>
-    <string name="activity_display_name_title_2">Chọn tên hiển thị của bạn</string>
+    <string name="displayNamePick">Chọn tên hiển thị của bạn</string>
     <string name="activity_display_name_explanation">Đây là tên của bạn khi sử dụng Session. Nó có thể là tên thật, tên gọi khác của bạn hoặc bất kì tên nào bạn thích.</string>
-    <string name="activity_display_name_edit_text_hint">Nhập một tên hiển thị</string>
-    <string name="activity_display_name_display_name_missing_error">Vui lòng chọn một tên hiển thị</string>
-    <string name="activity_display_name_display_name_too_long_error">Vui lòng chọn tên hiển thị ngắn hơn</string>
+    <string name="displayNameEnter">Nhập một tên hiển thị</string>
+    <string name="displayNameErrorDescription">Vui lòng chọn một tên hiển thị</string>
+    <string name="displayNameErrorDescriptionShorter">Vui lòng chọn tên hiển thị ngắn hơn</string>
     <string name="recommended">Khuyến nghị</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Vui lòng lựa chọn </string>
     <string name="activity_home_empty_state_message">Bạn chưa có danh bạ </string>
@@ -374,9 +372,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation"> Quét mã QR của nhóm mở mà bạn muốn tham gia</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Nhập URL của nhóm mở</string>
     <string name="sessionSettings">Cài đặt</string>
-    <string name="activity_settings_display_name_edit_text_hint">Nhập tên hiển thị</string>
-    <string name="activity_settings_display_name_missing_error">Vui lòng chọn một tên hiển thị </string>
-    <string name="activity_settings_display_name_too_long_error">Vui lòng chọn một tên hiển thị ngắn hơn </string>
     <string name="activity_settings_devices_button_title">Thiết bị</string>
     <string name="sessionClearData">Xóa dữ liệu</string>
     <string name="notificationsStyle">Kiểu thông báo</string>

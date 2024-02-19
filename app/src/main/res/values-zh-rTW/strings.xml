@@ -355,7 +355,6 @@
     <string name="arrays__settings_default">預設設定</string>
     <string name="arrays__enabled">啟用</string>
     <string name="arrays__disabled">停用</string>
-    <string name="arrays__name_and_message">名字與訊息</string>
     <string name="notificationsContentShowNameOnly">僅名字</string>
     <string name="arrays__images">圖片</string>
     <string name="arrays__audio">音訊</string>
@@ -498,12 +497,11 @@
     <string name="activity_register_title">與您的 Session ID 打個招呼</string>
     <string name="activity_register_explanation">您的 Session ID 是人們可以用來在 Session 上聯繫您的唯一地址。 並且與您的真實身份毫無關聯，因此您的 Session ID 在設計上是完全匿名和私密的。</string>
     <string name="activity_restore_title">恢復您的帳號</string>
-    <string name="activity_restore_seed_edit_text_hint">請輸入您的回復用字句</string>
-    <string name="activity_display_name_title_2">請輸入您的名稱</string>
+    <string name="displayNamePick">請輸入您的名稱</string>
     <string name="activity_display_name_explanation">當您使用 Session 時，這將是您的名字。 它可以是您的真實姓名、別名或您喜歡的任何名稱。</string>
-    <string name="activity_display_name_edit_text_hint">輸入您的名稱</string>
-    <string name="activity_display_name_display_name_missing_error">請選擇一個名稱</string>
-    <string name="activity_display_name_display_name_too_long_error">請選擇一個較短的名稱</string>
+    <string name="displayNameEnter">輸入您的名稱</string>
+    <string name="displayNameErrorDescription">請選擇一個名稱</string>
+    <string name="displayNameErrorDescriptionShorter">請選擇一個較短的名稱</string>
     <string name="recommended">建議</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">請選擇其中一個選項</string>
     <string name="activity_home_empty_state_message">您尚未添加聯絡人</string>
@@ -549,9 +547,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">掃描開放式群組的 QR Code 來加入</string>
     <string name="fragment_enter_chat_url_edit_text_hint">請輸入開放式群組的網址</string>
     <string name="sessionSettings">設定</string>
-    <string name="activity_settings_display_name_edit_text_hint">輸入您的名稱</string>
-    <string name="activity_settings_display_name_missing_error">請選擇一個名稱</string>
-    <string name="activity_settings_display_name_too_long_error">請使用一個較短的名稱</string>
     <string name="activity_settings_devices_button_title">裝置</string>
     <string name="sessionInviteAFriend">邀請好友</string>
     <string name="helpFAQ">常見問題</string>
@@ -638,8 +633,7 @@
     <string name="media">媒體</string>
     <string name="UntrustedAttachmentView_download_attachment">輕觸即可下載 %s</string>
     <string name="_error">錯誤</string>
-    <string name="dialog_send_seed_title">警告</string>
-    <string name="dialog_send_seed_explanation">這是你的復原密碼。獲得這段復原密碼的任何人都可以全權存取你的帳戶。</string>
+    <string name="warning">警告</string>
     <string name="dialog_send_seed_send_button_title">傳送</string>
     <string name="notify_type_all">所有</string>
     <string name="notify_type_mentions">提及</string>

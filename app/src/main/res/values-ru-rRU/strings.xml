@@ -383,7 +383,6 @@
     <string name="arrays__settings_default">Настройки по умолчанию</string>
     <string name="arrays__enabled">Включено</string>
     <string name="arrays__disabled">Отключено</string>
-    <string name="arrays__name_and_message">Имя и сообщение</string>
     <string name="notificationsContentShowNameOnly">Только имя</string>
     <string name="arrays__images">Изображения</string>
     <string name="arrays__audio">Аудио</string>
@@ -529,12 +528,11 @@
     <string name="activity_register_title">Познакомьтесь со своим Session ID</string>
     <string name="activity_register_explanation">Ваш Session ID - это уникальный адрес, который другие пользователи могут использовать для связи с вами при помощи Session. Поскольку ваш Session ID никак не связан с вашей настоящей личностью, он по определению является полностью анонимным и конфиденциальным.</string>
     <string name="activity_restore_title">Восстановите свой аккаунт</string>
-    <string name="activity_restore_seed_edit_text_hint">Введите секретную фразу</string>
-    <string name="activity_display_name_title_2">Выберите ваше отображаемое имя</string>
+    <string name="displayNamePick">Выберите ваше отображаемое имя</string>
     <string name="activity_display_name_explanation">Это имя будет отображаться, когда вы используете Session. Это может быть ваше настоящее имя, псевдоним или что угодно по вашему выбору.</string>
-    <string name="activity_display_name_edit_text_hint">Введите отображаемое имя</string>
-    <string name="activity_display_name_display_name_missing_error">Пожалуйста, выберите отображаемое имя</string>
-    <string name="activity_display_name_display_name_too_long_error">Пожалуйста, выберите более короткое отображаемое имя</string>
+    <string name="displayNameEnter">Введите отображаемое имя</string>
+    <string name="displayNameErrorDescription">Пожалуйста, выберите отображаемое имя</string>
+    <string name="displayNameErrorDescriptionShorter">Пожалуйста, выберите более короткое отображаемое имя</string>
     <string name="recommended">Рекомендуется</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Пожалуйста, выберите метод</string>
     <string name="activity_home_empty_state_message">У вас еще нет контактов</string>
@@ -580,9 +578,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Отсканируйте QR-код открытой группы, в которую вы хотите вступить</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Введите URL открытой группы</string>
     <string name="sessionSettings">Настройки</string>
-    <string name="activity_settings_display_name_edit_text_hint">Введите отображаемое имя</string>
-    <string name="activity_settings_display_name_missing_error">Пожалуйста, выберите отображаемое имя</string>
-    <string name="activity_settings_display_name_too_long_error">Пожалуйста, выберите более короткое отображаемое имя</string>
     <string name="activity_settings_devices_button_title">Устройства</string>
     <string name="sessionInviteAFriend">Пригласить друга</string>
     <string name="helpFAQ">Часто задаваемые вопросы</string>
@@ -669,8 +664,7 @@
     <string name="media">Медиа</string>
     <string name="UntrustedAttachmentView_download_attachment">Нажмите, чтобы скачать %s</string>
     <string name="_error">Ошибка</string>
-    <string name="dialog_send_seed_title">Предупреждение</string>
-    <string name="dialog_send_seed_explanation">Это ваша фраза для восстановления. Если вы отправите ее кому-то, он получит полный доступ к вашей учетной записи.</string>
+    <string name="warning">Предупреждение</string>
     <string name="dialog_send_seed_send_button_title">Отправить</string>
     <string name="notify_type_all">Все</string>
     <string name="notify_type_mentions">Упоминания</string>

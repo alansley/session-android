@@ -360,7 +360,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__settings_default">Standardoppsett</string>
     <string name="arrays__enabled">Slått på</string>
     <string name="arrays__disabled">Slått av</string>
-    <string name="arrays__name_and_message">Navn og melding</string>
     <string name="notificationsContentShowNameOnly">Bare navn</string>
     <string name="arrays__images">Bilder</string>
     <string name="arrays__audio">Lyd</string>
@@ -504,12 +503,11 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_register_title">Si hei til din Session-ID</string>
     <string name="activity_register_explanation">Din Session-ID er den unike adressen folk kan bruke for å kontakte deg på Session. Uten en forbindelse til din virkelige identitet er din Session-ID laget for å være fullstendig anonym og privat.</string>
     <string name="activity_restore_title">Gjenopprett kontoen din</string>
-    <string name="activity_restore_seed_edit_text_hint">Skriv inn din gjenopprettelsesfrase</string>
-    <string name="activity_display_name_title_2">Velg ditt visningsnavn</string>
+    <string name="displayNamePick">Velg ditt visningsnavn</string>
     <string name="activity_display_name_explanation">Dette vil være navnet ditt når du bruker Session. Det kan være ditt virkelige navn, en alias, eller alt annet du vil.</string>
-    <string name="activity_display_name_edit_text_hint">Skriv inn et visningsnavn</string>
-    <string name="activity_display_name_display_name_missing_error">Vennligst velg et visningsnavn</string>
-    <string name="activity_display_name_display_name_too_long_error">Vennligst velg et kortere visningsnavn</string>
+    <string name="displayNameEnter">Skriv inn et visningsnavn</string>
+    <string name="displayNameErrorDescription">Vennligst velg et visningsnavn</string>
+    <string name="displayNameErrorDescriptionShorter">Vennligst velg et kortere visningsnavn</string>
     <string name="recommended">Anbefalt</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Vennligst velg et alternativ</string>
     <string name="activity_home_empty_state_message">Du har ingen kontakter ennå</string>
@@ -555,9 +553,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skann QR-koden til den åpne gruppen du ønsker å bli med</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Skriv inn en åpen gruppe-URL</string>
     <string name="sessionSettings">Innstillinger</string>
-    <string name="activity_settings_display_name_edit_text_hint">Skriv inn et visningsnavn</string>
-    <string name="activity_settings_display_name_missing_error">Vennligst velg et visningsnavn</string>
-    <string name="activity_settings_display_name_too_long_error">Vennligst velg et kortere visningsnavn</string>
     <string name="activity_settings_devices_button_title">Enheter</string>
     <string name="sessionInviteAFriend">Inviter en venn</string>
     <string name="helpFAQ">Ofte Stilte Spørsmål</string>
@@ -644,8 +639,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="media">Medier</string>
     <string name="UntrustedAttachmentView_download_attachment">Trykk for å laste ned %s</string>
     <string name="_error">Feil</string>
-    <string name="dialog_send_seed_title">Advarsel</string>
-    <string name="dialog_send_seed_explanation">Dette er din gjenopprettingsfrase. Hvis du sender den til noen vil de ha full tilgang til din konto.</string>
+    <string name="warning">Advarsel</string>
     <string name="dialog_send_seed_send_button_title">Send</string>
     <string name="notify_type_all">Alle</string>
     <string name="notify_type_mentions">Omtalelser</string>

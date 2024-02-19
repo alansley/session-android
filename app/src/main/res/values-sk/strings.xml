@@ -377,7 +377,6 @@ výmeny kľúčov.</string>
     <string name="arrays__settings_default">Predvolené nastavenie</string>
     <string name="arrays__enabled">Povolené</string>
     <string name="arrays__disabled">Zakázané</string>
-    <string name="arrays__name_and_message">Meno a správu</string>
     <string name="notificationsContentShowNameOnly">Iba meno</string>
     <string name="arrays__images">Obrázky</string>
     <string name="arrays__audio">Zvuk</string>
@@ -520,12 +519,11 @@ výmeny kľúčov.</string>
     <string name="activity_register_title">Povedzte ahoj svojmu Session ID</string>
     <string name="activity_register_explanation">Vaše Session ID je jedinečná adresa, ktorú môžu ľudia použiť aby sa s vami skontaktovali v Session. Pretože Session ID nemá žiadne spojenie s vašou skutočnou identitou, je Session ID úplne anonymné a súkromé.</string>
     <string name="activity_restore_title">Obnoviť účet</string>
-    <string name="activity_restore_seed_edit_text_hint">Zadajte vašu obnovovaciu frázu</string>
-    <string name="activity_display_name_title_2">Vyberte svoje zobrazované meno</string>
+    <string name="displayNamePick">Vyberte svoje zobrazované meno</string>
     <string name="activity_display_name_explanation">Toto bude vaše meno pri používaní Session. Môže to byť vaše skutočné meno, prezývka alebo čokoľvek čo chcete.</string>
-    <string name="activity_display_name_edit_text_hint">Zadajte zobrazované meno</string>
-    <string name="activity_display_name_display_name_missing_error">Zvoľte prosím zobrazované meno</string>
-    <string name="activity_display_name_display_name_too_long_error">Zvoľte prosím kratšie zobrazované meno</string>
+    <string name="displayNameEnter">Zadajte zobrazované meno</string>
+    <string name="displayNameErrorDescription">Zvoľte prosím zobrazované meno</string>
+    <string name="displayNameErrorDescriptionShorter">Zvoľte prosím kratšie zobrazované meno</string>
     <string name="recommended">Odporúčané</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Prosím, zvoľte možnosť</string>
     <string name="activity_home_empty_state_message">Zatiaľ nemáte žiadne kontakty</string>
@@ -564,9 +562,6 @@ výmeny kľúčov.</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Oskenujte QR kód skupiny ku ktorej sa chcete pripojiť</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Zadajte URL otvorenej skupiny</string>
     <string name="sessionSettings">Nastavenia</string>
-    <string name="activity_settings_display_name_edit_text_hint">Zadajte zobrazované meno</string>
-    <string name="activity_settings_display_name_missing_error">Zvoľte prosím zobrazované meno</string>
-    <string name="activity_settings_display_name_too_long_error">Zvoľte prosím kratšie zobrazované meno</string>
     <string name="activity_settings_devices_button_title">Zariadenia</string>
     <string name="sessionClearData">Odstrániť dáta</string>
     <string name="notificationsStyle">Štýl upozornenia</string>

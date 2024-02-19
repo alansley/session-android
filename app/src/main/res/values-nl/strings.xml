@@ -361,7 +361,6 @@
     <string name="arrays__settings_default">Gebruik systeem-standaard</string>
     <string name="arrays__enabled">Ingeschakeld</string>
     <string name="arrays__disabled">Uitgeschakeld</string>
-    <string name="arrays__name_and_message">Naam en bericht</string>
     <string name="notificationsContentShowNameOnly">Alleen naam</string>
     <string name="arrays__images">Afbeeldingen</string>
     <string name="arrays__audio">Geluid</string>
@@ -505,12 +504,11 @@
     <string name="activity_register_title">Zeg hallo tegen uw Sessie-ID</string>
     <string name="activity_register_explanation">Uw Sessie-ID is het unieke adres dat mensen kunnen gebruiken om contact met u op te nemen via Sessie. Zonder verbinding met je echte identiteit, is je Sessie-ID volledig anoniem en privé.</string>
     <string name="activity_restore_title">Uw account herstellen</string>
-    <string name="activity_restore_seed_edit_text_hint">Voer uw herstel zin in</string>
-    <string name="activity_display_name_title_2">Kies je weergavenaam</string>
+    <string name="displayNamePick">Kies je weergavenaam</string>
     <string name="activity_display_name_explanation">Dit is je naam wanneer je Sessie gebruikt. Het kan je echte naam zijn, een alias, of wat je maar wilt.</string>
-    <string name="activity_display_name_edit_text_hint">Voer een weergavenaam in</string>
-    <string name="activity_display_name_display_name_missing_error">Kies a.u.b. een weergavenaam</string>
-    <string name="activity_display_name_display_name_too_long_error">Kies a.u.b. een kortere weergavenaam</string>
+    <string name="displayNameEnter">Voer een weergavenaam in</string>
+    <string name="displayNameErrorDescription">Kies a.u.b. een weergavenaam</string>
+    <string name="displayNameErrorDescriptionShorter">Kies a.u.b. een kortere weergavenaam</string>
     <string name="recommended">Aanbevolen</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Gelieve een optie te selecteren</string>
     <string name="activity_home_empty_state_message">U heeft nog geen contactpersonen</string>
@@ -556,9 +554,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scan de QR-code van de open groep waar u zich bij wilt aansluiten</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Voer een open groep URL in</string>
     <string name="sessionSettings">Instellingen</string>
-    <string name="activity_settings_display_name_edit_text_hint">Voer een weergavenaam in</string>
-    <string name="activity_settings_display_name_missing_error">Kies a.u.b. een weergavenaam</string>
-    <string name="activity_settings_display_name_too_long_error">Kies a.u.b. een kortere weergavenaam</string>
     <string name="activity_settings_devices_button_title">Apparaten</string>
     <string name="sessionInviteAFriend">Nodig een vriend uit</string>
     <string name="helpFAQ">Veelgestelde vragen (FAQ)</string>
@@ -645,8 +640,7 @@
     <string name="media">Media</string>
     <string name="UntrustedAttachmentView_download_attachment">Tik om te downloaden%s</string>
     <string name="_error">Error</string>
-    <string name="dialog_send_seed_title">Waarschuwing</string>
-    <string name="dialog_send_seed_explanation">Dit is je herstelzin. Als je het naar iemand stuurt hebben ze volledige toegang tot je account.</string>
+    <string name="warning">Waarschuwing</string>
     <string name="dialog_send_seed_send_button_title">Versturen</string>
     <string name="notify_type_all">Alle</string>
     <string name="notify_type_mentions">Vermeldingen</string>

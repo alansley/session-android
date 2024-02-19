@@ -368,7 +368,6 @@
     <string name="arrays__settings_default">Վերջին կարգավորումներ</string>
     <string name="arrays__enabled">Միացված</string>
     <string name="arrays__disabled">Անջատված</string>
-    <string name="arrays__name_and_message">Անունը և նամակը</string>
     <string name="notificationsContentShowNameOnly">Միայն անունը</string>
     <string name="arrays__images">Նկարներ</string>
     <string name="arrays__audio">Աուդիո</string>
@@ -512,12 +511,11 @@
     <string name="activity_register_title">Ասեք «բարև» Ձեր Սեանսի ինքնությանը</string>
     <string name="activity_register_explanation">Ձեր Սեանսի ինքնությունը հատուկ հասցե է, որը մարդիկ պիտի օգտագործեն Ձեզ հետ Սեանսով կապ հաստատելու համար։ Ձեր իրական ինքնության հետ կապ չունենալով, Ձեր Սեանսի ինքնությունն լիովին գաղտնի է։</string>
     <string name="activity_restore_title">Վերականգնել ձեր հաշիվը</string>
-    <string name="activity_restore_seed_edit_text_hint">Գրեք գաղտնի արտահայտությունը</string>
-    <string name="activity_display_name_title_2">Ընտրեք ցուցադրվող անուն</string>
+    <string name="displayNamePick">Ընտրեք ցուցադրվող անուն</string>
     <string name="activity_display_name_explanation">Այս անունը կցուցադրվի, երբ Դուք կօգտվեք Սեանսից։ Այն կարող է լինել Ձեր անունը, կեղծանուն, կամ որևիցե այլ բան։</string>
-    <string name="activity_display_name_edit_text_hint">Մուտքագրեք ցուցադրվող անուն</string>
-    <string name="activity_display_name_display_name_missing_error">Խնդրում ենք գրել անուն</string>
-    <string name="activity_display_name_display_name_too_long_error">Խնդրում ենք ընտրել կարճ անուն</string>
+    <string name="displayNameEnter">Մուտքագրեք ցուցադրվող անուն</string>
+    <string name="displayNameErrorDescription">Խնդրում ենք գրել անուն</string>
+    <string name="displayNameErrorDescriptionShorter">Խնդրում ենք ընտրել կարճ անուն</string>
     <string name="recommended">[Խորհուրդ է տրվում]</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Խնդրում ենք ընտրել</string>
     <string name="activity_home_empty_state_message">Դուք չունեք կոնտակտներ</string>
@@ -563,9 +561,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Սքանավորել բաց խմբի QR կոդը</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Գրել բաց խմբի հղումը</string>
     <string name="sessionSettings">Կարգավորումներ</string>
-    <string name="activity_settings_display_name_edit_text_hint">Մուտքագրեք ցուցադրվող անուն</string>
-    <string name="activity_settings_display_name_missing_error">Այս դաշտը չպիտի լինի դատարկ</string>
-    <string name="activity_settings_display_name_too_long_error">Այս ցուցադրվող անունը չափազանց երկար է</string>
     <string name="activity_settings_devices_button_title">Սարքեր</string>
     <string name="sessionInviteAFriend">Հրավիրել ընկերոջը</string>
     <string name="helpFAQ">Հաճախակի տրվող հարցեր</string>
@@ -652,8 +647,7 @@
     <string name="media">Մեդիա</string>
     <string name="UntrustedAttachmentView_download_attachment">Հպեք՝ %s֊ը ներբեռնելու համար</string>
     <string name="_error">Սխալ</string>
-    <string name="dialog_send_seed_title">Զգուշացում</string>
-    <string name="dialog_send_seed_explanation">Սա ձեր վերականգնման բառակապակցությունն է: Եթե այն ուղարկեք ինչ-որ մեկին, նա կունենա ձեր հաշիվը լիարժեք մուտք գործելու հնարավորություն:</string>
+    <string name="warning">Զգուշացում</string>
     <string name="dialog_send_seed_send_button_title">Ուղարկել</string>
     <string name="notify_type_all">Բոլորը</string>
     <string name="notify_type_mentions">Հիշեցումներ</string>

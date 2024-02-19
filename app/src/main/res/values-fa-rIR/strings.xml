@@ -366,7 +366,6 @@
     <string name="arrays__settings_default">تنظیمات پیش فرض</string>
     <string name="arrays__enabled">فعال</string>
     <string name="arrays__disabled">غیر فعال</string>
-    <string name="arrays__name_and_message">نام و محتوا</string>
     <string name="notificationsContentShowNameOnly">فقط نام</string>
     <string name="arrays__images">تصویر</string>
     <string name="arrays__audio">صدا</string>
@@ -529,12 +528,11 @@
     <string name="activity_register_title">به شناسه‌ی Session خود سلام کنید</string>
     <string name="activity_register_explanation">شناسه‌ی Session شما آدرس منحصر به فردی است که افراد می‌توانند از طریق آن با شما در Session تماس بگیرند. شناسه‌ی Session شما، بدون اتصال با هویت واقعی شما، کاملاً ناشناس و خصوصی است.</string>
     <string name="activity_restore_title">حساب کاربری خود را بازیابی کنید</string>
-    <string name="activity_restore_seed_edit_text_hint">عبارت بازیابی خود را وارد کنید</string>
-    <string name="activity_display_name_title_2">نام خود را برای نمایش انتخاب کنید</string>
+    <string name="displayNamePick">نام خود را برای نمایش انتخاب کنید</string>
     <string name="activity_display_name_explanation">این نام شما هنگام استفاده از Session خواهد بود. این نام می‌تواند نام واقعی شما، نام مستعار یا هر چیز دیگری که دوست دارید، باشد.</string>
-    <string name="activity_display_name_edit_text_hint">یک نام وارد کنید</string>
-    <string name="activity_display_name_display_name_missing_error">لطفا یک نام انتخاب کنید</string>
-    <string name="activity_display_name_display_name_too_long_error">لطفا نام کوتاه‌تری انتخاب کنید</string>
+    <string name="displayNameEnter">یک نام وارد کنید</string>
+    <string name="displayNameErrorDescription">لطفا یک نام انتخاب کنید</string>
+    <string name="displayNameErrorDescriptionShorter">لطفا نام کوتاه‌تری انتخاب کنید</string>
     <string name="recommended">گزینه پیشنهادی</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">لطفا یک گزینه را انتخاب کنید</string>
     <string name="activity_home_empty_state_message">فهرست مخاطبان شما خالی است.</string>
@@ -580,9 +578,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">کد QR متعلق به گروه عمومی را که می‌خواهید به آن بپیوندید، اسکن کنید</string>
     <string name="fragment_enter_chat_url_edit_text_hint">آدرس یک گروه باز(عمومی) را وارد کنید</string>
     <string name="sessionSettings">تنظیمات</string>
-    <string name="activity_settings_display_name_edit_text_hint">یک نام وارد کنید</string>
-    <string name="activity_settings_display_name_missing_error">لطفا یک نام انتخاب کنید</string>
-    <string name="activity_settings_display_name_too_long_error">لطفا یک نام نمایشی کوتاه‌تر انتخاب کنید</string>
     <string name="activity_settings_devices_button_title">دستگاه‌ها</string>
     <string name="sessionInviteAFriend">دعوت از یک دوست</string>
     <string name="helpFAQ">سوالات متداول</string>
@@ -684,8 +679,7 @@
     <string name="media">رسانه</string>
     <string name="UntrustedAttachmentView_download_attachment">برای دانلود %s کلیک کنید.</string>
     <string name="_error">خطا</string>
-    <string name="dialog_send_seed_title">هشدار</string>
-    <string name="dialog_send_seed_explanation">این عبارت بازیابی شماست. اگر آن را برای شخصی ارسال کنید ، دسترسی کامل به حساب شما خواهد داشت.</string>
+    <string name="warning">هشدار</string>
     <string name="dialog_send_seed_send_button_title">ارسال</string>
     <string name="notify_type_all">همه</string>
     <string name="notify_type_mentions">مخاطب قرارداده‌شده‌ها</string>

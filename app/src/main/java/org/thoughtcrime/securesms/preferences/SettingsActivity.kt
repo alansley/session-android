@@ -268,11 +268,11 @@ class SettingsActivity : PassphraseRequiredActionBarActivity() {
     private fun saveDisplayName(): Boolean {
         val displayName = binding.displayNameEditText.text.toString().trim()
         if (displayName.isEmpty()) {
-            Toast.makeText(this, R.string.activity_settings_display_name_missing_error, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.displayNameErrorDescription, Toast.LENGTH_SHORT).show()
             return false
         }
         if (displayName.toByteArray().size > ProfileManagerProtocol.Companion.NAME_PADDED_LENGTH) {
-            Toast.makeText(this, R.string.activity_settings_display_name_too_long_error, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.displayNameErrorDescriptionShorter, Toast.LENGTH_SHORT).show()
             return false
         }
         updateProfile(false, displayName = displayName)
@@ -396,7 +396,7 @@ class SettingsActivity : PassphraseRequiredActionBarActivity() {
     private inner class DisplayNameEditActionModeCallback: ActionMode.Callback {
 
         override fun onCreateActionMode(mode: ActionMode, menu: Menu): Boolean {
-            mode.title = getString(R.string.activity_settings_display_name_edit_text_hint)
+            mode.title = getString(R.string.displayNameEnter)
             mode.menuInflater.inflate(R.menu.menu_apply, menu)
             this@SettingsActivity.displayNameEditActionMode = mode
             return true

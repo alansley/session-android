@@ -277,7 +277,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="arrays__settings_default">Pengaturan bawaan</string>
     <string name="arrays__enabled">Aktif</string>
     <string name="arrays__disabled">Nonaktif</string>
-    <string name="arrays__name_and_message">Nama dan pesan</string>
     <string name="notificationsContentShowNameOnly">Nama saja</string>
     <string name="arrays__images">Gambar</string>
     <string name="arrays__small">Kecil</string>
@@ -408,12 +407,11 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_register_title">Ucapkan halo pada Session ID anda</string>
     <string name="activity_register_explanation">Session ID adalah alamat unik yang bisa digunakan untuk mengontak anda. Tanpa koneksi dengan identitas asli, Session ID anda didesain bersifat anonim dan rahasia.</string>
     <string name="activity_restore_title">Kembalikan akun</string>
-    <string name="activity_restore_seed_edit_text_hint">masukan kata pemulihan</string>
-    <string name="activity_display_name_title_2">Pilih nama yang ditampilkan</string>
+    <string name="displayNamePick">Pilih nama yang ditampilkan</string>
     <string name="activity_display_name_explanation">Ini akan menjadi nama anda ketika menggunakan Session. Bisa merupakan nama asli, alias, atau apapun yang anda suka</string>
-    <string name="activity_display_name_edit_text_hint">Masukkan nama</string>
-    <string name="activity_display_name_display_name_missing_error">Pilih nama yang ditampilkan</string>
-    <string name="activity_display_name_display_name_too_long_error">Nama yang dibuat terlalu panjang</string>
+    <string name="displayNameEnter">Masukkan nama</string>
+    <string name="displayNameErrorDescription">Pilih nama yang ditampilkan</string>
+    <string name="displayNameErrorDescriptionShorter">Nama yang dibuat terlalu panjang</string>
     <string name="recommended">Direkomendasikan</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pilih salah satu opsi</string>
     <string name="activity_home_empty_state_message">Anda belum memiliki kontak</string>
@@ -453,9 +451,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Pindai kode QR grup terbuka yang ingin anda masuki</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Masukkan sebuah URL grup terbuka</string>
     <string name="sessionSettings">Pengaturan</string>
-    <string name="activity_settings_display_name_edit_text_hint">Masukkan nama</string>
-    <string name="activity_settings_display_name_missing_error">Pilih sebuah nama</string>
-    <string name="activity_settings_display_name_too_long_error">Nama yang dibuat terlalu panjang</string>
     <string name="activity_settings_devices_button_title">Perangkat</string>
     <string name="sessionClearData">Hapus data</string>
     <string name="notificationsStyle">Gaya notifikasi</string>

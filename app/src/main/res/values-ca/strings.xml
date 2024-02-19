@@ -356,7 +356,6 @@ d\'intercanvi de claus!</string>
     <string name="arrays__settings_default">Configuració predeterminada</string>
     <string name="arrays__enabled">Habilitat</string>
     <string name="arrays__disabled">Inhabilitat</string>
-    <string name="arrays__name_and_message">Nom i missatge</string>
     <string name="notificationsContentShowNameOnly">Només el nom</string>
     <string name="arrays__images">Imatges</string>
     <string name="arrays__audio">Àudio</string>
@@ -499,12 +498,11 @@ d\'intercanvi de claus!</string>
     <string name="activity_register_title">Digues hola al teu ID de Session</string>
     <string name="activity_register_explanation">El teu ID de Session és l\'adreça única que els usuaris poden utilitzar per a contactar-te a Session. Sense cap connexió amb la teva identitat real, el teu ID de Session ID per disseny és totalment anònim i privat.</string>
     <string name="activity_restore_title">Restableix el teu compte</string>
-    <string name="activity_restore_seed_edit_text_hint">Introdueix la frase de recuperació</string>
-    <string name="activity_display_name_title_2">Tria el nom que es mostrarà</string>
+    <string name="displayNamePick">Tria el nom que es mostrarà</string>
     <string name="activity_display_name_explanation">Aquest serà el teu nom quan facis servir Session. Pot ser el teu nom real, un àlies o qualsevol altra cosa que t\'agradi.</string>
-    <string name="activity_display_name_edit_text_hint">Escriu el nom a mostrar</string>
-    <string name="activity_display_name_display_name_missing_error">Tria un nom a mostrar, si us plau</string>
-    <string name="activity_display_name_display_name_too_long_error">Selecciona un nom de visualització més curt</string>
+    <string name="displayNameEnter">Escriu el nom a mostrar</string>
+    <string name="displayNameErrorDescription">Tria un nom a mostrar, si us plau</string>
+    <string name="displayNameErrorDescriptionShorter">Selecciona un nom de visualització més curt</string>
     <string name="recommended">Recomanat</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Selecciona una opció, si us plau</string>
     <string name="activity_home_empty_state_message">Encara no tens cap contacte</string>
@@ -547,9 +545,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Escaneja el codi QR del grup obert que t\'agradaria unir-t\'hi</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Entra la URL d\'un grup obert</string>
     <string name="sessionSettings">Configuració</string>
-    <string name="activity_settings_display_name_edit_text_hint">Entre un nom a mostrar</string>
-    <string name="activity_settings_display_name_missing_error">Tria un nom a mostrar, si us plau</string>
-    <string name="activity_settings_display_name_too_long_error">Tria un nom a mostra més curt, si us plau</string>
     <string name="activity_settings_devices_button_title">Dispositius</string>
     <string name="sessionClearData">Neteja les dades</string>
     <string name="notificationsStyle">Estil de notificacions</string>

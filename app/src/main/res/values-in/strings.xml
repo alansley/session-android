@@ -297,7 +297,6 @@
     <string name="arrays__mute_for_one_year">Senyapkan selama 1 tahun</string>
     <string name="arrays__enabled">Diaktifkan</string>
     <string name="arrays__disabled">Dinonaktifkan</string>
-    <string name="arrays__name_and_message">Nama dan pesan</string>
     <string name="notificationsContentShowNameOnly">Hanya nama</string>
     <string name="arrays__images">Gambar</string>
     <string name="arrays__audio">Suara</string>
@@ -388,12 +387,11 @@
     <string name="activity_register_title">Ucapkan halo pada Session ID anda</string>
     <string name="activity_register_explanation">Session ID adalah alamat unik yang bisa digunakan untuk mengontak anda. Tanpa koneksi dengan identitas asli, Session ID anda didesain bersifat anonim dan rahasia.</string>
     <string name="activity_restore_title">Memulihkan akun Anda</string>
-    <string name="activity_restore_seed_edit_text_hint">Masukan kata pemulihan</string>
-    <string name="activity_display_name_title_2">Pilih nama yang ditampilkan</string>
+    <string name="displayNamePick">Pilih nama yang ditampilkan</string>
     <string name="activity_display_name_explanation">Ini akan menjadi nama anda ketika menggunakan Session. Bisa merupakan nama asli, alias, atau apapun yang anda suka.</string>
-    <string name="activity_display_name_edit_text_hint">Masukkan nama</string>
-    <string name="activity_display_name_display_name_missing_error">Pilih nama yang ditampilkan</string>
-    <string name="activity_display_name_display_name_too_long_error">Pilih nama yang lebih pendek</string>
+    <string name="displayNameEnter">Masukkan nama</string>
+    <string name="displayNameErrorDescription">Pilih nama yang ditampilkan</string>
+    <string name="displayNameErrorDescriptionShorter">Pilih nama yang lebih pendek</string>
     <string name="recommended">Direkomendasikan</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pilih salah satu opsi</string>
     <string name="activity_home_empty_state_message">Anda belum memiliki kontak</string>
@@ -447,7 +445,7 @@
     <string name="activity_conversation_blocked_banner_text">%s diblokir. Buka blokir?</string>
     <string name="UntrustedAttachmentView_download_attachment">Tekan untuk mengunduh %s</string>
     <string name="_error">Galat</string>
-    <string name="dialog_send_seed_title">Peringatan</string>
+    <string name="warning">Peringatan</string>
     <string name="dialog_send_seed_send_button_title">Kirim</string>
     <string name="notify_type_all">Semua</string>
     <string name="deleted_message">Pesan ini telah dihapus</string>

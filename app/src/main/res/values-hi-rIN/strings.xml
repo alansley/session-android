@@ -360,7 +360,6 @@
     <string name="arrays__settings_default">सेटिंग्स डिफ़ॉल्ट</string>
     <string name="arrays__enabled">सक्षम</string>
     <string name="arrays__disabled">अक्षम</string>
-    <string name="arrays__name_and_message">नाम और संदेश</string>
     <string name="notificationsContentShowNameOnly">केवल नाम</string>
     <string name="arrays__images">तसवीरें </string>
     <string name="arrays__audio">ऑडियो </string>
@@ -504,12 +503,11 @@
     <string name="activity_register_title">अपनी सेशन आईडी को हेल्लो कहें</string>
     <string name="activity_register_explanation">आपकी Session ID एक ऐसा अनोखा पता है जिसका उपयोग करके लोग आपसे Session पर संपर्क कर सकते हैं। आपकी वास्तविक पहचान से कोई संबंध नहीं होने के कारण, आपका Session ID डिज़ाइन द्वारा पूरी तरह से गुमनाम और निजी है |</string>
     <string name="activity_restore_title">अकाउंट रिस्टोर करें</string>
-    <string name="activity_restore_seed_edit_text_hint">अपना पुनर्प्राप्ति वाक्यांश लिखें</string>
-    <string name="activity_display_name_title_2">अपना प्रदर्शन नाम चुनें</string>
+    <string name="displayNamePick">अपना प्रदर्शन नाम चुनें</string>
     <string name="activity_display_name_explanation">यह सेशन इस्तेमाल करते समय आपका नाम होगा। यह आपका असली नाम, उपनाम या कुछ और भी हो सकता है।</string>
-    <string name="activity_display_name_edit_text_hint">डिस्प्ले नाम डालें</string>
-    <string name="activity_display_name_display_name_missing_error">कृपया एक डिस्प्ले नाम चुनें</string>
-    <string name="activity_display_name_display_name_too_long_error">कृपया एक छोटा डिसप्ले नाम चुनें</string>
+    <string name="displayNameEnter">डिस्प्ले नाम डालें</string>
+    <string name="displayNameErrorDescription">कृपया एक डिस्प्ले नाम चुनें</string>
+    <string name="displayNameErrorDescriptionShorter">कृपया एक छोटा डिसप्ले नाम चुनें</string>
     <string name="recommended">सुझाया गया</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">कृपया एक विकल्प चुनें।</string>
     <string name="activity_home_empty_state_message">अभी तक आपके पास कोई कॉन्टैक्ट्स नहीं हैं</string>
@@ -555,9 +553,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">उस ओपन ग्रुप का क्यूआर कोड स्कैन करें जिसमें आप शामिल होना चाहते हैं</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Open ग्रुप URL दर्ज करें</string>
     <string name="sessionSettings">सेटिंग्स</string>
-    <string name="activity_settings_display_name_edit_text_hint">डिस्प्ले नाम डालें</string>
-    <string name="activity_settings_display_name_missing_error">कृपया एक डिस्प्ले नाम चुनें</string>
-    <string name="activity_settings_display_name_too_long_error">कृपया एक छोटा डिसप्ले नाम चुनें</string>
     <string name="activity_settings_devices_button_title">डिवाइसेज़</string>
     <string name="sessionInviteAFriend">किसी मित्र को आमंत्रित करें</string>
     <string name="helpFAQ">अकसर किये गए सवाल</string>
@@ -643,7 +638,7 @@
     <string name="media">मीडिया</string>
     <string name="UntrustedAttachmentView_download_attachment">%s डाउनलोड करने के लिए टैप करें</string>
     <string name="_error">त्रुटि!</string>
-    <string name="dialog_send_seed_title">चेतावनी!</string>
+    <string name="warning">चेतावनी!</string>
     <string name="dialog_send_seed_send_button_title">भेजें</string>
     <string name="notify_type_all">सभी</string>
     <string name="notify_type_mentions">उल्लेख</string>

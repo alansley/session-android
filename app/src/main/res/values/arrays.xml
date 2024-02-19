@@ -170,7 +170,7 @@
   </string-array>
 
     <string-array name="pref_notification_privacy_entries">
-      <item>@string/arrays__name_and_message</item>
+      <item>@string/notificationsContentShowNameAndContent</item>
       <item>@string/notificationsContentShowNameOnly</item>
       <item>@string/notificationsContentShowNoNameOrContent</item>
   </string-array>

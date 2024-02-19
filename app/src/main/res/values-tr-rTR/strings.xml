@@ -360,7 +360,6 @@ iletisi alındı!</string>
     <string name="arrays__settings_default">Varsayılan ayarlar</string>
     <string name="arrays__enabled">Etkin</string>
     <string name="arrays__disabled">Devre dışı</string>
-    <string name="arrays__name_and_message">İsim ve ileti</string>
     <string name="notificationsContentShowNameOnly">Yalnızca isim</string>
     <string name="arrays__images">Görüntüler</string>
     <string name="arrays__audio">Ses</string>
@@ -504,12 +503,11 @@ iletisi alındı!</string>
     <string name="activity_register_title">Yeni Session kimliğinize merhaba deyin.</string>
     <string name="activity_register_explanation">Session Kimliğiniz, kişilerin Session\'da sizinle iletişim kurmak için kullanabileceği benzersiz adrestir. Gerçek kimliğinizle hiçbir bağlantısı olmadan, Session Kimliğiniz tasarım gereği tamamen anonim ve özeldir.</string>
     <string name="activity_restore_title">Hesabınızı geri yükleyin</string>
-    <string name="activity_restore_seed_edit_text_hint">Kurtarma ifadenizi girin</string>
-    <string name="activity_display_name_title_2">Görünen adınızı seçin</string>
+    <string name="displayNamePick">Görünen adınızı seçin</string>
     <string name="activity_display_name_explanation">Bu, Session kullandığınızda adınız olacaktır. Gerçek adınız, takma adınız veya istediğiniz herhangi bir şey olabilir.</string>
-    <string name="activity_display_name_edit_text_hint">Bir görünen ad girin</string>
-    <string name="activity_display_name_display_name_missing_error">Lütfen bir görünen ad seçin</string>
-    <string name="activity_display_name_display_name_too_long_error">Lütfen daha kısa bir görünen ad seçin</string>
+    <string name="displayNameEnter">Bir görünen ad girin</string>
+    <string name="displayNameErrorDescription">Lütfen bir görünen ad seçin</string>
+    <string name="displayNameErrorDescriptionShorter">Lütfen daha kısa bir görünen ad seçin</string>
     <string name="recommended">Önerilenler</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Lütfen Bir Seçenek Seçin</string>
     <string name="activity_home_empty_state_message">Henüz kayıtlı kişi yok</string>
@@ -555,9 +553,6 @@ iletisi alındı!</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Katılmak istediğiniz açık grubun QR kodunu tarayın</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Açık bir grup URL\'si girin</string>
     <string name="sessionSettings">Ayarlar</string>
-    <string name="activity_settings_display_name_edit_text_hint">Bir görünen ad girin</string>
-    <string name="activity_settings_display_name_missing_error">Lütfen bir görünen ad seçin</string>
-    <string name="activity_settings_display_name_too_long_error">Lütfen daha kısa bir görünen ad seçin</string>
     <string name="activity_settings_devices_button_title">Cihazlar</string>
     <string name="sessionInviteAFriend">Bir arkadaş davet et</string>
     <string name="helpFAQ">SSS</string>
@@ -644,8 +639,7 @@ iletisi alındı!</string>
     <string name="media">Medya</string>
     <string name="UntrustedAttachmentView_download_attachment">İndirmek için dokunun %s</string>
     <string name="_error">Hata</string>
-    <string name="dialog_send_seed_title">Uyarı</string>
-    <string name="dialog_send_seed_explanation">Bu sizin kurtarma ifadenizdir. Birine gönderirseniz, hesabınızda tam erişime sahip olurlar.</string>
+    <string name="warning">Uyarı</string>
     <string name="dialog_send_seed_send_button_title">Gönder</string>
     <string name="notify_type_all">Hepsi</string>
     <string name="notify_type_mentions">Etiketler</string>

@@ -367,7 +367,6 @@
     <string name="arrays__settings_default">Valeur par défaut</string>
     <string name="arrays__enabled">Activé</string>
     <string name="arrays__disabled">Désactivé</string>
-    <string name="arrays__name_and_message">Nom et Contenu</string>
     <string name="notificationsContentShowNameOnly">Nom uniquement</string>
     <string name="arrays__images">Images</string>
     <string name="arrays__audio">Son</string>
@@ -532,12 +531,11 @@
     <string name="activity_register_title">Dites bonjour à votre Session ID</string>
     <string name="activity_register_explanation">Votre Session ID est l\'identifiant unique que les gens utilisent pour vous contacter dans Session. Sans lien avec votre identité réelle, votre Session ID est complètement anonyme et privé.</string>
     <string name="activity_restore_title">Restaurez votre compte</string>
-    <string name="activity_restore_seed_edit_text_hint">Saisissez votre phrase de récupération</string>
-    <string name="activity_display_name_title_2">Choisissez votre nom d\'utilisateur</string>
+    <string name="displayNamePick">Choisissez votre nom d\'utilisateur</string>
     <string name="activity_display_name_explanation">Ce sera votre nom lorsque vous utiliserez Session. Il peut s\'agir de votre vrai nom, d\'un pseudo ou de ce que vous voulez.</string>
-    <string name="activity_display_name_edit_text_hint">Saisissez un nom d\'utilisateur</string>
-    <string name="activity_display_name_display_name_missing_error">Veuillez choisir un nom d\'utilisateur</string>
-    <string name="activity_display_name_display_name_too_long_error">Veuillez choisir un nom d\'utilisateur plus court</string>
+    <string name="displayNameEnter">Saisissez un nom d\'utilisateur</string>
+    <string name="displayNameErrorDescription">Veuillez choisir un nom d\'utilisateur</string>
+    <string name="displayNameErrorDescriptionShorter">Veuillez choisir un nom d\'utilisateur plus court</string>
     <string name="recommended">Recommandé</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Veuillez choisir une option</string>
     <string name="activity_home_empty_state_message">Vous n\'avez pas encore de contacts</string>
@@ -583,9 +581,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scannez le code QR du groupe public que vous souhaitez rejoindre</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Saisissez une URL de groupe public</string>
     <string name="sessionSettings">Paramètres</string>
-    <string name="activity_settings_display_name_edit_text_hint">Saisissez un nom d\'utilisateur</string>
-    <string name="activity_settings_display_name_missing_error">Veuillez choisir un nom d\'utilisateur</string>
-    <string name="activity_settings_display_name_too_long_error">Veuillez choisir un nom d\'utilisateur plus court</string>
     <string name="activity_settings_devices_button_title">Appareils reliés</string>
     <string name="sessionInviteAFriend">Inviter un ami</string>
     <string name="helpFAQ">FAQ</string>
@@ -687,8 +682,7 @@
     <string name="media">Médias</string>
     <string name="UntrustedAttachmentView_download_attachment">Touchez pour télécharger %s</string>
     <string name="_error">Erreur</string>
-    <string name="dialog_send_seed_title">Attention</string>
-    <string name="dialog_send_seed_explanation">C\'est votre phrase de récupération. Si vous l\'envoyez à quelqu\'un, il aura un accès complet à votre compte.</string>
+    <string name="warning">Attention</string>
     <string name="dialog_send_seed_send_button_title">Envoyer</string>
     <string name="notify_type_all">Tous</string>
     <string name="notify_type_mentions">Mentions</string>

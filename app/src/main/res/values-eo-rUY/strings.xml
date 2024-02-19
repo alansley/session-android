@@ -360,7 +360,6 @@
     <string name="arrays__settings_default">Laŭ la ĝenerala agordo</string>
     <string name="arrays__enabled">Ŝaltita</string>
     <string name="arrays__disabled">Malŝaltita</string>
-    <string name="arrays__name_and_message">Nomon kaj mesaĝon</string>
     <string name="notificationsContentShowNameOnly">Nur nomon</string>
     <string name="arrays__images">Bildoj</string>
     <string name="arrays__audio">Sonaĵo</string>
@@ -504,12 +503,11 @@
     <string name="activity_register_title">Diru saluton al via Session ID</string>
     <string name="activity_register_explanation">Via Session ID estas la unika adreso kiun homoj povas uzi por kontakti en Session. Sen ligo al via vera identeco, via Session ID estas tute anonima kaj privata per dezajno.</string>
     <string name="activity_restore_title">Restaŭri vian konton</string>
-    <string name="activity_restore_seed_edit_text_hint">Entajpu vian riparan frazon</string>
-    <string name="activity_display_name_title_2">Elektu vian vidigan nomon</string>
+    <string name="displayNamePick">Elektu vian vidigan nomon</string>
     <string name="activity_display_name_explanation">Ĉi tio estos via nomo kiam vi uzas Sesion. Ĝi povas esti via vera nomo, alinomo, aŭ io ajn alia vi volas.</string>
-    <string name="activity_display_name_edit_text_hint">Entajpu vidigan nomon</string>
-    <string name="activity_display_name_display_name_missing_error">Bonvolu elekti vidigan nomon</string>
-    <string name="activity_display_name_display_name_too_long_error">Bonvolu elekti plej mallongan vidigan nomon</string>
+    <string name="displayNameEnter">Entajpu vidigan nomon</string>
+    <string name="displayNameErrorDescription">Bonvolu elekti vidigan nomon</string>
+    <string name="displayNameErrorDescriptionShorter">Bonvolu elekti plej mallongan vidigan nomon</string>
     <string name="recommended">Rekomendate</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Bonvolu Elekti Opcion</string>
     <string name="activity_home_empty_state_message">Vi ankoraŭ ne havas kontaktojn</string>
@@ -553,9 +551,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skanu la QR-kodon de la malferma grupo kiu vi volas aniĝi</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Entajpu URL-on de malferma grupo</string>
     <string name="sessionSettings">Agordo</string>
-    <string name="activity_settings_display_name_edit_text_hint">Entajpu vidigan nomon</string>
-    <string name="activity_settings_display_name_missing_error">Bonvolu elekti vidigan nomon</string>
-    <string name="activity_settings_display_name_too_long_error">Bonvolu elekti plej mallongan vidigan nomon</string>
     <string name="activity_settings_devices_button_title">Aparatoj</string>
     <string name="sessionInviteAFriend">Inviti Amikon</string>
     <string name="helpFAQ">Oftaj Demandoj</string>
@@ -631,8 +626,7 @@
     <string name="media">Aŭdvidaĵo</string>
     <string name="UntrustedAttachmentView_download_attachment">Frapetu por elŝuti %s</string>
     <string name="_error">Eraro</string>
-    <string name="dialog_send_seed_title">Averto</string>
-    <string name="dialog_send_seed_explanation">Ĉi tio estas via ripara frazo. Se vi sendas ĝin al iu, tiam tiu havos tutan aliron al via konto.</string>
+    <string name="warning">Averto</string>
     <string name="dialog_send_seed_send_button_title">Sendi</string>
     <string name="notify_type_all">Tutaj</string>
     <string name="notify_type_mentions">Mencioj</string>

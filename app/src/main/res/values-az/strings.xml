@@ -361,7 +361,6 @@
     <string name="arrays__settings_default">İlkin tənzimləmələr</string>
     <string name="arrays__enabled">Fəaldır</string>
     <string name="arrays__disabled">Sıradan çıxarıldı</string>
-    <string name="arrays__name_and_message">Ad və mesajlar</string>
     <string name="notificationsContentShowNameOnly">Yalnız ad</string>
     <string name="arrays__images">Təsvirlər</string>
     <string name="arrays__audio">Səs</string>
@@ -505,12 +504,11 @@
     <string name="activity_register_title">Session kimliyinizə salam deyin</string>
     <string name="activity_register_explanation">Session kimliyiniz, əlaqələrin Session-da sizinlə əlaqə saxlamaq üçün istifadə edəcəyi unikal bir ünvandır. Gerçək kimliyinizlə heç bir bağlantısı olmadan, Session kimliyiniz, ümumilikdə anonimlik və gizlilik üzərinə dizayn edilmişdir.</string>
     <string name="activity_restore_title">Hesabınızı bərpa edin</string>
-    <string name="activity_restore_seed_edit_text_hint">Bərpa parolunu daxil edin</string>
-    <string name="activity_display_name_title_2">Ekran adınızı seçin</string>
+    <string name="displayNamePick">Ekran adınızı seçin</string>
     <string name="activity_display_name_explanation">Bu, Session istifadə edərkən adınız olacaq. Gerçək adınız, ləqəbiniz və ya istədiyiniz başqa bir ad ola bilər.</string>
-    <string name="activity_display_name_edit_text_hint">Ekran adını daxil edin</string>
-    <string name="activity_display_name_display_name_missing_error">Zəhmət olmasa bir ekran adı seçin</string>
-    <string name="activity_display_name_display_name_too_long_error">Zəhmət olmasa qısa bir ekran adı seçin</string>
+    <string name="displayNameEnter">Ekran adını daxil edin</string>
+    <string name="displayNameErrorDescription">Zəhmət olmasa bir ekran adı seçin</string>
+    <string name="displayNameErrorDescriptionShorter">Zəhmət olmasa qısa bir ekran adı seçin</string>
     <string name="recommended">Tövsiyə edilən</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Zəhmət olmasa bir variant seçin</string>
     <string name="activity_home_empty_state_message">Hələ ki, heç bir əlaqəniz yoxdur</string>
@@ -556,9 +554,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Qoşulmaq istədiyiniz açıq qrupun QR kodunu skan edin</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Açıq qrupun URL-sini daxil edin</string>
     <string name="sessionSettings">Tənzimləmələr</string>
-    <string name="activity_settings_display_name_edit_text_hint">Ekran adı daxil edin</string>
-    <string name="activity_settings_display_name_missing_error">Bir ekran adı seçin</string>
-    <string name="activity_settings_display_name_too_long_error">Qısa bir ekran adı seçin</string>
     <string name="activity_settings_devices_button_title">Cihazlar</string>
     <string name="sessionInviteAFriend">Dostu dəvət edin</string>
     <string name="helpFAQ">TSS</string>
@@ -645,8 +640,7 @@
     <string name="media">Media</string>
     <string name="UntrustedAttachmentView_download_attachment">%s - endirmək üçün toxunun</string>
     <string name="_error">Xəta</string>
-    <string name="dialog_send_seed_title">Xəbərdarlıq</string>
-    <string name="dialog_send_seed_explanation">Bu, bərpa parolunuzdur. Əgər başqasına göndərsəniz, hesabınıza tam müraciət edə bilər.</string>
+    <string name="warning">Xəbərdarlıq</string>
     <string name="dialog_send_seed_send_button_title">Göndər</string>
     <string name="notify_type_all">Hamısı</string>
     <string name="notify_type_mentions">Ad çəkmələr</string>

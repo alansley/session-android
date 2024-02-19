@@ -383,7 +383,6 @@
     <string name="arrays__settings_default">Типові налаштування</string>
     <string name="arrays__enabled">Увімкнено</string>
     <string name="arrays__disabled">Вимкнено</string>
-    <string name="arrays__name_and_message">Ім\'я та повідомлення</string>
     <string name="notificationsContentShowNameOnly">Тільки ім\'я</string>
     <string name="arrays__images">Зображення</string>
     <string name="arrays__audio">Аудіо</string>
@@ -529,12 +528,11 @@
     <string name="activity_register_title">Привітайтесь з вашою Session ID адрессою</string>
     <string name="activity_register_explanation">Ваш Session ID є унікальною адресою, якою люди будуть зв’язуватимися з вами в Session. При відсутньому з\'єднанні з вашою реальною особистістю, Session ID є абсолютно анонімним та приватним, по дизайну.</string>
     <string name="activity_restore_title">Відновити обліковий запис</string>
-    <string name="activity_restore_seed_edit_text_hint">Введіть вашу фразу відновлення</string>
-    <string name="activity_display_name_title_2">Виберіть ваш псевдонім для показу</string>
+    <string name="displayNamePick">Виберіть ваш псевдонім для показу</string>
     <string name="activity_display_name_explanation">Це буде ваше ім\'я яке ви використовуєте в Session. Воно може бути вашим дійсним ім\'ям, альясом або чимусь іншим.</string>
-    <string name="activity_display_name_edit_text_hint">Введіть відображуватинимий псевдонім</string>
-    <string name="activity_display_name_display_name_missing_error">Будь ласка, виберіть відображуватимий псевдонім</string>
-    <string name="activity_display_name_display_name_too_long_error">Будь ласка, виберіть коротший псевдонім</string>
+    <string name="displayNameEnter">Введіть відображуватинимий псевдонім</string>
+    <string name="displayNameErrorDescription">Будь ласка, виберіть відображуватимий псевдонім</string>
+    <string name="displayNameErrorDescriptionShorter">Будь ласка, виберіть коротший псевдонім</string>
     <string name="recommended">Рекомендовано</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Будь ласка виберіть варіант</string>
     <string name="activity_home_empty_state_message">У вас ще немає Session контактів</string>
@@ -580,9 +578,6 @@
     <string name="activity_join_public_chat_scan_qr_code_explanation">Відскануйте QR-код відкритої групи, до якої ви хотіли б приєднатися</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Введіть URL-посилання відкритої групи</string>
     <string name="sessionSettings">Параметри</string>
-    <string name="activity_settings_display_name_edit_text_hint">Введіть відображуватиниме ім’я</string>
-    <string name="activity_settings_display_name_missing_error">Будь ласка, виберіть відображуватиме ім\'я</string>
-    <string name="activity_settings_display_name_too_long_error">Будь ласка, виберіть коротше ім\'я</string>
     <string name="activity_settings_devices_button_title">Пристрої</string>
     <string name="sessionInviteAFriend">Запросити друга</string>
     <string name="helpFAQ">Часті питання</string>
@@ -669,8 +664,7 @@
     <string name="media">Медіа-файли</string>
     <string name="UntrustedAttachmentView_download_attachment">Тап, щоб скачати %s</string>
     <string name="_error">Помилка</string>
-    <string name="dialog_send_seed_title">Увага</string>
-    <string name="dialog_send_seed_explanation">Це ваша фраза відновлення. Якщо ви надішлете її комусь, вони матимуть повний доступ до вашого аккаунту.</string>
+    <string name="warning">Увага</string>
     <string name="dialog_send_seed_send_button_title">Відправити</string>
     <string name="deleted_message">Це повідомлення було видалено</string>
 </resources>

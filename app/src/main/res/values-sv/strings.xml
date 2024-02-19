@@ -360,7 +360,6 @@ för nyckelutbyte!</string>
     <string name="arrays__settings_default">Inställningars standardvärden</string>
     <string name="arrays__enabled">Aktiverad</string>
     <string name="arrays__disabled">Inaktiverad</string>
-    <string name="arrays__name_and_message">Namn och meddelande</string>
     <string name="notificationsContentShowNameOnly">Endast namn</string>
     <string name="arrays__images">Bilder</string>
     <string name="arrays__audio">Ljud</string>
@@ -504,12 +503,11 @@ för nyckelutbyte!</string>
     <string name="activity_register_title">Säg hej till ditt Session-ID</string>
     <string name="activity_register_explanation">Ditt Session-ID är den unika adress folk kan använda för att kontakta dig på Session. Ditt Session-ID är helt anonymt och privat rakt igenom, helt utan koppling till din riktiga identitet.</string>
     <string name="activity_restore_title">Återställ ditt konto</string>
-    <string name="activity_restore_seed_edit_text_hint">Ange din återställningsfras</string>
-    <string name="activity_display_name_title_2">Välj visningsnamn</string>
+    <string name="displayNamePick">Välj visningsnamn</string>
     <string name="activity_display_name_explanation">Detta blir ditt namn när du använder Session. Det kan vara ditt riktiga namn, ett alias eller något annat du gillar.</string>
-    <string name="activity_display_name_edit_text_hint">Ange ett visningsnamn</string>
-    <string name="activity_display_name_display_name_missing_error">Vänligen välj ett visningsnamn</string>
-    <string name="activity_display_name_display_name_too_long_error">Vänligen välj ett kortare visningsnamn</string>
+    <string name="displayNameEnter">Ange ett visningsnamn</string>
+    <string name="displayNameErrorDescription">Vänligen välj ett visningsnamn</string>
+    <string name="displayNameErrorDescriptionShorter">Vänligen välj ett kortare visningsnamn</string>
     <string name="recommended">Rekommenderat</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Välj ett alternativ</string>
     <string name="activity_home_empty_state_message">Du har inga kontakter än</string>
@@ -555,9 +553,6 @@ för nyckelutbyte!</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skanna QR-koden för den öppna grupp du vill ansluta till</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Ange en öppen grupp-URL</string>
     <string name="sessionSettings">Inställningar</string>
-    <string name="activity_settings_display_name_edit_text_hint">Ange ett visningsnamn</string>
-    <string name="activity_settings_display_name_missing_error">Vänligen välj ett visningsnamn</string>
-    <string name="activity_settings_display_name_too_long_error">Vänligen välj ett kortare visningsnamn</string>
     <string name="activity_settings_devices_button_title">Enheter</string>
     <string name="sessionInviteAFriend">Bjud in en vän</string>
     <string name="helpFAQ">Vanliga frågor</string>
@@ -644,8 +639,7 @@ för nyckelutbyte!</string>
     <string name="media">Media</string>
     <string name="UntrustedAttachmentView_download_attachment">Tryck för att ladda ner %s</string>
     <string name="_error">Fel</string>
-    <string name="dialog_send_seed_title">Varning</string>
-    <string name="dialog_send_seed_explanation">Detta är din återställningsfras. Om du skickar den till någon kommer de att ha full tillgång till ditt konto.</string>
+    <string name="warning">Varning</string>
     <string name="dialog_send_seed_send_button_title">Skicka</string>
     <string name="notify_type_all">Alla</string>
     <string name="notify_type_mentions">Omnämningar</string>

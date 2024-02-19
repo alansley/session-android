@@ -359,7 +359,6 @@ on viallinen!</string>
     <string name="arrays__settings_default">Oletus</string>
     <string name="arrays__enabled">Päällä</string>
     <string name="arrays__disabled">Poissa</string>
-    <string name="arrays__name_and_message">Nimi ja viesti</string>
     <string name="notificationsContentShowNameOnly">Vain nimi</string>
     <string name="arrays__images">Kuvat</string>
     <string name="arrays__audio">Äänitallenteet</string>
@@ -503,12 +502,11 @@ on viallinen!</string>
     <string name="activity_register_title">Sano tervehdys Session tunnuksellesi</string>
     <string name="activity_register_explanation">Session ID on yksilöllinen osoite, jonka avulla muut voivat ottaa sinuun yhteyttä Sessionissa. Sillä ei ole yhteyttä todelliseen identiteettiisi, Session ID on täysin anonyymi ja yksityinen tarkoituksella.</string>
     <string name="activity_restore_title">Palauta sinun tili</string>
-    <string name="activity_restore_seed_edit_text_hint">Syötä palautuslauseesi</string>
-    <string name="activity_display_name_title_2">Valitse näyttönimi</string>
+    <string name="displayNamePick">Valitse näyttönimi</string>
     <string name="activity_display_name_explanation">Tämä on nimesi, kun käytät Sessionia. Se voi olla oikea nimesi, kutsumanimi tai mitä tahansa muuta haluat.</string>
-    <string name="activity_display_name_edit_text_hint">Syötä näyttönimi</string>
-    <string name="activity_display_name_display_name_missing_error">Valitse näyttönimi</string>
-    <string name="activity_display_name_display_name_too_long_error">Valitse lyhyempi näyttönimi</string>
+    <string name="displayNameEnter">Syötä näyttönimi</string>
+    <string name="displayNameErrorDescription">Valitse näyttönimi</string>
+    <string name="displayNameErrorDescriptionShorter">Valitse lyhyempi näyttönimi</string>
     <string name="recommended">Suositeltu</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Valitse vaihtoehto</string>
     <string name="activity_home_empty_state_message">Sinulla ei ole yhteystietoja</string>
@@ -554,9 +552,6 @@ on viallinen!</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skannaa avoimen ryhmän QR-koodi, johon haluat liittyä</string>
     <string name="fragment_enter_chat_url_edit_text_hint">Syötä avoimen ryhmän URL-osoite</string>
     <string name="sessionSettings">Asetukset</string>
-    <string name="activity_settings_display_name_edit_text_hint">Syötä näyttönimi</string>
-    <string name="activity_settings_display_name_missing_error">Valitse näyttönimi</string>
-    <string name="activity_settings_display_name_too_long_error">Valitse lyhyempi näytönimi</string>
     <string name="activity_settings_devices_button_title">Laitteet</string>
     <string name="sessionInviteAFriend">Kutsu ystäviä</string>
     <string name="helpFAQ">UKK</string>
@@ -643,8 +638,7 @@ on viallinen!</string>
     <string name="media">Media</string>
     <string name="UntrustedAttachmentView_download_attachment">Lataa koskettamalla %s</string>
     <string name="_error">Virhe</string>
-    <string name="dialog_send_seed_title">Varoitus</string>
-    <string name="dialog_send_seed_explanation">Tämä on palautuslauseesi. Jos lähetät sen jollekulle, heillä on täysin vapaa pääsy tililesi.</string>
+    <string name="warning">Varoitus</string>
     <string name="dialog_send_seed_send_button_title">Lähetä</string>
     <string name="notify_type_all">Kaikki</string>
     <string name="notify_type_mentions">Maininnat</string>
