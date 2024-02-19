@@ -164,7 +164,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="org.thoughtcrime.securesms.preferences.PrivacySettingsActivity"
-            android:label="@string/activity_privacy_settings_title"
+            android:label="@string/sessionPrivacy"
             android:screenOrientation="portrait" />
         <activity
             android:name="org.thoughtcrime.securesms.preferences.NotificationSettingsActivity"
