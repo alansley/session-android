@@ -220,7 +220,6 @@
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">轻触以开启。</string>
     <string name="KeyCachingService_passphrase_cached"> Session 已解锁</string>
-    <string name="KeyCachingService_lock">锁定 Session</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">您</string>
     <string name="MediaPreviewActivity_unssuported_media_type">不支持的媒体类型。</string>

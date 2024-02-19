@@ -390,7 +390,6 @@
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Touch to open.</string>
     <string name="KeyCachingService_passphrase_cached">Session is unlocked</string>
-    <string name="KeyCachingService_lock">Lock Session</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">You</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Unsupported media type</string>
@@ -1041,5 +1040,6 @@
 
     <string name="unread_marker">Unread Messages</string>
     <string name="onionRoutingPathDescription">Session hides your IP by routing your messages through multiple service nodes in Session\'s decentralized network. This is your current path:</string>
+    <string name="lockApp">Lock App</string>
 
 </resources>
