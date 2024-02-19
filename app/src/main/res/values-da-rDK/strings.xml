@@ -541,7 +541,6 @@ udveksel besked!</string>
     <string name="activity_home_leaving_group_failed_message">"Kunne ikke forlade gruppen"</string>
     <string name="activity_home_delete_conversation_dialog_message">Er du sikker på, at du vil slette denne samtale?</string>
     <string name="activity_home_conversation_deleted_message">Samtale slettet</string>
-    <string name="activity_seed_title">Din gendannelsessætning</string>
     <string name="activity_seed_title_2">Mød din gendannelsessætning</string>
     <string name="activity_seed_explanation">Din gendannelsessætning er hovednøglen til dit Session ID - du kan bruge den til at gendanne dit Session ID, hvis du mister adgang til din enhed. Gem din gendannelsessætning på et sikkert sted, og giv det ikke til nogen.</string>
     <string name="activity_seed_reveal_button_title">Hold nede for at se</string>
@@ -573,7 +572,6 @@ udveksel besked!</string>
     <string name="activity_settings_faq_button_title">Ofte stillede spørgsmål</string>
     <string name="activity_settings_clear_all_data_button_title">Ryd data</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Ryd Data Inklusiv Netværk</string>
-    <string name="activity_settings_help_translate_session">Hjælp os med at oversætte Session</string>
     <string name="notificationsStyle">Notifikationsstil</string>
     <string name="activity_notification_settings_content_section_title">Meddelelsesindhold</string>
     <string name="sessionPrivacy">Privatliv</string>
@@ -642,8 +640,6 @@ udveksel besked!</string>
     <string name="delete_message_for_me">Slet kun for mig</string>
     <string name="delete_message_for_everyone">Slet for alle</string>
     <string name="delete_message_for_me_and_recipient">Slet for mig og %s</string>
-    <string name="activity_settings_support">Debug log</string>
-    <string name="dialog_share_logs_title">Del Logfiler</string>
     <string name="dialog_share_logs_explanation">Ønsker du at eksportere dine applikationslogs for at kunne dele for fejlfinding?</string>
     <string name="conversation_pin">Fastgør</string>
     <string name="conversation_unpin">Frigør</string>

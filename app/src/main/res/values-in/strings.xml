@@ -424,7 +424,6 @@
     <string name="activity_home_leave_group_dialog_message">Apakah anda yakin ingin meninggalkan grup ini?</string>
     <string name="activity_home_leaving_group_failed_message">"Tidak dapat meninggalkan grup"</string>
     <string name="activity_home_conversation_deleted_message">Percakapan dihapus</string>
-    <string name="activity_seed_title">Kata pemulihan anda</string>
     <string name="activity_seed_title_2">Inilah kata pemulihan anda</string>
     <string name="activity_seed_reveal_button_title">Tekan untuk melihat</string>
     <string name="view_seed_reminder_title">Hampir selesai! 80%</string>
@@ -477,5 +476,4 @@
     <string name="dialog_send_seed_send_button_title">Kirim</string>
     <string name="notify_type_all">Semua</string>
     <string name="deleted_message">Pesan ini telah dihapus</string>
-    <string name="activity_settings_survey_feedback">Umpan balik/Survey</string>
 </resources>

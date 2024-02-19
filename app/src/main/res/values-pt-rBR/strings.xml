@@ -544,7 +544,6 @@
     <string name="activity_home_leaving_group_failed_message">"Não foi possível sair do grupo"</string>
     <string name="activity_home_delete_conversation_dialog_message">Tem certeza de que deseja excluir esta conversa?</string>
     <string name="activity_home_conversation_deleted_message">Conversa excluída</string>
-    <string name="activity_seed_title">Sua frase de recuperação</string>
     <string name="activity_seed_title_2">Revele sua frase de recuperação</string>
     <string name="activity_seed_explanation">Sua frase de recuperação é a chave mestra do seu ID Session - você pode usá-la para restaurar seu ID Session se perder o acesso ao seu dispositivo. Armazene sua frase de recuperação em um local seguro e não a entregue a ninguém.</string>
     <string name="activity_seed_reveal_button_title">Segure para revelar</string>
@@ -590,7 +589,6 @@
     <string name="activity_settings_faq_button_title">Perguntas Frequentes</string>
     <string name="activity_settings_clear_all_data_button_title">Limpar Dados</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Limpar Dados Incluindo Rede</string>
-    <string name="activity_settings_help_translate_session">Ajude-nos a traduzir o Session</string>
     <string name="notificationsStyle">Estilo de Notificação</string>
     <string name="activity_notification_settings_content_section_title">Conteúdo de Notificação</string>
     <string name="sessionPrivacy">Privacidade</string>
@@ -599,8 +597,6 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Você será notificado de forma confiável e imediata sobre novas mensagens usando os servidores de notificação da Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Mudar nome</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Deslinkar dispositivo</string>
-    <string name="dialog_seed_title">Sua Frase de Recuperação</string>
-    <string name="dialog_seed_explanation">Esta é sua frase de recuperação. Com ela, você pode restaurar ou migrar sua Session ID para um novo dispositivo.</string>
     <string name="dialog_clear_all_data_title">Limpar Todos os Dados</string>
     <string name="dialog_clear_all_data_explanation">Isso excluirá permanentemente suas mensagens, sessões e contatos.</string>
     <string name="dialog_clear_all_data_network_explanation">Você gostaria de limpar apenas este dispositivo, ou excluir toda sua conta?</string>
@@ -687,9 +683,6 @@
     <string name="delete_message_for_me">Excluir apenas para mim</string>
     <string name="delete_message_for_everyone">Excluir para todos</string>
     <string name="delete_message_for_me_and_recipient">Excluir para mim e %s</string>
-    <string name="activity_settings_survey_feedback">Pesquisa de comentários</string>
-    <string name="activity_settings_support">Log de Depuração</string>
-    <string name="dialog_share_logs_title">Compartilhar registros</string>
     <string name="dialog_share_logs_explanation">Gostaria de exportar os logs da aplicação para poder compartilhar para solucionar problemas?</string>
     <string name="conversation_pin">Fixar</string>
     <string name="conversation_unpin">Desafixar</string>

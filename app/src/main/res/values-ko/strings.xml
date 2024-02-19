@@ -403,7 +403,6 @@
     <string name="your_session_id">당신의 세션 ID</string>
     <string name="activity_home_empty_state_message">아직 연락처가 없습니다</string>
     <string name="activity_home_empty_state_button_title">세션 시작하기</string>
-    <string name="activity_seed_title">당신의 복구 코드</string>
     <string name="onionRoutingPathDestination">목적지</string>
     <string name="learnMore">더 알아보기</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR 코드 스캔</string>
@@ -413,10 +412,7 @@
     <string name="activity_settings_invite_button_title">친구 초대</string>
     <string name="activity_settings_faq_button_title">자주 하는 질문</string>
     <string name="activity_settings_clear_all_data_button_title">데이터 지우기</string>
-    <string name="activity_settings_help_translate_session">세션을 번역하는 데 기여하기</string>
     <string name="sessionPrivacy">개인정보</string>
-    <string name="dialog_seed_title">당신의 복구 코드</string>
-    <string name="dialog_seed_explanation">이것은 당신의 복구 코드입니다. 이것으로 세션 ID를 새 장치로 복원하거나 이동할 수 있습니다.</string>
     <string name="dialog_clear_all_data_explanation">메시지, 세션 및 연락처가 영구적으로 삭제됩니다.</string>
     <string name="activity_qr_code_title">QR 코드</string>
     <string name="activity_qr_code_view_my_qr_code_tab_title">내 QR 코드 보기</string>
@@ -430,8 +426,6 @@
     <string name="activity_link_device_scan_qr_code">QR 코드 스캔</string>
     <string name="notify_type_all">모두</string>
     <string name="notify_type_mentions">멘션만</string>
-    <string name="activity_settings_survey_feedback">피드백/설문 조사</string>
-    <string name="activity_settings_support">디버그 로그</string>
     <string name="conversation_pin">고정</string>
     <string name="conversation_unpin">고정 해제</string>
 </resources>

@@ -24,8 +24,8 @@ class SeedDialog: DialogFragment() {
     }
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog = createSessionDialog {
-        title(R.string.dialog_seed_title)
-        text(R.string.dialog_seed_explanation)
+        title(R.string.recoveryPasswordDescription)
+        text(R.string.recoveryPasswordDescription)
         text(seed, R.style.SessionIDTextView)
         button(R.string.copy, R.string.AccessibilityId_copy_recovery_phrase) { copySeed() }
         button(R.string.close) { dismiss() }

@@ -569,7 +569,6 @@
     <string name="activity_home_leaving_group_failed_message">"Не вдалося покинути групу"</string>
     <string name="activity_home_delete_conversation_dialog_message">Ви дійсно хочете видалити цю бесіду?</string>
     <string name="activity_home_conversation_deleted_message">Бесіду видалено</string>
-    <string name="activity_seed_title">Ваша фраза відновлення</string>
     <string name="activity_seed_title_2">Знайомтесь з вашою фразою відновлення</string>
     <string name="activity_seed_explanation">Ваша фраза відновлення - це головний ключ до вашогї Session ID адреси - ви можете використовувати її для відновлення вашої Session ID адреси якщо ви втратите доступ до пристрою. Запишіть на папері та зберігайте вашу фразу відновлення у безпечному місці і не дайте її нікому.</string>
     <string name="activity_seed_reveal_button_title">Натисніть, щоб відобразити</string>
@@ -615,7 +614,6 @@
     <string name="activity_settings_faq_button_title">Часті питання</string>
     <string name="activity_settings_clear_all_data_button_title">Видалити дані</string>
     <string name="activity_settings_clear_all_data_and_network_button_title">Видалити дані та аккаунт</string>
-    <string name="activity_settings_help_translate_session">Допоможіть нам перекласти Session</string>
     <string name="notificationsStyle">Стиль сповіщень</string>
     <string name="activity_notification_settings_content_section_title">Вміст сповіщення</string>
     <string name="sessionPrivacy">Конфіденційність</string>
@@ -624,8 +622,6 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Вас надійно повідомлятимуть про нові сповіщення негайно, використовуючи сервери сповіщень Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Змінити їм’я</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Відв’язати цей пристрій</string>
-    <string name="dialog_seed_title">Ваша фраза відновлення</string>
-    <string name="dialog_seed_explanation">Запишіть це на папері. Це ваша фраза відновлення. З нею ви можете відновити або перенести ваш Session ID на новий пристрій.</string>
     <string name="dialog_clear_all_data_title">Видалити всі дані</string>
     <string name="dialog_clear_all_data_explanation">Це остаточно видалить ваші повідомлення, сеанси та контакти.</string>
     <string name="dialog_clear_all_data_network_explanation">Ви хочете видалити тільки цей пристрій або видалити весь обліковий запис?</string>
