@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(imagem)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(áudio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vídeo)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(responder)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Não foi possível encontrar uma aplicação para selecionar a multimédia.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">O Session requer permissão de acesso ao armazenamento de forma a poder anexar fotos, vídeo e áudio, mas esta foi negada permanentemente. Por favor, aceda ao menu de definições da aplicação, seleccione \"Permissões\" e ative \"Armazenamento\".</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Adicionar anexo</string>
     <string name="ConversationActivity_select_contact_info">Selecionar informações de contacto</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Lamento, ocorreu um erro no envio do seu anexo.</string>
-    <string name="ConversationActivity_message">Mensagem</string>
+    <string name="message">Mensagem</string>
     <string name="ConversationActivity_compose">Compor</string>
     <string name="ConversationActivity_muted_until_date">Silenciado até %1$s</string>
     <string name="ConversationActivity_muted_forever">Silenciado</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">A eliminar</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">A eliminar mensagens...</string>
-    <string name="MediaOverviewActivity_Select_all">Seleccionar tudo</string>
     <string name="MediaOverviewActivity_collecting_attachments">A recolher anexos...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Mensagem multimédia</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Adicionar uma legenda...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Foi removido um item porque excedia o limite de tamanho</string>
     <string name="MediaSendActivity_camera_unavailable">Câmara indisponível.</string>
-    <string name="MediaSendActivity_message_to_s">Mensagem para %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Não pode partilhar mais do que %d item.</item>
         <item quantity="other">Não pode partilhar mais do que %d itens.</item>
@@ -195,7 +192,6 @@ foi recebida está corrompida!</string>
     <string name="ThreadRecord_group_updated">Grupo atualizado</string>
     <string name="ThreadRecord_left_the_group">Abandonou o grupo</string>
     <string name="ThreadRecord_secure_session_reset">Sessão segura reiniciada.</string>
-    <string name="ThreadRecord_draft">Rascunho:</string>
     <string name="ThreadRecord_called">Você ligou</string>
     <string name="ThreadRecord_called_you">Ligou-lhe</string>
     <string name="ThreadRecord_missed_call">Chamada perdida</string>
@@ -221,7 +217,6 @@ foi recebida está corrompida!</string>
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Mensagem MMS encriptada corrompida</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mensagem MMS encriptada para sessão inexistente</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Silenciar notificações</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Toque para abrir.</string>
     <string name="KeyCachingService_passphrase_cached">O Session está desbloqueado</string>
@@ -242,7 +237,6 @@ foi recebida está corrompida!</string>
     <string name="MessageNotifier_error_delivering_message">Erro ao entregar a mensagem.</string>
     <string name="MessageNotifier_mark_all_as_read">Marcar todas como lidas</string>
     <string name="MessageNotifier_mark_read">Marcar como lida</string>
-    <string name="MessageNotifier_reply">Responder</string>
     <string name="MessageNotifier_pending_signal_messages">Mensagens do Session pendentes</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Tem mensagens do Session pendentes, toque para abrir e obter</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -253,8 +247,7 @@ foi recebida está corrompida!</string>
     <string name="NotificationChannel_backups">Cópias de segurança</string>
     <string name="NotificationChannel_locked_status">Estado do bloqueio</string>
     <string name="NotificationChannel_app_updates">Atualizações da aplicação</string>
-    <string name="NotificationChannel_other">Outro</string>
-    <string name="NotificationChannel_group_messages">Mensagens</string>
+    <string name="other">Outro</string>
     <string name="NotificationChannel_missing_display_name">Desconhecido</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Resposta rápida encontra-se indisponível enquanto o Session estiver bloqueado!</string>
@@ -360,7 +353,6 @@ foi recebida está corrompida!</string>
     <string name="arrays__mute_for_one_day">Silenciar por 1 dia</string>
     <string name="arrays__mute_for_seven_days">Silenciar por 7 dias</string>
     <string name="arrays__mute_for_one_year">Silenciar por 1 ano</string>
-    <string name="arrays__mute_forever">Silenciar para sempre</string>
     <string name="arrays__settings_default">Definições padrão</string>
     <string name="arrays__enabled">Ativada</string>
     <string name="arrays__disabled">Desativada</string>
@@ -374,7 +366,7 @@ foi recebida está corrompida!</string>
     <string name="arrays__large">Grande</string>
     <string name="arrays__extra_large">Gigante</string>
     <string name="arrays__high">Elevada</string>
-    <string name="arrays__max">Máxima</string>
+    <string name="max">Máxima</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d hora</item>
@@ -444,7 +436,7 @@ foi recebida está corrompida!</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Não silenciar</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Silenciar notificações</string>
+    <string name="notificationsMute">Silenciar notificações</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editar o grupo</string>
     <string name="conversation__menu_leave_group">Abandonar grupo</string>
@@ -467,8 +459,7 @@ foi recebida está corrompida!</string>
     <string name="trimmer__old_messages_successfully_deleted">Mensagens antigas eliminadas com sucesso</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Permissão necessária</string>
-    <string name="Permissions_continue">Continuar</string>
-    <string name="Permissions_not_now">Agora não</string>
+    <string name="notNow">Agora não</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">As cópias de segurança vão ser gravadas na memória externa e cifradas com a frase-passe abaixo. Tem de ter esta frase-passe para poder restaurar as cópias de segurança.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Eu anotei esta frase-passe. Sem ela, serei incapaz de restaurar uma cópia de segurança.</string>
     <string name="registration_activity__skip">Saltar</string>
@@ -489,7 +480,7 @@ foi recebida está corrompida!</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Copiar chave pública</string>
     <!-- Session -->
-    <string name="continue_2">Continuar</string>
+    <string name="_continue">Continuar</string>
     <string name="copy">Copiar</string>
     <string name="invalid_url">URL inválido</string>
     <string name="copied">Copiado para a área de transferência</string>
@@ -509,7 +500,6 @@ foi recebida está corrompida!</string>
     <string name="activity_register_title">Diga olá ao seu ID Session</string>
     <string name="activity_register_explanation">Seu ID Session é o endereço exclusivo que as pessoas podem usar para entrar em contato com você no Session. Sem conexão com sua identidade real, seu ID Session é totalmente anônimo e privado por definição.</string>
     <string name="activity_restore_title">Restaurar sua conta</string>
-    <string name="activity_restore_explanation">Digite a frase de recuperação que lhe foi fornecida quando você se inscreveu para restaurar sua conta.</string>
     <string name="activity_restore_seed_edit_text_hint">Digite sua frase de recuperação</string>
     <string name="activity_display_name_title_2">Escolha seu nome de exibição</string>
     <string name="activity_display_name_explanation">Este será o seu nome quando usar o Session. Pode ser seu nome verdadeiro, um apelido ou qualquer outra coisa que você quiser.</string>

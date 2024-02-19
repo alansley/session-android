@@ -215,7 +215,7 @@
     <string-array name="pref_notification_priority_entries">
         <item>@string/_default</item>
         <item>@string/arrays__high</item>
-        <item>@string/arrays__max</item>
+        <item>@string/max</item>
     </string-array>
 
     <string-array name="pref_notification_priority_values">

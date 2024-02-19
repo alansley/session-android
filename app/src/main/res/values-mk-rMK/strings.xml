@@ -14,7 +14,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(ရုပ်ပုံ) </string>
     <string name="DraftDatabase_Draft_audio_snippet">(အသံ)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ဗွီဒီယို) </string>
-    <string name="DraftDatabase_Draft_quote_snippet">(ပြန်လည်ပေးပို့လာသောစာတို)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">ရုပ်သံကိုဖွင့်ရန်သင့်တော်သည့် app မတွေ့ပါ </string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Sessionမှ အဆက်အသွယ်များအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ဖိုင်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
@@ -80,7 +79,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">ဖျက်နေဆဲ</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">စာများဖျက်နေသည်</string>
-    <string name="MediaOverviewActivity_Select_all">အားလုံးကို ရွေးပါ</string>
     <string name="MediaOverviewActivity_collecting_attachments">ပူးတွဲဖိုင်များကို စုစည်းနေသည် </string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ရုပ်၊သံပါ အချက်အလက်များ</string>
@@ -122,7 +120,6 @@
     <string name="ThreadRecord_group_updated">အဖွဲ့ကို ပြင်ဆင်ပြီး</string>
     <string name="ThreadRecord_left_the_group">အဖွဲ့မှထွက်သွားသည်</string>
     <string name="ThreadRecord_secure_session_reset">လုံခြုံသော ဆက်ရှင်ကိုပြန်ညှိပြီး။</string>
-    <string name="ThreadRecord_draft">မူကြမ်း</string>
     <string name="ThreadRecord_called">သင်မှခေါ်သည်</string>
     <string name="ThreadRecord_called_you">သင့်ထံခေါ်သည်</string>
     <string name="ThreadRecord_missed_call">လွတ်သွားသော ဖုန်းခေါ်ဆိုမှု</string>
@@ -143,7 +140,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">မှားယွင်းစာ encrpyt လုပ်ထားသော MMS စာ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ရှိမနေတော့သည့် ဆက်ရှင်အတွက် MMS စာများကို encrypt လုပ်ထားပါသည်။</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">အသိပေးချက်ကို ပိတ်ပါ</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">ဖွင့်ရန် နှိပ်ပါ။</string>
     <string name="KeyCachingService_passphrase_cached">Session ကိုဖွင့်လိုက်ပါပြီ</string>
@@ -163,15 +159,13 @@
     <string name="MessageNotifier_error_delivering_message">စာပို့လွှတ်ခြင်း မှားယွင်းနေ</string>
     <string name="MessageNotifier_mark_all_as_read">အားလုံး ဖတ်ပြီးသား</string>
     <string name="MessageNotifier_mark_read">ဖတ်ပြီးသား</string>
-    <string name="MessageNotifier_reply">အကြောင်းပြန်မည်</string>
     <string name="MessageNotifier_pending_signal_messages">Sessionတွင် စာပေးပို့/လက်ခံမှုကို ဆိုင်းငံ့ထားခြင်း</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Sessionတွင် စာပေးပို့/လက်ခံမှုကို ဆိုင်းငံ့ထားပါသည်၊ ပြန်ဖွင့်ရန် နှိပ်လိုက်ပါ</string>
     <string name="MessageNotifier_unknown_contact_message">အဆက်အသွယ်</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ဖုန်းခေါ်ဆိုမှုများ</string>
     <string name="NotificationChannel_backups">အရံသိမ်းဆည်းမှုများ</string>
-    <string name="NotificationChannel_other">အခြား</string>
-    <string name="NotificationChannel_group_messages">စာများ</string>
+    <string name="other">အခြား</string>
     <string name="NotificationChannel_missing_display_name">မသိ</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Session လော့ခ်ကျသွားသည့်အခါ ချက်ချင်းမတုံ့ပြန်နိုင်ပါ!</string>
@@ -278,7 +272,7 @@
     <string name="arrays__large">ကြီးသော</string>
     <string name="arrays__extra_large">အလွန် ကြီးသော</string>
     <string name="arrays__high">မြင့်သော</string>
-    <string name="arrays__max">အများဆုံး</string>
+    <string name="max">အများဆုံး</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__screen_security">အဖွင့်စာမျက်နှာ လုံခြုံရေး</string>
@@ -340,7 +334,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">ပြန်ဖွင့်ပါ</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">အသိပေးချက်ကို ပိတ်ပါ</string>
+    <string name="notificationsMute">အသိပေးချက်ကို ပိတ်ပါ</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">အဖွဲ့ကို ပြင်မည်</string>
     <string name="conversation__menu_leave_group">အဖွဲ့မှ ထွက်မည်</string>
@@ -362,8 +356,7 @@
     <string name="trimmer__old_messages_successfully_deleted">စာအဟောင်းများကို အောင်မြင်စွာ ဖျက်ပြီး</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">ခွင့်ပြုချက် လိုအပ်သည်</string>
-    <string name="Permissions_continue">ရှေ့ဆက်ပါ</string>
-    <string name="Permissions_not_now">အခုမဟုတ်သေးပါ။</string>
+    <string name="notNow">အခုမဟုတ်သေးပါ။</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">အရံသိမ်းထားသည်များကို အပလီကေးရှင်းပြင်ပ ဖုန်းထဲတွင် သိမ်းပြီး အောက်ပါ စကားဝှက်ဖြင့် လုံခြုံစွာ သိမ်းထားပါမည်။ အရံသိမ်းထားသောဖိုင်များကို ပြန်ရယူနိုင်ရန် ဤစကားဝှက်ရှိကို ရှိရမည်။</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">စကားဝှက်ကို ရေးမှတ်ပြီးပါပြီ။ စကားဝှက်မပါလျှင် အရံသိမ်းထားသောဖိုင်များကို ပြန်မရနိုင်ပါ။</string>
     <string name="registration_activity__skip">ကျော်ပါ</string>

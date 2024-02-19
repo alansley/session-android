@@ -31,7 +31,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(תמונה)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(שמע)</string>
     <string name="DraftDatabase_Draft_video_snippet">(וידיאו)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(תגובה)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">לא ניתן למצוא יישום לבחירת מדיה.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session דורש את הרשאת האחסון על מנת לצרף תצלומים, וידיאוים, או שמע, אבל היא נדחתה לצמיתות. אנא המשך אל תפריט הגדרות היישום, בחר \"הרשאות\", אפשר את \"אחסון\".</string>
@@ -60,7 +59,7 @@
     <string name="ConversationActivity_add_attachment">הוסף צרופה</string>
     <string name="ConversationActivity_select_contact_info">בחר מידע של איש קשר</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">סליחה, אירעה שגיאה בהוספת הצרופה שלך.</string>
-    <string name="ConversationActivity_message">הודעה</string>
+    <string name="message">הודעה</string>
     <string name="ConversationActivity_compose">הודעה חדשה</string>
     <string name="ConversationActivity_member_count">%1$d משתמשים</string>
     <string name="ConversationActivity_open_group_guidelines">כללי הקהילה</string>
@@ -159,7 +158,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">מוחק</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">מוחק הודעות...</string>
-    <string name="MediaOverviewActivity_Select_all">בחר הכל</string>
     <string name="MediaOverviewActivity_collecting_attachments">אוסף צרופות...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">הודעת מולטימדיה</string>
@@ -171,7 +169,6 @@
     <string name="MediaSendActivity_add_a_caption">הוסף כיתוב...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">פריט נמחק מאחר שהוא חרג ממגבלת הגודל</string>
     <string name="MediaSendActivity_camera_unavailable">מצלמה אינה זמינה.</string>
-    <string name="MediaSendActivity_message_to_s">שלח הודעה אל %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">אינך יכול לשתף יותר מפריט %d.</item>
         <item quantity="two">אינך יכול לשתף יותר מ־%d פריטים.</item>
@@ -213,7 +210,6 @@
     <string name="ThreadRecord_group_updated">הקבוצה עודכנה</string>
     <string name="ThreadRecord_left_the_group">עזב את הקבוצה</string>
     <string name="ThreadRecord_secure_session_reset">שיח מאובטח אופס.</string>
-    <string name="ThreadRecord_draft">טיוטה:</string>
     <string name="ThreadRecord_called">התקשרת</string>
     <string name="ThreadRecord_called_you">התקשר אליך</string>
     <string name="ThreadRecord_missed_call">שיחה שלא נענתה</string>
@@ -238,7 +234,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">הודעת MMS מוצפנת באופן גרוע</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">הודעת MMS הוצפנה עבור שיח בלתי־קיים</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">השתק התראות</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">גע כדי לפתוח.</string>
     <string name="KeyCachingService_passphrase_cached">Session אינו נעול</string>
@@ -258,7 +253,6 @@
     <string name="MessageNotifier_error_delivering_message">שגיאה במסירת הודעה.</string>
     <string name="MessageNotifier_mark_all_as_read">סמן שהכל נקרא</string>
     <string name="MessageNotifier_mark_read">סמן כנקרא</string>
-    <string name="MessageNotifier_reply">השב</string>
     <string name="MessageNotifier_pending_signal_messages">הודעות Session ממתינות</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">יש לך הודעות Session ממתינות, הקש כדי לפתוח ולאחזר אותן</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -269,8 +263,7 @@
     <string name="NotificationChannel_backups">גיבויים</string>
     <string name="NotificationChannel_locked_status">מעמד נעילה</string>
     <string name="NotificationChannel_app_updates">עדכוני יישום</string>
-    <string name="NotificationChannel_other">אחר</string>
-    <string name="NotificationChannel_group_messages">הודעות</string>
+    <string name="other">אחר</string>
     <string name="NotificationChannel_missing_display_name">לא ידוע</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">תגובה מהירה אינה זמינה כאשר Session נעול!</string>
@@ -392,7 +385,7 @@
     <string name="arrays__large">גדול</string>
     <string name="arrays__extra_large">גדול מאוד</string>
     <string name="arrays__high">גבוה</string>
-    <string name="arrays__max">מרבי</string>
+    <string name="max">מרבי</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">שעה %d</item>
@@ -462,7 +455,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">בטל השתקה</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">השתק התראות</string>
+    <string name="notificationsMute">השתק התראות</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">ערוך קבוצה</string>
     <string name="conversation__menu_leave_group">עזוב קבוצה</string>
@@ -485,8 +478,7 @@
     <string name="trimmer__old_messages_successfully_deleted">הודעות ישנות נמחקו בהצלחה</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">דרושה הרשאה</string>
-    <string name="Permissions_continue">המשך</string>
-    <string name="Permissions_not_now">לא עכשיו</string>
+    <string name="notNow">לא עכשיו</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">גיבויים יישמרו בהתקן חיצוני ויוצפנו עם משפט־הסיסמה למטה. חייב להיות לך משפט־סיסמה זה על מנת לשחזר גיבוי.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">כתבתי משפט־סיסמה זה. בלעדיו, לא אוכל לשחזר גיבוי.</string>
     <string name="registration_activity__skip">דלג</string>
@@ -507,7 +499,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">העתק מפתח ציבורי</string>
     <!-- Session -->
-    <string name="continue_2">המשך</string>
+    <string name="_continue">המשך</string>
     <string name="copy">העתקה</string>
     <string name="invalid_url">קישור לא תקין</string>
     <string name="next">הבא</string>

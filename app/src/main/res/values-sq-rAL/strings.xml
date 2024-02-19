@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(figurë)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(Audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(përgjigju)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">S\’gjendet dot aplikacion për përzgjedhje mediash.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Që të mund të bashkëngjisë foto, video, ose audio, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, vazhdoni për te menuja e rregullimeve të aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Shtoni bashkëngjitje</string>
     <string name="ConversationActivity_select_contact_info">Përzgjidhni të dhëna kontakti</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Na ndjeni, pati një gabim në caktimin e bashkëngjitjes tuaj.</string>
-    <string name="ConversationActivity_message">Mesazh</string>
+    <string name="message">Mesazh</string>
     <string name="ConversationActivity_compose">Shkruaj ne mesazh</string>
     <string name="ConversationActivity_muted_until_date">Bllokuar deri %1$s</string>
     <string name="ConversationActivity_muted_forever">Heshtur</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Po fshihet</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Po fshihen mesazhet…</string>
-    <string name="MediaOverviewActivity_Select_all">Përzgjidhi krejt</string>
     <string name="MediaOverviewActivity_collecting_attachments">Po mblidhen bashkëngjitje…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Mesazh multimedia</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Shtoni një përshkrim…</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">U hoq një objekt, ngaqë tejkalonte kufirin për madhësitë</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera jo gati</string>
-    <string name="MediaSendActivity_message_to_s">Mesazh për %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">S\’mund të ndani me të tjerët më shumë se %d objekte.</item>
         <item quantity="other">S\’mund të ndani me të tjerët më shumë se %d objekte.</item>
@@ -195,7 +192,6 @@
     <string name="ThreadRecord_group_updated">Grupi u përditësua</string>
     <string name="ThreadRecord_left_the_group">Iku nga grupi</string>
     <string name="ThreadRecord_secure_session_reset">Sesioni i sigurt u kthye te parazgjedhjet.</string>
-    <string name="ThreadRecord_draft">Skicë:</string>
     <string name="ThreadRecord_called">Ju thirrët</string>
     <string name="ThreadRecord_called_you">Ju thirri</string>
     <string name="ThreadRecord_missed_call">Thirrje e humbur</string>
@@ -220,7 +216,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Mesazh MMS i fshehtëzuar keq</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mesazh MMS i fshehtëzuar për sesion që s\’ekziston</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Heshtoji njoftimet</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Prekeni për ta hapur.</string>
     <string name="KeyCachingService_passphrase_cached">Session-i u shkyç</string>
@@ -241,7 +236,6 @@
     <string name="MessageNotifier_error_delivering_message">Gabim në dërgimin e mesazhit.</string>
     <string name="MessageNotifier_mark_all_as_read">Vëru shenjë të gjithëve si të lexuar</string>
     <string name="MessageNotifier_mark_read">Vëri shenjë si të lexuar</string>
-    <string name="MessageNotifier_reply">Përgjigju</string>
     <string name="MessageNotifier_pending_signal_messages">Mesazhe Session pezull</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Keni mesazhe Session pezull, prekeni për t\’ia hapur dhe rimarrë</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -252,8 +246,7 @@
     <string name="NotificationChannel_backups">Kopjeruajtje</string>
     <string name="NotificationChannel_locked_status">Gjendje kyçjeje</string>
     <string name="NotificationChannel_app_updates">Përditësime aplikacioni</string>
-    <string name="NotificationChannel_other">Tjetër</string>
-    <string name="NotificationChannel_group_messages">Mesazhe</string>
+    <string name="other">Tjetër</string>
     <string name="NotificationChannel_missing_display_name">I panjohur</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">S\’bëhet dot përgjigje e shpejtë, kur Session-i është i kyçur!</string>
@@ -363,7 +356,6 @@
     <string name="arrays__mute_for_one_day">Heshtoje për 1 ditë</string>
     <string name="arrays__mute_for_seven_days">Heshtoje për 7 ditë</string>
     <string name="arrays__mute_for_one_year">Heshtoje për 1 vit</string>
-    <string name="arrays__mute_forever">Hesht përgjithmonë</string>
     <string name="arrays__settings_default">Rregullime parazgjedhje</string>
     <string name="arrays__enabled">E aktivizuar</string>
     <string name="arrays__disabled">E çaktivizuar</string>
@@ -377,7 +369,7 @@
     <string name="arrays__large">Të mëdha</string>
     <string name="arrays__extra_large">Shumë të mëdha</string>
     <string name="arrays__high">Lartësi</string>
-    <string name="arrays__max">Maks.</string>
+    <string name="max">Maks.</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d orë</item>
@@ -447,7 +439,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Çheshtoji</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Heshtoji njoftimet</string>
+    <string name="notificationsMute">Heshtoji njoftimet</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Përpunoni grup</string>
     <string name="conversation__menu_leave_group">Braktise grupin</string>
@@ -470,8 +462,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Mesazhet e vjetra u fshinë me sukses</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Lyp leje</string>
-    <string name="Permissions_continue">Vazhdo</string>
-    <string name="Permissions_not_now">Jo tani</string>
+    <string name="notNow">Jo tani</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Kopjeruajtjet do të ruhen te depozitë e jashtme dhe fshehtëzohen me frazëkalimin më poshtë. Duhet të keni këtë frazëkalim, pa të mundeni të riktheni një kopjeruajtje</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">E kam shkruar diku këtë frazëkalim. Pa të, s\’do të jem në gjendje të rikthej një kopjeruajtje</string>
     <string name="registration_activity__skip">Anashkaloje</string>
@@ -492,7 +483,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopjo çelësin publik</string>
     <!-- Session -->
-    <string name="continue_2">Vazhdo</string>
+    <string name="_continue">Vazhdo</string>
     <string name="copy">Kopjoje</string>
     <string name="invalid_url">URL e pavlefshme</string>
     <string name="copied">Kopjo në klipbord</string>
@@ -510,6 +501,5 @@
     <string name="activity_register_title">Thuaj Tungjatjeta Session-it tuaj</string>
     <string name="activity_register_explanation">Session ID juaj është një adresë unike që mund t\'ju kontaktojnë përmes Session. Pa ndonjë ndërlidhje me identitetin tuaj real, Session ID juaj është totalisht anonim dhe privat.</string>
     <string name="activity_restore_title">Rikthe llogarinë tuaj</string>
-    <string name="activity_restore_explanation">Shkruanj frazen e rikthimit qe iu është gjatë regjistrimit të llogarisë.</string>
     <!-- Next round of translation -->
 </resources>

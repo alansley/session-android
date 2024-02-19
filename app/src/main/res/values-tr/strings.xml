@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(görüntü)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ses)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(yanıtla)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Medya seçebilecek uygulama bulunamıyor.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, fotoğraflar, videolar, veya ses ekleyebilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Eklenti ekle</string>
     <string name="ConversationActivity_select_contact_info">Kişi bilgisi seç</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Üzgünüz, eklentiniz ayarlanırken hata oluştu.</string>
-    <string name="ConversationActivity_message">İleti</string>
+    <string name="message">İleti</string>
     <string name="ConversationActivity_compose">Oluştur</string>
     <string name="ConversationActivity_muted_until_date">%1$s\'e kadar sessiz</string>
     <string name="ConversationActivity_muted_forever">Sessize alındı</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Siliniyor</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">İletiler siliniyor...</string>
-    <string name="MediaOverviewActivity_Select_all">Hepsini seç</string>
     <string name="MediaOverviewActivity_collecting_attachments">Eklentiler toplanıyor...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Çoğulortam iletisi</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Bir başlık ekleyin...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Boyut sınırını aştığı için bir öğe kaldırıldı.</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera kullanılamıyor.</string>
-    <string name="MediaSendActivity_message_to_s">%s kişisine mesaj</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">%d öğeden daha fazlasını paylaşamazsınız.</item>
         <item quantity="other">%d öğeden daha fazlasını paylaşamazsınız.</item>
@@ -195,7 +192,6 @@ iletisi alındı!</string>
     <string name="ThreadRecord_group_updated">Grup güncellendi</string>
     <string name="ThreadRecord_left_the_group">Gruptan ayrıldı</string>
     <string name="ThreadRecord_secure_session_reset">Güvenli oturumu sıfırla.</string>
-    <string name="ThreadRecord_draft">Taslak:</string>
     <string name="ThreadRecord_called">Aradınız</string>
     <string name="ThreadRecord_called_you">Sizi aradı</string>
     <string name="ThreadRecord_missed_call">Cevapsız arama</string>
@@ -221,7 +217,6 @@ iletisi alındı!</string>
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Bozuk şifrelenmiş MMS iletisi</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS iletisi var olmayan bir oturum için şifrelenmiş</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Bildirimleri sessize al</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Açmak için dokunun.</string>
     <string name="KeyCachingService_passphrase_cached">Session kilidi açık</string>
@@ -242,7 +237,6 @@ iletisi alındı!</string>
     <string name="MessageNotifier_error_delivering_message">İleti tesliminde hata.</string>
     <string name="MessageNotifier_mark_all_as_read">Tümünü okundu işaretle</string>
     <string name="MessageNotifier_mark_read">Okundu işaretle</string>
-    <string name="MessageNotifier_reply">Cevapla</string>
     <string name="MessageNotifier_pending_signal_messages">Bekleyen Session iletileri</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Bekleyen Session iletileriniz var, almak ve açmak için dokunun</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -253,8 +247,7 @@ iletisi alındı!</string>
     <string name="NotificationChannel_backups">Yedekler</string>
     <string name="NotificationChannel_locked_status">Kilit durumu</string>
     <string name="NotificationChannel_app_updates">Uygulama güncellemeleri</string>
-    <string name="NotificationChannel_other">Diğer</string>
-    <string name="NotificationChannel_group_messages">İletiler</string>
+    <string name="other">Diğer</string>
     <string name="NotificationChannel_missing_display_name">Bilinmeyen</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Session kilitliyken hızlı cevap kullanılamaz!</string>
@@ -364,7 +357,6 @@ iletisi alındı!</string>
     <string name="arrays__mute_for_one_day">1 günlüğüne sustur</string>
     <string name="arrays__mute_for_seven_days">7 günlüğüne sustur</string>
     <string name="arrays__mute_for_one_year">1 yıllığına sustur</string>
-    <string name="arrays__mute_forever">Sonsuza kadar sessiz</string>
     <string name="arrays__settings_default">Varsayılan ayarlar</string>
     <string name="arrays__enabled">Etkin</string>
     <string name="arrays__disabled">Devre dışı</string>
@@ -378,7 +370,7 @@ iletisi alındı!</string>
     <string name="arrays__large">Büyük</string>
     <string name="arrays__extra_large">Çok büyük</string>
     <string name="arrays__high">Yüksek</string>
-    <string name="arrays__max">En Yüksek</string>
+    <string name="max">En Yüksek</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d saat</item>
@@ -448,7 +440,7 @@ iletisi alındı!</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Sesi aç</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Bildirimleri sessize al</string>
+    <string name="notificationsMute">Bildirimleri sessize al</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Grubu düzenle</string>
     <string name="conversation__menu_leave_group">Gruptan ayrıl</string>
@@ -471,8 +463,7 @@ iletisi alındı!</string>
     <string name="trimmer__old_messages_successfully_deleted">Eski iletiler başarıyla silindi</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">İzin gerekli</string>
-    <string name="Permissions_continue">Devam Et</string>
-    <string name="Permissions_not_now">Şimdi değil</string>
+    <string name="notNow">Şimdi değil</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Yedekler harici depolama alanına kaydedilecek ve aşağıdaki parola ile şifrelenecektir. Yedeği geri yüklemek için bu parolaya sahip olmanız gereklidir.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Bu parolayı kaydettim. Parola olmadan yedeği geri yükleyemem.</string>
     <string name="registration_activity__skip">Atla</string>
@@ -493,7 +484,7 @@ iletisi alındı!</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Genel Anahtarı Kopyala</string>
     <!-- Session -->
-    <string name="continue_2">Devam Et</string>
+    <string name="_continue">Devam Et</string>
     <string name="copy">Kopyala</string>
     <string name="invalid_url">Geçersiz URL</string>
     <string name="copied">Panoya kopyalandı</string>
@@ -513,7 +504,6 @@ iletisi alındı!</string>
     <string name="activity_register_title">Yeni Session kimliğinize merhaba deyin.</string>
     <string name="activity_register_explanation">Session Kimliğiniz, kişilerin Session\'da sizinle iletişim kurmak için kullanabileceği benzersiz adrestir. Gerçek kimliğinizle hiçbir bağlantısı olmadan, Session Kimliğiniz tasarım gereği tamamen anonim ve özeldir.</string>
     <string name="activity_restore_title">Hesabınızı geri yükleyin</string>
-    <string name="activity_restore_explanation">Hesabınızı geri yüklemek için kaydolduğunuzda size verilen kurtarma ifadesini girin.</string>
     <string name="activity_restore_seed_edit_text_hint">Kurtarma ifadenizi girin</string>
     <string name="activity_display_name_title_2">Görünen adınızı seçin</string>
     <string name="activity_display_name_explanation">Bu, Session kullandığınızda adınız olacaktır. Gerçek adınız, takma adınız veya istediğiniz herhangi bir şey olabilir.</string>

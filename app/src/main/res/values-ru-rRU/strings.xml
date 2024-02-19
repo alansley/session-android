@@ -31,7 +31,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(изображение)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(аудио)</string>
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(ответ)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Ошибка выбора вложения: соответствующее приложение не найдено.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Требуется разрешение на доступ к хранилищу для возможности прикрепления фото, видео и аудио, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите Настройки, выберите Приложения, найдите Session, затем выберите Разрешения и включите Хранилище.</string>
@@ -60,7 +59,7 @@
     <string name="ConversationActivity_add_attachment">Добавить вложение</string>
     <string name="ConversationActivity_select_contact_info">Выбрать контакт</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Извините, произошла ошибка при обработке вложения.</string>
-    <string name="ConversationActivity_message">Сообщение</string>
+    <string name="message">Сообщение</string>
     <string name="ConversationActivity_compose">Создать</string>
     <string name="ConversationActivity_muted_until_date">Уведомления отключены до %1$s</string>
     <string name="ConversationActivity_muted_forever">Без звука</string>
@@ -161,7 +160,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Удаление</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Удаление сообщений...</string>
-    <string name="MediaOverviewActivity_Select_all">Выбрать все</string>
     <string name="MediaOverviewActivity_collecting_attachments">Сбор вложений...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">MMS-сообщение</string>
@@ -173,7 +171,6 @@
     <string name="MediaSendActivity_add_a_caption">Добавить подпись...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Элемент был удален из-за превышения размера</string>
     <string name="MediaSendActivity_camera_unavailable">Камера недоступна.</string>
-    <string name="MediaSendActivity_message_to_s">Сообщение пользователю %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Вы не можете поделиться больше, чем %d элементом.</item>
         <item quantity="few">Вы не можете поделиться больше, чем %d элементами.</item>
@@ -216,7 +213,6 @@
     <string name="ThreadRecord_group_updated">Группа обновлена</string>
     <string name="ThreadRecord_left_the_group">Вы покинули группу</string>
     <string name="ThreadRecord_secure_session_reset">Защищенный сеанс сброшен.</string>
-    <string name="ThreadRecord_draft">Черновик:</string>
     <string name="ThreadRecord_called">Вы звонили</string>
     <string name="ThreadRecord_called_you">Звонили вам</string>
     <string name="ThreadRecord_missed_call">Пропущенный звонок</string>
@@ -242,7 +238,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Неправильно зашифрованное MMS-сообщение</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-сообщение зашифровано для несуществующей сессии</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Отключить звук уведомлений</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Нажмите, чтобы открыть.</string>
     <string name="KeyCachingService_passphrase_cached">Session разблокирован</string>
@@ -263,7 +258,6 @@
     <string name="MessageNotifier_error_delivering_message">Ошибка при доставке сообщения.</string>
     <string name="MessageNotifier_mark_all_as_read">Отметить все как прочитанные</string>
     <string name="MessageNotifier_mark_read">Пометить как прочитано</string>
-    <string name="MessageNotifier_reply">Ответить</string>
     <string name="MessageNotifier_pending_signal_messages">Неполученные сообщения</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">У вас есть неполученные сообщения в Session. Нажмите, чтобы открыть приложение и получить их</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -274,8 +268,7 @@
     <string name="NotificationChannel_backups">Резервные копии</string>
     <string name="NotificationChannel_locked_status">Статус блокировки</string>
     <string name="NotificationChannel_app_updates">Обновления приложений</string>
-    <string name="NotificationChannel_other">Другое</string>
-    <string name="NotificationChannel_group_messages">Сообщения</string>
+    <string name="other">Другое</string>
     <string name="NotificationChannel_missing_display_name">Неизвестный</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Быстрые ответы недоступны, когда Session заблокирован!</string>
@@ -387,7 +380,6 @@
     <string name="arrays__mute_for_one_day">Отключить звук на 1 день</string>
     <string name="arrays__mute_for_seven_days">Отключить звук на 7 дней</string>
     <string name="arrays__mute_for_one_year">Отключить звук на 1 год</string>
-    <string name="arrays__mute_forever">Отключить звук навсегда</string>
     <string name="arrays__settings_default">Настройки по умолчанию</string>
     <string name="arrays__enabled">Включено</string>
     <string name="arrays__disabled">Отключено</string>
@@ -401,7 +393,7 @@
     <string name="arrays__large">Большой</string>
     <string name="arrays__extra_large">Очень большой</string>
     <string name="arrays__high">Высокий</string>
-    <string name="arrays__max">Максимальный</string>
+    <string name="max">Максимальный</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d час</item>
@@ -473,7 +465,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Вкл. звук</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Отключить звук уведомлений</string>
+    <string name="notificationsMute">Отключить звук уведомлений</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Редактировать группу</string>
     <string name="conversation__menu_leave_group">Покинуть группу</string>
@@ -496,8 +488,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Старые сообщения успешно удалены</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Требуется разрешение</string>
-    <string name="Permissions_continue">Продолжить</string>
-    <string name="Permissions_not_now">Не сейчас</string>
+    <string name="notNow">Не сейчас</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервные копии будут сохранены во внешнем хранилище и зашифрованы с помощью парольной фразы. Для восстановления резервной копии у вас должна быть эта фраза.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записал эту парольную фразу. Без нее я не смогу восстановить резервную копию.</string>
     <string name="registration_activity__skip">Пропустить</string>
@@ -518,7 +509,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Копировать публичный ключ</string>
     <!-- Session -->
-    <string name="continue_2">Продолжить</string>
+    <string name="_continue">Продолжить</string>
     <string name="copy">Копировать</string>
     <string name="invalid_url">Неверная ссылка</string>
     <string name="copied">Скопировано в буфер обмена</string>
@@ -538,7 +529,6 @@
     <string name="activity_register_title">Познакомьтесь со своим Session ID</string>
     <string name="activity_register_explanation">Ваш Session ID - это уникальный адрес, который другие пользователи могут использовать для связи с вами при помощи Session. Поскольку ваш Session ID никак не связан с вашей настоящей личностью, он по определению является полностью анонимным и конфиденциальным.</string>
     <string name="activity_restore_title">Восстановите свой аккаунт</string>
-    <string name="activity_restore_explanation">Для восстановления учетной записи введите секретную фразу, которая была предоставлена вам при регистрации.</string>
     <string name="activity_restore_seed_edit_text_hint">Введите секретную фразу</string>
     <string name="activity_display_name_title_2">Выберите ваше отображаемое имя</string>
     <string name="activity_display_name_explanation">Это имя будет отображаться, когда вы используете Session. Это может быть ваше настоящее имя, псевдоним или что угодно по вашему выбору.</string>

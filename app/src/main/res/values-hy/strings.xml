@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(նկար)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(աուդիո)</string>
     <string name="DraftDatabase_Draft_video_snippet">(վիդեո)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(պատասխան)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Չհաջողվեց գտնել հավելված՝ մեդիան ընտրելու համար.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session֊ը պահանջում է Ֆայլերի կառավարման թույլտվություն՝ լուսանկարներ, տեսանյութեր կամ աուդիո ֆայլեր կցելու համար, սակայն այն ընդմիշտ մերժվել է: Խնդրում ենք մտնել հավելվածի կարգավորումների ցանկը, ընտրել «Թույլտվություններ» և միացնել ֆայլերի կառավարման թույլտվությունը.</string>
@@ -57,7 +56,7 @@
     <string name="ConversationActivity_add_attachment">Ավելացնել կցորդ</string>
     <string name="ConversationActivity_select_contact_info">Ընտրեք կոնտակտի տվյալները</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Ներողություն, չհաջողվեց կցել Ձեր ընտրած նյութը։</string>
-    <string name="ConversationActivity_message">Հաղորդագրություն</string>
+    <string name="message">Հաղորդագրություն</string>
     <string name="ConversationActivity_compose">Ստեղծել</string>
     <string name="ConversationActivity_muted_until_date">Անջատված է մինչև %1$s</string>
     <string name="ConversationActivity_muted_forever">Լուռ է</string>
@@ -148,7 +147,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Ջնջվում է</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Հաղորդագրությունները ջնջվում են...</string>
-    <string name="MediaOverviewActivity_Select_all">Ընտրել բոլորը</string>
     <string name="MediaOverviewActivity_collecting_attachments">Կցորդների հավաքում...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Մուլտիմեդիա հաղորդագրություններ</string>
@@ -160,7 +158,6 @@
     <string name="MediaSendActivity_add_a_caption">Ավելացնել վերնագիր...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Տարրը հեռացվել է, քանի որ գերազանցել է չափի սահմանաչափը</string>
     <string name="MediaSendActivity_camera_unavailable">Տեսախցիկը հասանելի չէ</string>
-    <string name="MediaSendActivity_message_to_s">Ուղարկել նամակ %s֊ին</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Դուք չեք կարող տարածել ավելին, քան %d իր։</item>
         <item quantity="other">Դուք չեք կարող տարածել ավելին, քան %d իրեր։</item>
@@ -203,7 +200,6 @@
     <string name="ThreadRecord_group_updated">Խումբը թարմացված ք</string>
     <string name="ThreadRecord_left_the_group">Դուք դուրս եք եկել չատից</string>
     <string name="ThreadRecord_secure_session_reset">Ապահով սեսսիան վերագործարկված է:</string>
-    <string name="ThreadRecord_draft">Սևագիր:</string>
     <string name="ThreadRecord_called">Դուք զանգել եք</string>
     <string name="ThreadRecord_called_you">Զանգել էին ձեզ</string>
     <string name="ThreadRecord_missed_call">Բաց թողնված զանգ</string>
@@ -229,7 +225,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Սխալ գաղտնագրված MMS նամակ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS հաղորդագրությունը կոդավորված է գոյություն չունեցող սեսիաի համար</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Խլացնել ծանուցումները</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Դիպչեք՝ բացելու համար։</string>
     <string name="KeyCachingService_passphrase_cached">Session֊ը ապակողպված է</string>
@@ -250,7 +245,6 @@
     <string name="MessageNotifier_error_delivering_message">Հաղորդագրության առաքման սխալ։</string>
     <string name="MessageNotifier_mark_all_as_read">Նշել բոլորը, որպես տեսնված</string>
     <string name="MessageNotifier_mark_read">Նշել որպես ընթերցված</string>
-    <string name="MessageNotifier_reply">Պատասխանել</string>
     <string name="MessageNotifier_pending_signal_messages">Չստացված նամակներ</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Դուք ունեք չստացած հաղորդագրություններ Session-ում: Սեղմեք՝ հավելվածը բացելու և դրանք ստանալու համար</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -261,8 +255,7 @@
     <string name="NotificationChannel_backups">Պահեստներ</string>
     <string name="NotificationChannel_locked_status">Կողպեքի վիճակը</string>
     <string name="NotificationChannel_app_updates">Ծրագրի թարմացումներ</string>
-    <string name="NotificationChannel_other">Այլ</string>
-    <string name="NotificationChannel_group_messages">Նամակներ</string>
+    <string name="other">Այլ</string>
     <string name="NotificationChannel_missing_display_name">Անհայտ</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Կարճ պատասխանը անհնար է, երբ Session-ը կողպված է:</string>
@@ -372,7 +365,6 @@
     <string name="arrays__mute_for_one_day">Անջատել 1 օր</string>
     <string name="arrays__mute_for_seven_days">Խլացնել 7 օր</string>
     <string name="arrays__mute_for_one_year">Անջատել 1 տարի</string>
-    <string name="arrays__mute_forever">Անջատել ընդմիշտ</string>
     <string name="arrays__settings_default">Վերջին կարգավորումներ</string>
     <string name="arrays__enabled">Միացված</string>
     <string name="arrays__disabled">Անջատված</string>
@@ -386,7 +378,7 @@
     <string name="arrays__large">Մեծ</string>
     <string name="arrays__extra_large">Չափազանց մեծ</string>
     <string name="arrays__high">Բարձր</string>
-    <string name="arrays__max">Մաքսիմում</string>
+    <string name="max">Մաքսիմում</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d ժամ</item>
@@ -456,7 +448,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Ապախլացնել</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Խլացնել ծանուցումները</string>
+    <string name="notificationsMute">Խլացնել ծանուցումները</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Խմբագրել խումբը</string>
     <string name="conversation__menu_leave_group">Լքել խումբը</string>
@@ -479,8 +471,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Հին հաղորդագրությունները հաջողությամբ ջնջվեցին</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Անհրաժեշտ է թույլտվություն</string>
-    <string name="Permissions_continue">Շարունակել</string>
-    <string name="Permissions_not_now">Ոչ հիմա</string>
+    <string name="notNow">Ոչ հիմա</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Կրկնօրինակները կպահվեն արտաքին պահեստում և կգաղտնագրվեն ստորև գրված գաղտնաբառով. Կրկնօրինակը վերականգնելու համար դուք պետք է ունենաք այս գաղտնաբառը.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ես գրել եմ այս գաղտնաբառը. Առանց դրա, ես չեմ կարողանա վերականգնել կրկնօրինակը.</string>
     <string name="registration_activity__skip">Բաց թողնել</string>
@@ -501,7 +492,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Պատճենել հանրային բանալին</string>
     <!-- Session -->
-    <string name="continue_2">Շարունակել</string>
+    <string name="_continue">Շարունակել</string>
     <string name="copy">Պատճենել</string>
     <string name="invalid_url">Սխալ Հղում</string>
     <string name="copied">Պատճենվել է կցարանում</string>
@@ -521,7 +512,6 @@
     <string name="activity_register_title">Ասեք «բարև» Ձեր Սեանսի ինքնությանը</string>
     <string name="activity_register_explanation">Ձեր Սեանսի ինքնությունը հատուկ հասցե է, որը մարդիկ պիտի օգտագործեն Ձեզ հետ Սեանսով կապ հաստատելու համար։ Ձեր իրական ինքնության հետ կապ չունենալով, Ձեր Սեանսի ինքնությունն լիովին գաղտնի է։</string>
     <string name="activity_restore_title">Վերականգնել ձեր հաշիվը</string>
-    <string name="activity_restore_explanation">Մուտքագրեք վերականգնման բառակապակցությունը, որը տրվել է ձեզ, երբ գրանցվել եք ձեր հաշիվը վերականգնելու համար:</string>
     <string name="activity_restore_seed_edit_text_hint">Գրեք գաղտնի արտահայտությունը</string>
     <string name="activity_display_name_title_2">Ընտրեք ցուցադրվող անուն</string>
     <string name="activity_display_name_explanation">Այս անունը կցուցադրվի, երբ Դուք կօգտվեք Սեանսից։ Այն կարող է լինել Ձեր անունը, կեղծանուն, կամ որևիցե այլ բան։</string>
@@ -674,7 +664,7 @@
     <string name="conversation_pin">Ամրացնել</string>
     <string name="conversation_unpin">Արձակել</string>
     <string name="mark_all_as_read">Նշել բոլորը, որպես տեսնված</string>
-    <string name="global_search_messages">Հաղորդագրություններ</string>
+    <string name="messages">Հաղորդագրություններ</string>
     <string name="NewConversationButton_SessionTooltip">Անմիջական հաղորդագրություն</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Փակ խումբ</string>
     <string name="NewConversationButton_OpenGroupTooltip">Բաց խումբ</string>

@@ -26,7 +26,7 @@
     <string name="ConversationItem_copied_text">%s පිටපත් විය</string>
     <string name="ConversationItem_read_more">තව කියවන්න</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_message">පණිවිඩය</string>
+    <string name="message">පණිවිඩය</string>
     <string name="ConversationActivity_member_count">සාමාජිකයින් %1$d</string>
     <string name="ConversationActivity_leave_group">සමූහය හැරයනවාද?</string>
     <string name="ConversationActivity_error_leaving_group">සමූහය හැරයාමේ දෝෂයකි</string>
@@ -63,7 +63,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">%s ට යවන්න</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_message_to_s">%s වෙත පණිවිඩය</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">සියලුම මාධ්‍යය</string>
     <!-- MessageRecord -->
@@ -93,15 +92,13 @@
     <!-- MessageNotifier -->
     <string name="MessageNotifier_message_delivery_failed">පණිවිඩය බාරදීමට අසමත්විය.</string>
     <string name="MessageNotifier_failed_to_deliver_message">පණිවිඩය බාරදීමට අසමත්විය.</string>
-    <string name="MessageNotifier_reply">පිළිතුරු</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">සබඳතාව</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ඇමතුම්</string>
     <string name="NotificationChannel_backups">උපස්ථ</string>
     <string name="NotificationChannel_app_updates">යෙදුම් යාවත්කාල</string>
-    <string name="NotificationChannel_other">වෙනත්</string>
-    <string name="NotificationChannel_group_messages">පණිවිඩ</string>
+    <string name="other">වෙනත්</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
@@ -181,8 +178,7 @@
     <!-- Trimmer -->
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">අවසරය අවශ්‍යයි</string>
-    <string name="Permissions_continue">ඉදිරියට</string>
-    <string name="Permissions_not_now">දැන් නොවේ</string>
+    <string name="notNow">දැන් නොවේ</string>
     <string name="registration_activity__skip">මඟහරින්න</string>
     <string name="BackupDialog_enable_local_backups">ස්ථානීය උපස්ථ සබලකරන්නද?</string>
     <string name="BackupDialog_enable_backups">උපස්ථ සබල කරන්න</string>
@@ -190,7 +186,7 @@
     <string name="preferences_app_protection__screen_lock">තිර අගුල</string>
     <!-- Conversation activity -->
     <!-- Session -->
-    <string name="continue_2">ඉදිරියට</string>
+    <string name="_continue">ඉදිරියට</string>
     <string name="copy">පිටපත්</string>
     <string name="invalid_url">වලංගු නොවන ඒ.ස.නි. කි</string>
     <string name="copied">පසුරුපුවරුවට පිටපත් විය</string>

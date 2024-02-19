@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(تصویر)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(صدا)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ویدئو)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(پاسخ)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">امکان یافتن برنامه‌ای برای انتخاب رسانه وجود ندارد.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session برای ارسال فایل‌های تصویری و صوتی نیاز به دسترسی به حافظه دارد اما این دسترسی به طور همیشگی رد شده است. لطفا به بخش برنامه در تنظیمات تلفن همراه خود رفته و پس از یافتن Session وارد بخش دسترسی ها شده و گزینه حافظه را فعال کنید.</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">پیوست فایل</string>
     <string name="ConversationActivity_select_contact_info">انتخاب اطلاعات تماس</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">متأسفم، در تنظیم فایل پیوست شما خطا وجود دارد.</string>
-    <string name="ConversationActivity_message">پیام</string>
+    <string name="message">پیام</string>
     <string name="ConversationActivity_compose">نوشتن</string>
     <string name="ConversationActivity_muted_until_date">بی صدا تا %1$s</string>
     <string name="ConversationActivity_muted_forever">بی صدا شده</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">در حال حذف</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">حذف پیام های...</string>
-    <string name="MediaOverviewActivity_Select_all">انتخاب همه</string>
     <string name="MediaOverviewActivity_collecting_attachments">در حال جمع‌آوری پیوست‌ها...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">پیام های چند رسانه ای</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">یک عنوان اضافه کنید...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">یک مورد به دلیل بزرگتراز حد بودن پاک شد</string>
     <string name="MediaSendActivity_camera_unavailable">دوربین در دسترس نیست</string>
-    <string name="MediaSendActivity_message_to_s">پیام به %s </string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">شما نمی توانید بیش از %d آیتم را به اشتراک بگذارید.</item>
         <item quantity="other">شما نمی توانید بیش از %d آیتم را به اشتراک بگذارید.</item>
@@ -195,7 +192,6 @@
     <string name="ThreadRecord_group_updated">گروه به روز شد</string>
     <string name="ThreadRecord_left_the_group">گروه را ترک کرد</string>
     <string name="ThreadRecord_secure_session_reset">تنظیم مجدد جلسه امن.</string>
-    <string name="ThreadRecord_draft">پیش نویس:</string>
     <string name="ThreadRecord_called">شما تماس گرفتید</string>
     <string name="ThreadRecord_called_you">با شما تماس گرفت</string>
     <string name="ThreadRecord_missed_call">تماس از دست رفته</string>
@@ -221,7 +217,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message"> پیام MMS بد رمزگذاری شده</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">پیام های MMS برای نشست های غیر موجود رمزنگاری شده اند</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">بیصدا کردن اعلان ها</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">برای باز کردن لمس کنید.</string>
     <string name="KeyCachingService_passphrase_cached">Session قفل شده است</string>
@@ -242,7 +237,6 @@
     <string name="MessageNotifier_error_delivering_message">خطا در تحویل پیام.</string>
     <string name="MessageNotifier_mark_all_as_read">علامت همه به عنوان خوانده شده</string>
     <string name="MessageNotifier_mark_read">علامت گذاری به عنوان خوانده شده</string>
-    <string name="MessageNotifier_reply">پاسخ</string>
     <string name="MessageNotifier_pending_signal_messages">پیام در انتظار Session</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">شما در Session پیام در انتظار دارید، برای مشاهده و بازیابی پیام اینجا ضربه بزنید</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -253,8 +247,7 @@
     <string name="NotificationChannel_backups">پشتیبان ها</string>
     <string name="NotificationChannel_locked_status">وضعیت قفل</string>
     <string name="NotificationChannel_app_updates">به‌روزآوری‌های برنامه</string>
-    <string name="NotificationChannel_other">دیگر</string>
-    <string name="NotificationChannel_group_messages">پیام ها</string>
+    <string name="other">دیگر</string>
     <string name="NotificationChannel_missing_display_name">ناشناخته</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">پاسخگوی سریع هنگامی که نرم‌افزار Session قفل باشد غیرفعال می‌شود.</string>
@@ -364,7 +357,6 @@
     <string name="arrays__mute_for_one_day">بی صدا برای 1 روز</string>
     <string name="arrays__mute_for_seven_days">بی صدا به مدت 7 روز</string>
     <string name="arrays__mute_for_one_year">بی صدا برای 1 سال</string>
-    <string name="arrays__mute_forever">بی صدا برای همیشه</string>
     <string name="arrays__settings_default">تنظیمات پیش فرض</string>
     <string name="arrays__enabled">فعال</string>
     <string name="arrays__disabled">غیر فعال</string>
@@ -378,7 +370,7 @@
     <string name="arrays__large">بزرگ</string>
     <string name="arrays__extra_large">خیلی بزرگ</string>
     <string name="arrays__high">زیاد</string>
-    <string name="arrays__max">حداکثر</string>
+    <string name="max">حداکثر</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d ساعت</item>
@@ -448,7 +440,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">وصل نمودن صدای مکالمه</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">بیصدا کردن اعلان ها</string>
+    <string name="notificationsMute">بیصدا کردن اعلان ها</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">ویرایش گروه</string>
     <string name="conversation__menu_leave_group">مرخص شدن از گروه</string>
@@ -471,8 +463,7 @@
     <string name="trimmer__old_messages_successfully_deleted">پیام‌های قدیمی با موفقیت حذف شدند</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">مجوز لازم است</string>
-    <string name="Permissions_continue">ادامه</string>
-    <string name="Permissions_not_now">حالا نه</string>
+    <string name="notNow">حالا نه</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">پشتیبان ها روی یک حافظه خارجی ذخیره خواهند شد و با عبارت عبور زیر رمزنگاری خواهند شد. شما باید عبارت عبور زیر را داشته باشید تا پشتیبان خود را بازیابی کنید.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">من این گذرمتن را نوشته‌ام. بدون آن نخواهم توانست یک پشتیبان را بازگردانی کنم.</string>
     <string name="registration_activity__skip">پرش</string>
@@ -493,7 +484,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">رونوشت کلید عمومی</string>
     <!-- Session -->
-    <string name="continue_2">ادامه </string>
+    <string name="_continue">ادامه </string>
     <string name="copy">کپی کردن</string>
     <string name="invalid_url">URL نامعتبر است</string>
     <string name="copied">در کلیپ‌بورد کپی شد</string>
@@ -513,7 +504,6 @@
     <string name="activity_register_title">به شناسه‌ی Session خود سلام کنید</string>
     <string name="activity_register_explanation">شناسه‌ی Session شما آدرس منحصر به فردی است که افراد می‌توانند از طریق آن با شما در Session تماس بگیرند. شناسه‌ی Session شما، بدون اتصال با هویت واقعی شما، کاملاً ناشناس و خصوصی است.</string>
     <string name="activity_restore_title">حساب کاربری خود را بازیابی کنید</string>
-    <string name="activity_restore_explanation">عبارت بازیابی را که هنگام نام‌نویسی برای بازیابی حساب به شما داده شده، وارد کنید.</string>
     <string name="activity_restore_seed_edit_text_hint">عبارت بازیابی خود را وارد کنید</string>
     <string name="activity_display_name_title_2">نام خود را برای نمایش انتخاب کنید</string>
     <string name="activity_display_name_explanation">این نام شما هنگام استفاده از Session خواهد بود. این نام می‌تواند نام واقعی شما، نام مستعار یا هر چیز دیگری که دوست دارید، باشد.</string>

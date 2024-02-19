@@ -31,7 +31,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(paveikslas)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(garsas)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vaizdas)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(atsakymas)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nerasta programėlė medijos pasirinkimui.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, Session reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
@@ -60,7 +59,7 @@
     <string name="ConversationActivity_add_attachment">Pridėti priedą</string>
     <string name="ConversationActivity_select_contact_info">Pasirinkti adresato informaciją</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Apgailestaujame, pridedant priedą, įvyko klaida.</string>
-    <string name="ConversationActivity_message">Žinutė</string>
+    <string name="message">Žinutė</string>
     <string name="ConversationActivity_compose">Rašyti (Automatic Translation)</string>
     <string name="ConversationActivity_muted_until_date">Užtildytas iki %1$s</string>
     <string name="ConversationActivity_muted_forever">Užtildytas</string>
@@ -159,7 +158,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Ištrinama</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Ištrinamos žinutės...</string>
-    <string name="MediaOverviewActivity_Select_all">Žymėti visus</string>
     <string name="MediaOverviewActivity_collecting_attachments">Renkami priedai...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedijos žinutė</string>
@@ -171,7 +169,6 @@
     <string name="MediaSendActivity_add_a_caption">Pridėti paaiškinimą...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Elementas buvo pašalintas, nes jis viršijo leidžiamą dydį</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera neprieinama.</string>
-    <string name="MediaSendActivity_message_to_s">Žinutė skirta %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Jūs negalite bendrinti daugiau nei %d elementą.</item>
         <item quantity="few">Jūs negalite bendrinti daugiau nei %d elementų.</item>
@@ -214,7 +211,6 @@
     <string name="ThreadRecord_group_updated">Grupė atnaujinta</string>
     <string name="ThreadRecord_left_the_group">išėjo iš grupės</string>
     <string name="ThreadRecord_secure_session_reset">Saugusis seansas atstatytas.</string>
-    <string name="ThreadRecord_draft">Juodraštis:</string>
     <string name="ThreadRecord_called">Jūs skambinote</string>
     <string name="ThreadRecord_called_you">Jums skambino</string>
     <string name="ThreadRecord_missed_call">Praleistas skambutis</string>
@@ -240,7 +236,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Blogai šifruota MMS žinutė</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS žinutė užšifruota seansui, kurio nėra</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Nutildyti pranešimus</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Prilieskite, kad atvertumėte.</string>
     <string name="KeyCachingService_passphrase_cached">Session yra atrakinta</string>
@@ -260,7 +255,6 @@
     <string name="MessageNotifier_error_delivering_message">Klaida, pristatant žinutę.</string>
     <string name="MessageNotifier_mark_all_as_read">Žymėti visas kaip skaitytas</string>
     <string name="MessageNotifier_mark_read">Žymėti kaip skaitytą</string>
-    <string name="MessageNotifier_reply">Atsakyti</string>
     <string name="MessageNotifier_pending_signal_messages">Laukiančios Session žinutės</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Jūs turite laukiančių Session žinučių, bakstelėkite, norėdami atverti ir jas gauti</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -271,8 +265,7 @@
     <string name="NotificationChannel_backups">Atsarginės kopijos</string>
     <string name="NotificationChannel_locked_status">Užrakinimo būsena</string>
     <string name="NotificationChannel_app_updates">Programėlės atnaujinimai</string>
-    <string name="NotificationChannel_other">Kitas</string>
-    <string name="NotificationChannel_group_messages">Žinutės</string>
+    <string name="other">Kitas</string>
     <string name="NotificationChannel_missing_display_name">Nežinoma</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Spartusis atsakymas neprieinamas, kai Session yra užrakinta!</string>
@@ -396,7 +389,7 @@
     <string name="arrays__large">Didelis</string>
     <string name="arrays__extra_large">Labai didelis</string>
     <string name="arrays__high">Didžiausia</string>
-    <string name="arrays__max">Maksimali</string>
+    <string name="max">Maksimali</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d valanda</item>
@@ -466,7 +459,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Įjungti pranešimus</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Nutildyti pranešimus</string>
+    <string name="notificationsMute">Nutildyti pranešimus</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Taisyti grupę</string>
     <string name="conversation__menu_leave_group">Išeiti iš grupės</string>
@@ -489,8 +482,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Senos žinutės sėkmingai ištrintos</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Reikalingas leidimas</string>
-    <string name="Permissions_continue">Tęsti</string>
-    <string name="Permissions_not_now">Ne dabar</string>
+    <string name="notNow">Ne dabar</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Atsarginės kopijos bus įrašytos į išorinę saugyklą ir bus užšifruotos, naudojant žemiau esančią slaptafrazę. Norėdami atkurti atsarginę kopiją, privalėsite turėti šią slaptafrazę.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Aš užsirašiau šią slaptafrazę. Be jos aš negalėsiu atkurti atsarginės kopijos.</string>
     <string name="registration_activity__skip">Praleisti</string>
@@ -511,7 +503,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopijuoti viešąjį raktą</string>
     <!-- Session -->
-    <string name="continue_2">Tęsti</string>
+    <string name="_continue">Tęsti</string>
     <string name="copy">Kopijuoti</string>
     <string name="invalid_url">Neteisingas URL</string>
     <string name="copied">Nukopijuota į iškarpinę</string>

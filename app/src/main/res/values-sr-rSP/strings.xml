@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(слика)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(звук)</string>
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(одговор)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Нема апликације за избор медијума.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Сесија треба дозволу за складиште да би закачио слике, видео клипове или аудио снимке, али је забрањена заувек. Молим те да наставиш у мени подешавања, селектуј \"Дозволе\", и омогући \"Складиште\".</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Додај прилог</string>
     <string name="ConversationActivity_select_contact_info">Изаберите податке о контакту</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Дошло је до грешке при постављању вашег прилога.</string>
-    <string name="ConversationActivity_message">Пошаљи поруку</string>
+    <string name="message">Пошаљи поруку</string>
     <string name="ConversationActivity_compose">Компонуј</string>
     <string name="ConversationActivity_muted_until_date">Мутиран до %1$s</string>
     <string name="ConversationActivity_muted_forever">Мутиран заувек</string>
@@ -150,7 +149,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Брисање</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Бришем поруке...</string>
-    <string name="MediaOverviewActivity_Select_all">Изабери све</string>
     <string name="MediaOverviewActivity_collecting_attachments">Сакупљам прилоге...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Мултимедијална порука</string>
@@ -162,7 +160,6 @@
     <string name="MediaSendActivity_add_a_caption">Додај капцију...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Предмет је макнут зато што је прекорачио прекорачио дозвољену величину</string>
     <string name="MediaSendActivity_camera_unavailable">Камера недоступна.</string>
-    <string name="MediaSendActivity_message_to_s">Порука за %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Не можеш да делиш више од %d предмета.</item>
         <item quantity="few">Не можеш да делиш више од %d предмета.</item>
@@ -203,7 +200,6 @@
     <string name="ThreadRecord_group_updated">Група ажурирана.</string>
     <string name="ThreadRecord_left_the_group">Напусти групу</string>
     <string name="ThreadRecord_secure_session_reset">Безбедна сесија је ресетована.</string>
-    <string name="ThreadRecord_draft">Нацрт:</string>
     <string name="ThreadRecord_called">Позвали сте</string>
     <string name="ThreadRecord_called_you">Позвали вас</string>
     <string name="ThreadRecord_missed_call">Пропуштен позив</string>
@@ -229,7 +225,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Лоше шифрована ММС порука</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ММС порука шифрована за непостојећу сесију</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Утишај обавештења</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Тапните за отварање.</string>
     <string name="KeyCachingService_passphrase_cached">Session је откључан</string>
@@ -249,7 +244,6 @@
     <string name="MessageNotifier_error_delivering_message">Грешка при испоруци поруке.</string>
     <string name="MessageNotifier_mark_all_as_read">Означи све прочитаним</string>
     <string name="MessageNotifier_mark_read">Означи прочитаним</string>
-    <string name="MessageNotifier_reply">Одговори</string>
     <string name="MessageNotifier_pending_signal_messages">Поруке са Session-a на чекању</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Имате поруке на Sessionу, тапните да отворите и добавите</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -260,8 +254,7 @@
     <string name="NotificationChannel_backups">Резерве</string>
     <string name="NotificationChannel_locked_status">Закључај статус</string>
     <string name="NotificationChannel_app_updates">Ажурирања апликације</string>
-    <string name="NotificationChannel_other">Остало</string>
-    <string name="NotificationChannel_group_messages">Поруке</string>
+    <string name="other">Остало</string>
     <string name="NotificationChannel_missing_display_name">Непозната</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Брзи одговор није доступан ако је Session закључан!</string>
@@ -371,7 +364,6 @@
     <string name="arrays__mute_for_one_day">Утишај 1 дан</string>
     <string name="arrays__mute_for_seven_days">Утишај 7 сати</string>
     <string name="arrays__mute_for_one_year">Утишај 1 годину</string>
-    <string name="arrays__mute_forever">Утишај заувек</string>
     <string name="arrays__settings_default">Подразумевана поставка</string>
     <string name="arrays__enabled">Укључи</string>
     <string name="arrays__disabled">Искључи</string>
@@ -385,7 +377,7 @@
     <string name="arrays__large">Велики</string>
     <string name="arrays__extra_large">Веома велики</string>
     <string name="arrays__high">Висок</string>
-    <string name="arrays__max">Највиши</string>
+    <string name="max">Највиши</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d сат</item>
@@ -452,7 +444,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Укључи обавештења</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Утишај обавештења</string>
+    <string name="notificationsMute">Утишај обавештења</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Уреди групу</string>
     <string name="conversation__menu_leave_group">Напусти групу</string>
@@ -473,8 +465,7 @@
     <string name="trimmer__deleting_old_messages">Бришем старе поруке...</string>
     <string name="trimmer__old_messages_successfully_deleted">Старе поруке успешно обрисане</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_continue">Настави</string>
-    <string name="Permissions_not_now">Не сада</string>
+    <string name="notNow">Не сада</string>
     <string name="registration_activity__skip">Прескочи</string>
     <string name="BackupDialog_enable_local_backups">Укључити локалне резерве?</string>
     <string name="BackupDialog_enable_backups">Укључи резерве</string>

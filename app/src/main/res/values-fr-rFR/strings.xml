@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(image)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vidéo)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(réponse)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Impossible de trouver une appli pour sélectionner le média.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session exige l’autorisation « Stockage » afin de joindre des photos, des vidéos ou du contenu audio, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner « Autorisations » et activer « Stockage ».</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Ajouter une pièce jointe</string>
     <string name="ConversationActivity_select_contact_info">Sélectionner les renseignements du contact</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Une erreur est survenue lors du chargement de la pièce jointe.</string>
-    <string name="ConversationActivity_message">Message</string>
+    <string name="message">Message</string>
     <string name="ConversationActivity_compose">Rédiger</string>
     <string name="ConversationActivity_muted_until_date">Son désactivé jusqu\'à %1$s</string>
     <string name="ConversationActivity_muted_forever">En sourdine</string>
@@ -150,7 +149,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Suppression</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Suppression des messages…</string>
-    <string name="MediaOverviewActivity_Select_all">Tout sélectionner</string>
     <string name="MediaOverviewActivity_collecting_attachments">Récupération des pièces jointes…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Message multimédia</string>
@@ -162,7 +160,6 @@
     <string name="MediaSendActivity_add_a_caption">Ajouter une légende...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Un élément a été supprimé, car il dépassait la taille limite</string>
     <string name="MediaSendActivity_camera_unavailable">L’appareil photo n’est pas disponible</string>
-    <string name="MediaSendActivity_message_to_s">Message à %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Vous ne pouvez pas partager plus d’%d élément.</item>
         <item quantity="other">Vous ne pouvez pas partager plus de %d éléments.</item>
@@ -202,7 +199,6 @@
     <string name="ThreadRecord_group_updated">Le groupe a été mis à jour</string>
     <string name="ThreadRecord_left_the_group">A quitté le groupe</string>
     <string name="ThreadRecord_secure_session_reset">La session sécurisée a été réinitialisée.</string>
-    <string name="ThreadRecord_draft">Brouillon :</string>
     <string name="ThreadRecord_called">Vous avez appelé</string>
     <string name="ThreadRecord_called_you">Vous a appelé·e</string>
     <string name="ThreadRecord_missed_call">Appel manqué</string>
@@ -228,7 +224,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Message multimédia chiffré incorrect</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Le message multimédia est chiffré pour une session non existante</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Notifications en sourdine</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Touchez pour ouvrir.</string>
     <string name="KeyCachingService_passphrase_cached">Session est déverrouillé</string>
@@ -249,7 +244,6 @@
     <string name="MessageNotifier_error_delivering_message">Erreur de transmission du message.</string>
     <string name="MessageNotifier_mark_all_as_read">Tout marquer comme lu</string>
     <string name="MessageNotifier_mark_read">Marquer comme lu</string>
-    <string name="MessageNotifier_reply">Répondre</string>
     <string name="MessageNotifier_pending_signal_messages">Messages Session en attente</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Vous avez des messages Session en attente. Touchez pour ouvrir et les récupérer</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -260,8 +254,7 @@
     <string name="NotificationChannel_backups">Sauvegardes</string>
     <string name="NotificationChannel_locked_status">État de verrouillage</string>
     <string name="NotificationChannel_app_updates">Mises à jour de l’appli</string>
-    <string name="NotificationChannel_other">Autre</string>
-    <string name="NotificationChannel_group_messages">Messages</string>
+    <string name="other">Autre</string>
     <string name="NotificationChannel_missing_display_name">Inconnu</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">La réponse rapide n’est pas proposée quand Session est verrouillée !</string>
@@ -371,7 +364,6 @@
     <string name="arrays__mute_for_one_day">Sourdine pendant 1 jour</string>
     <string name="arrays__mute_for_seven_days">Sourdine pendant 7 jours</string>
     <string name="arrays__mute_for_one_year">Sourdine pendant 1 an</string>
-    <string name="arrays__mute_forever">Mettre en sourdine pour toujours</string>
     <string name="arrays__settings_default">Valeur par défaut</string>
     <string name="arrays__enabled">Activé</string>
     <string name="arrays__disabled">Désactivé</string>
@@ -385,7 +377,7 @@
     <string name="arrays__large">Grande</string>
     <string name="arrays__extra_large">Très grande</string>
     <string name="arrays__high">Élevée</string>
-    <string name="arrays__max">Maximale</string>
+    <string name="max">Maximale</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d heure</item>
@@ -475,7 +467,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Rétablir les notifications</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Notifications en sourdine</string>
+    <string name="notificationsMute">Notifications en sourdine</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Modifier le groupe</string>
     <string name="conversation__menu_leave_group">Quitter le groupe</string>
@@ -498,8 +490,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Les anciens messages ont été supprimés avec succès</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Permission exigée</string>
-    <string name="Permissions_continue">Continuer</string>
-    <string name="Permissions_not_now">Pas maintenant</string>
+    <string name="notNow">Pas maintenant</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Les sauvegardes sont enregistrées dans la mémoire externe et chiffrées avec la phrase de passe ci-dessous. Vous devez avoir cette phrase de passe afin de restaurer la sauvegarde.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">J’ai pris cette phrase de passe par écrit. Sans elle, je ne pourrai pas restaurer une sauvegarde.</string>
     <string name="registration_activity__skip">Ignorer</string>
@@ -520,7 +511,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Copier la clé publique</string>
     <!-- Session -->
-    <string name="continue_2">Continuer</string>
+    <string name="_continue">Continuer</string>
     <string name="copy">Copier</string>
     <string name="close">Fermer</string>
     <string name="invalid_url">URL non valide</string>
@@ -541,7 +532,6 @@
     <string name="activity_register_title">Dites bonjour à votre Session ID</string>
     <string name="activity_register_explanation">Votre Session ID est l\'identifiant unique que les gens utilisent pour vous contacter dans Session. Sans lien avec votre identité réelle, votre Session ID est complètement anonyme et privé.</string>
     <string name="activity_restore_title">Restaurez votre compte</string>
-    <string name="activity_restore_explanation">Pour restaurer votre compte, veuillez entrer la phrase de récupération qui vous a été fournie lors de la création de votre compte.</string>
     <string name="activity_restore_seed_edit_text_hint">Saisissez votre phrase de récupération</string>
     <string name="activity_display_name_title_2">Choisissez votre nom d\'utilisateur</string>
     <string name="activity_display_name_explanation">Ce sera votre nom lorsque vous utiliserez Session. Il peut s\'agir de votre vrai nom, d\'un pseudo ou de ce que vous voulez.</string>
@@ -709,7 +699,7 @@
     <string name="conversation_pin">Épingler</string>
     <string name="conversation_unpin">Désépingler</string>
     <string name="mark_all_as_read">Tout marquer comme lu</string>
-    <string name="global_search_messages">Messages</string>
+    <string name="messages">Messages</string>
     <string name="sessionMessageRequests">Demandes de message</string>
     <string name="message_requests_send_notice">Envoyer un message à cet utilisateur acceptera automatiquement sa demande de message et révélera votre ID de session.</string>
     <string name="accept">Accepter</string>

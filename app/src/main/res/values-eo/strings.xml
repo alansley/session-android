@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(bildo)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sonaĵo)</string>
     <string name="DraftDatabase_Draft_video_snippet">(videaĵo)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(respondo)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Ne eblas trovi aplikaĵon por malfermi aŭdvidaĵon.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session bezonas la Konservejo-permeson por almeti bildojn, videojn aŭ aŭdaĵojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Konservejo“.</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Aldoni kunsendaĵon</string>
     <string name="ConversationActivity_select_contact_info">Elekti kontaktinformon</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Bedaŭrinde estis eraro dum aldono de via kunsendaĵo.</string>
-    <string name="ConversationActivity_message">Mesaĝo</string>
+    <string name="message">Mesaĝo</string>
     <string name="ConversationActivity_compose">Verku</string>
     <string name="ConversationActivity_muted_until_date">Silentigita ĝis %1$s</string>
     <string name="ConversationActivity_muted_forever">Silentigite</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Forviŝante</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Forviŝante mesaĝojn...</string>
-    <string name="MediaOverviewActivity_Select_all">Elekti ĉiujn</string>
     <string name="MediaOverviewActivity_collecting_attachments">Kolekto de kunsendaĵoj...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Aŭdvida mesaĝo</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Aldoni apudskribon...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Elemento estis forigita, ĉar ĝi transpasis la grandlimon.</string>
     <string name="MediaSendActivity_camera_unavailable">Fotilo ne disponeblas.</string>
-    <string name="MediaSendActivity_message_to_s">Mesaĝo al %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Vi ne povas kunhavigi pli ol %d elementon.</item>
         <item quantity="other">Vi ne povas kunhavigi pli ol %d elementojn.</item>
@@ -195,7 +192,6 @@
     <string name="ThreadRecord_group_updated">Grupo ĝisdatigita</string>
     <string name="ThreadRecord_left_the_group">Forlasis la grupon</string>
     <string name="ThreadRecord_secure_session_reset">Sekura seanco restarigita.</string>
-    <string name="ThreadRecord_draft">Malneto:</string>
     <string name="ThreadRecord_called">Vi telefonis</string>
     <string name="ThreadRecord_called_you">Telefonis vin</string>
     <string name="ThreadRecord_missed_call">Maltrafita alvoko</string>
@@ -221,7 +217,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Malbone ĉifrita MMS-mesaĝo</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-mesaĝo ĉifrita por neekzistanta seanco</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Silentigi sciigojn</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Tuŝetu por malfermi.</string>
     <string name="KeyCachingService_passphrase_cached">Session estas malŝlosita</string>
@@ -242,7 +237,6 @@
     <string name="MessageNotifier_error_delivering_message">Eraro dum livero de mesaĝo.</string>
     <string name="MessageNotifier_mark_all_as_read">Marki ĉiujn legitaj</string>
     <string name="MessageNotifier_mark_read">Marki legita</string>
-    <string name="MessageNotifier_reply">Respondi</string>
     <string name="MessageNotifier_pending_signal_messages">Pritraktotaj Session-aj mesaĝoj</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Vi havas pritraktotajn Session-ajn mesaĝojn; tuŝetu por malfermi kaj ricevi ilin</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -253,8 +247,7 @@
     <string name="NotificationChannel_backups">Savkopioj</string>
     <string name="NotificationChannel_locked_status">Ŝlosostato</string>
     <string name="NotificationChannel_app_updates">Aplikaĵaj ĝisdatigoj</string>
-    <string name="NotificationChannel_other">Alia</string>
-    <string name="NotificationChannel_group_messages">Mesaĝoj</string>
+    <string name="other">Alia</string>
     <string name="NotificationChannel_missing_display_name">Nekonata</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rapida respondo ne eblas, kiam Session estas ŝlosita!</string>
@@ -364,7 +357,6 @@
     <string name="arrays__mute_for_one_day">Silentigi dum 1 tago</string>
     <string name="arrays__mute_for_seven_days">Silentigi dum 7 tagoj</string>
     <string name="arrays__mute_for_one_year">Silentigi dum 1 jaro</string>
-    <string name="arrays__mute_forever">Silentigi por ĉiam</string>
     <string name="arrays__settings_default">Laŭ la ĝenerala agordo</string>
     <string name="arrays__enabled">Ŝaltita</string>
     <string name="arrays__disabled">Malŝaltita</string>
@@ -378,7 +370,7 @@
     <string name="arrays__large">Granda</string>
     <string name="arrays__extra_large">Tre granda</string>
     <string name="arrays__high">Alta</string>
-    <string name="arrays__max">Maksimuma</string>
+    <string name="max">Maksimuma</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d horo</item>
@@ -448,7 +440,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Malsilentigi</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Silentigi sciigojn</string>
+    <string name="notificationsMute">Silentigi sciigojn</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Modifi grupon</string>
     <string name="conversation__menu_leave_group">Forlasi la grupon</string>
@@ -471,8 +463,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Malnovaj mesaĝoj sukcese forviŝiĝis</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Permeso bezonata</string>
-    <string name="Permissions_continue">Daŭrigi</string>
-    <string name="Permissions_not_now">Ne nun</string>
+    <string name="notNow">Ne nun</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Savkopioj konserviĝos al ekstera konservejo kaj ĉifriĝos per la suba pasfrazo. Vi devos havi tiun ĉi pasfrazon por restaŭri savkopion.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Mi skribis tiun ĉi pasfrazon. Sen ĝi, mi ne povos restaŭri savkopion.</string>
     <string name="registration_activity__skip">Preterpasi</string>
@@ -493,7 +484,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopii publikan ŝlosilon</string>
     <!-- Session -->
-    <string name="continue_2">Daŭrigi</string>
+    <string name="_continue">Daŭrigi</string>
     <string name="copy">Kopii</string>
     <string name="invalid_url">Malvalida URL</string>
     <string name="copied">Kopiite al tondejo</string>
@@ -513,7 +504,6 @@
     <string name="activity_register_title">Diru saluton al via Session ID</string>
     <string name="activity_register_explanation">Via Session ID estas la unika adreso kiun homoj povas uzi por kontakti en Session. Sen ligo al via vera identeco, via Session ID estas tute anonima kaj privata per dezajno.</string>
     <string name="activity_restore_title">Restaŭri vian konton</string>
-    <string name="activity_restore_explanation">Entajpu la riparan frazon, kiu estis donita al vi kiam vi aliĝis, por ripari vian konton.</string>
     <string name="activity_restore_seed_edit_text_hint">Entajpu vian riparan frazon</string>
     <string name="activity_display_name_title_2">Elektu vian vidigan nomon</string>
     <string name="activity_display_name_explanation">Ĉi tio estos via nomo kiam vi uzas Sesion. Ĝi povas esti via vera nomo, alinomo, aŭ io ajn alia vi volas.</string>

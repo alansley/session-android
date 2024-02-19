@@ -18,7 +18,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(تصویر)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(آڈیو)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ویڈیو)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(جواب)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">میڈیا کو منتخب کرنے کے لیے ایپ نہیں مل سکی.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">تصاویر، ویڈیوز، یا آڈیو منسلک کرنے کے لیے سیشن کو سٹوریج کی اجازت درکار ہے، لیکن اسے مستقل طور پر مسترد کر دیا گیا ہے۔ براہ کرم ایپ کی ترتیبات کے مینو کو جاری رکھیں، \"اجازتیں\" کو منتخب کریں، اور \"اسٹوریج\" کو فعال کریں.</string>
@@ -47,7 +46,7 @@
     <string name="ConversationActivity_add_attachment">منسلکہ شامل کریں</string>
     <string name="ConversationActivity_select_contact_info">رابطے کی معلومات منتخب کریں</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">معذرت، آپ کے منسلکہ کو ترتیب دینے میں ایک خامی تھی.</string>
-    <string name="ConversationActivity_message">پیغام</string>
+    <string name="message">پیغام</string>
     <string name="ConversationActivity_compose">تحریر</string>
     <string name="ConversationActivity_muted_until_date">%1$s تک خاموش کر دیا گیا۔</string>
     <string name="ConversationActivity_muted_forever">خاموش</string>
@@ -80,7 +79,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">حذف کرنے کا عمل جاری ہے</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">پیغامات حذف ہو رہے ہیں...</string>
-    <string name="MediaOverviewActivity_Select_all">تمام منتخب کریں</string>
     <string name="MediaOverviewActivity_collecting_attachments">منسلکات کو جمع کرنے کا عمل جاری ہے...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ملٹی میڈیا پیغام</string>

@@ -30,7 +30,7 @@
     <string name="ConversationItem_read_more">Lees Meer</string>
     <!-- ConversationActivity -->
     <string name="ConversationActivity_select_contact_info">Kies kontak besonderhede</string>
-    <string name="ConversationActivity_message">Boodskap</string>
+    <string name="message">Boodskap</string>
     <string name="ConversationActivity_leave_group">Verlaat groep?</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
@@ -65,7 +65,6 @@
     <!-- MediaPreviewActivity -->
     <!-- MessageNotifier -->
     <!-- Notification Channels -->
-    <string name="NotificationChannel_group_messages">Boodskappe</string>
     <string name="NotificationChannel_missing_display_name">Onbekend</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->

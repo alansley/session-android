@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(imaxe)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vídeo)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(resposta)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Non se atopa unha app para seleccionar contido multimedia.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session require permiso de almacenamento para poder anexar fotografías, vídeos ou ficheiros de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Engadir anexo</string>
     <string name="ConversationActivity_select_contact_info">Seleccionar información de contacto</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sentímolo, produciuse un erro ao configurar o teu anexo.</string>
-    <string name="ConversationActivity_message">Escribe aquí a túa mensaxe</string>
+    <string name="message">Escribe aquí a túa mensaxe</string>
     <string name="ConversationActivity_compose">Redactar</string>
     <string name="ConversationActivity_muted_until_date">Silenciado até %1$s</string>
     <string name="ConversationActivity_member_count">%1$d membros</string>
@@ -142,7 +141,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Borrando</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Borrando mensaxes...</string>
-    <string name="MediaOverviewActivity_Select_all">Seleccionar todo</string>
     <string name="MediaOverviewActivity_collecting_attachments">Recompilando anexos...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Mensaxe multimedia</string>
@@ -154,7 +152,6 @@
     <string name="MediaSendActivity_add_a_caption">Engadir un título...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Eliminouse un elemento porque o seu tamaño excede o límite</string>
     <string name="MediaSendActivity_camera_unavailable">Cámara non dispoñible.</string>
-    <string name="MediaSendActivity_message_to_s">Mensaxe para %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Non podes compartir máis de %d elemento.</item>
         <item quantity="other">Non podes compartir máis de %d elementos.</item>
@@ -194,7 +191,6 @@
     <string name="ThreadRecord_group_updated">Grupo actualizado</string>
     <string name="ThreadRecord_left_the_group">Abandonou o grupo</string>
     <string name="ThreadRecord_secure_session_reset">Restablecer sesión segura.</string>
-    <string name="ThreadRecord_draft">Borrador:</string>
     <string name="ThreadRecord_called">Chamaches a</string>
     <string name="ThreadRecord_called_you">Chamoute</string>
     <string name="ThreadRecord_missed_call">Chamada perdida</string>
@@ -218,7 +214,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Mensaxe MMS mal cifrada</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mensaxe MMS cifrada para unha sesión que non existe</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Silenciar notificacións</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Toca para abrir.</string>
     <string name="KeyCachingService_passphrase_cached">Session está desbloqueado</string>
@@ -238,7 +233,6 @@
     <string name="MessageNotifier_error_delivering_message">Erro entregando a mensaxe.</string>
     <string name="MessageNotifier_mark_all_as_read">Marcar todas como lidas</string>
     <string name="MessageNotifier_mark_read">Marcar como lida</string>
-    <string name="MessageNotifier_reply">Responder</string>
     <string name="MessageNotifier_pending_signal_messages">Mensaxes de Session pendentes</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Tes mensaxes de Session pendentes, toca para abrir e recuperalas</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -249,8 +243,7 @@
     <string name="NotificationChannel_backups">Copias de seguranza</string>
     <string name="NotificationChannel_locked_status">Bloquear estado</string>
     <string name="NotificationChannel_app_updates">Actualizacións da app</string>
-    <string name="NotificationChannel_other">Outra</string>
-    <string name="NotificationChannel_group_messages">Mensaxes</string>
+    <string name="other">Outra</string>
     <string name="NotificationChannel_missing_display_name">Descoñecido</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A resposta rápida non está dispoñible cando Session está bloqueado!</string>
@@ -371,7 +364,7 @@
     <string name="arrays__large">Grande</string>
     <string name="arrays__extra_large">Moi grande</string>
     <string name="arrays__high">Alta</string>
-    <string name="arrays__max">Máxima</string>
+    <string name="max">Máxima</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d hora</item>
@@ -440,7 +433,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Activar o son</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Silenciar notificacións</string>
+    <string name="notificationsMute">Silenciar notificacións</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editar grupo</string>
     <string name="conversation__menu_leave_group">Abandonar grupo</string>
@@ -463,8 +456,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Mensaxes antigas borradas satisfactoriamente</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Permiso necesario</string>
-    <string name="Permissions_continue">Continuar</string>
-    <string name="Permissions_not_now">Agora non</string>
+    <string name="notNow">Agora non</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">As copias de seguranza gardaranse no almacenamento externo e cifraranse cunha frase de paso. A devandita frase é necesaria para restaurar unha copia de seguranza.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Escribín esta frase de paso. Sen ela non poderei restaurar unha copia de seguranza.</string>
     <string name="registration_activity__skip">Omitir</string>
@@ -485,7 +477,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Copiar a clave pública</string>
     <!-- Session -->
-    <string name="continue_2">Continuar</string>
+    <string name="_continue">Continuar</string>
     <string name="copy">Copiar</string>
     <string name="invalid_url">URL inválido</string>
     <string name="copied">Copiado ao portapapeis</string>

@@ -31,7 +31,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(obrázek)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(zvuk)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(odpověď)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nemohu nalézt aplikaci pro vybraný typ dat.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signál potřebuje oprávnění pro přístup k úložišti aby mohl připojovat fotky, videa nebo zvuky, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\",</string>
@@ -60,7 +59,7 @@
     <string name="ConversationActivity_add_attachment">Přidat přílohu</string>
     <string name="ConversationActivity_select_contact_info">Vybrat informace o kontaktu</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Omlouváme se, ale došlo k chybě při zpracování přílohy</string>
-    <string name="ConversationActivity_message">Zpráva</string>
+    <string name="message">Zpráva</string>
     <string name="ConversationActivity_compose">Napsat</string>
     <string name="ConversationActivity_muted_until_date">Ztlumeno do %1$s</string>
     <string name="ConversationActivity_muted_forever">Ztlumeno</string>
@@ -161,7 +160,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Mažu</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Mažu zprávy...</string>
-    <string name="MediaOverviewActivity_Select_all">Označit vše</string>
     <string name="MediaOverviewActivity_collecting_attachments">Shromažďuji přílohy...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediální zpráva</string>
@@ -173,7 +171,6 @@
     <string name="MediaSendActivity_add_a_caption">Přidat titulek...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Položka byla odebrána, protože překročila povolenou velikost.</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera není dostupná.</string>
-    <string name="MediaSendActivity_message_to_s">Zpráva %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nemůžete sdílet více než  %d položku.</item>
         <item quantity="few">Nemůžete sdílet více než  %d položky.</item>
@@ -214,7 +211,6 @@
     <string name="ThreadRecord_group_updated">Skupina upravena</string>
     <string name="ThreadRecord_left_the_group">Opustil skupinu.</string>
     <string name="ThreadRecord_secure_session_reset">Reset zabezpečené konverzace.</string>
-    <string name="ThreadRecord_draft">Koncept:</string>
     <string name="ThreadRecord_called">Vy jste volal</string>
     <string name="ThreadRecord_called_you">Volal vás</string>
     <string name="ThreadRecord_missed_call">Zmeškaný hovor</string>
@@ -240,7 +236,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Chybně zašifrovaná MMS zpráva</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS zpráva byla zašifrována pro neexistující konverzaci</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Ztišit upozornění</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Stisknutím otevřete.</string>
     <string name="KeyCachingService_passphrase_cached">Session je odemčen</string>
@@ -261,7 +256,6 @@
     <string name="MessageNotifier_error_delivering_message">Chyba při doručení zprávy.</string>
     <string name="MessageNotifier_mark_all_as_read">Označit vše jako přečtené</string>
     <string name="MessageNotifier_mark_read">Označit jako přečtené</string>
-    <string name="MessageNotifier_reply">Odpověď</string>
     <string name="MessageNotifier_pending_signal_messages">Nevyřízené zprávy Session</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Máte nevyřízené zprávy Session, klepnutím je otevřete a načtete.</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -272,8 +266,7 @@
     <string name="NotificationChannel_backups">Zálohy</string>
     <string name="NotificationChannel_locked_status">Stav zámku</string>
     <string name="NotificationChannel_app_updates">Aktulizace aplikace</string>
-    <string name="NotificationChannel_other">Ostatní</string>
-    <string name="NotificationChannel_group_messages">Zprávy</string>
+    <string name="other">Ostatní</string>
     <string name="NotificationChannel_missing_display_name">Neznámý</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rychlá odpověď není dostupná, pokud je Session uzamčen!</string>
@@ -385,7 +378,6 @@
     <string name="arrays__mute_for_one_day">Ztišit na 1 den</string>
     <string name="arrays__mute_for_seven_days">Ztišit na 7 dnů</string>
     <string name="arrays__mute_for_one_year">Ztišit na 1 rok</string>
-    <string name="arrays__mute_forever">Ztlumit navždy</string>
     <string name="arrays__settings_default">Výchozí nastavení</string>
     <string name="arrays__enabled">Povoleno</string>
     <string name="arrays__disabled">Zakázáno</string>
@@ -399,7 +391,7 @@
     <string name="arrays__large">Velké</string>
     <string name="arrays__extra_large">Extra velké</string>
     <string name="arrays__high">Vysoká</string>
-    <string name="arrays__max">Maximum</string>
+    <string name="max">Maximum</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d hodina</item>
@@ -471,7 +463,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Nahlas</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Ztišit upozornění</string>
+    <string name="notificationsMute">Ztišit upozornění</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editovat skupinu</string>
     <string name="conversation__menu_leave_group">Opustit skupinu</string>
@@ -494,8 +486,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Staré zprávy byly úspěšně smazány.</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Vyžadovaná oprávnění</string>
-    <string name="Permissions_continue">Pokračovat</string>
-    <string name="Permissions_not_now">Teď ne</string>
+    <string name="notNow">Teď ne</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Zálohy budou uloženy na externí úložiště a zašifrovány níže uvedeným heslem. Toto heslo musíte znát abyste mohli zálohy obnovit.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Heslo jsem si zapsal. Bez něj nebudu schopen obnovit data ze zálohy.</string>
     <string name="registration_activity__skip">Přeskočit</string>
@@ -516,7 +507,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopírovat veřejný klíč</string>
     <!-- Session -->
-    <string name="continue_2">Pokračovat</string>
+    <string name="_continue">Pokračovat</string>
     <string name="copy">Kopírovat</string>
     <string name="invalid_url">Neplatná adresa URL</string>
     <string name="copied">Zkopírováno do schránky</string>
@@ -536,7 +527,6 @@
     <string name="activity_register_title">Přivítejte své nové Session ID</string>
     <string name="activity_register_explanation">Vaše Session ID je jedinečná adresa, kterou mohou lidé použít k vašemu kontaktování na Session. Bez jakékoli návaznosti na vaší skutečnou identitu je vaše Session ID stavbou zcela anonymní a soukromí chránící.</string>
     <string name="activity_restore_title">Obnovit účet</string>
-    <string name="activity_restore_explanation">Zadejte frázi pro obnovení, která vám byla vygenerována během registrace účtu.</string>
     <string name="activity_restore_seed_edit_text_hint">Zadejte frázi pro obnovení</string>
     <string name="activity_display_name_title_2">Vaše jméno</string>
     <string name="activity_display_name_explanation">Toto bude váš pseudonym během používání Session. Může to být vaše skutečné jméno, alias, nebo cokoliv jiného, co se vám líbí.</string>

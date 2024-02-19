@@ -22,7 +22,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(shuyu)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(uyariy)</string>
     <string name="DraftDatabase_Draft_video_snippet">(shuyukuyurik)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(kutichina)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Kayta rikuchinkapakka mana aplicacionta taririnchu.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session ari nichun munanmi shuyuman, uyayman, shuyukuyurikmanpash yaykunkapak, shinapash mana arinirishkachu.  \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Almacenamiento\" paskarichun.</string>
@@ -119,7 +118,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Pichakun</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Chaskikunata pichakun...</string>
-    <string name="MediaOverviewActivity_Select_all">Tukuyta akllana</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia chaski</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS chaskita uryakuchikun</string>
@@ -161,7 +159,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="ThreadRecord_group_updated">Tantanakuy mushukyashka</string>
     <string name="ThreadRecord_left_the_group">Tanatakuymanta llukshi</string>
     <string name="ThreadRecord_secure_session_reset">Kutinlla alliman kallari</string>
-    <string name="ThreadRecord_draft">Hawalla rurashka</string>
     <string name="ThreadRecord_called">Kayarka</string>
     <string name="ThreadRecord_called_you">Kayachirka</string>
     <string name="ThreadRecord_missed_call">Kayayta mana kutichishka</string>
@@ -183,7 +180,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Killkana MMS pakalla wakllimi kan</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS chaskika mana tiyashka pachapimi pakakurka.</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Chayamuk rikunakunata upallayachina</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Paskankapak llapi.</string>
     <string name="KeyCachingService_passphrase_cached">Session yaykunallami kan.</string>
@@ -203,7 +199,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="MessageNotifier_error_delivering_message">Chaskita chaskichikushpa pantarka.</string>
     <string name="MessageNotifier_mark_all_as_read">Killkakatishkami nishpa tukuyllakunata unanchay </string>
     <string name="MessageNotifier_mark_read">Killkakatishkami nishpa unanchay</string>
-    <string name="MessageNotifier_reply">Kutichina</string>
     <string name="MessageNotifier_pending_signal_messages">Session chaskikuna shuyanakun</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Session chaskikuna shuyanakukta charinki, paskankapak uryakuchinkapakpash llapipay</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -214,8 +209,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="NotificationChannel_backups">Wakaychikpa chayshinakuna</string>
     <string name="NotificationChannel_locked_status">Kashkata pakana</string>
     <string name="NotificationChannel_app_updates">Aplicacionta kunanyachikuy</string>
-    <string name="NotificationChannel_other">Shuk yupaykuna </string>
-    <string name="NotificationChannel_group_messages">Chaskikuna </string>
+    <string name="other">Shuk yupaykuna </string>
     <string name="NotificationChannel_missing_display_name">Mana riksishka</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Session  pakashka kakpika ñapash kutichitaka mana usharinchu</string>
@@ -324,7 +318,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="arrays__large">Hatun</string>
     <string name="arrays__extra_large">Yapa hatun</string>
     <string name="arrays__high">Hatun</string>
-    <string name="arrays__max">Chaykamanlla</string>
+    <string name="max">Chaykamanlla</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%dpacha</item>
@@ -390,7 +384,7 @@ ranti pakalla yupaykunamanta</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Upallayachishkata anchuchina</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Chayamuk rikunakunata upallayachina</string>
+    <string name="notificationsMute">Chayamuk rikunakunata upallayachina</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Tantanakuyta mushukyachina</string>
     <string name="conversation__menu_leave_group">Kay tantanakuy ukumanta llukshinkapak munankichu.</string>
@@ -413,8 +407,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="trimmer__old_messages_successfully_deleted">Mawka chaskikunata allipachami picharirka</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Mañayta mutsurinmi</string>
-    <string name="Permissions_continue">Katina</string>
-    <string name="Permissions_not_now">Kunanka mana</string>
+    <string name="notNow">Kunanka mana</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Wakaychishka chayshinakunaka kanlla allichik ukupi  allichirinkami, urapi paskachik shimiwan. Kutinlla kay wakaychishkakunata tikrachimunkapakka paskachik shimita charinami kanki.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Kay paskachik shimita killkashkanimi . Pay illakka mana chayshinalla wakaychishkakunata kallarichita usharinkachu.</string>
     <string name="registration_activity__skip">Pawana</string>

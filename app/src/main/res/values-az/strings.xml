@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(təsvir)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(səs)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(cavabla)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Media seçə biləcək bir tətbiq tapıla bilmir.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, foto, video və ya səs əlavə etmək üçün Anbar icazəsi tələb edir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\" icazəsini fəallaşdırın.</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Qoşma əlavə et</string>
     <string name="ConversationActivity_select_contact_info">Əlaqə məlumatını seç</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Təəssüf ki, qoşmanız tənzimlənərkən xəta baş verdi.</string>
-    <string name="ConversationActivity_message">Mesaj</string>
+    <string name="message">Mesaj</string>
     <string name="ConversationActivity_compose">Yarat</string>
     <string name="ConversationActivity_muted_until_date">%1$s qədər səssizdə</string>
     <string name="ConversationActivity_muted_forever">Səssizdə</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Silinir</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Mesajlar silinir...</string>
-    <string name="MediaOverviewActivity_Select_all">Hamısını seç</string>
     <string name="MediaOverviewActivity_collecting_attachments">Qoşmalar yığılır...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia mesajı</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Başlıq əlavə et...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Həcm limitini aşdığı üçün bir element çıxarıldı</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera əlçatmazdır.</string>
-    <string name="MediaSendActivity_message_to_s">%s üçün mesaj</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">%d elementdən çoxunu paylaşa bilməzsiniz.</item>
         <item quantity="other">%d elementdən çoxunu paylaşa bilməzsiniz.</item>
@@ -196,7 +193,6 @@
     <string name="ThreadRecord_group_updated">Qrup yeniləndi</string>
     <string name="ThreadRecord_left_the_group">Qrupu tərk etdi</string>
     <string name="ThreadRecord_secure_session_reset">Güvənli seansı sıfırlandı.</string>
-    <string name="ThreadRecord_draft">Qaralama:</string>
     <string name="ThreadRecord_called">Zəng etdiniz</string>
     <string name="ThreadRecord_called_you">Sizə zəng etdi</string>
     <string name="ThreadRecord_missed_call">Cavabsız zəng</string>
@@ -222,7 +218,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Pis şifrələnmiş MMS mesaj</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS mesaj, mövcud olmayan seans üçün şifrələnib</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Bildirişlərin səsini kəs</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Açmaq üçün toxunun.</string>
     <string name="KeyCachingService_passphrase_cached">Session-ın kilidi açıldı</string>
@@ -243,7 +238,6 @@
     <string name="MessageNotifier_error_delivering_message">Mesajın çatdırılma xətası.</string>
     <string name="MessageNotifier_mark_all_as_read">Hamısını oxundu olaraq işarələ</string>
     <string name="MessageNotifier_mark_read">Oxundu olaraq işarələ</string>
-    <string name="MessageNotifier_reply">Cavabla</string>
     <string name="MessageNotifier_pending_signal_messages">Gözləyən Session mesajları</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Gözləyən Session mesajlarınız var, almaq və açmaq üçün toxunun</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -254,8 +248,7 @@
     <string name="NotificationChannel_backups">Nüsxələr</string>
     <string name="NotificationChannel_locked_status">Kilid vəziyyəti</string>
     <string name="NotificationChannel_app_updates">Tətbiq yeniləmələri</string>
-    <string name="NotificationChannel_other">Digər</string>
-    <string name="NotificationChannel_group_messages">Mesajlar</string>
+    <string name="other">Digər</string>
     <string name="NotificationChannel_missing_display_name">Bilinmir</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Session kilidli ikən, cəld cavablar əlçatmazdır!</string>
@@ -365,7 +358,6 @@
     <string name="arrays__mute_for_one_day">1 günlük səssizə al</string>
     <string name="arrays__mute_for_seven_days">7 günlük səssizə al</string>
     <string name="arrays__mute_for_one_year">1 illik səssizə al</string>
-    <string name="arrays__mute_forever">Həmişəlik səssizə al</string>
     <string name="arrays__settings_default">İlkin tənzimləmələr</string>
     <string name="arrays__enabled">Fəaldır</string>
     <string name="arrays__disabled">Sıradan çıxarıldı</string>
@@ -379,7 +371,7 @@
     <string name="arrays__large">Böyük</string>
     <string name="arrays__extra_large">Çox böyük</string>
     <string name="arrays__high">Yüksək</string>
-    <string name="arrays__max">Maksimum</string>
+    <string name="max">Maksimum</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d saat</item>
@@ -449,7 +441,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Səsi aç</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Bildirişləri səssizə al</string>
+    <string name="notificationsMute">Bildirişləri səssizə al</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Qrupa düzəliş et</string>
     <string name="conversation__menu_leave_group">Qrupu tərk et</string>
@@ -472,8 +464,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Köhnə mesajlar uğurla silindi</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">İcazə tələb edilir</string>
-    <string name="Permissions_continue">Davam et</string>
-    <string name="Permissions_not_now">İndi yox</string>
+    <string name="notNow">İndi yox</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Nüsxələmələr xarici anbarda saxlanılacaq və aşağıdakı parolla şifrələnəcək. Bir nüsxəni bərpa etmək üçün bu parola sahib olmalısınız.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Bu parolu özümdə qeyd olaraq saxladım. Bu parol olmadan, nüsxəni bərpa edə bilmərəm.</string>
     <string name="registration_activity__skip">Ötür</string>
@@ -494,7 +485,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">İctimai açarı kopyala</string>
     <!-- Session -->
-    <string name="continue_2">Davam</string>
+    <string name="_continue">Davam</string>
     <string name="copy">Kopyala</string>
     <string name="invalid_url">Etibarsız URL</string>
     <string name="copied">Lövhəyə kopyalandı</string>
@@ -514,7 +505,6 @@
     <string name="activity_register_title">Session kimliyinizə salam deyin</string>
     <string name="activity_register_explanation">Session kimliyiniz, əlaqələrin Session-da sizinlə əlaqə saxlamaq üçün istifadə edəcəyi unikal bir ünvandır. Gerçək kimliyinizlə heç bir bağlantısı olmadan, Session kimliyiniz, ümumilikdə anonimlik və gizlilik üzərinə dizayn edilmişdir.</string>
     <string name="activity_restore_title">Hesabınızı bərpa edin</string>
-    <string name="activity_restore_explanation">Hesabınızı bərpa etmək üçün qeydiyyatdan keçərkən sizə verliən bərpa paroluunu daxil edin.</string>
     <string name="activity_restore_seed_edit_text_hint">Bərpa parolunu daxil edin</string>
     <string name="activity_display_name_title_2">Ekran adınızı seçin</string>
     <string name="activity_display_name_explanation">Bu, Session istifadə edərkən adınız olacaq. Gerçək adınız, ləqəbiniz və ya istədiyiniz başqa bir ad ola bilər.</string>

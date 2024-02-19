@@ -15,7 +15,6 @@
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(picha)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sauti)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(jibu)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nashindwa kupata app ya kuchagua habari</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Hifadhi\".</string>
@@ -93,7 +92,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">Inafutwa</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Kufuta meseji</string>
-    <string name="MediaOverviewActivity_Select_all">Chagua vyote</string>
     <string name="MediaOverviewActivity_collecting_attachments">kukusanya viambatisho</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Ujumbe wa Multimedia</string>
@@ -136,7 +134,6 @@
     <string name="ThreadRecord_group_updated">Kikundi kilichosasishwa</string>
     <string name="ThreadRecord_left_the_group">kujitoa katika kundi</string>
     <string name="ThreadRecord_secure_session_reset">rekebisha salama kipindi</string>
-    <string name="ThreadRecord_draft">rasimu</string>
     <string name="ThreadRecord_called">wewe uliita</string>
     <string name="ThreadRecord_called_you">ulipigiwa simu</string>
     <string name="ThreadRecord_missed_call">Simu zilizopotea</string>
@@ -155,7 +152,6 @@
     <string name="MessageDisplayHelper_bad_encrypted_message">ujumbe mbaya encrypted</string>
     <!-- MmsMessageRecord -->
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Arifa za bubu</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">gusa kufungua</string>
     <string name="KeyCachingService_passphrase_cached">Session imefunguliwa</string>
@@ -175,7 +171,6 @@
     <string name="MessageNotifier_error_delivering_message">hitilafu kupokea ujumbe</string>
     <string name="MessageNotifier_mark_all_as_read">nakili yote kama haijasomeka</string>
     <string name="MessageNotifier_mark_read">soma nakili</string>
-    <string name="MessageNotifier_reply">jibu</string>
     <string name="MessageNotifier_pending_signal_messages">Ujumbe wa Session inasubiri</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">una ujumbe wa Session unasubiri, gusa kufungua na kurudi</string>
     <string name="MessageNotifier_unknown_contact_message">Mawasiliano</string>
@@ -185,8 +180,7 @@
     <string name="NotificationChannel_backups">Rudisha taarifa</string>
     <string name="NotificationChannel_locked_status">Hali ya kufunga</string>
     <string name="NotificationChannel_app_updates">Sasisho za programu</string>
-    <string name="NotificationChannel_other">ingine</string>
-    <string name="NotificationChannel_group_messages">ujumbe</string>
+    <string name="other">ingine</string>
     <string name="NotificationChannel_missing_display_name">Isiyojulikana</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Jibu la haraka halipatikani wakati Session imefungwa!</string>
@@ -295,7 +289,7 @@
     <string name="arrays__large">kubwa</string>
     <string name="arrays__extra_large">kubwa zaidi</string>
     <string name="arrays__high">juu</string>
-    <string name="arrays__max">mwisho</string>
+    <string name="max">mwisho</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">tuma kiungo kilichoonekana</string>
@@ -359,7 +353,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Usifute</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Arifa za bubu</string>
+    <string name="notificationsMute">Arifa za bubu</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Hariri kikundi</string>
     <string name="conversation__menu_leave_group">Toka kwenye kikundi</string>
@@ -382,8 +376,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Ujumbe wa zamani umefutwa kwa ufanisi</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Ruhusa inahitajika</string>
-    <string name="Permissions_continue">Endelea</string>
-    <string name="Permissions_not_now">sio sasa</string>
+    <string name="notNow">sio sasa</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backups itahifadhiwa kwenye hifadhi ya nje na imetambulishwa na nenosiri chini. Lazima uwe na chapisho hili ili urejeshe upya.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Nimeandika neno hili la kupitisha. Bila hivyo, sitashindwa kurejesha salama.</string>
     <string name="registration_activity__skip">ruka</string>

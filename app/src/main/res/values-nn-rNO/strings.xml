@@ -22,7 +22,6 @@
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bilete)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(svar)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Fann ingen program for valt medium.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session treng tilgang til lagring for å legga ved bilete, film eller lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
@@ -126,7 +125,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Slettar</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Slettar meldingar …</string>
-    <string name="MediaOverviewActivity_Select_all">Vel alle</string>
     <string name="MediaOverviewActivity_collecting_attachments">Hentar vedlegg …</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediemelding</string>
@@ -171,7 +169,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="ThreadRecord_group_updated">Grupper oppdatert</string>
     <string name="ThreadRecord_left_the_group">Forlét gruppa</string>
     <string name="ThreadRecord_secure_session_reset">Sikker økt tilbakestilt.</string>
-    <string name="ThreadRecord_draft">Utkast:</string>
     <string name="ThreadRecord_called">Du ringte</string>
     <string name="ThreadRecord_called_you">Ringte deg</string>
     <string name="ThreadRecord_missed_call">Usvart anrop</string>
@@ -193,7 +190,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Dårleg kryptert MMS-melding</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-melding kryptert for ei økt som ikkje finst</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Ikkje vis varsel</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Trykk for å opna.</string>
     <string name="KeyCachingService_passphrase_cached">Session er låst opp</string>
@@ -213,7 +209,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="MessageNotifier_error_delivering_message">Feil under levering av melding.</string>
     <string name="MessageNotifier_mark_all_as_read">Merk alle som lesne</string>
     <string name="MessageNotifier_mark_read">Merk lesen</string>
-    <string name="MessageNotifier_reply">Svar</string>
     <string name="MessageNotifier_pending_signal_messages">Uhenta Session-meldingar</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Du har uhenta Session-meldingar, klikk for å opna og henta</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -224,8 +219,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="NotificationChannel_backups">Reservekopiar</string>
     <string name="NotificationChannel_locked_status">Låsestatus</string>
     <string name="NotificationChannel_app_updates">Programoppdateringar</string>
-    <string name="NotificationChannel_other">Anna</string>
-    <string name="NotificationChannel_group_messages">Meldingar</string>
+    <string name="other">Anna</string>
     <string name="NotificationChannel_missing_display_name">Ukjend</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hurtigsvar er utilgjengeleg når Session er låst.</string>
@@ -333,7 +327,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__large">Stor</string>
     <string name="arrays__extra_large">Veldig stor</string>
     <string name="arrays__high">Høg</string>
-    <string name="arrays__max">Maks</string>
+    <string name="max">Maks</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d time</item>
@@ -398,7 +392,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Vis varsel</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Ikkje vis varsel</string>
+    <string name="notificationsMute">Ikkje vis varsel</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Rediger gruppa</string>
     <string name="conversation__menu_leave_group">Forlat gruppe</string>
@@ -421,8 +415,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamle meldingar vart sletta</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Tilgang krevst</string>
-    <string name="Permissions_continue">Hald fram</string>
-    <string name="Permissions_not_now">Ikkje no</string>
+    <string name="notNow">Ikkje no</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Reservekopiar blir lagra til ekstern lagring og krypterte med passordfrasen nedanfor. Du må ha denne passordfrasen for å gjenoppretta frå kopien.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Eg har skrive ned denne passordfrasen. Utan den vil eg ikkje få gjenoppretta frå reservekopien.</string>
     <string name="registration_activity__skip">Hopp over</string>

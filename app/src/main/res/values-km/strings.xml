@@ -22,7 +22,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(រូបភាព)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(សំឡេង)</string>
     <string name="DraftDatabase_Draft_video_snippet">(វីដេអូ)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(ឆ្លើយតប)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">មិនអាចស្វែងរកកម្មវិធីដើម្បីជ្រើសរើសព័ត៌មាន</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session ទាមទារសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកដើម្បីភ្ជាប់រូបថត វីដេអូ ឬសំឡេង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់របស់ប្រព័ន្ធ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\" ។</string>
@@ -120,7 +119,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">កំពុងលុប</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">កំពុងលុបសារ...</string>
-    <string name="MediaOverviewActivity_Select_all">ជ្រើសរើសទាំងអស់</string>
     <string name="MediaOverviewActivity_collecting_attachments">កំពុងប្រមូលឯកសារភ្ជាប់...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">សារចម្រុះ</string>
@@ -132,7 +130,6 @@
     <string name="MediaSendActivity_add_a_caption">ដាក់ចំណងជើង...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">ចំណុចមួយត្រូវបានលុបចេញព្រោះវាលើសពីទំហំកំណត់</string>
     <string name="MediaSendActivity_camera_unavailable">កាមេរ៉ាមិនដំណើរការ</string>
-    <string name="MediaSendActivity_message_to_s">សារទៅកាន់ %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">អ្នកមិនអាចចែករំលែកចំនួនលើសពី %d ។</item>
     </plurals>
@@ -171,7 +168,6 @@
     <string name="ThreadRecord_group_updated">បានធ្វើបច្ចុប្បន្នភាពក្រុម</string>
     <string name="ThreadRecord_left_the_group">បានចាកចេញពីក្រុម</string>
     <string name="ThreadRecord_secure_session_reset">កំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ</string>
-    <string name="ThreadRecord_draft">ព្រាង៖</string>
     <string name="ThreadRecord_called">អ្នកបានហៅ</string>
     <string name="ThreadRecord_called_you">បានហៅមកអ្នក</string>
     <string name="ThreadRecord_missed_call">ការហៅមិនបានទទួល</string>
@@ -193,7 +189,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">ការណាល់កូដសម្ងាត់សារMMS​ មិនត្រឹមត្រូវ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">សារMMS ត្រូវបានកាណាល់កូដសម្ងាត់សម្រាប់កំឡុងពេលមិនប្រើប្រាស់</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">បិទសំឡេងសារជូនដំណឹង</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">ចុច ដើម្បីបើក។</string>
     <string name="KeyCachingService_passphrase_cached"> Session បានដោះសោ</string>
@@ -213,7 +208,6 @@
     <string name="MessageNotifier_error_delivering_message">ការបញ្ជូនសារមានបញ្ហា។</string>
     <string name="MessageNotifier_mark_all_as_read">សម្គាល់ថាបានអានទាំងអស់</string>
     <string name="MessageNotifier_mark_read">សម្គាល់ថាបានអាន</string>
-    <string name="MessageNotifier_reply">ឆ្លើយតប</string>
     <string name="MessageNotifier_pending_signal_messages">សារ Session បញ្ចូនមិនទាន់សម្រេច</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">អ្នកមានសារSession មិនទាន់បញ្ចូនសម្រេច ចុចបើក និងទាញយកមកវិញ</string>
     <string name="MessageNotifier_unknown_contact_message">ទំនាក់ទំនង</string>
@@ -223,8 +217,7 @@
     <string name="NotificationChannel_backups">បម្រុងទុក</string>
     <string name="NotificationChannel_locked_status">ស្ថានភាពចាក់សោរ</string>
     <string name="NotificationChannel_app_updates">បច្ចុប្បន្នភាពកម្មវិធី</string>
-    <string name="NotificationChannel_other">ផ្សេងៗ</string>
-    <string name="NotificationChannel_group_messages">សារ</string>
+    <string name="other">ផ្សេងៗ</string>
     <string name="NotificationChannel_missing_display_name">មិនស្គាល់</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">មិនមានការឆ្លើយតបភ្លាមៗ នៅពេល Session ត្រូវបានចាក់សោរ!</string>
@@ -339,7 +332,7 @@
     <string name="arrays__large">ធំ</string>
     <string name="arrays__extra_large">ធំបំផុត</string>
     <string name="arrays__high">ខ្ពស់</string>
-    <string name="arrays__max">អតិបរិមា</string>
+    <string name="max">អតិបរិមា</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="other">%d ម៉ោង</item>
@@ -406,7 +399,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">បើកសំឡេង</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">បិទសំឡេងសារជូនដំណឹង</string>
+    <string name="notificationsMute">បិទសំឡេងសារជូនដំណឹង</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">កែប្រែក្រុម</string>
     <string name="conversation__menu_leave_group">ចាកចេញពីក្រុម</string>
@@ -429,8 +422,7 @@
     <string name="trimmer__old_messages_successfully_deleted">សារចាស់ៗត្រូវបានលុបចេញដោយជោគជ័យ</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">ទាមទារការអនុញ្ញាត</string>
-    <string name="Permissions_continue">បន្ត</string>
-    <string name="Permissions_not_now">ពេលក្រោយ</string>
+    <string name="notNow">ពេលក្រោយ</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">ការបម្រុងទុក នឹងត្រូវរក្សាទុកនៅលើអង្គរក្សាទុកខាងក្រៅ និងកូដនីយកម្មជាមួយឃ្លាសម្ងាត់ខាងក្រោម។ អ្នកត្រូវមានឃ្លាសម្ងាត់នេះដើម្បីស្តារការបម្រុងទុកឡើងវិញ។</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">ខ្ញុំបានកត់ឃ្លាសម្ងាត់ទុកហើយ។ បើគ្មានវា ខ្ញុំនឹងមិនអាចស្តារការបម្រុងទុកបានទេ។</string>
     <string name="registration_activity__skip">រំលង</string>

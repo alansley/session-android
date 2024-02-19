@@ -25,7 +25,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(gambar)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(suara)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(balas)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Tidak menemukan aplikasi untuk memilih media.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session membutuhkan izin penyimpanan untuk melampirkan foto, video, atau audio, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Penyimpanan\".</string>
@@ -53,7 +52,7 @@
     <string name="ConversationActivity_add_attachment">Tambahkan lampiran</string>
     <string name="ConversationActivity_select_contact_info">Pilih info kontak</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Maaf, terjadi kesalahan pada pengaturan lampiran anda.</string>
-    <string name="ConversationActivity_message">Pesan</string>
+    <string name="message">Pesan</string>
     <string name="ConversationActivity_compose">Menyusun</string>
     <string name="ConversationActivity_muted_until_date">Senyapkan sampai %1$s</string>
     <string name="ConversationActivity_muted_forever">Disenyapkan</string>
@@ -119,7 +118,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Menghapus</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Menghapus pesan...</string>
-    <string name="MediaOverviewActivity_Select_all">Pilih semua</string>
     <string name="MediaOverviewActivity_collecting_attachments">Mengumpulkan semua lampiran...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Pesan Multimedia</string>
@@ -131,7 +129,6 @@
     <string name="MediaSendActivity_add_a_caption">Tambah keterangan...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Item telah dihapus karena melebihi batas ukuran</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera tidak tersedia.</string>
-    <string name="MediaSendActivity_message_to_s">Pesan untuk %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">Anda tidak dapat membagikan lebih dari %d item.</item>
     </plurals>
@@ -169,7 +166,6 @@
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grup diperbarui</string>
     <string name="ThreadRecord_left_the_group">Meninggalkan grup</string>
-    <string name="ThreadRecord_draft">Draf:</string>
     <string name="ThreadRecord_called">Anda menelpon</string>
     <string name="ThreadRecord_called_you">Menelpon anda</string>
     <string name="ThreadRecord_missed_call">Panggilan tidak terjawab</string>
@@ -188,7 +184,6 @@
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Pesan MMS terenkripsi buruk</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Senyapkan notifikasi</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Sentuh untuk membuka.</string>
     <string name="KeyCachingService_passphrase_cached">Session terbuka</string>
@@ -208,7 +203,6 @@
     <string name="MessageNotifier_error_delivering_message">Galat mengirim pesan.</string>
     <string name="MessageNotifier_mark_all_as_read">Tandai semua telah dibaca</string>
     <string name="MessageNotifier_mark_read">Tandai dibaca</string>
-    <string name="MessageNotifier_reply">Balas</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Anda memiliki pesan Session yang tertunda, ketuk untuk membuka dan mengambilnya</string>
     <string name="MessageNotifier_unknown_contact_message">Kontak</string>
     <!-- Notification Channels -->
@@ -217,8 +211,7 @@
     <string name="NotificationChannel_backups">Backup</string>
     <string name="NotificationChannel_locked_status">Status kunci</string>
     <string name="NotificationChannel_app_updates">Pembaruan aplikasi</string>
-    <string name="NotificationChannel_other">Lainnya</string>
-    <string name="NotificationChannel_group_messages">Pesan</string>
+    <string name="other">Lainnya</string>
     <string name="NotificationChannel_missing_display_name">Tidak Dikenal</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
@@ -302,7 +295,6 @@
     <string name="arrays__mute_for_one_day">Senyapkan selama 1 hari</string>
     <string name="arrays__mute_for_seven_days">Senyapkan selama 7 hari</string>
     <string name="arrays__mute_for_one_year">Senyapkan selama 1 tahun</string>
-    <string name="arrays__mute_forever">Senyapkan selamanya</string>
     <string name="arrays__enabled">Diaktifkan</string>
     <string name="arrays__disabled">Dinonaktifkan</string>
     <string name="arrays__name_and_message">Nama dan pesan</string>
@@ -315,7 +307,7 @@
     <string name="arrays__large">Besar</string>
     <string name="arrays__extra_large">Ekstra besar</string>
     <string name="arrays__high">Tinggi</string>
-    <string name="arrays__max">Maksimal</string>
+    <string name="max">Maksimal</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="other">%d jam</item>
@@ -358,7 +350,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Batalkan senyap</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Senyapkan notifikasi</string>
+    <string name="notificationsMute">Senyapkan notifikasi</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Ubah grup</string>
     <string name="conversation__menu_leave_group">Tinggalkan grup</string>
@@ -375,8 +367,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Pesan lama berhasil dihapus</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Izin dibutuhkan</string>
-    <string name="Permissions_continue">Lanjutkan</string>
-    <string name="Permissions_not_now">Lain kali</string>
+    <string name="notNow">Lain kali</string>
     <string name="registration_activity__skip">Lewati</string>
     <string name="BackupDialog_enable_local_backups">Aktifkan backup lokal?</string>
     <string name="BackupDialog_enable_backups">Aktifkan backup</string>
@@ -389,7 +380,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Salin public key</string>
     <!-- Session -->
-    <string name="continue_2">Lanjutkan</string>
+    <string name="_continue">Lanjutkan</string>
     <string name="copy">Salin</string>
     <string name="invalid_url">URL salah</string>
     <string name="copied">Salin ke clipboard</string>
@@ -397,7 +388,6 @@
     <string name="activity_register_title">Ucapkan halo pada Session ID anda</string>
     <string name="activity_register_explanation">Session ID adalah alamat unik yang bisa digunakan untuk mengontak anda. Tanpa koneksi dengan identitas asli, Session ID anda didesain bersifat anonim dan rahasia.</string>
     <string name="activity_restore_title">Memulihkan akun Anda</string>
-    <string name="activity_restore_explanation">Masukkan kata pemulihan yang diberikan saat anda masuk untuk memulihkan akun anda.</string>
     <string name="activity_restore_seed_edit_text_hint">Masukan kata pemulihan</string>
     <string name="activity_display_name_title_2">Pilih nama yang ditampilkan</string>
     <string name="activity_display_name_explanation">Ini akan menjadi nama anda ketika menggunakan Session. Bisa merupakan nama asli, alias, atau apapun yang anda suka.</string>

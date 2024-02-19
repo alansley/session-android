@@ -24,7 +24,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(attēls)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(skaņa)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(atbilde)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nevar atrast programmu multivides atlasīšanai.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Sesijai ir nepieciešama krātuves atļauja, lai pievienotu fotoattēlus, videoklipus vai audio, bet tā ir pastāvīgi aizliegta. Lūdzu, pārejiet uz programmu iestatījumu izvēlni, atlasiet “Atļaujas” un iespējojiet “Krātuve”.</string>
@@ -44,7 +43,7 @@
     <!-- ConversationActivity -->
     <string name="ConversationActivity_add_attachment">Pievienot pielikumu</string>
     <string name="ConversationActivity_select_contact_info">Izvēlieties kontaktinformāciju</string>
-    <string name="ConversationActivity_message">Paziņojums</string>
+    <string name="message">Paziņojums</string>
     <string name="ConversationActivity_member_count">%1$d biedri</string>
     <string name="ConversationActivity_open_group_guidelines">Kopienas vadlīnijas</string>
     <string name="ConversationActivity_invalid_recipient">Nederīgs adresāts!</string>

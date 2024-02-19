@@ -289,7 +289,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
                             }.toMutableList()
 
                     if (messageResults.isNotEmpty()) {
-                        messageResults.add(0, GlobalSearchAdapter.Model.Header(R.string.global_search_messages))
+                        messageResults.add(0, GlobalSearchAdapter.Model.Header(R.string.messages))
                     }
 
                     val newData = contactResults + messageResults

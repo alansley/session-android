@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(εικόνα)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ήχος)</string>
     <string name="DraftDatabase_Draft_video_snippet">(βίντεο)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(απάντηση)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Δεν μπορεί να βρεθεί εφαρμογή για επιλογή πολυμέσων.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio"> Το Session χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για να μπορούμε να επισυνάψουμε φωτογραφίες, βίντεο ή κομμάτια ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\". </string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Προσθήκη συνημμένου</string>
     <string name="ConversationActivity_select_contact_info">Επιλογή πληροφοριών επαφής</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Συγγνώμη, υπήρξε πρόβλημα με τη σύναψη αρχείου.</string>
-    <string name="ConversationActivity_message">Μήνυμα</string>
+    <string name="message">Μήνυμα</string>
     <string name="ConversationActivity_compose">Δημιουργία</string>
     <string name="ConversationActivity_muted_until_date">Σε σίγαση μέχρι %1$s</string>
     <string name="ConversationActivity_muted_forever">Σίγαση</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Γίνεται διαγραφή</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Διαγραφή μηνυμάτων...</string>
-    <string name="MediaOverviewActivity_Select_all">Επιλογή όλων</string>
     <string name="MediaOverviewActivity_collecting_attachments">Τα συνημμένα συλλέγονται...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Μήνυμα πολυμέσων</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Προσθήκη λεζάντας...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Ένα στοιχείο αφαιρέθηκε επειδή υπερέβη το μέγιστο μέγεθος</string>
     <string name="MediaSendActivity_camera_unavailable">Η κάμερα δεν είναι διαθέσιμη.</string>
-    <string name="MediaSendActivity_message_to_s">Μήνυμα προς τον/την %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Δεν μπορείτε να μοιραστείτε πάνω από %d αντικείμενο.</item>
         <item quantity="other">Δεν μπορείτε να μοιραστείτε πάνω από %d αντικείμενα.</item>
@@ -196,7 +193,6 @@
     <string name="ThreadRecord_group_updated">Η ομάδα ενημερώθηκε</string>
     <string name="ThreadRecord_left_the_group">Έφυγες από την ομάδα</string>
     <string name="ThreadRecord_secure_session_reset">Η ασφαλής συνεδρία επανεκκινήθηκε.</string>
-    <string name="ThreadRecord_draft">Πρόχειρο:</string>
     <string name="ThreadRecord_called">Τον/την καλέσατε</string>
     <string name="ThreadRecord_called_you">Σας κάλεσε</string>
     <string name="ThreadRecord_missed_call">Αναπάντητη κλήση</string>
@@ -222,7 +218,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">MMS μήνυμα με πρόβλημα στην κρυπτογράφησή του</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Το MMS μήνυμα κρυπτογραφήθηκε για μη υπάρχον session</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Σίγαση ειδοποιήσεων</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Πατήστε για άνοιγμα.</string>
     <string name="KeyCachingService_passphrase_cached">Το Session ξεκλειδώθηκε</string>
@@ -243,7 +238,6 @@
     <string name="MessageNotifier_error_delivering_message">Πρόβλημα κατά την παράδοση του μηνύματος.</string>
     <string name="MessageNotifier_mark_all_as_read">Σημείωση όλων ως αναγνωσμένα</string>
     <string name="MessageNotifier_mark_read">Σημείωση ως αναγνωσμένο</string>
-    <string name="MessageNotifier_reply">Απάντηση</string>
     <string name="MessageNotifier_pending_signal_messages">Μηνύματα Session σε αναμονή</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Έχετε μηνύματα Session σε αναμονή, πατήστε για να τα ανοίξετε και να τα λάβετε</string>
     <string name="MessageNotifier_contact_message">%1$s, %2$s</string>
@@ -254,8 +248,7 @@
     <string name="NotificationChannel_backups">Αντίγραφα ασφαλείας</string>
     <string name="NotificationChannel_locked_status">Κατάσταση κλειδώματος</string>
     <string name="NotificationChannel_app_updates">Αναβαθμίσεις εφαρμογής</string>
-    <string name="NotificationChannel_other">Άλλο</string>
-    <string name="NotificationChannel_group_messages">Μηνύματα</string>
+    <string name="other">Άλλο</string>
     <string name="NotificationChannel_missing_display_name">Άγνωστο</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Η γρήγορη απάντηση δεν είναι διαθέσιμη όταν το Session είναι κλειδωμένο!</string>
@@ -365,7 +358,6 @@
     <string name="arrays__mute_for_one_day">Σίγαση για 1 ημέρα</string>
     <string name="arrays__mute_for_seven_days">Σίγαση για 7 ημέρες</string>
     <string name="arrays__mute_for_one_year">Σίγαση για 1 χρόνο</string>
-    <string name="arrays__mute_forever">Σίγαση για παντα</string>
     <string name="arrays__settings_default">Προκαθορισμένες ρυθμίσεις</string>
     <string name="arrays__enabled">Ενεργοποιημένο</string>
     <string name="arrays__disabled">Απενεργοποιημένο</string>
@@ -379,7 +371,7 @@
     <string name="arrays__large">Μεγάλο</string>
     <string name="arrays__extra_large">Πολύ μεγάλο</string>
     <string name="arrays__high">Υψηλό</string>
-    <string name="arrays__max">Μέγιστο</string>
+    <string name="max">Μέγιστο</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d ώρα</item>
@@ -449,7 +441,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Αποσίγαση</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Σίγαση ειδοποιήσεων</string>
+    <string name="notificationsMute">Σίγαση ειδοποιήσεων</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Επεξεργασία ομάδας</string>
     <string name="conversation__menu_leave_group">Αποχώρηση από την ομάδα</string>
@@ -472,8 +464,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Τα παλιά μηνύματα διαγράφτηκαν επιτυχώς</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Χρειάζονται δικαιώματα πρόσβασης</string>
-    <string name="Permissions_continue">Συνέχεια</string>
-    <string name="Permissions_not_now">Όχι τώρα</string>
+    <string name="notNow">Όχι τώρα</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Τα αντίγραφα ασφαλείας αποθηκεύονται στην εξωτερική μνήμη και κρυπτογραφούνται με την παρακάτω φράση-κλειδί. Πρέπει να γνωρίζετε αυτή τη φράση-κλειδί για να επανακτήσετε το αντίγραφο ασφαλείας.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Σημείωσα σε χαρτί αυτή τη φράση-κλειδί. Χωρίς αυτή, δε θα μπορέσω να επανακτήσω το αντίγραφο ασφαλείας.</string>
     <string name="registration_activity__skip">Παράλειψη</string>
@@ -494,7 +485,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Αντιγραφή δημόσιου κλειδιού</string>
     <!-- Session -->
-    <string name="continue_2">Συνέχεια</string>
+    <string name="_continue">Συνέχεια</string>
     <string name="copy">Αντιγραφή</string>
     <string name="invalid_url">Μη έγκυρη διεύθυνση</string>
     <string name="copied">Αντιγράφηκε στο πρόχειρο</string>
@@ -514,7 +505,6 @@
     <string name="activity_register_title">Πείτε γεια στη Session ταυτότητά σας</string>
     <string name="activity_register_explanation">Η Session ταυτότητά σας είναι η μοναδική διεύθυνση που μπορούν να χρησιμοποιήσουν τα άτομα για να επικοινωνήσουν μαζί σας στο Session. Χωρίς σύνδεση με την πραγματική σας ταυτότητα, η Session ταυτότητά σας είναι εντελώς ανώνυμη και ιδιωτική.</string>
     <string name="activity_restore_title">Επαναφορά του λογαριασμού σας</string>
-    <string name="activity_restore_explanation">Εισάγετε τη φράση ανάκτησης που σας δόθηκε κατά την εγγραφή σας για να επαναφέρετε το λογαριασμό σας.</string>
     <string name="activity_restore_seed_edit_text_hint">Εισάγετε τη φράση ανάκτησης σας</string>
     <string name="activity_display_name_title_2">Επιλέξτε το εμφανιζόμενο όνομα σας</string>
     <string name="activity_display_name_explanation">Αυτό θα είναι το όνομά σας όταν χρησιμοποιείτε το Session. Μπορεί να είναι το πραγματικό σας όνομα, ένα ψευδώνυμο ή οτιδήποτε άλλο θέλετε.</string>

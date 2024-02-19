@@ -77,7 +77,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">Okusangula</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Obubabaka busangulwa</string>
-    <string name="MediaOverviewActivity_Select_all">Londa byonna.</string>
     <string name="MediaOverviewActivity_collecting_attachments">ebigatibwako bikunganyizibwa</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">obubaka obwa  vidiyo oba amaloboozi</string>
@@ -110,7 +109,6 @@
     <string name="SmsMessageRecord_duplicate_message">Ddamu message</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_secure_session_reset">Akadde akekusifu karesetinge nate</string>
-    <string name="ThreadRecord_draft">Ekyakolabwako</string>
     <string name="ThreadRecord_called">wakubye</string>
     <string name="ThreadRecord_called_you">yakubidde</string>
     <string name="ThreadRecord_missed_call">missed call</string>
@@ -120,7 +118,6 @@
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">zikiza obude bwemboozi</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Kwatako okugulawo</string>
     <string name="KeyCachingService_passphrase_cached">Session eggudwa</string>
@@ -135,7 +132,6 @@
     <string name="MessageNotifier_error_delivering_message">ensobi mukuwereza obubaka</string>
     <string name="MessageNotifier_mark_all_as_read">lamba nga esomedwa</string>
     <string name="MessageNotifier_mark_read">lamba osome</string>
-    <string name="MessageNotifier_reply">ddamu</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_missing_display_name">Tekimanyikiddwa</string>
     <!-- QuickResponseService -->
@@ -275,7 +271,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Saako obude.</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">zikiza obude bwemboozi</string>
+    <string name="notificationsMute">zikiza obude bwemboozi</string>
     <!-- conversation -->
     <string name="conversation__menu_leave_group">Vva mukibinja</string>
     <!-- conversation_popup -->
@@ -294,7 +290,6 @@
     <string name="trimmer__deleting_old_messages">Okusangula obubaka obukadde</string>
     <string name="trimmer__old_messages_successfully_deleted">Obubaka obukadde busangulidwa ddala</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_continue">genda maaso</string>
     <string name="registration_activity__skip">Buuka</string>
     <string name="BackupUtil_never">tekirisoboka</string>
     <string name="AppProtectionPreferenceFragment_none">tekuli</string>

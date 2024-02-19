@@ -13,7 +13,6 @@
     <string name="ApplicationPreferencesActivity_On">Nyala</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(gambar)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(balas)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Tidak bisa menemukan aplikasi untuk memilih media.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session memerlukan akses ke Penyimpanan untuk mengirimkan foto, video, atau suara, tetapi saat ini telah ditolak secara permanen. Harap lanjutkan ke menu pengaturan aplikasi, Pilih \"Izin\", dan aktifkan \"Penyimpanan\".</string>
@@ -90,7 +89,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">Menghapus</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Menghapus pesan...</string>
-    <string name="MediaOverviewActivity_Select_all">Pilih semua</string>
     <string name="MediaOverviewActivity_collecting_attachments">Mengumpulkan lampiran...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Pesan multimedia</string>
@@ -102,7 +100,6 @@
     <string name="MediaSendActivity_add_a_caption">Tambah keterangan...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">sebuah item dihapus karena melebihi batas ukuran</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera tidak tersedia.</string>
-    <string name="MediaSendActivity_message_to_s">kirim pesan ke %s</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Semua media</string>
     <!-- MessageRecord -->
@@ -136,7 +133,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="ThreadRecord_group_updated">Grup diperbarui</string>
     <string name="ThreadRecord_left_the_group">Meninggalkan grup</string>
     <string name="ThreadRecord_secure_session_reset">Sesi aman disetel ulang.</string>
-    <string name="ThreadRecord_draft">Draf:</string>
     <string name="ThreadRecord_called">Anda memanggil</string>
     <string name="ThreadRecord_called_you">Memanggil Anda</string>
     <string name="ThreadRecord_missed_call">Panggilan tak terjawab</string>
@@ -158,7 +154,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Pesan MMS terenkripsi buruk</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Pesan MMS dienkripsi untuk sesi yang tidak ada</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Bisukan pemberitahuan</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Sentuh untuk membuka.</string>
     <string name="KeyCachingService_passphrase_cached">Session tidak terkunci</string>
@@ -178,7 +173,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="MessageNotifier_error_delivering_message">Kesalahan dalam mengirimkan pesan.</string>
     <string name="MessageNotifier_mark_all_as_read">Tandai telah dibaca semuanya</string>
     <string name="MessageNotifier_mark_read">Tandai sudah dibaca</string>
-    <string name="MessageNotifier_reply">Balas</string>
     <string name="MessageNotifier_pending_signal_messages">Pesan Session tertunda</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Anda memiliki pesan Session yang tertunda, ketuk untuk membuka dan menerima</string>
     <string name="MessageNotifier_unknown_contact_message">Kontak</string>
@@ -188,8 +182,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="NotificationChannel_backups">Cadangan</string>
     <string name="NotificationChannel_locked_status">Status penguncian</string>
     <string name="NotificationChannel_app_updates">pembaruan aplikasi</string>
-    <string name="NotificationChannel_other">Yang lain</string>
-    <string name="NotificationChannel_group_messages">Pesan</string>
+    <string name="other">Yang lain</string>
     <string name="NotificationChannel_missing_display_name">Tidak dikenal</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Tanggapan cepat tidak tersedia ketika Session sedang dikunci!</string>
@@ -291,7 +284,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="arrays__large">Besar</string>
     <string name="arrays__extra_large">Ekstra besar</string>
     <string name="arrays__high">Tinggi</string>
-    <string name="arrays__max">Maks</string>
+    <string name="max">Maks</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Kirim pratinjau tautan</string>
@@ -352,7 +345,7 @@ memproses pertukaran kunci korupsi.</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Bunyikan</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Bisukan pemberitahuan</string>
+    <string name="notificationsMute">Bisukan pemberitahuan</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Ubah grup</string>
     <string name="conversation__menu_leave_group">Keluar grup</string>
@@ -375,8 +368,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="trimmer__old_messages_successfully_deleted">Pesan lama berhasil dihapus</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Memerlukan izin akses</string>
-    <string name="Permissions_continue">Lanjutkan</string>
-    <string name="Permissions_not_now">Nanti saja</string>
+    <string name="notNow">Nanti saja</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Cadangan akan disimpan ke penyimpanan luar dan mengenkripsi dengan frase di bawah. Anda mesti memiliki frase ini untuk mengembalikan cadangan.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Saya telah mencatat frase ini. Tanpa ini, saya tidak dapat mengembalikan cadangan.</string>
     <string name="registration_activity__skip">Lewati</string>
@@ -396,7 +388,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="AppProtectionPreferenceFragment_none">Kosong</string>
     <!-- Conversation activity -->
     <!-- Session -->
-    <string name="continue_2">Lanjut</string>
+    <string name="_continue">Lanjut</string>
     <string name="copy">Salin</string>
     <string name="invalid_url">URL salah</string>
     <string name="copied">Salin ke clipboard</string>
@@ -416,7 +408,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_register_title">Ucapkan halo pada Session ID anda</string>
     <string name="activity_register_explanation">Session ID adalah alamat unik yang bisa digunakan untuk mengontak anda. Tanpa koneksi dengan identitas asli, Session ID anda didesain bersifat anonim dan rahasia.</string>
     <string name="activity_restore_title">Kembalikan akun</string>
-    <string name="activity_restore_explanation">Masukkan kata pemulihan yang diberikan saat anda mencoba masuk ke akun</string>
     <string name="activity_restore_seed_edit_text_hint">masukan kata pemulihan</string>
     <string name="activity_display_name_title_2">Pilih nama yang ditampilkan</string>
     <string name="activity_display_name_explanation">Ini akan menjadi nama anda ketika menggunakan Session. Bisa merupakan nama asli, alias, atau apapun yang anda suka</string>

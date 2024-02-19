@@ -91,7 +91,7 @@ public class ThreadRecord extends DisplayRecord {
     } else if (MmsSmsColumns.Types.isLegacyType(type)) {
       return emphasisAdded(context.getString(R.string.MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported));
     } else if (MmsSmsColumns.Types.isDraftMessageType(type)) {
-      String draftText = context.getString(R.string.ThreadRecord_draft);
+      String draftText = context.getString(R.string.draft);
       return emphasisAdded(draftText + " " + getBody(), 0, draftText.length());
     } else if (SmsDatabase.Types.isOutgoingCall(type)) {
       return emphasisAdded(context.getString(network.loki.messenger.R.string.ThreadRecord_called));

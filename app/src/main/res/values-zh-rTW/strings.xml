@@ -26,7 +26,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(圖片)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(音訊)</string>
     <string name="DraftDatabase_Draft_video_snippet">(影片)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(回覆)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">找不到合適的應用程式來選擇媒體檔案。</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session 需要儲存的權限，以存取照片、影片或聲音檔。但是現在被設定為永久拒絕存取。請到應用程式設定中，選擇「權限」及開啟「儲存」。</string>
@@ -55,7 +54,7 @@
     <string name="ConversationActivity_add_attachment">增加附件檔案</string>
     <string name="ConversationActivity_select_contact_info">選擇聯絡人資訊</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">抱歉，無法成功設定您指定的附件檔案</string>
-    <string name="ConversationActivity_message">訊息</string>
+    <string name="message">訊息</string>
     <string name="ConversationActivity_compose">撰寫訊息</string>
     <string name="ConversationActivity_muted_until_date">關閉通知直到 %1$s</string>
     <string name="ConversationActivity_muted_forever">已靜音</string>
@@ -138,7 +137,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">正在刪除</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">正在刪除訊息...</string>
-    <string name="MediaOverviewActivity_Select_all">全選</string>
     <string name="MediaOverviewActivity_collecting_attachments">正在收集附件...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">多媒體訊息</string>
@@ -150,7 +148,6 @@
     <string name="MediaSendActivity_add_a_caption">加入一個標題...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">一個項目因為超過容量的限制而被移除</string>
     <string name="MediaSendActivity_camera_unavailable">相機無法使用。</string>
-    <string name="MediaSendActivity_message_to_s">傳訊息給 %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">你無法分享超過 %d 個項目。</item>
     </plurals>
@@ -191,7 +188,6 @@
     <string name="ThreadRecord_group_updated">群組已更新</string>
     <string name="ThreadRecord_left_the_group">已離開群組</string>
     <string name="ThreadRecord_secure_session_reset">安全對話已重設</string>
-    <string name="ThreadRecord_draft">草稿：</string>
     <string name="ThreadRecord_called">向外撥號</string>
     <string name="ThreadRecord_called_you">來電</string>
     <string name="ThreadRecord_missed_call">未接來電</string>
@@ -217,7 +213,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">損毀的加密MMS訊息</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">此加密MMS訊息的對話已不存在</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">靜音通知</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">按一下開啟。</string>
     <string name="KeyCachingService_passphrase_cached">Session 已經解鎖</string>
@@ -238,7 +233,6 @@
     <string name="MessageNotifier_error_delivering_message">傳送訊息發生失誤。</string>
     <string name="MessageNotifier_mark_all_as_read">全部標示為已讀</string>
     <string name="MessageNotifier_mark_read">標示已讀</string>
-    <string name="MessageNotifier_reply">回覆</string>
     <string name="MessageNotifier_pending_signal_messages">擱置的 Session 訊息</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">你有擱置的 Session 訊息，輕觸打開及取得訊息</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -249,8 +243,7 @@
     <string name="NotificationChannel_backups">備份</string>
     <string name="NotificationChannel_locked_status">鎖定狀態</string>
     <string name="NotificationChannel_app_updates">應用程式更新</string>
-    <string name="NotificationChannel_other">其他</string>
-    <string name="NotificationChannel_group_messages">訊息</string>
+    <string name="other">其他</string>
     <string name="NotificationChannel_missing_display_name">未知</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">當 Session 鎖定時無法使用快速回覆！</string>
@@ -359,7 +352,6 @@
     <string name="arrays__mute_for_one_day">靜音 1 天</string>
     <string name="arrays__mute_for_seven_days">靜音 7 天</string>
     <string name="arrays__mute_for_one_year">靜音 1 年</string>
-    <string name="arrays__mute_forever">永久關閉通知</string>
     <string name="arrays__settings_default">預設設定</string>
     <string name="arrays__enabled">啟用</string>
     <string name="arrays__disabled">停用</string>
@@ -373,7 +365,7 @@
     <string name="arrays__large">大的</string>
     <string name="arrays__extra_large">特大的</string>
     <string name="arrays__high">高的</string>
-    <string name="arrays__max">最大的</string>
+    <string name="max">最大的</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="other">%d 小時</item>
@@ -442,7 +434,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">取消靜音</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">將通知調整為靜音</string>
+    <string name="notificationsMute">將通知調整為靜音</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">編輯群組</string>
     <string name="conversation__menu_leave_group">離開對話群組</string>
@@ -465,8 +457,7 @@
     <string name="trimmer__old_messages_successfully_deleted">已完成刪除舊訊息</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">需要權限</string>
-    <string name="Permissions_continue">繼續</string>
-    <string name="Permissions_not_now">稍後</string>
+    <string name="notNow">稍後</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">備份將會儲存到外部儲存空間，並以下方的密碼加密。你必須擁有這個密碼來還原此備份。</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已經寫下密碼。沒有密碼，我將無法還原此備份。</string>
     <string name="registration_activity__skip">略過</string>
@@ -487,7 +478,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">複製公鑰</string>
     <!-- Session -->
-    <string name="continue_2">繼續</string>
+    <string name="_continue">繼續</string>
     <string name="copy">複製</string>
     <string name="invalid_url">無效網址</string>
     <string name="copied">已複製到剪貼簿</string>
@@ -507,7 +498,6 @@
     <string name="activity_register_title">與您的 Session ID 打個招呼</string>
     <string name="activity_register_explanation">您的 Session ID 是人們可以用來在 Session 上聯繫您的唯一地址。 並且與您的真實身份毫無關聯，因此您的 Session ID 在設計上是完全匿名和私密的。</string>
     <string name="activity_restore_title">恢復您的帳號</string>
-    <string name="activity_restore_explanation">輸入您註冊時提供的恢復短語以恢復您的帳號。</string>
     <string name="activity_restore_seed_edit_text_hint">請輸入您的回復用字句</string>
     <string name="activity_display_name_title_2">請輸入您的名稱</string>
     <string name="activity_display_name_explanation">當您使用 Session 時，這將是您的名字。 它可以是您的真實姓名、別名或您喜歡的任何名稱。</string>
@@ -660,7 +650,7 @@
     <string name="conversation_pin">釘選</string>
     <string name="conversation_unpin">取消釘選</string>
     <string name="mark_all_as_read">全部標示為已讀</string>
-    <string name="global_search_messages">訊息</string>
+    <string name="messages">訊息</string>
     <string name="NewConversationButton_SessionTooltip">直接傳訊</string>
     <string name="NewConversationButton_ClosedGroupTooltip">已關閉的群組</string>
     <string name="NewConversationButton_OpenGroupTooltip">開啟群組</string>

@@ -24,7 +24,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(画像)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(音声)</string>
     <string name="DraftDatabase_Draft_video_snippet">(動画)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(返信)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">ファイルを開くアプリが見つかりません。</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Sessionに写真や動画、音声データを添付するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定から、アプリの権限を選び、ストレージへのアクセス許可を有効にしてください。</string>
@@ -53,7 +52,7 @@
     <string name="ConversationActivity_add_attachment">添付ファイルを付ける</string>
     <string name="ConversationActivity_select_contact_info">連絡先情報を選択</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">添付中にエラーが発生しました。</string>
-    <string name="ConversationActivity_message">メッセージ</string>
+    <string name="message">メッセージ</string>
     <string name="ConversationActivity_compose">新規作成</string>
     <string name="ConversationActivity_muted_until_date">%1$sまでミュート</string>
     <string name="ConversationActivity_muted_forever">ミュート中</string>
@@ -133,7 +132,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">削除中</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">メッセージを削除中...</string>
-    <string name="MediaOverviewActivity_Select_all">すべて選択</string>
     <string name="MediaOverviewActivity_collecting_attachments">添付ファイルを集めています...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">マルチメディアメッセージ</string>
@@ -145,7 +143,6 @@
     <string name="MediaSendActivity_add_a_caption">キャプション追加...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">サイズの上限を超えたため、項目が削除されました。</string>
     <string name="MediaSendActivity_camera_unavailable">カメラは利用できません。</string>
-    <string name="MediaSendActivity_message_to_s">%s へメッセージ</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">%d以上のアイテムを共有できません</item>
     </plurals>
@@ -183,7 +180,6 @@
     <string name="ThreadRecord_group_updated">グループが更新されました</string>
     <string name="ThreadRecord_left_the_group">グループを抜けました</string>
     <string name="ThreadRecord_secure_session_reset">セキュアセッションがリセットされました</string>
-    <string name="ThreadRecord_draft">下書き:</string>
     <string name="ThreadRecord_called">発信</string>
     <string name="ThreadRecord_called_you">着信</string>
     <string name="ThreadRecord_missed_call">不在着信</string>
@@ -208,7 +204,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">MMSメッセージの暗号化が正しくありません</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMSメッセージは存在しないセッションのために暗号化されています</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">通知をミュート</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">タッチして開く</string>
     <string name="KeyCachingService_passphrase_cached">Sessionのロック解除</string>
@@ -229,7 +224,6 @@
     <string name="MessageNotifier_error_delivering_message">メッセージ配信中にエラーがありました。</string>
     <string name="MessageNotifier_mark_all_as_read">すべて既読にする</string>
     <string name="MessageNotifier_mark_read">既読にする</string>
-    <string name="MessageNotifier_reply">返信</string>
     <string name="MessageNotifier_pending_signal_messages">保留中のメッセージ</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">保留中のメッセージがあります。取得するにはタップしてください。</string>
     <string name="MessageNotifier_contact_message">%2$s%1$s</string>
@@ -240,8 +234,7 @@
     <string name="NotificationChannel_backups">バックアップ</string>
     <string name="NotificationChannel_locked_status">ロック状態</string>
     <string name="NotificationChannel_app_updates">アプリ更新</string>
-    <string name="NotificationChannel_other">その他</string>
-    <string name="NotificationChannel_group_messages">メッセージ</string>
+    <string name="other">その他</string>
     <string name="NotificationChannel_missing_display_name">不明</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Sessionのロック中はクイック・レスポンスは使えません</string>
@@ -350,7 +343,6 @@
     <string name="arrays__mute_for_one_day">1日間ミュート</string>
     <string name="arrays__mute_for_seven_days">7日間ミュート</string>
     <string name="arrays__mute_for_one_year">1年間ミュート</string>
-    <string name="arrays__mute_forever">永久にミュート</string>
     <string name="arrays__settings_default">既定の設定</string>
     <string name="arrays__enabled">有効</string>
     <string name="arrays__disabled">無効</string>
@@ -364,7 +356,7 @@
     <string name="arrays__large">大きい</string>
     <string name="arrays__extra_large">非常に大きい</string>
     <string name="arrays__high">高</string>
-    <string name="arrays__max">最大</string>
+    <string name="max">最大</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="other">%d時間</item>
@@ -433,7 +425,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">ミュートを解除</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">通知をミュート</string>
+    <string name="notificationsMute">通知をミュート</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">グループを編集する</string>
     <string name="conversation__menu_leave_group">グループを抜ける</string>
@@ -456,8 +448,7 @@
     <string name="trimmer__old_messages_successfully_deleted">古いメッセージを削除しました</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">アクセス許可が必要です</string>
-    <string name="Permissions_continue">続行</string>
-    <string name="Permissions_not_now">後にする</string>
+    <string name="notNow">後にする</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">バックアップは外部ストレージにパスフレーズで暗号化して保存されます。バックアップのリストアには、このパスフレーズが必要です。</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">パスフレーズを書き留めました。パスフレーズがなければ、バックアップをリストアできません。</string>
     <string name="registration_activity__skip">スキップする</string>
@@ -478,7 +469,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">公開キーをコピー</string>
     <!-- Session -->
-    <string name="continue_2">続行する</string>
+    <string name="_continue">続行する</string>
     <string name="copy">コピーする</string>
     <string name="invalid_url">URL が無効です</string>
     <string name="copied">クリップボードにコピーされました</string>
@@ -498,7 +489,6 @@
     <string name="activity_register_title">Session ID をご紹介します</string>
     <string name="activity_register_explanation">Session ID は、Session で連絡を取るために使用できる一意のアドレスです。本当のアイデンティティに関係なく、あなたの Session ID は設計上完全に匿名でプライベートです。</string>
     <string name="activity_restore_title">アカウントを復元する</string>
-    <string name="activity_restore_explanation">アカウントを復元するためにサインアップしたときに与えられたリカバリーフレーズを入力します。</string>
     <string name="activity_restore_seed_edit_text_hint">リカバリーフレーズを入力してください</string>
     <string name="activity_display_name_title_2">表示名を選択してください</string>
     <string name="activity_display_name_explanation">これは、Session を使用するときの名前になります。あなたの本当の名前、エイリアス、またはあなたが好きな他のものに設定することができます。</string>

@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(bild)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ljud)</string>
     <string name="DraftDatabase_Draft_video_snippet">(film)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(svar)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Kan inte hitta app för att välja media.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session behöver behörigheten Lagring för att bifoga bilder, video och ljud men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Bifoga fil</string>
     <string name="ConversationActivity_select_contact_info">Välj kontaktinformation</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Tyvärr uppstod det ett fel vid bifogning av din fil.</string>
-    <string name="ConversationActivity_message">Meddelande</string>
+    <string name="message">Meddelande</string>
     <string name="ConversationActivity_compose">Komponera</string>
     <string name="ConversationActivity_muted_until_date">Tystades till %1$s</string>
     <string name="ConversationActivity_muted_forever">Tystad</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Raderar</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Raderar meddelanden...</string>
-    <string name="MediaOverviewActivity_Select_all">Markera alla</string>
     <string name="MediaOverviewActivity_collecting_attachments">Samlar bifogade filer...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediameddelande</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Lägg till en rubrik...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Ett objekt togs bort eftersom det överskred storleksgränsen</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera otillgänglig.</string>
-    <string name="MediaSendActivity_message_to_s">Meddelande till %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan inte dela mer än %d objekt.</item>
         <item quantity="other">Du kan inte dela mer än %d objekt.</item>
@@ -195,7 +192,6 @@ för nyckelutbyte!</string>
     <string name="ThreadRecord_group_updated">Grupp uppdaterad</string>
     <string name="ThreadRecord_left_the_group">Lämnade gruppen</string>
     <string name="ThreadRecord_secure_session_reset">Säker session nollställd.</string>
-    <string name="ThreadRecord_draft">Utkast:</string>
     <string name="ThreadRecord_called">Du ringde</string>
     <string name="ThreadRecord_called_you">Ringde dig</string>
     <string name="ThreadRecord_missed_call">Missat samtal</string>
@@ -221,7 +217,6 @@ för nyckelutbyte!</string>
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Felkrypterat MMS</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS som krypterats för obefintlig session</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Tysta aviseringar</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Tryck för att öppna.</string>
     <string name="KeyCachingService_passphrase_cached">Session är olåst</string>
@@ -242,7 +237,6 @@ för nyckelutbyte!</string>
     <string name="MessageNotifier_error_delivering_message">Fel vid leverans av meddelande.</string>
     <string name="MessageNotifier_mark_all_as_read">Markera alla som lästa</string>
     <string name="MessageNotifier_mark_read">Läst</string>
-    <string name="MessageNotifier_reply">Svara</string>
     <string name="MessageNotifier_pending_signal_messages">Väntande Session-meddelanden</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Du har väntande Session-meddelanden, tryck för att öppna och hämta</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -253,8 +247,7 @@ för nyckelutbyte!</string>
     <string name="NotificationChannel_backups">Säkerhetskopia</string>
     <string name="NotificationChannel_locked_status">Låsstatus</string>
     <string name="NotificationChannel_app_updates">Appuppdateringar</string>
-    <string name="NotificationChannel_other">Övrigt</string>
-    <string name="NotificationChannel_group_messages">Meddelanden</string>
+    <string name="other">Övrigt</string>
     <string name="NotificationChannel_missing_display_name">Okänd</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Snabbsvar är ej tillgängligt när Session är låst!</string>
@@ -364,7 +357,6 @@ för nyckelutbyte!</string>
     <string name="arrays__mute_for_one_day">Tysta i 1 dag</string>
     <string name="arrays__mute_for_seven_days">Tysta i 7 dagar</string>
     <string name="arrays__mute_for_one_year">Tysta i 1 år</string>
-    <string name="arrays__mute_forever">Tysta för alltid</string>
     <string name="arrays__settings_default">Inställningars standardvärden</string>
     <string name="arrays__enabled">Aktiverad</string>
     <string name="arrays__disabled">Inaktiverad</string>
@@ -378,7 +370,7 @@ för nyckelutbyte!</string>
     <string name="arrays__large">Stor</string>
     <string name="arrays__extra_large">Extra stor</string>
     <string name="arrays__high">Hög</string>
-    <string name="arrays__max">Max</string>
+    <string name="max">Max</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d timme</item>
@@ -448,7 +440,7 @@ för nyckelutbyte!</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Ljud på</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Tysta ner aviseringar</string>
+    <string name="notificationsMute">Tysta ner aviseringar</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Ändra grupp</string>
     <string name="conversation__menu_leave_group">Lämna grupp</string>
@@ -471,8 +463,7 @@ för nyckelutbyte!</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamla meddelanden har raderats</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Behörighet saknas</string>
-    <string name="Permissions_continue">Fortsätt</string>
-    <string name="Permissions_not_now">Inte nu</string>
+    <string name="notNow">Inte nu</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Säkerhetskopieringar sparas till extern lagring och krypteras med lösenordet nedanför. Du måste ange lösenordet för att återställa säkerhetskopian.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Jag har skrivit ner lösenordet. Utan det kommer jag inte kunna återställa säkerhetskopian.</string>
     <string name="registration_activity__skip">Hoppa över</string>
@@ -493,7 +484,7 @@ för nyckelutbyte!</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopiera Publika Nyckeln</string>
     <!-- Session -->
-    <string name="continue_2">Fortsätt</string>
+    <string name="_continue">Fortsätt</string>
     <string name="copy">Kopiera</string>
     <string name="invalid_url">Ogiltig URL</string>
     <string name="copied">Kopierade till urklipp</string>
@@ -513,7 +504,6 @@ för nyckelutbyte!</string>
     <string name="activity_register_title">Säg hej till ditt Session-ID</string>
     <string name="activity_register_explanation">Ditt Session-ID är den unika adress folk kan använda för att kontakta dig på Session. Ditt Session-ID är helt anonymt och privat rakt igenom, helt utan koppling till din riktiga identitet.</string>
     <string name="activity_restore_title">Återställ ditt konto</string>
-    <string name="activity_restore_explanation">Ange den återställningsfras du fick när du skapade ditt konto för att kunna återställa ditt konto.</string>
     <string name="activity_restore_seed_edit_text_hint">Ange din återställningsfras</string>
     <string name="activity_display_name_title_2">Välj visningsnamn</string>
     <string name="activity_display_name_explanation">Detta blir ditt namn när du använder Session. Det kan vara ditt riktiga namn, ett alias eller något annat du gillar.</string>

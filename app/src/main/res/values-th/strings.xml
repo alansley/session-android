@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(ภาพ)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(เสียง)</string>
     <string name="DraftDatabase_Draft_video_snippet">(วิดีโอ)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(ตอบกลับ)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">ไม่พบแอปสำหรับสื่อที่เลือก</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">เพื่อที่จะแนบรูปภาพ วิดีโอ หรือเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงที่เก็บข้อมูล แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ที่เก็บข้อมูล\"</string>
@@ -112,7 +111,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">กำลังลบ</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">กำลังลบข้อความ...</string>
-    <string name="MediaOverviewActivity_Select_all">เลือกทั้งหมด</string>
     <string name="MediaOverviewActivity_collecting_attachments">รวบรวมสิ่งแนบ...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ข้อความมัลติมีเดีย</string>
@@ -156,7 +154,6 @@
     <string name="ThreadRecord_group_updated">อัพเดตกลุ่มแล้ว</string>
     <string name="ThreadRecord_left_the_group">ออกจากกลุ่มแล้ว</string>
     <string name="ThreadRecord_secure_session_reset">เซสชันที่ปลอดภัยถูกรีเซ็ตแล้ว</string>
-    <string name="ThreadRecord_draft">ร่าง:</string>
     <string name="ThreadRecord_called">คุณได้โทรหา</string>
     <string name="ThreadRecord_called_you">โทรหาคุณ</string>
     <string name="ThreadRecord_missed_call">สายที่ไม่ได้รับ</string>
@@ -178,7 +175,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">ข้อความ MMS ที่เข้ารหัสมีความผิดปกติ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ข้อความ MMS ถูกเข้ารหัสสำหรับเซสชันที่ไม่มีอยู่</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">ปิดเสียงการแจ้งเตือน</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">แตะเพื่อเปิด</string>
     <string name="KeyCachingService_passphrase_cached">Session ถูกปลดล็อก</string>
@@ -198,7 +194,6 @@
     <string name="MessageNotifier_error_delivering_message">เกิดข้อผิดพลาดระหว่างส่งข้อความ</string>
     <string name="MessageNotifier_mark_all_as_read">ทำเครื่องหมายทั้งหมดว่าอ่านแล้ว</string>
     <string name="MessageNotifier_mark_read">ทำเครื่องหมายว่าอ่านแล้ว</string>
-    <string name="MessageNotifier_reply">ตอบกลับ</string>
     <string name="MessageNotifier_pending_signal_messages">ข้อความ Session ที่รอดำเนินการ</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">คุณมีข้อความ Session ที่รอดำเนินการอยู่ แตะเพื่อเปิดและดึงข้อความ</string>
     <string name="MessageNotifier_unknown_contact_message">ผู้ติดต่อ</string>
@@ -208,8 +203,7 @@
     <string name="NotificationChannel_backups">การสำรองข้อมูล</string>
     <string name="NotificationChannel_locked_status">สถานะล๊อค</string>
     <string name="NotificationChannel_app_updates">การอัปเดตแอป</string>
-    <string name="NotificationChannel_other">ที่อื่น</string>
-    <string name="NotificationChannel_group_messages">ข้อความ</string>
+    <string name="other">ที่อื่น</string>
     <string name="NotificationChannel_missing_display_name">ไม่ทราบ</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">การตอบด่วนใช้ไม่ได้ถ้า Session ถูกล็อกอยู่</string>
@@ -318,7 +312,7 @@
     <string name="arrays__large">ใหญ่</string>
     <string name="arrays__extra_large">ใหญ่พิเศษ</string>
     <string name="arrays__high">สูง</string>
-    <string name="arrays__max">สูงสุด</string>
+    <string name="max">สูงสุด</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="other">%d ชั่วโมง</item>
@@ -383,7 +377,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">เลิกปิดเสียง</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">ปิดเสียงการแจ้งเตือน</string>
+    <string name="notificationsMute">ปิดเสียงการแจ้งเตือน</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">แก้ไขกลุ่ม</string>
     <string name="conversation__menu_leave_group">ออกจากกลุ่ม</string>
@@ -406,8 +400,7 @@
     <string name="trimmer__old_messages_successfully_deleted">ลบข้อความเก่าสำเร็จ</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">ต้องได้รับอนุญาตก่อน</string>
-    <string name="Permissions_continue">ดำเนินการต่อ</string>
-    <string name="Permissions_not_now">ไม่ใช่ตอนนี้</string>
+    <string name="notNow">ไม่ใช่ตอนนี้</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">การสำรองข้อมูลจะถูกบันทึกไว้ที่ที่เก็บข้อมูลภายนอกและถูกเข้ารหัสด้วยวลีรหัสผ่านด้านล่างนี้ คุณจะต้องใช้วลีรหัสผ่านนี้เพื่อคืนค่าสำรองข้อมูล</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">ฉันได้จดบันทึกวลีรหัสผ่านนี้แล้ว หากจำไม่ได้ ฉันจะไม่สามารถคืนค่าสำรองข้อมูลได้</string>
     <string name="registration_activity__skip">ข้าม</string>

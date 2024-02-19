@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(तस्वीर)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ऑडियो)</string>
     <string name="DraftDatabase_Draft_video_snippet">(वीडियो)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">( उत्तर ) </string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">मीडिया का चयन करने के लिए कोई ऐप नहीं मिल रहा।</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">फ़ोटो, वीडियो या ऑडियो संलग्न करने के लिए Session को संग्रहण अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स मेनू पर जारी रखें, \"अनुमतियां\" चुनें, और \"संग्रहण\" सक्षम करें।</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">अटैचमेंट जोड़ें</string>
     <string name="ConversationActivity_select_contact_info">संपर्क जानकारी का चयन करें</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">खेद है, आपका अनुलगनक लगाने में त्रुटि हुई।</string>
-    <string name="ConversationActivity_message">मैसेज</string>
+    <string name="message">मैसेज</string>
     <string name="ConversationActivity_compose">लिखें</string>
     <string name="ConversationActivity_muted_until_date">%s तक मौन किया</string>
     <string name="ConversationActivity_muted_forever">म्यूट हो गए</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">विलोपन</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">संदेश हटाए जा रहे हैं</string>
-    <string name="MediaOverviewActivity_Select_all">सभी को चुन लो स`</string>
     <string name="MediaOverviewActivity_collecting_attachments">अटैचमेंट्स इकट्ठे कर रहे हैं...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">मल्टीमीडिया संदेश</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">शीर्षक जोड़ें...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">एक वस्तु को आकार बड़ा होने कि वजह से हटाया गया</string>
     <string name="MediaSendActivity_camera_unavailable">कैमरा अनुपलब्ध.</string>
-    <string name="MediaSendActivity_message_to_s">%s को संदेश</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">आप %d से ज्यादा चीजें शेयर नहीं कर सकते</item>
         <item quantity="other">आप %d से ज्यादा चीजें शेयर नहीं कर सकते</item>
@@ -195,7 +192,6 @@
     <string name="ThreadRecord_group_updated">समूह अद्यतन</string>
     <string name="ThreadRecord_left_the_group">समूह छोड़ दिया</string>
     <string name="ThreadRecord_secure_session_reset">सुरक्षित सत्र रीसेट कर दिया गया है</string>
-    <string name="ThreadRecord_draft">प्रारूप</string>
     <string name="ThreadRecord_called">आपने बुलाया </string>
     <string name="ThreadRecord_called_you">आपको बुलाया </string>
     <string name="ThreadRecord_missed_call">मिस कॉल</string>
@@ -221,7 +217,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">खराब एन्क्रिप्टेड एमएमएस संदेश</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">गैर-मौजूदा सत्र के लिए एमएमएस संदेश एन्क्रिप्ट किया गया </string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">नोटिफिकेशन म्यूट करें</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">खोलने के लिए स्पर्श करें</string>
     <string name="KeyCachingService_passphrase_cached">Session खुला है </string>
@@ -242,7 +237,6 @@
     <string name="MessageNotifier_error_delivering_message">संदेश देने में त्रुटि</string>
     <string name="MessageNotifier_mark_all_as_read">सभी को पढ़ा हुआ मार्क करें</string>
     <string name="MessageNotifier_mark_read">पढ़ा हुआ चिह्नित करें</string>
-    <string name="MessageNotifier_reply">उत्तर</string>
     <string name="MessageNotifier_pending_signal_messages">लंबित Session संदेश</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">आपके पास Session संदेश लंबित हैं, खोलने और पुनर्प्राप्त करने के लिए टैप करें</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -253,8 +247,7 @@
     <string name="NotificationChannel_backups">बैकअप</string>
     <string name="NotificationChannel_locked_status">लॉक स्थिति</string>
     <string name="NotificationChannel_app_updates">ऐप अपडेट</string>
-    <string name="NotificationChannel_other">अन्य</string>
-    <string name="NotificationChannel_group_messages">संदेश</string>
+    <string name="other">अन्य</string>
     <string name="NotificationChannel_missing_display_name">अनजान</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Session लॉक होने पर त्वरित प्रतिक्रिया अनुपलब्ध है!</string>
@@ -364,7 +357,6 @@
     <string name="arrays__mute_for_one_day">1 दिन के लिए म्यूट करें</string>
     <string name="arrays__mute_for_seven_days">7 दिन के लिए म्यूट करें</string>
     <string name="arrays__mute_for_one_year">1 साल के लिए म्यूट करें</string>
-    <string name="arrays__mute_forever">हमेशा के लिए मौन करें</string>
     <string name="arrays__settings_default">सेटिंग्स डिफ़ॉल्ट</string>
     <string name="arrays__enabled">सक्षम</string>
     <string name="arrays__disabled">अक्षम</string>
@@ -378,7 +370,7 @@
     <string name="arrays__large">विशाल</string>
     <string name="arrays__extra_large">ज्यादा बड़ा</string>
     <string name="arrays__high">उच्च</string>
-    <string name="arrays__max">अधिकतम</string>
+    <string name="max">अधिकतम</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%dघंटे </item>
@@ -448,7 +440,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">अनम्यूट</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">नोटिफिकेशन म्यूट करें</string>
+    <string name="notificationsMute">नोटिफिकेशन म्यूट करें</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">समूह संपादित करें</string>
     <string name="conversation__menu_leave_group">समूह छोड़ दें</string>
@@ -471,8 +463,7 @@
     <string name="trimmer__old_messages_successfully_deleted">पुराने संदेश सफलतापूर्वक हटाए गए</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">अनुमति की आवश्यकता</string>
-    <string name="Permissions_continue">आगे </string>
-    <string name="Permissions_not_now">अभी नहीं</string>
+    <string name="notNow">अभी नहीं</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">बैकअप को बाहरी स्टोरेज में सहेजा जाएगा और नीचे पासफ्रेज से एन्क्रिप्ट किया जाएगा। बैकअप को पुनर्स्थापित करने के लिए आपके पास यह पासफ्रेज़ होना चाहिए।</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">मैंने इस पासफ्रेज को लिखा है। इसके बिना, मैं बैकअप को पुनर्स्थापित करने में असमर्थ हूं।</string>
     <string name="registration_activity__skip">छोड़ दे </string>
@@ -493,7 +484,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">पब्लिक की कॉपी करें</string>
     <!-- Session -->
-    <string name="continue_2">जारी रखें</string>
+    <string name="_continue">जारी रखें</string>
     <string name="copy">कॉपी करें</string>
     <string name="invalid_url">अमान्य यूआरएल</string>
     <string name="copied">क्लिपबोर्ड पर कॉपी किया गया है</string>
@@ -513,7 +504,6 @@
     <string name="activity_register_title">अपनी सेशन आईडी को हेल्लो कहें</string>
     <string name="activity_register_explanation">आपकी Session ID एक ऐसा अनोखा पता है जिसका उपयोग करके लोग आपसे Session पर संपर्क कर सकते हैं। आपकी वास्तविक पहचान से कोई संबंध नहीं होने के कारण, आपका Session ID डिज़ाइन द्वारा पूरी तरह से गुमनाम और निजी है |</string>
     <string name="activity_restore_title">अकाउंट रिस्टोर करें</string>
-    <string name="activity_restore_explanation">अकाउंट बनाते समय बनाया गया अपना रिकवरी वाक्य डालें।</string>
     <string name="activity_restore_seed_edit_text_hint">अपना पुनर्प्राप्ति वाक्यांश लिखें</string>
     <string name="activity_display_name_title_2">अपना प्रदर्शन नाम चुनें</string>
     <string name="activity_display_name_explanation">यह सेशन इस्तेमाल करते समय आपका नाम होगा। यह आपका असली नाम, उपनाम या कुछ और भी हो सकता है।</string>

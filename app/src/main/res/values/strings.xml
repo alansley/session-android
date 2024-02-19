@@ -175,7 +175,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(image)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(reply)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Can\'t find an app to select media.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session requires the Storage permission in order to attach photos, videos, or audio, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Storage\".</string>
@@ -204,7 +203,7 @@
     <string name="ConversationActivity_add_attachment">Add attachment</string>
     <string name="ConversationActivity_select_contact_info">Select contact info</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sorry, there was an error setting your attachment.</string>
-    <string name="ConversationActivity_message">Message</string>
+    <string name="message">Message</string>
     <string name="ConversationActivity_compose">Compose</string>
     <string name="ConversationActivity_muted_until_date">Muted until %1$s</string>
     <string name="ConversationActivity_muted_forever">Muted</string>
@@ -300,7 +299,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Deleting</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Deleting messages...</string>
-    <string name="MediaOverviewActivity_Select_all">Select all</string>
     <string name="MediaOverviewActivity_collecting_attachments">Collecting attachments...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia message</string>
@@ -312,7 +310,6 @@
     <string name="MediaSendActivity_add_a_caption">Add a caption...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">An item was removed because it exceeded the size limit</string>
     <string name="MediaSendActivity_camera_unavailable">Camera unavailable.</string>
-    <string name="MediaSendActivity_message_to_s">Message to %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">You can\'t share more than %d item.</item>
         <item quantity="other">You can\'t share more than %d items.</item>
@@ -355,7 +352,6 @@
     <string name="ThreadRecord_group_updated">Group updated</string>
     <string name="ThreadRecord_left_the_group">Left the group</string>
     <string name="ThreadRecord_secure_session_reset">Secure session reset.</string>
-    <string name="ThreadRecord_draft">Draft:</string>
     <string name="ThreadRecord_called">You called</string>
     <string name="ThreadRecord_called_you">Called you</string>
     <string name="ThreadRecord_missed_call">Missed call</string>
@@ -381,7 +377,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Bad encrypted MMS message</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS message encrypted for non-existing session</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Mute notifications</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Touch to open.</string>
     <string name="KeyCachingService_passphrase_cached">Session is unlocked</string>
@@ -402,7 +397,6 @@
     <string name="MessageNotifier_error_delivering_message">Error delivering message.</string>
     <string name="MessageNotifier_mark_all_as_read">Mark all as read</string>
     <string name="MessageNotifier_mark_read">Mark read</string>
-    <string name="MessageNotifier_reply">Reply</string>
     <string name="MessageNotifier_pending_signal_messages">Pending Session messages</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">You have pending Session messages, tap to open and retrieve</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -413,8 +407,7 @@
     <string name="NotificationChannel_backups">Backups</string>
     <string name="NotificationChannel_locked_status">Lock status</string>
     <string name="NotificationChannel_app_updates">App updates</string>
-    <string name="NotificationChannel_other">Other</string>
-    <string name="NotificationChannel_group_messages">Messages</string>
+    <string name="other">Other</string>
     <string name="NotificationChannel_missing_display_name">Unknown</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Quick response unavailable when Session is locked!</string>
@@ -531,7 +524,6 @@
     <string name="arrays__mute_for_one_day">Mute for 1 day</string>
     <string name="arrays__mute_for_seven_days">Mute for 7 days</string>
     <string name="arrays__mute_for_one_year">Mute for 1 year</string>
-    <string name="arrays__mute_forever">Mute forever</string>
     <string name="arrays__settings_default">Settings default</string>
     <string name="arrays__enabled">Enabled</string>
     <string name="arrays__disabled">Disabled</string>
@@ -545,7 +537,7 @@
     <string name="arrays__large">Large</string>
     <string name="arrays__extra_large">Extra large</string>
     <string name="arrays__high">High</string>
-    <string name="arrays__max">Max</string>
+    <string name="max">Max</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d hour</item>
@@ -639,7 +631,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Unmute</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Mute notifications</string>
+    <string name="notificationsMute">Mute notifications</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Edit group</string>
     <string name="conversation__menu_leave_group">Leave group</string>
@@ -662,8 +654,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Old messages successfully deleted</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Permission required</string>
-    <string name="Permissions_continue">Continue</string>
-    <string name="Permissions_not_now">Not now</string>
+    <string name="notNow">Not now</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backups will be saved to external storage and encrypted with the passphrase below. You must have this passphrase in order to restore a backup.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">I have written down this passphrase. Without it, I will be unable to restore a backup.</string>
     <string name="registration_activity__skip">Skip</string>
@@ -684,7 +675,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Copy public key</string>
     <!-- Session -->
-    <string name="continue_2">Continue</string>
+    <string name="_continue">Continue</string>
     <string name="copy">Copy</string>
     <string name="close">Close</string>
     <string name="invalid_url">Invalid URL</string>
@@ -705,7 +696,6 @@
     <string name="activity_register_title">Say hello to your Session ID</string>
     <string name="activity_register_explanation">Your Session ID is the unique address people can use to contact you on Session. With no connection to your real identity, your Session ID is totally anonymous and private by design.</string>
     <string name="activity_restore_title">Restore your account</string>
-    <string name="activity_restore_explanation">Enter the recovery phrase that was given to you when you signed up to restore your account.</string>
     <string name="activity_restore_seed_edit_text_hint">Enter your recovery phrase</string>
     <string name="activity_display_name_title_2">Pick your display name</string>
     <string name="activity_display_name_explanation">This will be your name when you use Session. It can be your real name, an alias, or anything else you like.</string>
@@ -876,7 +866,7 @@
     <string name="conversation_pin">Pin</string>
     <string name="conversation_unpin">Unpin</string>
     <string name="mark_all_as_read">Mark all as read</string>
-    <string name="global_search_messages">Messages</string>
+    <string name="messages">Messages</string>
     <string name="sessionMessageRequests">Message Requests</string>
     <string name="message_requests_send_notice">Sending a message to this user will automatically accept their message request and reveal your Session ID.</string>
     <string name="accept">Accept</string>
@@ -1020,5 +1010,8 @@
     <string name="notificationsMessage">Message notifications</string>
     <string name="view">View</string>
     <string name="files">Files</string>
+    <string name="selectAll">Select All</string>
+    <string name="draft">Draft</string>
+    <string name="recoveryPasswordExplanation">To load your account, enter the recovery password that was given to you when you signed up.</string>
 
 </resources>

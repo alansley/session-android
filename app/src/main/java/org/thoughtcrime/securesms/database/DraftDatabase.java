@@ -124,7 +124,7 @@ public class DraftDatabase extends Database {
       case IMAGE:    return context.getString(R.string.DraftDatabase_Draft_image_snippet);
       case VIDEO:    return context.getString(R.string.DraftDatabase_Draft_video_snippet);
       case AUDIO:    return context.getString(R.string.DraftDatabase_Draft_audio_snippet);
-      case QUOTE:    return context.getString(R.string.DraftDatabase_Draft_quote_snippet);
+      case QUOTE:    return context.getString(R.string.reply);
       default:       return null;
       }
     }

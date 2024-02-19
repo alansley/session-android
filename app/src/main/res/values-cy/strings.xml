@@ -31,7 +31,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(llun)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sain)</string>
     <string name="DraftDatabase_Draft_video_snippet">(fideo)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(ateb)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Methu canfod rhaglen i ddewis cyfryngau.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Mae ar Session angen caniatâd Storio er mwyn atodi lluniau, fideos neu sain, ond mae wedi\'i wrthod yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Storio\".</string>
@@ -165,7 +164,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Wrthi\'n dileu</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Dileu negeseuon...</string>
-    <string name="MediaOverviewActivity_Select_all">Dewis popeth</string>
     <string name="MediaOverviewActivity_collecting_attachments">Casglu atodiadau...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Neges amlgyfrwng</string>
@@ -177,7 +175,6 @@
     <string name="MediaSendActivity_add_a_caption">Ychwanegu neges...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Cafodd eitem ei thynnu gan ei bod yn fwy na\'r maint mwyaf</string>
     <string name="MediaSendActivity_camera_unavailable">Camera ddim ar gael</string>
-    <string name="MediaSendActivity_message_to_s">Neges i %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="zero">Nid oes modd rhannu mwy na %d eitem.</item>
         <item quantity="one">Nid oes modd rhannu mwy na %d eitem.</item>
@@ -221,7 +218,6 @@
     <string name="ThreadRecord_group_updated">Grŵp wedi\'i ddiweddaru</string>
     <string name="ThreadRecord_left_the_group">Wedi gadael y grŵp.</string>
     <string name="ThreadRecord_secure_session_reset">Ailosod sesiwn ddiogel.</string>
-    <string name="ThreadRecord_draft">Drafft:</string>
     <string name="ThreadRecord_called">Galwoch chi</string>
     <string name="ThreadRecord_called_you">Wedi\'ch galw chi</string>
     <string name="ThreadRecord_missed_call">Galwad coll</string>
@@ -243,7 +239,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Neges MMS amgryptio gwael</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Neges MMS wedi\'i hamgryptio ar gyfer sesiwn nad yw\'n bodoli</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Tewi hysbysiadau</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Cyffwrdd i agor.</string>
     <string name="KeyCachingService_passphrase_cached">Mae Session wedi\'i ddatgloi</string>
@@ -263,7 +258,6 @@
     <string name="MessageNotifier_error_delivering_message">Gwall wrth drosglwyddo neges.</string>
     <string name="MessageNotifier_mark_all_as_read">Marcio popeth wedi\'i ddarllen</string>
     <string name="MessageNotifier_mark_read">Marcio wedi\'i ddarllen</string>
-    <string name="MessageNotifier_reply">Ymateb</string>
     <string name="MessageNotifier_pending_signal_messages">Negeseuon Session yn aros</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Mae gennych negeseuon Session yn aros, tapiwch i\'w hagor ac adfer</string>
     <string name="MessageNotifier_unknown_contact_message">Cysylltiad</string>
@@ -273,8 +267,7 @@
     <string name="NotificationChannel_backups">Copïau wrth gefn</string>
     <string name="NotificationChannel_locked_status">Statws y clo</string>
     <string name="NotificationChannel_app_updates">Diweddariadau ap</string>
-    <string name="NotificationChannel_other">Arall</string>
-    <string name="NotificationChannel_group_messages">Negeseuon</string>
+    <string name="other">Arall</string>
     <string name="NotificationChannel_missing_display_name">Anhysbys</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Nid yw ymateb cyflym ar gael pan fydd Session wedi\'i gloi!</string>
@@ -392,7 +385,7 @@
     <string name="arrays__large">Mawr</string>
     <string name="arrays__extra_large">Mawr iawn</string>
     <string name="arrays__high">Uchel</string>
-    <string name="arrays__max">Mwyaf</string>
+    <string name="max">Mwyaf</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="zero">%d awr</item>
@@ -463,7 +456,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Dad-dewi</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Tewi hysbysiadau</string>
+    <string name="notificationsMute">Tewi hysbysiadau</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Golygu grŵp</string>
     <string name="conversation__menu_leave_group">Gadael y grŵp</string>
@@ -486,8 +479,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Dilëwyd hen negeseuon yn llwyddiannus</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Angen caniatâd</string>
-    <string name="Permissions_continue">Parhau</string>
-    <string name="Permissions_not_now">Nid nawr</string>
+    <string name="notNow">Nid nawr</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Bydd copïau wrth gefn yn cael eu cadw i storfa allanol ac wedi\'u hamgryptio gyda\'r cyfrinymadrodd isod. Rhaid i chi fod â\'r cyfrinymadrodd hwn er mwyn adfer y copi wrth gefn.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Rwy wedi ysgrifennu\'r cyfrinymadrodd hwn i lawr. Hebddo, fydda i ddim yn gallu adfer copi wrth gefn.</string>
     <string name="registration_activity__skip">Hepgor</string>

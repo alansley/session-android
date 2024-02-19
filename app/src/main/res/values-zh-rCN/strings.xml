@@ -25,7 +25,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(图片)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(音频)</string>
     <string name="DraftDatabase_Draft_video_snippet">(视频)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(回复)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">找不到用于选择媒体的应用</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session 需要\"存储空间\"权限才能发送图片、视频以及音频，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Session 应用，并启用\"存储空间\"权限。</string>
@@ -54,7 +53,7 @@
     <string name="ConversationActivity_add_attachment">添加附件</string>
     <string name="ConversationActivity_select_contact_info">选择联系信息</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">抱歉，设置附件时出错</string>
-    <string name="ConversationActivity_message">消息</string>
+    <string name="message">消息</string>
     <string name="ConversationActivity_compose">撰写</string>
     <string name="ConversationActivity_muted_until_date">禁言至 %1$s</string>
     <string name="ConversationActivity_muted_forever">已静音</string>
@@ -134,7 +133,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">正在删除</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">正在删除信息…</string>
-    <string name="MediaOverviewActivity_Select_all">选择全部</string>
     <string name="MediaOverviewActivity_collecting_attachments">正在收集附件…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">多媒体信息</string>
@@ -146,7 +144,6 @@
     <string name="MediaSendActivity_add_a_caption">添加注释...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">一个附件已被移除，因为它超过了文件大小限制</string>
     <string name="MediaSendActivity_camera_unavailable">摄像头不可用</string>
-    <string name="MediaSendActivity_message_to_s">发送给 %s 的消息</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">您最多分享 %d 项</item>
     </plurals>
@@ -185,7 +182,6 @@
     <string name="ThreadRecord_group_updated">群组已更新</string>
     <string name="ThreadRecord_left_the_group">离开此群组</string>
     <string name="ThreadRecord_secure_session_reset">安全会话已重设</string>
-    <string name="ThreadRecord_draft">草稿：</string>
     <string name="ThreadRecord_called">您呼叫的</string>
     <string name="ThreadRecord_called_you">呼叫您的</string>
     <string name="ThreadRecord_missed_call">未接来电</string>
@@ -211,7 +207,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">已损坏的加密彩信</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">已为不存在的会话加密其中的彩信</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">静音通知</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">轻触以开启</string>
     <string name="KeyCachingService_passphrase_cached"> Session 已解锁</string>
@@ -232,7 +227,6 @@
     <string name="MessageNotifier_error_delivering_message">发送信息错误</string>
     <string name="MessageNotifier_mark_all_as_read">全部标记为已读</string>
     <string name="MessageNotifier_mark_read">标记为已读</string>
-    <string name="MessageNotifier_reply">回复</string>
     <string name="MessageNotifier_pending_signal_messages"> Session 信息待处理</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">您有待处理的信号消息，轻触来打开和收取</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -243,8 +237,7 @@
     <string name="NotificationChannel_backups">备份</string>
     <string name="NotificationChannel_locked_status">锁定状态</string>
     <string name="NotificationChannel_app_updates">应用更新</string>
-    <string name="NotificationChannel_other">其他</string>
-    <string name="NotificationChannel_group_messages">信息</string>
+    <string name="other">其他</string>
     <string name="NotificationChannel_missing_display_name">未知</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">当 Session 处于锁定状态时，快速回复不可用！</string>
@@ -353,7 +346,6 @@
     <string name="arrays__mute_for_one_day">静音 1 天</string>
     <string name="arrays__mute_for_seven_days">静音 7 天</string>
     <string name="arrays__mute_for_one_year">静音 1 年</string>
-    <string name="arrays__mute_forever">永久静音</string>
     <string name="arrays__settings_default">设为默认</string>
     <string name="arrays__enabled">启用</string>
     <string name="arrays__disabled">禁用</string>
@@ -367,7 +359,7 @@
     <string name="arrays__large">大尺寸</string>
     <string name="arrays__extra_large">超大尺寸</string>
     <string name="arrays__high">高</string>
-    <string name="arrays__max">最大</string>
+    <string name="max">最大</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="other">%d 小时</item>
@@ -436,7 +428,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">取消静音</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">静音通知</string>
+    <string name="notificationsMute">静音通知</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">编辑群组</string>
     <string name="conversation__menu_leave_group">离开群组</string>
@@ -459,8 +451,7 @@
     <string name="trimmer__old_messages_successfully_deleted">旧消息删除成功</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">需要相应权限</string>
-    <string name="Permissions_continue">继续</string>
-    <string name="Permissions_not_now">不是现在</string>
+    <string name="notNow">不是现在</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">备份将会保存到外部存储并使用下面的密码加密。您必须使用此密码才能恢复备份。</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已记下此密码。如果没有该密码，我将无法恢复备份</string>
     <string name="registration_activity__skip">略过</string>
@@ -481,7 +472,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">复制公钥</string>
     <!-- Session -->
-    <string name="continue_2">继续</string>
+    <string name="_continue">继续</string>
     <string name="copy">复制</string>
     <string name="invalid_url">无效的链接</string>
     <string name="copied">复制到剪贴板</string>
@@ -501,7 +492,6 @@
     <string name="activity_register_title">向您的Session ID打个招呼吧</string>
     <string name="activity_register_explanation">您的Session ID是其他用户在与您聊天时使用的独一无二的地址。Session ID与您的真实身份无关，它在设计上完全是匿名且私密的</string>
     <string name="activity_restore_title">恢复您的帐号</string>
-    <string name="activity_restore_explanation">在您重新登陆并需要恢复账户时，请输入您注册帐号时的恢复口令</string>
     <string name="activity_restore_seed_edit_text_hint">输入您的恢复口令</string>
     <string name="activity_display_name_title_2">选择您想显示的名称</string>
     <string name="activity_display_name_explanation">这就是您在使用Session时的名字。它可以是您的真实姓名，别名或您喜欢的其他任何名称</string>

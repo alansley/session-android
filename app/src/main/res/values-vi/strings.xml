@@ -24,7 +24,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(hình)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(âm thanh)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(trả lời)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Không tìm thấy ứng dụng để chọn dữ liệu truyền thông.</string>
     <!-- AudioSlidePlayer -->
@@ -97,7 +96,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">Đang xóa</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Đang xóa tin nhắn...</string>
-    <string name="MediaOverviewActivity_Select_all">Chọn tất cả</string>
     <string name="MediaOverviewActivity_collecting_attachments">Đang thu thập đính kèm...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Tin nhắn đa phương tiện</string>
@@ -127,7 +125,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="SmsMessageRecord_duplicate_message">Tin nhắn trùng lập.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_secure_session_reset">Đã tái thiết lập phiên bảo mật.</string>
-    <string name="ThreadRecord_draft">Nháp:</string>
     <string name="ThreadRecord_called">Bạn đã gọi</string>
     <string name="ThreadRecord_called_you">Đã gọi cho bạn</string>
     <string name="ThreadRecord_missed_call">Cuộc gọi nhỡ</string>
@@ -136,7 +133,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Tạm im thông báo</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Chạm vào để mở.</string>
     <string name="KeyCachingService_passphrase_cached">Session đã mở khóa</string>
@@ -151,7 +147,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="MessageNotifier_error_delivering_message">Có lỗi khi phân phối tin.</string>
     <string name="MessageNotifier_mark_all_as_read">Đánh dấu tất cả đã đọc</string>
     <string name="MessageNotifier_mark_read">Đánh dấu đã đọc</string>
-    <string name="MessageNotifier_reply">Hồi âm</string>
     <string name="MessageNotifier_unknown_contact_message">Liên lạc</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_missing_display_name">Không rõ</string>
@@ -290,7 +285,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Tắt tạm im</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Tạm im thông báo</string>
+    <string name="notificationsMute">Tạm im thông báo</string>
     <!-- conversation -->
     <string name="conversation__menu_leave_group">Rời nhóm</string>
     <!-- conversation_popup -->
@@ -308,13 +303,12 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="trimmer__deleting_old_messages">Đang xóa tin nhắn cũ...</string>
     <string name="trimmer__old_messages_successfully_deleted">Xóa thành công các tin nhắn cũ</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_continue">Tiếp tục</string>
     <string name="registration_activity__skip">Bỏ qua</string>
     <string name="BackupUtil_never">Không bao giờ</string>
     <string name="AppProtectionPreferenceFragment_none">Không</string>
     <!-- Conversation activity -->
     <!-- Session -->
-    <string name="continue_2">Tiếp tục</string>
+    <string name="_continue">Tiếp tục</string>
     <string name="copy">Sao chép</string>
     <string name="invalid_url">URL không hợp lệ</string>
     <string name="copied">Sao chép vào bộ nhớ tạm</string>
@@ -334,7 +328,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_register_title">Bắt đầu với Session ID của bạn</string>
     <string name="activity_register_explanation">Session ID của bạn là địa chỉ duy nhất mà mọi người có thể dùng để liên lạc với bạn trên ứng dụng Session. Session ID của bạn được thiết kế đảm bảo tuyệt đối ẩn danh và riêng tư vì nó không liên kết với danh tính thật của bạn.</string>
     <string name="activity_restore_title">Khôi phục lại tài khoản của bạn</string>
-    <string name="activity_restore_explanation">Nhập cụm từ khôi phục mà bạn nhận được khi đăng ký khôi phục tài khoản.</string>
     <string name="activity_restore_seed_edit_text_hint">Nhập cụm từ khôi phục của bạn.</string>
     <string name="activity_display_name_title_2">Chọn tên hiển thị của bạn</string>
     <string name="activity_display_name_explanation">Đây là tên của bạn khi sử dụng Session. Nó có thể là tên thật, tên gọi khác của bạn hoặc bất kì tên nào bạn thích.</string>

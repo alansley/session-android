@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(afbeelding)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(geluid)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(reactie)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Geen app gevonden om media te selecteren.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session heeft toegang nodig tot de externe opslagruimte om foto\'s, video\'s of audio te kunnen verzenden, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Opslagruimte\" in.</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Bijlage toevoegen</string>
     <string name="ConversationActivity_select_contact_info">Selecteer contactinformatie</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sorry, er trad een fout op bij het plaatsen van je bijlage.</string>
-    <string name="ConversationActivity_message">Bericht</string>
+    <string name="message">Bericht</string>
     <string name="ConversationActivity_compose">Opstellen</string>
     <string name="ConversationActivity_muted_until_date">Gedempt tot %1$s</string>
     <string name="ConversationActivity_muted_forever">Dempen</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Aan het verwijderen</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Berichten aan het verwijderen…</string>
-    <string name="MediaOverviewActivity_Select_all">Alles selecteren</string>
     <string name="MediaOverviewActivity_collecting_attachments">Bijlagen aan het verzamelen…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediabericht</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Voeg een bijschrift toe…</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Een of meer bijlagen zijn niet toegevoegd omdat die de bestandsgroottelimiet overschrijden</string>
     <string name="MediaSendActivity_camera_unavailable">Camera niet beschikbaar.</string>
-    <string name="MediaSendActivity_message_to_s">Bericht aan %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Je kan niet meer dan %d item delen.</item>
         <item quantity="other">Je kunt niet meer dan %d items delen.</item>
@@ -196,7 +193,6 @@
     <string name="ThreadRecord_group_updated">Groep aangepast</string>
     <string name="ThreadRecord_left_the_group">Heeft de groep verlaten</string>
     <string name="ThreadRecord_secure_session_reset">Beveiligde sessie opnieuw ingesteld.</string>
-    <string name="ThreadRecord_draft">Concept:</string>
     <string name="ThreadRecord_called">Jij hebt gebeld</string>
     <string name="ThreadRecord_called_you">Heeft je gebeld</string>
     <string name="ThreadRecord_missed_call">Gemiste oproep</string>
@@ -222,7 +218,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Verkeerd versleuteld mms-bericht</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mms-bericht versleuteld voor niet-bestaande sessie</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Demp meldingen</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Tik om te openen.</string>
     <string name="KeyCachingService_passphrase_cached">Session is ontgrendeld</string>
@@ -243,7 +238,6 @@
     <string name="MessageNotifier_error_delivering_message">Fout bij afleveren bericht.</string>
     <string name="MessageNotifier_mark_all_as_read">Alles markeren als gelezen</string>
     <string name="MessageNotifier_mark_read">Markeren als gelezen</string>
-    <string name="MessageNotifier_reply">Reageren</string>
     <string name="MessageNotifier_pending_signal_messages">Session-berichten in wachtrij</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Er staan Signal-berichten in de wachtrij, tik om Session te openen en om ze op te halen</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -254,8 +248,7 @@
     <string name="NotificationChannel_backups">Back-ups</string>
     <string name="NotificationChannel_locked_status">Vergrendelingstoestand</string>
     <string name="NotificationChannel_app_updates">Nieuwe versies van de app </string>
-    <string name="NotificationChannel_other">Anders</string>
-    <string name="NotificationChannel_group_messages">Berichten</string>
+    <string name="other">Anders</string>
     <string name="NotificationChannel_missing_display_name">Onbekend</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Snel reageren niet beschikbaar wanneer Session vergrendeld is!</string>
@@ -365,7 +358,6 @@
     <string name="arrays__mute_for_one_day">Demp voor 1 dag</string>
     <string name="arrays__mute_for_seven_days">Demp voor 7 dagen</string>
     <string name="arrays__mute_for_one_year">Demp voor 1 jaar</string>
-    <string name="arrays__mute_forever">Demp voor altijd</string>
     <string name="arrays__settings_default">Gebruik systeem-standaard</string>
     <string name="arrays__enabled">Ingeschakeld</string>
     <string name="arrays__disabled">Uitgeschakeld</string>
@@ -379,7 +371,7 @@
     <string name="arrays__large">Groot</string>
     <string name="arrays__extra_large">Extra groot</string>
     <string name="arrays__high">Hoog</string>
-    <string name="arrays__max">Maximaal</string>
+    <string name="max">Maximaal</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d uur</item>
@@ -449,7 +441,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Niet langer dempen</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Demp meldingen</string>
+    <string name="notificationsMute">Demp meldingen</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Groep aanpassen</string>
     <string name="conversation__menu_leave_group">Groep verlaten</string>
@@ -472,8 +464,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Oude berichten succesvol gewist</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Toestemming vereist</string>
-    <string name="Permissions_continue">Doorgaan</string>
-    <string name="Permissions_not_now">Niet nu</string>
+    <string name="notNow">Niet nu</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Back-ups worden opgeslagen op het externe opslaggeheugen en versleuteld met het wachtwoord hieronder. Je hebt dit wachtwoord nodig om de back-up terug te zetten.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ik heb dit wachtwoord opgeschreven. Zonder dit wachtwoord kan ik deze back-up niet terugzetten.</string>
     <string name="registration_activity__skip">Overslaan</string>
@@ -494,7 +485,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Publieke sleutel kopiëren</string>
     <!-- Session -->
-    <string name="continue_2">Doorgaan</string>
+    <string name="_continue">Doorgaan</string>
     <string name="copy">Kopiëren</string>
     <string name="invalid_url">Ongeldige URL</string>
     <string name="copied">Gekopieerd naar klembord</string>
@@ -514,7 +505,6 @@
     <string name="activity_register_title">Zeg hallo tegen uw Sessie-ID</string>
     <string name="activity_register_explanation">Uw Sessie-ID is het unieke adres dat mensen kunnen gebruiken om contact met u op te nemen via Sessie. Zonder verbinding met je echte identiteit, is je Sessie-ID volledig anoniem en privé.</string>
     <string name="activity_restore_title">Uw account herstellen</string>
-    <string name="activity_restore_explanation">Voer de herstel zin in die u hebt gekregen toen u uwzelf hebt aangemeld om uw account te herstellen.</string>
     <string name="activity_restore_seed_edit_text_hint">Voer uw herstel zin in</string>
     <string name="activity_display_name_title_2">Kies je weergavenaam</string>
     <string name="activity_display_name_explanation">Dit is je naam wanneer je Sessie gebruikt. Het kan je echte naam zijn, een alias, of wat je maar wilt.</string>

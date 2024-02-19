@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(bilde)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(svar)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Fant ingen programmer for valg av medier.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session krever tillatelse fra systemet for å kunne legge til bilder, videoer eller lyd, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Legg til vedlegg</string>
     <string name="ConversationActivity_select_contact_info">Velg kontaktinformasjon</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Det oppstod en feil under forsøk på å vedlegge filen.</string>
-    <string name="ConversationActivity_message">Melding</string>
+    <string name="message">Melding</string>
     <string name="ConversationActivity_compose">Skriv ny</string>
     <string name="ConversationActivity_muted_until_date">Dempet til %1$s</string>
     <string name="ConversationActivity_muted_forever">Dempet</string>
@@ -143,7 +142,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Sletter</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Sletter meldinger …</string>
-    <string name="MediaOverviewActivity_Select_all">Velg alle</string>
     <string name="MediaOverviewActivity_collecting_attachments">Henter vedlegg …</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediemelding</string>
@@ -155,7 +153,6 @@
     <string name="MediaSendActivity_add_a_caption">Legg til bildetekst…</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">En gjenstand ble fjernet fordi den overskride størrelsesgrensen</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera utilgjengelig.</string>
-    <string name="MediaSendActivity_message_to_s">Melding til %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan ikke dele mer enn %d fil.</item>
         <item quantity="other">Du kan ikke dele mer enn %d filer.</item>
@@ -195,7 +192,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="ThreadRecord_group_updated">Gruppe oppdatert</string>
     <string name="ThreadRecord_left_the_group">Forlot gruppa</string>
     <string name="ThreadRecord_secure_session_reset">Sikker økt tilbakestilt.</string>
-    <string name="ThreadRecord_draft">Utkast:</string>
     <string name="ThreadRecord_called">Du ringte</string>
     <string name="ThreadRecord_called_you">Ringte deg</string>
     <string name="ThreadRecord_missed_call">Ubesvart anrop</string>
@@ -221,7 +217,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Ugyldig kryptert MMS</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-melding kryptert for ikke-eksisterende økt</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Ikke vis varsler</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Trykk for å åpne.</string>
     <string name="KeyCachingService_passphrase_cached">Session er låst opp</string>
@@ -242,7 +237,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="MessageNotifier_error_delivering_message">Feil under levering av melding.</string>
     <string name="MessageNotifier_mark_all_as_read">Merk alle som lest</string>
     <string name="MessageNotifier_mark_read">Merk som lest</string>
-    <string name="MessageNotifier_reply">Svar</string>
     <string name="MessageNotifier_pending_signal_messages">Venter Sessionmeldinger </string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Du har ventende Sessionmeldinger, trykk for å åpne og hente</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -253,8 +247,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="NotificationChannel_backups">Sikkerhetskopiering</string>
     <string name="NotificationChannel_locked_status">Lås status</string>
     <string name="NotificationChannel_app_updates">Oppdateringer</string>
-    <string name="NotificationChannel_other">Annet</string>
-    <string name="NotificationChannel_group_messages">Meldinger</string>
+    <string name="other">Annet</string>
     <string name="NotificationChannel_missing_display_name">Ukjent</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hurtigsvar er utilgjengelig når Session er låst.</string>
@@ -364,7 +357,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__mute_for_one_day">Demp i 1 dag</string>
     <string name="arrays__mute_for_seven_days">Demp i 7 dager</string>
     <string name="arrays__mute_for_one_year">Demp i 1 år</string>
-    <string name="arrays__mute_forever">Demp for alltid</string>
     <string name="arrays__settings_default">Standardoppsett</string>
     <string name="arrays__enabled">Slått på</string>
     <string name="arrays__disabled">Slått av</string>
@@ -378,7 +370,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__large">Stor</string>
     <string name="arrays__extra_large">Ekstra stor</string>
     <string name="arrays__high">Høy</string>
-    <string name="arrays__max">Maks</string>
+    <string name="max">Maks</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d time</item>
@@ -448,7 +440,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Vis</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Ikke vis varsler</string>
+    <string name="notificationsMute">Ikke vis varsler</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Rediger gruppe</string>
     <string name="conversation__menu_leave_group">Forlat gruppe</string>
@@ -471,8 +463,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamle meldinger ble slettet</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Tillatelse kreves</string>
-    <string name="Permissions_continue">Fortsett</string>
-    <string name="Permissions_not_now">Ikke nå</string>
+    <string name="notNow">Ikke nå</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Sikkerhetskopier blir lagret på eksterne enheter og kryptert med passordfrasen nedenfor. Du må skrive inn denne passordfrasen for å kunne gjennopprette fra en sikkerhetskopi.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Jeg har notert passordfrasen. Uten denne blir det umulig å bruke sikkerhetskopien til gjenoppretting.</string>
     <string name="registration_activity__skip">Hopp over</string>
@@ -493,7 +484,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopier offentlig nøkkel</string>
     <!-- Session -->
-    <string name="continue_2">Fortsett</string>
+    <string name="_continue">Fortsett</string>
     <string name="copy">Kopier</string>
     <string name="invalid_url">Ugyldig URL</string>
     <string name="copied">Kopiert til utklippstavle</string>
@@ -513,7 +504,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_register_title">Si hei til din Session-ID</string>
     <string name="activity_register_explanation">Din Session-ID er den unike adressen folk kan bruke for å kontakte deg på Session. Uten en forbindelse til din virkelige identitet er din Session-ID laget for å være fullstendig anonym og privat.</string>
     <string name="activity_restore_title">Gjenopprett kontoen din</string>
-    <string name="activity_restore_explanation">Angi gjenopprettingsfrasen som ble gitt til deg når du registrerte deg for å gjenopprette din konto.</string>
     <string name="activity_restore_seed_edit_text_hint">Skriv inn din gjenopprettelsesfrase</string>
     <string name="activity_display_name_title_2">Velg ditt visningsnavn</string>
     <string name="activity_display_name_explanation">Dette vil være navnet ditt når du bruker Session. Det kan være ditt virkelige navn, en alias, eller alt annet du vil.</string>

@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(kép)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(hang)</string>
     <string name="DraftDatabase_Draft_video_snippet">(videó)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(válasz)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Nem található alkalmazás a médiafájl kiválasztásához.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">A Session-nek szüksége van Tárhely engedélyre, hogy fotókat, videókat vagy hangokat csatolhasson, de ez jelenleg meg van tagadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Tárhely\"-t.</string>
@@ -56,7 +55,7 @@
     <string name="ConversationActivity_add_attachment">Melléklet csatolása</string>
     <string name="ConversationActivity_select_contact_info">Válassz kontakt infót</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sajnos hiba történt a melléklet csatolása során.</string>
-    <string name="ConversationActivity_message">Üzenet</string>
+    <string name="message">Üzenet</string>
     <string name="ConversationActivity_compose">Összeállít</string>
     <string name="ConversationActivity_muted_until_date">Némítva: %1$s</string>
     <string name="ConversationActivity_muted_forever">Némítva</string>
@@ -144,7 +143,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Törlés</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Üzenetek törlése...</string>
-    <string name="MediaOverviewActivity_Select_all">Összes kiválasztása</string>
     <string name="MediaOverviewActivity_collecting_attachments">Mellékletek összegyűjtése...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimédia üzenet</string>
@@ -156,7 +154,6 @@
     <string name="MediaSendActivity_add_a_caption">Felirat hozzáadása...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Egy elem el lett távolítva, mivel túllépte a megengedett mérethatárt</string>
     <string name="MediaSendActivity_camera_unavailable">A kamera nem érhető el.</string>
-    <string name="MediaSendActivity_message_to_s">Üzenet neki: %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nem oszthatsz meg többet, mint %d db elem.</item>
         <item quantity="other">Nem oszthatsz meg többet, mint %d db elem.</item>
@@ -197,7 +194,6 @@
     <string name="ThreadRecord_group_updated">Csoport frissítve</string>
     <string name="ThreadRecord_left_the_group">Elhagyta a csoportot</string>
     <string name="ThreadRecord_secure_session_reset">Biztonságos munkamenet újraindítva.</string>
-    <string name="ThreadRecord_draft">Piszkozat:</string>
     <string name="ThreadRecord_called">Te hívtad</string>
     <string name="ThreadRecord_called_you">Hívott téged</string>
     <string name="ThreadRecord_missed_call">Nem fogadott hívás</string>
@@ -223,7 +219,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Hibás titkosított MMS üzenet</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Az MMS üzenet nem létező munkamenethez lett titkosítva</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Értesítések némítása</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Koppints a megnyitáshoz!</string>
     <string name="KeyCachingService_passphrase_cached">Session feloldva</string>
@@ -244,7 +239,6 @@
     <string name="MessageNotifier_error_delivering_message">Hiba történt az üzenet kézbesítése során.</string>
     <string name="MessageNotifier_mark_all_as_read">Összes megjelölése olvasottként</string>
     <string name="MessageNotifier_mark_read">Olvasottnak jelöl</string>
-    <string name="MessageNotifier_reply">Válasz</string>
     <string name="MessageNotifier_pending_signal_messages">Függőben lévő Session üzenetek</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Függőben lévő Session üzeneteid vannak, koppints a megnyitáshoz és letöltéshez</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -255,8 +249,7 @@
     <string name="NotificationChannel_backups">Biztonsági mentések</string>
     <string name="NotificationChannel_locked_status">Zár státusza</string>
     <string name="NotificationChannel_app_updates">App frissítések</string>
-    <string name="NotificationChannel_other">Egyéb</string>
-    <string name="NotificationChannel_group_messages">Üzenetek</string>
+    <string name="other">Egyéb</string>
     <string name="NotificationChannel_missing_display_name">Ismeretlen</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A gyors válasz nem érhető el, ha a Session zárolva van!</string>
@@ -366,7 +359,6 @@
     <string name="arrays__mute_for_one_day">Némítás 1 napra</string>
     <string name="arrays__mute_for_seven_days">Némítás 7 napra</string>
     <string name="arrays__mute_for_one_year">Némítás 1 évre</string>
-    <string name="arrays__mute_forever">Némítás örökre</string>
     <string name="arrays__settings_default">Alapértelmezett beállítások</string>
     <string name="arrays__enabled">Engedélyezve</string>
     <string name="arrays__disabled">Letiltva</string>
@@ -380,7 +372,7 @@
     <string name="arrays__large">Nagy</string>
     <string name="arrays__extra_large">Extra nagy</string>
     <string name="arrays__high">Magas</string>
-    <string name="arrays__max">Legmagasabb</string>
+    <string name="max">Legmagasabb</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d óra</item>
@@ -450,7 +442,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Némítás feloldása</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Értesítések némítása</string>
+    <string name="notificationsMute">Értesítések némítása</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Csoport szerkesztése</string>
     <string name="conversation__menu_leave_group">Kilépés a csoportból</string>
@@ -473,8 +465,7 @@
     <string name="trimmer__old_messages_successfully_deleted">A régi üzenetek törlése sikerült</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Engedély szükséges</string>
-    <string name="Permissions_continue">Folytatás</string>
-    <string name="Permissions_not_now">Most nem</string>
+    <string name="notNow">Most nem</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">A biztonsági mentések külső tárolóra lesznek mentve, és az alábbi jelmondattal lesznek titkosítva. Ezt a jelmondatot kell megadnod a biztonsági mentés visszaállításához.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Feljegyeztem ezt a jelmondatot. Enélkül nem leszek képes visszaállítani biztonsági mentést.</string>
     <string name="registration_activity__skip">Kihagyás</string>
@@ -495,7 +486,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Nyilvános kulcs másolása</string>
     <!-- Session -->
-    <string name="continue_2">Folytatás</string>
+    <string name="_continue">Folytatás</string>
     <string name="copy">Másolás</string>
     <string name="invalid_url">Érvénytelen URL</string>
     <string name="copied">Vágólapra másolva</string>
@@ -515,7 +506,6 @@
     <string name="activity_register_title">Ismerd meg a Session ID-d</string>
     <string name="activity_register_explanation">A Session azonosító az az egyedi cím, amelyet az emberek használhatnak, hogy kapcsolatba lépjenek Önnel a Sessionon. Mivel nincs kapcsolat a valódi személyazonosságával, az Session azonosító teljesen névtelen, és privát.</string>
     <string name="activity_restore_title">Fiók visszaállítása</string>
-    <string name="activity_restore_explanation">Írja be azt a helyreállítási kifejezést, amelyet a fiók visszaállításához regisztrálásakor kapott.</string>
     <string name="activity_restore_seed_edit_text_hint">Írja be a helyreállítási kifejezést</string>
     <string name="activity_display_name_title_2">Válassza ki a megjelenítendő nevet</string>
     <string name="activity_display_name_explanation">Ez lesz az ön neve, amikor használja a Session alkalmazást. Ez lehet a valódi neve, álneve, vagy bármi más, ami tetszik.</string>

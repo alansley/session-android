@@ -35,7 +35,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(صورة)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(صوت)</string>
     <string name="DraftDatabase_Draft_video_snippet">(فيديو)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(رَدّ)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">لم يتم العثور على تطبيق لاختيار ملف.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">يحتاج Session إلى إذن سعة التخزين من أجل إضافة الصور والمرفقات ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
@@ -64,7 +63,7 @@
     <string name="ConversationActivity_add_attachment">إضافة مرفقات</string>
     <string name="ConversationActivity_select_contact_info">أختر بيانات جهة الاتصال</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">عذراً، حصل خطأ أثناء رفع المرفق.</string>
-    <string name="ConversationActivity_message">رسالة</string>
+    <string name="message">رسالة</string>
     <string name="ConversationActivity_compose">إنشاء رسالة</string>
     <string name="ConversationActivity_muted_until_date">كتم حتى %1$s</string>
     <string name="ConversationActivity_muted_forever">كتم</string>
@@ -179,7 +178,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">جارٍ الحذف</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">حذف الرسائل جارٍ...</string>
-    <string name="MediaOverviewActivity_Select_all">أختر الكل</string>
     <string name="MediaOverviewActivity_collecting_attachments">جارٍ جمع المرفقات...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">رسالة وسائط متعددة</string>
@@ -191,7 +189,6 @@
     <string name="MediaSendActivity_add_a_caption">إضافة تعليق...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">تم إزالة عنصر لانه تجاوز الحجم المسموح</string>
     <string name="MediaSendActivity_camera_unavailable">الكاميرا غير متوفرة.</string>
-    <string name="MediaSendActivity_message_to_s">رسالة إلى %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="zero">لا يمكنك مشاركة اكثر من %d عنصر.</item>
         <item quantity="one">لا يمكنك مشاركة اكثر من %d عنصر.</item>
@@ -234,7 +231,6 @@
     <string name="ThreadRecord_group_updated">تم تحديث المحموعة</string>
     <string name="ThreadRecord_left_the_group">غادر المجموعة</string>
     <string name="ThreadRecord_secure_session_reset">إعادة ضبط جلسة آمنة.</string>
-    <string name="ThreadRecord_draft">مسودة:</string>
     <string name="ThreadRecord_called">مكالمات صادرة</string>
     <string name="ThreadRecord_called_you">مكالمات واردة</string>
     <string name="ThreadRecord_missed_call">مكالمة فائتة</string>
@@ -260,7 +256,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">رسالة مشفرة رديئة</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">الرسالة مشفرة دون وجود قناة اتصال...</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">كتم الإشعارات</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">المس للفتح.</string>
     <string name="KeyCachingService_passphrase_cached">Session غير مقفول</string>
@@ -281,7 +276,6 @@
     <string name="MessageNotifier_error_delivering_message">خطأ بالارسال</string>
     <string name="MessageNotifier_mark_all_as_read">اعتبر جميع الرسائل مقروءة</string>
     <string name="MessageNotifier_mark_read">اعتبرها مقروءة</string>
-    <string name="MessageNotifier_reply">رَدّ</string>
     <string name="MessageNotifier_pending_signal_messages">رسائل Session المعلقة</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">لديك رسائل جلسة معلّقة، انقر للفتح و الإستلام</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -292,8 +286,7 @@
     <string name="NotificationChannel_backups">النُسخ الإحتياطية</string>
     <string name="NotificationChannel_locked_status">حالة القفل</string>
     <string name="NotificationChannel_app_updates">تحديثات التطبيق</string>
-    <string name="NotificationChannel_other">أخرى</string>
-    <string name="NotificationChannel_group_messages">الرسائل</string>
+    <string name="other">أخرى</string>
     <string name="NotificationChannel_missing_display_name">مجهول</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">الردود السريعة غير متاحة عند قفل Session!</string>
@@ -407,7 +400,6 @@
     <string name="arrays__mute_for_one_day">كتم لمدة يوم</string>
     <string name="arrays__mute_for_seven_days">كتم لمدة سبعة أيام</string>
     <string name="arrays__mute_for_one_year">كتم لمدة عام واحد</string>
-    <string name="arrays__mute_forever">كتم إلى الأبد</string>
     <string name="arrays__settings_default">الإعدادات الافتراضية</string>
     <string name="arrays__enabled">مفعل</string>
     <string name="arrays__disabled">معطل</string>
@@ -421,7 +413,7 @@
     <string name="arrays__large">كبيرة</string>
     <string name="arrays__extra_large">كبيرة جداً</string>
     <string name="arrays__high">عالي</string>
-    <string name="arrays__max">الأقصى</string>
+    <string name="max">الأقصى</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="zero">%d ساعة</item>
@@ -495,7 +487,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">إلغاء الكتم.</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">كتم الإشعارات</string>
+    <string name="notificationsMute">كتم الإشعارات</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">تدقيق المجموعة</string>
     <string name="conversation__menu_leave_group">أترك المجموعة</string>
@@ -518,8 +510,7 @@
     <string name="trimmer__old_messages_successfully_deleted">تم حذف الرسائل القديمة بنجاح</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">منح إحدى الأذونات مطلوب</string>
-    <string name="Permissions_continue">استمر</string>
-    <string name="Permissions_not_now">ليس الآن</string>
+    <string name="notNow">ليس الآن</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">يتم حفظ النسخ الاحتياطية إلى سعة التخزين مشفرة بالعبارة السرية التالية، ومن الضروري حفظها من أجل استعادة قاعدة البيانات.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">قمت بتدوين العبارة السرية، ولا يمكنني استعادة قاعدة البيانات بدونها.</string>
     <string name="registration_activity__skip">تخطى</string>
@@ -540,7 +531,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">اِنسخ المفتاح العام</string>
     <!-- Session -->
-    <string name="continue_2">متابعة</string>
+    <string name="_continue">متابعة</string>
     <string name="copy">اِنسخ</string>
     <string name="invalid_url">عنوان تعريف خاطئ</string>
     <string name="copied">تم النسخ الى الحافظة المؤقتة</string>
@@ -560,7 +551,6 @@
     <string name="activity_register_title">رحب بعنوان تعريفك</string>
     <string name="activity_register_explanation">عنوان تعريفك هو عنوان وحيد خاص بك, يمكن للناس الاتصال بك عن طريقه. دون معرفة هويتك الحقيقية, هذا العنوان مصمم ليكون خاص و مجهول.</string>
     <string name="activity_restore_title">استرجع حسابك</string>
-    <string name="activity_restore_explanation">أدخل عبارة الأسترجاع التي اعطيت لك عندما سجلت الدخول لاِسترجاع حسابك.</string>
     <string name="activity_restore_seed_edit_text_hint">ادخل عبارة الاسترجاع</string>
     <string name="activity_display_name_title_2">أختر اِسم الاِظهار</string>
     <string name="activity_display_name_explanation">هذا سيكون اِسمك عندما تستخدم Session. قد يكون اِسمك الحقيقي, اِسم مستعار أو اي شيئ ترغب به.</string>

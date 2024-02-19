@@ -31,7 +31,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(зображення)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(звук)</string>
     <string name="DraftDatabase_Draft_video_snippet">(відео)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(відповісти)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Неможливо знайти програму для обраного медіа.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session потребує дозволу \"Зберігання\" для прикріплення фото, відео та аудіо, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
@@ -60,7 +59,7 @@
     <string name="ConversationActivity_add_attachment">Додати вкладення</string>
     <string name="ConversationActivity_select_contact_info">Оберіть інформацію контакту</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Вибачте, сталася помилка при обробці вкладення.</string>
-    <string name="ConversationActivity_message">Написати</string>
+    <string name="message">Написати</string>
     <string name="ConversationActivity_compose">Написати лист</string>
     <string name="ConversationActivity_muted_until_date">Без звуку до %1$s</string>
     <string name="ConversationActivity_muted_forever">Беззвучний</string>
@@ -161,7 +160,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Видалення</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Видалення повідомлень...</string>
-    <string name="MediaOverviewActivity_Select_all">Обрати все</string>
     <string name="MediaOverviewActivity_collecting_attachments">Збираю вкладення...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Мультимедійне повідомлення</string>
@@ -173,7 +171,6 @@
     <string name="MediaSendActivity_add_a_caption">Добавити заголовок...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Файл було видалено, оскільки він перевищив ліміт розміру</string>
     <string name="MediaSendActivity_camera_unavailable">Камера не доступна</string>
-    <string name="MediaSendActivity_message_to_s">Відправити до %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Ви не можете надсилати більше, ніж %d файл.</item>
         <item quantity="few">Ви не можете надсилати більше, ніж %d файлів.</item>
@@ -216,7 +213,6 @@
     <string name="ThreadRecord_group_updated">Групу оновлено</string>
     <string name="ThreadRecord_left_the_group">Покинути групу</string>
     <string name="ThreadRecord_secure_session_reset">Скидання безпечного сеансу.</string>
-    <string name="ThreadRecord_draft">Чернетка:</string>
     <string name="ThreadRecord_called">Ви телефонували</string>
     <string name="ThreadRecord_called_you">Вам телефонували</string>
     <string name="ThreadRecord_missed_call">Пропущений виклик</string>
@@ -242,7 +238,6 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Погано зашифроване MMS повідомлення</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS повідомлення зашифроване для неіснуючої сесії</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Вимкнути звук сповіщень</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Торкніться, щоб відкрити.</string>
     <string name="KeyCachingService_passphrase_cached">Session розблоковано</string>
@@ -263,7 +258,6 @@
     <string name="MessageNotifier_error_delivering_message">Помилка доставки повідомлення.</string>
     <string name="MessageNotifier_mark_all_as_read">Позначити все як прочитане</string>
     <string name="MessageNotifier_mark_read">Позначити як прочитане</string>
-    <string name="MessageNotifier_reply">Відповісти</string>
     <string name="MessageNotifier_pending_signal_messages">Повідомлення в очікуванні</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">У вас є повідомлення в очікуванні, торкніться щоб отримати їх</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -274,8 +268,7 @@
     <string name="NotificationChannel_backups">Резервні копії</string>
     <string name="NotificationChannel_locked_status">Статус блокування</string>
     <string name="NotificationChannel_app_updates">Оновлення додатку</string>
-    <string name="NotificationChannel_other">Інший</string>
-    <string name="NotificationChannel_group_messages">Повідомлення</string>
+    <string name="other">Інший</string>
     <string name="NotificationChannel_missing_display_name">Невідомо</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Швидка відповідь неможлива, коли Session заблоковано!</string>
@@ -400,7 +393,7 @@
     <string name="arrays__large">Великий</string>
     <string name="arrays__extra_large">Дуже великий</string>
     <string name="arrays__high">Великий</string>
-    <string name="arrays__max">Максимум</string>
+    <string name="max">Максимум</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d година</item>
@@ -472,7 +465,7 @@
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Увімкнути звук</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Вимкнути звук сповіщень</string>
+    <string name="notificationsMute">Вимкнути звук сповіщень</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Редагувати групу</string>
     <string name="conversation__menu_leave_group">Вийти з групи</string>
@@ -495,8 +488,7 @@
     <string name="trimmer__old_messages_successfully_deleted">Старі повідомлення було успішно видалено</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Необхідний дозвіл</string>
-    <string name="Permissions_continue">Продовжити</string>
-    <string name="Permissions_not_now">Не зараз</string>
+    <string name="notNow">Не зараз</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервна копія буду збережена у зовнішньому сховищі та зашифрована за допомогою наведеної нижче фрази-паролю. Ви повинні використати її для відновлення резервної копії.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записав цю фразу-пароль. Без неї я не зможу відновити резервну копію.</string>
     <string name="registration_activity__skip">Пропустити</string>
@@ -517,7 +509,7 @@
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Копіювати публічкий ключ</string>
     <!-- Session -->
-    <string name="continue_2">Далі</string>
+    <string name="_continue">Далі</string>
     <string name="copy">Скопіювати</string>
     <string name="invalid_url">Недійсне URL посилання</string>
     <string name="copied">Скопійовано в буфер обміну</string>
@@ -537,7 +529,6 @@
     <string name="activity_register_title">Привітайтесь з вашою Session ID адрессою</string>
     <string name="activity_register_explanation">Ваш Session ID є унікальною адресою, якою люди будуть зв’язуватимися з вами в Session. При відсутньому з\'єднанні з вашою реальною особистістю, Session ID є абсолютно анонімним та приватним, по дизайну.</string>
     <string name="activity_restore_title">Відновити обліковий запис</string>
-    <string name="activity_restore_explanation">Введіть фразу відновлення, яку вам було сказано записати на папері під час реєстрації, для відновлення облікового запису.</string>
     <string name="activity_restore_seed_edit_text_hint">Введіть вашу фразу відновлення</string>
     <string name="activity_display_name_title_2">Виберіть ваш псевдонім для показу</string>
     <string name="activity_display_name_explanation">Це буде ваше ім\'я яке ви використовуєте в Session. Воно може бути вашим дійсним ім\'ям, альясом або чимусь іншим.</string>

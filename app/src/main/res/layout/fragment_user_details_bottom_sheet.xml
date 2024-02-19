@@ -122,6 +122,6 @@
         android:layout_marginTop="@dimen/medium_spacing"
         android:contentDescription="@string/AccessibilityId_message_user"
         android:paddingHorizontal="@dimen/large_spacing"
-        android:text="@string/ConversationActivity_message" />
+        android:text="@string/message" />
 
 </LinearLayout>

@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(ಚಿತ್ರ)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ಆಡಿಯೋ)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ವೀಡಿಯೊ)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(ಜವಾಬು)</string>
     <!-- AttachmentManager -->
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">ಆಡಿಯೊವನ್ನು ಪ್ಲೇ ಮಾಡುವುದರಲ್ಲಿ ದೋಷವುಂಟಾಗಿದೆ!</string>
@@ -36,7 +35,7 @@
     <string name="ConversationItem_error_not_delivered">ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ, ಮಾಹಿತಿಗಾಗಿ ತಟ್ಟಿ ನೋಡಿ</string>
     <string name="ConversationItem_read_more">ಹೆಚ್ಚು ಓದಿರಿ</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_message">ಸಂದೇಶ</string>
+    <string name="message">ಸಂದೇಶ</string>
     <string name="ConversationActivity_compose">ರಚಿಸು</string>
     <string name="ConversationActivity_muted_forever">ಸದ್ದಡಗಿಸಿ</string>
     <string name="ConversationActivity_open_group_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
@@ -69,7 +68,6 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">ಅಳಿಸಿ ಹಾಕಲಾಗುತ್ತಿದೆ</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ ಹಾಕಲಾಗುತ್ತಿದೆ...</string>
-    <string name="MediaOverviewActivity_Select_all">ಎಲ್ಲ ಆಯ್ದುಕೊಳ್ಳಿ</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ಮಲ್ಟಿಮೀಡಿಯಾ ಸಂದೇಶ</string>
     <!-- MediaPickerActivity -->
@@ -93,8 +91,7 @@
     <string name="NotificationChannel_calls">ಕಾಲುಗಳು</string>
     <string name="NotificationChannel_failures">ವಿಫಲತೆಗಳು</string>
     <string name="NotificationChannel_backups">ಬ್ಯಾಕಪ್ಪುಗಳು</string>
-    <string name="NotificationChannel_other">ಇತರೆ</string>
-    <string name="NotificationChannel_group_messages">ಸಂದೇಶಗಳು</string>
+    <string name="other">ಇತರೆ</string>
     <string name="NotificationChannel_missing_display_name">ಗೊತ್ತಿರದ</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
@@ -219,7 +216,7 @@
     <string name="AppProtectionPreferenceFragment_none">ಯಾವುದೂ ಇಲ್ಲ</string>
     <!-- Conversation activity -->
     <!-- Session -->
-    <string name="continue_2">ಮುಂದುವರೆಯಿರಿ</string>
+    <string name="_continue">ಮುಂದುವರೆಯಿರಿ</string>
     <string name="copy">ನಕಲಿಸಿ</string>
     <string name="invalid_url">ಅಮಾನ್ಯ URL</string>
     <string name="next">ಮುಂದಿನ</string>

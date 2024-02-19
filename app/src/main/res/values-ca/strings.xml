@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(imatge)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(àudio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vídeo)</string>
-    <string name="DraftDatabase_Draft_quote_snippet">(reposta)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">No s\'ha trobat cap aplicació compatible.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">El Session necessita el permís de l\'emmagatzematge per tal d\'adjuntar fotografies, vídeos o àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi l\'emmagatzematge.</string>
@@ -55,7 +54,7 @@
     <string name="ConversationActivity_add_attachment">Afegeix un adjunt</string>
     <string name="ConversationActivity_select_contact_info">Seleccioneu informació del contacte</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">S\'ha produït un error en afegir el fitxer adjunt.</string>
-    <string name="ConversationActivity_message">Missatge</string>
+    <string name="message">Missatge</string>
     <string name="ConversationActivity_compose">Escriu</string>
     <string name="ConversationActivity_muted_until_date">Silenciat fins %1$s</string>
     <string name="ConversationActivity_member_count">%1$d membres</string>
@@ -140,7 +139,6 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Suprimint</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Suprimint missatges...</string>
-    <string name="MediaOverviewActivity_Select_all">Selecciona-ho tot</string>
     <string name="MediaOverviewActivity_collecting_attachments">S\'estan adjuntant els fitxers...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Missatge multimèdia</string>
@@ -152,7 +150,6 @@
     <string name="MediaSendActivity_add_a_caption">Afegiu-hi un títol...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">S\'ha suprimit un element perquè excedia el límit de la mida.</string>
     <string name="MediaSendActivity_camera_unavailable">Càmera no disponible</string>
-    <string name="MediaSendActivity_message_to_s">Missatge per a %s</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">No podeu compartir més de %d elements.</item>
         <item quantity="other">No podeu compartir més de %d elements.</item>
@@ -192,7 +189,6 @@ d\'intercanvi de claus!</string>
     <string name="ThreadRecord_group_updated">S\'ha actualitzat el grup</string>
     <string name="ThreadRecord_left_the_group">Ha abandonat el grup</string>
     <string name="ThreadRecord_secure_session_reset">Restabliment de la sessió segura.</string>
-    <string name="ThreadRecord_draft">Esborrany:</string>
     <string name="ThreadRecord_called">Heu trucat</string>
     <string name="ThreadRecord_called_you">Us ha trucat</string>
     <string name="ThreadRecord_missed_call">Trucada perduda</string>
@@ -218,7 +214,6 @@ d\'intercanvi de claus!</string>
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Missatge MMS mal encriptat</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Missatge MMS encriptat per a una sessió que no existeix</string>
     <!-- MuteDialog -->
-    <string name="MuteDialog_mute_notifications">Silencia les notificacions</string>
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Toqueu per obrir-ho.</string>
     <string name="KeyCachingService_passphrase_cached">S\'ha desblocat el Session</string>
@@ -238,7 +233,6 @@ d\'intercanvi de claus!</string>
     <string name="MessageNotifier_error_delivering_message">S\'ha produït un error en entregar el missatge.</string>
     <string name="MessageNotifier_mark_all_as_read">Marca-ho tot com a llegit</string>
     <string name="MessageNotifier_mark_read">Marca\'l com a llegit</string>
-    <string name="MessageNotifier_reply">Respon</string>
     <string name="MessageNotifier_pending_signal_messages">Missatges del Session pendents</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Teniu missatges del Session pendents, toqueu per obrir-lo i recuperar-los</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -249,8 +243,7 @@ d\'intercanvi de claus!</string>
     <string name="NotificationChannel_backups">Còpies de seguretat</string>
     <string name="NotificationChannel_locked_status">Estat del bloqueig</string>
     <string name="NotificationChannel_app_updates">Actualitzacions de l\'aplicació</string>
-    <string name="NotificationChannel_other">Altres</string>
-    <string name="NotificationChannel_group_messages">Missatges</string>
+    <string name="other">Altres</string>
     <string name="NotificationChannel_missing_display_name">Desconegut</string>
     <!-- QuickResponseService -->
     <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">La resposta ràpida no és disponible si el Session està blocat!</string>
@@ -373,7 +366,7 @@ d\'intercanvi de claus!</string>
     <string name="arrays__large">Gran</string>
     <string name="arrays__extra_large">Molt gran</string>
     <string name="arrays__high">Alta</string>
-    <string name="arrays__max">Màxima</string>
+    <string name="max">Màxima</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="one">%d hora</item>
@@ -442,7 +435,7 @@ d\'intercanvi de claus!</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">No silenciïs</string>
     <!-- conversation_unmuted -->
-    <string name="conversation_unmuted__mute_notifications">Silencia les notificacions</string>
+    <string name="notificationsMute">Silencia les notificacions</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Edita el grup</string>
     <string name="conversation__menu_leave_group">Abandona el grup</string>
@@ -465,8 +458,7 @@ d\'intercanvi de claus!</string>
     <string name="trimmer__old_messages_successfully_deleted">S\'han suprimit correctament els missatges antics</string>
     <!-- transport_selection_list_item -->
     <string name="Permissions_permission_required">Cal permís</string>
-    <string name="Permissions_continue">Continua</string>
-    <string name="Permissions_not_now">Ara no</string>
+    <string name="notNow">Ara no</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Les còpies de seguretat es desaran a l\'emmagatzematge extern i s\'encriptaran amb la contrasenya següent. Heu de tenir aquesta contrasenya per tal de restaurar una còpia de seguretat.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">He anotat aquesta contrasenya. Sense, no podré restaurar cap còpia de seguretat.</string>
     <string name="registration_activity__skip">Omet</string>
@@ -487,7 +479,7 @@ d\'intercanvi de claus!</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Copia la clau pública</string>
     <!-- Session -->
-    <string name="continue_2">Continua</string>
+    <string name="_continue">Continua</string>
     <string name="copy">Copia</string>
     <string name="invalid_url">URL invàlida</string>
     <string name="copied">Copiat al porta-retalls</string>
@@ -507,7 +499,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_register_title">Digues hola al teu ID de Session</string>
     <string name="activity_register_explanation">El teu ID de Session és l\'adreça única que els usuaris poden utilitzar per a contactar-te a Session. Sense cap connexió amb la teva identitat real, el teu ID de Session ID per disseny és totalment anònim i privat.</string>
     <string name="activity_restore_title">Restableix el teu compte</string>
-    <string name="activity_restore_explanation">Introdueix la frase de recuperació que se\'t va proporcionar quan et vas registrar per a restaurar el compte.</string>
     <string name="activity_restore_seed_edit_text_hint">Introdueix la frase de recuperació</string>
     <string name="activity_display_name_title_2">Tria el nom que es mostrarà</string>
     <string name="activity_display_name_explanation">Aquest serà el teu nom quan facis servir Session. Pot ser el teu nom real, un àlies o qualsevol altra cosa que t\'agradi.</string>
