@@ -306,7 +306,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="preferences__pref_enter_sends_title">Enter untuk mengirim</string>
     <string name="preferences__send_link_previews">Kirim pratinjau tautan</string>
     <string name="preferences__screen_security">Keamanan Layar</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Blokir tangkapan layar di daftar baru-baru saja dan di dalam aplikasi</string>
     <string name="preferences__notifications">Pemberitahuan</string>
     <string name="preferences__led_color">Warna LED</string>
     <string name="preferences__led_color_unknown">Tidak dikenal</string>
@@ -413,7 +412,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="ProgressPreference_d_messages_so_far">%d pesan sejauh ini...</string>
     <string name="BackupUtil_never">Tidak pernah</string>
     <string name="preferences_app_protection__screen_lock">Layar terkunci</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Kunci akses Session Anda dengan kunci layar Android atau sidik jari</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Layar terkunci karena tidak beraktivitas habis</string>
     <string name="AppProtectionPreferenceFragment_none">Kosong</string>
     <!-- Conversation activity -->

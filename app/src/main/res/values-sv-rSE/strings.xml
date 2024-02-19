@@ -400,7 +400,6 @@ för nyckelutbyte!</string>
     <string name="preferences__send_link_previews">Sicka länkförhandsvisning</string>
     <string name="preferences__previews_are_supported_for">Förhandsvisningar stöds för Imgur-, Instagram-, Pinterest-, Reddit- och YouTube-länkar.</string>
     <string name="preferences__screen_security">Skärmsäkerhet</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Blockera skärmdumpar i Senaste-listan samt inuti appen</string>
     <string name="preferences__notifications">Aviseringar</string>
     <string name="preferences__led_color">Färg på ljusindikator</string>
     <string name="preferences__led_color_unknown">Okänd</string>
@@ -512,7 +511,6 @@ för nyckelutbyte!</string>
     <string name="ProgressPreference_d_messages_so_far">%d meddelanden än så länge</string>
     <string name="BackupUtil_never">Aldrig</string>
     <string name="preferences_app_protection__screen_lock">Skärmlås</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lås åtkomst till Session med Androids skärmlås eller fingeravtryck</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Skärmlåsets tidsgräns för inaktivitet </string>
     <string name="AppProtectionPreferenceFragment_none">Inga</string>
     <!-- Conversation activity -->

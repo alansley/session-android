@@ -399,7 +399,6 @@
     <string name="preferences__send_link_previews">Dërgo paraparje lidhjesh</string>
     <string name="preferences__previews_are_supported_for">Paraparjet mbulohen për lidhje Imgur, Instagram, Pinterest, Reddit, dhe YouTube.</string>
     <string name="preferences__screen_security">Siguri ekrani</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Blloko foto ekrani te lista e të rejave dhe brenda aplikacionit.</string>
     <string name="preferences__notifications">Njoftime</string>
     <string name="preferences__led_color">Ngjyrë LED-i</string>
     <string name="preferences__led_color_unknown">E panjohur</string>
@@ -511,7 +510,6 @@
     <string name="ProgressPreference_d_messages_so_far">%d mesazhe deri këtu</string>
     <string name="BackupUtil_never">Kurrë</string>
     <string name="preferences_app_protection__screen_lock">Kyçje ekrani</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">kyçni hyrjen në Session përmes kyçje ekrani ose shenja gishtash Android</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Kohë mbarimi plogështie për kyçje ekrani</string>
     <string name="AppProtectionPreferenceFragment_none">Asnjë</string>
     <!-- Conversation activity -->

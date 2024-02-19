@@ -336,7 +336,6 @@
     <!-- preferences.xml -->
     <string name="preferences__pref_enter_sends_title">ป้อนคีย์เพื่อส่ง</string>
     <string name="preferences__screen_security">ความปลอดภัยหน้าจอ</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">ปิดกั้นการจับภาพหน้าจอในรายการล่าสุดและภายในแอป</string>
     <string name="preferences__notifications">การแจ้งเตือน</string>
     <string name="preferences__led_color">สี LED</string>
     <string name="preferences__led_color_unknown">ไม่ทราบ</string>
@@ -443,7 +442,6 @@
     <string name="ProgressPreference_d_messages_so_far">%d ข้อความจนถึงตอนนี้</string>
     <string name="BackupUtil_never">ไม่เลย</string>
     <string name="preferences_app_protection__screen_lock">ล็อกหน้าจอ</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">ล็อกการเข้าถึง Session ด้วยการล็อกหน้าจอของ Android หรือลายนิ้วมือ</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">ล็อกหน้าจอเมื่อไม่มีการใช้งานเกินเวลาที่กำหนด</string>
     <string name="AppProtectionPreferenceFragment_none">ไม่มี</string>
     <!-- Conversation activity -->

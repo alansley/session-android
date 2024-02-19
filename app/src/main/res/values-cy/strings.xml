@@ -417,7 +417,6 @@
     <string name="preferences__send_link_previews">Anfon rhagolwg dolen</string>
     <string name="preferences__previews_are_supported_for">Cefnogir rhagweld cynnwys trwy ddolenni Imgur, Instagram, Pinterest, Reddit a YouTube</string>
     <string name="preferences__screen_security">Diogelu\'r sgrin</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Rhwystro sgrinluniau tu mewn i\'r rhaglen</string>
     <string name="preferences__notifications">Hysbysiadau</string>
     <string name="preferences__led_color">Lliw\'r LED</string>
     <string name="preferences__led_color_unknown">Anhysbys</string>
@@ -526,7 +525,6 @@
     <string name="ProgressPreference_d_messages_so_far">%d neges hyd yn hyn</string>
     <string name="BackupUtil_never">Byth</string>
     <string name="preferences_app_protection__screen_lock">Clo sgrin</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Cloi mynediad i Session gyda chlo sgrin neu ôl bysedd Android</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Amserlen segur clo sgrin</string>
     <string name="AppProtectionPreferenceFragment_none">Dim</string>
     <!-- Conversation activity -->

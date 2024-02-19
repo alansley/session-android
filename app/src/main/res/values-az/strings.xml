@@ -401,7 +401,6 @@
     <string name="preferences__send_link_previews">Bağlantı önbaxışlarını göndər</string>
     <string name="preferences__previews_are_supported_for">Imgur, Instagram, Pinterest, Reddit və YouTube bağlantıları üçün önbaxışlar dəstəklənir</string>
     <string name="preferences__screen_security">Ekran güvənliyi</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Sonuncular siyahısında və tətbiq daxilində ekran şəkillərini əngəllə</string>
     <string name="preferences__notifications">Bildirişlər</string>
     <string name="preferences__led_color">LED rəng</string>
     <string name="preferences__led_color_unknown">Bilinmir</string>
@@ -513,7 +512,6 @@
     <string name="ProgressPreference_d_messages_so_far">İndiyə qədər %d mesaj</string>
     <string name="BackupUtil_never">Heç vaxt</string>
     <string name="preferences_app_protection__screen_lock">Ekran kilidi</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Android ekran kilidi və ya barmaq izi ilə Session-a müraciəti kilidlə</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekran kilidi üçün vaxt</string>
     <string name="AppProtectionPreferenceFragment_none">Heç biri</string>
     <!-- Conversation activity -->

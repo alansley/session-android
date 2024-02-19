@@ -415,7 +415,6 @@
     <string name="preferences__send_link_previews">שלח קדם־תצוגות של קישורים</string>
     <string name="preferences__previews_are_supported_for">קדם־תצוגות נתמכות עבור קישורים של Imgur, Instagram, Pinterest, Reddit ו־YouTube</string>
     <string name="preferences__screen_security">אבטחת מסך</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">חסום צילומי מסך ברשימות האחרונים ובתוך היישום</string>
     <string name="preferences__notifications">התראות</string>
     <string name="preferences__led_color">צבע LED</string>
     <string name="preferences__led_color_unknown">לא ידוע</string>
@@ -525,7 +524,6 @@
     <string name="ProgressPreference_d_messages_so_far">%d הודעות עד כה</string>
     <string name="BackupUtil_never">לעולם לא</string>
     <string name="preferences_app_protection__screen_lock">נעילת מסך</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">נעל גישה אל Session עם נעילת מסך אנדרואיד או טביעת אצבע</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">אי־פעילות נעילת מסך</string>
     <string name="AppProtectionPreferenceFragment_none">ללא</string>
     <!-- Conversation activity -->

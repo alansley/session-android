@@ -399,7 +399,6 @@ on viallinen!</string>
     <string name="preferences__send_link_previews">Lähetä esikatselukuva linkeistä</string>
     <string name="preferences__previews_are_supported_for">Esikatselu tukee sivustoja Imgur, Instagram, Pinterest, Reddit ja YouTube.</string>
     <string name="preferences__screen_security">Näytön suojaus</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Estä kuvakaappaukset \"viimeksi käytetyt sovellukset\" -näkymästä sekä sovelluksen sisältä</string>
     <string name="preferences__notifications">Ilmoitukset</string>
     <string name="preferences__led_color">LED:in väri</string>
     <string name="preferences__led_color_unknown">Tuntematon</string>
@@ -511,7 +510,6 @@ on viallinen!</string>
     <string name="ProgressPreference_d_messages_so_far">%d viestiä tähän mennessä</string>
     <string name="BackupUtil_never">ei koskaan</string>
     <string name="preferences_app_protection__screen_lock">Näytön lukitus</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lukitse Session Androidin näytön lukituksella tai sormenjäljellä</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Automaattisen näytön lukituksen odotusaika</string>
     <string name="AppProtectionPreferenceFragment_none">Ei mitään</string>
     <!-- Conversation activity -->

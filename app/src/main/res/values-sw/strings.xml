@@ -311,7 +311,6 @@
     <string name="preferences__pref_enter_sends_title">Ingiza kutuma muhimu</string>
     <string name="preferences__send_link_previews">tuma kiungo kilichoonekana</string>
     <string name="preferences__screen_security">usalamaa wa skrini</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Zima viwambo vya skrini katika orodha ya rekodi na ndani ya programu</string>
     <string name="preferences__notifications">Arifa</string>
     <string name="preferences__led_color">Rangi za LED</string>
     <string name="preferences__led_color_unknown">Isiyojulikana</string>
@@ -421,7 +420,6 @@
     <string name="ProgressPreference_d_messages_so_far">1%d ujumbe hadi sasa</string>
     <string name="BackupUtil_never">Haiwezekani</string>
     <string name="preferences_app_protection__screen_lock">safi ya skrini</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Funga ufikiaji wa Signal na lock ya Android au alama za vidole</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Funga muda wa kuacha kuingia</string>
     <string name="AppProtectionPreferenceFragment_none">Hakuna</string>
     <!-- Conversation activity -->

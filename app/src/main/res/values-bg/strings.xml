@@ -377,7 +377,6 @@
     <string name="preferences__send_link_previews">Изпращане на визуализации на връзката</string>
     <string name="preferences__previews_are_supported_for">Визуализации са поддържани за линкове към Imgur, Instagram, Pinterest, Reddit, и YouTube.</string>
     <string name="preferences__screen_security">Сигурност на екрана</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Забраняване на автоматично копиране на екрана в списка с често използвани програми и в самата програма.</string>
     <string name="preferences__notifications">Известия</string>
     <string name="preferences__led_color">LED цвят</string>
     <string name="preferences__led_color_unknown">Непознат</string>
@@ -489,7 +488,6 @@
     <string name="ProgressPreference_d_messages_so_far">%d съобщения до тук</string>
     <string name="BackupUtil_never">Никога</string>
     <string name="preferences_app_protection__screen_lock">Заключен екран</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Заключване на достъпа до Session с вградените в Андроид заключен екран или отпечатък</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Време за активирнае при неактивност</string>
     <string name="AppProtectionPreferenceFragment_none">Нищо</string>
     <!-- Conversation activity -->

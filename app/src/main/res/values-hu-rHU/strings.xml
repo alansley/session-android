@@ -402,7 +402,6 @@
     <string name="preferences__send_link_previews">Hivatkozások előnézeti képének küldése</string>
     <string name="preferences__previews_are_supported_for">Az előnézeti képek az Imgur, Instagram, Pinterest, Reddit és YouTube szolgáltatásokhoz érhetőek el.</string>
     <string name="preferences__screen_security">Képernyőbiztonság</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Képernyőképek készítésének blokkolása a futó alkalmazások listájában és az alkalmazáson belül</string>
     <string name="preferences__notifications">Értesítések</string>
     <string name="preferences__led_color">LED színe</string>
     <string name="preferences__led_color_unknown">Ismeretlen</string>
@@ -514,7 +513,6 @@
     <string name="ProgressPreference_d_messages_so_far">Eddig %d db üzenet</string>
     <string name="BackupUtil_never">Soha</string>
     <string name="preferences_app_protection__screen_lock">Képernyőzár</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Session-hoz való hozzáférés védelme Android képernyőzárral vagy ujjlenyomattal</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Képernyő lezárása ennyi tétlenséget követően</string>
     <string name="AppProtectionPreferenceFragment_none">Egyik sem</string>
     <!-- Conversation activity -->

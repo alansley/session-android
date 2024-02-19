@@ -411,7 +411,6 @@
     <string name="preferences__pref_autoplay_audio_title">پخش خودکار پیام‌های صوتی</string>
     <string name="preferences__pref_autoplay_audio_summary">پخش خودکار پیام‌های صوتی پشت‌سرهم.</string>
     <string name="preferences__screen_security">امنیت صفحه</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">بلوک کردن عکس گرفتن از صفحه در لیست تازه و در داخل برنامه</string>
     <string name="preferences__notifications">اعلانات</string>
     <string name="preferences__led_color">رنگ چراغ ال‌ای‌دی</string>
     <string name="preferences__led_color_unknown">ناشناخته</string>
@@ -535,7 +534,6 @@
     <string name="ProgressPreference_d_messages_so_far">%d پیام تا به الان</string>
     <string name="BackupUtil_never">هرگز</string>
     <string name="preferences_app_protection__screen_lock">قفل Session</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">برای باز کردن قفل Session به اثر انگشت، پین، الگو یا رمز عبور نیاز است.</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">زمان قفل صفحه هنگام عدم فعالیت</string>
     <string name="AppProtectionPreferenceFragment_none">هیچ کدام</string>
     <!-- Conversation activity -->

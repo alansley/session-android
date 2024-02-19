@@ -343,7 +343,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- preferences.xml -->
     <string name="preferences__pref_enter_sends_title">Yaykuna tecla hillaywan kachapay.</string>
     <string name="preferences__screen_security">Rikuripa pakallayachina</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Antanikimanta shuyu llukchinakunata pakallayachina, chayralla aplicación hillaykunapi shinallata kay aplicación ukupipash.</string>
     <string name="preferences__notifications">Willachikuna</string>
     <string name="preferences__led_color">LEDpa tulpu</string>
     <string name="preferences__led_color_unknown">Mana riksishka</string>
@@ -450,7 +449,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="ProgressPreference_d_messages_so_far">Kunankaman %d chaskikuna</string>
     <string name="BackupUtil_never">Nimamanta</string>
     <string name="preferences_app_protection__screen_lock">Pakallayachina</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Session ukuman ama yaykuchun wichapay Androidpa pakayachinawan, mana kashpaka maki ruka unanchawan.</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Pakallayachinkapak pachata akllapay</string>
     <string name="AppProtectionPreferenceFragment_none">Nimaykan</string>
     <!-- Conversation activity -->

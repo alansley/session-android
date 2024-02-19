@@ -417,7 +417,6 @@ výmeny kľúčov.</string>
     <string name="preferences__send_link_previews">Posielať náhľady stránok</string>
     <string name="preferences__previews_are_supported_for">Ukážky sú podporované pre odkazy na Imgur, Instagram, Pinterest, Reddit a YouTube</string>
     <string name="preferences__screen_security">Zabezpečenie obrazovky</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Zakázať vytváranie snímkov obrazovky v tejto aplikácii a v zozname bežiacich aplikácií</string>
     <string name="preferences__notifications">Upozornenia</string>
     <string name="preferences__led_color">LED farba</string>
     <string name="preferences__led_color_unknown">Neznáma</string>
@@ -528,7 +527,6 @@ výmeny kľúčov.</string>
     <string name="ProgressPreference_d_messages_so_far">Zatiaľ %d správ</string>
     <string name="BackupUtil_never">Nikdy</string>
     <string name="preferences_app_protection__screen_lock">Zámok obrazovky</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Uzamknúť Session pomocou zámku obrazovky Androidu alebo odtlačkom prstu</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Časový limit neaktivity pred uzamknutím</string>
     <string name="AppProtectionPreferenceFragment_none">Žiadny</string>
     <!-- Conversation activity -->

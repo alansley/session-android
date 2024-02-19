@@ -400,7 +400,6 @@
     <string name="preferences__send_link_previews">Sendi antaŭrigardojn de ligilo</string>
     <string name="preferences__previews_are_supported_for">Antaŭrigardoj funkcias por ligiloj al Imgur, Instagram, Pinterest, Reddit kaj YouTube</string>
     <string name="preferences__screen_security">Ekrana sekurigo</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Neebligi ekrankopiojn en la listo de ĵus uzitaj aplikaĵoj kaj ene de la aplikaĵo mem</string>
     <string name="preferences__notifications">Sciigoj</string>
     <string name="preferences__led_color">LED-a koloro</string>
     <string name="preferences__led_color_unknown">Nekonata</string>
@@ -512,7 +511,6 @@
     <string name="ProgressPreference_d_messages_so_far">%d mesaĝoj ĝis nun</string>
     <string name="BackupUtil_never">Neniam</string>
     <string name="preferences_app_protection__screen_lock">Ekranŝloso</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Ŝlosi aliron al Session per Androida ekranŝloso aŭ fingropremaĵo</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Neaktiveca eltempiĝo antaŭ ol ŝlosi la ekranon</string>
     <string name="AppProtectionPreferenceFragment_none">Neniu</string>
     <!-- Conversation activity -->

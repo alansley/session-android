@@ -399,7 +399,6 @@ udveksel besked!</string>
     <string name="preferences__send_link_previews">Send link eksempelvisning</string>
     <string name="preferences__previews_are_supported_for">Eksempelvisning er understøttet for Imgur, Instagram, Pinterest, Reddit og YouTube links</string>
     <string name="preferences__screen_security">Skærmsikkerhed</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Blokér skærmbilleder i listen \"Seneste apps\" og i Session</string>
     <string name="preferences__notifications">Notifikationer</string>
     <string name="preferences__led_color">LED farve</string>
     <string name="preferences__led_color_unknown">Ukendt</string>
@@ -511,7 +510,6 @@ udveksel besked!</string>
     <string name="ProgressPreference_d_messages_so_far">%d beskeder ind til videre</string>
     <string name="BackupUtil_never">Aldrig</string>
     <string name="preferences_app_protection__screen_lock">Skærmlås</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lås adgang til Session med Android skærmlås eller fingeraftryk</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Timeout for inaktiv skærmlås</string>
     <string name="AppProtectionPreferenceFragment_none">Ingen</string>
     <!-- Conversation activity -->

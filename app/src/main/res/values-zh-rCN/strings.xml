@@ -388,7 +388,6 @@
     <string name="preferences__send_link_previews">发送链接预览</string>
     <string name="preferences__previews_are_supported_for">预览现支持Imgur, Instagram, Pinterest, Reddit, 以及YouTube链接</string>
     <string name="preferences__screen_security">屏幕安全性</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">屏蔽下列应用和内置应用的截屏功能</string>
     <string name="preferences__notifications">通知</string>
     <string name="preferences__led_color">LED颜色</string>
     <string name="preferences__led_color_unknown">未知</string>
@@ -500,7 +499,6 @@
     <string name="ProgressPreference_d_messages_so_far">已处理 %d 条消息</string>
     <string name="BackupUtil_never">永不</string>
     <string name="preferences_app_protection__screen_lock">锁屏</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">使用 Android 锁屏或者指纹锁定 Session</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">不活跃锁屏超时</string>
     <string name="AppProtectionPreferenceFragment_none">无</string>
     <!-- Conversation activity -->

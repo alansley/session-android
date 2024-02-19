@@ -408,7 +408,6 @@
     <string name="preferences__send_link_previews">Ուղարկել հղման նախադիտումներ</string>
     <string name="preferences__previews_are_supported_for">Նախադիտումները աջակցվում են Imgur, Instagram, Pinterest, Reddit և YouTube հղումների համար</string>
     <string name="preferences__screen_security">Էկրանակադրի անվտանգություն</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Արգելափակել կադրահանումները «վերջին հավելվածներ» ցուցակում և հավելվածի ներսում։</string>
     <string name="preferences__notifications">Ծանուցումներ</string>
     <string name="preferences__led_color">LED-ի գույն</string>
     <string name="preferences__led_color_unknown">Անհայտ</string>
@@ -520,7 +519,6 @@
     <string name="ProgressPreference_d_messages_so_far">Մինչ այժմ %d հաղորդագրություն</string>
     <string name="BackupUtil_never">Երբեք</string>
     <string name="preferences_app_protection__screen_lock">Էկրանային կողպում</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Կողպել Սեանսը Android-ի էկրանային կողպումով կամ մատնահետքով</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Էկրանային կողպման ինտերվալը</string>
     <string name="AppProtectionPreferenceFragment_none">Չկա</string>
     <!-- Conversation activity -->

@@ -401,7 +401,6 @@
     <string name="preferences__send_link_previews">Enviar previews de link</string>
     <string name="preferences__previews_are_supported_for">Previews são suportadas para links de Imgur, Instagram, Pinterest, Reddit, e YouTube</string>
     <string name="preferences__screen_security">Segurança de tela</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">Bloquear screenshots na lista de recentes e dentro do app</string>
     <string name="preferences__notifications">Notificações</string>
     <string name="preferences__led_color">Cor do LED</string>
     <string name="preferences__led_color_unknown">Desconhecida</string>
@@ -513,7 +512,6 @@
     <string name="ProgressPreference_d_messages_so_far">%d mensagens até agora</string>
     <string name="BackupUtil_never">Nunca</string>
     <string name="preferences_app_protection__screen_lock">Bloqueio de tela</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Proteger acesso ao Session com tela de bloqueio do Android ou impressão digital.</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Tempo de espera para bloquear tela</string>
     <string name="AppProtectionPreferenceFragment_none">Nenhuma</string>
     <!-- Conversation activity -->

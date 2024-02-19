@@ -385,7 +385,6 @@
     <string name="preferences__send_link_previews">リンクプレビューを送る</string>
     <string name="preferences__previews_are_supported_for">プレビューはImgur、Instagram、Pinterest、RedditおよびYouTubeリンクをサポートしています</string>
     <string name="preferences__screen_security">画面セキュリティ</string>
-    <string name="preferences__disable_screen_security_to_allow_screen_shots">アプリ内や「最近使ったアプリ」でスクリーンショットを表示しない</string>
     <string name="preferences__notifications">通知</string>
     <string name="preferences__led_color">LED色</string>
     <string name="preferences__led_color_unknown">不明</string>
@@ -497,7 +496,6 @@
     <string name="ProgressPreference_d_messages_so_far">今、%d個メッセージ</string>
     <string name="BackupUtil_never">なし</string>
     <string name="preferences_app_protection__screen_lock">画面ロック</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Sessionを画面ロックや指紋認証でロックする</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">画面ロックのタイムアウト</string>
     <string name="AppProtectionPreferenceFragment_none">なし</string>
     <!-- Conversation activity -->
