@@ -609,7 +609,6 @@
     <string name="preferences__read_receipts_summary">Send read receipts in one-to-one chats.</string>
     <string name="preferences__typing_indicators">Typing Indicators</string>
     <string name="preferences__typing_indicators_summary">See and share typing indicators in one-to-one chats.</string>
-    <string name="preferences__request_keyboard_to_disable_personalized_learning">Request keyboard to disable personalized learning</string>
     <string name="preferences__light_theme">Light</string>
     <string name="preferences__dark_theme">Dark</string>
     <string name="preferences_chats__message_trimming">Message Trimming</string>
@@ -1044,5 +1043,6 @@
     <string name="linkPreviewsDescription">Show link previews for supported URLs.</string>
     <string name="callsVoiceAndVideoBeta">Voice and Video Calls (Beta)</string>
     <string name="callsVoiceAndVideoModalDescription">Your IP is visible to your call partner and an Oxen Foundation server while using beta calls.</string>
+    <string name="incognitoKeyboardDescription">Request incognito mode if available. Depending on the keyboard you are using, your keyboard may ignore this request.</string>
 
 </resources>

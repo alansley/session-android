@@ -98,7 +98,7 @@
             android:defaultValue="true"
             android:key="pref_incognito_keyboard"
             android:title="@string/incognitoKeyboard"
-            android:summary="@string/preferences__request_keyboard_to_disable_personalized_learning"/>
+            android:summary="@string/incognitoKeyboardDescription"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
