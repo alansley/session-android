@@ -544,7 +544,6 @@
     <string name="fragment_enter_public_key_error_message">Пожалуйста, проверьте Session ID или ONS имя и попробуйте снова.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session нужен доступ к камере для сканирования QR-кодов</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Предоставить доступ к камере</string>
-    <string name="activity_create_closed_group_title">Новая закрытая группа</string>
     <string name="activity_create_closed_group_edit_text_hint">Введите название группы</string>
     <string name="activity_create_closed_group_empty_state_message">У вас еще нет контактов</string>
     <string name="activity_create_closed_group_empty_state_button_title">Начать Сессию</string>

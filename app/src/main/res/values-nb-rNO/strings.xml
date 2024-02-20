@@ -519,7 +519,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="fragment_enter_public_key_error_message">Vennligst sjekk Session-ID\'en eller ONS-navnet og prøv igjen.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session trenger kameratilgang for å skanne QR-koder</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Gi kameratilgang</string>
-    <string name="activity_create_closed_group_title">Ny lukket gruppe</string>
     <string name="activity_create_closed_group_edit_text_hint">Skriv inn et gruppenavn</string>
     <string name="activity_create_closed_group_empty_state_message">Du har ingen kontakter ennå</string>
     <string name="activity_create_closed_group_empty_state_button_title">Start en Session</string>

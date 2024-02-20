@@ -520,7 +520,6 @@
     <string name="fragment_enter_public_key_error_message">Por favor, verifique o ID Session ou o nome ONS e tente novamente.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">O Session precisa de acesso à câmera para escanear códigos QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Conceder acesso à câmera</string>
-    <string name="activity_create_closed_group_title">Novo grupo fechado</string>
     <string name="activity_create_closed_group_edit_text_hint">Digite o nome do grupo</string>
     <string name="activity_create_closed_group_empty_state_message">Você ainda não possui contatos</string>
     <string name="activity_create_closed_group_empty_state_button_title">Iniciar uma sessão</string>

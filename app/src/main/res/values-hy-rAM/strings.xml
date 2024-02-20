@@ -527,7 +527,6 @@
     <string name="fragment_enter_public_key_error_message">Խնդրում ենք ստուգել session-ի այդին կամ ONS-ը և փորձել նորից.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session-ին պետք հասանելիություն տեսախցիկին որպեսզի սքանավորի QR կոդը</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Տեսախցիկի հասանելիություն</string>
-    <string name="activity_create_closed_group_title">Նոր Փակ Խումբ</string>
     <string name="activity_create_closed_group_edit_text_hint">Մուտքագրեք խմբի անուն</string>
     <string name="activity_create_closed_group_empty_state_message">Դուք դեռ կոնտակտներ չունեք</string>
     <string name="activity_create_closed_group_empty_state_button_title">Սկսել Սեանս</string>
@@ -632,6 +631,4 @@
     <string name="conversation_unpin">Արձակել</string>
     <string name="mark_all_as_read">Նշել բոլորը, որպես տեսնված</string>
     <string name="messages">Հաղորդագրություններ</string>
-    <string name="NewConversationButton_ClosedGroupTooltip">Փակ խումբ</string>
-    <string name="NewConversationButton_OpenGroupTooltip">Բաց խումբ</string>
 </resources>

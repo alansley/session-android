@@ -520,7 +520,6 @@
     <string name="fragment_enter_public_key_error_message">Controleer de sessie-ID of ONS naam en probeer het opnieuw.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Sessie heeft cameratoegang nodig om QR-codes te scannen</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Toegang tot camera verlenen</string>
-    <string name="activity_create_closed_group_title">Nieuwe gesloten groep</string>
     <string name="activity_create_closed_group_edit_text_hint">Vul een groepsnaam in</string>
     <string name="activity_create_closed_group_empty_state_message">U heeft nog geen contactpersonen</string>
     <string name="activity_create_closed_group_empty_state_button_title">Sessie starten</string>

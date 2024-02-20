@@ -513,7 +513,6 @@
     <string name="fragment_enter_public_key_error_message">請檢查 Session ID 或 ONS，然後再試一次。</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session 需要使用相機存取權來掃描 QR Codes</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">授與相機權限</string>
-    <string name="activity_create_closed_group_title">新的私密群組</string>
     <string name="activity_create_closed_group_edit_text_hint">請輸入群組名稱</string>
     <string name="activity_create_closed_group_empty_state_message">您尚未添加聯絡人</string>
     <string name="activity_create_closed_group_empty_state_button_title">開始一個 Session</string>
@@ -618,6 +617,4 @@
     <string name="conversation_unpin">取消釘選</string>
     <string name="mark_all_as_read">全部標示為已讀</string>
     <string name="messages">訊息</string>
-    <string name="NewConversationButton_ClosedGroupTooltip">已關閉的群組</string>
-    <string name="NewConversationButton_OpenGroupTooltip">開啟群組</string>
 </resources>

@@ -521,7 +521,6 @@
     <string name="fragment_enter_public_key_error_message">Kérjük, ellenőrizze a Session azonosítót vagy az ONS-nevet, és próbálkozzon újra. </string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Kamera hozzáférésre van szükség a QR kód beolvasásához</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Adjon hozzáférést a kamerához</string>
-    <string name="activity_create_closed_group_title">Új Zárt Csoport</string>
     <string name="activity_create_closed_group_edit_text_hint">Írja be a csoport nevét</string>
     <string name="activity_create_closed_group_empty_state_message">Még nincsenek névjegyei</string>
     <string name="activity_create_closed_group_empty_state_button_title">Egy munkamenet indítása</string>

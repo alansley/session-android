@@ -519,7 +519,6 @@ för nyckelutbyte!</string>
     <string name="fragment_enter_public_key_error_message">Kontrollera sessions-ID eller ONS-namn och försök igen.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Sessionen behöver kameraåtkomst för att skanna QR-koder</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Tillåt kameraåtkomst</string>
-    <string name="activity_create_closed_group_title">Ny Sluten Grupp</string>
     <string name="activity_create_closed_group_edit_text_hint">Ange ett gruppnamn</string>
     <string name="activity_create_closed_group_empty_state_message">Du har inga kontakter</string>
     <string name="activity_create_closed_group_empty_state_button_title">Starta en Session</string>

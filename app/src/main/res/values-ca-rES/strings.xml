@@ -511,7 +511,6 @@ d\'intercanvi de claus!</string>
     <string name="fragment_enter_public_key_explanation">Els usuaris poden compartir el seu ID de Session accedint a la configuració del compte i tocant \'Comparteix l\'ID de Session\' o compartint el seu codi QR.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session necessita accés a la càmera per escanejar codis QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Permet accés a la càmera</string>
-    <string name="activity_create_closed_group_title">Nou grup tancat</string>
     <string name="activity_create_closed_group_edit_text_hint">Introdueix un nom de grup</string>
     <string name="activity_create_closed_group_empty_state_message">Encara no tens cap contacte</string>
     <string name="activity_create_closed_group_empty_state_button_title">Enceta un Session</string>

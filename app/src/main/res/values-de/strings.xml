@@ -518,7 +518,6 @@
     <string name="fragment_enter_public_key_error_message">Bitte überprüfe die Session-ID oder den ONS-Namen und versuche es erneut.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session benötigt Kamerazugriff, um die QR-Codes scannen zu können.</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Kamerazugriff gewähren</string>
-    <string name="activity_create_closed_group_title">Neue geschlossene Gruppe</string>
     <string name="activity_create_closed_group_edit_text_hint">Geben Sie einen Gruppennamen ein.</string>
     <string name="activity_create_closed_group_empty_state_message">Sie haben noch keine Kontakte.</string>
     <string name="activity_create_closed_group_empty_state_button_title">Session starten</string>

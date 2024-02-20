@@ -530,7 +530,6 @@ výmeny kľúčov.</string>
     <string name="fragment_enter_public_key_explanation">Používatelia môžu zdieľať svoje Session ID tak, že prejdú do nastavení svojho účtu a klepnú na možnosť „Zdieľať Session ID“ alebo zdieľajú svoj QR kód.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session potrebuje prístup k fotoaparátu na skenovanie QR kódov</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Udeliť prístup k fotoaparátu</string>
-    <string name="activity_create_closed_group_title">Nová uzatvorená skupina</string>
     <string name="activity_create_closed_group_edit_text_hint">Zadajte názov skupiny</string>
     <string name="activity_create_closed_group_empty_state_message">Zatiaľ nemáte žiadne kontakty</string>
     <string name="activity_create_closed_group_group_name_missing_error">Zadajte prosím názov skupiny</string>

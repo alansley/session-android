@@ -520,7 +520,6 @@ scambia un altro messaggio!</string>
     <string name="fragment_enter_public_key_error_message">Controllare l\'ID Sessione o il nome ONS e riprovare.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">La Sessione richiede l\'accesso alla fotocamera per scansionare i codici QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Consenti Accesso Fotocamera</string>
-    <string name="activity_create_closed_group_title">Nuovo gruppo chiuso</string>
     <string name="activity_create_closed_group_edit_text_hint">Inserisci un nome per il gruppo</string>
     <string name="activity_create_closed_group_empty_state_message">Non hai ancora nessun contatto</string>
     <string name="activity_create_closed_group_empty_state_button_title">Inizia una sessione</string>
@@ -625,5 +624,4 @@ scambia un altro messaggio!</string>
     <string name="conversation_unpin">Non fissare in alto</string>
     <string name="mark_all_as_read">Segna tutto come già letto</string>
     <string name="messages">Messaggi</string>
-    <string name="NewConversationButton_ClosedGroupTooltip">Gruppo Chiuso</string>
 </resources>

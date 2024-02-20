@@ -425,7 +425,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="fragment_enter_public_key_explanation">Pengguna bisa membagikan Session ID miliknya dengan masuk ke pengaturan akun dan mengetuk \"Bagikan Session ID\" atau dengan membagikan kode QR mereka</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session membutuhkan akses kamera untuk memindai kode QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Berikan akses kamera</string>
-    <string name="activity_create_closed_group_title">Grup tertutup baru</string>
     <string name="activity_create_closed_group_edit_text_hint">Masukkan nama grup</string>
     <string name="activity_create_closed_group_empty_state_message">anda belum memiliki kontak</string>
     <string name="activity_create_closed_group_empty_state_button_title">Mulai sebuah Session</string>

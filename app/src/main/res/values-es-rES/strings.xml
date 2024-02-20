@@ -519,7 +519,6 @@ de intercambio de claves!</string>
     <string name="fragment_enter_public_key_error_message">Por favor, comprueba el ID de Session o el nombre ONS e inténtela de nuevo.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session necesita acceso a la cámara para escanear códigos QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Permitir acceso a cámara</string>
-    <string name="activity_create_closed_group_title">Nuevo grupo cerrado</string>
     <string name="activity_create_closed_group_edit_text_hint">Ingresa un nombre de grupo</string>
     <string name="activity_create_closed_group_empty_state_message">Aún no tienes contactos</string>
     <string name="activity_create_closed_group_empty_state_button_title">Empezar una Session</string>

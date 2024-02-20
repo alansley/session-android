@@ -710,7 +710,6 @@
     <string name="fragment_enter_public_key_error_message">Please check the Session ID or ONS name and try again.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session needs camera access to scan QR codes</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Grant Camera Access</string>
-    <string name="activity_create_closed_group_title">New Closed Group</string>
     <string name="activity_create_closed_group_edit_text_hint">Enter a group name</string>
     <string name="activity_create_closed_group_empty_state_message">You don\'t have any contacts yet</string>
     <string name="activity_create_closed_group_empty_state_button_title">Start a Session</string>
@@ -845,8 +844,6 @@
     <string name="messageRequestsAccepted">Your message request has been accepted.</string>
     <string name="messageRequestPending">Your message request is currently pending.</string>
     <string name="messageRequestsNonePending">No pending message requests</string>
-    <string name="NewConversationButton_ClosedGroupTooltip">Closed Group</string>
-    <string name="NewConversationButton_OpenGroupTooltip">Open Group</string>
     <string name="messageRequestsNew">You have a new message request</string>
     <string name="callsInProgress">Call in progress</string>
     <string name="NotificationBarManager__end_call">End call</string>
@@ -994,5 +991,7 @@
     <string name="clearDeviceAndNetwork">Clear device and network</string>
     <string name="messageNew">New Message</string>
     <string name="messageNewDescription">Start a new conversation by entering someone\'s Account ID or scanning their QR code.</string>
+    <string name="groupCreate">Create Group</string>
+    <string name="communityJoin">Join Community</string>
 
 </resources>
