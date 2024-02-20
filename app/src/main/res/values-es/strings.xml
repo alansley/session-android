@@ -512,10 +512,8 @@ de intercambio de claves!</string>
     <string name="onionRoutingPathDestination">Destino</string>
     <string name="learnMore">Saber Más</string>
     <string name="activity_path_resolving_progress">Resolviendo…</string>
-    <string name="activity_create_private_chat_title">Nueva Session</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Escanear código QR</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Escanea el código QR de un usuario para empezar una sesión. Los códigos QR se pueden encontrar tocando el icono del código QR en los ajustes de la cuenta.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Introduzca el ID de Session o el nombre ONS</string>
     <string name="fragment_enter_public_key_explanation">Los usuarios pueden compartir su ID de Session yendo a los ajustes de su cuenta y pulsando en Compartir ID de Session o compartiendo su código QR</string>
     <string name="fragment_enter_public_key_error_message">Por favor, comprueba el ID de Session o el nombre ONS e inténtela de nuevo.</string>

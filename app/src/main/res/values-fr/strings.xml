@@ -539,10 +539,8 @@
     <string name="onionRoutingPathDestination">Destination</string>
     <string name="learnMore">En savoir plus</string>
     <string name="activity_path_resolving_progress">Contact en cours…</string>
-    <string name="activity_create_private_chat_title">Nouvelle Session</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Saisir un Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Scanner un QR Code</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Scannez le QR code d\'un utilisateur pour démarrer une session. Les QR codes peuvent se trouver en touchant l\'icône du QR code dans les paramètres du compte.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Entrer un Session ID ou un nom ONS</string>
     <string name="fragment_enter_public_key_explanation">Les utilisateurs peuvent partager leur Session ID depuis les paramètres du compte ou en utilisant le code QR.</string>
     <string name="fragment_enter_public_key_error_message">Veuillez vérifier le Session ID ou le nom ONS et réessayer.</string>
@@ -680,7 +678,6 @@
     <string name="messageRequestsAccepted">Votre demande de message a été acceptée.</string>
     <string name="messageRequestPending">Votre demande de message est en attente.</string>
     <string name="messageRequestsNonePending">Aucune demande de message en attente</string>
-    <string name="NewConversationButton_SessionTooltip">Message privé</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Groupes privés</string>
     <string name="NewConversationButton_OpenGroupTooltip">Groupe public</string>
     <string name="messageRequestsNew">Vous avez une nouvelle demande de message</string>

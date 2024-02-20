@@ -514,10 +514,8 @@
     <string name="onionRoutingPathDestination">Célállomás</string>
     <string name="learnMore">Tudj meg többet</string>
     <string name="activity_path_resolving_progress">Feloldás...</string>
-    <string name="activity_create_private_chat_title">Új Session</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Adja meg a Session azonosítóját</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR kód beolvasása</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">A beszélgetés elindításához olvassa be a felhasználó QR kódját. A QR kód a fiókbeállításokban található a QR kód ikonra koppintva.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Írja be Session azonosítóját vagy ONS nevét</string>
     <string name="fragment_enter_public_key_explanation">A felhasználók megoszthatják Session azonosítójukat, ha belépnek a fiókbeállításokba, és megérintik a „Session azonosító megosztása” lehetőséget, vagy más egyéb módon átküldik QR kódjukat.</string>
     <string name="fragment_enter_public_key_error_message">Kérjük, ellenőrizze a Session azonosítót vagy az ONS-nevet, és próbálkozzon újra. </string>

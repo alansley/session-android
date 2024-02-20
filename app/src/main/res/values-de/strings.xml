@@ -511,10 +511,8 @@
     <string name="onionRoutingPathDestination">Ziel</string>
     <string name="learnMore">Mehr erfahren</string>
     <string name="activity_path_resolving_progress">Auflösung…</string>
-    <string name="activity_create_private_chat_title">Neue Session</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Session ID eingeben</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR-Code scannen</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Scannen Sie den QR-Code eines Benutzers, um eine Session zu starten. QR-Codes finden Sie, indem Sie in den Einstellungen auf das QR-Code-Symbol tippen.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Sitzungs-ID oder ONS-Name eingeben</string>
     <string name="fragment_enter_public_key_explanation">Benutzer können ihre Session ID freigeben, indem sie in ihren Einstellungen auf \"Session ID freigeben\" tippen oder ihren QR-Code freigeben.</string>
     <string name="fragment_enter_public_key_error_message">Bitte überprüfe die Session-ID oder den ONS-Namen und versuche es erneut.</string>

@@ -512,10 +512,8 @@ iletisi alındı!</string>
     <string name="onionRoutingPathDestination">Hedef Konum</string>
     <string name="learnMore">Fazlasını Öğrenin</string>
     <string name="activity_path_resolving_progress">Çözümleniyor…</string>
-    <string name="activity_create_private_chat_title">Yeni Oturum</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Session Kimliğini Girin</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR Kodunu Tara</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Bir oturumu başlatmak için bir kullanıcının QR kodunu tarayın. QR kodları, hesap ayarlarındaki QR kodu simgesine dokunarak bulunabilir.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Session kimliğini veya ONS adını girin</string>
     <string name="fragment_enter_public_key_explanation">Kullanıcılar, hesap ayarlarına gidip \"Session Kimliğini Paylaş\"a dokunarak veya QR kodlarını paylaşarak Session Kimliklerini paylaşabilirler.</string>
     <string name="fragment_enter_public_key_error_message">Lütfen Session kimliğini veya ONS adını kontrol edin ve tekrar deneyin.</string>

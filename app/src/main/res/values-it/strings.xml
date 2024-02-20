@@ -513,10 +513,8 @@ scambia un altro messaggio!</string>
     <string name="onionRoutingPathDestination">Destinazione</string>
     <string name="learnMore">Per saperne di più</string>
     <string name="activity_path_resolving_progress">In Risoluzione…</string>
-    <string name="activity_create_private_chat_title">Nuova sessione</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Inserisci ID Sessione</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Scansiona il codice QR</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Scansiona il codice QR di un utente per avviare una sessione. Puoi trovare i codici QR toccando l\'icona Codice QR nelle impostazioni dell\'account.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Inserisci ID Sessione o nome ONS</string>
     <string name="fragment_enter_public_key_explanation">Gli utenti possono condividere il proprio ID Sessione accedendo alle impostazioni del proprio account e toccando \"Condividi ID Sessione\" o condividendo il proprio codice QR.</string>
     <string name="fragment_enter_public_key_error_message">Controllare l\'ID Sessione o il nome ONS e riprovare.</string>
@@ -627,6 +625,5 @@ scambia un altro messaggio!</string>
     <string name="conversation_unpin">Non fissare in alto</string>
     <string name="mark_all_as_read">Segna tutto come già letto</string>
     <string name="messages">Messaggi</string>
-    <string name="NewConversationButton_SessionTooltip">Messaggio Privato</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Gruppo Chiuso</string>
 </resources>

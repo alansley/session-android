@@ -420,10 +420,8 @@ memproses pertukaran kunci korupsi.</string>
     <string name="onionRoutingPathServiceNode">Simpul layanan</string>
     <string name="onionRoutingPathDestination">Tujuan</string>
     <string name="learnMore">Pelajari lebih lanjut</string>
-    <string name="activity_create_private_chat_title">Session baru</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Masukkan Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Pindai kode QR</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai Session. Kode QR bisa ditemukan dengan mengetukan gambar kode QR di pengaturan akun</string>
     <string name="fragment_enter_public_key_explanation">Pengguna bisa membagikan Session ID miliknya dengan masuk ke pengaturan akun dan mengetuk \"Bagikan Session ID\" atau dengan membagikan kode QR mereka</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session membutuhkan akses kamera untuk memindai kode QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Berikan akses kamera</string>

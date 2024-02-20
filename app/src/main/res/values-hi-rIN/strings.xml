@@ -512,10 +512,8 @@
     <string name="onionRoutingPathDestination">गंतव्य</string>
     <string name="learnMore">अधिक जानें</string>
     <string name="activity_path_resolving_progress">हल किया जा रहा है</string>
-    <string name="activity_create_private_chat_title">नया सेशन</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">सेशन आईडी डालें</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR कोड को स्कैन करें</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">सेशन शुरू करने के लिए यूजर के क्यूआर कोड को स्कैन करें। क्यूआर कोड को अकाउंट सेटिंग में क्यूआर कोड आइकन पर टैप करके पाया जा सकता है।</string>
     <string name="fragment_enter_public_key_edit_text_hint">Session आईडी या ओएनएस नाम दर्ज करें</string>
     <string name="fragment_enter_public_key_explanation">यूजर अपनी अकाउंट सेटिंग में जाकर और \"शेयर Session आईडी\" टैप करके, या अपना क्यूआर कोड शेयर कर सकते है।</string>
     <string name="fragment_enter_public_key_error_message">कृपया अपनी सैसन आइडी या में औएनएस चेक करें और फिरसे प्रयास करें।</string>

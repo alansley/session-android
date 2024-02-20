@@ -559,10 +559,8 @@
     <string name="onionRoutingPathDestination">الوجهة</string>
     <string name="learnMore">لمعرفة المزيد</string>
     <string name="activity_path_resolving_progress">جار ربط الاِتصال…</string>
-    <string name="activity_create_private_chat_title">جلسة جديدة</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">أدخِل معرّف الجلسة</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">مسح رمز الاستجابة السريع\"QR\"</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">امسح رمز QR المستخدم لبدء جلسة معه. يمكن الحصول على رموز الـQR بالضغط على أيقونة رمز الـQR في إعدادات الحساب.</string>
     <string name="fragment_enter_public_key_edit_text_hint">أدخل عنوان التعريف أو اسم ONS</string>
     <string name="fragment_enter_public_key_explanation">يُمكن للمستخدمين مشاركة مُعرّف الجلسة الخاص بهم بالذهاب إلى إعدادات حسابهم و الضغط على \"مشاركة مُعرّف الجلسة\"، أو عبر مشاركة رمز QR الخاص بهم.</string>
     <string name="fragment_enter_public_key_error_message">تحقق من عنوان التعريف أو اِسم ONS و حاول مجددًا.</string>

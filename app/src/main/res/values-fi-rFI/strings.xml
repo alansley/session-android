@@ -511,10 +511,8 @@ on viallinen!</string>
     <string name="onionRoutingPathDestination">Päämäärä</string>
     <string name="learnMore">Lisätietoja</string>
     <string name="activity_path_resolving_progress">Ratkaistaan…</string>
-    <string name="activity_create_private_chat_title">Uusi Istunto</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Anna Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Lue QR-koodi</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Skannaa käyttäjän QR-koodi aloittaaksesi istunnon. QR-koodit löytyvät napauttamalla QR-koodin kuvaketta tilin asetuksista.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Syötä Session ID tai ONS-nimi</string>
     <string name="fragment_enter_public_key_explanation">Käyttäjät voivat jakaa Session tunnuksensa menemällä tiliasetuksiinsa ja painamalla \"Jaa Session ID\" tai jakamalla QR-koodin.</string>
     <string name="fragment_enter_public_key_error_message">Tarkista istunnon tunnus tai ONS nimi ja yritä uudelleen.</string>

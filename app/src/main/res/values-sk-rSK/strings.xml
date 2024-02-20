@@ -527,7 +527,6 @@ výmeny kľúčov.</string>
     <string name="learnMore">Viac informácií</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Zadajte Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skenovať QR kód</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Začnite stretnutie naskenovaním QR kódu iného používateľa. QR kód nájdete ťuknutím na ikonu QR kódu v nastaveniach účtu.</string>
     <string name="fragment_enter_public_key_explanation">Používatelia môžu zdieľať svoje Session ID tak, že prejdú do nastavení svojho účtu a klepnú na možnosť „Zdieľať Session ID“ alebo zdieľajú svoj QR kód.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session potrebuje prístup k fotoaparátu na skenovanie QR kódov</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Udeliť prístup k fotoaparátu</string>

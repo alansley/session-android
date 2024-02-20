@@ -513,10 +513,8 @@
     <string name="onionRoutingPathDestination">Προορισμός</string>
     <string name="learnMore">Μάθετε περισσότερα</string>
     <string name="activity_path_resolving_progress">Επίλυση…</string>
-    <string name="activity_create_private_chat_title">Νέα συνομιλία</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Εισαγωγή Session Ταυτότητας</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Σαρώστε τον κωδικό QR</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Σαρώστε τον κωδικό QR ενός χρήστη για να ξεκινήσετε μια συνομιλία. Οι κωδικοί QR μπορούν να βρεθούν πατώντας το εικονίδιο QR κώδικα στις ρυθμίσεις λογαριασμού.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Εισάγετε το Session ID ή το ONS όνομα</string>
     <string name="fragment_enter_public_key_explanation">Οι χρήστες μπορούν να μοιραστούν τη ταυτότητα τους πηγαίνοντας στις ρυθμίσεις του λογαριασμού τους και πατώντας το \"Διαμοιρασμό Session ταυτότητας\" ή κοινοποιώντας τον κωδικό QR.</string>
     <string name="fragment_enter_public_key_error_message">Παρακαλώ ελέγξτε το Session ID ή το ONS όνομα και προσπαθήστε ξανά.</string>

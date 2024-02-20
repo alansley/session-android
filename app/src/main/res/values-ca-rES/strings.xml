@@ -506,10 +506,8 @@ d\'intercanvi de claus!</string>
     <string name="onionRoutingPathServiceNode">Node de servei</string>
     <string name="onionRoutingPathDestination">Destinació</string>
     <string name="learnMore">Aprèn-ne més</string>
-    <string name="activity_create_private_chat_title">Nova sessió</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Introdueix el teu ID de Session</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Escaneja el codi QR</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Escaneja el codi QR d’un usuari per a iniciar una sessió. Es poden trobar codis QR tocant la icona de codi QR a la configuració del compte.</string>
     <string name="fragment_enter_public_key_explanation">Els usuaris poden compartir el seu ID de Session accedint a la configuració del compte i tocant \'Comparteix l\'ID de Session\' o compartint el seu codi QR.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session necessita accés a la càmera per escanejar codis QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Permet accés a la càmera</string>

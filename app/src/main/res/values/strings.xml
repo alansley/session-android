@@ -703,10 +703,8 @@
     <string name="onionRoutingPathDestination">Destination</string>
     <string name="learnMore">Learn More</string>
     <string name="activity_path_resolving_progress">Resolving…</string>
-    <string name="activity_create_private_chat_title">New Session</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Enter Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Scan QR Code</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Scan a user\'s QR code to start a session. QR codes can be found by tapping the QR code icon in account settings.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Enter Session ID or ONS name</string>
     <string name="fragment_enter_public_key_explanation">Users can share their Session ID by going into their account settings and tapping "Share Session ID", or by sharing their QR code.</string>
     <string name="fragment_enter_public_key_error_message">Please check the Session ID or ONS name and try again.</string>
@@ -847,7 +845,6 @@
     <string name="messageRequestsAccepted">Your message request has been accepted.</string>
     <string name="messageRequestPending">Your message request is currently pending.</string>
     <string name="messageRequestsNonePending">No pending message requests</string>
-    <string name="NewConversationButton_SessionTooltip">Direct Message</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Closed Group</string>
     <string name="NewConversationButton_OpenGroupTooltip">Open Group</string>
     <string name="messageRequestsNew">You have a new message request</string>
@@ -995,5 +992,7 @@
     <string name="clearDataAllDescription">This will permanently delete your messages and contacts. Would you like to clear this device only, or delete your data from the network as well?</string>
     <string name="clearDeviceOnly">Clear device only</string>
     <string name="clearDeviceAndNetwork">Clear device and network</string>
+    <string name="messageNew">New Message</string>
+    <string name="messageNewDescription">Start a new conversation by entering someone\'s Account ID or scanning their QR code.</string>
 
 </resources>

@@ -497,10 +497,8 @@
     <string name="onionRoutingPathDestination">目的先</string>
     <string name="learnMore">詳細</string>
     <string name="activity_path_resolving_progress">解決中...</string>
-    <string name="activity_create_private_chat_title">新しい Session</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Session ID を入力してください</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR コードをスキャンする</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">ユーザーの QR コードをスキャンして、Session を開始します。QR コードは、アカウント設定の QR コードアイコンをタップすると見つかります。</string>
     <string name="fragment_enter_public_key_edit_text_hint">セッションIDまたはONS名を入力してください</string>
     <string name="fragment_enter_public_key_explanation">ユーザーは、アカウント設定に移動して [Session ID を共有] をタップするか、QR コードを共有することで、Session ID を共有できます。</string>
     <string name="fragment_enter_public_key_error_message">セッションIDまたはONS名を確認して再度お試しください。</string>

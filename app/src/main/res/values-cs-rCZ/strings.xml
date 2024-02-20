@@ -535,10 +535,8 @@
     <string name="onionRoutingPathDestination">Cíl</string>
     <string name="learnMore">Další informace</string>
     <string name="activity_path_resolving_progress">Připojování…</string>
-    <string name="activity_create_private_chat_title">Nová relace</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Zadejte Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Naskenovat QR kód</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Pro zahájení relace naskenujte QR kód uživatele. QR kódy lze nalézt po klepnutí na QR kód v nastavení účtu.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Zadejte Session ID nebo název ONS</string>
     <string name="fragment_enter_public_key_explanation">Uživatelé mohou sdílet Session ID po klepnutí na \"Sdílet Session ID\" v nastavení účtu nebo sdílením svého QR kódu.</string>
     <string name="fragment_enter_public_key_error_message">Zkontrolujte prosím své Session ID nebo název ONS a zkuste to znovu.</string>

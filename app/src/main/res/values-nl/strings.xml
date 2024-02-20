@@ -513,10 +513,8 @@
     <string name="onionRoutingPathDestination">Bestemming</string>
     <string name="learnMore">Kom meer te weten</string>
     <string name="activity_path_resolving_progress">Bezig met verwerken...</string>
-    <string name="activity_create_private_chat_title">Nieuwe sessie</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Uw Sessie-ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Scan QR-code</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Scan de QR-code van een gebruiker om een sessie te starten. QR-codes kunnen worden gevonden door op het QR-icoon in de accountinstellingen te tikken.</string>
     <string name="fragment_enter_public_key_edit_text_hint">Voer uw Session ID of ONS naam in</string>
     <string name="fragment_enter_public_key_explanation">Gebruikers kunnen hun Session-ID delen door naar hun accountinstellingen te gaan en op \"Deel Session-ID\" te tikken, of door hun QR-code te delen.</string>
     <string name="fragment_enter_public_key_error_message">Controleer de sessie-ID of ONS naam en probeer het opnieuw.</string>

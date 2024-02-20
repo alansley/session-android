@@ -336,10 +336,8 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="onionRoutingPathServiceNode">Nút Dịch vụ</string>
     <string name="onionRoutingPathDestination">Điểm đến</string>
     <string name="learnMore">Tìm hiểu thêm</string>
-    <string name="activity_create_private_chat_title">Session mới</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Nhập Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Quét mã QR</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Quét mã QR của người dùng để bắt đầu session. Tìm mã QR bằng cách chạm vào biểu tượng mã QR trong mục cài đặt tài khoản.</string>
     <string name="fragment_enter_public_key_explanation">Người dùng có thể chia sẻ Session ID của mình bằng cách tới mục cài đặt tài khoản và chạm vào “Chia sẻ Session ID”, hoặc bằng cách chia sẻ mã QR của họ.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session cần truy cập máy ảnh để quét mã QR </string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Cho phép truy cập máy ảnh</string>

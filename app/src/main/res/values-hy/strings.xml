@@ -520,10 +520,8 @@
     <string name="onionRoutingPathDestination">Նպատակակետ</string>
     <string name="learnMore">Իմանալ Ավելին</string>
     <string name="activity_path_resolving_progress">Լուծում է…</string>
-    <string name="activity_create_private_chat_title">Նոր Սեանս</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">Մուտքագրեք Սեանսի ինքնությունը</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Սկանավորել QR Կոդ</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">Սկանավորեք մեկի QR կոդը, որ սկսեք սեանս։ QR կոդը կարող եք գտնել հաշվի կարգավորումների մեջ՝ QR կոդի նշանի վրա սեղմելուց հետո։</string>
     <string name="fragment_enter_public_key_edit_text_hint">Գրեք session այդին կամ ONS անունը</string>
     <string name="fragment_enter_public_key_explanation">Օգտագործողները կարող են կիսվել իրենց session-ի այդի-ով մտնելով իրենք կարգավորումներ և սեղմելով կիսվել կոճակը կամ կիսվելով QR կոդով.</string>
     <string name="fragment_enter_public_key_error_message">Խնդրում ենք ստուգել session-ի այդին կամ ONS-ը և փորձել նորից.</string>
@@ -634,7 +632,6 @@
     <string name="conversation_unpin">Արձակել</string>
     <string name="mark_all_as_read">Նշել բոլորը, որպես տեսնված</string>
     <string name="messages">Հաղորդագրություններ</string>
-    <string name="NewConversationButton_SessionTooltip">Անմիջական հաղորդագրություն</string>
     <string name="NewConversationButton_ClosedGroupTooltip">Փակ խումբ</string>
     <string name="NewConversationButton_OpenGroupTooltip">Բաց խումբ</string>
 </resources>

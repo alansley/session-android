@@ -506,10 +506,8 @@
     <string name="onionRoutingPathDestination">目的地</string>
     <string name="learnMore">瞭解更多</string>
     <string name="activity_path_resolving_progress">解決中...</string>
-    <string name="activity_create_private_chat_title">新的 Session</string>
     <string name="activity_create_private_chat_enter_session_id_tab_title">輸入 Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">掃描 QR Code</string>
-    <string name="activity_create_private_chat_scan_qr_code_explanation">掃描 QR Code 以開始一個 Session，您可以在帳戶設定中找到您的 QR Code。</string>
     <string name="fragment_enter_public_key_edit_text_hint">請輸入您的 ID 或 ONS 的名稱</string>
     <string name="fragment_enter_public_key_explanation">使用者可以進入帳戶設定中，點擊分享 Session ID 或直接分享其 QR Code。</string>
     <string name="fragment_enter_public_key_error_message">請檢查 Session ID 或 ONS，然後再試一次。</string>
@@ -620,7 +618,6 @@
     <string name="conversation_unpin">取消釘選</string>
     <string name="mark_all_as_read">全部標示為已讀</string>
     <string name="messages">訊息</string>
-    <string name="NewConversationButton_SessionTooltip">直接傳訊</string>
     <string name="NewConversationButton_ClosedGroupTooltip">已關閉的群組</string>
     <string name="NewConversationButton_OpenGroupTooltip">開啟群組</string>
 </resources>
