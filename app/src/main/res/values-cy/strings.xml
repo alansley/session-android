@@ -347,7 +347,6 @@
     <string name="message_details_header__with">Gyda:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Creu cyfrinair</string>
-    <string name="AndroidManifest__select_contacts">Dewis cysylltiadau</string>
     <string name="AndroidManifest__media_preview">Rhagolwg cyfrwng</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Defnyddio\'r rhagosodedig</string>
@@ -441,7 +440,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Tewi hysbysiadau</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Golygu grŵp</string>
     <string name="conversation__menu_leave_group">Gadael y grŵp</string>
     <string name="conversationsAddToHome">Ychwanegu at y sgrin gartref</string>
     <!-- conversation_popup -->

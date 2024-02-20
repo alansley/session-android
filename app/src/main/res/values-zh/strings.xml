@@ -57,7 +57,6 @@
     <string name="ConversationActivity_compose">撰写</string>
     <string name="ConversationActivity_muted_until_date">禁言至 %1$s</string>
     <string name="ConversationActivity_muted_forever">已静音</string>
-    <string name="ConversationActivity_member_count">%1$d 位成员</string>
     <string name="ConversationActivity_open_group_guidelines">社群准则</string>
     <string name="ConversationActivity_invalid_recipient">无效收件人！</string>
     <string name="ConversationActivity_leave_group">离开群组？</string>
@@ -68,7 +67,6 @@
     <string name="ConversationActivity_unblock">解除屏蔽</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">附件超出了您正在发送的消息类型的大小限制。</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的设备上没有应用程序能打开这个链接。</string>
-    <string name="ConversationActivity_invite_to_open_group">添加成员</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session 需要麦克风权限才能发送语音信息，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”。</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">要拍照或录像，请允许 Session 访问相机。</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session 需要相机权限以拍摄照片或视频</string>
@@ -186,7 +184,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">您与 %s 的安全码已经改变</string>
     <string name="ThreadRecord_you_marked_verified">你被标识为已验证</string>
     <string name="ThreadRecord_you_marked_unverified">你被标记为未验证</string>
-    <string name="ThreadRecord_open_group_invitation">打开群组邀请</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session 更新</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session 有新版本了，点击升级！</string>
@@ -285,8 +282,7 @@
     <string name="audio_view__play_accessibility_description">播放</string>
     <string name="audio_view__pause_accessibility_description">暂停</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">加入</string>
-    <string name="open_group_invitation_view__open_group_invitation">打开群组邀请</string>
+    <string name="join">加入</string>
     <string name="open_group_guidelines_pinned_message">置顶信息</string>
     <string name="open_group_guidelines_community_guidelines">社群准则</string>
     <string name="open_group_guidelines_read">阅读</string>
@@ -319,7 +315,6 @@
     <string name="message_details_header__with">与：</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">创建密码</string>
-    <string name="AndroidManifest__select_contacts">选择联系人</string>
     <string name="AndroidManifest__media_preview">媒体预览</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">使用默认</string>
@@ -411,7 +406,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">静音通知</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">编辑群组</string>
     <string name="conversation__menu_leave_group">离开群组</string>
     <string name="conversationsAddToHome">添加到主屏幕</string>
     <!-- conversation_popup -->
@@ -455,7 +449,7 @@
     <!-- Session -->
     <string name="_continue">继续</string>
     <string name="copy">复制</string>
-    <string name="invalid_url">无效的链接</string>
+    <string name="communityEnterUrlErrorInvalid">无效的链接</string>
     <string name="copied">复制到剪贴板</string>
     <string name="next">下一步</string>
     <string name="share">共享</string>
@@ -503,9 +497,7 @@
     <string name="groupNameEnterPlease">请输入群组名称</string>
     <string name="activity_join_public_chat_title">加入公开群组</string>
     <string name="activity_join_public_chat_error">无法加入群组</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">公开群组链接</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">扫描您想加入的公开群组的二维码</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">输入公开群组链接</string>
     <string name="sessionSettings">设置</string>
     <string name="activity_settings_devices_button_title">设备</string>
     <string name="sessionInviteAFriend">邀请朋友</string>
@@ -530,11 +522,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">应用</string>
     <string name="done">完成</string>
-    <string name="activity_edit_closed_group_title">编辑群组</string>
-    <string name="activity_edit_closed_group_edit_members">成员</string>
-    <string name="activity_edit_closed_group_add_members">添加成员</string>
+    <string name="groupEdit">编辑群组</string>
     <string name="fragment_edit_group_bottom_sheet_remove">从群组中移除用户</string>
-    <string name="activity_select_contacts_title">选择联系人</string>
+    <string name="contactSelect">选择联系人</string>
     <string name="view_reset_secure_session_done_message">安全会话重置完毕</string>
     <string name="appearanceThemes">主题</string>
     <string name="dialog_ui_mode_option_day">白昼</string>
@@ -551,14 +541,13 @@
     <string name="activity_link_device_skip_prompt">这需要一点时间，您想要跳过吗？</string>
     <string name="activity_link_device_link_device">关联设备</string>
     <string name="activity_link_device_qr_message">在您的其他设备上导航到设置 -> 恢复口令以显示您的 QR 代码。</string>
-    <string name="activity_join_public_chat_join_rooms">或加入下列群组…</string>
+    <string name="communityJoinOfficial">或加入下列群组…</string>
     <string name="onboardingMessageNotificationExplaination">我们有两种方式来向您发送消息通知。</string>
     <string name="activity_pn_mode_fast_mode">快速模式</string>
     <string name="activity_pn_mode_slow_mode">慢速模式</string>
     <string name="activity_pn_mode_fast_mode_explanation">新消息将通过 Google 通知服务器即时可靠地发送。</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session 将不时在后台获取新消息。</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">输入昵称</string>
-    <string name="invalid_public_key">无效公钥</string>
     <string name="dialog_blocked_title">从黑名单中移除 %s 吗？</string>
     <string name="dialog_blocked_explanation">确定解除屏蔽%s吗?</string>
     <string name="dialog_join_open_group_explanation">您确定要加入公开群组 %s 吗？</string>

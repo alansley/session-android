@@ -59,7 +59,6 @@
     <string name="ConversationActivity_compose">Δημιουργία</string>
     <string name="ConversationActivity_muted_until_date">Σε σίγαση μέχρι %1$s</string>
     <string name="ConversationActivity_muted_forever">Σίγαση</string>
-    <string name="ConversationActivity_member_count">%1$d μέλη</string>
     <string name="ConversationActivity_open_group_guidelines">Οδηγίες Κοινότητας</string>
     <string name="ConversationActivity_invalid_recipient">Μη έγκυρος/η παραλήπτης/τρια!</string>
     <string name="ConversationActivity_leave_group">Αποχώρηση από την ομάδα;</string>
@@ -70,7 +69,6 @@
     <string name="ConversationActivity_unblock">Ξεμπλοκάρισμα</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Το συνημμένο υπερβαίνει τα όρια μεγέθους για το είδος μηνύματος που στέλνετε.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Δεν υπάρχει διαθέσιμη εφαρμογή στην συσκευή σας να μπορεί να διαχειριστεί αυτό τον σύνδεσμο.</string>
-    <string name="ConversationActivity_invite_to_open_group">Προσθέστε μέλη</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Το Session χρειάζεται τα δικαιώματα Μικροφώνου για να μπορούμε να στείλουμε μηνύματα ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Μικρόφωνο\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Για να τραβήξετε φωτογραφίες και βίντεο, δώστε στο Session πρόσβαση στην κάμερα.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για την αποστολή φωτογραφιών και βίντεο.</string>
@@ -197,7 +195,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ο αριθμός ασφαλείας με τον/την %s έχει αλλάξει.</string>
     <string name="ThreadRecord_you_marked_verified">Σημειώσατε ως επιβεβαιωμένο</string>
     <string name="ThreadRecord_you_marked_unverified">Σημειώσατε ως μη επιβεβαιωμένο</string>
-    <string name="ThreadRecord_open_group_invitation">Πρόσκληση ανοιχτής ομάδας</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Αναβάθμιση Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Μια νέα έκδοση του Session είναι διαθέσιμη, πατήστε για αναβάθμιση</string>
@@ -297,8 +294,7 @@
     <string name="audio_view__play_accessibility_description">Αναπαραγωγή</string>
     <string name="audio_view__pause_accessibility_description">Παύση</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Εγγραφείτε</string>
-    <string name="open_group_invitation_view__open_group_invitation">Πρόσκληση ανοιχτής ομάδας</string>
+    <string name="join">Εγγραφείτε</string>
     <string name="open_group_guidelines_pinned_message">Καρφιτσωμένο Μήνυμα</string>
     <string name="open_group_guidelines_community_guidelines">Οδηγίες Κοινότητας</string>
     <string name="open_group_guidelines_read">Διαβάστηκε</string>
@@ -331,7 +327,6 @@
     <string name="message_details_header__with">Με:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Δημιουργία συνθηματικού</string>
-    <string name="AndroidManifest__select_contacts">Επιλογή επαφών</string>
     <string name="AndroidManifest__media_preview">Προεπισκόπιση</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Χρήση προκαθορισμένου</string>
@@ -424,7 +419,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Σίγαση ειδοποιήσεων</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Επεξεργασία ομάδας</string>
     <string name="conversation__menu_leave_group">Αποχώρηση από την ομάδα</string>
     <string name="conversationsAddToHome">Προσθήκη στην κεντρική οθόνη</string>
     <!-- conversation_popup -->
@@ -468,7 +462,7 @@
     <!-- Session -->
     <string name="_continue">Συνέχεια</string>
     <string name="copy">Αντιγραφή</string>
-    <string name="invalid_url">Μη έγκυρη διεύθυνση</string>
+    <string name="communityEnterUrlErrorInvalid">Μη έγκυρη διεύθυνση</string>
     <string name="copied">Αντιγράφηκε στο πρόχειρο</string>
     <string name="next">Επόμενο</string>
     <string name="share">Διαμοιρασμός</string>
@@ -516,9 +510,7 @@
     <string name="groupNameEnterPlease">Παρακαλώ εισάγετε όνομα ομάδας</string>
     <string name="activity_join_public_chat_title">Συμμετοχή Σε Ανοιχτή Ομάδα</string>
     <string name="activity_join_public_chat_error">Αδυναμία συμμετοχής στην ομάδα</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Διεύθυνση Ανοιχτής Ομάδας</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Σαρώστε τον κωδικό QR της ανοικτής ομάδας που θα θέλατε να συμμετάσχετε</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Εισάγετε μια διεύθυνση ανοικτής ομάδας</string>
     <string name="sessionSettings">Ρυθμίσεις</string>
     <string name="activity_settings_devices_button_title">Συσκευές</string>
     <string name="sessionInviteAFriend">Προσκαλέστε ένα φίλο</string>
@@ -543,11 +535,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Εφαρμογή</string>
     <string name="done">Τέλος</string>
-    <string name="activity_edit_closed_group_title">Επεξεργασία Ομάδας</string>
-    <string name="activity_edit_closed_group_edit_members">Μέλη</string>
-    <string name="activity_edit_closed_group_add_members">Προσθήκη μελών</string>
+    <string name="groupEdit">Επεξεργασία Ομάδας</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Αφαίρεση Χρήστη Από την Ομάδα</string>
-    <string name="activity_select_contacts_title">Επιλογή Επαφών</string>
+    <string name="contactSelect">Επιλογή Επαφών</string>
     <string name="view_reset_secure_session_done_message">Η ασφαλής επαναφορά ολοκληρώθηκε</string>
     <string name="appearanceThemes">Θέμα</string>
     <string name="dialog_ui_mode_option_day">Ημέρα</string>
@@ -564,14 +554,13 @@
     <string name="activity_link_device_skip_prompt">Αυτό παίρνει λίγο χρόνο, θα θέλατε να παραλείψετε;</string>
     <string name="activity_link_device_link_device">Σύνδεση Συσκευής</string>
     <string name="activity_link_device_qr_message">Μεταβείτε στις Ρυθμίσεις → Φράση Ανάκτησης στην άλλη συσκευή σας για να εμφανίσετε τον QR κωδικό σας.</string>
-    <string name="activity_join_public_chat_join_rooms">Ή συνδεθείτε σε ένα από αυτά…</string>
+    <string name="communityJoinOfficial">Ή συνδεθείτε σε ένα από αυτά…</string>
     <string name="onboardingMessageNotificationExplaination">Υπάρχουν δύο τρόποι με τους οποίους το Session μπορεί να σας ειδοποιήσει για νέα μηνύματα.</string>
     <string name="activity_pn_mode_fast_mode">Γρήγορη Επιλογή</string>
     <string name="activity_pn_mode_slow_mode">Αργή Επιλογή</string>
     <string name="activity_pn_mode_fast_mode_explanation">Θα ειδοποιηθείτε για νέα μηνύματα αξιόπιστα και άμεσα χρησιμοποιώντας τους διακομιστές ειδοποιήσεων της Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Το Session θα ελέγχει κατά καιρούς για νέα μηνύματα στο παρασκήνιο.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Εισαγωγή ψευδώνυμου</string>
-    <string name="invalid_public_key">Μη έγκυρο δημόσιο κλειδί</string>
     <string name="dialog_blocked_title">Ξεμπλοκάρισμα %s;</string>
     <string name="dialog_blocked_explanation">Είστε βέβαιοι ότι θέλετε να ξεμπλοκάρετε %s;</string>
     <string name="dialog_join_open_group_explanation">Είστε σίγουροι ότι θέλετε να συμμετάσχετε στην ανοιχτή ομάδα %s;</string>

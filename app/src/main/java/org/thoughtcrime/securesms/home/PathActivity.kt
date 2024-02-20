@@ -173,7 +173,7 @@ class PathActivity : PassphraseRequiredActionBarActivity() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         } catch (e: Exception) {
-            Toast.makeText(this, R.string.invalid_url, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.communityEnterUrlErrorInvalid, Toast.LENGTH_SHORT).show()
         }
     }
     // endregion

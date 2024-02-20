@@ -294,7 +294,6 @@
     <string name="message_details_header__with">ជាមួយ៖</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">បង្កើតឃ្លាសម្ងាត់</string>
-    <string name="AndroidManifest__select_contacts">ជ្រើសរើសបញ្ជីលេខទំនាក់ទំនង</string>
     <string name="AndroidManifest__media_preview">ការបង្ហាញសារ</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">ប្រើលំនាំដើម</string>
@@ -384,7 +383,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">បិទសំឡេងសារជូនដំណឹង</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">កែប្រែក្រុម</string>
     <string name="conversation__menu_leave_group">ចាកចេញពីក្រុម</string>
     <string name="conversationsAddToHome">បន្ថែមទៅអេក្រង់ដើម</string>
     <!-- conversation_popup -->

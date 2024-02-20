@@ -59,7 +59,6 @@
     <string name="ConversationActivity_compose">Verku</string>
     <string name="ConversationActivity_muted_until_date">Silentigita ĝis %1$s</string>
     <string name="ConversationActivity_muted_forever">Silentigite</string>
-    <string name="ConversationActivity_member_count">%1$d membroj</string>
     <string name="ConversationActivity_open_group_guidelines">Komunumaj reguloj</string>
     <string name="ConversationActivity_invalid_recipient">Nevalida ricevonto!</string>
     <string name="ConversationActivity_leave_group">Ĉu forlasi grupon?</string>
@@ -70,7 +69,6 @@
     <string name="ConversationActivity_unblock">Malbloki</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Kunsendaĵo transpasas la grandlimon por tia mesaĝo, kian vi sendas.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Estas neniu aplikaĵo disponebla por trakti ĉi tiun ligilon ĉe via aparato.</string>
-    <string name="ConversationActivity_invite_to_open_group">Aldoni membrojn</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session bezonas la Mikrofono-permeson por sendi aŭdajn mesaĝojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Mikrofono“.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Por registri bildojn kaj videaĵojn, donu al Session aliron al la fotilo.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session bezonas aliron al la memoro por sendi bildojn kaj filmetojn.</string>
@@ -196,7 +194,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Via sekuriga numero kun %s ŝanĝiĝis.</string>
     <string name="ThreadRecord_you_marked_verified">Vi markis kiel konfirmita</string>
     <string name="ThreadRecord_you_marked_unverified">Vi markis kiel nekonfirmita</string>
-    <string name="ThreadRecord_open_group_invitation">Invito de malferma grupo</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Ĝisdatigo de Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Nova versio de Session disponeblas, tuŝetu por ĝisdatigi</string>
@@ -296,8 +293,7 @@
     <string name="audio_view__play_accessibility_description">Ludi</string>
     <string name="audio_view__pause_accessibility_description">Paŭzigi</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Aliĝi</string>
-    <string name="open_group_invitation_view__open_group_invitation">Invito de malferma grupo</string>
+    <string name="join">Aliĝi</string>
     <string name="open_group_guidelines_pinned_message">Fiksita Mesaĝo</string>
     <string name="open_group_guidelines_community_guidelines">Komunumaj Reguloj</string>
     <string name="open_group_guidelines_read">Legita</string>
@@ -330,7 +326,6 @@
     <string name="message_details_header__with">Kun:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Krei pasfrazon</string>
-    <string name="AndroidManifest__select_contacts">Elekti kontaktojn</string>
     <string name="AndroidManifest__media_preview">Aŭdvida antaŭrigardo</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Uzi defaŭltan</string>
@@ -423,7 +418,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silentigi sciigojn</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Modifi grupon</string>
     <string name="conversation__menu_leave_group">Forlasi la grupon</string>
     <string name="conversationsAddToHome">Aldonita al la ĉefekrano</string>
     <!-- conversation_popup -->
@@ -467,7 +461,7 @@
     <!-- Session -->
     <string name="_continue">Daŭrigi</string>
     <string name="copy">Kopii</string>
-    <string name="invalid_url">Malvalida URL</string>
+    <string name="communityEnterUrlErrorInvalid">Malvalida URL</string>
     <string name="copied">Kopiite al tondejo</string>
     <string name="next">Sekva</string>
     <string name="share">Kunhavigi</string>
@@ -515,9 +509,7 @@
     <string name="groupNameEnterPlease">Bonvolu entajpi grupnomon</string>
     <string name="activity_join_public_chat_title">Aniĝi al Malferma Grupo</string>
     <string name="activity_join_public_chat_error">Ne povis aniĝi al grupo</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">URL de Malferma Grupo</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skanu la QR-kodon de la malferma grupo kiu vi volas aniĝi</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Entajpu URL-on de malferma grupo</string>
     <string name="sessionSettings">Agordo</string>
     <string name="activity_settings_devices_button_title">Aparatoj</string>
     <string name="sessionInviteAFriend">Inviti Amikon</string>
@@ -541,11 +533,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Apliki</string>
     <string name="done">Farite</string>
-    <string name="activity_edit_closed_group_title">Redakti Grupon</string>
-    <string name="activity_edit_closed_group_edit_members">Membroj</string>
-    <string name="activity_edit_closed_group_add_members">Aldoni membrojn</string>
+    <string name="groupEdit">Redakti Grupon</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Forigi uzanton el grupo</string>
-    <string name="activity_select_contacts_title">Elekti Kontaktojn</string>
+    <string name="contactSelect">Elekti Kontaktojn</string>
     <string name="view_reset_secure_session_done_message">Sekura sesia rekomencigo farite</string>
     <string name="appearanceThemes">Etoso</string>
     <string name="dialog_ui_mode_option_day">Tage</string>
@@ -559,12 +549,11 @@
     <string name="activity_backup_restore_select_file">Elekti dosieron</string>
     <string name="activity_backup_restore_passphrase">30-cifera pasfrazo</string>
     <string name="activity_link_device_link_device">Ligi Aparaton</string>
-    <string name="activity_join_public_chat_join_rooms">Aŭ aliĝu unu de ĉi tiuj…</string>
+    <string name="communityJoinOfficial">Aŭ aliĝu unu de ĉi tiuj…</string>
     <string name="activity_pn_mode_fast_mode">Rapida Reĝimo</string>
     <string name="activity_pn_mode_slow_mode">Malrapida Maniero</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session foje serĉos novajn mesaĝojn en la fono.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Entajpu alnomon</string>
-    <string name="invalid_public_key">Malvalida publika ŝlosilo</string>
     <string name="dialog_blocked_title">Ĉu Malbloki %s?</string>
     <string name="dialog_blocked_explanation">Ĉu vi certas, ke vi volas malbloki %s?</string>
     <string name="dialog_join_open_group_explanation">Ĉu vi certas, ke vi volas aliĝi al la %s publika grupo?</string>

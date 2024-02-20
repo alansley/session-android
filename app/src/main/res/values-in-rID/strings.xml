@@ -56,7 +56,6 @@
     <string name="ConversationActivity_compose">Menyusun</string>
     <string name="ConversationActivity_muted_until_date">Senyapkan sampai %1$s</string>
     <string name="ConversationActivity_muted_forever">Disenyapkan</string>
-    <string name="ConversationActivity_member_count">%1$d anggota</string>
     <string name="ConversationActivity_open_group_guidelines">Pedoman Komunitas</string>
     <string name="ConversationActivity_invalid_recipient">Penerima tidak valid!</string>
     <string name="ConversationActivity_leave_group">Tinggalkan grup?</string>
@@ -66,7 +65,6 @@
     <string name="ConversationActivity_unblock">Buka blokir</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Lampiran melebihi batas ukuran untuk tipe pesan yang Anda kirimkan.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi yang tersedia untuk menangani tautan ini di perangkat Anda.</string>
-    <string name="ConversationActivity_invite_to_open_group">Tambahkan anggota</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session membutuhkan izin mikrofon untuk mengirim pesan suara, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session membutuhkan akses kamera untuk mengambil foto dan video.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session membutuhkan akses penyimpanan untuk mengirim foto dan video.</string>
@@ -244,8 +242,7 @@
     <string name="audio_view__play_accessibility_description">Mainkan</string>
     <string name="audio_view__pause_accessibility_description">Jeda</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Gabung</string>
-    <string name="open_group_invitation_view__open_group_invitation">Undangan grup terbuka</string>
+    <string name="join">Gabung</string>
     <string name="open_group_guidelines_pinned_message">Pesan yang disematkan</string>
     <string name="open_group_guidelines_community_guidelines">Pedoman komunitas</string>
     <!-- QuoteView -->
@@ -337,7 +334,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Senyapkan notifikasi</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Ubah grup</string>
     <string name="conversation__menu_leave_group">Tinggalkan grup</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->
@@ -367,7 +363,7 @@
     <!-- Session -->
     <string name="_continue">Lanjutkan</string>
     <string name="copy">Salin</string>
-    <string name="invalid_url">URL salah</string>
+    <string name="communityEnterUrlErrorInvalid">URL salah</string>
     <string name="copied">Salin ke clipboard</string>
     <string name="next">Berikutnya</string>
     <string name="activity_register_title">Ucapkan halo pada Session ID anda</string>
@@ -400,9 +396,7 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Terapkan</string>
     <string name="done">Selesai</string>
-    <string name="activity_edit_closed_group_title">Ubah Grup</string>
-    <string name="activity_edit_closed_group_edit_members">Anggota</string>
-    <string name="activity_edit_closed_group_add_members">Tambahkan anggota</string>
+    <string name="groupEdit">Ubah Grup</string>
     <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Day</string>
     <string name="dialog_ui_mode_option_night">Night</string>

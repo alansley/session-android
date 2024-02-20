@@ -27,12 +27,10 @@
     <string name="ConversationItem_read_more">තව කියවන්න</string>
     <!-- ConversationActivity -->
     <string name="message">පණිවිඩය</string>
-    <string name="ConversationActivity_member_count">සාමාජිකයින් %1$d</string>
     <string name="ConversationActivity_leave_group">සමූහය හැරයනවාද?</string>
     <string name="ConversationActivity_error_leaving_group">සමූහය හැරයාමේ දෝෂයකි</string>
     <string name="ConversationActivity_unblock_this_contact_question">සබඳතාවය අනවහිර කරනවාද?</string>
     <string name="ConversationActivity_unblock">අනවහිර</string>
-    <string name="ConversationActivity_invite_to_open_group">සාමාජිකයින් එකතු කරන්න</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_saving_n_attachments">
         <item quantity="one">ඇමුණුම සුරැකෙමින්</item>
@@ -124,7 +122,7 @@
     <!-- audio_view -->
     <string name="audio_view__play_accessibility_description">වාදනය</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">එක්වන්න</string>
+    <string name="join">එක්වන්න</string>
     <!-- QuoteView -->
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -158,7 +156,6 @@
     <!-- conversation_muted -->
     <!-- conversation_unmuted -->
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">සමූහය සංස්කරණය</string>
     <string name="conversation__menu_leave_group">සමූහය හැරයන්න</string>
     <string name="conversationsAddToHome">මුල් තිරයට එකතු කරන්න</string>
     <!-- conversation_popup -->
@@ -183,7 +180,7 @@
     <!-- Session -->
     <string name="_continue">ඉදිරියට</string>
     <string name="copy">පිටපත්</string>
-    <string name="invalid_url">වලංගු නොවන ඒ.ස.නි. කි</string>
+    <string name="communityEnterUrlErrorInvalid">වලංගු නොවන ඒ.ස.නි. කි</string>
     <string name="copied">පසුරුපුවරුවට පිටපත් විය</string>
     <string name="share">බෙදාගන්න</string>
     <string name="cancel">අවලංගු</string>
@@ -194,8 +191,6 @@
     <string name="groupNameEnterPlease">සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="activity_join_public_chat_title">විවෘත සමූහයට එක්වන්න</string>
     <string name="activity_join_public_chat_error">සමූහයට එක්වීමට නොහැකි විය</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">සමූහයේ ඒ.ස.නි. විවෘත කරන්න</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">විවෘත සමූහ ඒ.ස.නි. ක් ඇතුල්කරන්න</string>
     <string name="sessionSettings">සැකසුම්</string>
     <string name="activity_settings_devices_button_title">උපාංග</string>
     <string name="helpFAQ">නිති පැණ</string>
@@ -208,9 +203,7 @@
     <string name="fragment_contact_selection_open_groups_title">විවෘත සමූහ</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">යොදන්න</string>
-    <string name="activity_edit_closed_group_title">සමූහය සංස්කරණය</string>
-    <string name="activity_edit_closed_group_edit_members">සාමාජිකයින්</string>
-    <string name="activity_edit_closed_group_add_members">සාමාජිකයින් එකතු කරන්න</string>
+    <string name="groupEdit">සමූහය සංස්කරණය</string>
     <string name="fragment_edit_group_bottom_sheet_remove">පරිශීලක සමූහයෙන් ඉවත් කරන්න</string>
     <string name="appearanceThemes">තේමාව</string>
     <string name="dialog_ui_mode_option_day">දවස</string>

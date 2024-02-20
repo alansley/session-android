@@ -63,7 +63,6 @@
     <string name="ConversationActivity_compose">Rašyti (Automatic Translation)</string>
     <string name="ConversationActivity_muted_until_date">Užtildytas iki %1$s</string>
     <string name="ConversationActivity_muted_forever">Užtildytas</string>
-    <string name="ConversationActivity_member_count">Narių: %1$d</string>
     <string name="ConversationActivity_open_group_guidelines">Bendruomenės gairės</string>
     <string name="ConversationActivity_invalid_recipient">Neteisingas gavėjas!</string>
     <string name="ConversationActivity_leave_group">Išeiti iš grupės?</string>
@@ -74,7 +73,6 @@
     <string name="ConversationActivity_unblock">Atblokuoti</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Priedas viršija jūsų siunčiamos žinutės tipui leidžiamą dydį.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nėra prieinamos programėlės, kuri galėtų apdoroti šią nuorodą jūsų įrenginyje.</string>
-    <string name="ConversationActivity_invite_to_open_group">Pridėti dalyvius</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Norint siųsti garso žinutes, Session reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite Session prieigą prie kameros.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, Session reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
@@ -215,7 +213,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %s pasikeitė.</string>
     <string name="ThreadRecord_you_marked_verified">Jūs pažymėjote patvirtintu</string>
     <string name="ThreadRecord_you_marked_unverified">Jūs pažymėjote nepatvirtintu</string>
-    <string name="ThreadRecord_open_group_invitation">Pakvietimas į atvirą grupę</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session atnaujinimas</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja Session versija, bakstelėkite, norėdami atnaujinti</string>
@@ -316,8 +313,7 @@
     <string name="audio_view__play_accessibility_description">Groti</string>
     <string name="audio_view__pause_accessibility_description">Pristabdyti</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Prisijungti</string>
-    <string name="open_group_invitation_view__open_group_invitation">Pakvietimas į atvirą grupę</string>
+    <string name="join">Prisijungti</string>
     <string name="open_group_guidelines_pinned_message">Prisegta žinutė</string>
     <string name="open_group_guidelines_read">Skaityti</string>
     <!-- QuoteView -->
@@ -349,7 +345,6 @@
     <string name="message_details_header__with">Su:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Kurti slaptafrazę</string>
-    <string name="AndroidManifest__select_contacts">Pasirinkti adresatus</string>
     <string name="AndroidManifest__media_preview">Medijos peržiūra</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Naudoti numatytąjį</string>
@@ -442,7 +437,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Nutildyti pranešimus</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Taisyti grupę</string>
     <string name="conversation__menu_leave_group">Išeiti iš grupės</string>
     <string name="conversationsAddToHome">Pridėti į pradžios ekraną</string>
     <!-- conversation_popup -->
@@ -486,7 +480,7 @@
     <!-- Session -->
     <string name="_continue">Tęsti</string>
     <string name="copy">Kopijuoti</string>
-    <string name="invalid_url">Neteisingas URL</string>
+    <string name="communityEnterUrlErrorInvalid">Neteisingas URL</string>
     <string name="copied">Nukopijuota į iškarpinę</string>
     <string name="next">Kitas</string>
     <string name="share">Bendrinti</string>
@@ -528,9 +522,7 @@
     <string name="groupNameEnterPlease">Įveskite grupės pavadinimą</string>
     <string name="activity_join_public_chat_title">Prisijungti prie atviros grupės</string>
     <string name="activity_join_public_chat_error">Nepavyko prisijungti prie grupės</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Atviros grupės URL</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Nuskenuokite atviros grupės, prie kurios norėtumėte prisijungti, QR kodą</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Įveskite atviros grupės URL</string>
     <string name="sessionSettings">Nustatymai</string>
     <string name="activity_settings_devices_button_title">Įrenginiai</string>
     <string name="sessionClearData">Išvalyti duomenis</string>
@@ -552,9 +544,7 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Taikyti</string>
     <string name="done">Atlikta</string>
-    <string name="activity_edit_closed_group_title">Taisyti grupę</string>
-    <string name="activity_edit_closed_group_edit_members">Nariai</string>
-    <string name="activity_edit_closed_group_add_members">Pridėti narius</string>
+    <string name="groupEdit">Taisyti grupę</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Šalinti naudotoją iš grupės</string>
     <string name="appearanceThemes">Apipavidalinimas</string>
     <string name="dialog_ui_mode_option_day">Dieninis</string>
@@ -566,7 +556,7 @@
     <string name="dialog_backup_activation_failed">Nepavyko aktyvuoti atsarginių kopijų. Bandykite dar kartą arba susisiekite su palaikymu.</string>
     <string name="activity_backup_restore_title">Atkurti atsarginę kopiją</string>
     <string name="activity_link_device_link_device">Susieti įrenginį</string>
-    <string name="activity_join_public_chat_join_rooms">Arba prisijunkite prie vienos iš šių…</string>
+    <string name="communityJoinOfficial">Arba prisijunkite prie vienos iš šių…</string>
     <string name="onboardingMessageNotificationExplaination">Yra du būdai kaip Session gali jums pranešti apie naujas žinutes.</string>
     <string name="activity_pn_mode_fast_mode">Greita veiksena</string>
     <string name="activity_pn_mode_slow_mode">Lėta veiksena</string>

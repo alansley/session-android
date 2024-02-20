@@ -63,7 +63,6 @@
     <string name="ConversationActivity_compose">Napsat</string>
     <string name="ConversationActivity_muted_until_date">Ztlumeno do %1$s</string>
     <string name="ConversationActivity_muted_forever">Ztlumeno</string>
-    <string name="ConversationActivity_member_count">%1$d členů</string>
     <string name="ConversationActivity_open_group_guidelines">Pravidla komunity</string>
     <string name="ConversationActivity_invalid_recipient">Chybný příjemce!</string>
     <string name="ConversationActivity_leave_group">Opustit skupinu?</string>
@@ -74,7 +73,6 @@
     <string name="ConversationActivity_unblock">Odblokovat</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Velikost přílohy překročila limit pro typ zprávy kterou posíláte</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Není zde žádná aplikace která by dokázala zpracovat tento odkaz.</string>
-    <string name="ConversationActivity_invite_to_open_group">Přidat členy</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signál potřebuje oprávnění pro přístup k mikrofonu aby mohl poslat audio zprávu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pro pořizování fotografií nebo videa potřebuje Signál přístup k fotoaparátu.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">K pořizování fotografií a videa potřebuje Session přístup k úložišti.</string>
@@ -215,7 +213,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Váš bezpečnostní kód s %s se změnil</string>
     <string name="ThreadRecord_you_marked_verified">Označen jako ověřený</string>
     <string name="ThreadRecord_you_marked_unverified">Označen jako neověřený</string>
-    <string name="ThreadRecord_open_group_invitation">Otevřít pozvánku ke skupině</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Aktualizace Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Je k dispozici nová verze Session, klikněte pro aktualizaci</string>
@@ -317,8 +314,7 @@
     <string name="audio_view__play_accessibility_description">Přehrát</string>
     <string name="audio_view__pause_accessibility_description">Zastavit</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Přidat se</string>
-    <string name="open_group_invitation_view__open_group_invitation">Otevřít pozvánku do skupiny</string>
+    <string name="join">Přidat se</string>
     <string name="open_group_guidelines_pinned_message">Připnutá zpráva</string>
     <string name="open_group_guidelines_community_guidelines">Pravidla komunity</string>
     <string name="open_group_guidelines_read">Číst</string>
@@ -351,7 +347,6 @@
     <string name="message_details_header__with">S:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Vytvořit heslo</string>
-    <string name="AndroidManifest__select_contacts">Výběr kontaktů</string>
     <string name="AndroidManifest__media_preview">Náhled multimédií</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Použít výchozí</string>
@@ -446,7 +441,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Ztišit upozornění</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Editovat skupinu</string>
     <string name="conversation__menu_leave_group">Opustit skupinu</string>
     <string name="conversationsAddToHome">Přidat na plochu</string>
     <!-- conversation_popup -->
@@ -490,7 +484,7 @@
     <!-- Session -->
     <string name="_continue">Pokračovat</string>
     <string name="copy">Kopírovat</string>
-    <string name="invalid_url">Neplatná adresa URL</string>
+    <string name="communityEnterUrlErrorInvalid">Neplatná adresa URL</string>
     <string name="copied">Zkopírováno do schránky</string>
     <string name="next">Další</string>
     <string name="share">Sdílet</string>
@@ -538,9 +532,7 @@
     <string name="groupNameEnterPlease">Zadejte prosím název skupiny</string>
     <string name="activity_join_public_chat_title">Připojit se k otevřené skupině</string>
     <string name="activity_join_public_chat_error">Nelze se připojit ke skupině</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Otevřít URL adresu skupiny</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Naskenujte QR kód otevřené skupiny, ke které se chcete připojit</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Zadejte URL adresu otevřené skupiny</string>
     <string name="sessionSettings">Nastavení</string>
     <string name="activity_settings_devices_button_title">Zařízení</string>
     <string name="sessionInviteAFriend">Pozvat přítele</string>
@@ -565,11 +557,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Použít</string>
     <string name="done">Hotovo</string>
-    <string name="activity_edit_closed_group_title">Upravit skupinu</string>
-    <string name="activity_edit_closed_group_edit_members">Členové</string>
-    <string name="activity_edit_closed_group_add_members">Přidat členy</string>
+    <string name="groupEdit">Upravit skupinu</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Odebrat uživatele ze skupiny</string>
-    <string name="activity_select_contacts_title">Vyber kontakty</string>
+    <string name="contactSelect">Vyber kontakty</string>
     <string name="view_reset_secure_session_done_message">Zabezpečená relace byla obnovena</string>
     <string name="appearanceThemes">Motiv</string>
     <string name="dialog_ui_mode_option_day">Den</string>
@@ -586,14 +576,13 @@
     <string name="activity_link_device_skip_prompt">Trvá to trochu déle, chcete přeskočit?</string>
     <string name="activity_link_device_link_device">Propojit zařízení</string>
     <string name="activity_link_device_qr_message">Přejděte do Nastavení → Fráze pro obnovení na vašem dalším zařízení a zobrazte svůj QR kód.</string>
-    <string name="activity_join_public_chat_join_rooms">Nebo se připojte k jedné z těchto…</string>
+    <string name="communityJoinOfficial">Nebo se připojte k jedné z těchto…</string>
     <string name="onboardingMessageNotificationExplaination">Existují dva způsoby, jak vás může Session upozorňovat na nové zprávy.</string>
     <string name="activity_pn_mode_fast_mode">Rychlý režim</string>
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
     <string name="activity_pn_mode_fast_mode_explanation">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session občas zkontroluje nové zprávy na pozadí.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Zadej přezdívku</string>
-    <string name="invalid_public_key">Neplatný veřejný klíč</string>
     <string name="dialog_blocked_title">Odblokovat %s?</string>
     <string name="dialog_blocked_explanation">Opravdu chcete odblokovat %s?</string>
     <string name="dialog_join_open_group_explanation">Opravdu se chcete připojit k otevřené skupině %s?</string>

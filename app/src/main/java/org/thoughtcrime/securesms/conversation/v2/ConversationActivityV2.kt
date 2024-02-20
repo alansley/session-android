@@ -1121,7 +1121,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                 actionBarBinding.conversationSubtitleView.text = getString(R.string.ConversationActivity_active_member_count, userCount)
             } ?: run {
                 val userCount = groupDb.getGroupMemberAddresses(recipient.address.toGroupString(), true).size
-                actionBarBinding.conversationSubtitleView.text = getString(R.string.ConversationActivity_member_count, userCount)
+                actionBarBinding.conversationSubtitleView.text = getString(R.string.members, userCount)
             }
             viewModel
         } else {

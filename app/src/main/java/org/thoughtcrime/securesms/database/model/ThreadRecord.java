@@ -81,7 +81,7 @@ public class ThreadRecord extends DisplayRecord {
     if (isGroupUpdateMessage()) {
       return emphasisAdded(context.getString(R.string.ThreadRecord_group_updated));
     } else if (isOpenGroupInvitation()) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_open_group_invitation));
+      return emphasisAdded(context.getString(R.string.communityInvitation));
     } else if (SmsDatabase.Types.isFailedDecryptType(type)) {
       return emphasisAdded(context.getString(R.string.MessageDisplayHelper_bad_encrypted_message));
     } else if (SmsDatabase.Types.isNoRemoteSessionType(type)) {

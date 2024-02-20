@@ -59,7 +59,6 @@
     <string name="ConversationActivity_compose">Compor</string>
     <string name="ConversationActivity_muted_until_date">Silenciado até %1$s</string>
     <string name="ConversationActivity_muted_forever">Silenciado</string>
-    <string name="ConversationActivity_member_count">%1$d membros</string>
     <string name="ConversationActivity_open_group_guidelines">Normas da Comunidade</string>
     <string name="ConversationActivity_invalid_recipient">Destinatário inválido!</string>
     <string name="ConversationActivity_leave_group">Abandonar o grupo?</string>
@@ -70,7 +69,6 @@
     <string name="ConversationActivity_unblock">Desbloquear</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">O anexo tem um tamanho superior ao limite do tipo de mensagem que está a enviar.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Não existe uma aplicação capaz de lidar com este tipo de ligação no seu dispositivo.</string>
-    <string name="ConversationActivity_invite_to_open_group">Adicionar membros</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">O Session requer permissão de acesso ao microfone para enviar mensagens áudio, mas esta foi negada permanentemente. Por favor, aceda às definições da aplicação, selecione \"Permissões\" e ative \"Microfone\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Para tirar fotos e filmar vídeos, dê permissões ao Session para acesso à câmara.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">O Session precisa de acesso ao armazenamento para enviar fotos e vídeos.</string>
@@ -196,7 +194,6 @@ foi recebida está corrompida!</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">O seu número de segurança com %s mudou.</string>
     <string name="ThreadRecord_you_marked_verified">Marcou como verificado</string>
     <string name="ThreadRecord_you_marked_unverified">Marcou como não verificado</string>
-    <string name="ThreadRecord_open_group_invitation">Convite para grupo aberto</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Atualização do Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Está disponível uma nova versão do Session, toque para atualizar</string>
@@ -292,8 +289,7 @@ foi recebida está corrompida!</string>
     <string name="audio_view__play_accessibility_description">Reproduzir</string>
     <string name="audio_view__pause_accessibility_description">Pausar</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Entrar</string>
-    <string name="open_group_invitation_view__open_group_invitation">Convite para grupo aberto</string>
+    <string name="join">Entrar</string>
     <string name="open_group_guidelines_pinned_message">Mensagem afixada</string>
     <string name="open_group_guidelines_community_guidelines">Normas da Comunidade</string>
     <string name="open_group_guidelines_read">Ler</string>
@@ -326,7 +322,6 @@ foi recebida está corrompida!</string>
     <string name="message_details_header__with">Com:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Criar frase-passe</string>
-    <string name="AndroidManifest__select_contacts">Selecionar contactos</string>
     <string name="AndroidManifest__media_preview">Pré-visualização de multimédia</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Usar a opção predefinida</string>
@@ -419,7 +414,6 @@ foi recebida está corrompida!</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silenciar notificações</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Editar o grupo</string>
     <string name="conversation__menu_leave_group">Abandonar grupo</string>
     <string name="conversationsAddToHome">Adicionar ao ecrã inicial</string>
     <!-- conversation_popup -->
@@ -463,7 +457,7 @@ foi recebida está corrompida!</string>
     <!-- Session -->
     <string name="_continue">Continuar</string>
     <string name="copy">Copiar</string>
-    <string name="invalid_url">URL inválido</string>
+    <string name="communityEnterUrlErrorInvalid">URL inválido</string>
     <string name="copied">Copiado para a área de transferência</string>
     <string name="next">Próximo</string>
     <string name="share">Compartilhar</string>
@@ -511,9 +505,7 @@ foi recebida está corrompida!</string>
     <string name="groupNameEnterPlease">Digite um nome de grupo</string>
     <string name="activity_join_public_chat_title">Participar em grupo aberto</string>
     <string name="activity_join_public_chat_error">Não foi possível entrar no grupo</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">URL do grupo aberto</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Escaneie o código QR do grupo aberto no qual você deseja entrar</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Digite a URL do grupo aberto</string>
     <string name="sessionSettings">Configurações</string>
     <string name="activity_settings_devices_button_title">Dispositivos</string>
     <string name="sessionClearData">Apagar os dados</string>

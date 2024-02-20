@@ -20,7 +20,6 @@ import org.session.libsession.utilities.ThemeUtil
 import org.thoughtcrime.securesms.ApplicationContext
 import org.thoughtcrime.securesms.BaseActionBarActivity
 import org.thoughtcrime.securesms.home.HomeActivity
-import org.thoughtcrime.securesms.notifications.PushManager
 import org.thoughtcrime.securesms.notifications.PushRegistry
 import org.thoughtcrime.securesms.showSessionDialog
 import org.thoughtcrime.securesms.util.GlowViewUtilities
@@ -89,7 +88,7 @@ class PNModeActivity : BaseActionBarActivity() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         } catch (e: Exception) {
-            Toast.makeText(this, R.string.invalid_url, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, R.string.communityEnterUrlErrorInvalid, Toast.LENGTH_SHORT).show()
         }
     }
 

@@ -60,7 +60,6 @@
     <string name="ConversationActivity_compose">Ստեղծել</string>
     <string name="ConversationActivity_muted_until_date">Անջատված է մինչև %1$s</string>
     <string name="ConversationActivity_muted_forever">Լուռ է</string>
-    <string name="ConversationActivity_member_count">%1$d անդամաներ</string>
     <string name="ConversationActivity_open_group_guidelines">Համայնքի կանոնները</string>
     <string name="ConversationActivity_invalid_recipient">Սխալ հասցեատեր</string>
     <string name="ConversationActivity_leave_group">Լքե՞լ խումբը</string>
@@ -71,7 +70,6 @@
     <string name="ConversationActivity_unblock">Հանել արգելափակումից</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Ձեր ուղարկվող հաղորդագրությունը չափազանց մեծ է.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Այս հղմամբ չկան հասանելի հավելվածներ ձեր սարքում.</string>
-    <string name="ConversationActivity_invite_to_open_group">Ավելացնել անդամներ</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session-ը պահանջում է միկրոֆոնի թույտվություն, խնդրում ենք մտնել կարգավորումներ, ընտրել \"թույլտվություն\", ապա թույլատրել \"միկրոֆոնը\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն, որպեսզի ունենանք մուտք դեպի նկարմեր և վիդեոներ.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն, որպեսզի ունենանք մուտք դեպի նկարներ և վիդեոներ.</string>
@@ -204,7 +202,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ձեր անվտանգության համարը %s-ի հետ փոխվել է:</string>
     <string name="ThreadRecord_you_marked_verified">Ստուգված է ձեր կողմից</string>
     <string name="ThreadRecord_you_marked_unverified">Չստուգված ձեր կողմից</string>
-    <string name="ThreadRecord_open_group_invitation">Բացել խմբին միանալու հրավերը</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session֊ի թարմացում</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Հասանել է Session֊ի նոր տարբերակը. Սեղմեք՝ թարմացնելու համար</string>
@@ -304,8 +301,7 @@
     <string name="audio_view__play_accessibility_description">Միացնել</string>
     <string name="audio_view__pause_accessibility_description">Դադար</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Միանալ</string>
-    <string name="open_group_invitation_view__open_group_invitation">Բացել խմբի հրավերը</string>
+    <string name="join">Միանալ</string>
     <string name="open_group_guidelines_pinned_message">Գամված հաղորդագրություն</string>
     <string name="open_group_guidelines_community_guidelines">Համայնքի կանոնները</string>
     <string name="open_group_guidelines_read">Կարդալ</string>
@@ -338,7 +334,6 @@
     <string name="message_details_header__with">Հետ։</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Ստեղծել գաղտնաբառ</string>
-    <string name="AndroidManifest__select_contacts">Ընտրել կոնտակտները</string>
     <string name="AndroidManifest__media_preview">Տեսնել մեդիան</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Օգտագործել հիմնականը</string>
@@ -431,7 +426,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Խլացնել ծանուցումները</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Խմբագրել խումբը</string>
     <string name="conversation__menu_leave_group">Լքել խումբը</string>
     <string name="conversationsAddToHome">Ավելացնել Հիմնական էկրանին</string>
     <!-- conversation_popup -->
@@ -475,7 +469,7 @@
     <!-- Session -->
     <string name="_continue">Շարունակել</string>
     <string name="copy">Պատճենել</string>
-    <string name="invalid_url">Սխալ Հղում</string>
+    <string name="communityEnterUrlErrorInvalid">Սխալ Հղում</string>
     <string name="copied">Պատճենվել է կցարանում</string>
     <string name="next">Հաջորդը</string>
     <string name="share">Կիսվել</string>
@@ -523,9 +517,7 @@
     <string name="groupNameEnterPlease">Այս դաշտը չպիտի լինի դատարկ</string>
     <string name="activity_join_public_chat_title">Մտնել զրուցարան</string>
     <string name="activity_join_public_chat_error">Չստացվեց մտնել խումբ</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Բաց Խմբի URL հասցե</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Սքանավորել բաց խմբի QR կոդը</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Գրել բաց խմբի հղումը</string>
     <string name="sessionSettings">Կարգավորումներ</string>
     <string name="activity_settings_devices_button_title">Սարքեր</string>
     <string name="sessionInviteAFriend">Հրավիրել ընկերոջը</string>
@@ -550,11 +542,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Հաստատել</string>
     <string name="done">Վերջ</string>
-    <string name="activity_edit_closed_group_title">Խմբագրել խումբը</string>
-    <string name="activity_edit_closed_group_edit_members">Անդամներ</string>
-    <string name="activity_edit_closed_group_add_members">Ավելացնել անդամներ</string>
+    <string name="groupEdit">Խմբագրել խումբը</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Հանել խմբից</string>
-    <string name="activity_select_contacts_title">Ընտրել Կոնտակտներ</string>
+    <string name="contactSelect">Ընտրել Կոնտակտներ</string>
     <string name="view_reset_secure_session_done_message">Ապահով սեանսի զրոյացումն ավարտված է</string>
     <string name="appearanceThemes">Ոճ</string>
     <string name="dialog_ui_mode_option_day">Ցերեկ</string>
@@ -571,14 +561,13 @@
     <string name="activity_link_device_skip_prompt">Սա որոշ ժամանակ է տևում, կցանկանա՞ք բաց թողնել:</string>
     <string name="activity_link_device_link_device">Ավելացնել սարք</string>
     <string name="activity_link_device_qr_message">Անցեք Կարգավորումներ → Վերականգնման Բառակապակցություն՝ ձեր QR կոդը ցուցադրելու համար:</string>
-    <string name="activity_join_public_chat_join_rooms">Կամ միացե՛ք սրանցից մեկին…</string>
+    <string name="communityJoinOfficial">Կամ միացե՛ք սրանցից մեկին…</string>
     <string name="onboardingMessageNotificationExplaination">Երկու եղանակով Session-ը կարող է ձեզ տեղեկացնել նոր հաղորդագրությունների մասին:</string>
     <string name="activity_pn_mode_fast_mode">Արագ ռեժիմ</string>
     <string name="activity_pn_mode_slow_mode">Դանդաղ ռեժիմ</string>
     <string name="activity_pn_mode_fast_mode_explanation">Դուք մշտապես և անմիջապես կտեղեկացվեք նոր հաղորդագրությունների մասին՝ օգտագործելով Google-ի ծանուցումների սերվերները:</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session-ը երբեմն, ֆոնային կստուգի նոր հաղորդագրությունների առկայությունը:</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Մուտքագրե՛ք կեղծանունը</string>
-    <string name="invalid_public_key">Սխալ հանրային կոդ</string>
     <string name="dialog_blocked_title">Արգելաբացե՞լ %s։</string>
     <string name="dialog_blocked_explanation">Համոզվա՞ծ եք, որ ուզում եք արգելաբացել %s֊ին։</string>
     <string name="dialog_join_open_group_explanation">Համոզվա՞ծ եք, որ ուզում եք միանալ %s բաց խմբին։</string>

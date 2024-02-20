@@ -154,7 +154,7 @@
             />
         <activity
             android:name="org.thoughtcrime.securesms.groups.EditClosedGroupActivity"
-            android:label="@string/activity_edit_closed_group_title"
+            android:label="@string/groupEdit"
             android:screenOrientation="portrait" />
         <activity
             android:name="org.thoughtcrime.securesms.onboarding.SeedActivity"

@@ -293,7 +293,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Lag passordfrase</string>
-    <string name="AndroidManifest__select_contacts">Vel kontaktar</string>
     <string name="AndroidManifest__media_preview">Førehandsvising av media</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Bruk forvald</string>
@@ -379,7 +378,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Ikkje vis varsel</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Rediger gruppa</string>
     <string name="conversation__menu_leave_group">Forlat gruppe</string>
     <string name="conversationsAddToHome">Legg til heimeskjermen</string>
     <!-- conversation_popup -->

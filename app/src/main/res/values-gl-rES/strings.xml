@@ -58,7 +58,6 @@
     <string name="message">Escribe aquí a túa mensaxe</string>
     <string name="ConversationActivity_compose">Redactar</string>
     <string name="ConversationActivity_muted_until_date">Silenciado até %1$s</string>
-    <string name="ConversationActivity_member_count">%1$d membros</string>
     <string name="ConversationActivity_open_group_guidelines">Directrices da Comunidade</string>
     <string name="ConversationActivity_invalid_recipient">Destinatario non válido!</string>
     <string name="ConversationActivity_leave_group">Abandonar o grupo?</string>
@@ -69,7 +68,6 @@
     <string name="ConversationActivity_unblock">Desbloquear</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">O anexo excede o tamaño límite para o tipo de mensaxe que estás a enviar.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Non hai ningunha app que poida abrir esta ligazón no teu dispositivo.</string>
-    <string name="ConversationActivity_invite_to_open_group">Engadir membros</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session require permiso para poder enviar mensaxes de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Para tirar fotografías e facer vídeos, Session necesita acceder á cámara.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Para enviar fotografías e vídeos, Session necesita acceder ao almacenamento.</string>
@@ -293,7 +291,7 @@
     <string name="audio_view__play_accessibility_description">Reproducir</string>
     <string name="audio_view__pause_accessibility_description">Pausar</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Entrar no grupo</string>
+    <string name="join">Entrar no grupo</string>
     <string name="open_group_guidelines_pinned_message">Mensaxe fixada</string>
     <string name="open_group_guidelines_community_guidelines">Directrices da comunidade</string>
     <string name="open_group_guidelines_read">Ler</string>
@@ -326,7 +324,6 @@
     <string name="message_details_header__with">Con:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Crear frase de acceso</string>
-    <string name="AndroidManifest__select_contacts">Seleccionar contactos</string>
     <string name="AndroidManifest__media_preview">Previsualización multimedia</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Utilizar o predeterminado</string>
@@ -417,7 +414,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silenciar notificacións</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Editar grupo</string>
     <string name="conversation__menu_leave_group">Abandonar grupo</string>
     <string name="conversationsAddToHome">Engadir á pantalla de inicio</string>
     <!-- conversation_popup -->
@@ -461,7 +457,7 @@
     <!-- Session -->
     <string name="_continue">Continuar</string>
     <string name="copy">Copiar</string>
-    <string name="invalid_url">URL inválido</string>
+    <string name="communityEnterUrlErrorInvalid">URL inválido</string>
     <string name="copied">Copiado ao portapapeis</string>
     <string name="next">Seguinte</string>
     <string name="share">Partillar</string>
@@ -486,17 +482,13 @@
     <string name="groupNameEnterPlease">Por favor, introduce o nome do grupo</string>
     <string name="activity_join_public_chat_title">Entrar no grupo aberto</string>
     <string name="activity_join_public_chat_error">Non foi posible entrar no grupo</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">URL do grupo aberto</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Escanea o código QR do grupo aberto no que queiras entrar</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Introduce o URL dun grupo aberto</string>
     <string name="activity_qr_code_title">Código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escanea o código QR dalgunha persoa para comezar unha conversa con ela</string>
     <string name="fragment_contact_selection_closed_groups_title">Grupos pechados</string>
     <string name="fragment_contact_selection_open_groups_title">Grupos abertos</string>
     <!-- Next round of translation -->
-    <string name="activity_edit_closed_group_title">Editar grupo</string>
-    <string name="activity_edit_closed_group_edit_members">Membros</string>
-    <string name="activity_edit_closed_group_add_members">Engadir membros</string>
+    <string name="groupEdit">Editar grupo</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Eliminar usuario do grupo</string>
     <string name="dialog_join_open_group_explanation">Tes a certeza de querer entrar no grupo aberto %s?</string>
     <string name="activity_conversation_blocked_banner_text">%s está bloqueado. Desbloquealo?</string>

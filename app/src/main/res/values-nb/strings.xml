@@ -59,7 +59,6 @@
     <string name="ConversationActivity_compose">Skriv ny</string>
     <string name="ConversationActivity_muted_until_date">Dempet til %1$s</string>
     <string name="ConversationActivity_muted_forever">Dempet</string>
-    <string name="ConversationActivity_member_count">%1$d medlemmer</string>
     <string name="ConversationActivity_open_group_guidelines">Fellesskapets rettningslinjer</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig mottaker.</string>
     <string name="ConversationActivity_leave_group">Vil du forlate gruppa?</string>
@@ -70,7 +69,6 @@
     <string name="ConversationActivity_unblock">Fjern blokkering</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Vedlegg overskrider maksimal størrelsesgrense for gjeldende meldingstype.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har ingen programmer på denne enheten som kan håndtere denne lenka.</string>
-    <string name="ConversationActivity_invite_to_open_group">Legg til medlemmer</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session krever tillatelse fra systemet for å kunne bruke mikrofonen, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Mikrofon».</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Du må gi Session «Kamera»-tillatelse på systemet for å kunne filme og ta bilder.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session trenger lagringstilgang for å sende bilder og videoer.</string>
@@ -196,7 +194,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sikkerhetsnummeret ditt for %s er endret.</string>
     <string name="ThreadRecord_you_marked_verified">Markert som bekreftet</string>
     <string name="ThreadRecord_you_marked_unverified">Markert som ikke bekreftet</string>
-    <string name="ThreadRecord_open_group_invitation">Åpne gruppeinvitasjon</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session oppdatering</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny versjon av Session er tilgjengelig, trykk for å oppdatere</string>
@@ -296,8 +293,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="audio_view__play_accessibility_description">Spill</string>
     <string name="audio_view__pause_accessibility_description">Pause</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Bli med</string>
-    <string name="open_group_invitation_view__open_group_invitation">Åpne gruppeinvitasjon</string>
+    <string name="join">Bli med</string>
     <string name="open_group_guidelines_pinned_message">Festet melding</string>
     <string name="open_group_guidelines_community_guidelines">Retningslinjer for fellesskap</string>
     <string name="open_group_guidelines_read">Les</string>
@@ -330,7 +326,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Opprett passord</string>
-    <string name="AndroidManifest__select_contacts">Velg kontakter</string>
     <string name="AndroidManifest__media_preview">Forhåndsvisning av medier</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Bruk forvalgt</string>
@@ -423,7 +418,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Ikke vis varsler</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Rediger gruppe</string>
     <string name="conversation__menu_leave_group">Forlat gruppe</string>
     <string name="conversationsAddToHome">Legg til på startskjermen</string>
     <!-- conversation_popup -->
@@ -467,7 +461,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- Session -->
     <string name="_continue">Fortsett</string>
     <string name="copy">Kopier</string>
-    <string name="invalid_url">Ugyldig URL</string>
+    <string name="communityEnterUrlErrorInvalid">Ugyldig URL</string>
     <string name="copied">Kopiert til utklippstavle</string>
     <string name="next">Neste</string>
     <string name="share">Del</string>
@@ -515,9 +509,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="groupNameEnterPlease">Oppgi et gruppenavn</string>
     <string name="activity_join_public_chat_title">Bli med i åpen gruppe</string>
     <string name="activity_join_public_chat_error">Kunne ikke bli med i gruppen</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">URL for åpen gruppe</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skann QR-koden til den åpne gruppen du ønsker å bli med</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Skriv inn en åpen gruppe-URL</string>
     <string name="sessionSettings">Innstillinger</string>
     <string name="activity_settings_devices_button_title">Enheter</string>
     <string name="sessionInviteAFriend">Inviter en venn</string>
@@ -542,11 +534,9 @@ nøkkelutvekslingsmelding.</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Bruk</string>
     <string name="done">Ferdig</string>
-    <string name="activity_edit_closed_group_title">Rediger gruppe</string>
-    <string name="activity_edit_closed_group_edit_members">Medlemmer</string>
-    <string name="activity_edit_closed_group_add_members">Legg til medlemmer</string>
+    <string name="groupEdit">Rediger gruppe</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Fjern bruker fra gruppen</string>
-    <string name="activity_select_contacts_title">Velg kontakter</string>
+    <string name="contactSelect">Velg kontakter</string>
     <string name="view_reset_secure_session_done_message">Sikker Session tilbakestilling ferdig</string>
     <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Dag</string>
@@ -563,14 +553,13 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_link_device_skip_prompt">Dette tar en stund, vil du hoppe over?</string>
     <string name="activity_link_device_link_device">Koble til en enhet</string>
     <string name="activity_link_device_qr_message">Naviger til innstillinger → Gjenopprettingsfrasen på din andre enhet for å vise QR-koden.</string>
-    <string name="activity_join_public_chat_join_rooms">Eller bli med i en av disse…</string>
+    <string name="communityJoinOfficial">Eller bli med i en av disse…</string>
     <string name="onboardingMessageNotificationExplaination">Det er to måter Session kan gi beskjed om nye meldinger på.</string>
     <string name="activity_pn_mode_fast_mode">Rask modus</string>
     <string name="activity_pn_mode_slow_mode">Langsom Modus</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session vil av og til sjekke nye meldinger i bakgrunnen.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Skriv inn et kallenavn</string>
-    <string name="invalid_public_key">Ugyldig offentlig nøkkel</string>
     <string name="dialog_blocked_title">Opphev blokkering %s?</string>
     <string name="dialog_blocked_explanation">Er du sikker på at du vil oppheve blokkeringen av %s?</string>
     <string name="dialog_join_open_group_explanation">Er du sikker på at du vil bli med i den åpne gruppen for %s?</string>

@@ -56,7 +56,6 @@
     <string name="ConversationActivity_compose">작성</string>
     <string name="ConversationActivity_muted_until_date">%1$s까지 알림 꺼짐</string>
     <string name="ConversationActivity_muted_forever">알림 꺼짐</string>
-    <string name="ConversationActivity_member_count">%1$d명의 멤버</string>
     <string name="ConversationActivity_open_group_guidelines">커뮤니티 가이드라인</string>
     <string name="ConversationActivity_invalid_recipient">수신자가 잘못됨</string>
     <string name="ConversationActivity_leave_group">그룹에서 나가시겠습니까?</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_unblock">차단 해제</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">첨부파일 크기 제한 초과됨</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">작업을 처리할 수 있는 앱 없음</string>
-    <string name="ConversationActivity_invite_to_open_group">멤버 추가</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session이 음성 메시지를 보내기 위한 마이크 권한이 영구적으로 차단되었습니다. 앱 설정에서 \"권한\" 탭을 클릭하고, \"마이크\" 권한을 허용해주세요.</string>
     <string name="ConversationActivity_search_position">%1$d / %2$d</string>
     <!-- ConversationFragment -->
@@ -254,7 +252,6 @@
     <string name="message_details_header__with">참가자:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">암호 만들기</string>
-    <string name="AndroidManifest__select_contacts">연락처 선택</string>
     <string name="AndroidManifest__media_preview">미디어 미리보기</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">기본설정 사용</string>
@@ -332,7 +329,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">알림 끄기</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">그룹 편집</string>
     <string name="conversation__menu_leave_group">그룹 나가기</string>
     <string name="conversationsAddToHome">홈 화면에 추가</string>
     <!-- conversation_popup -->
@@ -374,7 +370,6 @@
     <string name="activity_qr_code_view_scan_qr_code_explanation">QR 코드를 스캔해서 대화를 시작하세요</string>
     <string name="fragment_view_my_qr_code_title">스캔해주세요</string>
     <!-- Next round of translation -->
-    <string name="activity_edit_closed_group_add_members">멤버 추가</string>
     <string name="notify_type_all">모두</string>
     <string name="conversation_pin">고정</string>
     <string name="conversation_unpin">고정 해제</string>

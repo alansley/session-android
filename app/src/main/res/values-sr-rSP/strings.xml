@@ -59,7 +59,6 @@
     <string name="ConversationActivity_compose">Компонуј</string>
     <string name="ConversationActivity_muted_until_date">Мутиран до %1$s</string>
     <string name="ConversationActivity_muted_forever">Мутиран заувек</string>
-    <string name="ConversationActivity_member_count">%1$d чланова</string>
     <string name="ConversationActivity_open_group_guidelines">Смернице заједнице</string>
     <string name="ConversationActivity_invalid_recipient">Неисправан прималац!</string>
     <string name="ConversationActivity_leave_group">Напустити групу?</string>
@@ -70,7 +69,6 @@
     <string name="ConversationActivity_unblock">Одблокирај</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Прилог прекорачује ограничење величине за тип поруке коју шаљете.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нема апликације за руковање овом везом на вашем уређају.</string>
-    <string name="ConversationActivity_invite_to_open_group">Додај чланове</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Сесија треба дозволу за микрофон да пошаље аудио поруке, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Микрофон\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Сесија треба дозволу за камеру да прави слике и видео клипове.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Сесија треба дозволу за складиште да шаље слике и видео клипове.</string>
@@ -204,7 +202,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш безбедносни број са %s је промењен.</string>
     <string name="ThreadRecord_you_marked_verified">Означио си као верификовано</string>
     <string name="ThreadRecord_you_marked_unverified">Означио си као неверификовано</string>
-    <string name="ThreadRecord_open_group_invitation">Позивница за отворену групу</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Надоградња Session-a</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Ново издање Session-a је доступно, тапните за надоградњу</string>
@@ -303,8 +300,7 @@
     <string name="audio_view__play_accessibility_description">Пусти</string>
     <string name="audio_view__pause_accessibility_description">Паузирај</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Придружи се</string>
-    <string name="open_group_invitation_view__open_group_invitation">Позивница за отворену групу</string>
+    <string name="join">Придружи се</string>
     <string name="open_group_guidelines_pinned_message">Прикачена порука</string>
     <string name="open_group_guidelines_community_guidelines">Смернице заједнице</string>
     <string name="open_group_guidelines_read">Прочитај</string>
@@ -337,7 +333,6 @@
     <string name="message_details_header__with">Са:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Направи лозинку</string>
-    <string name="AndroidManifest__select_contacts">Изаберите контакте</string>
     <string name="AndroidManifest__media_preview">Преглед медијума</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Користи подразумевано</string>
@@ -427,7 +422,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Утишај обавештења</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Уреди групу</string>
     <string name="conversation__menu_leave_group">Напусти групу</string>
     <string name="conversationsAddToHome">Додај на почетни екран</string>
     <!-- conversation_popup -->

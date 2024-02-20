@@ -63,7 +63,6 @@
     <string name="ConversationActivity_compose">Создать</string>
     <string name="ConversationActivity_muted_until_date">Уведомления отключены до %1$s</string>
     <string name="ConversationActivity_muted_forever">Без звука</string>
-    <string name="ConversationActivity_member_count">Участников: %1$d</string>
     <string name="ConversationActivity_open_group_guidelines">Правила сообщества</string>
     <string name="ConversationActivity_invalid_recipient">Неверный получатель!</string>
     <string name="ConversationActivity_leave_group">Покинуть группу?</string>
@@ -74,7 +73,6 @@
     <string name="ConversationActivity_unblock">Разблокировать</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Вложение превышает допустимый размер для данного типа сообщения.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">На вашем устройстве не найдено приложение для открытия этой ссылки.</string>
-    <string name="ConversationActivity_invite_to_open_group">Добавить участников</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Для отправки аудиосообщений требуется разрешение на доступ к микрофону, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите в «Настройки», выберите «Приложения», найдите Session, затем выберите «Разрешения» и включите Микрофон.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Для съемки фото и видео Session требуется доступ к камере.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Для отправки фотографий и видео Session требуется доступ к хранилищу.</string>
@@ -217,7 +215,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш код безопасности с %s был изменен.</string>
     <string name="ThreadRecord_you_marked_verified">Верифицировано вами</string>
     <string name="ThreadRecord_you_marked_unverified">Верификация отменена вами</string>
-    <string name="ThreadRecord_open_group_invitation">Открыть приглашение в группу</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Обновление Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Доступна новая версия Session. Нажмите для обновления</string>
@@ -319,8 +316,7 @@
     <string name="audio_view__play_accessibility_description">Воспроизвести</string>
     <string name="audio_view__pause_accessibility_description">Пауза</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Войти</string>
-    <string name="open_group_invitation_view__open_group_invitation">Открыть приглашение группы</string>
+    <string name="join">Войти</string>
     <string name="open_group_guidelines_pinned_message">Закрепленное сообщение</string>
     <string name="open_group_guidelines_community_guidelines">Правила сообщества</string>
     <string name="open_group_guidelines_read">Читать</string>
@@ -353,7 +349,6 @@
     <string name="message_details_header__with">Вместе с:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Создать парольную фразу</string>
-    <string name="AndroidManifest__select_contacts">Выбрать контакты</string>
     <string name="AndroidManifest__media_preview">Предпросмотр</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Использовать настройку по умолчанию</string>
@@ -448,7 +443,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Отключить звук уведомлений</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Редактировать группу</string>
     <string name="conversation__menu_leave_group">Покинуть группу</string>
     <string name="conversationsAddToHome">Добавить на главный экран</string>
     <!-- conversation_popup -->
@@ -492,7 +486,7 @@
     <!-- Session -->
     <string name="_continue">Продолжить</string>
     <string name="copy">Копировать</string>
-    <string name="invalid_url">Неверная ссылка</string>
+    <string name="communityEnterUrlErrorInvalid">Неверная ссылка</string>
     <string name="copied">Скопировано в буфер обмена</string>
     <string name="next">Далее</string>
     <string name="share">Поделиться</string>
@@ -540,9 +534,7 @@
     <string name="groupNameEnterPlease">Пожалуйста, введите название группы</string>
     <string name="activity_join_public_chat_title">Присоединиться к открытой группе</string>
     <string name="activity_join_public_chat_error">Не удалось присоединиться к группе</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">URL открытой группы</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Отсканируйте QR-код открытой группы, в которую вы хотите вступить</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Введите URL открытой группы</string>
     <string name="sessionSettings">Настройки</string>
     <string name="activity_settings_devices_button_title">Устройства</string>
     <string name="sessionInviteAFriend">Пригласить друга</string>
@@ -567,11 +559,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Применить</string>
     <string name="done">Готово</string>
-    <string name="activity_edit_closed_group_title">Редактировать группу</string>
-    <string name="activity_edit_closed_group_edit_members">Участники</string>
-    <string name="activity_edit_closed_group_add_members">Добавить участников</string>
+    <string name="groupEdit">Редактировать группу</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Удалить пользователя из группы</string>
-    <string name="activity_select_contacts_title">Выбрать контакты</string>
+    <string name="contactSelect">Выбрать контакты</string>
     <string name="view_reset_secure_session_done_message">Сброс защищенного сеанса выполнен</string>
     <string name="appearanceThemes">Тема</string>
     <string name="dialog_ui_mode_option_day">День</string>
@@ -588,14 +578,13 @@
     <string name="activity_link_device_skip_prompt">Это занимает некоторое время, хотите пропустить?</string>
     <string name="activity_link_device_link_device">Привязать устройство</string>
     <string name="activity_link_device_qr_message">Перейдите в Настройки → Фраза для восстановления доступа на другом устройстве, чтобы показать ваш QR код.</string>
-    <string name="activity_join_public_chat_join_rooms">Или присоединитесь к одной из этих…</string>
+    <string name="communityJoinOfficial">Или присоединитесь к одной из этих…</string>
     <string name="onboardingMessageNotificationExplaination">Существует два способа оповещения о новых сообщениях.</string>
     <string name="activity_pn_mode_fast_mode">Ускоренный режим</string>
     <string name="activity_pn_mode_slow_mode">Медленный режим</string>
     <string name="activity_pn_mode_fast_mode_explanation">Вы будете получать уведомления о новых сообщениях надежно и сразу же с помощью серверов уведомлений Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session время от времени в фоновом режиме будeт проверять и получать новые сообщения.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Введите ник</string>
-    <string name="invalid_public_key">Неверный публичный ключ</string>
     <string name="dialog_blocked_title">Разблокировать %s?</string>
     <string name="dialog_blocked_explanation">Вы уверены, что хотите разблокировать %s?</string>
     <string name="dialog_join_open_group_explanation">Вы уверены, что хотите присоединиться к открытой группе %s?</string>

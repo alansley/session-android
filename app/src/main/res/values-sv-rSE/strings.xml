@@ -59,7 +59,6 @@
     <string name="ConversationActivity_compose">Komponera</string>
     <string name="ConversationActivity_muted_until_date">Tystades till %1$s</string>
     <string name="ConversationActivity_muted_forever">Tystad</string>
-    <string name="ConversationActivity_member_count">%1$d medlemmar</string>
     <string name="ConversationActivity_open_group_guidelines">Communityns riktlinjer</string>
     <string name="ConversationActivity_invalid_recipient">Ogiltig mottagare!</string>
     <string name="ConversationActivity_leave_group">Lämna grupp?</string>
@@ -70,7 +69,6 @@
     <string name="ConversationActivity_unblock">Avblockera</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Den bifogade filen är för stor för den typ av meddelande du försöker skicka.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Det finns ingen app på din enhet som kan hantera den här länken.</string>
-    <string name="ConversationActivity_invite_to_open_group">Lägg till medlemmar</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session behöver behörigheten Mikrofon för att skicka ljudmeddelanden men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">För att fånga fotografier och video, tillåt Session att tillgå kameran.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Sessionen behöver åtkomst till lagringsutrymmet för att kunna skicka foton och videor.</string>
@@ -196,7 +194,6 @@ för nyckelutbyte!</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ditt säkerhetsnummer med %s har ändrats.</string>
     <string name="ThreadRecord_you_marked_verified">Du markerade verifierad</string>
     <string name="ThreadRecord_you_marked_unverified">Du markerade overifierad</string>
-    <string name="ThreadRecord_open_group_invitation">Öppen gruppinbjudan</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session-uppdatering</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version av Session finns tillgänglig, tryck för att uppdatera</string>
@@ -296,8 +293,7 @@ för nyckelutbyte!</string>
     <string name="audio_view__play_accessibility_description">Spela</string>
     <string name="audio_view__pause_accessibility_description">Pausa</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Gå med</string>
-    <string name="open_group_invitation_view__open_group_invitation">Öppen gruppinbjudan</string>
+    <string name="join">Gå med</string>
     <string name="open_group_guidelines_pinned_message">Fäst meddelande</string>
     <string name="open_group_guidelines_community_guidelines">Communityns riktlinjer</string>
     <string name="open_group_guidelines_read">Läst</string>
@@ -330,7 +326,6 @@ för nyckelutbyte!</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Skapa lösenord</string>
-    <string name="AndroidManifest__select_contacts">Välj kontakter</string>
     <string name="AndroidManifest__media_preview">Mediaförhandsgranskning</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Använd standardinställning</string>
@@ -423,7 +418,6 @@ för nyckelutbyte!</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Tysta ner aviseringar</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Ändra grupp</string>
     <string name="conversation__menu_leave_group">Lämna grupp</string>
     <string name="conversationsAddToHome">Lägg till på hemskärmen</string>
     <!-- conversation_popup -->
@@ -467,7 +461,7 @@ för nyckelutbyte!</string>
     <!-- Session -->
     <string name="_continue">Fortsätt</string>
     <string name="copy">Kopiera</string>
-    <string name="invalid_url">Ogiltig URL</string>
+    <string name="communityEnterUrlErrorInvalid">Ogiltig URL</string>
     <string name="copied">Kopierade till urklipp</string>
     <string name="next">Nästa</string>
     <string name="share">Dela</string>
@@ -515,9 +509,7 @@ för nyckelutbyte!</string>
     <string name="groupNameEnterPlease">Vänligen ange ett gruppnamn</string>
     <string name="activity_join_public_chat_title">Gå med i öppen grupp</string>
     <string name="activity_join_public_chat_error">Kunde inte ansluta till gruppen</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Öppna grupp-URL</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skanna QR-koden för den öppna grupp du vill ansluta till</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Ange en öppen grupp-URL</string>
     <string name="sessionSettings">Inställningar</string>
     <string name="activity_settings_devices_button_title">Enheter</string>
     <string name="sessionInviteAFriend">Bjud in en vän</string>
@@ -542,11 +534,9 @@ för nyckelutbyte!</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Tillämpa</string>
     <string name="done">Klar</string>
-    <string name="activity_edit_closed_group_title">Redigera Grupp</string>
-    <string name="activity_edit_closed_group_edit_members">Medlemmar</string>
-    <string name="activity_edit_closed_group_add_members">Lägg till medlemmar</string>
+    <string name="groupEdit">Redigera Grupp</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Ta bort användare från grupp</string>
-    <string name="activity_select_contacts_title">Välj Kontakter</string>
+    <string name="contactSelect">Välj Kontakter</string>
     <string name="view_reset_secure_session_done_message">Säker Session återställd</string>
     <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Dag</string>
@@ -563,14 +553,13 @@ för nyckelutbyte!</string>
     <string name="activity_link_device_skip_prompt">Detta tar ett tag, vill du hoppa över?</string>
     <string name="activity_link_device_link_device">Länka en enhet</string>
     <string name="activity_link_device_qr_message">Navigera till Inställningar → Återställningsfras på din andra enhet för att visa din QR-kod.</string>
-    <string name="activity_join_public_chat_join_rooms">Eller gå med i en av dessa…</string>
+    <string name="communityJoinOfficial">Eller gå med i en av dessa…</string>
     <string name="onboardingMessageNotificationExplaination">Det finns två sätt som Session kan meddela dig om nya meddelanden på.</string>
     <string name="activity_pn_mode_fast_mode">Snabbläge</string>
     <string name="activity_pn_mode_slow_mode">Långsamt läge</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session kommer då och då att leta efter nya meddelanden i bakgrunden.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Ange smeknamn</string>
-    <string name="invalid_public_key">Ogiltig publik nyckel</string>
     <string name="dialog_blocked_title">Avblockera %s?</string>
     <string name="dialog_blocked_explanation">Är du säker på att du vill avblockera %s?</string>
     <string name="dialog_join_open_group_explanation">Är du säker på att du vill gå med i %s öppna grupp?</string>

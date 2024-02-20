@@ -255,7 +255,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="message_details_header__with">Dengan:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Buat frasa sandi</string>
-    <string name="AndroidManifest__select_contacts">Pilih kontak</string>
     <string name="AndroidManifest__media_preview">Pratinjau media</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Gunakan bawaan</string>
@@ -336,7 +335,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Bisukan pemberitahuan</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Ubah grup</string>
     <string name="conversation__menu_leave_group">Keluar grup</string>
     <string name="conversationsAddToHome">tambahkan ke layar utama</string>
     <!-- conversation_popup -->
@@ -379,7 +377,7 @@ memproses pertukaran kunci korupsi.</string>
     <!-- Session -->
     <string name="_continue">Lanjut</string>
     <string name="copy">Salin</string>
-    <string name="invalid_url">URL salah</string>
+    <string name="communityEnterUrlErrorInvalid">URL salah</string>
     <string name="copied">Salin ke clipboard</string>
     <string name="next">Selanjutnya</string>
     <string name="share">Bagikan</string>
@@ -424,9 +422,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="groupNameEnterPlease">Masukkan nama grup</string>
     <string name="activity_join_public_chat_title">Gabung ke grup terbuka</string>
     <string name="activity_join_public_chat_error">Tak bisa bergabung dengan grup</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Buka URL grup</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Pindai kode QR grup terbuka yang ingin anda masuki</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Masukkan sebuah URL grup terbuka</string>
     <string name="sessionSettings">Pengaturan</string>
     <string name="activity_settings_devices_button_title">Perangkat</string>
     <string name="sessionClearData">Hapus data</string>

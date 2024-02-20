@@ -43,7 +43,7 @@ class ModalUrlBottomSheet(private val url: String): BottomSheetDialogFragment(),
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             requireContext().startActivity(intent)
         } catch (e: Exception) {
-            Toast.makeText(context, R.string.invalid_url, Toast.LENGTH_SHORT).show()
+            Toast.makeText(context, R.string.communityEnterUrlErrorInvalid, Toast.LENGTH_SHORT).show()
         }
         dismiss()
     }

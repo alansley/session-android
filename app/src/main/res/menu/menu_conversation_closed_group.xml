@@ -6,7 +6,7 @@
     <item
         android:id="@+id/menu_edit_group"
         android:contentDescription="@string/AccessibilityId_edit_group"
-        android:title="@string/conversation__menu_edit_group"
+        android:title="@string/groupEdit"
         app:showAsAction="collapseActionView" />
 
     <item

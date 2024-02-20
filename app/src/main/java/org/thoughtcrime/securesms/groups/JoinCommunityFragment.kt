@@ -67,8 +67,8 @@ class JoinCommunityFragment : Fragment() {
             } catch (e: OpenGroupUrlParser.Error) {
                 when (e) {
                     is OpenGroupUrlParser.Error.MalformedURL -> return Toast.makeText(activity, R.string.activity_join_public_chat_error, Toast.LENGTH_SHORT).show()
-                    is OpenGroupUrlParser.Error.InvalidPublicKey -> return Toast.makeText(activity, R.string.invalid_public_key, Toast.LENGTH_SHORT).show()
-                    is OpenGroupUrlParser.Error.NoPublicKey -> return Toast.makeText(activity, R.string.invalid_public_key, Toast.LENGTH_SHORT).show()
+                    is OpenGroupUrlParser.Error.InvalidPublicKey -> return Toast.makeText(activity, R.string.communityEnterUrlErrorInvalidDescription, Toast.LENGTH_SHORT).show()
+                    is OpenGroupUrlParser.Error.NoPublicKey -> return Toast.makeText(activity, R.string.communityEnterUrlErrorInvalidDescription, Toast.LENGTH_SHORT).show()
                     is OpenGroupUrlParser.Error.NoRoom -> return Toast.makeText(activity, R.string.activity_join_public_chat_error, Toast.LENGTH_SHORT).show()
                 }
             }

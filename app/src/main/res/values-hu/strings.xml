@@ -59,7 +59,6 @@
     <string name="ConversationActivity_compose">Összeállít</string>
     <string name="ConversationActivity_muted_until_date">Némítva: %1$s</string>
     <string name="ConversationActivity_muted_forever">Némítva</string>
-    <string name="ConversationActivity_member_count">%1$d tag</string>
     <string name="ConversationActivity_open_group_guidelines">Közösségi irányelvek</string>
     <string name="ConversationActivity_invalid_recipient">Érvénytelen címzett!</string>
     <string name="ConversationActivity_leave_group">Kilépsz a csoportból?</string>
@@ -70,7 +69,6 @@
     <string name="ConversationActivity_unblock">Letiltás feloldása</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">A melléklet mérete meghaladja az adott típushoz tartozó mérethatárt.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nem található eszközödön megfelelő alkalmazás a hivatkozás kezeléséhez.</string>
-    <string name="ConversationActivity_invite_to_open_group">Tagok hozzáadása</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">A Session-nek szüksége van a Mikrofon engedélyre, hogy hangüzeneteket küldhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd az \"Mikrofon\"-t.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Fotók és videók készítéséhez engedélyezd a Session-nek a kamerához való hozzáférést.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">A Session-nek tárhely hozzáférésre van szüksége a fotók és videók küldéséhez.</string>
@@ -198,7 +196,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Megváltozott a biztonsági számod vele: %s.</string>
     <string name="ThreadRecord_you_marked_verified">Megerősítettnek jelölted</string>
     <string name="ThreadRecord_you_marked_unverified">Megerősítetlennek jelölted</string>
-    <string name="ThreadRecord_open_group_invitation">Nyilvános csoport meghívó</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session frissítés</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A Session egy új verziója érhető el, koppints a frissítéshez</string>
@@ -298,8 +295,7 @@
     <string name="audio_view__play_accessibility_description">Lejátszás</string>
     <string name="audio_view__pause_accessibility_description">Szünet</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Csatlalkozás</string>
-    <string name="open_group_invitation_view__open_group_invitation">Nyilvános csoport meghívó</string>
+    <string name="join">Csatlalkozás</string>
     <string name="open_group_guidelines_pinned_message">Kitűzött üzenet</string>
     <string name="open_group_guidelines_community_guidelines">Közösségi irányelvek</string>
     <string name="open_group_guidelines_read">Olvas</string>
@@ -332,7 +328,6 @@
     <string name="message_details_header__with">Vele:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Jelmondat létrehozása</string>
-    <string name="AndroidManifest__select_contacts">Kontaktok kiválasztása</string>
     <string name="AndroidManifest__media_preview">Média előnézete</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Alapértelmezett használata</string>
@@ -425,7 +420,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Értesítések némítása</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Csoport szerkesztése</string>
     <string name="conversation__menu_leave_group">Kilépés a csoportból</string>
     <string name="conversationsAddToHome">Hozzáadás a kezdőképernyőhöz</string>
     <!-- conversation_popup -->
@@ -469,7 +463,7 @@
     <!-- Session -->
     <string name="_continue">Folytatás</string>
     <string name="copy">Másolás</string>
-    <string name="invalid_url">Érvénytelen URL</string>
+    <string name="communityEnterUrlErrorInvalid">Érvénytelen URL</string>
     <string name="copied">Vágólapra másolva</string>
     <string name="next">Következő</string>
     <string name="share">Megosztás</string>
@@ -517,9 +511,7 @@
     <string name="groupNameEnterPlease">Kérjük, adja meg a csoport nevét</string>
     <string name="activity_join_public_chat_title">Csatlakozzon Nyitott Csoporthoz</string>
     <string name="activity_join_public_chat_error">Nem sikerült csatlakozni a csoporthoz</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Nyílt csoport URL</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Olvassa be annak a nyitott csoportnak a QR kódját, amelyhez csatlakozni szeretne</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Adjon meg egy nyilvános csoport URL-címét </string>
     <string name="sessionSettings">Beállítások</string>
     <string name="activity_settings_devices_button_title">Eszközök</string>
     <string name="sessionInviteAFriend">Barát meghívása</string>
@@ -544,11 +536,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Alkalmaz</string>
     <string name="done">Kész</string>
-    <string name="activity_edit_closed_group_title">Csoport szerkesztése</string>
-    <string name="activity_edit_closed_group_edit_members">Tagok</string>
-    <string name="activity_edit_closed_group_add_members">Tagok hozzáadása</string>
+    <string name="groupEdit">Csoport szerkesztése</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Felhasználó eltávolítása a csoportból</string>
-    <string name="activity_select_contacts_title">Névjegyek kiválasztása</string>
+    <string name="contactSelect">Névjegyek kiválasztása</string>
     <string name="view_reset_secure_session_done_message">Biztonságos munkamenet visszaállítás kész</string>
     <string name="appearanceThemes">Téma</string>
     <string name="dialog_ui_mode_option_day">Ki</string>
@@ -565,14 +555,13 @@
     <string name="activity_link_device_skip_prompt">Ez eltarthat egy ideig, szeretnéd átugrani?</string>
     <string name="activity_link_device_link_device">Eszköz társítása</string>
     <string name="activity_link_device_qr_message">A QR-kód megjelenítéséhez nyissa meg a Beállítások → Helyreállítási kifejezés elemet másik eszközén. </string>
-    <string name="activity_join_public_chat_join_rooms">Vagy csatlakozz ezekhez…</string>
+    <string name="communityJoinOfficial">Vagy csatlakozz ezekhez…</string>
     <string name="onboardingMessageNotificationExplaination">2 mód van arra, hogy a Session értesítsen téged új üzenetekről.</string>
     <string name="activity_pn_mode_fast_mode">Gyorsított mód</string>
     <string name="activity_pn_mode_slow_mode">Lassított mód</string>
     <string name="activity_pn_mode_fast_mode_explanation">A Google értesítési szerverein keresztül megbízhatóan és azonnal értesítést kapsz az új üzenetekről.</string>
     <string name="activity_pn_mode_slow_mode_explanation">A Session alkalmanként, az új üzeneteket a háttérben fogja ellenőrizni.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Írjon be egy becenevet</string>
-    <string name="invalid_public_key">Érvénytelen nyilvános kulcs</string>
     <string name="dialog_blocked_title">%s blokkolásának feloldása?</string>
     <string name="dialog_blocked_explanation">Biztosan szeretnéd a %s-t blokkolni?</string>
     <string name="dialog_join_open_group_explanation">Biztosan csatlakozni szeretne a(z) %s nyílt csoporthoz?</string>

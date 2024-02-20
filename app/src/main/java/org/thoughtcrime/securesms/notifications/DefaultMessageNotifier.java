@@ -500,7 +500,7 @@ public class DefaultMessageNotifier implements MessageNotifier {
         int    italicLength = message.length() - body.length();
         body = SpanUtil.italic(message, italicLength);
       } else if (record.isOpenGroupInvitation()) {
-        body = SpanUtil.italic(context.getString(R.string.ThreadRecord_open_group_invitation));
+        body = SpanUtil.italic(context.getString(R.string.communityInvitation));
       }
       String userPublicKey = TextSecurePreferences.getLocalNumber(context);
       String blindedPublicKey = cache.get(threadId);

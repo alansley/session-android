@@ -44,7 +44,6 @@
     <string name="ConversationActivity_add_attachment">Pievienot pielikumu</string>
     <string name="ConversationActivity_select_contact_info">Izvēlieties kontaktinformāciju</string>
     <string name="message">Paziņojums</string>
-    <string name="ConversationActivity_member_count">%1$d biedri</string>
     <string name="ConversationActivity_open_group_guidelines">Kopienas vadlīnijas</string>
     <string name="ConversationActivity_invalid_recipient">Nederīgs adresāts!</string>
     <string name="ConversationActivity_leave_group">Pamest grupu?</string>
@@ -55,7 +54,6 @@
     <string name="ConversationActivity_unblock">Atbloķēt</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Pielikums pārsniedz nosūtāmā ziņojuma tipa apjoma ierobežojumus.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Jūsu ierīcē nav pieejama neviena programma šīs saites apstrādei.</string>
-    <string name="ConversationActivity_invite_to_open_group">Pievienot dalībniekus</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Sesijai ir nepieciešama atļauja piekļūt mikrofonam, lai sūtītu balss ziņas, bet tā ir pastāvīgi aizliegta. Lūdzu, ejiet uz programmu iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Mikrofons”.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Sesijai nepieciešama piekļuve kamerai, lai uzņemtu attēlus un video.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sesijai ir nepieciešama atļauja piekļūt kamerai, lai uzņemtu attēlus un video, bet tā ir pastāvīgi aizliegta. Lūdzu, ejiet uz programmu iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Kamera”.</string>
@@ -190,11 +188,9 @@
     <string name="fragment_contact_selection_open_groups_title">Atvērtās grupas</string>
     <!-- Next round of translation -->
     <string name="done">Pabeigts</string>
-    <string name="activity_edit_closed_group_title">Rediģēt grupu</string>
-    <string name="activity_edit_closed_group_edit_members">Dalībnieki</string>
-    <string name="activity_edit_closed_group_add_members">Pievienot dalībniekus</string>
+    <string name="groupEdit">Rediģēt grupu</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Dzēst lietotāju no grupas</string>
-    <string name="activity_select_contacts_title">Izvēlieties kontaktus</string>
+    <string name="contactSelect">Izvēlieties kontaktus</string>
     <string name="appearanceThemes">Izskats</string>
     <string name="dialog_ui_mode_option_day">Diena</string>
     <string name="dialog_ui_mode_option_night">Nakts</string>
@@ -205,7 +201,6 @@
     <string name="activity_pn_mode_slow_mode">Lēnais režīms</string>
     <string name="activity_pn_mode_fast_mode_explanation">Jūs saņemsiet paziņojumus par jauniem ziņojumiem droši un nekavējoties, izmantojot Google paziņojumu serverus.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session laiku pa laikam fonā pārbaudīs, vai nav jaunu ziņojumu.</string>
-    <string name="invalid_public_key">Nederīga publiskā atslēga</string>
     <string name="dialog_blocked_title">Atbloķēt %s?</string>
     <string name="dialog_blocked_explanation">Vai esi pārliecināts, ka vēlies atbloķēt %s?</string>
     <string name="dialog_open_url_title">Atvērt URL?</string>

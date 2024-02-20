@@ -61,7 +61,6 @@
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">סליחה, אירעה שגיאה בהוספת הצרופה שלך.</string>
     <string name="message">הודעה</string>
     <string name="ConversationActivity_compose">הודעה חדשה</string>
-    <string name="ConversationActivity_member_count">%1$d משתמשים</string>
     <string name="ConversationActivity_open_group_guidelines">כללי הקהילה</string>
     <string name="ConversationActivity_invalid_recipient">מקבל לא תקף!</string>
     <string name="ConversationActivity_leave_group">לעזוב קבוצה?</string>
@@ -72,7 +71,6 @@
     <string name="ConversationActivity_unblock">בטל חסימה</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">הצרופה חורגת ממגבלות הגודל עבור הסוג של ההודעה שאתה שולח.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">אין יישום זמין לטיפול בקישור זה במכשיר שלך.</string>
-    <string name="ConversationActivity_invite_to_open_group">הוסף משתמשים</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session דורש את הרשאת המיקרופון על מנת לשלוח הודעות שמע, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מיקרופון\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">כדי ללכוד תצלומים ווידיאו, אפשר ל-Session גישה אל המצלמה.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session צריך הרשאות גישה לאחסון על מנת לשלוח תמונות ווידיאו.</string>
@@ -314,7 +312,7 @@
     <string name="audio_view__play_accessibility_description">נגן</string>
     <string name="audio_view__pause_accessibility_description">השהה</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">להצטרפות</string>
+    <string name="join">להצטרפות</string>
     <string name="open_group_guidelines_pinned_message">הודעה נעוצה</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">תצלום</string>
@@ -345,7 +343,6 @@
     <string name="message_details_header__with">עם:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">צור משפט סיסמה</string>
-    <string name="AndroidManifest__select_contacts">בחר אנשי קשר</string>
     <string name="AndroidManifest__media_preview">קדם־תצוגה של מדיה</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">השתמש בברירת מחדל</string>
@@ -438,7 +435,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">השתק התראות</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">ערוך קבוצה</string>
     <string name="conversation__menu_leave_group">עזוב קבוצה</string>
     <string name="conversationsAddToHome">הוסף אל מסך הבית</string>
     <!-- conversation_popup -->
@@ -482,7 +478,7 @@
     <!-- Session -->
     <string name="_continue">המשך</string>
     <string name="copy">העתקה</string>
-    <string name="invalid_url">קישור לא תקין</string>
+    <string name="communityEnterUrlErrorInvalid">קישור לא תקין</string>
     <string name="next">הבא</string>
     <string name="share">שיתוף</string>
     <string name="cancel">ביטול</string>

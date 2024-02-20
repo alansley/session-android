@@ -42,7 +42,6 @@
     <string name="ConversationActivity_leave_group">ಗುಂಪನ್ನು ತೊರೆಯಬೇಕೆ?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">ಈ ಗುಂಪನ್ನು ತೊರೆಯಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</string>
     <string name="ConversationActivity_error_leaving_group">ಗುಂಪನ್ನು ತೊರೆಯುವಲ್ಲಿ ದೋಷವಾಗಿದೆ</string>
-    <string name="ConversationActivity_invite_to_open_group">ಸದಸ್ಯರನ್ನು ಸೇರಿಸು</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">ವ್ಯಕ್ತಿಚಿತ್ರ</string>
@@ -124,7 +123,7 @@
     <!-- audio_view -->
     <string name="audio_view__pause_accessibility_description">ವಿರಾಮ</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">ಸೇರಿ</string>
+    <string name="join">ಸೇರಿ</string>
     <string name="open_group_guidelines_community_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
     <string name="open_group_guidelines_read">ಓದು</string>
     <!-- QuoteView -->
@@ -212,7 +211,7 @@
     <!-- Session -->
     <string name="_continue">ಮುಂದುವರೆಯಿರಿ</string>
     <string name="copy">ನಕಲಿಸಿ</string>
-    <string name="invalid_url">ಅಮಾನ್ಯ URL</string>
+    <string name="communityEnterUrlErrorInvalid">ಅಮಾನ್ಯ URL</string>
     <string name="next">ಮುಂದಿನ</string>
     <string name="share">ಹಂಚು</string>
     <string name="cancel">ರದ್ದುಪಡಿಸಿ</string>
@@ -227,8 +226,6 @@
     <string name="fragment_view_my_qr_code_share_title">QR ಸಂಕೇತವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
     <!-- Next round of translation -->
     <string name="done">ಆಗಿದೆ</string>
-    <string name="activity_edit_closed_group_edit_members">ಸದಸ್ಯರು</string>
-    <string name="activity_edit_closed_group_add_members">ಸದಸ್ಯರನ್ನು ಸೇರಿಸು</string>
     <string name="dialog_ui_mode_option_day">ಹಗಲು</string>
     <string name="dialog_ui_mode_option_night">ರಾತ್ರಿ</string>
     <string name="details">ವಿವರಗಳು</string>

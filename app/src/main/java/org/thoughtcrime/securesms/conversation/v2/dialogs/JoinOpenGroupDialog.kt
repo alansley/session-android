@@ -27,7 +27,7 @@ class JoinOpenGroupDialog(private val name: String, private val url: String) : D
         spannable.setSpan(StyleSpan(Typeface.BOLD), startIndex, startIndex + name.count(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
         text(spannable)
         cancelButton { dismiss() }
-        button(R.string.open_group_invitation_view__join_accessibility_description) { join() }
+        button(R.string.join) { join() }
     }
 
     private fun join() {

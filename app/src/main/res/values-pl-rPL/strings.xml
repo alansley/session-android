@@ -63,7 +63,6 @@
     <string name="ConversationActivity_compose">Napisz</string>
     <string name="ConversationActivity_muted_until_date">Wyciszono do %1$s</string>
     <string name="ConversationActivity_muted_forever">Wyciszono</string>
-    <string name="ConversationActivity_member_count">%1$d członków</string>
     <string name="ConversationActivity_open_group_guidelines">Wytyczne dla społeczności</string>
     <string name="ConversationActivity_invalid_recipient">Nieprawidłowy odbiorca!</string>
     <string name="ConversationActivity_leave_group">Opuścić grupę?</string>
@@ -74,7 +73,6 @@
     <string name="ConversationActivity_unblock">Odblokuj</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Rozmiar tego załącznika przekracza limit wiadomości.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Brak aplikacji do obsługi tego linku na Twoim urządzeniu.</string>
-    <string name="ConversationActivity_invite_to_open_group">Dodaj członków</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session wymaga pozwolenia na dostęp do mikrofonu w celu umożliwienia wysyłania wiadomości głosowych, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Aby móc robić zdjęcia i nagrywać wideo, zezwól Session na dostęp do aparatu.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session potrzebuje dostępu do pamięci aby wysyłać zdjęcia i filmy.</string>
@@ -215,7 +213,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Twój numer bezpieczeństwa z %s zmienił się.</string>
     <string name="ThreadRecord_you_marked_verified">Oznaczyłeś(aś) jako zweryfikowany</string>
     <string name="ThreadRecord_you_marked_unverified">Oznaczyłeś(aś) jako niezweryfikowany</string>
-    <string name="ThreadRecord_open_group_invitation">Otwórz zaproszenie do grupy</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Aktualizacja Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Dostępna jest nowa wersja Session. Dotknij, aby zaktualizować</string>
@@ -317,8 +314,7 @@
     <string name="audio_view__play_accessibility_description">Odtwórz</string>
     <string name="audio_view__pause_accessibility_description">Pauza</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Dołącz</string>
-    <string name="open_group_invitation_view__open_group_invitation">Otwórz zaproszenie do grupy</string>
+    <string name="join">Dołącz</string>
     <string name="open_group_guidelines_pinned_message">Przypięta wiadomość</string>
     <string name="open_group_guidelines_community_guidelines">Wskazówki społeczności</string>
     <string name="open_group_guidelines_read">Czytaj</string>
@@ -351,7 +347,6 @@
     <string name="message_details_header__with">Z:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Utwórz hasło</string>
-    <string name="AndroidManifest__select_contacts">Wybierz kontakty</string>
     <string name="AndroidManifest__media_preview">Podgląd plików multimedialnych</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Użyj domyślnych</string>
@@ -446,7 +441,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Wycisz powiadomienia</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Edytuj grupę</string>
     <string name="conversation__menu_leave_group">Opuść grupę</string>
     <string name="conversationsAddToHome">Dodaj do ekranu głównego</string>
     <!-- conversation_popup -->
@@ -490,7 +484,7 @@
     <!-- Session -->
     <string name="_continue">Kontynuuj</string>
     <string name="copy">Kopiuj</string>
-    <string name="invalid_url">Nieprawidłowy URL</string>
+    <string name="communityEnterUrlErrorInvalid">Nieprawidłowy URL</string>
     <string name="copied">Skopiowano do schowka</string>
     <string name="next">Dalej</string>
     <string name="share">Udostępnij</string>
@@ -538,9 +532,7 @@
     <string name="groupNameEnterPlease">Wpisz nazwę grupy</string>
     <string name="activity_join_public_chat_title">Dołącz do otwartej grupy</string>
     <string name="activity_join_public_chat_error">Nie można dołączyć do grupy</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Otwórz adres URL grupy</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Zeskanuj kod QR otwartej grupy, do której chcesz dołączyć</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Wprowadź adres URL otwartej grupy</string>
     <string name="sessionSettings">Ustawienia</string>
     <string name="activity_settings_devices_button_title">Urządzenia</string>
     <string name="sessionInviteAFriend">Zaproś znajomego</string>
@@ -565,11 +557,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">Zastosuj</string>
     <string name="done">Gotowe</string>
-    <string name="activity_edit_closed_group_title">Edytuj grupę</string>
-    <string name="activity_edit_closed_group_edit_members">Członkowie</string>
-    <string name="activity_edit_closed_group_add_members">Dodaj członków</string>
+    <string name="groupEdit">Edytuj grupę</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Usuń użytkownika z grupy</string>
-    <string name="activity_select_contacts_title">Wybierz kontakty</string>
+    <string name="contactSelect">Wybierz kontakty</string>
     <string name="view_reset_secure_session_done_message">Wykonano bezpieczne zresetowanie sesji</string>
     <string name="appearanceThemes">Motyw</string>
     <string name="dialog_ui_mode_option_day">Dzień</string>
@@ -586,14 +576,13 @@
     <string name="activity_link_device_skip_prompt">To zajmuje chwilę, czy chcesz pominąć?</string>
     <string name="activity_link_device_link_device">Połącz urządzenie</string>
     <string name="activity_link_device_qr_message">Przejdź do Ustawień → Fraza odzyskiwania na innym urządzeniu, aby wyświetlić kod QR.</string>
-    <string name="activity_join_public_chat_join_rooms">Lub dołącz do jednego z tych…</string>
+    <string name="communityJoinOfficial">Lub dołącz do jednego z tych…</string>
     <string name="onboardingMessageNotificationExplaination">Istnieją dwa sposoby powiadamiania o nowych wiadomościach.</string>
     <string name="activity_pn_mode_fast_mode">Tryb szybki</string>
     <string name="activity_pn_mode_slow_mode">Tryb wolny</string>
     <string name="activity_pn_mode_fast_mode_explanation">Zostaniesz natychmiast powiadomiony o nowych wiadomościach w niezawodny sposób przy użyciu serwerów powiadomień Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session będzie czasami sprawdzać w tle czy są nowe wiadomości.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Wpisz pseudonim</string>
-    <string name="invalid_public_key">Nieprawidłowy klucz publiczny</string>
     <string name="dialog_blocked_title">Odblokować %s?</string>
     <string name="dialog_blocked_explanation">Czy na pewno chcesz odblokować %s?</string>
     <string name="dialog_join_open_group_explanation">Czy na pewno chcesz dołączyć do otwartej grupy %s?</string>

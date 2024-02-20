@@ -254,7 +254,6 @@
     <string name="message_details_header__with">Pamoja:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">kuunda phassphrase</string>
-    <string name="AndroidManifest__select_contacts">chagua  mawasiliano</string>
     <string name="AndroidManifest__media_preview">Uhakiki wa vyombo vya habari</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Tumia chaguo msingi</string>
@@ -340,7 +339,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Arifa za bubu</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Hariri kikundi</string>
     <string name="conversation__menu_leave_group">Toka kwenye kikundi</string>
     <string name="conversationsAddToHome">Ongeza kwenye skrini ya nyumbani</string>
     <!-- conversation_popup -->

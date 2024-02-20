@@ -60,7 +60,6 @@
     <string name="message">Správa</string>
     <string name="ConversationActivity_compose">Napísať správu</string>
     <string name="ConversationActivity_muted_until_date">Stlmené upozornenia do %1$s</string>
-    <string name="ConversationActivity_member_count">%1$d členov</string>
     <string name="ConversationActivity_open_group_guidelines">Usmernenia Spoločenstva</string>
     <string name="ConversationActivity_invalid_recipient">Neplatný príjemca</string>
     <string name="ConversationActivity_leave_group">Opustiť skupinu?</string>
@@ -71,7 +70,6 @@
     <string name="ConversationActivity_unblock">Odblokovať</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Príloha presahuje limit veľkosti pre tento typ správy.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Vo vašom zariadení nie je aplikácia schopná otvoriť tento odkaz.</string>
-    <string name="ConversationActivity_invite_to_open_group">Pridať členov</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session potrebuje prístup k mikrofónu aby mohol posielať zvukové správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pre fotenie a nahrávanie videa potrebuje Session prístup k fotoaparátu.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session potrebuje prístup k fotoaparátu aby mohol vytvárať fotografie a video, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
@@ -212,7 +210,6 @@ výmeny kľúčov.</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Vaše bezpečnostné číslo s %s sa zmenilo.</string>
     <string name="ThreadRecord_you_marked_verified">Označili ste ako overené</string>
     <string name="ThreadRecord_you_marked_unverified">Označili ste ako neoverené</string>
-    <string name="ThreadRecord_open_group_invitation">Otvoriť skupinovú pozvánku</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Aktualizácia Sessionu</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">K dispozícii je nová verzia Sessionu, ťuknutím aktualizujte</string>
@@ -313,8 +310,7 @@ výmeny kľúčov.</string>
     <string name="audio_view__play_accessibility_description">Prehrať</string>
     <string name="audio_view__pause_accessibility_description">Pozastaviť</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">Pripojiť sa</string>
-    <string name="open_group_invitation_view__open_group_invitation">Otvoriť pozvánku do skupiny</string>
+    <string name="join">Pripojiť sa</string>
     <string name="open_group_guidelines_pinned_message">Pripnutá správa</string>
     <string name="open_group_guidelines_community_guidelines">Pravidlá komunity</string>
     <string name="open_group_guidelines_read">Prečítané</string>
@@ -347,7 +343,6 @@ výmeny kľúčov.</string>
     <string name="message_details_header__with">S:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Vytvoriť heslo</string>
-    <string name="AndroidManifest__select_contacts">Výber kontaktov</string>
     <string name="AndroidManifest__media_preview">Náhľad média</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Použiť predvolené</string>
@@ -441,7 +436,6 @@ výmeny kľúčov.</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Stlmiť upozornenia</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Upraviť skupinu</string>
     <string name="conversation__menu_leave_group">Opustiť skupinu</string>
     <string name="conversationsAddToHome">Pridať na plochu</string>
     <!-- conversation_popup -->
@@ -485,7 +479,7 @@ výmeny kľúčov.</string>
     <!-- Session -->
     <string name="_continue">Pokračovať</string>
     <string name="copy">Kopírovať</string>
-    <string name="invalid_url">Neplatná URL adresa</string>
+    <string name="communityEnterUrlErrorInvalid">Neplatná URL adresa</string>
     <string name="copied">Skopírované do schránky</string>
     <string name="next">Ďalej</string>
     <string name="share">Zdieľať</string>
@@ -527,9 +521,7 @@ výmeny kľúčov.</string>
     <string name="groupNameEnterPlease">Zadajte prosím názov skupiny</string>
     <string name="activity_join_public_chat_title">Pripojiť sa k otvorenej skupine</string>
     <string name="activity_join_public_chat_error">Nepodarilo sa pripojiť ku skupine</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">Otvoriť URL skupiny</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Oskenujte QR kód skupiny ku ktorej sa chcete pripojiť</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">Zadajte URL otvorenej skupiny</string>
     <string name="sessionSettings">Nastavenia</string>
     <string name="activity_settings_devices_button_title">Zariadenia</string>
     <string name="sessionClearData">Odstrániť dáta</string>
@@ -549,11 +541,9 @@ výmeny kľúčov.</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Použiť</string>
     <string name="done">Dokončené</string>
-    <string name="activity_edit_closed_group_title">Upraviť skupinu</string>
-    <string name="activity_edit_closed_group_edit_members">Členovia</string>
-    <string name="activity_edit_closed_group_add_members">Pridať členov</string>
+    <string name="groupEdit">Upraviť skupinu</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Odstrániť užívateľa zo skupiny</string>
-    <string name="activity_select_contacts_title">Vyberte kontakty</string>
+    <string name="contactSelect">Vyberte kontakty</string>
     <string name="dialog_ui_mode_option_day">Deň</string>
     <string name="dialog_ui_mode_option_night">Nočný režim</string>
     <string name="dialog_ui_mode_option_system_default">Predvolené systémom</string>
@@ -566,7 +556,7 @@ výmeny kľúčov.</string>
     <string name="activity_backup_restore_explanation_1">Vyberte súbor zálohy a zadajte prístupovú frázu, pomocou ktorej bol vytvorený.</string>
     <string name="activity_backup_restore_passphrase">30-znaková prístupová fráza</string>
     <string name="activity_link_device_link_device">Pripojiť zariadenie</string>
-    <string name="activity_join_public_chat_join_rooms">Alebo sa pripojte k jednej z týchto…</string>
+    <string name="communityJoinOfficial">Alebo sa pripojte k jednej z týchto…</string>
     <string name="activity_pn_mode_fast_mode">Rýchly režim</string>
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
 </resources>

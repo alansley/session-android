@@ -56,7 +56,6 @@
     <string name="ConversationActivity_compose">新規作成</string>
     <string name="ConversationActivity_muted_until_date">%1$sまでミュート</string>
     <string name="ConversationActivity_muted_forever">ミュート中</string>
-    <string name="ConversationActivity_member_count">メンバー%1$d名</string>
     <string name="ConversationActivity_open_group_guidelines">コミュニティ規定</string>
     <string name="ConversationActivity_invalid_recipient">受信先が無効です。</string>
     <string name="ConversationActivity_leave_group">グループを抜けますか？</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_unblock">ブロック解除</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">添付ファイルのサイズが上限を超えています</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">このリンクを扱えるアプリがインストールされていません</string>
-    <string name="ConversationActivity_invite_to_open_group">メンバーを追加</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Sessionで音声メッセージを添付するには、『マイク』へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』へのアクセス許可を有効にしてください。</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">写真や動画を撮るには、Sessionのカメラへのアクセスを許可してください。</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">セッションは写真やビデオを送信するためにストレージへのアクセスが必要です。</string>
@@ -282,8 +280,7 @@
     <string name="audio_view__play_accessibility_description">再生</string>
     <string name="audio_view__pause_accessibility_description">一時停止</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">参加する</string>
-    <string name="open_group_invitation_view__open_group_invitation">グループへの招待を開く</string>
+    <string name="join">参加する</string>
     <string name="open_group_guidelines_pinned_message">ピン留めされたメッセージ</string>
     <string name="open_group_guidelines_community_guidelines">コミュニティ規定</string>
     <string name="open_group_guidelines_read">読む</string>
@@ -316,7 +313,6 @@
     <string name="message_details_header__with">Cc:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">パスフレーズを作成</string>
-    <string name="AndroidManifest__select_contacts">連絡先を選択</string>
     <string name="AndroidManifest__media_preview">メディアのプレビュー</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">デフォルトを使う</string>
@@ -408,7 +404,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">通知をミュート</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">グループを編集する</string>
     <string name="conversation__menu_leave_group">グループを抜ける</string>
     <string name="conversationsAddToHome">ホーム画面に追加する</string>
     <!-- conversation_popup -->
@@ -452,7 +447,7 @@
     <!-- Session -->
     <string name="_continue">続行する</string>
     <string name="copy">コピーする</string>
-    <string name="invalid_url">URL が無効です</string>
+    <string name="communityEnterUrlErrorInvalid">URL が無効です</string>
     <string name="copied">クリップボードにコピーされました</string>
     <string name="next">次</string>
     <string name="share">共有する</string>
@@ -500,9 +495,7 @@
     <string name="groupNameEnterPlease">グループ名を入力してください</string>
     <string name="activity_join_public_chat_title">オープングループに参加する</string>
     <string name="activity_join_public_chat_error">グループに参加できませんでした</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">グループの URL を開く</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">参加したいオープングループの QR コードをスキャンする</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">オープングループの URL を入力する</string>
     <string name="sessionSettings">設定</string>
     <string name="activity_settings_devices_button_title">デバイス</string>
     <string name="sessionInviteAFriend">友達を招待</string>
@@ -527,11 +520,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">適用する</string>
     <string name="done">完了</string>
-    <string name="activity_edit_closed_group_title">グループを編集</string>
-    <string name="activity_edit_closed_group_edit_members">メンバー</string>
-    <string name="activity_edit_closed_group_add_members">メンバーを追加</string>
+    <string name="groupEdit">グループを編集</string>
     <string name="fragment_edit_group_bottom_sheet_remove">ユーザーをグループから削除</string>
-    <string name="activity_select_contacts_title">連絡先を選択</string>
+    <string name="contactSelect">連絡先を選択</string>
     <string name="view_reset_secure_session_done_message">セキュアなセッションのリセットが完了しました</string>
     <string name="appearanceThemes">テーマ</string>
     <string name="dialog_ui_mode_option_day">デイ</string>
@@ -545,7 +536,6 @@
     <string name="activity_backup_restore_select_file">ファイルを選択してください</string>
     <string name="activity_backup_restore_explanation_1">バックアップファイルを選択し、作成したパスフレーズを入力してください。</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">ニックネームを入力してください。</string>
-    <string name="invalid_public_key">無効な公開キー</string>
     <string name="dialog_blocked_title">%s のブロックを解除しますか？</string>
     <string name="dialog_blocked_explanation">本当に %s のブロックを解除しますか？</string>
     <string name="dialog_join_open_group_explanation">%sの公開グループに本当に参加しますか?</string>

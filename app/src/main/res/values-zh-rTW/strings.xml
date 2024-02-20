@@ -58,7 +58,6 @@
     <string name="ConversationActivity_compose">撰寫訊息</string>
     <string name="ConversationActivity_muted_until_date">關閉通知直到 %1$s</string>
     <string name="ConversationActivity_muted_forever">已靜音</string>
-    <string name="ConversationActivity_member_count">%1$d 位成員</string>
     <string name="ConversationActivity_open_group_guidelines">社群規範</string>
     <string name="ConversationActivity_invalid_recipient">無效的聯絡人！</string>
     <string name="ConversationActivity_leave_group">離開群組？</string>
@@ -69,7 +68,6 @@
     <string name="ConversationActivity_unblock">解除封鎖</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">當前訊息的附件類型已經超越大小限制。</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的裝置上沒有應用程式可以處理這個連結</string>
-    <string name="ConversationActivity_invite_to_open_group">新增成員</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal 需要麥克風的權限來傳送語音訊息，但是現在系統設定為總是拒絕 Signal。請到 Session 的應用程式設定中，點選「權限」，並啟用「麥克風」的權限。</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">請授予 Session 使用相機的權限，才能拍攝照片和影片</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session 需要使用存取存儲空間的權限來發送照片和影片</string>
@@ -192,7 +190,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">您與 %s 的安全碼已改變</string>
     <string name="ThreadRecord_you_marked_verified">您標記為已驗證</string>
     <string name="ThreadRecord_you_marked_unverified">您標記為未驗證</string>
-    <string name="ThreadRecord_open_group_invitation">打開群組邀請</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session 更新</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">有新版本的 Session，輕觸更新</string>
@@ -291,8 +288,7 @@
     <string name="audio_view__play_accessibility_description">播放</string>
     <string name="audio_view__pause_accessibility_description">暫停</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">加入</string>
-    <string name="open_group_invitation_view__open_group_invitation">公開群組邀請</string>
+    <string name="join">加入</string>
     <string name="open_group_guidelines_pinned_message">置頂訊息</string>
     <string name="open_group_guidelines_community_guidelines">社群規範</string>
     <string name="open_group_guidelines_read">已讀</string>
@@ -325,7 +321,6 @@
     <string name="message_details_header__with">與：</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">新增自訂密碼</string>
-    <string name="AndroidManifest__select_contacts">選擇多位聯絡人</string>
     <string name="AndroidManifest__media_preview">媒體預覽</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">使用預設</string>
@@ -417,7 +412,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">將通知調整為靜音</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">編輯群組</string>
     <string name="conversation__menu_leave_group">離開對話群組</string>
     <string name="conversationsAddToHome">新增到主畫面</string>
     <!-- conversation_popup -->
@@ -461,7 +455,7 @@
     <!-- Session -->
     <string name="_continue">繼續</string>
     <string name="copy">複製</string>
-    <string name="invalid_url">無效網址</string>
+    <string name="communityEnterUrlErrorInvalid">無效網址</string>
     <string name="copied">已複製到剪貼簿</string>
     <string name="next">下一步</string>
     <string name="share">分享</string>
@@ -509,9 +503,7 @@
     <string name="groupNameEnterPlease">請輸入群組名稱</string>
     <string name="activity_join_public_chat_title">加入開放式群組</string>
     <string name="activity_join_public_chat_error">無法加入群組</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">打開群組連結</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">掃描開放式群組的 QR Code 來加入</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">請輸入開放式群組的網址</string>
     <string name="sessionSettings">設定</string>
     <string name="activity_settings_devices_button_title">裝置</string>
     <string name="sessionInviteAFriend">邀請好友</string>
@@ -536,11 +528,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">應用</string>
     <string name="done">完成</string>
-    <string name="activity_edit_closed_group_title">編輯群組</string>
-    <string name="activity_edit_closed_group_edit_members">成員</string>
-    <string name="activity_edit_closed_group_add_members">新增成員</string>
+    <string name="groupEdit">編輯群組</string>
     <string name="fragment_edit_group_bottom_sheet_remove">從群組中移除用戶</string>
-    <string name="activity_select_contacts_title">選擇聯絡人</string>
+    <string name="contactSelect">選擇聯絡人</string>
     <string name="view_reset_secure_session_done_message">安全對話重置完成</string>
     <string name="appearanceThemes">主題</string>
     <string name="dialog_ui_mode_option_day">日</string>
@@ -557,14 +547,13 @@
     <string name="activity_link_device_skip_prompt">這可能需要一些時間，要跳過嗎？</string>
     <string name="activity_link_device_link_device">連結裝置</string>
     <string name="activity_link_device_qr_message">請使用您其他的裝置並前往「設定」→「回復用字句」來顯示您的QR Code。</string>
-    <string name="activity_join_public_chat_join_rooms">或加入這些群組⋯</string>
+    <string name="communityJoinOfficial">或加入這些群組⋯</string>
     <string name="onboardingMessageNotificationExplaination">Session 有兩種方式向您傳送通知。</string>
     <string name="activity_pn_mode_fast_mode">快速模式</string>
     <string name="activity_pn_mode_slow_mode">慢速模式</string>
     <string name="activity_pn_mode_fast_mode_explanation">您將會透過 Google 的通知服務可靠且迅速的收到通知。</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session 會偶爾在背景執行時檢查新訊息。</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">輸入暱稱</string>
-    <string name="invalid_public_key">無效號碼</string>
     <string name="dialog_blocked_title">解除封鎖 %s 嗎？</string>
     <string name="dialog_blocked_explanation">您確定要解除封鎖 %s 嗎？</string>
     <string name="dialog_join_open_group_explanation">您確定要加入 %s 公開群組嗎？</string>

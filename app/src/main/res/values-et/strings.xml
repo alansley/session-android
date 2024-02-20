@@ -304,7 +304,6 @@
     <string name="message_details_header__with">Koos:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Loo salaväljend</string>
-    <string name="AndroidManifest__select_contacts">Vali kontaktid</string>
     <string name="AndroidManifest__media_preview">Meedia eelvaade</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Kasuta vaikeväärtust</string>
@@ -394,7 +393,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Vaigista teated</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Muuda gruppi</string>
     <string name="conversation__menu_leave_group">Lahku grupist</string>
     <string name="conversationsAddToHome">Lisa avakuvale</string>
     <!-- conversation_popup -->

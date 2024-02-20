@@ -310,7 +310,6 @@
     <string name="message_details_header__with">С:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Създай парола</string>
-    <string name="AndroidManifest__select_contacts">Избери контакти</string>
     <string name="AndroidManifest__media_preview">Преглед на медията</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Използване на подразбиращ се</string>
@@ -403,7 +402,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Тих режим за известия</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">Промяна на групата</string>
     <string name="conversation__menu_leave_group">Напускане на групата</string>
     <string name="conversationsAddToHome">Добавяне на работния плот</string>
     <!-- conversation_popup -->

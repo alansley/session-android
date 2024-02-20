@@ -67,7 +67,6 @@
     <string name="ConversationActivity_compose">إنشاء رسالة</string>
     <string name="ConversationActivity_muted_until_date">كتم حتى %1$s</string>
     <string name="ConversationActivity_muted_forever">كتم</string>
-    <string name="ConversationActivity_member_count">%1$d عضو</string>
     <string name="ConversationActivity_open_group_guidelines">إرشادات المستخدمين</string>
     <string name="ConversationActivity_invalid_recipient">جهة اتصال غير صحيحة!</string>
     <string name="ConversationActivity_leave_group">ترك المجموعة؟</string>
@@ -78,7 +77,6 @@
     <string name="ConversationActivity_unblock">إلغاء الحظر</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">حجم المرفق تجاوز الحد المسموح بهذا النوع من الرسائل.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">لا يوجد تطبيق على الجهاز لمعالجة هذا الرابط.</string>
-    <string name="ConversationActivity_invite_to_open_group">إضافة أعضاء</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">يحتاج Session إلى إذن الميكروفون من أجل الرسائل الصوتية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الميكروفون\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">لإلتقاط صور و فيديوهات, برجاء السماح لSession بالوصول إلي الكاميرا.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
@@ -235,7 +233,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">تم تغيير رقم الأمان الخاص بك وبـ%s.</string>
     <string name="ThreadRecord_you_marked_verified">لقد قمت بتصديق</string>
     <string name="ThreadRecord_you_marked_unverified">لقد قمت بإلغاء التحقق</string>
-    <string name="ThreadRecord_open_group_invitation">دعوة إلى مجموعة مفتوحة</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">تحديث Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">إصدار جديد لـ Session متوفر، أنقر لتحديثه</string>
@@ -339,8 +336,7 @@
     <string name="audio_view__play_accessibility_description">تشغيل</string>
     <string name="audio_view__pause_accessibility_description">توقف</string>
     <!-- open_group_invitation_view -->
-    <string name="open_group_invitation_view__join_accessibility_description">إنضم</string>
-    <string name="open_group_invitation_view__open_group_invitation">دعوة المجموعة المفتوحة</string>
+    <string name="join">إنضم</string>
     <string name="open_group_guidelines_pinned_message">الرسائل المثبّتة</string>
     <string name="open_group_guidelines_community_guidelines">المبادئ التوجيهية للمجتمع</string>
     <string name="open_group_guidelines_read">قراءة</string>
@@ -373,7 +369,6 @@
     <string name="message_details_header__with">مع:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">إنشاء عبارة سرية</string>
-    <string name="AndroidManifest__select_contacts">اخر جهات الاتصال</string>
     <string name="AndroidManifest__media_preview">معاينة الوسائط</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">استخدم الافتراضي</string>
@@ -470,7 +465,6 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">كتم الإشعارات</string>
     <!-- conversation -->
-    <string name="conversation__menu_edit_group">تدقيق المجموعة</string>
     <string name="conversation__menu_leave_group">أترك المجموعة</string>
     <string name="conversationsAddToHome">أضف الى الشاشة الرئيسية</string>
     <!-- conversation_popup -->
@@ -514,7 +508,7 @@
     <!-- Session -->
     <string name="_continue">متابعة</string>
     <string name="copy">اِنسخ</string>
-    <string name="invalid_url">عنوان تعريف خاطئ</string>
+    <string name="communityEnterUrlErrorInvalid">عنوان تعريف خاطئ</string>
     <string name="copied">تم النسخ الى الحافظة المؤقتة</string>
     <string name="next">التالي</string>
     <string name="share">شارك</string>
@@ -562,9 +556,7 @@
     <string name="groupNameEnterPlease">الرجاء إدخال إسم للمجموعة</string>
     <string name="activity_join_public_chat_title">الإنضمام إلى مجموعة مفتوحة</string>
     <string name="activity_join_public_chat_error">تعذر الإنضمام إلى المجموعة</string>
-    <string name="activity_join_public_chat_enter_group_url_tab_title">فتح رابط المجموعة</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">امسح رمز QR المجموعة التي تريد الإنضمام إليها</string>
-    <string name="fragment_enter_chat_url_edit_text_hint">ادخل رابط المجموعة المفتوحة</string>
     <string name="sessionSettings">الإعدادات</string>
     <string name="activity_settings_devices_button_title">الأجهزة</string>
     <string name="sessionInviteAFriend">أُدع صديق</string>
@@ -589,11 +581,9 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">طبِق</string>
     <string name="done">تم</string>
-    <string name="activity_edit_closed_group_title">عَدِل المجموعة</string>
-    <string name="activity_edit_closed_group_edit_members">أعضاء</string>
-    <string name="activity_edit_closed_group_add_members">أضف أعضاء</string>
+    <string name="groupEdit">عَدِل المجموعة</string>
     <string name="fragment_edit_group_bottom_sheet_remove">إلغي مستخدم من المجموعة</string>
-    <string name="activity_select_contacts_title">اِختر متصلين</string>
+    <string name="contactSelect">اِختر متصلين</string>
     <string name="view_reset_secure_session_done_message">تم إعادة تعيين الجلسة الآمنة</string>
     <string name="appearanceThemes">الشكل</string>
     <string name="dialog_ui_mode_option_day">نهار</string>
@@ -610,14 +600,13 @@
     <string name="activity_link_device_skip_prompt">هذا يستغرق بعض الوقت، هل تريد أن تتخطى؟</string>
     <string name="activity_link_device_link_device">اربط جهاز</string>
     <string name="activity_link_device_qr_message">اِذهب إلى التعديلات جملة الاِسترجاع في جهازك الاآخر لإظهار رمز QR الخاص بك.</string>
-    <string name="activity_join_public_chat_join_rooms">أو انضم إلى واحدة من…</string>
+    <string name="communityJoinOfficial">أو انضم إلى واحدة من…</string>
     <string name="onboardingMessageNotificationExplaination">يوجد طريقتين لتلقي التنبيهات.</string>
     <string name="activity_pn_mode_fast_mode">الوضع السريع</string>
     <string name="activity_pn_mode_slow_mode">الوضع البطيء</string>
     <string name="activity_pn_mode_fast_mode_explanation">سوف يتم إشعارك بالرسائل بشكل موثوق و فوري بإستخدام خوادم جوجل للإشعارات.</string>
     <string name="activity_pn_mode_slow_mode_explanation">سيقوم سيشن بالتحقق من وجود رسائل جديدة بشكل دوري في الخلفية.</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">أدخل اسم</string>
-    <string name="invalid_public_key">مفتاح خاطئ</string>
     <string name="dialog_blocked_title">إلغاء الحظر %s ؟</string>
     <string name="dialog_blocked_explanation">هل أنت متأكد من اِلغاء الحظر عن %s؟</string>
     <string name="dialog_join_open_group_explanation">هل أنت متأكد من الانضمام إلى المجموعة المفتوحة %s؟</string>
