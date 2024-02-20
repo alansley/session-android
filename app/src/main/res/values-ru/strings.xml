@@ -213,7 +213,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s теперь в Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Исчезающие сообщения отключены</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Время исчезновения сообщений установлено на %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s сделал(а) снимок экрана.</string>
     <string name="ThreadRecord_media_saved_by_s">%s сохранил(а) медиафайл.</string>
     <string name="ThreadRecord_safety_number_changed">Код безопасности изменился</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш код безопасности с %s был изменен.</string>
@@ -262,7 +261,7 @@
     <string name="other">Другое</string>
     <string name="NotificationChannel_missing_display_name">Неизвестный</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Быстрые ответы недоступны, когда Session заблокирован!</string>
+    <string name="lockAppQuickResponse">Быстрые ответы недоступны, когда Session заблокирован!</string>
     <string name="QuickResponseService_problem_sending_message">Проблема при отправке сообщения!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Сохранено в %s</string>
@@ -566,7 +565,6 @@
     <string name="sessionInviteAFriend">Пригласить друга</string>
     <string name="helpFAQ">Часто задаваемые вопросы</string>
     <string name="sessionClearData">Очистить данные</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Очистить данные включая учетную запись</string>
     <string name="notificationsStyle">Стиль уведомлений</string>
     <string name="activity_notification_settings_content_section_title">Содержание уведомления</string>
     <string name="sessionPrivacy">Конфиденциальность</string>
@@ -575,11 +573,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Вы будете получать уведомления о новых сообщениях надежно и сразу же с помощью серверов уведомлений Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Сменить имя</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Отключить устройство</string>
-    <string name="dialog_clear_all_data_title">Очистить все данные</string>
-    <string name="dialog_clear_all_data_explanation">Это навсегда удалит ваши сообщения, сессии и контакты.</string>
-    <string name="dialog_clear_all_data_network_explanation">Вы хотите очистить только это устройство или полностью удалить ваш аккаунт?</string>
-    <string name="dialog_clear_all_data_local_only">Только удалить</string>
-    <string name="dialog_clear_all_data_clear_network">Полностью аккаунт</string>
+    <string name="clearDataAll">Очистить все данные</string>
     <string name="activity_qr_code_title">QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Сканировать QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Отсканируйте QR-код другого человека, чтобы начать с ним разговор</string>

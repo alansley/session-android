@@ -240,7 +240,7 @@
     <string name="other">Tjetër</string>
     <string name="NotificationChannel_missing_display_name">I panjohur</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">S\’bëhet dot përgjigje e shpejtë, kur Session-i është i kyçur!</string>
+    <string name="lockAppQuickResponse">S\’bëhet dot përgjigje e shpejtë, kur Session-i është i kyçur!</string>
     <string name="QuickResponseService_problem_sending_message">Problem në dërgim mesazhi!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">U ruajt te %s</string>

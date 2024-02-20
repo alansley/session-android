@@ -208,7 +208,6 @@ výmeny kľúčov.</string>
     <string name="ThreadRecord_s_is_on_signal">%s je na Sessione!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Miznúce správy vypnuté</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Čas miznúcich správ bol nastavený na %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s urobil snímok obrazovky.</string>
     <string name="ThreadRecord_media_saved_by_s">Médiá uložené používateľom %s.</string>
     <string name="ThreadRecord_safety_number_changed">Bezpečnostné číslo sa zmenilo</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Vaše bezpečnostné číslo s %s sa zmenilo.</string>
@@ -256,7 +255,7 @@ výmeny kľúčov.</string>
     <string name="other">Iné</string>
     <string name="NotificationChannel_missing_display_name">Neznáma</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rýchla odpoveď nie je dostupná, keď je Session zamknutý!</string>
+    <string name="lockAppQuickResponse">Rýchla odpoveď nie je dostupná, keď je Session zamknutý!</string>
     <string name="QuickResponseService_problem_sending_message">Problém pri odosielaní správy!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Uložené do %s</string>
@@ -553,7 +552,7 @@ výmeny kľúčov.</string>
     <string name="sessionPrivacy">Súkromie</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Zmeniť meno</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojenie zariadenia</string>
-    <string name="dialog_clear_all_data_title">Odstrániť všetky dáta</string>
+    <string name="clearDataAll">Odstrániť všetky dáta</string>
     <string name="activity_qr_code_title">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skenovať QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Oskenujte niečí QR kód pre začatie konverzácie</string>

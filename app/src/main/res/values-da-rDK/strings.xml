@@ -192,7 +192,6 @@ udveksel besked!</string>
     <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Beskeder med tidsudløb deaktiveret</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Beskeder udløber efter %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s tog et screenshot.</string>
     <string name="ThreadRecord_media_saved_by_s">Medier gemt af %s.</string>
     <string name="ThreadRecord_safety_number_changed">Sikkerhedsnummer ændret</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Dit sikkerhedsnummer med %s er ændret</string>
@@ -240,7 +239,7 @@ udveksel besked!</string>
     <string name="other">Andet</string>
     <string name="NotificationChannel_missing_display_name">Ukendt</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hurtig svar utilgængelig når Session er låst!</string>
+    <string name="lockAppQuickResponse">Hurtig svar utilgængelig når Session er låst!</string>
     <string name="QuickResponseService_problem_sending_message">Problem med at sende besked!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Gemt til %s</string>
@@ -528,17 +527,13 @@ udveksel besked!</string>
     <string name="sessionInviteAFriend">Inviter en ven</string>
     <string name="helpFAQ">Ofte stillede spørgsmål</string>
     <string name="sessionClearData">Ryd data</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Ryd Data Inklusiv Netværk</string>
     <string name="notificationsStyle">Notifikationsstil</string>
     <string name="activity_notification_settings_content_section_title">Meddelelsesindhold</string>
     <string name="sessionPrivacy">Privatliv</string>
     <string name="useFastMode">Brug Hurtig Tilstand</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Rediger navn</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Frakobl enhed</string>
-    <string name="dialog_clear_all_data_title">Ryd Alt Data</string>
-    <string name="dialog_clear_all_data_explanation">Dette vil permanent slette dine beskeder, sessioner og kontakter.</string>
-    <string name="dialog_clear_all_data_network_explanation">Vil du kun rydde denne enhed eller slette hele din konto?</string>
-    <string name="dialog_clear_all_data_local_only">Slet Kun</string>
+    <string name="clearDataAll">Ryd Alt Data</string>
     <string name="activity_qr_code_title">QR-kode</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skan QR-kode</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scan ens QR-kode for at starte en samtale med dem</string>

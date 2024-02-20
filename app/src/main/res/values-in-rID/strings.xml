@@ -166,7 +166,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s ada di Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Menghilangkan pesan dinonaktifkan</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Atur menghilangkan pesan ke %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s mengambil tangkapan layar.</string>
     <string name="ThreadRecord_you_marked_verified">Anda menandai sebagai terverifikasi</string>
     <string name="ThreadRecord_you_marked_unverified">Anda menandai sebagai tidak terverifikasi</string>
     <!-- UpdateApkReadyListener -->
@@ -397,7 +396,7 @@
     <string name="activity_create_closed_group_group_name_too_long_error">Masukkan nama grup yang lebih pendek</string>
     <string name="activity_create_closed_group_not_enough_group_members_error">Pilih setidaknya 1 anggota grup</string>
     <string name="activity_join_public_chat_title">Gabung ke grup terbuka</string>
-    <string name="dialog_clear_all_data_title">Hapus semua data</string>
+    <string name="clearDataAll">Hapus semua data</string>
     <string name="activity_qr_code_title">Kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Pindai kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>

@@ -205,7 +205,6 @@ schimbul de chei este corupt </string>
     <string name="ThreadRecord_s_is_on_signal">%s folosește Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Mesajele care dispar sunt dezactivate</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Timpul setat pentru mesajele care dispar este %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s a efectuat o captură de ecran.</string>
     <string name="ThreadRecord_media_saved_by_s">Media salvată de %s.</string>
     <string name="ThreadRecord_safety_number_changed">Numărul de siguranță s-a schimbat</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Numărul tău de siguranță pentru %s s-a schimbat.</string>
@@ -254,7 +253,7 @@ schimbul de chei este corupt </string>
     <string name="other">Altul</string>
     <string name="NotificationChannel_missing_display_name">Necunoscut</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Răspunsul rapid nu este disponibil cât timp Session este blocat!</string>
+    <string name="lockAppQuickResponse">Răspunsul rapid nu este disponibil cât timp Session este blocat!</string>
     <string name="QuickResponseService_problem_sending_message">Problemă la trimiterea mesajului!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Salvat în %s</string>

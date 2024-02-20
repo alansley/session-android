@@ -188,7 +188,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s 在 Session 了！</string>
     <string name="ThreadRecord_disappearing_messages_disabled">自動銷毀訊息功能已被關閉。</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">訊息銷毀時間設定為 %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s 擷取了螢幕畫面</string>
     <string name="ThreadRecord_media_saved_by_s">%s 儲存了媒體</string>
     <string name="ThreadRecord_safety_number_changed">安全碼已改變</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">您與 %s 的安全碼已改變</string>
@@ -237,7 +236,7 @@
     <string name="other">其他</string>
     <string name="NotificationChannel_missing_display_name">未知</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">當 Session 鎖定時無法使用快速回覆！</string>
+    <string name="lockAppQuickResponse">當 Session 鎖定時無法使用快速回覆！</string>
     <string name="QuickResponseService_problem_sending_message">傳送訊息出現問題！</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">儲存到 %s</string>
@@ -535,7 +534,6 @@
     <string name="sessionInviteAFriend">邀請好友</string>
     <string name="helpFAQ">常見問題</string>
     <string name="sessionClearData">清除資料</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">清除包括網路在內的資料</string>
     <string name="notificationsStyle">通知樣式</string>
     <string name="activity_notification_settings_content_section_title">通知內容</string>
     <string name="sessionPrivacy">隱私權</string>
@@ -544,11 +542,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">您將會透過 Google 的通知服務可靠且迅速的收到通知。</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">變更名稱</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">取消連結裝置</string>
-    <string name="dialog_clear_all_data_title">清除所有數據</string>
-    <string name="dialog_clear_all_data_explanation">這將永久刪除您的訊息、帳號和聯絡人。</string>
-    <string name="dialog_clear_all_data_network_explanation">您想僅清除此裝置的資料，還是刪除您整個帳戶的資料？</string>
-    <string name="dialog_clear_all_data_local_only">僅刪除</string>
-    <string name="dialog_clear_all_data_clear_network">整個賬戶</string>
+    <string name="clearDataAll">清除所有數據</string>
     <string name="activity_qr_code_title">QR Code</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">掃描 QR Code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">掃描朋友的 QR Code 來開始對話。</string>

@@ -178,7 +178,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="other">Yang lain</string>
     <string name="NotificationChannel_missing_display_name">Tidak dikenal</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Tanggapan cepat tidak tersedia ketika Session sedang dikunci!</string>
+    <string name="lockAppQuickResponse">Tanggapan cepat tidak tersedia ketika Session sedang dikunci!</string>
     <string name="QuickResponseService_problem_sending_message">Terjadi masalah saat mengirim pesan!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Disimpan ke %s</string>
@@ -449,8 +449,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="notificationsStrategy">Strategi notofikasi</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Ubah nama</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Putuskan koneksi dengan perangkat</string>
-    <string name="dialog_clear_all_data_title">Hapus semua data</string>
-    <string name="dialog_clear_all_data_explanation">Pesan, Session, dan kontak anda akan dihapus secara permanen</string>
+    <string name="clearDataAll">Hapus semua data</string>
     <string name="activity_qr_code_title">Kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Pindai kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>

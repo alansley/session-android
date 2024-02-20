@@ -194,7 +194,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s elérhető a Session-on!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Eltűnő üzenetek letiltva</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Eltűnő üzenet ideje beállítva erre: %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s készített egy képernyőképet.</string>
     <string name="ThreadRecord_media_saved_by_s">Média mentve ide %s.</string>
     <string name="ThreadRecord_safety_number_changed">Megváltozott a biztonsági szám</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Megváltozott a biztonsági számod vele: %s.</string>
@@ -243,7 +242,7 @@
     <string name="other">Egyéb</string>
     <string name="NotificationChannel_missing_display_name">Ismeretlen</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A gyors válasz nem érhető el, ha a Session zárolva van!</string>
+    <string name="lockAppQuickResponse">A gyors válasz nem érhető el, ha a Session zárolva van!</string>
     <string name="QuickResponseService_problem_sending_message">Probléma lépett fel az üzenet küldése során!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Mentve ide: %s</string>
@@ -543,7 +542,6 @@
     <string name="sessionInviteAFriend">Barát meghívása</string>
     <string name="helpFAQ">Gyakori kérdések</string>
     <string name="sessionClearData">Adataid törlése</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Adatok törlése, beleértve a hálózatot is</string>
     <string name="notificationsStyle">Értesítések stílusa</string>
     <string name="activity_notification_settings_content_section_title">Értesítés tartalma</string>
     <string name="sessionPrivacy">Adatvédelem</string>
@@ -552,11 +550,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">A Google értesítési szerverein keresztül megbízhatóan és azonnal értesítést kap az új üzenetekről.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Név módosítása</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Eszköz társításának megszüntetése</string>
-    <string name="dialog_clear_all_data_title">Az összes adat törlése</string>
-    <string name="dialog_clear_all_data_explanation">Ez végleg törölni fogja üzeneteit, beszélgetéseit és ismerőseit.</string>
-    <string name="dialog_clear_all_data_network_explanation">Csak ezt az eszközt szeretné törölni, vagy törölni szeretné az egész fiókját?</string>
-    <string name="dialog_clear_all_data_local_only">Csak törlés</string>
-    <string name="dialog_clear_all_data_clear_network">Teljes fiók</string>
+    <string name="clearDataAll">Az összes adat törlése</string>
     <string name="activity_qr_code_title">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">QR kód beolvasása</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Olvassa be valaki QR kódját, hogy beszélgetést kezdhessen vele</string>

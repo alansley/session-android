@@ -231,7 +231,6 @@
     <string name="ThreadRecord_s_is_on_signal">%sمتواجد على Session !</string>
     <string name="ThreadRecord_disappearing_messages_disabled">تم تعطيل الرسائل المخفية</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">ضبط توقيت إخفاء الرسائل إلى %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">قام %s بتصوير الشاشة.</string>
     <string name="ThreadRecord_media_saved_by_s">قام %s بحفظ الوسائط.</string>
     <string name="ThreadRecord_safety_number_changed">تم تعديل رقم الأمان</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">تم تغيير رقم الأمان الخاص بك وبـ%s.</string>
@@ -280,7 +279,7 @@
     <string name="other">أخرى</string>
     <string name="NotificationChannel_missing_display_name">مجهول</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">الردود السريعة غير متاحة عند قفل Session!</string>
+    <string name="lockAppQuickResponse">الردود السريعة غير متاحة عند قفل Session!</string>
     <string name="QuickResponseService_problem_sending_message">مشكلة في الإرسال!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">تم الإحتفاظ به في %s</string>
@@ -588,7 +587,6 @@
     <string name="sessionInviteAFriend">أُدع صديق</string>
     <string name="helpFAQ">الأسئلة الأكثر طرحاً</string>
     <string name="sessionClearData">مسح البيانات</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">مسح البيانات بما في ذلك الشبكة</string>
     <string name="notificationsStyle">طريقة الإشعارات</string>
     <string name="activity_notification_settings_content_section_title">محتوى الإشعارات</string>
     <string name="sessionPrivacy">الخصوصية</string>
@@ -597,11 +595,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">سوف يتم تنبيهك بالرسائل الجديدة بشكل موثوق و فوري بإستخدام خوادم غوغل.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">غَير الاسم</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">ألغي ربط الجهاز</string>
-    <string name="dialog_clear_all_data_title">اِمسح جميع البيانات</string>
-    <string name="dialog_clear_all_data_explanation">سيؤدي هذا إلى حذف رسائلك, محادثاتك و متصليك نهائيا.</string>
-    <string name="dialog_clear_all_data_network_explanation">هل تريد مسح من هذا الجهاز فقط، أو حذف حسابك كليا ؟</string>
-    <string name="dialog_clear_all_data_local_only">فقط اِمسح</string>
-    <string name="dialog_clear_all_data_clear_network">الحساب كليا</string>
+    <string name="clearDataAll">اِمسح جميع البيانات</string>
     <string name="activity_qr_code_title">رمز QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">افحص رمز QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">اِفحص رمز QR لبدء المحادثة</string>

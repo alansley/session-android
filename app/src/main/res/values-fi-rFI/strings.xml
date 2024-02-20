@@ -192,7 +192,6 @@ on viallinen!</string>
     <string name="ThreadRecord_s_is_on_signal">%s käyttää Sessionia!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Katoavat viestit poistettu käytöstä</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Katoavien viestien ajaksi asetettu %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s otti kuvakaappauksen.</string>
     <string name="ThreadRecord_safety_number_changed">Turvanumero vaihtunut</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sinun ja yhteystiedon %s turvanumero on vaihtunut.</string>
     <string name="ThreadRecord_you_marked_verified">Merkitsit varmennetuksi.</string>
@@ -240,7 +239,7 @@ on viallinen!</string>
     <string name="other">Muu</string>
     <string name="NotificationChannel_missing_display_name">Tuntematon</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Pikavastaus ei toimi, kun Session on lukittu!</string>
+    <string name="lockAppQuickResponse">Pikavastaus ei toimi, kun Session on lukittu!</string>
     <string name="QuickResponseService_problem_sending_message">Ongelma viestin lähettämisessä!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Tallennettu: %s</string>
@@ -540,7 +539,6 @@ on viallinen!</string>
     <string name="sessionInviteAFriend">Kutsu ystäviä</string>
     <string name="helpFAQ">UKK</string>
     <string name="sessionClearData">Tyhjennä tiedot</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Tyhjennä Tiedot Mukaan Lukien Verkko</string>
     <string name="notificationsStyle">Ilmoitusten tyyli</string>
     <string name="activity_notification_settings_content_section_title">Ilmoituksen Sisältö</string>
     <string name="sessionPrivacy">Yksityisyys</string>
@@ -549,11 +547,7 @@ on viallinen!</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Sinulle ilmoitetaan uusista viesteistä luotettavasti ja viivyttelemättä Applen ilmoituspalvelua käyttäen.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Vaihda nimi</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Poista laitteen linkitys</string>
-    <string name="dialog_clear_all_data_title">Tyhjennä tiedot</string>
-    <string name="dialog_clear_all_data_explanation">Tämä poistaa pysyvästi viestit, istunnot ja yhteystiedot.</string>
-    <string name="dialog_clear_all_data_network_explanation">Haluatko tyhjentää datan vain tästä laitteesta vai poistaa koko tilin?</string>
-    <string name="dialog_clear_all_data_local_only">Poista Ainoastaan</string>
-    <string name="dialog_clear_all_data_clear_network">Koko käyttäjätili</string>
+    <string name="clearDataAll">Tyhjennä tiedot</string>
     <string name="activity_qr_code_title">QR-koodi</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skannaa QR-koodi</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skannaa jonkun QR-koodi aloittaaksesi keskustelun heidän kanssaan</string>

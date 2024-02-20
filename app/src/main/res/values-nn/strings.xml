@@ -214,7 +214,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="other">Anna</string>
     <string name="NotificationChannel_missing_display_name">Ukjend</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hurtigsvar er utilgjengeleg når Session er låst.</string>
+    <string name="lockAppQuickResponse">Hurtigsvar er utilgjengeleg når Session er låst.</string>
     <string name="QuickResponseService_problem_sending_message">Det oppstod eit problem under sending av melding.</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Lagra til %s</string>

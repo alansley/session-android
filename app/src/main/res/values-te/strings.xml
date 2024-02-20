@@ -219,7 +219,7 @@
     <string name="other">ఇతర</string>
     <string name="NotificationChannel_missing_display_name">తెలియని</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Session బంధించినపుడు తక్షణ స్పందన అందుబాటులొ లేదు!</string>
+    <string name="lockAppQuickResponse">Session బంధించినపుడు తక్షణ స్పందన అందుబాటులొ లేదు!</string>
     <string name="QuickResponseService_problem_sending_message">సందేశాన్ని పంపడంలొ సమస్య!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">%s కు సేవ్ చేయబడింది</string>

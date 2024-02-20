@@ -210,7 +210,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s משתמש ב-Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">הודעות נעלמות הושבתו</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">זמן הודעות נעלמות הוגדר אל %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">המסך צולם ע״י %s.</string>
     <string name="ThreadRecord_media_saved_by_s">המדיה נשמרה ע״י %s.</string>
     <string name="ThreadRecord_safety_number_changed">מספר ביטחון השתנה</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">מספר הביטחון שלך עם %s השתנה.</string>
@@ -257,7 +256,7 @@
     <string name="other">אחר</string>
     <string name="NotificationChannel_missing_display_name">לא ידוע</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">תגובה מהירה אינה זמינה כאשר Session נעול!</string>
+    <string name="lockAppQuickResponse">תגובה מהירה אינה זמינה כאשר Session נעול!</string>
     <string name="QuickResponseService_problem_sending_message">בעיה בשליחת הודעה!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">נשמר ב־%s</string>

@@ -213,7 +213,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s приєднався до Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Зникаючі повідомлення заборонені</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Час зникнення повідомлень встановлено на %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s зробив скриншот.</string>
     <string name="ThreadRecord_media_saved_by_s">%s скачав медіафайл.</string>
     <string name="ThreadRecord_safety_number_changed">Номер безпеки змінено</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш номер безпеки із %s змінився.</string>
@@ -262,7 +261,7 @@
     <string name="other">Інший</string>
     <string name="NotificationChannel_missing_display_name">Невідомо</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Швидка відповідь неможлива, коли Session заблоковано!</string>
+    <string name="lockAppQuickResponse">Швидка відповідь неможлива, коли Session заблоковано!</string>
     <string name="QuickResponseService_problem_sending_message">Проблема під час надсилання повідомлення!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Збережено до %s</string>
@@ -566,7 +565,6 @@
     <string name="sessionInviteAFriend">Запросити друга</string>
     <string name="helpFAQ">Часті питання</string>
     <string name="sessionClearData">Видалити дані</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Видалити дані та аккаунт</string>
     <string name="notificationsStyle">Стиль сповіщень</string>
     <string name="activity_notification_settings_content_section_title">Вміст сповіщення</string>
     <string name="sessionPrivacy">Конфіденційність</string>
@@ -575,11 +573,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Вас надійно повідомлятимуть про нові сповіщення негайно, використовуючи сервери сповіщень Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Змінити їм’я</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Відв’язати цей пристрій</string>
-    <string name="dialog_clear_all_data_title">Видалити всі дані</string>
-    <string name="dialog_clear_all_data_explanation">Це остаточно видалить ваші повідомлення, сеанси та контакти.</string>
-    <string name="dialog_clear_all_data_network_explanation">Ви хочете видалити тільки цей пристрій або видалити весь обліковий запис?</string>
-    <string name="dialog_clear_all_data_local_only">Видалити тільки цей пристрій</string>
-    <string name="dialog_clear_all_data_clear_network">Видалити весь обліковий запис</string>
+    <string name="clearDataAll">Видалити всі дані</string>
     <string name="activity_qr_code_title">QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Сканувати QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Скануйте чийсь QR-код, щоб почати розмову з ними</string>

@@ -197,7 +197,7 @@
     <string name="other">ที่อื่น</string>
     <string name="NotificationChannel_missing_display_name">ไม่ทราบ</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">การตอบด่วนใช้ไม่ได้ถ้า Session ถูกล็อกอยู่</string>
+    <string name="lockAppQuickResponse">การตอบด่วนใช้ไม่ได้ถ้า Session ถูกล็อกอยู่</string>
     <string name="QuickResponseService_problem_sending_message">เกิดปัญหาในการส่งข้อความ</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">บันทึกไปยัง %s</string>

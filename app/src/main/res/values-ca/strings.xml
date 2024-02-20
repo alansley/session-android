@@ -189,7 +189,6 @@ d\'intercanvi de claus!</string>
     <string name="ThreadRecord_s_is_on_signal">%s és al Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Missatges efímers inhabilitats</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">El temps del missatge efímer s\'ha establit a %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s ha fet una captura de pantalla.</string>
     <string name="ThreadRecord_media_saved_by_s">Mèdia desada per %s.</string>
     <string name="ThreadRecord_safety_number_changed">El número de seguretat ha canviat</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">El número de seguretat amb %s ha canviat.</string>
@@ -237,7 +236,7 @@ d\'intercanvi de claus!</string>
     <string name="other">Altres</string>
     <string name="NotificationChannel_missing_display_name">Desconegut</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">La resposta ràpida no és disponible si el Session està blocat!</string>
+    <string name="lockAppQuickResponse">La resposta ràpida no és disponible si el Session està blocat!</string>
     <string name="QuickResponseService_problem_sending_message">S\'ha produït un problema en enviar el missatge!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Desat a %s</string>
@@ -537,8 +536,7 @@ d\'intercanvi de claus!</string>
     <string name="notificationsStrategy">Estratègia de les notificacions</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Canvia el nom</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Desenllaça el dispositiu</string>
-    <string name="dialog_clear_all_data_title">Esborra totes les dades</string>
-    <string name="dialog_clear_all_data_explanation">Això esborrarà tots els missatges, sessions i contactes permanentment.</string>
+    <string name="clearDataAll">Esborra totes les dades</string>
     <string name="activity_qr_code_title">Codi QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Escaneja el codi QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneja el codi QR d\'algú altre per a encetar-hi una conversa</string>

@@ -193,7 +193,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s artıq Session-dadır!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Yox olan mesajlar sıradan çıxarıldı</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Yox olan mesajlar üçün vaxtölçən %s olaraq tənzimləndi</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s ekran şəklini çəkdi.</string>
     <string name="ThreadRecord_media_saved_by_s">%s medianı yaddaşda saxladı.</string>
     <string name="ThreadRecord_safety_number_changed">Güvənli nömrə dəyişdirildi</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s ilə olan güvənlik nömrəniz dəyişdirildi.</string>
@@ -242,7 +241,7 @@
     <string name="other">Digər</string>
     <string name="NotificationChannel_missing_display_name">Bilinmir</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Session kilidli ikən, cəld cavablar əlçatmazdır!</string>
+    <string name="lockAppQuickResponse">Session kilidli ikən, cəld cavablar əlçatmazdır!</string>
     <string name="QuickResponseService_problem_sending_message">Mesajın göndərilmə problemi!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Saxlanıldı: %s</string>
@@ -542,7 +541,6 @@
     <string name="sessionInviteAFriend">Dostu dəvət edin</string>
     <string name="helpFAQ">TSS</string>
     <string name="sessionClearData">Verilənləri təmizlə</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Şəbəkə daxil olmaqla verilənləri təmizlə</string>
     <string name="notificationsStyle">Bildiriş stili</string>
     <string name="activity_notification_settings_content_section_title">Bildiriş məzmunu</string>
     <string name="sessionPrivacy">Gizlilik</string>
@@ -551,11 +549,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Adı dəyişdir</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Cihazın əlaqəsini kəs</string>
-    <string name="dialog_clear_all_data_title">Bütün verilənləri təmizlə</string>
-    <string name="dialog_clear_all_data_explanation">Bu, bütün mesajlarınızı, seanslarınızı və əlaqələrinizi birdəfəlik siləcək.</string>
-    <string name="dialog_clear_all_data_network_explanation">Yalnız bu cihazı silmək istəyirsiniz, yoxsa hesabınızın tamamını silmək istəyirsiniz?</string>
-    <string name="dialog_clear_all_data_local_only">Yalnız sil</string>
-    <string name="dialog_clear_all_data_clear_network">Bütün hesabı</string>
+    <string name="clearDataAll">Bütün verilənləri təmizlə</string>
     <string name="activity_qr_code_title">QR Kod</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">QR kodu skan et</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Başqasıyla bir danışıq başlatmaq üçün onun QR kodunu skan edin</string>

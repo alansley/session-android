@@ -192,7 +192,6 @@ för nyckelutbyte!</string>
     <string name="ThreadRecord_s_is_on_signal">%s finns på Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Försvinnande meddelanden inaktiverat</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Tiden för försvinnande meddelanden inställd till %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s tog en skärmdump.</string>
     <string name="ThreadRecord_media_saved_by_s">Media sparad av %s.</string>
     <string name="ThreadRecord_safety_number_changed">Säkerhetsnummer ändrat</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ditt säkerhetsnummer med %s har ändrats.</string>
@@ -241,7 +240,7 @@ för nyckelutbyte!</string>
     <string name="other">Övrigt</string>
     <string name="NotificationChannel_missing_display_name">Okänd</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Snabbsvar är ej tillgängligt när Session är låst!</string>
+    <string name="lockAppQuickResponse">Snabbsvar är ej tillgängligt när Session är låst!</string>
     <string name="QuickResponseService_problem_sending_message">Problem med att skicka meddelandet!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Sparad till %s</string>
@@ -541,7 +540,6 @@ för nyckelutbyte!</string>
     <string name="sessionInviteAFriend">Bjud in en vän</string>
     <string name="helpFAQ">Vanliga frågor</string>
     <string name="sessionClearData">Rensa data</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Rensa data inklusive nätverk</string>
     <string name="notificationsStyle">Aviseringsutseende</string>
     <string name="activity_notification_settings_content_section_title">Aviseringsinnehåll</string>
     <string name="sessionPrivacy">Integritet</string>
@@ -550,11 +548,7 @@ för nyckelutbyte!</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Byt Namn</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Kopplar bort enhet</string>
-    <string name="dialog_clear_all_data_title">Rensa All Data</string>
-    <string name="dialog_clear_all_data_explanation">Detta kommer att radera dina meddelanden, sessioner och kontakter permanent.</string>
-    <string name="dialog_clear_all_data_network_explanation">Vill du rensa endast den här enheten eller ta bort hela ditt konto?</string>
-    <string name="dialog_clear_all_data_local_only">Endast rensa</string>
-    <string name="dialog_clear_all_data_clear_network">Hela kontot</string>
+    <string name="clearDataAll">Rensa All Data</string>
     <string name="activity_qr_code_title">QR-kod</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skanna QR-kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skanna någons QR-kod för att starta en konversation med dem</string>

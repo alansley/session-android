@@ -211,7 +211,7 @@
     <string name="other">ផ្សេងៗ</string>
     <string name="NotificationChannel_missing_display_name">មិនស្គាល់</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">មិនមានការឆ្លើយតបភ្លាមៗ នៅពេល Session ត្រូវបានចាក់សោរ!</string>
+    <string name="lockAppQuickResponse">មិនមានការឆ្លើយតបភ្លាមៗ នៅពេល Session ត្រូវបានចាក់សោរ!</string>
     <string name="QuickResponseService_problem_sending_message">សារដែលបានបញ្ជូនមានបញ្ហា!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">បានរក្សាទុកនៅ %s</string>

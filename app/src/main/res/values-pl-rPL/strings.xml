@@ -211,7 +211,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s jest w Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Znikające wiadomości zostały wyłączone</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Czas znikania wiadomości ustawiony na %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s wykonał zrzut ekranu.</string>
     <string name="ThreadRecord_media_saved_by_s">Media zapisane przez %s.</string>
     <string name="ThreadRecord_safety_number_changed">Numer bezpieczeństwa zmienił się</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Twój numer bezpieczeństwa z %s zmienił się.</string>
@@ -260,7 +259,7 @@
     <string name="other">Inny</string>
     <string name="NotificationChannel_missing_display_name">Nieznany</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Szybka odpowiedź jest niedostępna kiedy Session jest zablokowany!</string>
+    <string name="lockAppQuickResponse">Szybka odpowiedź jest niedostępna kiedy Session jest zablokowany!</string>
     <string name="QuickResponseService_problem_sending_message">Wystąpił błąd przy wysyłaniu wiadomości!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Zapisano do %s</string>
@@ -564,7 +563,6 @@
     <string name="sessionInviteAFriend">Zaproś znajomego</string>
     <string name="helpFAQ">FAQ</string>
     <string name="sessionClearData">Wyczyść dane</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Wyczyść dane łącznie z siecią</string>
     <string name="notificationsStyle">Styl powiadomienia</string>
     <string name="activity_notification_settings_content_section_title">Treść powiadomienia</string>
     <string name="sessionPrivacy">Prywatność</string>
@@ -573,11 +571,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Zostaniesz natychmiast powiadomiony o nowych wiadomościach w niezawodny sposób przy użyciu serwerów powiadomień Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Zmień nazwę</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odłącz urządzenie</string>
-    <string name="dialog_clear_all_data_title">Wyczyść wszystkie dane</string>
-    <string name="dialog_clear_all_data_explanation">Spowoduje to trwałe usunięcie wiadomości, sesji i kontaktów.</string>
-    <string name="dialog_clear_all_data_network_explanation">Czy chcesz wyczyścić tylko to urządzenie, czy usunąć całe swoje konto?</string>
-    <string name="dialog_clear_all_data_local_only">Tylko urządzenie</string>
-    <string name="dialog_clear_all_data_clear_network">Całe konto</string>
+    <string name="clearDataAll">Wyczyść wszystkie dane</string>
     <string name="activity_qr_code_title">Kod QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skanowania QR code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Zeskanuj czyjś kod QR, aby rozpocząć z nim rozmowę</string>

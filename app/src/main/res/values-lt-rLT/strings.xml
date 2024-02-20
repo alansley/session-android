@@ -211,7 +211,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s atėjo į Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Išnykstančios žinutės išjungtos</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Išnykstančių žinučių laikas nustatytas į %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s padarė ekrano kopiją.</string>
     <string name="ThreadRecord_media_saved_by_s">%s įsirašė mediją.</string>
     <string name="ThreadRecord_safety_number_changed">Saugumo numeris pasikeitė</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %s pasikeitė.</string>
@@ -259,7 +258,7 @@
     <string name="other">Kitas</string>
     <string name="NotificationChannel_missing_display_name">Nežinoma</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Spartusis atsakymas neprieinamas, kai Session yra užrakinta!</string>
+    <string name="lockAppQuickResponse">Spartusis atsakymas neprieinamas, kai Session yra užrakinta!</string>
     <string name="QuickResponseService_problem_sending_message">Problemos siunčiant žinutę!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Įrašyta į %s</string>
@@ -557,9 +556,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Keisti pavadinimą</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Atsieti įrenginį</string>
-    <string name="dialog_clear_all_data_title">Išvalyti visus duomenis</string>
-    <string name="dialog_clear_all_data_explanation">Tai visam laikui ištrins jūsų žinutes, seansus ir adresatus.</string>
-    <string name="dialog_clear_all_data_local_only">Tik ištrinti</string>
+    <string name="clearDataAll">Išvalyti visus duomenis</string>
     <string name="activity_qr_code_title">QR kodas</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skenuoti QR kodą</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Nuskenuokite kieno nors QR kodą, kad pradėtumėte su juo pokalbį</string>

@@ -193,7 +193,6 @@
     <string name="ThreadRecord_s_is_on_signal">Ο/Η %s είναι στο Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Τα μηνύματα που εξαφανίζονται απενεργοποιήθηκαν</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Ο χρόνος εξαφάνισης των μηνυμάτων ρυθμίστηκε σε %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s Στιγμιότυπο οθόνης.</string>
     <string name="ThreadRecord_media_saved_by_s">Μέσα αποθηκεύτηκαν από %s.</string>
     <string name="ThreadRecord_safety_number_changed">Ο αριθμός ασφαλείας άλλαξε</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ο αριθμός ασφαλείας με τον/την %s έχει αλλάξει.</string>
@@ -242,7 +241,7 @@
     <string name="other">Άλλο</string>
     <string name="NotificationChannel_missing_display_name">Άγνωστο</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Η γρήγορη απάντηση δεν είναι διαθέσιμη όταν το Session είναι κλειδωμένο!</string>
+    <string name="lockAppQuickResponse">Η γρήγορη απάντηση δεν είναι διαθέσιμη όταν το Session είναι κλειδωμένο!</string>
     <string name="QuickResponseService_problem_sending_message">Πρόβλημα με την αποστολή μηνύματος!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Αποθηκεύτηκε σε %s</string>
@@ -542,7 +541,6 @@
     <string name="sessionInviteAFriend">Προσκαλέστε ένα φίλο</string>
     <string name="helpFAQ">Συχνές ερωτήσεις</string>
     <string name="sessionClearData">Εκκαθάριση Δεδομένων</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Εκκαθάριση Δεδομένων Με Το Δίκτυο</string>
     <string name="notificationsStyle">Στυλ ειδοποιήσεων</string>
     <string name="activity_notification_settings_content_section_title">Περιεχόμενο Ειδοποιήσεων</string>
     <string name="sessionPrivacy">Απόρρητο</string>
@@ -551,11 +549,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Θα ειδοποιηθείτε για νέα μηνύματα αξιόπιστα και άμεσα χρησιμοποιώντας τους διακομιστές ειδοποιήσεων της Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Αλλαγή ονόματος</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Αποσύνδεση Συσκευής</string>
-    <string name="dialog_clear_all_data_title">Εκκαθάριση όλων των δεδομένων</string>
-    <string name="dialog_clear_all_data_explanation">Αυτό θα διαγράψει μόνιμα τα μηνύματα, τις συνομιλίες και τις επαφές σας.</string>
-    <string name="dialog_clear_all_data_network_explanation">Θέλετε να γίνει εκκαθάριση μόνο αυτής της συσκευής, ή να διαγράψετε ολόκληρο το λογαριασμό σας;</string>
-    <string name="dialog_clear_all_data_local_only">Διαγραφή Μόνο</string>
-    <string name="dialog_clear_all_data_clear_network">Ολόκληρος ο Λογαριασμός</string>
+    <string name="clearDataAll">Εκκαθάριση όλων των δεδομένων</string>
     <string name="activity_qr_code_title">QR κωδικός</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Σαρώστε τον κωδικό QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Σαρώστε τον κωδικό QR κάποιου για να ξεκινήσετε μια συνομιλία μαζί του</string>

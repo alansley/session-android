@@ -192,7 +192,6 @@ foi recebida está corrompida!</string>
     <string name="ThreadRecord_s_is_on_signal">%s está no Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Destruição de mensagens desactivada</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">O tempo a decorrer até que as mensagens sejam destruídas está definido para %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s fez uma captura de ecrã.</string>
     <string name="ThreadRecord_media_saved_by_s">Media guardada por %s.</string>
     <string name="ThreadRecord_safety_number_changed">Número de segurança alterado</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">O seu número de segurança com %s mudou.</string>
@@ -241,7 +240,7 @@ foi recebida está corrompida!</string>
     <string name="other">Outro</string>
     <string name="NotificationChannel_missing_display_name">Desconhecido</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Resposta rápida encontra-se indisponível enquanto o Session estiver bloqueado!</string>
+    <string name="lockAppQuickResponse">Resposta rápida encontra-se indisponível enquanto o Session estiver bloqueado!</string>
     <string name="QuickResponseService_problem_sending_message">Problema no envio da mensagem!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Guardado para %s</string>
@@ -540,8 +539,7 @@ foi recebida está corrompida!</string>
     <string name="notificationsStrategy">Estratégia de notificação</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Mudar o nome</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Dessincronizar dispositivo</string>
-    <string name="dialog_clear_all_data_title">Limpar todos os dados</string>
-    <string name="dialog_clear_all_data_explanation">Isso excluirá permanentemente suas mensagens, sessões e contatos.</string>
+    <string name="clearDataAll">Limpar todos os dados</string>
     <string name="activity_qr_code_title">Código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Escanear código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneie o código QR de alguém para iniciar uma conversa com essa pessoa</string>

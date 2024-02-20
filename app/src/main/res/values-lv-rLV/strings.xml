@@ -182,9 +182,7 @@
     <string name="sessionClearData">Izdzēst datus</string>
     <string name="notificationsStyle">Paziņojuma izskats</string>
     <string name="activity_notification_settings_content_section_title">Paziņojuma saturs</string>
-    <string name="dialog_clear_all_data_title">Izdzēst visus datus</string>
-    <string name="dialog_clear_all_data_local_only">Dzēst tikai</string>
-    <string name="dialog_clear_all_data_clear_network">Visu kontu</string>
+    <string name="clearDataAll">Izdzēst visus datus</string>
     <string name="activity_qr_code_title">QR kods</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skenēt QR kodu</string>
     <string name="fragment_view_my_qr_code_title">Skanē mani</string>

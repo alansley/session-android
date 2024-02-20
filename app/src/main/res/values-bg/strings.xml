@@ -228,7 +228,7 @@
     <string name="other">Друг</string>
     <string name="NotificationChannel_missing_display_name">Непознат</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Бърз отговор не е възможен, когато Session е заключен!</string>
+    <string name="lockAppQuickResponse">Бърз отговор не е възможен, когато Session е заключен!</string>
     <string name="QuickResponseService_problem_sending_message">Проблем при изпрашане на съобщение!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Запзване в %s</string>

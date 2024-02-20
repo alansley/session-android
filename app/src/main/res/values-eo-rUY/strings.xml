@@ -192,7 +192,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s estas ĉe Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Memviŝontaj mesaĝoj malŝaltita</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Daŭro de memviŝontaj mesaĝoj agordita je %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s kreis ekrankopion.</string>
     <string name="ThreadRecord_media_saved_by_s">%s elŝutis la dosieron.</string>
     <string name="ThreadRecord_safety_number_changed">Sekuriga numero ŝanĝiĝis</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Via sekuriga numero kun %s ŝanĝiĝis.</string>
@@ -241,7 +240,7 @@
     <string name="other">Alia</string>
     <string name="NotificationChannel_missing_display_name">Nekonata</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rapida respondo ne eblas, kiam Session estas ŝlosita!</string>
+    <string name="lockAppQuickResponse">Rapida respondo ne eblas, kiam Session estas ŝlosita!</string>
     <string name="QuickResponseService_problem_sending_message">Problemo dum sendo de mesaĝo!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Konservita al %s</string>
@@ -546,10 +545,7 @@
     <string name="useFastMode">Uzi Rapidan Reĝimon</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Ŝanĝi nomon</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Malligi aparaton</string>
-    <string name="dialog_clear_all_data_title">Viŝi Tutajn Datumojn</string>
-    <string name="dialog_clear_all_data_explanation">Ĉi tio daŭre forviŝi viajn mesaĝojn, sesiojn, kaj kontaktojn.</string>
-    <string name="dialog_clear_all_data_local_only">Forviŝi Sole</string>
-    <string name="dialog_clear_all_data_clear_network">Tuta Konto</string>
+    <string name="clearDataAll">Viŝi Tutajn Datumojn</string>
     <string name="activity_qr_code_title">QR-Kodo</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Skani QR-Kodon</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skani ies QR-kodon por komenci konversacion kun si</string>

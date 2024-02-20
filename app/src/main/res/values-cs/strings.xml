@@ -211,7 +211,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s má Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Mizení zpráv je zakázáno</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Čas zmizení zprávy nastaven na %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s pořídil snímek obrazovky.</string>
     <string name="ThreadRecord_media_saved_by_s">%s uložil média.</string>
     <string name="ThreadRecord_safety_number_changed">Bezpečnostní kód se změnil</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Váš bezpečnostní kód s %s se změnil</string>
@@ -260,7 +259,7 @@
     <string name="other">Ostatní</string>
     <string name="NotificationChannel_missing_display_name">Neznámý</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Rychlá odpověď není dostupná, pokud je Session uzamčen!</string>
+    <string name="lockAppQuickResponse">Rychlá odpověď není dostupná, pokud je Session uzamčen!</string>
     <string name="QuickResponseService_problem_sending_message">Problém při odesílání zprávy!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Uložit do %s</string>
@@ -564,7 +563,6 @@
     <string name="sessionInviteAFriend">Pozvat přítele</string>
     <string name="helpFAQ">Často kladené dotazy</string>
     <string name="sessionClearData">Vymazat data</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Smazat data včetně sítě</string>
     <string name="notificationsStyle">Styl oznámení</string>
     <string name="activity_notification_settings_content_section_title">Obsah oznámení</string>
     <string name="sessionPrivacy">Soukromí</string>
@@ -573,11 +571,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Změnit jméno</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojit zařízení</string>
-    <string name="dialog_clear_all_data_title">Vymazat všechna data</string>
-    <string name="dialog_clear_all_data_explanation">Tímto trvale odstraníte vaše zprávy, relace a kontakty.</string>
-    <string name="dialog_clear_all_data_network_explanation">Chcete vymazat data pouze na tomto zařízení, nebo odstranit celý účet?</string>
-    <string name="dialog_clear_all_data_local_only">Pouze smazat</string>
-    <string name="dialog_clear_all_data_clear_network">Celý účet</string>
+    <string name="clearDataAll">Vymazat všechna data</string>
     <string name="activity_qr_code_title">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Naskenovat QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pro zahájení konverzace naskenujte něčí QR kód</string>

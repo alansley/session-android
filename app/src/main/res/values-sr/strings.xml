@@ -200,7 +200,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s је на Sessionу!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Нестајуће поруке искључене</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Време нестајања поруке постављено на %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s је направио скриншут.</string>
     <string name="ThreadRecord_media_saved_by_s">Медију је сачувао %s.</string>
     <string name="ThreadRecord_safety_number_changed">Безбедносни број промењен</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш безбедносни број са %s је промењен.</string>
@@ -248,7 +247,7 @@
     <string name="other">Остало</string>
     <string name="NotificationChannel_missing_display_name">Непозната</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Брзи одговор није доступан ако је Session закључан!</string>
+    <string name="lockAppQuickResponse">Брзи одговор није доступан ако је Session закључан!</string>
     <string name="QuickResponseService_problem_sending_message">Проблем са слањем поруке!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Сачувано у %s</string>

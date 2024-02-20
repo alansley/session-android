@@ -203,7 +203,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="other">Shuk yupaykuna </string>
     <string name="NotificationChannel_missing_display_name">Mana riksishka</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Session  pakashka kakpika ñapash kutichitaka mana usharinchu</string>
+    <string name="lockAppQuickResponse">Session  pakashka kakpika ñapash kutichitaka mana usharinchu</string>
     <string name="QuickResponseService_problem_sending_message">Chaskita kachakushpa shuk llakimi rikurirka</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Kaypi allichishka %s</string>

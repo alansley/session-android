@@ -216,7 +216,7 @@
     <string name="other">Din</string>
     <string name="NotificationChannel_missing_display_name">Nenas</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Dema Session kilîdkirî be zû bersiv nabe!</string>
+    <string name="lockAppQuickResponse">Dema Session kilîdkirî be zû bersiv nabe!</string>
     <string name="QuickResponseService_problem_sending_message">Pirsgirêka şandina peyamê!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Li %s hat tomarkirin</string>

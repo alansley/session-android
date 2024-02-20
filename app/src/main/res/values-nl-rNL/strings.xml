@@ -193,7 +193,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s maakt gebruik van Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Zelf-wissende berichten uitgeschakeld</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Berichten zullen zichzelf wissen na %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s heeft een schermafbeelding genomen.</string>
     <string name="ThreadRecord_media_saved_by_s">Media opgeslagen door %s.</string>
     <string name="ThreadRecord_safety_number_changed">Veiligheidsnummer veranderd</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Je veiligheidsnummer met %s is veranderd.</string>
@@ -242,7 +241,7 @@
     <string name="other">Anders</string>
     <string name="NotificationChannel_missing_display_name">Onbekend</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Snel reageren niet beschikbaar wanneer Session vergrendeld is!</string>
+    <string name="lockAppQuickResponse">Snel reageren niet beschikbaar wanneer Session vergrendeld is!</string>
     <string name="QuickResponseService_problem_sending_message">Fout bij verzenden van bericht!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Opgeslagen naar %s</string>
@@ -542,7 +541,6 @@
     <string name="sessionInviteAFriend">Nodig een vriend uit</string>
     <string name="helpFAQ">Veelgestelde vragen (FAQ)</string>
     <string name="sessionClearData">Gegevens wissen</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Wis Data, Inclusief Netwerk</string>
     <string name="notificationsStyle">Notificatie stijl</string>
     <string name="activity_notification_settings_content_section_title">Notificatie inhoud</string>
     <string name="sessionPrivacy">Privacy</string>
@@ -551,11 +549,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">U wordt op een op een betrouwbare manier direct op de hoogte gebracht van nieuwe berichten via de notificatieservers van Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Naam wijzigen</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Apparaat ontkoppelen</string>
-    <string name="dialog_clear_all_data_title">Wis alle gegevens</string>
-    <string name="dialog_clear_all_data_explanation">Hiermee worden uw berichten, sessies en contacten permanent verwijderd.</string>
-    <string name="dialog_clear_all_data_network_explanation">Wilt u alleen de data op dit apparaat verwijderen, of wilt u uw hele account verwijderen?</string>
-    <string name="dialog_clear_all_data_local_only">Verwijder alleen</string>
-    <string name="dialog_clear_all_data_clear_network">Gehele account</string>
+    <string name="clearDataAll">Wis alle gegevens</string>
     <string name="activity_qr_code_title">QR-code</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Scan QR-code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scan iemands QR-code om een gesprek te beginnen</string>

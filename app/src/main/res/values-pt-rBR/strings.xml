@@ -193,7 +193,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s está em Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Mensagens desaparecendo desabilitadas</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Tempo de mensagem desaparecendo definido para %s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s fez uma captura de tela.</string>
     <string name="ThreadRecord_media_saved_by_s">Mídia salva por %s.</string>
     <string name="ThreadRecord_safety_number_changed">Número de segurança mudado</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Seu número de segurança com %s mudou.</string>
@@ -242,7 +241,7 @@
     <string name="other">Outro</string>
     <string name="NotificationChannel_missing_display_name">Desconhecida</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Resposta rápida indisponível quando Session está trancado!</string>
+    <string name="lockAppQuickResponse">Resposta rápida indisponível quando Session está trancado!</string>
     <string name="QuickResponseService_problem_sending_message">Problema enviando mensagem!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Salvo em %s</string>
@@ -542,7 +541,6 @@
     <string name="sessionInviteAFriend">Convide um amigo</string>
     <string name="helpFAQ">Perguntas Frequentes</string>
     <string name="sessionClearData">Limpar Dados</string>
-    <string name="activity_settings_clear_all_data_and_network_button_title">Limpar Dados Incluindo Rede</string>
     <string name="notificationsStyle">Estilo de Notificação</string>
     <string name="activity_notification_settings_content_section_title">Conteúdo de Notificação</string>
     <string name="sessionPrivacy">Privacidade</string>
@@ -551,11 +549,7 @@
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Você será notificado de forma confiável e imediata sobre novas mensagens usando os servidores de notificação da Google.</string>
     <string name="fragment_device_list_bottom_sheet_change_name_button_title">Mudar nome</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Deslinkar dispositivo</string>
-    <string name="dialog_clear_all_data_title">Limpar Todos os Dados</string>
-    <string name="dialog_clear_all_data_explanation">Isso excluirá permanentemente suas mensagens, sessões e contatos.</string>
-    <string name="dialog_clear_all_data_network_explanation">Você gostaria de limpar apenas este dispositivo, ou excluir toda sua conta?</string>
-    <string name="dialog_clear_all_data_local_only">Excluir apenas</string>
-    <string name="dialog_clear_all_data_clear_network">Toda a conta</string>
+    <string name="clearDataAll">Limpar Todos os Dados</string>
     <string name="activity_qr_code_title">Código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_tab_title">Escanear código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneie o código QR de alguém para iniciar uma conversa com essa pessoa</string>

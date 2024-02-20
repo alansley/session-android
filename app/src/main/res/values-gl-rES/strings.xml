@@ -192,7 +192,6 @@
     <string name="ThreadRecord_s_is_on_signal">%s está en Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Desaparición das mensaxes desactivada</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Desaparición das mensaxes establecida en%s</string>
-    <string name="ThreadRecord_s_took_a_screenshot">%s fixo unha captura de pantalla.</string>
     <string name="ThreadRecord_safety_number_changed">O número de seguranza cambiou</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">O teu número de seguranza con %s cambiou.</string>
     <string name="ThreadRecord_you_marked_verified">Marcaches como verificado</string>
@@ -238,7 +237,7 @@
     <string name="other">Outra</string>
     <string name="NotificationChannel_missing_display_name">Descoñecido</string>
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">A resposta rápida non está dispoñible cando Session está bloqueado!</string>
+    <string name="lockAppQuickResponse">A resposta rápida non está dispoñible cando Session está bloqueado!</string>
     <string name="QuickResponseService_problem_sending_message">Problema ao enviar a mensaxe!</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Gardado en %s</string>
