@@ -316,7 +316,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="displayNameErrorDescriptionShorter">Vui lòng chọn tên hiển thị ngắn hơn</string>
     <string name="recommended">Khuyến nghị</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Vui lòng lựa chọn </string>
-    <string name="activity_home_empty_state_message">Bạn chưa có danh bạ </string>
     <string name="activity_home_empty_state_button_title">Bắt đầu một Session</string>
     <string name="activity_home_leave_group_dialog_message">Bạn có chắc chắn rằng bạn muốn rời nhóm này không?</string>
     <string name="activity_home_leaving_group_failed_message">"Không thể rời nhóm"</string>
@@ -337,11 +336,8 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session cần truy cập máy ảnh để quét mã QR </string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Cho phép truy cập máy ảnh</string>
     <string name="groupNameEnter">Nhập tên nhóm</string>
-    <string name="activity_create_closed_group_empty_state_message">Bạn chưa có danh bạ nào </string>
     <string name="activity_create_closed_group_empty_state_button_title">Bắt đầu Session</string>
     <string name="groupNameEnterPlease">Vui lòng nhập tên nhóm</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Vui lòng nhập một tên nhóm ngắn hơn </string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Vui lòng chọn ít nhất 2 thành viên trong nhóm </string>
     <string name="activity_join_public_chat_title">Tham gia nhóm mở</string>
     <string name="activity_join_public_chat_error">Không thể tham gia nhóm</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">URL của nhóm mở</string>

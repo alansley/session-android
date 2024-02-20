@@ -79,14 +79,14 @@ class CreateGroupFragment : Fragment() {
                 return@setOnClickListener Toast.makeText(context, R.string.groupNameEnterPlease, Toast.LENGTH_LONG).show()
             }
             if (name.length >= 30) {
-                return@setOnClickListener Toast.makeText(context, R.string.activity_create_closed_group_group_name_too_long_error, Toast.LENGTH_LONG).show()
+                return@setOnClickListener Toast.makeText(context, R.string.groupNameEnterShorter, Toast.LENGTH_LONG).show()
             }
             val selectedMembers = adapter.selectedMembers
             if (selectedMembers.isEmpty()) {
-                return@setOnClickListener Toast.makeText(context, R.string.activity_create_closed_group_not_enough_group_members_error, Toast.LENGTH_LONG).show()
+                return@setOnClickListener Toast.makeText(context, R.string.groupCreateErrorNoMembers, Toast.LENGTH_LONG).show()
             }
             if (selectedMembers.count() >= groupSizeLimit) { // Minus one because we're going to include self later
-                return@setOnClickListener Toast.makeText(context, R.string.activity_create_closed_group_too_many_group_members_error, Toast.LENGTH_LONG).show()
+                return@setOnClickListener Toast.makeText(context, R.string.groupAddMemberMaximum, Toast.LENGTH_LONG).show()
             }
             val userPublicKey = TextSecurePreferences.getLocalNumber(requireContext())!!
             isLoading = true

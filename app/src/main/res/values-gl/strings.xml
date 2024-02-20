@@ -482,12 +482,8 @@
     <string name="qrScan">Escanear código QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Conceder acceso á cámara</string>
     <string name="groupNameEnter">Introduce o nome do grupo</string>
-    <string name="activity_create_closed_group_empty_state_message">Aínda non tes ningún contacto</string>
     <string name="activity_create_closed_group_empty_state_button_title">Iniciar unha sesión</string>
     <string name="groupNameEnterPlease">Por favor, introduce o nome do grupo</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Introduce un nome de grupo máis curto, por favor</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Por favor, selecciona polo menos un membro para o grupo</string>
-    <string name="activity_create_closed_group_too_many_group_members_error">Un grupo pechado non pode ter máis de 100 membros</string>
     <string name="activity_join_public_chat_title">Entrar no grupo aberto</string>
     <string name="activity_join_public_chat_error">Non foi posible entrar no grupo</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">URL do grupo aberto</string>
@@ -501,8 +497,6 @@
     <string name="activity_edit_closed_group_title">Editar grupo</string>
     <string name="activity_edit_closed_group_edit_members">Membros</string>
     <string name="activity_edit_closed_group_add_members">Engadir membros</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">Introduce un nome de grupo máis curto, por favor</string>
-    <string name="activity_edit_closed_group_not_enough_group_members_error">Os grupos deben ter polo menos 1 membro</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Eliminar usuario do grupo</string>
     <string name="dialog_join_open_group_explanation">Tes a certeza de querer entrar no grupo aberto %s?</string>
     <string name="activity_conversation_blocked_banner_text">%s está bloqueado. Desbloquealo?</string>

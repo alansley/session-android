@@ -490,7 +490,6 @@
     <string name="displayNameErrorDescriptionShorter">Zəhmət olmasa qısa bir ekran adı seçin</string>
     <string name="recommended">Tövsiyə edilən</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Zəhmət olmasa bir variant seçin</string>
-    <string name="activity_home_empty_state_message">Hələ ki, heç bir əlaqəniz yoxdur</string>
     <string name="activity_home_empty_state_button_title">Bir Session başladın</string>
     <string name="activity_home_leave_group_dialog_message">Bu qrupu tərk etmək istədiyinizə əminsiniz?</string>
     <string name="activity_home_leaving_group_failed_message">"Qrupu tərk etmək alınmadı"</string>
@@ -513,12 +512,8 @@
     <string name="fragment_scan_qr_code_camera_access_explanation">Session, QR kodunu skan etmək üçün kameraya müraciət etməlidir</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Kameraya müraciətə icazə ver</string>
     <string name="groupNameEnter">Qrup adını daxil edin</string>
-    <string name="activity_create_closed_group_empty_state_message">Hələ heç bir əlaqəniz yoxdur</string>
     <string name="activity_create_closed_group_empty_state_button_title">Bir Seans Başladın</string>
     <string name="groupNameEnterPlease">Zəhmət olmasa bir qrup adı daxil edin</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Qısa qrup adı daxil edin</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Ən azı 1 qrup üzvü seçin</string>
-    <string name="activity_create_closed_group_too_many_group_members_error">Bağlı qrupda 100-dən çox üzv ola bilməz</string>
     <string name="activity_join_public_chat_title">Açıq Qrupa Qoşul</string>
     <string name="activity_join_public_chat_error">Qrupa qoşulmaq olmur</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">Açıq Qrup URL-si</string>
@@ -545,15 +540,12 @@
     <string name="fragment_contact_selection_contacts_title">Əlaqələr</string>
     <string name="fragment_contact_selection_closed_groups_title">Bağlı qruplar</string>
     <string name="fragment_contact_selection_open_groups_title">Açıq qruplar</string>
-    <string name="fragment_contact_selection_empty_contacts">Hələ heç bir əlaqəniz yoxdur</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Tətbiq et</string>
     <string name="done">Bitdi</string>
     <string name="activity_edit_closed_group_title">Qrupa düzəliş et</string>
     <string name="activity_edit_closed_group_edit_members">Üzvlər</string>
     <string name="activity_edit_closed_group_add_members">Üzv əlavə et</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">Qısa qrup adı daxil edin</string>
-    <string name="activity_edit_closed_group_not_enough_group_members_error">Qrupun ən azı bir üzvü olmalıdır</string>
     <string name="fragment_edit_group_bottom_sheet_remove">İstifadəçini qrupdan çıxart</string>
     <string name="activity_select_contacts_title">Əlaqələri seç</string>
     <string name="view_reset_secure_session_done_message">Güvənli seans sıfırlanması bitdi</string>

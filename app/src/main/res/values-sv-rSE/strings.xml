@@ -489,7 +489,6 @@ för nyckelutbyte!</string>
     <string name="displayNameErrorDescriptionShorter">Vänligen välj ett kortare visningsnamn</string>
     <string name="recommended">Rekommenderat</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Välj ett alternativ</string>
-    <string name="activity_home_empty_state_message">Du har inga kontakter än</string>
     <string name="activity_home_empty_state_button_title">Starta en Session</string>
     <string name="activity_home_leave_group_dialog_message">Är du säker på att du vill lämna den här gruppen?</string>
     <string name="activity_home_leaving_group_failed_message">"Kunde inte lämna gruppen"</string>
@@ -512,12 +511,8 @@ för nyckelutbyte!</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Sessionen behöver kameraåtkomst för att skanna QR-koder</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Tillåt kameraåtkomst</string>
     <string name="groupNameEnter">Ange ett gruppnamn</string>
-    <string name="activity_create_closed_group_empty_state_message">Du har inga kontakter</string>
     <string name="activity_create_closed_group_empty_state_button_title">Starta en Session</string>
     <string name="groupNameEnterPlease">Vänligen ange ett gruppnamn</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Vänligen ange ett kortare namn för gruppen</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Välj minst 1 gruppmedlem</string>
-    <string name="activity_create_closed_group_too_many_group_members_error">En sluten grupp kan inte ha fler än 100 medlemmar</string>
     <string name="activity_join_public_chat_title">Gå med i öppen grupp</string>
     <string name="activity_join_public_chat_error">Kunde inte ansluta till gruppen</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">Öppna grupp-URL</string>
@@ -544,15 +539,12 @@ för nyckelutbyte!</string>
     <string name="fragment_contact_selection_contacts_title">Kontakter</string>
     <string name="fragment_contact_selection_closed_groups_title">Stängda Grupper</string>
     <string name="fragment_contact_selection_open_groups_title">Öppna Grupper</string>
-    <string name="fragment_contact_selection_empty_contacts">Du har inga kontakter än</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Tillämpa</string>
     <string name="done">Klar</string>
     <string name="activity_edit_closed_group_title">Redigera Grupp</string>
     <string name="activity_edit_closed_group_edit_members">Medlemmar</string>
     <string name="activity_edit_closed_group_add_members">Lägg till medlemmar</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">Vänligen ange ett kortare gruppnamn</string>
-    <string name="activity_edit_closed_group_not_enough_group_members_error">Grupper måste ha minst 1 gruppmedlem</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Ta bort användare från grupp</string>
     <string name="activity_select_contacts_title">Välj Kontakter</string>
     <string name="view_reset_secure_session_done_message">Säker Session återställd</string>

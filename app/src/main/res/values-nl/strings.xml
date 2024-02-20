@@ -490,7 +490,6 @@
     <string name="displayNameErrorDescriptionShorter">Kies a.u.b. een kortere weergavenaam</string>
     <string name="recommended">Aanbevolen</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Gelieve een optie te selecteren</string>
-    <string name="activity_home_empty_state_message">U heeft nog geen contactpersonen</string>
     <string name="activity_home_empty_state_button_title">Sessie starten</string>
     <string name="activity_home_leave_group_dialog_message">Weet u zeker dat u deze groep wilt verlaten?</string>
     <string name="activity_home_leaving_group_failed_message">"Kon de groep niet verlaten"</string>
@@ -513,12 +512,8 @@
     <string name="fragment_scan_qr_code_camera_access_explanation">Sessie heeft cameratoegang nodig om QR-codes te scannen</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Toegang tot camera verlenen</string>
     <string name="groupNameEnter">Vul een groepsnaam in</string>
-    <string name="activity_create_closed_group_empty_state_message">U heeft nog geen contactpersonen</string>
     <string name="activity_create_closed_group_empty_state_button_title">Sessie starten</string>
     <string name="groupNameEnterPlease">Vul een groepsnaam in</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Vul a.u.b. een kortere groepsnaam in</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Kies ten minste één groepslid</string>
-    <string name="activity_create_closed_group_too_many_group_members_error">Een gesloten groep kan niet meer dan 100 leden hebben</string>
     <string name="activity_join_public_chat_title">Deelnemen aan open groep</string>
     <string name="activity_join_public_chat_error">Kon niet deelnemen aan de groep</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">Groep-URL openen</string>
@@ -545,15 +540,12 @@
     <string name="fragment_contact_selection_contacts_title">Contacten</string>
     <string name="fragment_contact_selection_closed_groups_title">Gesloten groepen</string>
     <string name="fragment_contact_selection_open_groups_title">Open groepen</string>
-    <string name="fragment_contact_selection_empty_contacts">U heeft nog geen contactpersonen</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Toepassen</string>
     <string name="done">Klaar</string>
     <string name="activity_edit_closed_group_title">Groep bewerken</string>
     <string name="activity_edit_closed_group_edit_members">Leden</string>
     <string name="activity_edit_closed_group_add_members">Leden toevoegen</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">Vul a.u.b. een kortere groepsnaam in</string>
-    <string name="activity_edit_closed_group_not_enough_group_members_error">Groepen moeten ten minste één groepslid hebben</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Gebruiker uit de groep verwijderen</string>
     <string name="activity_select_contacts_title">Contacten selecteren</string>
     <string name="view_reset_secure_session_done_message">Beveiligde sessie opnieuw ingesteld</string>

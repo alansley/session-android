@@ -247,7 +247,7 @@ class EditClosedGroupActivity : PassphraseRequiredActionBarActivity() {
             return Toast.makeText(this, R.string.groupNameEnterPlease, Toast.LENGTH_SHORT).show()
         }
         if (name.length >= 64) {
-            return Toast.makeText(this, R.string.activity_edit_closed_group_group_name_too_long_error, Toast.LENGTH_SHORT).show()
+            return Toast.makeText(this, R.string.groupNameEnterShorter, Toast.LENGTH_SHORT).show()
         }
         this.name = name
         lblGroupNameDisplay.text = name
@@ -282,12 +282,12 @@ class EditClosedGroupActivity : PassphraseRequiredActionBarActivity() {
         }
 
         if (members.isEmpty()) {
-            return Toast.makeText(this, R.string.activity_edit_closed_group_not_enough_group_members_error, Toast.LENGTH_LONG).show()
+            return Toast.makeText(this, R.string.groupCreateErrorNoMembers, Toast.LENGTH_LONG).show()
         }
 
         val maxGroupMembers = if (isClosedGroup) groupSizeLimit else legacyGroupSizeLimit
         if (members.size >= maxGroupMembers) {
-            return Toast.makeText(this, R.string.activity_create_closed_group_too_many_group_members_error, Toast.LENGTH_LONG).show()
+            return Toast.makeText(this, R.string.groupAddMemberMaximum, Toast.LENGTH_LONG).show()
         }
 
         val userPublicKey = TextSecurePreferences.getLocalNumber(this)!!

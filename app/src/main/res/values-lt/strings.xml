@@ -508,7 +508,6 @@
     <string name="displayNameErrorDescriptionShorter">Pasirinkite trumpesnį rodomą vardą</string>
     <string name="recommended">Rekomenduojama</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pasirinkite parinktį</string>
-    <string name="activity_home_empty_state_message">Kol kas neturite jokių adresatų</string>
     <string name="activity_home_leave_group_dialog_message">Ar tikrai norite išeiti iš šios grupės?</string>
     <string name="activity_home_leaving_group_failed_message">"Nepavyko išeiti iš grupės"</string>
     <string name="conversationsDeleted">Pokalbis ištrintas</string>
@@ -526,11 +525,7 @@
     <string name="qrScan">Skenuoti QR kodą</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Suteikti prieigą prie kameros</string>
     <string name="groupNameEnter">Įveskite grupės pavadinimą</string>
-    <string name="activity_create_closed_group_empty_state_message">Kol kas neturite jokių adresatų</string>
     <string name="groupNameEnterPlease">Įveskite grupės pavadinimą</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Įveskite trumpesnį grupės pavadinimą</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Pasirinkite bent 1 grupės narį</string>
-    <string name="activity_create_closed_group_too_many_group_members_error">Uždaroje grupėje negali būti daugiau kaip 100 narių</string>
     <string name="activity_join_public_chat_title">Prisijungti prie atviros grupės</string>
     <string name="activity_join_public_chat_error">Nepavyko prisijungti prie grupės</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">Atviros grupės URL</string>
@@ -554,15 +549,12 @@
     <string name="fragment_contact_selection_contacts_title">Adresatai</string>
     <string name="fragment_contact_selection_closed_groups_title">Uždaros grupės</string>
     <string name="fragment_contact_selection_open_groups_title">Atviros grupės</string>
-    <string name="fragment_contact_selection_empty_contacts">Kol kas neturite jokių adresatų</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Taikyti</string>
     <string name="done">Atlikta</string>
     <string name="activity_edit_closed_group_title">Taisyti grupę</string>
     <string name="activity_edit_closed_group_edit_members">Nariai</string>
     <string name="activity_edit_closed_group_add_members">Pridėti narius</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">Įveskite trumpesnį grupės pavadinimą</string>
-    <string name="activity_edit_closed_group_not_enough_group_members_error">Grupėse privalo būti bent 1 grupės narys</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Šalinti naudotoją iš grupės</string>
     <string name="appearanceThemes">Apipavidalinimas</string>
     <string name="dialog_ui_mode_option_day">Dieninis</string>

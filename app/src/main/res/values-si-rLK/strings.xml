@@ -192,7 +192,6 @@
     <string name="recommended">නිර්දේශිත</string>
     <string name="groupNameEnter">සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="groupNameEnterPlease">සමූහ නාමයක් ඇතුල් කරන්න</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">කෙටි සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="activity_join_public_chat_title">විවෘත සමූහයට එක්වන්න</string>
     <string name="activity_join_public_chat_error">සමූහයට එක්වීමට නොහැකි විය</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">සමූහයේ ඒ.ස.නි. විවෘත කරන්න</string>
@@ -207,13 +206,11 @@
     <string name="fragment_contact_selection_contacts_title">සබඳතා</string>
     <string name="fragment_contact_selection_closed_groups_title">සංවෘත සමූහ</string>
     <string name="fragment_contact_selection_open_groups_title">විවෘත සමූහ</string>
-    <string name="fragment_contact_selection_empty_contacts">ඔබට තවම කිසිම සබඳතාවක් නැත</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">යොදන්න</string>
     <string name="activity_edit_closed_group_title">සමූහය සංස්කරණය</string>
     <string name="activity_edit_closed_group_edit_members">සාමාජිකයින්</string>
     <string name="activity_edit_closed_group_add_members">සාමාජිකයින් එකතු කරන්න</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">කෙටි සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="fragment_edit_group_bottom_sheet_remove">පරිශීලක සමූහයෙන් ඉවත් කරන්න</string>
     <string name="appearanceThemes">තේමාව</string>
     <string name="dialog_ui_mode_option_day">දවස</string>

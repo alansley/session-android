@@ -487,7 +487,6 @@ udveksel besked!</string>
     <string name="displayNameErrorDescription">Vælg venligst et display navn</string>
     <string name="displayNameErrorDescriptionShorter">Vælg venligst et kortere display navn</string>
     <string name="recommended">Anbefalet</string>
-    <string name="activity_home_empty_state_message">Du har ingen kontakter endnu</string>
     <string name="activity_home_empty_state_button_title">Start en Session</string>
     <string name="activity_home_leave_group_dialog_message">Er du sikker på, at du vil forlade denne gruppe?</string>
     <string name="activity_home_leaving_group_failed_message">"Kunne ikke forlade gruppen"</string>
@@ -506,9 +505,7 @@ udveksel besked!</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session skal bruge kameraadgang for at scanne QR-koder</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Tildel Adgang Til Kamera</string>
     <string name="groupNameEnter">Indtast et gruppenavn</string>
-    <string name="activity_create_closed_group_empty_state_message">Du har ingen kontakter endnu</string>
     <string name="activity_create_closed_group_empty_state_button_title">Start en Session</string>
-    <string name="activity_create_closed_group_too_many_group_members_error">En lukket gruppe kan ikke have over 100 medlemmer</string>
     <string name="activity_join_public_chat_error">Kunne ikke joine gruppen</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">Åbn Gruppe URL</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scan QR-koden for den åbne gruppe, du gerne vil deltage i</string>
@@ -532,15 +529,12 @@ udveksel besked!</string>
     <string name="fragment_contact_selection_contacts_title">Kontakter</string>
     <string name="fragment_contact_selection_closed_groups_title">Lukkede Grupper</string>
     <string name="fragment_contact_selection_open_groups_title">Åbne Grupper</string>
-    <string name="fragment_contact_selection_empty_contacts">Du har ingen kontakter endnu</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Anvend</string>
     <string name="done">Færdig</string>
     <string name="activity_edit_closed_group_title">Rediger Gruppe</string>
     <string name="activity_edit_closed_group_edit_members">Medlemmer</string>
     <string name="activity_edit_closed_group_add_members">Tilføj medlemmer</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">Indtast venligst et kortere gruppenavn</string>
-    <string name="activity_edit_closed_group_not_enough_group_members_error">Grupper skal have mindst 1 gruppemedlem</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Fjern bruger fra gruppe</string>
     <string name="activity_select_contacts_title">Vælg Kontakter</string>
     <string name="view_reset_secure_session_done_message">Sikker sessions nulstilling færdig</string>

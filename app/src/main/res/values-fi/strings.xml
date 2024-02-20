@@ -488,7 +488,6 @@ on viallinen!</string>
     <string name="displayNameErrorDescriptionShorter">Valitse lyhyempi näyttönimi</string>
     <string name="recommended">Suositeltu</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Valitse vaihtoehto</string>
-    <string name="activity_home_empty_state_message">Sinulla ei ole yhteystietoja</string>
     <string name="activity_home_empty_state_button_title">Aloita ryhmä</string>
     <string name="activity_home_leave_group_dialog_message">Haluatko varmasti poistua tästä ryhmästä?</string>
     <string name="activity_home_leaving_group_failed_message">"Ryhmästä ei voitu poistua"</string>
@@ -511,12 +510,8 @@ on viallinen!</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session tarvitsee kameran käyttöoikeuden skannatakseensa QR-koodit</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Myönnä Kameran Käyttöoikeus</string>
     <string name="groupNameEnter">Syötä ryhmän nimi</string>
-    <string name="activity_create_closed_group_empty_state_message">Sinulla ei ole yhteystietoja</string>
     <string name="activity_create_closed_group_empty_state_button_title">Aloita ryhmä</string>
     <string name="groupNameEnterPlease">Syötä ryhmän nimi</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Anna lyhyempi ryhmän nimi</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Valitse vähintään 1 ryhmän jäsen</string>
-    <string name="activity_create_closed_group_too_many_group_members_error">Yksityisessä ryhmässä voi olla enintään 100 jäsentä</string>
     <string name="activity_join_public_chat_title">Liity Avoimeen Ryhmään</string>
     <string name="activity_join_public_chat_error">Ryhmään ei voitu liittyä</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">Avaa Ryhmän URL</string>
@@ -543,15 +538,12 @@ on viallinen!</string>
     <string name="fragment_contact_selection_contacts_title">Yhteystiedot</string>
     <string name="fragment_contact_selection_closed_groups_title">Suljetut Ryhmät</string>
     <string name="fragment_contact_selection_open_groups_title">Avoimet Ryhmät</string>
-    <string name="fragment_contact_selection_empty_contacts">Sinulla ei ole vielä yhtään kontaktia</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Käytä</string>
     <string name="done">Valmis</string>
     <string name="activity_edit_closed_group_title">Muokkaa ryhmää</string>
     <string name="activity_edit_closed_group_edit_members">Jäsenet</string>
     <string name="activity_edit_closed_group_add_members">Lisää jäseniä</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">Anna lyhyempi ryhmän nimi</string>
-    <string name="activity_edit_closed_group_not_enough_group_members_error">Ryhmillä on oltava vähintään 1 ryhmän jäsen</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Poista käyttäjä ryhmästä</string>
     <string name="activity_select_contacts_title">Valitse Yhteystiedot</string>
     <string name="view_reset_secure_session_done_message">Suojattu istunto alustettu</string>

@@ -484,7 +484,6 @@ d\'intercanvi de claus!</string>
     <string name="displayNameErrorDescriptionShorter">Selecciona un nom de visualització més curt</string>
     <string name="recommended">Recomanat</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Selecciona una opció, si us plau</string>
-    <string name="activity_home_empty_state_message">Encara no tens cap contacte</string>
     <string name="activity_home_empty_state_button_title">Enceta un Session</string>
     <string name="activity_home_leave_group_dialog_message">Segur que vols abandonar aquest grup?</string>
     <string name="activity_home_leaving_group_failed_message">"No s'ha pogut marxar del grup"</string>
@@ -506,12 +505,8 @@ d\'intercanvi de claus!</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session necessita accés a la càmera per escanejar codis QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Permet accés a la càmera</string>
     <string name="groupNameEnter">Introdueix un nom de grup</string>
-    <string name="activity_create_closed_group_empty_state_message">Encara no tens cap contacte</string>
     <string name="activity_create_closed_group_empty_state_button_title">Enceta un Session</string>
     <string name="groupNameEnterPlease">Entra un nom de grup, si us plau</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Entra un nom de grup més curt, si us plau</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Com a mínim, tria 1 membre per al grup, si us plau</string>
-    <string name="activity_create_closed_group_too_many_group_members_error">Un grup tancat no pot tenir més de 100 membres</string>
     <string name="activity_join_public_chat_title">Uneix-te a un Grup Obert</string>
     <string name="activity_join_public_chat_error">No t\'has pogut unir al grup</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">URL de Grup Obert</string>
@@ -534,15 +529,12 @@ d\'intercanvi de claus!</string>
     <string name="fragment_contact_selection_contacts_title">Contactes</string>
     <string name="fragment_contact_selection_closed_groups_title">Grups tancats</string>
     <string name="fragment_contact_selection_open_groups_title">Grups oberts</string>
-    <string name="fragment_contact_selection_empty_contacts">Encara no hi tens cap contacte</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Aplica</string>
     <string name="done">Fet</string>
     <string name="activity_edit_closed_group_title">Edita el Grup</string>
     <string name="activity_edit_closed_group_edit_members">Membres</string>
     <string name="activity_edit_closed_group_add_members">Afegeix membres</string>
-    <string name="activity_edit_closed_group_group_name_too_long_error">Introdueix un nom de grup mes curt, si us plau</string>
-    <string name="activity_edit_closed_group_not_enough_group_members_error">Els grups han de tenir com a mínim 1 membre</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Elimina l\'usuari del grup</string>
     <string name="activity_select_contacts_title">Selecciona contactes</string>
     <string name="view_reset_secure_session_done_message">S\'ha fet el restabliment de la sessió segura</string>

@@ -485,7 +485,6 @@ foi recebida está corrompida!</string>
     <string name="displayNameErrorDescriptionShorter">Escolha um nome de exibição mais curto</string>
     <string name="recommended">Recomendado</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Escolha uma opção</string>
-    <string name="activity_home_empty_state_message">Você ainda não possui contatos</string>
     <string name="activity_home_empty_state_button_title">Iniciar uma sessão</string>
     <string name="activity_home_leave_group_dialog_message">Tem certeza de que deseja sair deste grupo?</string>
     <string name="activity_home_leaving_group_failed_message">"Não foi possível sair do grupo"</string>
@@ -508,11 +507,8 @@ foi recebida está corrompida!</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">O Session precisa de acesso à câmera para escanear códigos QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Conceder acesso à câmera</string>
     <string name="groupNameEnter">Digite o nome do grupo</string>
-    <string name="activity_create_closed_group_empty_state_message">Você ainda não possui contatos</string>
     <string name="activity_create_closed_group_empty_state_button_title">Iniciar uma sessão</string>
     <string name="groupNameEnterPlease">Digite um nome de grupo</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Digite um nome de grupo mais curto</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Por favor escolha pelo menos 1 membro para o grupo</string>
     <string name="activity_join_public_chat_title">Participar em grupo aberto</string>
     <string name="activity_join_public_chat_error">Não foi possível entrar no grupo</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">URL do grupo aberto</string>

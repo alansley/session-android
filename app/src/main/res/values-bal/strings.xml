@@ -401,7 +401,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="displayNameErrorDescriptionShorter">Nama yang dibuat terlalu panjang</string>
     <string name="recommended">Direkomendasikan</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pilih salah satu opsi</string>
-    <string name="activity_home_empty_state_message">Anda belum memiliki kontak</string>
     <string name="activity_home_empty_state_button_title">Mulai sebuah Session</string>
     <string name="activity_home_leave_group_dialog_message">Apakah anda yakin ingin meninggalkan grup ini?</string>
     <string name="activity_home_leaving_group_failed_message">"Tak bisa meninggalkan grup"</string>
@@ -421,11 +420,8 @@ memproses pertukaran kunci korupsi.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session membutuhkan akses kamera untuk memindai kode QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Berikan akses kamera</string>
     <string name="groupNameEnter">Masukkan nama grup</string>
-    <string name="activity_create_closed_group_empty_state_message">anda belum memiliki kontak</string>
     <string name="activity_create_closed_group_empty_state_button_title">Mulai sebuah Session</string>
     <string name="groupNameEnterPlease">Masukkan nama grup</string>
-    <string name="activity_create_closed_group_group_name_too_long_error">Masukkan nama grup yang lebih pendek</string>
-    <string name="activity_create_closed_group_not_enough_group_members_error">Pilih setidaknya 2 anggota grup</string>
     <string name="activity_join_public_chat_title">Gabung ke grup terbuka</string>
     <string name="activity_join_public_chat_error">Tak bisa bergabung dengan grup</string>
     <string name="activity_join_public_chat_enter_group_url_tab_title">Buka URL grup</string>
