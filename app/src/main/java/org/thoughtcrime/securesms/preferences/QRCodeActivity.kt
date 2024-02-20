@@ -52,7 +52,7 @@ class QRCodeActivity : PassphraseRequiredActionBarActivity(), ScanQRCodeWrapperF
     }
 
     fun createPrivateChatIfPossible(hexEncodedPublicKey: String) {
-        if (!PublicKeyValidation.isValid(hexEncodedPublicKey)) { return Toast.makeText(this, R.string.invalid_session_id, Toast.LENGTH_SHORT).show() }
+        if (!PublicKeyValidation.isValid(hexEncodedPublicKey)) { return Toast.makeText(this, R.string.accountIdErrorInvalid, Toast.LENGTH_SHORT).show() }
         val recipient = Recipient.from(this, Address.fromSerialized(hexEncodedPublicKey), false)
         val intent = Intent(this, ConversationActivityV2::class.java)
         intent.putExtra(ConversationActivityV2.ADDRESS, recipient.address)
@@ -88,7 +88,7 @@ private class QRCodeActivityAdapter(val activity: QRCodeActivity) : FragmentPage
     override fun getPageTitle(index: Int): CharSequence? {
         return when (index) {
             0 -> activity.resources.getString(R.string.view)
-            1 -> activity.resources.getString(R.string.activity_qr_code_view_scan_qr_code_tab_title)
+            1 -> activity.resources.getString(R.string.qrScan)
             else -> throw IllegalStateException()
         }
     }
@@ -116,7 +116,7 @@ class ViewMyQRCodeFragment : Fragment() {
         binding.qrCodeImageView.setImageBitmap(qrCode)
 //        val explanation = SpannableStringBuilder("This is your unique public QR code. Other users can scan this to start a conversation with you.")
 //        explanation.setSpan(StyleSpan(Typeface.BOLD), 8, 34, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
-        binding.explanationTextView.text = resources.getString(R.string.fragment_view_my_qr_code_explanation)
+        binding.explanationTextView.text = resources.getString(R.string.qrYoursDescription)
         binding.shareButton.setOnClickListener { shareQRCode() }
     }
 

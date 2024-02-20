@@ -244,7 +244,7 @@ class EditClosedGroupActivity : PassphraseRequiredActionBarActivity() {
     private fun saveName() {
         val name = edtGroupName.text.toString().trim()
         if (name.isEmpty()) {
-            return Toast.makeText(this, R.string.activity_edit_closed_group_group_name_missing_error, Toast.LENGTH_SHORT).show()
+            return Toast.makeText(this, R.string.groupNameEnterPlease, Toast.LENGTH_SHORT).show()
         }
         if (name.length >= 64) {
             return Toast.makeText(this, R.string.activity_edit_closed_group_group_name_too_long_error, Toast.LENGTH_SHORT).show()

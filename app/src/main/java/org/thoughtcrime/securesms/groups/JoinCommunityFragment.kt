@@ -108,7 +108,7 @@ class JoinCommunityFragment : Fragment() {
         val mediator = TabLayoutMediator(binding.tabLayout, binding.viewPager) { tab, pos ->
             tab.text = when (pos) {
                 0 -> getString(R.string.activity_join_public_chat_enter_community_url_tab_title)
-                1 -> getString(R.string.activity_join_public_chat_scan_qr_code_tab_title)
+                1 -> getString(R.string.qrScan)
                 else -> throw IllegalStateException()
             }
         }

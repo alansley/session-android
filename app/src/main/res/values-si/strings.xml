@@ -190,8 +190,8 @@
     <string name="view_fake_chat_bubble_1">සෙෂන් යනු කුමක්ද?</string>
     <string name="activity_restore_title">ගිණුම ප්‍රත්‍යර්පණය කරන්න</string>
     <string name="recommended">නිර්දේශිත</string>
-    <string name="activity_create_closed_group_edit_text_hint">සමූහ නාමයක් ඇතුල් කරන්න</string>
-    <string name="activity_create_closed_group_group_name_missing_error">සමූහ නාමයක් ඇතුල් කරන්න</string>
+    <string name="groupNameEnter">සමූහ නාමයක් ඇතුල් කරන්න</string>
+    <string name="groupNameEnterPlease">සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="activity_create_closed_group_group_name_too_long_error">කෙටි සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="activity_join_public_chat_title">විවෘත සමූහයට එක්වන්න</string>
     <string name="activity_join_public_chat_error">සමූහයට එක්වීමට නොහැකි විය</string>
@@ -211,10 +211,8 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">යොදන්න</string>
     <string name="activity_edit_closed_group_title">සමූහය සංස්කරණය</string>
-    <string name="activity_edit_closed_group_edit_text_hint">නව සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="activity_edit_closed_group_edit_members">සාමාජිකයින්</string>
     <string name="activity_edit_closed_group_add_members">සාමාජිකයින් එකතු කරන්න</string>
-    <string name="activity_edit_closed_group_group_name_missing_error">සමූහයේ නම හිස්විය නොහැකිය</string>
     <string name="activity_edit_closed_group_group_name_too_long_error">කෙටි සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="fragment_edit_group_bottom_sheet_remove">පරිශීලක සමූහයෙන් ඉවත් කරන්න</string>
     <string name="appearanceThemes">තේමාව</string>

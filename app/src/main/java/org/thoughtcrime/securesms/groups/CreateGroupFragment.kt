@@ -76,7 +76,7 @@ class CreateGroupFragment : Fragment() {
             if (isLoading) return@setOnClickListener
             val name = binding.nameEditText.text.trim()
             if (name.isEmpty()) {
-                return@setOnClickListener Toast.makeText(context, R.string.activity_create_closed_group_group_name_missing_error, Toast.LENGTH_LONG).show()
+                return@setOnClickListener Toast.makeText(context, R.string.groupNameEnterPlease, Toast.LENGTH_LONG).show()
             }
             if (name.length >= 30) {
                 return@setOnClickListener Toast.makeText(context, R.string.activity_create_closed_group_group_name_too_long_error, Toast.LENGTH_LONG).show()

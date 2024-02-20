@@ -52,7 +52,7 @@ class NewMessageFragment : Fragment() {
         val mediator = TabLayoutMediator(binding.tabLayout, binding.viewPager) { tab, pos ->
             tab.text = when (pos) {
                 0 -> getString(R.string.accountIdEnter)
-                1 -> getString(R.string.activity_create_private_chat_scan_qr_code_tab_title)
+                1 -> getString(R.string.qrScan)
                 else -> throw IllegalStateException()
             }
         }

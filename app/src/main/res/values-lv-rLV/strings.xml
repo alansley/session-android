@@ -183,9 +183,7 @@
     <string name="activity_notification_settings_content_section_title">Paziņojuma saturs</string>
     <string name="clearDataAll">Izdzēst visus datus</string>
     <string name="activity_qr_code_title">QR kods</string>
-    <string name="activity_qr_code_view_scan_qr_code_tab_title">Skenēt QR kodu</string>
     <string name="fragment_view_my_qr_code_title">Skanē mani</string>
-    <string name="fragment_view_my_qr_code_explanation">Šis ir tavs QR kods. Lai uzsāktu sesiju ar tevi, citi lietotāji var noskenēt to.</string>
     <string name="fragment_view_my_qr_code_share_title">Dalīties ar QR kodu</string>
     <string name="fragment_contact_selection_contacts_title">Kontakti</string>
     <string name="fragment_contact_selection_closed_groups_title">Slēgtās grupas</string>
@@ -195,7 +193,6 @@
     <string name="activity_edit_closed_group_title">Rediģēt grupu</string>
     <string name="activity_edit_closed_group_edit_members">Dalībnieki</string>
     <string name="activity_edit_closed_group_add_members">Pievienot dalībniekus</string>
-    <string name="activity_edit_closed_group_group_name_missing_error">Grupas nosakukums nevar būt tukšs</string>
     <string name="activity_edit_closed_group_group_name_too_long_error">Lūdzu, ievadiet īsāku grupas nosaukumu</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Dzēst lietotāju no grupas</string>
     <string name="activity_select_contacts_title">Izvēlieties kontaktus</string>
