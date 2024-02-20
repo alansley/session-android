@@ -65,11 +65,9 @@
     <string name="ConversationActivity_unblock_this_contact_question">Buka blokir kontak ini?</string>
     <string name="ConversationActivity_unblock">Buka blokir</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Lampiran melebihi batas ukuran untuk tipe pesan yang Anda kirimkan.</string>
-    <string name="ConversationActivity_unable_to_record_audio">Tidak dapat merekam audio!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi yang tersedia untuk menangani tautan ini di perangkat Anda.</string>
     <string name="ConversationActivity_invite_to_open_group">Tambahkan anggota</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Session membutuhkan akses mikrofon untuk mengirim pesan suara.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session membutuhkan izin mikrofon untuk mengirim pesan suara, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Mikrofon\".</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Session membutuhkan izin mikrofon untuk mengirim pesan suara, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session membutuhkan akses kamera untuk mengambil foto dan video.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session membutuhkan akses penyimpanan untuk mengirim foto dan video.</string>
     <string name="ConversationActivity_search_position">%1$d dari %2$d</string>
@@ -180,8 +178,7 @@
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Pesan MMS terenkripsi buruk</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Sentuh untuk membuka.</string>
-    <string name="KeyCachingService_passphrase_cached">Session terbuka</string>
+    <string name="lockAppUnlocked">Session terbuka</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Anda</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Jenis media tidak mendukung</string>
@@ -203,7 +200,7 @@
     <string name="NotificationChannel_calls">Panggilan</string>
     <string name="NotificationChannel_failures">Gagal</string>
     <string name="NotificationChannel_backups">Backup</string>
-    <string name="NotificationChannel_locked_status">Status kunci</string>
+    <string name="lockAppStatus">Status kunci</string>
     <string name="NotificationChannel_app_updates">Pembaruan aplikasi</string>
     <string name="other">Lainnya</string>
     <string name="NotificationChannel_missing_display_name">Tidak Dikenal</string>
@@ -420,12 +417,11 @@
     <string name="appearanceThemes">Tema</string>
     <string name="dialog_ui_mode_option_day">Day</string>
     <string name="dialog_ui_mode_option_night">Night</string>
-    <string name="attachment_type_voice_message">Pesan Suara</string>
+    <string name="messageVoice">Pesan Suara</string>
     <string name="details">Detail</string>
     <string name="activity_backup_restore_select_file">Pilih file</string>
     <string name="activity_link_device_scan_qr_code">Pindai kode QR</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session sesekali akan memeriksa pesan baru di latar belakang.</string>
-    <string name="activity_prompt_passphrase_session_locked">Session terkunci</string>
     <string name="dialog_blocked_title">Buka blokir %s?</string>
     <string name="dialog_blocked_explanation">Apakah anda yakin ingin membuka blokir %s?</string>
     <string name="dialog_open_url_title">Buka URL?</string>

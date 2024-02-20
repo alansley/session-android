@@ -1775,8 +1775,8 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         } else {
             Permissions.with(this)
                 .request(Manifest.permission.RECORD_AUDIO)
-                .withRationaleDialog(getString(R.string.ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone), R.drawable.ic_baseline_mic_48)
-                .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages))
+                .withRationaleDialog(getString(R.string.permissionsMicrophoneAccessRequired), R.drawable.ic_baseline_mic_48)
+                .withPermanentDenialDialog(getString(R.string.permissionsMicrophoneAccessRequiredAndroid))
                 .execute()
         }
     }
@@ -1796,7 +1796,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
             }
 
             override fun onFailure(e: ExecutionException) {
-                Toast.makeText(this@ConversationActivityV2, R.string.ConversationActivity_unable_to_record_audio, Toast.LENGTH_LONG).show()
+                Toast.makeText(this@ConversationActivityV2, R.string.audioUnableToRecord, Toast.LENGTH_LONG).show()
             }
         })
     }

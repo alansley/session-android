@@ -69,11 +69,9 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Volverá ser posible que recibas mensaxes e chamadas deste contacto.</string>
     <string name="ConversationActivity_unblock">Desbloquear</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">O anexo excede o tamaño límite para o tipo de mensaxe que estás a enviar.</string>
-    <string name="ConversationActivity_unable_to_record_audio">Non é posible gravar audio!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Non hai ningunha app que poida abrir esta ligazón no teu dispositivo.</string>
     <string name="ConversationActivity_invite_to_open_group">Engadir membros</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Para enviar mensaxes de audio, Session necesita acceder ao teu micrófono.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session require permiso para poder enviar mensaxes de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\".</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Session require permiso para poder enviar mensaxes de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Para tirar fotografías e facer vídeos, Session necesita acceder á cámara.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Para enviar fotografías e vídeos, Session necesita acceder ao almacenamento.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session necesita permiso para acceder á cámara e poder tirar fotografías, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
@@ -211,8 +209,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mensaxe MMS cifrada para unha sesión que non existe</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Toca para abrir.</string>
-    <string name="KeyCachingService_passphrase_cached">Session está desbloqueado</string>
+    <string name="lockAppUnlocked">Session está desbloqueado</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ti</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Tipo multimedia non compatible</string>
@@ -236,7 +233,7 @@
     <string name="NotificationChannel_calls">Chamadas</string>
     <string name="NotificationChannel_failures">Erros</string>
     <string name="NotificationChannel_backups">Copias de seguranza</string>
-    <string name="NotificationChannel_locked_status">Bloquear estado</string>
+    <string name="lockAppStatus">Bloquear estado</string>
     <string name="NotificationChannel_app_updates">Actualizacións da app</string>
     <string name="other">Outra</string>
     <string name="NotificationChannel_missing_display_name">Descoñecido</string>

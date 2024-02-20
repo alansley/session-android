@@ -70,11 +70,9 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Du vil nu igen modtage beskeder og opkald fra kontakten.</string>
     <string name="ConversationActivity_unblock">Fjern blokering</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Vedhæftningen overskrider max. grænsen for filstørrelser, for den type af meddelelse du sender</string>
-    <string name="ConversationActivity_unable_to_record_audio">Fejl ved lydoptagelse!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Der er ingen app tilgængelig på enheden, der kan åbne linket</string>
     <string name="ConversationActivity_invite_to_open_group">Tilføj medlemmer</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">For at sende talebeskeder skal du give Session tilladelse til at tilgå mikrofonen</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session kræver tilladelse til at tilgå mikrofonen for at kunne sende lydfiler, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Mikrofon\"</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Session kræver tilladelse til at tilgå mikrofonen for at kunne sende lydfiler, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Mikrofon\"</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session kræver tilladelse til at tilgå dit kamera, for at kunne tage billeder og optage video</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session har brug for lageradgang for at sende billeder og videoer.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session kræver tilladelse til at tilgå dit kamera, for at kunne tage billeder eller optage video, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Kamera\"</string>
@@ -213,8 +211,7 @@ udveksel besked!</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS besked krypteret til en session der ikke findes</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Tap for at åbne</string>
-    <string name="KeyCachingService_passphrase_cached">Session er låst op</string>
+    <string name="lockAppUnlocked">Session er låst op</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Dig</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Multimedie type ikke understøttet</string>
@@ -238,7 +235,7 @@ udveksel besked!</string>
     <string name="NotificationChannel_calls">Opkald</string>
     <string name="NotificationChannel_failures">Registrerede fejl</string>
     <string name="NotificationChannel_backups">Sikkerhedskopier</string>
-    <string name="NotificationChannel_locked_status">Låse status</string>
+    <string name="lockAppStatus">Låse status</string>
     <string name="NotificationChannel_app_updates">App opdateringer</string>
     <string name="other">Andet</string>
     <string name="NotificationChannel_missing_display_name">Ukendt</string>
@@ -569,7 +566,7 @@ udveksel besked!</string>
     <string name="dialog_ui_mode_option_day">Dag</string>
     <string name="dialog_ui_mode_option_night">Nat</string>
     <string name="dialog_ui_mode_option_system_default">Systemstandard</string>
-    <string name="attachment_type_voice_message">Talebesked</string>
+    <string name="messageVoice">Talebesked</string>
     <string name="details">Detaljer</string>
     <string name="dialog_backup_activation_failed">Kunne ikke aktivere sikkerhedskopier. Prøv igen, eller kontakt support.</string>
     <string name="activity_backup_restore_title">Gendan sikkerhedskopi</string>

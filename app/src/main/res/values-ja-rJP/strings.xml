@@ -67,11 +67,9 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">この連絡先からのメッセージや電話を再び受信できるようになります。</string>
     <string name="ConversationActivity_unblock">ブロック解除</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">添付ファイルのサイズが上限を超えています</string>
-    <string name="ConversationActivity_unable_to_record_audio">録音できません！</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">このリンクを扱えるアプリがインストールされていません</string>
     <string name="ConversationActivity_invite_to_open_group">メンバーを追加</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">音声メッセージを送るには、Sessionのマイクへのアクセスを許可してください。</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Sessionで音声メッセージを添付するには、『マイク』へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』へのアクセス許可を有効にしてください。</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Sessionで音声メッセージを添付するには、『マイク』へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』へのアクセス許可を有効にしてください。</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">写真や動画を撮るには、Sessionのカメラへのアクセスを許可してください。</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">セッションは写真やビデオを送信するためにストレージへのアクセスが必要です。</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sessionで写真や動画を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
@@ -200,8 +198,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMSメッセージは存在しないセッションのために暗号化されています</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">タッチして開く</string>
-    <string name="KeyCachingService_passphrase_cached">Sessionのロック解除</string>
+    <string name="lockAppUnlocked">Sessionのロック解除</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">あなた</string>
     <string name="MediaPreviewActivity_unssuported_media_type">サポートされないメディア種別</string>
@@ -226,7 +223,7 @@
     <string name="NotificationChannel_calls">通話</string>
     <string name="NotificationChannel_failures">障害</string>
     <string name="NotificationChannel_backups">バックアップ</string>
-    <string name="NotificationChannel_locked_status">ロック状態</string>
+    <string name="lockAppStatus">ロック状態</string>
     <string name="NotificationChannel_app_updates">アプリ更新</string>
     <string name="other">その他</string>
     <string name="NotificationChannel_missing_display_name">不明</string>
@@ -571,7 +568,7 @@
     <string name="dialog_ui_mode_option_night">ナイト</string>
     <string name="dialog_ui_mode_option_system_default">システムの既定値</string>
     <string name="attachment">添付ファイル</string>
-    <string name="attachment_type_voice_message">音声メッセージ</string>
+    <string name="messageVoice">音声メッセージ</string>
     <string name="details">詳細</string>
     <string name="dialog_backup_activation_failed">バックアップのアクティベートに失敗しました。もう一度やり直すか、サポートにお問い合わせください。</string>
     <string name="activity_backup_restore_title">バックアップを復元する</string>

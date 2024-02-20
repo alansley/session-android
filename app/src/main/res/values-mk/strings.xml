@@ -44,10 +44,8 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">သူ့ထံမှ စာတိုများ ၊ ဖုန်းခေါ်ဆိုမှုများ ပြန်လည်လက်ခံနိုင်လိမ့်မည်။ </string>
     <string name="ConversationActivity_unblock">ဘလော့ဖြည်ပါ </string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">ပူးတွဲဖိုင်သည် သတ်မှတ်ဖိုင်အရွယ်အစားထက်ကြီးနေသည်။ </string>
-    <string name="ConversationActivity_unable_to_record_audio">အသံဖမ်း၍ မရနိုင်ပါ!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">ယခုလင့်ခ် ကိုဖွင့်နိုင်သည့် app သင့်စက်တွင် မရှိပါ။ </string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">အသံဖိုင်ပို့နိုင်ရန် မိမိမိုက်ခရိုဖုန်းကို Session အား အသုံးပြုခွင့်ပေးပါ။</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">အသံဖိုင်များပို့နိုင်ရန် Sessionမှ မိုက်ခရိုဖုန်းအား အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်းကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">အသံဖိုင်များပို့နိုင်ရန် Sessionမှ မိုက်ခရိုဖုန်းအား အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်းကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Session မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးပါ။</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Session မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးထားရန်လိုသည်။  သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Session မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးထားရန်လိုသည်</string>
@@ -136,8 +134,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ရှိမနေတော့သည့် ဆက်ရှင်အတွက် MMS စာများကို encrypt လုပ်ထားပါသည်။</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">ဖွင့်ရန် နှိပ်ပါ။</string>
-    <string name="KeyCachingService_passphrase_cached">Session ကိုဖွင့်လိုက်ပါပြီ</string>
+    <string name="lockAppUnlocked">Session ကိုဖွင့်လိုက်ပါပြီ</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">သင်</string>
     <string name="MediaPreviewActivity_unssuported_media_type">ပံ့ပိုးမှုမပြုနိုင်သော ရုပ်၊သံ၊ပုံ ဖိုင်များ</string>

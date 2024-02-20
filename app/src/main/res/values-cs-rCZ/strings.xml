@@ -74,11 +74,9 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Budete opět moci přijímat zprávy a hovory od tohoto kontaktu.</string>
     <string name="ConversationActivity_unblock">Odblokovat</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Velikost přílohy překročila limit pro typ zprávy kterou posíláte</string>
-    <string name="ConversationActivity_unable_to_record_audio">Nemohu nahrávat audio!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Není zde žádná aplikace která by dokázala zpracovat tento odkaz.</string>
     <string name="ConversationActivity_invite_to_open_group">Přidat členy</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pro posílání audio zpráv potřebuje Signál přístup k mikrofonu.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signál potřebuje oprávnění pro přístup k mikrofonu aby mohl poslat audio zprávu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Mikrofon\".</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Signál potřebuje oprávnění pro přístup k mikrofonu aby mohl poslat audio zprávu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pro pořizování fotografií nebo videa potřebuje Signál přístup k fotoaparátu.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">K pořizování fotografií a videa potřebuje Session přístup k úložišti.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signál potřebuje oprávnění pro přístup k fotoaparátu aby mohl pořizovat fotografie nebo video, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Fotoaparát\".</string>
@@ -232,8 +230,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS zpráva byla zašifrována pro neexistující konverzaci</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Stisknutím otevřete.</string>
-    <string name="KeyCachingService_passphrase_cached">Session je odemčen</string>
+    <string name="lockAppUnlocked">Session je odemčen</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Vy</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nepodporovaný typ dat</string>
@@ -258,7 +255,7 @@
     <string name="NotificationChannel_calls">Volání</string>
     <string name="NotificationChannel_failures">Chyby</string>
     <string name="NotificationChannel_backups">Zálohy</string>
-    <string name="NotificationChannel_locked_status">Stav zámku</string>
+    <string name="lockAppStatus">Stav zámku</string>
     <string name="NotificationChannel_app_updates">Aktulizace aplikace</string>
     <string name="other">Ostatní</string>
     <string name="NotificationChannel_missing_display_name">Neznámý</string>
@@ -609,7 +606,7 @@
     <string name="dialog_ui_mode_option_night">Noc</string>
     <string name="dialog_ui_mode_option_system_default">Výchozí nastavení</string>
     <string name="attachment">Příloha</string>
-    <string name="attachment_type_voice_message">Hlasová zpráva</string>
+    <string name="messageVoice">Hlasová zpráva</string>
     <string name="details">Detaily</string>
     <string name="dialog_backup_activation_failed">Nepodařilo se aktivovat zálohy. Zkuste to prosím znovu nebo kontaktujte podporu.</string>
     <string name="activity_backup_restore_title">Obnovit zálohu</string>
@@ -626,8 +623,6 @@
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
     <string name="activity_pn_mode_fast_mode_explanation">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session občas zkontroluje nové zprávy na pozadí.</string>
-    <string name="activity_prompt_passphrase_session_locked">Session je zamčený</string>
-    <string name="activity_prompt_passphrase_tap_to_unlock">Klepněte pro odemčení</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Zadej přezdívku</string>
     <string name="invalid_public_key">Neplatný veřejný klíč</string>
     <string name="dialog_blocked_title">Odblokovat %s?</string>

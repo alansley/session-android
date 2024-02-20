@@ -79,7 +79,7 @@ class CallNotificationBuilder {
                 }
                 TYPE_INCOMING_PRE_OFFER,
                 TYPE_INCOMING_RINGING -> {
-                    builder.setContentText(context.getString(R.string.NotificationBarManager__incoming_signal_call))
+                    builder.setContentText(context.getString(R.string.callsIncoming))
                             .setCategory(NotificationCompat.CATEGORY_CALL)
                     builder.addAction(getServiceNotificationAction(
                             context,
@@ -95,7 +95,7 @@ class CallNotificationBuilder {
                             context,
                             if (type == TYPE_INCOMING_PRE_OFFER) WebRtcCallActivity.ACTION_PRE_OFFER else WebRtcCallActivity.ACTION_ANSWER,
                             R.drawable.ic_phone_grey600_32dp,
-                            R.string.NotificationBarManager__answer_call
+                            R.string.accept
                     ))
                     builder.priority = NotificationCompat.PRIORITY_MAX
                 }

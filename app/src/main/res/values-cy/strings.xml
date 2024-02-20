@@ -67,10 +67,8 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Byddwch unwaith eto yn gallu derbyn negeseuon a galwadau o\'r cyswllt hwn.</string>
     <string name="ConversationActivity_unblock">Dadrwystro</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Mae atodiad yn fwy na therfynau maint y math o neges rydych chi\'n ei hanfon.</string>
-    <string name="ConversationActivity_unable_to_record_audio">Methu recordio sain!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nid oes ap ar gael i drin y ddolen hon ar eich dyfais.</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">I anfon negeseuon sain, caniatewch i Session gael mynediad i\'ch meicroffon.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Mae ar Session angen caniatâd Meicroffon i anfon negeseuon sain, ond mae wed\'i atal yn barhaol. Ewch i osodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Microffon\".</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Mae ar Session angen caniatâd Meicroffon i anfon negeseuon sain, ond mae wed\'i atal yn barhaol. Ewch i osodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Microffon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">I gipio lluniau a fideo, caniatewch i Session gael mynediad i\'r camera.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Mae ar Session angen caniatâd Camera er mwyn atodi tynnu lluniau neu fideos, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Camera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Angen Session angen caniatâd camera i dynnu lluniau neu fideo</string>
@@ -235,8 +233,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Neges MMS wedi\'i hamgryptio ar gyfer sesiwn nad yw\'n bodoli</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Cyffwrdd i agor.</string>
-    <string name="KeyCachingService_passphrase_cached">Mae Session wedi\'i ddatgloi</string>
+    <string name="lockAppUnlocked">Mae Session wedi\'i ddatgloi</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Chi</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Math o gyfrwng heb ei gynnal</string>
@@ -259,7 +256,7 @@
     <string name="NotificationChannel_calls">Galwadau</string>
     <string name="NotificationChannel_failures">Methiannau</string>
     <string name="NotificationChannel_backups">Copïau wrth gefn</string>
-    <string name="NotificationChannel_locked_status">Statws y clo</string>
+    <string name="lockAppStatus">Statws y clo</string>
     <string name="NotificationChannel_app_updates">Diweddariadau ap</string>
     <string name="other">Arall</string>
     <string name="NotificationChannel_missing_display_name">Anhysbys</string>

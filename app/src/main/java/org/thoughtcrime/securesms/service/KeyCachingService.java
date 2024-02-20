@@ -242,8 +242,8 @@ public class KeyCachingService extends Service {
     Log.i(TAG, "foregrounding KCS");
     NotificationCompat.Builder builder = new NotificationCompat.Builder(this, NotificationChannels.LOCKED_STATUS);
 
-    builder.setContentTitle(getString(R.string.KeyCachingService_passphrase_cached));
-    builder.setContentText(getString(R.string.KeyCachingService_signal_passphrase_cached));
+    builder.setContentTitle(getString(R.string.lockAppUnlocked));
+    builder.setContentText(getString(R.string.lockAppUnlock));
     builder.setSmallIcon(R.drawable.icon_cached);
     builder.setWhen(0);
     builder.setPriority(Notification.PRIORITY_MIN);

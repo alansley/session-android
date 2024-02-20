@@ -53,10 +53,8 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">คุณจะกลับมารับข้อความและสายโทรเข้าจากผู้ติดต่อนี้ได้อีก</string>
     <string name="ConversationActivity_unblock">เลิกปิดกั้น</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">ไฟล์แนบมีขนาดใหญ่เกินกำหนดสำหรับชนิดของข้อความที่คุณกำลังจะส่ง</string>
-    <string name="ConversationActivity_unable_to_record_audio">บันทึกเสียงไม่ได้</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">อุปกรณ์ของคุณไม่มีแอปที่สามารถจัดการกับลิงก์นี้ได้</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">เพื่อจะส่งข้อความเสียง ต้องอนุญาตให้ Session เข้าถึงไมโครโฟนของคุณ</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">เพื่อจะส่งข้อความเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงไมโครโฟน แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ไมโครโฟน\"</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">เพื่อจะส่งข้อความเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงไมโครโฟน แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ไมโครโฟน\"</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">อนุญาต Session ให้ใช้กล้องเพื่อถ่ายรูปและวิดีโอ</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">เพื่อที่จะถ่ายรูปหรือวิดีโอได้ Session ต้องได้รับอนุญาตให้เข้าถึงกล้อง แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"กล้อง\"</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session ต้องได้รับอนุญาตให้เข้าถึงกล้องเพื่อถ่ายรูปและวิดีโอ</string>
@@ -171,8 +169,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ข้อความ MMS ถูกเข้ารหัสสำหรับเซสชันที่ไม่มีอยู่</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">แตะเพื่อเปิด</string>
-    <string name="KeyCachingService_passphrase_cached">Session ถูกปลดล็อก</string>
+    <string name="lockAppUnlocked">Session ถูกปลดล็อก</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">คุณ</string>
     <string name="MediaPreviewActivity_unssuported_media_type">ชนิดสื่อที่ไม่รองรับ</string>
@@ -195,7 +192,7 @@
     <string name="NotificationChannel_calls">การโทร</string>
     <string name="NotificationChannel_failures">ล้มเหลว</string>
     <string name="NotificationChannel_backups">การสำรองข้อมูล</string>
-    <string name="NotificationChannel_locked_status">สถานะล๊อค</string>
+    <string name="lockAppStatus">สถานะล๊อค</string>
     <string name="NotificationChannel_app_updates">การอัปเดตแอป</string>
     <string name="other">ที่อื่น</string>
     <string name="NotificationChannel_missing_display_name">ไม่ทราบ</string>

@@ -66,10 +66,8 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">మీరు మరోసారి ఈ పరిచయం నుండి సందేశాలను మరియు కాల్స్ అందుకోగలరు.</string>
     <string name="ConversationActivity_unblock">అనుమతించు</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">జోడింపు మీరు పంపే సందేశం రకం పరిమాణ పరిమితి మించిపోయింది.</string>
-    <string name="ConversationActivity_unable_to_record_audio">ఆడియో రికార్డ్ చేయడం సాధ్యపడలేదు!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">మీ పరికరం ఈ లింక్ నిర్వహించడానికి ఎలాంటి అనువర్తనం లేదు.</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ఆడియో సందేశాలను పంపడానికి, మీ మైక్రోఫోన్కు Session ప్రాప్తిని అనుమతించండి.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ఆడియో సందేశాలను పంపడానికి Sessionకు మైక్రోఫోన్ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్లకు కొనసాగించండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"మైక్రోఫోన్\" ని ప్రారంభించండి.</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">ఆడియో సందేశాలను పంపడానికి Sessionకు మైక్రోఫోన్ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్లకు కొనసాగించండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"మైక్రోఫోన్\" ని ప్రారంభించండి.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ఫోటోలు మరియు వీడియోలను సంగ్రహించడానికి, కెమెరాకి Session ప్రాప్తిని అనుమతించండి.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ఫోటోలను లేదా వీడియోను తీసుకోవడానికి Sessionకు కెమెరా అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్లకు కొనసాగించండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"కెమెరా\" ని ప్రారంభించండి.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ఛాయాచిత్రాలను లేదా వీడియోను తీసుకోవడానికి కెమెరా అనుమతులను Sessionకి అవసరం</string>
@@ -193,8 +191,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ఎంఎంఎస్ సందేశాన్ని మనుగడలో కాని సెషన్ కోసం గుప్తీకరించబడింది</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">తెరవడానికి తాకు</string>
-    <string name="KeyCachingService_passphrase_cached">Session తాళం తీయబడినది</string>
+    <string name="lockAppUnlocked">Session తాళం తీయబడినది</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">మీరు</string>
     <string name="MediaPreviewActivity_unssuported_media_type">మద్ధతు  లేనటువంటి ప్రసార మాధ్యమం</string>
@@ -217,7 +214,7 @@
     <string name="NotificationChannel_calls">కాల్స్</string>
     <string name="NotificationChannel_failures">వైఫల్యాలు</string>
     <string name="NotificationChannel_backups">బ్యాకప్లు</string>
-    <string name="NotificationChannel_locked_status">స్థితి లాక్</string>
+    <string name="lockAppStatus">స్థితి లాక్</string>
     <string name="NotificationChannel_app_updates">అనువర్తన నవీకరణలు</string>
     <string name="other">ఇతర</string>
     <string name="NotificationChannel_missing_display_name">తెలియని</string>

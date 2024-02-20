@@ -55,10 +55,8 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Kay yupaymashipa killkashkata, kayachikunatapash kutinllami chaskita ushakrinki.</string>
     <string name="ConversationActivity_unblock">Pakashkamanta llukchi</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Kimichiskaka yapa hatunmi kan, kay chaskipi kachankapakka.</string>
-    <string name="ConversationActivity_unable_to_record_audio">¡Uyayka mana rurarirkachu!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nima aplicación mana tiyanchu, kikinpa antahillaypi tinki ushankapak.</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Chaski uyayta kachankapak Session ukuta rimachikman yaykuchun saki.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session ari nichun munanmi kikinpa Rimachikman yaykunkapak, shinapash mana arinirishkachu. \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Micrófono\" paskarichun.</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Session ari nichun munanmi kikinpa Rimachikman yaykunkapak, shinapash mana arinirishkachu. \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Micrófono\" paskarichun.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Shuyuta, shinallata shuyukuyurikta hapinkapakka, shuyullukchikman Sessionta yaykuchun sakipay.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session ari nichun munanmi kikinpa shuyullukchikman yaykunkapak, shuyukunata, shuyukuyurikkunatapash llukchinkapak, shinapash mana arinirishkachu. \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Cámara\" paskarichun.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session ari nichun munanmi shuyullukchikman yaykunkapak, shuyuta shinallata shuyukurikta llukchinkapak.</string>
@@ -176,8 +174,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS chaskika mana tiyashka pachapimi pakakurka.</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Paskankapak llapi.</string>
-    <string name="KeyCachingService_passphrase_cached">Session yaykunallami kan.</string>
+    <string name="lockAppUnlocked">Session yaykunallami kan.</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Kikin</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Tiyashkakunapa imashinakayka mana chaypurachu. </string>
@@ -201,7 +198,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="NotificationChannel_calls">Kayachikuna</string>
     <string name="NotificationChannel_failures">Pantakuna</string>
     <string name="NotificationChannel_backups">Wakaychikpa chayshinakuna</string>
-    <string name="NotificationChannel_locked_status">Kashkata pakana</string>
+    <string name="lockAppStatus">Kashkata pakana</string>
     <string name="NotificationChannel_app_updates">Aplicacionta kunanyachikuy</string>
     <string name="other">Shuk yupaykuna </string>
     <string name="NotificationChannel_missing_display_name">Mana riksishka</string>

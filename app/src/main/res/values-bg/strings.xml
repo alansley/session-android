@@ -64,10 +64,8 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Отново ще може да получавате съобщения и обаждания от този контакт.</string>
     <string name="ConversationActivity_unblock">Отблокирване</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Размерът на прикачения файл надминава допустимия лимит за типа съобщение, който изпращате.</string>
-    <string name="ConversationActivity_unable_to_record_audio">Не може да бъде записано аудио!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нямате инсталирано приложение, което да може да използва тази препратка.</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">За да изпратите аудио съобщение, разрешете достъпа на Session до микрофона.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session се нуждае от достъп до микрофона Ви, за да може да изпраща аудио съобщения, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Микрофон\".</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Session се нуждае от достъп до микрофона Ви, за да може да изпраща аудио съобщения, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Микрофон\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">За прави снимки и видеота, Session се нуждае от достъп до камерта Ви.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session се нуждае от достъп до файловете Ви за да пращате снимки и видеа.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session се нуждае от достъп до камерта Ви, за да може да прави снимки или видеота, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Камера\".</string>
@@ -202,8 +200,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS съобщението е криптирано за несъществуваща сесия</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Натиснете за отворяне.</string>
-    <string name="KeyCachingService_passphrase_cached">Session е отключен</string>
+    <string name="lockAppUnlocked">Session е отключен</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ти</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Неподдържан медиен формат.</string>
@@ -226,7 +223,7 @@
     <string name="NotificationChannel_calls">Обаждания</string>
     <string name="NotificationChannel_failures">Грешки</string>
     <string name="NotificationChannel_backups">Архиви</string>
-    <string name="NotificationChannel_locked_status">Статус на заключването</string>
+    <string name="lockAppStatus">Статус на заключването</string>
     <string name="NotificationChannel_app_updates">Обновления на приложението</string>
     <string name="other">Друг</string>
     <string name="NotificationChannel_missing_display_name">Непознат</string>

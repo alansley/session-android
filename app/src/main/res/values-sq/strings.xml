@@ -70,11 +70,9 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Do të jeni sërish në gjendje të merrni mesazhe dhe thirrje nga ky kontakt.</string>
     <string name="ConversationActivity_unblock">Zhbllokoje</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Bashkëngjitja tejkalon kufij madhësie për llojin e mesazhit që po dërgoni.</string>
-    <string name="ConversationActivity_unable_to_record_audio">S\’arrihet të incizohet audio!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">S\’ka aplikacion të gatshëm në celularin tuaj për trajtim të kësaj në pajisjen tuaj.</string>
     <string name="ConversationActivity_invite_to_open_group">Shtoni anëtarë</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Për të dërguar mesazhe zanorë, lejojeni Session-in të përdorë mikrofonin tuaj.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Që të mund të dërgojë mesazhe audio, Session-i lyp leje përdorimi të Mikrofonit, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Mikrofonin\".</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Që të mund të dërgojë mesazhe audio, Session-i lyp leje përdorimi të Mikrofonit, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Mikrofonin\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Për të bërë foto dhe dhe video, lejojini Session-it të përdorë kamerën.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session ka nevojë për leje hyrje ne bazën e të dhënave për të dërguar foto dhe video</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Kamerën\".</string>
@@ -212,8 +210,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mesazh MMS i fshehtëzuar për sesion që s\’ekziston</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Prekeni për ta hapur.</string>
-    <string name="KeyCachingService_passphrase_cached">Session-i u shkyç</string>
+    <string name="lockAppUnlocked">Session-i u shkyç</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ju</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Lloj media i pambuluar</string>
@@ -238,7 +235,7 @@
     <string name="NotificationChannel_calls">Thirrje</string>
     <string name="NotificationChannel_failures">Dështime</string>
     <string name="NotificationChannel_backups">Kopjeruajtje</string>
-    <string name="NotificationChannel_locked_status">Gjendje kyçjeje</string>
+    <string name="lockAppStatus">Gjendje kyçjeje</string>
     <string name="NotificationChannel_app_updates">Përditësime aplikacioni</string>
     <string name="other">Tjetër</string>
     <string name="NotificationChannel_missing_display_name">I panjohur</string>

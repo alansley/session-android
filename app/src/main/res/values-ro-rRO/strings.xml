@@ -73,11 +73,9 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">O să poți primi din nou mesaje și apeluri de la acest contact.</string>
     <string name="ConversationActivity_unblock">Deblochează</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Atașamentul depășește limita de mărime pentru tipul de mesaj pe care vreți să-l trimiteți.</string>
-    <string name="ConversationActivity_unable_to_record_audio">Nu se poate înregistra audio!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nu există nici o aplicație disponibilă pe dispozitivul tău care să poată deschide acest link.</string>
     <string name="ConversationActivity_invite_to_open_group">Adaugă membri</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pentru a trimite mesaje audio, permite-i aplicației Session accesul la microfonul tău.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session are nevoie de permisiunea pentru Microfon pentru a putea trimite mesaje audio dar i-a fost refuzat accesul permanent. Vă rugăm să navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Microfon\".</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Session are nevoie de permisiunea pentru Microfon pentru a putea trimite mesaje audio dar i-a fost refuzat accesul permanent. Vă rugăm să navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Microfon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pentru a captura poze sau filme, permite-i Session accesul la cameră.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session are nevoie de acces la stocare pentru a trimite fotografii și videoclipuri.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Cameră\".</string>
@@ -226,8 +224,7 @@ schimbul de chei este corupt </string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mesaj MMS criptat pentru o sesiune inexistentă</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Atingeți pentru a-l deschide.</string>
-    <string name="KeyCachingService_passphrase_cached">Session este deblocat</string>
+    <string name="lockAppUnlocked">Session este deblocat</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Tu</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Tip media nesuportat</string>
@@ -252,7 +249,7 @@ schimbul de chei este corupt </string>
     <string name="NotificationChannel_calls">Apeluri</string>
     <string name="NotificationChannel_failures">Erori</string>
     <string name="NotificationChannel_backups">Backup-uri</string>
-    <string name="NotificationChannel_locked_status">Stare blocare</string>
+    <string name="lockAppStatus">Stare blocare</string>
     <string name="NotificationChannel_app_updates">Actualizări aplicație</string>
     <string name="other">Altul</string>
     <string name="NotificationChannel_missing_display_name">Necunoscut</string>

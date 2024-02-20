@@ -59,10 +59,8 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Tu careke din dîsa dikare ji vî berdengî bang û peyam bistîne.</string>
     <string name="ConversationActivity_unblock">Astengê rake</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Servehî li gor şandina cûreya peyamê sînorên mezinahiyê derbas dike.</string>
-    <string name="ConversationActivity_unable_to_record_audio">Deng nayê tomarkirin!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Ti sepana ku karibe vê girêdanê di amûra we de veke nîn e.</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Ji bo şandina peyamên dengî, destûra gihana Sessionê bide mîkrofona xwe.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session ji bo şandina peyamên dengî destûra Mîkrofonê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Mîkrofon\"ê çalak bike.</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Session ji bo şandina peyamên dengî destûra Mîkrofonê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Mîkrofon\"ê çalak bike.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ji bo kişandina vîdyo û wêneyan destura gihana Sessionê bide kamera.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Ji bo kişandina vîdyo an jî wêneyan Session destûra kamera pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Kamera\"yê çalak bike.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Ji bo kişandina vîdyo an jî wêneyan pêdiviya Sessionê bi destûra kamera heye</string>
@@ -190,8 +188,7 @@
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Peyama MMSê ji bo danişîna tuneyî hat şîfrekirin</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Ji bo vekirinê bitepîne.</string>
-    <string name="KeyCachingService_passphrase_cached">Session vekirî ye</string>
+    <string name="lockAppUnlocked">Session vekirî ye</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Tu</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Cureyê medyayê ya nepesartî</string>
@@ -214,7 +211,7 @@
     <string name="NotificationChannel_calls">Gazî</string>
     <string name="NotificationChannel_failures">Çewtî</string>
     <string name="NotificationChannel_backups">Paşkeft</string>
-    <string name="NotificationChannel_locked_status">Rewşa kilîdê</string>
+    <string name="lockAppStatus">Rewşa kilîdê</string>
     <string name="NotificationChannel_app_updates">Hildemên sepanê</string>
     <string name="other">Din</string>
     <string name="NotificationChannel_missing_display_name">Nenas</string>

@@ -71,11 +71,9 @@
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Znovu budete môcť dostávať správy a hovory od tohto kontaktu.</string>
     <string name="ConversationActivity_unblock">Odblokovať</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Príloha presahuje limit veľkosti pre tento typ správy.</string>
-    <string name="ConversationActivity_unable_to_record_audio">Nemôžem zaznamenať zvuk!</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Vo vašom zariadení nie je aplikácia schopná otvoriť tento odkaz.</string>
     <string name="ConversationActivity_invite_to_open_group">Pridať členov</string>
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Pre posielanie zvukových správ potrebuje Session prístup k mikrofónu.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Session potrebuje prístup k mikrofónu aby mohol posielať zvukové správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\".</string>
+    <string name="permissionsMicrophoneAccessRequiredAndroid">Session potrebuje prístup k mikrofónu aby mohol posielať zvukové správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pre fotenie a nahrávanie videa potrebuje Session prístup k fotoaparátu.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session potrebuje prístup k fotoaparátu aby mohol vytvárať fotografie a video, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session potrebuje prístup k Fotoaparátu, aby mohol vytvárať fotografie a videá</string>
@@ -229,8 +227,7 @@ výmeny kľúčov.</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS správa šifrovaná pre neexistujúcu reláciu</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
-    <string name="KeyCachingService_signal_passphrase_cached">Dotykom otvor.</string>
-    <string name="KeyCachingService_passphrase_cached">Session je odomknutý</string>
+    <string name="lockAppUnlocked">Session je odomknutý</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Vy</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Nepodporovaný typ súboru</string>
@@ -254,7 +251,7 @@ výmeny kľúčov.</string>
     <string name="NotificationChannel_calls">Volania</string>
     <string name="NotificationChannel_failures">Chyby</string>
     <string name="NotificationChannel_backups">Zálohy</string>
-    <string name="NotificationChannel_locked_status">Stav zámku</string>
+    <string name="lockAppStatus">Stav zámku</string>
     <string name="NotificationChannel_app_updates">Aktualizácie aplikácie</string>
     <string name="other">Iné</string>
     <string name="NotificationChannel_missing_display_name">Neznáma</string>
@@ -582,7 +579,7 @@ výmeny kľúčov.</string>
     <string name="dialog_ui_mode_option_night">Nočný režim</string>
     <string name="dialog_ui_mode_option_system_default">Predvolené systémom</string>
     <string name="attachment">Príloha</string>
-    <string name="attachment_type_voice_message">Hlasová správa</string>
+    <string name="messageVoice">Hlasová správa</string>
     <string name="details">Podrobnosti</string>
     <string name="dialog_backup_activation_failed">Nepodarilo sa aktivovať zálohy. Skúste to znova alebo kontaktujte podporu.</string>
     <string name="activity_backup_restore_title">Obnoviť zálohu</string>
