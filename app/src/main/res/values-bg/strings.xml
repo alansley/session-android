@@ -56,7 +56,6 @@
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">За съжаление, настъпи грешка при прикачването.</string>
     <string name="message">Съобщение</string>
     <string name="ConversationActivity_invalid_recipient">Невалиден получател!</string>
-    <string name="ConversationActivity_added_to_home_screen">Добавено на работния плот</string>
     <string name="ConversationActivity_leave_group">Напускане на групата?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Сигурен ли си, че искаш да напуснеш тази група?</string>
     <string name="ConversationActivity_error_leaving_group">Грешка при напускане на групата</string>
@@ -188,7 +187,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Числата Ви за сигурност с %s са променени.</string>
     <string name="ThreadRecord_you_marked_verified">Отбелязахте като потвърдено</string>
     <string name="ThreadRecord_you_marked_unverified">Отбелязахте като непотвърдено</string>
-    <string name="ThreadRecord_empty_message">Този разговор е празен</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Обновление на Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Има нова версия на Session, натиснете, за да обновите.</string>
@@ -407,7 +405,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Промяна на групата</string>
     <string name="conversation__menu_leave_group">Напускане на групата</string>
-    <string name="conversation__menu_add_shortcut">Добавяне на работния плот</string>
+    <string name="conversationsAddToHome">Добавяне на работния плот</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Разшири диалога</string>
     <!-- conversation_group_options -->

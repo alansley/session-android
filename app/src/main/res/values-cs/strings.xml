@@ -66,7 +66,6 @@
     <string name="ConversationActivity_member_count">%1$d členů</string>
     <string name="ConversationActivity_open_group_guidelines">Pravidla komunity</string>
     <string name="ConversationActivity_invalid_recipient">Chybný příjemce!</string>
-    <string name="ConversationActivity_added_to_home_screen">Přidáno na plochu</string>
     <string name="ConversationActivity_leave_group">Opustit skupinu?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Jsi si jistý, že chceš opustit tuto skupinu?</string>
     <string name="ConversationActivity_error_leaving_group">Chyba při opouštění skupiny</string>
@@ -216,7 +215,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Váš bezpečnostní kód s %s se změnil</string>
     <string name="ThreadRecord_you_marked_verified">Označen jako ověřený</string>
     <string name="ThreadRecord_you_marked_unverified">Označen jako neověřený</string>
-    <string name="ThreadRecord_empty_message">Tato konverzace je prázdná</string>
     <string name="ThreadRecord_open_group_invitation">Otevřít pozvánku ke skupině</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Aktualizace Session</string>
@@ -450,7 +448,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editovat skupinu</string>
     <string name="conversation__menu_leave_group">Opustit skupinu</string>
-    <string name="conversation__menu_add_shortcut">Přidat na plochu</string>
+    <string name="conversationsAddToHome">Přidat na plochu</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Rozbalit menu</string>
     <!-- conversation_group_options -->
@@ -520,8 +518,7 @@
     <string name="activity_home_empty_state_button_title">Zahájit relaci</string>
     <string name="activity_home_leave_group_dialog_message">Opravdu chcete opustit tuto skupinu?</string>
     <string name="activity_home_leaving_group_failed_message">"Skupinu se nepodařilo opustit"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Opravdu chcete smazat tuto konverzaci?</string>
-    <string name="activity_home_conversation_deleted_message">Konverzace byla smazána</string>
+    <string name="conversationsDeleted">Konverzace byla smazána</string>
     <string name="activity_seed_title_2">Zadejte frázi pro obnovení</string>
     <string name="activity_seed_explanation">Ahoj</string>
     <string name="activity_seed_reveal_button_title">Podrž pro zobrazení</string>
@@ -535,11 +532,8 @@
     <string name="onionRoutingPathDestination">Cíl</string>
     <string name="learnMore">Další informace</string>
     <string name="activity_path_resolving_progress">Připojování…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Zadejte Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Naskenovat QR kód</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Zadejte Session ID nebo název ONS</string>
     <string name="fragment_enter_public_key_explanation">Uživatelé mohou sdílet Session ID po klepnutí na \"Sdílet Session ID\" v nastavení účtu nebo sdílením svého QR kódu.</string>
-    <string name="fragment_enter_public_key_error_message">Zkontrolujte prosím své Session ID nebo název ONS a zkuste to znovu.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session potřebuje přístup ke kameře, aby bylo možné skenovat QR kódy</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Udělit přístup k fotoaparátu</string>
     <string name="activity_create_closed_group_edit_text_hint">Zadejte název skupiny</string>
@@ -618,7 +612,6 @@
     <string name="invalid_public_key">Neplatný veřejný klíč</string>
     <string name="dialog_blocked_title">Odblokovat %s?</string>
     <string name="dialog_blocked_explanation">Opravdu chcete odblokovat %s?</string>
-    <string name="dialog_join_open_group_title">Připojit se k %s?</string>
     <string name="dialog_join_open_group_explanation">Opravdu se chcete připojit k otevřené skupině %s?</string>
     <string name="dialog_open_url_title">Otevřít odkaz?</string>
     <string name="dialog_open_url_explanation">Opravdu chcete otevřít %s?</string>

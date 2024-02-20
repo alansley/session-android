@@ -122,7 +122,7 @@ public class ThreadRecord extends DisplayRecord {
     } else if (MmsSmsColumns.Types.isMessageRequestResponse(type)) {
       return emphasisAdded(context.getString(R.string.messageRequestsAccepted));
     } else if (getCount() == 0) {
-      return new SpannableString(context.getString(R.string.ThreadRecord_empty_message));
+      return new SpannableString(context.getString(R.string.messageEmpty));
     } else {
       if (TextUtils.isEmpty(getBody())) {
         return new SpannableString(emphasisAdded(context.getString(R.string.ThreadRecord_media_message)));

@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d tag</string>
     <string name="ConversationActivity_open_group_guidelines">Közösségi irányelvek</string>
     <string name="ConversationActivity_invalid_recipient">Érvénytelen címzett!</string>
-    <string name="ConversationActivity_added_to_home_screen">Hozzáadva a kezdőképernyőhöz</string>
     <string name="ConversationActivity_leave_group">Kilépsz a csoportból?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Biztosan ki szeretnél lépni ebből a csoportból?</string>
     <string name="ConversationActivity_error_leaving_group">Hiba történt a csoport elhagyásakor</string>
@@ -199,7 +198,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Megváltozott a biztonsági számod vele: %s.</string>
     <string name="ThreadRecord_you_marked_verified">Megerősítettnek jelölted</string>
     <string name="ThreadRecord_you_marked_unverified">Megerősítetlennek jelölted</string>
-    <string name="ThreadRecord_empty_message">Ez a beszélgetés üres</string>
     <string name="ThreadRecord_open_group_invitation">Nyilvános csoport meghívó</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session frissítés</string>
@@ -429,7 +427,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Csoport szerkesztése</string>
     <string name="conversation__menu_leave_group">Kilépés a csoportból</string>
-    <string name="conversation__menu_add_shortcut">Hozzáadás a kezdőképernyőhöz</string>
+    <string name="conversationsAddToHome">Hozzáadás a kezdőképernyőhöz</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Felugró ablak nagyítása</string>
     <!-- conversation_group_options -->
@@ -499,8 +497,7 @@
     <string name="activity_home_empty_state_button_title">Indítson el egy beszélgetést</string>
     <string name="activity_home_leave_group_dialog_message">Biztosan elhagyja ezt a csoportot?</string>
     <string name="activity_home_leaving_group_failed_message">"Nem sikerült kilépni a csoportból"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Biztosan törli ezt a beszélgetést?</string>
-    <string name="activity_home_conversation_deleted_message">A beszélgetés törölve</string>
+    <string name="conversationsDeleted">A beszélgetés törölve</string>
     <string name="activity_seed_title_2">Írja be a helyreállítási kifejezést</string>
     <string name="activity_seed_explanation">A helyreállítási kifejezés a Session azonosító főkulcsa - használhatja a Session azonosító visszaállítására, ha elveszíti a hozzáférését eszközéhez. Tárolja helyreállítási mondatát biztonságos helyen, és ne adja át senkinek.</string>
     <string name="activity_seed_reveal_button_title">Tartsa lenyomva, hogy felfedje</string>
@@ -514,11 +511,8 @@
     <string name="onionRoutingPathDestination">Célállomás</string>
     <string name="learnMore">Tudj meg többet</string>
     <string name="activity_path_resolving_progress">Feloldás...</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Adja meg a Session azonosítóját</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR kód beolvasása</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Írja be Session azonosítóját vagy ONS nevét</string>
     <string name="fragment_enter_public_key_explanation">A felhasználók megoszthatják Session azonosítójukat, ha belépnek a fiókbeállításokba, és megérintik a „Session azonosító megosztása” lehetőséget, vagy más egyéb módon átküldik QR kódjukat.</string>
-    <string name="fragment_enter_public_key_error_message">Kérjük, ellenőrizze a Session azonosítót vagy az ONS-nevet, és próbálkozzon újra. </string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Kamera hozzáférésre van szükség a QR kód beolvasásához</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Adjon hozzáférést a kamerához</string>
     <string name="activity_create_closed_group_edit_text_hint">Írja be a csoport nevét</string>
@@ -597,7 +591,6 @@
     <string name="invalid_public_key">Érvénytelen nyilvános kulcs</string>
     <string name="dialog_blocked_title">%s blokkolásának feloldása?</string>
     <string name="dialog_blocked_explanation">Biztosan szeretnéd a %s-t blokkolni?</string>
-    <string name="dialog_join_open_group_title">Csatlakozol ide: %s?</string>
     <string name="dialog_join_open_group_explanation">Biztosan csatlakozni szeretne a(z) %s nyílt csoporthoz?</string>
     <string name="dialog_open_url_title">Megnyitod az URL-t?</string>
     <string name="dialog_open_url_explanation">Biztosan kilépsz a következőből: %s?</string>

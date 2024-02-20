@@ -63,7 +63,6 @@
     <string name="ConversationActivity_member_count">%1$d členov</string>
     <string name="ConversationActivity_open_group_guidelines">Usmernenia Spoločenstva</string>
     <string name="ConversationActivity_invalid_recipient">Neplatný príjemca</string>
-    <string name="ConversationActivity_added_to_home_screen">Pridané na plochu</string>
     <string name="ConversationActivity_leave_group">Opustiť skupinu?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ste si istí že chcete opustiť túto skupinu?</string>
     <string name="ConversationActivity_error_leaving_group">Chyba pri opustení skupiny</string>
@@ -213,7 +212,6 @@ výmeny kľúčov.</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Vaše bezpečnostné číslo s %s sa zmenilo.</string>
     <string name="ThreadRecord_you_marked_verified">Označili ste ako overené</string>
     <string name="ThreadRecord_you_marked_unverified">Označili ste ako neoverené</string>
-    <string name="ThreadRecord_empty_message">Táto konverzácia je prázdna</string>
     <string name="ThreadRecord_open_group_invitation">Otvoriť skupinovú pozvánku</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Aktualizácia Sessionu</string>
@@ -445,7 +443,7 @@ výmeny kľúčov.</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Upraviť skupinu</string>
     <string name="conversation__menu_leave_group">Opustiť skupinu</string>
-    <string name="conversation__menu_add_shortcut">Pridať na plochu</string>
+    <string name="conversationsAddToHome">Pridať na plochu</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Rozbaliť okno</string>
     <!-- conversation_group_options -->
@@ -512,8 +510,7 @@ výmeny kľúčov.</string>
     <string name="activity_home_empty_state_message">Zatiaľ nemáte žiadne kontakty</string>
     <string name="activity_home_leave_group_dialog_message">Ste si istí že chcete opustiť túto skupinu?</string>
     <string name="activity_home_leaving_group_failed_message">"Skupinu sa nepodarilo opustiť"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Naozaj chcete odstrániť túto konverzáciu?</string>
-    <string name="activity_home_conversation_deleted_message">Konverzácia úspešne zmazaná</string>
+    <string name="conversationsDeleted">Konverzácia úspešne zmazaná</string>
     <string name="activity_seed_title_2">Toto je vaša fráza pre obnovenie</string>
     <string name="activity_seed_explanation">Vaša fráza na obnovenie je hlavným kľúčom k vášmu Session ID - môžete ju použiť na obnovenie svojho Session ID ak stratíte prístup k zariadeniu. Uložte frázu na obnovenie na bezpečnom mieste a nikomu ju nedávajte.</string>
     <string name="activity_seed_reveal_button_title">Podržaním odhaľte</string>
@@ -525,7 +522,6 @@ výmeny kľúčov.</string>
     <string name="onionRoutingPathServiceNode">Servisný uzol</string>
     <string name="onionRoutingPathDestination">Cieľ</string>
     <string name="learnMore">Viac informácií</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Zadajte Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skenovať QR kód</string>
     <string name="fragment_enter_public_key_explanation">Používatelia môžu zdieľať svoje Session ID tak, že prejdú do nastavení svojho účtu a klepnú na možnosť „Zdieľať Session ID“ alebo zdieľajú svoj QR kód.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session potrebuje prístup k fotoaparátu na skenovanie QR kódov</string>

@@ -66,7 +66,6 @@
     <string name="ConversationActivity_member_count">Narių: %1$d</string>
     <string name="ConversationActivity_open_group_guidelines">Bendruomenės gairės</string>
     <string name="ConversationActivity_invalid_recipient">Neteisingas gavėjas!</string>
-    <string name="ConversationActivity_added_to_home_screen">Pridėta į pradžios ekraną</string>
     <string name="ConversationActivity_leave_group">Išeiti iš grupės?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ar tikrai norite išeiti iš šios grupės?</string>
     <string name="ConversationActivity_error_leaving_group">Klaida, išeinant iš grupės</string>
@@ -216,7 +215,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %s pasikeitė.</string>
     <string name="ThreadRecord_you_marked_verified">Jūs pažymėjote patvirtintu</string>
     <string name="ThreadRecord_you_marked_unverified">Jūs pažymėjote nepatvirtintu</string>
-    <string name="ThreadRecord_empty_message">Šis pokalbis tuščias</string>
     <string name="ThreadRecord_open_group_invitation">Pakvietimas į atvirą grupę</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session atnaujinimas</string>
@@ -446,7 +444,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Taisyti grupę</string>
     <string name="conversation__menu_leave_group">Išeiti iš grupės</string>
-    <string name="conversation__menu_add_shortcut">Pridėti į pradžios ekraną</string>
+    <string name="conversationsAddToHome">Pridėti į pradžios ekraną</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Išskleisti iškylantįjį langą</string>
     <!-- conversation_group_options -->
@@ -515,8 +513,7 @@
     <string name="activity_home_empty_state_message">Kol kas neturite jokių adresatų</string>
     <string name="activity_home_leave_group_dialog_message">Ar tikrai norite išeiti iš šios grupės?</string>
     <string name="activity_home_leaving_group_failed_message">"Nepavyko išeiti iš grupės"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Ar tikrai norite ištrinti šį pokalbį?</string>
-    <string name="activity_home_conversation_deleted_message">Pokalbis ištrintas</string>
+    <string name="conversationsDeleted">Pokalbis ištrintas</string>
     <string name="activity_seed_title_2">Pasitikite savo atkūrimo frazę</string>
     <string name="activity_seed_explanation">Jūsų atkūrimo frazė yra pagrindinis raktas į jūsų Session ID — galite ją naudoti, kad atkurtumėte savo Session ID tuo atveju, jei prarasite prieigą prie savo įrenginio. Laikykite savo atkūrimo frazę saugioje vietoje ir niekam jos nerodykite.</string>
     <string name="view_seed_reminder_title">Beveik užbaigėte! 80%</string>
@@ -528,9 +525,7 @@
     <string name="onionRoutingPathServiceNode">Aptarnavimo mazgas</string>
     <string name="onionRoutingPathDestination">Paskirties vieta</string>
     <string name="learnMore">Sužinoti daugiau</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Įveskite Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skenuoti QR kodą</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Įveskite Session ID arba ONS vardą</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Suteikti prieigą prie kameros</string>
     <string name="activity_create_closed_group_edit_text_hint">Įveskite grupės pavadinimą</string>
     <string name="activity_create_closed_group_empty_state_message">Kol kas neturite jokių adresatų</string>
@@ -595,7 +590,6 @@
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">Įveskite slapyvardį</string>
     <string name="dialog_blocked_title">Atblokuoti %s?</string>
     <string name="dialog_blocked_explanation">Ar tikrai norite atblokuoti %s?</string>
-    <string name="dialog_join_open_group_title">Prisijungti prie %s?</string>
     <string name="dialog_join_open_group_explanation">Ar tikrai norite prisijungti prie %s atviros grupės?</string>
     <string name="dialog_open_url_title">Atverti URL nuorodą?</string>
     <string name="dialog_open_url_explanation">Ar tikrai norite atverti %s?</string>

@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d medlemmer</string>
     <string name="ConversationActivity_open_group_guidelines">Fellesskapets rettningslinjer</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig mottaker.</string>
-    <string name="ConversationActivity_added_to_home_screen">Lagt til startskjermen</string>
     <string name="ConversationActivity_leave_group">Vil du forlate gruppa?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Er du sikker på at du vil forlate gruppa?</string>
     <string name="ConversationActivity_error_leaving_group">Klarte ikke å forlate gruppe</string>
@@ -197,7 +196,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sikkerhetsnummeret ditt for %s er endret.</string>
     <string name="ThreadRecord_you_marked_verified">Markert som bekreftet</string>
     <string name="ThreadRecord_you_marked_unverified">Markert som ikke bekreftet</string>
-    <string name="ThreadRecord_empty_message">Denne samtalen er tom</string>
     <string name="ThreadRecord_open_group_invitation">Åpne gruppeinvitasjon</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session oppdatering</string>
@@ -427,7 +425,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Rediger gruppe</string>
     <string name="conversation__menu_leave_group">Forlat gruppe</string>
-    <string name="conversation__menu_add_shortcut">Legg til på startskjermen</string>
+    <string name="conversationsAddToHome">Legg til på startskjermen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Utvid sprettoppvindu</string>
     <!-- conversation_group_options -->
@@ -497,8 +495,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_home_empty_state_button_title">Start en Session</string>
     <string name="activity_home_leave_group_dialog_message">Er du sikker på at du vil forlate denne gruppen?</string>
     <string name="activity_home_leaving_group_failed_message">"Kunne ikke forlate gruppen"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Er du sikker på at du vil slette denne samtalen?</string>
-    <string name="activity_home_conversation_deleted_message">Samtalen slettet</string>
+    <string name="conversationsDeleted">Samtalen slettet</string>
     <string name="activity_seed_title_2">Møt din gjenopprettingsfrase</string>
     <string name="activity_seed_explanation">Gjenopprettelsesfrasen din er hovednøkkelen til Session-IDen din – du kan bruke den for å gjenopprette Session-IDen din dersom du mister tilgang til enheten din. Arkiver gjenopprettelsesfrasen din på et trygt sted, og ikke gi den til noen.</string>
     <string name="activity_seed_reveal_button_title">Hold for å vise</string>
@@ -512,11 +509,8 @@ nøkkelutvekslingsmelding.</string>
     <string name="onionRoutingPathDestination">Destinasjon</string>
     <string name="learnMore">Lær mer</string>
     <string name="activity_path_resolving_progress">Løser…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Skriv inn Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skann QR-kode</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Angi Session-ID eller ONS-navn</string>
     <string name="fragment_enter_public_key_explanation">Brukere kan dele sin Session-ID ved å gå inn i sine kontoinnstillinger og trykke på \"Del Session-ID\", eller ved å dele sin QR-kode.</string>
-    <string name="fragment_enter_public_key_error_message">Vennligst sjekk Session-ID\'en eller ONS-navnet og prøv igjen.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session trenger kameratilgang for å skanne QR-koder</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Gi kameratilgang</string>
     <string name="activity_create_closed_group_edit_text_hint">Skriv inn et gruppenavn</string>
@@ -595,7 +589,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="invalid_public_key">Ugyldig offentlig nøkkel</string>
     <string name="dialog_blocked_title">Opphev blokkering %s?</string>
     <string name="dialog_blocked_explanation">Er du sikker på at du vil oppheve blokkeringen av %s?</string>
-    <string name="dialog_join_open_group_title">Bli med %s?</string>
     <string name="dialog_join_open_group_explanation">Er du sikker på at du vil bli med i den åpne gruppen for %s?</string>
     <string name="dialog_open_url_title">Åpne URL?</string>
     <string name="dialog_open_url_explanation">Er du sikker på at du vil åpne %s?</string>

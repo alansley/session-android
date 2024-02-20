@@ -61,7 +61,6 @@
     <string name="ConversationActivity_member_count">%1$d membros</string>
     <string name="ConversationActivity_open_group_guidelines">Directrices da Comunidade</string>
     <string name="ConversationActivity_invalid_recipient">Destinatario non válido!</string>
-    <string name="ConversationActivity_added_to_home_screen">Engadido á pantalla de inicio</string>
     <string name="ConversationActivity_leave_group">Abandonar o grupo?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Tes a certeza de querer abandonar este grupo?</string>
     <string name="ConversationActivity_error_leaving_group">Erro ao abandonar o grupo</string>
@@ -196,7 +195,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">O teu número de seguranza con %s cambiou.</string>
     <string name="ThreadRecord_you_marked_verified">Marcaches como verificado</string>
     <string name="ThreadRecord_you_marked_unverified">Marcaches como sen verificar</string>
-    <string name="ThreadRecord_empty_message">Esta conversa está baleira</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Actualizar Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Hai dispoñible unha nova versión de Session; toca para actualizar</string>
@@ -421,7 +419,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editar grupo</string>
     <string name="conversation__menu_leave_group">Abandonar grupo</string>
-    <string name="conversation__menu_add_shortcut">Engadir á pantalla de inicio</string>
+    <string name="conversationsAddToHome">Engadir á pantalla de inicio</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandir xanela emerxente</string>
     <!-- conversation_group_options -->
@@ -481,10 +479,8 @@
     <string name="activity_home_empty_state_button_title">Iniciar unha sesión</string>
     <string name="activity_home_leave_group_dialog_message">Tes a certeza de querer abandonar este grupo?</string>
     <string name="activity_home_leaving_group_failed_message">"Non foi posible abandonar o grupo"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Tes a certeza de querer borrar esta conversa?</string>
-    <string name="activity_home_conversation_deleted_message">Conversa borrada</string>
+    <string name="conversationsDeleted">Conversa borrada</string>
     <string name="activity_path_resolving_progress">Procesando…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Introducir ID de Session</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Escanear código QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Conceder acceso á cámara</string>
     <string name="activity_create_closed_group_edit_text_hint">Introduce o nome do grupo</string>
@@ -513,7 +509,6 @@
     <string name="activity_edit_closed_group_group_name_too_long_error">Introduce un nome de grupo máis curto, por favor</string>
     <string name="activity_edit_closed_group_not_enough_group_members_error">Os grupos deben ter polo menos 1 membro</string>
     <string name="fragment_edit_group_bottom_sheet_remove">Eliminar usuario do grupo</string>
-    <string name="dialog_join_open_group_title">Entrar no grupo %s?</string>
     <string name="dialog_join_open_group_explanation">Tes a certeza de querer entrar no grupo aberto %s?</string>
     <string name="activity_conversation_blocked_banner_text">%s está bloqueado. Desbloquealo?</string>
     <string name="activity_conversation_attachment_prep_failed">No foi posible preparar o anexo para ser enviado.</string>

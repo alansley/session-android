@@ -383,13 +383,12 @@
     <string name="activity_home_empty_state_button_title">Memulai Session</string>
     <string name="activity_home_leave_group_dialog_message">Apakah anda yakin ingin meninggalkan grup ini?</string>
     <string name="activity_home_leaving_group_failed_message">"Tidak dapat meninggalkan grup"</string>
-    <string name="activity_home_conversation_deleted_message">Percakapan dihapus</string>
+    <string name="conversationsDeleted">Percakapan dihapus</string>
     <string name="activity_seed_title_2">Inilah kata pemulihan anda</string>
     <string name="activity_seed_reveal_button_title">Tekan untuk melihat</string>
     <string name="view_seed_reminder_title">Hampir selesai! 80%</string>
     <string name="onionRoutingPathDestination">Tujuan</string>
     <string name="learnMore">Selengkapnya</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Masukkan Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Pindai kode QR</string>
     <string name="activity_create_closed_group_group_name_missing_error">Masukkan nama grup</string>
     <string name="activity_create_closed_group_group_name_too_long_error">Masukkan nama grup yang lebih pendek</string>

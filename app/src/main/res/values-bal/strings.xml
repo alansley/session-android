@@ -41,7 +41,6 @@
     <string name="ConversationActivity_select_contact_info">Pilih info kontak</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Maaf, terjadi kesalahan pada pengaturan lampiran anda.</string>
     <string name="ConversationActivity_invalid_recipient">Penerima tidak lengkap!</string>
-    <string name="ConversationActivity_added_to_home_screen">Tambahkan ke layar utama</string>
     <string name="ConversationActivity_leave_group">Tinggalkan grup?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Apakah Anda yakin ingin meninggalkan grup ini?</string>
     <string name="ConversationActivity_error_leaving_group">Gagal meninggalkan grup</string>
@@ -339,7 +338,7 @@ memproses pertukaran kunci korupsi.</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Ubah grup</string>
     <string name="conversation__menu_leave_group">Keluar grup</string>
-    <string name="conversation__menu_add_shortcut">tambahkan ke layar utama</string>
+    <string name="conversationsAddToHome">tambahkan ke layar utama</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Lebarkan munculan</string>
     <!-- conversation_group_options -->
@@ -408,8 +407,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_home_empty_state_button_title">Mulai sebuah Session</string>
     <string name="activity_home_leave_group_dialog_message">Apakah anda yakin ingin meninggalkan grup ini?</string>
     <string name="activity_home_leaving_group_failed_message">"Tak bisa meninggalkan grup"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Apakah anda yakin ingin menghapus percakapan ini?</string>
-    <string name="activity_home_conversation_deleted_message">Percakapan terhapus</string>
+    <string name="conversationsDeleted">Percakapan terhapus</string>
     <string name="activity_seed_title_2">Inilah kata pemulihan anda</string>
     <string name="activity_seed_explanation">Kata pemulihan adalah kunci Session ID -- bisa digunakan untuk mengembalikan Session ID ketika anda kehilangan perangkat. Simpan kata pemulihan di tempat yang aman dan jangan berikan kepada siapapun</string>
     <string name="activity_seed_reveal_button_title">Tekan untuk melihat</string>
@@ -420,7 +418,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="onionRoutingPathServiceNode">Simpul layanan</string>
     <string name="onionRoutingPathDestination">Tujuan</string>
     <string name="learnMore">Pelajari lebih lanjut</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Masukkan Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Pindai kode QR</string>
     <string name="fragment_enter_public_key_explanation">Pengguna bisa membagikan Session ID miliknya dengan masuk ke pengaturan akun dan mengetuk \"Bagikan Session ID\" atau dengan membagikan kode QR mereka</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session membutuhkan akses kamera untuk memindai kode QR</string>

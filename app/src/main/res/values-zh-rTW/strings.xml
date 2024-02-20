@@ -61,7 +61,6 @@
     <string name="ConversationActivity_member_count">%1$d 位成員</string>
     <string name="ConversationActivity_open_group_guidelines">社群規範</string>
     <string name="ConversationActivity_invalid_recipient">無效的聯絡人！</string>
-    <string name="ConversationActivity_added_to_home_screen">新增到主畫面</string>
     <string name="ConversationActivity_leave_group">離開群組？</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">您確定要離開此群組？</string>
     <string name="ConversationActivity_error_leaving_group">離開群組時發生錯誤</string>
@@ -193,7 +192,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">您與 %s 的安全碼已改變</string>
     <string name="ThreadRecord_you_marked_verified">您標記為已驗證</string>
     <string name="ThreadRecord_you_marked_unverified">您標記為未驗證</string>
-    <string name="ThreadRecord_empty_message">此對話是空的</string>
     <string name="ThreadRecord_open_group_invitation">打開群組邀請</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session 更新</string>
@@ -421,7 +419,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">編輯群組</string>
     <string name="conversation__menu_leave_group">離開對話群組</string>
-    <string name="conversation__menu_add_shortcut">新增到主畫面</string>
+    <string name="conversationsAddToHome">新增到主畫面</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">展開快顯</string>
     <!-- conversation_group_options -->
@@ -491,8 +489,7 @@
     <string name="activity_home_empty_state_button_title">開始一個會話</string>
     <string name="activity_home_leave_group_dialog_message">您確定要退出此群組嗎？</string>
     <string name="activity_home_leaving_group_failed_message">"無法離開群組"</string>
-    <string name="activity_home_delete_conversation_dialog_message">您確定要刪除此對話嗎？</string>
-    <string name="activity_home_conversation_deleted_message">對話已刪除</string>
+    <string name="conversationsDeleted">對話已刪除</string>
     <string name="activity_seed_title_2">查看您的恢復短語</string>
     <string name="activity_seed_explanation">您的恢復短語是您的 Session ID 的主金鑰——如果您無法存取您的裝置，您可以使用它來恢復您的Session ID。 將您的恢復短語存放在安全的地方，不要將其提供給任何人。</string>
     <string name="activity_seed_reveal_button_title">按住以解除隱藏</string>
@@ -506,11 +503,8 @@
     <string name="onionRoutingPathDestination">目的地</string>
     <string name="learnMore">瞭解更多</string>
     <string name="activity_path_resolving_progress">解決中...</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">輸入 Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">掃描 QR Code</string>
-    <string name="fragment_enter_public_key_edit_text_hint">請輸入您的 ID 或 ONS 的名稱</string>
     <string name="fragment_enter_public_key_explanation">使用者可以進入帳戶設定中，點擊分享 Session ID 或直接分享其 QR Code。</string>
-    <string name="fragment_enter_public_key_error_message">請檢查 Session ID 或 ONS，然後再試一次。</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session 需要使用相機存取權來掃描 QR Codes</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">授與相機權限</string>
     <string name="activity_create_closed_group_edit_text_hint">請輸入群組名稱</string>
@@ -589,7 +583,6 @@
     <string name="invalid_public_key">無效號碼</string>
     <string name="dialog_blocked_title">解除封鎖 %s 嗎？</string>
     <string name="dialog_blocked_explanation">您確定要解除封鎖 %s 嗎？</string>
-    <string name="dialog_join_open_group_title">加入 %s?</string>
     <string name="dialog_join_open_group_explanation">您確定要加入 %s 公開群組嗎？</string>
     <string name="dialog_open_url_title">開啟連結？</string>
     <string name="dialog_open_url_explanation">您確定要開啟 %s 嗎？</string>

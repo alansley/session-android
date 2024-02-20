@@ -63,7 +63,6 @@
     <string name="ConversationActivity_member_count">%1$d membri</string>
     <string name="ConversationActivity_open_group_guidelines">Linee guida della comunità</string>
     <string name="ConversationActivity_invalid_recipient">Destinatario non valido!</string>
-    <string name="ConversationActivity_added_to_home_screen">Aggiunto alla schermata principale</string>
     <string name="ConversationActivity_leave_group">Vuoi lasciare il gruppo?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Vuoi davvero lasciare questo gruppo?</string>
     <string name="ConversationActivity_error_leaving_group">Errore nell\'uscita dal gruppo</string>
@@ -198,7 +197,6 @@ scambia un altro messaggio!</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Il codice di sicurezza con %s è cambiato.</string>
     <string name="ThreadRecord_you_marked_verified">Segna come verificato</string>
     <string name="ThreadRecord_you_marked_unverified">Segna come non verificato</string>
-    <string name="ThreadRecord_empty_message">Questa conversazione è vuota</string>
     <string name="ThreadRecord_open_group_invitation">Apri invito di gruppo</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Aggiornamento Session</string>
@@ -428,7 +426,7 @@ scambia un altro messaggio!</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Modifica gruppo</string>
     <string name="conversation__menu_leave_group">Abbandona il gruppo</string>
-    <string name="conversation__menu_add_shortcut">Aggiungi alla schermata principale</string>
+    <string name="conversationsAddToHome">Aggiungi alla schermata principale</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Espandi popup</string>
     <!-- conversation_group_options -->
@@ -498,8 +496,7 @@ scambia un altro messaggio!</string>
     <string name="activity_home_empty_state_button_title">Inizia una sessione</string>
     <string name="activity_home_leave_group_dialog_message">Sei sicuro di voler lasciare questo gruppo?</string>
     <string name="activity_home_leaving_group_failed_message">"Impossibile lasciare il gruppo"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Sei sicuro di voler eliminare questa conversazione?</string>
-    <string name="activity_home_conversation_deleted_message">Conversazione eliminata</string>
+    <string name="conversationsDeleted">Conversazione eliminata</string>
     <string name="activity_seed_title_2">La frase di recupero</string>
     <string name="activity_seed_explanation">La frase di recupero è la chiave principale per l\'ID Sessione: puoi usarla per ripristinare l\'ID Sessione se perdi l\'accesso al dispositivo. Conserva la frase di recupero in un luogo sicuro e non rivelarla a nessuno.</string>
     <string name="activity_seed_reveal_button_title">Tieni premuto per rivelare</string>
@@ -513,11 +510,8 @@ scambia un altro messaggio!</string>
     <string name="onionRoutingPathDestination">Destinazione</string>
     <string name="learnMore">Per saperne di più</string>
     <string name="activity_path_resolving_progress">In Risoluzione…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Inserisci ID Sessione</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Scansiona il codice QR</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Inserisci ID Sessione o nome ONS</string>
     <string name="fragment_enter_public_key_explanation">Gli utenti possono condividere il proprio ID Sessione accedendo alle impostazioni del proprio account e toccando \"Condividi ID Sessione\" o condividendo il proprio codice QR.</string>
-    <string name="fragment_enter_public_key_error_message">Controllare l\'ID Sessione o il nome ONS e riprovare.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">La Sessione richiede l\'accesso alla fotocamera per scansionare i codici QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Consenti Accesso Fotocamera</string>
     <string name="activity_create_closed_group_edit_text_hint">Inserisci un nome per il gruppo</string>
@@ -596,7 +590,6 @@ scambia un altro messaggio!</string>
     <string name="invalid_public_key">Chiave pubblica non valida</string>
     <string name="dialog_blocked_title">Sbloccare %s?</string>
     <string name="dialog_blocked_explanation">Sei sicuro di voler sbloccare %s?</string>
-    <string name="dialog_join_open_group_title">Unirsi a %s?</string>
     <string name="dialog_join_open_group_explanation">Sei sicuro di voler unirti al gruppo aperto %s?</string>
     <string name="dialog_open_url_title">Aprire URL?</string>
     <string name="dialog_open_url_explanation">Sei sicuro di voler aprire %s?</string>

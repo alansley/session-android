@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d medlemmer</string>
     <string name="ConversationActivity_open_group_guidelines">Retningslinjer For Fællesskabet</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig modtager!</string>
-    <string name="ConversationActivity_added_to_home_screen">Føjet til startskærm</string>
     <string name="ConversationActivity_leave_group">Forlad gruppe?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Er du sikker, du vil forlade gruppen?</string>
     <string name="ConversationActivity_error_leaving_group">Fejl ved forsøg på at forlade gruppen</string>
@@ -197,7 +196,6 @@ udveksel besked!</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Dit sikkerhedsnummer med %s er ændret</string>
     <string name="ThreadRecord_you_marked_verified">Markerét som verificeret</string>
     <string name="ThreadRecord_you_marked_unverified">Markerét som ubekræftet</string>
-    <string name="ThreadRecord_empty_message">Denne samtale er tom</string>
     <string name="ThreadRecord_open_group_invitation">Åben gruppe invitation</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session opdatering</string>
@@ -426,7 +424,7 @@ udveksel besked!</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Redigér gruppe</string>
     <string name="conversation__menu_leave_group">Forlad gruppe</string>
-    <string name="conversation__menu_add_shortcut">Føj til startskærm</string>
+    <string name="conversationsAddToHome">Føj til startskærm</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Udvid popup</string>
     <!-- conversation_group_options -->
@@ -495,8 +493,7 @@ udveksel besked!</string>
     <string name="activity_home_empty_state_button_title">Start en Session</string>
     <string name="activity_home_leave_group_dialog_message">Er du sikker på, at du vil forlade denne gruppe?</string>
     <string name="activity_home_leaving_group_failed_message">"Kunne ikke forlade gruppen"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Er du sikker på, at du vil slette denne samtale?</string>
-    <string name="activity_home_conversation_deleted_message">Samtale slettet</string>
+    <string name="conversationsDeleted">Samtale slettet</string>
     <string name="activity_seed_title_2">Mød din gendannelsessætning</string>
     <string name="activity_seed_explanation">Din gendannelsessætning er hovednøglen til dit Session ID - du kan bruge den til at gendanne dit Session ID, hvis du mister adgang til din enhed. Gem din gendannelsessætning på et sikkert sted, og giv det ikke til nogen.</string>
     <string name="activity_seed_reveal_button_title">Hold nede for at se</string>
@@ -507,9 +504,7 @@ udveksel besked!</string>
     <string name="onionRoutingPath">Sti</string>
     <string name="onionRoutingPathDestination">Destination</string>
     <string name="learnMore">Læs mere</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Indtast Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skan QR-kode</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Indtast Session ID eller ONS navn</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session skal bruge kameraadgang for at scanne QR-koder</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Tildel Adgang Til Kamera</string>
     <string name="activity_create_closed_group_edit_text_hint">Indtast et gruppenavn</string>

@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$dसदस्य</string>
     <string name="ConversationActivity_open_group_guidelines">सामुदायिक दिशानिर्देश</string>
     <string name="ConversationActivity_invalid_recipient">अवैध प्राप्तकर्ता</string>
-    <string name="ConversationActivity_added_to_home_screen">होम स्क्रीन में जोड़ा गया</string>
     <string name="ConversationActivity_leave_group">समूह छोड़ दें?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">क्या आप वाकई इस समूह को छोड़ना चाहते हैं?</string>
     <string name="ConversationActivity_error_leaving_group">समूह छोड़ने में त्रुटि</string>
@@ -197,7 +196,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s के साथ आपका सुरक्षा नंबर बदल गया है।</string>
     <string name="ThreadRecord_you_marked_verified">आपने सत्यापित चिह्नित किया है</string>
     <string name="ThreadRecord_you_marked_unverified">आपने असत्यापित चिह्नित किया है</string>
-    <string name="ThreadRecord_empty_message">यह वार्तालाप खाली है</string>
     <string name="ThreadRecord_open_group_invitation">ग्रुप आमंत्रण खोलें</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session अपडेट</string>
@@ -427,7 +425,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">समूह संपादित करें</string>
     <string name="conversation__menu_leave_group">समूह छोड़ दें</string>
-    <string name="conversation__menu_add_shortcut">होम स्क्रीन में शामिल करें</string>
+    <string name="conversationsAddToHome">होम स्क्रीन में शामिल करें</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">पॉपअप का विस्तार करें</string>
     <!-- conversation_group_options -->
@@ -497,8 +495,7 @@
     <string name="activity_home_empty_state_button_title">एक सेशन प्रारंभ करें</string>
     <string name="activity_home_leave_group_dialog_message">क्या आप यह ग्रुप छोड़ना चाहते हैं?</string>
     <string name="activity_home_leaving_group_failed_message">"ग्रुप नहीं छोड़ सके"</string>
-    <string name="activity_home_delete_conversation_dialog_message">क्या वाकई आप इस वार्तालाप को हटाना चाहते हैं?</string>
-    <string name="activity_home_conversation_deleted_message">बातचीत हटाई गई</string>
+    <string name="conversationsDeleted">बातचीत हटाई गई</string>
     <string name="activity_seed_title_2">अपने पुनर्प्राप्ति वाक्यांश से मिलें</string>
     <string name="activity_seed_explanation">आपका रिकवरी फ्रेज आपके Session Id की मास्टर कीय है — आप इसका इस्तेमाल अपनी Session ID को वापिस पाने के लिए कर सकते है अगर आपका फ़ोन गुम हो गया है | अपने रिकवरी फ्रेज को एक सुरक्षित जगह रखे और इसे किसी के साथ शेयर न करे |</string>
     <string name="activity_seed_reveal_button_title">देखने के लिए दबाएं</string>
@@ -512,11 +509,8 @@
     <string name="onionRoutingPathDestination">गंतव्य</string>
     <string name="learnMore">अधिक जानें</string>
     <string name="activity_path_resolving_progress">हल किया जा रहा है</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">सेशन आईडी डालें</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR कोड को स्कैन करें</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Session आईडी या ओएनएस नाम दर्ज करें</string>
     <string name="fragment_enter_public_key_explanation">यूजर अपनी अकाउंट सेटिंग में जाकर और \"शेयर Session आईडी\" टैप करके, या अपना क्यूआर कोड शेयर कर सकते है।</string>
-    <string name="fragment_enter_public_key_error_message">कृपया अपनी सैसन आइडी या में औएनएस चेक करें और फिरसे प्रयास करें।</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">क्यूआर कोड स्कैन करने के लिए Session को कैमरा एक्सेस की आवश्यकता है</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">कैमरा केउपयोग को प्रदान करें</string>
     <string name="activity_create_closed_group_edit_text_hint">ग्रुप का नाम डालें</string>
@@ -595,7 +589,6 @@
     <string name="invalid_public_key">अमान्य सार्वजनिक कुंजी</string>
     <string name="dialog_blocked_title">%s अनब्लॉक करें?</string>
     <string name="dialog_blocked_explanation">क्या आप वाकई %s को अनब्लॉक करना चाहते हैं?</string>
-    <string name="dialog_join_open_group_title">%s से जुड़ें</string>
     <string name="dialog_join_open_group_explanation">क्या आप %s open ग्रुप से जुड़ना चाहते हैं?</string>
     <string name="dialog_open_url_title">यूआरएल खोलें</string>
     <string name="dialog_open_url_explanation">क्या आप वाकई %s खोलना चाहते हैं?</string>

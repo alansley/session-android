@@ -50,7 +50,6 @@
     <string name="ConversationActivity_select_contact_info">Vel kontaktinformasjon</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Det oppstod ein feil under vedlegg av fil.</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig mottakar.</string>
-    <string name="ConversationActivity_added_to_home_screen">Lagt til heimeskjermen</string>
     <string name="ConversationActivity_leave_group">Vil du forlata gruppa?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Er du sikker på at du vil forlata gruppa?</string>
     <string name="ConversationActivity_error_leaving_group">Klarte ikkje forlata gruppa</string>
@@ -382,7 +381,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Rediger gruppa</string>
     <string name="conversation__menu_leave_group">Forlat gruppe</string>
-    <string name="conversation__menu_add_shortcut">Legg til heimeskjermen</string>
+    <string name="conversationsAddToHome">Legg til heimeskjermen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Utvid sprettoppvindauge</string>
     <!-- conversation_group_options -->

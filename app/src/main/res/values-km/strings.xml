@@ -50,7 +50,6 @@
     <string name="ConversationActivity_select_contact_info">ជ្រើសរើសព័ត៌មានលេខទំនាក់ទំនង</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">សុំទោស មានបញ្ហក្នុងការកំណត់ឯកសារភ្ជាប់របស់អ្នក។</string>
     <string name="ConversationActivity_invalid_recipient">អ្នកទទួលមិនត្រឹមត្រូវ!</string>
-    <string name="ConversationActivity_added_to_home_screen">បានបន្ថែមទៅអេក្រង់ដើម</string>
     <string name="ConversationActivity_leave_group">ចាកចេញពីក្រុម?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">តើអ្នកប្រាកដទេ ថាចង់ចាកចេញពីក្រុមនេះ?</string>
     <string name="ConversationActivity_error_leaving_group">បញ្ហាសម្រាប់ការចាកចេញពីក្រុម</string>
@@ -387,7 +386,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">កែប្រែក្រុម</string>
     <string name="conversation__menu_leave_group">ចាកចេញពីក្រុម</string>
-    <string name="conversation__menu_add_shortcut">បន្ថែមទៅអេក្រង់ដើម</string>
+    <string name="conversationsAddToHome">បន្ថែមទៅអេក្រង់ដើម</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ពង្រីកការផុសឡើង</string>
     <!-- conversation_group_options -->

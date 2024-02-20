@@ -63,7 +63,6 @@
     <string name="ConversationActivity_member_count">%1$d անդամաներ</string>
     <string name="ConversationActivity_open_group_guidelines">Համայնքի կանոնները</string>
     <string name="ConversationActivity_invalid_recipient">Սխալ հասցեատեր</string>
-    <string name="ConversationActivity_added_to_home_screen">Ավելացված է գլխավոր էկրանին</string>
     <string name="ConversationActivity_leave_group">Լքե՞լ խումբը</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Համոզվա՞ծ եք, որ ուզում եք հեռանալ այս խմբից։</string>
     <string name="ConversationActivity_error_leaving_group">Սխալ խմբից դուրս գալուց</string>
@@ -205,7 +204,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ձեր անվտանգության համարը %s-ի հետ փոխվել է:</string>
     <string name="ThreadRecord_you_marked_verified">Ստուգված է ձեր կողմից</string>
     <string name="ThreadRecord_you_marked_unverified">Չստուգված ձեր կողմից</string>
-    <string name="ThreadRecord_empty_message">Այս խոսակցությունը դատարկ է</string>
     <string name="ThreadRecord_open_group_invitation">Բացել խմբին միանալու հրավերը</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session֊ի թարմացում</string>
@@ -435,7 +433,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Խմբագրել խումբը</string>
     <string name="conversation__menu_leave_group">Լքել խումբը</string>
-    <string name="conversation__menu_add_shortcut">Ավելացնել Հիմնական էկրանին</string>
+    <string name="conversationsAddToHome">Ավելացնել Հիմնական էկրանին</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Ընդլայնել ծանուցումը</string>
     <!-- conversation_group_options -->
@@ -505,8 +503,7 @@
     <string name="activity_home_empty_state_button_title">Սկսել Սեանս</string>
     <string name="activity_home_leave_group_dialog_message">Համոզվա՞ծ եք, որ ուզում եք հեռանալ այս խմբից։</string>
     <string name="activity_home_leaving_group_failed_message">"Չստացվեց հեռանալ խումբից"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Վստա՞հ եք, որ ցանկանում եք ջնջել այս խոսակցությունը:</string>
-    <string name="activity_home_conversation_deleted_message">Ջնջված է</string>
+    <string name="conversationsDeleted">Ջնջված է</string>
     <string name="activity_seed_title_2">Ծանոթացեք ձեր վերականգնման բառակապակցության հետ</string>
     <string name="activity_seed_explanation">Session այդին Ձեր Session բանալին է, որը կարող եք վերականգնել եթե կորցնեք ձեր սարքը, ձեր բանալին պահեք և մի տվեք ինչ-որ մեկին.</string>
     <string name="activity_seed_reveal_button_title">Սեղմած պահեք տեսնելու համար</string>
@@ -520,11 +517,8 @@
     <string name="onionRoutingPathDestination">Նպատակակետ</string>
     <string name="learnMore">Իմանալ Ավելին</string>
     <string name="activity_path_resolving_progress">Լուծում է…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Մուտքագրեք Սեանսի ինքնությունը</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Սկանավորել QR Կոդ</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Գրեք session այդին կամ ONS անունը</string>
     <string name="fragment_enter_public_key_explanation">Օգտագործողները կարող են կիսվել իրենց session-ի այդի-ով մտնելով իրենք կարգավորումներ և սեղմելով կիսվել կոճակը կամ կիսվելով QR կոդով.</string>
-    <string name="fragment_enter_public_key_error_message">Խնդրում ենք ստուգել session-ի այդին կամ ONS-ը և փորձել նորից.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session-ին պետք հասանելիություն տեսախցիկին որպեսզի սքանավորի QR կոդը</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Տեսախցիկի հասանելիություն</string>
     <string name="activity_create_closed_group_edit_text_hint">Մուտքագրեք խմբի անուն</string>
@@ -603,7 +597,6 @@
     <string name="invalid_public_key">Սխալ հանրային կոդ</string>
     <string name="dialog_blocked_title">Արգելաբացե՞լ %s։</string>
     <string name="dialog_blocked_explanation">Համոզվա՞ծ եք, որ ուզում եք արգելաբացել %s֊ին։</string>
-    <string name="dialog_join_open_group_title">Միանա՞լ %s֊ին։</string>
     <string name="dialog_join_open_group_explanation">Համոզվա՞ծ եք, որ ուզում եք միանալ %s բաց խմբին։</string>
     <string name="dialog_open_url_title">Բացե՞լ URL-ը։</string>
     <string name="dialog_open_url_explanation">Համոզվա՞ծ եք, որ ուզում եք բացել %s։</string>

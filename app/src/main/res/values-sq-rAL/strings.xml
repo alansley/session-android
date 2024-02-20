@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d anëtarë</string>
     <string name="ConversationActivity_open_group_guidelines">Udhëzimet e komunitetit</string>
     <string name="ConversationActivity_invalid_recipient">Marrës i pavlefshëm!</string>
-    <string name="ConversationActivity_added_to_home_screen">U shtua te skena e kreut</string>
     <string name="ConversationActivity_leave_group">Të braktiset grupi?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">A jeni i sigurt se dëshironi ta braktisni grupin?</string>
     <string name="ConversationActivity_error_leaving_group">Gabim braktisje grupi</string>
@@ -197,7 +196,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Numri juaj i sigurisë me %s është ndryshuar.</string>
     <string name="ThreadRecord_you_marked_verified">E shënuat si të verifikuar</string>
     <string name="ThreadRecord_you_marked_unverified">E shënuat si të paverifikuar</string>
-    <string name="ThreadRecord_empty_message">Kjo bisedë është bosh</string>
     <string name="ThreadRecord_open_group_invitation">Hap ftesën në grup</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Përditësim i Session-it</string>
@@ -427,7 +425,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Përpunoni grup</string>
     <string name="conversation__menu_leave_group">Braktise grupin</string>
-    <string name="conversation__menu_add_shortcut">Shtoje te skena e kreut</string>
+    <string name="conversationsAddToHome">Shtoje te skena e kreut</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Zgjero flluskën</string>
     <!-- conversation_group_options -->

@@ -58,7 +58,6 @@
     <string name="message">సందేశం</string>
     <string name="ConversationActivity_compose">కంపోజ్</string>
     <string name="ConversationActivity_invalid_recipient">చెల్లని గ్రహీత!</string>
-    <string name="ConversationActivity_added_to_home_screen">హోమ్ స్క్రీన్కు జోడించబడింది</string>
     <string name="ConversationActivity_leave_group">సమూహం నుండి వైదొలగాలా?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">మీరు ఈ సమూహాన్ని వదిలిపెట్టాలనుకుంటున్నారా?</string>
     <string name="ConversationActivity_error_leaving_group">సమూహం నుండి వైదొలగటంలో లోపం</string>
@@ -391,7 +390,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">సమూహాన్ని మార్చు</string>
     <string name="conversation__menu_leave_group">సమూహాన్ని వదులు</string>
-    <string name="conversation__menu_add_shortcut">హోమ్ స్క్రీన్కు జోడించండి</string>
+    <string name="conversationsAddToHome">హోమ్ స్క్రీన్కు జోడించండి</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">పాపప్ విస్తరించు </string>
     <!-- conversation_group_options -->

@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d Mitglieder</string>
     <string name="ConversationActivity_open_group_guidelines">Gruppenrichtlinien</string>
     <string name="ConversationActivity_invalid_recipient">Ungültiger Kontakt!</string>
-    <string name="ConversationActivity_added_to_home_screen">Zum Startbildschirm hinzugefügt</string>
     <string name="ConversationActivity_leave_group">Gruppe verlassen?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Möchtest Du diese Gruppe wirklich verlassen?</string>
     <string name="ConversationActivity_error_leaving_group">Fehler beim Verlassen der Gruppe</string>
@@ -196,7 +195,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Deine Sicherheitsnummer mit %s hat sich geändert</string>
     <string name="ThreadRecord_you_marked_verified">Als verifiziert markiert</string>
     <string name="ThreadRecord_you_marked_unverified">Als nicht verifiziert markiert</string>
-    <string name="ThreadRecord_empty_message">Diese Konversation ist leer</string>
     <string name="ThreadRecord_open_group_invitation">Offene Gruppeneinladung</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session-Aktualisierung</string>
@@ -426,7 +424,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Gruppe bearbeiten</string>
     <string name="conversation__menu_leave_group">Gruppe verlassen</string>
-    <string name="conversation__menu_add_shortcut">Zum Startbildschirm hinzufügen</string>
+    <string name="conversationsAddToHome">Zum Startbildschirm hinzufügen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Unterhaltung maximieren</string>
     <!-- conversation_group_options -->
@@ -496,8 +494,7 @@
     <string name="activity_home_empty_state_button_title">Session starten</string>
     <string name="activity_home_leave_group_dialog_message">Sind Sie sich sicher, dass Sie diese Gruppe verlassen möchten?</string>
     <string name="activity_home_leaving_group_failed_message">"Gruppe konnte nicht verlassen werden."</string>
-    <string name="activity_home_delete_conversation_dialog_message">Möchten Sie diese Unterhaltung wirklich löschen?</string>
-    <string name="activity_home_conversation_deleted_message">Die Unterhaltung wurde gelöscht.</string>
+    <string name="conversationsDeleted">Die Unterhaltung wurde gelöscht.</string>
     <string name="activity_seed_title_2">Das ist Ihr Wiederherstellungssatz.</string>
     <string name="activity_seed_explanation">Ihr Wiederherstellungssatz ist der Hauptschlüssel für Ihre Session ID. Mit diesem Satz können Sie Ihre Session ID wiederherstellen, wenn Sie den Zugriff auf Ihr Gerät verlieren. Bewahren Sie Ihren Wiederherstellungssatz an einem sicheren Ort auf und geben Sie ihn an niemandem weiter.</string>
     <string name="activity_seed_reveal_button_title">Zur Anzeige gedrückt halten</string>
@@ -511,11 +508,8 @@
     <string name="onionRoutingPathDestination">Ziel</string>
     <string name="learnMore">Mehr erfahren</string>
     <string name="activity_path_resolving_progress">Auflösung…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Session ID eingeben</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR-Code scannen</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Sitzungs-ID oder ONS-Name eingeben</string>
     <string name="fragment_enter_public_key_explanation">Benutzer können ihre Session ID freigeben, indem sie in ihren Einstellungen auf \"Session ID freigeben\" tippen oder ihren QR-Code freigeben.</string>
-    <string name="fragment_enter_public_key_error_message">Bitte überprüfe die Session-ID oder den ONS-Namen und versuche es erneut.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session benötigt Kamerazugriff, um die QR-Codes scannen zu können.</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Kamerazugriff gewähren</string>
     <string name="activity_create_closed_group_edit_text_hint">Geben Sie einen Gruppennamen ein.</string>
@@ -594,7 +588,6 @@
     <string name="invalid_public_key">Ungültiger öffentlicher Schlüssel</string>
     <string name="dialog_blocked_title">%s freigeben?</string>
     <string name="dialog_blocked_explanation">Bist du sicher, dass du %s freigeben möchtest?</string>
-    <string name="dialog_join_open_group_title">%s beitreten?</string>
     <string name="dialog_join_open_group_explanation">Bist du sicher, dass du der offenen Gruppe %s beitreten möchtest?</string>
     <string name="dialog_open_url_title">URL öffnen?</string>
     <string name="dialog_open_url_explanation">Bist du sicher, dass du %s öffnen möchtest?</string>

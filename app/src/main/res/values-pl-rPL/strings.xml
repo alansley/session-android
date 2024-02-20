@@ -66,7 +66,6 @@
     <string name="ConversationActivity_member_count">%1$d członków</string>
     <string name="ConversationActivity_open_group_guidelines">Wytyczne dla społeczności</string>
     <string name="ConversationActivity_invalid_recipient">Nieprawidłowy odbiorca!</string>
-    <string name="ConversationActivity_added_to_home_screen">Dodano do ekranu głównego</string>
     <string name="ConversationActivity_leave_group">Opuścić grupę?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Czy na pewno chcesz opuścić grupę?</string>
     <string name="ConversationActivity_error_leaving_group">Błąd podczas opuszczania grupy</string>
@@ -216,7 +215,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Twój numer bezpieczeństwa z %s zmienił się.</string>
     <string name="ThreadRecord_you_marked_verified">Oznaczyłeś(aś) jako zweryfikowany</string>
     <string name="ThreadRecord_you_marked_unverified">Oznaczyłeś(aś) jako niezweryfikowany</string>
-    <string name="ThreadRecord_empty_message">Ten wątek jest pusty</string>
     <string name="ThreadRecord_open_group_invitation">Otwórz zaproszenie do grupy</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Aktualizacja Session</string>
@@ -450,7 +448,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Edytuj grupę</string>
     <string name="conversation__menu_leave_group">Opuść grupę</string>
-    <string name="conversation__menu_add_shortcut">Dodaj do ekranu głównego</string>
+    <string name="conversationsAddToHome">Dodaj do ekranu głównego</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Powiększ okno</string>
     <!-- conversation_group_options -->
@@ -520,8 +518,7 @@
     <string name="activity_home_empty_state_button_title">Rozpocznij sesję</string>
     <string name="activity_home_leave_group_dialog_message">Czy na pewno chcesz opuścić tę grupę?</string>
     <string name="activity_home_leaving_group_failed_message">"Nie można opuścić grupy"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Czy na pewno chcesz usunąć tę rozmowę?</string>
-    <string name="activity_home_conversation_deleted_message">Rozmowa usunięta</string>
+    <string name="conversationsDeleted">Rozmowa usunięta</string>
     <string name="activity_seed_title_2">Poznaj swoją frazę odzyskiwania</string>
     <string name="activity_seed_explanation">Twoja fraza odzyskiwania jest głównym kluczem do identyfikatora Session - możesz jej użyć do przywrócenia identyfikatora Session, jeśli stracisz dostęp do urządzenia. Przechowuj swoją frazę odzyskiwania w bezpiecznym miejscu i nikomu jej nie udostępniaj.</string>
     <string name="activity_seed_reveal_button_title">Przytrzymaj, aby odsłonić</string>
@@ -535,11 +532,8 @@
     <string name="onionRoutingPathDestination">Miejsce docelowe</string>
     <string name="learnMore">Dowiedz się więcej</string>
     <string name="activity_path_resolving_progress">Ładowanie…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Wpisz identyfikator Session</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skanowania QR code</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Wprowadź ID sesji lub nazwę ONS</string>
     <string name="fragment_enter_public_key_explanation">Użytkownicy mogą udostępnić swój identyfikator Session, przechodząc do ustawień konta i klikając opcję Udostępnij identyfikator Session lub udostępniając kod QR.</string>
-    <string name="fragment_enter_public_key_error_message">Proszę sprawdzić ID sesji lub nazwę ONS i spróbować ponownie.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session wymaga dostępu do kamery, aby skanować kody QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Udziel dostępu do kamery</string>
     <string name="activity_create_closed_group_edit_text_hint">Wpisz nazwę grupy</string>
@@ -618,7 +612,6 @@
     <string name="invalid_public_key">Nieprawidłowy klucz publiczny</string>
     <string name="dialog_blocked_title">Odblokować %s?</string>
     <string name="dialog_blocked_explanation">Czy na pewno chcesz odblokować %s?</string>
-    <string name="dialog_join_open_group_title">Dołącz do %s?</string>
     <string name="dialog_join_open_group_explanation">Czy na pewno chcesz dołączyć do otwartej grupy %s?</string>
     <string name="dialog_open_url_title">Otworzyć URL?</string>
     <string name="dialog_open_url_explanation">Czy na pewno chcesz otworzyć %s?</string>

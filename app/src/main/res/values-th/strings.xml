@@ -45,7 +45,6 @@
     <string name="ConversationActivity_select_contact_info">เลือกข้อมูลผู้ติดต่อ</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">ขออภัย พบปัญหาในการตั้งค่าไฟล์แนบของคุณ</string>
     <string name="ConversationActivity_invalid_recipient">ผู้รับไม่ถูกต้อง</string>
-    <string name="ConversationActivity_added_to_home_screen">เพิ่มไปยังหน้าจอหลักแล้ว</string>
     <string name="ConversationActivity_leave_group">ออกจากกลุ่มหรือไม่</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">คุณแน่ใจหรือไหมว่าต้องการออกจากกลุ่มนี้</string>
     <string name="ConversationActivity_error_leaving_group">เกิดข้อผิดพลาดระหว่างออกจากกลุ่ม</string>
@@ -365,7 +364,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">แก้ไขกลุ่ม</string>
     <string name="conversation__menu_leave_group">ออกจากกลุ่ม</string>
-    <string name="conversation__menu_add_shortcut">เพิ่มไปยังหน้าจอหลัก</string>
+    <string name="conversationsAddToHome">เพิ่มไปยังหน้าจอหลัก</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ขยายป็อปอัพ</string>
     <!-- conversation_group_options -->

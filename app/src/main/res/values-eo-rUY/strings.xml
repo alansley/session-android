@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d membroj</string>
     <string name="ConversationActivity_open_group_guidelines">Komunumaj reguloj</string>
     <string name="ConversationActivity_invalid_recipient">Nevalida ricevonto!</string>
-    <string name="ConversationActivity_added_to_home_screen">Aldonita al la ĉefekrano</string>
     <string name="ConversationActivity_leave_group">Ĉu forlasi grupon?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ĉu vi certas, ke vi volas forlasi ĉi tiun grupon?</string>
     <string name="ConversationActivity_error_leaving_group">Eraro dum forlaso de grupo</string>
@@ -197,7 +196,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Via sekuriga numero kun %s ŝanĝiĝis.</string>
     <string name="ThreadRecord_you_marked_verified">Vi markis kiel konfirmita</string>
     <string name="ThreadRecord_you_marked_unverified">Vi markis kiel nekonfirmita</string>
-    <string name="ThreadRecord_empty_message">Ĉi tiu konversacion estas malplena</string>
     <string name="ThreadRecord_open_group_invitation">Invito de malferma grupo</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Ĝisdatigo de Session</string>
@@ -427,7 +425,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Modifi grupon</string>
     <string name="conversation__menu_leave_group">Forlasi la grupon</string>
-    <string name="conversation__menu_add_shortcut">Aldonita al la ĉefekrano</string>
+    <string name="conversationsAddToHome">Aldonita al la ĉefekrano</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Montri spruĉmenuon</string>
     <!-- conversation_group_options -->
@@ -497,8 +495,7 @@
     <string name="activity_home_empty_state_button_title">Komenci Sesion</string>
     <string name="activity_home_leave_group_dialog_message">Ĉu vi certas, ke vi volas forlasi ĉi tiun grupon?</string>
     <string name="activity_home_leaving_group_failed_message">"Ne povis foriri el la grupo"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Ĉu vi certas, ke vi volas forviŝi ĉi tiun konversacion?</string>
-    <string name="activity_home_conversation_deleted_message">Konversacio forviŝite</string>
+    <string name="conversationsDeleted">Konversacio forviŝite</string>
     <string name="activity_seed_title_2">Ekkonu vian riparan frazon</string>
     <string name="activity_seed_explanation">Via ripara frazo estas la ĉefŝlosilo de via Session ID — vi povas uzi ĝin por restaŭri vian Session ID-on se vi malgajros aliron al via aparato. Konservu vian riparan frazon en sekura loko, kaj donu ĝin al neniu.</string>
     <string name="activity_seed_reveal_button_title">Tuŝadu por malkaŝi</string>
@@ -512,7 +509,6 @@
     <string name="onionRoutingPathDestination">Celo</string>
     <string name="learnMore">Lerni pli</string>
     <string name="activity_path_resolving_progress">Solvante…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Entajpu Session ID-on</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skani QR-Kodon</string>
     <string name="fragment_enter_public_key_explanation">Uzantoj povas kunhavigi sian Session ID-on per irante en sia konta agordo kaj tuŝeti \"Kunhavigi Session ID-on\", aŭ per kunhavigi sian QR-kodon.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Sesio bezonas fotilan aliron por skani QR-kodojn</string>
@@ -587,7 +583,6 @@
     <string name="invalid_public_key">Malvalida publika ŝlosilo</string>
     <string name="dialog_blocked_title">Ĉu Malbloki %s?</string>
     <string name="dialog_blocked_explanation">Ĉu vi certas, ke vi volas malbloki %s?</string>
-    <string name="dialog_join_open_group_title">Aliĝi al %s?</string>
     <string name="dialog_join_open_group_explanation">Ĉu vi certas, ke vi volas aliĝi al la %s publika grupo?</string>
     <string name="dialog_open_url_title">Ĉu Malfermi Retadreson?</string>
     <string name="dialog_open_url_explanation">Ĉu vi certas, ke vi volas malfermi %s?</string>

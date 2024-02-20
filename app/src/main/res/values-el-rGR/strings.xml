@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d μέλη</string>
     <string name="ConversationActivity_open_group_guidelines">Οδηγίες Κοινότητας</string>
     <string name="ConversationActivity_invalid_recipient">Μη έγκυρος/η παραλήπτης/τρια!</string>
-    <string name="ConversationActivity_added_to_home_screen">Προστέθηκε στην κεντρική οθόνη</string>
     <string name="ConversationActivity_leave_group">Αποχώρηση από την ομάδα;</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Είστε σίγουρος/η πως θέλετε να αποχωρήσετε από την ομάδα;</string>
     <string name="ConversationActivity_error_leaving_group">Πρόβλημα κατά την αποχώρηση από την ομάδα</string>
@@ -198,7 +197,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ο αριθμός ασφαλείας με τον/την %s έχει αλλάξει.</string>
     <string name="ThreadRecord_you_marked_verified">Σημειώσατε ως επιβεβαιωμένο</string>
     <string name="ThreadRecord_you_marked_unverified">Σημειώσατε ως μη επιβεβαιωμένο</string>
-    <string name="ThreadRecord_empty_message">Αυτή η συνομιλία είναι κενή</string>
     <string name="ThreadRecord_open_group_invitation">Πρόσκληση ανοιχτής ομάδας</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Αναβάθμιση Session</string>
@@ -428,7 +426,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Επεξεργασία ομάδας</string>
     <string name="conversation__menu_leave_group">Αποχώρηση από την ομάδα</string>
-    <string name="conversation__menu_add_shortcut">Προσθήκη στην κεντρική οθόνη</string>
+    <string name="conversationsAddToHome">Προσθήκη στην κεντρική οθόνη</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Επέκταση popup</string>
     <!-- conversation_group_options -->
@@ -498,8 +496,7 @@
     <string name="activity_home_empty_state_button_title">Ξεκινήστε μια συνομιλία</string>
     <string name="activity_home_leave_group_dialog_message">Είστε βέβαιοι ότι θέλετε να φύγετε από αυτή την ομάδα;</string>
     <string name="activity_home_leaving_group_failed_message">"Αδυναμία αποχώρησης από την ομάδα"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την συνομιλία;</string>
-    <string name="activity_home_conversation_deleted_message">Η συνομιλία διαγράφηκε</string>
+    <string name="conversationsDeleted">Η συνομιλία διαγράφηκε</string>
     <string name="activity_seed_title_2">Γνωρίστε τη φράση ανάκτησής σας</string>
     <string name="activity_seed_explanation">Η φράση ανάκτησης είναι το κύριο κλειδί στο Session ID σας - μπορείτε να τη χρησιμοποιήσετε για να επαναφέρετε το Session ID σας εάν χάσετε πρόσβαση στη συσκευή σας. Αποθηκεύστε τη φράση ανάκτησης σε ασφαλές μέρος, και μην τη δώσετε σε κανέναν.</string>
     <string name="activity_seed_reveal_button_title">Πατήστε για εμφάνιση</string>
@@ -513,11 +510,8 @@
     <string name="onionRoutingPathDestination">Προορισμός</string>
     <string name="learnMore">Μάθετε περισσότερα</string>
     <string name="activity_path_resolving_progress">Επίλυση…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Εισαγωγή Session Ταυτότητας</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Σαρώστε τον κωδικό QR</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Εισάγετε το Session ID ή το ONS όνομα</string>
     <string name="fragment_enter_public_key_explanation">Οι χρήστες μπορούν να μοιραστούν τη ταυτότητα τους πηγαίνοντας στις ρυθμίσεις του λογαριασμού τους και πατώντας το \"Διαμοιρασμό Session ταυτότητας\" ή κοινοποιώντας τον κωδικό QR.</string>
-    <string name="fragment_enter_public_key_error_message">Παρακαλώ ελέγξτε το Session ID ή το ONS όνομα και προσπαθήστε ξανά.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Το Session χρειάζεται πρόσβαση στην κάμερα για σάρωση κωδικών QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Χορήγηση Πρόσβασης Κάμερας</string>
     <string name="activity_create_closed_group_edit_text_hint">Εισαγωγή ονόματος ομάδας</string>
@@ -596,7 +590,6 @@
     <string name="invalid_public_key">Μη έγκυρο δημόσιο κλειδί</string>
     <string name="dialog_blocked_title">Ξεμπλοκάρισμα %s;</string>
     <string name="dialog_blocked_explanation">Είστε βέβαιοι ότι θέλετε να ξεμπλοκάρετε %s;</string>
-    <string name="dialog_join_open_group_title">Συμμετοχή %s;</string>
     <string name="dialog_join_open_group_explanation">Είστε σίγουροι ότι θέλετε να συμμετάσχετε στην ανοιχτή ομάδα %s;</string>
     <string name="dialog_open_url_title">Άνοιγμα URL;</string>
     <string name="dialog_open_url_explanation">Είστε βέβαιοι ότι θέλετε να ανοίξετε %s;</string>

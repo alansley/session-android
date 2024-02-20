@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d عضو</string>
     <string name="ConversationActivity_open_group_guidelines">راهنمای انجمن</string>
     <string name="ConversationActivity_invalid_recipient">گیرنده نامعتبر است!</string>
-    <string name="ConversationActivity_added_to_home_screen">به صفحه اصلی اضافه شد</string>
     <string name="ConversationActivity_leave_group">ترک گروه؟</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">آیا مطمئن هستید که می‌خواهید این گروه را ترک کنید؟</string>
     <string name="ConversationActivity_error_leaving_group">خطا در ترک کردن گروه</string>
@@ -202,7 +201,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">شماره امنیتی شما با %s تغییر یافت.</string>
     <string name="ThreadRecord_you_marked_verified">شما به عنوان تایید شده علامت زدید</string>
     <string name="ThreadRecord_you_marked_unverified">شما به عنوان تایید نشده علامت زدید</string>
-    <string name="ThreadRecord_empty_message">این مکالمه خالی است</string>
     <string name="ThreadRecord_open_group_invitation">بازکردن دعوتنامه گروه</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">بروزرسانی Session</string>
@@ -451,7 +449,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">ویرایش گروه</string>
     <string name="conversation__menu_leave_group">مرخص شدن از گروه</string>
-    <string name="conversation__menu_add_shortcut">افزودن به صفحه اصلی</string>
+    <string name="conversationsAddToHome">افزودن به صفحه اصلی</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ببند پنجره پاپ آپ</string>
     <!-- conversation_group_options -->
@@ -521,8 +519,7 @@
     <string name="activity_home_empty_state_button_title">شروع Session</string>
     <string name="activity_home_leave_group_dialog_message">آیا مطمئن هستید که می‌خواهید این گروه را ترک کنید؟</string>
     <string name="activity_home_leaving_group_failed_message">"ترک گروه انجام نشد"</string>
-    <string name="activity_home_delete_conversation_dialog_message">آیا مطمئن هستید که می‌خواهید این مکالمه را حذف کنید؟</string>
-    <string name="activity_home_conversation_deleted_message">مکالمه حذف شد</string>
+    <string name="conversationsDeleted">مکالمه حذف شد</string>
     <string name="activity_seed_title_2">این عبارت بازیابی شماست</string>
     <string name="activity_seed_explanation">عبارت بازیابی شما کلید اصلی شناسه‌ی Session شما است - در صورت عدم دسترسی به دستگاه خود می توانید از آن برای بازگرداندن شناسه‌ی Session خود استفاده کنید. عبارت بازیابی خود را در مکانی امن ذخیره کنید و آن را به کسی ندهید.</string>
     <string name="activity_seed_reveal_button_title">نگه دارید تا نشان داده شود</string>
@@ -536,11 +533,8 @@
     <string name="onionRoutingPathDestination">مقصد</string>
     <string name="learnMore">بیشتر بدانید</string>
     <string name="activity_path_resolving_progress">در حال اصلاح…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">شناسه Session را وارید کنید</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">اسکن کد QR</string>
-    <string name="fragment_enter_public_key_edit_text_hint">شماره session نامعتبر</string>
     <string name="fragment_enter_public_key_explanation">کاربران می‌توانند شناسه‌ی Session خود را با رفتن به تنظیمات حساب خود و ضربه زدن به Share Session ID یا با به اشتراک گذاشتن کد QR خود‌، با دیگران به اشتراک بگذارند.</string>
-    <string name="fragment_enter_public_key_error_message">لطفا آی‌دی سشن یا اسم ONS را بررسی کنید و سپس دوباره امتحان کنید.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">برنامه Session برای اسکن کدهای QR احتیاج دارد به دوربین دسترسی داشته باشد</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">اجازه دسترسی به دوربین</string>
     <string name="activity_create_closed_group_edit_text_hint">نام گروه را وارد کنید</string>
@@ -633,7 +627,6 @@
     <string name="invalid_public_key">کلید عمومی نامعتبر</string>
     <string name="dialog_blocked_title">%sاز حالت مسدود خارج شود؟</string>
     <string name="dialog_blocked_explanation">آیا مطمئن هستید که میخواهید %s را از حالت مسدود بودن خارج کنید؟</string>
-    <string name="dialog_join_open_group_title">پیوستن به %s ؟</string>
     <string name="dialog_join_open_group_explanation">آیا اطمینان دارید که می‌خواهید به گروه باز %s جوین شوید؟</string>
     <string name="dialog_open_url_title">URL باز شود ؟</string>
     <string name="dialog_open_url_explanation">آیا مطمئن هستید که میخواهید %s را باز کنید؟</string>

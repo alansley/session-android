@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d leden</string>
     <string name="ConversationActivity_open_group_guidelines">Community Richtlijnen</string>
     <string name="ConversationActivity_invalid_recipient">Ongeldige ontvanger!</string>
-    <string name="ConversationActivity_added_to_home_screen">Aan thuisscherm toegevoegd</string>
     <string name="ConversationActivity_leave_group">Groep verlaten?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Weet je zeker dat je deze groep wilt verlaten?</string>
     <string name="ConversationActivity_error_leaving_group">Fout bij het verlaten van de groep</string>
@@ -198,7 +197,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Je veiligheidsnummer met %s is veranderd.</string>
     <string name="ThreadRecord_you_marked_verified">Door jou als geverifieerd gemarkeerd</string>
     <string name="ThreadRecord_you_marked_unverified">Door jou als niet geverifieerd gemarkeerd</string>
-    <string name="ThreadRecord_empty_message">Dit gesprek is leeg</string>
     <string name="ThreadRecord_open_group_invitation">Openbare groepsuitnodiging</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Nieuwe versie van Session</string>
@@ -428,7 +426,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Groep aanpassen</string>
     <string name="conversation__menu_leave_group">Groep verlaten</string>
-    <string name="conversation__menu_add_shortcut">Aan thuisscherm toevoegen</string>
+    <string name="conversationsAddToHome">Aan thuisscherm toevoegen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Pop-up vergroten</string>
     <!-- conversation_group_options -->
@@ -498,8 +496,7 @@
     <string name="activity_home_empty_state_button_title">Sessie starten</string>
     <string name="activity_home_leave_group_dialog_message">Weet u zeker dat u deze groep wilt verlaten?</string>
     <string name="activity_home_leaving_group_failed_message">"Kon de groep niet verlaten"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Weet u zeker dat u deze groep wilt verlaten?</string>
-    <string name="activity_home_conversation_deleted_message">Gesprek verwijderd</string>
+    <string name="conversationsDeleted">Gesprek verwijderd</string>
     <string name="activity_seed_title_2">Maak kennis met uw herstel zin</string>
     <string name="activity_seed_explanation">Uw herstel zin is de hoofdsleutel van uw Sessie-ID - u kunt deze gebruiken om uw Sessie-ID te herstellen als u de toegang tot uw apparaat verliest. Sla uw herstel zin op op een veilige plaats op en geef het aan niemand anders.</string>
     <string name="activity_seed_reveal_button_title">Ingedrukt houden om te onthullen</string>
@@ -513,11 +510,8 @@
     <string name="onionRoutingPathDestination">Bestemming</string>
     <string name="learnMore">Kom meer te weten</string>
     <string name="activity_path_resolving_progress">Bezig met verwerken...</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Uw Sessie-ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Scan QR-code</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Voer uw Session ID of ONS naam in</string>
     <string name="fragment_enter_public_key_explanation">Gebruikers kunnen hun Session-ID delen door naar hun accountinstellingen te gaan en op \"Deel Session-ID\" te tikken, of door hun QR-code te delen.</string>
-    <string name="fragment_enter_public_key_error_message">Controleer de sessie-ID of ONS naam en probeer het opnieuw.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Sessie heeft cameratoegang nodig om QR-codes te scannen</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Toegang tot camera verlenen</string>
     <string name="activity_create_closed_group_edit_text_hint">Vul een groepsnaam in</string>
@@ -596,7 +590,6 @@
     <string name="invalid_public_key">Ongeldige publieke sleutel</string>
     <string name="dialog_blocked_title">Deblokkeer %s?</string>
     <string name="dialog_blocked_explanation">Weet u zeker dat u %s wilt deblokkeren?</string>
-    <string name="dialog_join_open_group_title">Deelnemen %s?</string>
     <string name="dialog_join_open_group_explanation">Weet u zeker dat u zich bij de %s open groep wilt aansluiten?</string>
     <string name="dialog_open_url_title">URL openen?</string>
     <string name="dialog_open_url_explanation">Weet u zeker dat u %s wilt openen?</string>

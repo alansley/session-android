@@ -633,7 +633,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
                 resources.getString(R.string.activity_home_leave_group_dialog_message)
             }
         } else {
-            resources.getString(R.string.activity_home_delete_conversation_dialog_message)
+            resources.getString(R.string.conversationsDeleteDescription)
         }
 
         showSessionDialog {
@@ -664,7 +664,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
                     // Update the badge count
                     ApplicationContext.getInstance(context).messageNotifier.updateNotification(context)
                     // Notify the user
-                    val toastMessage = if (recipient.isGroupRecipient) R.string.MessageRecord_left_group else R.string.activity_home_conversation_deleted_message
+                    val toastMessage = if (recipient.isGroupRecipient) R.string.MessageRecord_left_group else R.string.conversationsDeleted
                     Toast.makeText(context, toastMessage, Toast.LENGTH_LONG).show()
                 }
             }

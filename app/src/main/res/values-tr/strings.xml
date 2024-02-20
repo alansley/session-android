@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d üye</string>
     <string name="ConversationActivity_open_group_guidelines">Topluluk İlkeleri</string>
     <string name="ConversationActivity_invalid_recipient">Geçersiz alıcı!</string>
-    <string name="ConversationActivity_added_to_home_screen">Ana ekrana eklendi</string>
     <string name="ConversationActivity_leave_group">Gruptan ayrıl?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Bu gruptan ayrılmak istediğinize emin misiniz?</string>
     <string name="ConversationActivity_error_leaving_group">Gruptan ayrılırken hata</string>
@@ -197,7 +196,6 @@ iletisi alındı!</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s ile güvenlik numaranız değişti.</string>
     <string name="ThreadRecord_you_marked_verified">Doğrulanmış olarak işaretlediniz.</string>
     <string name="ThreadRecord_you_marked_unverified">Doğrulanmamış olarak işaretlediniz.</string>
-    <string name="ThreadRecord_empty_message">Bu konuşma boş</string>
     <string name="ThreadRecord_open_group_invitation">Açık grup daveti</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session güncellemesi</string>
@@ -427,7 +425,7 @@ iletisi alındı!</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Grubu düzenle</string>
     <string name="conversation__menu_leave_group">Gruptan ayrıl</string>
-    <string name="conversation__menu_add_shortcut">Ana ekrana ekle</string>
+    <string name="conversationsAddToHome">Ana ekrana ekle</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Açılır pencereyi genişlet</string>
     <!-- conversation_group_options -->
@@ -497,8 +495,7 @@ iletisi alındı!</string>
     <string name="activity_home_empty_state_button_title">Oturumu başlat</string>
     <string name="activity_home_leave_group_dialog_message">Bu gruptan ayrılmak istediğinize emin misiniz?</string>
     <string name="activity_home_leaving_group_failed_message">"Gruptan ayrılamadı"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Bu konuşmayı silmek istediğinden emin misin?</string>
-    <string name="activity_home_conversation_deleted_message">Konuşma silindi</string>
+    <string name="conversationsDeleted">Konuşma silindi</string>
     <string name="activity_seed_title_2">Kurtarma ifadenizle tanışın</string>
     <string name="activity_seed_explanation">Kurtarma ifadeniz Session kimliğinizin ana anahtarıdır; cihazınıza erişiminizi kaybederseniz Session kimliğinizi geri yüklemek için bunu kullanabilirsiniz. Kurtarma ifadenizi güvenli bir yerde saklayın ve kimseye vermeyin.</string>
     <string name="activity_seed_reveal_button_title">Ortaya çıkarmak için basılı tutun</string>
@@ -512,11 +509,8 @@ iletisi alındı!</string>
     <string name="onionRoutingPathDestination">Hedef Konum</string>
     <string name="learnMore">Fazlasını Öğrenin</string>
     <string name="activity_path_resolving_progress">Çözümleniyor…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Session Kimliğini Girin</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR Kodunu Tara</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Session kimliğini veya ONS adını girin</string>
     <string name="fragment_enter_public_key_explanation">Kullanıcılar, hesap ayarlarına gidip \"Session Kimliğini Paylaş\"a dokunarak veya QR kodlarını paylaşarak Session Kimliklerini paylaşabilirler.</string>
-    <string name="fragment_enter_public_key_error_message">Lütfen Session kimliğini veya ONS adını kontrol edin ve tekrar deneyin.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session’ın QR kodlarını taramak için kamera erişimine ihtiyacı var</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Kameraya erişim izni ver</string>
     <string name="activity_create_closed_group_edit_text_hint">Yeni grup adı girin</string>
@@ -595,7 +589,6 @@ iletisi alındı!</string>
     <string name="invalid_public_key">Geçersiz ortak anahtar</string>
     <string name="dialog_blocked_title">%s engeli kaldırılsın mı?</string>
     <string name="dialog_blocked_explanation">%s kişisine ait engeli kaldırmak istediğinizden emin misiniz?</string>
-    <string name="dialog_join_open_group_title">%s\'e katıl?</string>
     <string name="dialog_join_open_group_explanation">%s açık gurubuna katılmak istediğinize emin misiniz?</string>
     <string name="dialog_open_url_title">URL açılsın mı?</string>
     <string name="dialog_open_url_explanation">%s açmak istediğinizden emin misiniz?</string>

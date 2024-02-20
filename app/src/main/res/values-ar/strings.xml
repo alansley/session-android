@@ -70,7 +70,6 @@
     <string name="ConversationActivity_member_count">%1$d عضو</string>
     <string name="ConversationActivity_open_group_guidelines">إرشادات المستخدمين</string>
     <string name="ConversationActivity_invalid_recipient">جهة اتصال غير صحيحة!</string>
-    <string name="ConversationActivity_added_to_home_screen">تمت الإضافة للشاشة الرئيسية</string>
     <string name="ConversationActivity_leave_group">ترك المجموعة؟</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">هل أنت متأكد من ترك المجموعة؟</string>
     <string name="ConversationActivity_error_leaving_group">خطأ أثناء مغادرة المجموعة</string>
@@ -236,7 +235,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">تم تغيير رقم الأمان الخاص بك وبـ%s.</string>
     <string name="ThreadRecord_you_marked_verified">لقد قمت بتصديق</string>
     <string name="ThreadRecord_you_marked_unverified">لقد قمت بإلغاء التحقق</string>
-    <string name="ThreadRecord_empty_message">هذه المحادثة فارغة</string>
     <string name="ThreadRecord_open_group_invitation">دعوة إلى مجموعة مفتوحة</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">تحديث Session</string>
@@ -474,7 +472,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">تدقيق المجموعة</string>
     <string name="conversation__menu_leave_group">أترك المجموعة</string>
-    <string name="conversation__menu_add_shortcut">أضف الى الشاشة الرئيسية</string>
+    <string name="conversationsAddToHome">أضف الى الشاشة الرئيسية</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">توسيع الإشعار</string>
     <!-- conversation_group_options -->
@@ -544,8 +542,7 @@
     <string name="activity_home_empty_state_button_title">اِبدا جلسة محادثة</string>
     <string name="activity_home_leave_group_dialog_message">هل انت متاكد من مغادرة المجموعة؟</string>
     <string name="activity_home_leaving_group_failed_message">"لا يمكن مغادرة المجموعة"</string>
-    <string name="activity_home_delete_conversation_dialog_message">هل أنت متأكد من حذفك المحادثة؟</string>
-    <string name="activity_home_conversation_deleted_message">تم حذف المحادثة</string>
+    <string name="conversationsDeleted">تم حذف المحادثة</string>
     <string name="activity_seed_title_2">هذه هي عبارة الاسترجاع</string>
     <string name="activity_seed_explanation">عبارة الاسترجاع هي مفتاح عنوان تعريفك - يمكنك استخدامها لاسترجاع عنوان تعريفك اذا فقدت الوصول لجهازك. قم بحفظها في مكان امن و لا تعطها الى اي أحد.</string>
     <string name="activity_seed_reveal_button_title">انقر مطولاً للكشف</string>
@@ -559,11 +556,8 @@
     <string name="onionRoutingPathDestination">الوجهة</string>
     <string name="learnMore">لمعرفة المزيد</string>
     <string name="activity_path_resolving_progress">جار ربط الاِتصال…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">أدخِل معرّف الجلسة</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">مسح رمز الاستجابة السريع\"QR\"</string>
-    <string name="fragment_enter_public_key_edit_text_hint">أدخل عنوان التعريف أو اسم ONS</string>
     <string name="fragment_enter_public_key_explanation">يُمكن للمستخدمين مشاركة مُعرّف الجلسة الخاص بهم بالذهاب إلى إعدادات حسابهم و الضغط على \"مشاركة مُعرّف الجلسة\"، أو عبر مشاركة رمز QR الخاص بهم.</string>
-    <string name="fragment_enter_public_key_error_message">تحقق من عنوان التعريف أو اِسم ONS و حاول مجددًا.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">تحتاج الجلسة إلى الوصول إلى الكاميرا لمسح رموز QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">منح صلاحية الكاميرا</string>
     <string name="activity_create_closed_group_edit_text_hint">أدخل إسم المجموعة</string>
@@ -642,7 +636,6 @@
     <string name="invalid_public_key">مفتاح خاطئ</string>
     <string name="dialog_blocked_title">إلغاء الحظر %s ؟</string>
     <string name="dialog_blocked_explanation">هل أنت متأكد من اِلغاء الحظر عن %s؟</string>
-    <string name="dialog_join_open_group_title">اِنضم الى %s ؟</string>
     <string name="dialog_join_open_group_explanation">هل أنت متأكد من الانضمام إلى المجموعة المفتوحة %s؟</string>
     <string name="dialog_open_url_title">اِفتح الرابط ؟</string>
     <string name="dialog_open_url_explanation">هل أنت متأكد من فتح %s ؟</string>

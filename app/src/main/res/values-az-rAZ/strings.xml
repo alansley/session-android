@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d üzv</string>
     <string name="ConversationActivity_open_group_guidelines">Cəmiyyət Təlimatları</string>
     <string name="ConversationActivity_invalid_recipient">Etibarsız alıcı!</string>
-    <string name="ConversationActivity_added_to_home_screen">Əsas ekrana əlavə edildi</string>
     <string name="ConversationActivity_leave_group">Qrupu tərk edirsiniz?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Bu qrupu tərk etmək istədiyinizə əminsiniz?</string>
     <string name="ConversationActivity_error_leaving_group">Qrupu tərk etmə xətası</string>
@@ -198,7 +197,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s ilə olan güvənlik nömrəniz dəyişdirildi.</string>
     <string name="ThreadRecord_you_marked_verified">Təsdiqləndi olaraq işarələdiniz</string>
     <string name="ThreadRecord_you_marked_unverified">Təsdiqlənmədi olaraq işarələdiniz</string>
-    <string name="ThreadRecord_empty_message">Bu danışıq boşdur</string>
     <string name="ThreadRecord_open_group_invitation">Açıq qrup dəvəti</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session yeniləməsi</string>
@@ -428,7 +426,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Qrupa düzəliş et</string>
     <string name="conversation__menu_leave_group">Qrupu tərk et</string>
-    <string name="conversation__menu_add_shortcut">Əsas ekrana əlavə et</string>
+    <string name="conversationsAddToHome">Əsas ekrana əlavə et</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Açılan pəncərəni genişləndir</string>
     <!-- conversation_group_options -->
@@ -498,8 +496,7 @@
     <string name="activity_home_empty_state_button_title">Bir Session başladın</string>
     <string name="activity_home_leave_group_dialog_message">Bu qrupu tərk etmək istədiyinizə əminsiniz?</string>
     <string name="activity_home_leaving_group_failed_message">"Qrupu tərk etmək alınmadı"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Bu danışığı silmək istədiyinizə əminsiniz?</string>
-    <string name="activity_home_conversation_deleted_message">Danışıq silindi</string>
+    <string name="conversationsDeleted">Danışıq silindi</string>
     <string name="activity_seed_title_2">Bərpa parolunuzla tanış olun</string>
     <string name="activity_seed_explanation">Bərpa parolunuz, Session kimliyinizin ana açarıdır - cihazınıza müraciəti itirsəniz, Session kimliyinizi geri yükləmək üçün bunu istifadə edə bilərsiniz. Bərpa parolunuzu etibarlı bir yerdə saxlayın və heç kəsə verməyin.</string>
     <string name="activity_seed_reveal_button_title">Aşkarlamaq üçün basılı saxlayın</string>
@@ -513,11 +510,8 @@
     <string name="onionRoutingPathDestination">Təyinat</string>
     <string name="learnMore">Daha Ətraflı</string>
     <string name="activity_path_resolving_progress">Həll edilir…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Session kimliyini daxil edin</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR kodu skan edin</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Session kimliyini və ya ONS adını daxil edin</string>
     <string name="fragment_enter_public_key_explanation">İstifadəçilər, hesab tənzimləmələrində \"Session kimliyini paylaş\"a toxunaraq və ya öz QR kodlarını paylaşaraq Session kimliklərini paylaşa bilər.</string>
-    <string name="fragment_enter_public_key_error_message">Zəhmət olmasa Session kimliyini və ya ONS adını yoxlayıb yenidən sınayın.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session, QR kodunu skan etmək üçün kameraya müraciət etməlidir</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Kameraya müraciətə icazə ver</string>
     <string name="activity_create_closed_group_edit_text_hint">Qrup adını daxil edin</string>
@@ -596,7 +590,6 @@
     <string name="invalid_public_key">Etibarsız ictimai açar</string>
     <string name="dialog_blocked_title">%s əngəldən çıxarılsın?</string>
     <string name="dialog_blocked_explanation">%s əlaqəsini əngəldən çıxartmaq istədiyinizə əminsiniz?</string>
-    <string name="dialog_join_open_group_title">%s - qoşul?</string>
     <string name="dialog_join_open_group_explanation">%s açıq qrupuna qoşulmaq istədiyinizə əminsiniz?</string>
     <string name="dialog_open_url_title">URL açılsın?</string>
     <string name="dialog_open_url_explanation">%s URL-sini açmaq istədiyinizə əminsiniz?</string>

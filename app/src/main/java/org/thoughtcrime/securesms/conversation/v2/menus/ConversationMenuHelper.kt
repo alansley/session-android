@@ -238,7 +238,7 @@ object ConversationMenuHelper {
                     .setIntent(ShortcutLauncherActivity.createIntent(context, thread.address))
                     .build()
                 if (ShortcutManagerCompat.requestPinShortcut(context, shortcutInfo, null)) {
-                    Toast.makeText(context, context.resources.getString(R.string.ConversationActivity_added_to_home_screen), Toast.LENGTH_LONG).show()
+                    Toast.makeText(context, context.resources.getString(R.string.conversationsAddedToHome), Toast.LENGTH_LONG).show()
                 }
             }
         }.execute()

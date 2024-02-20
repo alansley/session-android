@@ -16,7 +16,7 @@
         app:showAsAction="collapseActionView" />
 
     <item
-        android:title="@string/conversation__menu_add_shortcut"
+        android:title="@string/conversationsAddToHome"
         android:id="@+id/menu_add_shortcut" />
 
 </menu>

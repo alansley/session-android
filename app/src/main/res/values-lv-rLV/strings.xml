@@ -47,7 +47,6 @@
     <string name="ConversationActivity_member_count">%1$d biedri</string>
     <string name="ConversationActivity_open_group_guidelines">Kopienas vadlīnijas</string>
     <string name="ConversationActivity_invalid_recipient">Nederīgs adresāts!</string>
-    <string name="ConversationActivity_added_to_home_screen">Pievienots sākuma ekrānam</string>
     <string name="ConversationActivity_leave_group">Pamest grupu?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Vai tiešām vēlaties pamest šo grupu?</string>
     <string name="ConversationActivity_error_leaving_group">Radās kļūda, pametot grupu</string>
@@ -213,7 +212,6 @@
     <string name="invalid_public_key">Nederīga publiskā atslēga</string>
     <string name="dialog_blocked_title">Atbloķēt %s?</string>
     <string name="dialog_blocked_explanation">Vai esi pārliecināts, ka vēlies atbloķēt %s?</string>
-    <string name="dialog_join_open_group_title">Pievienoties %s?</string>
     <string name="dialog_open_url_title">Atvērt URL?</string>
     <string name="open">Atvērt</string>
     <string name="copy_url">Nokopēt URL</string>

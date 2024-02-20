@@ -20,7 +20,7 @@ import org.thoughtcrime.securesms.util.ConfigurationMessageUtilities
 class JoinOpenGroupDialog(private val name: String, private val url: String) : DialogFragment() {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog = createSessionDialog {
-        title(resources.getString(R.string.dialog_join_open_group_title, name))
+        title(resources.getString(R.string.communityJoin))
         val explanation = resources.getString(R.string.dialog_join_open_group_explanation, name)
         val spannable = SpannableStringBuilder(explanation)
         val startIndex = explanation.indexOf(name)

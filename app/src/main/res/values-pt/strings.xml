@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d membros</string>
     <string name="ConversationActivity_open_group_guidelines">Diretrizes da Comunidade</string>
     <string name="ConversationActivity_invalid_recipient">Destinatário inválido!</string>
-    <string name="ConversationActivity_added_to_home_screen">Adicionada à tela inicial</string>
     <string name="ConversationActivity_leave_group">Sair do grupo?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Você tem certeza que quer sair deste grupo?</string>
     <string name="ConversationActivity_error_leaving_group">Erro saindo do grupo</string>
@@ -198,7 +197,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Seu número de segurança com %s mudou.</string>
     <string name="ThreadRecord_you_marked_verified">Você marcou verificado</string>
     <string name="ThreadRecord_you_marked_unverified">Você marcou não-verificado</string>
-    <string name="ThreadRecord_empty_message">Esta conversa está vazia</string>
     <string name="ThreadRecord_open_group_invitation">Abrir convite do grupo</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Atualização de Session</string>
@@ -428,7 +426,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Editar grupo</string>
     <string name="conversation__menu_leave_group">Sair de grupo</string>
-    <string name="conversation__menu_add_shortcut">Adicionar a tela inicial</string>
+    <string name="conversationsAddToHome">Adicionar a tela inicial</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandir popup</string>
     <!-- conversation_group_options -->
@@ -498,8 +496,7 @@
     <string name="activity_home_empty_state_button_title">Iniciar uma sessão</string>
     <string name="activity_home_leave_group_dialog_message">Tem certeza de que deseja sair deste grupo?</string>
     <string name="activity_home_leaving_group_failed_message">"Não foi possível sair do grupo"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Tem certeza de que deseja excluir esta conversa?</string>
-    <string name="activity_home_conversation_deleted_message">Conversa excluída</string>
+    <string name="conversationsDeleted">Conversa excluída</string>
     <string name="activity_seed_title_2">Revele sua frase de recuperação</string>
     <string name="activity_seed_explanation">Sua frase de recuperação é a chave mestra do seu ID Session - você pode usá-la para restaurar seu ID Session se perder o acesso ao seu dispositivo. Armazene sua frase de recuperação em um local seguro e não a entregue a ninguém.</string>
     <string name="activity_seed_reveal_button_title">Segure para revelar</string>
@@ -513,11 +510,8 @@
     <string name="onionRoutingPathDestination">Destino</string>
     <string name="learnMore">Saber mais</string>
     <string name="activity_path_resolving_progress">Resolvendo…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Digite o ID Session</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Escanear código QR</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Insira um ID Session ou nome ONS</string>
     <string name="fragment_enter_public_key_explanation">Os usuários podem compartilhar seus IDs Session acessando as configurações da conta e tocando em Compartilhar ID Session, ou compartilhando o código QR.</string>
-    <string name="fragment_enter_public_key_error_message">Por favor, verifique o ID Session ou o nome ONS e tente novamente.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">O Session precisa de acesso à câmera para escanear códigos QR</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Conceder acesso à câmera</string>
     <string name="activity_create_closed_group_edit_text_hint">Digite o nome do grupo</string>
@@ -596,7 +590,6 @@
     <string name="invalid_public_key">Chave pública inválida</string>
     <string name="dialog_blocked_title">Desbloquear %s?</string>
     <string name="dialog_blocked_explanation">Você tem certeza que deseja desbloquear %s?</string>
-    <string name="dialog_join_open_group_title">Juntar-se a %s?</string>
     <string name="dialog_join_open_group_explanation">Tem certeza que deseja se juntar ao grupo aberto %s?</string>
     <string name="dialog_open_url_title">Abrir URL?</string>
     <string name="dialog_open_url_explanation">Você tem certeza que deseja abrir %s?</string>

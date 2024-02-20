@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d medlemmar</string>
     <string name="ConversationActivity_open_group_guidelines">Communityns riktlinjer</string>
     <string name="ConversationActivity_invalid_recipient">Ogiltig mottagare!</string>
-    <string name="ConversationActivity_added_to_home_screen">Lagt till på hemskärmen</string>
     <string name="ConversationActivity_leave_group">Lämna grupp?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Är du säker på att du vill lämna den här gruppen?</string>
     <string name="ConversationActivity_error_leaving_group">Fel vid lämnande av grupp</string>
@@ -197,7 +196,6 @@ för nyckelutbyte!</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ditt säkerhetsnummer med %s har ändrats.</string>
     <string name="ThreadRecord_you_marked_verified">Du markerade verifierad</string>
     <string name="ThreadRecord_you_marked_unverified">Du markerade overifierad</string>
-    <string name="ThreadRecord_empty_message">Denna konversation är tom</string>
     <string name="ThreadRecord_open_group_invitation">Öppen gruppinbjudan</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session-uppdatering</string>
@@ -427,7 +425,7 @@ för nyckelutbyte!</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Ändra grupp</string>
     <string name="conversation__menu_leave_group">Lämna grupp</string>
-    <string name="conversation__menu_add_shortcut">Lägg till på hemskärmen</string>
+    <string name="conversationsAddToHome">Lägg till på hemskärmen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandera popup</string>
     <!-- conversation_group_options -->
@@ -497,8 +495,7 @@ för nyckelutbyte!</string>
     <string name="activity_home_empty_state_button_title">Starta en Session</string>
     <string name="activity_home_leave_group_dialog_message">Är du säker på att du vill lämna den här gruppen?</string>
     <string name="activity_home_leaving_group_failed_message">"Kunde inte lämna gruppen"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Är du säker på att du vill ta bort denna konversation?</string>
-    <string name="activity_home_conversation_deleted_message">Konversationen har raderats</string>
+    <string name="conversationsDeleted">Konversationen har raderats</string>
     <string name="activity_seed_title_2">Möt din återställningsfras</string>
     <string name="activity_seed_explanation">Din återställningsfras är huvudnyckeln till ditt Session-ID – du kan använda den för att återställa ditt Session-ID om du förlorar åtkomst till enheten. Förvara din återställningsfras på en säker plats, och ge den inte till någon.</string>
     <string name="activity_seed_reveal_button_title">Håll ned för att visa</string>
@@ -512,11 +509,8 @@ för nyckelutbyte!</string>
     <string name="onionRoutingPathDestination">Destination</string>
     <string name="learnMore">Mer info</string>
     <string name="activity_path_resolving_progress">Laddar…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Ange Sessions-ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Skanna QR-kod</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Ange sessions-ID eller ONS-namn</string>
     <string name="fragment_enter_public_key_explanation">Användare kan dela sitt sessions-ID genom att gå in på sina kontoinställningar och trycka på \"Dela sessions-ID\" eller genom att dela sin QR-kod.</string>
-    <string name="fragment_enter_public_key_error_message">Kontrollera sessions-ID eller ONS-namn och försök igen.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Sessionen behöver kameraåtkomst för att skanna QR-koder</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Tillåt kameraåtkomst</string>
     <string name="activity_create_closed_group_edit_text_hint">Ange ett gruppnamn</string>
@@ -595,7 +589,6 @@ för nyckelutbyte!</string>
     <string name="invalid_public_key">Ogiltig publik nyckel</string>
     <string name="dialog_blocked_title">Avblockera %s?</string>
     <string name="dialog_blocked_explanation">Är du säker på att du vill avblockera %s?</string>
-    <string name="dialog_join_open_group_title">Gå med %s?</string>
     <string name="dialog_join_open_group_explanation">Är du säker på att du vill gå med i %s öppna grupp?</string>
     <string name="dialog_open_url_title">Öppna URL?</string>
     <string name="dialog_open_url_explanation">Är du säker på att du vill öppna %s?</string>

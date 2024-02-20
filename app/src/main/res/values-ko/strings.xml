@@ -59,7 +59,6 @@
     <string name="ConversationActivity_member_count">%1$d명의 멤버</string>
     <string name="ConversationActivity_open_group_guidelines">커뮤니티 가이드라인</string>
     <string name="ConversationActivity_invalid_recipient">수신자가 잘못됨</string>
-    <string name="ConversationActivity_added_to_home_screen">홈 화면에 추가됨</string>
     <string name="ConversationActivity_leave_group">그룹에서 나가시겠습니까?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">이 그룹에서 나가시겠습니까?</string>
     <string name="ConversationActivity_error_leaving_group">그룹에서 나가기 오류</string>
@@ -335,7 +334,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">그룹 편집</string>
     <string name="conversation__menu_leave_group">그룹 나가기</string>
-    <string name="conversation__menu_add_shortcut">홈 화면에 추가</string>
+    <string name="conversationsAddToHome">홈 화면에 추가</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">팝업 펼치기</string>
     <!-- conversation_group_options -->

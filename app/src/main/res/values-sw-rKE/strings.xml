@@ -41,7 +41,6 @@
     <string name="ConversationActivity_select_contact_info">Chagua taarifa za mawasiliano</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Samahani, tatizo lilitokea kwenye kuweka kiambatanisho chako.</string>
     <string name="ConversationActivity_invalid_recipient">Mpokeaji sio sahihi</string>
-    <string name="ConversationActivity_added_to_home_screen">omeongezwa kwenye skiirini ya mwanzo</string>
     <string name="ConversationActivity_leave_group">toka kwenye kundi</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">unauhakika unataka kutoka katika kundi hili</string>
     <string name="ConversationActivity_error_leaving_group">kosa la kuondoka kwenye kundi</string>
@@ -343,7 +342,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Hariri kikundi</string>
     <string name="conversation__menu_leave_group">Toka kwenye kikundi</string>
-    <string name="conversation__menu_add_shortcut">Ongeza kwenye skrini ya nyumbani</string>
+    <string name="conversationsAddToHome">Ongeza kwenye skrini ya nyumbani</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Kupanua popup</string>
     <!-- conversation_group_options -->

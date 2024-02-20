@@ -62,7 +62,6 @@
     <string name="ConversationActivity_member_count">%1$d jäsentä</string>
     <string name="ConversationActivity_open_group_guidelines">Yhteisön säännöt</string>
     <string name="ConversationActivity_invalid_recipient">Virheellinen vastaanottaja!</string>
-    <string name="ConversationActivity_added_to_home_screen">Lisätty kotiruudulle</string>
     <string name="ConversationActivity_leave_group">Poistutaanko ryhmästä?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Haluatko varmasti poistua tästä ryhmästä?</string>
     <string name="ConversationActivity_error_leaving_group">Virhe ryhmästä lähtiessä</string>
@@ -196,7 +195,6 @@ on viallinen!</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sinun ja yhteystiedon %s turvanumero on vaihtunut.</string>
     <string name="ThreadRecord_you_marked_verified">Merkitsit varmennetuksi.</string>
     <string name="ThreadRecord_you_marked_unverified">Merkitsit varmentamattomaksi.</string>
-    <string name="ThreadRecord_empty_message">Tämä keskustelu on tyhjä</string>
     <string name="ThreadRecord_open_group_invitation">Avaa ryhmä kutsu</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session-päivitys</string>
@@ -426,7 +424,7 @@ on viallinen!</string>
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Muokkaa ryhmää</string>
     <string name="conversation__menu_leave_group">Poistu ryhmästä</string>
-    <string name="conversation__menu_add_shortcut">Lisää kotiruudulle</string>
+    <string name="conversationsAddToHome">Lisää kotiruudulle</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Suurenna ponnahdusikkuna</string>
     <!-- conversation_group_options -->
@@ -496,8 +494,7 @@ on viallinen!</string>
     <string name="activity_home_empty_state_button_title">Aloita ryhmä</string>
     <string name="activity_home_leave_group_dialog_message">Haluatko varmasti poistua tästä ryhmästä?</string>
     <string name="activity_home_leaving_group_failed_message">"Ryhmästä ei voitu poistua"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Haluatko varmasti poistaa tämän keskustelun?</string>
-    <string name="activity_home_conversation_deleted_message">Keskustelu poistettu</string>
+    <string name="conversationsDeleted">Keskustelu poistettu</string>
     <string name="activity_seed_title_2">Tutustu palautuslauseesi</string>
     <string name="activity_seed_explanation">Sinun palautuslause on pääavain Session tunnukseesi — voit käyttää sitä palauttamaan Session tunnuksesi jos menetät pääsyn laitteeseen. Säilytä palautuslauseesi turvallisessa paikassa, ja älä anna sitä kenellekään.</string>
     <string name="activity_seed_reveal_button_title">Pidä pohjassa paljastaaksesi</string>
@@ -511,11 +508,8 @@ on viallinen!</string>
     <string name="onionRoutingPathDestination">Päämäärä</string>
     <string name="learnMore">Lisätietoja</string>
     <string name="activity_path_resolving_progress">Ratkaistaan…</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Anna Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Lue QR-koodi</string>
-    <string name="fragment_enter_public_key_edit_text_hint">Syötä Session ID tai ONS-nimi</string>
     <string name="fragment_enter_public_key_explanation">Käyttäjät voivat jakaa Session tunnuksensa menemällä tiliasetuksiinsa ja painamalla \"Jaa Session ID\" tai jakamalla QR-koodin.</string>
-    <string name="fragment_enter_public_key_error_message">Tarkista istunnon tunnus tai ONS nimi ja yritä uudelleen.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session tarvitsee kameran käyttöoikeuden skannatakseensa QR-koodit</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Myönnä Kameran Käyttöoikeus</string>
     <string name="activity_create_closed_group_edit_text_hint">Syötä ryhmän nimi</string>
@@ -594,7 +588,6 @@ on viallinen!</string>
     <string name="invalid_public_key">Virheellinen julkinen avain</string>
     <string name="dialog_blocked_title">Poistetaanko esto henkilöltä %s?</string>
     <string name="dialog_blocked_explanation">Oletko varma, että haluat poistaa eston henkilöltä %s?</string>
-    <string name="dialog_join_open_group_title">Liity%s?</string>
     <string name="dialog_join_open_group_explanation">Oletko varma, että haluat liittyä %s avoimeen ryhmään?</string>
     <string name="dialog_open_url_title">Avataanko URL?</string>
     <string name="dialog_open_url_explanation">Oletko varma, että haluat avata linkin %s?</string>

@@ -48,7 +48,6 @@
     <string name="ConversationActivity_select_contact_info">Chọn thông tin liên lạc</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Xin lỗi, có lỗi thiết đặt tập tin đính kèm của bạn.</string>
     <string name="ConversationActivity_invalid_recipient">Người nhận không đúng!</string>
-    <string name="ConversationActivity_added_to_home_screen">Thêm vào màn hình chính</string>
     <string name="ConversationActivity_leave_group">Rời nhóm?</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Bạn có chắc là muốn rời nhóm?</string>
     <string name="ConversationActivity_error_leaving_group">Lỗi khi rời nhóm</string>
@@ -323,8 +322,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_home_empty_state_button_title">Bắt đầu một Session</string>
     <string name="activity_home_leave_group_dialog_message">Bạn có chắc chắn rằng bạn muốn rời nhóm này không?</string>
     <string name="activity_home_leaving_group_failed_message">"Không thể rời nhóm"</string>
-    <string name="activity_home_delete_conversation_dialog_message">Bạn có chắc chắn rằng bạn muốn xoá cuộc hội thoại này không?</string>
-    <string name="activity_home_conversation_deleted_message">Cuộc hội thoại đã được xoá </string>
+    <string name="conversationsDeleted">Cuộc hội thoại đã được xoá </string>
     <string name="activity_seed_title_2">Làm quen với cụm từ khôi phục của bạn</string>
     <string name="activity_seed_explanation">Cụm từ khôi phục của bạn là chìa khoá chủ cho Session ID của bạn — bạn có thể sử dụng nó để khôi phục Session ID khi bị mất tiếp cận với thiết bị của bạn. Hãy lưu cụm từ khôi phục của bạn ở một nơi an toàn và không cung cấp cho bất kì ai.</string>
     <string name="activity_seed_reveal_button_title">Giữ để hiển thị.</string>
@@ -336,7 +334,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="onionRoutingPathServiceNode">Nút Dịch vụ</string>
     <string name="onionRoutingPathDestination">Điểm đến</string>
     <string name="learnMore">Tìm hiểu thêm</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Nhập Session ID</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">Quét mã QR</string>
     <string name="fragment_enter_public_key_explanation">Người dùng có thể chia sẻ Session ID của mình bằng cách tới mục cài đặt tài khoản và chạm vào “Chia sẻ Session ID”, hoặc bằng cách chia sẻ mã QR của họ.</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session cần truy cập máy ảnh để quét mã QR </string>

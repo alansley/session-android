@@ -59,7 +59,6 @@
     <string name="ConversationActivity_member_count">メンバー%1$d名</string>
     <string name="ConversationActivity_open_group_guidelines">コミュニティ規定</string>
     <string name="ConversationActivity_invalid_recipient">受信先が無効です。</string>
-    <string name="ConversationActivity_added_to_home_screen">ホーム画面に追加しました</string>
     <string name="ConversationActivity_leave_group">グループを抜けますか？</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">このグループを本当に抜けますか？</string>
     <string name="ConversationActivity_error_leaving_group">グループ脱退でエラー</string>
@@ -185,7 +184,6 @@
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%sとの安全番号が変わりました</string>
     <string name="ThreadRecord_you_marked_verified">検証済みにしました</string>
     <string name="ThreadRecord_you_marked_unverified">未検証にしました</string>
-    <string name="ThreadRecord_empty_message">ここに会話はありません。</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Sessionをアップデートする</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Sessionの最新版が出ました。タップしてアップデートしてください。</string>
@@ -412,7 +410,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">グループを編集する</string>
     <string name="conversation__menu_leave_group">グループを抜ける</string>
-    <string name="conversation__menu_add_shortcut">ホーム画面に追加する</string>
+    <string name="conversationsAddToHome">ホーム画面に追加する</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ポップアップを拡大</string>
     <!-- conversation_group_options -->
@@ -482,8 +480,7 @@
     <string name="activity_home_empty_state_button_title">Session を開始する</string>
     <string name="activity_home_leave_group_dialog_message">このグループを退会しますか？</string>
     <string name="activity_home_leaving_group_failed_message">"グループを脱退できませんでした"</string>
-    <string name="activity_home_delete_conversation_dialog_message">この会話を削除してもよろしいですか？</string>
-    <string name="activity_home_conversation_deleted_message">会話を削除しました</string>
+    <string name="conversationsDeleted">会話を削除しました</string>
     <string name="activity_seed_title_2">リカバリーフレーズに合致する</string>
     <string name="activity_seed_explanation">リカバリーフレーズは、Session ID のマスターキーです。デバイスにアクセスできなくなった場合、これを使用して Session ID を復元できます。リカバリーフレーズを安全な場所に保管し、誰にも教えないでください。</string>
     <string name="activity_seed_reveal_button_title">明らかにする</string>
@@ -497,11 +494,8 @@
     <string name="onionRoutingPathDestination">目的先</string>
     <string name="learnMore">詳細</string>
     <string name="activity_path_resolving_progress">解決中...</string>
-    <string name="activity_create_private_chat_enter_session_id_tab_title">Session ID を入力してください</string>
     <string name="activity_create_private_chat_scan_qr_code_tab_title">QR コードをスキャンする</string>
-    <string name="fragment_enter_public_key_edit_text_hint">セッションIDまたはONS名を入力してください</string>
     <string name="fragment_enter_public_key_explanation">ユーザーは、アカウント設定に移動して [Session ID を共有] をタップするか、QR コードを共有することで、Session ID を共有できます。</string>
-    <string name="fragment_enter_public_key_error_message">セッションIDまたはONS名を確認して再度お試しください。</string>
     <string name="fragment_scan_qr_code_camera_access_explanation">Session で QR コードをスキャンするにはカメラへのアクセスが必要です</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">カメラへのアクセスを許可する</string>
     <string name="activity_create_closed_group_edit_text_hint">グループ名を入力してください</string>
@@ -569,7 +563,6 @@
     <string name="invalid_public_key">無効な公開キー</string>
     <string name="dialog_blocked_title">%s のブロックを解除しますか？</string>
     <string name="dialog_blocked_explanation">本当に %s のブロックを解除しますか？</string>
-    <string name="dialog_join_open_group_title">%s に参加しますか?</string>
     <string name="dialog_join_open_group_explanation">%sの公開グループに本当に参加しますか?</string>
     <string name="dialog_open_url_title">URLを開きますか？</string>
     <string name="dialog_open_url_explanation">%sを本当に開いてもよろしいですか？</string>

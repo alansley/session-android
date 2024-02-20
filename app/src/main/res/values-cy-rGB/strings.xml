@@ -59,7 +59,6 @@
     <string name="ConversationActivity_select_contact_info">Dewis manylion cyswllt</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Mae\'n ddrwg gennym, bu gwall wrth osod eich atodiad.</string>
     <string name="ConversationActivity_invalid_recipient">Derbynnydd annilys!</string>
-    <string name="ConversationActivity_added_to_home_screen">Ychwanegwyd at y sgrin gartref</string>
     <string name="ConversationActivity_leave_group">Gadael y grŵp</string>
     <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ydych chi\'n siŵr eich bod am adael y grŵp?</string>
     <string name="ConversationActivity_error_leaving_group">Gwall wrth adael grŵp</string>
@@ -444,7 +443,7 @@
     <!-- conversation -->
     <string name="conversation__menu_edit_group">Golygu grŵp</string>
     <string name="conversation__menu_leave_group">Gadael y grŵp</string>
-    <string name="conversation__menu_add_shortcut">Ychwanegu at y sgrin gartref</string>
+    <string name="conversationsAddToHome">Ychwanegu at y sgrin gartref</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Ehangu llamlen</string>
     <!-- conversation_group_options -->
