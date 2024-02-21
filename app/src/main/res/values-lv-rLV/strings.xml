@@ -98,8 +98,7 @@
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Bloķēt šo kontaktpersonu?</string>
-    <string name="RecipientPreferenceActivity_block">Bloķēt</string>
+    <string name="block">Bloķēt</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Atbloķēt šo kontaktpersonu?</string>
     <string name="RecipientPreferenceActivity_unblock">Atbloķēt</string>
     <!-- Slide -->
@@ -137,7 +136,6 @@
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Bloķēt</string>
     <!-- message_details_header -->
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->

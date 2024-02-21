@@ -89,18 +89,6 @@
         <item quantity="many">Uložením všetkých %1$d príloh na úložisko k nim umožníte prístup ostatným aplikáciám v zariadení.\n\nPokračovať?</item>
         <item quantity="other">Uložením všetkých %1$d príloh na úložisko k nim umožníte prístup ostatným aplikáciám v zariadení.\n\nPokračovať?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Nastala chyba pri ukladaní prílohy na dátové úložisko zariadenia!</item>
-        <item quantity="few">Nastala chyba pri ukladaní príloh na dátové úložisko zariadenia!</item>
-        <item quantity="many">Nastala chyba pri ukladaní príloh na dátové úložisko zariadenia!</item>
-        <item quantity="other">Nastala chyba pri ukladaní príloh na úložisko!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Ukladám prílohu</item>
-        <item quantity="few">Ukladám %1$d prílohy</item>
-        <item quantity="many">Ukladám %1$d príloh</item>
-        <item quantity="other">Ukladám %1$d príloh</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Profilová fotka</string>
     <!-- CustomDefaultPreference -->
@@ -170,9 +158,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Zadajte heslo</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Zablokovať tento kontakt?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Už nebudete od tohto kontaktu dostávať správy a hovory.</string>
-    <string name="RecipientPreferenceActivity_block">Blokovať</string>
+    <string name="block">Blokovať</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Odblokovať tento kontakt?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Znovu budete dostávať správy a hovory od tohoto kontaktu.</string>
     <string name="RecipientPreferenceActivity_unblock">Odblokovať</string>
@@ -308,7 +295,6 @@ výmeny kľúčov.</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">POSLAŤ ZNOVU</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Blokovať</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Isté problémy vyžadujú Vašu pozornosť.</string>
     <string name="disappearingMessagesSent">Odoslané</string>

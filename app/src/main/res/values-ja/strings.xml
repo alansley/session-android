@@ -77,12 +77,6 @@
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">%1$d個のメディア・ファイルをすべて外部メモリに保存することで、他のアプリからアクセスすることが可能になります。\n\n続行しますか？</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="other">ストレージへの添付ファイル保存時にエラー！</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="other">%1$d個の添付ファイルを保存</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">プロフィール画像</string>
     <!-- CustomDefaultPreference -->
@@ -143,9 +137,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">パスフレーズを入力してください</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">この連絡先をブロックしますか？</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">この連絡先からのメッセージや通話を受信できなくなります。</string>
-    <string name="RecipientPreferenceActivity_block">ブロック</string>
+    <string name="block">ブロック</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">この連絡先のブロックを解除しますか？</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">この連絡先からのメッセージや通話を受信できるようになります。</string>
     <string name="RecipientPreferenceActivity_unblock">ブロック解除</string>
@@ -278,7 +271,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">再送</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">ブロック</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">問題があります</string>
     <string name="disappearingMessagesSent">送信</string>

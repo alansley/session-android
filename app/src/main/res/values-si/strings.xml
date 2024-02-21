@@ -30,10 +30,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">සබඳතාවය අනවහිර කරනවාද?</string>
     <string name="ConversationActivity_unblock">අනවහිර</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">ඇමුණුම සුරැකෙමින්</item>
-        <item quantity="other">ඇමුණුම් %1$d සුරැකෙමින්</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
     <!-- DateUtils -->
@@ -65,8 +61,7 @@
     <string name="ExpirationDialog_your_messages_will_not_expire">ඔබගේ පණිවිඩ කල් ඉකුත් නොවනු ඇත.</string>
     <!-- PassphrasePromptActivity -->
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">මෙම සබඳතාවය අවහිර කරනවාද?</string>
-    <string name="RecipientPreferenceActivity_block">අවහිර</string>
+    <string name="block">අවහිර</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">මෙම සබඳතාවය අනවහිර කරනවාද?</string>
     <string name="RecipientPreferenceActivity_unblock">අනවහිර</string>
     <!-- Slide -->
@@ -128,7 +123,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">නැවත යවන්න</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">අවහිර</string>
     <!-- message_details_header -->
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->

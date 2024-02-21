@@ -42,14 +42,6 @@
         <item quantity="other">Kino kijja kusimuula bwona %1$d obubaka obulondeddwa</item>
     </plurals>
     <string name="ConversationFragment_save_to_sd_card">tereka mu terekero</string>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Ensobi mu kutereka ebigatiddwako mu terekero</item>
-        <item quantity="other">Ensobi mu kutereka ebigatiddwako mu terekero</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">ekigatibwaako kiterekebwa</item>
-        <item quantity="other">ebigattibwako %1$d biterekebwa </item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_none">tewali</string>
@@ -85,9 +77,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Yingiza passiwaddi nga yabigaambo ne namba</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Zziyiza enamba eno</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Tojja kudamu kufuna obubaka oba ssimu okuva ew\'omukozesa ono</string>
-    <string name="RecipientPreferenceActivity_block">Zziyiiza</string>
+    <string name="block">Zziyiiza</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">sumulula contact eno?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Ojjakudamu okufuna obubaka ne ssimu okuva ew\'omuntu ono</string>
     <string name="RecipientPreferenceActivity_unblock">sumulula</string>
@@ -161,7 +152,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">Ddamu owerezze</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Zziyiiza</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Ensonga ezimu zetaaga gwe</string>
     <string name="disappearingMessagesSent">Esindikiddwa</string>

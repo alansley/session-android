@@ -53,10 +53,6 @@
         <item quantity="other">Futa </item>
     </plurals>
     <string name="ConversationFragment_save_to_sd_card">Hifadhi kwa kuhifadhi</string>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">kosa wakati wa kuhifadhi kiambatisho kwenye stoo</item>
-        <item quantity="other">kosa </item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">picha ya wasifu</string>
     <!-- CustomDefaultPreference -->
@@ -102,9 +98,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Ingiza nenosiri</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Zuia hii anwani?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Hautopokea tena ujumbe na simu kutoka kwa anwani hii</string>
-    <string name="RecipientPreferenceActivity_block">Zuia</string>
+    <string name="block">Zuia</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Fungua mawasiliano hii?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Utapata tena ujumbe na wito kutoka kwa anwani hii.</string>
     <string name="RecipientPreferenceActivity_unblock">Fungua</string>
@@ -222,7 +217,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">TUMA TENA</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Zuia</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">baadhi ya masuala yanahitaji umakini wako</string>
     <string name="disappearingMessagesSent">Imetumwa</string>

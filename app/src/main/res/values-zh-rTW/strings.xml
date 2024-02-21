@@ -79,15 +79,6 @@
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">儲存所有的 %1$d 媒體至存儲將會允許您裝置上的其它軟體開啟它們。\n\n繼續嗎？</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="other">儲存附件時遇到錯誤！</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="other">正在儲存 %1$d 個附件</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
-        <item quantity="other">正在儲存 %1$d 個附件至儲存空間</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">頭像照片</string>
     <!-- CustomDefaultPreference -->
@@ -148,9 +139,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">輸入自訂密碼</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">封鎖此聯絡人？</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">您將不會再次收到來自此聯絡人的訊息與通話。</string>
-    <string name="RecipientPreferenceActivity_block">封鎖</string>
+    <string name="block">封鎖</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">解除封鎖此聯絡人？</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">您將可以再次收到來自此聯絡人的訊息與通話。</string>
     <string name="RecipientPreferenceActivity_unblock">解除封鎖</string>
@@ -286,7 +276,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">重新傳送</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">封鎖</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">一些問題需要您的注意。</string>
     <string name="disappearingMessagesSent">傳送</string>

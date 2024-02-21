@@ -67,12 +67,6 @@
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">ការរក្សាទុកទាំងអស់ %1$d ព័ត៌មាននៅលើថាសផ្ទុក នឹងអនុញ្ញាតអោយកម្មវិធីផ្សេងៗ បើកមើលបាន.\n\nបន្ត?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="other">មានបញ្ហានៅពេលរក្សាទុកឯកសារភ្ជាប់!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="other">កំពុងរក្សា %1$d ឯកសារភ្ជាប់</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">រូបថតប្រវត្តិរូប</string>
     <!-- CustomDefaultPreference -->
@@ -132,9 +126,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">បញ្ចូលឃ្លាសម្ងាត់</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">បិទលេខទំនាក់ទំនងនេះ?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">អ្នកនឹងលែងទទួលសារ និងការហៅចូលពីលេខទំនាក់ទំនងនេះទៀតហើយ។</string>
-    <string name="RecipientPreferenceActivity_block">ហាមឃាត់</string>
+    <string name="block">ហាមឃាត់</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">មិនបិទលេខទំនាក់ទំនងនេះទេ?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">អ្នកនឹងទទួលបានសារ និងការហៅចូលពីលេខទំនាក់ទំនងនេះម្តងទៀត។</string>
     <string name="RecipientPreferenceActivity_unblock">បើកវិញ</string>
@@ -260,7 +253,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ផ្ញើឡើងវិញ</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">រារាំង</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">បញ្ហាមួយចំនួនត្រូវការ ការយកចិត្តទុកដាក់របស់អ្នក។</string>
     <string name="disappearingMessagesSent">បានផ្ញើ</string>

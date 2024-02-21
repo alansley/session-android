@@ -91,18 +91,6 @@
         <item quantity="many">שמירת כל %1$d פריטי המדיה באחסון תתיר לכל יישומים כלשהם להשיג גישה לפריטי המדיה.\n\nלהמשיך?</item>
         <item quantity="other">שמירת כל %1$d פריטי המדיה באחסון תתיר לכל יישומים כלשהם להשיג גישה לפריטי המדיה.\n\nלהמשיך?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">שגיאה בעת שמירת צרופה באחסון!</item>
-        <item quantity="two">שגיאה בעת שמירת צרופות באחסון!</item>
-        <item quantity="many">שגיאה בעת שמירת צרופות באחסון!</item>
-        <item quantity="other">שגיאה בעת שמירת צרופות באחסון!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">שומר צרופה</item>
-        <item quantity="two">שומר %1$d צרופות</item>
-        <item quantity="many">שומר %1$d צרופות</item>
-        <item quantity="other">שומר %1$d צרופות</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">תצלום פרופיל</string>
     <!-- CustomDefaultPreference -->
@@ -172,9 +160,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">הכנס משפט־סיסמה</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">לחסום איש קשר זה?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">לא תקבל יותר הודעות ושיחות מאיש קשר זה.</string>
-    <string name="RecipientPreferenceActivity_block">חסום</string>
+    <string name="block">חסום</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">לבטל חסימה של איש קשר זה?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">תוכל שוב לקבל הודעות ושיחות מאיש קשר זה.</string>
     <string name="RecipientPreferenceActivity_unblock">בטל חסימה</string>
@@ -308,7 +295,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">שלח מחדש</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">חסום</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">מספר סוגיות דורשות את תשומת לבך.</string>
     <string name="disappearingMessagesSent">נשלח</string>

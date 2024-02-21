@@ -62,12 +62,6 @@
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">การบันทึกสื่อทั้งหมด %1$d รายการลงในที่เก็บข้อมูล จะอนุญาตให้แอปอื่นในอุปกรณ์ของคุณเข้าถึงสื่อเหล่านี้ได้ด้วย\n\nดำเนินการต่อหรือไม่</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="other">เกิดข้อผิดพลาดระหว่างบันทึกไฟล์แนบลงที่เก็บข้อมูล</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="other">บันทึกไฟล์แนบแล้ว %1$d</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">รูปโปรไฟล์</string>
     <!-- CustomDefaultPreference -->
@@ -120,9 +114,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">ใส่วลีรหัสผ่าน</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">ปิดกั้นผู้ติดต่อนี้หรือไม่</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">คุณจะไม่ได้รับข้อความและสายโทรเข้าจากผู้ติดต่อนี้อีกต่อไป</string>
-    <string name="RecipientPreferenceActivity_block">ปิดกั้น</string>
+    <string name="block">ปิดกั้น</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">เลิกปิดกั้นผู้ติดต่อนี้หรือไม่</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">คุณจะกลับมารับข้อความและสายโทรเข้าจากผู้ติดต่อนี้ได้อีก</string>
     <string name="RecipientPreferenceActivity_unblock">เลิกปิดกั้น</string>
@@ -243,7 +236,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ส่งใหม่</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">ปิดกั้น</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">มีปัญหาบางประการที่ต้องการให้คุณพิจารณา</string>
     <string name="disappearingMessagesSent">ส่งแล้ว</string>

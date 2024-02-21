@@ -83,14 +83,6 @@
         <item quantity="one">Jos kopioit tämän tiedoston laitteesi tallennustilaan, niin kaikki muutkin sovellukset saavat oikeuden käyttää sitä.\n\nHaluatko jatkaa?</item>
         <item quantity="other">Jos kopioit kaikki %1$d tiedostoa laitteesi tallennustilaan, niin kaikki muutkin sovellukset saavat oikeuden käyttää niitä.\n\nHaluatko jatkaa?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Virhe tallennettaessa liitetiedostoa laitteesi tallennustilaan!</item>
-        <item quantity="other">Virhe tallennettaessa liitetiedostoja laitteesi tallennustilaan!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Tallennetaan liitetiedostoa</item>
-        <item quantity="other">Tallennetaan %1$d liitetiedostoa</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Profiilikuva</string>
     <!-- CustomDefaultPreference -->
@@ -154,9 +146,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Syötä salalause</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Estä tämä yhteystieto?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Jatkossa et enää saa viestejä etkä puheluita tältä yhteystiedolta.</string>
-    <string name="RecipientPreferenceActivity_block">Estä</string>
+    <string name="block">Estä</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Poista esto tältä yhteystiedolta?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Jatkossa voit taas saada viestejä ja puheluita tältä yhteystiedolta.</string>
     <string name="RecipientPreferenceActivity_unblock">Poista esto</string>
@@ -291,7 +282,6 @@ on viallinen!</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">LÄHETÄ UUDELLEEN</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Estä</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Jotkin asiat kaipaavat huomiotasi.</string>
     <string name="disappearingMessagesSent">Lähetetty</string>

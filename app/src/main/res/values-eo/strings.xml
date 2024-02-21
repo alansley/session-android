@@ -83,14 +83,6 @@
         <item quantity="one">Konservi tiun aŭdvidaĵon al konservejo ebligas al iuj ajn aplikaĵoj ĉe via aparato aliri al ili.\n\nĈu daŭrigi?</item>
         <item quantity="other">Konservi ĉiujn %1$d aŭdvidaĵojn al konservejo ebligas al iuj ajn aplikaĵoj ĉe via aparato aliri al ili.\n\nĈu daŭrigi?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Eraro konservante kunsendaĵon al konservejo!</item>
-        <item quantity="other">Eraro konservante kunsendaĵojn al konservejo!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Konservado de kunsendaĵo</item>
-        <item quantity="other">Konservado de %1$d kunsendaĵoj</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Profila foto</string>
     <!-- CustomDefaultPreference -->
@@ -154,9 +146,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Entajpu pasfrazon</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Ĉu bloki ĉi tiun kontakton?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Vi ne plu ricevos mesaĝojn kaj alvokojn el tiu kontakto.</string>
-    <string name="RecipientPreferenceActivity_block">Bloki</string>
+    <string name="block">Bloki</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Ĉu malbloki ĉi tiun kontakton?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Vi ree ricevos mesaĝojn kaj alvokojn de ĉi tiu kontakto.</string>
     <string name="RecipientPreferenceActivity_unblock">Malbloki</string>
@@ -291,7 +282,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">RESENDI</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Bloki</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Problemoj bezonas vian atenton.</string>
     <string name="disappearingMessagesSent">Sendita</string>

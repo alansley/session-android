@@ -548,9 +548,9 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
 
     private fun blockConversation(thread: ThreadRecord) {
         showSessionDialog {
-            title(R.string.RecipientPreferenceActivity_block_this_contact_question)
+            title(R.string.block)
             text(R.string.RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact)
-            button(R.string.RecipientPreferenceActivity_block) {
+            button(R.string.block) {
                 lifecycleScope.launch(Dispatchers.IO) {
                     storage.setBlocked(listOf(thread.recipient), true)
 

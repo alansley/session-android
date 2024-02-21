@@ -21,7 +21,7 @@
         android:textStyle="bold"
         android:textColor="@color/destructive"
         android:textSize="16sp"
-        android:text="@string/recipient_preferences__block"
+        android:text="@string/block"
         />
 
 </LinearLayout>

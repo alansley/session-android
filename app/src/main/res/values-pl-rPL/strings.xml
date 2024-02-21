@@ -93,18 +93,6 @@
         <item quantity="many">Zapisywanie wszystkich %1$d załączników na dysku pozwoli na dostęp do nich innym aplikacjom na Twoim urządzeniu.\n\nKontynuuj?</item>
         <item quantity="other">Zapisywanie wszystkich %1$d załączników na dysku pozwoli na dostęp do nich innym aplikacjom na Twoim urządzeniu.\n\nKontynuuj?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Wystąpił błąd podczas zapisywania załącznika na dysku!</item>
-        <item quantity="few">Wystąpił błąd podczas zapisywania załączników na dysku!</item>
-        <item quantity="many">Wystąpił błąd podczas zapisywania załączników na dysku!</item>
-        <item quantity="other">Wystąpił błąd podczas zapisywania załączników na dysku!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Zapisywanie załącznika</item>
-        <item quantity="few">Zapisywanie %1$d załączników</item>
-        <item quantity="many">Zapisywanie %1$d załączników</item>
-        <item quantity="other">Zapisywanie %1$d załączników</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Zdjęcie profilowe</string>
     <!-- CustomDefaultPreference -->
@@ -174,9 +162,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Podaj hasło</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Zablokować ten kontakt?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Nie będziesz mógł(a) odbierać wiadomości i połączeń od tego kontaktu.</string>
-    <string name="RecipientPreferenceActivity_block">Zablokuj</string>
+    <string name="block">Zablokuj</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Odblokować ten kontakt?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Będziesz mógł(a) znowu odbierać wiadomości i połączenia od tego kontaktu.</string>
     <string name="RecipientPreferenceActivity_unblock">Odblokuj</string>
@@ -312,7 +299,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">WYŚLIJ PONOWNIE</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Blokuj</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Niektóre kwestie wymagają Twojej uwagi.</string>
     <string name="disappearingMessagesSent">Wysłano</string>

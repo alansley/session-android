@@ -89,16 +89,6 @@
         <item quantity="few">Salvarea tututor celor %1$d fişiere pe spaţiul de stocare va permite altor aplicaţii de pe dispozitivul tău să le acceseze.\n\nContinui?</item>
         <item quantity="other">Salvarea tututor celor %1$d fişiere pe spaţiul de stocare va permite altor aplicaţii de pe dispozitivul tău să le acceseze.\n\nContinui?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">A apărut o eroare în timpul salvării atașamentului pe spațiul de stocare!</item>
-        <item quantity="few">A apărut o eroare în timpul salvării atașamentelor pe spațiul de stocare!</item>
-        <item quantity="other">A apărut o eroare în timpul salvării atașamentelor pe spațiul de stocare!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Se salvează atașamentul</item>
-        <item quantity="few">Se salvează %1$d atașamente</item>
-        <item quantity="other">Se salvează %1$d atașamente</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Poză profil</string>
     <!-- CustomDefaultPreference -->
@@ -165,9 +155,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Introduceți parola</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Blochez acest contact?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Nu o să mai primești mesaje și apeluri de la acest contact.</string>
-    <string name="RecipientPreferenceActivity_block">Blochează</string>
+    <string name="block">Blochează</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Deblochez acest contact?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">O să poți primi din nou mesaje și apeluri de la acest contact.</string>
     <string name="RecipientPreferenceActivity_unblock">Deblochează</string>
@@ -305,7 +294,6 @@ schimbul de chei este corupt </string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">RETRIMITE</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Blochează</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Anumite probleme au nevoie de atenția dvs.</string>
     <string name="disappearingMessagesSent">Trimis</string>

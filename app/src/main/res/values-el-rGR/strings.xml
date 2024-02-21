@@ -83,14 +83,6 @@
         <item quantity="one">Αποθηκεύοντας αυτό το πολυμέσο στην μνήμη θα επιτρέψει σε άλλες εφαρμογές στην συσκευή σου να έχουν πρόσβαση σε αυτό. \n\nΣυνέχεια;</item>
         <item quantity="other">Αποθηκεύοντας τα %1$d πολυμέσα στη μνήμη θα επιτρέψει σε άλλες εφαρμογές της συσκευής σας να έχουν πρόσβαση σε αυτά.\n\nΣυνέχεια;</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Πρόβλημα με την αποθήκευση του συνημμένου στην μνήμη!</item>
-        <item quantity="other">Πρόβλημα κατά την αποθήκευση των συνημμένων στη μνήμη!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Το συνημμένο αποθηκεύεται</item>
-        <item quantity="other">%1$d συνημμένα αποθηκεύονται</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Φωτογραφία προφίλ</string>
     <!-- CustomDefaultPreference -->
@@ -154,9 +146,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Εισαγωγή συνθηματικού</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Μπλοκάρισμα αυτής της επαφής;</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Δε θα λαμβάνετε πλέον μηνύματα και κλήσεις από αυτή την επαφή.</string>
-    <string name="RecipientPreferenceActivity_block">Μπλοκάρισμα</string>
+    <string name="block">Μπλοκάρισμα</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Ξεμπλοκάρισμα αυτής της επαφής;</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Θα μπορείτε και πάλι να λάβετε μηνύματα και κλήσεις από αυτή την επαφή.</string>
     <string name="RecipientPreferenceActivity_unblock">Ξεμπλοκάρισμα</string>
@@ -292,7 +283,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ΕΠΑΝΑΠΟΣΤΟΛΗ</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Μπλοκάρισμα</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Ορισμένα ζητήματα χρειάζονται την προσοχή σας.</string>
     <string name="disappearingMessagesSent">Στάλθηκε στις</string>

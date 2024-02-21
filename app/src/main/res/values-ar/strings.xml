@@ -103,22 +103,6 @@
         <item quantity="many">حفظ %1$d وسيط في الذاكرة يسمح ﻷي تطبيق آخر على الهاتف من النفاذ له. \n\nاستمر؟</item>
         <item quantity="other">حفظ %1$d وسيط في الذاكرة يسمح ﻷي تطبيق آخر على الهاتف من النفاذ له. \n\nاستمر؟</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="zero">وقع خطأ أثناء حفظ المرفقات في مساحة التخزين!</item>
-        <item quantity="one">وقع خطأ أثناء حفظ المرفق في مساحة التخزين!</item>
-        <item quantity="two">وقع خطأ أثناء حفظ المرفقات في مساحة التخزين!</item>
-        <item quantity="few">وقع خطأ أثناء حفظ المرفقات في مساحة التخزين!</item>
-        <item quantity="many">وقع خطأ أثناء حفظ المرفقات في مساحة التخزين!</item>
-        <item quantity="other">وقع خطأ أثناء حفظ المرفقات في مساحة التخزين!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="zero">جارٍ حفظ %1$d مرفق</item>
-        <item quantity="one">جارٍ حفظ المرفق</item>
-        <item quantity="two">جارٍ حفظ %1$d مرفق</item>
-        <item quantity="few">جارٍ حفظ %1$d مرفق</item>
-        <item quantity="many">جارٍ حفظ %1$d مرفق</item>
-        <item quantity="other">جارٍ حفظ %1$d مرفق</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">الصورة الشخصية</string>
     <!-- CustomDefaultPreference -->
@@ -194,9 +178,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">أدخل العبارة السرية</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">حظر جهة الاتصال؟</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">لن تتلقى الرسائل أو المكالمات من هذا المستخدم مستقبلا.</string>
-    <string name="RecipientPreferenceActivity_block">حظر</string>
+    <string name="block">حظر</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">إلغاء حظر جهة الاتصال؟</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">سوف تتمكن مرة أخرى من استقبال الرسائل والمكالمات من هذا المستخدم.</string>
     <string name="RecipientPreferenceActivity_unblock">رفع الحظر</string>
@@ -334,7 +317,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">إعادة الإرسال</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">حظر</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">بعض المشاكل تتطلب انتباهك.</string>
     <string name="disappearingMessagesSent">أرسلت</string>

@@ -55,7 +55,7 @@
         style="@style/BottomSheetActionItem"
         android:contentDescription="@string/AccessibilityId_block"
         android:drawableStart="?attr/menu_block_icon"
-        android:text="@string/RecipientPreferenceActivity_block"
+        android:text="@string/block"
         android:visibility="gone"
         tools:visibility="visible" />
 

@@ -71,14 +71,6 @@
         <item quantity="one">Tu medyayê li bîrbarê tomar bike wê sepanên din yê di amûra we de jî destûra gihînê bide vê.\n\n Tê bidomîne?</item>
         <item quantity="other">Tu %1$d medyayan teva li bîrbarê tomar bike wê sepanên din yê di amûra we de jî destûra gihînê bidin vê.\n\n Tê bidomîne?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Dema servehî li bîrbarê dihat tomarkirin çewtî rû da!</item>
-        <item quantity="other">Di tomarkirina servehiyan bo bîrbarê çewtî pêk hat!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Servehî tê tomarkirin</item>
-        <item quantity="other">%1$d servehî tên tomarkirin</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Wêneyê profîlê</string>
     <!-- CustomDefaultPreference -->
@@ -136,9 +128,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Borînbiwêjê têkeve</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Vî berdengî asteng bikin?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Ji vî berdengî dê êdî peyam û bang neyên wergirtin.</string>
-    <string name="RecipientPreferenceActivity_block">Astengkirin</string>
+    <string name="block">Astengkirin</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Astenga vî berdengî rake?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Tu yê dîsa bikaribî ji vî berdengî peyam û bangan wer bigrî.</string>
     <string name="RecipientPreferenceActivity_unblock">Astengê rakirin</string>
@@ -264,7 +255,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">DÎSA ŞANDIN</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Asteng bike</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Ji bo hin pirsgirêkan eleqeya te hewce ye.</string>
     <string name="disappearingMessagesSent">Hat şandin</string>

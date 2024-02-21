@@ -93,18 +93,6 @@
         <item quantity="many">Сохранение этих %1$d медиафайлов в хранилище устройства позволит любому приложению их просматривать.\n\nПродолжить?</item>
         <item quantity="other">Сохранение этих %1$d медиафайлов в хранилище устройства позволит любому приложению их просматривать.\n\nПродолжить?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Ошибка сохранения вложения!</item>
-        <item quantity="few">Ошибка при сохранении вложений в память!</item>
-        <item quantity="many">Ошибка при сохранении вложений в память!</item>
-        <item quantity="other">Ошибка при сохранении вложений в память!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Сохранение %1$d вложения</item>
-        <item quantity="few">Сохранение %1$d вложений</item>
-        <item quantity="many">Сохранение %1$d вложений</item>
-        <item quantity="other">Сохранение %1$d вложений</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Фото профиля</string>
     <!-- CustomDefaultPreference -->
@@ -174,9 +162,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Введите кодовую фразу</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Заблокировать этот контакт?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Вы больше не будете получать сообщения или звонки от этого контакта.</string>
-    <string name="RecipientPreferenceActivity_block">Заблокировать</string>
+    <string name="block">Заблокировать</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Разблокировать этот контакт?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Вы снова сможете получать сообщения и звонки от этого контакта.</string>
     <string name="RecipientPreferenceActivity_unblock">Разблокировать</string>
@@ -314,7 +301,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ОТПРАВИТЬ ПОВТОРНО</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Заблокировать</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Есть проблемы, требующие вашего внимания.</string>
     <string name="disappearingMessagesSent">Отправлено</string>

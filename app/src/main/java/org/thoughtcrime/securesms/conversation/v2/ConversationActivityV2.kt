@@ -1142,9 +1142,9 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
 
     override fun block(deleteThread: Boolean) {
         showSessionDialog {
-            title(R.string.RecipientPreferenceActivity_block_this_contact_question)
+            title(R.string.block)
             text(R.string.RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact)
-            destructiveButton(R.string.RecipientPreferenceActivity_block, R.string.AccessibilityId_block_confirm) {
+            destructiveButton(R.string.block, R.string.AccessibilityId_block_confirm) {
                 viewModel.block()
                 if (deleteThread) {
                     viewModel.deleteThread()

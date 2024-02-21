@@ -77,14 +77,6 @@
         <item quantity="one">Запазването на този медиен файл ще даде достъп до него на всички други приложения.\n\nПродължи?</item>
         <item quantity="other">Запазването на всички %1$d медийни файла ще даде достъп до тях на всички други приложения.\n\nПродължи?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Грешка при запазването на прикаченият файл!</item>
-        <item quantity="other">Грешка при запазването на прикачените файлове!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Запазване на прикачения файл</item>
-        <item quantity="other">Запазване на %1$d прикачени файла</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Снимка на профила</string>
     <!-- CustomDefaultPreference -->
@@ -148,9 +140,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Въведете паролата</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Блокиране на този контакт?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Повече няма да получавате съобщения и обаждания от този контакт.</string>
-    <string name="RecipientPreferenceActivity_block">Блокиране</string>
+    <string name="block">Блокиране</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Отблокиране на този контакт?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Отново ще може да получавате съобщения и обаждания от този контакт.</string>
     <string name="RecipientPreferenceActivity_unblock">Отблокиране</string>
@@ -276,7 +267,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ПОВТОРНО ИЗПРАЩАНЕ</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Блокиране</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Няколко проблема изискват вашето внимание.</string>
     <string name="disappearingMessagesSent">Изпратен</string>

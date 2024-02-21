@@ -83,14 +83,6 @@
         <item quantity="one">Das Speichern dieses Medieninhalts im Gerätespeicher ermöglicht jeder anderen installierten App darauf Zugriff.\n\nTrotzdem fortfahren?</item>
         <item quantity="other">Das Speichern aller %1$d Medieninhalte im Gerätespeicher ermöglicht jeder anderen installierten App darauf Zugriff.\n\nTrotzdem fortfahren?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Fehler beim Speichern des Anhangs im Gerätespeicher!</item>
-        <item quantity="other">Fehler beim Speichern der Anhänge im Gerätespeicher!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Anhang speichern</item>
-        <item quantity="other">%1$d Anhänge speichern</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Profilbild</string>
     <!-- CustomDefaultPreference -->
@@ -154,9 +146,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Passphrase eingeben</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Kontakt blockieren?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Du wirst keine Nachrichten und Anrufe mehr von diesem Kontakt erhalten können.</string>
-    <string name="RecipientPreferenceActivity_block">Blockieren</string>
+    <string name="block">Blockieren</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Diesen Kontakt freigeben?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Du wirst wieder Nachrichten und Anrufe von diesem Kontakt erhalten können.</string>
     <string name="RecipientPreferenceActivity_unblock">Freigeben</string>
@@ -290,7 +281,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ERNEUT SENDEN</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Blockieren</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Einige Vorgänge benötigen deine Aufmerksamkeit.</string>
     <string name="disappearingMessagesSent">Gesendet</string>

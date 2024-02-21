@@ -86,16 +86,6 @@
         <item quantity="few">Упис ова %1$d медијума у складиште ће омогућити било којој апликацији на вашем уређају да му приступи.\n\nДа наставим?</item>
         <item quantity="other">Упис ових %1$d медијума у складиште ће омогућити било којој апликацији на вашем уређају да му приступи.\n\nДа наставим?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Грешка уписа прилога у складиште!</item>
-        <item quantity="few">Грешка уписа прилога у складиште!</item>
-        <item quantity="other">Грешка уписа прилога у складиште!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Уписивање прилога</item>
-        <item quantity="few">Уписивање %1$d прилога</item>
-        <item quantity="other">Уписивање %1$d прилога</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Профилна слика</string>
     <!-- CustomDefaultPreference -->
@@ -162,9 +152,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Унесите лозинку</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Блокирати овај контакт?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Више нећете примати поруке и позиве од овог контакта.</string>
-    <string name="RecipientPreferenceActivity_block">Блокирај</string>
+    <string name="block">Блокирај</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Одлокирати овај контакт?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Поново можете да примате поруке и позиве од овог контакта.</string>
     <string name="RecipientPreferenceActivity_unblock">Одблокирај</string>
@@ -298,7 +287,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ПОШАЉИ ПОНОВО</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Блокирај</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Неки од проблема захтевају вашу пажњу.</string>
     <string name="disappearingMessagesSent">Послата</string>

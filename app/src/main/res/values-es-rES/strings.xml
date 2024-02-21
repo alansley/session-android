@@ -83,14 +83,6 @@
         <item quantity="one">Guardar este archivo multimedia en el almacenamiento del teléfono permitirá que cualquier otra aplicación en tu dispositivo acceda a él.\n\n¿Continuar?</item>
         <item quantity="other">Guardar los %1$d archivos multimedia en el almacenamiento del teléfono permitirá que cualquier otra aplicación en tu dispositivo acceda a ellos.\n\n¿Continuar?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">¡Fallo al guardar el adjunto!</item>
-        <item quantity="other">¡Fallo al guardar los adjuntos!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Guardando adjunto</item>
-        <item quantity="other">Guardando %1$d adjuntos</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Foto de perfil</string>
     <!-- CustomDefaultPreference -->
@@ -154,9 +146,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Introduce clave de acceso</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">¿Bloquear este contacto?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Ya no recibirás mensajes y llamadas de este contacto.</string>
-    <string name="RecipientPreferenceActivity_block">Bloquear</string>
+    <string name="block">Bloquear</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">¿Desbloquear este contacto?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Podrás volver a recibir mensajes y llamadas de este contacto.</string>
     <string name="RecipientPreferenceActivity_unblock">Desbloquear</string>
@@ -291,7 +282,6 @@ de intercambio de claves!</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">REENVIAR</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Bloquear</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Hay un problema que necesita tu atención.</string>
     <string name="disappearingMessagesSent">Enviado</string>

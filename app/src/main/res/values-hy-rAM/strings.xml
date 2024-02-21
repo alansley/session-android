@@ -84,18 +84,6 @@
         <item quantity="one">Այս մեդիան պահպանելով սարքի մեջ մնացած հավելվածները կկարողանան տեսնել այն։\n\nՇարունակե՞լ։</item>
         <item quantity="other">Այս %1$d մեդիան պահպանելով սարքի մեջ մնացած հավելվածները կկարողանան տեսնել այն։\n\nՇարունակե՞լ։</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Չհաջողվեց պահպանել կցումը սարքի մեջ։</item>
-        <item quantity="other">Չհաջողվեց պահպանել կցումները սարքի մեջ։</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Կցումը պահպանվում է</item>
-        <item quantity="other">%1$d կցում պահպանվում են</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
-        <item quantity="one">Կցորդը պահպանվում է հիշողության մեջ…</item>
-        <item quantity="other">%1$d կցորդները պահպանվում են հիշողության մեջ…</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Լուսանկար</string>
     <!-- CustomDefaultPreference -->
@@ -159,9 +147,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Մուտքագրեք գաղտնաբառը</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Արգելափակել այս կոնտակտը</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Դուք չեք ստանա հաղորդագրություններ և զանգեր այս կոնտակտից.</string>
-    <string name="RecipientPreferenceActivity_block">Արգելափակել</string>
+    <string name="block">Արգելափակել</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Արգելափակումից հանե՞լ կոնտակտին?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Դուք կրկին կկարողանաք հաղորդագրություններ և զանգեր ստանալ այս կոնտակտից։</string>
     <string name="RecipientPreferenceActivity_unblock">Հանել արգելափակումից</string>
@@ -299,7 +286,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ՈՒՂԱՐԿԵԼ ՆՈՐԻՑ</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Արգելափակել</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Որոշ հարցեր ձեր ուշադրության կարիքն ունեն։.</string>
     <string name="disappearingMessagesSent">Ուղարկված է</string>

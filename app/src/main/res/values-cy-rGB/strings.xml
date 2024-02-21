@@ -91,22 +91,6 @@
         <item quantity="many">Bydd cadw\'r holl gyfryngau %1$d i\'r storfa yn caniatáu i apiau eraill ar eich dyfais gael mynediad iddynt.\n\Parhau?</item>
         <item quantity="other">Bydd cadw\'r holl gyfryngau %1$d i\'r storfa yn caniatáu i apiau eraill ar eich dyfais gael mynediad iddynt.\n\Parhau?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="zero">Gwall wrth gadw atodiad i\'r storio!</item>
-        <item quantity="one">Gwall wrth gadw atodiadau i\'r storio!</item>
-        <item quantity="two">Gwall wrth gadw atodiadau i\'r storio!</item>
-        <item quantity="few">Gwall wrth gadw atodiadau i\'r storio!</item>
-        <item quantity="many">Gwall wrth gadw atodiadau i\'r storio!</item>
-        <item quantity="other">Gwall wrth gadw atodiadau i\'r storio!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="zero">Cadw atodiad</item>
-        <item quantity="one">Cadw %1$d atodiad</item>
-        <item quantity="two">Cadw %1$d atodiad</item>
-        <item quantity="few">Cadw %1$d atodiad</item>
-        <item quantity="many">Cadw %1$d atodiad</item>
-        <item quantity="other">Cadw %1$d atodiad</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Llun proffil</string>
     <!-- CustomDefaultPreference -->
@@ -182,9 +166,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Rhoi cyfrinymadrodd</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Rhwystro\'r cysllwt hwn?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Ni fyddwch bellach yn derbyn negeseuon a galwadau oddi wrth y cyswllt hwn.</string>
-    <string name="RecipientPreferenceActivity_block">Rhwystro</string>
+    <string name="block">Rhwystro</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Dadrwystro\'r cyswllt hwn?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Byddwch unwaith eto yn gallu derbyn negeseuon a galwadau o\'r cyswllt hwn.</string>
     <string name="RecipientPreferenceActivity_unblock">Dadrwystro</string>
@@ -313,7 +296,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">AIL ANFON</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Rhwystro</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Mae angen eich sylw ar rai materion.</string>
     <string name="disappearingMessagesSent">Anfonwyd</string>

@@ -80,14 +80,6 @@
         <item quantity="one">Desar aquest mitjà a emmagatzematge permetrà que qualsevol altra aplicació del dispositiu també hi pugui accedir.\n\nVoleu continuar?</item>
         <item quantity="other">Desar els %1$d fitxers a l\'emmagatzematge permetrà que qualsevol altra aplicació del dispositiu també hi pugui accedir.\n\nVoleu continuar?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Error al desar el fitxer adjunt a l\'emmagatzematge!</item>
-        <item quantity="other">Error en desar els fitxers adjunts a l\'emmagatzematge.</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">S\'està desant el fitxer</item>
-        <item quantity="other">S\'estan desant els %1$d fitxers</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Foto del perfil</string>
     <!-- CustomDefaultPreference -->
@@ -151,9 +143,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Introduïu la contrasenya</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Voleu blocar aquest contacte?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">No rebreu missatges ni trucades d\'aquest contacte.</string>
-    <string name="RecipientPreferenceActivity_block">Bloca</string>
+    <string name="block">Bloca</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Voleu desblocar aquest contacte?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Podreu tornar a rebre missatges i trucades d\'aquest contacte.</string>
     <string name="RecipientPreferenceActivity_unblock">Desbloca</string>
@@ -287,7 +278,6 @@ d\'intercanvi de claus!</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">TORNA A ENVIAR</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Bloca</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Certs problemes necessiten la vostra atenció.</string>
     <string name="disappearingMessagesSent">Enviat</string>

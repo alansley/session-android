@@ -298,9 +298,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Enter passphrase</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_block_this_contact_question">Block this contact?</string>
     <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">You will no longer receive messages and calls from this contact.</string>
-    <string name="RecipientPreferenceActivity_block">Block</string>
+    <string name="block">Block</string>
     <string name="RecipientPreferenceActivity_unblock_this_contact_question">Unblock this contact?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">You will once again be able to receive messages and calls from this contact.</string>
     <string name="RecipientPreferenceActivity_unblock">Unblock</string>
@@ -439,7 +438,6 @@
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">RESEND</string>
     <!-- recipient_preferences -->
-    <string name="recipient_preferences__block">Block</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Some issues need your attention.</string>
     <string name="disappearingMessagesSent">Sent</string>
