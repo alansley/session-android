@@ -151,7 +151,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="onionRoutingPathYou">Kikin</string>
     <string name="MediaPreviewActivity_draft">Pichak</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kanllapi allichita mana ushanchikchu kikin mana arinikpika.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Chaskita pichanayanchu</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Kayka kay chaskita pichankapachami.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$dmushuk chaskikuna %2$drimarikunapi.</string>
@@ -219,7 +218,7 @@ ranti pakalla yupaykunamanta</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Shuyu</string>
-    <string name="QuoteView_original_missing">Mana kallari chaskita taririnchu</string>
+    <string name="messageErrorOriginal">Mana kallari chaskita taririnchu</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Puchukaykaman kuyuriy</string>
     <!-- giphy_activity -->
@@ -231,16 +230,14 @@ ranti pakalla yupaykunamanta</string>
     <string name="load_more_header__loading">Paskakun</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">KUTINLLA KACHANA</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Wakin ruraykuna kikin rikuchun munanmi</string>
     <string name="disappearingMessagesSent">Kachashka</string>
-    <string name="message_details_header__received">Chaskishka</string>
+    <string name="received">Chaskishka</string>
     <string name="message_details_header__disappears">Chinkarishka</string>
     <string name="message_details_header__via">Kay ñianta</string>
     <string name="message_details_header__to">Pipak</string>
-    <string name="message_details_header__from">Ñukamanta</string>
     <string name="message_details_header__with">Piwan:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Mushuk yaykuna paskachikta wiñachipay</string>
@@ -316,10 +313,7 @@ ranti pakalla yupaykunamanta</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Shukman mushuk chaskita...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Chaskipa kilkashkakuna</string>
-    <string name="conversation_context__menu_copy_text">Shinashina kilkashkata yallichina</string>
-    <string name="conversation_context__menu_delete_message">Chaskita pichana</string>
-    <string name="conversation_context__menu_resend_message">Chaskita kutin kachana</string>
+    <string name="deleteMessage">Chaskita pichana</string>
     <string name="conversation_context__menu_reply_to_message">Chaskita kutichina</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Allichina kimichishkata</string>

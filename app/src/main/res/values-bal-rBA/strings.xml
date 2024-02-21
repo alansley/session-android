@@ -133,7 +133,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="onionRoutingPathYou">Anda</string>
     <string name="MediaPreviewActivity_draft">Draf</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tidak bisa menyimpan ke penyimpanan luar tanpa izin</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Hapus pesan?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Pesan ini akan dihapus secara permanen.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d pesan baru dalam %2$d percakapan</string>
@@ -201,7 +200,7 @@ memproses pertukaran kunci korupsi.</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Pesan asli tidak lagi tersedia</string>
+    <string name="messageErrorOriginal">Pesan asli tidak lagi tersedia</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Gulir ke bawah</string>
     <!-- giphy_activity -->
@@ -213,15 +212,13 @@ memproses pertukaran kunci korupsi.</string>
     <string name="load_more_header__loading">Memuat</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">KIRIM ULANG</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Beberapa masalah memerlukan perhatian Anda.</string>
     <string name="disappearingMessagesSent">Terkirim</string>
-    <string name="message_details_header__received">Diterima</string>
+    <string name="received">Diterima</string>
     <string name="message_details_header__disappears">Hilang</string>
     <string name="message_details_header__to">Kepada:</string>
-    <string name="message_details_header__from">Dari:</string>
     <string name="message_details_header__with">Dengan:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Buat frasa sandi</string>
@@ -289,10 +286,7 @@ memproses pertukaran kunci korupsi.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Pesan baru ke...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Rincian pesan</string>
-    <string name="conversation_context__menu_copy_text">Salin teks</string>
-    <string name="conversation_context__menu_delete_message">Hapus pesan</string>
-    <string name="conversation_context__menu_resend_message">Kirim ulang </string>
+    <string name="deleteMessage">Hapus pesan</string>
     <string name="conversation_context__menu_reply_to_message">Balas pesan</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Simpan lampiran</string>

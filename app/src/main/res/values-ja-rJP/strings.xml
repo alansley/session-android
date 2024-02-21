@@ -170,7 +170,6 @@
     <string name="MediaPreviewActivity_draft">下書き</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Sessionが外部ストレージにデータを保存するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『ストレージ』へのアクセス許可を有効にしてください。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">外部ストレージに保存できません。ストレージへのアクセス許可が無効になっています。</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">メッセージを削除しますか？</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">このメッセージを完全に削除します。</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d個の会話に%1$d個の新着メッセージ</string>
@@ -250,7 +249,7 @@
     <string name="read">読む</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">写真</string>
-    <string name="QuoteView_original_missing">元のメッセージが見つかりません</string>
+    <string name="messageErrorOriginal">元のメッセージが見つかりません</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">最後までスクロール</string>
     <!-- giphy_activity -->
@@ -262,16 +261,14 @@
     <string name="load_more_header__loading">読み込み中</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">再送</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">問題があります</string>
     <string name="disappearingMessagesSent">送信</string>
-    <string name="message_details_header__received">受信</string>
+    <string name="received">受信</string>
     <string name="message_details_header__disappears">消える</string>
     <string name="message_details_header__via">経由</string>
     <string name="message_details_header__to">宛先:</string>
-    <string name="message_details_header__from">差出人:</string>
     <string name="message_details_header__with">Cc:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">パスフレーズを作成</string>
@@ -348,12 +345,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">新着メッセージ…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">メッセージの詳細</string>
-    <string name="conversation_context__menu_copy_text">テキストをコピー</string>
-    <string name="conversation_context__menu_delete_message">メッセージの削除</string>
+    <string name="deleteMessage">メッセージの削除</string>
     <string name="conversation_context__menu_ban_user">ユーザーをバンする</string>
     <string name="conversation_context__menu_ban_and_delete_all">バンして全て削除する</string>
-    <string name="conversation_context__menu_resend_message">メッセージを再送信</string>
     <string name="conversation_context__menu_reply_to_message">メッセージに返信</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">添付ファイルを保存</string>

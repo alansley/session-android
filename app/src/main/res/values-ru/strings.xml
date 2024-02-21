@@ -197,7 +197,6 @@
     <string name="MediaPreviewActivity_draft">Черновик</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Для сохранения во внешнее хранилище приложению Session требуется доступ к хранилищу, однако это разрешение было вами безвозвратно отклонено. Чтобы предоставить это разрешение вручную заново, перейдите в настройки вашего устройства в раздел «Приложения», найдите Session, выберите «Разрешения», и разрешите «Файлы и медиаконтент».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Не удается сохранить во внешнем хранилище. Доступ запрещен</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Удалить сообщение?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Это сообщение будет безвозвратно удалено.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d новых сообщений в %2$d диалогах</string>
@@ -280,7 +279,7 @@
     <string name="read">Читать</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Фото</string>
-    <string name="QuoteView_original_missing">Исходное сообщение не найдено</string>
+    <string name="messageErrorOriginal">Исходное сообщение не найдено</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Промотать вниз</string>
     <!-- giphy_activity -->
@@ -292,16 +291,14 @@
     <string name="load_more_header__loading">Загрузка</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ОТПРАВИТЬ ПОВТОРНО</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Есть проблемы, требующие вашего внимания.</string>
     <string name="disappearingMessagesSent">Отправлено</string>
-    <string name="message_details_header__received">Получено</string>
+    <string name="received">Получено</string>
     <string name="message_details_header__disappears">Исчезнет</string>
     <string name="message_details_header__via">Через</string>
     <string name="message_details_header__to">Кому:</string>
-    <string name="message_details_header__from">От:</string>
     <string name="message_details_header__with">Вместе с:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Создать парольную фразу</string>
@@ -381,12 +378,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Новое сообщение для...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Подробности</string>
-    <string name="conversation_context__menu_copy_text">Копировать текст</string>
-    <string name="conversation_context__menu_delete_message">Удалить сообщение</string>
+    <string name="deleteMessage">Удалить сообщение</string>
     <string name="conversation_context__menu_ban_user">Заблокировать пользователя</string>
     <string name="conversation_context__menu_ban_and_delete_all">Забанить и удалить все</string>
-    <string name="conversation_context__menu_resend_message">Отправить заново</string>
     <string name="conversation_context__menu_reply_to_message">Ответ на сообщение</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Сохранить вложение</string>
@@ -547,9 +541,6 @@
     <string name="warning">Предупреждение</string>
     <string name="notify_type_all">Все</string>
     <string name="deleted_message">Это сообщение было удалено</string>
-    <string name="delete_message_for_me">Удалить только для меня</string>
-    <string name="delete_message_for_everyone">Удалить для всех</string>
-    <string name="delete_message_for_me_and_recipient">Удалить для меня и %s</string>
     <string name="pin">Закрепить</string>
     <string name="pinUnpin">Открепить</string>
 </resources>

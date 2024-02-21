@@ -179,7 +179,6 @@
     <string name="onionRoutingPathYou">Ti</string>
     <string name="MediaPreviewActivity_draft">Borrador</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Non é posible gardar no almacenamento externo sen permiso</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Borrar mensaxe?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Isto borrará de xeito permanente esta mensaxe.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d novas mensaxes en %2$d conversas</string>
@@ -260,7 +259,7 @@
     <string name="read">Ler</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotografía</string>
-    <string name="QuoteView_original_missing">Non se atopou a mensaxe orixinal</string>
+    <string name="messageErrorOriginal">Non se atopou a mensaxe orixinal</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Desprazarse ata o final</string>
     <!-- giphy_activity -->
@@ -272,16 +271,14 @@
     <string name="load_more_header__loading">Cargando</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">REENVIAR</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Algúns problemas requiren a túa atención.</string>
     <string name="disappearingMessagesSent">Enviada</string>
-    <string name="message_details_header__received">Recibida</string>
+    <string name="received">Recibida</string>
     <string name="message_details_header__disappears">Desaparece</string>
     <string name="message_details_header__via">Vía</string>
     <string name="message_details_header__to">Para:</string>
-    <string name="message_details_header__from">De:</string>
     <string name="message_details_header__with">Con:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Crear frase de acceso</string>
@@ -357,12 +354,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nova mensaxe a...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Detalles da mensaxe</string>
-    <string name="conversation_context__menu_copy_text">Copiar texto</string>
-    <string name="conversation_context__menu_delete_message">Borrar mensaxe</string>
+    <string name="deleteMessage">Borrar mensaxe</string>
     <string name="conversation_context__menu_ban_user">Bloquear usuario</string>
     <string name="conversation_context__menu_ban_and_delete_all">Bloquear e eliminar todo</string>
-    <string name="conversation_context__menu_resend_message">Volver a enviar a mensaxe</string>
     <string name="conversation_context__menu_reply_to_message">Responder á mensaxe</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Gardar anexo</string>

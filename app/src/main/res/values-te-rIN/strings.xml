@@ -168,7 +168,6 @@
     <string name="onionRoutingPathYou">మీరు</string>
     <string name="MediaPreviewActivity_draft">చిత్తు పత్రం</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">అనుమతులు లేకుండా బాహ్య నిల్వకి సేవ్ చేయడం సాధ్యపడలేదు</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">సందేశాన్ని తొలగించాలా?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">ఇది శాశ్వతంగా ఈ సందేశాన్ని తొలగిస్తుంది.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d సంభాషణలొ కొత్త %1$d సందేశాలు</string>
@@ -238,7 +237,7 @@
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">ఫోటో</string>
-    <string name="QuoteView_original_missing">అసలు సందేశం కనుగొనబడలేదు</string>
+    <string name="messageErrorOriginal">అసలు సందేశం కనుగొనబడలేదు</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">దిగువకు స్క్రోల్ చెయ్యి</string>
     <!-- giphy_activity -->
@@ -250,16 +249,14 @@
     <string name="load_more_header__loading">లోడ్</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">మళ్ళీ పంపు</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">కొన్ని సమస్యలకు మీ శ్రద్ధ అవసరం.</string>
     <string name="disappearingMessagesSent">పంపిన</string>
-    <string name="message_details_header__received">అందుకున్న</string>
+    <string name="received">అందుకున్న</string>
     <string name="message_details_header__disappears">అదృశ్యమవుతుంది</string>
     <string name="message_details_header__via">ద్వారా</string>
     <string name="message_details_header__to">ఎవరికి:</string>
-    <string name="message_details_header__from">ఎవరి నుండి:</string>
     <string name="message_details_header__with">ఎవరితో:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">సంకేతపదమును తయారు చేయు</string>
@@ -335,10 +332,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">....కు కొత్త సందేశం</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">సందేశం వివరాలు</string>
-    <string name="conversation_context__menu_copy_text">మూల గ్రంథము అనుకరణ</string>
-    <string name="conversation_context__menu_delete_message">సందేశాన్ని తొలగించు</string>
-    <string name="conversation_context__menu_resend_message">సందేశాన్ని తిరిగి పంపు</string>
+    <string name="deleteMessage">సందేశాన్ని తొలగించు</string>
     <string name="conversation_context__menu_reply_to_message">సందేశానికి ప్రత్యుత్తరం ఇవ్వండి</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">జత పరిచినది దాచి పెట్టు </string>

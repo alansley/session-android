@@ -181,7 +181,6 @@
     <string name="MediaPreviewActivity_draft">Rascunho</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">O Session precisa de acesso ao armazenamento para poder salvar em um armazenamento externo, mas a permissão está sendo recusada. Por favor vá até as configurações, selecione \"Permissões\", e ative o \"Armazenamento\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Não é possível salvar em armazenamento externo sem permissões</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Deletar mensagem?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Isto vai permanentemente deletar esta mensagem.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mensagens novas em %2$d conversas</string>
@@ -262,7 +261,7 @@
     <string name="read">Ler</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Mensagem original não encontrada</string>
+    <string name="messageErrorOriginal">Mensagem original não encontrada</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Rolar para o final</string>
     <!-- giphy_activity -->
@@ -274,16 +273,14 @@
     <string name="load_more_header__loading">Carregando</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">REENVIAR</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Algumas questões precisam de sua atenção.</string>
     <string name="disappearingMessagesSent">Enviada</string>
-    <string name="message_details_header__received">Recebida</string>
+    <string name="received">Recebida</string>
     <string name="message_details_header__disappears">Desaparece</string>
     <string name="message_details_header__via">Via</string>
     <string name="message_details_header__to">Para:</string>
-    <string name="message_details_header__from">De:</string>
     <string name="message_details_header__with">Com:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Criar frase-chave</string>
@@ -361,12 +358,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nova mensagem para...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Detalhes de mensagem</string>
-    <string name="conversation_context__menu_copy_text">Copiar texto</string>
-    <string name="conversation_context__menu_delete_message">Deletar mensagem</string>
+    <string name="deleteMessage">Deletar mensagem</string>
     <string name="conversation_context__menu_ban_user">Banir usuário</string>
     <string name="conversation_context__menu_ban_and_delete_all">Banir e excluír tudo</string>
-    <string name="conversation_context__menu_resend_message">Reenviar mensagem</string>
     <string name="conversation_context__menu_reply_to_message">Responder a mensagem</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salvar anexo</string>
@@ -527,9 +521,6 @@
     <string name="warning">Aviso</string>
     <string name="notify_type_all">Tudo</string>
     <string name="deleted_message">Esta mensagem foi excluída</string>
-    <string name="delete_message_for_me">Excluir apenas para mim</string>
-    <string name="delete_message_for_everyone">Excluir para todos</string>
-    <string name="delete_message_for_me_and_recipient">Excluir para mim e %s</string>
     <string name="pin">Fixar</string>
     <string name="pinUnpin">Desafixar</string>
 </resources>

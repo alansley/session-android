@@ -180,7 +180,6 @@
     <string name="MediaPreviewActivity_draft">Malneto</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session bezonas konservejan aliron por konservi al ekstera konservejo, sed ĝi estis porĉiame malakceptita. Bonvolu iri al la aplikaĵaj agordoj, elekti \"Permesoj\", kaj ŝalti \"Konservejo\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ne eblas konservi en la ekstera konservejo sen permesoj</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Ĉu forviŝi mesaĝon?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tio daŭre forviŝos ĉi tiun mesaĝon.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d novaj mesaĝoj en %2$d interparoloj</string>
@@ -261,7 +260,7 @@
     <string name="read">Legita</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Origina mesaĝo ne troveblas</string>
+    <string name="messageErrorOriginal">Origina mesaĝo ne troveblas</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Rulumi malsupren</string>
     <!-- giphy_activity -->
@@ -273,16 +272,14 @@
     <string name="load_more_header__loading">Ŝargante</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">RESENDI</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Problemoj bezonas vian atenton.</string>
     <string name="disappearingMessagesSent">Sendita</string>
-    <string name="message_details_header__received">Ricevita</string>
+    <string name="received">Ricevita</string>
     <string name="message_details_header__disappears">Malaperos je</string>
     <string name="message_details_header__via">Per</string>
     <string name="message_details_header__to">Al:</string>
-    <string name="message_details_header__from">El:</string>
     <string name="message_details_header__with">Kun:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Krei pasfrazon</string>
@@ -360,12 +357,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nova mesaĝo al...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Detaloj de mesaĝo</string>
-    <string name="conversation_context__menu_copy_text">Kopii tekston</string>
-    <string name="conversation_context__menu_delete_message">Forviŝi mesaĝon</string>
+    <string name="deleteMessage">Forviŝi mesaĝon</string>
     <string name="conversation_context__menu_ban_user">Forbari uzanton</string>
     <string name="conversation_context__menu_ban_and_delete_all">Forbari kaj forviŝi ĉiujn</string>
-    <string name="conversation_context__menu_resend_message">Resendi mesaĝon</string>
     <string name="conversation_context__menu_reply_to_message">Respondi mesaĝon</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Konservi kunsendaĵon</string>
@@ -518,7 +512,4 @@
     <string name="warning">Averto</string>
     <string name="notify_type_all">Tutaj</string>
     <string name="deleted_message">Ĉi tiu mesaĝo estis forigita</string>
-    <string name="delete_message_for_me">Forigi sole por mi</string>
-    <string name="delete_message_for_everyone">Forigi por ĉiuj</string>
-    <string name="delete_message_for_me_and_recipient">Forigi por mi kaj %s</string>
 </resources>

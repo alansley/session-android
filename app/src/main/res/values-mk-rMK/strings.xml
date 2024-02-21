@@ -121,7 +121,6 @@
     <string name="onionRoutingPathYou">သင်</string>
     <string name="MediaPreviewActivity_draft">မူကြမ်း</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ခွင့်ပြုချက်မပေးထားပါက အပြင်ဘက်တွင် သိမ်းဆည်း၍မရပါ</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">စာကို ဖျက်မှှှှှှှာလား? </string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">ဤစာများကို အပြီးတိုင်ဖျက်မည်။  </string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">စကားဝိုင်း %2$d တွင် စာပေါင်း %1$d ရှိသည်။</string>
@@ -195,16 +194,14 @@
     <string name="load_more_header__loading">လုပ်ဆောင်နေဆဲ</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ပြန်ပို့သည်</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">တစ်ချို့ကိစ္စများကို သင်ကြည့်ဖို့ လိုနေသည်။</string>
     <string name="disappearingMessagesSent">ပို့ပြီးပြီ</string>
-    <string name="message_details_header__received">လက်ခံရရှိသည်</string>
+    <string name="received">လက်ခံရရှိသည်</string>
     <string name="message_details_header__disappears">ပျောက်သွားမည်</string>
     <string name="message_details_header__via">တဆင့်</string>
     <string name="message_details_header__to">သို့</string>
-    <string name="message_details_header__from">မှ</string>
     <string name="message_details_header__with">နှင့်အတူ</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">စကားဝှက်ကို ဖန်တီးပါ</string>
@@ -276,10 +273,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">သို့ စာအသစ် ...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">စာတို အသေးစိတ်အချက်အလက်များ</string>
-    <string name="conversation_context__menu_copy_text">စာသား ကူးပါ။</string>
-    <string name="conversation_context__menu_delete_message">စာတို ဖျက်ရန်</string>
-    <string name="conversation_context__menu_resend_message">စာကို ပြန်ပို့ပါ</string>
+    <string name="deleteMessage">စာတို ဖျက်ရန်</string>
     <string name="conversation_context__menu_reply_to_message">စာပြန်ပို့မည်</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">ပူးတွဲဖိုင်ကို သိမ်းပါ</string>

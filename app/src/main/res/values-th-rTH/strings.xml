@@ -148,7 +148,6 @@
     <string name="onionRoutingPathYou">คุณ</string>
     <string name="MediaPreviewActivity_draft">ร่าง</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ไม่สามารถบันทึกลงที่เก็บข้อมูลภายนอกได้ หากไม่ได้รับอนุญาต</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">ลบข้อความหรือไม่</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">นี่จะเป็นการลบข้อความนี้โดยถาวร</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">มี %1$d ข้อความใหม่ใน %2$d การสนทนา</string>
@@ -215,7 +214,7 @@
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">รูปภาพ</string>
-    <string name="QuoteView_original_missing">ไม่พบข้อความดั้งเดิม</string>
+    <string name="messageErrorOriginal">ไม่พบข้อความดั้งเดิม</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">เลื่อนลงด้านล่างสุด</string>
     <!-- giphy_activity -->
@@ -227,16 +226,14 @@
     <string name="load_more_header__loading">กำลังโหลด</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ส่งใหม่</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">มีปัญหาบางประการที่ต้องการให้คุณพิจารณา</string>
     <string name="disappearingMessagesSent">ส่งแล้ว</string>
-    <string name="message_details_header__received">ได้รับแล้ว</string>
+    <string name="received">ได้รับแล้ว</string>
     <string name="message_details_header__disappears">ลบตัวเอง</string>
     <string name="message_details_header__via">ผ่าน</string>
     <string name="message_details_header__to">ถึง:</string>
-    <string name="message_details_header__from">จาก:</string>
     <string name="message_details_header__with">กับ:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">สร้างวลีรหัสผ่าน</string>
@@ -311,10 +308,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">ข้อความใหม่ถึง...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">รายละเอียดข้อความ</string>
-    <string name="conversation_context__menu_copy_text">คัดลอกข้อความ</string>
-    <string name="conversation_context__menu_delete_message">ลบข้อความ</string>
-    <string name="conversation_context__menu_resend_message">ส่งข้อความอีกครั้ง</string>
+    <string name="deleteMessage">ลบข้อความ</string>
     <string name="conversation_context__menu_reply_to_message">ตอบกลับข้อความ</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">บันทึกไฟล์แนบ</string>

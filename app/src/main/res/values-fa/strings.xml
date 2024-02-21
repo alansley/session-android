@@ -180,7 +180,6 @@
     <string name="MediaPreviewActivity_draft">پیش نویس</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session برای ذخیره در حافظه‌ی خارجی نیاز به دسترسی به حافظه دارد اما این دسترسی به طور همیشگی رد شده است. لطفا به بخش برنامه در تنظیمات تلفن همراه خود رفته و پس از یافتن Session وارد بخش دسترسی ها شده و گزینه حافظه را فعال کنید.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">نمی‌توان بدون دسترسی‌ها در حافظه‌ی خارجی ذخیره‌سازی نمود</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">حذف پیام؟</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">این باعث حذف این پیام به صورت دائم خواهد شد.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d پیام در %2$d گفتگو</string>
@@ -261,7 +260,7 @@
     <string name="read">خواندن</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">تصویر</string>
-    <string name="QuoteView_original_missing">پیام اصلی یافت نشد</string>
+    <string name="messageErrorOriginal">پیام اصلی یافت نشد</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">به ته برو</string>
     <!-- giphy_activity -->
@@ -273,16 +272,14 @@
     <string name="load_more_header__loading">در حال بارگذاری</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ارسال دوباره</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">برخی از مسائل نیاز به توجه شما دارند.</string>
     <string name="disappearingMessagesSent">فرستاده</string>
-    <string name="message_details_header__received">رسیده</string>
+    <string name="received">رسیده</string>
     <string name="message_details_header__disappears">نشان داده نشده ها</string>
     <string name="message_details_header__via">از طریق</string>
     <string name="message_details_header__to">به:</string>
-    <string name="message_details_header__from">از:</string>
     <string name="message_details_header__with">با:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">ایجاد کلمه عبور</string>
@@ -360,12 +357,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">پیام جدید به ...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">جزییات پیام</string>
-    <string name="conversation_context__menu_copy_text">کپی متن</string>
-    <string name="conversation_context__menu_delete_message">حذف پیام</string>
+    <string name="deleteMessage">حذف پیام</string>
     <string name="conversation_context__menu_ban_user">مسدود کردن کاربر</string>
     <string name="conversation_context__menu_ban_and_delete_all">بلاک کردن و پاک کردن همه</string>
-    <string name="conversation_context__menu_resend_message">پیام فرستادن مجدد</string>
     <string name="conversation_context__menu_reply_to_message">پاسخ به پیام</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">ذخیره پیوست</string>
@@ -526,9 +520,6 @@
     <string name="warning">هشدار</string>
     <string name="notify_type_all">همه</string>
     <string name="deleted_message">این پیام حذف شده است</string>
-    <string name="delete_message_for_me">حذف برای من</string>
-    <string name="delete_message_for_everyone">حذف برای همه</string>
-    <string name="delete_message_for_me_and_recipient">حذف برای من و %s</string>
     <string name="pin">سنجاق کردن</string>
     <string name="pinUnpin">برداشتن سنجاق</string>
 </resources>

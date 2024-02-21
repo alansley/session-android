@@ -179,7 +179,6 @@ udveksel besked!</string>
     <string name="onionRoutingPathYou">Dig</string>
     <string name="MediaPreviewActivity_draft">Kladde</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ikke muligt at gemme til ekstern placering, uden tilladelse</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Slet besked?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Dette sletter beskeden permanent</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye beskeder i %2$d samtaler</string>
@@ -260,7 +259,7 @@ udveksel besked!</string>
     <string name="read">Læst</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Billed</string>
-    <string name="QuoteView_original_missing">Original besked ikke fundet</string>
+    <string name="messageErrorOriginal">Original besked ikke fundet</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Scroll til bunden</string>
     <!-- giphy_activity -->
@@ -272,16 +271,14 @@ udveksel besked!</string>
     <string name="load_more_header__loading">Henter</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">SEND IGEN</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Nogle problemer kræver din opmærsomhed</string>
     <string name="disappearingMessagesSent">Sendt</string>
-    <string name="message_details_header__received">Modtaget</string>
+    <string name="received">Modtaget</string>
     <string name="message_details_header__disappears">Udløber</string>
     <string name="message_details_header__via">Via</string>
     <string name="message_details_header__to">Til:</string>
-    <string name="message_details_header__from">Fra:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Opret kodeord</string>
@@ -359,12 +356,9 @@ udveksel besked!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ny besked til...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Besked detaljer</string>
-    <string name="conversation_context__menu_copy_text">Kopiér tekst</string>
-    <string name="conversation_context__menu_delete_message">Slet besked</string>
+    <string name="deleteMessage">Slet besked</string>
     <string name="conversation_context__menu_ban_user">Udeluk bruger</string>
     <string name="conversation_context__menu_ban_and_delete_all">Bandlys og slet alle</string>
-    <string name="conversation_context__menu_resend_message">Send besked igen</string>
     <string name="conversation_context__menu_reply_to_message">Svar på besked</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Gem vedhæftet fil</string>
@@ -505,9 +499,6 @@ udveksel besked!</string>
     <string name="warning">Advarsel</string>
     <string name="notify_type_all">Alle</string>
     <string name="deleted_message">Denne besked er blevet slettet</string>
-    <string name="delete_message_for_me">Slet kun for mig</string>
-    <string name="delete_message_for_everyone">Slet for alle</string>
-    <string name="delete_message_for_me_and_recipient">Slet for mig og %s</string>
     <string name="pin">Fastgør</string>
     <string name="pinUnpin">Frigør</string>
 </resources>

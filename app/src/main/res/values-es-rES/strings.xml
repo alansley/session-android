@@ -180,7 +180,6 @@ de intercambio de claves!</string>
     <string name="MediaPreviewActivity_draft">Borrador</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">La sesión necesita acceso de almacenamiento para guardar en el almacenamiento externo, pero se ha denegado permanentemente. Por favor, continúe con la configuración de la aplicación, seleccione \"Permisos\" y active \"Almacenar\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">No se puede guardar en una unidad de almacenamiento externo si Session no tiene acceso</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">¿Eliminar mensaje?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Este mensaje se eliminará permanentemente.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mensajes nuevos en %2$d chats</string>
@@ -261,7 +260,7 @@ de intercambio de claves!</string>
     <string name="read">Leer</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">No se encuentra el mensaje original </string>
+    <string name="messageErrorOriginal">No se encuentra el mensaje original </string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Desliza hasta el final</string>
     <!-- giphy_activity -->
@@ -273,16 +272,14 @@ de intercambio de claves!</string>
     <string name="load_more_header__loading">Cargando</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">REENVIAR</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Hay un problema que necesita tu atención.</string>
     <string name="disappearingMessagesSent">Enviado</string>
-    <string name="message_details_header__received">Recibido</string>
+    <string name="received">Recibido</string>
     <string name="message_details_header__disappears">Desaparición de mensajes</string>
     <string name="message_details_header__via">Vía</string>
     <string name="message_details_header__to">Para:</string>
-    <string name="message_details_header__from">Desde:</string>
     <string name="message_details_header__with">Con:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Crear clave de acceso</string>
@@ -360,12 +357,9 @@ de intercambio de claves!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nuevo mensaje para ...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Detalles del mensaje</string>
-    <string name="conversation_context__menu_copy_text">Copiar texto</string>
-    <string name="conversation_context__menu_delete_message">Eliminar mensaje</string>
+    <string name="deleteMessage">Eliminar mensaje</string>
     <string name="conversation_context__menu_ban_user">Banear usuario</string>
     <string name="conversation_context__menu_ban_and_delete_all">Banear y eliminar todo</string>
-    <string name="conversation_context__menu_resend_message">Reenviar mensaje</string>
     <string name="conversation_context__menu_reply_to_message">Responder al mensaje</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Guardar archivo adjunto</string>
@@ -526,9 +520,6 @@ de intercambio de claves!</string>
     <string name="warning">Alerta</string>
     <string name="notify_type_all">Todas</string>
     <string name="deleted_message">Este mensaje ha sido borrado</string>
-    <string name="delete_message_for_me">Borrar solo para mí</string>
-    <string name="delete_message_for_everyone">Borrar para todos</string>
-    <string name="delete_message_for_me_and_recipient">Borrar para mí y %s</string>
     <string name="pin">Fijar</string>
     <string name="pinUnpin">Desfijar</string>
 </resources>

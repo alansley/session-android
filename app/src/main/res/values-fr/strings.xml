@@ -182,7 +182,6 @@
     <string name="MediaPreviewActivity_draft">Brouillon</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">La session a besoin d\'un accès au stockage afin d\'enregistrer sur le stockage externe, mais cet accès a été refusé de manière permanente. Veuillez continuer dans les paramètres de l\'application, sélectionner « Permissions », et activer « Stockage ».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Impossible d’enregistrer sur la mémoire externe sans autorisation</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Supprimer le message ?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Ce message sera supprimé définitivement.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nouveaux messages dans %2$d conversations</string>
@@ -263,7 +262,7 @@
     <string name="read">Lire</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Photo</string>
-    <string name="QuoteView_original_missing">Le message original est introuvable</string>
+    <string name="messageErrorOriginal">Le message original est introuvable</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Faire défiler vers le bas</string>
     <!-- giphy_activity -->
@@ -275,16 +274,14 @@
     <string name="load_more_header__loading">Chargement</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">RENVOYER</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Des problèmes demandent votre attention.</string>
     <string name="disappearingMessagesSent">Envoyé</string>
-    <string name="message_details_header__received">Reçu</string>
+    <string name="received">Reçu</string>
     <string name="message_details_header__disappears">Disparaît dans </string>
     <string name="message_details_header__via">Par</string>
     <string name="message_details_header__to">À :</string>
-    <string name="message_details_header__from">De :</string>
     <string name="message_details_header__with">Avec :</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Créer une phrase de passe</string>
@@ -379,12 +376,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nouveau message pour…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Détails du message</string>
-    <string name="conversation_context__menu_copy_text">Copier le texte</string>
-    <string name="conversation_context__menu_delete_message">Supprimer le message</string>
+    <string name="deleteMessage">Supprimer le message</string>
     <string name="conversation_context__menu_ban_user">Bannir l\'utilisateur</string>
     <string name="conversation_context__menu_ban_and_delete_all">Bannir et supprimer tout</string>
-    <string name="conversation_context__menu_resend_message">Renvoyer le message</string>
     <string name="conversation_context__menu_reply">Répondre</string>
     <string name="conversation_context__menu_reply_to_message">Répondre au message</string>
     <string name="call">Appeler</string>
@@ -564,9 +558,6 @@
     <string name="warning">Attention</string>
     <string name="notify_type_all">Tous</string>
     <string name="deleted_message">Ce message a été supprimé</string>
-    <string name="delete_message_for_me">Supprimer pour moi uniquement</string>
-    <string name="delete_message_for_everyone">Supprimer pour tout le monde</string>
-    <string name="delete_message_for_me_and_recipient">Supprimer pour moi et %s</string>
     <string name="pin">Épingler</string>
     <string name="pinUnpin">Désépingler</string>
     <string name="messages">Messages</string>

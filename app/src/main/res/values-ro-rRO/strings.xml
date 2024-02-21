@@ -191,7 +191,6 @@ schimbul de chei este corupt </string>
     <string name="MediaPreviewActivity_draft">Ciornă</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session are nevoie de permisiune la spațiul de stocarea externa pentru a salva pe spațiul de stocare extern, dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicațiilor, selectați \"Permisiuni\" și activați \"Spațiu de stocare\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nu se poate salva pe spațiu de stocare extern fără permisiune</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Șterg mesajul?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Această acțiune va șterge permanent mesajul.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mesaje noi în %2$d conversaţii</string>
@@ -273,7 +272,7 @@ schimbul de chei este corupt </string>
     <string name="read">Citește</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Poză</string>
-    <string name="QuoteView_original_missing">Mesajul original nu a fost găsit</string>
+    <string name="messageErrorOriginal">Mesajul original nu a fost găsit</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Derulați până jos</string>
     <!-- giphy_activity -->
@@ -285,16 +284,14 @@ schimbul de chei este corupt </string>
     <string name="load_more_header__loading">Se încarcă</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">RETRIMITE</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Anumite probleme au nevoie de atenția dvs.</string>
     <string name="disappearingMessagesSent">Trimis</string>
-    <string name="message_details_header__received">Primit</string>
+    <string name="received">Primit</string>
     <string name="message_details_header__disappears">Dispar</string>
     <string name="message_details_header__via">Prin</string>
     <string name="message_details_header__to">Către:</string>
-    <string name="message_details_header__from">De la:</string>
     <string name="message_details_header__with">Cu:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Creează parolă</string>
@@ -373,12 +370,9 @@ schimbul de chei este corupt </string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Mesajul nou către...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Detalii mesaj</string>
-    <string name="conversation_context__menu_copy_text">Copiază textul</string>
-    <string name="conversation_context__menu_delete_message">Şterge mesajul</string>
+    <string name="deleteMessage">Şterge mesajul</string>
     <string name="conversation_context__menu_ban_user">Blochează utilizator</string>
     <string name="conversation_context__menu_ban_and_delete_all">Interzice și șterge toate</string>
-    <string name="conversation_context__menu_resend_message">Retrimite mesajul</string>
     <string name="conversation_context__menu_reply_to_message">Răspunde la mesaj</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salvează ataşamentul</string>

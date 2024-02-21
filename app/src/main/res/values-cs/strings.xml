@@ -195,7 +195,6 @@
     <string name="MediaPreviewActivity_draft">Koncept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session potřebuje oprávnění pro přístup k úložišti aby mohl zapisovat do externího úložiště, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nelze ukládat do externího úložiště bez oprávnění</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Smazat zprávu?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tímto trvale smažete tuto zprávu.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nových zpráv v %2$d konverzacích</string>
@@ -278,7 +277,7 @@
     <string name="read">Číst</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotografie</string>
-    <string name="QuoteView_original_missing">Původní zpráva nebyla nalezena</string>
+    <string name="messageErrorOriginal">Původní zpráva nebyla nalezena</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Posun na konec</string>
     <!-- giphy_activity -->
@@ -290,16 +289,14 @@
     <string name="load_more_header__loading">Načítám</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ZNOVU POSLAT</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Některé problémy vyžadují vaši pozornost</string>
     <string name="disappearingMessagesSent">Odesláno</string>
-    <string name="message_details_header__received">Přijato</string>
+    <string name="received">Přijato</string>
     <string name="message_details_header__disappears">Zmizí</string>
     <string name="message_details_header__via">Přes</string>
     <string name="message_details_header__to">Komu:</string>
-    <string name="message_details_header__from">Od:</string>
     <string name="message_details_header__with">S:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Vytvořit heslo</string>
@@ -379,12 +376,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nová zpráva ...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Podrobnosti zprávy</string>
-    <string name="conversation_context__menu_copy_text">Kopírovat text</string>
-    <string name="conversation_context__menu_delete_message">Smazat zprávu</string>
+    <string name="deleteMessage">Smazat zprávu</string>
     <string name="conversation_context__menu_ban_user">Zablokovat uživatele</string>
     <string name="conversation_context__menu_ban_and_delete_all">Zablokovat a odstranit vše</string>
-    <string name="conversation_context__menu_resend_message">Znovu poslat zprávu</string>
     <string name="conversation_context__menu_reply_to_message">Odpovědět na zprávu</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Uložit přílohu</string>
@@ -545,9 +539,6 @@
     <string name="warning">Varování</string>
     <string name="notify_type_all">Vše</string>
     <string name="deleted_message">Tato zpráva byla odstraněna</string>
-    <string name="delete_message_for_me">Smazat pouze pro mě</string>
-    <string name="delete_message_for_everyone">Smazat pro všechny</string>
-    <string name="delete_message_for_me_and_recipient">Odstranit pro mě a %s</string>
     <string name="pin">Připnout</string>
     <string name="pinUnpin">Odepnout</string>
 </resources>

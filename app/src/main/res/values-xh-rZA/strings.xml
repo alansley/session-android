@@ -143,16 +143,14 @@
     <string name="load_more_header__see_full_conversation">Laba emboozi yonna</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">Ddamu owerezze</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Ensonga ezimu zetaaga gwe</string>
     <string name="disappearingMessagesSent">Esindikiddwa</string>
-    <string name="message_details_header__received">Etuuse</string>
+    <string name="received">Etuuse</string>
     <string name="message_details_header__disappears">Kibula</string>
     <string name="message_details_header__via">Okuyita</string>
     <string name="message_details_header__to">Eri:</string>
-    <string name="message_details_header__from">Okuva:</string>
     <string name="message_details_header__with">Wamu</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Tonda passwadi yebigambo n\'enamba</string>
@@ -217,10 +215,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Obubaka obupya eri...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Obulambulukufu bw\'obubaka</string>
-    <string name="conversation_context__menu_copy_text">yozaamu obubaka.</string>
-    <string name="conversation_context__menu_delete_message">Siimula obubaka</string>
-    <string name="conversation_context__menu_resend_message">Ddamu osindike obubaka.</string>
+    <string name="deleteMessage">Siimula obubaka</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Tereka ekigattiddwako.</string>
     <!-- conversation_expiring_off -->

@@ -131,10 +131,9 @@
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="disappearingMessagesSent">ಕಳುಹಿಸಿದೆ</string>
-    <string name="message_details_header__received">ಸ್ವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="received">ಸ್ವೀಕರಿಸಲಾಗಿದೆ</string>
     <string name="message_details_header__disappears">ಮಾಯವಾಗು</string>
     <string name="message_details_header__to">ಗೆ:</string>
-    <string name="message_details_header__from">ಇಂದ:</string>
     <string name="message_details_header__with">ಜೊತೆಗೆ:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
@@ -178,8 +177,7 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">ಸಂದೇಶ ವಿವರಗಳು</string>
-    <string name="conversation_context__menu_delete_message">ಸಂದೇಶಗವನ್ನು ಅಳಿಸಿ</string>
+    <string name="deleteMessage">ಸಂದೇಶಗವನ್ನು ಅಳಿಸಿ</string>
     <!-- conversation_context_image -->
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->

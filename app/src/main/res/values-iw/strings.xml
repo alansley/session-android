@@ -193,7 +193,6 @@
     <string name="onionRoutingPathYou">אתה</string>
     <string name="MediaPreviewActivity_draft">טיוטה</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">לא היה ניתן לשמור באחסון חיצוני ללא הרשאות</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">למחוק הודעה?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">זה ימחק לצמיתות הודעה זו.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d הודעות חדשות ב־%2$d שיחות</string>
@@ -274,7 +273,7 @@
     <string name="open_group_guidelines_pinned_message">הודעה נעוצה</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">תצלום</string>
-    <string name="QuoteView_original_missing">הודעה מקורית לא נמצאה</string>
+    <string name="messageErrorOriginal">הודעה מקורית לא נמצאה</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">גלול לתחתית</string>
     <!-- giphy_activity -->
@@ -286,16 +285,14 @@
     <string name="load_more_header__loading">טוען</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">שלח מחדש</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">מספר סוגיות דורשות את תשומת לבך.</string>
     <string name="disappearingMessagesSent">נשלח</string>
-    <string name="message_details_header__received">התקבל</string>
+    <string name="received">התקבל</string>
     <string name="message_details_header__disappears">נעלם</string>
     <string name="message_details_header__via">דרך</string>
     <string name="message_details_header__to">אל:</string>
-    <string name="message_details_header__from">מאת:</string>
     <string name="message_details_header__with">עם:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">צור משפט סיסמה</string>
@@ -375,10 +372,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">הודעה חדשה אל...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">פרטי הודעה</string>
-    <string name="conversation_context__menu_copy_text">העתק טקסט</string>
-    <string name="conversation_context__menu_delete_message">מחק הודעה</string>
-    <string name="conversation_context__menu_resend_message">שלח מחדש הודעה</string>
+    <string name="deleteMessage">מחק הודעה</string>
     <string name="conversation_context__menu_reply_to_message">הגב אל הודעה</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">שמור צרופה</string>

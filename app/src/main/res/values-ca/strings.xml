@@ -176,7 +176,6 @@ d\'intercanvi de claus!</string>
     <string name="onionRoutingPathYou">Jo</string>
     <string name="MediaPreviewActivity_draft">Esborrany</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">No es pot desar en un emmagatzematge extern sense permís.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Voleu suprimir el missatge?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Aquest missatge se suprimirà permanentment.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d missatges nous a %2$d converses</string>
@@ -257,7 +256,7 @@ d\'intercanvi de claus!</string>
     <string name="read">Llegeix</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">No s\'ha trobat el missatge original.</string>
+    <string name="messageErrorOriginal">No s\'ha trobat el missatge original.</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Desplaça al final</string>
     <!-- giphy_activity -->
@@ -269,16 +268,14 @@ d\'intercanvi de claus!</string>
     <string name="load_more_header__loading">S\'està carregant</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">TORNA A ENVIAR</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Certs problemes necessiten la vostra atenció.</string>
     <string name="disappearingMessagesSent">Enviat</string>
-    <string name="message_details_header__received">Rebut</string>
+    <string name="received">Rebut</string>
     <string name="message_details_header__disappears">Desapareix</string>
     <string name="message_details_header__via">Per</string>
     <string name="message_details_header__to">A:</string>
-    <string name="message_details_header__from">De:</string>
     <string name="message_details_header__with">Amb:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Crea una contrasenya</string>
@@ -356,11 +353,8 @@ d\'intercanvi de claus!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Missatge nou per a...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Detalls del missatge</string>
-    <string name="conversation_context__menu_copy_text">Copia el text</string>
-    <string name="conversation_context__menu_delete_message">Suprimeix el missatge</string>
+    <string name="deleteMessage">Suprimeix el missatge</string>
     <string name="conversation_context__menu_ban_user">Bloca l\'usuari</string>
-    <string name="conversation_context__menu_resend_message">Torna a enviar el missatge</string>
     <string name="conversation_context__menu_reply_to_message">Respon el missatge</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Desa l\'adjunt</string>

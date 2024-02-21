@@ -166,7 +166,6 @@
     <string name="onionRoutingPathYou">Sina</string>
     <string name="MediaPreviewActivity_draft">Mustand</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Õiguste puudumise tõttu pole võimalik välisele andmekandjale salvestada.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Kustutad sõnumi?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">See kustutab püsivalt valitud sõnumi.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d uut sõnumit %2$d vestluses</string>
@@ -240,7 +239,7 @@
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Originaalsõnumit ei leitud</string>
+    <string name="messageErrorOriginal">Originaalsõnumit ei leitud</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Keri alla</string>
     <!-- giphy_activity -->
@@ -252,16 +251,14 @@
     <string name="load_more_header__loading">Laadimine</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">SAADA UUESTI</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Mõned probleemid vajavad su tähelepanu.</string>
     <string name="disappearingMessagesSent">Saadetud</string>
-    <string name="message_details_header__received">Vastuvõetud</string>
+    <string name="received">Vastuvõetud</string>
     <string name="message_details_header__disappears">Haihtub</string>
     <string name="message_details_header__via">Saatmisviis:</string>
     <string name="message_details_header__to">Saaja:</string>
-    <string name="message_details_header__from">Saatja:</string>
     <string name="message_details_header__with">Koos:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Loo salaväljend</string>
@@ -338,10 +335,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Uus sõnum kontaktile...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Sõnumi andmed</string>
-    <string name="conversation_context__menu_copy_text">Kopeeri tekst</string>
-    <string name="conversation_context__menu_delete_message">Kustuta sõnum</string>
-    <string name="conversation_context__menu_resend_message">Saada sõnum uuesti</string>
+    <string name="deleteMessage">Kustuta sõnum</string>
     <string name="conversation_context__menu_reply_to_message">Vasta sõnumile</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salvesta manus</string>

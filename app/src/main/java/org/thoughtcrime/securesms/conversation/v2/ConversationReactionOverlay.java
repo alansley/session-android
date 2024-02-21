@@ -695,10 +695,10 @@ public final class ConversationReactionOverlay extends FrameLayout {
       items.add(new ActionItem(R.attr.menu_trash_icon, getContext().getResources().getString(R.string.conversation_context__menu_ban_and_delete_all), () -> handleActionItemClicked(Action.BAN_AND_DELETE_ALL)));
     }
     // Message detail
-    items.add(new ActionItem(R.attr.menu_info_icon, getContext().getResources().getString(R.string.conversation_context__menu_message_details), () -> handleActionItemClicked(Action.VIEW_INFO)));
+    items.add(new ActionItem(R.attr.menu_info_icon, getContext().getResources().getString(R.string.messageInfo), () -> handleActionItemClicked(Action.VIEW_INFO)));
     // Resend
     if (message.isFailed()) {
-      items.add(new ActionItem(R.attr.menu_reply_icon, getContext().getResources().getString(R.string.conversation_context__menu_resend_message), () -> handleActionItemClicked(Action.RESEND)));
+      items.add(new ActionItem(R.attr.menu_reply_icon, getContext().getResources().getString(R.string.resend), () -> handleActionItemClicked(Action.RESEND)));
     }
     // Resync
     if (message.isSyncFailed()) {

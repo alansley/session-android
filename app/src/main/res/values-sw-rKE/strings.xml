@@ -127,7 +127,6 @@
     <string name="onionRoutingPathYou">Wewe</string>
     <string name="MediaPreviewActivity_draft">rasimu</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">haiwezekani kuhifadhi kwenye external storage  bila ruhusa</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">futa ujumbe?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">hii itafuta ujumbe kwa kudumu</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">1%1$d ujumbe mpya kwa  2%2$d mazungumzo</string>
@@ -196,7 +195,7 @@
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">picha</string>
-    <string name="QuoteView_original_missing">Meseji halisi haipatikani</string>
+    <string name="messageErrorOriginal">Meseji halisi haipatikani</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">sogeza hadi chini</string>
     <!-- giphy_activity -->
@@ -208,16 +207,14 @@
     <string name="load_more_header__loading">Kupakia</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">TUMA TENA</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">baadhi ya masuala yanahitaji umakini wako</string>
     <string name="disappearingMessagesSent">Imetumwa</string>
-    <string name="message_details_header__received">Imepokelewa</string>
+    <string name="received">Imepokelewa</string>
     <string name="message_details_header__disappears">kutoweka</string>
     <string name="message_details_header__via">Kupitia</string>
     <string name="message_details_header__to">Kuelekea:</string>
-    <string name="message_details_header__from">Kutoka:</string>
     <string name="message_details_header__with">Pamoja:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">kuunda phassphrase</string>
@@ -290,10 +287,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ujumbe mpya kuelekea..</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Maelezo ya ujumbe</string>
-    <string name="conversation_context__menu_copy_text">Nakala ya nakala</string>
-    <string name="conversation_context__menu_delete_message">Futa ujumbe</string>
-    <string name="conversation_context__menu_resend_message">Tuma tena ujumbe</string>
+    <string name="deleteMessage">Futa ujumbe</string>
     <string name="conversation_context__menu_reply_to_message">Jibu ujumbe</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Hifadhi attachment</string>

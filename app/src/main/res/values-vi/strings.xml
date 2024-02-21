@@ -161,15 +161,13 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="load_more_header__see_full_conversation">Xem cuộc hội thoại đầy đủ</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">GỬI LẠI</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Một số việc cần bạn lưu ý.</string>
     <string name="disappearingMessagesSent">Đã gửi</string>
-    <string name="message_details_header__received">Đã nhận</string>
+    <string name="received">Đã nhận</string>
     <string name="message_details_header__via">Qua</string>
     <string name="message_details_header__to">Đến:</string>
-    <string name="message_details_header__from">Từ:</string>
     <string name="message_details_header__with">Với:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Tạo cụm từ mật khẩu</string>
@@ -235,10 +233,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Tin nhắn mới cho...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Chi tiết tin nhắn</string>
-    <string name="conversation_context__menu_copy_text">Sao chép văn bản</string>
-    <string name="conversation_context__menu_delete_message">Xóa tin nhắn</string>
-    <string name="conversation_context__menu_resend_message">Gửi lại tin nhắn</string>
+    <string name="deleteMessage">Xóa tin nhắn</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lưu đính kèm</string>
     <!-- conversation_expiring_off -->

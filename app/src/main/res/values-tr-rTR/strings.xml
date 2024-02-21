@@ -180,7 +180,6 @@ iletisi alındı!</string>
     <string name="MediaPreviewActivity_draft">Taslak</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, harici depolamaya kaydetmek için depolama erişimine ihtiyaç duyuyor, ancak kalıcı olarak reddedildi. Lütfen uygulama ayarlarına girin, \"İzinler\"i seçin ve \"Depolama\" özelliğini etkinleştirin.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İzinler olmadan harici depolamaya kaydedilemiyor</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">İletiyi sil?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Bu eylem bu iletiyi kalıcı olarak silecektir.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d sohbetten %1$d yeni ileti</string>
@@ -261,7 +260,7 @@ iletisi alındı!</string>
     <string name="read">Okundu</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotoğraf</string>
-    <string name="QuoteView_original_missing">İletinin aslı bulunamadı</string>
+    <string name="messageErrorOriginal">İletinin aslı bulunamadı</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">En alta kaydır</string>
     <!-- giphy_activity -->
@@ -273,16 +272,14 @@ iletisi alındı!</string>
     <string name="load_more_header__loading">Yükleniyor</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">YENİDEN GÖNDER</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Bazı sorunlar ilginizi gerektiriyor.</string>
     <string name="disappearingMessagesSent">Gönderildi</string>
-    <string name="message_details_header__received">Alındı</string>
+    <string name="received">Alındı</string>
     <string name="message_details_header__disappears">Kaybolacak</string>
     <string name="message_details_header__via">Vasıtasıyla</string>
     <string name="message_details_header__to">Alıcı:</string>
-    <string name="message_details_header__from">Gönderen:</string>
     <string name="message_details_header__with">İle:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Parola oluşturun</string>
@@ -360,12 +357,9 @@ iletisi alındı!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Yeni ileti...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">İleti ayrıntıları</string>
-    <string name="conversation_context__menu_copy_text">Metni kopyala</string>
-    <string name="conversation_context__menu_delete_message">İletiyi sil</string>
+    <string name="deleteMessage">İletiyi sil</string>
     <string name="conversation_context__menu_ban_user">Kullanıcıyı engelle</string>
     <string name="conversation_context__menu_ban_and_delete_all">Tümünü yasakla ve sil</string>
-    <string name="conversation_context__menu_resend_message">İletiyi tekrar gönder</string>
     <string name="conversation_context__menu_reply_to_message">İletiyi yanıtla</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Eklentiyi kaydet</string>
@@ -526,9 +520,6 @@ iletisi alındı!</string>
     <string name="warning">Uyarı</string>
     <string name="notify_type_all">Hepsi</string>
     <string name="deleted_message">Bu mesaj silindi</string>
-    <string name="delete_message_for_me">Sadece benim için sil</string>
-    <string name="delete_message_for_everyone">Herkesten sil</string>
-    <string name="delete_message_for_me_and_recipient">Ben ve %s için sil</string>
     <string name="pin">Sabitle</string>
     <string name="pinUnpin">Sabitlemeyi kaldır</string>
 </resources>

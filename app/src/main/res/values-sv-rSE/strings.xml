@@ -180,7 +180,6 @@ för nyckelutbyte!</string>
     <string name="MediaPreviewActivity_draft">Utkast</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session behöver behörigheten Lagring för att spara till extern lagring men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan inte spara till externt utrymme utan behörighet</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Radera meddelande?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Detta kommer permanent radera detta meddelande.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nya meddelanden i %2$d konversationer</string>
@@ -261,7 +260,7 @@ för nyckelutbyte!</string>
     <string name="read">Läst</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Hittade inte originalmeddelandet.</string>
+    <string name="messageErrorOriginal">Hittade inte originalmeddelandet.</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Bläddra till botten</string>
     <!-- giphy_activity -->
@@ -273,16 +272,14 @@ för nyckelutbyte!</string>
     <string name="load_more_header__loading">Läser in</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">SKICKA OM</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Vissa frågor behöver din uppmärksamhet.</string>
     <string name="disappearingMessagesSent">Skickat</string>
-    <string name="message_details_header__received">Mottaget</string>
+    <string name="received">Mottaget</string>
     <string name="message_details_header__disappears">Försvinner</string>
     <string name="message_details_header__via">Via</string>
     <string name="message_details_header__to">Till:</string>
-    <string name="message_details_header__from">Från:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Skapa lösenord</string>
@@ -360,12 +357,9 @@ för nyckelutbyte!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nytt meddelande till...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Meddelandedetaljer</string>
-    <string name="conversation_context__menu_copy_text">Kopiera text</string>
-    <string name="conversation_context__menu_delete_message">Radera meddelande</string>
+    <string name="deleteMessage">Radera meddelande</string>
     <string name="conversation_context__menu_ban_user">Bannlys användare</string>
     <string name="conversation_context__menu_ban_and_delete_all">Bannlys och radera alla</string>
-    <string name="conversation_context__menu_resend_message">Skicka meddelande igen</string>
     <string name="conversation_context__menu_reply_to_message">Svara på meddelande</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Spara bilaga</string>
@@ -526,7 +520,4 @@ för nyckelutbyte!</string>
     <string name="warning">Varning</string>
     <string name="notify_type_all">Alla</string>
     <string name="deleted_message">Detta meddelande har tagits bort</string>
-    <string name="delete_message_for_me">Ta bort för mig</string>
-    <string name="delete_message_for_everyone">Ta bort för alla</string>
-    <string name="delete_message_for_me_and_recipient">Ta bort för mig och %s</string>
 </resources>

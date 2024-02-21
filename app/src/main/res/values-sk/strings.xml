@@ -191,7 +191,6 @@ výmeny kľúčov.</string>
     <string name="onionRoutingPathYou">Vy</string>
     <string name="MediaPreviewActivity_draft">Koncept</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bez povolenia sa nedá zapisovať na externé úložisko</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Vymazať správu?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Týmto natrvalo odstánite túto správu.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nové správy v %2$d konverzáciách</string>
@@ -274,7 +273,7 @@ výmeny kľúčov.</string>
     <string name="read">Prečítané</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotka</string>
-    <string name="QuoteView_original_missing">Pôvodná správa sa nenašla</string>
+    <string name="messageErrorOriginal">Pôvodná správa sa nenašla</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Na koniec</string>
     <!-- giphy_activity -->
@@ -286,16 +285,14 @@ výmeny kľúčov.</string>
     <string name="load_more_header__loading">Načítava sa</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">POSLAŤ ZNOVU</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Isté problémy vyžadujú Vašu pozornosť.</string>
     <string name="disappearingMessagesSent">Odoslané</string>
-    <string name="message_details_header__received">Prijaté</string>
+    <string name="received">Prijaté</string>
     <string name="message_details_header__disappears">Miznúce</string>
     <string name="message_details_header__via">Cez</string>
     <string name="message_details_header__to">Komu:</string>
-    <string name="message_details_header__from">Od:</string>
     <string name="message_details_header__with">S:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Vytvoriť heslo</string>
@@ -375,11 +372,8 @@ výmeny kľúčov.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nová správa pre...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Podrobnosti správy</string>
-    <string name="conversation_context__menu_copy_text">Kopírovať text</string>
-    <string name="conversation_context__menu_delete_message">Zmazať správu</string>
+    <string name="deleteMessage">Zmazať správu</string>
     <string name="conversation_context__menu_ban_user">Zablokovať užívateľa</string>
-    <string name="conversation_context__menu_resend_message">Odoslať správu znovu</string>
     <string name="conversation_context__menu_reply_to_message">Odpovedať na správu</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Uložiť prílohu </string>

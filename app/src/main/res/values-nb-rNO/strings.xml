@@ -180,7 +180,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="MediaPreviewActivity_draft">Utkast</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session trenger lagringstilgang for å lagre til ekstern lagring, men den har blitt permanent nektet. Fortsett til appinnstillingene, velg «Tillatelser» og aktiver «Lagring».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Du kan ikke lagre på ekstern lagringsenhet uten å slå på tillatelse i systemet først</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Vil du slette denne meldinga?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Meldinga blir slettet for godt.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye meldinger i %2$d samtaler</string>
@@ -261,7 +260,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="read">Les</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Bilde</string>
-    <string name="QuoteView_original_missing">Opprinnelig melding ikke funnet</string>
+    <string name="messageErrorOriginal">Opprinnelig melding ikke funnet</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Rull til bunnen</string>
     <!-- giphy_activity -->
@@ -273,16 +272,14 @@ nøkkelutvekslingsmelding.</string>
     <string name="load_more_header__loading">Laster inn</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">SEND PÅ NYTT</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Problemer venter på manuell løsning.</string>
     <string name="disappearingMessagesSent">Sendt</string>
-    <string name="message_details_header__received">Mottatt</string>
+    <string name="received">Mottatt</string>
     <string name="message_details_header__disappears">Forsvinner</string>
     <string name="message_details_header__via">Via</string>
     <string name="message_details_header__to">Til:</string>
-    <string name="message_details_header__from">Fra:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Opprett passord</string>
@@ -360,12 +357,9 @@ nøkkelutvekslingsmelding.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ny melding til …</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Meldingsdetaljer</string>
-    <string name="conversation_context__menu_copy_text">Kopier tekst</string>
-    <string name="conversation_context__menu_delete_message">Slett melding</string>
+    <string name="deleteMessage">Slett melding</string>
     <string name="conversation_context__menu_ban_user">Bannlys bruker</string>
     <string name="conversation_context__menu_ban_and_delete_all">Bannlys og slett alle</string>
-    <string name="conversation_context__menu_resend_message">Send melding på nytt</string>
     <string name="conversation_context__menu_reply_to_message">Svar på melding</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lagre vedlegg</string>
@@ -526,9 +520,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="warning">Advarsel</string>
     <string name="notify_type_all">Alle</string>
     <string name="deleted_message">Denne meldingen har blitt slettet</string>
-    <string name="delete_message_for_me">Slett kun for meg</string>
-    <string name="delete_message_for_everyone">Slett for alle</string>
-    <string name="delete_message_for_me_and_recipient">Slett for meg og %s</string>
     <string name="pin">Fest</string>
     <string name="pinUnpin">Løsne</string>
 </resources>

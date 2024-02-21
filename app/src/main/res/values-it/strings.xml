@@ -181,7 +181,6 @@ scambia un altro messaggio!</string>
     <string name="MediaPreviewActivity_draft">Bozza</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session richiede l\'autorizzazione per salvare in memoria, ma è stata negata in modo permanente. Si prega di proseguire alle impostazioni dell\'app, selezionare \"Autorizzazioni\", quindi abilitare \"Archiviazione\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Impossibile salvare sulla memoria senza l\'autorizzazione</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Eliminare il messaggio?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Questo messaggio verrà eliminato definitivamente.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nuovi messaggi in %2$d conversazioni</string>
@@ -262,7 +261,7 @@ scambia un altro messaggio!</string>
     <string name="read">Leggi</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Messaggio originale non trovato</string>
+    <string name="messageErrorOriginal">Messaggio originale non trovato</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Salta alla fine</string>
     <!-- giphy_activity -->
@@ -274,16 +273,14 @@ scambia un altro messaggio!</string>
     <string name="load_more_header__loading">Caricamento</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">REINVIA</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Alcuni problemi necessitano della tua attenzione.</string>
     <string name="disappearingMessagesSent">Inviato</string>
-    <string name="message_details_header__received">Ricevuto</string>
+    <string name="received">Ricevuto</string>
     <string name="message_details_header__disappears">Scomparsi</string>
     <string name="message_details_header__via">Tramite</string>
     <string name="message_details_header__to">A:</string>
-    <string name="message_details_header__from">Da:</string>
     <string name="message_details_header__with">Con:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Crea password</string>
@@ -361,12 +358,9 @@ scambia un altro messaggio!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nuovo messaggio a...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Dettagli messaggio</string>
-    <string name="conversation_context__menu_copy_text">Copia testo</string>
-    <string name="conversation_context__menu_delete_message">Cancella messaggio</string>
+    <string name="deleteMessage">Cancella messaggio</string>
     <string name="conversation_context__menu_ban_user">Banna utente</string>
     <string name="conversation_context__menu_ban_and_delete_all">Revoca ed elimina tutto</string>
-    <string name="conversation_context__menu_resend_message">Rinvia il messaggio</string>
     <string name="conversation_context__menu_reply_to_message">Rispondi al messaggio</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salva allegato</string>
@@ -527,9 +521,6 @@ scambia un altro messaggio!</string>
     <string name="warning">Attenzione</string>
     <string name="notify_type_all">Tutte</string>
     <string name="deleted_message">Questo messaggio è stato eliminato</string>
-    <string name="delete_message_for_me">Elimina solo per me</string>
-    <string name="delete_message_for_everyone">Elimina per tutti</string>
-    <string name="delete_message_for_me_and_recipient">Elimina per me e %s</string>
     <string name="pin">Fissa</string>
     <string name="pinUnpin">Non fissare in alto</string>
     <string name="messages">Messaggi</string>

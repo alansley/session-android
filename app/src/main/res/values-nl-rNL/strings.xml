@@ -181,7 +181,6 @@
     <string name="MediaPreviewActivity_draft">Concept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session heeft toegang tot de camera nodig om een QR-code te scannen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Camera’ in.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan niet opslaan naar externe opslag zonder machtiging</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Bericht wissen?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Dit bericht zal onherroepelijk gewist worden.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nieuwe berichten in %2$d gesprekken</string>
@@ -262,7 +261,7 @@
     <string name="read">Gelezen</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Oorspronkelijk bericht niet gevonden</string>
+    <string name="messageErrorOriginal">Oorspronkelijk bericht niet gevonden</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Scroll naar bodem</string>
     <!-- giphy_activity -->
@@ -274,16 +273,14 @@
     <string name="load_more_header__loading">Aan het laden</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">OPNIEUW VERZENDEN</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Enkele dingen vergen je aandacht.</string>
     <string name="disappearingMessagesSent">Verzonden</string>
-    <string name="message_details_header__received">Ontvangen</string>
+    <string name="received">Ontvangen</string>
     <string name="message_details_header__disappears">Wist zichzelf over</string>
     <string name="message_details_header__via">Via</string>
     <string name="message_details_header__to">Naar:</string>
-    <string name="message_details_header__from">Van:</string>
     <string name="message_details_header__with">Met:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Wachtwoord aanmaken</string>
@@ -361,12 +358,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nieuw bericht naar…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Berichtdetails</string>
-    <string name="conversation_context__menu_copy_text">Tekst kopiëren</string>
-    <string name="conversation_context__menu_delete_message">Bericht wissen</string>
+    <string name="deleteMessage">Bericht wissen</string>
     <string name="conversation_context__menu_ban_user">Verban gebruiker</string>
     <string name="conversation_context__menu_ban_and_delete_all">Blokkeer en verwijder alles</string>
-    <string name="conversation_context__menu_resend_message">Bericht opnieuw verzenden</string>
     <string name="conversation_context__menu_reply_to_message">Reageren</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Bijlage opslaan</string>
@@ -527,9 +521,6 @@
     <string name="warning">Waarschuwing</string>
     <string name="notify_type_all">Alle</string>
     <string name="deleted_message">Dit bericht is verwijderd</string>
-    <string name="delete_message_for_me">Verwijder alleen voor mij</string>
-    <string name="delete_message_for_everyone">Verwijder voor iedereen</string>
-    <string name="delete_message_for_me_and_recipient">Verwijderen voor mij en %s</string>
     <string name="pin">Vastzetten</string>
     <string name="pinUnpin">Losmaken</string>
 </resources>

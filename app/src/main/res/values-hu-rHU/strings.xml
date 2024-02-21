@@ -182,7 +182,6 @@
     <string name="MediaPreviewActivity_draft">Piszkozat</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">A Session- nek szüksége van fájlhozzáférési engedélyekhez, hogy menteni tudjon külső tárhelyre. Kérlek, hogy a rendszerbeállításokban engedélyezd a \"fájlok és média\" opciót a Session számára.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nem lehet engedély nélkül menteni a külső tárolóra</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Törlöd az üzenetet?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Ez véglegesen törölni fogja ezt az üzenetet.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d új üzenet %2$d beszélgetésben</string>
@@ -263,7 +262,7 @@
     <string name="read">Olvas</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotó</string>
-    <string name="QuoteView_original_missing">Az eredeti üzenet nem található</string>
+    <string name="messageErrorOriginal">Az eredeti üzenet nem található</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Görgetés az aljára</string>
     <!-- giphy_activity -->
@@ -275,16 +274,14 @@
     <string name="load_more_header__loading">Betöltés</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ÚJRAKÜLDÉS</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Néhány probléma a figyelmedet igényli.</string>
     <string name="disappearingMessagesSent">Elküldve</string>
-    <string name="message_details_header__received">Érkezett</string>
+    <string name="received">Érkezett</string>
     <string name="message_details_header__disappears">Eltűnik</string>
     <string name="message_details_header__via">Csatorna</string>
     <string name="message_details_header__to">Címzett:</string>
-    <string name="message_details_header__from">Feladó:</string>
     <string name="message_details_header__with">Vele:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Jelmondat létrehozása</string>
@@ -362,12 +359,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Új üzenet...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Üzenet részletei</string>
-    <string name="conversation_context__menu_copy_text">Szöveg másolása</string>
-    <string name="conversation_context__menu_delete_message">Üzenet törlése</string>
+    <string name="deleteMessage">Üzenet törlése</string>
     <string name="conversation_context__menu_ban_user">Felhasználó kitiltása</string>
     <string name="conversation_context__menu_ban_and_delete_all">Tiltás és minden törlése</string>
-    <string name="conversation_context__menu_resend_message">Üzenet újraküldése</string>
     <string name="conversation_context__menu_reply_to_message">Válasz az üzenetre</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Melléklet mentése</string>
@@ -528,9 +522,6 @@
     <string name="warning">Figyelmeztetés</string>
     <string name="notify_type_all">Összes</string>
     <string name="deleted_message">Ezt az üzenetet törölték</string>
-    <string name="delete_message_for_me">Törlés csak nálam</string>
-    <string name="delete_message_for_everyone">Törlés mindenkinél</string>
-    <string name="delete_message_for_me_and_recipient">Törlés nekem és neki: %s</string>
     <string name="pin">Kitűzés</string>
     <string name="pinUnpin">Kitűzés eltávolítása</string>
 </resources>

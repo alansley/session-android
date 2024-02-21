@@ -154,7 +154,6 @@
     <string name="onionRoutingPathYou">Anda</string>
     <string name="MediaPreviewActivity_draft">Draf</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tidak dapat menyimpan ke penyimpanan eksternal tanpa izin</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Hapus pesan?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Ini akan menghapus pesan secara permanen.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">Pesan baru %1$d di percakapan %2$d</string>
@@ -215,7 +214,7 @@
     <string name="open_group_guidelines_community_guidelines">Pedoman komunitas</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Pesan asli tidak ditemukan</string>
+    <string name="messageErrorOriginal">Pesan asli tidak ditemukan</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Gulir ke bawah</string>
     <!-- giphy_activity -->
@@ -230,11 +229,10 @@
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="disappearingMessagesSent">Terkirim</string>
-    <string name="message_details_header__received">Diterima</string>
+    <string name="received">Diterima</string>
     <string name="message_details_header__disappears">Menghilang</string>
     <string name="message_details_header__via">Melalui</string>
     <string name="message_details_header__to">Ke:</string>
-    <string name="message_details_header__from">Dari:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_default">Gunakan default</string>
@@ -286,10 +284,9 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_delete_message">Hapus pesan</string>
+    <string name="deleteMessage">Hapus pesan</string>
     <string name="conversation_context__menu_ban_user">Larang pengguna</string>
     <string name="conversation_context__menu_ban_and_delete_all">Larang dan hapus semua</string>
-    <string name="conversation_context__menu_resend_message">Kirim ulang pesan</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Simpan lampiran</string>
     <!-- conversation_expiring_off -->

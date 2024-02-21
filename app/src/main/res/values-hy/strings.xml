@@ -184,7 +184,6 @@
     <string name="MediaPreviewActivity_draft">Սևագիր</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session֊ին պետք են հիշողությունից օգտվելու թույլտվությունները ֆայլեր ստեղծելու համար, բայց այն արգելված է։ Բացեք ծրագրի կարգավորումներն ու ընտրեք «Թույլտվություններ»֊ը, ապա միացրեք «Հիշողություն» թույլտվությունը։</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Հնարավոր չէ պահել արտաքին պահեստում առանց թույլտվությունների</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Ջնջե՞լ նամակը</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Սա ընդմիշտ կջնջի այս հաղորդագրությունը:</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d նոր հաղորդագրություններ %2$d խոսակցություններում</string>
@@ -265,7 +264,7 @@
     <string name="read">Կարդալ</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Նկար</string>
-    <string name="QuoteView_original_missing">Մեջբերված հաղորդագրությունը չի գտնվել</string>
+    <string name="messageErrorOriginal">Մեջբերված հաղորդագրությունը չի գտնվել</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Իջեք ներքև</string>
     <!-- giphy_activity -->
@@ -277,16 +276,14 @@
     <string name="load_more_header__loading">Բեռնվում է</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ՈՒՂԱՐԿԵԼ ՆՈՐԻՑ</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Որոշ հարցեր ձեր ուշադրության կարիքն ունեն։.</string>
     <string name="disappearingMessagesSent">Ուղարկված է</string>
-    <string name="message_details_header__received">Ստացվել է</string>
+    <string name="received">Ստացվել է</string>
     <string name="message_details_header__disappears">Կանհետանա</string>
     <string name="message_details_header__via">Միջոցով</string>
     <string name="message_details_header__to">Ում:</string>
-    <string name="message_details_header__from">Սկսած:</string>
     <string name="message_details_header__with">Հետ։</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Ստեղծել գաղտնաբառ</string>
@@ -364,12 +361,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Նոր հաղորդագրություն...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Հաղորդագրության մանրամասները</string>
-    <string name="conversation_context__menu_copy_text">Պատճենել տեքստը</string>
-    <string name="conversation_context__menu_delete_message">Ջնջել հաղորդագրությունը</string>
+    <string name="deleteMessage">Ջնջել հաղորդագրությունը</string>
     <string name="conversation_context__menu_ban_user">Արգելափակել օգտատիրոչը</string>
     <string name="conversation_context__menu_ban_and_delete_all">Արգելաֆակել և ջնջել ամբողջը</string>
-    <string name="conversation_context__menu_resend_message">Կրկին ուղարկել հաղորդագրությունը</string>
     <string name="conversation_context__menu_reply_to_message">Պատասխանել հաղորդագրությանը</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Պահպանել կցորդը</string>
@@ -530,9 +524,6 @@
     <string name="warning">Զգուշացում</string>
     <string name="notify_type_all">Բոլորը</string>
     <string name="deleted_message">Այս հաղորդագրությունը ջնջվել է</string>
-    <string name="delete_message_for_me">Ջնջել միայն իմ համար</string>
-    <string name="delete_message_for_everyone">Ջնջել բոլորի համար</string>
-    <string name="delete_message_for_me_and_recipient">Ջնջել ինձ և %s-ի համար</string>
     <string name="pin">Ամրացնել</string>
     <string name="pinUnpin">Արձակել</string>
     <string name="messages">Հաղորդագրություններ</string>

@@ -335,7 +335,6 @@
     <string name="MediaPreviewActivity_draft">Draft</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session needs storage access in order to save to external storage, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Storage\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Unable to save to external storage without permissions</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Delete message?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">This will permanently delete this message.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d new messages in %2$d conversations</string>
@@ -417,7 +416,7 @@
     <string name="read">Read</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Photo</string>
-    <string name="QuoteView_original_missing">Original message not found</string>
+    <string name="messageErrorOriginal">Original message not found</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Scroll to the bottom</string>
     <!-- giphy_activity -->
@@ -429,16 +428,14 @@
     <string name="load_more_header__loading">Loading</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">RESEND</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Some issues need your attention.</string>
     <string name="disappearingMessagesSent">Sent</string>
-    <string name="message_details_header__received">Received</string>
+    <string name="received">Received</string>
     <string name="message_details_header__disappears">Disappears</string>
     <string name="message_details_header__via">Via</string>
     <string name="message_details_header__to">To:</string>
-    <string name="message_details_header__from">From:</string>
     <string name="message_details_header__with">With:</string>
     <string name="message_details_header__file_id">File Id:</string>
     <string name="message_details_header__file_type">File Type:</string>
@@ -542,13 +539,10 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">New message to...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Message details</string>
-    <string name="conversation_context__menu_copy_text">Copy text</string>
-    <string name="conversation_context__menu_delete_message">Delete message</string>
+    <string name="deleteMessage">Delete message</string>
     <string name="conversation_context__menu_ban_user">Ban user</string>
     <string name="conversation_context__menu_ban_and_delete_all">Ban and delete all</string>
     <string name="conversation_context__menu_resync_message">Resync message</string>
-    <string name="conversation_context__menu_resend_message">Resend message</string>
     <string name="conversation_context__menu_reply">Reply</string>
     <string name="conversation_context__menu_reply_to_message">Reply to message</string>
     <string name="call">Call</string>
@@ -731,9 +725,6 @@
     <string name="warning">Warning</string>
     <string name="notify_type_all">All</string>
     <string name="deleted_message">This message has been deleted</string>
-    <string name="delete_message_for_me">Delete just for me</string>
-    <string name="delete_message_for_everyone">Delete for everyone</string>
-    <string name="delete_message_for_me_and_recipient">Delete for me and %s</string>
     <string name="pin">Pin</string>
     <string name="pinUnpin">Unpin</string>
     <string name="messages">Messages</string>
@@ -948,5 +939,10 @@
     <string name="linkPreviewsFirstDescription">Display previews for URLs you send and receive. This can be useful, however Session must contact linked websites to generate previews. You can always turn off link previews in Session\'s settings.</string>
     <string name="urlOpenDescription">Are you sure you want to open %s in your browser?</string>
     <string name="urlOpen">Open URL</string>
+    <string name="messageCopy">Copy message</string>
+    <string name="messageInfo">Message info</string>
+    <string name="from">From</string>
+    <string name="clearMessagesForMe">Clear for me</string>
+    <string name="clearMessagesForEveryone">Clear for everyone</string>
 
 </resources>

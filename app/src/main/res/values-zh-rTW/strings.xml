@@ -175,7 +175,6 @@
     <string name="MediaPreviewActivity_draft">草稿</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">會話需要儲存空間存取權才能保存到外部儲存空間，但它已被永久拒絕。 請前往變更權限，啟用「儲存空間」。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">因為沒有儲存的權限，無法儲存到外部儲存空間</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">刪除訊息？</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">這將永久刪除此訊息。</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d 則新訊息在 %2$d 的對話中</string>
@@ -255,7 +254,7 @@
     <string name="read">已讀</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">照片</string>
-    <string name="QuoteView_original_missing">無法找到原始訊息</string>
+    <string name="messageErrorOriginal">無法找到原始訊息</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">向下滑動至底部</string>
     <!-- giphy_activity -->
@@ -267,16 +266,14 @@
     <string name="load_more_header__loading">讀取中</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">重新傳送</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">一些問題需要您的注意。</string>
     <string name="disappearingMessagesSent">傳送</string>
-    <string name="message_details_header__received">接受</string>
+    <string name="received">接受</string>
     <string name="message_details_header__disappears">銷毀</string>
     <string name="message_details_header__via">來自</string>
     <string name="message_details_header__to">至：</string>
-    <string name="message_details_header__from">來自：</string>
     <string name="message_details_header__with">與：</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">新增自訂密碼</string>
@@ -353,12 +350,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">傳送新訊息給...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">訊息細節</string>
-    <string name="conversation_context__menu_copy_text">複製文字</string>
-    <string name="conversation_context__menu_delete_message">刪除訊息</string>
+    <string name="deleteMessage">刪除訊息</string>
     <string name="conversation_context__menu_ban_user">封鎖用戶</string>
     <string name="conversation_context__menu_ban_and_delete_all">封鎖並刪除所有</string>
-    <string name="conversation_context__menu_resend_message">重送訊息</string>
     <string name="conversation_context__menu_reply_to_message">回覆訊息</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">儲存附件檔案</string>
@@ -519,9 +513,6 @@
     <string name="warning">警告</string>
     <string name="notify_type_all">所有</string>
     <string name="deleted_message">此段訊息經已刪除</string>
-    <string name="delete_message_for_me">只為我自己刪除</string>
-    <string name="delete_message_for_everyone">從所有人的裝置上刪除</string>
-    <string name="delete_message_for_me_and_recipient">為我和 %s 刪除</string>
     <string name="pin">釘選</string>
     <string name="pinUnpin">取消釘選</string>
     <string name="messages">訊息</string>

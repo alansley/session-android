@@ -159,7 +159,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="onionRoutingPathYou">Deg</string>
     <string name="MediaPreviewActivity_draft">Kladd</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan ikkje lagra til eksterne minnekort utan tilgang</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Slett melding?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Dette vil sletta denne meldinga for godt.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye meldingar i %2$d samtalar</string>
@@ -230,7 +229,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Fann ikkje den opphavlege meldinga</string>
+    <string name="messageErrorOriginal">Fann ikkje den opphavlege meldinga</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Rull til botnen</string>
     <!-- giphy_activity -->
@@ -242,15 +241,13 @@ nøkkelutvekslingsmelding.</string>
     <string name="load_more_header__loading">Lastar</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">SEND PÅ NYTT</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Visse problem treng di merksemd.</string>
     <string name="disappearingMessagesSent">Sendt</string>
-    <string name="message_details_header__received">Motteke</string>
+    <string name="received">Motteke</string>
     <string name="message_details_header__disappears">Forsvinn</string>
     <string name="message_details_header__to">Til:</string>
-    <string name="message_details_header__from">Frå:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Lag passordfrase</string>
@@ -323,10 +320,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ny melding til …</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Meldingsdetaljar</string>
-    <string name="conversation_context__menu_copy_text">Kopier tekst</string>
-    <string name="conversation_context__menu_delete_message">Slett melding</string>
-    <string name="conversation_context__menu_resend_message">Send melding på nytt</string>
+    <string name="deleteMessage">Slett melding</string>
     <string name="conversation_context__menu_reply_to_message">Svar på meldinga</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lagra vedlegg</string>

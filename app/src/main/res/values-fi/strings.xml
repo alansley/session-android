@@ -180,7 +180,6 @@ on viallinen!</string>
     <string name="MediaPreviewActivity_draft">Luonnos</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session tarvitsee luvan tallentaakseen ulkoiseen tallennustilaan, mutta se on pysyvästi kielletty. Jatka sovelluksen asetuksiin, valitse \"luvat\", ja käytä \"tallennustilaa\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tallennus ulkoiseen tallennustilaan ei onnistu ilman käyttöoikeutta.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Poistetaanko viesti?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tämä poistaa pysyvästi tämän viestin.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d uutta viestiä %2$d keskustelussa</string>
@@ -261,7 +260,7 @@ on viallinen!</string>
     <string name="read">Lue</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Kuva</string>
-    <string name="QuoteView_original_missing">Alkuperäistä viestiä ei löytynyt</string>
+    <string name="messageErrorOriginal">Alkuperäistä viestiä ei löytynyt</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Vieritä alas</string>
     <!-- giphy_activity -->
@@ -273,16 +272,14 @@ on viallinen!</string>
     <string name="load_more_header__loading">Ladataan</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">LÄHETÄ UUDELLEEN</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Jotkin asiat kaipaavat huomiotasi.</string>
     <string name="disappearingMessagesSent">Lähetetty</string>
-    <string name="message_details_header__received">Vastaanotettu</string>
+    <string name="received">Vastaanotettu</string>
     <string name="message_details_header__disappears">Katoamisaika</string>
     <string name="message_details_header__via">Tyyppi</string>
     <string name="message_details_header__to">Vastaanottajat:</string>
-    <string name="message_details_header__from">Lähettäjä:</string>
     <string name="message_details_header__with">Avulla:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Luo salalause</string>
@@ -360,12 +357,9 @@ on viallinen!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Uusi viesti henkilölle...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Viestin tiedot</string>
-    <string name="conversation_context__menu_copy_text">Kopioi teksti</string>
-    <string name="conversation_context__menu_delete_message">Poista viesti</string>
+    <string name="deleteMessage">Poista viesti</string>
     <string name="conversation_context__menu_ban_user">Estä käyttäjä</string>
     <string name="conversation_context__menu_ban_and_delete_all">Estä ja poista kaikki</string>
-    <string name="conversation_context__menu_resend_message">Lähetä viesti uudelleen</string>
     <string name="conversation_context__menu_reply_to_message">Vastaa viestiin</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Tallenna liite</string>
@@ -526,9 +520,6 @@ on viallinen!</string>
     <string name="warning">Varoitus</string>
     <string name="notify_type_all">Kaikki</string>
     <string name="deleted_message">Tämä viesti on poistettu</string>
-    <string name="delete_message_for_me">Poista vain minulta</string>
-    <string name="delete_message_for_everyone">Poista kaikilta</string>
-    <string name="delete_message_for_me_and_recipient">Poista minulta ja henkilöltä %s</string>
     <string name="pin">Koodi</string>
     <string name="pinUnpin">Ohita koodi</string>
 </resources>

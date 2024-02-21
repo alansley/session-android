@@ -180,7 +180,6 @@
     <string name="MediaPreviewActivity_draft">Skicë:</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Për të ruajtur gjëra në depozitë të jashtme, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">S\’bëhet dot ruajtje në depozitë të jashtme pa leje</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Të fshihet mesazhi?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Kjo do ta fshijë përgjithmonë këtë mesazh.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mesazhe të reja në %2$d biseda</string>
@@ -261,7 +260,7 @@
     <string name="read">Lexo</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">S\’u gjet mesazhi origjinal</string>
+    <string name="messageErrorOriginal">S\’u gjet mesazhi origjinal</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Rrëshqit drejt fundit</string>
     <!-- giphy_activity -->
@@ -273,16 +272,14 @@
     <string name="load_more_header__loading">Po ngarkohet</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">RIDËRGOJE</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Disa çështje lypin vëmendjen tuaj.</string>
     <string name="disappearingMessagesSent">Dërguar më</string>
-    <string name="message_details_header__received">Marrë më</string>
+    <string name="received">Marrë më</string>
     <string name="message_details_header__disappears">Zhduket më</string>
     <string name="message_details_header__via">Përmes</string>
     <string name="message_details_header__to">Për:</string>
-    <string name="message_details_header__from">Nga:</string>
     <string name="message_details_header__with">Me:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Krijo frazëkalim</string>
@@ -360,12 +357,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Mesazh i ri për…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Hollësi mesazhi</string>
-    <string name="conversation_context__menu_copy_text">Kopjo tekstin</string>
-    <string name="conversation_context__menu_delete_message">Fshije mesazhin</string>
+    <string name="deleteMessage">Fshije mesazhin</string>
     <string name="conversation_context__menu_ban_user">Dëboni përdorues</string>
     <string name="conversation_context__menu_ban_and_delete_all">Dëbo dhe fshij të gjitha</string>
-    <string name="conversation_context__menu_resend_message">Ridërgoje mesazhin</string>
     <string name="conversation_context__menu_reply_to_message">Përgjigjuni mesazhin</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Ruaje bashkëngjitjen</string>

@@ -159,7 +159,6 @@
     <string name="onionRoutingPathYou">អ្នក</string>
     <string name="MediaPreviewActivity_draft">ព្រាង</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">មិនអាចរក្សាទុកក្នុងអង្គរក្សាទុកខាងក្រៅ ដោយគ្មានការអនុញ្ញាត</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">លុបសារ?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">សារនេះនឹងលុប ជារៀងរហូត។</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d សារថ្មីក្នុង %2$d ការសន្ទនា</string>
@@ -232,7 +231,7 @@
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">រូបភាព</string>
-    <string name="QuoteView_original_missing">រកមិនឃើញសារដើម</string>
+    <string name="messageErrorOriginal">រកមិនឃើញសារដើម</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">អូសចុះក្រោម</string>
     <!-- giphy_activity -->
@@ -244,16 +243,14 @@
     <string name="load_more_header__loading">កំពុងផ្ទុក</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ផ្ញើឡើងវិញ</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">បញ្ហាមួយចំនួនត្រូវការ ការយកចិត្តទុកដាក់របស់អ្នក។</string>
     <string name="disappearingMessagesSent">បានផ្ញើ</string>
-    <string name="message_details_header__received">បានទទួល</string>
+    <string name="received">បានទទួល</string>
     <string name="message_details_header__disappears">បាត់</string>
     <string name="message_details_header__via">តាមរយៈ</string>
     <string name="message_details_header__to">ទៅ៖</string>
-    <string name="message_details_header__from">ពី៖</string>
     <string name="message_details_header__with">ជាមួយ៖</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">បង្កើតឃ្លាសម្ងាត់</string>
@@ -330,10 +327,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">ផ្ញើសារថ្មីទៅកាន់...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">សារលម្អិត</string>
-    <string name="conversation_context__menu_copy_text">ថតចម្លងអក្សរ</string>
-    <string name="conversation_context__menu_delete_message">លុបសារ</string>
-    <string name="conversation_context__menu_resend_message">ផ្ញើសារឡើងវិញ</string>
+    <string name="deleteMessage">លុបសារ</string>
     <string name="conversation_context__menu_reply_to_message">ឆ្លើយតបសារ</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">រក្សាឯកសារភ្ជាប់</string>

@@ -172,7 +172,6 @@
     <string name="MediaPreviewActivity_draft">草稿</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session 需要存储权限以写入外部存储，但是该权限已经被永久拒绝。请进入应用程序设置，点击权限，并启用“存储”。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">无法在没有写入到外部存储的权限时保存到外部存储</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">删除消息吗？</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">这将会永久删除消息</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d 新信息是在 %2$d 中的会话</string>
@@ -252,7 +251,7 @@
     <string name="read">阅读</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">图片</string>
-    <string name="QuoteView_original_missing">未找到原消息</string>
+    <string name="messageErrorOriginal">未找到原消息</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">滚动到底部</string>
     <!-- giphy_activity -->
@@ -264,16 +263,14 @@
     <string name="load_more_header__loading">正在加载</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">重新发送</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">有些问题需要您注意</string>
     <string name="disappearingMessagesSent">发送</string>
-    <string name="message_details_header__received">已接收</string>
+    <string name="received">已接收</string>
     <string name="message_details_header__disappears">销毁</string>
     <string name="message_details_header__via">来自</string>
     <string name="message_details_header__to">到：</string>
-    <string name="message_details_header__from">来自：</string>
     <string name="message_details_header__with">与：</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">创建密码</string>
@@ -350,12 +347,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">新消息给…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">信息详情</string>
-    <string name="conversation_context__menu_copy_text">复制文本</string>
-    <string name="conversation_context__menu_delete_message">删除消息</string>
+    <string name="deleteMessage">删除消息</string>
     <string name="conversation_context__menu_ban_user">封禁用户</string>
     <string name="conversation_context__menu_ban_and_delete_all">封禁并删除全部</string>
-    <string name="conversation_context__menu_resend_message">重新发送消息</string>
     <string name="conversation_context__menu_reply_to_message">回复该消息</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">保存附件</string>
@@ -516,9 +510,6 @@
     <string name="warning">警告</string>
     <string name="notify_type_all">所有的</string>
     <string name="deleted_message">消息已删除</string>
-    <string name="delete_message_for_me">仅为我删除</string>
-    <string name="delete_message_for_everyone">为所有人删除</string>
-    <string name="delete_message_for_me_and_recipient">为我和 %s 删除</string>
     <string name="pin">置顶</string>
     <string name="pinUnpin">取消置顶</string>
 </resources>

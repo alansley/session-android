@@ -185,7 +185,6 @@
     <string name="onionRoutingPathYou">Ви</string>
     <string name="MediaPreviewActivity_draft">Нацрт</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Сесија треба дозволу за складиште да сачува у спољашње складиште, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Складиште\".</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Обрисати поруку?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Ово ће трајно да обрише ову поруку.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нових порука у %2$d преписки</string>
@@ -266,7 +265,7 @@
     <string name="read">Прочитај</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Слика</string>
-    <string name="QuoteView_original_missing">Оригинална порука није нађена</string>
+    <string name="messageErrorOriginal">Оригинална порука није нађена</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Клизај на дно</string>
     <!-- giphy_activity -->
@@ -278,16 +277,14 @@
     <string name="load_more_header__loading">Учитавам</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ПОШАЉИ ПОНОВО</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Неки од проблема захтевају вашу пажњу.</string>
     <string name="disappearingMessagesSent">Послата</string>
-    <string name="message_details_header__received">Примљена</string>
+    <string name="received">Примљена</string>
     <string name="message_details_header__disappears">Нестаје</string>
     <string name="message_details_header__via">Преко</string>
     <string name="message_details_header__to">За:</string>
-    <string name="message_details_header__from">Од:</string>
     <string name="message_details_header__with">Са:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Направи лозинку</string>
@@ -364,10 +361,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Нова порука за...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Детаљи поруке</string>
-    <string name="conversation_context__menu_copy_text">Копирај текст</string>
-    <string name="conversation_context__menu_delete_message">Обриши поруку</string>
-    <string name="conversation_context__menu_resend_message">Понови слање</string>
+    <string name="deleteMessage">Обриши поруку</string>
     <string name="conversation_context__menu_reply_to_message">Одговори на поруку</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Сачувај прилог</string>

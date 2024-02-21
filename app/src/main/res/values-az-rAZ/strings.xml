@@ -181,7 +181,6 @@
     <string name="MediaPreviewActivity_draft">Qaralama</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, xarici anbarda saxlamaq üçün anbara müraciət etməlidir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\"ı fəallaşdırın.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İcazə olmadan xarici anbarda saxlanıla bilmir</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Mesaj silinsin?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Bu, bu mesajı birdəfəlik siləcək.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d danışıqda %1$d yeni mesaj</string>
@@ -262,7 +261,7 @@
     <string name="read">Oxundu</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Orijinal mesaj tapılmadı</string>
+    <string name="messageErrorOriginal">Orijinal mesaj tapılmadı</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Aşağıya sürüşdür</string>
     <!-- giphy_activity -->
@@ -274,16 +273,14 @@
     <string name="load_more_header__loading">Yüklənir</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">YENİDƏN GÖNDƏR</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Bəzi məsələlər diqqətinizi tələb edir.</string>
     <string name="disappearingMessagesSent">Göndərildi</string>
-    <string name="message_details_header__received">Alındı</string>
+    <string name="received">Alındı</string>
     <string name="message_details_header__disappears">Yox olur</string>
     <string name="message_details_header__via">Vasitəsilə</string>
     <string name="message_details_header__to">Kimə:</string>
-    <string name="message_details_header__from">Kimdən:</string>
     <string name="message_details_header__with">İlə:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Parol yarat</string>
@@ -361,12 +358,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Yeni mesaj...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Mesaj təfsilatları</string>
-    <string name="conversation_context__menu_copy_text">Mətni kopyala</string>
-    <string name="conversation_context__menu_delete_message">Mesajı sil</string>
+    <string name="deleteMessage">Mesajı sil</string>
     <string name="conversation_context__menu_ban_user">İstifadəçiyə qadağa qoy</string>
     <string name="conversation_context__menu_ban_and_delete_all">Hamısına qadağa qoy və hamısını sil</string>
-    <string name="conversation_context__menu_resend_message">Mesajı yenidən göndər</string>
     <string name="conversation_context__menu_reply_to_message">Mesajı cavabla</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Qoşmanı yaddaşda saxla</string>
@@ -527,9 +521,6 @@
     <string name="warning">Xəbərdarlıq</string>
     <string name="notify_type_all">Hamısı</string>
     <string name="deleted_message">Bu mesaj silindi</string>
-    <string name="delete_message_for_me">Yalnız mənim üçün sil</string>
-    <string name="delete_message_for_everyone">Hər kəs üçün sil</string>
-    <string name="delete_message_for_me_and_recipient">Mən və %s üçün sil</string>
     <string name="pin">Sancaqla</string>
     <string name="pinUnpin">Sancağı götür</string>
 </resources>

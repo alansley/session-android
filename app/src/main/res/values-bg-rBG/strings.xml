@@ -173,7 +173,6 @@
     <string name="onionRoutingPathYou">Ти</string>
     <string name="MediaPreviewActivity_draft">Чернова</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Неуспешно запазване на външен диск без нуждното разрешение за достъп</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Изтриване на съобщението?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Това ще изтрие невъзвращаемо текущото съобщение.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нови съобщения в %2$d чата</string>
@@ -246,7 +245,7 @@
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Снимка</string>
-    <string name="QuoteView_original_missing">Оригиналното съобщение не е открито</string>
+    <string name="messageErrorOriginal">Оригиналното съобщение не е открито</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Превъртане надолу</string>
     <!-- giphy_activity -->
@@ -258,16 +257,14 @@
     <string name="load_more_header__loading">Зареждане</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ПОВТОРНО ИЗПРАЩАНЕ</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Няколко проблема изискват вашето внимание.</string>
     <string name="disappearingMessagesSent">Изпратен</string>
-    <string name="message_details_header__received">Получен</string>
+    <string name="received">Получен</string>
     <string name="message_details_header__disappears">Изчезва</string>
     <string name="message_details_header__via">През</string>
     <string name="message_details_header__to">До:</string>
-    <string name="message_details_header__from">От:</string>
     <string name="message_details_header__with">С:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Създай парола</string>
@@ -345,12 +342,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ново съобщение до...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Информация за съобщението</string>
-    <string name="conversation_context__menu_copy_text">Копирай текста</string>
-    <string name="conversation_context__menu_delete_message">Изтрий съобщението</string>
+    <string name="deleteMessage">Изтрий съобщението</string>
     <string name="conversation_context__menu_ban_user">Забрана на потребител</string>
     <string name="conversation_context__menu_ban_and_delete_all">Забрани и изтрий всичко</string>
-    <string name="conversation_context__menu_resend_message">Повторно изпращане</string>
     <string name="conversation_context__menu_reply_to_message">Отговор на съобщение</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Запази прикачения файл</string>

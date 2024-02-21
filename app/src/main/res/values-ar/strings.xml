@@ -211,7 +211,6 @@
     <string name="MediaPreviewActivity_draft">مسودة:</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">يحتاج Session إلى إذن سعة التخزين من أجل استخدام الذاكرة الخارجية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">لا يمكن الحفظ إلى الذاكرة الخارجية بدون أذونات</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">أَتريد حذف الرسالة ؟</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">سوف يقوم هذا بحذف الرسالة كُليًا.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d رسائل جديدة في %2$d محادثات</string>
@@ -296,7 +295,7 @@
     <string name="read">قراءة</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">صورة</string>
-    <string name="QuoteView_original_missing">لم يتم العثور على الرسالة الأصلية</string>
+    <string name="messageErrorOriginal">لم يتم العثور على الرسالة الأصلية</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">النزول إلى الأسفل</string>
     <!-- giphy_activity -->
@@ -308,16 +307,14 @@
     <string name="load_more_header__loading">جارٍ التحميل</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">إعادة الإرسال</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">بعض المشاكل تتطلب انتباهك.</string>
     <string name="disappearingMessagesSent">أرسلت</string>
-    <string name="message_details_header__received">استلمت</string>
+    <string name="received">استلمت</string>
     <string name="message_details_header__disappears">الاختفاء</string>
     <string name="message_details_header__via">بواسطة</string>
     <string name="message_details_header__to">إلى:</string>
-    <string name="message_details_header__from">من:</string>
     <string name="message_details_header__with">مع:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">إنشاء عبارة سرية</string>
@@ -399,12 +396,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">رسالة جديدة إلى...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">تفاصيل الرسالة</string>
-    <string name="conversation_context__menu_copy_text">نسخ النص</string>
-    <string name="conversation_context__menu_delete_message">حذف الرسالة</string>
+    <string name="deleteMessage">حذف الرسالة</string>
     <string name="conversation_context__menu_ban_user">منع المستخدم</string>
     <string name="conversation_context__menu_ban_and_delete_all">منع و حذف الكل</string>
-    <string name="conversation_context__menu_resend_message">إعادة الإرسال</string>
     <string name="conversation_context__menu_reply_to_message">الرَدّ على الرسالة</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">حفظ المرفق</string>
@@ -565,9 +559,6 @@
     <string name="warning">تحذير</string>
     <string name="notify_type_all">كل</string>
     <string name="deleted_message">تم حذف هذه الرسالة</string>
-    <string name="delete_message_for_me">اِحذف من عندي</string>
-    <string name="delete_message_for_everyone">اِحذف من عند الجميع</string>
-    <string name="delete_message_for_me_and_recipient">أحذف من عندي و من عند %s</string>
     <string name="pin">ًًًُُثَبت</string>
     <string name="pinUnpin">الغ التثبيت</string>
 </resources>

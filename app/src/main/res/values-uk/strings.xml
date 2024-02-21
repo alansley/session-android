@@ -197,7 +197,6 @@
     <string name="MediaPreviewActivity_draft">Чернетка</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session потребує дозволу \"Зберігання\", щоб зберігати файли, але наразі цей дозвіл ви постійно відхиляли. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Без доступу до файлової системи зберегти файли неможливо</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Видалити повідомлення?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Це назавжди видалить це повідомлення.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нових повідомлень у %2$d розмовах</string>
@@ -280,7 +279,7 @@
     <string name="read">Прочитано</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Світлини</string>
-    <string name="QuoteView_original_missing">Оригінальне повідомлення не знайдено</string>
+    <string name="messageErrorOriginal">Оригінальне повідомлення не знайдено</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Прокрутить до самого низу</string>
     <!-- giphy_activity -->
@@ -292,16 +291,14 @@
     <string name="load_more_header__loading">Завантаження</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">НАДІСЛАТИ ЗНОВУ</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Є деякі проблеми, що потребують вашої уваги.</string>
     <string name="disappearingMessagesSent">Надіслано</string>
-    <string name="message_details_header__received">Одержано</string>
+    <string name="received">Одержано</string>
     <string name="message_details_header__disappears">Зникає</string>
     <string name="message_details_header__via">Через</string>
     <string name="message_details_header__to">Кому:</string>
-    <string name="message_details_header__from">Від:</string>
     <string name="message_details_header__with">З:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Створити фразу-пароль</string>
@@ -381,12 +378,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Нове повідомлення для...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Деталі повідомлення</string>
-    <string name="conversation_context__menu_copy_text">Скопіювати текст</string>
-    <string name="conversation_context__menu_delete_message">Видалити повідомлення</string>
+    <string name="deleteMessage">Видалити повідомлення</string>
     <string name="conversation_context__menu_ban_user">Бан користувача</string>
     <string name="conversation_context__menu_ban_and_delete_all">Забанити та видалити все</string>
-    <string name="conversation_context__menu_resend_message">Переслати повідомлення</string>
     <string name="conversation_context__menu_reply_to_message">Відповісти на повідомлення</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Зберегти вкладення</string>

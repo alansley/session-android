@@ -194,7 +194,6 @@
     <string name="onionRoutingPathYou">Jūs</string>
     <string name="MediaPreviewActivity_draft">Juodraštis</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nepavyksta įrašyti į išorinę saugyklą be leidimų</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Ištrinti žinutę?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Tai visiems laikams ištrins šią žinutę.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d naujų(-os) žinutės(-ių) %2$d pokalbyje(-iuose)</string>
@@ -276,7 +275,7 @@
     <string name="read">Skaityti</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Nuotrauka</string>
-    <string name="QuoteView_original_missing">Pradinė žinutė nerasta</string>
+    <string name="messageErrorOriginal">Pradinė žinutė nerasta</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Slinkti į apačią</string>
     <!-- giphy_activity -->
@@ -288,16 +287,14 @@
     <string name="load_more_header__loading">Įkeliama</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">SIŲSTI IŠ NAUJO</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Kai kurios problemos reikalauja jūsų dėmesio.</string>
     <string name="disappearingMessagesSent">Išsiųsta</string>
-    <string name="message_details_header__received">Gauta</string>
+    <string name="received">Gauta</string>
     <string name="message_details_header__disappears">Išnyksta</string>
     <string name="message_details_header__via">Per</string>
     <string name="message_details_header__to">Kam:</string>
-    <string name="message_details_header__from">Nuo:</string>
     <string name="message_details_header__with">Su:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Kurti slaptafrazę</string>
@@ -377,10 +374,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nauja žinutė, skirta...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Žinutės informacija</string>
-    <string name="conversation_context__menu_copy_text">Kopijuoti tekstą</string>
-    <string name="conversation_context__menu_delete_message">Ištrinti žinutę</string>
-    <string name="conversation_context__menu_resend_message">Iš naujo siųsti žinutę</string>
+    <string name="deleteMessage">Ištrinti žinutę</string>
     <string name="conversation_context__menu_reply_to_message">Atsakyti į žinutę</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Įrašyti priedą</string>
@@ -522,6 +516,4 @@
     <string name="_error">Klaida</string>
     <string name="warning">Įspėjimas</string>
     <string name="deleted_message">Ši žinutė ištrinta</string>
-    <string name="delete_message_for_me">Ištrinti tik man</string>
-    <string name="delete_message_for_everyone">Ištrinti visiems</string>
 </resources>

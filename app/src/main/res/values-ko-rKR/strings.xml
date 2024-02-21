@@ -209,15 +209,13 @@
     <string name="load_more_header__see_full_conversation">대화 전체 보기</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">다시 보내기</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">문제가 발생하여 확인이 필요합니다.</string>
     <string name="disappearingMessagesSent">보낸 시간:</string>
-    <string name="message_details_header__received">받은 시간:</string>
+    <string name="received">받은 시간:</string>
     <string name="message_details_header__via">유형:</string>
     <string name="message_details_header__to">받는사람:</string>
-    <string name="message_details_header__from">보낸사람:</string>
     <string name="message_details_header__with">참가자:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">암호 만들기</string>
@@ -284,10 +282,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">(연락처 없음)</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">메시지 세부정보</string>
-    <string name="conversation_context__menu_copy_text">텍스트 복사</string>
-    <string name="conversation_context__menu_delete_message">메시지 삭제</string>
-    <string name="conversation_context__menu_resend_message">메시지 다시 보내기</string>
+    <string name="deleteMessage">메시지 삭제</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">첨부파일 저장</string>
     <!-- conversation_expiring_off -->

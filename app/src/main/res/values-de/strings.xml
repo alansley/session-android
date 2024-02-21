@@ -179,7 +179,6 @@
     <string name="MediaPreviewActivity_draft">Entwurf</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Die Sitzung benötigt Speicherzugriff, um auf einem externen Speicher zu speichern, aber dieser wurde dauerhaft verweigert. Gehe bitte zu den App-Einstellungen, wähle »Berechtigungen« und aktiviere »Speicher«.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Speichern in den Gerätespeicher ohne Berechtigungen nicht möglich.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_title">Nachricht löschen?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">Dies wird diese Nachricht unwiderruflich löschen.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d neue Nachrichten in %2$d Unterhaltungen</string>
@@ -260,7 +259,7 @@
     <string name="read">Lesen</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
-    <string name="QuoteView_original_missing">Originalnachricht nicht gefunden</string>
+    <string name="messageErrorOriginal">Originalnachricht nicht gefunden</string>
     <!-- conversation_fragment -->
     <string name="conversation_fragment__scroll_to_the_bottom_content_description">Zum unteren Ende scrollen</string>
     <!-- giphy_activity -->
@@ -272,16 +271,14 @@
     <string name="load_more_header__loading">Wird geladen …</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
-    <string name="message_recipients_list_item__resend">ERNEUT SENDEN</string>
     <!-- recipient_preferences -->
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Einige Vorgänge benötigen deine Aufmerksamkeit.</string>
     <string name="disappearingMessagesSent">Gesendet</string>
-    <string name="message_details_header__received">Empfangen</string>
+    <string name="received">Empfangen</string>
     <string name="message_details_header__disappears">Verschwindet</string>
     <string name="message_details_header__via">Über</string>
     <string name="message_details_header__to">An:</string>
-    <string name="message_details_header__from">Von:</string>
     <string name="message_details_header__with">Mit:</string>
     <!-- AndroidManifest.xml -->
     <string name="AndroidManifest__create_passphrase">Passphrase erstellen</string>
@@ -359,12 +356,9 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Neue Nachricht an …</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_message_details">Nachrichtendetails</string>
-    <string name="conversation_context__menu_copy_text">Text kopieren</string>
-    <string name="conversation_context__menu_delete_message">Nachrichten löschen</string>
+    <string name="deleteMessage">Nachrichten löschen</string>
     <string name="conversation_context__menu_ban_user">Nutzer speeren</string>
     <string name="conversation_context__menu_ban_and_delete_all">Sperren und alles löschen</string>
-    <string name="conversation_context__menu_resend_message">Nachricht erneut senden</string>
     <string name="conversation_context__menu_reply_to_message">Auf Nachricht antworten</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Anhang speichern</string>
@@ -525,9 +519,6 @@
     <string name="warning">Warnung</string>
     <string name="notify_type_all">Alle</string>
     <string name="deleted_message">Die Nachricht wurde gelöscht</string>
-    <string name="delete_message_for_me">Nur für mich löschen</string>
-    <string name="delete_message_for_everyone">Für alle löschen</string>
-    <string name="delete_message_for_me_and_recipient">Für mich und %s löschen</string>
     <string name="pin">Anheften</string>
     <string name="pinUnpin">Abheften</string>
 </resources>
