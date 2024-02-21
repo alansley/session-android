@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">Aujourd’hui</string>
     <string name="BucketedThreadMedia_Yesterday">Hier</string>
     <string name="BucketedThreadMedia_This_week">Cette semaine</string>
-    <string name="BucketedThreadMedia_This_month">Ce mois</string>
+    <string name="attachmentsThisMonth">Ce mois</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Aucun navigateur Web n’a été trouvé.</string>
     <!-- ContactsCursorLoader -->
@@ -125,7 +125,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Touchez et maintenez pour enregistrer un message vocal, relâchez pour l’envoyer.</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Impossible de trouver le message.</string>
     <string name="LongMessageActivity_message_from_s">Message de %1$s</string>
     <string name="LongMessageActivity_your_message">Votre message</string>
     <!-- MediaOverviewActivity -->
@@ -139,7 +138,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Suppression</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Suppression des messages…</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Récupération des pièces jointes…</string>
+    <string name="attachmentsCollecting">Récupération des pièces jointes…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Message multimédia</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Téléchargement du message multimédia</string>
@@ -161,7 +160,6 @@
     <string name="MessageRecord_you_updated_group">Vous avez mis le groupe à jour.</string>
     <string name="MessageRecord_s_updated_group">%s a mis le groupe à jour.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Messages éphémères</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Vos messages n’expireront pas.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Les messages envoyés et reçus de cette conversation disparaîtront %s après avoir été lus.</string>
     <!-- PassphrasePromptActivity -->
@@ -187,8 +185,6 @@
     <string name="ThreadRecord_secure_session_reset">La session sécurisée a été réinitialisée.</string>
     <string name="ThreadRecord_media_message">Message multimédia</string>
     <string name="ThreadRecord_s_is_on_signal">%s est sur Session !</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Les messages éphémères sont désactivés</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">L’expiration des messages éphémères a été définie à %s</string>
     <string name="ThreadRecord_media_saved_by_s">Média enregistré par %s.</string>
     <string name="ThreadRecord_safety_number_changed">Le numéro de sécurité a changé</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Votre numéro de sécurité avec %s a changé.</string>
@@ -252,7 +248,6 @@
         <item quantity="other">%déléments</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Erreur de lecture de la vidéo</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Contact</string>
     <string name="attachment_type_selector__contact_description">Contact</string>
@@ -286,7 +281,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Échec d’envoi</string>
     <string name="conversation_item_sent__delivered_description">Transmis</string>
-    <string name="conversation_item_sent__message_read">Message lu</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Photo du contact</string>
     <!-- audio_view -->
@@ -296,7 +290,7 @@
     <string name="join">Rejoindre</string>
     <string name="open_group_guidelines_pinned_message">Message épinglé</string>
     <string name="open_group_guidelines_community_guidelines">Règles de la communauté</string>
-    <string name="open_group_guidelines_read">Lire</string>
+    <string name="read">Lire</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Photo</string>
     <string name="QuoteView_original_missing">Le message original est introuvable</string>
@@ -317,7 +311,7 @@
     <string name="recipient_preferences__block">Bloquer</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Des problèmes demandent votre attention.</string>
-    <string name="message_details_header__sent">Envoyé</string>
+    <string name="disappearingMessagesSent">Envoyé</string>
     <string name="message_details_header__received">Reçu</string>
     <string name="message_details_header__disappears">Disparaît dans </string>
     <string name="message_details_header__via">Par</string>
@@ -430,7 +424,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Enregistrer la pièce jointe</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Messages éphémères</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Les messages expirent</string>
     <!-- conversation_muted -->
@@ -601,14 +594,11 @@
     <string name="dialog_link_preview_title">Activer les aperçus de liens ?</string>
     <string name="dialog_link_preview_explanation">L\'activation des aperçus de liens affichera des aperçus des URL que vous envoyez et recevez. Cela peut être utile, mais Session devra contacter les sites Web liés pour générer des aperçus. Vous pouvez toujours désactiver les aperçus de liens dans les paramètres de Session.</string>
     <string name="dialog_link_preview_enable_button_title">Activer</string>
-    <string name="dialog_download_title">Faire confiance à %s ?</string>
-    <string name="dialog_download_explanation">Êtes-vous sûr de vouloir télécharger le média envoyé par %s ?</string>
     <string name="download">Télécharger</string>
     <string name="activity_conversation_blocked_banner_text">%s est bloqué. Débloquer ?</string>
     <string name="activity_conversation_block_user">Bloquer l\'utilisateur</string>
     <string name="activity_conversation_attachment_prep_failed">La préparation de la pièce jointe pour l\'envoi a échoué.</string>
     <string name="media">Médias</string>
-    <string name="UntrustedAttachmentView_download_attachment">Touchez pour télécharger %s</string>
     <string name="_error">Erreur</string>
     <string name="warning">Attention</string>
     <string name="dialog_send_seed_send_button_title">Envoyer</string>

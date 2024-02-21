@@ -40,7 +40,7 @@
     <string name="BucketedThreadMedia_Today">Azi</string>
     <string name="BucketedThreadMedia_Yesterday">Ieri</string>
     <string name="BucketedThreadMedia_This_week">Săptămâna aceasta</string>
-    <string name="BucketedThreadMedia_This_month">Luna asta</string>
+    <string name="attachmentsThisMonth">Luna asta</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Nu s-a găsit nici un web browser.</string>
     <!-- ContactsCursorLoader -->
@@ -127,7 +127,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Țineți apăsat pentru a înregistra un mesaj vocal, eliberați pentru a-l trimite</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Mesajul nu a putut fi găsit</string>
     <string name="LongMessageActivity_message_from_s">Mesaj de la %1$s</string>
     <string name="LongMessageActivity_your_message">Mesajul dvs.</string>
     <!-- MediaOverviewActivity -->
@@ -143,7 +142,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Se șterge</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Se șterg mesajele...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Se colectează atașamentele...</string>
+    <string name="attachmentsCollecting">Se colectează atașamentele...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Mesaj multimedia</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Se descarcă mesajul MMS</string>
@@ -166,7 +165,6 @@
     <string name="MessageRecord_you_updated_group">Ați actualizat grupul.</string>
     <string name="MessageRecord_s_updated_group">%s a actualizat grupul.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Mesaje care dispar</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Mesajele dvs. nu vor expira.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Mesajele trimise și primite în această conversație vor dispărea după %s după ce au fost vizualizate.</string>
     <!-- PassphrasePromptActivity -->
@@ -194,8 +192,6 @@ schimbul de chei este corupt </string>
     <string name="ThreadRecord_secure_session_reset">Sesiune securizată resetată.</string>
     <string name="ThreadRecord_media_message">Mesaj media</string>
     <string name="ThreadRecord_s_is_on_signal">%s folosește Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Mesajele care dispar sunt dezactivate</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Timpul setat pentru mesajele care dispar este %s</string>
     <string name="ThreadRecord_media_saved_by_s">Media salvată de %s.</string>
     <string name="ThreadRecord_safety_number_changed">Numărul de siguranță s-a schimbat</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Numărul tău de siguranță pentru %s s-a schimbat.</string>
@@ -260,7 +256,6 @@ schimbul de chei este corupt </string>
         <item quantity="other">%d  articole</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Eroare la redarea video!</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Contact</string>
     <string name="attachment_type_selector__contact_description">Contact</string>
@@ -294,7 +289,6 @@ schimbul de chei este corupt </string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Trimiterea a eşuat</string>
     <string name="conversation_item_sent__delivered_description">Livrat</string>
-    <string name="conversation_item_sent__message_read">Mesaj citit</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Poză contact</string>
     <!-- audio_view -->
@@ -304,7 +298,7 @@ schimbul de chei este corupt </string>
     <string name="join">Alătură-te</string>
     <string name="open_group_guidelines_pinned_message">Mesaje fixate</string>
     <string name="open_group_guidelines_community_guidelines">Regulile comunității</string>
-    <string name="open_group_guidelines_read">Citește</string>
+    <string name="read">Citește</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Poză</string>
     <string name="QuoteView_original_missing">Mesajul original nu a fost găsit</string>
@@ -325,7 +319,7 @@ schimbul de chei este corupt </string>
     <string name="recipient_preferences__block">Blochează</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Anumite probleme au nevoie de atenția dvs.</string>
-    <string name="message_details_header__sent">Trimis</string>
+    <string name="disappearingMessagesSent">Trimis</string>
     <string name="message_details_header__received">Primit</string>
     <string name="message_details_header__disappears">Dispar</string>
     <string name="message_details_header__via">Prin</string>
@@ -419,7 +413,6 @@ schimbul de chei este corupt </string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salvează ataşamentul</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Mesaje care dispar</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Expirarea mesejelor</string>
     <!-- conversation_muted -->

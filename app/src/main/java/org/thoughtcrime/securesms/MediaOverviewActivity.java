@@ -20,7 +20,6 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
@@ -35,7 +34,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ActionMode;
 import androidx.appcompat.widget.Toolbar;
@@ -330,7 +328,7 @@ public class MediaOverviewActivity extends PassphraseRequiredActionBarActivity {
                 .onAllGranted(() -> {
                   new ProgressDialogAsyncTask<Void, Void, List<SaveAttachmentTask.Attachment>>(
                           context,
-                          R.string.MediaOverviewActivity_collecting_attachments,
+                          R.string.attachmentsCollecting,
                           R.string.please_wait) {
                     @Override
                     protected List<SaveAttachmentTask.Attachment> doInBackground(Void... params) {

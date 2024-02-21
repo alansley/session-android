@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">Hoxe</string>
     <string name="BucketedThreadMedia_Yesterday">Onte</string>
     <string name="BucketedThreadMedia_This_week">Esta semana</string>
-    <string name="BucketedThreadMedia_This_month">Este mes</string>
+    <string name="attachmentsThisMonth">Este mes</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Non se atopou ningún navegador web.</string>
     <!-- ContactsCursorLoader -->
@@ -118,7 +118,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Toca e mantén premido para gravar unha mensaxe de voz; solta para enviar</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Non é posible atopar a mensaxe</string>
     <string name="LongMessageActivity_message_from_s">Mensaxe de %1$s</string>
     <string name="LongMessageActivity_your_message">A túa mensaxe</string>
     <!-- MediaOverviewActivity -->
@@ -132,7 +131,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Borrando</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Borrando mensaxes...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Recompilando anexos...</string>
+    <string name="attachmentsCollecting">Recompilando anexos...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Mensaxe multimedia</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Descargando mensaxe MMS</string>
@@ -154,7 +153,6 @@
     <string name="MessageRecord_you_updated_group">Actualizaches o grupo.</string>
     <string name="MessageRecord_s_updated_group">%s actualizou o grupo.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Desaparición das mensaxes</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">As mensaxes non desaparecerán.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">As mensaxes que se envíen e reciban nesta conversa desaparecerán %s despois de seren vistas.</string>
     <!-- PassphrasePromptActivity -->
@@ -181,8 +179,6 @@
     <string name="ThreadRecord_secure_session_reset">Restablecer sesión segura.</string>
     <string name="ThreadRecord_media_message">Mensaxe multimedia</string>
     <string name="ThreadRecord_s_is_on_signal">%s está en Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Desaparición das mensaxes desactivada</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Desaparición das mensaxes establecida en%s</string>
     <string name="ThreadRecord_safety_number_changed">O número de seguranza cambiou</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">O teu número de seguranza con %s cambiou.</string>
     <string name="ThreadRecord_you_marked_verified">Marcaches como verificado</string>
@@ -244,7 +240,6 @@
         <item quantity="other">%d elementos</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Erro ao reproducir o vídeo</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Contacto</string>
     <string name="attachment_type_selector__contact_description">Contacto</string>
@@ -278,7 +273,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Erro ao enviar</string>
     <string name="conversation_item_sent__delivered_description">Entregado</string>
-    <string name="conversation_item_sent__message_read">Mensaxe lida</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Foto do contacto</string>
     <!-- audio_view -->
@@ -288,7 +282,7 @@
     <string name="join">Entrar no grupo</string>
     <string name="open_group_guidelines_pinned_message">Mensaxe fixada</string>
     <string name="open_group_guidelines_community_guidelines">Directrices da comunidade</string>
-    <string name="open_group_guidelines_read">Ler</string>
+    <string name="read">Ler</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotografía</string>
     <string name="QuoteView_original_missing">Non se atopou a mensaxe orixinal</string>
@@ -309,7 +303,7 @@
     <string name="recipient_preferences__block">Bloquear</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Algúns problemas requiren a túa atención.</string>
-    <string name="message_details_header__sent">Enviada</string>
+    <string name="disappearingMessagesSent">Enviada</string>
     <string name="message_details_header__received">Recibida</string>
     <string name="message_details_header__disappears">Desaparece</string>
     <string name="message_details_header__via">Vía</string>
@@ -400,7 +394,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Gardar anexo</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Desaparición das mensaxes</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Mensaxes que caducan</string>
     <!-- conversation_muted -->

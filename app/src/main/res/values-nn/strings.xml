@@ -32,7 +32,7 @@
     <string name="BucketedThreadMedia_Today">I dag</string>
     <string name="BucketedThreadMedia_Yesterday">I går</string>
     <string name="BucketedThreadMedia_This_week">Denne veka</string>
-    <string name="BucketedThreadMedia_This_month">Denne månaden</string>
+    <string name="attachmentsThisMonth">Denne månaden</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Fann ingen nettlesar.</string>
     <!-- ContactsCursorLoader -->
@@ -104,7 +104,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Trykk og hald for å spela inn talemelding , slepp for å senda</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Klarte ikkje finna meldinga</string>
     <string name="LongMessageActivity_message_from_s">Melding frå %1$s</string>
     <string name="LongMessageActivity_your_message">Di melding</string>
     <!-- MediaOverviewActivity -->
@@ -118,7 +117,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Slettar</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Slettar meldingar …</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Hentar vedlegg …</string>
+    <string name="attachmentsCollecting">Hentar vedlegg …</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediemelding</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Lastar ned MMS-melding</string>
@@ -135,7 +134,6 @@
     <string name="MessageRecord_you_updated_group">Du oppdaterte gruppa.</string>
     <string name="MessageRecord_s_updated_group">%s oppdaterte gruppa.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Utløpstid for meldingar</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Meldingar går ikkje ut på tid.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meldingar du sender og mottek i denne samtalen forsvinn %s etter at dei er lesne.</string>
     <!-- PassphrasePromptActivity -->
@@ -161,8 +159,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="ThreadRecord_secure_session_reset">Sikker økt tilbakestilt.</string>
     <string name="ThreadRecord_media_message">Mediemelding</string>
     <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Forsvinnande meldingar skrudd av</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Utløpstid for melding endra til %s</string>
     <string name="ThreadRecord_safety_number_changed">Endra tryggleiksnummer</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Tryggleiksnummeret ditt med %s har endra seg.</string>
     <string name="ThreadRecord_you_marked_verified">Du markerte som stadfesta</string>
@@ -224,7 +220,6 @@ nøkkelutvekslingsmelding.</string>
         <item quantity="other">%d element</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Klarte ikkje spela videoen</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
@@ -253,7 +248,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Feil ved sending</string>
     <string name="conversation_item_sent__delivered_description">Levert</string>
-    <string name="conversation_item_sent__message_read">Melding lesen</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Kontaktfoto</string>
     <!-- audio_view -->
@@ -279,7 +273,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="recipient_preferences__block">Blokker</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Visse problem treng di merksemd.</string>
-    <string name="message_details_header__sent">Sendt</string>
+    <string name="disappearingMessagesSent">Sendt</string>
     <string name="message_details_header__received">Motteke</string>
     <string name="message_details_header__disappears">Forsvinn</string>
     <string name="message_details_header__to">Til:</string>
@@ -364,7 +358,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lagra vedlegg</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Forsvinnande meldingar</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Utgåande meldingar</string>
     <!-- conversation_muted -->

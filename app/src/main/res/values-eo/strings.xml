@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">Hodiaŭ</string>
     <string name="BucketedThreadMedia_Yesterday">Hieraŭ</string>
     <string name="BucketedThreadMedia_This_week">Ĉi tiu semajno</string>
-    <string name="BucketedThreadMedia_This_month">Ĉi tiu monato</string>
+    <string name="attachmentsThisMonth">Ĉi tiu monato</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Neniu retumilo trovita.</string>
     <!-- ContactsCursorLoader -->
@@ -119,7 +119,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tuŝadu por registri voĉan mesaĝon, maltuŝadu por sendi</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Ne eblas trovi mesaĝon</string>
     <string name="LongMessageActivity_message_from_s">Mesaĝo el %1$s</string>
     <string name="LongMessageActivity_your_message">Via mesaĝo</string>
     <!-- MediaOverviewActivity -->
@@ -133,7 +132,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Forviŝante</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Forviŝante mesaĝojn...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Kolekto de kunsendaĵoj...</string>
+    <string name="attachmentsCollecting">Kolekto de kunsendaĵoj...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Aŭdvida mesaĝo</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Elŝutante MMS-mesaĝon</string>
@@ -155,7 +154,6 @@
     <string name="MessageRecord_you_updated_group">Vi ĝisdatigis la grupon.</string>
     <string name="MessageRecord_s_updated_group">%s ĝisdatigis la grupon.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Memviŝontaj mesaĝoj</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Viaj mesaĝoj ne senvalidiĝos.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Mesaĝoj senditaj kaj ricevitaj en tiu ĉi interparolo malaperos %s post ilia lego.</string>
     <!-- PassphrasePromptActivity -->
@@ -181,8 +179,6 @@
     <string name="ThreadRecord_secure_session_reset">Sekura seanco restarigita.</string>
     <string name="ThreadRecord_media_message">Aŭdvida mesaĝo</string>
     <string name="ThreadRecord_s_is_on_signal">%s estas ĉe Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Memviŝontaj mesaĝoj malŝaltita</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Daŭro de memviŝontaj mesaĝoj agordita je %s</string>
     <string name="ThreadRecord_media_saved_by_s">%s elŝutis la dosieron.</string>
     <string name="ThreadRecord_safety_number_changed">Sekuriga numero ŝanĝiĝis</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Via sekuriga numero kun %s ŝanĝiĝis.</string>
@@ -246,7 +242,6 @@
         <item quantity="other">%d elementoj</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Eraro dum ludo de videaĵo</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Kontakto</string>
     <string name="attachment_type_selector__contact_description">Kontakto</string>
@@ -280,7 +275,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Sendo malsukcesis</string>
     <string name="conversation_item_sent__delivered_description">Liverita</string>
-    <string name="conversation_item_sent__message_read">Mesaĝo legita</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Kontakta bildo</string>
     <!-- audio_view -->
@@ -290,7 +284,7 @@
     <string name="join">Aliĝi</string>
     <string name="open_group_guidelines_pinned_message">Fiksita Mesaĝo</string>
     <string name="open_group_guidelines_community_guidelines">Komunumaj Reguloj</string>
-    <string name="open_group_guidelines_read">Legita</string>
+    <string name="read">Legita</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Origina mesaĝo ne troveblas</string>
@@ -311,7 +305,7 @@
     <string name="recipient_preferences__block">Bloki</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Problemoj bezonas vian atenton.</string>
-    <string name="message_details_header__sent">Sendita</string>
+    <string name="disappearingMessagesSent">Sendita</string>
     <string name="message_details_header__received">Ricevita</string>
     <string name="message_details_header__disappears">Malaperos je</string>
     <string name="message_details_header__via">Per</string>
@@ -404,7 +398,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Konservi kunsendaĵon</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Memviŝontaj mesaĝoj</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Mesaĝoj senvalidiĝos je</string>
     <!-- conversation_muted -->
@@ -552,12 +545,9 @@
     <string name="open">Malfermi</string>
     <string name="dialog_link_preview_title">Ĉu Ŝalti Antaŭrigardojn de Ligilo?</string>
     <string name="dialog_link_preview_enable_button_title">Ŝalti</string>
-    <string name="dialog_download_title">Ĉu konfidi %s?</string>
-    <string name="dialog_download_explanation">Ĉu vi certas ke vi volas elŝuti aŭdvidaĵon senditan de %s?</string>
     <string name="download">Elŝuti</string>
     <string name="activity_conversation_blocked_banner_text">%s estas blokita. Ĉu malbloki tiun?</string>
     <string name="media">Aŭdvidaĵo</string>
-    <string name="UntrustedAttachmentView_download_attachment">Frapetu por elŝuti %s</string>
     <string name="_error">Eraro</string>
     <string name="warning">Averto</string>
     <string name="dialog_send_seed_send_button_title">Sendi</string>

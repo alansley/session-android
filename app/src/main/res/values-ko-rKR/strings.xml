@@ -34,7 +34,7 @@
     <string name="BucketedThreadMedia_Today">오늘</string>
     <string name="BucketedThreadMedia_Yesterday">어제</string>
     <string name="BucketedThreadMedia_This_week">이번주</string>
-    <string name="BucketedThreadMedia_This_month">이번달</string>
+    <string name="attachmentsThisMonth">이번달</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">웹 브라우저를 못 찾겠어요.</string>
     <!-- ContactsCursorLoader -->
@@ -107,7 +107,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">길게 눌러 음성메시지 녹음하고 보내려면 손 떼세요.</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">메시지를 찾을 수 없음</string>
     <string name="LongMessageActivity_message_from_s">%1$s의 메시지</string>
     <string name="LongMessageActivity_your_message">당신의 메시지</string>
     <!-- MediaOverviewActivity -->
@@ -119,7 +118,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">이전 메시지 삭제</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">메시지를 삭제 중…</string>
-    <string name="MediaOverviewActivity_collecting_attachments">첨부파일 저장 준비 중…</string>
+    <string name="attachmentsCollecting">첨부파일 저장 준비 중…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">멀티미디어 메시지</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS 메시지 내려 받는 중</string>
@@ -134,7 +133,6 @@
     <string name="MessageRecord_you_updated_group">그룹을 갱신하였습니다.</string>
     <string name="MessageRecord_s_updated_group">%s 이 그룹을 갱신했습니다.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">사라지는 메시지들</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">당신의 메시지들은 시한만료되지 않을 것입니다.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">이 대화에서 보내고 받은 메시지들은 , 보여진 후 %s 후에  표시에서 사라질 것입니다.</string>
     <!-- PassphrasePromptActivity -->
@@ -238,7 +236,7 @@
     <string name="recipient_preferences__block">차단</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">문제가 발생하여 확인이 필요합니다.</string>
-    <string name="message_details_header__sent">보낸 시간:</string>
+    <string name="disappearingMessagesSent">보낸 시간:</string>
     <string name="message_details_header__received">받은 시간:</string>
     <string name="message_details_header__via">유형:</string>
     <string name="message_details_header__to">받는사람:</string>
@@ -316,7 +314,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">첨부파일 저장</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">사라지는 메시지들</string>
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">알림 켜기</string>

@@ -104,10 +104,10 @@ public class ThreadRecord extends DisplayRecord {
     } else if (SmsDatabase.Types.isExpirationTimerUpdate(type)) {
       int seconds = (int) (getExpiresIn() / 1000);
       if (seconds <= 0) {
-        return emphasisAdded(context.getString(R.string.ThreadRecord_disappearing_messages_disabled));
+        return emphasisAdded(context.getString(R.string.disappearingMessagesTurnedOff));
       }
       String time = ExpirationUtil.getExpirationDisplayValue(context, seconds);
-      return emphasisAdded(context.getString(R.string.ThreadRecord_disappearing_message_time_updated_to_s, time));
+      return emphasisAdded(context.getString(R.string.disappearingMessagesSet, time));
     } else if (MmsSmsColumns.Types.isMediaSavedExtraction(type)) {
       return emphasisAdded(context.getString(R.string.ThreadRecord_media_saved_by_s, getRecipient().toShortString()));
     } else if (MmsSmsColumns.Types.isScreenshotExtraction(type)) {

@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">Bugün</string>
     <string name="BucketedThreadMedia_Yesterday">Dün</string>
     <string name="BucketedThreadMedia_This_week">Bu hafta</string>
-    <string name="BucketedThreadMedia_This_month">Bu Ay</string>
+    <string name="attachmentsThisMonth">Bu Ay</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Hiçbir web tarayıcısı bulunamadı.</string>
     <!-- ContactsCursorLoader -->
@@ -119,7 +119,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Sesli ileti kaydetmek için dokunun ve basılı tutun, göndermek için bırakın</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">İleti bulunamadı </string>
     <string name="LongMessageActivity_message_from_s">%1$s kişisinden ileti</string>
     <string name="LongMessageActivity_your_message">İletiniz</string>
     <!-- MediaOverviewActivity -->
@@ -133,7 +132,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Siliniyor</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">İletiler siliniyor...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Eklentiler toplanıyor...</string>
+    <string name="attachmentsCollecting">Eklentiler toplanıyor...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Çoğulortam iletisi</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS iletisi indiriliyor</string>
@@ -155,7 +154,6 @@
     <string name="MessageRecord_you_updated_group">Grubu güncellediniz.</string>
     <string name="MessageRecord_s_updated_group">%s grubu güncelledi.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Kaybolan iletiler</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">İletileriniz kaybolmayacak.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Bu sohbette gönderilen ve alınan iletiler görüldükten %s sonra yok olur.</string>
     <!-- PassphrasePromptActivity -->
@@ -181,8 +179,6 @@ iletisi alındı!</string>
     <string name="ThreadRecord_secure_session_reset">Güvenli oturumu sıfırla.</string>
     <string name="ThreadRecord_media_message">İçerik iletisi</string>
     <string name="ThreadRecord_s_is_on_signal">%s Session\'e katıldı!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Kaybolan iletiler devre dışı</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Kaybolan ileti süresi %s olarak ayarlandı</string>
     <string name="ThreadRecord_media_saved_by_s">Medya %s tarafından kaydedildi.</string>
     <string name="ThreadRecord_safety_number_changed">Güvenlik numarası değişti</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s ile güvenlik numaranız değişti.</string>
@@ -246,7 +242,6 @@ iletisi alındı!</string>
         <item quantity="other">%d Öğe</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Video oynatılırken hata</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Kişi</string>
     <string name="attachment_type_selector__contact_description">Kişi</string>
@@ -280,7 +275,6 @@ iletisi alındı!</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Gönderme başarısız</string>
     <string name="conversation_item_sent__delivered_description">Gönderildi</string>
-    <string name="conversation_item_sent__message_read">İleti okundu</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Kişi fotoğrafı</string>
     <!-- audio_view -->
@@ -290,7 +284,7 @@ iletisi alındı!</string>
     <string name="join">Katıl</string>
     <string name="open_group_guidelines_pinned_message">Sabitlenen mesaj</string>
     <string name="open_group_guidelines_community_guidelines">Topluluk İlkeleri</string>
-    <string name="open_group_guidelines_read">Okundu</string>
+    <string name="read">Okundu</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotoğraf</string>
     <string name="QuoteView_original_missing">İletinin aslı bulunamadı</string>
@@ -311,7 +305,7 @@ iletisi alındı!</string>
     <string name="recipient_preferences__block">Engelle</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Bazı sorunlar ilginizi gerektiriyor.</string>
-    <string name="message_details_header__sent">Gönderildi</string>
+    <string name="disappearingMessagesSent">Gönderildi</string>
     <string name="message_details_header__received">Alındı</string>
     <string name="message_details_header__disappears">Kaybolacak</string>
     <string name="message_details_header__via">Vasıtasıyla</string>
@@ -404,7 +398,6 @@ iletisi alındı!</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Eklentiyi kaydet</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Kaybolan iletiler</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">İletiler kayboluyor</string>
     <!-- conversation_muted -->
@@ -560,13 +553,10 @@ iletisi alındı!</string>
     <string name="dialog_link_preview_title">Bağlantı Önizlemeleri Etkinleştirilsin mi?</string>
     <string name="dialog_link_preview_explanation">Bağlantı önizlemelerini etkinleştirmek, gönderdiğiniz ve aldığınız URL\'lerin önizlemelerini gösterir. Bu yararlı olabilir, ancak Session’ın önizleme oluşturmak için bağlantılı web siteleriyle iletişim kurması gerekir. Bağlantı önizlemelerini her zaman Session ayarlarından devre dışı bırakabilirsiniz.</string>
     <string name="dialog_link_preview_enable_button_title">Etkinleştir</string>
-    <string name="dialog_download_title">Güven %s?</string>
-    <string name="dialog_download_explanation">%s tarafından gönderilen medyayı indirmek istediğinizden emin misiniz?</string>
     <string name="download">İndir</string>
     <string name="activity_conversation_blocked_banner_text">%s engellendi. Engelleme kaldırılsın mı?</string>
     <string name="activity_conversation_attachment_prep_failed">Ek, gönderilmek üzere hazırlanamadı.</string>
     <string name="media">Medya</string>
-    <string name="UntrustedAttachmentView_download_attachment">İndirmek için dokunun %s</string>
     <string name="_error">Hata</string>
     <string name="warning">Uyarı</string>
     <string name="dialog_send_seed_send_button_title">Gönder</string>

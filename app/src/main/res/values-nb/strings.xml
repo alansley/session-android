@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">I dag</string>
     <string name="BucketedThreadMedia_Yesterday">I går</string>
     <string name="BucketedThreadMedia_This_week">Denne uken</string>
-    <string name="BucketedThreadMedia_This_month">Denne måneden</string>
+    <string name="attachmentsThisMonth">Denne måneden</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Ingen nettleser funnet.</string>
     <!-- ContactsCursorLoader -->
@@ -119,7 +119,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Trykk og hold for å spille inn talemelding , slipp for å sende</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Kunne ikke finne meldingen</string>
     <string name="LongMessageActivity_message_from_s">Melding fra %1$s</string>
     <string name="LongMessageActivity_your_message">Din melding</string>
     <!-- MediaOverviewActivity -->
@@ -133,7 +132,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Sletter</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Sletter meldinger …</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Henter vedlegg …</string>
+    <string name="attachmentsCollecting">Henter vedlegg …</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediemelding</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Laster ned MMS-melding</string>
@@ -155,7 +154,6 @@
     <string name="MessageRecord_you_updated_group">Du har oppdatert gruppa.</string>
     <string name="MessageRecord_s_updated_group">%s oppdaterte gruppa.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Utløpstid for meldinger</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Meldinger går ikke ut på tid.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meldinger du sender og mottar i denne samtalen forsvinner %s etter at de er blitt sett.</string>
     <!-- PassphrasePromptActivity -->
@@ -181,8 +179,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="ThreadRecord_secure_session_reset">Sikker økt tilbakestilt.</string>
     <string name="ThreadRecord_media_message">Mediemelding</string>
     <string name="ThreadRecord_s_is_on_signal"> %s er på Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Forsvinner meldinger deaktivert</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Utløpstid for meldinger endret til %s</string>
     <string name="ThreadRecord_media_saved_by_s">Media lagret av %s.</string>
     <string name="ThreadRecord_safety_number_changed">Sikkerhetsnummer endret </string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sikkerhetsnummeret ditt for %s er endret.</string>
@@ -246,7 +242,6 @@ nøkkelutvekslingsmelding.</string>
         <item quantity="other">%d Deler</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Feil ved avspilling av video</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
@@ -280,7 +275,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Sending mislyktes</string>
     <string name="conversation_item_sent__delivered_description">Levert</string>
-    <string name="conversation_item_sent__message_read">Melding lest</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Kontaktfoto</string>
     <!-- audio_view -->
@@ -290,7 +284,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="join">Bli med</string>
     <string name="open_group_guidelines_pinned_message">Festet melding</string>
     <string name="open_group_guidelines_community_guidelines">Retningslinjer for fellesskap</string>
-    <string name="open_group_guidelines_read">Les</string>
+    <string name="read">Les</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Bilde</string>
     <string name="QuoteView_original_missing">Opprinnelig melding ikke funnet</string>
@@ -311,7 +305,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="recipient_preferences__block">Blokker</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Problemer venter på manuell løsning.</string>
-    <string name="message_details_header__sent">Sendt</string>
+    <string name="disappearingMessagesSent">Sendt</string>
     <string name="message_details_header__received">Mottatt</string>
     <string name="message_details_header__disappears">Forsvinner</string>
     <string name="message_details_header__via">Via</string>
@@ -404,7 +398,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lagre vedlegg</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Utløpstid for meldinger</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Utløpende meldinger</string>
     <!-- conversation_muted -->
@@ -560,13 +553,10 @@ nøkkelutvekslingsmelding.</string>
     <string name="dialog_link_preview_title">Aktiver Link forhåndsvisninger?</string>
     <string name="dialog_link_preview_explanation">Aktivering av lenkepåvisninger vil vise forhåndsvisninger for URLer du sender og mottar. Dette kan være nyttig, men Session må kontakte koblede nettsider for å generere forhåndsvisninger. Du kan alltid deaktivere link forhåndsvisninger i innstillinger.</string>
     <string name="dialog_link_preview_enable_button_title">Aktiver</string>
-    <string name="dialog_download_title">Stol på %s?</string>
-    <string name="dialog_download_explanation">Er du sikker på at du vil laste ned medier sendt av %s?</string>
     <string name="download">Last ned</string>
     <string name="activity_conversation_blocked_banner_text">%s er blokkert. Opphev dem?</string>
     <string name="activity_conversation_attachment_prep_failed">Kunne ikke forberede vedlegg for sending.</string>
     <string name="media">Medier</string>
-    <string name="UntrustedAttachmentView_download_attachment">Trykk for å laste ned %s</string>
     <string name="_error">Feil</string>
     <string name="warning">Advarsel</string>
     <string name="dialog_send_seed_send_button_title">Send</string>

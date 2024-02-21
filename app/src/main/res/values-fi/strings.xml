@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">tänään</string>
     <string name="BucketedThreadMedia_Yesterday">eilen</string>
     <string name="BucketedThreadMedia_This_week">Tällä viikolla</string>
-    <string name="BucketedThreadMedia_This_month">Tässä kuussa</string>
+    <string name="attachmentsThisMonth">Tässä kuussa</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Verkkoselainta ei löytynyt.</string>
     <!-- ContactsCursorLoader -->
@@ -119,7 +119,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Pidä pohjassa nauhoittaaksesi ääniviestin ja päästä irti lähettääksesi sen</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Viestiä ei löydy</string>
     <string name="LongMessageActivity_message_from_s">Viesti lähettäjältä: %1$s</string>
     <string name="LongMessageActivity_your_message">Sinun viesti</string>
     <!-- MediaOverviewActivity -->
@@ -133,7 +132,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Poistetaan</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Viestejä poistetaan...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Kerätään liitetiedostoja...</string>
+    <string name="attachmentsCollecting">Kerätään liitetiedostoja...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediaviesti</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Ladataan MMS-viestiä</string>
@@ -155,7 +154,6 @@
     <string name="MessageRecord_you_updated_group">Sinä päivitit ryhmää.</string>
     <string name="MessageRecord_s_updated_group">%s päivitti ryhmää.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Katoavat viestit</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Viestisi eivät vanhene.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Lähetetyt ja vastaanotetut viestit katoavat tästä keskustelusta %s siitä, kun ne on nähty.</string>
     <!-- PassphrasePromptActivity -->
@@ -181,8 +179,6 @@ on viallinen!</string>
     <string name="ThreadRecord_secure_session_reset">Suojattu istunto alustettu</string>
     <string name="ThreadRecord_media_message">Mediaviesti</string>
     <string name="ThreadRecord_s_is_on_signal">%s käyttää Sessionia!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Katoavat viestit poistettu käytöstä</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Katoavien viestien ajaksi asetettu %s</string>
     <string name="ThreadRecord_safety_number_changed">Turvanumero vaihtunut</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sinun ja yhteystiedon %s turvanumero on vaihtunut.</string>
     <string name="ThreadRecord_you_marked_verified">Merkitsit varmennetuksi.</string>
@@ -245,7 +241,6 @@ on viallinen!</string>
         <item quantity="other">%d kappaletta</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Virhe videon toistossa</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Yhteystieto</string>
     <string name="attachment_type_selector__contact_description">Yhteystieto</string>
@@ -279,7 +274,6 @@ on viallinen!</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Lähetys epäonnistui</string>
     <string name="conversation_item_sent__delivered_description">Toimitettu</string>
-    <string name="conversation_item_sent__message_read">Viesti luettu</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Yhteystiedon kuva</string>
     <!-- audio_view -->
@@ -289,7 +283,7 @@ on viallinen!</string>
     <string name="join">Liity</string>
     <string name="open_group_guidelines_pinned_message">Kiinnitetty viesti</string>
     <string name="open_group_guidelines_community_guidelines">Yhteisön normit</string>
-    <string name="open_group_guidelines_read">Lue</string>
+    <string name="read">Lue</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Kuva</string>
     <string name="QuoteView_original_missing">Alkuperäistä viestiä ei löytynyt</string>
@@ -310,7 +304,7 @@ on viallinen!</string>
     <string name="recipient_preferences__block">Estä</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Jotkin asiat kaipaavat huomiotasi.</string>
-    <string name="message_details_header__sent">Lähetetty</string>
+    <string name="disappearingMessagesSent">Lähetetty</string>
     <string name="message_details_header__received">Vastaanotettu</string>
     <string name="message_details_header__disappears">Katoamisaika</string>
     <string name="message_details_header__via">Tyyppi</string>
@@ -403,7 +397,6 @@ on viallinen!</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Tallenna liite</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Katoavat viestit</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Viestit vanhenevat</string>
     <!-- conversation_muted -->
@@ -559,13 +552,10 @@ on viallinen!</string>
     <string name="dialog_link_preview_title">Salli linkkien esikatselu?</string>
     <string name="dialog_link_preview_explanation">Linkkien esikatselu näyttää esikatselun saamiesi ja lähettämiesi linkkien sisällöstä. Tämä voi olla hyödyllistä, mutta Sessionin pitää vierailla linkatulla nettisivulla luodakseen esikatselun. Voit aina ottaa tämän toiminnon pois päältä Sessionin asetuksissa.</string>
     <string name="dialog_link_preview_enable_button_title">Ota käyttöön</string>
-    <string name="dialog_download_title">Luotatko henkilöön %s?</string>
-    <string name="dialog_download_explanation">Oletko varma, että haluat ladata henkilön %s lähettämää mediaa?</string>
     <string name="download">Lataa</string>
     <string name="activity_conversation_blocked_banner_text">%s on estetty. Poistetaanko esto?</string>
     <string name="activity_conversation_attachment_prep_failed">Liitetiedoston valmistelu lähettämistä varten epäonnistui.</string>
     <string name="media">Media</string>
-    <string name="UntrustedAttachmentView_download_attachment">Lataa koskettamalla %s</string>
     <string name="_error">Virhe</string>
     <string name="warning">Varoitus</string>
     <string name="dialog_send_seed_send_button_title">Lähetä</string>

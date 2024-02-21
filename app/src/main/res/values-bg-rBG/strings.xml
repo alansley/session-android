@@ -36,7 +36,7 @@
     <string name="BucketedThreadMedia_Today">Днес</string>
     <string name="BucketedThreadMedia_Yesterday">Вчера</string>
     <string name="BucketedThreadMedia_This_week">Тази седмица</string>
-    <string name="BucketedThreadMedia_This_month">Този месец</string>
+    <string name="attachmentsThisMonth">Този месец</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Не е открит уеб браузър.</string>
     <!-- ContactsCursorLoader -->
@@ -113,7 +113,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Натиснете и задръжте, за да запишете гласово съобщение, отпуснете, за да го изпратите</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Съобщението не е намерено</string>
     <string name="LongMessageActivity_message_from_s">Съобщение от %1$s</string>
     <string name="LongMessageActivity_your_message">Вашето съобщение</string>
     <!-- MediaOverviewActivity -->
@@ -127,7 +126,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Изтриване</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Изтриване на съобщения...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Събиране на прикачени файлове...</string>
+    <string name="attachmentsCollecting">Събиране на прикачени файлове...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Мултимедийно съобщение</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Изтегляне на MMS съобщение</string>
@@ -149,7 +148,6 @@
     <string name="MessageRecord_you_updated_group">Обновихте групата.</string>
     <string name="MessageRecord_s_updated_group">%s обнови групата.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Изчезващи съобщения</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Съобщенията няма да изчезват.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Изпратени и получени съобщения в този разговор ще изчезнат %s след изпращането им.</string>
     <!-- PassphrasePromptActivity -->
@@ -175,8 +173,6 @@
     <string name="ThreadRecord_secure_session_reset">Започване на нова сигурна сесия.</string>
     <string name="ThreadRecord_media_message">Медийно съобщение</string>
     <string name="ThreadRecord_s_is_on_signal">%s е в Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Изчезващите съобщения са деактивирани</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Времето за изчезване на съобщенията е %s</string>
     <string name="ThreadRecord_safety_number_changed">Числата за сигурност се промениха</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Числата Ви за сигурност с %s са променени.</string>
     <string name="ThreadRecord_you_marked_verified">Отбелязахте като потвърдено</string>
@@ -237,7 +233,6 @@
         <item quantity="other">%d неща</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Грешка при пускане на видео</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Контакт</string>
     <string name="attachment_type_selector__contact_description">Контакт</string>
@@ -268,7 +263,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Неуспешно Изпращане</string>
     <string name="conversation_item_sent__delivered_description">Доставено</string>
-    <string name="conversation_item_sent__message_read">Съобщението е прочетено</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Снимка на контакта</string>
     <!-- audio_view -->
@@ -295,7 +289,7 @@
     <string name="recipient_preferences__block">Блокиране</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Няколко проблема изискват вашето внимание.</string>
-    <string name="message_details_header__sent">Изпратен</string>
+    <string name="disappearingMessagesSent">Изпратен</string>
     <string name="message_details_header__received">Получен</string>
     <string name="message_details_header__disappears">Изчезва</string>
     <string name="message_details_header__via">През</string>
@@ -388,7 +382,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Запази прикачения файл</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Изчезващи съобщения</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Съобщения, които изчеват</string>
     <!-- conversation_muted -->

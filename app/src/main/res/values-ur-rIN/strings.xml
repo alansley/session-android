@@ -28,7 +28,7 @@
     <string name="BucketedThreadMedia_Today">آج</string>
     <string name="BucketedThreadMedia_Yesterday">کل</string>
     <string name="BucketedThreadMedia_This_week">اس ہفتے</string>
-    <string name="BucketedThreadMedia_This_month">اس مہینے</string>
+    <string name="attachmentsThisMonth">اس مہینے</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">کوئی ویب براؤزر نہیں ملا.</string>
     <!-- ContactsCursorLoader -->
@@ -72,13 +72,12 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">صوتی پیغام ریکارڈ کرنے کے لیے تھپتھپائیں اور دبائے رکھیں، بھیجنے کے لیے چھوڑ دیں</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">پیغام تلاش کرنے سے قاصر</string>
     <string name="LongMessageActivity_message_from_s">%1$s کی طرف سے پیغام</string>
     <string name="LongMessageActivity_your_message">آپ کا پیغام</string>
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">حذف کرنے کا عمل جاری ہے</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">پیغامات حذف ہو رہے ہیں...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">منسلکات کو جمع کرنے کا عمل جاری ہے...</string>
+    <string name="attachmentsCollecting">منسلکات کو جمع کرنے کا عمل جاری ہے...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ملٹی میڈیا پیغام</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS پیغام ڈاؤن لوڈ ہو رہا ہے</string>

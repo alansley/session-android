@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">నేడు</string>
     <string name="BucketedThreadMedia_Yesterday">నిన్న</string>
     <string name="BucketedThreadMedia_This_week">ఈ వారం</string>
-    <string name="BucketedThreadMedia_This_month">ఈ నెల</string>
+    <string name="attachmentsThisMonth">ఈ నెల</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">వెబ్ బ్రౌజర్ కనుగొనబడలేదు.</string>
     <!-- ContactsCursorLoader -->
@@ -128,7 +128,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">తొలగిపోతున్నాయ్</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">సందేశాలను తొలగిస్తోంది ...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">జోడింపుల సేకరణ ...</string>
+    <string name="attachmentsCollecting">జోడింపుల సేకరణ ...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">మల్టీమీడియా సందేశం</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">ఎమ్మెమ్మెస్ సందేశం దిగుమతి </string>
@@ -143,7 +143,6 @@
     <string name="MessageRecord_you_updated_group">మీరు ఈ సమూహాన్ని నవీకరించారు.</string>
     <string name="MessageRecord_s_updated_group">%s  సమూహాన్ని నవీకరించారు.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">అదృశ్యమవుతున్న  సందేశాలు</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">మీ సందేశాలకు గడువు ఉండదు.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">వారు చూసిన తరువాత ఈ సంభాషణ లో పంపిన మరియు అందుకున్న సందేశాలు %s కనిపించదు.</string>
     <!-- PassphrasePromptActivity -->
@@ -168,8 +167,6 @@
     <string name="ThreadRecord_secure_session_reset">సురక్షిత సెషన్ పునరుద్ధరించు.</string>
     <string name="ThreadRecord_media_message">మీడియ సందేశం</string>
     <string name="ThreadRecord_s_is_on_signal">1%s Session ఉంది!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">కనుమరుగవుతున్న సందేశాలు నిలిపివేయబడ్డాయి</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s"> కనుమరుగవుథున సంధెషం కొరకు సమయం కుర్చుత కొసం %s</string>
     <string name="ThreadRecord_safety_number_changed">భద్రతా సంఖ్య మార్చబడింది</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s తో మీ భద్రత సంఖ్య మార్చబడింది.</string>
     <string name="ThreadRecord_you_marked_verified">మీరు ధృవీకరించినట్లుగా గుర్తు పెట్టారు</string>
@@ -226,7 +223,6 @@
     <string name="SingleRecipientNotificationBuilder_new_message">కొత్త సందేశం</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">వీడియో ప్రదర్శనా లోపం</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">పరిచయం</string>
     <string name="attachment_type_selector__contact_description">పరిచయం</string>
@@ -258,7 +254,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">పంపడం విఫలమైంది</string>
     <string name="conversation_item_sent__delivered_description">పంపిణి ఐనది</string>
-    <string name="conversation_item_sent__message_read">సందేశం చదవబడింది</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">పరిచయ ఫొటో</string>
     <!-- audio_view -->
@@ -285,7 +280,7 @@
     <string name="recipient_preferences__block">నిరోధించు</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">కొన్ని సమస్యలకు మీ శ్రద్ధ అవసరం.</string>
-    <string name="message_details_header__sent">పంపిన</string>
+    <string name="disappearingMessagesSent">పంపిన</string>
     <string name="message_details_header__received">అందుకున్న</string>
     <string name="message_details_header__disappears">అదృశ్యమవుతుంది</string>
     <string name="message_details_header__via">ద్వారా</string>
@@ -374,7 +369,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">జత పరిచినది దాచి పెట్టు </string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">అదృశ్యమవుతున్న  సందేశాలు</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring"> సమయ పరిమితి లేని సందేశాలు </string>
     <!-- conversation_muted -->

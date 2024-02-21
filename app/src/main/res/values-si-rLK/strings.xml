@@ -18,7 +18,7 @@
     <string name="BucketedThreadMedia_Today">අද</string>
     <string name="BucketedThreadMedia_Yesterday">ඊයේ</string>
     <string name="BucketedThreadMedia_This_week">මෙම සතිය</string>
-    <string name="BucketedThreadMedia_This_month">මෙම මාසය</string>
+    <string name="attachmentsThisMonth">මෙම මාසය</string>
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
     <string name="ContactsCursorLoader_groups">සමූහ</string>
@@ -63,7 +63,6 @@
     <string name="conversationsSettingsAllMedia">සියලුම මාධ්‍යය</string>
     <!-- MessageRecord -->
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">නොපෙනී යන පණිවිඩ</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">ඔබගේ පණිවිඩ කල් ඉකුත් නොවනු ඇත.</string>
     <!-- PassphrasePromptActivity -->
     <!-- RecipientPreferencesActivity -->
@@ -102,7 +101,6 @@
     <string name="SingleRecipientNotificationBuilder_new_message">නව පණිවිඩය</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">දෘශ්‍යකය වාදන දෝෂයකි</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">සබඳතාව</string>
     <string name="attachment_type_selector__contact_description">සබඳතාව</string>
@@ -210,11 +208,9 @@
     <string name="dialog_open_url_title">ඒ.ස.නි. විවෘත?</string>
     <string name="open">විවෘත</string>
     <string name="dialog_link_preview_enable_button_title">සබල කරන්න</string>
-    <string name="dialog_download_title">%s විශ්වාස ද?</string>
     <string name="download">බාගන්න</string>
     <string name="activity_conversation_blocked_banner_text">%s අවහිර කර ඇත. අනවහිර කරනවාද?</string>
     <string name="media">මාධ්‍යය</string>
-    <string name="UntrustedAttachmentView_download_attachment">%s බාගැනීමට තට්ටු කරන්න</string>
     <string name="_error">දෝෂය</string>
     <string name="warning">අවවාදයයි</string>
     <string name="dialog_send_seed_send_button_title">යවන්න</string>

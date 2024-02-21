@@ -185,7 +185,7 @@
     <string name="BucketedThreadMedia_Today">Today</string>
     <string name="BucketedThreadMedia_Yesterday">Yesterday</string>
     <string name="BucketedThreadMedia_This_week">This week</string>
-    <string name="BucketedThreadMedia_This_month">This month</string>
+    <string name="attachmentsThisMonth">This month</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">No web browser found.</string>
     <!-- ContactsCursorLoader -->
@@ -275,7 +275,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tap and hold to record a voice message, release to send</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Unable to find message</string>
     <string name="LongMessageActivity_message_from_s">Message from %1$s</string>
     <string name="LongMessageActivity_your_message">Your message</string>
     <!-- MediaOverviewActivity -->
@@ -289,7 +288,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Deleting</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Deleting messages...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Collecting attachments...</string>
+    <string name="attachmentsCollecting">Collecting attachments...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia message</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Downloading MMS message</string>
@@ -311,7 +310,6 @@
     <string name="MessageRecord_you_updated_group">You updated the group.</string>
     <string name="MessageRecord_s_updated_group">%s updated the group.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Disappearing messages</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Your messages will not expire.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Messages sent and received in this conversation will disappear %s after they have been seen.</string>
     <!-- PassphrasePromptActivity -->
@@ -340,8 +338,6 @@
     <string name="ThreadRecord_secure_session_reset">Secure session reset.</string>
     <string name="ThreadRecord_media_message">Media message</string>
     <string name="ThreadRecord_s_is_on_signal">%s is on Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Disappearing messages disabled</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Disappearing message time set to %s</string>
     <string name="ThreadRecord_media_saved_by_s">Media saved by %s.</string>
     <string name="ThreadRecord_safety_number_changed">Safety number changed</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Your safety number with %s has changed.</string>
@@ -405,7 +401,6 @@
         <item quantity="other">%d Items</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Error playing video</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Contact</string>
     <string name="attachment_type_selector__contact_description">Contact</string>
@@ -440,7 +435,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Send Failed</string>
     <string name="conversation_item_sent__delivered_description">Delivered</string>
-    <string name="conversation_item_sent__message_read">Message read</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Contact photo</string>
     <!-- audio_view -->
@@ -450,7 +444,7 @@
     <string name="join">Join</string>
     <string name="open_group_guidelines_pinned_message">Pinned message</string>
     <string name="open_group_guidelines_community_guidelines">Community guidelines</string>
-    <string name="open_group_guidelines_read">Read</string>
+    <string name="read">Read</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Photo</string>
     <string name="QuoteView_original_missing">Original message not found</string>
@@ -471,7 +465,7 @@
     <string name="recipient_preferences__block">Block</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Some issues need your attention.</string>
-    <string name="message_details_header__sent">Sent</string>
+    <string name="disappearingMessagesSent">Sent</string>
     <string name="message_details_header__received">Received</string>
     <string name="message_details_header__disappears">Disappears</string>
     <string name="message_details_header__via">Via</string>
@@ -594,7 +588,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Save attachment</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Disappearing messages</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Messages expiring</string>
     <!-- conversation_muted -->
@@ -768,14 +761,11 @@
     <string name="dialog_link_preview_title">Enable Link Previews?</string>
     <string name="dialog_link_preview_explanation">Enabling link previews will show previews for URLs you send and receive. This can be useful, but Session will need to contact linked websites to generate previews. You can always disable link previews in Session\'s settings.</string>
     <string name="dialog_link_preview_enable_button_title">Enable</string>
-    <string name="dialog_download_title">Trust %s?</string>
-    <string name="dialog_download_explanation">Are you sure you want to download media sent by %s?</string>
     <string name="download">Download</string>
     <string name="activity_conversation_blocked_banner_text">%s is blocked. Unblock them?</string>
     <string name="activity_conversation_block_user">Block User</string>
     <string name="activity_conversation_attachment_prep_failed">Failed to prepare attachment for sending.</string>
     <string name="media">Media</string>
-    <string name="UntrustedAttachmentView_download_attachment">Tap to download %s</string>
     <string name="_error">Error</string>
     <string name="warning">Warning</string>
     <string name="dialog_send_seed_send_button_title">Send</string>
@@ -976,5 +966,13 @@
     <string name="groupLeaveDescription">Are you sure you want to leave [Test Group]?</string>
     <string name="groupLeaveErrorFailed">Failed to leave [TEST GROUP].</string>
     <string name="searchMatches">%1$d of %2$d matches</string>
+    <string name="searchMatchesNoneSpecific">No results found for [SEARCH TERM]</string>
+    <string name="disappearingMessages">Disappearing Messages</string>
+    <string name="disappearingMessagesTurnedOff">[USER NAME] has turned disappearing messages off.</string>
+    <string name="disappearingMessagesSet">Disappearing message time set to %s.</string>
+    <string name="attachmentsTapToDownload">Tap to download [FILE TYPE]</string>
+    <string name="attachmentsAutoDownloadModalTitle">Auto Download</string>
+    <string name="attachmentsAutoDownloadModalDescription">Would you like to automatically download all files from [USER/GROUP]?</string>
+    <string name="videoErrorPlay">Unable to play video.</string>
 
 </resources>

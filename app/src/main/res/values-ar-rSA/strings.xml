@@ -45,7 +45,7 @@
     <string name="BucketedThreadMedia_Today">اليوم</string>
     <string name="BucketedThreadMedia_Yesterday">البارحة</string>
     <string name="BucketedThreadMedia_This_week">هذا الأسبوع</string>
-    <string name="BucketedThreadMedia_This_month">هذا الشهر</string>
+    <string name="attachmentsThisMonth">هذا الشهر</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">لم يتم العثور على متصفح ويب.</string>
     <!-- ContactsCursorLoader -->
@@ -147,7 +147,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">ألمس وأضغط لتسجيل رسالة صوتية. اسحب إصبعك للإرسال</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">لا يمكن العثور على الرسالة</string>
     <string name="LongMessageActivity_message_from_s">رسالة من %1$s</string>
     <string name="LongMessageActivity_your_message">رسالتك</string>
     <!-- MediaOverviewActivity -->
@@ -169,7 +168,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">جارٍ الحذف</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">حذف الرسائل جارٍ...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">جارٍ جمع المرفقات...</string>
+    <string name="attachmentsCollecting">جارٍ جمع المرفقات...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">رسالة وسائط متعددة</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">تنزيل رسالة الوسائط المتعددة</string>
@@ -195,7 +194,6 @@
     <string name="MessageRecord_you_updated_group">قمت بتحديث المحموعة.</string>
     <string name="MessageRecord_s_updated_group">%s قام بتحديث المحموعة.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">الرسائل المختفية</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">صلاحية رسائلك لن تنتهي.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">الرسائل الصادرة والواردة في هذه المحادثة سوف تختفي بعد %s من رؤيتهم.</string>
     <!-- PassphrasePromptActivity -->
@@ -220,8 +218,6 @@
     <string name="ThreadRecord_secure_session_reset">إعادة ضبط جلسة آمنة.</string>
     <string name="ThreadRecord_media_message">رسالة وسائط متعددة</string>
     <string name="ThreadRecord_s_is_on_signal">%sمتواجد على Session !</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">تم تعطيل الرسائل المخفية</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">ضبط توقيت إخفاء الرسائل إلى %s</string>
     <string name="ThreadRecord_media_saved_by_s">قام %s بحفظ الوسائط.</string>
     <string name="ThreadRecord_safety_number_changed">تم تعديل رقم الأمان</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">تم تغيير رقم الأمان الخاص بك وبـ%s.</string>
@@ -289,7 +285,6 @@
         <item quantity="other">%d عناصر</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">خطأ في تشغيل الفيديو</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">جهة اتصال</string>
     <string name="attachment_type_selector__contact_description">متصل</string>
@@ -323,7 +318,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">الإرسال فشل</string>
     <string name="conversation_item_sent__delivered_description">تم تسليم الرسالة</string>
-    <string name="conversation_item_sent__message_read">تم قراءة الرسالة </string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">صورة جهة الاتصال</string>
     <!-- audio_view -->
@@ -333,7 +327,7 @@
     <string name="join">إنضم</string>
     <string name="open_group_guidelines_pinned_message">الرسائل المثبّتة</string>
     <string name="open_group_guidelines_community_guidelines">المبادئ التوجيهية للمجتمع</string>
-    <string name="open_group_guidelines_read">قراءة</string>
+    <string name="read">قراءة</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">صورة</string>
     <string name="QuoteView_original_missing">لم يتم العثور على الرسالة الأصلية</string>
@@ -354,7 +348,7 @@
     <string name="recipient_preferences__block">حظر</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">بعض المشاكل تتطلب انتباهك.</string>
-    <string name="message_details_header__sent">أرسلت</string>
+    <string name="disappearingMessagesSent">أرسلت</string>
     <string name="message_details_header__received">استلمت</string>
     <string name="message_details_header__disappears">الاختفاء</string>
     <string name="message_details_header__via">بواسطة</string>
@@ -451,7 +445,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">حفظ المرفق</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">الرسائل المختفية</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">صلاحية الرسائل</string>
     <!-- conversation_muted -->
@@ -607,13 +600,10 @@
     <string name="dialog_link_preview_title">تفعيل معاينة الروابط ؟</string>
     <string name="dialog_link_preview_explanation">تفعيل معاينة الروابط سيسمح بمعاينة الروابط المُرسلة و المُستلمة. يمكن لهذا أن يكون مفيداً لكن سيتوجب على تطبيق الجلسة الإتصال بالمواقع لإنشاء المعاينة. يمكن تعطيل هذه الخاصية في التعديلات.</string>
     <string name="dialog_link_preview_enable_button_title">تفعيل</string>
-    <string name="dialog_download_title">هل تثق في %s؟</string>
-    <string name="dialog_download_explanation">هل انت متأكد من تنزيل الوسيط المرسل من طرف %s؟</string>
     <string name="download">تنزيل</string>
     <string name="activity_conversation_blocked_banner_text">%s محظور. إلغاء الحظر؟</string>
     <string name="activity_conversation_attachment_prep_failed">فشل إعداد المرفق للإرسال.</string>
     <string name="media">وسائط</string>
-    <string name="UntrustedAttachmentView_download_attachment">انضغط لتنزيل %s</string>
     <string name="_error">خطأ</string>
     <string name="warning">تحذير</string>
     <string name="dialog_send_seed_send_button_title">أرسل</string>

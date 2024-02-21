@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">Ma</string>
     <string name="BucketedThreadMedia_Yesterday">Tegnap</string>
     <string name="BucketedThreadMedia_This_week">Ezen a héten</string>
-    <string name="BucketedThreadMedia_This_month">Ebben a hónapban</string>
+    <string name="attachmentsThisMonth">Ebben a hónapban</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Böngésző nem található.</string>
     <!-- ContactsCursorLoader -->
@@ -120,7 +120,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Koppints és tartsd lenyomva hangüzenet rögzítéséhez, elküldéshez pedig engedd el</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Az üzenet nem található</string>
     <string name="LongMessageActivity_message_from_s">Üzenet tőle: %1$s</string>
     <string name="LongMessageActivity_your_message">Saját üzenet</string>
     <!-- MediaOverviewActivity -->
@@ -134,7 +133,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Törlés</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Üzenetek törlése...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Mellékletek összegyűjtése...</string>
+    <string name="attachmentsCollecting">Mellékletek összegyűjtése...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimédia üzenet</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS üzenet letöltése</string>
@@ -156,7 +155,6 @@
     <string name="MessageRecord_you_updated_group">Frissítetted a csoportot.</string>
     <string name="MessageRecord_s_updated_group">%s frissítette a csoportot.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Eltűnő üzenetek</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Üzeneteid nem fognak eltűnni.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Ebben a beszélgetésben a kimenő és bejövő üzenetek el fognak tűnni a megtekintést követő %s után.</string>
     <!-- PassphrasePromptActivity -->
@@ -183,8 +181,6 @@
     <string name="ThreadRecord_secure_session_reset">Biztonságos munkamenet újraindítva.</string>
     <string name="ThreadRecord_media_message">Média üzenet</string>
     <string name="ThreadRecord_s_is_on_signal">%s elérhető a Session-on!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Eltűnő üzenetek letiltva</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Eltűnő üzenet ideje beállítva erre: %s</string>
     <string name="ThreadRecord_media_saved_by_s">Média mentve ide %s.</string>
     <string name="ThreadRecord_safety_number_changed">Megváltozott a biztonsági szám</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Megváltozott a biztonsági számod vele: %s.</string>
@@ -248,7 +244,6 @@
         <item quantity="other">%d db elem</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Hiba történt a videó lejátszásakor</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Névjegy</string>
     <string name="attachment_type_selector__contact_description">Névjegy</string>
@@ -282,7 +277,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Küldés sikertelen</string>
     <string name="conversation_item_sent__delivered_description">Kézbesítve</string>
-    <string name="conversation_item_sent__message_read">Üzenet elolvasva</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Kontakt fotó</string>
     <!-- audio_view -->
@@ -292,7 +286,7 @@
     <string name="join">Csatlalkozás</string>
     <string name="open_group_guidelines_pinned_message">Kitűzött üzenet</string>
     <string name="open_group_guidelines_community_guidelines">Közösségi irányelvek</string>
-    <string name="open_group_guidelines_read">Olvas</string>
+    <string name="read">Olvas</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotó</string>
     <string name="QuoteView_original_missing">Az eredeti üzenet nem található</string>
@@ -313,7 +307,7 @@
     <string name="recipient_preferences__block">Blokkolás</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Néhány probléma a figyelmedet igényli.</string>
-    <string name="message_details_header__sent">Elküldve</string>
+    <string name="disappearingMessagesSent">Elküldve</string>
     <string name="message_details_header__received">Érkezett</string>
     <string name="message_details_header__disappears">Eltűnik</string>
     <string name="message_details_header__via">Csatorna</string>
@@ -406,7 +400,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Melléklet mentése</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Eltűnő üzenetek</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Az üzenetek lejárnak</string>
     <!-- conversation_muted -->
@@ -562,13 +555,10 @@
     <string name="dialog_link_preview_title">Engedélyezi a linkelőnézeteket?</string>
     <string name="dialog_link_preview_explanation">A linkelőnézetek engedélyezése megjeleníti az Ön által küldött és kapott linkek előnézetét. Ez hasznos lehet, de a Session így kapcsolatba fog lépni a linkelt webhelyekkel az előnézetek létrehozásához. A link előnézetét bármikor letilthatja a Session beállításaiban.</string>
     <string name="dialog_link_preview_enable_button_title">Engedélyezés</string>
-    <string name="dialog_download_title">%s megbízható?</string>
-    <string name="dialog_download_explanation">Biztosan le szeretné tölteni %s által küldött tartalmat?</string>
     <string name="download">Letöltés</string>
     <string name="activity_conversation_blocked_banner_text">%s blokkolva van. Feloldja a blokkolást?</string>
     <string name="activity_conversation_attachment_prep_failed">Nem sikerült előkészíteni a mellékletet a küldéshez.</string>
     <string name="media">Média</string>
-    <string name="UntrustedAttachmentView_download_attachment">Kattintson %s letöltéséhez</string>
     <string name="_error">Hiba</string>
     <string name="warning">Figyelmeztetés</string>
     <string name="dialog_send_seed_send_button_title">Küldés</string>

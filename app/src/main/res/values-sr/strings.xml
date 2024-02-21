@@ -38,7 +38,7 @@
     <string name="BucketedThreadMedia_Today">Данас</string>
     <string name="BucketedThreadMedia_Yesterday">Јуче</string>
     <string name="BucketedThreadMedia_This_week">Ове седмице</string>
-    <string name="BucketedThreadMedia_This_month">Овог месеца</string>
+    <string name="attachmentsThisMonth">Овог месеца</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Прегледач није пронађен.</string>
     <!-- ContactsCursorLoader -->
@@ -124,7 +124,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Тапните и држите за снимање гласовне поруке, пустите за слање</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Нисмо успели да пронађемо поруку</string>
     <string name="LongMessageActivity_message_from_s">Порука од %1$s</string>
     <string name="LongMessageActivity_your_message">Ваша порука</string>
     <!-- MediaOverviewActivity -->
@@ -140,7 +139,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Брисање</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Бришем поруке...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Сакупљам прилоге...</string>
+    <string name="attachmentsCollecting">Сакупљам прилоге...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Мултимедијална порука</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Преузимам ММС поруку</string>
@@ -163,7 +162,6 @@
     <string name="MessageRecord_you_updated_group">Ви сте ажурирали групу.</string>
     <string name="MessageRecord_s_updated_group">%s ажурира групу.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Нестајуће поруке</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Ваше поруке неће истећи.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Примљене и послате поруке ове преписке ће нестати %s након што су погледане.</string>
     <!-- PassphrasePromptActivity -->
@@ -189,8 +187,6 @@
     <string name="ThreadRecord_secure_session_reset">Безбедна сесија је ресетована.</string>
     <string name="ThreadRecord_media_message">Мултимедијална порука</string>
     <string name="ThreadRecord_s_is_on_signal">%s је на Sessionу!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Нестајуће поруке искључене</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Време нестајања поруке постављено на %s</string>
     <string name="ThreadRecord_media_saved_by_s">Медију је сачувао %s.</string>
     <string name="ThreadRecord_safety_number_changed">Безбедносни број промењен</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш безбедносни број са %s је промењен.</string>
@@ -254,7 +250,6 @@
         <item quantity="other">%d предмета</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Грешка пуштања видеа</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Контакт</string>
     <string name="attachment_type_selector__contact_description">Контакт</string>
@@ -287,7 +282,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Слање није успело</string>
     <string name="conversation_item_sent__delivered_description">Испоручена</string>
-    <string name="conversation_item_sent__message_read">Порука прочитана</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Фотографија контакта</string>
     <!-- audio_view -->
@@ -297,7 +291,7 @@
     <string name="join">Придружи се</string>
     <string name="open_group_guidelines_pinned_message">Прикачена порука</string>
     <string name="open_group_guidelines_community_guidelines">Смернице заједнице</string>
-    <string name="open_group_guidelines_read">Прочитај</string>
+    <string name="read">Прочитај</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Слика</string>
     <string name="QuoteView_original_missing">Оригинална порука није нађена</string>
@@ -318,7 +312,7 @@
     <string name="recipient_preferences__block">Блокирај</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Неки од проблема захтевају вашу пажњу.</string>
-    <string name="message_details_header__sent">Послата</string>
+    <string name="disappearingMessagesSent">Послата</string>
     <string name="message_details_header__received">Примљена</string>
     <string name="message_details_header__disappears">Нестаје</string>
     <string name="message_details_header__via">Преко</string>
@@ -408,7 +402,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Сачувај прилог</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Нестајуће поруке</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Истицање порука</string>
     <!-- conversation_muted -->

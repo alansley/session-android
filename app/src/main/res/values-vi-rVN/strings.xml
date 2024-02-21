@@ -32,7 +32,7 @@
     <string name="BucketedThreadMedia_Today">Hôm nay</string>
     <string name="BucketedThreadMedia_Yesterday">Ngày hôm qua</string>
     <string name="BucketedThreadMedia_This_week">Tuần này</string>
-    <string name="BucketedThreadMedia_This_month">Tháng này</string>
+    <string name="attachmentsThisMonth">Tháng này</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Không tìm thấy trình duyệt.</string>
     <!-- ContactsCursorLoader -->
@@ -90,7 +90,7 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">Đang xóa</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Đang xóa tin nhắn...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Đang thu thập đính kèm...</string>
+    <string name="attachmentsCollecting">Đang thu thập đính kèm...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Tin nhắn đa phương tiện</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Đang tải xuống tin nhắn MMS</string>
@@ -183,7 +183,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="recipient_preferences__block">Chặn</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Một số việc cần bạn lưu ý.</string>
-    <string name="message_details_header__sent">Đã gửi</string>
+    <string name="disappearingMessagesSent">Đã gửi</string>
     <string name="message_details_header__received">Đã nhận</string>
     <string name="message_details_header__via">Qua</string>
     <string name="message_details_header__to">Đến:</string>

@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">आज</string>
     <string name="BucketedThreadMedia_Yesterday">कल</string>
     <string name="BucketedThreadMedia_This_week">इस सप्ताह</string>
-    <string name="BucketedThreadMedia_This_month">इस महीना</string>
+    <string name="attachmentsThisMonth">इस महीना</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">कोई ब्राउज़र नहीं मिला!</string>
     <!-- ContactsCursorLoader -->
@@ -119,7 +119,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">वॉइस संदेश रिकॉर्ड करने के लिए टैप करें और दबाएं और भेजने के लिए रिलीज़ करें</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">संदेश ढूंढने में असमर्थ</string>
     <string name="LongMessageActivity_message_from_s">%1$s से संदेश</string>
     <string name="LongMessageActivity_your_message">आपका संदेश</string>
     <!-- MediaOverviewActivity -->
@@ -133,7 +132,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">विलोपन</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">संदेश हटाए जा रहे हैं</string>
-    <string name="MediaOverviewActivity_collecting_attachments">अटैचमेंट्स इकट्ठे कर रहे हैं...</string>
+    <string name="attachmentsCollecting">अटैचमेंट्स इकट्ठे कर रहे हैं...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">मल्टीमीडिया संदेश</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">एमएमएस संदेश डाउनलोड किया जा रहा है</string>
@@ -155,7 +154,6 @@
     <string name="MessageRecord_you_updated_group">आपने समूह को अपडेट किया है।</string>
     <string name="MessageRecord_s_updated_group">%s ने समूह को अद्यतन किया</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">संदेश जो गायब हो जाते हैं</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">आपके संदेश समाप्त नहीं होंगे।</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">इस वार्तालाप में भेजे गए और प्राप्त किए गए संदेश देखे जाने के %s बाद गायब हो जाएंगे।</string>
     <!-- PassphrasePromptActivity -->
@@ -181,8 +179,6 @@
     <string name="ThreadRecord_secure_session_reset">सुरक्षित सत्र रीसेट कर दिया गया है</string>
     <string name="ThreadRecord_media_message">मीडिया संदेश</string>
     <string name="ThreadRecord_s_is_on_signal">%sअब Session पर हैं! </string>
-    <string name="ThreadRecord_disappearing_messages_disabled">संदेश जो गायब हो जाते हैं अक्षम</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">गायब संदेश समय %s तक सेट हो गया</string>
     <string name="ThreadRecord_media_saved_by_s">%s द्वारा मीडिया सेव किया गया।</string>
     <string name="ThreadRecord_safety_number_changed">सुरक्षा संख्या बदल गई</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s के साथ आपका सुरक्षा नंबर बदल गया है।</string>
@@ -246,7 +242,6 @@
         <item quantity="other">%d वस्तुएं</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">वीडियो खोलने में त्रुटि</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">संपर्क</string>
     <string name="attachment_type_selector__contact_description">संपर्क</string>
@@ -280,7 +275,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">भेजना विफल</string>
     <string name="conversation_item_sent__delivered_description">पहुंचा दिया</string>
-    <string name="conversation_item_sent__message_read">संदेश पढ़ा</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">संपर्क फोटो</string>
     <!-- audio_view -->
@@ -290,7 +284,7 @@
     <string name="join">ज्वॉइन करें</string>
     <string name="open_group_guidelines_pinned_message">पिन किया संदेश</string>
     <string name="open_group_guidelines_community_guidelines">सामुदायिक निर्देश</string>
-    <string name="open_group_guidelines_read">पढ़ें</string>
+    <string name="read">पढ़ें</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">फ़ोटो</string>
     <string name="QuoteView_original_missing">मूल संदेश नहीं मिला</string>
@@ -311,7 +305,7 @@
     <string name="recipient_preferences__block">ब्लॉक</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">कुछ मुद्दों पर ध्यान देना होगा</string>
-    <string name="message_details_header__sent"> भेजा गया </string>
+    <string name="disappearingMessagesSent"> भेजा गया </string>
     <string name="message_details_header__received"> मिल गया </string>
     <string name="message_details_header__disappears">गायब हो जाता है</string>
     <string name="message_details_header__via">राह </string>
@@ -404,7 +398,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">अनुलग्नक सहेजें</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">संदेश जो गायब हो जाते हैं</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">संदेश समाप्त हो रहा है</string>
     <!-- conversation_muted -->
@@ -560,12 +553,9 @@
     <string name="dialog_link_preview_title">लिंक पूर्वावलोकन सक्षम करें?</string>
     <string name="dialog_link_preview_explanation">लिंक पूर्वावलोकन सक्षम करने से आपके द्वारा भेजे और प्राप्त किए जाने वाले URL के पूर्वावलोकन दिखाई देंगे. यह उपयोगी हो सकता है, लेकिन Session को पूर्वावलोकन उत्पन्न करने के लिए लिंक की गई वेबसाइटों से संपर्क करने की आवश्यकता होगी। आप कभी भी Session की सेटिंग में लिंक पूर्वावलोकन अक्षम कर सकते हैं।</string>
     <string name="dialog_link_preview_enable_button_title">सक्षम करें</string>
-    <string name="dialog_download_title">क्या %s पर भरोसा करना चाहेंगे</string>
-    <string name="dialog_download_explanation">क्या आप वाकई %s द्वारा भेजे गए मीडिया को डाउनलोड करना चाहते हैं?</string>
     <string name="download">डाउनलोड</string>
     <string name="activity_conversation_blocked_banner_text">%s ब्लॉक है। उन्हें अनब्लॉक करें?</string>
     <string name="media">मीडिया</string>
-    <string name="UntrustedAttachmentView_download_attachment">%s डाउनलोड करने के लिए टैप करें</string>
     <string name="_error">त्रुटि!</string>
     <string name="warning">चेतावनी!</string>
     <string name="dialog_send_seed_send_button_title">भेजें</string>

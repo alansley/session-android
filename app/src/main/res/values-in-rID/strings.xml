@@ -35,7 +35,7 @@
     <string name="BucketedThreadMedia_Today">Hari ini</string>
     <string name="BucketedThreadMedia_Yesterday">Kemarin</string>
     <string name="BucketedThreadMedia_This_week">Minggu ini</string>
-    <string name="BucketedThreadMedia_This_month">Bulan Ini</string>
+    <string name="attachmentsThisMonth">Bulan Ini</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Web browser tidak ditemukan.</string>
     <!-- ContactsCursorLoader -->
@@ -101,7 +101,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Ketuk dan tahan untuk merekam pesan suara, lepas untuk mengirim</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Tidak dapat menemukan pesan</string>
     <string name="LongMessageActivity_message_from_s">Pesan dari %1$s</string>
     <string name="LongMessageActivity_your_message">Pesan anda</string>
     <!-- MediaOverviewActivity -->
@@ -110,7 +109,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Menghapus</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Menghapus pesan...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Mengumpulkan semua lampiran...</string>
+    <string name="attachmentsCollecting">Mengumpulkan semua lampiran...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Pesan Multimedia</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Mengunduh pesan MMS</string>
@@ -131,7 +130,6 @@
     <string name="MessageRecord_you_updated_group">Anda memperbarui grup.</string>
     <string name="MessageRecord_s_updated_group">%s memperbarui grup.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Menghilangkan pesan</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Pesan Anda tidak akan kadaluwarsa.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Pesan yang dikirim dan diterima pada percakapan ini akan hilang %s setelah dilihat.</string>
     <!-- PassphrasePromptActivity -->
@@ -156,8 +154,6 @@
     <string name="groupUpdated">Grup diperbarui</string>
     <string name="ThreadRecord_media_message">Pesan media</string>
     <string name="ThreadRecord_s_is_on_signal">%s ada di Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Menghilangkan pesan dinonaktifkan</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Atur menghilangkan pesan ke %s</string>
     <string name="ThreadRecord_you_marked_verified">Anda menandai sebagai terverifikasi</string>
     <string name="ThreadRecord_you_marked_unverified">Anda menandai sebagai tidak terverifikasi</string>
     <!-- UpdateApkReadyListener -->
@@ -206,7 +202,6 @@
     <string name="SingleRecipientNotificationBuilder_new_message">Pesan baru</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Gagal memutar video</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Kontak</string>
     <string name="attachment_type_selector__contact_description">Kontak</string>
@@ -257,7 +252,7 @@
     <!-- recipient_preferences -->
     <string name="recipient_preferences__block">Blokir</string>
     <!-- message_details_header -->
-    <string name="message_details_header__sent">Terkirim</string>
+    <string name="disappearingMessagesSent">Terkirim</string>
     <string name="message_details_header__received">Diterima</string>
     <string name="message_details_header__disappears">Menghilang</string>
     <string name="message_details_header__via">Melalui</string>
@@ -321,7 +316,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Simpan lampiran</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Menghilangkan pesan</string>
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Batalkan senyap</string>
@@ -402,7 +396,6 @@
     <string name="dialog_open_url_explanation">Anda yakin ingin membuka %s?</string>
     <string name="open">Buka</string>
     <string name="activity_conversation_blocked_banner_text">%s diblokir. Buka blokir?</string>
-    <string name="UntrustedAttachmentView_download_attachment">Tekan untuk mengunduh %s</string>
     <string name="_error">Galat</string>
     <string name="warning">Peringatan</string>
     <string name="dialog_send_seed_send_button_title">Kirim</string>

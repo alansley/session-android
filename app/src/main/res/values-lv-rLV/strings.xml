@@ -34,7 +34,7 @@
     <string name="BucketedThreadMedia_Today">Šodien</string>
     <string name="BucketedThreadMedia_Yesterday">Vakar</string>
     <string name="BucketedThreadMedia_This_week">Šonedēļ</string>
-    <string name="BucketedThreadMedia_This_month">Šomēnes</string>
+    <string name="attachmentsThisMonth">Šomēnes</string>
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
     <string name="ContactsCursorLoader_groups">Grupas</string>
@@ -201,8 +201,6 @@
     <string name="open">Atvērt</string>
     <string name="copy_url">Nokopēt URL</string>
     <string name="dialog_link_preview_enable_button_title">Ieslēgt</string>
-    <string name="dialog_download_title">Uzticēties %s?</string>
-    <string name="dialog_download_explanation">Vai esi pārliecināts, ka vēlies lejupielādēt mediju, ko atsūtījis %s?</string>
     <string name="download">Lejupielādēt</string>
     <string name="media">Multivide</string>
     <string name="_error">Kļūda</string>

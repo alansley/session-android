@@ -38,7 +38,7 @@
     <string name="BucketedThreadMedia_Today">Այսօր</string>
     <string name="BucketedThreadMedia_Yesterday">Երեկ</string>
     <string name="BucketedThreadMedia_This_week">Այս շաբաթ</string>
-    <string name="BucketedThreadMedia_This_month">Այս ամիս</string>
+    <string name="attachmentsThisMonth">Այս ամիս</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Չհաջողվեց գտնել զննիչ։</string>
     <!-- ContactsCursorLoader -->
@@ -124,7 +124,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Սեղմեք և սեղմած պահեք ձայնագրելու համար, թողեք ուղարկելու համար</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Անհնար է գտնել հաղորդագրությունները</string>
     <string name="LongMessageActivity_message_from_s">Նամակ %1$s֊ից</string>
     <string name="LongMessageActivity_your_message">Ձեր նամակը</string>
     <!-- MediaOverviewActivity -->
@@ -138,7 +137,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Ջնջվում է</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Հաղորդագրությունները ջնջվում են...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Կցորդների հավաքում...</string>
+    <string name="attachmentsCollecting">Կցորդների հավաքում...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Մուլտիմեդիա հաղորդագրություններ</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Ներբեռնում է MMS հաղորդագրությունը</string>
@@ -160,7 +159,6 @@
     <string name="MessageRecord_you_updated_group">Դուք թարմացրեցիք զրուցարանը.</string>
     <string name="MessageRecord_s_updated_group">%s զրուցարանը թարմացվել է.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Անհետացող հաղորդագրություններ</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Ձեր հաղորդագրությունների ժամկետը չի սպառվի:</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Այս հաղորդագրությունը ավտոմատ կջնջվի %s-ի տեսնելուց հետո.</string>
     <!-- PassphrasePromptActivity -->
@@ -189,8 +187,6 @@
     <string name="ThreadRecord_secure_session_reset">Ապահով սեսսիան վերագործարկված է:</string>
     <string name="ThreadRecord_media_message">Մեդիաով հաղորդագրություն</string>
     <string name="ThreadRecord_s_is_on_signal">%s֊ը արդեն Session֊ում է</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Աանհետացվող նամակները ջնջված են</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Նամակների անհետացման ժամանակը դրված է %s֊ի վրա</string>
     <string name="ThreadRecord_media_saved_by_s">%s պահպանել է մեդիա ֆայլը:</string>
     <string name="ThreadRecord_safety_number_changed">Անվտանգության համարը փոխվել է</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ձեր անվտանգության համարը %s-ի հետ փոխվել է:</string>
@@ -254,7 +250,6 @@
         <item quantity="other">%d Իրեր</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Չհաջողվեց միացնել վիդեոն։</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Կոնտակտ</string>
     <string name="attachment_type_selector__contact_description">Կոնտակտ</string>
@@ -288,7 +283,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Ուղարկումը ձախողվեց</string>
     <string name="conversation_item_sent__delivered_description">Առաքված է</string>
-    <string name="conversation_item_sent__message_read">Կարդալ հաղորդագրությունը</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Կոնտակտի նկարը</string>
     <!-- audio_view -->
@@ -298,7 +292,7 @@
     <string name="join">Միանալ</string>
     <string name="open_group_guidelines_pinned_message">Գամված հաղորդագրություն</string>
     <string name="open_group_guidelines_community_guidelines">Համայնքի կանոնները</string>
-    <string name="open_group_guidelines_read">Կարդալ</string>
+    <string name="read">Կարդալ</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Նկար</string>
     <string name="QuoteView_original_missing">Մեջբերված հաղորդագրությունը չի գտնվել</string>
@@ -319,7 +313,7 @@
     <string name="recipient_preferences__block">Արգելափակել</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Որոշ հարցեր ձեր ուշադրության կարիքն ունեն։.</string>
-    <string name="message_details_header__sent">Ուղարկված է</string>
+    <string name="disappearingMessagesSent">Ուղարկված է</string>
     <string name="message_details_header__received">Ստացվել է</string>
     <string name="message_details_header__disappears">Կանհետանա</string>
     <string name="message_details_header__via">Միջոցով</string>
@@ -412,7 +406,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Պահպանել կցորդը</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Անհետացող նամակներ</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Հաղորդագրությունների ժամկետը</string>
     <!-- conversation_muted -->
@@ -568,13 +561,10 @@
     <string name="dialog_link_preview_title">Միացնե՞լ հասցեների նախադիտումը:</string>
     <string name="dialog_link_preview_explanation">Հղումների նախադիտումը միացնելը ցույց կտա ձեր ուղարկած և ստացած URL-ների նախադիտումները: Սա կարող է օգտակար լինել, բայց Session-ը պետք է կապ հաստատի կապված կայքերի հետ՝ նախադիտումներ ստեղծելու համար: Դուք միշտ կարող եք անջատել հղումների նախադիտումը Session-ի կարգավորումներում:</string>
     <string name="dialog_link_preview_enable_button_title">Միացնել</string>
-    <string name="dialog_download_title">Վստահե՞լ %s-ին:</string>
-    <string name="dialog_download_explanation">Վստա՞հ եք, որ ուզում եք ներբեռնել %s-ի կողմից ուղարկված մեդիա ֆայլը:</string>
     <string name="download">Ներբեռնել</string>
     <string name="activity_conversation_blocked_banner_text">%s֊ը արգելափակված է: Արգելահանե՞լ։</string>
     <string name="activity_conversation_attachment_prep_failed">Չհաջողվեց պատրաստել կցորդն ուղարկելու համար:</string>
     <string name="media">Մեդիա</string>
-    <string name="UntrustedAttachmentView_download_attachment">Հպեք՝ %s֊ը ներբեռնելու համար</string>
     <string name="_error">Սխալ</string>
     <string name="warning">Զգուշացում</string>
     <string name="dialog_send_seed_send_button_title">Ուղարկել</string>

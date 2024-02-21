@@ -40,7 +40,7 @@
     <string name="BucketedThreadMedia_Today">Dnes</string>
     <string name="BucketedThreadMedia_Yesterday">Včera</string>
     <string name="BucketedThreadMedia_This_week">Tento týždeň</string>
-    <string name="BucketedThreadMedia_This_month">Tento mesiac</string>
+    <string name="attachmentsThisMonth">Tento mesiac</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Nenašiel sa žiadny webový prehliadač.</string>
     <!-- ContactsCursorLoader -->
@@ -129,7 +129,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Podržte pre záznam hlasovej správy, a pustite pre odoslanie</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Nie je možné nájsť správu</string>
     <string name="LongMessageActivity_message_from_s">Správa od %1$s</string>
     <string name="LongMessageActivity_your_message">Vaša správa</string>
     <!-- MediaOverviewActivity -->
@@ -147,7 +146,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Mazanie</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Mažú sa správy...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Ukladám prílohy...</string>
+    <string name="attachmentsCollecting">Ukladám prílohy...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediálna správa</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Preberanie MMS správy</string>
@@ -171,7 +170,6 @@
     <string name="MessageRecord_you_updated_group">Aktualizovali ste skupinu.</string>
     <string name="MessageRecord_s_updated_group">%s aktualizoval/a skupinu.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Miznúce správy</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Vaše správy nevypršia.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Správy odoslané a prijaté v tejto konverzácii zmiznú %s po prečítaní.</string>
     <!-- PassphrasePromptActivity -->
@@ -197,8 +195,6 @@ výmeny kľúčov.</string>
     <string name="ThreadRecord_secure_session_reset">Bezpečná relácia obnovená.</string>
     <string name="ThreadRecord_media_message">Multimediálna správa</string>
     <string name="ThreadRecord_s_is_on_signal">%s je na Sessione!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Miznúce správy vypnuté</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Čas miznúcich správ bol nastavený na %s</string>
     <string name="ThreadRecord_media_saved_by_s">Médiá uložené používateľom %s.</string>
     <string name="ThreadRecord_safety_number_changed">Bezpečnostné číslo sa zmenilo</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Vaše bezpečnostné číslo s %s sa zmenilo.</string>
@@ -263,7 +259,6 @@ výmeny kľúčov.</string>
         <item quantity="other">%d položiek</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Chyba pri prehrávaní videa</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
@@ -297,7 +292,6 @@ výmeny kľúčov.</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Odoslanie zlyhalo</string>
     <string name="conversation_item_sent__delivered_description">Doručené</string>
-    <string name="conversation_item_sent__message_read">Správa prečítaná</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Fotka kontaktu</string>
     <!-- audio_view -->
@@ -307,7 +301,7 @@ výmeny kľúčov.</string>
     <string name="join">Pripojiť sa</string>
     <string name="open_group_guidelines_pinned_message">Pripnutá správa</string>
     <string name="open_group_guidelines_community_guidelines">Pravidlá komunity</string>
-    <string name="open_group_guidelines_read">Prečítané</string>
+    <string name="read">Prečítané</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotka</string>
     <string name="QuoteView_original_missing">Pôvodná správa sa nenašla</string>
@@ -328,7 +322,7 @@ výmeny kľúčov.</string>
     <string name="recipient_preferences__block">Blokovať</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Isté problémy vyžadujú Vašu pozornosť.</string>
-    <string name="message_details_header__sent">Odoslané</string>
+    <string name="disappearingMessagesSent">Odoslané</string>
     <string name="message_details_header__received">Prijaté</string>
     <string name="message_details_header__disappears">Miznúce</string>
     <string name="message_details_header__via">Cez</string>
@@ -422,7 +416,6 @@ výmeny kľúčov.</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Uložiť prílohu </string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Miznúce správy</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Končí doba platnosti správ</string>
     <!-- conversation_muted -->

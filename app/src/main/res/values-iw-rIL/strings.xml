@@ -41,7 +41,7 @@
     <string name="BucketedThreadMedia_Today">היום</string>
     <string name="BucketedThreadMedia_Yesterday">אתמול</string>
     <string name="BucketedThreadMedia_This_week">השבוע</string>
-    <string name="BucketedThreadMedia_This_month">החודש</string>
+    <string name="attachmentsThisMonth">החודש</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">לא נמצא דפדפן.</string>
     <!-- ContactsCursorLoader -->
@@ -131,7 +131,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">הקש והחזק כדי להקליט הודעה קולית, שחרר כדי לשלוח</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">לא היה ניתן למצוא הודעה</string>
     <string name="LongMessageActivity_message_from_s">הודעה מאת %1$s</string>
     <string name="LongMessageActivity_your_message">ההודעה שלך</string>
     <!-- MediaOverviewActivity -->
@@ -149,7 +148,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">מוחק</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">מוחק הודעות...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">אוסף צרופות...</string>
+    <string name="attachmentsCollecting">אוסף צרופות...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">הודעת מולטימדיה</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">מוריד הודעת MMS</string>
@@ -173,7 +172,6 @@
     <string name="MessageRecord_you_updated_group">עדכנת את הקבוצה.</string>
     <string name="MessageRecord_s_updated_group">%s עדכן את הקבוצה</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">הודעות נעלמות</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">ההודעות שלך לא יפוגו.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">הודעות שנשלחות ומתקבלות בשיחה זו ייעלמו %s אחרי שייראו.</string>
     <!-- PassphrasePromptActivity -->
@@ -199,8 +197,6 @@
     <string name="ThreadRecord_secure_session_reset">שיח מאובטח אופס.</string>
     <string name="ThreadRecord_media_message">הודעת מדיה</string>
     <string name="ThreadRecord_s_is_on_signal">%s משתמש ב-Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">הודעות נעלמות הושבתו</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">זמן הודעות נעלמות הוגדר אל %s</string>
     <string name="ThreadRecord_media_saved_by_s">המדיה נשמרה ע״י %s.</string>
     <string name="ThreadRecord_safety_number_changed">מספר ביטחון השתנה</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">מספר הביטחון שלך עם %s השתנה.</string>
@@ -265,7 +261,6 @@
         <item quantity="other">%d פריטים</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">שגיאה בניגון וידיאו</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">איש קשר</string>
     <string name="attachment_type_selector__contact_description">איש קשר</string>
@@ -299,7 +294,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">השליחה נכשלה</string>
     <string name="conversation_item_sent__delivered_description">נמסר</string>
-    <string name="conversation_item_sent__message_read">הודעה נקראה</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">תצלום איש קשר</string>
     <!-- audio_view -->
@@ -328,7 +322,7 @@
     <string name="recipient_preferences__block">חסום</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">מספר סוגיות דורשות את תשומת לבך.</string>
-    <string name="message_details_header__sent">נשלח</string>
+    <string name="disappearingMessagesSent">נשלח</string>
     <string name="message_details_header__received">התקבל</string>
     <string name="message_details_header__disappears">נעלם</string>
     <string name="message_details_header__via">דרך</string>
@@ -421,7 +415,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">שמור צרופה</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">הודעות נעלמות</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">תפוגת הודעות</string>
     <!-- conversation_muted -->

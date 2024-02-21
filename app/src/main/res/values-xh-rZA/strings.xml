@@ -74,7 +74,7 @@
     <!-- MediaOverviewActivity -->
     <string name="MediaOverviewActivity_Media_delete_progress_title">Okusangula</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Obubabaka busangulwa</string>
-    <string name="MediaOverviewActivity_collecting_attachments">ebigatibwako bikunganyizibwa</string>
+    <string name="attachmentsCollecting">ebigatibwako bikunganyizibwa</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">obubaka obwa  vidiyo oba amaloboozi</string>
     <!-- MediaPickerActivity -->
@@ -83,7 +83,6 @@
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Ofuny obubaka obubuabuzidwa nga bakozesa vazoni ya signal etakyaakola. wattu saba asindise okuza obujja  signal ye  era addemu asindike obubaka</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Obubaka bwo bubuzibwaawo</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Obubaka bwo tebujja kugwako.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Obubaka bwowereza ne bwofunye mu mbozi eno %s bujakubula bwomaliriza obulaba</string>
     <!-- PassphrasePromptActivity -->
@@ -104,7 +103,6 @@
     <!-- ThreadRecord -->
     <string name="ThreadRecord_secure_session_reset">Akadde akekusifu karesetinge nate</string>
     <string name="ThreadRecord_media_message">obubaka bwemikutu</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Message yakusanguka mu dakiika %s</string>
     <!-- UpdateApkReadyListener -->
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
@@ -170,7 +168,7 @@
     <string name="recipient_preferences__block">Zziyiiza</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Ensonga ezimu zetaaga gwe</string>
-    <string name="message_details_header__sent">Esindikiddwa</string>
+    <string name="disappearingMessagesSent">Esindikiddwa</string>
     <string name="message_details_header__received">Etuuse</string>
     <string name="message_details_header__disappears">Kibula</string>
     <string name="message_details_header__via">Okuyita</string>
@@ -247,7 +245,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Tereka ekigattiddwako.</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Obubaka bwo bujakubula</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Obubaka bugwaamu ensa.</string>
     <!-- conversation_muted -->

@@ -32,7 +32,7 @@
     <string name="BucketedThreadMedia_Today">Täna</string>
     <string name="BucketedThreadMedia_Yesterday">Eile</string>
     <string name="BucketedThreadMedia_This_week">See nädal</string>
-    <string name="BucketedThreadMedia_This_month">See kuu</string>
+    <string name="attachmentsThisMonth">See kuu</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Veebibrauserit ei leitud.</string>
     <!-- ContactsCursorLoader -->
@@ -105,7 +105,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Koputa ja hoia all, et salvestada helisõnum, vabasta saatmiseks</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Sõnumit ei leitud</string>
     <string name="LongMessageActivity_message_from_s">Sõnum kasutajalt %1$s</string>
     <string name="LongMessageActivity_your_message">Sinu sõnum</string>
     <!-- MediaOverviewActivity -->
@@ -119,7 +118,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Kustutan</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Kustutan sõnumeid...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Kogun manuseid...</string>
+    <string name="attachmentsCollecting">Kogun manuseid...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimeediasõnum</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Laadin alla MMS-sõnumit</string>
@@ -141,7 +140,6 @@
     <string name="MessageRecord_you_updated_group">Sa uuendasid gruppi.</string>
     <string name="MessageRecord_s_updated_group">%s uuendas gruppi.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Hävinevad sõnumid</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Sinu sõnumid ei aegu.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Selles vestluses saadetud ja vastuvõetud sõnumid haihtuvad peale %s pärast nägemist.</string>
     <!-- PassphrasePromptActivity -->
@@ -168,8 +166,6 @@
     <string name="ThreadRecord_secure_session_reset">Turvaline sessioon lähtestatud.</string>
     <string name="ThreadRecord_media_message">Meediasõnum</string>
     <string name="ThreadRecord_s_is_on_signal">%s on Sessionis!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Haihtuvad sõnumid keelatud</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Hävineva sõnumi ajaks on seatud %s</string>
     <string name="ThreadRecord_safety_number_changed">Turvanumber muudetud</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sinu turvanumber kontaktiga %s on muutunud.</string>
     <string name="ThreadRecord_you_marked_verified">Sa märkisid kinnitatuks</string>
@@ -230,7 +226,6 @@
         <item quantity="other">%d üksust</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Video esitamisel tekkis viga</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
@@ -262,7 +257,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Saatmine ebaõnnestus</string>
     <string name="conversation_item_sent__delivered_description">Kohale toimetatud</string>
-    <string name="conversation_item_sent__message_read">Sõnum loetud</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Kontakti foto</string>
     <!-- audio_view -->
@@ -289,7 +283,7 @@
     <string name="recipient_preferences__block">Blokeeri</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Mõned probleemid vajavad su tähelepanu.</string>
-    <string name="message_details_header__sent">Saadetud</string>
+    <string name="disappearingMessagesSent">Saadetud</string>
     <string name="message_details_header__received">Vastuvõetud</string>
     <string name="message_details_header__disappears">Haihtub</string>
     <string name="message_details_header__via">Saatmisviis:</string>
@@ -379,7 +373,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salvesta manus</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Hävinevad sõnumid</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Sõnumite aegumine</string>
     <!-- conversation_muted -->

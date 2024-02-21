@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">امروز</string>
     <string name="BucketedThreadMedia_Yesterday">دیروز</string>
     <string name="BucketedThreadMedia_This_week">این هفته</string>
-    <string name="BucketedThreadMedia_This_month">این ماه</string>
+    <string name="attachmentsThisMonth">این ماه</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">هیچ مرورگری یافت نشد.</string>
     <!-- ContactsCursorLoader -->
@@ -124,7 +124,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">برای ضبط کردن صدا صفحه را تپ کنید و نگه دارید - برای فرستادن انگشت را بردارید</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">ناتوانی در پیدا کردن پیام</string>
     <string name="LongMessageActivity_message_from_s">پیام از %1$s</string>
     <string name="LongMessageActivity_your_message">پیام شما</string>
     <!-- MediaOverviewActivity -->
@@ -138,7 +137,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">در حال حذف</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">حذف پیام های...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">در حال جمع‌آوری پیوست‌ها...</string>
+    <string name="attachmentsCollecting">در حال جمع‌آوری پیوست‌ها...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">پیام های چند رسانه ای</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">در حال بارگیری پیام چندرسانه‌ای...</string>
@@ -160,7 +159,6 @@
     <string name="MessageRecord_you_updated_group">شما گروه را بروزرسانی کردید</string>
     <string name="MessageRecord_s_updated_group">%s گروه را بروزرسانی کرد</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">پیامهای نشان داده نشده</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">پیام های شما منقضی نخواهد شد.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">پیامهای ارسالی و دریافتی در این گفتگو پس از %s ناپدید خواهند شد.</string>
     <!-- PassphrasePromptActivity -->
@@ -186,8 +184,6 @@
     <string name="ThreadRecord_secure_session_reset">تنظیم مجدد جلسه امن.</string>
     <string name="ThreadRecord_media_message">پیام رسانه</string>
     <string name="ThreadRecord_s_is_on_signal">%s در Session است!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">پیام های نابود شونده غیر فعال شد</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">زمان پنهان شدن پیام بر روی %s تنظیم شد</string>
     <string name="ThreadRecord_media_saved_by_s">رسانه توسط %s ذخیره شد.</string>
     <string name="ThreadRecord_safety_number_changed">شماره امنیتی تغییر یافت</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">شماره امنیتی شما با %s تغییر یافت.</string>
@@ -251,7 +247,6 @@
         <item quantity="other">%d آیتم</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">خطا در پخش ویدیو</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">مخاطب</string>
     <string name="attachment_type_selector__contact_description">مخاطب</string>
@@ -285,7 +280,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">ارسال نشد</string>
     <string name="conversation_item_sent__delivered_description">تحویل</string>
-    <string name="conversation_item_sent__message_read">پیام خوانده شده</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">تصویر مخاطب</string>
     <!-- audio_view -->
@@ -295,7 +289,7 @@
     <string name="join">پیوستن</string>
     <string name="open_group_guidelines_pinned_message">پیام سنجاق شده</string>
     <string name="open_group_guidelines_community_guidelines">راهنمای انجمن</string>
-    <string name="open_group_guidelines_read">خواندن</string>
+    <string name="read">خواندن</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">تصویر</string>
     <string name="QuoteView_original_missing">پیام اصلی یافت نشد</string>
@@ -316,7 +310,7 @@
     <string name="recipient_preferences__block">مسدود</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">برخی از مسائل نیاز به توجه شما دارند.</string>
-    <string name="message_details_header__sent">فرستاده</string>
+    <string name="disappearingMessagesSent">فرستاده</string>
     <string name="message_details_header__received">رسیده</string>
     <string name="message_details_header__disappears">نشان داده نشده ها</string>
     <string name="message_details_header__via">از طریق</string>
@@ -428,7 +422,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">ذخیره پیوست</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">پیامهای نشان داده نشده</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">پیام های در حال منقضی شدن</string>
     <!-- conversation_muted -->
@@ -598,14 +591,11 @@
     <string name="dialog_link_preview_title">فعال‌سازی پیش‌نمایش لینک؟</string>
     <string name="dialog_link_preview_explanation">با فعال کردن این گزینه، پیش‌نمایش لینک‌ها در پیام‌های ارسالی و دریافتی دیده می‌شود. این گزینه می‌تواند مفید باشد اما Session باید با سایت ارتباط برقرار کند. شما می‌توانید همیشه در تنظیمات این پیش‌نمایش را غیرفعال کنید.</string>
     <string name="dialog_link_preview_enable_button_title">فعال کردن</string>
-    <string name="dialog_download_title">آیا به %s اعتماد دارید؟</string>
-    <string name="dialog_download_explanation">آیا مطمئن هستید که می‌خواهید رسانه ارسال شده توسط %s را دانلود کنید؟</string>
     <string name="download">دانلود</string>
     <string name="activity_conversation_blocked_banner_text">%s مسدود شده است. آیا می‌خواهید آن را غیرمسدود کنید؟</string>
     <string name="activity_conversation_block_user">مسدود کردن کاربر</string>
     <string name="activity_conversation_attachment_prep_failed">آماده‌سازی فایل ضمیمه برای ارسال به مشکل خورده است.</string>
     <string name="media">رسانه</string>
-    <string name="UntrustedAttachmentView_download_attachment">برای دانلود %s کلیک کنید.</string>
     <string name="_error">خطا</string>
     <string name="warning">هشدار</string>
     <string name="dialog_send_seed_send_button_title">ارسال</string>

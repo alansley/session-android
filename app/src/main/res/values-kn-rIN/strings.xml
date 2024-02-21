@@ -26,7 +26,7 @@
     <string name="BucketedThreadMedia_Today">ಇಂದು</string>
     <string name="BucketedThreadMedia_Yesterday">ನಿನ್ನೆ</string>
     <string name="BucketedThreadMedia_This_week">ಈ ವಾರ</string>
-    <string name="BucketedThreadMedia_This_month">ಈ ತಿಂಗಳು</string>
+    <string name="attachmentsThisMonth">ಈ ತಿಂಗಳು</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">ಯಾವುದೇ ಜಾಲತಾಣ ವೀಕ್ಷಕ ಪತ್ತೆಯಾಗಿಲ್ಲ.</string>
     <!-- ContactsCursorLoader -->
@@ -122,7 +122,7 @@
     <!-- open_group_invitation_view -->
     <string name="join">ಸೇರಿ</string>
     <string name="open_group_guidelines_community_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
-    <string name="open_group_guidelines_read">ಓದು</string>
+    <string name="read">ಓದು</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">ಚಿತ್ರಪಟ</string>
     <!-- conversation_fragment -->
@@ -134,7 +134,7 @@
     <!-- recipient_preferences -->
     <string name="recipient_preferences__block">ತಡೆ</string>
     <!-- message_details_header -->
-    <string name="message_details_header__sent">ಕಳುಹಿಸಿದೆ</string>
+    <string name="disappearingMessagesSent">ಕಳುಹಿಸಿದೆ</string>
     <string name="message_details_header__received">ಸ್ವೀಕರಿಸಲಾಗಿದೆ</string>
     <string name="message_details_header__disappears">ಮಾಯವಾಗು</string>
     <string name="message_details_header__to">ಗೆ:</string>
@@ -186,7 +186,6 @@
     <string name="conversation_context__menu_delete_message">ಸಂದೇಶಗವನ್ನು ಅಳಿಸಿ</string>
     <!-- conversation_context_image -->
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">ಮಾಯವಾಗುವ ಸಂದೇಶಗಳು</string>
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
     <!-- conversation_unmuted -->

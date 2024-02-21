@@ -34,7 +34,7 @@
     <string name="BucketedThreadMedia_Today">今日</string>
     <string name="BucketedThreadMedia_Yesterday">昨日</string>
     <string name="BucketedThreadMedia_This_week">今週</string>
-    <string name="BucketedThreadMedia_This_month">今月</string>
+    <string name="attachmentsThisMonth">今月</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">ウェブブラウザが見つかりません。</string>
     <!-- ContactsCursorLoader -->
@@ -111,7 +111,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">押し続けて録音、リリースして送信</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">メッセージが見つかりません</string>
     <string name="LongMessageActivity_message_from_s">%1$sからのメッセージ</string>
     <string name="LongMessageActivity_your_message">あなたのメッセージ</string>
     <!-- MediaOverviewActivity -->
@@ -123,7 +122,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">削除中</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">メッセージを削除中...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">添付ファイルを集めています...</string>
+    <string name="attachmentsCollecting">添付ファイルを集めています...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">マルチメディアメッセージ</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">MMSメッセージをダウンロード中</string>
@@ -144,7 +143,6 @@
     <string name="MessageRecord_you_updated_group">グループを更新しました</string>
     <string name="MessageRecord_s_updated_group">%s がグループを更新しました</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">消えるメッセージ</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">あなたのメッセージに消去期限は付きません</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">この会話内で送受信されるメッセージは閲覧後%sで消えます</string>
     <!-- PassphrasePromptActivity -->
@@ -169,8 +167,6 @@
     <string name="ThreadRecord_secure_session_reset">セキュアセッションがリセットされました</string>
     <string name="ThreadRecord_media_message">メディアでのメッセージ</string>
     <string name="ThreadRecord_s_is_on_signal">%sがSessionに登録しています！</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">消えるメッセージが無効にされました</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">消えるメッセージの消去時間が%sに設定されました</string>
     <string name="ThreadRecord_media_saved_by_s">%s によって保存されたメディア</string>
     <string name="ThreadRecord_safety_number_changed">安全番号が変わりました</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%sとの安全番号が変わりました</string>
@@ -233,7 +229,6 @@
         <item quantity="other">%d個</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">動画再生にエラー</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">連絡先</string>
     <string name="attachment_type_selector__contact_description">連絡先</string>
@@ -267,7 +262,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">送信失敗</string>
     <string name="conversation_item_sent__delivered_description">配信済み</string>
-    <string name="conversation_item_sent__message_read">既読</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">連絡先の写真</string>
     <!-- audio_view -->
@@ -277,7 +271,7 @@
     <string name="join">参加する</string>
     <string name="open_group_guidelines_pinned_message">ピン留めされたメッセージ</string>
     <string name="open_group_guidelines_community_guidelines">コミュニティ規定</string>
-    <string name="open_group_guidelines_read">読む</string>
+    <string name="read">読む</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">写真</string>
     <string name="QuoteView_original_missing">元のメッセージが見つかりません</string>
@@ -298,7 +292,7 @@
     <string name="recipient_preferences__block">ブロック</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">問題があります</string>
-    <string name="message_details_header__sent">送信</string>
+    <string name="disappearingMessagesSent">送信</string>
     <string name="message_details_header__received">受信</string>
     <string name="message_details_header__disappears">消える</string>
     <string name="message_details_header__via">経由</string>
@@ -390,7 +384,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">添付ファイルを保存</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">消えるメッセージ</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">期限切れメッセージ</string>
     <!-- conversation_muted -->
@@ -535,5 +528,4 @@
     <string name="dialog_link_preview_title">リンクのプレビューを有効にしますか？</string>
     <string name="dialog_link_preview_explanation">リンクのプレビューを有効すると、あなたが送受信するURLのプレビューが表示されます。これは便利ですが、プレビューを作成するのにSessionはそのウェブサイトに接続する必要があります。Sessionの設定から、リンクのプレビューをいつでも無効にできます。</string>
     <string name="dialog_link_preview_enable_button_title">有効にする</string>
-    <string name="dialog_download_title">%s を信頼する</string>
 </resources>

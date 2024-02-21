@@ -34,7 +34,7 @@
     <string name="BucketedThreadMedia_Today">Îro</string>
     <string name="BucketedThreadMedia_Yesterday">Doh</string>
     <string name="BucketedThreadMedia_This_week">Ev hefte</string>
-    <string name="BucketedThreadMedia_This_month">Ev meh</string>
+    <string name="attachmentsThisMonth">Ev meh</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Web gerok nehate dîtin.</string>
     <!-- ContactsCursorLoader -->
@@ -105,7 +105,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Ji bo peyamek dengî tomar bikî bitepîne û tiliya xwe li ser bihêle, paşê ji bo şandinê berde</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Peyam nehate dîtin</string>
     <string name="LongMessageActivity_message_from_s">Ji %1$s peyam</string>
     <string name="LongMessageActivity_your_message">Peyama te</string>
     <!-- MediaOverviewActivity -->
@@ -119,7 +118,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Jêbirin</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Peyam tên jêbirin...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">...Servehî tên berhevkirin</string>
+    <string name="attachmentsCollecting">...Servehî tên berhevkirin</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Peyama multîmedyayê</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Peyama MMS tê daxistin</string>
@@ -137,7 +136,6 @@
     <string name="MessageRecord_you_updated_group">Te komê hildemand.</string>
     <string name="MessageRecord_s_updated_group">%s komê hildemand.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Peyam tên nexuya kirin</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Dê peyamên te wenda nebin.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Peyamên ku di vê gotûbêjê de hatine şandin û wergiritn dê %s piştî hatin dîtin tune bibin.</string>
     <!-- PassphrasePromptActivity -->
@@ -164,8 +162,6 @@
     <string name="ThreadRecord_secure_session_reset">Danişîna parastî nûsazîne.</string>
     <string name="ThreadRecord_media_message">Peyama medyayê</string>
     <string name="ThreadRecord_s_is_on_signal">%s beşdarî Sessionê bûye!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Peyamên wenda dibin ne çalak e</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Dema wendabûna peyaman %s e</string>
     <string name="ThreadRecord_safety_number_changed">Hejmara ewlehiyê hat guhertin</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Hejmara te ya ewlehiyê bi %s re hate guhertin.</string>
     <string name="ThreadRecord_you_marked_verified">Te wekî rastandî nîşan kir</string>
@@ -226,7 +222,6 @@
         <item quantity="other">%dhêman</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Çewtiya lêdana vîdyoyê</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Berdeng</string>
     <string name="attachment_type_selector__contact_description">Berdeng</string>
@@ -256,7 +251,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Şandin serneket</string>
     <string name="conversation_item_sent__delivered_description">Hat gihandin</string>
-    <string name="conversation_item_sent__message_read">Peyam hat xwendin</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Wêneyê berdengî</string>
     <!-- audio_view -->
@@ -283,7 +277,7 @@
     <string name="recipient_preferences__block">Asteng bike</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Ji bo hin pirsgirêkan eleqeya te hewce ye.</string>
-    <string name="message_details_header__sent">Hat şandin</string>
+    <string name="disappearingMessagesSent">Hat şandin</string>
     <string name="message_details_header__received">Hat</string>
     <string name="message_details_header__disappears">Winda dibe</string>
     <string name="message_details_header__via">Bi riya</string>
@@ -372,7 +366,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Servehiyê tomar bike</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Peyamên ku tune dibin</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Peyam kevin dibin</string>
     <!-- conversation_muted -->

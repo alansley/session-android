@@ -36,7 +36,7 @@
     <string name="BucketedThreadMedia_Today">今天</string>
     <string name="BucketedThreadMedia_Yesterday">昨天</string>
     <string name="BucketedThreadMedia_This_week">本週</string>
-    <string name="BucketedThreadMedia_This_month">本月</string>
+    <string name="attachmentsThisMonth">本月</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">找不到網路瀏覽器。</string>
     <!-- ContactsCursorLoader -->
@@ -116,7 +116,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">按住並保持以錄製語音訊息，鬆開即傳送</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">無法找到該訊息</string>
     <string name="LongMessageActivity_message_from_s">從 %1$s 傳送的訊息</string>
     <string name="LongMessageActivity_your_message">你的訊息</string>
     <!-- MediaOverviewActivity -->
@@ -128,7 +127,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">正在刪除</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">正在刪除訊息...</string>
-    <string name="MediaOverviewActivity_collecting_attachments">正在收集附件...</string>
+    <string name="attachmentsCollecting">正在收集附件...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">多媒體訊息</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">正在下載MMS訊息</string>
@@ -149,7 +148,6 @@
     <string name="MessageRecord_you_updated_group">你已更新群組。</string>
     <string name="MessageRecord_s_updated_group">%s 更新了群組。</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">自動銷毀訊息</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">您的訊息將不會過期。</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">在此會話中所傳送與接收的訊息將會在閱讀 %s 後被銷毀。</string>
     <!-- PassphrasePromptActivity -->
@@ -177,8 +175,6 @@
     <string name="ThreadRecord_secure_session_reset">安全對話已重設</string>
     <string name="ThreadRecord_media_message">媒體訊息</string>
     <string name="ThreadRecord_s_is_on_signal">%s 在 Session 了！</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">自動銷毀訊息功能已被關閉。</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">訊息銷毀時間設定為 %s</string>
     <string name="ThreadRecord_media_saved_by_s">%s 儲存了媒體</string>
     <string name="ThreadRecord_safety_number_changed">安全碼已改變</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">您與 %s 的安全碼已改變</string>
@@ -241,7 +237,6 @@
         <item quantity="other">%d 項目</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">播放影片時發生錯誤</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">聯絡人</string>
     <string name="attachment_type_selector__contact_description">聯絡人</string>
@@ -275,7 +270,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">傳送失敗</string>
     <string name="conversation_item_sent__delivered_description">已傳送</string>
-    <string name="conversation_item_sent__message_read">訊息已讀</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">聯絡人的相片</string>
     <!-- audio_view -->
@@ -285,7 +279,7 @@
     <string name="join">加入</string>
     <string name="open_group_guidelines_pinned_message">置頂訊息</string>
     <string name="open_group_guidelines_community_guidelines">社群規範</string>
-    <string name="open_group_guidelines_read">已讀</string>
+    <string name="read">已讀</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">照片</string>
     <string name="QuoteView_original_missing">無法找到原始訊息</string>
@@ -306,7 +300,7 @@
     <string name="recipient_preferences__block">封鎖</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">一些問題需要您的注意。</string>
-    <string name="message_details_header__sent">傳送</string>
+    <string name="disappearingMessagesSent">傳送</string>
     <string name="message_details_header__received">接受</string>
     <string name="message_details_header__disappears">銷毀</string>
     <string name="message_details_header__via">來自</string>
@@ -398,7 +392,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">儲存附件檔案</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">自動銷毀訊息</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">訊息過期</string>
     <!-- conversation_muted -->
@@ -554,13 +547,10 @@
     <string name="dialog_link_preview_title">是否要啟用連結預覽？</string>
     <string name="dialog_link_preview_explanation">啟用連結預覽將會讓您送出與接收的 URLs 啟用預覽，這是一項好用的功能，但是 Session 會需要連結這些網站來產生預覽，您可以隨時關閉連結預覽功能。</string>
     <string name="dialog_link_preview_enable_button_title">啟用</string>
-    <string name="dialog_download_title">是否信任 %s？</string>
-    <string name="dialog_download_explanation">您確定要下載 %s 傳送的媒體嗎？</string>
     <string name="download">下載</string>
     <string name="activity_conversation_blocked_banner_text">%s 已被封鎖。是否解除封鎖？</string>
     <string name="activity_conversation_attachment_prep_failed">準備傳送附件失敗。</string>
     <string name="media">媒體</string>
-    <string name="UntrustedAttachmentView_download_attachment">輕觸即可下載 %s</string>
     <string name="_error">錯誤</string>
     <string name="warning">警告</string>
     <string name="dialog_send_seed_send_button_title">傳送</string>

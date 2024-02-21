@@ -37,7 +37,7 @@
     <string name="BucketedThreadMedia_Today">Vandaag</string>
     <string name="BucketedThreadMedia_Yesterday">Gisteren</string>
     <string name="BucketedThreadMedia_This_week">Deze week</string>
-    <string name="BucketedThreadMedia_This_month">Deze maand</string>
+    <string name="attachmentsThisMonth">Deze maand</string>
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Geen webbrowser gevonden.</string>
     <!-- ContactsCursorLoader -->
@@ -119,7 +119,6 @@
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tik en houd vast om een audio bericht op te nemen, laat los om te verzenden</string>
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_unable_to_find_message">Kan bericht niet vinden</string>
     <string name="LongMessageActivity_message_from_s">Bericht van %1$s</string>
     <string name="LongMessageActivity_your_message">Je bericht</string>
     <!-- MediaOverviewActivity -->
@@ -133,7 +132,7 @@
     </plurals>
     <string name="MediaOverviewActivity_Media_delete_progress_title">Aan het verwijderen</string>
     <string name="MediaOverviewActivity_Media_delete_progress_message">Berichten aan het verwijderen…</string>
-    <string name="MediaOverviewActivity_collecting_attachments">Bijlagen aan het verzamelen…</string>
+    <string name="attachmentsCollecting">Bijlagen aan het verzamelen…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediabericht</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Mms-bericht aan het downloaden</string>
@@ -155,7 +154,6 @@
     <string name="MessageRecord_you_updated_group">Je hebt de groep aangepast.</string>
     <string name="MessageRecord_s_updated_group">%s heeft de groep aangepast.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_disappearing_messages">Zelf-wissende berichten</string>
     <string name="ExpirationDialog_your_messages_will_not_expire">Berichten zullen zichzelf niet wissen.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Nieuwe berichten die in dit gesprek verzonden en ontvangen worden zullen %s nadat ze gelezen zijn zichzelf wissen.</string>
     <!-- PassphrasePromptActivity -->
@@ -182,8 +180,6 @@
     <string name="ThreadRecord_secure_session_reset">Beveiligde sessie opnieuw ingesteld.</string>
     <string name="ThreadRecord_media_message">Mediabericht</string>
     <string name="ThreadRecord_s_is_on_signal">%s maakt gebruik van Session!</string>
-    <string name="ThreadRecord_disappearing_messages_disabled">Zelf-wissende berichten uitgeschakeld</string>
-    <string name="ThreadRecord_disappearing_message_time_updated_to_s">Berichten zullen zichzelf wissen na %s</string>
     <string name="ThreadRecord_media_saved_by_s">Media opgeslagen door %s.</string>
     <string name="ThreadRecord_safety_number_changed">Veiligheidsnummer veranderd</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Je veiligheidsnummer met %s is veranderd.</string>
@@ -247,7 +243,6 @@
         <item quantity="other">%d items</item>
     </plurals>
     <!-- VideoPlayer -->
-    <string name="VideoPlayer_error_playing_video">Fout bij afspelen van video</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Contactpersoon</string>
     <string name="attachment_type_selector__contact_description">Contactpersoon</string>
@@ -281,7 +276,6 @@
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Verzenden mislukt</string>
     <string name="conversation_item_sent__delivered_description">Afgeleverd</string>
-    <string name="conversation_item_sent__message_read">Bericht gelezen</string>
     <!-- conversation_item_received -->
     <string name="conversation_item_received__contact_photo_description">Foto van contactpersoon</string>
     <!-- audio_view -->
@@ -291,7 +285,7 @@
     <string name="join">Aansluiten</string>
     <string name="open_group_guidelines_pinned_message">Vastgezet bericht</string>
     <string name="open_group_guidelines_community_guidelines">Community richtlijnen</string>
-    <string name="open_group_guidelines_read">Gelezen</string>
+    <string name="read">Gelezen</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
     <string name="QuoteView_original_missing">Oorspronkelijk bericht niet gevonden</string>
@@ -312,7 +306,7 @@
     <string name="recipient_preferences__block">Blokkeren</string>
     <!-- message_details_header -->
     <string name="message_details_header__issues_need_your_attention">Enkele dingen vergen je aandacht.</string>
-    <string name="message_details_header__sent">Verzonden</string>
+    <string name="disappearingMessagesSent">Verzonden</string>
     <string name="message_details_header__received">Ontvangen</string>
     <string name="message_details_header__disappears">Wist zichzelf over</string>
     <string name="message_details_header__via">Via</string>
@@ -405,7 +399,6 @@
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Bijlage opslaan</string>
     <!-- conversation_expiring_off -->
-    <string name="conversation_expiring_off__disappearing_messages">Zelf-wissende berichten</string>
     <!-- conversation_expiring_on -->
     <string name="menu_conversation_expiring_on__messages_expiring">Berichten wissen zichzelf</string>
     <!-- conversation_muted -->
@@ -561,13 +554,10 @@
     <string name="dialog_link_preview_title">Linkvoorbeeld inschakelen?</string>
     <string name="dialog_link_preview_explanation">Link previews inschakelen zal previews tonen voor URLs die u verstuurt en ontvangt. Dit kan nuttig zijn, maar Session moet contact opnemen met gekoppelde websites om previews te genereren. U kunt links altijd uitschakelen in de Session’s-instellingen.</string>
     <string name="dialog_link_preview_enable_button_title">Inschakelen</string>
-    <string name="dialog_download_title">Vertrouw %s?</string>
-    <string name="dialog_download_explanation">Weet je zeker dat je deze media van %s wilt downloaden?</string>
     <string name="download">Download</string>
     <string name="activity_conversation_blocked_banner_text">%s is geblokkeerd. Deblokkeer ze?</string>
     <string name="activity_conversation_attachment_prep_failed">Kon bijlage niet voorbereiden voor verzending.</string>
     <string name="media">Media</string>
-    <string name="UntrustedAttachmentView_download_attachment">Tik om te downloaden%s</string>
     <string name="_error">Error</string>
     <string name="warning">Waarschuwing</string>
     <string name="dialog_send_seed_send_button_title">Versturen</string>
