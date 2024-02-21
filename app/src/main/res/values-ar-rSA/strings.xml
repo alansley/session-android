@@ -196,7 +196,6 @@
     <string name="conversationsSettingsAllMedia">جميع الوسائط</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">لقد استلمت رسالة مشفرة من إصدارة Session قديمة وتوقف دعمها. من فضلك اطلب من الراسل الترقية إلي أحدث إصدار وإعادة إرسال الرسالة.</string>
-    <string name="MessageRecord_left_group">لقد تركت المجموعة.</string>
     <string name="MessageRecord_you_updated_group">قمت بتحديث المحموعة.</string>
     <string name="MessageRecord_s_updated_group">%s قام بتحديث المحموعة.</string>
     <!-- ExpirationDialog -->
@@ -222,7 +221,6 @@
     <string name="SmsMessageRecord_duplicate_message">رسالة مكررة.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">تم تحديث المحموعة</string>
-    <string name="ThreadRecord_left_the_group">غادر المجموعة</string>
     <string name="ThreadRecord_secure_session_reset">إعادة ضبط جلسة آمنة.</string>
     <string name="ThreadRecord_media_message">رسالة وسائط متعددة</string>
     <string name="ThreadRecord_s_is_on_signal">%sمتواجد على Session !</string>
@@ -532,7 +530,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">اِختر</string>
     <string name="activity_home_empty_state_button_title">اِبدا جلسة محادثة</string>
     <string name="activity_home_leave_group_dialog_message">هل انت متاكد من مغادرة المجموعة؟</string>
-    <string name="activity_home_leaving_group_failed_message">"لا يمكن مغادرة المجموعة"</string>
     <string name="conversationsDeleted">تم حذف المحادثة</string>
     <string name="activity_seed_title_2">هذه هي عبارة الاسترجاع</string>
     <string name="activity_seed_explanation">عبارة الاسترجاع هي مفتاح عنوان تعريفك - يمكنك استخدامها لاسترجاع عنوان تعريفك اذا فقدت الوصول لجهازك. قم بحفظها في مكان امن و لا تعطها الى اي أحد.</string>
@@ -555,7 +552,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">بدء جلسة</string>
     <string name="groupNameEnterPlease">الرجاء إدخال إسم للمجموعة</string>
     <string name="activity_join_public_chat_title">الإنضمام إلى مجموعة مفتوحة</string>
-    <string name="activity_join_public_chat_error">تعذر الإنضمام إلى المجموعة</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">امسح رمز QR المجموعة التي تريد الإنضمام إليها</string>
     <string name="sessionSettings">الإعدادات</string>
     <string name="activity_settings_devices_button_title">الأجهزة</string>

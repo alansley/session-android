@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Alle Medieninhalte</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Eine empfangene Nachricht wurde mit einer alten, nicht mehr unterstützten Version von Signal verschlüsselt. Bitte den Absender, Session auf die neueste Version zu aktualisieren und die Nachricht erneut zu senden.</string>
-    <string name="MessageRecord_left_group">Du hast die Gruppe verlassen</string>
     <string name="MessageRecord_you_updated_group">Du hast die Gruppe aktualisiert</string>
     <string name="MessageRecord_s_updated_group">%s hat die Gruppe aktualisiert</string>
     <!-- ExpirationDialog -->
@@ -182,7 +181,6 @@
     <string name="SmsMessageRecord_duplicate_message">Doppelte Nachricht</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Gruppe aktualisiert</string>
-    <string name="ThreadRecord_left_the_group">Gruppe verlassen</string>
     <string name="ThreadRecord_secure_session_reset">Verschlüsselung neu gestartet</string>
     <string name="ThreadRecord_media_message">Nachricht mit Medieninhalten</string>
     <string name="ThreadRecord_s_is_on_signal">%s ist bei Session!</string>
@@ -484,7 +482,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Bitte wählen Sie eine Option aus.</string>
     <string name="activity_home_empty_state_button_title">Session starten</string>
     <string name="activity_home_leave_group_dialog_message">Sind Sie sich sicher, dass Sie diese Gruppe verlassen möchten?</string>
-    <string name="activity_home_leaving_group_failed_message">"Gruppe konnte nicht verlassen werden."</string>
     <string name="conversationsDeleted">Die Unterhaltung wurde gelöscht.</string>
     <string name="activity_seed_title_2">Das ist Ihr Wiederherstellungssatz.</string>
     <string name="activity_seed_explanation">Ihr Wiederherstellungssatz ist der Hauptschlüssel für Ihre Session ID. Mit diesem Satz können Sie Ihre Session ID wiederherstellen, wenn Sie den Zugriff auf Ihr Gerät verlieren. Bewahren Sie Ihren Wiederherstellungssatz an einem sicheren Ort auf und geben Sie ihn an niemandem weiter.</string>
@@ -507,7 +504,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Session starten</string>
     <string name="groupNameEnterPlease">Bitte geben Sie einen Gruppennamen ein.</string>
     <string name="activity_join_public_chat_title">Offener Gruppe beitreten</string>
-    <string name="activity_join_public_chat_error">Konnte der Gruppe nicht beitreten.</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scannen Sie den QR-Code der offenen Gruppe, der Sie beitreten möchten.</string>
     <string name="sessionSettings">Einstellungen</string>
     <string name="activity_settings_devices_button_title">Geräte</string>

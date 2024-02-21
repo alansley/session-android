@@ -102,7 +102,6 @@
     <!-- MediaRepository -->
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Đã nhận một tin nhắn được mã khoá bởi phiên bản Session cũ và không còn được hỗ trợ. Hãy yêu cầu người gửi cập nhật phiên bản mới nhất và gửi lại tin nhắn.</string>
-    <string name="MessageRecord_left_group">Bạn đã rời nhóm.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Điền vào cụm từ mật khẩu</string>
@@ -317,7 +316,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Vui lòng lựa chọn </string>
     <string name="activity_home_empty_state_button_title">Bắt đầu một Session</string>
     <string name="activity_home_leave_group_dialog_message">Bạn có chắc chắn rằng bạn muốn rời nhóm này không?</string>
-    <string name="activity_home_leaving_group_failed_message">"Không thể rời nhóm"</string>
     <string name="conversationsDeleted">Cuộc hội thoại đã được xoá </string>
     <string name="activity_seed_title_2">Làm quen với cụm từ khôi phục của bạn</string>
     <string name="activity_seed_explanation">Cụm từ khôi phục của bạn là chìa khoá chủ cho Session ID của bạn — bạn có thể sử dụng nó để khôi phục Session ID khi bị mất tiếp cận với thiết bị của bạn. Hãy lưu cụm từ khôi phục của bạn ở một nơi an toàn và không cung cấp cho bất kì ai.</string>
@@ -338,7 +336,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_create_closed_group_empty_state_button_title">Bắt đầu Session</string>
     <string name="groupNameEnterPlease">Vui lòng nhập tên nhóm</string>
     <string name="activity_join_public_chat_title">Tham gia nhóm mở</string>
-    <string name="activity_join_public_chat_error">Không thể tham gia nhóm</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation"> Quét mã QR của nhóm mở mà bạn muốn tham gia</string>
     <string name="sessionSettings">Cài đặt</string>
     <string name="activity_settings_devices_button_title">Thiết bị</string>

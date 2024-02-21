@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Ĉiuj aŭvidaĵoj</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vi ricevis mesaĝon ĉifrita per malnova Session-a versio, kiu ne plu estas subtenata. Bonvolu peti la sendinton ĝisdatigi al la plej freŝa versio, kaj resendi la mesaĝon.</string>
-    <string name="MessageRecord_left_group">Vi forlasis la grupon.</string>
     <string name="MessageRecord_you_updated_group">Vi ĝisdatigis la grupon.</string>
     <string name="MessageRecord_s_updated_group">%s ĝisdatigis la grupon.</string>
     <!-- ExpirationDialog -->
@@ -183,7 +182,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duobla mesaĝo.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupo ĝisdatigita</string>
-    <string name="ThreadRecord_left_the_group">Forlasis la grupon</string>
     <string name="ThreadRecord_secure_session_reset">Sekura seanco restarigita.</string>
     <string name="ThreadRecord_media_message">Aŭdvida mesaĝo</string>
     <string name="ThreadRecord_s_is_on_signal">%s estas ĉe Session!</string>
@@ -485,7 +483,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Bonvolu Elekti Opcion</string>
     <string name="activity_home_empty_state_button_title">Komenci Sesion</string>
     <string name="activity_home_leave_group_dialog_message">Ĉu vi certas, ke vi volas forlasi ĉi tiun grupon?</string>
-    <string name="activity_home_leaving_group_failed_message">"Ne povis foriri el la grupo"</string>
     <string name="conversationsDeleted">Konversacio forviŝite</string>
     <string name="activity_seed_title_2">Ekkonu vian riparan frazon</string>
     <string name="activity_seed_explanation">Via ripara frazo estas la ĉefŝlosilo de via Session ID — vi povas uzi ĝin por restaŭri vian Session ID-on se vi malgajros aliron al via aparato. Konservu vian riparan frazon en sekura loko, kaj donu ĝin al neniu.</string>
@@ -508,7 +505,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Komenci Sesion</string>
     <string name="groupNameEnterPlease">Bonvolu entajpi grupnomon</string>
     <string name="activity_join_public_chat_title">Aniĝi al Malferma Grupo</string>
-    <string name="activity_join_public_chat_error">Ne povis aniĝi al grupo</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skanu la QR-kodon de la malferma grupo kiu vi volas aniĝi</string>
     <string name="sessionSettings">Agordo</string>
     <string name="activity_settings_devices_button_title">Aparatoj</string>

@@ -176,7 +176,6 @@
     <string name="conversationsSettingsAllMedia">Все медиафайлы</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Полученное сообщение зашифровано в старой версии Session, которая больше не поддерживается. Пожалуйста, попросите отправителя обновиться до последней версии и отправить сообщение заново.</string>
-    <string name="MessageRecord_left_group">Вы покинули группу.</string>
     <string name="MessageRecord_you_updated_group">Вы обновили группу.</string>
     <string name="MessageRecord_s_updated_group">%s обновил(а) группу.</string>
     <!-- ExpirationDialog -->
@@ -204,7 +203,6 @@
     <string name="SmsMessageRecord_duplicate_message">Дубликат сообщения.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Группа обновлена</string>
-    <string name="ThreadRecord_left_the_group">Вы покинули группу</string>
     <string name="ThreadRecord_secure_session_reset">Защищенный сеанс сброшен.</string>
     <string name="ThreadRecord_media_message">Медиа-сообщение</string>
     <string name="ThreadRecord_s_is_on_signal">%s теперь в Session!</string>
@@ -510,7 +508,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Пожалуйста, выберите метод</string>
     <string name="activity_home_empty_state_button_title">Начать Сессию</string>
     <string name="activity_home_leave_group_dialog_message">Вы уверены, что хотите покинуть эту группу?</string>
-    <string name="activity_home_leaving_group_failed_message">"Не удалось покинуть группу"</string>
     <string name="conversationsDeleted">Разговор удален</string>
     <string name="activity_seed_title_2">А вот и ваша секретная фраза для восстановления</string>
     <string name="activity_seed_explanation">Ваша секретная фраза является главным ключом к вашему Session ID. Вы можете использовать ее для восстановления Session ID, если потеряете доступ к своему устройству. Сохраните свою секретную фразу в безопасном месте, и никому ее не передавайте.</string>
@@ -533,7 +530,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Начать Сессию</string>
     <string name="groupNameEnterPlease">Пожалуйста, введите название группы</string>
     <string name="activity_join_public_chat_title">Присоединиться к открытой группе</string>
-    <string name="activity_join_public_chat_error">Не удалось присоединиться к группе</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Отсканируйте QR-код открытой группы, в которую вы хотите вступить</string>
     <string name="sessionSettings">Настройки</string>
     <string name="activity_settings_devices_button_title">Устройства</string>

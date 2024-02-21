@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Alle mediefiler</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Modtog en besked krypteret med en ældre version af Session, der ikke længere understøttes. Bed venligst afsenderen om at opgradere til den nyeste version og sende beskeden igen</string>
-    <string name="MessageRecord_left_group">Du har forladt gruppen</string>
     <string name="MessageRecord_you_updated_group">Du opdaterede gruppen</string>
     <string name="MessageRecord_s_updated_group">%s opdaterede gruppen</string>
     <!-- ExpirationDialog -->
@@ -183,7 +182,6 @@ udveksel besked!</string>
     <string name="SmsMessageRecord_duplicate_message">Dupliker besked</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Gruppe opdateret</string>
-    <string name="ThreadRecord_left_the_group">Har forladt gruppen</string>
     <string name="ThreadRecord_secure_session_reset">Nulstil sikker forbindelse</string>
     <string name="ThreadRecord_media_message">Mediebesked</string>
     <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
@@ -483,7 +481,6 @@ udveksel besked!</string>
     <string name="recommended">Anbefalet</string>
     <string name="activity_home_empty_state_button_title">Start en Session</string>
     <string name="activity_home_leave_group_dialog_message">Er du sikker på, at du vil forlade denne gruppe?</string>
-    <string name="activity_home_leaving_group_failed_message">"Kunne ikke forlade gruppen"</string>
     <string name="conversationsDeleted">Samtale slettet</string>
     <string name="activity_seed_title_2">Mød din gendannelsessætning</string>
     <string name="activity_seed_explanation">Din gendannelsessætning er hovednøglen til dit Session ID - du kan bruge den til at gendanne dit Session ID, hvis du mister adgang til din enhed. Gem din gendannelsessætning på et sikkert sted, og giv det ikke til nogen.</string>
@@ -500,7 +497,6 @@ udveksel besked!</string>
     <string name="fragment_scan_qr_code_grant_camera_access_button_title">Tildel Adgang Til Kamera</string>
     <string name="groupNameEnter">Indtast et gruppenavn</string>
     <string name="activity_create_closed_group_empty_state_button_title">Start en Session</string>
-    <string name="activity_join_public_chat_error">Kunne ikke joine gruppen</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scan QR-koden for den åbne gruppe, du gerne vil deltage i</string>
     <string name="sessionSettings">Indstillinger</string>
     <string name="activity_settings_devices_button_title">Enheder</string>

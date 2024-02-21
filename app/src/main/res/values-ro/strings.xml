@@ -167,7 +167,6 @@
     <string name="conversationsSettingsAllMedia">Toate fișierele media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Ai primit un mesaj care a fost criptat cu o versiune mai veche de Session care nu mai este suportată. Roagă-l pe expeditor să-și actualizeze aplicația la ultima versiune și să retrimită mesajul.</string>
-    <string name="MessageRecord_left_group">Ați parăsit grupul.</string>
     <string name="MessageRecord_you_updated_group">Ați actualizat grupul.</string>
     <string name="MessageRecord_s_updated_group">%s a actualizat grupul.</string>
     <!-- ExpirationDialog -->
@@ -196,7 +195,6 @@ schimbul de chei este corupt </string>
     <string name="SmsMessageRecord_duplicate_message">Mesaj duplicat.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupul a fost actualizat</string>
-    <string name="ThreadRecord_left_the_group">A părăsit grupul</string>
     <string name="ThreadRecord_secure_session_reset">Sesiune securizată resetată.</string>
     <string name="ThreadRecord_media_message">Mesaj media</string>
     <string name="ThreadRecord_s_is_on_signal">%s folosește Session!</string>

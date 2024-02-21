@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Serialized Strings replaced by ACL - these are duplicated in the Session `:app` module as I'm not sure how to share across -ACL -->
+    <string name="groupMemberYouLeft">You left the group.</string>
+
     <!-- MessageRecord -->
-    <string name="MessageRecord_left_group">You have left the group.</string>
     <string name="MessageRecord_you_created_a_new_group">You created a new group.</string>
     <string name="MessageRecord_s_added_you_to_the_group">%1$s added you to the group.</string>
     <string name="MessageRecord_you_renamed_the_group_to_s">You renamed the group to %1$s</string>

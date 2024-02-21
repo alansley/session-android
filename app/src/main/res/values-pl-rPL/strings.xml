@@ -176,7 +176,6 @@
     <string name="conversationsSettingsAllMedia">Wszystkie multimedia</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Otrzymano zaszyfrowaną wiadomość wysłaną przy użyciu starej wersji Session, która nie jest już wspierana. Poproś nadawcę tej wiadomości o zaktualizowanie aplikacji do najnowszej wersji i przesłanie wiadomości ponownie.</string>
-    <string name="MessageRecord_left_group">Opuściłeś(aś) grupę.</string>
     <string name="MessageRecord_you_updated_group">Zaktualizowałeś(aś) grupę.</string>
     <string name="MessageRecord_s_updated_group">%s zaktualizował(a) grupę.</string>
     <!-- ExpirationDialog -->
@@ -202,7 +201,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duplikuj wiadomość.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupa zaktualizowana</string>
-    <string name="ThreadRecord_left_the_group">Opuścił(a) grupę</string>
     <string name="ThreadRecord_secure_session_reset">Reset bezpiecznej sesji.</string>
     <string name="ThreadRecord_media_message">Wiadomość multimedialna</string>
     <string name="ThreadRecord_s_is_on_signal">%s jest w Session!</string>
@@ -508,7 +506,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Wybierz opcję</string>
     <string name="activity_home_empty_state_button_title">Rozpocznij sesję</string>
     <string name="activity_home_leave_group_dialog_message">Czy na pewno chcesz opuścić tę grupę?</string>
-    <string name="activity_home_leaving_group_failed_message">"Nie można opuścić grupy"</string>
     <string name="conversationsDeleted">Rozmowa usunięta</string>
     <string name="activity_seed_title_2">Poznaj swoją frazę odzyskiwania</string>
     <string name="activity_seed_explanation">Twoja fraza odzyskiwania jest głównym kluczem do identyfikatora Session - możesz jej użyć do przywrócenia identyfikatora Session, jeśli stracisz dostęp do urządzenia. Przechowuj swoją frazę odzyskiwania w bezpiecznym miejscu i nikomu jej nie udostępniaj.</string>
@@ -531,7 +528,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Rozpocznij sesję</string>
     <string name="groupNameEnterPlease">Wpisz nazwę grupy</string>
     <string name="activity_join_public_chat_title">Dołącz do otwartej grupy</string>
-    <string name="activity_join_public_chat_error">Nie można dołączyć do grupy</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Zeskanuj kod QR otwartej grupy, do której chcesz dołączyć</string>
     <string name="sessionSettings">Ustawienia</string>
     <string name="activity_settings_devices_button_title">Urządzenia</string>

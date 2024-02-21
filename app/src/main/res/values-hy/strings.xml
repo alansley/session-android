@@ -161,7 +161,6 @@
     <string name="conversationsSettingsAllMedia">Բոլոր մեդիաները</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Հաղորդագրությունը չի ուղարկվել, քանի որ session-ի տվյալ տարբերակը հնացել է, խնդրում ենք թարմացնել այն, և ուղարկեք հաղորդագրությունը նորից.</string>
-    <string name="MessageRecord_left_group">Դուք դուրս եկաք խմբից։</string>
     <string name="MessageRecord_you_updated_group">Դուք թարմացրեցիք զրուցարանը.</string>
     <string name="MessageRecord_s_updated_group">%s զրուցարանը թարմացվել է.</string>
     <!-- ExpirationDialog -->
@@ -191,7 +190,6 @@
     <string name="SmsMessageRecord_duplicate_message">Պաճենել նամակը։</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Խումբը թարմացված ք</string>
-    <string name="ThreadRecord_left_the_group">Դուք դուրս եք եկել չատից</string>
     <string name="ThreadRecord_secure_session_reset">Ապահով սեսսիան վերագործարկված է:</string>
     <string name="ThreadRecord_media_message">Մեդիաով հաղորդագրություն</string>
     <string name="ThreadRecord_s_is_on_signal">%s֊ը արդեն Session֊ում է</string>
@@ -493,7 +491,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Խնդրում ենք ընտրել</string>
     <string name="activity_home_empty_state_button_title">Սկսել Սեանս</string>
     <string name="activity_home_leave_group_dialog_message">Համոզվա՞ծ եք, որ ուզում եք հեռանալ այս խմբից։</string>
-    <string name="activity_home_leaving_group_failed_message">"Չստացվեց հեռանալ խումբից"</string>
     <string name="conversationsDeleted">Ջնջված է</string>
     <string name="activity_seed_title_2">Ծանոթացեք ձեր վերականգնման բառակապակցության հետ</string>
     <string name="activity_seed_explanation">Session այդին Ձեր Session բանալին է, որը կարող եք վերականգնել եթե կորցնեք ձեր սարքը, ձեր բանալին պահեք և մի տվեք ինչ-որ մեկին.</string>
@@ -516,7 +513,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Սկսել Սեանս</string>
     <string name="groupNameEnterPlease">Այս դաշտը չպիտի լինի դատարկ</string>
     <string name="activity_join_public_chat_title">Մտնել զրուցարան</string>
-    <string name="activity_join_public_chat_error">Չստացվեց մտնել խումբ</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Սքանավորել բաց խմբի QR կոդը</string>
     <string name="sessionSettings">Կարգավորումներ</string>
     <string name="activity_settings_devices_button_title">Սարքեր</string>

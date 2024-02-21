@@ -174,7 +174,6 @@
     <string name="conversationsSettingsAllMedia">כל המדיה</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">התקבלה הודעה מוצפנת ע\"י שימוש בגרסה ישנה של Session שאינה נתמכת יותר. אנא בקש מהשולח לעדכן אל הגרסה העדכנית ביותר ולשלוח מחדש את ההודעה.</string>
-    <string name="MessageRecord_left_group">עזבת את הקבוצה.</string>
     <string name="MessageRecord_you_updated_group">עדכנת את הקבוצה.</string>
     <string name="MessageRecord_s_updated_group">%s עדכן את הקבוצה</string>
     <!-- ExpirationDialog -->
@@ -201,7 +200,6 @@
     <string name="SmsMessageRecord_duplicate_message">הודעה כפולה.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">הקבוצה עודכנה</string>
-    <string name="ThreadRecord_left_the_group">עזב את הקבוצה</string>
     <string name="ThreadRecord_secure_session_reset">שיח מאובטח אופס.</string>
     <string name="ThreadRecord_media_message">הודעת מדיה</string>
     <string name="ThreadRecord_s_is_on_signal">%s משתמש ב-Session!</string>

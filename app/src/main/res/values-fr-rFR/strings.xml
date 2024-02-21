@@ -162,7 +162,6 @@
     <string name="conversationsSettingsAllMedia">Tous les médias</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vous avez reçu un message chiffré avec une ancienne version de Signal qui n’est plus prise en charge. Veuillez demander à l’expéditeur de mettre Session à jour vers la version la plus récente et de renvoyer son message.</string>
-    <string name="MessageRecord_left_group">Vous avez quitté le groupe.</string>
     <string name="MessageRecord_you_updated_group">Vous avez mis le groupe à jour.</string>
     <string name="MessageRecord_s_updated_group">%s a mis le groupe à jour.</string>
     <!-- ExpirationDialog -->
@@ -189,7 +188,6 @@
     <string name="SmsMessageRecord_duplicate_message">Message en double.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Le groupe a été mis à jour</string>
-    <string name="ThreadRecord_left_the_group">A quitté le groupe</string>
     <string name="ThreadRecord_secure_session_reset">La session sécurisée a été réinitialisée.</string>
     <string name="ThreadRecord_media_message">Message multimédia</string>
     <string name="ThreadRecord_s_is_on_signal">%s est sur Session !</string>
@@ -512,7 +510,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Veuillez choisir une option</string>
     <string name="activity_home_empty_state_button_title">Démarrez une Session</string>
     <string name="activity_home_leave_group_dialog_message">Voulez-vous vraiment quitter ce groupe ?</string>
-    <string name="activity_home_leaving_group_failed_message">"Impossible de quitter le groupe"</string>
     <string name="conversationsDeleted">Conversation supprimée</string>
     <string name="activity_seed_title_2">Voici votre phrase de récupération</string>
     <string name="activity_seed_explanation">Votre phrase de récupération est la clé principale de votre Session ID - vous pouvez l\'utiliser pour restaurer votre Session ID si vous perdez l\'accès à votre appareil. Conservez la dans un endroit sûr et ne la donnez à personne.</string>
@@ -535,7 +532,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Démarrer une session</string>
     <string name="groupNameEnterPlease">Veuillez saisir un nom de groupe</string>
     <string name="activity_join_public_chat_title">Joindre un groupe public</string>
-    <string name="activity_join_public_chat_error">Impossible de rejoindre le groupe</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scannez le code QR du groupe public que vous souhaitez rejoindre</string>
     <string name="sessionSettings">Paramètres</string>
     <string name="activity_settings_devices_button_title">Appareils reliés</string>

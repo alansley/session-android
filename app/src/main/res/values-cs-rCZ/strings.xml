@@ -176,7 +176,6 @@
     <string name="conversationsSettingsAllMedia">Všechna media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Přijata zpráva šifrovaná starou verzí Session, která již není podporována. Prosím požádejte odesílatele, aby si zaktualizoval aplikaci na nejnovější verzi a poté poslal zprávu znovu.</string>
-    <string name="MessageRecord_left_group">Opustil(a) jste skupinu</string>
     <string name="MessageRecord_you_updated_group">Upravil(a) jste skupinu.</string>
     <string name="MessageRecord_s_updated_group">%s upravil(a) skupinu.</string>
     <!-- ExpirationDialog -->
@@ -202,7 +201,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duplicitní zpráva</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Skupina upravena</string>
-    <string name="ThreadRecord_left_the_group">Opustil skupinu.</string>
     <string name="ThreadRecord_secure_session_reset">Reset zabezpečené konverzace.</string>
     <string name="ThreadRecord_media_message">Multimediální zpráva</string>
     <string name="ThreadRecord_s_is_on_signal">%s má Session!</string>
@@ -508,7 +506,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Prosím vyberte možnost</string>
     <string name="activity_home_empty_state_button_title">Zahájit relaci</string>
     <string name="activity_home_leave_group_dialog_message">Opravdu chcete opustit tuto skupinu?</string>
-    <string name="activity_home_leaving_group_failed_message">"Skupinu se nepodařilo opustit"</string>
     <string name="conversationsDeleted">Konverzace byla smazána</string>
     <string name="activity_seed_title_2">Zadejte frázi pro obnovení</string>
     <string name="activity_seed_explanation">Ahoj</string>
@@ -531,7 +528,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Zahájit relaci</string>
     <string name="groupNameEnterPlease">Zadejte prosím název skupiny</string>
     <string name="activity_join_public_chat_title">Připojit se k otevřené skupině</string>
-    <string name="activity_join_public_chat_error">Nelze se připojit ke skupině</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Naskenujte QR kód otevřené skupiny, ke které se chcete připojit</string>
     <string name="sessionSettings">Nastavení</string>
     <string name="activity_settings_devices_button_title">Zařízení</string>

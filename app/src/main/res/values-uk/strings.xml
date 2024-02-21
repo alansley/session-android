@@ -177,7 +177,6 @@
 Всі зображення</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Отримано повідомлення, яке зашифроване старою версією Session, яка вже не підтримується. Попросіть друга оновитися до останньої версії та надіслати повідомлення знову.</string>
-    <string name="MessageRecord_left_group">Ви покинули групу.</string>
     <string name="MessageRecord_you_updated_group">Ви оновили групу.</string>
     <string name="MessageRecord_s_updated_group">%s оновив групу.</string>
     <!-- ExpirationDialog -->
@@ -204,7 +203,6 @@
     <string name="SmsMessageRecord_duplicate_message">Дублікат повідомлення.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Групу оновлено</string>
-    <string name="ThreadRecord_left_the_group">Покинути групу</string>
     <string name="ThreadRecord_secure_session_reset">Скидання безпечного сеансу.</string>
     <string name="ThreadRecord_media_message">Медіа повідомлення</string>
     <string name="ThreadRecord_s_is_on_signal">%s приєднався до Session!</string>
@@ -510,7 +508,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Будь ласка виберіть варіант</string>
     <string name="activity_home_empty_state_button_title">Почати сесію</string>
     <string name="activity_home_leave_group_dialog_message">Ви дійсно хочете покинути цю групу?</string>
-    <string name="activity_home_leaving_group_failed_message">"Не вдалося покинути групу"</string>
     <string name="conversationsDeleted">Бесіду видалено</string>
     <string name="activity_seed_title_2">Знайомтесь з вашою фразою відновлення</string>
     <string name="activity_seed_explanation">Ваша фраза відновлення - це головний ключ до вашогї Session ID адреси - ви можете використовувати її для відновлення вашої Session ID адреси якщо ви втратите доступ до пристрою. Запишіть на папері та зберігайте вашу фразу відновлення у безпечному місці і не дайте її нікому.</string>
@@ -533,7 +530,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Почати сесію</string>
     <string name="groupNameEnterPlease">Будь ласка, введіть ім\'я групи</string>
     <string name="activity_join_public_chat_title">Вступити до відкритої групи</string>
-    <string name="activity_join_public_chat_error">Не вдалося приєднатися до групи</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Відскануйте QR-код відкритої групи, до якої ви хотіли б приєднатися</string>
     <string name="sessionSettings">Параметри</string>
     <string name="activity_settings_devices_button_title">Пристрої</string>

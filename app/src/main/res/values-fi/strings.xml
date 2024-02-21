@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Kaikki media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vastaanotettiin viesti, joka on salattu Sessionin vanhalla versiolla, jota ei enää tueta. Pyydä lähettäjää päivittämään uusimpaan versioon ja lähettämään viesti uudelleen.</string>
-    <string name="MessageRecord_left_group">Olet lähtenyt ryhmästä.</string>
     <string name="MessageRecord_you_updated_group">Sinä päivitit ryhmää.</string>
     <string name="MessageRecord_s_updated_group">%s päivitti ryhmää.</string>
     <!-- ExpirationDialog -->
@@ -183,7 +182,6 @@ on viallinen!</string>
     <string name="SmsMessageRecord_duplicate_message">Viestin kaksoiskappale.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Ryhmä päivitetty</string>
-    <string name="ThreadRecord_left_the_group">Poistui ryhmästä</string>
     <string name="ThreadRecord_secure_session_reset">Suojattu istunto alustettu</string>
     <string name="ThreadRecord_media_message">Mediaviesti</string>
     <string name="ThreadRecord_s_is_on_signal">%s käyttää Sessionia!</string>
@@ -484,7 +482,6 @@ on viallinen!</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Valitse vaihtoehto</string>
     <string name="activity_home_empty_state_button_title">Aloita ryhmä</string>
     <string name="activity_home_leave_group_dialog_message">Haluatko varmasti poistua tästä ryhmästä?</string>
-    <string name="activity_home_leaving_group_failed_message">"Ryhmästä ei voitu poistua"</string>
     <string name="conversationsDeleted">Keskustelu poistettu</string>
     <string name="activity_seed_title_2">Tutustu palautuslauseesi</string>
     <string name="activity_seed_explanation">Sinun palautuslause on pääavain Session tunnukseesi — voit käyttää sitä palauttamaan Session tunnuksesi jos menetät pääsyn laitteeseen. Säilytä palautuslauseesi turvallisessa paikassa, ja älä anna sitä kenellekään.</string>
@@ -507,7 +504,6 @@ on viallinen!</string>
     <string name="activity_create_closed_group_empty_state_button_title">Aloita ryhmä</string>
     <string name="groupNameEnterPlease">Syötä ryhmän nimi</string>
     <string name="activity_join_public_chat_title">Liity Avoimeen Ryhmään</string>
-    <string name="activity_join_public_chat_error">Ryhmään ei voitu liittyä</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Skannaa avoimen ryhmän QR-koodi, johon haluat liittyä</string>
     <string name="sessionSettings">Asetukset</string>
     <string name="activity_settings_devices_button_title">Laitteet</string>

@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">تمام رسانه ها</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">یک پیام رمزنگاری شده با استفاده از نسخه‌ای قدیمی از Signal که دیگر پشتیبانی نمی‌شود برایتان ارسال شده است، لطفاً از فرستنده بخواهید نرم‌افزار Session خود را به آخرین نسخه بروزرسانی کرده و مجدداً پیام را برای شما ارسال کند.</string>
-    <string name="MessageRecord_left_group">شما گروه را ترک کرده اید.</string>
     <string name="MessageRecord_you_updated_group">شما گروه را بروزرسانی کردید</string>
     <string name="MessageRecord_s_updated_group">%s گروه را بروزرسانی کرد</string>
     <!-- ExpirationDialog -->
@@ -183,7 +182,6 @@
     <string name="SmsMessageRecord_duplicate_message">تکثیر پیام.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">گروه به روز شد</string>
-    <string name="ThreadRecord_left_the_group">گروه را ترک کرد</string>
     <string name="ThreadRecord_secure_session_reset">تنظیم مجدد جلسه امن.</string>
     <string name="ThreadRecord_media_message">پیام رسانه</string>
     <string name="ThreadRecord_s_is_on_signal">%s در Session است!</string>
@@ -485,7 +483,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">لطفا یک گزینه را انتخاب کنید</string>
     <string name="activity_home_empty_state_button_title">شروع Session</string>
     <string name="activity_home_leave_group_dialog_message">آیا مطمئن هستید که می‌خواهید این گروه را ترک کنید؟</string>
-    <string name="activity_home_leaving_group_failed_message">"ترک گروه انجام نشد"</string>
     <string name="conversationsDeleted">مکالمه حذف شد</string>
     <string name="activity_seed_title_2">این عبارت بازیابی شماست</string>
     <string name="activity_seed_explanation">عبارت بازیابی شما کلید اصلی شناسه‌ی Session شما است - در صورت عدم دسترسی به دستگاه خود می توانید از آن برای بازگرداندن شناسه‌ی Session خود استفاده کنید. عبارت بازیابی خود را در مکانی امن ذخیره کنید و آن را به کسی ندهید.</string>
@@ -508,7 +505,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">شروع Session</string>
     <string name="groupNameEnterPlease">لطفا یک نام گروه وارد کنید</string>
     <string name="activity_join_public_chat_title">به گروه باز بپیوندید</string>
-    <string name="activity_join_public_chat_error">امکان پیوستن به گروه نیست</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">کد QR متعلق به گروه باز را که می‌خواهید به آن بپیوندید، اسکن کنید</string>
     <string name="sessionSettings">تنظیمات</string>
     <string name="activity_settings_devices_button_title">دستگاه‌ها</string>

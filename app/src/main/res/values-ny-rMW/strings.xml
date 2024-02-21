@@ -125,7 +125,6 @@
     <string name="conversationsSettingsAllMedia">Tukuylla uyayrikuchik</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Shuk pakalla chaski chayamurka ñawpa Signalmanta, mana paskarita usharinchu. Maykan kachamushkaman Sessionta mushukyachichun mañapay, chaski chayamuchun.</string>
-    <string name="MessageRecord_left_group"> Tantanakuymanta  llukshirka.</string>
     <string name="MessageRecord_you_updated_group">Tantakuyta mushukyachishkanki.</string>
     <string name="MessageRecord_s_updated_group">%s tantanakuy mushukyashkami.</string>
     <!-- ExpirationDialog -->
@@ -152,7 +151,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="SmsMessageRecord_duplicate_message">Chaskita ishkaychi</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Tantanakuy mushukyashka</string>
-    <string name="ThreadRecord_left_the_group">Tanatakuymanta llukshi</string>
     <string name="ThreadRecord_secure_session_reset">Kutinlla alliman kallari</string>
     <string name="ThreadRecord_media_message">Willachik hillay chaski</string>
     <string name="ThreadRecord_s_is_on_signal">¡%s Sessionpimi kan!</string>

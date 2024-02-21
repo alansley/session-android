@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Alle media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Dit bericht gebruikt verouderde versleuteling van een Session-versie die niet langer ondersteund wordt. Vraag de afzender om bij te werken naar de meest recente versie en het bericht opnieuw te verzenden.</string>
-    <string name="MessageRecord_left_group">Je hebt de groep verlaten.</string>
     <string name="MessageRecord_you_updated_group">Je hebt de groep aangepast.</string>
     <string name="MessageRecord_s_updated_group">%s heeft de groep aangepast.</string>
     <!-- ExpirationDialog -->
@@ -184,7 +183,6 @@
     <string name="SmsMessageRecord_duplicate_message">Gedupliceerd bericht.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Groep aangepast</string>
-    <string name="ThreadRecord_left_the_group">Heeft de groep verlaten</string>
     <string name="ThreadRecord_secure_session_reset">Beveiligde sessie opnieuw ingesteld.</string>
     <string name="ThreadRecord_media_message">Mediabericht</string>
     <string name="ThreadRecord_s_is_on_signal">%s maakt gebruik van Session!</string>
@@ -486,7 +484,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Gelieve een optie te selecteren</string>
     <string name="activity_home_empty_state_button_title">Sessie starten</string>
     <string name="activity_home_leave_group_dialog_message">Weet u zeker dat u deze groep wilt verlaten?</string>
-    <string name="activity_home_leaving_group_failed_message">"Kon de groep niet verlaten"</string>
     <string name="conversationsDeleted">Gesprek verwijderd</string>
     <string name="activity_seed_title_2">Maak kennis met uw herstel zin</string>
     <string name="activity_seed_explanation">Uw herstel zin is de hoofdsleutel van uw Sessie-ID - u kunt deze gebruiken om uw Sessie-ID te herstellen als u de toegang tot uw apparaat verliest. Sla uw herstel zin op op een veilige plaats op en geef het aan niemand anders.</string>
@@ -509,7 +506,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Sessie starten</string>
     <string name="groupNameEnterPlease">Vul een groepsnaam in</string>
     <string name="activity_join_public_chat_title">Deelnemen aan open groep</string>
-    <string name="activity_join_public_chat_error">Kon niet deelnemen aan de groep</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scan de QR-code van de open groep waar u zich bij wilt aansluiten</string>
     <string name="sessionSettings">Instellingen</string>
     <string name="activity_settings_devices_button_title">Apparaten</string>

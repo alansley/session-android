@@ -153,7 +153,6 @@
     <string name="conversationsSettingsAllMedia">Tot el contingut</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">S\'ha rebut un missatge encriptat amb una versió antiga del Session que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
-    <string name="MessageRecord_left_group">Heu abandonat el grup.</string>
     <string name="MessageRecord_you_updated_group">Heu actualitzat el grup.</string>
     <string name="MessageRecord_s_updated_group">%s ha actualitzat el grup.</string>
     <!-- ExpirationDialog -->
@@ -180,7 +179,6 @@ d\'intercanvi de claus!</string>
     <string name="SmsMessageRecord_duplicate_message">Missatge duplicat.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">S\'ha actualitzat el grup</string>
-    <string name="ThreadRecord_left_the_group">Ha abandonat el grup</string>
     <string name="ThreadRecord_secure_session_reset">Restabliment de la sessió segura.</string>
     <string name="ThreadRecord_media_message">Missatge multimèdia</string>
     <string name="ThreadRecord_s_is_on_signal">%s és al Session!</string>
@@ -480,7 +478,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Selecciona una opció, si us plau</string>
     <string name="activity_home_empty_state_button_title">Enceta un Session</string>
     <string name="activity_home_leave_group_dialog_message">Segur que vols abandonar aquest grup?</string>
-    <string name="activity_home_leaving_group_failed_message">"No s'ha pogut marxar del grup"</string>
     <string name="conversationsDeleted">S\'ha suprimit la conversa</string>
     <string name="activity_seed_title_2">Coneix la teva frase de recuperació</string>
     <string name="activity_seed_explanation">La teva frase de recuperació és la clau principal del teu ID de Session — pots fer-la servir per a restaurar la teva ID de Session si perds l\'accés al dispositiu. Emmagatzema la frase de recuperació en un lloc segur i no la donis a ningú.</string>
@@ -502,7 +499,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_create_closed_group_empty_state_button_title">Enceta un Session</string>
     <string name="groupNameEnterPlease">Entra un nom de grup, si us plau</string>
     <string name="activity_join_public_chat_title">Uneix-te a un Grup Obert</string>
-    <string name="activity_join_public_chat_error">No t\'has pogut unir al grup</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Escaneja el codi QR del grup obert que t\'agradaria unir-t\'hi</string>
     <string name="sessionSettings">Configuració</string>
     <string name="activity_settings_devices_button_title">Dispositius</string>

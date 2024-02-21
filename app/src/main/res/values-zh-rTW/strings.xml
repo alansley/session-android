@@ -150,7 +150,6 @@
     <string name="conversationsSettingsAllMedia">所有的媒體</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">收到一則使用舊版本並已經不再支援的 Signal 加密訊息。請尋求傳送人將 Session 升級到最新的版本並再次傳送該訊息。</string>
-    <string name="MessageRecord_left_group">您已經離開了此群組。</string>
     <string name="MessageRecord_you_updated_group">你已更新群組。</string>
     <string name="MessageRecord_s_updated_group">%s 更新了群組。</string>
     <!-- ExpirationDialog -->
@@ -179,7 +178,6 @@
     <string name="SmsMessageRecord_duplicate_message">複製訊息</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">群組已更新</string>
-    <string name="ThreadRecord_left_the_group">已離開群組</string>
     <string name="ThreadRecord_secure_session_reset">安全對話已重設</string>
     <string name="ThreadRecord_media_message">媒體訊息</string>
     <string name="ThreadRecord_s_is_on_signal">%s 在 Session 了！</string>
@@ -479,7 +477,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">請選擇其中一個選項</string>
     <string name="activity_home_empty_state_button_title">開始一個會話</string>
     <string name="activity_home_leave_group_dialog_message">您確定要退出此群組嗎？</string>
-    <string name="activity_home_leaving_group_failed_message">"無法離開群組"</string>
     <string name="conversationsDeleted">對話已刪除</string>
     <string name="activity_seed_title_2">查看您的恢復短語</string>
     <string name="activity_seed_explanation">您的恢復短語是您的 Session ID 的主金鑰——如果您無法存取您的裝置，您可以使用它來恢復您的Session ID。 將您的恢復短語存放在安全的地方，不要將其提供給任何人。</string>
@@ -502,7 +499,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">開始一個 Session</string>
     <string name="groupNameEnterPlease">請輸入群組名稱</string>
     <string name="activity_join_public_chat_title">加入開放式群組</string>
-    <string name="activity_join_public_chat_error">無法加入群組</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">掃描開放式群組的 QR Code 來加入</string>
     <string name="sessionSettings">設定</string>
     <string name="activity_settings_devices_button_title">裝置</string>

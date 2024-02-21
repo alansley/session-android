@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Tüm medya</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Artık desteklenmeyen eski bir Signal sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Session\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
-    <string name="MessageRecord_left_group">Gruptan ayrıldınız.</string>
     <string name="MessageRecord_you_updated_group">Grubu güncellediniz.</string>
     <string name="MessageRecord_s_updated_group">%s grubu güncelledi.</string>
     <!-- ExpirationDialog -->
@@ -183,7 +182,6 @@ iletisi alındı!</string>
     <string name="SmsMessageRecord_duplicate_message">Tekrarlanan ileti.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grup güncellendi</string>
-    <string name="ThreadRecord_left_the_group">Gruptan ayrıldı</string>
     <string name="ThreadRecord_secure_session_reset">Güvenli oturumu sıfırla.</string>
     <string name="ThreadRecord_media_message">İçerik iletisi</string>
     <string name="ThreadRecord_s_is_on_signal">%s Session\'e katıldı!</string>
@@ -485,7 +483,6 @@ iletisi alındı!</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Lütfen Bir Seçenek Seçin</string>
     <string name="activity_home_empty_state_button_title">Oturumu başlat</string>
     <string name="activity_home_leave_group_dialog_message">Bu gruptan ayrılmak istediğinize emin misiniz?</string>
-    <string name="activity_home_leaving_group_failed_message">"Gruptan ayrılamadı"</string>
     <string name="conversationsDeleted">Konuşma silindi</string>
     <string name="activity_seed_title_2">Kurtarma ifadenizle tanışın</string>
     <string name="activity_seed_explanation">Kurtarma ifadeniz Session kimliğinizin ana anahtarıdır; cihazınıza erişiminizi kaybederseniz Session kimliğinizi geri yüklemek için bunu kullanabilirsiniz. Kurtarma ifadenizi güvenli bir yerde saklayın ve kimseye vermeyin.</string>
@@ -508,7 +505,6 @@ iletisi alındı!</string>
     <string name="activity_create_closed_group_empty_state_button_title">Oturumu başlat</string>
     <string name="groupNameEnterPlease">Lütfen bir grup adı girin</string>
     <string name="activity_join_public_chat_title">Açık Gruba Katıl</string>
-    <string name="activity_join_public_chat_error">Gruba katılamadı</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Katılmak istediğiniz açık grubun QR kodunu tarayın</string>
     <string name="sessionSettings">Ayarlar</string>
     <string name="activity_settings_devices_button_title">Cihazlar</string>

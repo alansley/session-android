@@ -138,7 +138,6 @@
     <string name="conversationsSettingsAllMedia">Hemû medya</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Peyamek ku bi guhertoyek bêkêr ya Signalê hatiye şifrekirin hate wergirtin. Ji şandiyarî re bêje bila Sessionê hildemîne û peyamê dîsa bişîne.</string>
-    <string name="MessageRecord_left_group">Tu ji komê terketî</string>
     <string name="MessageRecord_you_updated_group">Te komê hildemand.</string>
     <string name="MessageRecord_s_updated_group">%s komê hildemand.</string>
     <!-- ExpirationDialog -->
@@ -166,7 +165,6 @@
     <string name="SmsMessageRecord_duplicate_message">Peyamê dubare bike.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Kom hat hildemandin</string>
-    <string name="ThreadRecord_left_the_group">Ji komê derket</string>
     <string name="ThreadRecord_secure_session_reset">Danişîna parastî nûsazîne.</string>
     <string name="ThreadRecord_media_message">Peyama medyayê</string>
     <string name="ThreadRecord_s_is_on_signal">%s beşdarî Sessionê bûye!</string>

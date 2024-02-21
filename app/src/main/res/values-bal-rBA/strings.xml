@@ -101,7 +101,6 @@
     <string name="conversationsSettingsAllMedia">Semua media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung, Harap beri tahu pengirim untuk memutakhirkan ke versi terbaru dan kirim ulang pesannya.</string>
-    <string name="MessageRecord_left_group">Anda telah keluar dari grup.</string>
     <string name="MessageRecord_you_updated_group">Anda memperbarui grup.</string>
     <string name="MessageRecord_s_updated_group">%s memperbarui grup.</string>
     <!-- ExpirationDialog -->
@@ -128,7 +127,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="SmsMessageRecord_duplicate_message">Pesan Duplikat</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grup diperbarui</string>
-    <string name="ThreadRecord_left_the_group">Meninggalkan grup</string>
     <string name="ThreadRecord_secure_session_reset">Sesi aman disetel ulang.</string>
     <string name="ThreadRecord_media_message">Pesan media</string>
     <string name="ThreadRecord_s_is_on_signal">%s ada di Session!</string>
@@ -401,7 +399,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pilih salah satu opsi</string>
     <string name="activity_home_empty_state_button_title">Mulai sebuah Session</string>
     <string name="activity_home_leave_group_dialog_message">Apakah anda yakin ingin meninggalkan grup ini?</string>
-    <string name="activity_home_leaving_group_failed_message">"Tak bisa meninggalkan grup"</string>
     <string name="conversationsDeleted">Percakapan terhapus</string>
     <string name="activity_seed_title_2">Inilah kata pemulihan anda</string>
     <string name="activity_seed_explanation">Kata pemulihan adalah kunci Session ID -- bisa digunakan untuk mengembalikan Session ID ketika anda kehilangan perangkat. Simpan kata pemulihan di tempat yang aman dan jangan berikan kepada siapapun</string>
@@ -421,7 +418,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_create_closed_group_empty_state_button_title">Mulai sebuah Session</string>
     <string name="groupNameEnterPlease">Masukkan nama grup</string>
     <string name="activity_join_public_chat_title">Gabung ke grup terbuka</string>
-    <string name="activity_join_public_chat_error">Tak bisa bergabung dengan grup</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Pindai kode QR grup terbuka yang ingin anda masuki</string>
     <string name="sessionSettings">Pengaturan</string>
     <string name="activity_settings_devices_button_title">Perangkat</string>

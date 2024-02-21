@@ -157,7 +157,6 @@
     <string name="conversationsSettingsAllMedia">Összes médiafájl</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Egy olyan üzenet érkezett, amely a Session egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
-    <string name="MessageRecord_left_group">Kiléptél a csoportból.</string>
     <string name="MessageRecord_you_updated_group">Frissítetted a csoportot.</string>
     <string name="MessageRecord_s_updated_group">%s frissítette a csoportot.</string>
     <!-- ExpirationDialog -->
@@ -185,7 +184,6 @@
     <string name="SmsMessageRecord_duplicate_message">Üzenet duplikálása.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Csoport frissítve</string>
-    <string name="ThreadRecord_left_the_group">Elhagyta a csoportot</string>
     <string name="ThreadRecord_secure_session_reset">Biztonságos munkamenet újraindítva.</string>
     <string name="ThreadRecord_media_message">Média üzenet</string>
     <string name="ThreadRecord_s_is_on_signal">%s elérhető a Session-on!</string>
@@ -487,7 +485,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Kérjük, válasszon egy lehetőséget</string>
     <string name="activity_home_empty_state_button_title">Indítson el egy beszélgetést</string>
     <string name="activity_home_leave_group_dialog_message">Biztosan elhagyja ezt a csoportot?</string>
-    <string name="activity_home_leaving_group_failed_message">"Nem sikerült kilépni a csoportból"</string>
     <string name="conversationsDeleted">A beszélgetés törölve</string>
     <string name="activity_seed_title_2">Írja be a helyreállítási kifejezést</string>
     <string name="activity_seed_explanation">A helyreállítási kifejezés a Session azonosító főkulcsa - használhatja a Session azonosító visszaállítására, ha elveszíti a hozzáférését eszközéhez. Tárolja helyreállítási mondatát biztonságos helyen, és ne adja át senkinek.</string>
@@ -510,7 +507,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Egy munkamenet indítása</string>
     <string name="groupNameEnterPlease">Kérjük, adja meg a csoport nevét</string>
     <string name="activity_join_public_chat_title">Csatlakozzon Nyitott Csoporthoz</string>
-    <string name="activity_join_public_chat_error">Nem sikerült csatlakozni a csoporthoz</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Olvassa be annak a nyitott csoportnak a QR kódját, amelyhez csatlakozni szeretne</string>
     <string name="sessionSettings">Beállítások</string>
     <string name="activity_settings_devices_button_title">Eszközök</string>

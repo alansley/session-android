@@ -184,7 +184,6 @@
     <string name="conversationsSettingsAllMedia">Pob cyfrwng</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Wedi derbyn neges wedi\'i hamgryptio gan ddefnyddio hen fersiwn o Session nad yw bellach yn cael ei gefnogi. Gofynnwch i\'r anfonwr ddiweddaru i\'r fersiwn ddiweddaraf ac ail-anfon y neges.</string>
-    <string name="MessageRecord_left_group">Rydych wedi gadael y grŵp.</string>
     <string name="MessageRecord_you_updated_group">Rydych chi wedi diweddaru\'r grŵp.</string>
     <string name="MessageRecord_s_updated_group">Mae %s wedi diweddaru\'r grŵp.</string>
     <!-- ExpirationDialog -->
@@ -211,7 +210,6 @@
     <string name="SmsMessageRecord_duplicate_message">Neges ddyblyg.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grŵp wedi\'i ddiweddaru</string>
-    <string name="ThreadRecord_left_the_group">Wedi gadael y grŵp.</string>
     <string name="ThreadRecord_secure_session_reset">Ailosod sesiwn ddiogel.</string>
     <string name="ThreadRecord_media_message">Neges cyfryngau</string>
     <string name="ThreadRecord_s_is_on_signal">Mae %s ar Session!</string>

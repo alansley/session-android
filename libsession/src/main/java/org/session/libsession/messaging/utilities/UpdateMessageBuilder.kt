@@ -1,6 +1,7 @@
 package org.session.libsession.messaging.utilities
 
 import android.content.Context
+
 import org.session.libsession.R
 import org.session.libsession.messaging.MessagingModuleConfiguration
 import org.session.libsession.messaging.calls.CallMessageType
@@ -50,7 +51,7 @@ object UpdateMessageBuilder {
                 // 1st case: you are part of the removed members
                 return if (userPublicKey in updateData.updatedMembers) {
                     if (isOutgoing) {
-                        context.getString(R.string.MessageRecord_left_group)
+                        context.getString(R.string.groupMemberYouLeft)
                     } else {
                         context.getString(R.string.MessageRecord_you_were_removed_from_the_group)
                     }
@@ -65,7 +66,7 @@ object UpdateMessageBuilder {
                 }
             }
             is UpdateMessageData.Kind.GroupMemberLeft -> if (isOutgoing) {
-                context.getString(R.string.MessageRecord_left_group)
+                context.getString(R.string.groupMemberYouLeft)
             } else {
                 context.getString(R.string.ConversationItem_group_action_left, senderName)
             }

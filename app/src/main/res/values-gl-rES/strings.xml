@@ -155,7 +155,6 @@
     <string name="conversationsSettingsAllMedia">Ficheiros multimedia</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Recibiuse unha mensaxe cifrada a través dunha versión antiga de Session que xa non ten soporte. Por favor, pídelle ao remitente que actualice a súa versión e volva enviar a mensaxe.</string>
-    <string name="MessageRecord_left_group">Abandonaches o grupo.</string>
     <string name="MessageRecord_you_updated_group">Actualizaches o grupo.</string>
     <string name="MessageRecord_s_updated_group">%s actualizou o grupo.</string>
     <!-- ExpirationDialog -->
@@ -183,7 +182,6 @@
     <string name="SmsMessageRecord_duplicate_message">Mensaxe duplicada.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupo actualizado</string>
-    <string name="ThreadRecord_left_the_group">Abandonou o grupo</string>
     <string name="ThreadRecord_secure_session_reset">Restablecer sesión segura.</string>
     <string name="ThreadRecord_media_message">Mensaxe multimedia</string>
     <string name="ThreadRecord_s_is_on_signal">%s está en Session!</string>
@@ -472,7 +470,6 @@
     <string name="activity_register_title">Di ola ao teu ID de Session</string>
     <string name="activity_home_empty_state_button_title">Iniciar unha sesión</string>
     <string name="activity_home_leave_group_dialog_message">Tes a certeza de querer abandonar este grupo?</string>
-    <string name="activity_home_leaving_group_failed_message">"Non foi posible abandonar o grupo"</string>
     <string name="conversationsDeleted">Conversa borrada</string>
     <string name="activity_path_resolving_progress">Procesando…</string>
     <string name="qrScan">Escanear código QR</string>
@@ -481,7 +478,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Iniciar unha sesión</string>
     <string name="groupNameEnterPlease">Por favor, introduce o nome do grupo</string>
     <string name="activity_join_public_chat_title">Entrar no grupo aberto</string>
-    <string name="activity_join_public_chat_error">Non foi posible entrar no grupo</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Escanea o código QR do grupo aberto no que queiras entrar</string>
     <string name="activity_qr_code_title">Código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escanea o código QR dalgunha persoa para comezar unha conversa con ela</string>

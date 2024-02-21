@@ -164,7 +164,6 @@
     <string name="conversationsSettingsAllMedia">Сви медији</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Примљена је порука шифрована старим издањем Session-a које више није подржано. Замолите пошиљаоца да надогради на најновије издање и поново пошаље поруку.</string>
-    <string name="MessageRecord_left_group">Напустили сте групу.</string>
     <string name="MessageRecord_you_updated_group">Ви сте ажурирали групу.</string>
     <string name="MessageRecord_s_updated_group">%s ажурира групу.</string>
     <!-- ExpirationDialog -->
@@ -191,7 +190,6 @@
     <string name="SmsMessageRecord_duplicate_message">Порука дупликат.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Група ажурирана.</string>
-    <string name="ThreadRecord_left_the_group">Напусти групу</string>
     <string name="ThreadRecord_secure_session_reset">Безбедна сесија је ресетована.</string>
     <string name="ThreadRecord_media_message">Мултимедијална порука</string>
     <string name="ThreadRecord_s_is_on_signal">%s је на Sessionу!</string>
@@ -457,7 +455,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Молимо Вас да одаберете опцију</string>
     <string name="activity_home_empty_state_button_title">Почни сесију</string>
     <string name="activity_home_leave_group_dialog_message">Желите ли заиста да напустите ову групу?</string>
-    <string name="activity_home_leaving_group_failed_message">"Неуспешан излазак из групе"</string>
     <string name="conversationsDeleted">Конверзација је избрисана</string>
     <string name="activity_seed_title_2">Сретни своју фразу за опоравак</string>
     <string name="activity_seed_reveal_button_title">Држи да откријеш</string>

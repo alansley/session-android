@@ -150,7 +150,6 @@
     <string name="conversationsSettingsAllMedia">Всички прикачените файлове</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Получихте съобщение криптирано със стара версия на Session, която вече не се поддържа. Моля, помолете изпращача да обнови версията си и да препрати съобщението.</string>
-    <string name="MessageRecord_left_group">Напуснахте групата.</string>
     <string name="MessageRecord_you_updated_group">Обновихте групата.</string>
     <string name="MessageRecord_s_updated_group">%s обнови групата.</string>
     <!-- ExpirationDialog -->
@@ -177,7 +176,6 @@
     <string name="SmsMessageRecord_duplicate_message">Дублирай съобщението.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Групата е обновена</string>
-    <string name="ThreadRecord_left_the_group">Напусна групата</string>
     <string name="ThreadRecord_secure_session_reset">Започване на нова сигурна сесия.</string>
     <string name="ThreadRecord_media_message">Медийно съобщение</string>
     <string name="ThreadRecord_s_is_on_signal">%s е в Session!</string>

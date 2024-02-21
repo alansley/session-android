@@ -119,7 +119,6 @@
     <string name="conversationsSettingsAllMedia">สื่อทั้งหมด</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ได้รับข้อความที่เข้ารหัสด้วย Session รุ่นเก่าที่ไม่รองรับอีกต่อไปแล้ว โปรดขอให้ผู้ส่งอัพเดตแอปเป็นเวอร์ชันล่าสุดและส่งข้อความอีกครั้ง</string>
-    <string name="MessageRecord_left_group">คุณได้ออกจากกลุ่ม</string>
     <string name="MessageRecord_you_updated_group">คุณได้อัพเดตกลุ่ม</string>
     <string name="MessageRecord_s_updated_group">%s ได้อัพเดตกลุ่ม</string>
     <!-- ExpirationDialog -->
@@ -147,7 +146,6 @@
     <string name="SmsMessageRecord_duplicate_message">ข้อความซ้ำ</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">อัพเดตกลุ่มแล้ว</string>
-    <string name="ThreadRecord_left_the_group">ออกจากกลุ่มแล้ว</string>
     <string name="ThreadRecord_secure_session_reset">เซสชันที่ปลอดภัยถูกรีเซ็ตแล้ว</string>
     <string name="ThreadRecord_media_message">ข้อความสื่อ</string>
     <string name="ThreadRecord_s_is_on_signal">%s ใช้งาน Session</string>

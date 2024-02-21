@@ -134,7 +134,6 @@
     <string name="conversationsSettingsAllMedia">ព័ត៌មានទាំងអស់</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Session ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
-    <string name="MessageRecord_left_group">អ្នកបានចាកចេញពីក្រុម។</string>
     <string name="MessageRecord_you_updated_group">អ្នកបានធ្វើបច្ចុប្បន្នភាពក្រុម។</string>
     <string name="MessageRecord_s_updated_group">%s បានធ្វើបច្ចុប្បន្នភាពក្រុម។</string>
     <!-- ExpirationDialog -->
@@ -161,7 +160,6 @@
     <string name="SmsMessageRecord_duplicate_message">សារស្ទួន។</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">បានធ្វើបច្ចុប្បន្នភាពក្រុម</string>
-    <string name="ThreadRecord_left_the_group">បានចាកចេញពីក្រុម</string>
     <string name="ThreadRecord_secure_session_reset">កំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ</string>
     <string name="ThreadRecord_media_message">សារក្នុងប្រព័ន្ធផ្សព្វផ្សាយ</string>
     <string name="ThreadRecord_s_is_on_signal">%s ប្រើ Session!​</string>

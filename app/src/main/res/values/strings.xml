@@ -312,7 +312,6 @@
     <string name="conversationsSettingsAllMedia">All media</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Received a message encrypted using an old version of Session that is no longer supported. Please ask the sender to update to the most recent version and resend the message.</string>
-    <string name="MessageRecord_left_group">You have left the group.</string>
     <string name="MessageRecord_you_updated_group">You updated the group.</string>
     <string name="MessageRecord_s_updated_group">%s updated the group.</string>
     <!-- ExpirationDialog -->
@@ -342,7 +341,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duplicate message.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Group updated</string>
-    <string name="ThreadRecord_left_the_group">Left the group</string>
     <string name="ThreadRecord_secure_session_reset">Secure session reset.</string>
     <string name="ThreadRecord_media_message">Media message</string>
     <string name="ThreadRecord_s_is_on_signal">%s is on Session!</string>
@@ -676,7 +674,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Please Pick an Option</string>
     <string name="activity_home_empty_state_button_title">Start a Session</string>
     <string name="activity_home_leave_group_dialog_message">Are you sure you want to leave this group?</string>
-    <string name="activity_home_leaving_group_failed_message">"Couldn\'t leave group"</string>
     <string name="conversationsDeleted">Conversation deleted</string>
     <string name="activity_seed_title_2">Meet your recovery phrase</string>
     <string name="activity_seed_explanation">Your recovery phrase is the master key to your Session ID — you can use it to restore your Session ID if you lose access to your device. Store your recovery phrase in a safe place, and don\'t give it to anyone.</string>
@@ -699,7 +696,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Start a Session</string>
     <string name="groupNameEnterPlease">Please enter a group name</string>
     <string name="activity_join_public_chat_title">Join Open Group</string>
-    <string name="activity_join_public_chat_error">Couldn\'t join group</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scan the QR code of the open group you\'d like to join</string>
     <string name="sessionSettings">Settings</string>
     <string name="activity_settings_set_display_picture">Set display picture</string>
@@ -978,5 +974,9 @@
     <string name="communityEnterUrlErrorInvalidDescription">Please check the Community URL and try again.</string>
     <string name="communityUrl">Community URL</string>
     <string name="communityInvitation">Community Invitation</string>
+    <string name="groupErrorJoin">Couldn\'t join group</string>
+    <string name="groupErrorLeave">Couldn\'t leave group</string>
+    <string name="groupMemberLeft">[NAME] left the group.</string>
+    <string name="groupMemberYouLeft">You left the group.</string>
 
 </resources>

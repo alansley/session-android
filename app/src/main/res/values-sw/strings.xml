@@ -103,7 +103,6 @@
     <string name="conversationsSettingsAllMedia">Vyombo vyote vya habari</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Imepokea ujumbe uliofichwa kwa kutumia toleo la zamani la Session ambayo haitumiki tena. Tafadhali kumwomba mtumaji kuwasasishe kwa toleo la hivi karibuni na kurejesha ujumbe.</string>
-    <string name="MessageRecord_left_group">umetoka kwenye kundi</string>
     <string name="MessageRecord_you_updated_group">Umesasisha kikundi</string>
     <string name="MessageRecord_s_updated_group">1%s amesasisha kikundi</string>
     <!-- ExpirationDialog -->
@@ -128,7 +127,6 @@
     <string name="SmsMessageRecord_duplicate_message">kutoa nakala ya ujumbe</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Kikundi kilichosasishwa</string>
-    <string name="ThreadRecord_left_the_group">kujitoa katika kundi</string>
     <string name="ThreadRecord_secure_session_reset">rekebisha salama kipindi</string>
     <string name="ThreadRecord_media_message">Ujumbe wa vyombo vya habari</string>
     <string name="ThreadRecord_s_is_on_signal">1%s yupo Session</string>

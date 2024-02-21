@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Archivos multimedia</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Se ha recibido un mensaje cifrado usando una versión de Session antigua que ya no está disponible. Por favor, avisa al quien te lo ha enviado para que actualice a la versión más reciente y reenvíe el mensaje.</string>
-    <string name="MessageRecord_left_group">Has abandonado el grupo.</string>
     <string name="MessageRecord_you_updated_group">Has actualizado el grupo.</string>
     <string name="MessageRecord_s_updated_group">%s ha actualizado el grupo.</string>
     <!-- ExpirationDialog -->
@@ -183,7 +182,6 @@ de intercambio de claves!</string>
     <string name="SmsMessageRecord_duplicate_message">Duplicar mensaje.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupo actualizado</string>
-    <string name="ThreadRecord_left_the_group">Abandonar el grupo</string>
     <string name="ThreadRecord_secure_session_reset">Reinicio de sesión segura.</string>
     <string name="ThreadRecord_media_message">Mensaje multimedia</string>
     <string name="ThreadRecord_s_is_on_signal">¡%s usa Session!</string>
@@ -485,7 +483,6 @@ de intercambio de claves!</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Por favor, elige una opción</string>
     <string name="activity_home_empty_state_button_title">Empieza una Session</string>
     <string name="activity_home_leave_group_dialog_message">¿Seguro que quieres salir de este grupo?</string>
-    <string name="activity_home_leaving_group_failed_message">"No pudiste salir del grupo"</string>
     <string name="conversationsDeleted">Conversación eliminada</string>
     <string name="activity_seed_title_2">Guarda tu frase de recuperación</string>
     <string name="activity_seed_explanation">Tu frase de recuperación es la llave maestra de tu ID de Session, puedes usarla para recuperar tu ID de Session en caso de pérdida de acceso a tu dispositivo. Guarda tu frase de recuperación en un lugar seguro y no se la digas a nadie.</string>
@@ -508,7 +505,6 @@ de intercambio de claves!</string>
     <string name="activity_create_closed_group_empty_state_button_title">Empezar una Session</string>
     <string name="groupNameEnterPlease">Por favor, ingresa un nombre de grupo</string>
     <string name="activity_join_public_chat_title">Únete al grupo abierto</string>
-    <string name="activity_join_public_chat_error">No te pudiste unir al grupo</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Escanea el código QR del grupo abierto al que quieras unirte</string>
     <string name="sessionSettings">Ajustes</string>
     <string name="activity_settings_devices_button_title">Dispositivos</string>

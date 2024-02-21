@@ -142,7 +142,6 @@
     <string name="conversationsSettingsAllMedia">Kogu meedia</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vastuvõetud sõnum, mis on krüptitud kasutades vana, mittetoetatud Sessioni versiooni. Palun palu saatjal uuendada uusimale versioonile ja siis sõnum uuesti saata.</string>
-    <string name="MessageRecord_left_group">Sa lahkusid grupist.</string>
     <string name="MessageRecord_you_updated_group">Sa uuendasid gruppi.</string>
     <string name="MessageRecord_s_updated_group">%s uuendas gruppi.</string>
     <!-- ExpirationDialog -->
@@ -170,7 +169,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duplikaatsõnum.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupp uuendatud</string>
-    <string name="ThreadRecord_left_the_group">Lahkus grupist</string>
     <string name="ThreadRecord_secure_session_reset">Turvaline sessioon lähtestatud.</string>
     <string name="ThreadRecord_media_message">Meediasõnum</string>
     <string name="ThreadRecord_s_is_on_signal">%s on Sessionis!</string>

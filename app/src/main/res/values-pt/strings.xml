@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Todas as mídias</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Recebida uma mensagem encriptada usando uma versão antiga de Session que não é mais suportada. Por favor peça o(a) enviador(a) que atualize para a versão mais recente e reenvie a mensagem.</string>
-    <string name="MessageRecord_left_group">Você saiu do grupo.</string>
     <string name="MessageRecord_you_updated_group">Você atualizou o grupo.</string>
     <string name="MessageRecord_s_updated_group">%s atualizou o grupo.</string>
     <!-- ExpirationDialog -->
@@ -184,7 +183,6 @@
     <string name="SmsMessageRecord_duplicate_message">Mensagem duplicada.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Grupo atualizado</string>
-    <string name="ThreadRecord_left_the_group">Você saiu do grupo</string>
     <string name="ThreadRecord_secure_session_reset">Sessão segura redefinida.</string>
     <string name="ThreadRecord_media_message">Mensagem de mídia</string>
     <string name="ThreadRecord_s_is_on_signal">%s está em Session!</string>
@@ -486,7 +484,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Escolha uma opção</string>
     <string name="activity_home_empty_state_button_title">Iniciar uma sessão</string>
     <string name="activity_home_leave_group_dialog_message">Tem certeza de que deseja sair deste grupo?</string>
-    <string name="activity_home_leaving_group_failed_message">"Não foi possível sair do grupo"</string>
     <string name="conversationsDeleted">Conversa excluída</string>
     <string name="activity_seed_title_2">Revele sua frase de recuperação</string>
     <string name="activity_seed_explanation">Sua frase de recuperação é a chave mestra do seu ID Session - você pode usá-la para restaurar seu ID Session se perder o acesso ao seu dispositivo. Armazene sua frase de recuperação em um local seguro e não a entregue a ninguém.</string>
@@ -509,7 +506,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Iniciar uma sessão</string>
     <string name="groupNameEnterPlease">Digite um nome de grupo</string>
     <string name="activity_join_public_chat_title">Juntar-se a Grupo Aberto</string>
-    <string name="activity_join_public_chat_error">Não foi possível juntar-se a grupo</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scanneie o QR code do grupo aberto que você quer se juntar</string>
     <string name="sessionSettings">Configurações</string>
     <string name="activity_settings_devices_button_title">Dispositivos</string>

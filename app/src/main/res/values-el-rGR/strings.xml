@@ -156,7 +156,6 @@
     <string name="conversationsSettingsAllMedia">Όλα τα πολυμέσα</string>
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Λήφθηκε ένα μήνυμα που είναι κρυπτογραφημένο με μια παλιά έκδοση του Session που πλέον δεν υποστηρίζεται. Παρακαλώ ζητήστε από τον αποστολέα να αναβαθμίσει στην πιο πρόσφατη έκδοση και να ξαναστείλει το μήνυμα.</string>
-    <string name="MessageRecord_left_group">Αποχωρήσατε από την ομάδα.</string>
     <string name="MessageRecord_you_updated_group">Ενημερώσατε την ομάδα</string>
     <string name="MessageRecord_s_updated_group">Ο/Η %s ενημέρωσε την ομάδα.</string>
     <!-- ExpirationDialog -->
@@ -184,7 +183,6 @@
     <string name="SmsMessageRecord_duplicate_message">Διπλότυπο μήνυμα.</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_group_updated">Η ομάδα ενημερώθηκε</string>
-    <string name="ThreadRecord_left_the_group">Έφυγες από την ομάδα</string>
     <string name="ThreadRecord_secure_session_reset">Η ασφαλής συνεδρία επανεκκινήθηκε.</string>
     <string name="ThreadRecord_media_message">Μήνυμα πολυμέσων</string>
     <string name="ThreadRecord_s_is_on_signal">Ο/Η %s είναι στο Session!</string>
@@ -486,7 +484,6 @@
     <string name="activity_pn_mode_no_option_picked_dialog_title">Παρακαλούμε κάντε μια επιλογή</string>
     <string name="activity_home_empty_state_button_title">Ξεκινήστε μια συνομιλία</string>
     <string name="activity_home_leave_group_dialog_message">Είστε βέβαιοι ότι θέλετε να φύγετε από αυτή την ομάδα;</string>
-    <string name="activity_home_leaving_group_failed_message">"Αδυναμία αποχώρησης από την ομάδα"</string>
     <string name="conversationsDeleted">Η συνομιλία διαγράφηκε</string>
     <string name="activity_seed_title_2">Γνωρίστε τη φράση ανάκτησής σας</string>
     <string name="activity_seed_explanation">Η φράση ανάκτησης είναι το κύριο κλειδί στο Session ID σας - μπορείτε να τη χρησιμοποιήσετε για να επαναφέρετε το Session ID σας εάν χάσετε πρόσβαση στη συσκευή σας. Αποθηκεύστε τη φράση ανάκτησης σε ασφαλές μέρος, και μην τη δώσετε σε κανέναν.</string>
@@ -509,7 +506,6 @@
     <string name="activity_create_closed_group_empty_state_button_title">Ξεκινήστε μια συνομιλία</string>
     <string name="groupNameEnterPlease">Παρακαλώ εισάγετε όνομα ομάδας</string>
     <string name="activity_join_public_chat_title">Συμμετοχή Σε Ανοιχτή Ομάδα</string>
-    <string name="activity_join_public_chat_error">Αδυναμία συμμετοχής στην ομάδα</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Σαρώστε τον κωδικό QR της ανοικτής ομάδας που θα θέλατε να συμμετάσχετε</string>
     <string name="sessionSettings">Ρυθμίσεις</string>
     <string name="activity_settings_devices_button_title">Συσκευές</string>
