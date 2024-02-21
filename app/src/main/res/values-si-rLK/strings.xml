@@ -27,8 +27,6 @@
     <string name="ConversationItem_read_more">තව කියවන්න</string>
     <!-- ConversationActivity -->
     <string name="message">පණිවිඩය</string>
-    <string name="ConversationActivity_leave_group">සමූහය හැරයනවාද?</string>
-    <string name="ConversationActivity_error_leaving_group">සමූහය හැරයාමේ දෝෂයකි</string>
     <string name="ConversationActivity_unblock_this_contact_question">සබඳතාවය අනවහිර කරනවාද?</string>
     <string name="ConversationActivity_unblock">අනවහිර</string>
     <!-- ConversationFragment -->
@@ -97,7 +95,7 @@
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">සොයන්න</string>
+    <string name="search">සොයන්න</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">වලංගු නොවන කෙටිමඟකි</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -156,7 +154,7 @@
     <!-- conversation_muted -->
     <!-- conversation_unmuted -->
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">සමූහය හැරයන්න</string>
+    <string name="groupLeave">සමූහය හැරයන්න</string>
     <string name="conversationsAddToHome">මුල් තිරයට එකතු කරන්න</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->
@@ -203,7 +201,6 @@
     <!-- Next round of translation -->
     <string name="menu_apply_button">යොදන්න</string>
     <string name="groupEdit">සමූහය සංස්කරණය</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">පරිශීලක සමූහයෙන් ඉවත් කරන්න</string>
     <string name="appearanceThemes">තේමාව</string>
     <string name="dialog_ui_mode_option_day">දවස</string>
     <string name="dialog_ui_mode_option_night">රාත්‍රී</string>

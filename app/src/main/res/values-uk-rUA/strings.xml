@@ -6,7 +6,7 @@
     <string name="delete">Видалити</string>
     <string name="ban">Бан</string>
     <string name="save">Зберегти</string>
-    <string name="note_to_self">Замітка для себе</string>
+    <string name="noteToSelf">Замітка для себе</string>
     <string name="version_s">Версія %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Нове повідомлення</string>
@@ -65,9 +65,6 @@
     <string name="ConversationActivity_muted_forever">Беззвучний</string>
     <string name="ConversationActivity_open_group_guidelines">Правила спільноти</string>
     <string name="ConversationActivity_invalid_recipient">Неприпустимий отримувач!</string>
-    <string name="ConversationActivity_leave_group">Покинути групу?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ви дійсно хочете покинути цю групу?</string>
-    <string name="ConversationActivity_error_leaving_group">Помилка при виході з групи</string>
     <string name="ConversationActivity_unblock_this_contact_question">Розблокувати цей контакт?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Ви знову зможете одержувати повідомлення та виклики від цього контакту.</string>
     <string name="ConversationActivity_unblock">Розблокувати</string>
@@ -78,7 +75,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session потребує дозволу \"Камера\", для фотографій, відео.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session потребує дозволу \"Камера\", щоб фотографувати або знімати відео,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session потребує дозволу \"Камера\", щоб фотографувати або фільмувати.</string>
-    <string name="ConversationActivity_search_position">%1$d з %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Видалити обране повідомлення?</item>
@@ -202,7 +198,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s скидає безпечний сеанс.</string>
     <string name="SmsMessageRecord_duplicate_message">Дублікат повідомлення.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Групу оновлено</string>
+    <string name="groupUpdated">Групу оновлено</string>
     <string name="ThreadRecord_secure_session_reset">Скидання безпечного сеансу.</string>
     <string name="ThreadRecord_media_message">Медіа повідомлення</string>
     <string name="ThreadRecord_s_is_on_signal">%s приєднався до Session!</string>
@@ -260,7 +256,7 @@
     <string name="SaveAttachmentTask_saved_to">Збережено до %s</string>
     <string name="SaveAttachmentTask_saved">Збережено</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Пошук</string>
+    <string name="search">Пошук</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Недопустимий ярлик</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -441,7 +437,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Вимкнути звук сповіщень</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Вийти з групи</string>
+    <string name="groupLeave">Вийти з групи</string>
     <string name="conversationsAddToHome">Додати до домашнього екрану</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Розгорнути спливаюче вікно</string>
@@ -507,7 +503,6 @@
     <string name="recommended">Рекомендовано</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Будь ласка виберіть варіант</string>
     <string name="activity_home_empty_state_button_title">Почати сесію</string>
-    <string name="activity_home_leave_group_dialog_message">Ви дійсно хочете покинути цю групу?</string>
     <string name="conversationsDeleted">Бесіду видалено</string>
     <string name="activity_seed_title_2">Знайомтесь з вашою фразою відновлення</string>
     <string name="activity_seed_explanation">Ваша фраза відновлення - це головний ключ до вашогї Session ID адреси - ви можете використовувати її для відновлення вашої Session ID адреси якщо ви втратите доступ до пристрою. Запишіть на папері та зберігайте вашу фразу відновлення у безпечному місці і не дайте її нікому.</string>
@@ -556,7 +551,6 @@
     <string name="menu_apply_button">Застосувати</string>
     <string name="done">Готово</string>
     <string name="groupEdit">Редагувати Групу</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Викинути користувача з групи</string>
     <string name="contactSelect">Обрати контакти</string>
     <string name="view_reset_secure_session_done_message">Скидання безпечної сесії завершено</string>
     <string name="appearanceThemes">Тема</string>

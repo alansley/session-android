@@ -575,7 +575,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         actionBar.setDisplayHomeAsUpEnabled(true)
         actionBar.setHomeButtonEnabled(true)
         binding.toolbarContent.conversationTitleView.text = when {
-            recipient.isLocalNumber -> getString(R.string.note_to_self)
+            recipient.isLocalNumber -> getString(R.string.noteToSelf)
             else -> recipient.toShortString()
         }
         @DimenRes val sizeID: Int = if (viewModel.recipient?.isClosedGroupRecipient == true) {
@@ -799,7 +799,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
 
             binding?.toolbarContent?.profilePictureView?.update(threadRecipient)
             binding?.toolbarContent?.conversationTitleView?.text = when {
-                threadRecipient.isLocalNumber -> getString(R.string.note_to_self)
+                threadRecipient.isLocalNumber -> getString(R.string.noteToSelf)
                 else -> threadRecipient.toShortString()
             }
         }

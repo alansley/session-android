@@ -6,7 +6,7 @@
     <string name="ban">مسدود کردن</string>
     <string name="please_wait">لطفا صبر کنید…</string>
     <string name="save">ذخیره</string>
-    <string name="note_to_self">یادداشت به خود</string>
+    <string name="noteToSelf">یادداشت به خود</string>
     <string name="version_s">نسخه %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">پیام جدید</string>
@@ -61,9 +61,6 @@
     <string name="ConversationActivity_muted_forever">بی صدا شده</string>
     <string name="ConversationActivity_open_group_guidelines">راهنمای انجمن</string>
     <string name="ConversationActivity_invalid_recipient">گیرنده نامعتبر است!</string>
-    <string name="ConversationActivity_leave_group">ترک گروه؟</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">آیا مطمئن هستید که می‌خواهید این گروه را ترک کنید؟</string>
-    <string name="ConversationActivity_error_leaving_group">خطا در ترک کردن گروه</string>
     <string name="ConversationActivity_unblock_this_contact_question">رفع انسداد این مخاطب؟</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">دریافت پیام و تماس از این مخاطب دوباره برای شما فعال خواهد شد.</string>
     <string name="ConversationActivity_unblock">رفع مسدودیت</string>
@@ -74,7 +71,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session برای ارسال تصاویر و ویدئوها نیاز به دسترسی حافظه دارد.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session برای گرفتن عکس و فیلم، نیازمند دسترسی به دوربین دارد ولی این دسترسی برای همیشه قطع شده است. لطفا برای ادامه دادن، به بخش منوی تنظیمات برنامه رفته، \"اجازه ها\" را انتخاب کرده و گزینه ی \"دوربین\" را فعال نمایید.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session برای عکس گرفتن یا ضبط ویدیو نیاز به دسترسی به دوربین دارد</string>
-    <string name="ConversationActivity_search_position">%1$d از %2$d</string>
     <string name="callsPermissionsRequired">دسترسی تلفن مورد نیاز است</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
@@ -186,7 +182,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s نشست امن را ریست نمود.</string>
     <string name="SmsMessageRecord_duplicate_message">تکثیر پیام.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">گروه به روز شد</string>
+    <string name="groupUpdated">گروه به روز شد</string>
     <string name="ThreadRecord_secure_session_reset">تنظیم مجدد جلسه امن.</string>
     <string name="ThreadRecord_media_message">پیام رسانه</string>
     <string name="ThreadRecord_s_is_on_signal">%s در Session است!</string>
@@ -244,7 +240,7 @@
     <string name="SaveAttachmentTask_saved_to">در %s ذخیره شد</string>
     <string name="SaveAttachmentTask_saved">ذخیره شد</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">جستجو</string>
+    <string name="search">جستجو</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">میانبر نامعتبر</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -440,7 +436,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">بیصدا کردن اعلان ها</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">مرخص شدن از گروه</string>
+    <string name="groupLeave">مرخص شدن از گروه</string>
     <string name="conversationsAddToHome">افزودن به صفحه اصلی</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ببند پنجره پاپ آپ</string>
@@ -506,7 +502,6 @@
     <string name="recommended">گزینه پیشنهادی</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">لطفا یک گزینه را انتخاب کنید</string>
     <string name="activity_home_empty_state_button_title">شروع Session</string>
-    <string name="activity_home_leave_group_dialog_message">آیا مطمئن هستید که می‌خواهید این گروه را ترک کنید؟</string>
     <string name="conversationsDeleted">مکالمه حذف شد</string>
     <string name="activity_seed_title_2">این عبارت بازیابی شماست</string>
     <string name="activity_seed_explanation">عبارت بازیابی شما کلید اصلی شناسه‌ی Session شما است - در صورت عدم دسترسی به دستگاه خود می توانید از آن برای بازگرداندن شناسه‌ی Session خود استفاده کنید. عبارت بازیابی خود را در مکانی امن ذخیره کنید و آن را به کسی ندهید.</string>
@@ -569,7 +564,6 @@
     <string name="menu_apply_button">اعمال</string>
     <string name="done">انجام شد</string>
     <string name="groupEdit">ویرایش گروه</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">پاک کردن عضو از گروه</string>
     <string name="contactSelect">انتخاب مخاطب‌ها</string>
     <string name="view_reset_secure_session_done_message">تنظیم مجدد جلسه امن انجام شد</string>
     <string name="appearanceThemes">قالب</string>

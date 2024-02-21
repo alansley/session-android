@@ -6,7 +6,7 @@
     <string name="delete">Radera</string>
     <string name="ban">Bannlys</string>
     <string name="save">Spara</string>
-    <string name="note_to_self">Notering till mig själv</string>
+    <string name="noteToSelf">Notering till mig själv</string>
     <string name="version_s">Version %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nytt meddelande</string>
@@ -61,9 +61,6 @@
     <string name="ConversationActivity_muted_forever">Tystad</string>
     <string name="ConversationActivity_open_group_guidelines">Communityns riktlinjer</string>
     <string name="ConversationActivity_invalid_recipient">Ogiltig mottagare!</string>
-    <string name="ConversationActivity_leave_group">Lämna grupp?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Är du säker på att du vill lämna den här gruppen?</string>
-    <string name="ConversationActivity_error_leaving_group">Fel vid lämnande av grupp</string>
     <string name="ConversationActivity_unblock_this_contact_question">Avblockera denna kontakt?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Du kommer nu åter få meddelanden och samtal från denna kontakt.</string>
     <string name="ConversationActivity_unblock">Avblockera</string>
@@ -74,7 +71,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Sessionen behöver åtkomst till lagringsutrymmet för att kunna skicka foton och videor.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session behöver behörigheten Kamera för att ta bilder och filma men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session behöver behörigheten Kamera för att ta bilder och filma</string>
-    <string name="ConversationActivity_search_position">%1$d av %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Radera valt meddelande?</item>
@@ -181,7 +177,7 @@ för nyckelutbyte!</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%s startar om den säkra sessionen.</string>
     <string name="SmsMessageRecord_duplicate_message">Duplicerat meddelande.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Grupp uppdaterad</string>
+    <string name="groupUpdated">Grupp uppdaterad</string>
     <string name="ThreadRecord_secure_session_reset">Säker session nollställd.</string>
     <string name="ThreadRecord_media_message">Mediameddelande</string>
     <string name="ThreadRecord_s_is_on_signal">%s finns på Session!</string>
@@ -239,7 +235,7 @@ för nyckelutbyte!</string>
     <string name="SaveAttachmentTask_saved_to">Sparad till %s</string>
     <string name="SaveAttachmentTask_saved">Sparad</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Sök</string>
+    <string name="search">Sök</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Ogiltig genväg</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -416,7 +412,7 @@ för nyckelutbyte!</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Tysta ner aviseringar</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Lämna grupp</string>
+    <string name="groupLeave">Lämna grupp</string>
     <string name="conversationsAddToHome">Lägg till på hemskärmen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandera popup</string>
@@ -482,7 +478,6 @@ för nyckelutbyte!</string>
     <string name="recommended">Rekommenderat</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Välj ett alternativ</string>
     <string name="activity_home_empty_state_button_title">Starta en Session</string>
-    <string name="activity_home_leave_group_dialog_message">Är du säker på att du vill lämna den här gruppen?</string>
     <string name="conversationsDeleted">Konversationen har raderats</string>
     <string name="activity_seed_title_2">Möt din återställningsfras</string>
     <string name="activity_seed_explanation">Din återställningsfras är huvudnyckeln till ditt Session-ID – du kan använda den för att återställa ditt Session-ID om du förlorar åtkomst till enheten. Förvara din återställningsfras på en säker plats, och ge den inte till någon.</string>
@@ -531,7 +526,6 @@ för nyckelutbyte!</string>
     <string name="menu_apply_button">Tillämpa</string>
     <string name="done">Klar</string>
     <string name="groupEdit">Redigera Grupp</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Ta bort användare från grupp</string>
     <string name="contactSelect">Välj Kontakter</string>
     <string name="view_reset_secure_session_done_message">Säker Session återställd</string>
     <string name="appearanceThemes">Tema</string>

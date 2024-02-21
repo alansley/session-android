@@ -5,7 +5,7 @@
     <string name="delete">Zmazať</string>
     <string name="ban">Ban</string>
     <string name="save">Uložiť</string>
-    <string name="note_to_self">Poznámka pre seba</string>
+    <string name="noteToSelf">Poznámka pre seba</string>
     <string name="version_s">Verzia %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nová správa</string>
@@ -62,9 +62,6 @@
     <string name="ConversationActivity_muted_until_date">Stlmené upozornenia do %1$s</string>
     <string name="ConversationActivity_open_group_guidelines">Usmernenia Spoločenstva</string>
     <string name="ConversationActivity_invalid_recipient">Neplatný príjemca</string>
-    <string name="ConversationActivity_leave_group">Opustiť skupinu?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ste si istí že chcete opustiť túto skupinu?</string>
-    <string name="ConversationActivity_error_leaving_group">Chyba pri opustení skupiny</string>
     <string name="ConversationActivity_unblock_this_contact_question">Odblokovať tento kontakt?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Znovu budete môcť dostávať správy a hovory od tohto kontaktu.</string>
     <string name="ConversationActivity_unblock">Odblokovať</string>
@@ -74,7 +71,6 @@
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pre fotenie a nahrávanie videa potrebuje Session prístup k fotoaparátu.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session potrebuje prístup k fotoaparátu aby mohol vytvárať fotografie a video, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session potrebuje prístup k Fotoaparátu, aby mohol vytvárať fotografie a videá</string>
-    <string name="ConversationActivity_search_position">%1$d z %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Zmazať vybranú správu?</item>
@@ -197,7 +193,7 @@ výmeny kľúčov.</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%s resetoval/a zabezpečenú reláciu.</string>
     <string name="SmsMessageRecord_duplicate_message">Duplikácia správy.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Skupina bola aktualizovaná</string>
+    <string name="groupUpdated">Skupina bola aktualizovaná</string>
     <string name="ThreadRecord_secure_session_reset">Bezpečná relácia obnovená.</string>
     <string name="ThreadRecord_media_message">Multimediálna správa</string>
     <string name="ThreadRecord_s_is_on_signal">%s je na Sessione!</string>
@@ -254,7 +250,7 @@ výmeny kľúčov.</string>
     <string name="SaveAttachmentTask_saved_to">Uložené do %s</string>
     <string name="SaveAttachmentTask_saved">Uložené</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Hľadať</string>
+    <string name="search">Hľadať</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Neplatná skratka</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -434,7 +430,7 @@ výmeny kľúčov.</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Stlmiť upozornenia</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Opustiť skupinu</string>
+    <string name="groupLeave">Opustiť skupinu</string>
     <string name="conversationsAddToHome">Pridať na plochu</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Rozbaliť okno</string>
@@ -497,7 +493,6 @@ výmeny kľúčov.</string>
     <string name="displayNameErrorDescriptionShorter">Zvoľte prosím kratšie zobrazované meno</string>
     <string name="recommended">Odporúčané</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Prosím, zvoľte možnosť</string>
-    <string name="activity_home_leave_group_dialog_message">Ste si istí že chcete opustiť túto skupinu?</string>
     <string name="conversationsDeleted">Konverzácia úspešne zmazaná</string>
     <string name="activity_seed_title_2">Toto je vaša fráza pre obnovenie</string>
     <string name="activity_seed_explanation">Vaša fráza na obnovenie je hlavným kľúčom k vášmu Session ID - môžete ju použiť na obnovenie svojho Session ID ak stratíte prístup k zariadeniu. Uložte frázu na obnovenie na bezpečnom mieste a nikomu ju nedávajte.</string>
@@ -538,7 +533,6 @@ výmeny kľúčov.</string>
     <string name="menu_apply_button">Použiť</string>
     <string name="done">Dokončené</string>
     <string name="groupEdit">Upraviť skupinu</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Odstrániť užívateľa zo skupiny</string>
     <string name="contactSelect">Vyberte kontakty</string>
     <string name="dialog_ui_mode_option_day">Deň</string>
     <string name="dialog_ui_mode_option_night">Nočný režim</string>

@@ -5,7 +5,7 @@
     <string name="no">Không</string>
     <string name="delete">Xóa</string>
     <string name="save">Lưu</string>
-    <string name="note_to_self">Gửi lời nhắc cho chính mình</string>
+    <string name="noteToSelf">Gửi lời nhắc cho chính mình</string>
     <string name="version_s">Phiên bản %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Tin nhắn mới</string>
@@ -48,9 +48,6 @@
     <string name="ConversationActivity_select_contact_info">Chọn thông tin liên lạc</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Xin lỗi, có lỗi thiết đặt tập tin đính kèm của bạn.</string>
     <string name="ConversationActivity_invalid_recipient">Người nhận không đúng!</string>
-    <string name="ConversationActivity_leave_group">Rời nhóm?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Bạn có chắc là muốn rời nhóm?</string>
-    <string name="ConversationActivity_error_leaving_group">Lỗi khi rời nhóm</string>
     <string name="ConversationActivity_unblock_this_contact_question">Không chặn liên lạc này?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Bạn sẽ lại có thể nhận tin nhắn và cuộc gọi từ liên hệ này.</string>
     <string name="ConversationActivity_unblock">Không chặn</string>
@@ -144,7 +141,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="QuickResponseService_problem_sending_message">Có vấn đề khi gửi tin nhắn!</string>
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Tìm kiếm</string>
+    <string name="search">Tìm kiếm</string>
     <!-- ShortcutLauncherActivity -->
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Tin nhắn mới</string>
@@ -269,7 +266,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Tạm im thông báo</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Rời nhóm</string>
+    <string name="groupLeave">Rời nhóm</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Nới rộng khung popup</string>
     <!-- conversation_group_options -->
@@ -315,7 +312,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="recommended">Khuyến nghị</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Vui lòng lựa chọn </string>
     <string name="activity_home_empty_state_button_title">Bắt đầu một Session</string>
-    <string name="activity_home_leave_group_dialog_message">Bạn có chắc chắn rằng bạn muốn rời nhóm này không?</string>
     <string name="conversationsDeleted">Cuộc hội thoại đã được xoá </string>
     <string name="activity_seed_title_2">Làm quen với cụm từ khôi phục của bạn</string>
     <string name="activity_seed_explanation">Cụm từ khôi phục của bạn là chìa khoá chủ cho Session ID của bạn — bạn có thể sử dụng nó để khôi phục Session ID khi bị mất tiếp cận với thiết bị của bạn. Hãy lưu cụm từ khôi phục của bạn ở một nơi an toàn và không cung cấp cho bất kì ai.</string>

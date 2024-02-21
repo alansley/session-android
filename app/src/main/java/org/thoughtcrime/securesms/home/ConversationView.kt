@@ -133,7 +133,7 @@ class ConversationView : LinearLayout {
 
     private fun getUserDisplayName(recipient: Recipient): String? {
         return if (recipient.isLocalNumber) {
-            context.getString(R.string.note_to_self)
+            context.getString(R.string.noteToSelf)
         } else {
             recipient.toShortString() // Internally uses the Contact API
         }

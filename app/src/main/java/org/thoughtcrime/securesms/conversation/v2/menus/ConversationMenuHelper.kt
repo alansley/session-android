@@ -297,13 +297,13 @@ object ConversationMenuHelper {
         val message = if (isCurrentUserAdmin) {
             "Because you are the creator of this group it will be deleted for everyone. This cannot be undone."
         } else {
-            context.resources.getString(R.string.ConversationActivity_are_you_sure_you_want_to_leave_this_group)
+            context.resources.getString(R.string.groupLeaveDescription)
         }
 
-        fun onLeaveFailed() = Toast.makeText(context, R.string.ConversationActivity_error_leaving_group, Toast.LENGTH_LONG).show()
+        fun onLeaveFailed() = Toast.makeText(context, R.string.groupLeaveErrorFailed, Toast.LENGTH_LONG).show()
 
         context.showSessionDialog {
-            title(R.string.ConversationActivity_leave_group)
+            title(R.string.groupLeave)
             text(message)
             button(R.string.yes) {
                 try {

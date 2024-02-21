@@ -6,7 +6,7 @@
     <string name="delete">తొలగించండి</string>
     <string name="ban">Nishedham</string>
     <string name="save">భద్రపరుచు</string>
-    <string name="note_to_self">Sviya gamanika</string>
+    <string name="noteToSelf">Sviya gamanika</string>
     <string name="version_s">Sanskarana %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">కొత్త సందేశం</string>
@@ -58,9 +58,6 @@
     <string name="message">సందేశం</string>
     <string name="ConversationActivity_compose">కంపోజ్</string>
     <string name="ConversationActivity_invalid_recipient">చెల్లని గ్రహీత!</string>
-    <string name="ConversationActivity_leave_group">సమూహం నుండి వైదొలగాలా?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">మీరు ఈ సమూహాన్ని వదిలిపెట్టాలనుకుంటున్నారా?</string>
-    <string name="ConversationActivity_error_leaving_group">సమూహం నుండి వైదొలగటంలో లోపం</string>
     <string name="ConversationActivity_unblock_this_contact_question">ఈ పరిచయం నిరోధించాలా?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">మీరు మరోసారి ఈ పరిచయం నుండి సందేశాలను మరియు కాల్స్ అందుకోగలరు.</string>
     <string name="ConversationActivity_unblock">అనుమతించు</string>
@@ -167,7 +164,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s సురక్షిత భాగాన్ని మరలా మార్చు</string>
     <string name="SmsMessageRecord_duplicate_message">నకిలీ సందేశాం.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">సమూహం నవీకరించబడింది</string>
+    <string name="groupUpdated">సమూహం నవీకరించబడింది</string>
     <string name="ThreadRecord_secure_session_reset">సురక్షిత సెషన్ పునరుద్ధరించు.</string>
     <string name="ThreadRecord_media_message">మీడియ సందేశం</string>
     <string name="ThreadRecord_s_is_on_signal">1%s Session ఉంది!</string>
@@ -222,7 +219,7 @@
     <string name="SaveAttachmentTask_saved_to">%s కు సేవ్ చేయబడింది</string>
     <string name="SaveAttachmentTask_saved">సేవ్</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">వెతకండి</string>
+    <string name="search">వెతకండి</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">చెల్లని సత్వరమార్గం</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -385,7 +382,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">  ప్రకటనలను మ్యూట్లో ఉంచు</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">సమూహాన్ని వదులు</string>
+    <string name="groupLeave">సమూహాన్ని వదులు</string>
     <string name="conversationsAddToHome">హోమ్ స్క్రీన్కు జోడించండి</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">పాపప్ విస్తరించు </string>

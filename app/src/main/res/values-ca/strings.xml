@@ -6,7 +6,7 @@
     <string name="delete">Suprimeix</string>
     <string name="ban">Bloca</string>
     <string name="save">Desa</string>
-    <string name="note_to_self">Notifica-m\'ho</string>
+    <string name="noteToSelf">Notifica-m\'ho</string>
     <string name="version_s">Versió %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Missatge nou</string>
@@ -59,9 +59,6 @@
     <string name="ConversationActivity_muted_until_date">Silenciat fins %1$s</string>
     <string name="ConversationActivity_open_group_guidelines">Directrius de la comunitat</string>
     <string name="ConversationActivity_invalid_recipient">Destinatari no vàlid.</string>
-    <string name="ConversationActivity_leave_group">Voleu abandonar el grup?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Segur que voleu abandonar aquest grup?</string>
-    <string name="ConversationActivity_error_leaving_group">Error en abandonar el grup</string>
     <string name="ConversationActivity_unblock_this_contact_question">Voleu desblocar aquest contacte?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Podreu tornar a rebre missatges i trucades d\'aquest contacte.</string>
     <string name="ConversationActivity_unblock">Desbloca</string>
@@ -71,7 +68,6 @@
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Per captar fotografies i vídeos, permeteu que el Session tingui accés a la càmera.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">El Session necessita el permís de la càmera per tal de fer fotografies i vídeos, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi la càmera.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">El Session necessita el permís de la càmera per fer fotografies i vídeos.</string>
-    <string name="ConversationActivity_search_position">%1$d de %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Voleu suprimir el missatge seleccionat?</item>
@@ -178,7 +174,7 @@ d\'intercanvi de claus!</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%s ha restablit la sessió segura.</string>
     <string name="SmsMessageRecord_duplicate_message">Missatge duplicat.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">S\'ha actualitzat el grup</string>
+    <string name="groupUpdated">S\'ha actualitzat el grup</string>
     <string name="ThreadRecord_secure_session_reset">Restabliment de la sessió segura.</string>
     <string name="ThreadRecord_media_message">Missatge multimèdia</string>
     <string name="ThreadRecord_s_is_on_signal">%s és al Session!</string>
@@ -235,7 +231,7 @@ d\'intercanvi de claus!</string>
     <string name="SaveAttachmentTask_saved_to">Desat a %s</string>
     <string name="SaveAttachmentTask_saved">Desat</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Cerca</string>
+    <string name="search">Cerca</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Drecera no vàlida</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -411,7 +407,7 @@ d\'intercanvi de claus!</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silencia les notificacions</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Abandona el grup</string>
+    <string name="groupLeave">Abandona el grup</string>
     <string name="conversationsAddToHome">Afegeix a la pantalla d\'inici</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandeix la finestra emergent</string>
@@ -477,7 +473,6 @@ d\'intercanvi de claus!</string>
     <string name="recommended">Recomanat</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Selecciona una opció, si us plau</string>
     <string name="activity_home_empty_state_button_title">Enceta un Session</string>
-    <string name="activity_home_leave_group_dialog_message">Segur que vols abandonar aquest grup?</string>
     <string name="conversationsDeleted">S\'ha suprimit la conversa</string>
     <string name="activity_seed_title_2">Coneix la teva frase de recuperació</string>
     <string name="activity_seed_explanation">La teva frase de recuperació és la clau principal del teu ID de Session — pots fer-la servir per a restaurar la teva ID de Session si perds l\'accés al dispositiu. Emmagatzema la frase de recuperació en un lloc segur i no la donis a ningú.</string>
@@ -521,7 +516,6 @@ d\'intercanvi de claus!</string>
     <string name="menu_apply_button">Aplica</string>
     <string name="done">Fet</string>
     <string name="groupEdit">Edita el Grup</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Elimina l\'usuari del grup</string>
     <string name="contactSelect">Selecciona contactes</string>
     <string name="view_reset_secure_session_done_message">S\'ha fet el restabliment de la sessió segura</string>
     <string name="appearanceThemes">Tema</string>

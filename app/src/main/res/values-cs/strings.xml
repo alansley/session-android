@@ -6,7 +6,7 @@
     <string name="delete">Smazat</string>
     <string name="ban">Zabanovat</string>
     <string name="save">Uložit</string>
-    <string name="note_to_self">Poznámka sobě</string>
+    <string name="noteToSelf">Poznámka sobě</string>
     <string name="version_s">Verze %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nová zpráva</string>
@@ -65,9 +65,6 @@
     <string name="ConversationActivity_muted_forever">Ztlumeno</string>
     <string name="ConversationActivity_open_group_guidelines">Pravidla komunity</string>
     <string name="ConversationActivity_invalid_recipient">Chybný příjemce!</string>
-    <string name="ConversationActivity_leave_group">Opustit skupinu?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Jsi si jistý, že chceš opustit tuto skupinu?</string>
-    <string name="ConversationActivity_error_leaving_group">Chyba při opouštění skupiny</string>
     <string name="ConversationActivity_unblock_this_contact_question">Odblokovat tento kontakt?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Budete opět moci přijímat zprávy a hovory od tohoto kontaktu.</string>
     <string name="ConversationActivity_unblock">Odblokovat</string>
@@ -78,7 +75,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">K pořizování fotografií a videa potřebuje Session přístup k úložišti.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signál potřebuje oprávnění pro přístup k fotoaparátu aby mohl pořizovat fotografie nebo video, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Fotoaparát\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signál potřebuje přístup k fotoaparátu aby mohl pořizovat fotografie nebo videa.</string>
-    <string name="ConversationActivity_search_position">%1$d z %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Smazat označenou zprávu?</item>
@@ -200,7 +196,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s resetuje zabezpečenou konverzaci</string>
     <string name="SmsMessageRecord_duplicate_message">Duplicitní zpráva</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Skupina upravena</string>
+    <string name="groupUpdated">Skupina upravena</string>
     <string name="ThreadRecord_secure_session_reset">Reset zabezpečené konverzace.</string>
     <string name="ThreadRecord_media_message">Multimediální zpráva</string>
     <string name="ThreadRecord_s_is_on_signal">%s má Session!</string>
@@ -258,7 +254,7 @@
     <string name="SaveAttachmentTask_saved_to">Uložit do %s</string>
     <string name="SaveAttachmentTask_saved">Uloženo</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Hledat</string>
+    <string name="search">Hledat</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Chybná klávesová zkratka</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -439,7 +435,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Ztišit upozornění</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Opustit skupinu</string>
+    <string name="groupLeave">Opustit skupinu</string>
     <string name="conversationsAddToHome">Přidat na plochu</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Rozbalit menu</string>
@@ -505,7 +501,6 @@
     <string name="recommended">Doporučeno</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Prosím vyberte možnost</string>
     <string name="activity_home_empty_state_button_title">Zahájit relaci</string>
-    <string name="activity_home_leave_group_dialog_message">Opravdu chcete opustit tuto skupinu?</string>
     <string name="conversationsDeleted">Konverzace byla smazána</string>
     <string name="activity_seed_title_2">Zadejte frázi pro obnovení</string>
     <string name="activity_seed_explanation">Ahoj</string>
@@ -554,7 +549,6 @@
     <string name="menu_apply_button">Použít</string>
     <string name="done">Hotovo</string>
     <string name="groupEdit">Upravit skupinu</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Odebrat uživatele ze skupiny</string>
     <string name="contactSelect">Vyber kontakty</string>
     <string name="view_reset_secure_session_done_message">Zabezpečená relace byla obnovena</string>
     <string name="appearanceThemes">Motiv</string>

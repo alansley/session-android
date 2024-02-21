@@ -30,8 +30,6 @@
     <string name="ConversationActivity_select_contact_info">Londako obuubaka bwa kontakiti</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Tusonyiwe, wabaddewo ensobi mu kwerobooza kw\'ekigatibwako kyo</string>
     <string name="ConversationActivity_invalid_recipient">Afuna mukyamu</string>
-    <string name="ConversationActivity_leave_group">Vva mu kibinja?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Okakasa oyagala kuva mu kibija kino?</string>
     <string name="ConversationActivity_unblock_this_contact_question">sumulula contact eno</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Ojjakudamu okufuna obubaka ne ssimu okuva ew\'omuntu ono</string>
     <string name="ConversationActivity_unblock">sumulula</string>
@@ -130,7 +128,7 @@
     <string name="QuickResponseService_problem_sending_message">obuzibu mukusindika obubaka</string>
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Noonya</string>
+    <string name="search">Noonya</string>
     <!-- ShortcutLauncherActivity -->
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Obubaka obupya</string>
@@ -257,7 +255,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">zikiza obude bwemboozi</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Vva mukibinja</string>
+    <string name="groupLeave">Vva mukibinja</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">gaziya popup</string>
     <!-- conversation_group_options -->

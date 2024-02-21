@@ -6,7 +6,7 @@
     <string name="delete">Törlés</string>
     <string name="ban">Tiltás</string>
     <string name="save">Mentés</string>
-    <string name="note_to_self">Privát feljegyzés</string>
+    <string name="noteToSelf">Privát feljegyzés</string>
     <string name="version_s">Verzió %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Új üzenet</string>
@@ -61,9 +61,6 @@
     <string name="ConversationActivity_muted_forever">Némítva</string>
     <string name="ConversationActivity_open_group_guidelines">Közösségi irányelvek</string>
     <string name="ConversationActivity_invalid_recipient">Érvénytelen címzett!</string>
-    <string name="ConversationActivity_leave_group">Kilépsz a csoportból?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Biztosan ki szeretnél lépni ebből a csoportból?</string>
-    <string name="ConversationActivity_error_leaving_group">Hiba történt a csoport elhagyásakor</string>
     <string name="ConversationActivity_unblock_this_contact_question">Feloldod a kontakt letiltását?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Újra fogadhatsz üzeneteket és hívásokat ettől a kontakttól.</string>
     <string name="ConversationActivity_unblock">Letiltás feloldása</string>
@@ -74,7 +71,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">A Session-nek tárhely hozzáférésre van szüksége a fotók és videók küldéséhez.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">A Session-nek szüksége van a Kamera engedélyre, hogy fotót vagy videót készíthessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Kamera\"-t.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">A Session-nak szüksége van Kamera engedélyekre fotók és videók készítéséhez</string>
-    <string name="ConversationActivity_search_position">%1$d / %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Törlöd a kiválasztott üzenetet?</item>
@@ -183,7 +179,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s újraindította a biztonságos munkamenetet.</string>
     <string name="SmsMessageRecord_duplicate_message">Üzenet duplikálása.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Csoport frissítve</string>
+    <string name="groupUpdated">Csoport frissítve</string>
     <string name="ThreadRecord_secure_session_reset">Biztonságos munkamenet újraindítva.</string>
     <string name="ThreadRecord_media_message">Média üzenet</string>
     <string name="ThreadRecord_s_is_on_signal">%s elérhető a Session-on!</string>
@@ -241,7 +237,7 @@
     <string name="SaveAttachmentTask_saved_to">Mentve ide: %s</string>
     <string name="SaveAttachmentTask_saved">Elmentve</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Keresés</string>
+    <string name="search">Keresés</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Érvénytelen parancsikon</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -418,7 +414,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Értesítések némítása</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Kilépés a csoportból</string>
+    <string name="groupLeave">Kilépés a csoportból</string>
     <string name="conversationsAddToHome">Hozzáadás a kezdőképernyőhöz</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Felugró ablak nagyítása</string>
@@ -484,7 +480,6 @@
     <string name="recommended">Ajánlott</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Kérjük, válasszon egy lehetőséget</string>
     <string name="activity_home_empty_state_button_title">Indítson el egy beszélgetést</string>
-    <string name="activity_home_leave_group_dialog_message">Biztosan elhagyja ezt a csoportot?</string>
     <string name="conversationsDeleted">A beszélgetés törölve</string>
     <string name="activity_seed_title_2">Írja be a helyreállítási kifejezést</string>
     <string name="activity_seed_explanation">A helyreállítási kifejezés a Session azonosító főkulcsa - használhatja a Session azonosító visszaállítására, ha elveszíti a hozzáférését eszközéhez. Tárolja helyreállítási mondatát biztonságos helyen, és ne adja át senkinek.</string>
@@ -533,7 +528,6 @@
     <string name="menu_apply_button">Alkalmaz</string>
     <string name="done">Kész</string>
     <string name="groupEdit">Csoport szerkesztése</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Felhasználó eltávolítása a csoportból</string>
     <string name="contactSelect">Névjegyek kiválasztása</string>
     <string name="view_reset_secure_session_done_message">Biztonságos munkamenet visszaállítás kész</string>
     <string name="appearanceThemes">Téma</string>

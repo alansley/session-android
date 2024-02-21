@@ -79,7 +79,7 @@ public class ThreadRecord extends DisplayRecord {
   @Override
   public SpannableString getDisplayBody(@NonNull Context context) {
     if (isGroupUpdateMessage()) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_group_updated));
+      return emphasisAdded(context.getString(R.string.groupUpdated));
     } else if (isOpenGroupInvitation()) {
       return emphasisAdded(context.getString(R.string.communityInvitation));
     } else if (SmsDatabase.Types.isFailedDecryptType(type)) {

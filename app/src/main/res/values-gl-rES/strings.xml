@@ -6,7 +6,7 @@
     <string name="delete">Borrar</string>
     <string name="ban">Bloquear</string>
     <string name="save">Gardar</string>
-    <string name="note_to_self">Notificarmo</string>
+    <string name="noteToSelf">Notificarmo</string>
     <string name="version_s">Versión %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nova mensaxe</string>
@@ -60,9 +60,6 @@
     <string name="ConversationActivity_muted_until_date">Silenciado até %1$s</string>
     <string name="ConversationActivity_open_group_guidelines">Directrices da Comunidade</string>
     <string name="ConversationActivity_invalid_recipient">Destinatario non válido!</string>
-    <string name="ConversationActivity_leave_group">Abandonar o grupo?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Tes a certeza de querer abandonar este grupo?</string>
-    <string name="ConversationActivity_error_leaving_group">Erro ao abandonar o grupo</string>
     <string name="ConversationActivity_unblock_this_contact_question">Desbloquear este contacto?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Volverá ser posible que recibas mensaxes e chamadas deste contacto.</string>
     <string name="ConversationActivity_unblock">Desbloquear</string>
@@ -73,7 +70,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Para enviar fotografías e vídeos, Session necesita acceder ao almacenamento.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session necesita permiso para acceder á cámara e poder tirar fotografías, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session necesita permiso para acceder á cámara e tirar fotografías ou facer vídeos.</string>
-    <string name="ConversationActivity_search_position">%1$d de %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Borrar a mensaxe seleccionada?</item>
@@ -181,7 +177,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s restableceu a conexión segura.</string>
     <string name="SmsMessageRecord_duplicate_message">Mensaxe duplicada.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Grupo actualizado</string>
+    <string name="groupUpdated">Grupo actualizado</string>
     <string name="ThreadRecord_secure_session_reset">Restablecer sesión segura.</string>
     <string name="ThreadRecord_media_message">Mensaxe multimedia</string>
     <string name="ThreadRecord_s_is_on_signal">%s está en Session!</string>
@@ -237,7 +233,7 @@
     <string name="SaveAttachmentTask_saved_to">Gardado en %s</string>
     <string name="SaveAttachmentTask_saved">Gardado</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Procurar</string>
+    <string name="search">Procurar</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Atallo non válido</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -412,7 +408,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silenciar notificacións</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Abandonar grupo</string>
+    <string name="groupLeave">Abandonar grupo</string>
     <string name="conversationsAddToHome">Engadir á pantalla de inicio</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expandir xanela emerxente</string>
@@ -469,7 +465,6 @@
     <string name="view_fake_chat_bubble_4">Empregando unha combinación de tecnoloxías avanzadas de encamiñamento anónimo e cifrado punto-a-punto.</string>
     <string name="activity_register_title">Di ola ao teu ID de Session</string>
     <string name="activity_home_empty_state_button_title">Iniciar unha sesión</string>
-    <string name="activity_home_leave_group_dialog_message">Tes a certeza de querer abandonar este grupo?</string>
     <string name="conversationsDeleted">Conversa borrada</string>
     <string name="activity_path_resolving_progress">Procesando…</string>
     <string name="qrScan">Escanear código QR</string>
@@ -485,7 +480,6 @@
     <string name="fragment_contact_selection_open_groups_title">Grupos abertos</string>
     <!-- Next round of translation -->
     <string name="groupEdit">Editar grupo</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Eliminar usuario do grupo</string>
     <string name="dialog_join_open_group_explanation">Tes a certeza de querer entrar no grupo aberto %s?</string>
     <string name="activity_conversation_blocked_banner_text">%s está bloqueado. Desbloquealo?</string>
     <string name="activity_conversation_attachment_prep_failed">No foi posible preparar o anexo para ser enviado.</string>

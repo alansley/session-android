@@ -7,7 +7,7 @@
     <string name="ban">封鎖</string>
     <string name="please_wait">請稍候...</string>
     <string name="save">儲存</string>
-    <string name="note_to_self">給自己的筆記</string>
+    <string name="noteToSelf">給自己的筆記</string>
     <string name="version_s">版本 %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">新訊息</string>
@@ -60,9 +60,6 @@
     <string name="ConversationActivity_muted_forever">已靜音</string>
     <string name="ConversationActivity_open_group_guidelines">社群規範</string>
     <string name="ConversationActivity_invalid_recipient">無效的聯絡人！</string>
-    <string name="ConversationActivity_leave_group">離開群組？</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">您確定要離開此群組？</string>
-    <string name="ConversationActivity_error_leaving_group">離開群組時發生錯誤</string>
     <string name="ConversationActivity_unblock_this_contact_question">解除封鎖此聯絡人？</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">您將可以再次收到來自此聯絡人的訊息與通話。</string>
     <string name="ConversationActivity_unblock">解除封鎖</string>
@@ -73,7 +70,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session 需要使用存取存儲空間的權限來發送照片和影片</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal 需要相機的權限來拍攝照片或是影片 ，但是現在系統設定為總是拒絕 Signal。請到 Session 的應用程式設定中，點選「權限」，並啟用相機的權限。</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session 需要使用相機的權限來拍攝照片和影片</string>
-    <string name="ConversationActivity_search_position">%1$d 的 %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="other">刪除已選訊息？</item>
@@ -177,7 +173,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s 重設安全對話。</string>
     <string name="SmsMessageRecord_duplicate_message">複製訊息</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">群組已更新</string>
+    <string name="groupUpdated">群組已更新</string>
     <string name="ThreadRecord_secure_session_reset">安全對話已重設</string>
     <string name="ThreadRecord_media_message">媒體訊息</string>
     <string name="ThreadRecord_s_is_on_signal">%s 在 Session 了！</string>
@@ -235,7 +231,7 @@
     <string name="SaveAttachmentTask_saved_to">儲存到 %s</string>
     <string name="SaveAttachmentTask_saved">已儲存</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">搜尋</string>
+    <string name="search">搜尋</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">無效的捷徑</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -410,7 +406,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">將通知調整為靜音</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">離開對話群組</string>
+    <string name="groupLeave">離開對話群組</string>
     <string name="conversationsAddToHome">新增到主畫面</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">展開快顯</string>
@@ -476,7 +472,6 @@
     <string name="recommended">建議</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">請選擇其中一個選項</string>
     <string name="activity_home_empty_state_button_title">開始一個會話</string>
-    <string name="activity_home_leave_group_dialog_message">您確定要退出此群組嗎？</string>
     <string name="conversationsDeleted">對話已刪除</string>
     <string name="activity_seed_title_2">查看您的恢復短語</string>
     <string name="activity_seed_explanation">您的恢復短語是您的 Session ID 的主金鑰——如果您無法存取您的裝置，您可以使用它來恢復您的Session ID。 將您的恢復短語存放在安全的地方，不要將其提供給任何人。</string>
@@ -525,7 +520,6 @@
     <string name="menu_apply_button">應用</string>
     <string name="done">完成</string>
     <string name="groupEdit">編輯群組</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">從群組中移除用戶</string>
     <string name="contactSelect">選擇聯絡人</string>
     <string name="view_reset_secure_session_done_message">安全對話重置完成</string>
     <string name="appearanceThemes">主題</string>

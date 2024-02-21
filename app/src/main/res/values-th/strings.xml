@@ -45,9 +45,6 @@
     <string name="ConversationActivity_select_contact_info">เลือกข้อมูลผู้ติดต่อ</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">ขออภัย พบปัญหาในการตั้งค่าไฟล์แนบของคุณ</string>
     <string name="ConversationActivity_invalid_recipient">ผู้รับไม่ถูกต้อง</string>
-    <string name="ConversationActivity_leave_group">ออกจากกลุ่มหรือไม่</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">คุณแน่ใจหรือไหมว่าต้องการออกจากกลุ่มนี้</string>
-    <string name="ConversationActivity_error_leaving_group">เกิดข้อผิดพลาดระหว่างออกจากกลุ่ม</string>
     <string name="ConversationActivity_unblock_this_contact_question">เลิกปิดกั้นผู้ติดต่อนี้หรือไม่</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">คุณจะกลับมารับข้อความและสายโทรเข้าจากผู้ติดต่อนี้ได้อีก</string>
     <string name="ConversationActivity_unblock">เลิกปิดกั้น</string>
@@ -145,7 +142,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s ได้ทำการรีเซ็ตเซสชันที่ปลอดภัย</string>
     <string name="SmsMessageRecord_duplicate_message">ข้อความซ้ำ</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">อัพเดตกลุ่มแล้ว</string>
+    <string name="groupUpdated">อัพเดตกลุ่มแล้ว</string>
     <string name="ThreadRecord_secure_session_reset">เซสชันที่ปลอดภัยถูกรีเซ็ตแล้ว</string>
     <string name="ThreadRecord_media_message">ข้อความสื่อ</string>
     <string name="ThreadRecord_s_is_on_signal">%s ใช้งาน Session</string>
@@ -199,7 +196,7 @@
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">บันทึกไปยัง %s</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">ค้นหา</string>
+    <string name="search">ค้นหา</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">ชอร์ตคัทใช้ไม่ได้</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -359,7 +356,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">ปิดเสียงการแจ้งเตือน</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">ออกจากกลุ่ม</string>
+    <string name="groupLeave">ออกจากกลุ่ม</string>
     <string name="conversationsAddToHome">เพิ่มไปยังหน้าจอหลัก</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ขยายป็อปอัพ</string>

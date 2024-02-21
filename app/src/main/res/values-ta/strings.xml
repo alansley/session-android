@@ -6,7 +6,7 @@
     <string name="delete">நீக்கு</string>
     <string name="ban">தடை</string>
     <string name="save">சேமி</string>
-    <string name="note_to_self">சுய குறிப்பு</string>
+    <string name="noteToSelf">சுய குறிப்பு</string>
     <string name="version_s">பதிப்பு: %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">புதிய செய்தி</string>
@@ -55,9 +55,6 @@
     <string name="ConversationActivity_muted_forever">முடக்கப்பட்டடுள்ளது</string>
     <string name="ConversationActivity_open_group_guidelines">சமூக வழிகாட்டுதல்கள்</string>
     <string name="ConversationActivity_invalid_recipient">தவறான பெறுநர்!</string>
-    <string name="ConversationActivity_leave_group">குழுவிலிருந்து வெளியேறு?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">இந்த தளத்திலிருந்து வெளியேற விரும்புகின்றீர்களா?</string>
-    <string name="ConversationActivity_error_leaving_group">குழுவிலிருந்து வெளியேறுவதில் பிழை</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->

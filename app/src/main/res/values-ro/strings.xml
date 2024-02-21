@@ -7,7 +7,7 @@
     <string name="ban">Interzice</string>
     <string name="please_wait">Vă rugăm să așteptați…</string>
     <string name="save">Salvează</string>
-    <string name="note_to_self">Notă personală</string>
+    <string name="noteToSelf">Notă personală</string>
     <string name="version_s">Versiunea %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Mesaj nou</string>
@@ -64,9 +64,6 @@
     <string name="ConversationActivity_muted_forever">Ignoră</string>
     <string name="ConversationActivity_open_group_guidelines">Regulamentul Comunității</string>
     <string name="ConversationActivity_invalid_recipient">Destinatar invalid!</string>
-    <string name="ConversationActivity_leave_group">Părăsiți grupul?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Sunteți sigur că doriți să părăsiți acest grup?</string>
-    <string name="ConversationActivity_error_leaving_group">Eroare la parăsirea grupului</string>
     <string name="ConversationActivity_unblock_this_contact_question">Deblochez acest contact?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">O să poți primi din nou mesaje și apeluri de la acest contact.</string>
     <string name="ConversationActivity_unblock">Deblochează</string>
@@ -77,7 +74,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session are nevoie de acces la stocare pentru a trimite fotografii și videoclipuri.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Cameră\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme</string>
-    <string name="ConversationActivity_search_position">%1$d din %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Șterg mesajul selectat?</item>
@@ -194,7 +190,7 @@ schimbul de chei este corupt </string>
     <string name="SmsMessageRecord_secure_session_reset_s">%s a resetat sesiunea securizată.</string>
     <string name="SmsMessageRecord_duplicate_message">Mesaj duplicat.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Grupul a fost actualizat</string>
+    <string name="groupUpdated">Grupul a fost actualizat</string>
     <string name="ThreadRecord_secure_session_reset">Sesiune securizată resetată.</string>
     <string name="ThreadRecord_media_message">Mesaj media</string>
     <string name="ThreadRecord_s_is_on_signal">%s folosește Session!</string>
@@ -252,7 +248,7 @@ schimbul de chei este corupt </string>
     <string name="SaveAttachmentTask_saved_to">Salvat în %s</string>
     <string name="SaveAttachmentTask_saved">Salvat</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Căutați</string>
+    <string name="search">Căutați</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Scurtătură invalidă</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -431,7 +427,7 @@ schimbul de chei este corupt </string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Notificări fără sunet</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Părăseşte grupul</string>
+    <string name="groupLeave">Părăseşte grupul</string>
     <string name="conversationsAddToHome">Adaugă pe ecranul principal</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Extinde popup-ul</string>

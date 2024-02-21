@@ -6,7 +6,7 @@
     <string name="delete">Удалить</string>
     <string name="ban">Заблокировать</string>
     <string name="save">Сохранить</string>
-    <string name="note_to_self">Заметка для себя</string>
+    <string name="noteToSelf">Заметка для себя</string>
     <string name="version_s">Версия %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Новое сообщение</string>
@@ -65,9 +65,6 @@
     <string name="ConversationActivity_muted_forever">Без звука</string>
     <string name="ConversationActivity_open_group_guidelines">Правила сообщества</string>
     <string name="ConversationActivity_invalid_recipient">Неверный получатель!</string>
-    <string name="ConversationActivity_leave_group">Покинуть группу?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Вы уверены, что хотите покинуть эту группу?</string>
-    <string name="ConversationActivity_error_leaving_group">Ошибка при выходе из группы</string>
     <string name="ConversationActivity_unblock_this_contact_question">Разблокировать контакт?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Вы сможете снова получать сообщения и звонки от этого контакта.</string>
     <string name="ConversationActivity_unblock">Разблокировать</string>
@@ -78,7 +75,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Для отправки фотографий и видео Session требуется доступ к хранилищу.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Чтобы сделать фото или видео требуется разрешение на доступ к камере, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите в «Настройки», выберите «Приложения», найдите Session, затем выберите «Разрешения» и включите Камеру.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Для съемки фото или видео Session требуется доступ к камере.</string>
-    <string name="ConversationActivity_search_position">%1$d из %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Удалить сообщение?</item>
@@ -202,7 +198,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s сбросил(а) защищенный сеанс.</string>
     <string name="SmsMessageRecord_duplicate_message">Дубликат сообщения.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Группа обновлена</string>
+    <string name="groupUpdated">Группа обновлена</string>
     <string name="ThreadRecord_secure_session_reset">Защищенный сеанс сброшен.</string>
     <string name="ThreadRecord_media_message">Медиа-сообщение</string>
     <string name="ThreadRecord_s_is_on_signal">%s теперь в Session!</string>
@@ -260,7 +256,7 @@
     <string name="SaveAttachmentTask_saved_to">Сохранено в %s</string>
     <string name="SaveAttachmentTask_saved">Сохранено</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Поиск</string>
+    <string name="search">Поиск</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Недопустимый ярлык</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -441,7 +437,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Отключить звук уведомлений</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Покинуть группу</string>
+    <string name="groupLeave">Покинуть группу</string>
     <string name="conversationsAddToHome">Добавить на главный экран</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Расширить</string>
@@ -507,7 +503,6 @@
     <string name="recommended">Рекомендуется</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Пожалуйста, выберите метод</string>
     <string name="activity_home_empty_state_button_title">Начать Сессию</string>
-    <string name="activity_home_leave_group_dialog_message">Вы уверены, что хотите покинуть эту группу?</string>
     <string name="conversationsDeleted">Разговор удален</string>
     <string name="activity_seed_title_2">А вот и ваша секретная фраза для восстановления</string>
     <string name="activity_seed_explanation">Ваша секретная фраза является главным ключом к вашему Session ID. Вы можете использовать ее для восстановления Session ID, если потеряете доступ к своему устройству. Сохраните свою секретную фразу в безопасном месте, и никому ее не передавайте.</string>
@@ -556,7 +551,6 @@
     <string name="menu_apply_button">Применить</string>
     <string name="done">Готово</string>
     <string name="groupEdit">Редактировать группу</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Удалить пользователя из группы</string>
     <string name="contactSelect">Выбрать контакты</string>
     <string name="view_reset_secure_session_done_message">Сброс защищенного сеанса выполнен</string>
     <string name="appearanceThemes">Тема</string>

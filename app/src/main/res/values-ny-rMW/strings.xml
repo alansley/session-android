@@ -47,9 +47,6 @@
     <string name="ConversationActivity_select_contact_info">Yupaymashipa willayta akllapay</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Kishpichilla, mana imaykunata kimichiy usharkanchikchu.</string>
     <string name="ConversationActivity_invalid_recipient">¡Yupaymashi wakllimi kan!</string>
-    <string name="ConversationActivity_leave_group">Kay tantanakuy ukumanta llukshinkapak munankichu</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Tantanakuymanta  llukshinkapak munankipachachu</string>
-    <string name="ConversationActivity_error_leaving_group">Tantanakuymanta mana llukshita usharirkachu</string>
     <string name="ConversationActivity_unblock_this_contact_question">Kay yupaymashita pakashkamanta llukchinayanchu</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Kay yupaymashipa killkashkata, kayachikunatapash kutinllami chaskita ushakrinki.</string>
     <string name="ConversationActivity_unblock">Pakashkamanta llukchi</string>
@@ -150,7 +147,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%s kutinlla kallarirkanki</string>
     <string name="SmsMessageRecord_duplicate_message">Chaskita ishkaychi</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Tantanakuy mushukyashka</string>
+    <string name="groupUpdated">Tantanakuy mushukyashka</string>
     <string name="ThreadRecord_secure_session_reset">Kutinlla alliman kallari</string>
     <string name="ThreadRecord_media_message">Willachik hillay chaski</string>
     <string name="ThreadRecord_s_is_on_signal">¡%s Sessionpimi kan!</string>
@@ -205,7 +202,7 @@ ranti pakalla yupaykunamanta</string>
     <!-- SaveAttachmentTask -->
     <string name="SaveAttachmentTask_saved_to">Kaypi allichishka %s</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Maskana</string>
+    <string name="search">Maskana</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Ñapash chayak mana allichu</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -366,7 +363,7 @@ ranti pakalla yupaykunamanta</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Chayamuk rikunakunata upallayachina</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Kay tantanakuy ukumanta llukshinkapak munankichu.</string>
+    <string name="groupLeave">Kay tantanakuy ukumanta llukshinkapak munankichu.</string>
     <string name="conversationsAddToHome">Kallari rikuchinaman churapay</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Chayamushkata ñapash hatunyachina </string>

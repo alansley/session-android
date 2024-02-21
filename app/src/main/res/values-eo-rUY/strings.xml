@@ -6,7 +6,7 @@
     <string name="delete">Forviŝi</string>
     <string name="ban">Forbari</string>
     <string name="save">Konservi</string>
-    <string name="note_to_self">Noto al Mi mem</string>
+    <string name="noteToSelf">Noto al Mi mem</string>
     <string name="version_s">Versio %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nova mesaĝo</string>
@@ -61,9 +61,6 @@
     <string name="ConversationActivity_muted_forever">Silentigite</string>
     <string name="ConversationActivity_open_group_guidelines">Komunumaj reguloj</string>
     <string name="ConversationActivity_invalid_recipient">Nevalida ricevonto!</string>
-    <string name="ConversationActivity_leave_group">Ĉu forlasi grupon?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Ĉu vi certas, ke vi volas forlasi ĉi tiun grupon?</string>
-    <string name="ConversationActivity_error_leaving_group">Eraro dum forlaso de grupo</string>
     <string name="ConversationActivity_unblock_this_contact_question">Ĉu malbloki ĉi tiun kontakton?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Vi ree ricevos mesaĝojn kaj alvokojn el ĉi tiu kontakto.</string>
     <string name="ConversationActivity_unblock">Malbloki</string>
@@ -74,7 +71,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session bezonas aliron al la memoro por sendi bildojn kaj filmetojn.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session bezonas la Fotilo-permeson por preni fotojn aŭ videojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Fotilo“.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session bezonas la Fotilo-permeson por preni fotojn aŭ videaĵojn</string>
-    <string name="ConversationActivity_search_position">%1$d el %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Ĉu forviŝi elektitan mesaĝon?</item>
@@ -181,7 +177,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s restarigis la sekuran seancon.</string>
     <string name="SmsMessageRecord_duplicate_message">Duobla mesaĝo.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Grupo ĝisdatigita</string>
+    <string name="groupUpdated">Grupo ĝisdatigita</string>
     <string name="ThreadRecord_secure_session_reset">Sekura seanco restarigita.</string>
     <string name="ThreadRecord_media_message">Aŭdvida mesaĝo</string>
     <string name="ThreadRecord_s_is_on_signal">%s estas ĉe Session!</string>
@@ -239,7 +235,7 @@
     <string name="SaveAttachmentTask_saved_to">Konservita al %s</string>
     <string name="SaveAttachmentTask_saved">Konservitaj</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Serĉi</string>
+    <string name="search">Serĉi</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Nevalida ŝparvojo</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -416,7 +412,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silentigi sciigojn</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Forlasi la grupon</string>
+    <string name="groupLeave">Forlasi la grupon</string>
     <string name="conversationsAddToHome">Aldonita al la ĉefekrano</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Montri spruĉmenuon</string>
@@ -482,7 +478,6 @@
     <string name="recommended">Rekomendate</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Bonvolu Elekti Opcion</string>
     <string name="activity_home_empty_state_button_title">Komenci Sesion</string>
-    <string name="activity_home_leave_group_dialog_message">Ĉu vi certas, ke vi volas forlasi ĉi tiun grupon?</string>
     <string name="conversationsDeleted">Konversacio forviŝite</string>
     <string name="activity_seed_title_2">Ekkonu vian riparan frazon</string>
     <string name="activity_seed_explanation">Via ripara frazo estas la ĉefŝlosilo de via Session ID — vi povas uzi ĝin por restaŭri vian Session ID-on se vi malgajros aliron al via aparato. Konservu vian riparan frazon en sekura loko, kaj donu ĝin al neniu.</string>
@@ -530,7 +525,6 @@
     <string name="menu_apply_button">Apliki</string>
     <string name="done">Farite</string>
     <string name="groupEdit">Redakti Grupon</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Forigi uzanton el grupo</string>
     <string name="contactSelect">Elekti Kontaktojn</string>
     <string name="view_reset_secure_session_done_message">Sekura sesia rekomencigo farite</string>
     <string name="appearanceThemes">Etoso</string>

@@ -630,7 +630,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
             if (group != null && group.admins.map { it.toString() }.contains(textSecurePreferences.getLocalNumber())) {
                 "Because you are the creator of this group it will be deleted for everyone. This cannot be undone."
             } else {
-                resources.getString(R.string.activity_home_leave_group_dialog_message)
+                resources.getString(R.string.groupLeaveDescription)
             }
         } else {
             resources.getString(R.string.conversationsDeleteDescription)

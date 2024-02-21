@@ -6,7 +6,7 @@
     <string name="delete">Skrap</string>
     <string name="ban">Verbod</string>
     <string name="save">Stoor</string>
-    <string name="note_to_self">Nota aan jouself</string>
+    <string name="noteToSelf">Nota aan jouself</string>
     <string name="version_s">Weergawe %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nuwe boodskap</string>
@@ -31,7 +31,6 @@
     <!-- ConversationActivity -->
     <string name="ConversationActivity_select_contact_info">Kies kontak besonderhede</string>
     <string name="message">Boodskap</string>
-    <string name="ConversationActivity_leave_group">Verlaat groep?</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->

@@ -23,7 +23,7 @@
             android:src="@drawable/ic_baseline_search_24"
             android:scaleType="centerInside"
             app:tint="?searchIconColor"
-            android:contentDescription="@string/SearchToolbar_search" />
+            android:contentDescription="@string/search" />
         <EditText
             android:hint="@string/messages"
             android:imeOptions="actionSearch"

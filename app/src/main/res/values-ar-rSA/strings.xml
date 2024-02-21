@@ -6,7 +6,7 @@
     <string name="delete">حذف</string>
     <string name="ban">حظر</string>
     <string name="save">حفظ</string>
-    <string name="note_to_self">ملاحظة لنفسي</string>
+    <string name="noteToSelf">ملاحظة لنفسي</string>
     <string name="version_s">النسخة %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">رسالة جديدة</string>
@@ -69,9 +69,6 @@
     <string name="ConversationActivity_muted_forever">كتم</string>
     <string name="ConversationActivity_open_group_guidelines">إرشادات المستخدمين</string>
     <string name="ConversationActivity_invalid_recipient">جهة اتصال غير صحيحة!</string>
-    <string name="ConversationActivity_leave_group">ترك المجموعة؟</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">هل أنت متأكد من ترك المجموعة؟</string>
-    <string name="ConversationActivity_error_leaving_group">خطأ أثناء مغادرة المجموعة</string>
     <string name="ConversationActivity_unblock_this_contact_question">إلغاء حظر جهة الاتصال؟</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">سوف تتمكن مرة أخرى من استقبال الرسائل والمكالمات من هذا المستخدم.</string>
     <string name="ConversationActivity_unblock">إلغاء الحظر</string>
@@ -82,7 +79,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">يحتاج Session إلى إذن الكاميرا من أجل التقاط صور وفيديو  ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
-    <string name="ConversationActivity_search_position">%1$d من %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="zero">حذف المختار؟</item>
@@ -220,7 +216,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s أعاد ضبط تأمين المحادثة.</string>
     <string name="SmsMessageRecord_duplicate_message">رسالة مكررة.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">تم تحديث المحموعة</string>
+    <string name="groupUpdated">تم تحديث المحموعة</string>
     <string name="ThreadRecord_secure_session_reset">إعادة ضبط جلسة آمنة.</string>
     <string name="ThreadRecord_media_message">رسالة وسائط متعددة</string>
     <string name="ThreadRecord_s_is_on_signal">%sمتواجد على Session !</string>
@@ -278,7 +274,7 @@
     <string name="SaveAttachmentTask_saved_to">تم الإحتفاظ به في %s</string>
     <string name="SaveAttachmentTask_saved">تم الحفظ</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">بحث</string>
+    <string name="search">بحث</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">إختصار غير صالح</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -463,7 +459,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">كتم الإشعارات</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">أترك المجموعة</string>
+    <string name="groupLeave">أترك المجموعة</string>
     <string name="conversationsAddToHome">أضف الى الشاشة الرئيسية</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">توسيع الإشعار</string>
@@ -529,7 +525,6 @@
     <string name="recommended">محبذ</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">اِختر</string>
     <string name="activity_home_empty_state_button_title">اِبدا جلسة محادثة</string>
-    <string name="activity_home_leave_group_dialog_message">هل انت متاكد من مغادرة المجموعة؟</string>
     <string name="conversationsDeleted">تم حذف المحادثة</string>
     <string name="activity_seed_title_2">هذه هي عبارة الاسترجاع</string>
     <string name="activity_seed_explanation">عبارة الاسترجاع هي مفتاح عنوان تعريفك - يمكنك استخدامها لاسترجاع عنوان تعريفك اذا فقدت الوصول لجهازك. قم بحفظها في مكان امن و لا تعطها الى اي أحد.</string>
@@ -578,7 +573,6 @@
     <string name="menu_apply_button">طبِق</string>
     <string name="done">تم</string>
     <string name="groupEdit">عَدِل المجموعة</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">إلغي مستخدم من المجموعة</string>
     <string name="contactSelect">اِختر متصلين</string>
     <string name="view_reset_secure_session_done_message">تم إعادة تعيين الجلسة الآمنة</string>
     <string name="appearanceThemes">الشكل</string>

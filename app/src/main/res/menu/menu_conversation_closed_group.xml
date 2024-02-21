@@ -12,7 +12,7 @@
     <item
         android:id="@+id/menu_leave_group"
         android:contentDescription="@string/AccessibilityId_leave_group"
-        android:title="@string/conversation__menu_leave_group"
+        android:title="@string/groupLeave"
         app:showAsAction="collapseActionView"/>
 
 </menu>

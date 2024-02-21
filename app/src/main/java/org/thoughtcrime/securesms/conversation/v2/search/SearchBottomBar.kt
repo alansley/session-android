@@ -35,7 +35,7 @@ class SearchBottomBar : LinearLayout {
             }
         }
         if (count > 0) {
-            searchPosition.text = resources.getString(R.string.ConversationActivity_search_position, position + 1, count)
+            searchPosition.text = resources.getString(R.string.searchMatches, position + 1, count)
         } else {
             searchPosition.text = ""
         }

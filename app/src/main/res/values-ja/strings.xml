@@ -5,7 +5,7 @@
     <string name="no">いいえ</string>
     <string name="delete">削除</string>
     <string name="save">保存</string>
-    <string name="note_to_self">自分用メモ</string>
+    <string name="noteToSelf">自分用メモ</string>
     <string name="version_s">バージョン %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">新着メッセージ</string>
@@ -58,9 +58,6 @@
     <string name="ConversationActivity_muted_forever">ミュート中</string>
     <string name="ConversationActivity_open_group_guidelines">コミュニティ規定</string>
     <string name="ConversationActivity_invalid_recipient">受信先が無効です。</string>
-    <string name="ConversationActivity_leave_group">グループを抜けますか？</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">このグループを本当に抜けますか？</string>
-    <string name="ConversationActivity_error_leaving_group">グループ脱退でエラー</string>
     <string name="ConversationActivity_unblock_this_contact_question">この連絡先のブロックを解除しますか？</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">この連絡先からのメッセージや電話を再び受信できるようになります。</string>
     <string name="ConversationActivity_unblock">ブロック解除</string>
@@ -71,7 +68,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">セッションは写真やビデオを送信するためにストレージへのアクセスが必要です。</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sessionで写真や動画を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Sessionで写真や動画を撮るには、カメラへのアクセス許可が必要です。</string>
-    <string name="ConversationActivity_search_position">%1$d / %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="other">選択中のメッセージを削除しますか？</item>
@@ -169,7 +165,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%sがセキュアセッションを設定し直しました。</string>
     <string name="SmsMessageRecord_duplicate_message">重複メッセージ</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">グループが更新されました</string>
+    <string name="groupUpdated">グループが更新されました</string>
     <string name="ThreadRecord_secure_session_reset">セキュアセッションがリセットされました</string>
     <string name="ThreadRecord_media_message">メディアでのメッセージ</string>
     <string name="ThreadRecord_s_is_on_signal">%sがSessionに登録しています！</string>
@@ -227,7 +223,7 @@
     <string name="SaveAttachmentTask_saved_to">%sに保存しました</string>
     <string name="SaveAttachmentTask_saved">保存済み</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">検索</string>
+    <string name="search">検索</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">不正なショートカット</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -402,7 +398,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">通知をミュート</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">グループを抜ける</string>
+    <string name="groupLeave">グループを抜ける</string>
     <string name="conversationsAddToHome">ホーム画面に追加する</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">ポップアップを拡大</string>
@@ -468,7 +464,6 @@
     <string name="recommended">オススメ</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">オプションを選択してください</string>
     <string name="activity_home_empty_state_button_title">Session を開始する</string>
-    <string name="activity_home_leave_group_dialog_message">このグループを退会しますか？</string>
     <string name="conversationsDeleted">会話を削除しました</string>
     <string name="activity_seed_title_2">リカバリーフレーズに合致する</string>
     <string name="activity_seed_explanation">リカバリーフレーズは、Session ID のマスターキーです。デバイスにアクセスできなくなった場合、これを使用して Session ID を復元できます。リカバリーフレーズを安全な場所に保管し、誰にも教えないでください。</string>
@@ -517,7 +512,6 @@
     <string name="menu_apply_button">適用する</string>
     <string name="done">完了</string>
     <string name="groupEdit">グループを編集</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">ユーザーをグループから削除</string>
     <string name="contactSelect">連絡先を選択</string>
     <string name="view_reset_secure_session_done_message">セキュアなセッションのリセットが完了しました</string>
     <string name="appearanceThemes">テーマ</string>

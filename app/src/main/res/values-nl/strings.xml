@@ -6,7 +6,7 @@
     <string name="delete">Wissen</string>
     <string name="ban">Verbannen</string>
     <string name="save">Opslaan</string>
-    <string name="note_to_self">Notitie aan mezelf</string>
+    <string name="noteToSelf">Notitie aan mezelf</string>
     <string name="version_s">Versie %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nieuw bericht</string>
@@ -61,9 +61,6 @@
     <string name="ConversationActivity_muted_forever">Dempen</string>
     <string name="ConversationActivity_open_group_guidelines">Community Richtlijnen</string>
     <string name="ConversationActivity_invalid_recipient">Ongeldige ontvanger!</string>
-    <string name="ConversationActivity_leave_group">Groep verlaten?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Weet je zeker dat je deze groep wilt verlaten?</string>
-    <string name="ConversationActivity_error_leaving_group">Fout bij het verlaten van de groep</string>
     <string name="ConversationActivity_unblock_this_contact_question">Gesprekspartner deblokkeren?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Je zult weer berichten en oproepen van deze gesprekspartner kunnen ontvangen.</string>
     <string name="ConversationActivity_unblock">Deblokkeren</string>
@@ -74,7 +71,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Sessie heeft toegang nodig tot de opslag om foto\'s en video\'s te kunnen versturen.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session heeft toegang nodig tot de camera om foto’s en video’s te kunnen opnemen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Camera’ in.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session heeft toegang tot de camera nodig om foto’s en video’s te kunnen opnemen</string>
-    <string name="ConversationActivity_search_position">%1$d van %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Geselecteerd bericht wissen?</item>
@@ -182,7 +178,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s heeft de beveiligde sessie opnieuw ingesteld.</string>
     <string name="SmsMessageRecord_duplicate_message">Gedupliceerd bericht.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Groep aangepast</string>
+    <string name="groupUpdated">Groep aangepast</string>
     <string name="ThreadRecord_secure_session_reset">Beveiligde sessie opnieuw ingesteld.</string>
     <string name="ThreadRecord_media_message">Mediabericht</string>
     <string name="ThreadRecord_s_is_on_signal">%s maakt gebruik van Session!</string>
@@ -240,7 +236,7 @@
     <string name="SaveAttachmentTask_saved_to">Opgeslagen naar %s</string>
     <string name="SaveAttachmentTask_saved">Opgeslagen</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Zoeken</string>
+    <string name="search">Zoeken</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Ongeldige snelkoppeling</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -417,7 +413,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Demp meldingen</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Groep verlaten</string>
+    <string name="groupLeave">Groep verlaten</string>
     <string name="conversationsAddToHome">Aan thuisscherm toevoegen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Pop-up vergroten</string>
@@ -483,7 +479,6 @@
     <string name="recommended">Aanbevolen</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Gelieve een optie te selecteren</string>
     <string name="activity_home_empty_state_button_title">Sessie starten</string>
-    <string name="activity_home_leave_group_dialog_message">Weet u zeker dat u deze groep wilt verlaten?</string>
     <string name="conversationsDeleted">Gesprek verwijderd</string>
     <string name="activity_seed_title_2">Maak kennis met uw herstel zin</string>
     <string name="activity_seed_explanation">Uw herstel zin is de hoofdsleutel van uw Sessie-ID - u kunt deze gebruiken om uw Sessie-ID te herstellen als u de toegang tot uw apparaat verliest. Sla uw herstel zin op op een veilige plaats op en geef het aan niemand anders.</string>
@@ -532,7 +527,6 @@
     <string name="menu_apply_button">Toepassen</string>
     <string name="done">Klaar</string>
     <string name="groupEdit">Groep bewerken</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Gebruiker uit de groep verwijderen</string>
     <string name="contactSelect">Contacten selecteren</string>
     <string name="view_reset_secure_session_done_message">Beveiligde sessie opnieuw ingesteld</string>
     <string name="appearanceThemes">Thema</string>

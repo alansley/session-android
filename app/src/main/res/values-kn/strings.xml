@@ -6,7 +6,7 @@
     <string name="delete">ಅಳಿಸಿ ಹಾಕು</string>
     <string name="ban">ನಿಷೇಧಿಸು</string>
     <string name="save">ಉಳಿಸಿ</string>
-    <string name="note_to_self">ನನಗಾಗಿ ಟಿಪ್ಪಣಿ</string>
+    <string name="noteToSelf">ನನಗಾಗಿ ಟಿಪ್ಪಣಿ</string>
     <string name="version_s">%s ಆವೃತ್ತಿ</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">ಹೊಸ ಸಂದೇಶ</string>
@@ -39,9 +39,6 @@
     <string name="ConversationActivity_compose">ರಚಿಸು</string>
     <string name="ConversationActivity_muted_forever">ಸದ್ದಡಗಿಸಿ</string>
     <string name="ConversationActivity_open_group_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
-    <string name="ConversationActivity_leave_group">ಗುಂಪನ್ನು ತೊರೆಯಬೇಕೆ?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">ಈ ಗುಂಪನ್ನು ತೊರೆಯಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</string>
-    <string name="ConversationActivity_error_leaving_group">ಗುಂಪನ್ನು ತೊರೆಯುವಲ್ಲಿ ದೋಷವಾಗಿದೆ</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">ವ್ಯಕ್ತಿಚಿತ್ರ</string>
@@ -95,7 +92,7 @@
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">ಹುಡುಕು</string>
+    <string name="search">ಹುಡುಕು</string>
     <!-- ShortcutLauncherActivity -->
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">ಹೊಸ ಸಂದೇಶ</string>
@@ -194,7 +191,7 @@
     <!-- conversation_muted -->
     <!-- conversation_unmuted -->
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">ಗುಂಪನ್ನು ತೊರೆಯಿರಿ</string>
+    <string name="groupLeave">ಗುಂಪನ್ನು ತೊರೆಯಿರಿ</string>
     <string name="conversationsAddToHome">ಮುಖಪುಟಕ್ಕೆ ಸೇರಿಸು</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->

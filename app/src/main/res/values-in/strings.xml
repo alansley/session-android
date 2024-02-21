@@ -6,7 +6,7 @@
     <string name="delete">Hapus</string>
     <string name="ban">Larang</string>
     <string name="save">Simpan</string>
-    <string name="note_to_self">Catatan Pribadi</string>
+    <string name="noteToSelf">Catatan Pribadi</string>
     <string name="version_s">Versi %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Pesan baru</string>
@@ -58,9 +58,6 @@
     <string name="ConversationActivity_muted_forever">Disenyapkan</string>
     <string name="ConversationActivity_open_group_guidelines">Pedoman Komunitas</string>
     <string name="ConversationActivity_invalid_recipient">Penerima tidak valid!</string>
-    <string name="ConversationActivity_leave_group">Tinggalkan grup?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Apakah anda yakin ingin meninggalkan grup ini?</string>
-    <string name="ConversationActivity_error_leaving_group">Gagal meninggalkan grup</string>
     <string name="ConversationActivity_unblock_this_contact_question">Buka blokir kontak ini?</string>
     <string name="ConversationActivity_unblock">Buka blokir</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Lampiran melebihi batas ukuran untuk tipe pesan yang Anda kirimkan.</string>
@@ -68,7 +65,6 @@
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session membutuhkan izin mikrofon untuk mengirim pesan suara, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session membutuhkan akses kamera untuk mengambil foto dan video.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session membutuhkan akses penyimpanan untuk mengirim foto dan video.</string>
-    <string name="ConversationActivity_search_position">%1$d dari %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="other">Hapus pesan yang dipilih?</item>
@@ -157,7 +153,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s mengatur ulang sesi aman.</string>
     <string name="SmsMessageRecord_duplicate_message">Duplikat pesan.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Grup diperbarui</string>
+    <string name="groupUpdated">Grup diperbarui</string>
     <string name="ThreadRecord_media_message">Pesan media</string>
     <string name="ThreadRecord_s_is_on_signal">%s ada di Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Menghilangkan pesan dinonaktifkan</string>
@@ -204,7 +200,7 @@
     <string name="SaveAttachmentTask_saved_to">Disimpan ke %s</string>
     <string name="SaveAttachmentTask_saved">Tersimpan</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Cari</string>
+    <string name="search">Cari</string>
     <!-- ShortcutLauncherActivity -->
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Pesan baru</string>
@@ -332,7 +328,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Senyapkan notifikasi</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Tinggalkan grup</string>
+    <string name="groupLeave">Tinggalkan grup</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->
     <string name="conversation_group_options__conversation">Percakapan</string>
@@ -374,7 +370,6 @@
     <string name="recommended">Direkomendasikan</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Pilih salah satu opsi</string>
     <string name="activity_home_empty_state_button_title">Memulai Session</string>
-    <string name="activity_home_leave_group_dialog_message">Apakah anda yakin ingin meninggalkan grup ini?</string>
     <string name="conversationsDeleted">Percakapan dihapus</string>
     <string name="activity_seed_title_2">Inilah kata pemulihan anda</string>
     <string name="activity_seed_reveal_button_title">Tekan untuk melihat</string>

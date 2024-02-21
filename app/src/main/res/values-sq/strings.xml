@@ -6,7 +6,7 @@
     <string name="delete">Fshije</string>
     <string name="ban">Dëbim</string>
     <string name="save">Ruaje</string>
-    <string name="note_to_self">Shënim për Veten</string>
+    <string name="noteToSelf">Shënim për Veten</string>
     <string name="version_s">Versioni_%s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Mesazh i ri</string>
@@ -61,9 +61,6 @@
     <string name="ConversationActivity_muted_forever">Heshtur</string>
     <string name="ConversationActivity_open_group_guidelines">Udhëzimet e komunitetit</string>
     <string name="ConversationActivity_invalid_recipient">Marrës i pavlefshëm!</string>
-    <string name="ConversationActivity_leave_group">Të braktiset grupi?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">A jeni i sigurt se dëshironi ta braktisni grupin?</string>
-    <string name="ConversationActivity_error_leaving_group">Gabim braktisje grupi</string>
     <string name="ConversationActivity_unblock_this_contact_question">Të zhbllokohet ky kontakt?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Do të jeni sërish në gjendje të merrni mesazhe dhe thirrje nga ky kontakt.</string>
     <string name="ConversationActivity_unblock">Zhbllokoje</string>
@@ -74,7 +71,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session ka nevojë për leje hyrje ne bazën e të dhënave për të dërguar foto dhe video</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Kamerën\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës</string>
-    <string name="ConversationActivity_search_position">%1$d nga %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Të fshihet mesazhi i përzgjedhur?</item>
@@ -181,7 +177,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s e ktheu te parazgjedhjet sesionin e sigurt.</string>
     <string name="SmsMessageRecord_duplicate_message">Mesazh i përsëdytur.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Grupi u përditësua</string>
+    <string name="groupUpdated">Grupi u përditësua</string>
     <string name="ThreadRecord_secure_session_reset">Sesioni i sigurt u kthye te parazgjedhjet.</string>
     <string name="ThreadRecord_media_message">Mesazh media</string>
     <string name="ThreadRecord_s_is_on_signal">%s është në Session! </string>
@@ -239,7 +235,7 @@
     <string name="SaveAttachmentTask_saved_to">U ruajt te %s</string>
     <string name="SaveAttachmentTask_saved">U ruajt</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Kërko</string>
+    <string name="search">Kërko</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Shkurtore e pavlefshme</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -416,7 +412,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Heshtoji njoftimet</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Braktise grupin</string>
+    <string name="groupLeave">Braktise grupin</string>
     <string name="conversationsAddToHome">Shtoje te skena e kreut</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Zgjero flluskën</string>

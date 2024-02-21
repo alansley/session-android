@@ -6,7 +6,7 @@
     <string name="delete">Slet</string>
     <string name="ban">Udeluk</string>
     <string name="save">Gem</string>
-    <string name="note_to_self">Egen note</string>
+    <string name="noteToSelf">Egen note</string>
     <string name="version_s">Version %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Ny besked</string>
@@ -61,9 +61,6 @@
     <string name="ConversationActivity_muted_forever">Lyden slået fra</string>
     <string name="ConversationActivity_open_group_guidelines">Retningslinjer For Fællesskabet</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig modtager!</string>
-    <string name="ConversationActivity_leave_group">Forlad gruppe?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Er du sikker, du vil forlade gruppen?</string>
-    <string name="ConversationActivity_error_leaving_group">Fejl ved forsøg på at forlade gruppen</string>
     <string name="ConversationActivity_unblock_this_contact_question">Fjern blokering af kontakten?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Du vil nu igen modtage beskeder og opkald fra kontakten.</string>
     <string name="ConversationActivity_unblock">Fjern blokering</string>
@@ -74,7 +71,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session har brug for lageradgang for at sende billeder og videoer.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session kræver tilladelse til at tilgå dit kamera, for at kunne tage billeder eller optage video, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Kamera\"</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session kræver tilladelse til at tilgå kameraet, for at kunne tage billeder eller videoer.</string>
-    <string name="ConversationActivity_search_position">%1$d af %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Slet valgte besked?</item>
@@ -181,7 +177,7 @@ udveksel besked!</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%s har nulstillet den sikre session</string>
     <string name="SmsMessageRecord_duplicate_message">Dupliker besked</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Gruppe opdateret</string>
+    <string name="groupUpdated">Gruppe opdateret</string>
     <string name="ThreadRecord_secure_session_reset">Nulstil sikker forbindelse</string>
     <string name="ThreadRecord_media_message">Mediebesked</string>
     <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
@@ -238,7 +234,7 @@ udveksel besked!</string>
     <string name="SaveAttachmentTask_saved_to">Gemt til %s</string>
     <string name="SaveAttachmentTask_saved">Gemt</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Søg</string>
+    <string name="search">Søg</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Ugyldig genvej</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -415,7 +411,7 @@ udveksel besked!</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Udsæt notifikationer</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Forlad gruppe</string>
+    <string name="groupLeave">Forlad gruppe</string>
     <string name="conversationsAddToHome">Føj til startskærm</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Udvid popup</string>
@@ -480,7 +476,6 @@ udveksel besked!</string>
     <string name="displayNameErrorDescriptionShorter">Vælg venligst et kortere display navn</string>
     <string name="recommended">Anbefalet</string>
     <string name="activity_home_empty_state_button_title">Start en Session</string>
-    <string name="activity_home_leave_group_dialog_message">Er du sikker på, at du vil forlade denne gruppe?</string>
     <string name="conversationsDeleted">Samtale slettet</string>
     <string name="activity_seed_title_2">Mød din gendannelsessætning</string>
     <string name="activity_seed_explanation">Din gendannelsessætning er hovednøglen til dit Session ID - du kan bruge den til at gendanne dit Session ID, hvis du mister adgang til din enhed. Gem din gendannelsessætning på et sikkert sted, og giv det ikke til nogen.</string>
@@ -521,7 +516,6 @@ udveksel besked!</string>
     <string name="menu_apply_button">Anvend</string>
     <string name="done">Færdig</string>
     <string name="groupEdit">Rediger Gruppe</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Fjern bruger fra gruppe</string>
     <string name="contactSelect">Vælg Kontakter</string>
     <string name="view_reset_secure_session_done_message">Sikker sessions nulstilling færdig</string>
     <string name="appearanceThemes">Tema</string>

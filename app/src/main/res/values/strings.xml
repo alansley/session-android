@@ -10,7 +10,7 @@
     <string name="please_wait">Please wait…</string>
     <string name="save">Save</string>
     <string name="image">Image</string>
-    <string name="note_to_self">Note to Self</string>
+    <string name="noteToSelf">Note to Self</string>
     <string name="version_s">Version %s</string>
     <string name="expand">Expand</string>
 <!--Accessibility ID's-->
@@ -210,9 +210,6 @@
     <string name="ConversationActivity_active_member_count">%1$d active members</string>
     <string name="ConversationActivity_open_group_guidelines">Community Guidelines</string>
     <string name="ConversationActivity_invalid_recipient">Invalid recipient!</string>
-    <string name="ConversationActivity_leave_group">Leave group?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Are you sure you want to leave this group?</string>
-    <string name="ConversationActivity_error_leaving_group">Error leaving group</string>
     <string name="ConversationActivity_unblock_this_contact_question">Unblock this contact?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">You will once again be able to receive messages and calls from this contact.</string>
     <string name="ConversationActivity_unblock">Unblock</string>
@@ -224,7 +221,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session needs storage access to send photos and videos.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session needs camera access to take photos and videos, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session needs camera access to take photos or videos.</string>
-    <string name="ConversationActivity_search_position">%1$d of %2$d</string>
     <string name="callsPermissionsRequired">Call Permissions Required</string>
     <string name="ConversationActivity_send_after_approval">You will be able to send voice messages and attachments once the recipient has approved this message request</string>
     <!-- ConversationFragment -->
@@ -340,7 +336,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s reset the secure session.</string>
     <string name="SmsMessageRecord_duplicate_message">Duplicate message.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Group updated</string>
+    <string name="groupUpdated">Group updated</string>
     <string name="ThreadRecord_secure_session_reset">Secure session reset.</string>
     <string name="ThreadRecord_media_message">Media message</string>
     <string name="ThreadRecord_s_is_on_signal">%s is on Session!</string>
@@ -398,7 +394,7 @@
     <string name="SaveAttachmentTask_saved_to">Saved to %s</string>
     <string name="SaveAttachmentTask_saved">Saved</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Search</string>
+    <string name="search">Search</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Invalid shortcut</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -606,7 +602,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Mute notifications</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Leave group</string>
+    <string name="groupLeave">Leave group</string>
     <string name="conversationsAddToHome">Add to home screen</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Expand popup</string>
@@ -673,7 +669,6 @@
     <string name="recommended">Recommended</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Please Pick an Option</string>
     <string name="activity_home_empty_state_button_title">Start a Session</string>
-    <string name="activity_home_leave_group_dialog_message">Are you sure you want to leave this group?</string>
     <string name="conversationsDeleted">Conversation deleted</string>
     <string name="activity_seed_title_2">Meet your recovery phrase</string>
     <string name="activity_seed_explanation">Your recovery phrase is the master key to your Session ID — you can use it to restore your Session ID if you lose access to your device. Store your recovery phrase in a safe place, and don\'t give it to anyone.</string>
@@ -739,7 +734,6 @@
     <string name="menu_apply_button">Apply</string>
     <string name="done">Done</string>
     <string name="groupEdit">Edit Group</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Remove user from group</string>
     <string name="contactSelect">Select Contacts</string>
     <string name="view_reset_secure_session_done_message">Secure session reset done</string>
     <string name="appearanceThemes">Theme</string>
@@ -978,5 +972,9 @@
     <string name="groupErrorLeave">Couldn\'t leave group</string>
     <string name="groupMemberLeft">[NAME] left the group.</string>
     <string name="groupMemberYouLeft">You left the group.</string>
+    <string name="remove">Remove</string>
+    <string name="groupLeaveDescription">Are you sure you want to leave [Test Group]?</string>
+    <string name="groupLeaveErrorFailed">Failed to leave [TEST GROUP].</string>
+    <string name="searchMatches">%1$d of %2$d matches</string>
 
 </resources>

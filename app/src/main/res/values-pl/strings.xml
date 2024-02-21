@@ -6,7 +6,7 @@
     <string name="delete">Usuń</string>
     <string name="ban">Zablokuj</string>
     <string name="save">Zapisz</string>
-    <string name="note_to_self">Moje notatki</string>
+    <string name="noteToSelf">Moje notatki</string>
     <string name="version_s">Wersja %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nowa wiadomość</string>
@@ -65,9 +65,6 @@
     <string name="ConversationActivity_muted_forever">Wyciszono</string>
     <string name="ConversationActivity_open_group_guidelines">Wytyczne dla społeczności</string>
     <string name="ConversationActivity_invalid_recipient">Nieprawidłowy odbiorca!</string>
-    <string name="ConversationActivity_leave_group">Opuścić grupę?</string>
-    <string name="ConversationActivity_are_you_sure_you_want_to_leave_this_group">Czy na pewno chcesz opuścić grupę?</string>
-    <string name="ConversationActivity_error_leaving_group">Błąd podczas opuszczania grupy</string>
     <string name="ConversationActivity_unblock_this_contact_question">Odblokować ten kontakt?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Będziesz mógł(a) ponownie odbierać wiadomości i połączenia od tego kontaktu.</string>
     <string name="ConversationActivity_unblock">Odblokuj</string>
@@ -78,7 +75,6 @@
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session potrzebuje dostępu do pamięci aby wysyłać zdjęcia i filmy.</string>
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session wymaga pozwolenia na dostęp do aparatu w celu umożliwienia robienia zdjęć i nagrywania filmów, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Aparat\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session wymaga pozwolenia na dostęp do aparatu w celu umożliwienia robienia zdjęć i nagrywania filmów</string>
-    <string name="ConversationActivity_search_position">%1$d z %2$d</string>
     <!-- ConversationFragment -->
     <plurals name="ConversationFragment_delete_selected_messages">
         <item quantity="one">Usunąć wybraną wiadomość?</item>
@@ -200,7 +196,7 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%s zresetował(a) bezpieczną sesję.</string>
     <string name="SmsMessageRecord_duplicate_message">Duplikuj wiadomość.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_group_updated">Grupa zaktualizowana</string>
+    <string name="groupUpdated">Grupa zaktualizowana</string>
     <string name="ThreadRecord_secure_session_reset">Reset bezpiecznej sesji.</string>
     <string name="ThreadRecord_media_message">Wiadomość multimedialna</string>
     <string name="ThreadRecord_s_is_on_signal">%s jest w Session!</string>
@@ -258,7 +254,7 @@
     <string name="SaveAttachmentTask_saved_to">Zapisano do %s</string>
     <string name="SaveAttachmentTask_saved">Zapisano</string>
     <!-- SearchToolbar -->
-    <string name="SearchToolbar_search">Szukaj</string>
+    <string name="search">Szukaj</string>
     <!-- ShortcutLauncherActivity -->
     <string name="ShortcutLauncherActivity_invalid_shortcut">Nieprawidłowy skrót</string>
     <!-- SingleRecipientNotificationBuilder -->
@@ -439,7 +435,7 @@
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Wycisz powiadomienia</string>
     <!-- conversation -->
-    <string name="conversation__menu_leave_group">Opuść grupę</string>
+    <string name="groupLeave">Opuść grupę</string>
     <string name="conversationsAddToHome">Dodaj do ekranu głównego</string>
     <!-- conversation_popup -->
     <string name="conversation_popup__menu_expand_popup">Powiększ okno</string>
@@ -505,7 +501,6 @@
     <string name="recommended">Zalecana</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Wybierz opcję</string>
     <string name="activity_home_empty_state_button_title">Rozpocznij sesję</string>
-    <string name="activity_home_leave_group_dialog_message">Czy na pewno chcesz opuścić tę grupę?</string>
     <string name="conversationsDeleted">Rozmowa usunięta</string>
     <string name="activity_seed_title_2">Poznaj swoją frazę odzyskiwania</string>
     <string name="activity_seed_explanation">Twoja fraza odzyskiwania jest głównym kluczem do identyfikatora Session - możesz jej użyć do przywrócenia identyfikatora Session, jeśli stracisz dostęp do urządzenia. Przechowuj swoją frazę odzyskiwania w bezpiecznym miejscu i nikomu jej nie udostępniaj.</string>
@@ -554,7 +549,6 @@
     <string name="menu_apply_button">Zastosuj</string>
     <string name="done">Gotowe</string>
     <string name="groupEdit">Edytuj grupę</string>
-    <string name="fragment_edit_group_bottom_sheet_remove">Usuń użytkownika z grupy</string>
     <string name="contactSelect">Wybierz kontakty</string>
     <string name="view_reset_secure_session_done_message">Wykonano bezpieczne zresetowanie sesji</string>
     <string name="appearanceThemes">Motyw</string>
