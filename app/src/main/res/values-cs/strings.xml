@@ -32,7 +32,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(zvuk)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Nemohu nalézt aplikaci pro vybraný typ dat.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signál potřebuje oprávnění pro přístup k úložišti aby mohl připojovat fotky, videa nebo zvuky, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\",</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signál potřebuje oprávnění pro přístup k fotoaparátu aby mohl pořizovat fotografie, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Fotoaparát\".</string>
     <!-- AudioSlidePlayer -->
@@ -50,13 +49,12 @@
     <string name="ConversationItem_error_not_delivered">Odeslání se nezdařilo, klikněte pro podrobnosti</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Byl vám doručen klíč, klikněte pro jeho zpracování.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Odeslání se nezdařilo, klikněte pro odeslání nezabepečeným způsobem</string>
-    <string name="ConversationItem_unable_to_open_media">Nemohu nalézt aplikaci pro otevření tohoto typu dat.</string>
     <string name="ConversationItem_copied_text">Zkopírováno %s</string>
     <string name="ConversationItem_read_more">Více</string>
     <string name="ConversationItem_download_more">Stáhnout další</string>
     <string name="ConversationItem_pending">Probíhá</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Přidat přílohu</string>
+    <string name="attachmentsAdd">Přidat přílohu</string>
     <string name="ConversationActivity_select_contact_info">Vybrat informace o kontaktu</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Omlouváme se, ale došlo k chybě při zpracování přílohy</string>
     <string name="message">Zpráva</string>
@@ -68,7 +66,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Odblokovat tento kontakt?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Budete opět moci přijímat zprávy a hovory od tohoto kontaktu.</string>
     <string name="ConversationActivity_unblock">Odblokovat</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Velikost přílohy překročila limit pro typ zprávy kterou posíláte</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Není zde žádná aplikace která by dokázala zpracovat tento odkaz.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signál potřebuje oprávnění pro přístup k mikrofonu aby mohl poslat audio zprávu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pro pořizování fotografií nebo videa potřebuje Signál přístup k fotoaparátu.</string>
@@ -122,7 +119,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Dnes</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Neznámý soubor</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Chyba při získávání GIF v plném rozlišení</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -159,7 +155,6 @@
     <string name="MediaPickerActivity_send_to">Poslat %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Přidat titulek...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Položka byla odebrána, protože překročila povolenou velikost.</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera není dostupná.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nemůžete sdílet více než  %d položku.</item>
@@ -217,7 +212,6 @@
     <string name="lockAppUnlocked">Session je odemčen</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Vy</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Nepodporovaný typ dat</string>
     <string name="MediaPreviewActivity_draft">Koncept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session potřebuje oprávnění pro přístup k úložišti aby mohl zapisovat do externího úložiště, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nelze ukládat do externího úložiště bez oprávnění</string>
@@ -273,9 +267,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Obrázek nebo video</string>
-    <string name="attachment_type_selector__file_description">Soubor</string>
     <string name="attachment_type_selector__gallery">Galerie</string>
-    <string name="attachment_type_selector__file">Soubor</string>
     <string name="attachment_type_selector__drawer_description">Vybrat úložiště pro přílohy</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Načítám kontakty...</string>
@@ -289,7 +281,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Zamknout nahrávání audio přílohy</string>
     <string name="conversation_activity__enable_signal_for_sms">Povolit aplikaci Session pro SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Pro zrušení přejeďte</string>
+    <string name="messageVoiceSlideToCancel">Pro zrušení přejeďte</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Multimediální zpráva</string>
     <string name="conversation_item__secure_message_description">Zabezpečená zpráva</string>
@@ -319,7 +311,6 @@
     <string name="load_more_header__see_full_conversation">Prohlédnout si celou konverzaci</string>
     <string name="load_more_header__loading">Načítám</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Žádná media</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ZNOVU POSLAT</string>
     <!-- recipient_preferences -->
@@ -439,7 +430,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Přeposlat</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Žádné dokumenty</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Náhled multimédií</string>
     <!-- Trimmer -->

@@ -40,13 +40,12 @@
     <string name="ConversationItem_error_not_delivered">அனுப்ப முடியவில்லை. விவரங்களுக்கு தட்டவும்</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">முக்கிய பரிமாற்ற செய்தி கிடைத்தது, செயலாக்க தட்டவும்.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">அனுப்பமுடியவில்லை, பாதுகாப்பற்ற பின்னடைவுக்கு தட்டவும்</string>
-    <string name="ConversationItem_unable_to_open_media">இந்த மீடியாவைத் திறக்கக்கூடிய பயன்பாட்டைக் கண்டறிய முடியவில்லை.</string>
     <string name="ConversationItem_copied_text">நகலெடுக்கப்பட்டது%s</string>
     <string name="ConversationItem_read_more">மேலும் படிக்க</string>
     <string name="ConversationItem_download_more">&#160; மேலும் பதிவிறக்கவும்</string>
     <string name="ConversationItem_pending">&#160; வரையில்</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">இணைப்பை சேர்க்கவும்</string>
+    <string name="attachmentsAdd">இணைப்பை சேர்க்கவும்</string>
     <string name="ConversationActivity_select_contact_info">தொடர்புத் தகவலைத் தேர்ந்தெடுக்கவும்</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">மன்னிக்கவும், உங்கள் இணைப்பை இணைப்பதில் பிழை ஏற்பட்டது.</string>
     <string name="message">செய்தி</string>

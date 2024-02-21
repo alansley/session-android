@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(آڈیو)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ویڈیو)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">میڈیا کو منتخب کرنے کے لیے ایپ نہیں مل سکی.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">تصاویر، ویڈیوز، یا آڈیو منسلک کرنے کے لیے سیشن کو سٹوریج کی اجازت درکار ہے، لیکن اسے مستقل طور پر مسترد کر دیا گیا ہے۔ براہ کرم ایپ کی ترتیبات کے مینو کو جاری رکھیں، \"اجازتیں\" کو منتخب کریں، اور \"اسٹوریج\" کو فعال کریں.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">تصاویر لینے کے لیے سیشن کو کیمرے کی اجازت درکار ہے، لیکن اسے مستقل طور پر مسترد کر دیا گیا ہے۔ براہ کرم ایپ کی ترتیبات کے مینو کو جاری رکھیں، \"اجازتیں\" کو منتخب کریں، اور \"کیمرہ\" کو فعال کریں.</string>
     <!-- AudioSlidePlayer -->
@@ -37,13 +36,12 @@
     <string name="ConversationItem_error_not_delivered">بھیجنا ناکام ہو گیا، تفصیلات کے لیے تھپتھپائیں۔</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">اہم تبادلہ پیغام موصول ہوا، کارروائی کرنے کے لیے تھپتھپائیں.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">بھیجنا ناکام ہو گیا، غیر محفوظ فال بیک کے لیے تھپتھپائیں</string>
-    <string name="ConversationItem_unable_to_open_media">اس میڈیا کو کھولنے کے قابل کوئی ایپ نہیں مل سکی.</string>
     <string name="ConversationItem_copied_text">%s کو کاپی کیا گیا</string>
     <string name="ConversationItem_read_more">مزید پڑھ</string>
     <string name="ConversationItem_download_more">&#160; مزید ڈاؤن لوڈ کریں</string>
     <string name="ConversationItem_pending">&#160; زیر التواء</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">منسلکہ شامل کریں</string>
+    <string name="attachmentsAdd">منسلکہ شامل کریں</string>
     <string name="ConversationActivity_select_contact_info">رابطے کی معلومات منتخب کریں</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">معذرت، آپ کے منسلکہ کو ترتیب دینے میں ایک خامی تھی.</string>
     <string name="message">پیغام</string>
@@ -61,7 +59,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">آج</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">نامعلوم فائل</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">مکمل ریزولیوشن GIF بازیافت کرتے وقت خرابی</string>
     <!-- GiphyFragmentPageAdapter -->

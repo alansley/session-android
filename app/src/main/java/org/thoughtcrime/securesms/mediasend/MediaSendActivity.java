@@ -328,7 +328,7 @@ public class MediaSendActivity extends PassphraseRequiredActionBarActivity imple
 
       switch (error) {
         case ITEM_TOO_LARGE:
-          Toast.makeText(this, R.string.MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit, Toast.LENGTH_LONG).show();
+          Toast.makeText(this, R.string.attachmentsErrorSize, Toast.LENGTH_LONG).show();
           break;
         case TOO_MANY_ITEMS:
           int maxSelection = viewModel.getMaxSelection();

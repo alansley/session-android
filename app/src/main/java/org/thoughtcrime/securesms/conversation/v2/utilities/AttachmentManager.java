@@ -312,7 +312,7 @@ public class AttachmentManager {
       activity.startActivityForResult(intent, requestCode);
     } catch (ActivityNotFoundException anfe) {
       Log.w(TAG, "couldn't complete ACTION_GET_CONTENT intent, no activity found. falling back.");
-      Toast.makeText(activity, R.string.AttachmentManager_cant_open_media_selection, Toast.LENGTH_LONG).show();
+      Toast.makeText(activity, R.string.attachmentsErrorNoApp, Toast.LENGTH_LONG).show();
     }
   }
 

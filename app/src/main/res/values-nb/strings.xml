@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Fant ingen programmer for valg av medier.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session krever tillatelse fra systemet for å kunne legge til bilder, videoer eller lyd, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session krever tillatelse fra systemet for å kunne ta bilder, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">Sending mislyktes, trykk for detaljer</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Melding for nøkkelutveksling mottatt. Trykk for å behandle.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Sending mislyktes, trykk for usikret falle tilbake</string>
-    <string name="ConversationItem_unable_to_open_media">Fant ingen programmer som kan åpne dette innholdet.</string>
     <string name="ConversationItem_copied_text">Kopiert %s</string>
     <string name="ConversationItem_read_more">Les mer</string>
     <string name="ConversationItem_download_more">  Last ned mer</string>
     <string name="ConversationItem_pending">  Venter</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Legg til vedlegg</string>
+    <string name="attachmentsAdd">Legg til vedlegg</string>
     <string name="ConversationActivity_select_contact_info">Velg kontaktinformasjon</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Det oppstod en feil under forsøk på å vedlegge filen.</string>
     <string name="message">Melding</string>
@@ -64,7 +62,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Vil du fjerne blokkering av denne kontakten?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Du åpner i så fall for mottak av meldinger og anrop fra denne kontakten.</string>
     <string name="ConversationActivity_unblock">Fjern blokkering</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Vedlegg overskrider maksimal størrelsesgrense for gjeldende meldingstype.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har ingen programmer på denne enheten som kan håndtere denne lenka.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session krever tillatelse fra systemet for å kunne bruke mikrofonen, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Mikrofon».</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Du må gi Session «Kamera»-tillatelse på systemet for å kunne filme og ta bilder.</string>
@@ -108,7 +105,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">I dag</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Ukjent fil</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Feil under henting av GIF</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -141,7 +137,6 @@
     <string name="MediaPickerActivity_send_to">Send til %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Legg til bildetekst…</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">En gjenstand ble fjernet fordi den overskride størrelsesgrensen</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera utilgjengelig.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan ikke dele mer enn %d fil.</item>
@@ -198,7 +193,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="lockAppUnlocked">Session er låst opp</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Deg</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Ustøttet medietype</string>
     <string name="MediaPreviewActivity_draft">Utkast</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session trenger lagringstilgang for å lagre til ekstern lagring, men den har blitt permanent nektet. Fortsett til appinnstillingene, velg «Tillatelser» og aktiver «Lagring».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Du kan ikke lagre på ekstern lagringsenhet uten å slå på tillatelse i systemet først</string>
@@ -252,9 +246,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Bilde eller video</string>
-    <string name="attachment_type_selector__file_description">Fil</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
-    <string name="attachment_type_selector__file">Fil</string>
     <string name="attachment_type_selector__drawer_description">Slå av/på vedleggsfunksjon</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Laster inn kontakter …</string>
@@ -268,7 +260,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lås opptak av lydmelding</string>
     <string name="conversation_activity__enable_signal_for_sms">Bruk Session for SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Skyv for å avbryte</string>
+    <string name="messageVoiceSlideToCancel">Skyv for å avbryte</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediemelding</string>
     <string name="conversation_item__secure_message_description">Sikker melding</string>
@@ -298,7 +290,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="load_more_header__see_full_conversation">Vis hele samtalen</string>
     <string name="load_more_header__loading">Laster inn</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Ingen medier</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">SEND PÅ NYTT</string>
     <!-- recipient_preferences -->
@@ -416,7 +407,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- media_preview -->
     <string name="media_preview__forward_title">Videresend</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Ingen dokumenter</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Forhåndsvisning av medier</string>
     <!-- Trimmer -->

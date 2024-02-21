@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ljud)</string>
     <string name="DraftDatabase_Draft_video_snippet">(film)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Kan inte hitta app för att välja media.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session behöver behörigheten Lagring för att bifoga bilder, video och ljud men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session behöver behörigheten Kamera för att ta bilder men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">Sändningen misslyckades, tryck för detaljer</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Tog emot meddelande för nyckelutbyte, tryck för att behandla.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Sändningen misslyckades, tryck för oskyddad fallback</string>
-    <string name="ConversationItem_unable_to_open_media">Kan inte hitta app som kan öppna denna fil.</string>
     <string name="ConversationItem_copied_text">Kopierade %s</string>
     <string name="ConversationItem_read_more">Läs mer</string>
     <string name="ConversationItem_download_more">  Hämta mer</string>
     <string name="ConversationItem_pending">  Väntar</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Bifoga fil</string>
+    <string name="attachmentsAdd">Bifoga fil</string>
     <string name="ConversationActivity_select_contact_info">Välj kontaktinformation</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Tyvärr uppstod det ett fel vid bifogning av din fil.</string>
     <string name="message">Meddelande</string>
@@ -64,7 +62,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Avblockera denna kontakt?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Du kommer nu åter få meddelanden och samtal från denna kontakt.</string>
     <string name="ConversationActivity_unblock">Avblockera</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Den bifogade filen är för stor för den typ av meddelande du försöker skicka.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Det finns ingen app på din enhet som kan hantera den här länken.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session behöver behörigheten Mikrofon för att skicka ljudmeddelanden men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">För att fånga fotografier och video, tillåt Session att tillgå kameran.</string>
@@ -108,7 +105,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Idag</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Okänd fil</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Fel vid hämtning av helupplöst GIF</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -141,7 +137,6 @@
     <string name="MediaPickerActivity_send_to">Skicka till %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Lägg till en rubrik...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Ett objekt togs bort eftersom det överskred storleksgränsen</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera otillgänglig.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan inte dela mer än %d objekt.</item>
@@ -198,7 +193,6 @@ för nyckelutbyte!</string>
     <string name="lockAppUnlocked">Session är olåst</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Du</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Mediatypen stöds ej</string>
     <string name="MediaPreviewActivity_draft">Utkast</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session behöver behörigheten Lagring för att spara till extern lagring men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan inte spara till externt utrymme utan behörighet</string>
@@ -252,9 +246,7 @@ för nyckelutbyte!</string>
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Bild eller film</string>
-    <string name="attachment_type_selector__file_description">Fil</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
-    <string name="attachment_type_selector__file">Fil</string>
     <string name="attachment_type_selector__drawer_description">Dölj/visa bilagor</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Läser in kontakter…</string>
@@ -268,7 +260,7 @@ för nyckelutbyte!</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lås inspelning av ljudbilaga</string>
     <string name="conversation_activity__enable_signal_for_sms">Aktivera Session för SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Dra för att avbryta</string>
+    <string name="messageVoiceSlideToCancel">Dra för att avbryta</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediameddelande</string>
     <string name="conversation_item__secure_message_description">Säkert meddelande</string>
@@ -298,7 +290,6 @@ för nyckelutbyte!</string>
     <string name="load_more_header__see_full_conversation">Se hela konversationen</string>
     <string name="load_more_header__loading">Läser in</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Inget media</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">SKICKA OM</string>
     <!-- recipient_preferences -->
@@ -416,7 +407,6 @@ för nyckelutbyte!</string>
     <!-- media_preview -->
     <string name="media_preview__forward_title">Vidarebefordra</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Inga dokument</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Mediaförhandsgranskning</string>
     <!-- Trimmer -->

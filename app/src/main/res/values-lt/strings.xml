@@ -32,7 +32,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(garsas)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vaizdas)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Nerasta programėlė medijos pasirinkimui.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, Session reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Norint fotografuoti, Session reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
     <!-- AudioSlidePlayer -->
@@ -50,13 +49,12 @@
     <string name="ConversationItem_error_not_delivered">Siuntimas nepavyko, bakstelėkite išsamesnei informacijai</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Gauta šifro apsikeitimo žinutė, bakstelėkite norėdami tęsti.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Siuntimas nepavyko, bakstelėkite, norėdami sugrįžti nesaugaus surogato</string>
-    <string name="ConversationItem_unable_to_open_media">Nepavyksta rasti programėlės, galinčios atverti šią mediją.</string>
     <string name="ConversationItem_copied_text">%s nukopijuota</string>
     <string name="ConversationItem_read_more">Skaityti daugiau</string>
     <string name="ConversationItem_download_more">  Atsisiųsti daugiau</string>
     <string name="ConversationItem_pending">  Laukiama</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Pridėti priedą</string>
+    <string name="attachmentsAdd">Pridėti priedą</string>
     <string name="ConversationActivity_select_contact_info">Pasirinkti adresato informaciją</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Apgailestaujame, pridedant priedą, įvyko klaida.</string>
     <string name="message">Žinutė</string>
@@ -68,7 +66,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Atblokuoti šį adresatą?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Jūs ir vėl galėsite gauti žinutes ir priimti skambučius nuo šio adresato.</string>
     <string name="ConversationActivity_unblock">Atblokuoti</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Priedas viršija jūsų siunčiamos žinutės tipui leidžiamą dydį.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nėra prieinamos programėlės, kuri galėtų apdoroti šią nuorodą jūsų įrenginyje.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Norint siųsti garso žinutes, Session reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite Session prieigą prie kameros.</string>
@@ -120,7 +117,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Šiandien</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Nežinomas failas</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Klaida, gaunant pilnos raiškos GIF</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -157,7 +153,6 @@
     <string name="MediaPickerActivity_send_to">Siųsti adresatui %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Pridėti paaiškinimą...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Elementas buvo pašalintas, nes jis viršijo leidžiamą dydį</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera neprieinama.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Jūs negalite bendrinti daugiau nei %d elementą.</item>
@@ -217,7 +212,6 @@
     <string name="lockAppUnlocked">Session yra atrakinta</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Jūs</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Nepalaikomas medijos tipas</string>
     <string name="MediaPreviewActivity_draft">Juodraštis</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nepavyksta įrašyti į išorinę saugyklą be leidimų</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Ištrinti žinutę?</string>
@@ -272,9 +266,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Paveikslas ar vaizdo įrašas</string>
-    <string name="attachment_type_selector__file_description">Failas</string>
     <string name="attachment_type_selector__gallery">Galerija</string>
-    <string name="attachment_type_selector__file">Failas</string>
     <string name="attachment_type_selector__drawer_description">Perjungti priedų stalčių</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Įkeliami adresatai&#8230;</string>
@@ -288,7 +280,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Užrakinti garso įrašo priedo įrašymą</string>
     <string name="conversation_activity__enable_signal_for_sms">Naudoti Session SMS žinutėms</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Perbraukite, norėdami atsisakyti</string>
+    <string name="messageVoiceSlideToCancel">Perbraukite, norėdami atsisakyti</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Medijos žinutė</string>
     <string name="conversation_item__secure_message_description">Saugi žinutė</string>
@@ -317,7 +309,6 @@
     <string name="load_more_header__see_full_conversation">Rodyti visą pokalbį</string>
     <string name="load_more_header__loading">Įkeliama</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Nėra medijos</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">SIŲSTI IŠ NAUJO</string>
     <!-- recipient_preferences -->
@@ -435,7 +426,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Persiųsti</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Nėra dokumentų</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Medijos peržiūra</string>
     <!-- Trimmer -->

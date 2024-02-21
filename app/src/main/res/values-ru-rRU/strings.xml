@@ -32,7 +32,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(аудио)</string>
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Ошибка выбора вложения: соответствующее приложение не найдено.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Требуется разрешение на доступ к хранилищу для возможности прикрепления фото, видео и аудио, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите Настройки, выберите Приложения, найдите Session, затем выберите Разрешения и включите Хранилище.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Чтобы сделать фото требуется разрешение на доступ к камере, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите Настройки, выберите Приложения, найдите Session, затем выберите Разрешения и включите Камеру.</string>
     <!-- AudioSlidePlayer -->
@@ -50,13 +49,12 @@
     <string name="ConversationItem_error_not_delivered">Ошибка отправки. Нажмите для подробностей</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Получено сообщение обмена ключами. Нажмите, чтобы его обработать.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Отправка не удалась, нажмите для негарантированного отката</string>
-    <string name="ConversationItem_unable_to_open_media">Не найдено приложение, которое может открыть этот медиа-файл.</string>
     <string name="ConversationItem_copied_text">Скопировано: %s</string>
     <string name="ConversationItem_read_more">Подробнее</string>
     <string name="ConversationItem_download_more">&#160; Скачать больше</string>
     <string name="ConversationItem_pending">&#160; Ожидание</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Добавить вложение</string>
+    <string name="attachmentsAdd">Добавить вложение</string>
     <string name="ConversationActivity_select_contact_info">Выбрать контакт</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Извините, произошла ошибка при обработке вложения.</string>
     <string name="message">Сообщение</string>
@@ -68,7 +66,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Разблокировать контакт?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Вы сможете снова получать сообщения и звонки от этого контакта.</string>
     <string name="ConversationActivity_unblock">Разблокировать</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Вложение превышает допустимый размер для данного типа сообщения.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">На вашем устройстве не найдено приложение для открытия этой ссылки.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Для отправки аудиосообщений требуется разрешение на доступ к микрофону, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите в «Настройки», выберите «Приложения», найдите Session, затем выберите «Разрешения» и включите Микрофон.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Для съемки фото и видео Session требуется доступ к камере.</string>
@@ -122,7 +119,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Сегодня</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Неизвестный файл</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Ошибка при получении полноразмерного GIF</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -159,7 +155,6 @@
     <string name="MediaPickerActivity_send_to">Отправить пользователю %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Добавить подпись...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Элемент был удален из-за превышения размера</string>
     <string name="MediaSendActivity_camera_unavailable">Камера недоступна.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Вы не можете поделиться больше, чем %d элементом.</item>
@@ -219,7 +214,6 @@
     <string name="lockAppUnlocked">Session разблокирован</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Вы</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Неподдерживаемый тип медиафайла</string>
     <string name="MediaPreviewActivity_draft">Черновик</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Для сохранения во внешнее хранилище приложению Session требуется доступ к хранилищу, однако это разрешение было вами безвозвратно отклонено. Чтобы предоставить это разрешение вручную заново, перейдите в настройки вашего устройства в раздел «Приложения», найдите Session, выберите «Разрешения», и разрешите «Файлы и медиаконтент».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Не удается сохранить во внешнем хранилище. Доступ запрещен</string>
@@ -275,9 +269,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Изображение или видео</string>
-    <string name="attachment_type_selector__file_description">Файл</string>
     <string name="attachment_type_selector__gallery">Галерея</string>
-    <string name="attachment_type_selector__file">Файл</string>
     <string name="attachment_type_selector__drawer_description">Показать панель вложений</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Загружаем контакты&#8230;</string>
@@ -291,7 +283,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Зафиксировать запись аудиосообщения</string>
     <string name="conversation_activity__enable_signal_for_sms">Использовать Session для SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Проведите для отмены</string>
+    <string name="messageVoiceSlideToCancel">Проведите для отмены</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">MMS-сообщение</string>
     <string name="conversation_item__secure_message_description">Защищенное сообщение</string>
@@ -321,7 +313,6 @@
     <string name="load_more_header__see_full_conversation">Посмотреть весь разговор</string>
     <string name="load_more_header__loading">Загрузка</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Нет медиа-файлов</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ОТПРАВИТЬ ПОВТОРНО</string>
     <!-- recipient_preferences -->
@@ -441,7 +432,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Переслать</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Нет документов</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Предпросмотр</string>
     <!-- Trimmer -->

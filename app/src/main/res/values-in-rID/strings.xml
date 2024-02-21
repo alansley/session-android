@@ -26,7 +26,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(suara)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Tidak menemukan aplikasi untuk memilih media.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session membutuhkan izin penyimpanan untuk melampirkan foto, video, atau audio, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Penyimpanan\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session membutuhkan izin kamera untuk mengambil foto, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
@@ -43,13 +42,12 @@
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Pengiriman gagal, ketuk untuk rincian</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Pesan pertukaran kunci diterima, ketuk untuk memproses.</string>
-    <string name="ConversationItem_unable_to_open_media">Tidak ditemukan aplikasi untuk membuka media ini.</string>
     <string name="ConversationItem_copied_text">Tersalin %s</string>
     <string name="ConversationItem_read_more">Baca lebih lanjut</string>
     <string name="ConversationItem_download_more">&#160; Unduh lainnya</string>
     <string name="ConversationItem_pending">&#160; Tertunda</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Tambahkan lampiran</string>
+    <string name="attachmentsAdd">Tambahkan lampiran</string>
     <string name="ConversationActivity_select_contact_info">Pilih info kontak</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Maaf, terjadi kesalahan pada pengaturan lampiran anda.</string>
     <string name="message">Pesan</string>
@@ -60,7 +58,6 @@
     <string name="ConversationActivity_invalid_recipient">Penerima tidak valid!</string>
     <string name="ConversationActivity_unblock_this_contact_question">Buka blokir kontak ini?</string>
     <string name="ConversationActivity_unblock">Buka blokir</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Lampiran melebihi batas ukuran untuk tipe pesan yang Anda kirimkan.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi yang tersedia untuk menangani tautan ini di perangkat Anda.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session membutuhkan izin mikrofon untuk mengirim pesan suara, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session membutuhkan akses kamera untuk mengambil foto dan video.</string>
@@ -90,7 +87,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Hari ini</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Berkas tidak diketahui</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Kesalahan saat mengambil GIF resolusi penuh</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -118,7 +114,6 @@
     <string name="MediaPickerActivity_send_to">Kirim ke %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Tambah keterangan...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Item telah dihapus karena melebihi batas ukuran</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera tidak tersedia.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">Anda tidak dapat membagikan lebih dari %d item.</item>
@@ -168,7 +163,6 @@
     <string name="lockAppUnlocked">Session terbuka</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Anda</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Jenis media tidak mendukung</string>
     <string name="MediaPreviewActivity_draft">Draf</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tidak dapat menyimpan ke penyimpanan eksternal tanpa izin</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Hapus pesan?</string>
@@ -212,9 +206,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Gambar atau video</string>
-    <string name="attachment_type_selector__file_description">Berkas</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
-    <string name="attachment_type_selector__file">Berkas</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Memuat kontak&#8230;</string>
     <!-- conversation_activity -->
@@ -247,7 +239,6 @@
     <string name="load_more_header__see_full_conversation">Lihat semua percakapan</string>
     <string name="load_more_header__loading">Memuat</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Tidak ada media</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <string name="recipient_preferences__block">Blokir</string>
@@ -328,7 +319,6 @@
     <string name="conversation_group_options__conversation">Percakapan</string>
     <!-- media_preview -->
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Tidak ada dokumen</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="trimmer__deleting">Menghapus</string>

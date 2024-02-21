@@ -29,7 +29,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Impossibile trovare un app per selezionare il file.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session richiede l\'autorizzazione all\'accesso della memoria per allegare foto, video o audio, ma è stata negata in modo permanente. Si prega di continuare con il menu delle impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Archiviazione\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session ha bisogno dell\'autorizzazione alla fotocamera per poter scattare foto, ma il permesso è stato negato permanentemente. Utilizza il menu delle impostazioni dell\'app, seleziona \"Autorizzazioni\" e abilita la voce \"Fotocamera\".</string>
     <!-- AudioSlidePlayer -->
@@ -47,13 +46,12 @@
     <string name="ConversationItem_error_not_delivered">Invio fallito, tocca per dettagli</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Ricevuto un messaggio con chiave di scambio, tocca per processarlo.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Invio fallito, tocca per invio non sicuro</string>
-    <string name="ConversationItem_unable_to_open_media">Impossibile trovare un\'app per aprire il file.</string>
     <string name="ConversationItem_copied_text">Copiato %s</string>
     <string name="ConversationItem_read_more">Scopri di più</string>
     <string name="ConversationItem_download_more">&#160; Scarica Altro</string>
     <string name="ConversationItem_pending">  &#160; In attesa</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Aggiungi allegato</string>
+    <string name="attachmentsAdd">Aggiungi allegato</string>
     <string name="ConversationActivity_select_contact_info">Seleziona informazioni dei contatti</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Attenzione, c\'è stato un errore nell\'inviare il tuo allegato.</string>
     <string name="message">Messaggio</string>
@@ -65,7 +63,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Sbloccare questo contatto?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Sarai di nuovo in grado di ricevere messaggi e chiamate da questo contatto.</string>
     <string name="ConversationActivity_unblock">Sblocca</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">L\'allegato che stai cercando di inviare supera le dimensioni consentite</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Sul tuo dispositivo non sono presenti app per gestire questo link.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session richiede l\'autorizzazione all\'uso del microfono per inviare messaggi audio, ma è stata negata in modo permanente. Si prega di continuare con le impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Microfono\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Per poter catturare foto e video, permetti a Session di accedere alla fotocamera del tuo dispositivo</string>
@@ -109,7 +106,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Oggi</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">File sconosciuto</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Errore nel prelevare la GIF in risoluzione massima</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -142,7 +138,6 @@
     <string name="MediaPickerActivity_send_to">Invia a %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Aggiungi una didascalia...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Un elemento è stato rimosso perchè supera la dimensione massima</string>
     <string name="MediaSendActivity_camera_unavailable">Fotocamera non disponibile.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Non puoi condividere più di %d elemento.</item>
@@ -199,7 +194,6 @@ scambia un altro messaggio!</string>
     <string name="lockAppUnlocked">Session è sbloccato</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Tu</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Tipo di media non supportato</string>
     <string name="MediaPreviewActivity_draft">Bozza</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session richiede l\'autorizzazione per salvare in memoria, ma è stata negata in modo permanente. Si prega di proseguire alle impostazioni dell\'app, selezionare \"Autorizzazioni\", quindi abilitare \"Archiviazione\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Impossibile salvare sulla memoria senza l\'autorizzazione</string>
@@ -253,9 +247,7 @@ scambia un altro messaggio!</string>
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Immagine o video</string>
-    <string name="attachment_type_selector__file_description">File</string>
     <string name="attachment_type_selector__gallery">Galleria</string>
-    <string name="attachment_type_selector__file">File</string>
     <string name="attachment_type_selector__drawer_description">Mostra/nascondi pannello degli allegati</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Caricamento contatti...</string>
@@ -269,7 +261,7 @@ scambia un altro messaggio!</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Blocca la registrazione di un allegato audio</string>
     <string name="conversation_activity__enable_signal_for_sms">Abilita Session per gli SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Scorri per cancellare</string>
+    <string name="messageVoiceSlideToCancel">Scorri per cancellare</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Messaggio multimediale</string>
     <string name="conversation_item__secure_message_description">Messaggio sicuro</string>
@@ -299,7 +291,6 @@ scambia un altro messaggio!</string>
     <string name="load_more_header__see_full_conversation">Vedi tutta la conversazione</string>
     <string name="load_more_header__loading">Caricamento</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Nessun file multimediale</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">REINVIA</string>
     <!-- recipient_preferences -->
@@ -417,7 +408,6 @@ scambia un altro messaggio!</string>
     <!-- media_preview -->
     <string name="media_preview__forward_title">Inoltra</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Nessun documento</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Anteprima contenuto multimediale</string>
     <!-- Trimmer -->

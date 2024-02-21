@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(səs)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Media seçə biləcək bir tətbiq tapıla bilmir.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, foto, video və ya səs əlavə etmək üçün Anbar icazəsi tələb edir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\" icazəsini fəallaşdırın.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session, foto çəkmək üçün Kamera icazəsini tələb edir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Kamera\" icazəsini fəallaşdırın.</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">Göndərilmədi, təfsilatlar üçün toxunun</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Açar mübadilə mesajı alındı, emal etmək üçün toxunun.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Göndərə bilmədik, zəmanətsiz alternativ variant üçün kliklə</string>
-    <string name="ConversationItem_unable_to_open_media">Bu medianı aça biləcək tətbiq tapıla bilmədi.</string>
     <string name="ConversationItem_copied_text">%s kopyalandı</string>
     <string name="ConversationItem_read_more">Daha çox oxu</string>
     <string name="ConversationItem_download_more">&#160; Daha çox endir</string>
     <string name="ConversationItem_pending">&#160; Gözlənilir</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Qoşma əlavə et</string>
+    <string name="attachmentsAdd">Qoşma əlavə et</string>
     <string name="ConversationActivity_select_contact_info">Əlaqə məlumatını seç</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Təəssüf ki, qoşmanız tənzimlənərkən xəta baş verdi.</string>
     <string name="message">Mesaj</string>
@@ -64,7 +62,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Bu əlaqə əngəldən çıxarılsın?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Bu əlaqədən yenə mesaj və zəng qəbul edəcəksən.</string>
     <string name="ConversationActivity_unblock">Kilidi aç</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Göndərdiyin mesajın növünə görə faylın ölçüsü limiti aşır.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Cihazında bu linkin öhdəsindən gələ biləcək aplikasiya yoxdur.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session, səsli mesaj göndərmək üçün mikrofona müraciət etməlidir, ancaq icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Mikrofon\"u fəallaşdırın.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session, foto və video çəkmək üçün kameraya müraciət etməlidir.</string>
@@ -108,7 +105,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Bu gün</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Bilinməyən fayl</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Tam ölçüdə GIF alınarkən xəta baş verdi</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -141,7 +137,6 @@
     <string name="MediaPickerActivity_send_to">%s - göndər</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Başlıq əlavə et...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Həcm limitini aşdığı üçün bir element çıxarıldı</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera əlçatmazdır.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">%d elementdən çoxunu paylaşa bilməzsiniz.</item>
@@ -199,7 +194,6 @@
     <string name="lockAppUnlocked">Session-ın kilidi açıldı</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Siz</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Dəstəklənməyən media növü</string>
     <string name="MediaPreviewActivity_draft">Qaralama</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, xarici anbarda saxlamaq üçün anbara müraciət etməlidir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\"ı fəallaşdırın.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İcazə olmadan xarici anbarda saxlanıla bilmir</string>
@@ -253,9 +247,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Təsvir və ya video</string>
-    <string name="attachment_type_selector__file_description">Fayl</string>
     <string name="attachment_type_selector__gallery">Qalereya</string>
-    <string name="attachment_type_selector__file">Fayl</string>
     <string name="attachment_type_selector__drawer_description">Qoşma siyirməsini aç/bağla</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Əlaqələr yüklənir&#8230;</string>
@@ -269,7 +261,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Səsin yazılmasını kilidlə</string>
     <string name="conversation_activity__enable_signal_for_sms">Session-u SMS üçün fəallaşdır</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">İmtina etmək üçün sürüşdür</string>
+    <string name="messageVoiceSlideToCancel">İmtina etmək üçün sürüşdür</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Media mesajı</string>
     <string name="conversation_item__secure_message_description">Güvənli mesaj</string>
@@ -299,7 +291,6 @@
     <string name="load_more_header__see_full_conversation">Tam danışığa bax</string>
     <string name="load_more_header__loading">Yüklənir</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Media yoxdur</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">YENİDƏN GÖNDƏR</string>
     <!-- recipient_preferences -->
@@ -417,7 +408,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Yönləndir</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Sənəd yoxdur</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Media önbaxışı</string>
     <!-- Trimmer -->

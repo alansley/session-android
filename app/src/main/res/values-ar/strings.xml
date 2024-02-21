@@ -36,7 +36,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(صوت)</string>
     <string name="DraftDatabase_Draft_video_snippet">(فيديو)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">لم يتم العثور على تطبيق لاختيار ملف.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">يحتاج Session إلى إذن سعة التخزين من أجل إضافة الصور والمرفقات ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">يحتاج Session إلى إذن الكاميرا من أجل التقاط صور ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
     <!-- AudioSlidePlayer -->
@@ -54,13 +53,12 @@
     <string name="ConversationItem_error_not_delivered">فشل الإرسال , اضغط للحصول على معلومات</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">تم استلام رسالة تبادل مفاتيح، أنقر للمتابعة.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">فشل الإرسال، انقر للرد الغير آمن</string>
-    <string name="ConversationItem_unable_to_open_media">لم يتم العثور على تطبيق قادر على فتح الملف.</string>
     <string name="ConversationItem_copied_text">تم نسخ %s</string>
     <string name="ConversationItem_read_more">اقرأ المزيد</string>
     <string name="ConversationItem_download_more">&#160; تنزيل المزيد</string>
     <string name="ConversationItem_pending">&#160; في الإنتظار</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">إضافة مرفقات</string>
+    <string name="attachmentsAdd">إضافة مرفقات</string>
     <string name="ConversationActivity_select_contact_info">أختر بيانات جهة الاتصال</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">عذراً، حصل خطأ أثناء رفع المرفق.</string>
     <string name="message">رسالة</string>
@@ -72,7 +70,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">إلغاء حظر جهة الاتصال؟</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">سوف تتمكن مرة أخرى من استقبال الرسائل والمكالمات من هذا المستخدم.</string>
     <string name="ConversationActivity_unblock">إلغاء الحظر</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">حجم المرفق تجاوز الحد المسموح بهذا النوع من الرسائل.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">لا يوجد تطبيق على الجهاز لمعالجة هذا الرابط.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">يحتاج Session إلى إذن الميكروفون من أجل الرسائل الصوتية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الميكروفون\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">لإلتقاط صور و فيديوهات, برجاء السماح لSession بالوصول إلي الكاميرا.</string>
@@ -136,7 +133,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">اليوم</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">ملف مجهول</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">خطأ أثناء جلب كامل دقة صورة GIF</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -177,7 +173,6 @@
     <string name="MediaPickerActivity_send_to">إرسال إلى %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">إضافة تعليق...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">تم إزالة عنصر لانه تجاوز الحجم المسموح</string>
     <string name="MediaSendActivity_camera_unavailable">الكاميرا غير متوفرة.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="zero">لا يمكنك مشاركة اكثر من %d عنصر.</item>
@@ -237,7 +232,6 @@
     <string name="lockAppUnlocked">Session غير مقفول</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">أنت</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">غير مدعوم.</string>
     <string name="MediaPreviewActivity_draft">مسودة:</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">يحتاج Session إلى إذن سعة التخزين من أجل استخدام الذاكرة الخارجية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">لا يمكن الحفظ إلى الذاكرة الخارجية بدون أذونات</string>
@@ -295,9 +289,7 @@
     <string name="attachment_type_selector__gif">صورة GIF</string>
     <string name="attachment_type_selector__gif_description">صورة Gif</string>
     <string name="attachment_type_selector__gallery_description">صورة أو فيديو</string>
-    <string name="attachment_type_selector__file_description">ملف</string>
     <string name="attachment_type_selector__gallery">عرض الصور</string>
-    <string name="attachment_type_selector__file">ملف</string>
     <string name="attachment_type_selector__drawer_description">تفعيل أو تثبيط درج المرفقات</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">تحميل جهات الاتصال...</string>
@@ -311,7 +303,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">قفل تسجيل الملاحظات الصوتية</string>
     <string name="conversation_activity__enable_signal_for_sms">تمكين سيقنـال للرسائل النصية</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">إسحب للإلغاء</string>
+    <string name="messageVoiceSlideToCancel">إسحب للإلغاء</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">رسالة وسائط متعددة</string>
     <string name="conversation_item__secure_message_description">رسالة آمنة</string>
@@ -341,7 +333,6 @@
     <string name="load_more_header__see_full_conversation">مطالعة المحادثة بالكامل</string>
     <string name="load_more_header__loading">جارٍ التحميل</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">لا يوجد وسيط</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">إعادة الإرسال</string>
     <!-- recipient_preferences -->
@@ -463,7 +454,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">إعادة توجيه</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">لا توجد ملفات</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">معاينة الوسائط</string>
     <!-- Trimmer -->

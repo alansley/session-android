@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ఆడియో)</string>
     <string name="DraftDatabase_Draft_video_snippet">(వీడియో)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">మీడియా ఎంచుకోవడానికి అనువర్తనం దొరకదు.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ఫోటోలు, వీడియోలు లేదా ఆడియోను అటాచ్ చేయడానికి Sessionకు నిల్వ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్ల మెనుకు కొనసాగండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"నిల్వ\" ను ప్రారంభించండి.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">ఫోటోలను తీయడానికి Sessionకు కెమెరా అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్ల మెనుకి కొనసాగండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"కెమెరా\" ని ప్రారంభించండి.</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">విఫలమైంది పంపండి, వివరాల కోసం నొక్కండి</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">స్వీకరించు మీట మార్పిడి సందేశం, తట్టు తో క్రమణం</string>
     <string name="ConversationItem_click_to_approve_unencrypted">పంపడం విఫలమైంది, అసురక్షిత తిరిగి పొందడం కోసం నొక్కండి</string>
-    <string name="ConversationItem_unable_to_open_media">మీడియా ఎంచుకోవడానికి అనువర్తనం దొరకదు.</string>
     <string name="ConversationItem_copied_text">ప్రతి  తీసుకోబడింది %s</string>
     <string name="ConversationItem_read_more">Ekkuva chadavatam</string>
     <string name="ConversationItem_download_more">&#160; మరింత డౌన్‌లోడ్ చేయండి</string>
     <string name="ConversationItem_pending">&#160; పెండింగ్‌</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">అటాచ్మెంట్ జోడించండి</string>
+    <string name="attachmentsAdd">అటాచ్మెంట్ జోడించండి</string>
     <string name="ConversationActivity_select_contact_info">సంప్రదింపు సమాచారం ఎంచుకొండి</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">క్షమించండి, మీ అటాచ్మెంట్ అమర్చడంలో లోపం ఉంది.</string>
     <string name="message">సందేశం</string>
@@ -61,7 +59,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">ఈ పరిచయం నిరోధించాలా?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">మీరు మరోసారి ఈ పరిచయం నుండి సందేశాలను మరియు కాల్స్ అందుకోగలరు.</string>
     <string name="ConversationActivity_unblock">అనుమతించు</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">జోడింపు మీరు పంపే సందేశం రకం పరిమాణ పరిమితి మించిపోయింది.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">మీ పరికరం ఈ లింక్ నిర్వహించడానికి ఎలాంటి అనువర్తనం లేదు.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">ఆడియో సందేశాలను పంపడానికి Sessionకు మైక్రోఫోన్ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్లకు కొనసాగించండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"మైక్రోఫోన్\" ని ప్రారంభించండి.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ఫోటోలు మరియు వీడియోలను సంగ్రహించడానికి, కెమెరాకి Session ప్రాప్తిని అనుమతించండి.</string>
@@ -107,7 +104,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">నేడు</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">తెలియని దస్థ్రం</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">పూతి స్పష్టత జి.ఐ.ఎఫ్. ను తిరిగి రప్పించుట లొ లొపము</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -185,7 +181,6 @@
     <string name="lockAppUnlocked">Session తాళం తీయబడినది</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">మీరు</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">మద్ధతు  లేనటువంటి ప్రసార మాధ్యమం</string>
     <string name="MediaPreviewActivity_draft">చిత్తు పత్రం</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">అనుమతులు లేకుండా బాహ్య నిల్వకి సేవ్ చేయడం సాధ్యపడలేదు</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">సందేశాన్ని తొలగించాలా?</string>
@@ -233,9 +228,7 @@
     <string name="attachment_type_selector__gif">గిఫ్</string>
     <string name="attachment_type_selector__gif_description">గిఫ్</string>
     <string name="attachment_type_selector__gallery_description">ఇమెజ్   ఆర్   వీడియో</string>
-    <string name="attachment_type_selector__file_description">ఫైల్</string>
     <string name="attachment_type_selector__gallery">వారపాక</string>
-    <string name="attachment_type_selector__file">దస్థవెధి</string>
     <string name="attachment_type_selector__drawer_description">టోగుల్ అటాచ్మెంట్ సొరుగు</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">పరిచయాలు లోడ్ అవుతున్నాయి ...</string>
@@ -273,7 +266,6 @@
     <string name="load_more_header__see_full_conversation">పూర్తి సంభాషణ చూడండి</string>
     <string name="load_more_header__loading">లోడ్</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">మీడియా లేదు</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">మళ్ళీ పంపు</string>
     <!-- recipient_preferences -->
@@ -387,7 +379,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">బదలాయించు</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">పత్రాలు లేవు</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">మీడియా ప్రివ్యూ</string>
     <!-- Trimmer -->

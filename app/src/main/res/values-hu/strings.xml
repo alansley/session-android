@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(hang)</string>
     <string name="DraftDatabase_Draft_video_snippet">(videó)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Nem található alkalmazás a médiafájl kiválasztásához.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">A Session-nek szüksége van Tárhely engedélyre, hogy fotókat, videókat vagy hangokat csatolhasson, de ez jelenleg meg van tagadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Tárhely\"-t.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">A Session-nek szüksége van a Kamera engedélyre, hogy fotókat készíthessen, de ez jelenleg meg van tagadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Kamera\"-t.</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">Sikertelen küldés, koppints a részletekért</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Kulcs-csere üzenet érkezett, koppints a feldolgozáshoz.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Sikertelen küldés, koppints a titkosítatlan üzenetküldéshez</string>
-    <string name="ConversationItem_unable_to_open_media">Nem található olyan alkalmazás, ami képes lenne megnyitni ezt a médiafájlt.</string>
     <string name="ConversationItem_copied_text">%s másolva</string>
     <string name="ConversationItem_read_more">Részletek</string>
     <string name="ConversationItem_download_more"> További letöltése</string>
     <string name="ConversationItem_pending"> Függőben</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Melléklet csatolása</string>
+    <string name="attachmentsAdd">Melléklet csatolása</string>
     <string name="ConversationActivity_select_contact_info">Válassz kontakt infót</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sajnos hiba történt a melléklet csatolása során.</string>
     <string name="message">Üzenet</string>
@@ -64,7 +62,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Feloldod a kontakt letiltását?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Újra fogadhatsz üzeneteket és hívásokat ettől a kontakttól.</string>
     <string name="ConversationActivity_unblock">Letiltás feloldása</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">A melléklet mérete meghaladja az adott típushoz tartozó mérethatárt.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nem található eszközödön megfelelő alkalmazás a hivatkozás kezeléséhez.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">A Session-nek szüksége van a Mikrofon engedélyre, hogy hangüzeneteket küldhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd az \"Mikrofon\"-t.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Fotók és videók készítéséhez engedélyezd a Session-nek a kamerához való hozzáférést.</string>
@@ -109,7 +106,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Ma</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Ismeretlen fájl</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Hiba történt a teljes felbontású GIF letöltése során</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -142,7 +138,6 @@
     <string name="MediaPickerActivity_send_to">Küldés neki: %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Felirat hozzáadása...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Egy elem el lett távolítva, mivel túllépte a megengedett mérethatárt</string>
     <string name="MediaSendActivity_camera_unavailable">A kamera nem érhető el.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nem oszthatsz meg többet, mint %d db elem.</item>
@@ -200,7 +195,6 @@
     <string name="lockAppUnlocked">Session feloldva</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Te</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Nem támogatott médiatípus</string>
     <string name="MediaPreviewActivity_draft">Piszkozat</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">A Session- nek szüksége van fájlhozzáférési engedélyekhez, hogy menteni tudjon külső tárhelyre. Kérlek, hogy a rendszerbeállításokban engedélyezd a \"fájlok és média\" opciót a Session számára.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nem lehet engedély nélkül menteni a külső tárolóra</string>
@@ -254,9 +248,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Kép vagy videó</string>
-    <string name="attachment_type_selector__file_description">Fájl</string>
     <string name="attachment_type_selector__gallery">Galéria</string>
-    <string name="attachment_type_selector__file">Fájl</string>
     <string name="attachment_type_selector__drawer_description">Mellékletcsatoló kapcsoló</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Kontaktok betöltése...</string>
@@ -270,7 +262,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Hangcsatolmány rögzítésének zárolása</string>
     <string name="conversation_activity__enable_signal_for_sms">Session engedélyezése SMS-hez</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Megszakításhoz csúsztasd</string>
+    <string name="messageVoiceSlideToCancel">Megszakításhoz csúsztasd</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Médiaüzenet</string>
     <string name="conversation_item__secure_message_description">Biztonságos üzenet</string>
@@ -300,7 +292,6 @@
     <string name="load_more_header__see_full_conversation">Teljes beszélgetés megtekintése</string>
     <string name="load_more_header__loading">Betöltés</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Nincs médiafájl</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ÚJRAKÜLDÉS</string>
     <!-- recipient_preferences -->
@@ -418,7 +409,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Továbbítás</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Nincs dokumentum</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Média előnézet</string>
     <!-- Trimmer -->

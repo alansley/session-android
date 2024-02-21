@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vídeo)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Non se atopa unha app para seleccionar contido multimedia.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session require permiso de almacenamento para poder anexar fotografías, vídeos ou ficheiros de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session require permiso para poder tirar fotografías, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">Erro ao enviar; toca para máis detalles</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Recibida a mensaxe de intercambio de chaves; toca para continuar.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Erro ao enviar, toca para volver a un modo non seguro</string>
-    <string name="ConversationItem_unable_to_open_media">Non se atopa unha aplicación con que abrir este contido multimedia.</string>
     <string name="ConversationItem_copied_text">Copiouse %s</string>
     <string name="ConversationItem_read_more">Ler máis</string>
     <string name="ConversationItem_download_more">&#160; Descargar máis</string>
     <string name="ConversationItem_pending">&#160; Pendente</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Engadir anexo</string>
+    <string name="attachmentsAdd">Engadir anexo</string>
     <string name="ConversationActivity_select_contact_info">Seleccionar información de contacto</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sentímolo, produciuse un erro ao configurar o teu anexo.</string>
     <string name="message">Escribe aquí a túa mensaxe</string>
@@ -63,7 +61,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Desbloquear este contacto?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Volverá ser posible que recibas mensaxes e chamadas deste contacto.</string>
     <string name="ConversationActivity_unblock">Desbloquear</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">O anexo excede o tamaño límite para o tipo de mensaxe que estás a enviar.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Non hai ningunha app que poida abrir esta ligazón no teu dispositivo.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session require permiso para poder enviar mensaxes de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Para tirar fotografías e facer vídeos, Session necesita acceder á cámara.</string>
@@ -107,7 +104,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Hoxe</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Ficheiro descoñecido</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Erro ao recuperar o GIF coa resolución completa</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -140,7 +136,6 @@
     <string name="MediaPickerActivity_send_to">Enviar a %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Engadir un título...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Eliminouse un elemento porque o seu tamaño excede o límite</string>
     <string name="MediaSendActivity_camera_unavailable">Cámara non dispoñible.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Non podes compartir máis de %d elemento.</item>
@@ -197,7 +192,6 @@
     <string name="lockAppUnlocked">Session está desbloqueado</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ti</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Tipo multimedia non compatible</string>
     <string name="MediaPreviewActivity_draft">Borrador</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Non é posible gardar no almacenamento externo sen permiso</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Borrar mensaxe?</string>
@@ -250,9 +244,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imaxe ou vídeo</string>
-    <string name="attachment_type_selector__file_description">Ficheiro</string>
     <string name="attachment_type_selector__gallery">Galería</string>
-    <string name="attachment_type_selector__file">Ficheiro</string>
     <string name="attachment_type_selector__drawer_description">Activar panel de ficheiros anexos</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Cargando contactos&#8230;</string>
@@ -266,7 +258,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Fixar a gravación do anexo de audio</string>
     <string name="conversation_activity__enable_signal_for_sms">Activar Session para SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Pasa o dedo para cancelar</string>
+    <string name="messageVoiceSlideToCancel">Pasa o dedo para cancelar</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mensaxe multimedia</string>
     <string name="conversation_item__secure_message_description">Mensaxe segura</string>
@@ -296,7 +288,6 @@
     <string name="load_more_header__see_full_conversation">Ver conversa completa</string>
     <string name="load_more_header__loading">Cargando</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Sen ficheiros multimedia</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">REENVIAR</string>
     <!-- recipient_preferences -->
@@ -412,7 +403,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Reenviar</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Sen documentos</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Previsualización multimedia</string>
     <!-- Trimmer -->

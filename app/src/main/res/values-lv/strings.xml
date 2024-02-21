@@ -25,7 +25,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(skaņa)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Nevar atrast programmu multivides atlasīšanai.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Sesijai ir nepieciešama krātuves atļauja, lai pievienotu fotoattēlus, videoklipus vai audio, bet tā ir pastāvīgi aizliegta. Lūdzu, pārejiet uz programmu iestatījumu izvēlni, atlasiet “Atļaujas” un iespējojiet “Krātuve”.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Sesijai ir nepieciešama atļauja piekļūt Kamerai, lai pievienotu fotoattēlus, bet tā ir pastāvīgi aizliegta. Lūdzu, pārejiet uz programmu iestatījumu izvēlni, atlasiet “Atļaujas” un iespējojiet “Kamera”.</string>
     <!-- AudioSlidePlayer -->
@@ -41,7 +40,7 @@
     <!-- ConversationItem -->
     <string name="ConversationItem_read_more">Rādīt vairāk</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Pievienot pielikumu</string>
+    <string name="attachmentsAdd">Pievienot pielikumu</string>
     <string name="ConversationActivity_select_contact_info">Izvēlieties kontaktinformāciju</string>
     <string name="message">Paziņojums</string>
     <string name="ConversationActivity_open_group_guidelines">Kopienas vadlīnijas</string>
@@ -49,7 +48,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Atbloķēt šo kontaktpersonu?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Jūs atkal varēsit saņemt ziņas un zvanus no šīs kontaktpersonas.</string>
     <string name="ConversationActivity_unblock">Atbloķēt</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Pielikums pārsniedz nosūtāmā ziņojuma tipa apjoma ierobežojumus.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Jūsu ierīcē nav pieejama neviena programma šīs saites apstrādei.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Sesijai ir nepieciešama atļauja piekļūt mikrofonam, lai sūtītu balss ziņas, bet tā ir pastāvīgi aizliegta. Lūdzu, ejiet uz programmu iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Mikrofons”.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Sesijai nepieciešama piekļuve kamerai, lai uzņemtu attēlus un video.</string>
@@ -79,7 +77,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Šodien</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Nezināms fails</string>
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
     <string name="GiphyFragmentPagerAdapter_gifs">GIFi</string>

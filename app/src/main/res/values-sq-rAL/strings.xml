@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(Audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">S\’gjendet dot aplikacion për përzgjedhje mediash.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Që të mund të bashkëngjisë foto, video, ose audio, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, vazhdoni për te menuja e rregullimeve të aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Që të mund të bëjë foto, Session-i lyp leje përdorimi Kamere, por kjo i është mohuar. Ju lutemi, vazhdoni për te menuja e rregullimeve të aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Kamerë\".</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">Dërgimi dështoi, për hollësi, prekeni</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">U mor mesazh shkëmbimi kyçesh, prekeni që të bëhet.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Dërgimi dështoi, prekeni për dërgim të pasigurt</string>
-    <string name="ConversationItem_unable_to_open_media">S\’gjendet dot një aplikacion i aftë për hapjen e kësaj medie.</string>
     <string name="ConversationItem_copied_text">U kopjua %s</string>
     <string name="ConversationItem_read_more">Lexo me shumë</string>
     <string name="ConversationItem_download_more">  Shkarkoni Më Tepër</string>
     <string name="ConversationItem_pending">  Pezull</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Shtoni bashkëngjitje</string>
+    <string name="attachmentsAdd">Shtoni bashkëngjitje</string>
     <string name="ConversationActivity_select_contact_info">Përzgjidhni të dhëna kontakti</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Na ndjeni, pati një gabim në caktimin e bashkëngjitjes tuaj.</string>
     <string name="message">Mesazh</string>
@@ -64,7 +62,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Të zhbllokohet ky kontakt?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Do të jeni sërish në gjendje të merrni mesazhe dhe thirrje nga ky kontakt.</string>
     <string name="ConversationActivity_unblock">Zhbllokoje</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Bashkëngjitja tejkalon kufij madhësie për llojin e mesazhit që po dërgoni.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">S\’ka aplikacion të gatshëm në celularin tuaj për trajtim të kësaj në pajisjen tuaj.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Që të mund të dërgojë mesazhe audio, Session-i lyp leje përdorimi të Mikrofonit, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Mikrofonin\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Për të bërë foto dhe dhe video, lejojini Session-it të përdorë kamerën.</string>
@@ -108,7 +105,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Sot</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Kartelë e panjohur</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Gabim gjatë marrjes së GIF-it me qartësi të plotë</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -141,7 +137,6 @@
     <string name="MediaPickerActivity_send_to">Dërgoje te %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Shtoni një përshkrim…</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">U hoq një objekt, ngaqë tejkalonte kufirin për madhësitë</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera jo gati</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">S\’mund të ndani me të tjerët më shumë se %d objekte.</item>
@@ -198,7 +193,6 @@
     <string name="lockAppUnlocked">Session-i u shkyç</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ju</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Lloj media i pambuluar</string>
     <string name="MediaPreviewActivity_draft">Skicë:</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Për të ruajtur gjëra në depozitë të jashtme, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">S\’bëhet dot ruajtje në depozitë të jashtme pa leje</string>
@@ -252,9 +246,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Figurë ose video</string>
-    <string name="attachment_type_selector__file_description">Kartelë</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
-    <string name="attachment_type_selector__file">Kartelë</string>
     <string name="attachment_type_selector__drawer_description">Hapni/mbyllni sirtarin e bashkëngjitjeve</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Po ngarkohen kontakte…</string>
@@ -268,7 +260,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Blloko incizim bashkëngjitjeje audio</string>
     <string name="conversation_activity__enable_signal_for_sms">Aktivizo Session për SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Rrëshqiteni që të anulohet</string>
+    <string name="messageVoiceSlideToCancel">Rrëshqiteni që të anulohet</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mesazh media</string>
     <string name="conversation_item__secure_message_description">Mesazh i siguruar</string>
@@ -298,7 +290,6 @@
     <string name="load_more_header__see_full_conversation">Shihni bisedën e plotë</string>
     <string name="load_more_header__loading">Po ngarkohet</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">S\’ka media</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">RIDËRGOJE</string>
     <!-- recipient_preferences -->
@@ -416,7 +407,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Përcilleni</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">S\’ka dokumenta</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Paraparje medie</string>
     <!-- Trimmer -->

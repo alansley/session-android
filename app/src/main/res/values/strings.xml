@@ -176,7 +176,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Can\'t find an app to select media.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session requires the Storage permission in order to attach photos, videos, or audio, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Storage\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session requires the Camera permission in order to take photos, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Camera\".</string>
     <!-- AudioSlidePlayer -->
@@ -194,13 +193,12 @@
     <string name="ConversationItem_error_not_delivered">Send failed, tap for details</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Received key exchange message, tap to process.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Send failed, tap for unsecured fallback</string>
-    <string name="ConversationItem_unable_to_open_media">Can\'t find an app able to open this media.</string>
     <string name="ConversationItem_copied_text">Copied %s</string>
     <string name="ConversationItem_read_more">Read More</string>
     <string name="ConversationItem_download_more">&#160; Download More</string>
     <string name="ConversationItem_pending">&#160; Pending</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Add attachment</string>
+    <string name="attachmentsAdd">Add attachment</string>
     <string name="ConversationActivity_select_contact_info">Select contact info</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sorry, there was an error setting your attachment.</string>
     <string name="message">Message</string>
@@ -213,7 +211,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Unblock this contact?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">You will once again be able to receive messages and calls from this contact.</string>
     <string name="ConversationActivity_unblock">Unblock</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Attachment exceeds size limits for the type of message you\'re sending.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">There is no app available to handle this link on your device.</string>
     <string name="ConversationActivity_copy_open_group_url">Copy Community URL</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session needs microphone access to send audio messages, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\".</string>
@@ -264,7 +261,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Today</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Unknown file</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Error while retrieving full resolution GIF</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -297,7 +293,6 @@
     <string name="MediaPickerActivity_send_to">Send to %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Add a caption...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">An item was removed because it exceeded the size limit</string>
     <string name="MediaSendActivity_camera_unavailable">Camera unavailable.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">You can\'t share more than %d item.</item>
@@ -357,7 +352,6 @@
     <string name="lockAppUnlocked">Session is unlocked</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">You</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Unsupported media type</string>
     <string name="MediaPreviewActivity_draft">Draft</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session needs storage access in order to save to external storage, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Storage\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Unable to save to external storage without permissions</string>
@@ -411,9 +405,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Image or video</string>
-    <string name="attachment_type_selector__file_description">File</string>
     <string name="attachment_type_selector__gallery">Gallery</string>
-    <string name="attachment_type_selector__file">File</string>
     <string name="attachment_type_selector__drawer_description">Toggle attachment drawer</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Loading contacts&#8230;</string>
@@ -428,7 +420,7 @@
     <string name="conversation_activity__enable_signal_for_sms">Enable Session for SMS</string>
     <string name="conversation_activity__wait_until_attachment_has_finished_downloading">Please wait until attachment has finished downloading</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Slide to cancel</string>
+    <string name="messageVoiceSlideToCancel">Slide to cancel</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Media message</string>
     <string name="conversation_item__secure_message_description">Secure message</string>
@@ -458,7 +450,6 @@
     <string name="load_more_header__see_full_conversation">See full conversation</string>
     <string name="load_more_header__loading">Loading</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">No media</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">RESEND</string>
     <!-- recipient_preferences -->
@@ -606,7 +597,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Forward</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">No documents</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Media preview</string>
     <!-- Trimmer -->
@@ -974,5 +964,11 @@
     <string name="attachmentsAutoDownloadModalTitle">Auto Download</string>
     <string name="attachmentsAutoDownloadModalDescription">Would you like to automatically download all files from [USER/GROUP]?</string>
     <string name="videoErrorPlay">Unable to play video.</string>
+    <string name="attachmentsErrorSize">Files must be less than 10Mb</string>
+    <string name="attachmentsErrorNoApp">Can\'t find an app to select media.</string>
+    <string name="attachmentsErrorOpen">Unable to open file.</string>
+    <string name="attachmentsErrorNotSupported">This file type is not supported.</string>
+    <string name="attachmentsFileId">File ID:</string>
+    <string name="attachmentsFilesEmpty">You don\'t have any files in this conversation.</string>
 
 </resources>

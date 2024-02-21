@@ -44,7 +44,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">අද</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">නොදන්නා ගොනුවකි</string>
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
     <!-- CropImageActivity -->
@@ -126,7 +125,6 @@
     <!-- load_more_header -->
     <string name="load_more_header__loading">පූරණය වෙමින්</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">මාධ්‍යය නැත</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">නැවත යවන්න</string>
     <!-- recipient_preferences -->
@@ -160,7 +158,6 @@
     <string name="conversation_group_options__conversation">සම්භාෂණය</string>
     <!-- media_preview -->
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">ලේඛන නැත</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">මාධ්‍යය පෙරදසුන</string>
     <!-- Trimmer -->

@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ääni)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Median valintaan ei löytynyt sovellusta.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal tarvitsee lupaa käyttää laitteesi tallennustilaa kuvien, videoiden tai äänitiedostojen liittämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal tarvitsee lupaa käyttää kameraa kuvien ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">Lähetys epäonnistui, napauta nähdäksesi lisätietoja</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Avaintenvaihtoviesti vastaanotettu. Aloita käsittely napauttamalla.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Lähetys epäonnistui, napauta lähettääksesi suojaamattomana</string>
-    <string name="ConversationItem_unable_to_open_media">Median avaamiseen ei löytynyt sovellusta.</string>
     <string name="ConversationItem_copied_text">Kopioitu: %s</string>
     <string name="ConversationItem_read_more">Lue lisää</string>
     <string name="ConversationItem_download_more">  Lataa lisää</string>
     <string name="ConversationItem_pending">  Käsiteltävänä</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Lisää liite</string>
+    <string name="attachmentsAdd">Lisää liite</string>
     <string name="ConversationActivity_select_contact_info">Valitse yhteystieto</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Virhe liitteen lisäämisessä</string>
     <string name="message">Viesti</string>
@@ -64,7 +62,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Poista esto tältä yhteystiedolta?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Jatkossa voit taas saada viestejä ja puheluita tältä yhteystiedolta.</string>
     <string name="ConversationActivity_unblock">Poista esto</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Liitetiedosto ylittää kyseisen viestityypin kokorajoituikset.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Laitteessasi ei ole sovellusta, joka osaa avata tämän linkin.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal tarvitsee lupaa käyttää mikrofonia äänitiedostojen lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Jotta voit ottaa kuvia ja videoita, anna Sessionille lupaa käyttää kameraa.</string>
@@ -108,7 +105,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">tänään</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Tuntematon tiedosto</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Täysikokoisen GIFin lataaminen epäonnistui</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -141,7 +137,6 @@
     <string name="MediaPickerActivity_send_to">Lähetä yhteystiedolle %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Lisää kuvateksti...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Kohde poistettiin, koska se ylitti kokorajan</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera ei käytettävissä</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Et voi jakaa useampaa kuin %d kappaletta.</item>
@@ -197,7 +192,6 @@ on viallinen!</string>
     <string name="lockAppUnlocked">Sessionin lukitus on auki</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Sinä</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Median tyyppiä ei tueta</string>
     <string name="MediaPreviewActivity_draft">Luonnos</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session tarvitsee luvan tallentaakseen ulkoiseen tallennustilaan, mutta se on pysyvästi kielletty. Jatka sovelluksen asetuksiin, valitse \"luvat\", ja käytä \"tallennustilaa\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tallennus ulkoiseen tallennustilaan ei onnistu ilman käyttöoikeutta.</string>
@@ -251,9 +245,7 @@ on viallinen!</string>
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Kuva tai video</string>
-    <string name="attachment_type_selector__file_description">Tiedosto</string>
     <string name="attachment_type_selector__gallery">Galleria</string>
-    <string name="attachment_type_selector__file">Tiedosto</string>
     <string name="attachment_type_selector__drawer_description">Avaa tai sulje liitetiedostovalikko</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Ladataan yhteystietoja…</string>
@@ -267,7 +259,7 @@ on viallinen!</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lukitse ääniviestin tallennus</string>
     <string name="conversation_activity__enable_signal_for_sms">Käytä Sessionia tekstiviesteille</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Pyyhkäise hylkääksesi</string>
+    <string name="messageVoiceSlideToCancel">Pyyhkäise hylkääksesi</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediaviesti</string>
     <string name="conversation_item__secure_message_description">Salattu viesti</string>
@@ -297,7 +289,6 @@ on viallinen!</string>
     <string name="load_more_header__see_full_conversation">Näytä koko keskustelu</string>
     <string name="load_more_header__loading">Ladataan</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Ei mediatiedostoja</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">LÄHETÄ UUDELLEEN</string>
     <!-- recipient_preferences -->
@@ -415,7 +406,6 @@ on viallinen!</string>
     <!-- media_preview -->
     <string name="media_preview__forward_title">Välitä</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Ei tiedostoja</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Liitteen esikatselu</string>
     <!-- Trimmer -->

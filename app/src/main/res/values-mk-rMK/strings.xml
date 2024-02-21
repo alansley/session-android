@@ -15,7 +15,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(အသံ)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ဗွီဒီယို) </string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">ရုပ်သံကိုဖွင့်ရန်သင့်တော်သည့် app မတွေ့ပါ </string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Sessionမှ အဆက်အသွယ်များအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ဖိုင်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">ဓါတ်ပုံရိုက်နိုင်ရန် မိမိ ကင်မရာကို Sessionမှ အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ကင်မရာကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
     <!-- AudioSlidePlayer -->
@@ -30,17 +29,15 @@
     <string name="ContactsCursorLoader_groups">အဖွဲ့များ</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">အလဲအလှယ်စာတိုသော့ရရှိပါသည်၊ ဆက်လက်လုပ်ဆောင်ရန် နှိပ်ပါ။ </string>
-    <string name="ConversationItem_unable_to_open_media">ရုပ်သံ ကိုဖွင့်နိုင်သည့် app မရှိပါ။ </string>
     <string name="ConversationItem_copied_text">ကူးပြီးပါပြီ %s </string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">ပူးတွဲဖိုင် ထည့်ရန်</string>
+    <string name="attachmentsAdd">ပူးတွဲဖိုင် ထည့်ရန်</string>
     <string name="ConversationActivity_select_contact_info">ဆက်သွယ်မည့်သူအချက်အလက်ရွေးချယ်ပါ </string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">ပူးတွဲဖိုင်ကို ထည့်ရာတွင် အမှားအယွင်းရှိသည်။ </string>
     <string name="ConversationActivity_invalid_recipient">လက်ခံမည့်သူမရှိပါ</string>
     <string name="ConversationActivity_unblock_this_contact_question">ဤသူကို ဘလော့ဖြည်မလား? </string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">သူ့ထံမှ စာတိုများ ၊ ဖုန်းခေါ်ဆိုမှုများ ပြန်လည်လက်ခံနိုင်လိမ့်မည်။ </string>
     <string name="ConversationActivity_unblock">ဘလော့ဖြည်ပါ </string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">ပူးတွဲဖိုင်သည် သတ်မှတ်ဖိုင်အရွယ်အစားထက်ကြီးနေသည်။ </string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">ယခုလင့်ခ် ကိုဖွင့်နိုင်သည့် app သင့်စက်တွင် မရှိပါ။ </string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">အသံဖိုင်များပို့နိုင်ရန် Sessionမှ မိုက်ခရိုဖုန်းအား အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်းကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ဓါတ်ပုံနှင့် ဗီဒီယိုရိုက်နိုင်ရန် Session မှ မိမိကင်မရာကို အသုံးပြုခွင့်ပေးပါ။</string>
@@ -61,7 +58,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">ယနေ့ </string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">အမျိုးအစားမသိဖိုင်</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">GIF ပုံ၏ မူရင်းအရည်အသွေးကို ပြသရန်အခက်အခဲရှိ </string>
     <!-- GiphyFragmentPageAdapter -->
@@ -130,7 +126,6 @@
     <string name="lockAppUnlocked">Session ကိုဖွင့်လိုက်ပါပြီ</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">သင်</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">ပံ့ပိုးမှုမပြုနိုင်သော ရုပ်၊သံ၊ပုံ ဖိုင်များ</string>
     <string name="MediaPreviewActivity_draft">မူကြမ်း</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ခွင့်ပြုချက်မပေးထားပါက အပြင်ဘက်တွင် သိမ်းဆည်း၍မရပါ</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">စာကို ဖျက်မှှှှှှှာလား? </string>
@@ -171,9 +166,7 @@
     <string name="attachment_type_selector__location">တည်နေရာ</string>
     <string name="attachment_type_selector__location_description">တည်နေရာ</string>
     <string name="attachment_type_selector__gallery_description">ဓာတ်ပုံ သို့မဟုတ် ဗီဒီယို </string>
-    <string name="attachment_type_selector__file_description">ဖိုင်</string>
     <string name="attachment_type_selector__gallery">ဓာတ်ပုံနှင့်ဗီဒီယိုများသိမ်းဆည်းရာ</string>
-    <string name="attachment_type_selector__file">ဖိုင်</string>
     <string name="attachment_type_selector__drawer_description">ပူးတွဲဖိုင် drawer အားတစ်ချက်နှိပ်ပါ </string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">လိပ်စာများ ရှာဖွေနေသည် ...</string>
@@ -210,7 +203,6 @@
     <string name="load_more_header__see_full_conversation">ပြောစကားအပြည့်အစုံကိုကြည့်သည် </string>
     <string name="load_more_header__loading">လုပ်ဆောင်နေဆဲ</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">မီဒီယာမရှိပါ </string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ပြန်ပို့သည်</string>
     <!-- recipient_preferences -->
@@ -319,7 +311,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">ထပ်ဆင့် ပေးပို့ပါ။</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">စာရွက်စာတမ်းများ မရှိပါ။ </string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description"> ရုပ်/သံ/ပုံပါ စာများကို အစမ်းကြည့်ခြင်း</string>
     <!-- Trimmer -->

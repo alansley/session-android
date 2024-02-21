@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ήχος)</string>
     <string name="DraftDatabase_Draft_video_snippet">(βίντεο)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Δεν μπορεί να βρεθεί εφαρμογή για επιλογή πολυμέσων.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio"> Το Session χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για να μπορούμε να επισυνάψουμε φωτογραφίες, βίντεο ή κομμάτια ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\". </string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Το Session χρειάζεται τα δικαιώματα Κάμερας για να μπορούμε να τραβάμε φωτογραφίες, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε τα \"Κάμερα\".</string>
     <!-- AudioSlidePlayer -->
@@ -46,13 +45,12 @@
     <string name="ConversationItem_error_not_delivered">Η αποστολή απέτυχε, πατήστε για λεπτομέρειες</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Ελήφθη μήνυμα ανταλλαγής κλειδιών, πατήστε για να επεξεργαστεί.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Η αποστολή απέτυχε, πατήστε για μη ασφαλή εναλλακτική αποστολή</string>
-    <string name="ConversationItem_unable_to_open_media">Δεν μπορεί να βρεθεί κατάλληλη εφαρμογή για το άνοιγμα αυτού του πολυμέσου.</string>
     <string name="ConversationItem_copied_text">Αντιγράφτηκε: %s</string>
     <string name="ConversationItem_read_more">Διαβάστε περισσότερα</string>
     <string name="ConversationItem_download_more"> Κατεβάστε περισσότερα</string>
     <string name="ConversationItem_pending"> Εκκρεμεί</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Προσθήκη συνημμένου</string>
+    <string name="attachmentsAdd">Προσθήκη συνημμένου</string>
     <string name="ConversationActivity_select_contact_info">Επιλογή πληροφοριών επαφής</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Συγγνώμη, υπήρξε πρόβλημα με τη σύναψη αρχείου.</string>
     <string name="message">Μήνυμα</string>
@@ -64,7 +62,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Ξεμπλοκάρισμα αυτής της επαφής;</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Θα μπορείτε και πάλι να λαμβάνετε μηνύματα και κλήσεις από αυτή την επαφή.</string>
     <string name="ConversationActivity_unblock">Ξεμπλοκάρισμα</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Το συνημμένο υπερβαίνει τα όρια μεγέθους για το είδος μηνύματος που στέλνετε.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Δεν υπάρχει διαθέσιμη εφαρμογή στην συσκευή σας να μπορεί να διαχειριστεί αυτό τον σύνδεσμο.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Το Session χρειάζεται τα δικαιώματα Μικροφώνου για να μπορούμε να στείλουμε μηνύματα ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Μικρόφωνο\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Για να τραβήξετε φωτογραφίες και βίντεο, δώστε στο Session πρόσβαση στην κάμερα.</string>
@@ -108,7 +105,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Σήμερα</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Άγνωστο αρχείο</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Πρόβλημα κατά την ανάκτηση της πλήρους ανάλυσης της εικόνας GIF</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -141,7 +137,6 @@
     <string name="MediaPickerActivity_send_to">Αποστολή σε %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Προσθήκη λεζάντας...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Ένα στοιχείο αφαιρέθηκε επειδή υπερέβη το μέγιστο μέγεθος</string>
     <string name="MediaSendActivity_camera_unavailable">Η κάμερα δεν είναι διαθέσιμη.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Δεν μπορείτε να μοιραστείτε πάνω από %d αντικείμενο.</item>
@@ -199,7 +194,6 @@
     <string name="lockAppUnlocked">Το Session ξεκλειδώθηκε</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Εσείς</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Μη υποστηριζόμενος τύπος πολυμέσων</string>
     <string name="MediaPreviewActivity_draft">Πρόχειρο</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να αποθηκεύσει στην εξωτερική μνήμη, αλλά αυτό έχει μόνιμα αποκλειστεί . Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Αδυναμία αποθήκευσης στην εξωτερική μνήμη χωρίς δικαιώματα</string>
@@ -253,9 +247,7 @@
     <string name="attachment_type_selector__gif">GIF</string>
     <string name="attachment_type_selector__gif_description">Gif</string>
     <string name="attachment_type_selector__gallery_description">Εικόνα ή βίντεο</string>
-    <string name="attachment_type_selector__file_description">Αρχείο</string>
     <string name="attachment_type_selector__gallery">Πινακοθήκη</string>
-    <string name="attachment_type_selector__file">Αρχείο</string>
     <string name="attachment_type_selector__drawer_description">Εναλλαγή συρταριού επισυνημμένων</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Φόρτωση των επαφών...</string>
@@ -269,7 +261,7 @@
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Κλειδώστε την ηχογράφηση ή το συνημμένο αρχείο ήχου</string>
     <string name="conversation_activity__enable_signal_for_sms">Ενεργοποιήστε το Session για SMS</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Σύρετε για ακύρωση</string>
+    <string name="messageVoiceSlideToCancel">Σύρετε για ακύρωση</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Μήνυμα πολυμέσων</string>
     <string name="conversation_item__secure_message_description">Ασφαλές μήνυμα</string>
@@ -299,7 +291,6 @@
     <string name="load_more_header__see_full_conversation">Προβολή ολόκληρης της συνομιλίας</string>
     <string name="load_more_header__loading">Φορτώνει</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Κανένα πολυμέσο</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ΕΠΑΝΑΠΟΣΤΟΛΗ</string>
     <!-- recipient_preferences -->
@@ -417,7 +408,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Προώθηση</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Δεν υπάρχουν έγγραφα</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Προεπισκόπιση</string>
     <!-- Trimmer -->

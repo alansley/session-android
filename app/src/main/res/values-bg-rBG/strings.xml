@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(аудио)</string>
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Неуспешно откриване на папка за избор на файл.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session се нуждае от достъп до вградения диск, за да може да прикачва снимки, видеота или аудио, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Дискове\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session се нуждае от достъп до камерта Ви, за да може да прави снимки, но той му е отказан. Моля, отидете на настройки в менюто и изберете \"Разрешения\" и \"Камера\".</string>
     <!-- AudioSlidePlayer -->
@@ -45,13 +44,12 @@
     <string name="ConversationItem_error_not_delivered">Неуспешно изпращане, натиснете за повече информация</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Получи се съобщение за обмяна на ключове, натисни, за да продължиш.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Неуспешно изпращане, натиснете за изпращане по несигурен начин</string>
-    <string name="ConversationItem_unable_to_open_media">Неуспешно откриване на приложение за отваряне на този файл.</string>
     <string name="ConversationItem_copied_text">%s e копирано</string>
     <string name="ConversationItem_read_more">Прочетете повече</string>
     <string name="ConversationItem_download_more">Изтегли Повече</string>
     <string name="ConversationItem_pending"> в Очакване</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Прикачване на файл</string>
+    <string name="attachmentsAdd">Прикачване на файл</string>
     <string name="ConversationActivity_select_contact_info">Посочи информация за контакта</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">За съжаление, настъпи грешка при прикачването.</string>
     <string name="message">Съобщение</string>
@@ -59,7 +57,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Отблокирване на този контакт?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Отново ще може да получавате съобщения и обаждания от този контакт.</string>
     <string name="ConversationActivity_unblock">Отблокирване</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Размерът на прикачения файл надминава допустимия лимит за типа съобщение, който изпращате.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нямате инсталирано приложение, което да може да използва тази препратка.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session се нуждае от достъп до микрофона Ви, за да може да изпраща аудио съобщения, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Микрофон\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">За прави снимки и видеота, Session се нуждае от достъп до камерта Ви.</string>
@@ -102,7 +99,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Днес</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Непознат файл</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Грешка при вземането на GIF в пълна резолюция</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -135,7 +131,6 @@
     <string name="MediaPickerActivity_send_to">Изпрати на %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Добави надпис...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Един елемент бе премахнат, защото надхвърля ограничението за размер</string>
     <string name="MediaSendActivity_camera_unavailable">Не е открита камера.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Не можете да споделяте повече от %d елемент.</item>
@@ -191,7 +186,6 @@
     <string name="lockAppUnlocked">Session е отключен</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ти</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Неподдържан медиен формат.</string>
     <string name="MediaPreviewActivity_draft">Чернова</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Неуспешно запазване на външен диск без нуждното разрешение за достъп</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Изтриване на съобщението?</string>
@@ -241,9 +235,7 @@
     <string name="attachment_type_selector__location">Местоположение</string>
     <string name="attachment_type_selector__location_description">Местоположение</string>
     <string name="attachment_type_selector__gallery_description">Изображение или видео</string>
-    <string name="attachment_type_selector__file_description">Файл</string>
     <string name="attachment_type_selector__gallery">Галерия</string>
-    <string name="attachment_type_selector__file">Файл</string>
     <string name="attachment_type_selector__drawer_description">Затваряне/отваряне на чекмеджето с прикачени файлове</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Зареждане на контакти...</string>
@@ -256,7 +248,7 @@
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Записване и изпращане прикачено аудио</string>
     <string name="conversation_activity__enable_signal_for_sms">Активиране на Session за SMS-и</string>
     <!-- conversation_input_panel -->
-    <string name="conversation_input_panel__slide_to_cancel">Плъзнете за отказ</string>
+    <string name="messageVoiceSlideToCancel">Плъзнете за отказ</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Медийно съобщение</string>
     <string name="conversation_item__secure_message_description">Подсигурено съобщение</string>
@@ -282,7 +274,6 @@
     <string name="load_more_header__see_full_conversation">Разгледай целия разговор</string>
     <string name="load_more_header__loading">Зареждане</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Без медия</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ПОВТОРНО ИЗПРАЩАНЕ</string>
     <!-- recipient_preferences -->
@@ -400,7 +391,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Препращане</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Няма документи</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Преглед на медията</string>
     <!-- Trimmer -->

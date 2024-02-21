@@ -16,7 +16,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(picha)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sauti)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Nashindwa kupata app ya kuchagua habari</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Hifadhi\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session inahitaji ruhusa ya Kamera ili kuchukua picha, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
@@ -34,17 +33,15 @@
     <string name="ConversationItem_error_not_delivered">imefeli kutuma, gusa kwa taarifa</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">umepokea ujumbe uliobadilishwa, gusa  kuendelea na mchakato</string>
     <string name="ConversationItem_click_to_approve_unencrypted">imefeli kutuma, gusa kwa isiyo salama ili kuanguka nyuma</string>
-    <string name="ConversationItem_unable_to_open_media">Haiwezi kupata programu inayoweza kufungua media hii.</string>
     <string name="ConversationItem_copied_text">nakala 1%s</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Ongeza Kiambatanisho</string>
+    <string name="attachmentsAdd">Ongeza Kiambatanisho</string>
     <string name="ConversationActivity_select_contact_info">Chagua taarifa za mawasiliano</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Samahani, tatizo lilitokea kwenye kuweka kiambatanisho chako.</string>
     <string name="ConversationActivity_invalid_recipient">Mpokeaji sio sahihi</string>
     <string name="ConversationActivity_unblock_this_contact_question">Fungua mawasiliano hii?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Utapata tena ujumbe na wito kutoka kwa anwani hii.</string>
     <string name="ConversationActivity_unblock">Fungua</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Kiambatisho kimezidi ukubwa wa aina ya ujumbe unaotuma</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kipaza sauti\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ili kukamata picha na video, kuruhusu upatikanaji wa Session kwa kamera.</string>
@@ -73,7 +70,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Leo</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Faili lisilojulikana</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Hitilafu wakati wa kurejesha GIF kamili ya azimio</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -140,7 +136,6 @@
     <string name="lockAppUnlocked">Session imefunguliwa</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Wewe</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">aina ya vyombo vya habari ambazo hazijaungwa mkono</string>
     <string name="MediaPreviewActivity_draft">rasimu</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">haiwezekani kuhifadhi kwenye external storage  bila ruhusa</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">futa ujumbe?</string>
@@ -187,9 +182,7 @@
     <string name="attachment_type_selector__location_description">eneo</string>
     <string name="attachment_type_selector__gif_description">gif</string>
     <string name="attachment_type_selector__gallery_description">picha au video</string>
-    <string name="attachment_type_selector__file_description">jalada</string>
     <string name="attachment_type_selector__gallery">nyumba ya sanaa</string>
-    <string name="attachment_type_selector__file">jalada</string>
     <string name="attachment_type_selector__drawer_description">Toggle kiambatisho drawer</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">kupakia mawasiliano</string>
@@ -227,7 +220,6 @@
     <string name="load_more_header__see_full_conversation">Angalia mazungumzo yote</string>
     <string name="load_more_header__loading">Kupakia</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">hakuna vyombo vya habari</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">TUMA TENA</string>
     <!-- recipient_preferences -->
@@ -338,7 +330,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Mbele</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Hakuna nyaraka</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Uhakiki wa vyombo vya habari</string>
     <!-- Trimmer -->

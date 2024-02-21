@@ -21,7 +21,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(เสียง)</string>
     <string name="DraftDatabase_Draft_video_snippet">(วิดีโอ)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">ไม่พบแอปสำหรับสื่อที่เลือก</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">เพื่อที่จะแนบรูปภาพ วิดีโอ หรือเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงที่เก็บข้อมูล แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ที่เก็บข้อมูล\"</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">เพื่อที่จะถ่ายรูปได้ Session ต้องได้รับอนุญาตให้เข้าถึงกล้อง แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"กล้อง\"</string>
     <!-- AudioSlidePlayer -->
@@ -38,17 +37,15 @@
     <string name="ConversationItem_error_not_delivered">การส่งล้มเหลว แตะเพื่อดูรายละเอียด</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">ได้รับข้อความแลกเปลี่ยนคีย์ แตะเพื่อประมวลผล</string>
     <string name="ConversationItem_click_to_approve_unencrypted">การส่งล้มเหลว แตะเพื่อกลับไปใช้วิธีที่ไม่ปลอดภัยแทน</string>
-    <string name="ConversationItem_unable_to_open_media">ไม่พบแอปที่สามารถเปิดสื่อนี้</string>
     <string name="ConversationItem_copied_text">คัดลอกแล้ว %s</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">เพิ่มไฟล์แนบ</string>
+    <string name="attachmentsAdd">เพิ่มไฟล์แนบ</string>
     <string name="ConversationActivity_select_contact_info">เลือกข้อมูลผู้ติดต่อ</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">ขออภัย พบปัญหาในการตั้งค่าไฟล์แนบของคุณ</string>
     <string name="ConversationActivity_invalid_recipient">ผู้รับไม่ถูกต้อง</string>
     <string name="ConversationActivity_unblock_this_contact_question">เลิกปิดกั้นผู้ติดต่อนี้หรือไม่</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">คุณจะกลับมารับข้อความและสายโทรเข้าจากผู้ติดต่อนี้ได้อีก</string>
     <string name="ConversationActivity_unblock">เลิกปิดกั้น</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">ไฟล์แนบมีขนาดใหญ่เกินกำหนดสำหรับชนิดของข้อความที่คุณกำลังจะส่ง</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">อุปกรณ์ของคุณไม่มีแอปที่สามารถจัดการกับลิงก์นี้ได้</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">เพื่อจะส่งข้อความเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงไมโครโฟน แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ไมโครโฟน\"</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">อนุญาต Session ให้ใช้กล้องเพื่อถ่ายรูปและวิดีโอ</string>
@@ -85,7 +82,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">วันนี้</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">ไฟล์ที่ไม่รู้จัก</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">เกิดข้อผิดพลาดระหว่างการดึงภาพ GIF ความละเอียดสูง</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -163,7 +159,6 @@
     <string name="lockAppUnlocked">Session ถูกปลดล็อก</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">คุณ</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">ชนิดสื่อที่ไม่รองรับ</string>
     <string name="MediaPreviewActivity_draft">ร่าง</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ไม่สามารถบันทึกลงที่เก็บข้อมูลภายนอกได้ หากไม่ได้รับอนุญาต</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">ลบข้อความหรือไม่</string>
@@ -208,9 +203,7 @@
     <string name="attachment_type_selector__location">ตำแหน่งที่ตั้ง</string>
     <string name="attachment_type_selector__location_description">ตำแหน่งที่ตั้ง</string>
     <string name="attachment_type_selector__gallery_description">ภาพหรือวิดีโอ</string>
-    <string name="attachment_type_selector__file_description">ไฟล์</string>
     <string name="attachment_type_selector__gallery">คลังภาพ</string>
-    <string name="attachment_type_selector__file">ไฟล์</string>
     <string name="attachment_type_selector__drawer_description">สลับแถบเมนูไฟล์แนบ</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">กำลังโหลดผู้ติดต่อ…</string>
@@ -248,7 +241,6 @@
     <string name="load_more_header__see_full_conversation">ดูการสนทนาแบบเต็ม</string>
     <string name="load_more_header__loading">กำลังโหลด</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">ไม่มีสื่อ</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ส่งใหม่</string>
     <!-- recipient_preferences -->
@@ -361,7 +353,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">ส่งต่อ</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">ไม่มีเอกสาร</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">ดูตัวอย่างสื่อ</string>
     <!-- Trimmer -->

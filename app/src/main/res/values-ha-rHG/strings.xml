@@ -25,7 +25,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(deng)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vîdyo)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Sepana ji bo bijartina medyayê nehate dîtin.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Ji bo zêdekirina wêne, vidyo yan deng, Session destûra Bîrbarê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe menuya sazkariyên sepanê \"Destûr\"ê bibijêre û  \"Bîrbar\"ê çalak bike.</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Ji bo kişandina wêneyan Session destûra Kamera pêwîst dike, lê ew bi awayekî mayînde hate redkirin. Ji kerema xwe biçe menuya sazkariyên sepanê \"Destûr\"ê bibijêre û \"Kamera\"yê çalak bike.</string>
     <!-- AudioSlidePlayer -->
@@ -42,19 +41,17 @@
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Şandin têk çû, ji bo hûrgiliyên bêhtir, bitepîne</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Peyama veguhastina kilîdê hate stendin, ji bo pêvajoyê bitepîne.</string>
-    <string name="ConversationItem_unable_to_open_media">Sepena vê medyayê veke nehat dîtin.</string>
     <string name="ConversationItem_copied_text">%s ji ber girtî</string>
     <string name="ConversationItem_download_more">Bêhtir Daxîne  </string>
     <string name="ConversationItem_pending">  Hilawîstiye</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Servehî lê zede bike</string>
+    <string name="attachmentsAdd">Servehî lê zede bike</string>
     <string name="ConversationActivity_select_contact_info">Agahiya têkiliyê bibijêre</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Bibore, di sazkirina servehiyê de çewtiyek rû da.</string>
     <string name="ConversationActivity_invalid_recipient">Stînerê nederbasdar!</string>
     <string name="ConversationActivity_unblock_this_contact_question">Bila astengkirina vî berdengî rabe?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Tu careke din dîsa dikare ji vî berdengî bang û peyam bistîne.</string>
     <string name="ConversationActivity_unblock">Astengê rake</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Servehî li gor şandina cûreya peyamê sînorên mezinahiyê derbas dike.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Ti sepana ku karibe vê girêdanê di amûra we de veke nîn e.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session ji bo şandina peyamên dengî destûra Mîkrofonê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Mîkrofon\"ê çalak bike.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ji bo kişandina vîdyo û wêneyan destura gihana Sessionê bide kamera.</string>
@@ -96,7 +93,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Îro</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Pelgeya nenas</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Dema GIF a bi averûtiya bilind dihat wergirtin çewtî pêk hat.</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -127,7 +123,6 @@
     <string name="MediaPickerActivity_send_to">Ji %s re bişîne</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Binnivîs zêdebikin</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Tiştek hat rakirin ji ber ku zêde mezin bû</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera nayê bikar anîn.</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Hemû medya</string>
@@ -180,7 +175,6 @@
     <string name="lockAppUnlocked">Session vekirî ye</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Tu</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Cureyê medyayê ya nepesartî</string>
     <string name="MediaPreviewActivity_draft">Reşnivîs</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bê destûr nabe ku li bîrbara derveyî tomar bibe</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Peyamê jê bibe?</string>
@@ -230,9 +224,7 @@
     <string name="attachment_type_selector__location">Cih</string>
     <string name="attachment_type_selector__location_description">Cih</string>
     <string name="attachment_type_selector__gallery_description">Wêne yan vidyo</string>
-    <string name="attachment_type_selector__file_description">Pelge</string>
     <string name="attachment_type_selector__gallery">Pêşangeh</string>
-    <string name="attachment_type_selector__file">Pelge</string>
     <string name="attachment_type_selector__drawer_description">Çaviya servehiya din bijerînin</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Berdeng tên barkirin...</string>
@@ -270,7 +262,6 @@
     <string name="load_more_header__see_full_conversation">Temamiya gotûbêjê bibîne</string>
     <string name="load_more_header__loading">Tê barkirin</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Medya nîne</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">DÎSA ŞANDIN</string>
     <!-- recipient_preferences -->
@@ -384,7 +375,6 @@
     <!-- media_preview -->
     <string name="media_preview__forward_title">Pêşveşandin</string>
     <!-- media_overview -->
-    <string name="media_overview_documents_fragment__no_documents_found">Pelge nîn in</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Pêşdîtina medyayê</string>
     <!-- Trimmer -->

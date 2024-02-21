@@ -51,7 +51,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">ಇಂದು</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">ಗೊತ್ತಿರದ ಕಡತ</string>
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
     <string name="GiphyFragmentPagerAdapter_gifs">GIF ಗಳು</string>
@@ -105,9 +104,7 @@
     <string name="attachment_type_selector__location_description">ಸ್ಥಳ</string>
     <string name="attachment_type_selector__gif">ಗಿಫ್</string>
     <string name="attachment_type_selector__gif_description">ಗಿಫ್</string>
-    <string name="attachment_type_selector__file_description">ಕಡತ</string>
     <string name="attachment_type_selector__gallery">ಚಿತ್ರಶಾಲೆ</string>
-    <string name="attachment_type_selector__file">ಕಡತ</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="conversation_activity__send">ಕಳುಹಿಸಿ</string>

@@ -29,7 +29,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(звук)</string>
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_cant_open_media_selection">Нема апликације за избор медијума.</string>
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Сесија треба дозволу за складиште да би закачио слике, видео клипове или аудио снимке, али је забрањена заувек. Молим те да наставиш у мени подешавања, селектуј \"Дозволе\", и омогући \"Складиште\".</string>
     <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Сесија треба дозволу за камеру да би сликао слике, али је забрањена заувек. Молим те да наставиш у мени подешавања, селектуј \"Дозволе\", и омогући \"Камеру\".</string>
     <!-- AudioSlidePlayer -->
@@ -47,12 +46,11 @@
     <string name="ConversationItem_error_not_delivered">Слање није успело, тапните за детаље</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Примљена порука размене кључева, тапните за обраду.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Слање није успело, тапните за необезбеђену одступницу</string>
-    <string name="ConversationItem_unable_to_open_media">Нема апликације која може да отвори овај медијум.</string>
     <string name="ConversationItem_copied_text">Копирана %s</string>
     <string name="ConversationItem_read_more">Прочитај Више</string>
     <string name="ConversationItem_download_more">&#160; Скини Више</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_add_attachment">Додај прилог</string>
+    <string name="attachmentsAdd">Додај прилог</string>
     <string name="ConversationActivity_select_contact_info">Изаберите податке о контакту</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Дошло је до грешке при постављању вашег прилога.</string>
     <string name="message">Пошаљи поруку</string>
@@ -64,7 +62,6 @@
     <string name="ConversationActivity_unblock_this_contact_question">Одлокирати овај контакт?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Поново можете да примате поруке и позиве од овог контакта.</string>
     <string name="ConversationActivity_unblock">Одблокирај</string>
-    <string name="ConversationActivity_attachment_exceeds_size_limits">Прилог прекорачује ограничење величине за тип поруке коју шаљете.</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нема апликације за руковање овом везом на вашем уређају.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Сесија треба дозволу за микрофон да пошаље аудио поруке, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Микрофон\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Сесија треба дозволу за камеру да прави слике и видео клипове.</string>
@@ -113,7 +110,6 @@
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Данас</string>
     <!-- DocumentView -->
-    <string name="DocumentView_unknown_file">Непознат фајл</string>
     <!-- GiphyActivity -->
     <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Грешка при добављању ГИФ сличице пуне резолуције</string>
     <!-- GiphyFragmentPageAdapter -->
@@ -148,7 +144,6 @@
     <string name="MediaPickerActivity_send_to">Пошаљи %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Додај капцију...</string>
-    <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Предмет је макнут зато што је прекорачио прекорачио дозвољену величину</string>
     <string name="MediaSendActivity_camera_unavailable">Камера недоступна.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Не можеш да делиш више од %d предмета.</item>
@@ -206,7 +201,6 @@
     <string name="lockAppUnlocked">Session је откључан</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ви</string>
-    <string name="MediaPreviewActivity_unssuported_media_type">Неподржан тип медијума</string>
     <string name="MediaPreviewActivity_draft">Нацрт</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Сесија треба дозволу за складиште да сачува у спољашње складиште, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Складиште\".</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Обрисати поруку?</string>
@@ -260,9 +254,7 @@
     <string name="attachment_type_selector__gif">ГИФ</string>
     <string name="attachment_type_selector__gif_description">Гиф</string>
     <string name="attachment_type_selector__gallery_description">Слика или видео</string>
-    <string name="attachment_type_selector__file_description">Фајл</string>
     <string name="attachment_type_selector__gallery">Галерија</string>
-    <string name="attachment_type_selector__file">Фајл</string>
     <string name="attachment_type_selector__drawer_description">Фиока прилога</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Учитавам контакте…</string>
@@ -305,7 +297,6 @@
     <string name="load_more_header__see_full_conversation">Погледај читаву преписку</string>
     <string name="load_more_header__loading">Учитавам</string>
     <!-- media_overview_activity -->
-    <string name="media_overview_activity__no_media">Нема медија</string>
     <!-- message_recipients_list_item -->
     <string name="message_recipients_list_item__resend">ПОШАЉИ ПОНОВО</string>
     <!-- recipient_preferences -->
