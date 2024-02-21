@@ -39,9 +39,8 @@
     <string name="ConversationActivity_select_contact_info">Chagua taarifa za mawasiliano</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Samahani, tatizo lilitokea kwenye kuweka kiambatanisho chako.</string>
     <string name="ConversationActivity_invalid_recipient">Mpokeaji sio sahihi</string>
-    <string name="ConversationActivity_unblock_this_contact_question">Fungua mawasiliano hii?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Utapata tena ujumbe na wito kutoka kwa anwani hii.</string>
-    <string name="ConversationActivity_unblock">Fungua</string>
+    <string name="blockUnblock">Fungua</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kipaza sauti\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ili kukamata picha na video, kuruhusu upatikanaji wa Session kwa kamera.</string>
@@ -98,11 +97,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Ingiza nenosiri</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Hautopokea tena ujumbe na simu kutoka kwa anwani hii</string>
     <string name="block">Zuia</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">Fungua mawasiliano hii?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Utapata tena ujumbe na wito kutoka kwa anwani hii.</string>
-    <string name="RecipientPreferenceActivity_unblock">Fungua</string>
     <!-- Slide -->
     <string name="Slide_image">picha</string>
     <!-- SmsMessageRecord -->

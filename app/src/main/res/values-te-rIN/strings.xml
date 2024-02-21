@@ -56,9 +56,8 @@
     <string name="message">సందేశం</string>
     <string name="ConversationActivity_compose">కంపోజ్</string>
     <string name="ConversationActivity_invalid_recipient">చెల్లని గ్రహీత!</string>
-    <string name="ConversationActivity_unblock_this_contact_question">ఈ పరిచయం నిరోధించాలా?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">మీరు మరోసారి ఈ పరిచయం నుండి సందేశాలను మరియు కాల్స్ అందుకోగలరు.</string>
-    <string name="ConversationActivity_unblock">అనుమతించు</string>
+    <string name="blockUnblock">అనుమతించు</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">మీ పరికరం ఈ లింక్ నిర్వహించడానికి ఎలాంటి అనువర్తనం లేదు.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">ఆడియో సందేశాలను పంపడానికి Sessionకు మైక్రోఫోన్ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్లకు కొనసాగించండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"మైక్రోఫోన్\" ని ప్రారంభించండి.</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ఫోటోలు మరియు వీడియోలను సంగ్రహించడానికి, కెమెరాకి Session ప్రాప్తిని అనుమతించండి.</string>
@@ -136,11 +135,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">సంకేతపదమును ప్రవేశపెట్టుము</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">మీరు ఇకపై ఈ వ్యక్తి నుండి ఏటువంతి సందేశాలను మరియు కాల్స్ అందుకోరు.</string>
     <string name="block">నిరోధించు</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">ఈ పరిచయం అన్బ్లాక్ చేయాలా?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">మీరు మరోసారి ఈ పరిచయం నుండి సందేశాలను మరియు కాల్స్ అందుకోగలరు.</string>
-    <string name="RecipientPreferenceActivity_unblock">అనుమతించు</string>
     <!-- Slide -->
     <string name="Slide_image">చిత్రం</string>
     <!-- SmsMessageRecord -->

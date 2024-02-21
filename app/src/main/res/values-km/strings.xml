@@ -48,9 +48,8 @@
     <string name="ConversationActivity_select_contact_info">ជ្រើសរើសព័ត៌មានលេខទំនាក់ទំនង</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">សុំទោស មានបញ្ហក្នុងការកំណត់ឯកសារភ្ជាប់របស់អ្នក។</string>
     <string name="ConversationActivity_invalid_recipient">អ្នកទទួលមិនត្រឹមត្រូវ!</string>
-    <string name="ConversationActivity_unblock_this_contact_question">បើកលេខទំនាក់ទំនងនេះ?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">អ្នកអាចនឹងទទួលបានសារ និងការហៅចូលពីលេខទំនាក់ទំនងនេះម្តងទៀត។</string>
-    <string name="ConversationActivity_unblock">បើកវិញ</string>
+    <string name="blockUnblock">បើកវិញ</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">មិនមានកម្មវិធីដើម្បីបើកតំណនេះ នៅលើឧបករណ៍របស់អ្នកទេ។</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session សុំសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន ដើម្បីផ្ញើសារជាសំឡេង, ប៉ុន្តែ វាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់កម្មវិធី, ជ្រើសរើស  \"ការអនុញ្ញាត\", និងបើក \"ប្រដាប់ស្រូបសំឡេង\"។</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ដើម្បីថតរូបភាព និងវីដេអូ, សូមអនុញ្ញាត Session ចូលប្រើប្រាស់កាមេរ៉ា។</string>
@@ -126,11 +125,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">បញ្ចូលឃ្លាសម្ងាត់</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">អ្នកនឹងលែងទទួលសារ និងការហៅចូលពីលេខទំនាក់ទំនងនេះទៀតហើយ។</string>
     <string name="block">ហាមឃាត់</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">មិនបិទលេខទំនាក់ទំនងនេះទេ?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">អ្នកនឹងទទួលបានសារ និងការហៅចូលពីលេខទំនាក់ទំនងនេះម្តងទៀត។</string>
-    <string name="RecipientPreferenceActivity_unblock">បើកវិញ</string>
     <!-- Slide -->
     <string name="Slide_image">រូបភាព</string>
     <!-- SmsMessageRecord -->

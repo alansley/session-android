@@ -56,8 +56,7 @@
     <string name="ConversationActivity_muted_forever">Disenyapkan</string>
     <string name="ConversationActivity_open_group_guidelines">Pedoman Komunitas</string>
     <string name="ConversationActivity_invalid_recipient">Penerima tidak valid!</string>
-    <string name="ConversationActivity_unblock_this_contact_question">Buka blokir kontak ini?</string>
-    <string name="ConversationActivity_unblock">Buka blokir</string>
+    <string name="blockUnblock">Buka blokir</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi yang tersedia untuk menangani tautan ini di perangkat Anda.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session membutuhkan izin mikrofon untuk mengirim pesan suara, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session membutuhkan akses kamera untuk mengambil foto dan video.</string>
@@ -124,10 +123,7 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Masukkan kata frasa</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Anda tidak dapat lagi menerima pesan dan telepon dari kontak ini.</string>
     <string name="block">Blokir</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">Buka blokir kontak ini?</string>
-    <string name="RecipientPreferenceActivity_unblock">Buka blokir</string>
     <!-- Slide -->
     <string name="Slide_image">Gambar</string>
     <!-- SmsMessageRecord -->
@@ -371,7 +367,6 @@
     <string name="details">Detail</string>
     <string name="activity_backup_restore_select_file">Pilih file</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session sesekali akan memeriksa pesan baru di latar belakang.</string>
-    <string name="dialog_blocked_title">Buka blokir %s?</string>
     <string name="dialog_blocked_explanation">Apakah anda yakin ingin membuka blokir %s?</string>
     <string name="dialog_open_url_title">Buka URL?</string>
     <string name="dialog_open_url_explanation">Anda yakin ingin membuka %s?</string>

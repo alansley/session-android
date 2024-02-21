@@ -27,8 +27,7 @@
     <string name="ConversationItem_read_more">තව කියවන්න</string>
     <!-- ConversationActivity -->
     <string name="message">පණිවිඩය</string>
-    <string name="ConversationActivity_unblock_this_contact_question">සබඳතාවය අනවහිර කරනවාද?</string>
-    <string name="ConversationActivity_unblock">අනවහිර</string>
+    <string name="blockUnblock">අනවහිර</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
@@ -62,8 +61,6 @@
     <!-- PassphrasePromptActivity -->
     <!-- RecipientPreferencesActivity -->
     <string name="block">අවහිර</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">මෙම සබඳතාවය අනවහිර කරනවාද?</string>
-    <string name="RecipientPreferenceActivity_unblock">අනවහිර</string>
     <!-- Slide -->
     <!-- SmsMessageRecord -->
     <!-- ThreadRecord -->

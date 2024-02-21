@@ -42,7 +42,7 @@
         style="@style/Widget.Session.Button.Common.DestructiveOutline"
         android:paddingHorizontal="@dimen/large_spacing"
         android:paddingVertical="@dimen/small_spacing"
-        android:text="@string/ConversationActivity_unblock"
+        android:text="@string/blockUnblock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"

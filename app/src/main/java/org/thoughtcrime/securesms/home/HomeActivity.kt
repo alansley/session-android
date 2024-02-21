@@ -549,7 +549,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
     private fun blockConversation(thread: ThreadRecord) {
         showSessionDialog {
             title(R.string.block)
-            text(R.string.RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact)
+            text(R.string.blockDescription)
             button(R.string.block) {
                 lifecycleScope.launch(Dispatchers.IO) {
                     storage.setBlocked(listOf(thread.recipient), true)
@@ -565,9 +565,9 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
 
     private fun unblockConversation(thread: ThreadRecord) {
         showSessionDialog {
-            title(R.string.RecipientPreferenceActivity_unblock_this_contact_question)
+            title(R.string.blockUnblock)
             text(R.string.RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact)
-            button(R.string.RecipientPreferenceActivity_unblock) {
+            button(R.string.blockUnblock) {
                 lifecycleScope.launch(Dispatchers.IO) {
                     storage.setBlocked(listOf(thread.recipient), false)
 

@@ -29,9 +29,9 @@ class BlockedDialog(private val recipient: Recipient, private val context: Conte
         val startIndex = explanation.indexOf(name)
         spannable.setSpan(StyleSpan(Typeface.BOLD), startIndex, startIndex + name.count(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
 
-        title(resources.getString(R.string.dialog_blocked_title, name))
+        title(resources.getString(R.string.blockUnblock))
         text(spannable)
-        button(R.string.ConversationActivity_unblock) { unblock() }
+        button(R.string.blockUnblock) { unblock() }
         cancelButton { dismiss() }
     }
 

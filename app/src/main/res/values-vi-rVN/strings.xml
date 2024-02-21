@@ -46,9 +46,8 @@
     <string name="ConversationActivity_select_contact_info">Chọn thông tin liên lạc</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Xin lỗi, có lỗi thiết đặt tập tin đính kèm của bạn.</string>
     <string name="ConversationActivity_invalid_recipient">Người nhận không đúng!</string>
-    <string name="ConversationActivity_unblock_this_contact_question">Không chặn liên lạc này?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Bạn sẽ lại có thể nhận tin nhắn và cuộc gọi từ liên hệ này.</string>
-    <string name="ConversationActivity_unblock">Không chặn</string>
+    <string name="blockUnblock">Không chặn</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Thiết bị của bạn không có ứng dụng nào tương ứng để mở đường dẫn này.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session cần truy cập microphone để gửi tin nhắn thoại, nhưng quyền này đã bị chặn. Hãy đến phần cài đặt, chọn \"Quyền truy cập\" và kích hoạt \"Microphone\".</string>
     <!-- ConversationFragment -->
@@ -95,9 +94,7 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Điền vào cụm từ mật khẩu</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Chặn</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">Không chặn liên lạc này?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Bạn sẽ lại có thể nhận tin nhắn và cuộc gọi từ liên hệ này.</string>
-    <string name="RecipientPreferenceActivity_unblock">Không chặn</string>
     <!-- Slide -->
     <string name="Slide_image">Ảnh</string>
     <!-- SmsMessageRecord -->

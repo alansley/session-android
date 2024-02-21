@@ -39,9 +39,8 @@
     <string name="ConversationActivity_select_contact_info">Pilih info kontak</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Maaf, terjadi kesalahan pada pengaturan lampiran anda.</string>
     <string name="ConversationActivity_invalid_recipient">Penerima tidak lengkap!</string>
-    <string name="ConversationActivity_unblock_this_contact_question">Buka blokir kontak ini?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Anda kembali dapat menerima pesan dan panggilan dari kontak ini.</string>
-    <string name="ConversationActivity_unblock">Buka blokir</string>
+    <string name="blockUnblock">Buka blokir</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi tersedia untuk menangani tautan ini pada perangkat Anda</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session memerlukan akses ke Mikrofon untuk mengirim pesan audio, namun ditolak secara permanen. Mohon lanjutkan ke pengaturan aplikasi, pilih \"Izin\" dan aktifkan \"Mikrofon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Untuk merekam foto dan video, izinkan Session mengakses kamera.</string>
@@ -100,11 +99,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Masukkan frasa sandi</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Anda tidak akan lagi menerima pesan dan panggilan dari kontak ini.</string>
     <string name="block">Blokir</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">Buka blokir kontak ini?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Anda kembali dapat menerima pesan dan panggilan dari kontak ini.</string>
-    <string name="RecipientPreferenceActivity_unblock">Buka blokir</string>
     <!-- Slide -->
     <string name="Slide_image">Gambar</string>
     <!-- SmsMessageRecord -->

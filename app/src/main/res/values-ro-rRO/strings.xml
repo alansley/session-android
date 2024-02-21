@@ -62,9 +62,8 @@
     <string name="ConversationActivity_muted_forever">Ignoră</string>
     <string name="ConversationActivity_open_group_guidelines">Regulamentul Comunității</string>
     <string name="ConversationActivity_invalid_recipient">Destinatar invalid!</string>
-    <string name="ConversationActivity_unblock_this_contact_question">Deblochez acest contact?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">O să poți primi din nou mesaje și apeluri de la acest contact.</string>
-    <string name="ConversationActivity_unblock">Deblochează</string>
+    <string name="blockUnblock">Deblochează</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nu există nici o aplicație disponibilă pe dispozitivul tău care să poată deschide acest link.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session are nevoie de permisiunea pentru Microfon pentru a putea trimite mesaje audio dar i-a fost refuzat accesul permanent. Vă rugăm să navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Microfon\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pentru a captura poze sau filme, permite-i Session accesul la cameră.</string>
@@ -155,11 +154,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Introduceți parola</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Nu o să mai primești mesaje și apeluri de la acest contact.</string>
     <string name="block">Blochează</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">Deblochez acest contact?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">O să poți primi din nou mesaje și apeluri de la acest contact.</string>
-    <string name="RecipientPreferenceActivity_unblock">Deblochează</string>
     <!-- Slide -->
     <string name="Slide_image">Imagine</string>
     <!-- SmsMessageRecord -->

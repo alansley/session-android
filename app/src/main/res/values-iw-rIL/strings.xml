@@ -61,9 +61,8 @@
     <string name="ConversationActivity_compose">הודעה חדשה</string>
     <string name="ConversationActivity_open_group_guidelines">כללי הקהילה</string>
     <string name="ConversationActivity_invalid_recipient">מקבל לא תקף!</string>
-    <string name="ConversationActivity_unblock_this_contact_question">לבטל חסימת איש קשר זה?</string>
     <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">תוכל שוב לקבל הודעות ושיחות מאיש קשר זה.</string>
-    <string name="ConversationActivity_unblock">בטל חסימה</string>
+    <string name="blockUnblock">בטל חסימה</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">אין יישום זמין לטיפול בקישור זה במכשיר שלך.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session דורש את הרשאת המיקרופון על מנת לשלוח הודעות שמע, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מיקרופון\".</string>
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">כדי ללכוד תצלומים ווידיאו, אפשר ל-Session גישה אל המצלמה.</string>
@@ -160,11 +159,8 @@
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">הכנס משפט־סיסמה</string>
     <!-- RecipientPreferencesActivity -->
-    <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">לא תקבל יותר הודעות ושיחות מאיש קשר זה.</string>
     <string name="block">חסום</string>
-    <string name="RecipientPreferenceActivity_unblock_this_contact_question">לבטל חסימה של איש קשר זה?</string>
     <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">תוכל שוב לקבל הודעות ושיחות מאיש קשר זה.</string>
-    <string name="RecipientPreferenceActivity_unblock">בטל חסימה</string>
     <!-- Slide -->
     <string name="Slide_image">תמונה</string>
     <!-- SmsMessageRecord -->
