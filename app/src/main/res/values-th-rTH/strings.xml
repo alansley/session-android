@@ -43,7 +43,6 @@
     <string name="ConversationActivity_select_contact_info">เลือกข้อมูลผู้ติดต่อ</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">ขออภัย พบปัญหาในการตั้งค่าไฟล์แนบของคุณ</string>
     <string name="ConversationActivity_invalid_recipient">ผู้รับไม่ถูกต้อง</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">คุณจะกลับมารับข้อความและสายโทรเข้าจากผู้ติดต่อนี้ได้อีก</string>
     <string name="blockUnblock">เลิกปิดกั้น</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">อุปกรณ์ของคุณไม่มีแอปที่สามารถจัดการกับลิงก์นี้ได้</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">เพื่อจะส่งข้อความเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงไมโครโฟน แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ไมโครโฟน\"</string>
@@ -114,7 +113,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">ใส่วลีรหัสผ่าน</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">ปิดกั้น</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">คุณจะกลับมารับข้อความและสายโทรเข้าจากผู้ติดต่อนี้ได้อีก</string>
     <!-- Slide -->
     <string name="Slide_image">ภาพ</string>
     <!-- SmsMessageRecord -->
@@ -158,8 +156,7 @@
     <string name="MessageNotifier_message_delivery_failed">การส่งข้อความล้มเหลว</string>
     <string name="MessageNotifier_failed_to_deliver_message">ส่งข้อความล้มเหลว</string>
     <string name="MessageNotifier_error_delivering_message">เกิดข้อผิดพลาดระหว่างส่งข้อความ</string>
-    <string name="MessageNotifier_mark_all_as_read">ทำเครื่องหมายทั้งหมดว่าอ่านแล้ว</string>
-    <string name="MessageNotifier_mark_read">ทำเครื่องหมายว่าอ่านแล้ว</string>
+    <string name="messageMarkRead">ทำเครื่องหมายว่าอ่านแล้ว</string>
     <string name="MessageNotifier_pending_signal_messages">ข้อความ Session ที่รอดำเนินการ</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">คุณมีข้อความ Session ที่รอดำเนินการอยู่ แตะเพื่อเปิดและดึงข้อความ</string>
     <string name="MessageNotifier_unknown_contact_message">ผู้ติดต่อ</string>
@@ -196,7 +193,7 @@
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">กำลังโหลดผู้ติดต่อ…</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">ส่ง</string>
+    <string name="send">ส่ง</string>
     <string name="conversation_activity__compose_description">การสร้างข้อความ</string>
     <string name="conversation_activity__emoji_toggle_description">สลับแป้นพิมพ์อีโมจิ</string>
     <string name="conversation_activity__attachment_thumbnail">รูปย่อของไฟล์แนบ</string>

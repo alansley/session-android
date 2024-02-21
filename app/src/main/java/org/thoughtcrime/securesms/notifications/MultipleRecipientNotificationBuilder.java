@@ -66,7 +66,7 @@ public class MultipleRecipientNotificationBuilder extends AbstractNotificationBu
 
   public void addActions(PendingIntent markAsReadIntent) {
     NotificationCompat.Action markAllAsReadAction = new NotificationCompat.Action(R.drawable.check,
-                                            context.getString(R.string.MessageNotifier_mark_all_as_read),
+                                            context.getString(R.string.messageMarkRead),
                                             markAsReadIntent);
     addAction(markAllAsReadAction);
     extend(new NotificationCompat.WearableExtender().addAction(markAllAsReadAction));

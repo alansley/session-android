@@ -107,7 +107,7 @@
     <string name="attachment_type_selector__gallery">ಚಿತ್ರಶಾಲೆ</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">ಕಳುಹಿಸಿ</string>
+    <string name="send">ಕಳುಹಿಸಿ</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">ಮೀಡಿಯಾ ಸಂದೇಶ</string>
@@ -223,12 +223,11 @@
     <string name="details">ವಿವರಗಳು</string>
     <string name="activity_backup_restore_select_file">ಕಡತವೊಂದನ್ನು ಆಯ್ಕೆಮಾಡು</string>
     <string name="open">ತೆರೆ</string>
-    <string name="dialog_link_preview_enable_button_title">ಸಕ್ರಿಯಗೊಳಿಸು</string>
+    <string name="enable">ಸಕ್ರಿಯಗೊಳಿಸು</string>
     <string name="download">ಡೌನ್ಲೋಡ್</string>
     <string name="media">ಮಾಧ್ಯಮ</string>
     <string name="_error">ದೋಷ</string>
     <string name="warning">ಎಚ್ಚರಿಕೆ</string>
-    <string name="dialog_send_seed_send_button_title">ಕಳುಹಿಸಿ</string>
     <string name="notify_type_all">ಎಲ್ಲ</string>
     <string name="deleted_message">ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸಿ ಹಾಕಲಾಗಿದೆ</string>
 </resources>

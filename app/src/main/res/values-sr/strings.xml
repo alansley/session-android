@@ -59,7 +59,6 @@
     <string name="ConversationActivity_muted_forever">Мутиран заувек</string>
     <string name="ConversationActivity_open_group_guidelines">Смернице заједнице</string>
     <string name="ConversationActivity_invalid_recipient">Неисправан прималац!</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Поново можете да примате поруке и позиве од овог контакта.</string>
     <string name="blockUnblock">Одблокирај</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нема апликације за руковање овом везом на вашем уређају.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Сесија треба дозволу за микрофон да пошаље аудио поруке, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Микрофон\".</string>
@@ -152,7 +151,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Унесите лозинку</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Блокирај</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Поново можете да примате поруке и позиве од овог контакта.</string>
     <!-- Slide -->
     <string name="Slide_image">Слика</string>
     <!-- SmsMessageRecord -->
@@ -195,8 +193,7 @@
     <string name="MessageNotifier_message_delivery_failed">Испорука поруке није успела.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Не успех да испоручим поруку.</string>
     <string name="MessageNotifier_error_delivering_message">Грешка при испоруци поруке.</string>
-    <string name="MessageNotifier_mark_all_as_read">Означи све прочитаним</string>
-    <string name="MessageNotifier_mark_read">Означи прочитаним</string>
+    <string name="messageMarkRead">Означи прочитаним</string>
     <string name="MessageNotifier_pending_signal_messages">Поруке са Session-a на чекању</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Имате поруке на Sessionу, тапните да отворите и добавите</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -242,7 +239,7 @@
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Учитавам контакте…</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Пошаљи</string>
+    <string name="send">Пошаљи</string>
     <string name="conversation_activity__compose_description">Састављање поруке</string>
     <string name="conversation_activity__emoji_toggle_description">Емоџи тастатура</string>
     <string name="conversation_activity__attachment_thumbnail">Сличица прилога</string>

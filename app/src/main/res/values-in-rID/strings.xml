@@ -162,8 +162,7 @@
     <string name="MessageNotifier_message_delivery_failed">Pengiriman pesan gagal.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Gagal mengirim pesan.</string>
     <string name="MessageNotifier_error_delivering_message">Galat mengirim pesan.</string>
-    <string name="MessageNotifier_mark_all_as_read">Tandai semua telah dibaca</string>
-    <string name="MessageNotifier_mark_read">Tandai dibaca</string>
+    <string name="messageMarkRead">Tandai dibaca</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Anda memiliki pesan Session yang tertunda, ketuk untuk membuka dan mengambilnya</string>
     <string name="MessageNotifier_unknown_contact_message">Kontak</string>
     <!-- Notification Channels -->
@@ -198,7 +197,7 @@
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Memuat kontak&#8230;</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Kirim</string>
+    <string name="send">Kirim</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Pesan media</string>
@@ -367,14 +366,10 @@
     <string name="details">Detail</string>
     <string name="activity_backup_restore_select_file">Pilih file</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session sesekali akan memeriksa pesan baru di latar belakang.</string>
-    <string name="dialog_blocked_explanation">Apakah anda yakin ingin membuka blokir %s?</string>
-    <string name="dialog_open_url_title">Buka URL?</string>
-    <string name="dialog_open_url_explanation">Anda yakin ingin membuka %s?</string>
+    <string name="blockUnblockDescription">Apakah anda yakin ingin membuka blokir %s?</string>
     <string name="open">Buka</string>
-    <string name="activity_conversation_blocked_banner_text">%s diblokir. Buka blokir?</string>
     <string name="_error">Galat</string>
     <string name="warning">Peringatan</string>
-    <string name="dialog_send_seed_send_button_title">Kirim</string>
     <string name="notify_type_all">Semua</string>
     <string name="deleted_message">Pesan ini telah dihapus</string>
 </resources>

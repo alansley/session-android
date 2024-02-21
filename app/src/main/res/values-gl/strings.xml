@@ -58,7 +58,6 @@
     <string name="ConversationActivity_muted_until_date">Silenciado até %1$s</string>
     <string name="ConversationActivity_open_group_guidelines">Directrices da Comunidade</string>
     <string name="ConversationActivity_invalid_recipient">Destinatario non válido!</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Volverá ser posible que recibas mensaxes e chamadas deste contacto.</string>
     <string name="blockUnblock">Desbloquear</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Non hai ningunha app que poida abrir esta ligazón no teu dispositivo.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session require permiso para poder enviar mensaxes de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\".</string>
@@ -145,7 +144,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Inserir frase de acceso</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Bloquear</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Volverá ser posible que recibas mensaxes e chamadas deste contacto.</string>
     <!-- Slide -->
     <string name="Slide_image">Imaxe</string>
     <!-- SmsMessageRecord -->
@@ -189,8 +187,7 @@
     <string name="MessageNotifier_message_delivery_failed">Erro na entrega da mensaxe.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Erro ao entregar a mensaxe.</string>
     <string name="MessageNotifier_error_delivering_message">Erro entregando a mensaxe.</string>
-    <string name="MessageNotifier_mark_all_as_read">Marcar todas como lidas</string>
-    <string name="MessageNotifier_mark_read">Marcar como lida</string>
+    <string name="messageMarkRead">Marcar como lida</string>
     <string name="MessageNotifier_pending_signal_messages">Mensaxes de Session pendentes</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Tes mensaxes de Session pendentes, toca para abrir e recuperalas</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -235,7 +232,7 @@
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Cargando contactos&#8230;</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Enviar</string>
+    <string name="send">Enviar</string>
     <string name="conversation_activity__compose_description">Redacción da mensaxe</string>
     <string name="conversation_activity__emoji_toggle_description">Cambiar a teclado emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatura do anexo</string>
@@ -449,6 +446,5 @@
     <!-- Next round of translation -->
     <string name="groupEdit">Editar grupo</string>
     <string name="dialog_join_open_group_explanation">Tes a certeza de querer entrar no grupo aberto %s?</string>
-    <string name="activity_conversation_blocked_banner_text">%s está bloqueado. Desbloquealo?</string>
     <string name="activity_conversation_attachment_prep_failed">No foi posible preparar o anexo para ser enviado.</string>
 </resources>

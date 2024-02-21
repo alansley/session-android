@@ -59,7 +59,6 @@
     <string name="ConversationActivity_muted_forever">Silenciado</string>
     <string name="ConversationActivity_open_group_guidelines">Normas da Comunidade</string>
     <string name="ConversationActivity_invalid_recipient">Destinatário inválido!</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Irá voltar a receber mensagens e chamadas deste contacto.</string>
     <string name="blockUnblock">Desbloquear</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Não existe uma aplicação capaz de lidar com este tipo de ligação no seu dispositivo.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">O Session requer permissão de acesso ao microfone para enviar mensagens áudio, mas esta foi negada permanentemente. Por favor, aceda às definições da aplicação, selecione \"Permissões\" e ative \"Microfone\".</string>
@@ -146,7 +145,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Insira a frase-passe</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Bloquear</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Voltará a ser possível receber mensagens e chamadas a partir deste contacto.</string>
     <!-- Slide -->
     <string name="Slide_image">Imagem</string>
     <!-- SmsMessageRecord -->
@@ -190,8 +188,7 @@ foi recebida está corrompida!</string>
     <string name="MessageNotifier_message_delivery_failed">Falha na entrega de mensagem.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Falha na entrega da mensagem.</string>
     <string name="MessageNotifier_error_delivering_message">Erro ao entregar a mensagem.</string>
-    <string name="MessageNotifier_mark_all_as_read">Marcar todas como lidas</string>
-    <string name="MessageNotifier_mark_read">Marcar como lida</string>
+    <string name="messageMarkRead">Marcar como lida</string>
     <string name="MessageNotifier_pending_signal_messages">Mensagens do Session pendentes</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Tem mensagens do Session pendentes, toque para abrir e obter</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -232,7 +229,7 @@ foi recebida está corrompida!</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">A carregar contactos…</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Enviar</string>
+    <string name="send">Enviar</string>
     <string name="conversation_activity__compose_description">Composição da mensagem</string>
     <string name="conversation_activity__emoji_toggle_description">Teclado de emojis</string>
     <string name="conversation_activity__attachment_thumbnail">Antevisão de anexo</string>

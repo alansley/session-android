@@ -24,7 +24,7 @@ class BlockedDialog(private val recipient: Recipient, private val context: Conte
         val contact = contactDB.getContactWithSessionID(sessionID)
         val name = contact?.displayName(Contact.ContactContext.REGULAR) ?: sessionID
 
-        val explanation = resources.getString(R.string.dialog_blocked_explanation, name)
+        val explanation = resources.getString(R.string.blockUnblockDescription, name)
         val spannable = SpannableStringBuilder(explanation)
         val startIndex = explanation.indexOf(name)
         spannable.setSpan(StyleSpan(Typeface.BOLD), startIndex, startIndex + name.count(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)

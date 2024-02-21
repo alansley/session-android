@@ -12,7 +12,7 @@ class SendSeedDialog(private val proceed: (() -> Unit)? = null) : DialogFragment
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog = createSessionDialog {
         title(R.string.warning)
         text(R.string.recoveryPasswordWarningSendDescription)
-        button(R.string.dialog_send_seed_send_button_title) { send() }
+        button(R.string.send) { send() }
         cancelButton()
     }
 

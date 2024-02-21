@@ -46,7 +46,6 @@
     <string name="ConversationActivity_select_contact_info">Chọn thông tin liên lạc</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Xin lỗi, có lỗi thiết đặt tập tin đính kèm của bạn.</string>
     <string name="ConversationActivity_invalid_recipient">Người nhận không đúng!</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Bạn sẽ lại có thể nhận tin nhắn và cuộc gọi từ liên hệ này.</string>
     <string name="blockUnblock">Không chặn</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Thiết bị của bạn không có ứng dụng nào tương ứng để mở đường dẫn này.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session cần truy cập microphone để gửi tin nhắn thoại, nhưng quyền này đã bị chặn. Hãy đến phần cài đặt, chọn \"Quyền truy cập\" và kích hoạt \"Microphone\".</string>
@@ -94,7 +93,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Điền vào cụm từ mật khẩu</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Chặn</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Bạn sẽ lại có thể nhận tin nhắn và cuộc gọi từ liên hệ này.</string>
     <!-- Slide -->
     <string name="Slide_image">Ảnh</string>
     <!-- SmsMessageRecord -->
@@ -117,8 +115,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="MessageNotifier_message_delivery_failed">Phân phối tin nhắn bị thất bại.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Thất bại trong việc phân phối tin.</string>
     <string name="MessageNotifier_error_delivering_message">Có lỗi khi phân phối tin.</string>
-    <string name="MessageNotifier_mark_all_as_read">Đánh dấu tất cả đã đọc</string>
-    <string name="MessageNotifier_mark_read">Đánh dấu đã đọc</string>
+    <string name="messageMarkRead">Đánh dấu đã đọc</string>
     <string name="MessageNotifier_unknown_contact_message">Liên lạc</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_missing_display_name">Không rõ</string>
@@ -140,7 +137,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Nạp danh sách liên lạc..</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Gửi</string>
+    <string name="send">Gửi</string>
     <string name="conversation_activity__compose_description">Soạn tin nhắn</string>
     <string name="conversation_activity__emoji_toggle_description">Chuyển bàn phím biểu tượng cảm xúc</string>
     <string name="conversation_activity__attachment_thumbnail">Ảnh nhỏ tập tin đính kèm</string>

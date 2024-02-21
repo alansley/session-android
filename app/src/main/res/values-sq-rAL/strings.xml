@@ -59,7 +59,6 @@
     <string name="ConversationActivity_muted_forever">Heshtur</string>
     <string name="ConversationActivity_open_group_guidelines">Udhëzimet e komunitetit</string>
     <string name="ConversationActivity_invalid_recipient">Marrës i pavlefshëm!</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Do të jeni sërish në gjendje të merrni mesazhe dhe thirrje nga ky kontakt.</string>
     <string name="blockUnblock">Zhbllokoje</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">S\’ka aplikacion të gatshëm në celularin tuaj për trajtim të kësaj në pajisjen tuaj.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Që të mund të dërgojë mesazhe audio, Session-i lyp leje përdorimi të Mikrofonit, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Mikrofonin\".</string>
@@ -146,7 +145,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Jepni frazëkalimin</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Bllokoje</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Do të jeni sërish në gjendje të merrni mesazhe dhe thirrje prej këtij kontakti.</string>
     <!-- Slide -->
     <string name="Slide_image">Figurë</string>
     <!-- SmsMessageRecord -->
@@ -190,8 +188,7 @@
     <string name="MessageNotifier_message_delivery_failed">Dërgimi i mesazhit dështoi.</string>
     <string name="MessageNotifier_failed_to_deliver_message">S\’u arrit të dërgohej mesazhi.</string>
     <string name="MessageNotifier_error_delivering_message">Gabim në dërgimin e mesazhit.</string>
-    <string name="MessageNotifier_mark_all_as_read">Vëru shenjë të gjithëve si të lexuar</string>
-    <string name="MessageNotifier_mark_read">Vëri shenjë si të lexuar</string>
+    <string name="messageMarkRead">Vëri shenjë si të lexuar</string>
     <string name="MessageNotifier_pending_signal_messages">Mesazhe Session pezull</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Keni mesazhe Session pezull, prekeni për t\’ia hapur dhe rimarrë</string>
     <string name="MessageNotifier_contact_message">%1$s%2$s</string>
@@ -236,7 +233,7 @@
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Po ngarkohen kontakte…</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Dërgoje</string>
+    <string name="send">Dërgoje</string>
     <string name="conversation_activity__compose_description">Hartim mesazhi</string>
     <string name="conversation_activity__emoji_toggle_description">Shfaq/fshih tastierë emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Miniaturë Bashkëngjitjeje</string>

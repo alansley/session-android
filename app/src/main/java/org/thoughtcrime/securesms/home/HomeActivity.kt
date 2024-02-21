@@ -566,7 +566,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
     private fun unblockConversation(thread: ThreadRecord) {
         showSessionDialog {
             title(R.string.blockUnblock)
-            text(R.string.RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact)
+            text(R.string.blockUnblockDescription)
             button(R.string.blockUnblock) {
                 lifecycleScope.launch(Dispatchers.IO) {
                     storage.setBlocked(listOf(thread.recipient), false)

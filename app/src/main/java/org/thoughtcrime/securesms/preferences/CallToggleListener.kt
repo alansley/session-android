@@ -21,7 +21,7 @@ internal class CallToggleListener(
         context.showSessionDialog {
             title(R.string.callsVoiceAndVideoBeta)
             text(R.string.callsVoiceAndVideoModalDescription)
-            button(R.string.dialog_link_preview_enable_button_title, R.string.AccessibilityId_enable) { requestMicrophonePermission() }
+            button(R.string.enable, R.string.AccessibilityId_enable) { requestMicrophonePermission() }
             cancelButton()
         }
 

@@ -691,7 +691,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
         val sessionID = recipient.address.toString()
         val contact = sessionContactDb.getContactWithSessionID(sessionID)
         val name = contact?.displayName(Contact.ContactContext.REGULAR) ?: sessionID
-        binding?.blockedBannerTextView?.text = resources.getString(R.string.activity_conversation_blocked_banner_text, name)
+        binding?.blockedBannerTextView?.text = resources.getString(R.string.blockBlockedDescription)
         binding?.blockedBanner?.isVisible = recipient.isBlocked
         binding?.blockedBanner?.setOnClickListener { viewModel.unblock() }
     }
@@ -1193,7 +1193,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     override fun unblock() {
         showSessionDialog {
             title(R.string.blockUnblock)
-            text(R.string.ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact)
+            text(R.string.blockUnblockDescription)
             destructiveButton(
                 R.string.blockUnblock,
                 R.string.AccessibilityId_block_confirm

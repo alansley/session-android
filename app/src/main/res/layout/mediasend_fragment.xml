@@ -121,7 +121,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        android:contentDescription="@string/conversation_activity__send"
+                        android:contentDescription="@string/send"
                         android:src="?conversation_transport_sms_indicator"
                         android:background="@drawable/circle_touch_highlight_background"/>
 

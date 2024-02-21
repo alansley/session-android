@@ -45,7 +45,6 @@
     <string name="message">Paziņojums</string>
     <string name="ConversationActivity_open_group_guidelines">Kopienas vadlīnijas</string>
     <string name="ConversationActivity_invalid_recipient">Nederīgs adresāts!</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Jūs atkal varēsit saņemt ziņas un zvanus no šīs kontaktpersonas.</string>
     <string name="blockUnblock">Atbloķēt</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Jūsu ierīcē nav pieejama neviena programma šīs saites apstrādei.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Sesijai ir nepieciešama atļauja piekļūt mikrofonam, lai sūtītu balss ziņas, bet tā ir pastāvīgi aizliegta. Lūdzu, ejiet uz programmu iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Mikrofons”.</string>
@@ -187,21 +186,19 @@
     <string name="activity_pn_mode_slow_mode">Lēnais režīms</string>
     <string name="activity_pn_mode_fast_mode_explanation">Jūs saņemsiet paziņojumus par jauniem ziņojumiem droši un nekavējoties, izmantojot Google paziņojumu serverus.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session laiku pa laikam fonā pārbaudīs, vai nav jaunu ziņojumu.</string>
-    <string name="dialog_blocked_explanation">Vai esi pārliecināts, ka vēlies atbloķēt %s?</string>
-    <string name="dialog_open_url_title">Atvērt URL?</string>
+    <string name="blockUnblockDescription">Vai esi pārliecināts, ka vēlies atbloķēt %s?</string>
     <string name="open">Atvērt</string>
-    <string name="copy_url">Nokopēt URL</string>
-    <string name="dialog_link_preview_enable_button_title">Ieslēgt</string>
+    <string name="urlCopy">Nokopēt URL</string>
+    <string name="enable">Ieslēgt</string>
     <string name="download">Lejupielādēt</string>
     <string name="media">Multivide</string>
     <string name="_error">Kļūda</string>
     <string name="warning">Brīdinājums</string>
-    <string name="dialog_send_seed_send_button_title">Sūtīt</string>
     <string name="notify_type_all">Viss</string>
     <string name="deleted_message">Šis ziņojums tika izdzēsts</string>
     <string name="delete_message_for_me">Dzēst tikai man</string>
     <string name="delete_message_for_everyone">Dzēst visiem</string>
     <string name="delete_message_for_me_and_recipient">Dzēst man un %s</string>
-    <string name="conversation_pin">Piespraust</string>
-    <string name="conversation_unpin">Atspraust</string>
+    <string name="pin">Piespraust</string>
+    <string name="pinUnpin">Atspraust</string>
 </resources>

@@ -57,7 +57,6 @@
     <string name="ConversationActivity_muted_until_date">Silenciat fins %1$s</string>
     <string name="ConversationActivity_open_group_guidelines">Directrius de la comunitat</string>
     <string name="ConversationActivity_invalid_recipient">Destinatari no vàlid.</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Podreu tornar a rebre missatges i trucades d\'aquest contacte.</string>
     <string name="blockUnblock">Desbloca</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">No hi ha cap aplicació que pugui obrir aquest enllaç.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">El Session necessita el permís del micròfon per tal d\'enviar missatges d\'àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi el micròfon.</string>
@@ -143,7 +142,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Introduïu la contrasenya</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Bloca</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Podreu tornar a rebre missatges i trucades d\'aquest contacte.</string>
     <!-- Slide -->
     <string name="Slide_image">Imatge</string>
     <!-- SmsMessageRecord -->
@@ -186,8 +184,7 @@ d\'intercanvi de claus!</string>
     <string name="MessageNotifier_message_delivery_failed">El missatge no s\'ha pogut entregar.</string>
     <string name="MessageNotifier_failed_to_deliver_message">No s\'ha pogut entregar el missatge.</string>
     <string name="MessageNotifier_error_delivering_message">S\'ha produït un error en entregar el missatge.</string>
-    <string name="MessageNotifier_mark_all_as_read">Marca-ho tot com a llegit</string>
-    <string name="MessageNotifier_mark_read">Marca\'l com a llegit</string>
+    <string name="messageMarkRead">Marca\'l com a llegit</string>
     <string name="MessageNotifier_pending_signal_messages">Missatges del Session pendents</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Teniu missatges del Session pendents, toqueu per obrir-lo i recuperar-los</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -232,7 +229,7 @@ d\'intercanvi de claus!</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">S\'estan carregant els contactes...</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Envia</string>
+    <string name="send">Envia</string>
     <string name="conversation_activity__compose_description">Cos del missatge</string>
     <string name="conversation_activity__emoji_toggle_description">Canvia al teclat d\'emojis</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatura de l\'adjunt</string>

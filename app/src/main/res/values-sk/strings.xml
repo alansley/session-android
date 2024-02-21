@@ -60,7 +60,6 @@
     <string name="ConversationActivity_muted_until_date">Stlmené upozornenia do %1$s</string>
     <string name="ConversationActivity_open_group_guidelines">Usmernenia Spoločenstva</string>
     <string name="ConversationActivity_invalid_recipient">Neplatný príjemca</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Znovu budete môcť dostávať správy a hovory od tohto kontaktu.</string>
     <string name="blockUnblock">Odblokovať</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Vo vašom zariadení nie je aplikácia schopná otvoriť tento odkaz.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session potrebuje prístup k mikrofónu aby mohol posielať zvukové správy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Mikrofón\".</string>
@@ -158,7 +157,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Zadajte heslo</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokovať</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Znovu budete dostávať správy a hovory od tohoto kontaktu.</string>
     <!-- Slide -->
     <string name="Slide_image">Obrázok</string>
     <!-- SmsMessageRecord -->
@@ -201,8 +199,7 @@ výmeny kľúčov.</string>
     <string name="MessageNotifier_message_delivery_failed">Doručenie správy zlyhalo.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Správu sa nepodarilo doručiť.</string>
     <string name="MessageNotifier_error_delivering_message">Chyba doručovania správy.</string>
-    <string name="MessageNotifier_mark_all_as_read">Označiť všetko ako prečítané</string>
-    <string name="MessageNotifier_mark_read">Označiť ako prečítané</string>
+    <string name="messageMarkRead">Označiť ako prečítané</string>
     <string name="MessageNotifier_pending_signal_messages">Nevybavené Session správy </string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Máte nevybavené Session správy, stlačením otvorte a prevezmite</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -249,7 +246,7 @@ výmeny kľúčov.</string>
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Načítavanie kontaktov…</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Odoslať</string>
+    <string name="send">Odoslať</string>
     <string name="conversation_activity__compose_description">Písanie správy</string>
     <string name="conversation_activity__emoji_toggle_description">Prepnúť na emoji klávesnicu</string>
     <string name="conversation_activity__attachment_thumbnail">Ikona prílohy</string>

@@ -164,7 +164,7 @@ public class SingleRecipientNotificationBuilder extends AbstractNotificationBuil
                          @NonNull ReplyMethod replyMethod)
   {
     Action markAsReadAction = new Action(R.drawable.check,
-                                         context.getString(R.string.MessageNotifier_mark_read),
+                                         context.getString(R.string.messageMarkRead),
                                          markReadIntent);
 
     addAction(markAsReadAction);

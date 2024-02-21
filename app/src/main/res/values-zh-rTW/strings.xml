@@ -58,7 +58,6 @@
     <string name="ConversationActivity_muted_forever">已靜音</string>
     <string name="ConversationActivity_open_group_guidelines">社群規範</string>
     <string name="ConversationActivity_invalid_recipient">無效的聯絡人！</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">您將可以再次收到來自此聯絡人的訊息與通話。</string>
     <string name="blockUnblock">解除封鎖</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的裝置上沒有應用程式可以處理這個連結</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal 需要麥克風的權限來傳送語音訊息，但是現在系統設定為總是拒絕 Signal。請到 Session 的應用程式設定中，點選「權限」，並啟用「麥克風」的權限。</string>
@@ -139,7 +138,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">輸入自訂密碼</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">封鎖</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">您將可以再次收到來自此聯絡人的訊息與通話。</string>
     <!-- Slide -->
     <string name="Slide_image">圖片</string>
     <!-- SmsMessageRecord -->
@@ -185,8 +183,7 @@
     <string name="MessageNotifier_message_delivery_failed">訊息傳送失敗。</string>
     <string name="MessageNotifier_failed_to_deliver_message">無法傳送訊息。</string>
     <string name="MessageNotifier_error_delivering_message">傳送訊息發生失誤。</string>
-    <string name="MessageNotifier_mark_all_as_read">全部標示為已讀</string>
-    <string name="MessageNotifier_mark_read">標示已讀</string>
+    <string name="messageMarkRead">標示已讀</string>
     <string name="MessageNotifier_pending_signal_messages">擱置的 Session 訊息</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">你有擱置的 Session 訊息，輕觸打開及取得訊息</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -230,7 +227,7 @@
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">載入聯絡人中…</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">送出</string>
+    <string name="send">送出</string>
     <string name="conversation_activity__compose_description">編輯簡訊</string>
     <string name="conversation_activity__emoji_toggle_description">切換表情符號鍵盤</string>
     <string name="conversation_activity__attachment_thumbnail">附件縮圖</string>
@@ -510,29 +507,22 @@
     <string name="activity_pn_mode_fast_mode_explanation">您將會透過 Google 的通知服務可靠且迅速的收到通知。</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session 會偶爾在背景執行時檢查新訊息。</string>
     <string name="fragment_user_details_bottom_sheet_edit_text_hint">輸入暱稱</string>
-    <string name="dialog_blocked_explanation">您確定要解除封鎖 %s 嗎？</string>
+    <string name="blockUnblockDescription">您確定要解除封鎖 %s 嗎？</string>
     <string name="dialog_join_open_group_explanation">您確定要加入 %s 公開群組嗎？</string>
-    <string name="dialog_open_url_title">開啟連結？</string>
-    <string name="dialog_open_url_explanation">您確定要開啟 %s 嗎？</string>
     <string name="open">開啟</string>
-    <string name="copy_url">複製網址</string>
-    <string name="dialog_link_preview_title">是否要啟用連結預覽？</string>
-    <string name="dialog_link_preview_explanation">啟用連結預覽將會讓您送出與接收的 URLs 啟用預覽，這是一項好用的功能，但是 Session 會需要連結這些網站來產生預覽，您可以隨時關閉連結預覽功能。</string>
-    <string name="dialog_link_preview_enable_button_title">啟用</string>
+    <string name="urlCopy">複製網址</string>
+    <string name="enable">啟用</string>
     <string name="download">下載</string>
-    <string name="activity_conversation_blocked_banner_text">%s 已被封鎖。是否解除封鎖？</string>
     <string name="activity_conversation_attachment_prep_failed">準備傳送附件失敗。</string>
     <string name="media">媒體</string>
     <string name="_error">錯誤</string>
     <string name="warning">警告</string>
-    <string name="dialog_send_seed_send_button_title">傳送</string>
     <string name="notify_type_all">所有</string>
     <string name="deleted_message">此段訊息經已刪除</string>
     <string name="delete_message_for_me">只為我自己刪除</string>
     <string name="delete_message_for_everyone">從所有人的裝置上刪除</string>
     <string name="delete_message_for_me_and_recipient">為我和 %s 刪除</string>
-    <string name="conversation_pin">釘選</string>
-    <string name="conversation_unpin">取消釘選</string>
-    <string name="mark_all_as_read">全部標示為已讀</string>
+    <string name="pin">釘選</string>
+    <string name="pinUnpin">取消釘選</string>
     <string name="messages">訊息</string>
 </resources>

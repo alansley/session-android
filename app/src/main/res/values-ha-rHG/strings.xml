@@ -49,7 +49,6 @@
     <string name="ConversationActivity_select_contact_info">Agahiya têkiliyê bibijêre</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Bibore, di sazkirina servehiyê de çewtiyek rû da.</string>
     <string name="ConversationActivity_invalid_recipient">Stînerê nederbasdar!</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Tu careke din dîsa dikare ji vî berdengî bang û peyam bistîne.</string>
     <string name="blockUnblock">Astengê rake</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Ti sepana ku karibe vê girêdanê di amûra we de veke nîn e.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session ji bo şandina peyamên dengî destûra Mîkrofonê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Mîkrofon\"ê çalak bike.</string>
@@ -128,7 +127,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Borînbiwêjê têkeve</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Astengkirin</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Tu yê dîsa bikaribî ji vî berdengî peyam û bangan wer bigrî.</string>
     <!-- Slide -->
     <string name="Slide_image">Wêne</string>
     <!-- SmsMessageRecord -->
@@ -172,8 +170,7 @@
     <string name="MessageNotifier_message_delivery_failed">Peyam nagihişt.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Gihandina peyamê pêk nehat.</string>
     <string name="MessageNotifier_error_delivering_message">Çewtiya gihandina peyamê.</string>
-    <string name="MessageNotifier_mark_all_as_read">Hemûyan xwendî nîşan bike</string>
-    <string name="MessageNotifier_mark_read">Xwendî nîşan bike</string>
+    <string name="messageMarkRead">Xwendî nîşan bike</string>
     <string name="MessageNotifier_pending_signal_messages">Peyamên hilawistî yên Sessionê </string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Peyamên hilawistî yên Sessionê hene, ji bo vekî û werbigirî bitepîne</string>
     <string name="MessageNotifier_unknown_contact_message">Berdeng</string>
@@ -215,7 +212,7 @@
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">Berdeng tên barkirin...</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Bişîne</string>
+    <string name="send">Bişîne</string>
     <string name="conversation_activity__compose_description">Peyam binivîse</string>
     <string name="conversation_activity__emoji_toggle_description">Textekilîlê emojî yê din bijerînin</string>
     <string name="conversation_activity__attachment_thumbnail">Wênoka Servehiyê</string>

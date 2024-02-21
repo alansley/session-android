@@ -38,7 +38,7 @@
         style="@style/BottomSheetActionItem"
         android:contentDescription="@string/AccessibilityId_pin"
         android:drawableStart="?attr/menu_pin_icon"
-        android:text="@string/conversation_pin"
+        android:text="@string/pin"
         android:visibility="gone"
         tools:visibility="visible" />
 
@@ -46,7 +46,7 @@
         android:id="@+id/unpinTextView"
         style="@style/BottomSheetActionItem"
         android:drawableStart="?attr/menu_unpin_icon"
-        android:text="@string/conversation_unpin"
+        android:text="@string/pinUnpin"
         android:visibility="gone"
         tools:visibility="visible" />
 
@@ -99,7 +99,7 @@
         android:id="@+id/markAllAsReadTextView"
         style="@style/BottomSheetActionItem"
         android:drawableStart="?attr/menu_mark_all_as_read"
-        android:text="@string/mark_all_as_read"
+        android:text="@string/messageMarkRead"
         android:visibility="gone"
         />
 

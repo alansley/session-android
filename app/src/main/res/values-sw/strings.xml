@@ -39,7 +39,6 @@
     <string name="ConversationActivity_select_contact_info">Chagua taarifa za mawasiliano</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Samahani, tatizo lilitokea kwenye kuweka kiambatanisho chako.</string>
     <string name="ConversationActivity_invalid_recipient">Mpokeaji sio sahihi</string>
-    <string name="ConversationActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Utapata tena ujumbe na wito kutoka kwa anwani hii.</string>
     <string name="blockUnblock">Fungua</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kipaza sauti\".</string>
@@ -98,7 +97,6 @@
     <string name="PassphrasePromptActivity_enter_passphrase">Ingiza nenosiri</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Zuia</string>
-    <string name="RecipientPreferenceActivity_you_will_once_again_be_able_to_receive_messages_and_calls_from_this_contact">Utapata tena ujumbe na wito kutoka kwa anwani hii.</string>
     <!-- Slide -->
     <string name="Slide_image">picha</string>
     <!-- SmsMessageRecord -->
@@ -137,8 +135,7 @@
     <string name="MessageNotifier_message_delivery_failed">utoaji wa ujumbe umefeli</string>
     <string name="MessageNotifier_failed_to_deliver_message">imefeli kutoa ujumbe</string>
     <string name="MessageNotifier_error_delivering_message">hitilafu kupokea ujumbe</string>
-    <string name="MessageNotifier_mark_all_as_read">nakili yote kama haijasomeka</string>
-    <string name="MessageNotifier_mark_read">soma nakili</string>
+    <string name="messageMarkRead">soma nakili</string>
     <string name="MessageNotifier_pending_signal_messages">Ujumbe wa Session inasubiri</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">una ujumbe wa Session unasubiri, gusa kufungua na kurudi</string>
     <string name="MessageNotifier_unknown_contact_message">Mawasiliano</string>
@@ -177,7 +174,7 @@
     <!-- contact_selection_group_activity -->
     <string name="contact_selection_group_activity__finding_contacts">kupakia mawasiliano</string>
     <!-- conversation_activity -->
-    <string name="conversation_activity__send">Tuma</string>
+    <string name="send">Tuma</string>
     <string name="conversation_activity__compose_description">utungaji wa ujumbe</string>
     <string name="conversation_activity__emoji_toggle_description">Toggle katuni kibodi</string>
     <string name="conversation_activity__attachment_thumbnail">kiambatanisho thumbnail</string>
