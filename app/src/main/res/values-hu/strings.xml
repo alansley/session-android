@@ -176,7 +176,6 @@
     <string name="ThreadRecord_secure_session_reset">Biztonságos munkamenet újraindítva.</string>
     <string name="ThreadRecord_media_message">Média üzenet</string>
     <string name="ThreadRecord_s_is_on_signal">%s elérhető a Session-on!</string>
-    <string name="ThreadRecord_media_saved_by_s">Média mentve ide %s.</string>
     <string name="ThreadRecord_safety_number_changed">Megváltozott a biztonsági szám</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Megváltozott a biztonsági számod vele: %s.</string>
     <string name="ThreadRecord_you_marked_verified">Megerősítettnek jelölted</string>
@@ -224,8 +223,7 @@
     <string name="lockAppQuickResponse">A gyors válasz nem érhető el, ha a Session zárolva van!</string>
     <string name="QuickResponseService_problem_sending_message">Probléma lépett fel az üzenet küldése során!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Mentve ide: %s</string>
-    <string name="SaveAttachmentTask_saved">Elmentve</string>
+    <string name="saved">Elmentve</string>
     <!-- SearchToolbar -->
     <string name="search">Keresés</string>
     <!-- ShortcutLauncherActivity -->

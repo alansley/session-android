@@ -213,8 +213,7 @@
     <string name="lockAppQuickResponse">Бърз отговор не е възможен, когато Session е заключен!</string>
     <string name="QuickResponseService_problem_sending_message">Проблем при изпрашане на съобщение!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Запзване в %s</string>
-    <string name="SaveAttachmentTask_saved">Запазено</string>
+    <string name="saved">Запазено</string>
     <!-- SearchToolbar -->
     <string name="search">Търсене</string>
     <!-- ShortcutLauncherActivity -->

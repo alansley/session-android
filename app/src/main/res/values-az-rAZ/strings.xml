@@ -175,7 +175,6 @@
     <string name="ThreadRecord_secure_session_reset">Güvənli seansı sıfırlandı.</string>
     <string name="ThreadRecord_media_message">Media mesajı</string>
     <string name="ThreadRecord_s_is_on_signal">%s artıq Session-dadır!</string>
-    <string name="ThreadRecord_media_saved_by_s">%s medianı yaddaşda saxladı.</string>
     <string name="ThreadRecord_safety_number_changed">Güvənli nömrə dəyişdirildi</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s ilə olan güvənlik nömrəniz dəyişdirildi.</string>
     <string name="ThreadRecord_you_marked_verified">Təsdiqləndi olaraq işarələdiniz</string>
@@ -223,8 +222,7 @@
     <string name="lockAppQuickResponse">Session kilidli ikən, cəld cavablar əlçatmazdır!</string>
     <string name="QuickResponseService_problem_sending_message">Mesajın göndərilmə problemi!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Saxlanıldı: %s</string>
-    <string name="SaveAttachmentTask_saved">Saxlanıldı</string>
+    <string name="saved">Saxlanıldı</string>
     <!-- SearchToolbar -->
     <string name="search">Axtar</string>
     <!-- ShortcutLauncherActivity -->

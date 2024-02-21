@@ -206,8 +206,7 @@
     <string name="lockAppQuickResponse">Kiirvastus pole saadaval, kui Session on lukustatud!</string>
     <string name="QuickResponseService_problem_sending_message">Sõnumi saatmisel esines probleem!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Salvestatud kohta %s</string>
-    <string name="SaveAttachmentTask_saved">Salvestatud</string>
+    <string name="saved">Salvestatud</string>
     <!-- SearchToolbar -->
     <string name="search">Otsi</string>
     <!-- ShortcutLauncherActivity -->

@@ -171,7 +171,6 @@ d\'intercanvi de claus!</string>
     <string name="ThreadRecord_secure_session_reset">Restabliment de la sessió segura.</string>
     <string name="ThreadRecord_media_message">Missatge multimèdia</string>
     <string name="ThreadRecord_s_is_on_signal">%s és al Session!</string>
-    <string name="ThreadRecord_media_saved_by_s">Mèdia desada per %s.</string>
     <string name="ThreadRecord_safety_number_changed">El número de seguretat ha canviat</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">El número de seguretat amb %s ha canviat.</string>
     <string name="ThreadRecord_you_marked_verified">Heu verificat</string>
@@ -218,8 +217,7 @@ d\'intercanvi de claus!</string>
     <string name="lockAppQuickResponse">La resposta ràpida no és disponible si el Session està blocat!</string>
     <string name="QuickResponseService_problem_sending_message">S\'ha produït un problema en enviar el missatge!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Desat a %s</string>
-    <string name="SaveAttachmentTask_saved">Desat</string>
+    <string name="saved">Desat</string>
     <!-- SearchToolbar -->
     <string name="search">Cerca</string>
     <!-- ShortcutLauncherActivity -->

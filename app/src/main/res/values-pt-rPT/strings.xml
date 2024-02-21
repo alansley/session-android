@@ -174,7 +174,6 @@ foi recebida está corrompida!</string>
     <string name="ThreadRecord_secure_session_reset">Sessão segura reiniciada.</string>
     <string name="ThreadRecord_media_message">Mensagem multimédia</string>
     <string name="ThreadRecord_s_is_on_signal">%s está no Session!</string>
-    <string name="ThreadRecord_media_saved_by_s">Media guardada por %s.</string>
     <string name="ThreadRecord_safety_number_changed">Número de segurança alterado</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">O seu número de segurança com %s mudou.</string>
     <string name="ThreadRecord_you_marked_verified">Marcou como verificado</string>
@@ -222,8 +221,7 @@ foi recebida está corrompida!</string>
     <string name="lockAppQuickResponse">Resposta rápida encontra-se indisponível enquanto o Session estiver bloqueado!</string>
     <string name="QuickResponseService_problem_sending_message">Problema no envio da mensagem!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Guardado para %s</string>
-    <string name="SaveAttachmentTask_saved">Guardado</string>
+    <string name="saved">Guardado</string>
     <!-- SearchToolbar -->
     <string name="search">Procurar</string>
     <!-- ShortcutLauncherActivity -->

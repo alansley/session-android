@@ -193,7 +193,6 @@
     <string name="ThreadRecord_secure_session_reset">Saugusis seansas atstatytas.</string>
     <string name="ThreadRecord_media_message">Medijos žinutė</string>
     <string name="ThreadRecord_s_is_on_signal">%s atėjo į Session!</string>
-    <string name="ThreadRecord_media_saved_by_s">%s įsirašė mediją.</string>
     <string name="ThreadRecord_safety_number_changed">Saugumo numeris pasikeitė</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %s pasikeitė.</string>
     <string name="ThreadRecord_you_marked_verified">Jūs pažymėjote patvirtintu</string>
@@ -240,8 +239,7 @@
     <string name="lockAppQuickResponse">Spartusis atsakymas neprieinamas, kai Session yra užrakinta!</string>
     <string name="QuickResponseService_problem_sending_message">Problemos siunčiant žinutę!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Įrašyta į %s</string>
-    <string name="SaveAttachmentTask_saved">Įrašyta</string>
+    <string name="saved">Įrašyta</string>
     <!-- SearchToolbar -->
     <string name="search">Ieškoti</string>
     <!-- ShortcutLauncherActivity -->

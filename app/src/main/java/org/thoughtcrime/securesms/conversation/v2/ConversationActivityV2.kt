@@ -1980,7 +1980,7 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
                         return@onAllGranted
                     }
                     Toast.makeText(this,
-                        resources.getQuantityString(R.plurals.ConversationFragment_error_while_saving_attachments_to_sd_card, 1),
+                        resources.getString(R.string.attachmentsSaveError),
                         Toast.LENGTH_LONG).show()
                 }
                 .execute()

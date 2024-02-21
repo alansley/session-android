@@ -164,7 +164,6 @@
     <string name="ThreadRecord_secure_session_reset">安全会话已重设</string>
     <string name="ThreadRecord_media_message">多媒体信息</string>
     <string name="ThreadRecord_s_is_on_signal">%s 在 Session 上！</string>
-    <string name="ThreadRecord_media_saved_by_s">%s 保存了媒体内容</string>
     <string name="ThreadRecord_safety_number_changed">安全代码已改变</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">您与 %s 的安全码已经改变</string>
     <string name="ThreadRecord_you_marked_verified">你被标识为已验证</string>
@@ -212,8 +211,7 @@
     <string name="lockAppQuickResponse">当 Session 处于锁定状态时，快速回复不可用！</string>
     <string name="QuickResponseService_problem_sending_message">发送信息时遇到问题！</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">保存到%s</string>
-    <string name="SaveAttachmentTask_saved">已保存</string>
+    <string name="saved">已保存</string>
     <!-- SearchToolbar -->
     <string name="search">搜索</string>
     <!-- ShortcutLauncherActivity -->

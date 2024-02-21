@@ -32,8 +32,8 @@ import java.util.concurrent.TimeUnit
 class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int = 1) :
     ProgressDialogAsyncTask<SaveAttachmentTask.Attachment, Void, Pair<Int, String?>>(
         context,
-        context.resources.getQuantityString(R.plurals.ConversationFragment_saving_n_attachments, count, count),
-        context.resources.getQuantityString(R.plurals.ConversationFragment_saving_n_attachments_to_sd_card, count, count)
+        context.resources.getString(R.string.saving),
+        context.resources.getString(R.string.saving)
     ) {
 
     companion object {
@@ -233,18 +233,12 @@ class SaveAttachmentTask @JvmOverloads constructor(context: Context, count: Int 
 
         when (result.first) {
             RESULT_FAILURE -> {
-                val message = context.resources.getQuantityText(
-                        R.plurals.ConversationFragment_error_while_saving_attachments_to_sd_card,
-                        attachmentCount)
+                val message = context.resources.getString(R.string.attachmentsSaveError)
                 Toast.makeText(context, message, Toast.LENGTH_LONG).show()
             }
 
             RESULT_SUCCESS -> {
-                val message = if (!TextUtils.isEmpty(result.second)) {
-                    context.resources.getString(R.string.SaveAttachmentTask_saved_to, result.second)
-                } else {
-                    context.resources.getString(R.string.SaveAttachmentTask_saved)
-                }
+                val message = context.resources.getString(R.string.saved)
                 Toast.makeText(context, message, Toast.LENGTH_LONG).show()
             }
 

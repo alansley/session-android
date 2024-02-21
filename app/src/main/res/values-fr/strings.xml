@@ -180,7 +180,6 @@
     <string name="ThreadRecord_secure_session_reset">La session sécurisée a été réinitialisée.</string>
     <string name="ThreadRecord_media_message">Message multimédia</string>
     <string name="ThreadRecord_s_is_on_signal">%s est sur Session !</string>
-    <string name="ThreadRecord_media_saved_by_s">Média enregistré par %s.</string>
     <string name="ThreadRecord_safety_number_changed">Le numéro de sécurité a changé</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Votre numéro de sécurité avec %s a changé.</string>
     <string name="ThreadRecord_you_marked_verified">Vous avez marqué comme vérifié</string>
@@ -228,8 +227,7 @@
     <string name="lockAppQuickResponse">La réponse rapide n’est pas proposée quand Session est verrouillée !</string>
     <string name="QuickResponseService_problem_sending_message">Erreur lors de l’envoi du message !</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Enregistré dans %s</string>
-    <string name="SaveAttachmentTask_saved">Enregistrée</string>
+    <string name="saved">Enregistrée</string>
     <!-- SearchToolbar -->
     <string name="search">Recherche</string>
     <!-- ShortcutLauncherActivity -->

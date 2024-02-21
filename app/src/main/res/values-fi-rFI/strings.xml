@@ -221,8 +221,7 @@ on viallinen!</string>
     <string name="lockAppQuickResponse">Pikavastaus ei toimi, kun Session on lukittu!</string>
     <string name="QuickResponseService_problem_sending_message">Ongelma viestin lähettämisessä!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Tallennettu: %s</string>
-    <string name="SaveAttachmentTask_saved">Tallennettu</string>
+    <string name="saved">Tallennettu</string>
     <!-- SearchToolbar -->
     <string name="search">Hae</string>
     <!-- ShortcutLauncherActivity -->

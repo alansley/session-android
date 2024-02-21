@@ -179,7 +179,6 @@
     <string name="ThreadRecord_secure_session_reset">تنظیم مجدد جلسه امن.</string>
     <string name="ThreadRecord_media_message">پیام رسانه</string>
     <string name="ThreadRecord_s_is_on_signal">%s در Session است!</string>
-    <string name="ThreadRecord_media_saved_by_s">رسانه توسط %s ذخیره شد.</string>
     <string name="ThreadRecord_safety_number_changed">شماره امنیتی تغییر یافت</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">شماره امنیتی شما با %s تغییر یافت.</string>
     <string name="ThreadRecord_you_marked_verified">شما به عنوان تایید شده علامت زدید</string>
@@ -227,8 +226,7 @@
     <string name="lockAppQuickResponse">پاسخگوی سریع هنگامی که نرم‌افزار Session قفل باشد غیرفعال می‌شود.</string>
     <string name="QuickResponseService_problem_sending_message">بروز خطا در ارسال پیام!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">در %s ذخیره شد</string>
-    <string name="SaveAttachmentTask_saved">ذخیره شد</string>
+    <string name="saved">ذخیره شد</string>
     <!-- SearchToolbar -->
     <string name="search">جستجو</string>
     <!-- ShortcutLauncherActivity -->

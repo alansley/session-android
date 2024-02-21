@@ -109,7 +109,7 @@ public class ThreadRecord extends DisplayRecord {
       String time = ExpirationUtil.getExpirationDisplayValue(context, seconds);
       return emphasisAdded(context.getString(R.string.disappearingMessagesSet, time));
     } else if (MmsSmsColumns.Types.isMediaSavedExtraction(type)) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_media_saved_by_s, getRecipient().toShortString()));
+      return emphasisAdded(context.getString(R.string.attachmentsMediaSaved, getRecipient().toShortString()));
     } else if (MmsSmsColumns.Types.isScreenshotExtraction(type)) {
       return emphasisAdded(context.getString(R.string.screenshotTaken, getRecipient().toShortString()));
     } else if (SmsDatabase.Types.isIdentityUpdate(type)) {

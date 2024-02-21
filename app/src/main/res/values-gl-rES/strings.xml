@@ -220,8 +220,7 @@
     <string name="lockAppQuickResponse">A resposta rápida non está dispoñible cando Session está bloqueado!</string>
     <string name="QuickResponseService_problem_sending_message">Problema ao enviar a mensaxe!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Gardado en %s</string>
-    <string name="SaveAttachmentTask_saved">Gardado</string>
+    <string name="saved">Gardado</string>
     <!-- SearchToolbar -->
     <string name="search">Procurar</string>
     <!-- ShortcutLauncherActivity -->

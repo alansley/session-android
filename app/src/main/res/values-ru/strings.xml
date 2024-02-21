@@ -195,7 +195,6 @@
     <string name="ThreadRecord_secure_session_reset">Защищенный сеанс сброшен.</string>
     <string name="ThreadRecord_media_message">Медиа-сообщение</string>
     <string name="ThreadRecord_s_is_on_signal">%s теперь в Session!</string>
-    <string name="ThreadRecord_media_saved_by_s">%s сохранил(а) медиафайл.</string>
     <string name="ThreadRecord_safety_number_changed">Код безопасности изменился</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш код безопасности с %s был изменен.</string>
     <string name="ThreadRecord_you_marked_verified">Верифицировано вами</string>
@@ -243,8 +242,7 @@
     <string name="lockAppQuickResponse">Быстрые ответы недоступны, когда Session заблокирован!</string>
     <string name="QuickResponseService_problem_sending_message">Проблема при отправке сообщения!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Сохранено в %s</string>
-    <string name="SaveAttachmentTask_saved">Сохранено</string>
+    <string name="saved">Сохранено</string>
     <!-- SearchToolbar -->
     <string name="search">Поиск</string>
     <!-- ShortcutLauncherActivity -->

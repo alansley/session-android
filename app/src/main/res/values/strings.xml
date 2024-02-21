@@ -235,18 +235,6 @@
         <item quantity="one">Saving this media to storage will allow any other apps on your device to access it.\n\nContinue?</item>
         <item quantity="other">Saving all %1$d media to storage will allow any other apps on your device to access them.\n\nContinue?</item>
     </plurals>
-    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
-        <item quantity="one">Error while saving attachment to storage!</item>
-        <item quantity="other">Error while saving attachments to storage!</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments">
-        <item quantity="one">Saving attachment</item>
-        <item quantity="other">Saving %1$d attachments</item>
-    </plurals>
-    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
-        <item quantity="one">Saving attachment to storage…</item>
-        <item quantity="other">Saving %1$d attachments to storage…</item>
-    </plurals>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Profile photo</string>
     <!-- CustomDefaultPreference -->
@@ -333,7 +321,6 @@
     <string name="ThreadRecord_secure_session_reset">Secure session reset.</string>
     <string name="ThreadRecord_media_message">Media message</string>
     <string name="ThreadRecord_s_is_on_signal">%s is on Session!</string>
-    <string name="ThreadRecord_media_saved_by_s">Media saved by %s.</string>
     <string name="ThreadRecord_safety_number_changed">Safety number changed</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Your safety number with %s has changed.</string>
     <string name="ThreadRecord_you_marked_verified">You marked verified</string>
@@ -381,8 +368,7 @@
     <string name="lockAppQuickResponse">Quick response unavailable when Session is locked!</string>
     <string name="QuickResponseService_problem_sending_message">Problem sending message!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Saved to %s</string>
-    <string name="SaveAttachmentTask_saved">Saved</string>
+    <string name="saved">Saved</string>
     <!-- SearchToolbar -->
     <string name="search">Search</string>
     <!-- ShortcutLauncherActivity -->
@@ -970,5 +956,8 @@
     <string name="attachmentsErrorNotSupported">This file type is not supported.</string>
     <string name="attachmentsFileId">File ID:</string>
     <string name="attachmentsFilesEmpty">You don\'t have any files in this conversation.</string>
+    <string name="saving">Saving...</string>
+    <string name="attachmentsSaveError">Unable to save file.</string>
+    <string name="attachmentsMediaSaved">Media saved by %s</string>
 
 </resources>

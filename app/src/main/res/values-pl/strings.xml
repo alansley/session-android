@@ -193,7 +193,6 @@
     <string name="ThreadRecord_secure_session_reset">Reset bezpiecznej sesji.</string>
     <string name="ThreadRecord_media_message">Wiadomość multimedialna</string>
     <string name="ThreadRecord_s_is_on_signal">%s jest w Session!</string>
-    <string name="ThreadRecord_media_saved_by_s">Media zapisane przez %s.</string>
     <string name="ThreadRecord_safety_number_changed">Numer bezpieczeństwa zmienił się</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Twój numer bezpieczeństwa z %s zmienił się.</string>
     <string name="ThreadRecord_you_marked_verified">Oznaczyłeś(aś) jako zweryfikowany</string>
@@ -241,8 +240,7 @@
     <string name="lockAppQuickResponse">Szybka odpowiedź jest niedostępna kiedy Session jest zablokowany!</string>
     <string name="QuickResponseService_problem_sending_message">Wystąpił błąd przy wysyłaniu wiadomości!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Zapisano do %s</string>
-    <string name="SaveAttachmentTask_saved">Zapisano</string>
+    <string name="saved">Zapisano</string>
     <!-- SearchToolbar -->
     <string name="search">Szukaj</string>
     <!-- ShortcutLauncherActivity -->

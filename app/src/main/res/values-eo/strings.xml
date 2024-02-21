@@ -174,7 +174,6 @@
     <string name="ThreadRecord_secure_session_reset">Sekura seanco restarigita.</string>
     <string name="ThreadRecord_media_message">Aŭdvida mesaĝo</string>
     <string name="ThreadRecord_s_is_on_signal">%s estas ĉe Session!</string>
-    <string name="ThreadRecord_media_saved_by_s">%s elŝutis la dosieron.</string>
     <string name="ThreadRecord_safety_number_changed">Sekuriga numero ŝanĝiĝis</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Via sekuriga numero kun %s ŝanĝiĝis.</string>
     <string name="ThreadRecord_you_marked_verified">Vi markis kiel konfirmita</string>
@@ -222,8 +221,7 @@
     <string name="lockAppQuickResponse">Rapida respondo ne eblas, kiam Session estas ŝlosita!</string>
     <string name="QuickResponseService_problem_sending_message">Problemo dum sendo de mesaĝo!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">Konservita al %s</string>
-    <string name="SaveAttachmentTask_saved">Konservitaj</string>
+    <string name="saved">Konservitaj</string>
     <!-- SearchToolbar -->
     <string name="search">Serĉi</string>
     <!-- ShortcutLauncherActivity -->

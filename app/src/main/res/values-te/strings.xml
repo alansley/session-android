@@ -208,8 +208,7 @@
     <string name="lockAppQuickResponse">Session బంధించినపుడు తక్షణ స్పందన అందుబాటులొ లేదు!</string>
     <string name="QuickResponseService_problem_sending_message">సందేశాన్ని పంపడంలొ సమస్య!</string>
     <!-- SaveAttachmentTask -->
-    <string name="SaveAttachmentTask_saved_to">%s కు సేవ్ చేయబడింది</string>
-    <string name="SaveAttachmentTask_saved">సేవ్</string>
+    <string name="saved">సేవ్</string>
     <!-- SearchToolbar -->
     <string name="search">వెతకండి</string>
     <!-- ShortcutLauncherActivity -->
