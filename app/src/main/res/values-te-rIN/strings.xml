@@ -63,14 +63,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ఫోటోలను లేదా వీడియోను తీసుకోవడానికి Sessionకు కెమెరా అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్లకు కొనసాగించండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"కెమెరా\" ని ప్రారంభించండి.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ఛాయాచిత్రాలను లేదా వీడియోను తీసుకోవడానికి కెమెరా అనుమతులను Sessionకి అవసరం</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">ఎంపికైన సందేశం తొలగించాలా?</item>
-        <item quantity="other">ఎంపిక చేసిన సందేశాలను తొలగించాలా?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">ఎంపికైన సందేశాన్ని శాశ్వతంగా తొలగిస్తుంది.</item>
-        <item quantity="other">%1$d ఎంపికైన సందేశాలను శాశ్వతంగా తొలగిస్తుంది.</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">నిల్వలొ దాచు?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">ఈ మీడియాను నిల్వలో భద్రపరచడం వల్ల మీ పరికరంలో ఏదైనా ఇతర అనువర్తనాలు దానిని వాడుటకు  ప్రవేశాధికారము కలిపిస్తుంది.
@@ -168,7 +160,6 @@
     <string name="onionRoutingPathYou">మీరు</string>
     <string name="MediaPreviewActivity_draft">చిత్తు పత్రం</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">అనుమతులు లేకుండా బాహ్య నిల్వకి సేవ్ చేయడం సాధ్యపడలేదు</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">ఇది శాశ్వతంగా ఈ సందేశాన్ని తొలగిస్తుంది.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d సంభాషణలొ కొత్త %1$d సందేశాలు</string>
     <string name="MessageNotifier_locked_message">బంధించబడిన సందేశం</string>
@@ -332,7 +323,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">....కు కొత్త సందేశం</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">సందేశాన్ని తొలగించు</string>
     <string name="conversation_context__menu_reply_to_message">సందేశానికి ప్రత్యుత్తరం ఇవ్వండి</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">జత పరిచినది దాచి పెట్టు </string>

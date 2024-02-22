@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">A Session-nek szüksége van a Kamera engedélyre, hogy fotót vagy videót készíthessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Kamera\"-t.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">A Session-nak szüksége van Kamera engedélyekre fotók és videók készítéséhez</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Törlöd a kiválasztott üzenetet?</item>
-        <item quantity="other">Törlöd a kiválasztott üzeneteket?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Ez végelegesen törölni fogja a kiválasztott üzenetet.</item>
-        <item quantity="other">Ez véglegesen törölni fogja mind a(z) %1$d db kiválasztott üzenetet.</item>
-    </plurals>
     <string name="callsPermissionsRequired">Hívás engedély szükséges</string>
     <string name="ConversationFragment_ban_selected_user">Tiltod ezt a felhasználót?</string>
     <string name="ConversationFragment_save_to_sd_card">Mentés tárolóra?</string>
@@ -182,7 +174,6 @@
     <string name="MediaPreviewActivity_draft">Piszkozat</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">A Session- nek szüksége van fájlhozzáférési engedélyekhez, hogy menteni tudjon külső tárhelyre. Kérlek, hogy a rendszerbeállításokban engedélyezd a \"fájlok és média\" opciót a Session számára.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nem lehet engedély nélkül menteni a külső tárolóra</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Ez véglegesen törölni fogja ezt az üzenetet.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d új üzenet %2$d beszélgetésben</string>
     <string name="MessageNotifier_locked_message">Zárolt üzenet</string>
@@ -359,7 +350,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Új üzenet...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Üzenet törlése</string>
     <string name="conversation_context__menu_ban_user">Felhasználó kitiltása</string>
     <string name="conversation_context__menu_ban_and_delete_all">Tiltás és minden törlése</string>
     <string name="conversation_context__menu_reply_to_message">Válasz az üzenetre</string>
@@ -521,7 +511,6 @@
     <string name="_error">Hiba</string>
     <string name="warning">Figyelmeztetés</string>
     <string name="notify_type_all">Összes</string>
-    <string name="deleted_message">Ezt az üzenetet törölték</string>
     <string name="pin">Kitűzés</string>
     <string name="pinUnpin">Kitűzés eltávolítása</string>
 </resources>

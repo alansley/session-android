@@ -55,14 +55,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session vajab ligipääsu kaamerale, et salvestada fotosid ja videosid, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session vajab fotode ja videote salvestamiseks ligipääsu kaamerale</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Kustutad valitud sõnumi?</item>
-        <item quantity="other">Kustutad valitud sõnumid?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">See kustutab püsivalt valitud sõnumi.</item>
-        <item quantity="other">See kustutab püsivalt kõik valitud %1$d sõnumit.</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">Salvesta sisemällu?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Selle meediafaili sisemällu salvestamine lubab mistahes teisel rakendusel sinu seadmes sellele juurde pääseda.\n\nJätkad?</item>
@@ -166,7 +158,6 @@
     <string name="onionRoutingPathYou">Sina</string>
     <string name="MediaPreviewActivity_draft">Mustand</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Õiguste puudumise tõttu pole võimalik välisele andmekandjale salvestada.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">See kustutab püsivalt valitud sõnumi.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d uut sõnumit %2$d vestluses</string>
     <string name="MessageNotifier_locked_message">Lukustatud sõnum</string>
@@ -335,7 +326,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Uus sõnum kontaktile...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Kustuta sõnum</string>
     <string name="conversation_context__menu_reply_to_message">Vasta sõnumile</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salvesta manus</string>

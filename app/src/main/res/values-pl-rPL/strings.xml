@@ -71,18 +71,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session wymaga pozwolenia na dostęp do aparatu w celu umożliwienia robienia zdjęć i nagrywania filmów, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Aparat\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session wymaga pozwolenia na dostęp do aparatu w celu umożliwienia robienia zdjęć i nagrywania filmów</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Usunąć wybraną wiadomość?</item>
-        <item quantity="few">Usunąć wybrane wiadomości?</item>
-        <item quantity="many">Usunąć wybrane wiadomości?</item>
-        <item quantity="other">Usunąć wybrane wiadomości?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Spowoduje to trwałe usunięcie zaznaczonej wiadomości.</item>
-        <item quantity="few">Spowoduje to trwałe usunięcie wszystkich %1$d zaznaczonych wiadomości.</item>
-        <item quantity="many">Spowoduje to trwałe usunięcie wszystkich %1$d zaznaczonych wiadomości.</item>
-        <item quantity="other">Spowoduje to trwałe usunięcie wszystkich %1$d wybranych wiadomości.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Zbanować tego użytkownika?</string>
     <string name="ConversationFragment_save_to_sd_card">Zapisać na dysk?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -195,7 +183,6 @@
     <string name="MediaPreviewActivity_draft">Szkic</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session wymaga pozwolenia na dostęp do danych telefonu w celu zapisu do pamięci zewnętrznej, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Przechowywanie\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nie można zapisać do pamięci zewnętrznej bez odpowiedniego pozwolenia</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Spowoduje to trwałe usunięcie tej wiadomości.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nowych wiadomości w %2$d rozmowach</string>
     <string name="MessageNotifier_locked_message">Wiadomość zablokowana</string>
@@ -376,7 +363,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nowa wiadomość do...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Usuń wiadomość</string>
     <string name="conversation_context__menu_ban_user">Zablokuj użytkownika</string>
     <string name="conversation_context__menu_ban_and_delete_all">Zbanuj i usuń wszystko</string>
     <string name="conversation_context__menu_reply_to_message">Odpowiedz na wiadomość</string>
@@ -538,7 +524,6 @@
     <string name="_error">Błąd</string>
     <string name="warning">Uwaga</string>
     <string name="notify_type_all">Wszystko</string>
-    <string name="deleted_message">Ta wiadomość została usunięta</string>
     <string name="pin">Przypnij</string>
     <string name="pinUnpin">Odepnij</string>
 </resources>

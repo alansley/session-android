@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Το Session χρειάζεται τα δικαιώματα Κάμερας για να μπορούμε να τραβήξουμε φωτογραφίες και βίντεο, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε την \"Κάμερα\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Το Session χρειάζεται τα δικαιώματα Κάμερας για να τραβήξει φωτογραφίες ή βίντεο</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Διαγραφή επιλεγμένου μηνύματος;</item>
-        <item quantity="other">Διαγραφή επιλεγμένων μηνυμάτων;</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Αυτό θα διαγράψει οριστικά το επιλεγμένο μήνυμα.</item>
-        <item quantity="other">Αυτό θα διαγράψει οριστικά όλα τα %1$d επιλεγμένα μηνύματα.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Αποκλεισμός αυτού του χρήστη;</string>
     <string name="ConversationFragment_save_to_sd_card">Να αποθηκευτεί στη μνήμη;</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -181,7 +173,6 @@
     <string name="MediaPreviewActivity_draft">Πρόχειρο</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να αποθηκεύσει στην εξωτερική μνήμη, αλλά αυτό έχει μόνιμα αποκλειστεί . Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Αδυναμία αποθήκευσης στην εξωτερική μνήμη χωρίς δικαιώματα</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Αυτή η επιλογή θα διαγράψει οριστικά αυτό το μήνυμα.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d νέα μηνύματα σε %2$d συνομιλίες</string>
     <string name="MessageNotifier_locked_message">Κλειδωμένο μήνυμα</string>
@@ -358,7 +349,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Νέο μήνυμα προς...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Διαγραφή μηνύματος</string>
     <string name="conversation_context__menu_ban_user">Αποκλεισμός χρήστη</string>
     <string name="conversation_context__menu_ban_and_delete_all">Αποκλεισμός και διαγραφή όλων</string>
     <string name="conversation_context__menu_reply_to_message">Απαντήστε στο μήνυμα</string>
@@ -520,7 +510,6 @@
     <string name="_error">Σφάλμα</string>
     <string name="warning">Προειδοποίηση</string>
     <string name="notify_type_all">Ολες</string>
-    <string name="deleted_message">Αυτό το μήνυμα έχει διαγραφεί</string>
     <string name="pin">Καρφίτσωμα</string>
     <string name="pinUnpin">Ξεκαρφίτσωμα</string>
 </resources>

@@ -121,7 +121,6 @@
     <string name="onionRoutingPathYou">သင်</string>
     <string name="MediaPreviewActivity_draft">မူကြမ်း</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ခွင့်ပြုချက်မပေးထားပါက အပြင်ဘက်တွင် သိမ်းဆည်း၍မရပါ</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">ဤစာများကို အပြီးတိုင်ဖျက်မည်။  </string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">စကားဝိုင်း %2$d တွင် စာပေါင်း %1$d ရှိသည်။</string>
     <string name="MessageNotifier_locked_message">ပိတ်ထားသော စာ</string>
@@ -273,7 +272,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">သို့ စာအသစ် ...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">စာတို ဖျက်ရန်</string>
     <string name="conversation_context__menu_reply_to_message">စာပြန်ပို့မည်</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">ပူးတွဲဖိုင်ကို သိမ်းပါ</string>

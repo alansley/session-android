@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session برای گرفتن عکس و فیلم، نیازمند دسترسی به دوربین دارد ولی این دسترسی برای همیشه قطع شده است. لطفا برای ادامه دادن، به بخش منوی تنظیمات برنامه رفته، \"اجازه ها\" را انتخاب کرده و گزینه ی \"دوربین\" را فعال نمایید.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session برای عکس گرفتن یا ضبط ویدیو نیاز به دسترسی به دوربین دارد</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">پیام های انتخاب شده حذف شوند؟</item>
-        <item quantity="other">پیام های انتخاب شده حدف شوند؟</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">این به صورت دائم %1$d پیامهای انتخاب شده را حذف میکند.</item>
-        <item quantity="other">این به صورت دائم %1$d پیامهای انتخاب شده را حذف میکند.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">این کاربر مسدود شود؟</string>
     <string name="ConversationFragment_save_to_sd_card">ذخیره درحافظه؟</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -180,7 +172,6 @@
     <string name="MediaPreviewActivity_draft">پیش نویس</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session برای ذخیره در حافظه‌ی خارجی نیاز به دسترسی به حافظه دارد اما این دسترسی به طور همیشگی رد شده است. لطفا به بخش برنامه در تنظیمات تلفن همراه خود رفته و پس از یافتن Session وارد بخش دسترسی ها شده و گزینه حافظه را فعال کنید.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">نمی‌توان بدون دسترسی‌ها در حافظه‌ی خارجی ذخیره‌سازی نمود</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">این باعث حذف این پیام به صورت دائم خواهد شد.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d پیام در %2$d گفتگو</string>
     <string name="MessageNotifier_locked_message">پیام قفل شده</string>
@@ -357,7 +348,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">پیام جدید به ...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">حذف پیام</string>
     <string name="conversation_context__menu_ban_user">مسدود کردن کاربر</string>
     <string name="conversation_context__menu_ban_and_delete_all">بلاک کردن و پاک کردن همه</string>
     <string name="conversation_context__menu_reply_to_message">پاسخ به پیام</string>
@@ -519,7 +509,6 @@
     <string name="_error">خطا</string>
     <string name="warning">هشدار</string>
     <string name="notify_type_all">همه</string>
-    <string name="deleted_message">این پیام حذف شده است</string>
     <string name="pin">سنجاق کردن</string>
     <string name="pinUnpin">برداشتن سنجاق</string>
 </resources>

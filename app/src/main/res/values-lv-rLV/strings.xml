@@ -52,16 +52,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sesijai ir nepieciešama atļauja piekļūt kamerai, lai uzņemtu attēlus un video, bet tā ir pastāvīgi aizliegta. Lūdzu, ejiet uz programmu iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Kamera”.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Sesijai nepieciešama piekļuve kamerai, lai uzņemtu attēlus un video.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="zero">Dzēst izvēlēto ziņu?</item>
-        <item quantity="one">Dzēst izvēlēto ziņu?</item>
-        <item quantity="other">Dzēst izvēlētās ziņas?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="zero">Izvēlētais ziņojums tiks neatgriezeniski dzēsts.</item>
-        <item quantity="one">Izvēlētais ziņojums tiks neatgriezeniski dzēsts.</item>
-        <item quantity="other">Visi %1$d izvēlētie ziņojumi tiks neatgriezeniski dzēsti.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Aizliegt šī lietotāja darbību?</string>
     <string name="ConversationFragment_save_to_sd_card">Saglabāt krātuvē?</string>
     <!-- CreateProfileActivity -->
@@ -195,7 +185,6 @@
     <string name="_error">Kļūda</string>
     <string name="warning">Brīdinājums</string>
     <string name="notify_type_all">Viss</string>
-    <string name="deleted_message">Šis ziņojums tika izdzēsts</string>
     <string name="pin">Piespraust</string>
     <string name="pinUnpin">Atspraust</string>
 </resources>

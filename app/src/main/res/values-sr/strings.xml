@@ -67,16 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Сесија треба дозволу за камеру да направи слике и видео клипове, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Камеру\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Сесија треба дозволу за камеру да прави слике или видео клипове.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Обрисати изабрану поруку?</item>
-        <item quantity="few">Обрисати изабране поруке?</item>
-        <item quantity="other">Обрисати изабране поруке?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Ово ће трајно да обрише изабрану поруку.</item>
-        <item quantity="few">Ово ће трајно да обрише све %1$d изабране поруке.</item>
-        <item quantity="other">Ово ће трајно да обрише свих %1$d изабраних порука.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Бануј овог корисника?</string>
     <string name="ConversationFragment_save_to_sd_card">Сачувати у складиште?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -185,7 +175,6 @@
     <string name="onionRoutingPathYou">Ви</string>
     <string name="MediaPreviewActivity_draft">Нацрт</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Сесија треба дозволу за складиште да сачува у спољашње складиште, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Складиште\".</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Ово ће трајно да обрише ову поруку.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нових порука у %2$d преписки</string>
     <string name="MessageNotifier_locked_message">Закључана порука</string>
@@ -361,7 +350,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Нова порука за...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Обриши поруку</string>
     <string name="conversation_context__menu_reply_to_message">Одговори на поруку</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Сачувај прилог</string>

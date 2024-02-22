@@ -68,14 +68,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session-ը պահանջում է տեսախցիկի թույլտվություն լուսանկարելու համար: Խնդրում ենք անցնել հավելվածի կարգավորումների ցանկ, ընտրել «Թույլտվություններ» և միացնել «Տեսախցիկ» թույլտվությունը.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն լուսանկարելու կամ տեսանյութեր ձայնագրելու համար.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Ջնջե՞լ ընտրված նամակը։</item>
-        <item quantity="other">Ջնջե՞լ ընտրված նամակները։</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Սա ընդմիշտ կջնջի ընտրված նամակը։</item>
-        <item quantity="other">Սա ընդմիշտ կջնջի %1$d ընտրված նամակը։</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Արգելափակել այս օգտատիրոջը?</string>
     <string name="ConversationFragment_save_to_sd_card">Պահպանե՞լ սարքի մեջ։</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -184,7 +176,6 @@
     <string name="MediaPreviewActivity_draft">Սևագիր</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session֊ին պետք են հիշողությունից օգտվելու թույլտվությունները ֆայլեր ստեղծելու համար, բայց այն արգելված է։ Բացեք ծրագրի կարգավորումներն ու ընտրեք «Թույլտվություններ»֊ը, ապա միացրեք «Հիշողություն» թույլտվությունը։</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Հնարավոր չէ պահել արտաքին պահեստում առանց թույլտվությունների</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Սա ընդմիշտ կջնջի այս հաղորդագրությունը:</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d նոր հաղորդագրություններ %2$d խոսակցություններում</string>
     <string name="MessageNotifier_locked_message">Կողպված հաղորդագրություն</string>
@@ -361,7 +352,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Նոր հաղորդագրություն...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Ջնջել հաղորդագրությունը</string>
     <string name="conversation_context__menu_ban_user">Արգելափակել օգտատիրոչը</string>
     <string name="conversation_context__menu_ban_and_delete_all">Արգելաֆակել և ջնջել ամբողջը</string>
     <string name="conversation_context__menu_reply_to_message">Պատասխանել հաղորդագրությանը</string>
@@ -523,7 +513,6 @@
     <string name="_error">Սխալ</string>
     <string name="warning">Զգուշացում</string>
     <string name="notify_type_all">Բոլորը</string>
-    <string name="deleted_message">Այս հաղորդագրությունը ջնջվել է</string>
     <string name="pin">Ամրացնել</string>
     <string name="pinUnpin">Արձակել</string>
     <string name="messages">Հաղորդագրություններ</string>

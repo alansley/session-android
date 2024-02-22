@@ -64,14 +64,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">El Session necessita el permís de la càmera per tal de fer fotografies i vídeos, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi la càmera.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">El Session necessita el permís de la càmera per fer fotografies i vídeos.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Voleu suprimir el missatge seleccionat?</item>
-        <item quantity="other">Voleu suprimir els missatges seleccionats?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Se suprimirà de manera permanent el missatge seleccionat.</item>
-        <item quantity="other">Se suprimiran de manera permanent els %1$d missatges seleccionats.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Vols blocar aquest usuari?</string>
     <string name="ConversationFragment_save_to_sd_card">Voleu desar-ho a l\'emmagatzematge?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -176,7 +168,6 @@ d\'intercanvi de claus!</string>
     <string name="onionRoutingPathYou">Jo</string>
     <string name="MediaPreviewActivity_draft">Esborrany</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">No es pot desar en un emmagatzematge extern sense permís.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Aquest missatge se suprimirà permanentment.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d missatges nous a %2$d converses</string>
     <string name="MessageNotifier_locked_message">Missatge blocat</string>
@@ -353,7 +344,6 @@ d\'intercanvi de claus!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Missatge nou per a...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Suprimeix el missatge</string>
     <string name="conversation_context__menu_ban_user">Bloca l\'usuari</string>
     <string name="conversation_context__menu_reply_to_message">Respon el missatge</string>
     <!-- conversation_context_image -->

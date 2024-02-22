@@ -60,12 +60,6 @@
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">작업을 처리할 수 있는 앱 없음</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session이 음성 메시지를 보내기 위한 마이크 권한이 영구적으로 차단되었습니다. 앱 설정에서 \"권한\" 탭을 클릭하고, \"마이크\" 권한을 허용해주세요.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="other">선택된 메시지를 삭제하시겠습니까?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="other">선택된 메시지 %1$d개가 영구 삭제됩니다.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">이 유저를 차단할까요?</string>
     <string name="ConversationFragment_save_to_sd_card">저장소에 저장하시겠습니까?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -282,7 +276,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">(연락처 없음)</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">메시지 삭제</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">첨부파일 저장</string>
     <!-- conversation_expiring_off -->

@@ -69,14 +69,6 @@
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session a besoin de l’autorisation Appareil photo pour prendre des photos ou des vidéos</string>
     <string name="callsPermissionsRequired">Autorisations d\'appel requises</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Supprimer le message sélectionné ?</item>
-        <item quantity="other">Supprimer les messages sélectionnés ?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Le message sélectionné sera irrémédiablement supprimé.</item>
-        <item quantity="other">Les %1$d messages sélectionnés seront irrémédiablement supprimés.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Bannir cet utilisateur ?</string>
     <string name="ConversationFragment_save_to_sd_card">Enregistrer dans la mémoire du téléphone ?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -182,7 +174,6 @@
     <string name="MediaPreviewActivity_draft">Brouillon</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">La session a besoin d\'un accès au stockage afin d\'enregistrer sur le stockage externe, mais cet accès a été refusé de manière permanente. Veuillez continuer dans les paramètres de l\'application, sélectionner « Permissions », et activer « Stockage ».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Impossible d’enregistrer sur la mémoire externe sans autorisation</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Ce message sera supprimé définitivement.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nouveaux messages dans %2$d conversations</string>
     <string name="MessageNotifier_locked_message">Message verrouillé</string>
@@ -376,7 +367,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nouveau message pour…</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Supprimer le message</string>
     <string name="conversation_context__menu_ban_user">Bannir l\'utilisateur</string>
     <string name="conversation_context__menu_ban_and_delete_all">Bannir et supprimer tout</string>
     <string name="conversation_context__menu_reply">Répondre</string>
@@ -557,7 +547,6 @@
     <string name="_error">Erreur</string>
     <string name="warning">Attention</string>
     <string name="notify_type_all">Tous</string>
-    <string name="deleted_message">Ce message a été supprimé</string>
     <string name="pin">Épingler</string>
     <string name="pinUnpin">Désépingler</string>
     <string name="messages">Messages</string>

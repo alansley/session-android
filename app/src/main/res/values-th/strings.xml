@@ -50,12 +50,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">เพื่อที่จะถ่ายรูปหรือวิดีโอได้ Session ต้องได้รับอนุญาตให้เข้าถึงกล้อง แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"กล้อง\"</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session ต้องได้รับอนุญาตให้เข้าถึงกล้องเพื่อถ่ายรูปและวิดีโอ</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="other">ลบข้อความที่เลือกหรือไม่</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="other">นี่จะลบ %1$d ข้อความที่ถูกเลือกทั้งหมด อย่างถาวร</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">บันทึกลงที่เก็บข้อมูลหรือไม่</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">การบันทึกสื่อทั้งหมด %1$d รายการลงในที่เก็บข้อมูล จะอนุญาตให้แอปอื่นในอุปกรณ์ของคุณเข้าถึงสื่อเหล่านี้ได้ด้วย\n\nดำเนินการต่อหรือไม่</item>
@@ -148,7 +142,6 @@
     <string name="onionRoutingPathYou">คุณ</string>
     <string name="MediaPreviewActivity_draft">ร่าง</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ไม่สามารถบันทึกลงที่เก็บข้อมูลภายนอกได้ หากไม่ได้รับอนุญาต</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">นี่จะเป็นการลบข้อความนี้โดยถาวร</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">มี %1$d ข้อความใหม่ใน %2$d การสนทนา</string>
     <string name="MessageNotifier_locked_message">ข้อความที่ถูกล็อก</string>
@@ -308,7 +301,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">ข้อความใหม่ถึง...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">ลบข้อความ</string>
     <string name="conversation_context__menu_reply_to_message">ตอบกลับข้อความ</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">บันทึกไฟล์แนบ</string>

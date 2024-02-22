@@ -69,18 +69,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session צריך את הרשאת המצלמה כדי לצלם תצלומים או וידיאו, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מצלמה\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session צריך הרשאות מצלמה כדי לצלם תצלומים או להקליט וידיאו</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">למחוק ההודעה שנבחרה?</item>
-        <item quantity="two">למחוק את ההודעות שנבחרו?</item>
-        <item quantity="many">למחוק את ההודעות שנבחרו?</item>
-        <item quantity="other">למחוק את ההודעות שנבחרו?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">זה ימחק לצמיתות את ההודעה שנבחרה.</item>
-        <item quantity="two">זה ימחק לצמיתות את כל %1$d ההודעות שנבחרו.</item>
-        <item quantity="many">זה ימחק לצמיתות את כל %1$d ההודעות שנבחרו.</item>
-        <item quantity="other">זה ימחק לצמיתות את כל %1$d ההודעות שנבחרו.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">חסום משתמש זה?</string>
     <string name="ConversationFragment_save_to_sd_card">לשמור באחסון?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -193,7 +181,6 @@
     <string name="onionRoutingPathYou">אתה</string>
     <string name="MediaPreviewActivity_draft">טיוטה</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">לא היה ניתן לשמור באחסון חיצוני ללא הרשאות</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">זה ימחק לצמיתות הודעה זו.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d הודעות חדשות ב־%2$d שיחות</string>
     <string name="MessageNotifier_locked_message">הודעה נעולה</string>
@@ -372,7 +359,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">הודעה חדשה אל...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">מחק הודעה</string>
     <string name="conversation_context__menu_reply_to_message">הגב אל הודעה</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">שמור צרופה</string>

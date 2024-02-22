@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session bezonas la Fotilo-permeson por preni fotojn aŭ videojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Fotilo“.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session bezonas la Fotilo-permeson por preni fotojn aŭ videaĵojn</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Ĉu forviŝi elektitan mesaĝon?</item>
-        <item quantity="other">Ĉu forviŝi elektitajn mesaĝojn?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Tio daŭre forviŝos la elektitan mesaĝon.</item>
-        <item quantity="other">Tio daŭre forviŝos ĉiujn %1$d elektitajn mesaĝojn.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Ĉu forbari ĉi tiun uzanton?</string>
     <string name="ConversationFragment_save_to_sd_card">Ĉu konservi al konservejo?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -180,7 +172,6 @@
     <string name="MediaPreviewActivity_draft">Malneto</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session bezonas konservejan aliron por konservi al ekstera konservejo, sed ĝi estis porĉiame malakceptita. Bonvolu iri al la aplikaĵaj agordoj, elekti \"Permesoj\", kaj ŝalti \"Konservejo\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ne eblas konservi en la ekstera konservejo sen permesoj</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Tio daŭre forviŝos ĉi tiun mesaĝon.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d novaj mesaĝoj en %2$d interparoloj</string>
     <string name="MessageNotifier_locked_message">Ŝlosita mesaĝo</string>
@@ -357,7 +348,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nova mesaĝo al...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Forviŝi mesaĝon</string>
     <string name="conversation_context__menu_ban_user">Forbari uzanton</string>
     <string name="conversation_context__menu_ban_and_delete_all">Forbari kaj forviŝi ĉiujn</string>
     <string name="conversation_context__menu_reply_to_message">Respondi mesaĝon</string>
@@ -511,5 +501,4 @@
     <string name="_error">Eraro</string>
     <string name="warning">Averto</string>
     <string name="notify_type_all">Tutaj</string>
-    <string name="deleted_message">Ĉi tiu mesaĝo estis forigita</string>
 </resources>

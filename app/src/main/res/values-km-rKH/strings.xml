@@ -55,12 +55,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sessionត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីថតរូប ឬវីដេអូ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" ហើយបើក \"កាមេរ៉ា\"។</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session​ សុំសិទ្ធិប្រើប្រាស់កាមេរ៉ា ដើម្បីថតរូបភាព ឬវីដេអូ</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="other">លុបសារដែលបានជ្រើសរើស?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="other">នេះនឹងលុបសារ %1$d ដែលបានជ្រើសរើសជារៀងរហូត។</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">រក្សារទុក?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">ការរក្សាទុកទាំងអស់ %1$d ព័ត៌មាននៅលើថាសផ្ទុក នឹងអនុញ្ញាតអោយកម្មវិធីផ្សេងៗ បើកមើលបាន.\n\nបន្ត?</item>
@@ -159,7 +153,6 @@
     <string name="onionRoutingPathYou">អ្នក</string>
     <string name="MediaPreviewActivity_draft">ព្រាង</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">មិនអាចរក្សាទុកក្នុងអង្គរក្សាទុកខាងក្រៅ ដោយគ្មានការអនុញ្ញាត</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">សារនេះនឹងលុប ជារៀងរហូត។</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d សារថ្មីក្នុង %2$d ការសន្ទនា</string>
     <string name="MessageNotifier_locked_message">សារចាក់សោរ</string>
@@ -327,7 +320,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">ផ្ញើសារថ្មីទៅកាន់...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">លុបសារ</string>
     <string name="conversation_context__menu_reply_to_message">ឆ្លើយតបសារ</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">រក្សាឯកសារភ្ជាប់</string>

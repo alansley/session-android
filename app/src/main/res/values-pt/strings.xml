@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session precisa de acesso à câmera para tirar fotos e vídeos, mas ela foi permanentemente negada. Por favor continue para configurações de app, selecione \"Permissões\", e habilite \"Câmera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session precisa de acesso à câmera para tirar fotos ou vídeos.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Deletar mensagem selecionada?</item>
-        <item quantity="other">Deletar mensagens selecionadas?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Isto vai permanentemente deletar a mensagem selecionada.</item>
-        <item quantity="other">Isto vai permanentemente deletar todas as %1$d mensagens selecionadas.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Banir este usuário?</string>
     <string name="ConversationFragment_save_to_sd_card">Salvar em armazenamento?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -181,7 +173,6 @@
     <string name="MediaPreviewActivity_draft">Rascunho</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">O Session precisa de acesso ao armazenamento para poder salvar em um armazenamento externo, mas a permissão está sendo recusada. Por favor vá até as configurações, selecione \"Permissões\", e ative o \"Armazenamento\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Não é possível salvar em armazenamento externo sem permissões</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Isto vai permanentemente deletar esta mensagem.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mensagens novas em %2$d conversas</string>
     <string name="MessageNotifier_locked_message">Mensagem trancada</string>
@@ -358,7 +349,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nova mensagem para...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Deletar mensagem</string>
     <string name="conversation_context__menu_ban_user">Banir usuário</string>
     <string name="conversation_context__menu_ban_and_delete_all">Banir e excluír tudo</string>
     <string name="conversation_context__menu_reply_to_message">Responder a mensagem</string>
@@ -520,7 +510,6 @@
     <string name="_error">Erro</string>
     <string name="warning">Aviso</string>
     <string name="notify_type_all">Tudo</string>
-    <string name="deleted_message">Esta mensagem foi excluída</string>
     <string name="pin">Fixar</string>
     <string name="pinUnpin">Desafixar</string>
 </resources>

@@ -55,14 +55,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session treng tilgang til kameraet for å ta bilete eller videoar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session treng tilgang til kameraet for å ta bilete eller videoopptak</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Vil du sletta vald melding?</item>
-        <item quantity="other">Vil du sletta valde meldingar?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Denne handlinga slettar vald melding for godt.</item>
-        <item quantity="other">Denne handlinga slettar alle %1$d valde meldingar for godt.</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">Vil du lagra på eininga?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Viss du lagrar dette mediet på eininga som ei vanleg fil, kan andre program få tilgang til det.\n\nEr du sikker på at du vil halda fram?</item>
@@ -159,7 +151,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="onionRoutingPathYou">Deg</string>
     <string name="MediaPreviewActivity_draft">Kladd</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan ikkje lagra til eksterne minnekort utan tilgang</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Dette vil sletta denne meldinga for godt.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye meldingar i %2$d samtalar</string>
     <string name="MessageNotifier_locked_message">Låst melding</string>
@@ -320,7 +311,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ny melding til …</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Slett melding</string>
     <string name="conversation_context__menu_reply_to_message">Svar på meldinga</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lagra vedlegg</string>

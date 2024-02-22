@@ -66,12 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal 需要相機的權限來拍攝照片或是影片 ，但是現在系統設定為總是拒絕 Signal。請到 Session 的應用程式設定中，點選「權限」，並啟用相機的權限。</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session 需要使用相機的權限來拍攝照片和影片</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="other">刪除已選訊息？</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="other">這將會永久刪除所有 %1$d 已選訊息</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">確認封鎖此用戶？</string>
     <string name="ConversationFragment_save_to_sd_card">儲存？</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -175,7 +169,6 @@
     <string name="MediaPreviewActivity_draft">草稿</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">會話需要儲存空間存取權才能保存到外部儲存空間，但它已被永久拒絕。 請前往變更權限，啟用「儲存空間」。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">因為沒有儲存的權限，無法儲存到外部儲存空間</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">這將永久刪除此訊息。</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d 則新訊息在 %2$d 的對話中</string>
     <string name="MessageNotifier_locked_message">訊息已鎖</string>
@@ -350,7 +343,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">傳送新訊息給...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">刪除訊息</string>
     <string name="conversation_context__menu_ban_user">封鎖用戶</string>
     <string name="conversation_context__menu_ban_and_delete_all">封鎖並刪除所有</string>
     <string name="conversation_context__menu_reply_to_message">回覆訊息</string>
@@ -512,7 +504,6 @@
     <string name="_error">錯誤</string>
     <string name="warning">警告</string>
     <string name="notify_type_all">所有</string>
-    <string name="deleted_message">此段訊息經已刪除</string>
     <string name="pin">釘選</string>
     <string name="pinUnpin">取消釘選</string>
     <string name="messages">訊息</string>

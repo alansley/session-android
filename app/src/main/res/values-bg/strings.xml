@@ -62,14 +62,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session се нуждае от достъп до камерта Ви, за да може да прави снимки или видеота, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Камера\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session се нуждае от достъп до камерата, за да прави снимки и видеота</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Изтриване на избраното съобщение?</item>
-        <item quantity="other">Изтриване на избраните съобщения?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Това ще изтрие невъзращаемо избраното съобщение.</item>
-        <item quantity="other">Това ще изтрие невъзвращаемо всичките  %1$d избрани съобщения.</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">Запази в хранилището?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Запазването на този медиен файл ще даде достъп до него на всички други приложения.\n\nПродължи?</item>
@@ -173,7 +165,6 @@
     <string name="onionRoutingPathYou">Ти</string>
     <string name="MediaPreviewActivity_draft">Чернова</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Неуспешно запазване на външен диск без нуждното разрешение за достъп</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Това ще изтрие невъзвращаемо текущото съобщение.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нови съобщения в %2$d чата</string>
     <string name="MessageNotifier_locked_message">Заключено съобщение</string>
@@ -342,7 +333,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ново съобщение до...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Изтрий съобщението</string>
     <string name="conversation_context__menu_ban_user">Забрана на потребител</string>
     <string name="conversation_context__menu_ban_and_delete_all">Забрани и изтрий всичко</string>
     <string name="conversation_context__menu_reply_to_message">Отговор на съобщение</string>

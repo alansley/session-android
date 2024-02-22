@@ -67,18 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session potrebuje prístup k fotoaparátu aby mohol vytvárať fotografie a video, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session potrebuje prístup k Fotoaparátu, aby mohol vytvárať fotografie a videá</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Zmazať vybranú správu?</item>
-        <item quantity="few">Zmazať vybrané správy?</item>
-        <item quantity="many">Zmazať vybrané správy?</item>
-        <item quantity="other">Zmazať vybrané správy?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Týmto odstránite zvolenú správu.</item>
-        <item quantity="few">Týmto natrvalo odstránite %1$d vybrané správy.</item>
-        <item quantity="many">Týmto natrvalo odstránite %1$d vybraných správ.</item>
-        <item quantity="other">Týmto natrvalo odstránite %1$d vybraných správ.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Zablokovať tohto používateľa?</string>
     <string name="ConversationFragment_save_to_sd_card">Uložiť na úložisko?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -191,7 +179,6 @@ výmeny kľúčov.</string>
     <string name="onionRoutingPathYou">Vy</string>
     <string name="MediaPreviewActivity_draft">Koncept</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bez povolenia sa nedá zapisovať na externé úložisko</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Týmto natrvalo odstánite túto správu.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nové správy v %2$d konverzáciách</string>
     <string name="MessageNotifier_locked_message">Uzamknutá správa</string>
@@ -372,7 +359,6 @@ výmeny kľúčov.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nová správa pre...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Zmazať správu</string>
     <string name="conversation_context__menu_ban_user">Zablokovať užívateľa</string>
     <string name="conversation_context__menu_reply_to_message">Odpovedať na správu</string>
     <!-- conversation_context_image -->

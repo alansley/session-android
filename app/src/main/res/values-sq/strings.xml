@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Kamerën\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Të fshihet mesazhi i përzgjedhur?</item>
-        <item quantity="other">Të fshihen mesazhet e përzgjedhur?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Kjo do të fshijë përgjithmonë mesazhin e përzgjedhur.</item>
-        <item quantity="other">Kjo do të fshijë përgjithmonë krejt %1$d mesazhet e përzgjedhur.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Blloko këtë përdorues?</string>
     <string name="ConversationFragment_save_to_sd_card">Të ruhet në depozitë?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -180,7 +172,6 @@
     <string name="MediaPreviewActivity_draft">Skicë:</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Për të ruajtur gjëra në depozitë të jashtme, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">S\’bëhet dot ruajtje në depozitë të jashtme pa leje</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Kjo do ta fshijë përgjithmonë këtë mesazh.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mesazhe të reja në %2$d biseda</string>
     <string name="MessageNotifier_locked_message">Mesazh i kyçur</string>
@@ -357,7 +348,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Mesazh i ri për…</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Fshije mesazhin</string>
     <string name="conversation_context__menu_ban_user">Dëboni përdorues</string>
     <string name="conversation_context__menu_ban_and_delete_all">Dëbo dhe fshij të gjitha</string>
     <string name="conversation_context__menu_reply_to_message">Përgjigjuni mesazhin</string>

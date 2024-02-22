@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session heeft toegang nodig tot de camera om foto’s en video’s te kunnen opnemen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Camera’ in.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session heeft toegang tot de camera nodig om foto’s en video’s te kunnen opnemen</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Geselecteerd bericht wissen?</item>
-        <item quantity="other">Geselecteerde berichten wissen?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Dit zal het geselecteerde bericht onherroepelijk wissen.</item>
-        <item quantity="other">Dit zal alle %1$d geselecteerde berichten onherroepelijk wissen.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Deze gebruiker verbannen?</string>
     <string name="ConversationFragment_save_to_sd_card">Opslaan naar SD-kaart?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -181,7 +173,6 @@
     <string name="MediaPreviewActivity_draft">Concept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session heeft toegang tot de camera nodig om een QR-code te scannen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Camera’ in.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan niet opslaan naar externe opslag zonder machtiging</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Dit bericht zal onherroepelijk gewist worden.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nieuwe berichten in %2$d gesprekken</string>
     <string name="MessageNotifier_locked_message">Versleuteld bericht</string>
@@ -358,7 +349,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nieuw bericht naar…</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Bericht wissen</string>
     <string name="conversation_context__menu_ban_user">Verban gebruiker</string>
     <string name="conversation_context__menu_ban_and_delete_all">Blokkeer en verwijder alles</string>
     <string name="conversation_context__menu_reply_to_message">Reageren</string>
@@ -520,7 +510,6 @@
     <string name="_error">Error</string>
     <string name="warning">Waarschuwing</string>
     <string name="notify_type_all">Alle</string>
-    <string name="deleted_message">Dit bericht is verwijderd</string>
     <string name="pin">Vastzetten</string>
     <string name="pinUnpin">Losmaken</string>
 </resources>

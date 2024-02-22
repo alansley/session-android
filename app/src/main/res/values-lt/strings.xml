@@ -70,18 +70,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, Session reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Norint fotografuoti ar filmuoti, Session reikalinga prieiga prie kameros</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Ištrinti pažymėtą žinutę?</item>
-        <item quantity="few">Ištrinti pažymėtas žinutes?</item>
-        <item quantity="many">Ištrinti pažymėtas žinutes?</item>
-        <item quantity="other">Ištrinti pažymėtas žinutes?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Tai visiems laikams ištrins %1$d pasirinktą žinutę.</item>
-        <item quantity="few">Tai visiems laikams ištrins visas %1$d pasirinktas žinutes.</item>
-        <item quantity="many">Tai visiems laikams ištrins visas %1$d pasirinktų žinučių.</item>
-        <item quantity="other">Tai visiems laikams ištrins visas %1$d pasirinktų žinučių.</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">Įrašyti į atmintį?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Šios %1$d medijos įrašymas į atmintį leis bet kuriai programėlei jūsų įrenginyje prieigą prie jos.\n\nTęsti?</item>
@@ -194,7 +182,6 @@
     <string name="onionRoutingPathYou">Jūs</string>
     <string name="MediaPreviewActivity_draft">Juodraštis</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nepavyksta įrašyti į išorinę saugyklą be leidimų</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Tai visiems laikams ištrins šią žinutę.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d naujų(-os) žinutės(-ių) %2$d pokalbyje(-iuose)</string>
     <string name="MessageNotifier_locked_message">Užrakinta žinutė</string>
@@ -374,7 +361,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nauja žinutė, skirta...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Ištrinti žinutę</string>
     <string name="conversation_context__menu_reply_to_message">Atsakyti į žinutę</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Įrašyti priedą</string>
@@ -515,5 +501,4 @@
     <string name="activity_conversation_attachment_prep_failed">Nepavyko paruošti priedo išsiuntimui.</string>
     <string name="_error">Klaida</string>
     <string name="warning">Įspėjimas</string>
-    <string name="deleted_message">Ši žinutė ištrinta</string>
 </resources>

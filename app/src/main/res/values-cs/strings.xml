@@ -71,18 +71,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signál potřebuje oprávnění pro přístup k fotoaparátu aby mohl pořizovat fotografie nebo video, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Fotoaparát\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signál potřebuje přístup k fotoaparátu aby mohl pořizovat fotografie nebo videa.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Smazat označenou zprávu?</item>
-        <item quantity="few">Smazat označené zprávy?</item>
-        <item quantity="many">Smazat označené zprávy?</item>
-        <item quantity="other">Smazat označené zprávy?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Tímto trvale smažete označenou zprávu.</item>
-        <item quantity="few">Tímto trvale smažete všechny %1$d označené zprávy.</item>
-        <item quantity="many">Tímto trvale smažete všech %1$d označených zpráv.</item>
-        <item quantity="other">Tímto trvale smažete všech %1$d označených zpráv.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Vykázat tohoto uživatele?</string>
     <string name="ConversationFragment_save_to_sd_card">Uložit do paměti?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -195,7 +183,6 @@
     <string name="MediaPreviewActivity_draft">Koncept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session potřebuje oprávnění pro přístup k úložišti aby mohl zapisovat do externího úložiště, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nelze ukládat do externího úložiště bez oprávnění</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Tímto trvale smažete tuto zprávu.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nových zpráv v %2$d konverzacích</string>
     <string name="MessageNotifier_locked_message">Zamčená zpráva</string>
@@ -376,7 +363,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nová zpráva ...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Smazat zprávu</string>
     <string name="conversation_context__menu_ban_user">Zablokovat uživatele</string>
     <string name="conversation_context__menu_ban_and_delete_all">Zablokovat a odstranit vše</string>
     <string name="conversation_context__menu_reply_to_message">Odpovědět na zprávu</string>
@@ -538,7 +524,6 @@
     <string name="_error">Chyba</string>
     <string name="warning">Varování</string>
     <string name="notify_type_all">Vše</string>
-    <string name="deleted_message">Tato zpráva byla odstraněna</string>
     <string name="pin">Připnout</string>
     <string name="pinUnpin">Odepnout</string>
 </resources>

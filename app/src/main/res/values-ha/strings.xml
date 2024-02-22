@@ -56,14 +56,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Ji bo kişandina vîdyo an jî wêneyan Session destûra kamera pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Kamera\"yê çalak bike.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Ji bo kişandina vîdyo an jî wêneyan pêdiviya Sessionê bi destûra kamera heye</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Bila peyama bijartî were rakirin?</item>
-        <item quantity="other">Bila peyamên bijartî were jêbirin?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Ev, wê peyama bijartî bi awayekî mayinde jê bibe.</item>
-        <item quantity="other">Ev, wê %1$d peyamên bijartî teva bi awayekî mayinde jê bibe.</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">Bila li bîrbarê were tomarkirin?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Tu medyayê li bîrbarê tomar bike wê sepanên din yê di amûra we de jî destûra gihînê bide vê.\n\n Tê bidomîne?</item>
@@ -162,7 +154,6 @@
     <string name="onionRoutingPathYou">Tu</string>
     <string name="MediaPreviewActivity_draft">Reşnivîs</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bê destûr nabe ku li bîrbara derveyî tomar bibe</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Ev dê bi temamî vê peyamê jê bibe.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d peyamên nû di %2$d axaftin de hene</string>
     <string name="MessageNotifier_locked_message">Peyam kilîdkîrî ye</string>
@@ -328,7 +319,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Peyama nû ji bo...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Peyamê rake</string>
     <string name="conversation_context__menu_reply_to_message">Bersiv bide peyamê</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Servehiyê tomar bike</string>

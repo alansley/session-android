@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal tarvitsee lupaa käyttää laitteesi kameraa kuvien ja videoiden ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session tarvitsee kameran käyttöoikeutta kuvien ja videoiden ottamista varten.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Poistetaanko valittu viesti?</item>
-        <item quantity="other">Poistetaanko valitut viestit?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Tämä poistaa pysyvästi valitun viestin.</item>
-        <item quantity="other">Tämä poistaa pysyvästi kaikki %1$d valittua viestiä.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Estä tämä käyttäjä?</string>
     <string name="ConversationFragment_save_to_sd_card">Kopioi tallennustilaan?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -180,7 +172,6 @@ on viallinen!</string>
     <string name="MediaPreviewActivity_draft">Luonnos</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session tarvitsee luvan tallentaakseen ulkoiseen tallennustilaan, mutta se on pysyvästi kielletty. Jatka sovelluksen asetuksiin, valitse \"luvat\", ja käytä \"tallennustilaa\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tallennus ulkoiseen tallennustilaan ei onnistu ilman käyttöoikeutta.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Tämä poistaa pysyvästi tämän viestin.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d uutta viestiä %2$d keskustelussa</string>
     <string name="MessageNotifier_locked_message">Lukittu viesti</string>
@@ -357,7 +348,6 @@ on viallinen!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Uusi viesti henkilölle...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Poista viesti</string>
     <string name="conversation_context__menu_ban_user">Estä käyttäjä</string>
     <string name="conversation_context__menu_ban_and_delete_all">Estä ja poista kaikki</string>
     <string name="conversation_context__menu_reply_to_message">Vastaa viestiin</string>
@@ -519,7 +509,6 @@ on viallinen!</string>
     <string name="_error">Virhe</string>
     <string name="warning">Varoitus</string>
     <string name="notify_type_all">Kaikki</string>
-    <string name="deleted_message">Tämä viesti on poistettu</string>
     <string name="pin">Koodi</string>
     <string name="pinUnpin">Ohita koodi</string>
 </resources>

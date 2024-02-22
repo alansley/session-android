@@ -31,14 +31,6 @@
     <string name="blockUnblock">sumulula</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tewali App kukwasaganya </string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">siimuula obubaka obulondedwako?</item>
-        <item quantity="other">simuula obubaka obulondedwako?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">obubaka obulondedwako bujja kusiimuuka</item>
-        <item quantity="other">Kino kijja kusimuula bwona %1$d obubaka obulondeddwa</item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">tereka mu terekero</string>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
@@ -215,7 +207,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Obubaka obupya eri...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Siimula obubaka</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Tereka ekigattiddwako.</string>
     <!-- conversation_expiring_off -->

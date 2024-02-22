@@ -133,7 +133,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="onionRoutingPathYou">Anda</string>
     <string name="MediaPreviewActivity_draft">Draf</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tidak bisa menyimpan ke penyimpanan luar tanpa izin</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Pesan ini akan dihapus secara permanen.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d pesan baru dalam %2$d percakapan</string>
     <string name="MessageNotifier_locked_message">Pesan terkunci</string>
@@ -286,7 +285,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Pesan baru ke...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Hapus pesan</string>
     <string name="conversation_context__menu_reply_to_message">Balas pesan</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Simpan lampiran</string>

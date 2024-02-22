@@ -75,22 +75,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">يحتاج Session إلى إذن الكاميرا من أجل التقاط صور وفيديو  ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="zero">حذف المختار؟</item>
-        <item quantity="one">حذف الرسالة المختارة؟</item>
-        <item quantity="two">حذف الرسائل المختارة؟</item>
-        <item quantity="few">حذف الرسائل المختارة؟</item>
-        <item quantity="many">حذف الرسائل المختارة؟</item>
-        <item quantity="other">حذف الرسائل المختارة؟</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="zero">سوف يتم حذف %1$d رسالة مختارة نهائيا.</item>
-        <item quantity="one">هذه العملية سوف تؤدي إلى حذف نهائي للرسالة الختارة.</item>
-        <item quantity="two">سوف يتم حذف %1$d رسالة مختارة نهائيا.</item>
-        <item quantity="few">سوف يتم حذف %1$d رسالة مختارة نهائيا.</item>
-        <item quantity="many">سوف يتم حذف %1$d رسالة مختارة نهائيا.</item>
-        <item quantity="other">سوف يتم حذف %1$d رسالة مختارة نهائيا.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">حظر هذا المستخدم؟</string>
     <string name="ConversationFragment_save_to_sd_card">أحفظ في الذاكرة؟</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -211,7 +195,6 @@
     <string name="MediaPreviewActivity_draft">مسودة:</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">يحتاج Session إلى إذن سعة التخزين من أجل استخدام الذاكرة الخارجية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">لا يمكن الحفظ إلى الذاكرة الخارجية بدون أذونات</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">سوف يقوم هذا بحذف الرسالة كُليًا.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d رسائل جديدة في %2$d محادثات</string>
     <string name="MessageNotifier_locked_message">رسالة مؤمنة</string>
@@ -396,7 +379,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">رسالة جديدة إلى...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">حذف الرسالة</string>
     <string name="conversation_context__menu_ban_user">منع المستخدم</string>
     <string name="conversation_context__menu_ban_and_delete_all">منع و حذف الكل</string>
     <string name="conversation_context__menu_reply_to_message">الرَدّ على الرسالة</string>
@@ -558,7 +540,6 @@
     <string name="_error">خطأ</string>
     <string name="warning">تحذير</string>
     <string name="notify_type_all">كل</string>
-    <string name="deleted_message">تم حذف هذه الرسالة</string>
     <string name="pin">ًًًُُثَبت</string>
     <string name="pinUnpin">الغ التثبيت</string>
 </resources>

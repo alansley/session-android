@@ -62,9 +62,6 @@
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session membutuhkan akses kamera untuk mengambil foto dan video.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session membutuhkan akses penyimpanan untuk mengirim foto dan video.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="other">Hapus pesan yang dipilih?</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Larang pengguna ini?</string>
     <string name="ConversationFragment_save_to_sd_card">Simpan ke penyimpanan?</string>
     <!-- CreateProfileActivity -->
@@ -154,7 +151,6 @@
     <string name="onionRoutingPathYou">Anda</string>
     <string name="MediaPreviewActivity_draft">Draf</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tidak dapat menyimpan ke penyimpanan eksternal tanpa izin</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Ini akan menghapus pesan secara permanen.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">Pesan baru %1$d di percakapan %2$d</string>
     <string name="MessageNotifier_locked_message">Pesan terkunci</string>
@@ -284,7 +280,6 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="deleteMessage">Hapus pesan</string>
     <string name="conversation_context__menu_ban_user">Larang pengguna</string>
     <string name="conversation_context__menu_ban_and_delete_all">Larang dan hapus semua</string>
     <!-- conversation_context_image -->
@@ -368,5 +363,4 @@
     <string name="_error">Galat</string>
     <string name="warning">Peringatan</string>
     <string name="notify_type_all">Semua</string>
-    <string name="deleted_message">Pesan ini telah dihapus</string>
 </resources>

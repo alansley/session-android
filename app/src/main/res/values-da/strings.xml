@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session kræver tilladelse til at tilgå dit kamera, for at kunne tage billeder eller optage video, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Kamera\"</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session kræver tilladelse til at tilgå kameraet, for at kunne tage billeder eller videoer.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Slet valgte besked?</item>
-        <item quantity="other">Slet valgte beskeder?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Dette vil slette den valgte besked permanent.</item>
-        <item quantity="other">Dette sletter %1$d valgte beskeder permanent</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Udeluk denne bruger?</string>
     <string name="ConversationFragment_save_to_sd_card">Gem i hukommelsen?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -179,7 +171,6 @@ udveksel besked!</string>
     <string name="onionRoutingPathYou">Dig</string>
     <string name="MediaPreviewActivity_draft">Kladde</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ikke muligt at gemme til ekstern placering, uden tilladelse</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Dette sletter beskeden permanent</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye beskeder i %2$d samtaler</string>
     <string name="MessageNotifier_locked_message">Låst besked</string>
@@ -356,7 +347,6 @@ udveksel besked!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ny besked til...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Slet besked</string>
     <string name="conversation_context__menu_ban_user">Udeluk bruger</string>
     <string name="conversation_context__menu_ban_and_delete_all">Bandlys og slet alle</string>
     <string name="conversation_context__menu_reply_to_message">Svar på besked</string>
@@ -498,7 +488,6 @@ udveksel besked!</string>
     <string name="_error">Fejl</string>
     <string name="warning">Advarsel</string>
     <string name="notify_type_all">Alle</string>
-    <string name="deleted_message">Denne besked er blevet slettet</string>
     <string name="pin">Fastgør</string>
     <string name="pinUnpin">Frigør</string>
 </resources>

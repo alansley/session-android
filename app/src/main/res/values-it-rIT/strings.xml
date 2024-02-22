@@ -68,14 +68,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session richiede l\'autorizzazione all\'uso della fotocamera per scattare foto o registrare video, ma è stata negata in modo permanente. Si prega di continuare al menu delle impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Fotocamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session richiede l\'autorizzazione all\'uso della fotocamera per scattare foto o registrare video</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Eliminare il messaggio selezionato?</item>
-        <item quantity="other">Eliminare i messaggi selezionati?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Così eliminerai per sempre il messaggio selezionato.</item>
-        <item quantity="other">Saranno eliminati definitivamente i %1$d messaggi selezionati.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Bannare questo utente?</string>
     <string name="ConversationFragment_save_to_sd_card">Salvare in memoria?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -181,7 +173,6 @@ scambia un altro messaggio!</string>
     <string name="MediaPreviewActivity_draft">Bozza</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session richiede l\'autorizzazione per salvare in memoria, ma è stata negata in modo permanente. Si prega di proseguire alle impostazioni dell\'app, selezionare \"Autorizzazioni\", quindi abilitare \"Archiviazione\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Impossibile salvare sulla memoria senza l\'autorizzazione</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Questo messaggio verrà eliminato definitivamente.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nuovi messaggi in %2$d conversazioni</string>
     <string name="MessageNotifier_locked_message">Messaggio bloccato</string>
@@ -358,7 +349,6 @@ scambia un altro messaggio!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nuovo messaggio a...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Cancella messaggio</string>
     <string name="conversation_context__menu_ban_user">Banna utente</string>
     <string name="conversation_context__menu_ban_and_delete_all">Revoca ed elimina tutto</string>
     <string name="conversation_context__menu_reply_to_message">Rispondi al messaggio</string>
@@ -520,7 +510,6 @@ scambia un altro messaggio!</string>
     <string name="_error">Errore</string>
     <string name="warning">Attenzione</string>
     <string name="notify_type_all">Tutte</string>
-    <string name="deleted_message">Questo messaggio è stato eliminato</string>
     <string name="pin">Fissa</string>
     <string name="pinUnpin">Non fissare in alto</string>
     <string name="messages">Messaggi</string>

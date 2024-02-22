@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session, foto və video çəkmək üçün kameraya müraciət etməlidir, ancaq icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Kamera\"nı fəallaşdırın.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session, foto və ya video çəkmək üçün kameraya müraciət etməlidir.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Seçilmiş mesaj silinsin?</item>
-        <item quantity="other">Seçilmiş mesajlar silinsin?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Bu, seçilmiş mesajı birdəfəlik siləcək.</item>
-        <item quantity="other">Bu, seçilmiş %1$d mesajın hamısını birdəfəlik siləcək.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">İstifadəçiyə qadağa qoyulsun?</string>
     <string name="ConversationFragment_save_to_sd_card">Anbarda saxlanılsın?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -181,7 +173,6 @@
     <string name="MediaPreviewActivity_draft">Qaralama</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, xarici anbarda saxlamaq üçün anbara müraciət etməlidir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\"ı fəallaşdırın.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İcazə olmadan xarici anbarda saxlanıla bilmir</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Bu, bu mesajı birdəfəlik siləcək.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d danışıqda %1$d yeni mesaj</string>
     <string name="MessageNotifier_locked_message">Kilidli mesaj</string>
@@ -358,7 +349,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Yeni mesaj...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Mesajı sil</string>
     <string name="conversation_context__menu_ban_user">İstifadəçiyə qadağa qoy</string>
     <string name="conversation_context__menu_ban_and_delete_all">Hamısına qadağa qoy və hamısını sil</string>
     <string name="conversation_context__menu_reply_to_message">Mesajı cavabla</string>
@@ -520,7 +510,6 @@
     <string name="_error">Xəta</string>
     <string name="warning">Xəbərdarlıq</string>
     <string name="notify_type_all">Hamısı</string>
-    <string name="deleted_message">Bu mesaj silindi</string>
     <string name="pin">Sancaqla</string>
     <string name="pinUnpin">Sancağı götür</string>
 </resources>

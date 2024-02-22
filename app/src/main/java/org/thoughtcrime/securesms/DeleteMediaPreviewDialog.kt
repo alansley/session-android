@@ -10,7 +10,7 @@ class DeleteMediaPreviewDialog {
             context.showSessionDialog {
                 iconAttribute(R.attr.dialog_alert_icon)
                 title(R.string.deleteMessage)
-                text(R.string.MediaPreviewActivity_media_delete_confirmation_message)
+                text(R.string.deleteMessageDescriptionEveryone)
                 button(R.string.delete) { doDelete.run() }
                 cancelButton()
             }

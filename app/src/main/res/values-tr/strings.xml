@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session, fotoğraf veya video çekmek için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session fotoğraf veya video çekebilmek için kamera erişimine ihtiyaç duyar</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Seçilen iletileri sil?</item>
-        <item quantity="other">Seçilen iletileri sil?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Bu işlem seçtiğiniz iletiyi kalıcı olarak silecektir.</item>
-        <item quantity="other">Bu işlem seçtiğiniz %1$d iletiyi kalıcı olarak silecektir.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Bu kullanıcıyı yasakla?</string>
     <string name="ConversationFragment_save_to_sd_card">Depolama alanına kaydedilsin mi?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -180,7 +172,6 @@ iletisi alındı!</string>
     <string name="MediaPreviewActivity_draft">Taslak</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, harici depolamaya kaydetmek için depolama erişimine ihtiyaç duyuyor, ancak kalıcı olarak reddedildi. Lütfen uygulama ayarlarına girin, \"İzinler\"i seçin ve \"Depolama\" özelliğini etkinleştirin.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İzinler olmadan harici depolamaya kaydedilemiyor</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Bu eylem bu iletiyi kalıcı olarak silecektir.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d sohbetten %1$d yeni ileti</string>
     <string name="MessageNotifier_locked_message">Kilitli ileti</string>
@@ -357,7 +348,6 @@ iletisi alındı!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Yeni ileti...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">İletiyi sil</string>
     <string name="conversation_context__menu_ban_user">Kullanıcıyı engelle</string>
     <string name="conversation_context__menu_ban_and_delete_all">Tümünü yasakla ve sil</string>
     <string name="conversation_context__menu_reply_to_message">İletiyi yanıtla</string>
@@ -519,7 +509,6 @@ iletisi alındı!</string>
     <string name="_error">Hata</string>
     <string name="warning">Uyarı</string>
     <string name="notify_type_all">Hepsi</string>
-    <string name="deleted_message">Bu mesaj silindi</string>
     <string name="pin">Sabitle</string>
     <string name="pinUnpin">Sabitlemeyi kaldır</string>
 </resources>

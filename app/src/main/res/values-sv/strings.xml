@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session behöver behörigheten Kamera för att ta bilder och filma men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session behöver behörigheten Kamera för att ta bilder och filma</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Radera valt meddelande?</item>
-        <item quantity="other">Radera valda meddelanden?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Detta kommer radera valt meddelande permanent.</item>
-        <item quantity="other">Detta kommer permanent radera %1$d valda meddelanden.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Bannlys den här användaren?</string>
     <string name="ConversationFragment_save_to_sd_card">Spara till lagring?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -180,7 +172,6 @@ för nyckelutbyte!</string>
     <string name="MediaPreviewActivity_draft">Utkast</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session behöver behörigheten Lagring för att spara till extern lagring men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan inte spara till externt utrymme utan behörighet</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Detta kommer permanent radera detta meddelande.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nya meddelanden i %2$d konversationer</string>
     <string name="MessageNotifier_locked_message">Låst meddelande</string>
@@ -357,7 +348,6 @@ för nyckelutbyte!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nytt meddelande till...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Radera meddelande</string>
     <string name="conversation_context__menu_ban_user">Bannlys användare</string>
     <string name="conversation_context__menu_ban_and_delete_all">Bannlys och radera alla</string>
     <string name="conversation_context__menu_reply_to_message">Svara på meddelande</string>
@@ -519,5 +509,4 @@ för nyckelutbyte!</string>
     <string name="_error">Fel</string>
     <string name="warning">Varning</string>
     <string name="notify_type_all">Alla</string>
-    <string name="deleted_message">Detta meddelande har tagits bort</string>
 </resources>

@@ -71,18 +71,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Чтобы сделать фото или видео требуется разрешение на доступ к камере, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите в «Настройки», выберите «Приложения», найдите Session, затем выберите «Разрешения» и включите Камеру.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Для съемки фото или видео Session требуется доступ к камере.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Удалить сообщение?</item>
-        <item quantity="few">Удалить сообщения?</item>
-        <item quantity="many">Удалить сообщения?</item>
-        <item quantity="other">Удалить сообщения?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Выбранное сообщение будет удалено. Это действие нельзя отменить.</item>
-        <item quantity="few">%1$d выбранных сообщения будут удалены. Это действие нельзя отменить.</item>
-        <item quantity="many">%1$d выбранных сообщений будут удалены. Это действие нельзя отменить.</item>
-        <item quantity="other">%1$d выбранных сообщений будут навсегда удалены.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Заблокировать этого пользователя?</string>
     <string name="ConversationFragment_save_to_sd_card">Сохранить в хранилище?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -197,7 +185,6 @@
     <string name="MediaPreviewActivity_draft">Черновик</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Для сохранения во внешнее хранилище приложению Session требуется доступ к хранилищу, однако это разрешение было вами безвозвратно отклонено. Чтобы предоставить это разрешение вручную заново, перейдите в настройки вашего устройства в раздел «Приложения», найдите Session, выберите «Разрешения», и разрешите «Файлы и медиаконтент».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Не удается сохранить во внешнем хранилище. Доступ запрещен</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Это сообщение будет безвозвратно удалено.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d новых сообщений в %2$d диалогах</string>
     <string name="MessageNotifier_locked_message">Сообщение скрыто</string>
@@ -378,7 +365,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Новое сообщение для...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Удалить сообщение</string>
     <string name="conversation_context__menu_ban_user">Заблокировать пользователя</string>
     <string name="conversation_context__menu_ban_and_delete_all">Забанить и удалить все</string>
     <string name="conversation_context__menu_reply_to_message">Ответ на сообщение</string>
@@ -540,7 +526,6 @@
     <string name="_error">Ошибка</string>
     <string name="warning">Предупреждение</string>
     <string name="notify_type_all">Все</string>
-    <string name="deleted_message">Это сообщение было удалено</string>
     <string name="pin">Закрепить</string>
     <string name="pinUnpin">Открепить</string>
 </resources>

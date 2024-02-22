@@ -70,16 +70,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Cameră\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Șterg mesajul selectat?</item>
-        <item quantity="few">Șterg mesajele selectate?</item>
-        <item quantity="other">Șterg mesajele selectate?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Această acțiune va șterge permanent mesajul selectat.</item>
-        <item quantity="few">Această acțiune va șterge permanent toate cele %1$d mesaje selectate.</item>
-        <item quantity="other">Această acțiune va șterge permanent toate cele %1$d mesaje selectate.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Blocați acest utilizator?</string>
     <string name="ConversationFragment_save_to_sd_card">Salvez pe spațiul de stocare?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -191,7 +181,6 @@ schimbul de chei este corupt </string>
     <string name="MediaPreviewActivity_draft">Ciornă</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session are nevoie de permisiune la spațiul de stocarea externa pentru a salva pe spațiul de stocare extern, dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicațiilor, selectați \"Permisiuni\" și activați \"Spațiu de stocare\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nu se poate salva pe spațiu de stocare extern fără permisiune</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Această acțiune va șterge permanent mesajul.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mesaje noi în %2$d conversaţii</string>
     <string name="MessageNotifier_locked_message">Mesaj blocat</string>
@@ -370,7 +359,6 @@ schimbul de chei este corupt </string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Mesajul nou către...</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Şterge mesajul</string>
     <string name="conversation_context__menu_ban_user">Blochează utilizator</string>
     <string name="conversation_context__menu_ban_and_delete_all">Interzice și șterge toate</string>
     <string name="conversation_context__menu_reply_to_message">Răspunde la mesaj</string>

@@ -1820,8 +1820,8 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
             val messageCount = 1
 
             showSessionDialog {
-                title(resources.getQuantityString(R.plurals.ConversationFragment_delete_selected_messages, messageCount, messageCount))
-                text(resources.getQuantityString(R.plurals.ConversationFragment_this_will_permanently_delete_all_n_selected_messages, messageCount, messageCount))
+                title(resources.getString(R.string.deleteMessage))
+                text(resources.getString(R.string.deleteMessageDescriptionEveryone))
                 button(R.string.delete) { messages.forEach(viewModel::deleteForEveryone); endActionMode() }
                 cancelButton { endActionMode() }
             }
@@ -1847,8 +1847,8 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
             val messageCount = 1
 
             showSessionDialog {
-                title(resources.getQuantityString(R.plurals.ConversationFragment_delete_selected_messages, messageCount, messageCount))
-                text(resources.getQuantityString(R.plurals.ConversationFragment_this_will_permanently_delete_all_n_selected_messages, messageCount, messageCount))
+                title(resources.getString(R.string.deleteMessage))
+                text(resources.getString(R.string.deleteMessageDescriptionEveryone))
                 button(R.string.delete) { messages.forEach(viewModel::deleteLocally); endActionMode() }
                 cancelButton(::endActionMode)
             }

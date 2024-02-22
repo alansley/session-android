@@ -67,14 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session benötigt die Berechtigung »Kamera« für die Aufnahme von Fotos oder Videos, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Kamera«.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session benötigt die Berechtigung »Kamera«, um Fotos oder Videos aufzunehmen.</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Ausgewählte Nachricht löschen?</item>
-        <item quantity="other">Ausgewählte Nachrichten löschen?</item>
-    </plurals>
-    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
-        <item quantity="one">Dies wird die ausgewählte Nachricht unwiderruflich löschen.</item>
-        <item quantity="other">Dies wird alle %1$d ausgewählten Nachrichten unwiderruflich löschen.</item>
-    </plurals>
     <string name="ConversationFragment_ban_selected_user">Diesen Benutzer sperren?</string>
     <string name="ConversationFragment_save_to_sd_card">Im Gerätespeicher speichern?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -179,7 +171,6 @@
     <string name="MediaPreviewActivity_draft">Entwurf</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Die Sitzung benötigt Speicherzugriff, um auf einem externen Speicher zu speichern, aber dieser wurde dauerhaft verweigert. Gehe bitte zu den App-Einstellungen, wähle »Berechtigungen« und aktiviere »Speicher«.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Speichern in den Gerätespeicher ohne Berechtigungen nicht möglich.</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">Dies wird diese Nachricht unwiderruflich löschen.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d neue Nachrichten in %2$d Unterhaltungen</string>
     <string name="MessageNotifier_locked_message">Gesperrte Nachricht</string>
@@ -356,7 +347,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Neue Nachricht an …</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Nachrichten löschen</string>
     <string name="conversation_context__menu_ban_user">Nutzer speeren</string>
     <string name="conversation_context__menu_ban_and_delete_all">Sperren und alles löschen</string>
     <string name="conversation_context__menu_reply_to_message">Auf Nachricht antworten</string>
@@ -518,7 +508,6 @@
     <string name="_error">Fehler</string>
     <string name="warning">Warnung</string>
     <string name="notify_type_all">Alle</string>
-    <string name="deleted_message">Die Nachricht wurde gelöscht</string>
     <string name="pin">Anheften</string>
     <string name="pinUnpin">Abheften</string>
 </resources>

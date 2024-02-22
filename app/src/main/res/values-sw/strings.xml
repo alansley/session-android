@@ -46,10 +46,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session inahitaji kibali cha Kamera kuchukua picha au video, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session inahitaji uruhusu kamera kuchukua picha na video</string>
     <!-- ConversationFragment -->
-    <plurals name="ConversationFragment_delete_selected_messages">
-        <item quantity="one">Futa ujumbe uliochaguliwa?</item>
-        <item quantity="other">Futa </item>
-    </plurals>
     <string name="ConversationFragment_save_to_sd_card">Hifadhi kwa kuhifadhi</string>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">picha ya wasifu</string>
@@ -127,7 +123,6 @@
     <string name="onionRoutingPathYou">Wewe</string>
     <string name="MediaPreviewActivity_draft">rasimu</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">haiwezekani kuhifadhi kwenye external storage  bila ruhusa</string>
-    <string name="MediaPreviewActivity_media_delete_confirmation_message">hii itafuta ujumbe kwa kudumu</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">1%1$d ujumbe mpya kwa  2%2$d mazungumzo</string>
     <string name="MessageNotifier_locked_message">ujumbe umefungiwa</string>
@@ -287,7 +282,6 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ujumbe mpya kuelekea..</string>
     <!-- conversation_context -->
-    <string name="deleteMessage">Futa ujumbe</string>
     <string name="conversation_context__menu_reply_to_message">Jibu ujumbe</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Hifadhi attachment</string>
