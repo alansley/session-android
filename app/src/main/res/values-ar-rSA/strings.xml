@@ -4,7 +4,6 @@
     <string name="yes">نعم</string>
     <string name="no">لا</string>
     <string name="delete">حذف</string>
-    <string name="ban">حظر</string>
     <string name="save">حفظ</string>
     <string name="noteToSelf">ملاحظة لنفسي</string>
     <string name="version_s">النسخة %s</string>
@@ -75,7 +74,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">يحتاج Session إلى إذن الكاميرا من أجل التقاط صور وفيديو  ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">حظر هذا المستخدم؟</string>
     <string name="ConversationFragment_save_to_sd_card">أحفظ في الذاكرة؟</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="zero">حفظ %1$d وسيط في الذاكرة يسمح ﻷي تطبيق آخر على الهاتف من النفاذ له. \n\nاستمر؟</item>
@@ -112,24 +110,6 @@
     <string name="LongMessageActivity_message_from_s">رسالة من %1$s</string>
     <string name="LongMessageActivity_your_message">رسالتك</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="zero">حذف المحادثات المختارة؟</item>
-        <item quantity="one">حذف المحادثات المختارة؟</item>
-        <item quantity="two">حذف المحادثات المختارة؟</item>
-        <item quantity="few">حذف المحادثات المختارة؟</item>
-        <item quantity="many">حذف الرسائل المختارة؟</item>
-        <item quantity="other">حذف الرسائل المختارة؟</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="zero">سوف يؤدي هذا إلى حذف الرسائل المحددة بشكل نهائي.</item>
-        <item quantity="one">سيؤدي هذا الى حذف الرسالة نهائيا.</item>
-        <item quantity="two">سيؤدي هذا إلىحذف الرسالتان نهائيا.</item>
-        <item quantity="few">سيؤدي هذا الى حذف %1$d رسالة نهائيا.</item>
-        <item quantity="many">سيؤدي هذا الى حذف %1$d رسالة نهائيا.</item>
-        <item quantity="other">سوف يؤدي هذا إلى حذف رسائل %1$d بشكل نهائي.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">جارٍ الحذف</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">حذف الرسائل جارٍ...</string>
     <string name="attachmentsCollecting">جارٍ جمع المرفقات...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">رسالة وسائط متعددة</string>
@@ -379,8 +359,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">رسالة جديدة إلى...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">منع المستخدم</string>
-    <string name="conversation_context__menu_ban_and_delete_all">منع و حذف الكل</string>
+    <string name="banUser">منع المستخدم</string>
     <string name="conversation_context__menu_reply_to_message">الرَدّ على الرسالة</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">حفظ المرفق</string>
@@ -406,7 +385,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">معاينة الوسائط</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">جارٍ الحذف</string>
+    <string name="deleting">جارٍ الحذف</string>
     <string name="trimmer__deleting_old_messages">جار حذف الرسائل القديمة...</string>
     <string name="trimmer__old_messages_successfully_deleted">تم حذف الرسائل القديمة بنجاح</string>
     <!-- transport_selection_list_item -->

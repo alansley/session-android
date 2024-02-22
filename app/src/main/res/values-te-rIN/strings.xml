@@ -4,7 +4,6 @@
     <string name="yes">అవును</string>
     <string name="no">కాదు</string>
     <string name="delete">తొలగించండి</string>
-    <string name="ban">Nishedham</string>
     <string name="save">భద్రపరుచు</string>
     <string name="noteToSelf">Sviya gamanika</string>
     <string name="version_s">Sanskarana %s</string>
@@ -96,16 +95,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">మాటతో కూడిన సందేశాన్ని రికార్డు చేయుటకు తడుతూనే ఉంచి , పంపుటకు వదిలివేయండి.</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">ఎంపిక చేసిన సందేశాలను తొలగించాలా?</item>
-        <item quantity="other">ఎంచుకున్న సందేశాలు తొలగించాలా?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">ఇది అన్ని% 1 $ d ఎంచుకున్న సందేశాలను శాశ్వతంగా తొలగిస్తుంది.</item>
-        <item quantity="other">ఇది అన్ని%1$d ఎంచుకున్న సందేశాలను శాశ్వతంగా తొలగిస్తుంది.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">తొలగిపోతున్నాయ్</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">సందేశాలను తొలగిస్తోంది ...</string>
     <string name="attachmentsCollecting">జోడింపుల సేకరణ ...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">మల్టీమీడియా సందేశం</string>
@@ -348,7 +337,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">మీడియా ప్రివ్యూ</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">తొలగిపోతున్నాయ్</string>
+    <string name="deleting">తొలగిపోతున్నాయ్</string>
     <string name="trimmer__deleting_old_messages">పాత సందేశాలను తొలగిస్తోంది ...</string>
     <string name="trimmer__old_messages_successfully_deleted">పాత సందేశాలు విజయవంతంగా తొలగించబడ్డాయి </string>
     <!-- transport_selection_list_item -->

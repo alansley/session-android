@@ -4,7 +4,6 @@
     <string name="yes">Այո</string>
     <string name="no">Ոչ</string>
     <string name="delete">Ջնջել</string>
-    <string name="ban">Արգելափակել</string>
     <string name="please_wait">Խնդրում ենք սպասել…</string>
     <string name="save">Պահպանել</string>
     <string name="noteToSelf">Նշում ինքս ինձ</string>
@@ -68,7 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session-ը պահանջում է տեսախցիկի թույլտվություն լուսանկարելու համար: Խնդրում ենք անցնել հավելվածի կարգավորումների ցանկ, ընտրել «Թույլտվություններ» և միացնել «Տեսախցիկ» թույլտվությունը.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն լուսանկարելու կամ տեսանյութեր ձայնագրելու համար.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Արգելափակել այս օգտատիրոջը?</string>
     <string name="ConversationFragment_save_to_sd_card">Պահպանե՞լ սարքի մեջ։</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Այս մեդիան պահպանելով սարքի մեջ մնացած հավելվածները կկարողանան տեսնել այն։\n\nՇարունակե՞լ։</item>
@@ -101,16 +99,6 @@
     <string name="LongMessageActivity_message_from_s">Նամակ %1$s֊ից</string>
     <string name="LongMessageActivity_your_message">Ձեր նամակը</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Ջնջե՞լ ընտրված հաղորդագրությունը։</item>
-        <item quantity="other">Ջնջե՞լ ընտրված հաղորդագրությունները։</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Սա ընդմիշտ կջնջի ընտրված հաղորդագրությունները։</item>
-        <item quantity="other">Սա ընդմիշտ կջնջի բոլոր %1$d ընտրված հաղորդագրությունները։</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Ջնջվում է</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Հաղորդագրությունները ջնջվում են...</string>
     <string name="attachmentsCollecting">Կցորդների հավաքում...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Մուլտիմեդիա հաղորդագրություններ</string>
@@ -352,8 +340,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Նոր հաղորդագրություն...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Արգելափակել օգտատիրոչը</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Արգելաֆակել և ջնջել ամբողջը</string>
+    <string name="banUser">Արգելափակել օգտատիրոչը</string>
     <string name="conversation_context__menu_reply_to_message">Պատասխանել հաղորդագրությանը</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Պահպանել կցորդը</string>
@@ -379,7 +366,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Կցորդների նախադիտում</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Ջնջում</string>
+    <string name="deleting">Ջնջում</string>
     <string name="trimmer__deleting_old_messages">Հին հաղորդագրությունները ջնջվում են...</string>
     <string name="trimmer__old_messages_successfully_deleted">Հին հաղորդագրությունները հաջողությամբ ջնջվեցին</string>
     <!-- transport_selection_list_item -->

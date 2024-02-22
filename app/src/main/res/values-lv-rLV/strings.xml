@@ -4,7 +4,6 @@
     <string name="yes">Jā</string>
     <string name="no">Nē</string>
     <string name="delete">Dzēst</string>
-    <string name="ban">Aizliegt</string>
     <string name="save">Saglabāt</string>
     <string name="noteToSelf">Piezīme sev</string>
     <string name="version_s">Versija %s</string>
@@ -52,7 +51,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sesijai ir nepieciešama atļauja piekļūt kamerai, lai uzņemtu attēlus un video, bet tā ir pastāvīgi aizliegta. Lūdzu, ejiet uz programmu iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Kamera”.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Sesijai nepieciešama piekļuve kamerai, lai uzņemtu attēlus un video.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Aizliegt šī lietotāja darbību?</string>
     <string name="ConversationFragment_save_to_sd_card">Saglabāt krātuvē?</string>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Profila bilde</string>

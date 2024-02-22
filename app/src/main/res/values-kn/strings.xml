@@ -4,7 +4,6 @@
     <string name="yes">ಹೌದು</string>
     <string name="no">ಇಲ್ಲ</string>
     <string name="delete">ಅಳಿಸಿ ಹಾಕು</string>
-    <string name="ban">ನಿಷೇಧಿಸು</string>
     <string name="save">ಉಳಿಸಿ</string>
     <string name="noteToSelf">ನನಗಾಗಿ ಟಿಪ್ಪಣಿ</string>
     <string name="version_s">%s ಆವೃತ್ತಿ</string>
@@ -61,8 +60,6 @@
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_your_message">ನಿಮ್ಮ ಸಂದೇಶ</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media_delete_progress_title">ಅಳಿಸಿ ಹಾಕಲಾಗುತ್ತಿದೆ</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ ಹಾಕಲಾಗುತ್ತಿದೆ...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ಮಲ್ಟಿಮೀಡಿಯಾ ಸಂದೇಶ</string>
     <!-- MediaPickerActivity -->

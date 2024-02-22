@@ -51,8 +51,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Nyiga olemezeko okukwata obubaka bwedobozi, gyako okuwereza </string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Okusangula</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Obubabaka busangulwa</string>
     <string name="attachmentsCollecting">ebigatibwako bikunganyizibwa</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">obubaka obwa  vidiyo oba amaloboozi</string>
@@ -230,7 +228,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Lozaako ku bifaananyi, vidiyo n\'enyimba</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Okusangula</string>
+    <string name="deleting">Okusangula</string>
     <string name="trimmer__deleting_old_messages">Okusangula obubaka obukadde</string>
     <string name="trimmer__old_messages_successfully_deleted">Obubaka obukadde busangulidwa ddala</string>
     <!-- transport_selection_list_item -->

@@ -64,7 +64,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sessionで写真や動画を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Sessionで写真や動画を撮るには、カメラへのアクセス許可が必要です。</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">このユーザーをバンしますか?</string>
     <string name="ConversationFragment_save_to_sd_card">ストレージに保存しますか？</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">%1$d個のメディア・ファイルをすべて外部メモリに保存することで、他のアプリからアクセスすることが可能になります。\n\n続行しますか？</item>
@@ -96,14 +95,6 @@
     <string name="LongMessageActivity_message_from_s">%1$sからのメッセージ</string>
     <string name="LongMessageActivity_your_message">あなたのメッセージ</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="other">選択したメッセージを削除しますか？</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="other">選択した%1$d件のメッセージを完全に削除します。</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">削除中</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">メッセージを削除中...</string>
     <string name="attachmentsCollecting">添付ファイルを集めています...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">マルチメディアメッセージ</string>
@@ -338,8 +329,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">新着メッセージ…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">ユーザーをバンする</string>
-    <string name="conversation_context__menu_ban_and_delete_all">バンして全て削除する</string>
+    <string name="banUser">ユーザーをバンする</string>
     <string name="conversation_context__menu_reply_to_message">メッセージに返信</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">添付ファイルを保存</string>
@@ -365,7 +355,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">メディアのプレビュー</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">削除中</string>
+    <string name="deleting">削除中</string>
     <string name="trimmer__deleting_old_messages">古いメッセージを削除しています...</string>
     <string name="trimmer__old_messages_successfully_deleted">古いメッセージを削除しました</string>
     <!-- transport_selection_list_item -->

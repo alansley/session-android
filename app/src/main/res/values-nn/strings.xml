@@ -85,16 +85,6 @@
     <string name="LongMessageActivity_message_from_s">Melding frå %1$s</string>
     <string name="LongMessageActivity_your_message">Di melding</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Slett den valde meldinga?</item>
-        <item quantity="other">Slett dei valde meldingane?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Dette vil sletta den valde meldinga for godt.</item>
-        <item quantity="other">Dette vil sletta alle dei %1$d valde meldingane for godt.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Slettar</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Slettar meldingar …</string>
     <string name="attachmentsCollecting">Hentar vedlegg …</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediemelding</string>
@@ -336,7 +326,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Førehandsvising av media</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Slettar</string>
+    <string name="deleting">Slettar</string>
     <string name="trimmer__deleting_old_messages">Slettar gamle meldingar …</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamle meldingar vart sletta</string>
     <!-- transport_selection_list_item -->

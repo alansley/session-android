@@ -4,7 +4,6 @@
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="delete">Suprimeix</string>
-    <string name="ban">Bloca</string>
     <string name="save">Desa</string>
     <string name="noteToSelf">Notifica-m\'ho</string>
     <string name="version_s">Versió %s</string>
@@ -64,7 +63,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">El Session necessita el permís de la càmera per tal de fer fotografies i vídeos, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi la càmera.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">El Session necessita el permís de la càmera per fer fotografies i vídeos.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Vols blocar aquest usuari?</string>
     <string name="ConversationFragment_save_to_sd_card">Voleu desar-ho a l\'emmagatzematge?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Desar aquest mitjà a emmagatzematge permetrà que qualsevol altra aplicació del dispositiu també hi pugui accedir.\n\nVoleu continuar?</item>
@@ -97,16 +95,6 @@
     <string name="LongMessageActivity_message_from_s">Missatge de %1$s</string>
     <string name="LongMessageActivity_your_message">El vostre missatge</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Voleu suprimir el missatge seleccionat?</item>
-        <item quantity="other">Voleu suprimir els missatges seleccionats?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Se suprimirà de manera permanent el missatge seleccionat.</item>
-        <item quantity="other">Se suprimiran de manera permanent els %1$d missatges seleccionats.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Suprimint</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Suprimint missatges...</string>
     <string name="attachmentsCollecting">S\'estan adjuntant els fitxers...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Missatge multimèdia</string>
@@ -344,7 +332,7 @@ d\'intercanvi de claus!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Missatge nou per a...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Bloca l\'usuari</string>
+    <string name="banUser">Bloca l\'usuari</string>
     <string name="conversation_context__menu_reply_to_message">Respon el missatge</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Desa l\'adjunt</string>
@@ -370,7 +358,7 @@ d\'intercanvi de claus!</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Previsualització multimèdia</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Suprimint</string>
+    <string name="deleting">Suprimint</string>
     <string name="trimmer__deleting_old_messages">Suprimint els missatges antics...</string>
     <string name="trimmer__old_messages_successfully_deleted">S\'han suprimit correctament els missatges antics</string>
     <!-- transport_selection_list_item -->

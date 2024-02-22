@@ -4,7 +4,6 @@
     <string name="yes">جی ہاں</string>
     <string name="no">نہیں</string>
     <string name="delete">حذف کریں</string>
-    <string name="ban">پابندی</string>
     <string name="save">محفوظ کریں</string>
     <string name="noteToSelf">خود کو نوٹ کریں</string>
     <string name="version_s">ورژن %s</string>
@@ -72,8 +71,6 @@
     <string name="LongMessageActivity_message_from_s">%1$s کی طرف سے پیغام</string>
     <string name="LongMessageActivity_your_message">آپ کا پیغام</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media_delete_progress_title">حذف کرنے کا عمل جاری ہے</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">پیغامات حذف ہو رہے ہیں...</string>
     <string name="attachmentsCollecting">منسلکات کو جمع کرنے کا عمل جاری ہے...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ملٹی میڈیا پیغام</string>

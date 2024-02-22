@@ -6,7 +6,6 @@
     <string name="delete">Delete</string>
     <string name="resend">Resend</string>
     <string name="reply">Reply</string>
-    <string name="ban">Ban</string>
     <string name="please_wait">Please wait…</string>
     <string name="save">Save</string>
     <string name="image">Image</string>
@@ -219,7 +218,6 @@
     <string name="callsPermissionsRequired">Call Permissions Required</string>
     <string name="ConversationActivity_send_after_approval">You will be able to send voice messages and attachments once the recipient has approved this message request</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Ban this user?</string>
     <string name="ConversationFragment_save_to_sd_card">Save to storage?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Saving this media to storage will allow any other apps on your device to access it.\n\nContinue?</item>
@@ -252,16 +250,6 @@
     <string name="LongMessageActivity_message_from_s">Message from %1$s</string>
     <string name="LongMessageActivity_your_message">Your message</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Delete selected message?</item>
-        <item quantity="other">Delete selected messages?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">This will permanently delete the selected message.</item>
-        <item quantity="other">This will permanently delete all %1$d selected messages.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Deleting</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Deleting messages...</string>
     <string name="attachmentsCollecting">Collecting attachments...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia message</string>
@@ -530,8 +518,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">New message to...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Ban user</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Ban and delete all</string>
+    <string name="banUser">Ban user</string>
     <string name="conversation_context__menu_resync_message">Resync message</string>
     <string name="conversation_context__menu_reply">Reply</string>
     <string name="conversation_context__menu_reply_to_message">Reply to message</string>
@@ -561,7 +548,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Media preview</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Deleting</string>
+    <string name="deleting">Deleting</string>
     <string name="trimmer__deleting_old_messages">Deleting old messages...</string>
     <string name="trimmer__old_messages_successfully_deleted">Old messages successfully deleted</string>
     <!-- transport_selection_list_item -->
@@ -936,5 +923,6 @@
     <string name="deleteMessage">Delete Message</string>
     <string name="deleteMessageDescriptionEveryone">Are you sure you want to delete this message for everyone?</string>
     <string name="deleteMessageDeleted">Message deleted</string>
+    <string name="deleteMessages">Delete Messages</string>
 
 </resources>

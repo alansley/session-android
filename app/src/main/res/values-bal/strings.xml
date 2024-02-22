@@ -74,8 +74,6 @@
     <string name="LongMessageActivity_message_from_s">pesan dari %1$s</string>
     <string name="LongMessageActivity_your_message">pesanmu</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Menghapus</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Menghapus pesan...</string>
     <string name="attachmentsCollecting">Mengumpulkan lampiran...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Pesan multimedia</string>
@@ -310,7 +308,7 @@ memproses pertukaran kunci korupsi.</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Pratinjau media</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Menghapus</string>
+    <string name="deleting">Menghapus</string>
     <string name="trimmer__deleting_old_messages">Menghapus pesan lama...</string>
     <string name="trimmer__old_messages_successfully_deleted">Pesan lama berhasil dihapus</string>
     <!-- transport_selection_list_item -->

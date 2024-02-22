@@ -4,7 +4,6 @@
     <string name="yes">Igen</string>
     <string name="no">Nem</string>
     <string name="delete">Törlés</string>
-    <string name="ban">Tiltás</string>
     <string name="save">Mentés</string>
     <string name="noteToSelf">Privát feljegyzés</string>
     <string name="version_s">Verzió %s</string>
@@ -68,7 +67,6 @@
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">A Session-nak szüksége van Kamera engedélyekre fotók és videók készítéséhez</string>
     <!-- ConversationFragment -->
     <string name="callsPermissionsRequired">Hívás engedély szükséges</string>
-    <string name="ConversationFragment_ban_selected_user">Tiltod ezt a felhasználót?</string>
     <string name="ConversationFragment_save_to_sd_card">Mentés tárolóra?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">A média mentése a tárolóra lehetővé teszi bármelyik másik alkalmazásnak a készülékeden, hogy hozzáférjen.\n\nFolytatod?</item>
@@ -101,16 +99,6 @@
     <string name="LongMessageActivity_message_from_s">Üzenet tőle: %1$s</string>
     <string name="LongMessageActivity_your_message">Saját üzenet</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Törlöd a kiválasztott üzenetet?</item>
-        <item quantity="other">Törlöd a kiválasztott üzeneteket?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Ez véglegesen törölni fogja a kiválasztott üzenetet.</item>
-        <item quantity="other">Ez véglegesen törölni fogja mind a(z) %1$d db kiválasztott üzenetet.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Törlés</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Üzenetek törlése...</string>
     <string name="attachmentsCollecting">Mellékletek összegyűjtése...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimédia üzenet</string>
@@ -350,8 +338,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Új üzenet...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Felhasználó kitiltása</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Tiltás és minden törlése</string>
+    <string name="banUser">Felhasználó kitiltása</string>
     <string name="conversation_context__menu_reply_to_message">Válasz az üzenetre</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Melléklet mentése</string>
@@ -377,7 +364,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Média előnézet</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Törlés</string>
+    <string name="deleting">Törlés</string>
     <string name="trimmer__deleting_old_messages">Régi üzenetek törlése...</string>
     <string name="trimmer__old_messages_successfully_deleted">A régi üzenetek törlése sikerült</string>
     <!-- transport_selection_list_item -->

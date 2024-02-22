@@ -4,7 +4,6 @@
     <string name="yes">Jes</string>
     <string name="no">Ne</string>
     <string name="delete">Forviŝi</string>
-    <string name="ban">Forbari</string>
     <string name="save">Konservi</string>
     <string name="noteToSelf">Noto al Mi mem</string>
     <string name="version_s">Versio %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session bezonas la Fotilo-permeson por preni fotojn aŭ videojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Fotilo“.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session bezonas la Fotilo-permeson por preni fotojn aŭ videaĵojn</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Ĉu forbari ĉi tiun uzanton?</string>
     <string name="ConversationFragment_save_to_sd_card">Ĉu konservi al konservejo?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Konservi tiun aŭdvidaĵon al konservejo ebligas al iuj ajn aplikaĵoj ĉe via aparato aliri al ili.\n\nĈu daŭrigi?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Mesaĝo el %1$s</string>
     <string name="LongMessageActivity_your_message">Via mesaĝo</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Ĉu forviŝi elektitan mesaĝon?</item>
-        <item quantity="other">Ĉu forigi elektitajn mesaĝojn?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Tio porĉiame forviŝos la elektitan mesaĝon.</item>
-        <item quantity="other">Tio porĉiame forigos ĉiujn %1$d elektitajn mesaĝojn.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Forviŝante</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Forviŝante mesaĝojn...</string>
     <string name="attachmentsCollecting">Kolekto de kunsendaĵoj...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Aŭdvida mesaĝo</string>
@@ -348,8 +336,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nova mesaĝo al...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Forbari uzanton</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Forbari kaj forviŝi ĉiujn</string>
+    <string name="banUser">Forbari uzanton</string>
     <string name="conversation_context__menu_reply_to_message">Respondi mesaĝon</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Konservi kunsendaĵon</string>
@@ -375,7 +362,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Aŭdvida antaŭrigardo</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Forviŝado</string>
+    <string name="deleting">Forviŝado</string>
     <string name="trimmer__deleting_old_messages">Forviŝante malnovajn mesaĝojn...</string>
     <string name="trimmer__old_messages_successfully_deleted">Malnovaj mesaĝoj sukcese forviŝiĝis</string>
     <!-- transport_selection_list_item -->

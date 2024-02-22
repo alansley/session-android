@@ -4,7 +4,6 @@
     <string name="yes">Evet</string>
     <string name="no">Hayır</string>
     <string name="delete">Sil</string>
-    <string name="ban">Yasakla</string>
     <string name="save">Kaydet</string>
     <string name="noteToSelf">Kendime Not</string>
     <string name="version_s">Sürüm %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session, fotoğraf veya video çekmek için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session fotoğraf veya video çekebilmek için kamera erişimine ihtiyaç duyar</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Bu kullanıcıyı yasakla?</string>
     <string name="ConversationFragment_save_to_sd_card">Depolama alanına kaydedilsin mi?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Bu medyayı depolama alanına kaydetmek, telefonunuzdaki diğer uygulamaların erişimine izin verecektir.\n\nDevam edilsin mi?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">%1$s kişisinden ileti</string>
     <string name="LongMessageActivity_your_message">İletiniz</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Seçilen iletiyi sil?</item>
-        <item quantity="other">Seçilen iletileri sil?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Bu eylem seçtiğiniz iletiyi kalıcı olarak silecektir.</item>
-        <item quantity="other">Bu eylem seçtiğiniz %1$d iletiyi kalıcı olarak silecektir.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Siliniyor</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">İletiler siliniyor...</string>
     <string name="attachmentsCollecting">Eklentiler toplanıyor...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Çoğulortam iletisi</string>
@@ -348,8 +336,7 @@ iletisi alındı!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Yeni ileti...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Kullanıcıyı engelle</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Tümünü yasakla ve sil</string>
+    <string name="banUser">Kullanıcıyı engelle</string>
     <string name="conversation_context__menu_reply_to_message">İletiyi yanıtla</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Eklentiyi kaydet</string>
@@ -375,7 +362,7 @@ iletisi alındı!</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Medya önizlemesi</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Siliniyor</string>
+    <string name="deleting">Siliniyor</string>
     <string name="trimmer__deleting_old_messages">Eski iletiler siliniyor...</string>
     <string name="trimmer__old_messages_successfully_deleted">Eski iletiler başarıyla silindi</string>
     <!-- transport_selection_list_item -->

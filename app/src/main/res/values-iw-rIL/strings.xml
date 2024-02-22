@@ -4,7 +4,6 @@
     <string name="yes">כן</string>
     <string name="no">לא</string>
     <string name="delete">מחק</string>
-    <string name="ban">הסר</string>
     <string name="save">שמור</string>
     <string name="noteToSelf">הערה לעצמי</string>
     <string name="version_s">גרסה %s</string>
@@ -69,7 +68,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session צריך את הרשאת המצלמה כדי לצלם תצלומים או וידיאו, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מצלמה\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session צריך הרשאות מצלמה כדי לצלם תצלומים או להקליט וידיאו</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">חסום משתמש זה?</string>
     <string name="ConversationFragment_save_to_sd_card">לשמור באחסון?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">שמירת המדיה הזאת לאחסון תאפשר לכל אפליקציה אחרת לגשת אליהם.\n\nלהמשיך?</item>
@@ -104,20 +102,6 @@
     <string name="LongMessageActivity_message_from_s">הודעה מאת %1$s</string>
     <string name="LongMessageActivity_your_message">ההודעה שלך</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">למחוק הודעה נבחרת?</item>
-        <item quantity="two">למחוק הודעות נבחרות?</item>
-        <item quantity="many">למחוק הודעות נבחרות?</item>
-        <item quantity="other">למחוק הודעות נבחרות?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">זה ימחק לצמיתות את ההודעה הנבחרת.</item>
-        <item quantity="two">זה ימחק לצמיתות את כל %1$d ההודעות הנבחרות.</item>
-        <item quantity="many">זה ימחק לצמיתות את כל %1$d ההודעות הנבחרות.</item>
-        <item quantity="other">זה ימחק לצמיתות את כל %1$d ההודעות הנבחרות.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">מוחק</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">מוחק הודעות...</string>
     <string name="attachmentsCollecting">אוסף צרופות...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">הודעת מולטימדיה</string>
@@ -384,7 +368,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">קדם־תצוגה של מדיה</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">מוחק</string>
+    <string name="deleting">מוחק</string>
     <string name="trimmer__deleting_old_messages">מוחק הודעות ישנות...</string>
     <string name="trimmer__old_messages_successfully_deleted">הודעות ישנות נמחקו בהצלחה</string>
     <!-- transport_selection_list_item -->

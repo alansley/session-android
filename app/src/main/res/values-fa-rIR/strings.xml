@@ -3,7 +3,6 @@
     <string name="yes">بله</string>
     <string name="no">خیر</string>
     <string name="delete">حذف</string>
-    <string name="ban">مسدود کردن</string>
     <string name="please_wait">لطفا صبر کنید…</string>
     <string name="save">ذخیره</string>
     <string name="noteToSelf">یادداشت به خود</string>
@@ -68,7 +67,6 @@
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session برای عکس گرفتن یا ضبط ویدیو نیاز به دسترسی به دوربین دارد</string>
     <string name="callsPermissionsRequired">دسترسی تلفن مورد نیاز است</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">این کاربر مسدود شود؟</string>
     <string name="ConversationFragment_save_to_sd_card">ذخیره درحافظه؟</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">ذخیره همه %1$d رسانه ها به حافظه دستگاه ، باعث خواهد شد که همه برنامه های دیگر نصب شده در دستگاه شما ، به این اطلاعات دسترسی پیدا کنند. \n\n آیا مایل به ادامه هستید؟</item>
@@ -101,16 +99,6 @@
     <string name="LongMessageActivity_message_from_s">پیام از %1$s</string>
     <string name="LongMessageActivity_your_message">پیام شما</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">حذف پیام انتخاب شده؟</item>
-        <item quantity="other">حذف پیام های انتخاب شده</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">این پیام انتخاب شده را به صورت دائم پاک خواهد کرد.</item>
-        <item quantity="other">این به صورت دائم %1$d پیام انتخاب شده را پاک خواهد کرد.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">در حال حذف</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">حذف پیام های...</string>
     <string name="attachmentsCollecting">در حال جمع‌آوری پیوست‌ها...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">پیام های چند رسانه ای</string>
@@ -365,8 +353,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">پیام جدید به ...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">مسدود کردن کاربر</string>
-    <string name="conversation_context__menu_ban_and_delete_all">بلاک کردن و پاک کردن همه</string>
+    <string name="banUser">مسدود کردن کاربر</string>
     <string name="conversation_context__menu_reply">پاسخ</string>
     <string name="conversation_context__menu_reply_to_message">پاسخ به پیام</string>
     <string name="call">تماس گرفتن</string>
@@ -395,7 +382,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">پیش نمایش رسانه</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">در حال حذف</string>
+    <string name="deleting">در حال حذف</string>
     <string name="trimmer__deleting_old_messages">در حال حذف پیام‌های قدیمی...</string>
     <string name="trimmer__old_messages_successfully_deleted">پیام‌های قدیمی با موفقیت حذف شدند</string>
     <!-- transport_selection_list_item -->

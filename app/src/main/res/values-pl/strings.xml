@@ -4,7 +4,6 @@
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
     <string name="delete">Usuń</string>
-    <string name="ban">Zablokuj</string>
     <string name="save">Zapisz</string>
     <string name="noteToSelf">Moje notatki</string>
     <string name="version_s">Wersja %s</string>
@@ -71,7 +70,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session wymaga pozwolenia na dostęp do aparatu w celu umożliwienia robienia zdjęć i nagrywania filmów, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Aparat\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session wymaga pozwolenia na dostęp do aparatu w celu umożliwienia robienia zdjęć i nagrywania filmów</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Zbanować tego użytkownika?</string>
     <string name="ConversationFragment_save_to_sd_card">Zapisać na dysk?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Zapisanie tego załącznika na dysku pozwoli na dostęp do nich innym aplikacjom na Twoim urządzeniu.\n\nKontynuuj?</item>
@@ -106,20 +104,6 @@
     <string name="LongMessageActivity_message_from_s">Wiadomość od %1$s</string>
     <string name="LongMessageActivity_your_message">Twoja wiadomość</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Usunąć wybraną wiadomość?</item>
-        <item quantity="few">Usunąć wybrane wiadomości?</item>
-        <item quantity="many">Usunąć wybrane wiadomości?</item>
-        <item quantity="other">Usunąć wybrane wiadomości?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Spowoduje to trwałe usunięcie wybranej wiadomości.</item>
-        <item quantity="few">Spowoduje to trwałe usunięcie %1$d wybranych wiadomości.</item>
-        <item quantity="many">Spowoduje to trwałe usunięcie %1$d wybranych wiadomości.</item>
-        <item quantity="other">Spowoduje to trwałe usunięcie %1$d wybranych wiadomości.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Usuwanie</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Usuwanie wiadomości...</string>
     <string name="attachmentsCollecting">Zbieranie załączników...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Wiadomość multimedialna</string>
@@ -363,8 +347,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nowa wiadomość do...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Zablokuj użytkownika</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Zbanuj i usuń wszystko</string>
+    <string name="banUser">Zablokuj użytkownika</string>
     <string name="conversation_context__menu_reply_to_message">Odpowiedz na wiadomość</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Zapisz załącznik</string>
@@ -390,7 +373,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Podgląd plików multimedialnych</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Usuwanie</string>
+    <string name="deleting">Usuwanie</string>
     <string name="trimmer__deleting_old_messages">Usuwanie starych wiadomości...</string>
     <string name="trimmer__old_messages_successfully_deleted">Stare wiadomości zostały pomyślnie usunięte</string>
     <!-- transport_selection_list_item -->

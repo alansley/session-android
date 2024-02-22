@@ -4,7 +4,6 @@
     <string name="yes">Da</string>
     <string name="no">Nu</string>
     <string name="delete">Ștergeți</string>
-    <string name="ban">Interzice</string>
     <string name="please_wait">Vă rugăm să așteptați…</string>
     <string name="save">Salvează</string>
     <string name="noteToSelf">Notă personală</string>
@@ -70,7 +69,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Cameră\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Blocați acest utilizator?</string>
     <string name="ConversationFragment_save_to_sd_card">Salvez pe spațiul de stocare?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Salvarea acestui fişier pe spaţiul de stocare va permite altor aplicaţii de pe dispozitivul tău să le acceseze.\n\nContinui?</item>
@@ -104,18 +102,6 @@
     <string name="LongMessageActivity_message_from_s">Mesaj de la %1$s</string>
     <string name="LongMessageActivity_your_message">Mesajul dvs.</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Șterg mesajul selectat?</item>
-        <item quantity="few">Șterg mesajele selectate?</item>
-        <item quantity="other">Șterg mesajele selectate?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Această acțiune va șterge permanent mesajul selectat.</item>
-        <item quantity="few">Această acțiune va șterge permanent toate cele %1$d mesaje selectate.</item>
-        <item quantity="other">Această acțiune va șterge permanent toate cele %1$d mesaje selectate.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Se șterge</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Se șterg mesajele...</string>
     <string name="attachmentsCollecting">Se colectează atașamentele...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Mesaj multimedia</string>
@@ -359,8 +345,7 @@ schimbul de chei este corupt </string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Mesajul nou către...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Blochează utilizator</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Interzice și șterge toate</string>
+    <string name="banUser">Blochează utilizator</string>
     <string name="conversation_context__menu_reply_to_message">Răspunde la mesaj</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salvează ataşamentul</string>
@@ -386,7 +371,7 @@ schimbul de chei este corupt </string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Previzualizare media</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Se șterge</string>
+    <string name="deleting">Se șterge</string>
     <string name="trimmer__deleting_old_messages">Se șterg mesajele vechi...</string>
     <string name="trimmer__old_messages_successfully_deleted">Mesajele vechi au fost șterse cu succes</string>
     <!-- transport_selection_list_item -->

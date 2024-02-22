@@ -4,7 +4,6 @@
     <string name="yes">Ναι</string>
     <string name="no">Όχι</string>
     <string name="delete">Διαγραφή</string>
-    <string name="ban">Αποκλεισμός</string>
     <string name="save">Αποθήκευση</string>
     <string name="noteToSelf">Να μην ξεχάσω </string>
     <string name="version_s">Έκδοση %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Το Session χρειάζεται τα δικαιώματα Κάμερας για να μπορούμε να τραβήξουμε φωτογραφίες και βίντεο, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε την \"Κάμερα\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Το Session χρειάζεται τα δικαιώματα Κάμερας για να τραβήξει φωτογραφίες ή βίντεο</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Αποκλεισμός αυτού του χρήστη;</string>
     <string name="ConversationFragment_save_to_sd_card">Να αποθηκευτεί στη μνήμη;</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Αποθηκεύοντας αυτό το πολυμέσο στην μνήμη θα επιτρέψει σε άλλες εφαρμογές στην συσκευή σου να έχουν πρόσβαση σε αυτό. \n\nΣυνέχεια;</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Μήνυμα από τον/την %1$s</string>
     <string name="LongMessageActivity_your_message">Το μήνυμά σας</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Διαγραφή επιλεγμένου μηνύματος;</item>
-        <item quantity="other">Διαγραφή επιλεγμένων μηνυμάτων;</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Αυτή η επιλογή θα διαγράψει οριστικά το επιλεγμένο μήνυμα.</item>
-        <item quantity="other">Αυτή η επιλογή θα διαγράψει οριστικά τα %1$d επιλεγμένα μηνύματα.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Γίνεται διαγραφή</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Διαγραφή μηνυμάτων...</string>
     <string name="attachmentsCollecting">Τα συνημμένα συλλέγονται...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Μήνυμα πολυμέσων</string>
@@ -349,8 +337,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Νέο μήνυμα προς...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Αποκλεισμός χρήστη</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Αποκλεισμός και διαγραφή όλων</string>
+    <string name="banUser">Αποκλεισμός χρήστη</string>
     <string name="conversation_context__menu_reply_to_message">Απαντήστε στο μήνυμα</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Αποθήκευση συνημμένου</string>
@@ -376,7 +363,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Προεπισκόπιση</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Διαγραφή</string>
+    <string name="deleting">Διαγραφή</string>
     <string name="trimmer__deleting_old_messages">Τα παλία μηνύματα διαγράφονται...</string>
     <string name="trimmer__old_messages_successfully_deleted">Τα παλιά μηνύματα διαγράφτηκαν επιτυχώς</string>
     <!-- transport_selection_list_item -->

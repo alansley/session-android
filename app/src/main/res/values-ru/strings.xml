@@ -4,7 +4,6 @@
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="delete">Удалить</string>
-    <string name="ban">Заблокировать</string>
     <string name="save">Сохранить</string>
     <string name="noteToSelf">Заметка для себя</string>
     <string name="version_s">Версия %s</string>
@@ -71,7 +70,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Чтобы сделать фото или видео требуется разрешение на доступ к камере, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите в «Настройки», выберите «Приложения», найдите Session, затем выберите «Разрешения» и включите Камеру.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Для съемки фото или видео Session требуется доступ к камере.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Заблокировать этого пользователя?</string>
     <string name="ConversationFragment_save_to_sd_card">Сохранить в хранилище?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Сохранение этого медиафайла в хранилище устройства позволит любому приложению его просматривать.\n\nПродолжить?</item>
@@ -106,20 +104,6 @@
     <string name="LongMessageActivity_message_from_s">Сообщение от %1$s</string>
     <string name="LongMessageActivity_your_message">Ваше сообщение</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Удалить выбранное сообщение?</item>
-        <item quantity="few">Удалить выбранные сообщения?</item>
-        <item quantity="many">Удалить выбранные сообщения?</item>
-        <item quantity="other">Удалить выбранные сообщения?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Выбранное сообщение будет удалено. Это действие нельзя отменить.</item>
-        <item quantity="few">%1$d выбранных сообщения будут удалены. Это действие нельзя отменить.</item>
-        <item quantity="many">%1$d выбранных сообщений будут удалены. Это действие нельзя отменить.</item>
-        <item quantity="other">%1$d выбранных сообщений будут удалены. Это действие нельзя отменить.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Удаление</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Удаление сообщений...</string>
     <string name="attachmentsCollecting">Сбор вложений...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">MMS-сообщение</string>
@@ -365,8 +349,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Новое сообщение для...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Заблокировать пользователя</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Забанить и удалить все</string>
+    <string name="banUser">Заблокировать пользователя</string>
     <string name="conversation_context__menu_reply_to_message">Ответ на сообщение</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Сохранить вложение</string>
@@ -392,7 +375,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Предпросмотр</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Удаление</string>
+    <string name="deleting">Удаление</string>
     <string name="trimmer__deleting_old_messages">Удаляем старые сообщения...</string>
     <string name="trimmer__old_messages_successfully_deleted">Старые сообщения успешно удалены</string>
     <!-- transport_selection_list_item -->

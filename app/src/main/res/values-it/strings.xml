@@ -4,7 +4,6 @@
     <string name="yes">Sì</string>
     <string name="no">No</string>
     <string name="delete">Cancella</string>
-    <string name="ban">Espelli</string>
     <string name="please_wait">Attendere…</string>
     <string name="save">Salva</string>
     <string name="noteToSelf">Note personali</string>
@@ -68,7 +67,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session richiede l\'autorizzazione all\'uso della fotocamera per scattare foto o registrare video, ma è stata negata in modo permanente. Si prega di continuare al menu delle impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Fotocamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session richiede l\'autorizzazione all\'uso della fotocamera per scattare foto o registrare video</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Bannare questo utente?</string>
     <string name="ConversationFragment_save_to_sd_card">Salvare in memoria?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Salvare il file sulla memoria consentirà ad altre applicazioni di accedervi.\n\nContinuare?</item>
@@ -101,16 +99,6 @@
     <string name="LongMessageActivity_message_from_s">Messaggio da %1$s</string>
     <string name="LongMessageActivity_your_message">Il tuo messaggio</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Eliminare il messaggio selezionato?</item>
-        <item quantity="other">Eliminare i messaggi selezionati?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Il messaggio selezionato verrà eliminato definitivamente.</item>
-        <item quantity="other">Tutti i %1$d messaggi selezionati verranno eliminati definitivamente.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Cancellazione</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Cancellazione messaggi...</string>
     <string name="attachmentsCollecting">Recupero allegati...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Messaggio multimediale</string>
@@ -349,8 +337,7 @@ scambia un altro messaggio!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nuovo messaggio a...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Banna utente</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Revoca ed elimina tutto</string>
+    <string name="banUser">Banna utente</string>
     <string name="conversation_context__menu_reply_to_message">Rispondi al messaggio</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salva allegato</string>
@@ -376,7 +363,7 @@ scambia un altro messaggio!</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Anteprima contenuto multimediale</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Cancellazione</string>
+    <string name="deleting">Cancellazione</string>
     <string name="trimmer__deleting_old_messages">Cancellazione vecchi messaggi...</string>
     <string name="trimmer__old_messages_successfully_deleted">Vecchi messaggi cancellati con successo</string>
     <!-- transport_selection_list_item -->

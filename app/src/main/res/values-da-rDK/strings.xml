@@ -4,7 +4,6 @@
     <string name="yes">Ja</string>
     <string name="no">Nej</string>
     <string name="delete">Slet</string>
-    <string name="ban">Udeluk</string>
     <string name="save">Gem</string>
     <string name="noteToSelf">Egen note</string>
     <string name="version_s">Version %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session kræver tilladelse til at tilgå dit kamera, for at kunne tage billeder eller optage video, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Kamera\"</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session kræver tilladelse til at tilgå kameraet, for at kunne tage billeder eller videoer.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Udeluk denne bruger?</string>
     <string name="ConversationFragment_save_to_sd_card">Gem i hukommelsen?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">At gemme denne fil på disk vil tillade alle andre apps at tilgå den.\n\nFortsæt?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Besked fra %1$s</string>
     <string name="LongMessageActivity_your_message">Din besked</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Slet beskeder</item>
-        <item quantity="other">Slet beskeder?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">d</item>
-        <item quantity="other">Dette sletter %1$d beskeder permanent</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Sletter</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Sletter beskeder...</string>
     <string name="attachmentsCollecting">Samler vedhæftninger...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedie besked</string>
@@ -347,8 +335,7 @@ udveksel besked!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ny besked til...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Udeluk bruger</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Bandlys og slet alle</string>
+    <string name="banUser">Udeluk bruger</string>
     <string name="conversation_context__menu_reply_to_message">Svar på besked</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Gem vedhæftet fil</string>
@@ -374,7 +361,7 @@ udveksel besked!</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Medie eksempelvisning</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Sletter</string>
+    <string name="deleting">Sletter</string>
     <string name="trimmer__deleting_old_messages">Sletter gamle beskeder...</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamle beskeder slettet</string>
     <!-- transport_selection_list_item -->

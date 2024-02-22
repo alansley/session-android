@@ -4,7 +4,6 @@
     <string name="yes">Po</string>
     <string name="no">Jo</string>
     <string name="delete">Fshije</string>
-    <string name="ban">Dëbim</string>
     <string name="save">Ruaje</string>
     <string name="noteToSelf">Shënim për Veten</string>
     <string name="version_s">Versioni_%s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Kamerën\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Blloko këtë përdorues?</string>
     <string name="ConversationFragment_save_to_sd_card">Të ruhet në depozitë?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Ruajtja e kësaj medieje në depozitë do t\’i lejojë përdorimin e tij cilitdo aplikacioni tjetër në pajisjen tuaj.\n\nTë vazhdohet?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Mesazh prej %1$s</string>
     <string name="LongMessageActivity_your_message">Mesazhi Juaj</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Të fshihet mesazhi i përzgjedhur?</item>
-        <item quantity="other">Të fshihen mesazhet e përzgjedhur?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Kjo do të fshijë përgjithmonë mesazhin e përzgjedhur.</item>
-        <item quantity="other">Kjo do të fshijë përgjithmonë krejt %1$d mesazhet e përzgjedhur.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Po fshihet</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Po fshihen mesazhet…</string>
     <string name="attachmentsCollecting">Po mblidhen bashkëngjitje…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Mesazh multimedia</string>
@@ -348,8 +336,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Mesazh i ri për…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Dëboni përdorues</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Dëbo dhe fshij të gjitha</string>
+    <string name="banUser">Dëboni përdorues</string>
     <string name="conversation_context__menu_reply_to_message">Përgjigjuni mesazhin</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Ruaje bashkëngjitjen</string>
@@ -375,7 +362,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Paraparje medie</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Po fshihet</string>
+    <string name="deleting">Po fshihet</string>
     <string name="trimmer__deleting_old_messages">Po fshihen mesazhet e vjetra…</string>
     <string name="trimmer__old_messages_successfully_deleted">Mesazhet e vjetra u fshinë me sukses</string>
     <!-- transport_selection_list_item -->

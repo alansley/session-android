@@ -66,8 +66,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">အသံဖမ်းရန် ခလုပ်ကိုဖိထားပါ၊ ပို့ရန် ခလုပ်ကိုလွှတ်လိုက်ပါ</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media_delete_progress_title">ဖျက်နေဆဲ</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">စာများဖျက်နေသည်</string>
     <string name="attachmentsCollecting">ပူးတွဲဖိုင်များကို စုစည်းနေသည် </string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ရုပ်၊သံပါ အချက်အလက်များ</string>
@@ -296,7 +294,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description"> ရုပ်/သံ/ပုံပါ စာများကို အစမ်းကြည့်ခြင်း</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">ဖျက်နေဆဲ</string>
+    <string name="deleting">ဖျက်နေဆဲ</string>
     <string name="trimmer__deleting_old_messages">စာအဟောင်းများကို ဖျက်နေဆဲ ....</string>
     <string name="trimmer__old_messages_successfully_deleted">စာအဟောင်းများကို အောင်မြင်စွာ ဖျက်ပြီး</string>
     <!-- transport_selection_list_item -->

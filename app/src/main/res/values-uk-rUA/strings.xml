@@ -4,7 +4,6 @@
     <string name="yes">Так</string>
     <string name="no">Ні</string>
     <string name="delete">Видалити</string>
-    <string name="ban">Бан</string>
     <string name="save">Зберегти</string>
     <string name="noteToSelf">Замітка для себе</string>
     <string name="version_s">Версія %s</string>
@@ -71,7 +70,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session потребує дозволу \"Камера\", щоб фотографувати або знімати відео,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session потребує дозволу \"Камера\", щоб фотографувати або фільмувати.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Забанити цього користувача?</string>
     <string name="ConversationFragment_save_to_sd_card">Зберегти на носій?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Збереження цього файлу до пам\'яті пристрою зробить його доступним іншим програмам на вашому пристрої.\n\nПродовжити?</item>
@@ -106,20 +104,6 @@
     <string name="LongMessageActivity_message_from_s">Повідомлення від %1$s</string>
     <string name="LongMessageActivity_your_message">Ваше повідомлення</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Видалити обране повідомлення?</item>
-        <item quantity="few">Видалити обрані повідомлення?</item>
-        <item quantity="many">Видалити обрані повідомлення?</item>
-        <item quantity="other">Видалити обрані повідомлення?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Це назавжди видалить обране повідомлення.</item>
-        <item quantity="few">Це назавжди видалить усі %1$d обраних повідомлень.</item>
-        <item quantity="many">Це назавжди видалить усі %1$d обраних повідомленнь</item>
-        <item quantity="other">Це назавжди видалить усі %1$d обраних повідомлень.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Видалення</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Видалення повідомлень...</string>
     <string name="attachmentsCollecting">Збираю вкладення...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Мультимедійне повідомлення</string>
@@ -365,8 +349,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Нове повідомлення для...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Бан користувача</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Забанити та видалити все</string>
+    <string name="banUser">Бан користувача</string>
     <string name="conversation_context__menu_reply_to_message">Відповісти на повідомлення</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Зберегти вкладення</string>
@@ -392,7 +375,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Попередній перегляд медіа</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Видалення</string>
+    <string name="deleting">Видалення</string>
     <string name="trimmer__deleting_old_messages">Видалення старих повідомлень...</string>
     <string name="trimmer__old_messages_successfully_deleted">Старі повідомлення було успішно видалено</string>
     <!-- transport_selection_list_item -->

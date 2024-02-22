@@ -380,8 +380,8 @@ public class MediaOverviewActivity extends PassphraseRequiredActionBarActivity {
               recordCount,
               () -> new ProgressDialogAsyncTask<MediaDatabase.MediaRecord, Void, Void>(
                 requireContext(),
-                R.string.MediaOverviewActivity_Media_delete_progress_title,
-                R.string.MediaOverviewActivity_Media_delete_progress_message) {
+                R.string.deleting,
+                R.string.deleting) {
         @Override
         protected Void doInBackground(MediaDatabase.MediaRecord... records) {
           if (records == null || records.length == 0) {

@@ -4,7 +4,6 @@
     <string name="yes">Ja</string>
     <string name="no">Nee</string>
     <string name="delete">Wissen</string>
-    <string name="ban">Verbannen</string>
     <string name="save">Opslaan</string>
     <string name="noteToSelf">Notitie aan mezelf</string>
     <string name="version_s">Versie %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session heeft toegang nodig tot de camera om foto’s en video’s te kunnen opnemen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Camera’ in.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session heeft toegang tot de camera nodig om foto’s en video’s te kunnen opnemen</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Deze gebruiker verbannen?</string>
     <string name="ConversationFragment_save_to_sd_card">Opslaan naar SD-kaart?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Als je dit bestand opslaat op de SD-kaart wordt het niet versleuteld opgeslagen en hebben alle andere apps op je apparaat toegang tot dit bestand.\n\nDoorgaan?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Bericht van %1$s</string>
     <string name="LongMessageActivity_your_message">Je bericht</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Geselecteerd bericht wissen?</item>
-        <item quantity="other">Geselecteerde berichten wissen?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Dit zal het geselecteerde bericht onherroepelijk wissen.</item>
-        <item quantity="other">Dit zal alle %1$d geselecteerde berichten onherroepelijk wissen.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Aan het verwijderen</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Berichten aan het verwijderen…</string>
     <string name="attachmentsCollecting">Bijlagen aan het verzamelen…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediabericht</string>
@@ -349,8 +337,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nieuw bericht naar…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Verban gebruiker</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Blokkeer en verwijder alles</string>
+    <string name="banUser">Verban gebruiker</string>
     <string name="conversation_context__menu_reply_to_message">Reageren</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Bijlage opslaan</string>
@@ -376,7 +363,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Mediavoorbeeld</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Aan het verwijderen</string>
+    <string name="deleting">Aan het verwijderen</string>
     <string name="trimmer__deleting_old_messages">Oude berichten aan het verwijderen…</string>
     <string name="trimmer__old_messages_successfully_deleted">Oude berichten succesvol gewist</string>
     <!-- transport_selection_list_item -->

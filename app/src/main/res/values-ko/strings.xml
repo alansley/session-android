@@ -4,7 +4,6 @@
     <string name="yes">예</string>
     <string name="no">아니요</string>
     <string name="delete">삭제</string>
-    <string name="ban">차단</string>
     <string name="save">저장</string>
     <string name="noteToSelf">개인용 메모</string>
     <string name="version_s">버전 %s</string>
@@ -60,7 +59,6 @@
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">작업을 처리할 수 있는 앱 없음</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session이 음성 메시지를 보내기 위한 마이크 권한이 영구적으로 차단되었습니다. 앱 설정에서 \"권한\" 탭을 클릭하고, \"마이크\" 권한을 허용해주세요.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">이 유저를 차단할까요?</string>
     <string name="ConversationFragment_save_to_sd_card">저장소에 저장하시겠습니까?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">미디어 %1$d개를 저장소에 저장하게 되면, 기기에 설치된 다른 앱이 접근할 수 있습니다.\n\n저장하시겠습니까?</item>
@@ -92,14 +90,6 @@
     <string name="LongMessageActivity_message_from_s">%1$s의 메시지</string>
     <string name="LongMessageActivity_your_message">당신의 메시지</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="other">선택된 메시지들을 삭제할까요?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="other">%1$d 의 선택된 메시지들을 영구적으로 삭제합니다.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">이전 메시지 삭제</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">메시지를 삭제 중…</string>
     <string name="attachmentsCollecting">첨부파일 저장 준비 중…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">멀티미디어 메시지</string>
@@ -298,7 +288,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">미디어 미리보기</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">이전 메시지 삭제</string>
+    <string name="deleting">이전 메시지 삭제</string>
     <string name="trimmer__deleting_old_messages">이전 메시지를 삭제 중…</string>
     <string name="trimmer__old_messages_successfully_deleted">이전 메시지 삭제됨</string>
     <!-- transport_selection_list_item -->

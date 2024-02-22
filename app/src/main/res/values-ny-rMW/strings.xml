@@ -80,16 +80,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Shuk uyaychaskita rurankapakka llapishpa charipay, kachankapakka llapishkata kacharipay.</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Akllashka chaskita pichanayanchu</item>
-        <item quantity="other">Akllashka chaskikunata pichanayanchu</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Kay akllashka chaskita pichankapachami.</item>
-        <item quantity="other">Kay akllashka %1$d chaskikunata picharinkapachami.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Pichakun</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Chaskikunata pichakun...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia chaski</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">MMS chaskita uryakuchikun</string>
@@ -329,7 +319,7 @@ ranti pakalla yupaykunamanta</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Multimediata uchillapi rikunayanchu</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Pichanakunchik</string>
+    <string name="deleting">Pichanakunchik</string>
     <string name="trimmer__deleting_old_messages">Mawkayashka chaskikunata pichakun...</string>
     <string name="trimmer__old_messages_successfully_deleted">Mawka chaskikunata allipachami picharirka</string>
     <!-- transport_selection_list_item -->

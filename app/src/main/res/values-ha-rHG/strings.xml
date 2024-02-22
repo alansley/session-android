@@ -86,16 +86,6 @@
     <string name="LongMessageActivity_message_from_s">Ji %1$s peyam</string>
     <string name="LongMessageActivity_your_message">Peyama te</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Peyama bijartî rakin?</item>
-        <item quantity="other">Peyamên bijartî jê bibin?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Dê vê peyama bijartî were jêbirin.</item>
-        <item quantity="other">Dê bi vê rêyê hemû %1$d peyamên bijartî ji binî bên jêbirin.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Jêbirin</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Peyam tên jêbirin...</string>
     <string name="attachmentsCollecting">...Servehî tên berhevkirin</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Peyama multîmedyayê</string>
@@ -344,7 +334,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Pêşdîtina medyayê</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Tê jêbirin</string>
+    <string name="deleting">Tê jêbirin</string>
     <string name="trimmer__deleting_old_messages">Peyamên kevin tên jêbirin...</string>
     <string name="trimmer__old_messages_successfully_deleted">Peyamên kevin hatin jêbirin</string>
     <!-- transport_selection_list_item -->

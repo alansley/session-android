@@ -4,7 +4,6 @@
     <string name="yes">Ya</string>
     <string name="no">Tidak</string>
     <string name="delete">Hapus</string>
-    <string name="ban">Larang</string>
     <string name="save">Simpan</string>
     <string name="noteToSelf">Catatan Pribadi</string>
     <string name="version_s">Versi %s</string>
@@ -62,7 +61,6 @@
     <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session membutuhkan akses kamera untuk mengambil foto dan video.</string>
     <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session membutuhkan akses penyimpanan untuk mengirim foto dan video.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Larang pengguna ini?</string>
     <string name="ConversationFragment_save_to_sd_card">Simpan ke penyimpanan?</string>
     <!-- CreateProfileActivity -->
     <string name="CreateProfileActivity_profile_photo">Foto profil</string>
@@ -90,11 +88,6 @@
     <string name="LongMessageActivity_message_from_s">Pesan dari %1$s</string>
     <string name="LongMessageActivity_your_message">Pesan anda</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="other">Hapus pesan yang dipilih?</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Menghapus</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Menghapus pesan...</string>
     <string name="attachmentsCollecting">Mengumpulkan semua lampiran...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Pesan Multimedia</string>
@@ -280,8 +273,7 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Larang pengguna</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Larang dan hapus semua</string>
+    <string name="banUser">Larang pengguna</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Simpan lampiran</string>
     <!-- conversation_expiring_off -->
@@ -299,7 +291,7 @@
     <!-- media_overview -->
     <!-- media_preview_activity -->
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Menghapus</string>
+    <string name="deleting">Menghapus</string>
     <string name="trimmer__deleting_old_messages">Menghapus pesan lama...</string>
     <string name="trimmer__old_messages_successfully_deleted">Pesan lama berhasil dihapus</string>
     <!-- transport_selection_list_item -->

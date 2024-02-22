@@ -69,8 +69,6 @@
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_your_message">ujumbe wako</string>
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Inafutwa</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Kufuta meseji</string>
     <string name="attachmentsCollecting">kukusanya viambatisho</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Ujumbe wa Multimedia</string>
@@ -307,7 +305,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Uhakiki wa vyombo vya habari</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Kufuta</string>
+    <string name="deleting">Kufuta</string>
     <string name="trimmer__deleting_old_messages">futa ujumbe wa zamani</string>
     <string name="trimmer__old_messages_successfully_deleted">Ujumbe wa zamani umefutwa kwa ufanisi</string>
     <!-- transport_selection_list_item -->

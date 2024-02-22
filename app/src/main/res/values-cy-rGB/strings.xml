@@ -100,24 +100,6 @@
     <string name="LongMessageActivity_message_from_s">Neges gan %1$s</string>
     <string name="LongMessageActivity_your_message">Eich neges</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="zero">Dileu\'r negeseuon hyn?</item>
-        <item quantity="one">Dileu\'r negeseuon hyn?</item>
-        <item quantity="two">Dileu\'r negeseuon hyn?</item>
-        <item quantity="few">Dileu\'r negeseuon hyn?</item>
-        <item quantity="many">Dileu\'r negeseuon hyn?</item>
-        <item quantity="other">Dileu\'r negeseuon hyn?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="zero">Bydd hyn yn dileu yn barhaol y sgwrs sydd wedi\'i dewis.</item>
-        <item quantity="one">Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi\'u dewis.</item>
-        <item quantity="two">Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi\'u dewis.</item>
-        <item quantity="few">Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi\'u dewis.</item>
-        <item quantity="many">Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi\'u dewis.</item>
-        <item quantity="other">Bydd hyn yn dileu yn barhaol y %1$d neges sydd wedi\'u dewis.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Wrthi\'n dileu</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Dileu negeseuon...</string>
     <string name="attachmentsCollecting">Casglu atodiadau...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Neges amlgyfrwng</string>
@@ -382,7 +364,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Rhagolwg cyfrwng</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Wrthi\'n dileu</string>
+    <string name="deleting">Wrthi\'n dileu</string>
     <string name="trimmer__deleting_old_messages">Dileu hen negeseuon...</string>
     <string name="trimmer__old_messages_successfully_deleted">Dilëwyd hen negeseuon yn llwyddiannus</string>
     <!-- transport_selection_list_item -->

@@ -85,14 +85,6 @@
     <string name="LongMessageActivity_message_from_s">សារពី %1$s</string>
     <string name="LongMessageActivity_your_message">សាររបស់អ្នក</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="other">លុបសារដែលបានជ្រើសរើស?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="other">វានឹងលុបសារ %1$d ដែលបានជ្រើសរើសទាំងអស់ជារៀងរហូត។</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">កំពុងលុប</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">កំពុងលុបសារ...</string>
     <string name="attachmentsCollecting">កំពុងប្រមូលឯកសារភ្ជាប់...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">សារចម្រុះ</string>
@@ -345,7 +337,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">មើលព័ត៌មានជាមុន</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">កំពុងលុប</string>
+    <string name="deleting">កំពុងលុប</string>
     <string name="trimmer__deleting_old_messages">កំពុងលុបសារចាស់ៗ...</string>
     <string name="trimmer__old_messages_successfully_deleted">សារចាស់ៗត្រូវបានលុបចេញដោយជោគជ័យ</string>
     <!-- transport_selection_list_item -->

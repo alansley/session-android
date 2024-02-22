@@ -79,14 +79,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">แตะค้างไว้เพื่อบันทึกข้อความเสียง ปล่อยเพื่อส่ง</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="other">ลบข้อความที่เลือกหรือไม่</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="other">นี่จะลบ %1$d ข้อความที่ถูกเลือกทั้งหมด อย่างถาวร</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">กำลังลบ</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">กำลังลบข้อความ...</string>
     <string name="attachmentsCollecting">รวบรวมสิ่งแนบ...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ข้อความมัลติมีเดีย</string>
@@ -326,7 +318,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">ดูตัวอย่างสื่อ</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">กำลังลบ</string>
+    <string name="deleting">กำลังลบ</string>
     <string name="trimmer__deleting_old_messages">กำลังลบข้อความเก่า...</string>
     <string name="trimmer__old_messages_successfully_deleted">ลบข้อความเก่าสำเร็จ</string>
     <!-- transport_selection_list_item -->

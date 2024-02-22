@@ -86,16 +86,6 @@
     <string name="LongMessageActivity_message_from_s">Sõnum kasutajalt %1$s</string>
     <string name="LongMessageActivity_your_message">Sinu sõnum</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Kustutad valitud sõnumi?</item>
-        <item quantity="other">Kustutad valitud sõnumid?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">See kustutab valitud sõnumi püsivalt.</item>
-        <item quantity="other">See kustutab püsivalt %1$d valitud sõnumit.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Kustutan</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Kustutan sõnumeid...</string>
     <string name="attachmentsCollecting">Kogun manuseid...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimeediasõnum</string>
@@ -351,7 +341,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Meedia eelvaade</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Kustutan</string>
+    <string name="deleting">Kustutan</string>
     <string name="trimmer__deleting_old_messages">Kustutan vanu sõnumeid...</string>
     <string name="trimmer__old_messages_successfully_deleted">Vanad sõnumid edukalt kustutatud</string>
     <!-- transport_selection_list_item -->

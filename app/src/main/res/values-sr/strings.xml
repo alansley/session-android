@@ -4,7 +4,6 @@
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="delete">Обриши</string>
-    <string name="ban">Бануј</string>
     <string name="save">Сачувај</string>
     <string name="version_s">Верзија %s</string>
     <!-- AbstractNotificationBuilder -->
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Сесија треба дозволу за камеру да направи слике и видео клипове, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Камеру\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Сесија треба дозволу за камеру да прави слике или видео клипове.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Бануј овог корисника?</string>
     <string name="ConversationFragment_save_to_sd_card">Сачувати у складиште?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Упис овог медијума у складиште ће омогућити било којој апликацији на вашем уређају да му приступи.\n\nДа наставим?</item>
@@ -101,18 +99,6 @@
     <string name="LongMessageActivity_message_from_s">Порука од %1$s</string>
     <string name="LongMessageActivity_your_message">Ваша порука</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Обрисати изабрану поруку?</item>
-        <item quantity="few">Обрисати изабране поруке?</item>
-        <item quantity="other">Обрисати изабране поруке?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Ово ће трајно да обрише изабрану поруку.</item>
-        <item quantity="few">Ово ће трајно да обрише све %1$d изабране поруке.</item>
-        <item quantity="other">Ово ће трајно да обрише свих %1$d изабраних порука.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Брисање</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Бришем поруке...</string>
     <string name="attachmentsCollecting">Сакупљам прилоге...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Мултимедијална порука</string>
@@ -375,7 +361,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Преглед медијума</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Брисање</string>
+    <string name="deleting">Брисање</string>
     <string name="trimmer__deleting_old_messages">Бришем старе поруке...</string>
     <string name="trimmer__old_messages_successfully_deleted">Старе поруке успешно обрисане</string>
     <!-- transport_selection_list_item -->

@@ -4,7 +4,6 @@
     <string name="yes">Ja</string>
     <string name="no">Nej</string>
     <string name="delete">Radera</string>
-    <string name="ban">Bannlys</string>
     <string name="save">Spara</string>
     <string name="noteToSelf">Notering till mig själv</string>
     <string name="version_s">Version %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session behöver behörigheten Kamera för att ta bilder och filma men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Kamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session behöver behörigheten Kamera för att ta bilder och filma</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Bannlys den här användaren?</string>
     <string name="ConversationFragment_save_to_sd_card">Spara till lagring?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Att spara denna media till lagring kommer tillåta andra appar på din telefon att få tillgång.\n\nFortsätt?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Meddelande från %1$s</string>
     <string name="LongMessageActivity_your_message">Ditt meddelande</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Radera valt meddelande?</item>
-        <item quantity="other">Radera valda meddelanden?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Detta kommer permanent radera det valda meddelandet.</item>
-        <item quantity="other">Detta kommer permanent radera %1$d valda meddelanden.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Raderar</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Raderar meddelanden...</string>
     <string name="attachmentsCollecting">Samlar bifogade filer...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediameddelande</string>
@@ -348,8 +336,7 @@ för nyckelutbyte!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nytt meddelande till...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Bannlys användare</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Bannlys och radera alla</string>
+    <string name="banUser">Bannlys användare</string>
     <string name="conversation_context__menu_reply_to_message">Svara på meddelande</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Spara bilaga</string>
@@ -375,7 +362,7 @@ för nyckelutbyte!</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Mediaförhandsgranskning</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Raderar</string>
+    <string name="deleting">Raderar</string>
     <string name="trimmer__deleting_old_messages">Raderar gamla meddelanden...</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamla meddelanden har raderats</string>
     <!-- transport_selection_list_item -->

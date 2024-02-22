@@ -4,7 +4,6 @@
     <string name="yes">Ja</string>
     <string name="no">Nei</string>
     <string name="delete">Slett</string>
-    <string name="ban">Bannlys</string>
     <string name="save">Lagre</string>
     <string name="noteToSelf">Notat til meg selv</string>
     <string name="version_s">Versjon %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session krever tillatelse fra systemet for å kunne ta bilder eller filme, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Du må gi Session «Kamera»-tillatelse på systemet for å kunne filme og ta bilder.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Bannlys denne brukeren?</string>
     <string name="ConversationFragment_save_to_sd_card">Vil du lagre på enheten?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Hvis du lagrer dette mediet på enheten som vanlig fil, kan andre programmer få tilgang til det.\n\nEr du sikker på at du vil fortsette?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Melding fra %1$s</string>
     <string name="LongMessageActivity_your_message">Din melding</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Vil du slette valgt melding?</item>
-        <item quantity="other">Vil du slette valgte meldinger?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Markert melding blir slettet for godt.</item>
-        <item quantity="other">Alle %1$d markerte meldinger blir slettet for godt.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Sletter</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Sletter meldinger …</string>
     <string name="attachmentsCollecting">Henter vedlegg …</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediemelding</string>
@@ -348,8 +336,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ny melding til …</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Bannlys bruker</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Bannlys og slett alle</string>
+    <string name="banUser">Bannlys bruker</string>
     <string name="conversation_context__menu_reply_to_message">Svar på melding</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lagre vedlegg</string>
@@ -375,7 +362,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Forhåndsvisning av medier</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Sletter</string>
+    <string name="deleting">Sletter</string>
     <string name="trimmer__deleting_old_messages">Sletter gamle meldinger …</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamle meldinger ble slettet</string>
     <!-- transport_selection_list_item -->

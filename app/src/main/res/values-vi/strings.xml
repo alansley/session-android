@@ -71,8 +71,6 @@
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Nhấn và giữ để ghi âm tin nhắn thoại, thả ra để gửi</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Đang xóa</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Đang xóa tin nhắn...</string>
     <string name="attachmentsCollecting">Đang thu thập đính kèm...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Tin nhắn đa phương tiện</string>
@@ -248,7 +246,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Xem trước tệp đa phương tiện</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Đang xóa</string>
+    <string name="deleting">Đang xóa</string>
     <string name="trimmer__deleting_old_messages">Đang xóa tin nhắn cũ...</string>
     <string name="trimmer__old_messages_successfully_deleted">Xóa thành công các tin nhắn cũ</string>
     <!-- transport_selection_list_item -->

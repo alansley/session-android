@@ -4,7 +4,6 @@
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="delete">Löschen</string>
-    <string name="ban">Sperren</string>
     <string name="save">Speichern</string>
     <string name="noteToSelf">Notiz an mich</string>
     <string name="version_s">Version %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session benötigt die Berechtigung »Kamera« für die Aufnahme von Fotos oder Videos, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Kamera«.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session benötigt die Berechtigung »Kamera«, um Fotos oder Videos aufzunehmen.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Diesen Benutzer sperren?</string>
     <string name="ConversationFragment_save_to_sd_card">Im Gerätespeicher speichern?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Das Speichern dieses Medieninhalts im Gerätespeicher ermöglicht jeder anderen installierten App darauf Zugriff.\n\nTrotzdem fortfahren?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Nachricht von %1$s</string>
     <string name="LongMessageActivity_your_message">Deine Nachricht</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Ausgewählte Nachricht löschen?</item>
-        <item quantity="other">Ausgewählte Nachrichten löschen?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Dies wird die ausgewählte Nachricht unwiderruflich löschen.</item>
-        <item quantity="other">Dies wird alle %1$d ausgewählten Nachrichten unwiderruflich löschen.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Löschen</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Nachrichten werden gelöscht …</string>
     <string name="attachmentsCollecting">Anhänge werden gesammelt …</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">MMS</string>
@@ -347,8 +335,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Neue Nachricht an …</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Nutzer speeren</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Sperren und alles löschen</string>
+    <string name="banUser">Nutzer speeren</string>
     <string name="conversation_context__menu_reply_to_message">Auf Nachricht antworten</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Anhang speichern</string>
@@ -374,7 +361,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Medieninhaltevorschau</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Löschen</string>
+    <string name="deleting">Löschen</string>
     <string name="trimmer__deleting_old_messages">Alte Nachrichten werden gelöscht …</string>
     <string name="trimmer__old_messages_successfully_deleted">Alte Nachrichten wurden erfolgreich gelöscht</string>
     <!-- transport_selection_list_item -->

@@ -4,7 +4,6 @@
     <string name="yes">Kyllä</string>
     <string name="no">Ei</string>
     <string name="delete">Poista</string>
-    <string name="ban">Estä</string>
     <string name="save">Tallenna</string>
     <string name="noteToSelf">Viestit itselleni</string>
     <string name="version_s">Versio %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal tarvitsee lupaa käyttää laitteesi kameraa kuvien ja videoiden ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session tarvitsee kameran käyttöoikeutta kuvien ja videoiden ottamista varten.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Estä tämä käyttäjä?</string>
     <string name="ConversationFragment_save_to_sd_card">Kopioi tallennustilaan?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Jos kopioit tämän tiedoston laitteesi tallennustilaan, niin kaikki muutkin sovellukset saavat oikeuden käyttää sitä.\n\nHaluatko jatkaa?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">Viesti lähettäjältä: %1$s</string>
     <string name="LongMessageActivity_your_message">Sinun viesti</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Poistetaanko valittu viesti?</item>
-        <item quantity="other">Poistetaanko valitut viestit?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Tämä poistaa pysyvästi valitun viestin.</item>
-        <item quantity="other">Tämä poistaa pysyvästi kaikki %1$d valittua viestiä.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Poistetaan</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Viestejä poistetaan...</string>
     <string name="attachmentsCollecting">Kerätään liitetiedostoja...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediaviesti</string>
@@ -348,8 +336,7 @@ on viallinen!</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Uusi viesti henkilölle...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Estä käyttäjä</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Estä ja poista kaikki</string>
+    <string name="banUser">Estä käyttäjä</string>
     <string name="conversation_context__menu_reply_to_message">Vastaa viestiin</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Tallenna liite</string>
@@ -375,7 +362,7 @@ on viallinen!</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Liitteen esikatselu</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Poistetaan</string>
+    <string name="deleting">Poistetaan</string>
     <string name="trimmer__deleting_old_messages">Vanhoja viestejä poistetaan...</string>
     <string name="trimmer__old_messages_successfully_deleted">Vanhojen viestien poisto onnistui</string>
     <!-- transport_selection_list_item -->

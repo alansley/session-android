@@ -4,7 +4,6 @@
     <string name="yes">Bəli</string>
     <string name="no">Xeyr</string>
     <string name="delete">Sil</string>
-    <string name="ban">Qadağa qoy</string>
     <string name="save">Yaddaşda saxla</string>
     <string name="noteToSelf">Özümə qeyd</string>
     <string name="version_s">Versiya %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session, foto və video çəkmək üçün kameraya müraciət etməlidir, ancaq icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Kamera\"nı fəallaşdırın.</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session, foto və ya video çəkmək üçün kameraya müraciət etməlidir.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">İstifadəçiyə qadağa qoyulsun?</string>
     <string name="ConversationFragment_save_to_sd_card">Anbarda saxlanılsın?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Bu medianı anbarda saxlamaq, cihazınızdakı digər tətbiqlərin ona müraciətinə icazə verəcək.\n\nDavam edilsin?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">%1$s göndərən mesaj</string>
     <string name="LongMessageActivity_your_message">Mesajınız</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Seçilmiş mesaj silinsin?</item>
-        <item quantity="other">Seçilmiş mesajlar silinsin?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Bu, seçilmiş mesajı birdəfəlik siləcək.</item>
-        <item quantity="other">Bu, seçilmiş %1$d mesajın hamısını birdəfəlik siləcək.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Silinir</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Mesajlar silinir...</string>
     <string name="attachmentsCollecting">Qoşmalar yığılır...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia mesajı</string>
@@ -349,8 +337,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Yeni mesaj...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">İstifadəçiyə qadağa qoy</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Hamısına qadağa qoy və hamısını sil</string>
+    <string name="banUser">İstifadəçiyə qadağa qoy</string>
     <string name="conversation_context__menu_reply_to_message">Mesajı cavabla</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Qoşmanı yaddaşda saxla</string>
@@ -376,7 +363,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Media önbaxışı</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Silinir</string>
+    <string name="deleting">Silinir</string>
     <string name="trimmer__deleting_old_messages">Köhnə mesajlar silinir...</string>
     <string name="trimmer__old_messages_successfully_deleted">Köhnə mesajlar uğurla silindi</string>
     <!-- transport_selection_list_item -->

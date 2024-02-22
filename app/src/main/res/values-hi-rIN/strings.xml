@@ -4,7 +4,6 @@
     <string name="yes">हाँ </string>
     <string name="no">नहीं</string>
     <string name="delete">मिटाएं</string>
-    <string name="ban">प्रतिबंधित करें</string>
     <string name="save">संरक्षित करें</string>
     <string name="noteToSelf">अपने लिए नोट</string>
     <string name="version_s">वर्ज़न %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session को फ़ोटो या वीडियो लेने के लिए कैमरा अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"कैमरा\" सक्षम करें।</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session को फ़ोटो या वीडियो लेने के लिए कैमरा अनुमति चाहिए</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">सदस्य को बैन करें?</string>
     <string name="ConversationFragment_save_to_sd_card">इसे स्टोरेज में सहेजें?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">इस मीडिया को स्टोरेज में सहेजने से आपके डिवाइस पर किसी अन्य ऐप को इसे एक्सेस करने की अनुमति मिल जाएगी। \n\n जारी रखें?</item>
@@ -100,16 +98,6 @@
     <string name="LongMessageActivity_message_from_s">%1$s से संदेश</string>
     <string name="LongMessageActivity_your_message">आपका संदेश</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">चयनित संदेश मिटाएं?</item>
-        <item quantity="other">चयनित संदेश मिटाएं?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">यह चयनित वार्तालापों को स्थायी रूप से हटा देगा।</item>
-        <item quantity="other">यह सभी %1$d चयनित वार्तालापों को स्थायी रूप से हटा देगा।</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">विलोपन</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">संदेश हटाए जा रहे हैं</string>
     <string name="attachmentsCollecting">अटैचमेंट्स इकट्ठे कर रहे हैं...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">मल्टीमीडिया संदेश</string>
@@ -348,8 +336,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">नया संदेश</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">प्रतिबंध उपयोगकर्ता</string>
-    <string name="conversation_context__menu_ban_and_delete_all">प्रतिबंधित करें, और सब कुछ विलुप्त करें  </string>
+    <string name="banUser">प्रतिबंध उपयोगकर्ता</string>
     <string name="conversation_context__menu_reply_to_message">संदेश का जवाब</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">अनुलग्नक सहेजें</string>
@@ -375,7 +362,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">मीडिया पूर्वावलोकन</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">विलोपन</string>
+    <string name="deleting">विलोपन</string>
     <string name="trimmer__deleting_old_messages">पुराने संदेशों को हटा रहा है</string>
     <string name="trimmer__old_messages_successfully_deleted">पुराने संदेश सफलतापूर्वक हटाए गए</string>
     <!-- transport_selection_list_item -->

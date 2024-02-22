@@ -4,7 +4,6 @@
     <string name="yes">Si</string>
     <string name="no">Non</string>
     <string name="delete">Borrar</string>
-    <string name="ban">Bloquear</string>
     <string name="save">Gardar</string>
     <string name="noteToSelf">Notificarmo</string>
     <string name="version_s">Versión %s</string>
@@ -66,7 +65,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session necesita permiso para acceder á cámara e poder tirar fotografías, pero foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Cámara\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session necesita permiso para acceder á cámara e tirar fotografías ou facer vídeos.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Bloquear a este usuario?</string>
     <string name="ConversationFragment_save_to_sd_card">Gardar no almacenamento?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Ao gardar este contido multimedia no almacenamento permitirás o acceso a el doutras aplicacións do teu dispositivo. \n\nDesexas continuar?</item>
@@ -99,16 +97,6 @@
     <string name="LongMessageActivity_message_from_s">Mensaxe de %1$s</string>
     <string name="LongMessageActivity_your_message">A túa mensaxe</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Borrar a mensaxe seleccionada?</item>
-        <item quantity="other">Borrar as mensaxes seleccionadas?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Isto borrará de xeito permanente a mensaxe seleccionada.</item>
-        <item quantity="other">Isto borrará de xeito permanente todas as %1$d mensaxes seleccionadas.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Borrando</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Borrando mensaxes...</string>
     <string name="attachmentsCollecting">Recompilando anexos...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Mensaxe multimedia</string>
@@ -345,8 +333,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nova mensaxe a...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Bloquear usuario</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Bloquear e eliminar todo</string>
+    <string name="banUser">Bloquear usuario</string>
     <string name="conversation_context__menu_reply_to_message">Responder á mensaxe</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Gardar anexo</string>
@@ -372,7 +359,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Previsualización multimedia</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Borrando</string>
+    <string name="deleting">Borrando</string>
     <string name="trimmer__deleting_old_messages">Borrando as mensaxes antigas...</string>
     <string name="trimmer__old_messages_successfully_deleted">Mensaxes antigas borradas satisfactoriamente</string>
     <!-- transport_selection_list_item -->

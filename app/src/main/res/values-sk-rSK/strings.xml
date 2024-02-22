@@ -3,7 +3,6 @@
     <string name="yes">Áno</string>
     <string name="no">Nie</string>
     <string name="delete">Zmazať</string>
-    <string name="ban">Ban</string>
     <string name="save">Uložiť</string>
     <string name="noteToSelf">Poznámka pre seba</string>
     <string name="version_s">Verzia %s</string>
@@ -67,7 +66,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session potrebuje prístup k fotoaparátu aby mohol vytvárať fotografie a video, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Fotoaparát\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session potrebuje prístup k Fotoaparátu, aby mohol vytvárať fotografie a videá</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Zablokovať tohto používateľa?</string>
     <string name="ConversationFragment_save_to_sd_card">Uložiť na úložisko?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Uložením tohto média na úložisko k nemu umožníte prístup ostatným aplikáciám v zariadení.\n\nPokračovať?</item>
@@ -102,20 +100,6 @@
     <string name="LongMessageActivity_message_from_s">Správa od %1$s</string>
     <string name="LongMessageActivity_your_message">Vaša správa</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Vymazať zvolenú správu?</item>
-        <item quantity="few">Vymazať zvolené správy?</item>
-        <item quantity="many">Vymazať zvolené správy?</item>
-        <item quantity="other">Vymazať zvolené správy?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Týmto natrvalo odstánite vybranú správu.</item>
-        <item quantity="few">Týmto natrvalo odstánite %1$d vybrané správy.</item>
-        <item quantity="many">Týmto natrvalo odstánite všetkých %1$d vybraných správ.</item>
-        <item quantity="other">Týmto natrvalo odstánite všetkých %1$d vybraných správ.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Mazanie</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Mažú sa správy...</string>
     <string name="attachmentsCollecting">Ukladám prílohy...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediálna správa</string>
@@ -359,7 +343,7 @@ výmeny kľúčov.</string>
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nová správa pre...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Zablokovať užívateľa</string>
+    <string name="banUser">Zablokovať užívateľa</string>
     <string name="conversation_context__menu_reply_to_message">Odpovedať na správu</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Uložiť prílohu </string>
@@ -385,7 +369,7 @@ výmeny kľúčov.</string>
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Náhľad média</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Mazanie</string>
+    <string name="deleting">Mazanie</string>
     <string name="trimmer__deleting_old_messages">Mažú sa staré správy...</string>
     <string name="trimmer__old_messages_successfully_deleted">Staré správy úspešne vymazané</string>
     <!-- transport_selection_list_item -->

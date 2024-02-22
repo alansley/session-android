@@ -4,7 +4,6 @@
     <string name="yes">Да</string>
     <string name="no">Не</string>
     <string name="delete">Изтрий</string>
-    <string name="ban">Забрана</string>
     <string name="save">Запази</string>
     <string name="noteToSelf">Бележка за Мен</string>
     <string name="version_s">Версия %s</string>
@@ -94,16 +93,6 @@
     <string name="LongMessageActivity_message_from_s">Съобщение от %1$s</string>
     <string name="LongMessageActivity_your_message">Вашето съобщение</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Изтриване на избраното съобщение?</item>
-        <item quantity="other">Изтриване на избраните съобщения?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Това ще изтрие невъзвращаемо избраното съобщение.</item>
-        <item quantity="other">Това ще изтрие невъзвращаемо всичките %1$d избрани съобщения.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Изтриване</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Изтриване на съобщения...</string>
     <string name="attachmentsCollecting">Събиране на прикачени файлове...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Мултимедийно съобщение</string>
@@ -333,8 +322,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Ново съобщение до...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Забрана на потребител</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Забрани и изтрий всичко</string>
+    <string name="banUser">Забрана на потребител</string>
     <string name="conversation_context__menu_reply_to_message">Отговор на съобщение</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Запази прикачения файл</string>
@@ -360,7 +348,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Преглед на медията</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Изтриване</string>
+    <string name="deleting">Изтриване</string>
     <string name="trimmer__deleting_old_messages">Изтриване на стари съобщения...</string>
     <string name="trimmer__old_messages_successfully_deleted">Старите съобщения бяха успешно изтрити</string>
     <!-- transport_selection_list_item -->

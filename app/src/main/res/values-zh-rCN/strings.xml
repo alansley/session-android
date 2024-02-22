@@ -4,7 +4,6 @@
     <string name="yes">是</string>
     <string name="no">否</string>
     <string name="delete">删除</string>
-    <string name="ban">封禁</string>
     <string name="save">保存</string>
     <string name="noteToSelf">备忘录</string>
     <string name="version_s">版本 %s</string>
@@ -65,7 +64,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session 需要相机权限来拍摄照片或录制视频。但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session 需要相机权限以拍摄照片或视频</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">是否封禁此用户？</string>
     <string name="ConversationFragment_save_to_sd_card">保存到存储？</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">保存所有的 %1$d 媒体到存储将会允许您设备上的其他应用访问她们。\n\n继续吗？</item>
@@ -97,14 +95,6 @@
     <string name="LongMessageActivity_message_from_s">%1$s发来的消息</string>
     <string name="LongMessageActivity_your_message">您的消息</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="other">删除已选择的消息？</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="other">将会永久删除所有已选择的%1$d条消息。</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">正在删除</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">正在删除信息…</string>
     <string name="attachmentsCollecting">正在收集附件…</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">多媒体信息</string>
@@ -340,8 +330,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">新消息给…</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">封禁用户</string>
-    <string name="conversation_context__menu_ban_and_delete_all">封禁并删除全部</string>
+    <string name="banUser">封禁用户</string>
     <string name="conversation_context__menu_reply_to_message">回复该消息</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">保存附件</string>
@@ -367,7 +356,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">媒体预览</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">正在删除</string>
+    <string name="deleting">正在删除</string>
     <string name="trimmer__deleting_old_messages">正在删除旧消息…</string>
     <string name="trimmer__old_messages_successfully_deleted">旧消息删除成功</string>
     <!-- transport_selection_list_item -->

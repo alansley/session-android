@@ -4,7 +4,6 @@
     <string name="yes">Taip</string>
     <string name="no">Ne</string>
     <string name="delete">Ištrinti</string>
-    <string name="ban">Užblokuoti</string>
     <string name="save">Įrašyti</string>
     <string name="noteToSelf">Pastabos sau</string>
     <string name="version_s">Versija %s</string>
@@ -104,20 +103,6 @@
     <string name="LongMessageActivity_message_from_s">Žinutė nuo %1$s</string>
     <string name="LongMessageActivity_your_message">Jūsų žinutė</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Ištrinti pažymėtą žinutę?</item>
-        <item quantity="few">Ištrinti pažymėtas žinutes?</item>
-        <item quantity="many">Ištrinti pažymėtas žinutes?</item>
-        <item quantity="other">Ištrinti pažymėtas žinutes?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Tai visiems laikams ištrins %1$d pažymėtą žinutę.</item>
-        <item quantity="few">Tai visiems laikams ištrins visas %1$d pažymėtas žinutes.</item>
-        <item quantity="many">Tai visiems laikams ištrins visas %1$d pažymėtų žinučių.</item>
-        <item quantity="other">Tai visiems laikams ištrins visas %1$d pažymėtų žinučių.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Ištrinama</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Ištrinamos žinutės...</string>
     <string name="attachmentsCollecting">Renkami priedai...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedijos žinutė</string>
@@ -386,7 +371,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Medijos peržiūra</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Ištrinama</string>
+    <string name="deleting">Ištrinama</string>
     <string name="trimmer__deleting_old_messages">Ištrinamos senos žinutės...</string>
     <string name="trimmer__old_messages_successfully_deleted">Senos žinutės sėkmingai ištrintos</string>
     <!-- transport_selection_list_item -->

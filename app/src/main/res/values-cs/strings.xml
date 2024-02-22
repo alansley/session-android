@@ -4,7 +4,6 @@
     <string name="yes">Ano</string>
     <string name="no">Ne</string>
     <string name="delete">Smazat</string>
-    <string name="ban">Zabanovat</string>
     <string name="save">Uložit</string>
     <string name="noteToSelf">Poznámka sobě</string>
     <string name="version_s">Verze %s</string>
@@ -71,7 +70,6 @@
     <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signál potřebuje oprávnění pro přístup k fotoaparátu aby mohl pořizovat fotografie nebo video, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Fotoaparát\".</string>
     <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signál potřebuje přístup k fotoaparátu aby mohl pořizovat fotografie nebo videa.</string>
     <!-- ConversationFragment -->
-    <string name="ConversationFragment_ban_selected_user">Vykázat tohoto uživatele?</string>
     <string name="ConversationFragment_save_to_sd_card">Uložit do paměti?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="one">Uložíte-li přílohu do úložiště, budou k ní mít přístup všechny aplikace ve vašem zařízení.\n\nPokračovat?</item>
@@ -106,20 +104,6 @@
     <string name="LongMessageActivity_message_from_s">Zpráva od %1$s</string>
     <string name="LongMessageActivity_your_message">Vaše zpráva</string>
     <!-- MediaOverviewActivity -->
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_title">
-        <item quantity="one">Smazat označenou zprávu?</item>
-        <item quantity="few">Smazat označené zprávy?</item>
-        <item quantity="many">Smazat označené zprávy?</item>
-        <item quantity="other">Smazat označené zprávy?</item>
-    </plurals>
-    <plurals name="MediaOverviewActivity_Media_delete_confirm_message">
-        <item quantity="one">Tímto trvale smažete označenou zprávu.</item>
-        <item quantity="few">Tímto trvale smažete všechny %1$d označené zprávy.</item>
-        <item quantity="many">Tímto trvale smažete všech %1$d označených zpráv.</item>
-        <item quantity="other">Tímto trvale smažete všech %1$d označených zpráv.</item>
-    </plurals>
-    <string name="MediaOverviewActivity_Media_delete_progress_title">Mažu</string>
-    <string name="MediaOverviewActivity_Media_delete_progress_message">Mažu zprávy...</string>
     <string name="attachmentsCollecting">Shromažďuji přílohy...</string>
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimediální zpráva</string>
@@ -363,8 +347,7 @@
     <!-- contact_selection_list -->
     <string name="contact_selection_list__unknown_contact">Nová zpráva ...</string>
     <!-- conversation_context -->
-    <string name="conversation_context__menu_ban_user">Zablokovat uživatele</string>
-    <string name="conversation_context__menu_ban_and_delete_all">Zablokovat a odstranit vše</string>
+    <string name="banUser">Zablokovat uživatele</string>
     <string name="conversation_context__menu_reply_to_message">Odpovědět na zprávu</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Uložit přílohu</string>
@@ -390,7 +373,7 @@
     <!-- media_preview_activity -->
     <string name="media_preview_activity__media_content_description">Náhled multimédií</string>
     <!-- Trimmer -->
-    <string name="trimmer__deleting">Mažu</string>
+    <string name="deleting">Mažu</string>
     <string name="trimmer__deleting_old_messages">Mazání starých zpráv...</string>
     <string name="trimmer__old_messages_successfully_deleted">Staré zprávy byly úspěšně smazány.</string>
     <!-- transport_selection_list_item -->
