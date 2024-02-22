@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Që të mund të bashkëngjisë foto, video, ose audio, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, vazhdoni për te menuja e rregullimeve të aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Që të mund të bëjë foto, Session-i lyp leje përdorimi Kamere, por kjo i është mohuar. Ju lutemi, vazhdoni për te menuja e rregullimeve të aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Kamerë\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Gabim në luajtjen e audios!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Zhbllokoje</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">S\’ka aplikacion të gatshëm në celularin tuaj për trajtim të kësaj në pajisjen tuaj.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Që të mund të dërgojë mesazhe audio, Session-i lyp leje përdorimi të Mikrofonit, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Mikrofonin\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Për të bërë foto dhe dhe video, lejojini Session-it të përdorë kamerën.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session ka nevojë për leje hyrje ne bazën e të dhënave për të dërguar foto dhe video</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Kamerën\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Që të bëjë foto ose video, Session-i lyp leje përdorimi të Kamerës</string>
+    <string name="cameraGrantAccessStorage">Session ka nevojë për leje hyrje ne bazën e të dhënave për të dërguar foto dhe video</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Të ruhet në depozitë?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">Ruajtja e %1$d medieve në depozitë do t\’i lejojë përdorimin e tyre cilitdo aplikacioni tjetër në pajisjen tuaj.\n\nTë vazhdohet?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Foto profili</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Me përdorim të një të përshtaturi: %s</string>
     <string name="CustomDefaultPreference_using_default">Me përdorim parazgjedhjeje: %s</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIFe</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Ngjitëse</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Avatar</string>
+    <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Që të incizoni një mesazh zanor, prekeni dhe mbajeni të prekur, për ta dërguar, lëshojeni</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">Dërgoje te %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Shtoni një përshkrim…</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera jo gati</string>
+    <string name="cameraErrorUnavailable">Kamera jo gati</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">S\’mund të ndani me të tjerët më shumë se %d objekte.</item>
         <item quantity="other">S\’mund të ndani me të tjerët më shumë se %d objekte.</item>
@@ -366,7 +361,7 @@
     <string name="trimmer__deleting_old_messages">Po fshihen mesazhet e vjetra…</string>
     <string name="trimmer__old_messages_successfully_deleted">Mesazhet e vjetra u fshinë me sukses</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Lyp leje</string>
+    <string name="permissionsRequired">Lyp leje</string>
     <string name="notNow">Jo tani</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Kopjeruajtjet do të ruhen te depozitë e jashtme dhe fshehtëzohen me frazëkalimin më poshtë. Duhet të keni këtë frazëkalim, pa të mundeni të riktheni një kopjeruajtje</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">E kam shkruar diku këtë frazëkalim. Pa të, s\’do të jem në gjendje të rikthej një kopjeruajtje</string>

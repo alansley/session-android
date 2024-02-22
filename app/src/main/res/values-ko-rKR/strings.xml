@@ -64,7 +64,6 @@
         <item quantity="other">미디어 %1$d개를 저장소에 저장하게 되면, 기기에 설치된 다른 앱이 접근할 수 있습니다.\n\n저장하시겠습니까?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">프로필 사진</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">맞춤값 사용: %s</string>
     <string name="CustomDefaultPreference_using_default">기본값 사용: %s</string>
@@ -83,7 +82,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF 파일</string>
     <string name="GiphyFragmentPagerAdapter_stickers">스티커</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">사진</string>
+    <string name="photo">사진</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">길게 눌러 음성메시지 녹음하고 보내려면 손 떼세요.</string>
     <!-- LongMessageActivity -->

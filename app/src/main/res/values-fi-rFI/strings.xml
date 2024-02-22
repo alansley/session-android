@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal tarvitsee lupaa käyttää laitteesi tallennustilaa kuvien, videoiden tai äänitiedostojen liittämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal tarvitsee lupaa käyttää kameraa kuvien ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Virhe toistettaessa äänitallennetta!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Poista esto</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Laitteessasi ei ole sovellusta, joka osaa avata tämän linkin.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal tarvitsee lupaa käyttää mikrofonia äänitiedostojen lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Jotta voit ottaa kuvia ja videoita, anna Sessionille lupaa käyttää kameraa.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Istunto tarvitsee tallennustilan käyttöoikeuden kuvien ja videoiden lähettämiseen.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal tarvitsee lupaa käyttää laitteesi kameraa kuvien ja videoiden ottamista varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Kamera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session tarvitsee kameran käyttöoikeutta kuvien ja videoiden ottamista varten.</string>
+    <string name="cameraGrantAccessStorage">Istunto tarvitsee tallennustilan käyttöoikeuden kuvien ja videoiden lähettämiseen.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Kopioi tallennustilaan?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">Jos kopioit kaikki %1$d tiedostoa laitteesi tallennustilaan, niin kaikki muutkin sovellukset saavat oikeuden käyttää niitä.\n\nHaluatko jatkaa?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profiilikuva</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Käytä mukautettua: %s</string>
     <string name="CustomDefaultPreference_using_default">Käytä oletusta: %s</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIFit</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Tarrat</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Kuvake</string>
+    <string name="photo">Kuvake</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Pidä pohjassa nauhoittaaksesi ääniviestin ja päästä irti lähettääksesi sen</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">Lähetä yhteystiedolle %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Lisää kuvateksti...</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera ei käytettävissä</string>
+    <string name="cameraErrorUnavailable">Kamera ei käytettävissä</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Et voi jakaa useampaa kuin %d kappaletta.</item>
         <item quantity="other">Et voi jakaa useampaa kuin %d kappaletta.</item>
@@ -366,7 +361,7 @@ on viallinen!</string>
     <string name="trimmer__deleting_old_messages">Vanhoja viestejä poistetaan...</string>
     <string name="trimmer__old_messages_successfully_deleted">Vanhojen viestien poisto onnistui</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Tarvitaan käyttöoikeus</string>
+    <string name="permissionsRequired">Tarvitaan käyttöoikeus</string>
     <string name="notNow">Ei nyt</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Varmuuskopiot tallennetaan laitteesi tallennustilaan ja ne salataan allaolevalla salalauseella. Ilman tätä salalausetta et voi palauttaa varmuuskopiota.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Olen kirjoittanut ylös tämän salalauseen. Ilman sitä, en pysty palauttamaan varmuuskopiota.</string>
@@ -429,8 +424,8 @@ on viallinen!</string>
     <string name="activity_path_resolving_progress">Ratkaistaan…</string>
     <string name="qrScan">Lue QR-koodi</string>
     <string name="fragment_enter_public_key_explanation">Käyttäjät voivat jakaa Session tunnuksensa menemällä tiliasetuksiinsa ja painamalla \"Jaa Session ID\" tai jakamalla QR-koodin.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session tarvitsee kameran käyttöoikeuden skannatakseensa QR-koodit</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Myönnä Kameran Käyttöoikeus</string>
+    <string name="cameraGrantAccessQr">Session tarvitsee kameran käyttöoikeuden skannatakseensa QR-koodit</string>
+    <string name="cameraGrantAccess">Myönnä Kameran Käyttöoikeus</string>
     <string name="groupNameEnter">Syötä ryhmän nimi</string>
     <string name="activity_create_closed_group_empty_state_button_title">Aloita ryhmä</string>
     <string name="groupNameEnterPlease">Syötä ryhmän nimi</string>

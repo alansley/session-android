@@ -26,7 +26,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(動画)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Sessionに写真や動画、音声データを添付するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定から、アプリの権限を選び、ストレージへのアクセス許可を有効にしてください。</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Sessionで写真を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">音声再生中にエラーがありました！</string>
     <!-- BucketedThreadMedia -->
@@ -59,17 +58,13 @@
     <string name="blockUnblock">ブロック解除</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">このリンクを扱えるアプリがインストールされていません</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Sessionで音声メッセージを添付するには、『マイク』へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』へのアクセス許可を有効にしてください。</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">写真や動画を撮るには、Sessionのカメラへのアクセスを許可してください。</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">セッションは写真やビデオを送信するためにストレージへのアクセスが必要です。</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sessionで写真や動画を撮るには、カメラへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『カメラ』へのアクセス許可を有効にしてください。</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Sessionで写真や動画を撮るには、カメラへのアクセス許可が必要です。</string>
+    <string name="cameraGrantAccessStorage">セッションは写真やビデオを送信するためにストレージへのアクセスが必要です。</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">ストレージに保存しますか？</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">%1$d個のメディア・ファイルをすべて外部メモリに保存することで、他のアプリからアクセスすることが可能になります。\n\n続行しますか？</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">プロフィール画像</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">カスタム利用: %s</string>
     <string name="CustomDefaultPreference_using_default">デフォルト利用: %s</string>
@@ -88,7 +83,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">ステッカー</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">アイコン</string>
+    <string name="photo">アイコン</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">押し続けて録音、リリースして送信</string>
     <!-- LongMessageActivity -->
@@ -104,7 +99,7 @@
     <string name="MediaPickerActivity_send_to">%sに送信</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">キャプション追加...</string>
-    <string name="MediaSendActivity_camera_unavailable">カメラは利用できません。</string>
+    <string name="cameraErrorUnavailable">カメラは利用できません。</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">%d以上のアイテムを共有できません</item>
     </plurals>
@@ -359,7 +354,7 @@
     <string name="trimmer__deleting_old_messages">古いメッセージを削除しています...</string>
     <string name="trimmer__old_messages_successfully_deleted">古いメッセージを削除しました</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">アクセス許可が必要です</string>
+    <string name="permissionsRequired">アクセス許可が必要です</string>
     <string name="notNow">後にする</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">バックアップは外部ストレージにパスフレーズで暗号化して保存されます。バックアップのリストアには、このパスフレーズが必要です。</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">パスフレーズを書き留めました。パスフレーズがなければ、バックアップをリストアできません。</string>
@@ -422,8 +417,8 @@
     <string name="activity_path_resolving_progress">解決中...</string>
     <string name="qrScan">QR コードをスキャンする</string>
     <string name="fragment_enter_public_key_explanation">ユーザーは、アカウント設定に移動して [Session ID を共有] をタップするか、QR コードを共有することで、Session ID を共有できます。</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session で QR コードをスキャンするにはカメラへのアクセスが必要です</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">カメラへのアクセスを許可する</string>
+    <string name="cameraGrantAccessQr">Session で QR コードをスキャンするにはカメラへのアクセスが必要です</string>
+    <string name="cameraGrantAccess">カメラへのアクセスを許可する</string>
     <string name="groupNameEnter">グループ名を入力してください</string>
     <string name="activity_create_closed_group_empty_state_button_title">Session を開始する</string>
     <string name="groupNameEnterPlease">グループ名を入力してください</string>

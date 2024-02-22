@@ -24,7 +24,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(heli)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session vajab fotode, videote või audiofailide manustamiseks ligipääsu salvestusmeediale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Salvestusmeedia\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session vajab fotode tegemiseks ligipääsu seadme kaamerale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Heli esitamisel tekkis viga!</string>
     <!-- BucketedThreadMedia -->
@@ -51,9 +50,6 @@
     <string name="blockUnblock">Eemalda blokeering</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Sinu seadmes pole rakendust, mis oleks võimeline seda linki käsitlema.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session vajab audiosõnumite saatmiseks ligipääsu seadme mikrofonile, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Luba Sessionile ligipääs kaamerale fotode ja videote salvestamiseks.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session vajab ligipääsu kaamerale, et salvestada fotosid ja videosid, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session vajab fotode ja videote salvestamiseks ligipääsu kaamerale</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Salvesta sisemällu?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -61,7 +57,6 @@
         <item quantity="other">Kõigi %1$d meediafaili sisemällu salvestamine lubab mistahes teisel rakendusel sinu seadmes nendele juurde pääseda.\n\nJätkad?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profiilipilt</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Kasutan kohandatud: %s</string>
     <string name="CustomDefaultPreference_using_default">Kasutan vaikimisi: %s</string>
@@ -79,7 +74,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIFid</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Kleepsud</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Pilt</string>
+    <string name="photo">Pilt</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Koputa ja hoia all, et salvestada helisõnum, vabasta saatmiseks</string>
     <!-- LongMessageActivity -->
@@ -95,7 +90,7 @@
     <string name="MediaPickerActivity_send_to">Saada kohta %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Lisa pealkiri...</string>
-    <string name="MediaSendActivity_camera_unavailable">Kaamera pole saadaval.</string>
+    <string name="cameraErrorUnavailable">Kaamera pole saadaval.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Sa ei saa jagada rohkem kui %d üksust.</item>
         <item quantity="other">Sa ei saa jagada rohkem kui %d üksust.</item>
@@ -345,7 +340,7 @@
     <string name="trimmer__deleting_old_messages">Kustutan vanu sõnumeid...</string>
     <string name="trimmer__old_messages_successfully_deleted">Vanad sõnumid edukalt kustutatud</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Luba on vajalik</string>
+    <string name="permissionsRequired">Luba on vajalik</string>
     <string name="notNow">Mitte praegu</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Varundused salvestatakse välismällu ja krüptitakse valitud salaväljendiga. Sul peab see salaväljend olemas olema, et taastada antud varundust.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ma olen salaväljendi üles kirjutanud. Ilma selleta ei saa ma varundust taastada.</string>

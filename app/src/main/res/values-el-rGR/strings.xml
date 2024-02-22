@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(βίντεο)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio"> Το Session χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για να μπορούμε να επισυνάψουμε φωτογραφίες, βίντεο ή κομμάτια ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\". </string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Το Session χρειάζεται τα δικαιώματα Κάμερας για να μπορούμε να τραβάμε φωτογραφίες, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε τα \"Κάμερα\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Πρόβλημα κατά την αναπαραγωγή ήχου!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Ξεμπλοκάρισμα</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Δεν υπάρχει διαθέσιμη εφαρμογή στην συσκευή σας να μπορεί να διαχειριστεί αυτό τον σύνδεσμο.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Το Session χρειάζεται τα δικαιώματα Μικροφώνου για να μπορούμε να στείλουμε μηνύματα ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Μικρόφωνο\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Για να τραβήξετε φωτογραφίες και βίντεο, δώστε στο Session πρόσβαση στην κάμερα.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για την αποστολή φωτογραφιών και βίντεο.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Το Session χρειάζεται τα δικαιώματα Κάμερας για να μπορούμε να τραβήξουμε φωτογραφίες και βίντεο, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε την \"Κάμερα\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Το Session χρειάζεται τα δικαιώματα Κάμερας για να τραβήξει φωτογραφίες ή βίντεο</string>
+    <string name="cameraGrantAccessStorage">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για την αποστολή φωτογραφιών και βίντεο.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Να αποθηκευτεί στη μνήμη;</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">Αποθηκεύοντας τα %1$d πολυμέσα στη μνήμη θα επιτρέψει σε άλλες εφαρμογές της συσκευής σας να έχουν πρόσβαση σε αυτά.\n\nΣυνέχεια;</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Φωτογραφία προφίλ</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Χρησιμοποιείται το προσαρμοσμένο: %s</string>
     <string name="CustomDefaultPreference_using_default">Χρησιμοποιείται το προκαθορισμένο: %s</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">Εικόνες GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Αυτοκόλλητα</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Εικόνα Προφίλ</string>
+    <string name="photo">Εικόνα Προφίλ</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Πατήστε και κρατήστε πατημένο για να ηχογραφήσετε ένα φωνητικό μήνυμα, αφήστε το κουμπί για αποστολή</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">Αποστολή σε %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Προσθήκη λεζάντας...</string>
-    <string name="MediaSendActivity_camera_unavailable">Η κάμερα δεν είναι διαθέσιμη.</string>
+    <string name="cameraErrorUnavailable">Η κάμερα δεν είναι διαθέσιμη.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Δεν μπορείτε να μοιραστείτε πάνω από %d αντικείμενο.</item>
         <item quantity="other">Δεν μπορείτε να μοιραστείτε πάνω από %d αντικείμενα.</item>
@@ -367,7 +362,7 @@
     <string name="trimmer__deleting_old_messages">Τα παλία μηνύματα διαγράφονται...</string>
     <string name="trimmer__old_messages_successfully_deleted">Τα παλιά μηνύματα διαγράφτηκαν επιτυχώς</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Χρειάζονται δικαιώματα πρόσβασης</string>
+    <string name="permissionsRequired">Χρειάζονται δικαιώματα πρόσβασης</string>
     <string name="notNow">Όχι τώρα</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Τα αντίγραφα ασφαλείας αποθηκεύονται στην εξωτερική μνήμη και κρυπτογραφούνται με την παρακάτω φράση-κλειδί. Πρέπει να γνωρίζετε αυτή τη φράση-κλειδί για να επανακτήσετε το αντίγραφο ασφαλείας.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Σημείωσα σε χαρτί αυτή τη φράση-κλειδί. Χωρίς αυτή, δε θα μπορέσω να επανακτήσω το αντίγραφο ασφαλείας.</string>
@@ -430,8 +425,8 @@
     <string name="activity_path_resolving_progress">Επίλυση…</string>
     <string name="qrScan">Σαρώστε τον κωδικό QR</string>
     <string name="fragment_enter_public_key_explanation">Οι χρήστες μπορούν να μοιραστούν τη ταυτότητα τους πηγαίνοντας στις ρυθμίσεις του λογαριασμού τους και πατώντας το \"Διαμοιρασμό Session ταυτότητας\" ή κοινοποιώντας τον κωδικό QR.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Το Session χρειάζεται πρόσβαση στην κάμερα για σάρωση κωδικών QR</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Χορήγηση Πρόσβασης Κάμερας</string>
+    <string name="cameraGrantAccessQr">Το Session χρειάζεται πρόσβαση στην κάμερα για σάρωση κωδικών QR</string>
+    <string name="cameraGrantAccess">Χορήγηση Πρόσβασης Κάμερας</string>
     <string name="groupNameEnter">Εισαγωγή ονόματος ομάδας</string>
     <string name="activity_create_closed_group_empty_state_button_title">Ξεκινήστε μια συνομιλία</string>
     <string name="groupNameEnterPlease">Παρακαλώ εισάγετε όνομα ομάδας</string>

@@ -329,7 +329,7 @@ public class MediaOverviewActivity extends PassphraseRequiredActionBarActivity {
                   new ProgressDialogAsyncTask<Void, Void, List<SaveAttachmentTask.Attachment>>(
                           context,
                           R.string.attachmentsCollecting,
-                          R.string.please_wait) {
+                          R.string.waitOneMoment) {
                     @Override
                     protected List<SaveAttachmentTask.Attachment> doInBackground(Void... params) {
                       List<SaveAttachmentTask.Attachment> attachments = new LinkedList<>();

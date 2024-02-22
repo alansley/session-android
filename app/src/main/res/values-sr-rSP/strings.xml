@@ -29,7 +29,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Сесија треба дозволу за складиште да би закачио слике, видео клипове или аудио снимке, али је забрањена заувек. Молим те да наставиш у мени подешавања, селектуј \"Дозволе\", и омогући \"Складиште\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Сесија треба дозволу за камеру да би сликао слике, али је забрањена заувек. Молим те да наставиш у мени подешавања, селектуј \"Дозволе\", и омогући \"Камеру\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Грешка пуштања звука!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Одблокирај</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нема апликације за руковање овом везом на вашем уређају.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Сесија треба дозволу за микрофон да пошаље аудио поруке, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Микрофон\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Сесија треба дозволу за камеру да прави слике и видео клипове.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Сесија треба дозволу за складиште да шаље слике и видео клипове.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Сесија треба дозволу за камеру да направи слике и видео клипове, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Камеру\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Сесија треба дозволу за камеру да прави слике или видео клипове.</string>
+    <string name="cameraGrantAccessStorage">Сесија треба дозволу за складиште да шаље слике и видео клипове.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Сачувати у складиште?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -73,7 +69,6 @@
         <item quantity="other">Упис ових %1$d медијума у складиште ће омогућити било којој апликацији на вашем уређају да му приступи.\n\nДа наставим?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Профилна слика</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Користим посебно: %s</string>
     <string name="CustomDefaultPreference_using_default">Користим подразумевано: %s</string>
@@ -92,7 +87,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">ГИФ сличице</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Налепнице</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Слика</string>
+    <string name="photo">Слика</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Тапните и држите за снимање гласовне поруке, пустите за слање</string>
     <!-- LongMessageActivity -->
@@ -108,7 +103,7 @@
     <string name="MediaPickerActivity_send_to">Пошаљи %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Додај капцију...</string>
-    <string name="MediaSendActivity_camera_unavailable">Камера недоступна.</string>
+    <string name="cameraErrorUnavailable">Камера недоступна.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Не можеш да делиш више од %d предмета.</item>
         <item quantity="few">Не можеш да делиш више од %d предмета.</item>

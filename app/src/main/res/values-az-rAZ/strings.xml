@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, foto, video və ya səs əlavə etmək üçün Anbar icazəsi tələb edir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\" icazəsini fəallaşdırın.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session, foto çəkmək üçün Kamera icazəsini tələb edir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Kamera\" icazəsini fəallaşdırın.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Səs oxutma xətası!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Kilidi aç</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Cihazında bu linkin öhdəsindən gələ biləcək aplikasiya yoxdur.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session, səsli mesaj göndərmək üçün mikrofona müraciət etməlidir, ancaq icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Mikrofon\"u fəallaşdırın.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session, foto və video çəkmək üçün kameraya müraciət etməlidir.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session, foto və video göndərmək üçün anbara müraciət etməlidir.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session, foto və video çəkmək üçün kameraya müraciət etməlidir, ancaq icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Kamera\"nı fəallaşdırın.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session, foto və ya video çəkmək üçün kameraya müraciət etməlidir.</string>
+    <string name="cameraGrantAccessStorage">Session, foto və video göndərmək üçün anbara müraciət etməlidir.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Anbarda saxlanılsın?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">%1$d medianı anbarda saxlamaq, cihazınızdakı digər tətbiqlərin onlara müraciətinə icazə verəcək.\n\nDavam edilsin?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profil şəkli</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Özəl istifadə edilir: %s</string>
     <string name="CustomDefaultPreference_using_default">İlkin istifadə edilir: %s</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF-lər</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Stikerlər</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Foto</string>
+    <string name="photo">Foto</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Səsyazmalı mesajı qeyd etmək üçün basıb saxlayın, göndərmək üçün buraxın</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">%s - göndər</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Başlıq əlavə et...</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera əlçatmazdır.</string>
+    <string name="cameraErrorUnavailable">Kamera əlçatmazdır.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">%d elementdən çoxunu paylaşa bilməzsiniz.</item>
         <item quantity="other">%d elementdən çoxunu paylaşa bilməzsiniz.</item>
@@ -367,7 +362,7 @@
     <string name="trimmer__deleting_old_messages">Köhnə mesajlar silinir...</string>
     <string name="trimmer__old_messages_successfully_deleted">Köhnə mesajlar uğurla silindi</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">İcazə tələb edilir</string>
+    <string name="permissionsRequired">İcazə tələb edilir</string>
     <string name="notNow">İndi yox</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Nüsxələmələr xarici anbarda saxlanılacaq və aşağıdakı parolla şifrələnəcək. Bir nüsxəni bərpa etmək üçün bu parola sahib olmalısınız.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Bu parolu özümdə qeyd olaraq saxladım. Bu parol olmadan, nüsxəni bərpa edə bilmərəm.</string>
@@ -430,8 +425,8 @@
     <string name="activity_path_resolving_progress">Həll edilir…</string>
     <string name="qrScan">QR kodu skan edin</string>
     <string name="fragment_enter_public_key_explanation">İstifadəçilər, hesab tənzimləmələrində \"Session kimliyini paylaş\"a toxunaraq və ya öz QR kodlarını paylaşaraq Session kimliklərini paylaşa bilər.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session, QR kodunu skan etmək üçün kameraya müraciət etməlidir</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Kameraya müraciətə icazə ver</string>
+    <string name="cameraGrantAccessQr">Session, QR kodunu skan etmək üçün kameraya müraciət etməlidir</string>
+    <string name="cameraGrantAccess">Kameraya müraciətə icazə ver</string>
     <string name="groupNameEnter">Qrup adını daxil edin</string>
     <string name="activity_create_closed_group_empty_state_button_title">Bir Seans Başladın</string>
     <string name="groupNameEnterPlease">Zəhmət olmasa bir qrup adı daxil edin</string>

@@ -32,7 +32,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(וידיאו)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session דורש את הרשאת האחסון על מנת לצרף תצלומים, וידיאוים, או שמע, אבל היא נדחתה לצמיתות. אנא המשך אל תפריט הגדרות היישום, בחר \"הרשאות\", אפשר את \"אחסון\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session דורש את הרשאת המצלמה על מנת לצלם תצלומים, אבל היא נדחתה לצמיתות. אנא המשך אל תפריט הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מצלמה\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">שגיאה בניגון שמע!</string>
     <!-- BucketedThreadMedia -->
@@ -63,10 +62,7 @@
     <string name="blockUnblock">בטל חסימה</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">אין יישום זמין לטיפול בקישור זה במכשיר שלך.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session דורש את הרשאת המיקרופון על מנת לשלוח הודעות שמע, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מיקרופון\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">כדי ללכוד תצלומים ווידיאו, אפשר ל-Session גישה אל המצלמה.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session צריך הרשאות גישה לאחסון על מנת לשלוח תמונות ווידיאו.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session צריך את הרשאת המצלמה כדי לצלם תצלומים או וידיאו, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מצלמה\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session צריך הרשאות מצלמה כדי לצלם תצלומים או להקליט וידיאו</string>
+    <string name="cameraGrantAccessStorage">Session צריך הרשאות גישה לאחסון על מנת לשלוח תמונות ווידיאו.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">לשמור באחסון?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -76,7 +72,6 @@
         <item quantity="other">שמירת כל %1$d פריטי המדיה באחסון תתיר לכל יישומים כלשהם להשיג גישה לפריטי המדיה.\n\nלהמשיך?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">תצלום פרופיל</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">משתמש בהגדרה מותאמת אישית: %s</string>
     <string name="CustomDefaultPreference_using_default">משתמש בברירת מחדל: %s</string>
@@ -95,7 +90,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">קבצי GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">מדבקות</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">יצגן</string>
+    <string name="photo">יצגן</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">הקש והחזק כדי להקליט הודעה קולית, שחרר כדי לשלוח</string>
     <!-- LongMessageActivity -->
@@ -111,7 +106,7 @@
     <string name="MediaPickerActivity_send_to">שלח אל %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">הוסף כיתוב...</string>
-    <string name="MediaSendActivity_camera_unavailable">מצלמה אינה זמינה.</string>
+    <string name="cameraErrorUnavailable">מצלמה אינה זמינה.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">אינך יכול לשתף יותר מפריט %d.</item>
         <item quantity="two">אינך יכול לשתף יותר מ־%d פריטים.</item>
@@ -372,7 +367,7 @@
     <string name="trimmer__deleting_old_messages">מוחק הודעות ישנות...</string>
     <string name="trimmer__old_messages_successfully_deleted">הודעות ישנות נמחקו בהצלחה</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">דרושה הרשאה</string>
+    <string name="permissionsRequired">דרושה הרשאה</string>
     <string name="notNow">לא עכשיו</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">גיבויים יישמרו בהתקן חיצוני ויוצפנו עם משפט־הסיסמה למטה. חייב להיות לך משפט־סיסמה זה על מנת לשחזר גיבוי.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">כתבתי משפט־סיסמה זה. בלעדיו, לא אוכל לשחזר גיבוי.</string>

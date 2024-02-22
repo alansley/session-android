@@ -4,7 +4,6 @@
     <string name="yes">Այո</string>
     <string name="no">Ոչ</string>
     <string name="delete">Ջնջել</string>
-    <string name="please_wait">Խնդրում ենք սպասել…</string>
     <string name="save">Պահպանել</string>
     <string name="noteToSelf">Նշում ինքս ինձ</string>
     <string name="version_s">Տարբերակ %s</string>
@@ -29,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(վիդեո)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session֊ը պահանջում է Ֆայլերի կառավարման թույլտվություն՝ լուսանկարներ, տեսանյութեր կամ աուդիո ֆայլեր կցելու համար, սակայն այն ընդմիշտ մերժվել է: Խնդրում ենք մտնել հավելվածի կարգավորումների ցանկը, ընտրել «Թույլտվություններ» և միացնել ֆայլերի կառավարման թույլտվությունը.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Լուսանկարելու համար session-ը պահանջում է տեսախցիկի թույլտվություն: Խնդրում ենք անցնել հավելվածի կարգավորումների ցանկ, ընտրել «Թույլտվություններ» և միացնել «տեսախցիկ» թույլտվությունը.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Չհաջողվեց նվագարկել ծայնը!</string>
     <!-- BucketedThreadMedia -->
@@ -62,10 +60,7 @@
     <string name="blockUnblock">Հանել արգելափակումից</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Այս հղմամբ չկան հասանելի հավելվածներ ձեր սարքում.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session-ը պահանջում է միկրոֆոնի թույտվություն, խնդրում ենք մտնել կարգավորումներ, ընտրել \"թույլտվություն\", ապա թույլատրել \"միկրոֆոնը\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն, որպեսզի ունենանք մուտք դեպի նկարմեր և վիդեոներ.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն, որպեսզի ունենանք մուտք դեպի նկարներ և վիդեոներ.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session-ը պահանջում է տեսախցիկի թույլտվություն լուսանկարելու համար: Խնդրում ենք անցնել հավելվածի կարգավորումների ցանկ, ընտրել «Թույլտվություններ» և միացնել «Տեսախցիկ» թույլտվությունը.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն լուսանկարելու կամ տեսանյութեր ձայնագրելու համար.</string>
+    <string name="cameraGrantAccessStorage">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն, որպեսզի ունենանք մուտք դեպի նկարներ և վիդեոներ.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Պահպանե՞լ սարքի մեջ։</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -73,7 +68,6 @@
         <item quantity="other">Այս %1$d մեդիան պահպանելով սարքի մեջ մնացած հավելվածները կկարողանան տեսնել այն։\n\nՇարունակե՞լ։</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Լուսանկար</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Սովորական օգտագործելով: %s</string>
     <string name="CustomDefaultPreference_using_default">Օգտագործելով լռելյայն.%s</string>
@@ -92,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">գիֆեր</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Պիտակներ</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Նկար</string>
+    <string name="photo">Նկար</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Սեղմեք և սեղմած պահեք ձայնագրելու համար, թողեք ուղարկելու համար</string>
     <!-- LongMessageActivity -->
@@ -108,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">Ուղարկել %s֊ին</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Ավելացնել վերնագիր...</string>
-    <string name="MediaSendActivity_camera_unavailable">Տեսախցիկը հասանելի չէ</string>
+    <string name="cameraErrorUnavailable">Տեսախցիկը հասանելի չէ</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Դուք չեք կարող տարածել ավելին, քան %d իր։</item>
         <item quantity="other">Դուք չեք կարող տարածել ավելին, քան %d իրեր։</item>
@@ -370,7 +364,7 @@
     <string name="trimmer__deleting_old_messages">Հին հաղորդագրությունները ջնջվում են...</string>
     <string name="trimmer__old_messages_successfully_deleted">Հին հաղորդագրությունները հաջողությամբ ջնջվեցին</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Անհրաժեշտ է թույլտվություն</string>
+    <string name="permissionsRequired">Անհրաժեշտ է թույլտվություն</string>
     <string name="notNow">Ոչ հիմա</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Կրկնօրինակները կպահվեն արտաքին պահեստում և կգաղտնագրվեն ստորև գրված գաղտնաբառով. Կրկնօրինակը վերականգնելու համար դուք պետք է ունենաք այս գաղտնաբառը.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ես գրել եմ այս գաղտնաբառը. Առանց դրա, ես չեմ կարողանա վերականգնել կրկնօրինակը.</string>
@@ -433,8 +427,8 @@
     <string name="activity_path_resolving_progress">Լուծում է…</string>
     <string name="qrScan">Սկանավորել QR Կոդ</string>
     <string name="fragment_enter_public_key_explanation">Օգտագործողները կարող են կիսվել իրենց session-ի այդի-ով մտնելով իրենք կարգավորումներ և սեղմելով կիսվել կոճակը կամ կիսվելով QR կոդով.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session-ին պետք հասանելիություն տեսախցիկին որպեսզի սքանավորի QR կոդը</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Տեսախցիկի հասանելիություն</string>
+    <string name="cameraGrantAccessQr">Session-ին պետք հասանելիություն տեսախցիկին որպեսզի սքանավորի QR կոդը</string>
+    <string name="cameraGrantAccess">Տեսախցիկի հասանելիություն</string>
     <string name="groupNameEnter">Մուտքագրեք խմբի անուն</string>
     <string name="activity_create_closed_group_empty_state_button_title">Սկսել Սեանս</string>
     <string name="groupNameEnterPlease">Այս դաշտը չպիտի լինի դատարկ</string>

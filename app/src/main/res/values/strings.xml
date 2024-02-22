@@ -6,7 +6,6 @@
     <string name="delete">Delete</string>
     <string name="resend">Resend</string>
     <string name="reply">Reply</string>
-    <string name="please_wait">Please wait…</string>
     <string name="save">Save</string>
     <string name="image">Image</string>
     <string name="noteToSelf">Note to Self</string>
@@ -176,7 +175,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session requires the Storage permission in order to attach photos, videos, or audio, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Storage\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session requires the Camera permission in order to take photos, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Camera\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Error playing audio!</string>
     <!-- BucketedThreadMedia -->
@@ -211,10 +209,7 @@
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">There is no app available to handle this link on your device.</string>
     <string name="ConversationActivity_copy_open_group_url">Copy Community URL</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session needs microphone access to send audio messages, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session needs camera access to take photos and videos.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session needs storage access to send photos and videos.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session needs camera access to take photos and videos, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session needs camera access to take photos or videos.</string>
+    <string name="cameraGrantAccessStorage">Session needs storage access to send photos and videos.</string>
     <string name="callsPermissionsRequired">Call Permissions Required</string>
     <string name="ConversationActivity_send_after_approval">You will be able to send voice messages and attachments once the recipient has approved this message request</string>
     <!-- ConversationFragment -->
@@ -224,7 +219,6 @@
         <item quantity="other">Saving all %1$d media to storage will allow any other apps on your device to access them.\n\nContinue?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profile photo</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Using custom: %s</string>
     <string name="CustomDefaultPreference_using_default">Using default: %s</string>
@@ -243,7 +237,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIFs</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Stickers</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Photo</string>
+    <string name="photo">Photo</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tap and hold to record a voice message, release to send</string>
     <!-- LongMessageActivity -->
@@ -259,7 +253,7 @@
     <string name="MediaPickerActivity_send_to">Send to %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Add a caption...</string>
-    <string name="MediaSendActivity_camera_unavailable">Camera unavailable.</string>
+    <string name="cameraErrorUnavailable">Camera unavailable.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">You can\'t share more than %d item.</item>
         <item quantity="other">You can\'t share more than %d items.</item>
@@ -552,7 +546,7 @@
     <string name="trimmer__deleting_old_messages">Deleting old messages...</string>
     <string name="trimmer__old_messages_successfully_deleted">Old messages successfully deleted</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Permission required</string>
+    <string name="permissionsRequired">Permission required</string>
     <string name="notNow">Not now</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backups will be saved to external storage and encrypted with the passphrase below. You must have this passphrase in order to restore a backup.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">I have written down this passphrase. Without it, I will be unable to restore a backup.</string>
@@ -616,8 +610,8 @@
     <string name="activity_path_resolving_progress">Resolving…</string>
     <string name="qrScan">Scan QR Code</string>
     <string name="fragment_enter_public_key_explanation">Users can share their Session ID by going into their account settings and tapping "Share Session ID", or by sharing their QR code.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session needs camera access to scan QR codes</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Grant Camera Access</string>
+    <string name="cameraGrantAccessQr">Session needs camera access to scan QR codes</string>
+    <string name="cameraGrantAccess">Grant Camera Access</string>
     <string name="groupNameEnter">Enter a group name</string>
     <string name="activity_create_closed_group_empty_state_button_title">Start a Session</string>
     <string name="groupNameEnterPlease">Please enter a group name</string>
@@ -924,5 +918,9 @@
     <string name="deleteMessageDescriptionEveryone">Are you sure you want to delete this message for everyone?</string>
     <string name="deleteMessageDeleted">Message deleted</string>
     <string name="deleteMessages">Delete Messages</string>
+    <string name="profileDisplayPicture">Display Picture</string>
+    <string name="cameraGrantAccessDescription">Session needs camera access to take photos or videos.</string>
+    <string name="cameraGrantAccessDenied">Session needs camera access to take photos and videos, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
+    <string name="waitOneMoment">One moment please..</string>
 
 </resources>

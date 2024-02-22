@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(vídeo)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">O Session requer permissão de acesso ao armazenamento de forma a poder anexar fotos, vídeo e áudio, mas esta foi negada permanentemente. Por favor, aceda ao menu de definições da aplicação, seleccione \"Permissões\" e ative \"Armazenamento\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">O Session requer permissão de acesso à câmara para poder tirar fotos, mas esta foi negada permanentemente. Por favor aceda às definições da aplicação, seleccione \"Permissões\" e ative \"Câmara\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Erro ao reproduzir áudio!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Desbloquear</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Não existe uma aplicação capaz de lidar com este tipo de ligação no seu dispositivo.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">O Session requer permissão de acesso ao microfone para enviar mensagens áudio, mas esta foi negada permanentemente. Por favor, aceda às definições da aplicação, selecione \"Permissões\" e ative \"Microfone\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Para tirar fotos e filmar vídeos, dê permissões ao Session para acesso à câmara.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">O Session precisa de acesso ao armazenamento para enviar fotos e vídeos.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">O Session requer permissão de acesso à câmara para tirar fotos ou vídeo, mas esta foi negada permanentemente. Por favor, aceda às definições da aplicação, seleccione \"Permissões\" e ative \"Câmara\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">O Session requer permissão de acesso à Câmara para tirar fotos ou vídeo</string>
+    <string name="cameraGrantAccessStorage">O Session precisa de acesso ao armazenamento para enviar fotos e vídeos.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Guardar para o armazenamento local?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">Guardar estes %1$d ficheiros no armazenamento local vai permitir que qualquer outra aplicação lhes possa aceder.\n\nDeseja continuar?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Foto de perfil</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Usar a opção personalizada: %s</string>
     <string name="CustomDefaultPreference_using_default">A usar a opção predefinida: %s</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIFs</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Autocolantes</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Avatar</string>
+    <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Pressione e mantenha para gravar uma mensagem de voz, liberte para a enviar.</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">Enviar para %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Adicionar uma legenda...</string>
-    <string name="MediaSendActivity_camera_unavailable">Câmara indisponível.</string>
+    <string name="cameraErrorUnavailable">Câmara indisponível.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Não pode partilhar mais do que %d item.</item>
         <item quantity="other">Não pode partilhar mais do que %d itens.</item>
@@ -362,7 +357,7 @@ foi recebida está corrompida!</string>
     <string name="trimmer__deleting_old_messages">A eliminar mensagens antigas...</string>
     <string name="trimmer__old_messages_successfully_deleted">Mensagens antigas eliminadas com sucesso</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Permissão necessária</string>
+    <string name="permissionsRequired">Permissão necessária</string>
     <string name="notNow">Agora não</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">As cópias de segurança vão ser gravadas na memória externa e cifradas com a frase-passe abaixo. Tem de ter esta frase-passe para poder restaurar as cópias de segurança.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Eu anotei esta frase-passe. Sem ela, serei incapaz de restaurar uma cópia de segurança.</string>
@@ -425,8 +420,8 @@ foi recebida está corrompida!</string>
     <string name="activity_path_resolving_progress">A resolver…</string>
     <string name="qrScan">Escanear código QR</string>
     <string name="fragment_enter_public_key_explanation">Os usuários podem compartilhar seus IDs Session acessando as configurações da conta e tocando em Compartilhar ID Session, ou compartilhando o código QR.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">O Session precisa de acesso à câmera para escanear códigos QR</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Conceder acesso à câmera</string>
+    <string name="cameraGrantAccessQr">O Session precisa de acesso à câmera para escanear códigos QR</string>
+    <string name="cameraGrantAccess">Conceder acesso à câmera</string>
     <string name="groupNameEnter">Digite o nome do grupo</string>
     <string name="activity_create_closed_group_empty_state_button_title">Iniciar uma sessão</string>
     <string name="groupNameEnterPlease">Digite um nome de grupo</string>

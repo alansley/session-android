@@ -27,7 +27,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session се нуждае от достъп до вградения диск, за да може да прикачва снимки, видеота или аудио, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Дискове\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session се нуждае от достъп до камерта Ви, за да може да прави снимки, но той му е отказан. Моля, отидете на настройки в менюто и изберете \"Разрешения\" и \"Камера\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Грешка при възпроизвеждане на аудио!</string>
     <!-- BucketedThreadMedia -->
@@ -56,10 +55,7 @@
     <string name="blockUnblock">Отблокирване</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нямате инсталирано приложение, което да може да използва тази препратка.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session се нуждае от достъп до микрофона Ви, за да може да изпраща аудио съобщения, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Микрофон\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">За прави снимки и видеота, Session се нуждае от достъп до камерта Ви.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session се нуждае от достъп до файловете Ви за да пращате снимки и видеа.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session се нуждае от достъп до камерта Ви, за да може да прави снимки или видеота, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Камера\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session се нуждае от достъп до камерата, за да прави снимки и видеота</string>
+    <string name="cameraGrantAccessStorage">Session се нуждае от достъп до файловете Ви за да пращате снимки и видеа.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Запази в хранилището?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -67,7 +63,6 @@
         <item quantity="other">Запазването на всички %1$d медийни файла ще даде достъп до тях на всички други приложения.\n\nПродължи?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Снимка на профила</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Използване на специален:  %s</string>
     <string name="CustomDefaultPreference_using_default">Използване на подразбиращ се: %s</string>
@@ -86,7 +81,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF-ове</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Стикери</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Снимка</string>
+    <string name="photo">Снимка</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Натиснете и задръжте, за да запишете гласово съобщение, отпуснете, за да го изпратите</string>
     <!-- LongMessageActivity -->
@@ -102,7 +97,7 @@
     <string name="MediaPickerActivity_send_to">Изпрати на %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Добави надпис...</string>
-    <string name="MediaSendActivity_camera_unavailable">Не е открита камера.</string>
+    <string name="cameraErrorUnavailable">Не е открита камера.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Не можете да споделяте повече от %d елемент.</item>
         <item quantity="other">Не можете да споделяте повече от %d елементи.</item>
@@ -352,7 +347,7 @@
     <string name="trimmer__deleting_old_messages">Изтриване на стари съобщения...</string>
     <string name="trimmer__old_messages_successfully_deleted">Старите съобщения бяха успешно изтрити</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Нужда от разрешение за достъп</string>
+    <string name="permissionsRequired">Нужда от разрешение за достъп</string>
     <string name="notNow">Не сега</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Архивите ще бъдат запазени на външно хранилище и криптирани с паролата задена по-долу. Трябва да използвате същата парола за въстановяване от архива.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Записах тази парола. Без нея, няма да мога да възстановя архива.</string>

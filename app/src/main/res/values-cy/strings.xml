@@ -33,7 +33,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(fideo)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Mae ar Session angen caniatâd Storio er mwyn atodi lluniau, fideos neu sain, ond mae wedi\'i wrthod yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Storio\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Mae ar Session angen caniatâd Camera er mwyn atodi tynnu lluniau, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Camera\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Gwall chwarae sain!</string>
     <!-- BucketedThreadMedia -->
@@ -60,9 +59,6 @@
     <string name="blockUnblock">Dadrwystro</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nid oes ap ar gael i drin y ddolen hon ar eich dyfais.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Mae ar Session angen caniatâd Meicroffon i anfon negeseuon sain, ond mae wed\'i atal yn barhaol. Ewch i osodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Microffon\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">I gipio lluniau a fideo, caniatewch i Session gael mynediad i\'r camera.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Mae ar Session angen caniatâd Camera er mwyn atodi tynnu lluniau neu fideos, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Camera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Angen Session angen caniatâd camera i dynnu lluniau neu fideo</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Cadw i\'r storio?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -74,7 +70,6 @@
         <item quantity="other">Bydd cadw\'r holl gyfryngau %1$d i\'r storfa yn caniatáu i apiau eraill ar eich dyfais gael mynediad iddynt.\n\Parhau?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Llun proffil</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Defnyddio\'r cyfaddas: %s</string>
     <string name="CustomDefaultPreference_using_default">Defnyddio rhagosodedig: %s</string>
@@ -93,7 +88,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIFau</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Sticeri</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Afatar</string>
+    <string name="photo">Afatar</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tapio a dal i recordio neges lais, rhyddhau i\'w hanfon</string>
     <!-- LongMessageActivity -->
@@ -109,7 +104,7 @@
     <string name="MediaPickerActivity_send_to">Anfon i %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Ychwanegu neges...</string>
-    <string name="MediaSendActivity_camera_unavailable">Camera ddim ar gael</string>
+    <string name="cameraErrorUnavailable">Camera ddim ar gael</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="zero">Nid oes modd rhannu mwy na %d eitem.</item>
         <item quantity="one">Nid oes modd rhannu mwy na %d eitem.</item>
@@ -368,7 +363,7 @@
     <string name="trimmer__deleting_old_messages">Dileu hen negeseuon...</string>
     <string name="trimmer__old_messages_successfully_deleted">Dilëwyd hen negeseuon yn llwyddiannus</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Angen caniatâd</string>
+    <string name="permissionsRequired">Angen caniatâd</string>
     <string name="notNow">Nid nawr</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Bydd copïau wrth gefn yn cael eu cadw i storfa allanol ac wedi\'u hamgryptio gyda\'r cyfrinymadrodd isod. Rhaid i chi fod â\'r cyfrinymadrodd hwn er mwyn adfer y copi wrth gefn.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Rwy wedi ysgrifennu\'r cyfrinymadrodd hwn i lawr. Hebddo, fydda i ddim yn gallu adfer copi wrth gefn.</string>

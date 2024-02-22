@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session kræver tilladelse til lagring for at kunne vedhæfte billeder, videoer eller lyd, men den er blevet permanent nægtet. Fortsæt til menuen for appindstillinger, vælg \"Tilladelser\", og aktiver \"Lagring\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session kræver tilladelse til kameraet for at kunne tage billeder, men den er blevet permanent nægtet. Fortsæt til app-indstillingerne, vælg \"Tilladelser\", og aktiver \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Fejl ved afspilning af lyd!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Fjern blokering</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Der er ingen app tilgængelig på enheden, der kan åbne linket</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session kræver tilladelse til at tilgå mikrofonen for at kunne sende lydfiler, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Mikrofon\"</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Session kræver tilladelse til at tilgå dit kamera, for at kunne tage billeder og optage video</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session har brug for lageradgang for at sende billeder og videoer.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session kræver tilladelse til at tilgå dit kamera, for at kunne tage billeder eller optage video, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Kamera\"</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session kræver tilladelse til at tilgå kameraet, for at kunne tage billeder eller videoer.</string>
+    <string name="cameraGrantAccessStorage">Session har brug for lageradgang for at sende billeder og videoer.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Gem i hukommelsen?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">Gemmes alle %1$d filer i hukommelsen, vil alle andre apps også have mulighed for at tilgå dem.\n\nFortsæt?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profilbillede</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Anvender tilpasset: %s</string>
     <string name="CustomDefaultPreference_using_default">Anvender standard: %s</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF´s</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Klistermærker</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Billede</string>
+    <string name="photo">Billede</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tap og hold for at optage en stemmebesked. Slip for at sende</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">Send til %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Tilføj en billedtekst...</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera utilgængeligt</string>
+    <string name="cameraErrorUnavailable">Kamera utilgængeligt</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan ikke dele flere end %d fil.</item>
         <item quantity="other">Du kan ikke dele flere end %d filer</item>
@@ -365,7 +360,7 @@ udveksel besked!</string>
     <string name="trimmer__deleting_old_messages">Sletter gamle beskeder...</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamle beskeder slettet</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Tilladelse krævet</string>
+    <string name="permissionsRequired">Tilladelse krævet</string>
     <string name="notNow">Ikke nu</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backup´s vil blive gemt til ekstern placering og krypteret med koden herunder. Du skal kende denne kode for at kunne genskabe fra backup´en</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Jeg har nedskrevet koden. Uden den vil jeg ikke have mulighed for at genskabe fra backup</string>
@@ -423,8 +418,8 @@ udveksel besked!</string>
     <string name="onionRoutingPathDestination">Destination</string>
     <string name="learnMore">Læs mere</string>
     <string name="qrScan">Skan QR-kode</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session skal bruge kameraadgang for at scanne QR-koder</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Tildel Adgang Til Kamera</string>
+    <string name="cameraGrantAccessQr">Session skal bruge kameraadgang for at scanne QR-koder</string>
+    <string name="cameraGrantAccess">Tildel Adgang Til Kamera</string>
     <string name="groupNameEnter">Indtast et gruppenavn</string>
     <string name="activity_create_closed_group_empty_state_button_title">Start en Session</string>
     <string name="activity_join_public_chat_scan_qr_code_explanation">Scan QR-koden for den åbne gruppe, du gerne vil deltage i</string>

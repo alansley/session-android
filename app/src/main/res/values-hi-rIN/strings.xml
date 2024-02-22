@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(वीडियो)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">फ़ोटो, वीडियो या ऑडियो संलग्न करने के लिए Session को संग्रहण अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स मेनू पर जारी रखें, \"अनुमतियां\" चुनें, और \"संग्रहण\" सक्षम करें।</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session को फ़ोटो लेने के लिए कैमरा अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स मेनू पर जारी रखें, \"अनुमतियां\" चुनें, और \"कैमरा\" सक्षम करें।</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">ऑडियो बजाने में त्रुटि!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">अनब्लॉक करें</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">आपके डिवाइस पर इस लिंक को संभालने के लिए कोई ऐप उपलब्ध नहीं है।</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">ऑडियो संदेशों को भेजने के लिए Session को माइक्रोफ़ोन अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"माइक्रोफ़ोन\" सक्षम करें।</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">फोटो और वीडियो कैप्चर करने के लिए Session को कैमरे की अनुमति दें।</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session को फ़ोटो या वीडियो लेने के लिए Storage अनुमति चाहिए</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session को फ़ोटो या वीडियो लेने के लिए कैमरा अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"कैमरा\" सक्षम करें।</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session को फ़ोटो या वीडियो लेने के लिए कैमरा अनुमति चाहिए</string>
+    <string name="cameraGrantAccessStorage">Session को फ़ोटो या वीडियो लेने के लिए Storage अनुमति चाहिए</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">इसे स्टोरेज में सहेजें?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">सभी %1$d मीडिया को स्टोरेज में सहेजने से आपके डिवाइस पर किसी अन्य ऐप को इन्हें एक्सेस करने की अनुमति मिल जाएगी। \n\n जारी रखें?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">प्रोफाइल फोटो</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">कस्टम %s का इस्तेमाल </string>
     <string name="CustomDefaultPreference_using_default">डिफ़ॉल्ट %s का इस्तेमाल </string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">जीआईएफ</string>
     <string name="GiphyFragmentPagerAdapter_stickers">स्टिकर</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">तस्वीर</string>
+    <string name="photo">तस्वीर</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">वॉइस संदेश रिकॉर्ड करने के लिए टैप करें और दबाएं और भेजने के लिए रिलीज़ करें</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">%s को भेजें</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">शीर्षक जोड़ें...</string>
-    <string name="MediaSendActivity_camera_unavailable">कैमरा अनुपलब्ध.</string>
+    <string name="cameraErrorUnavailable">कैमरा अनुपलब्ध.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">आप %d से ज्यादा चीजें शेयर नहीं कर सकते</item>
         <item quantity="other">आप %d से ज्यादा चीजें शेयर नहीं कर सकते</item>
@@ -366,7 +361,7 @@
     <string name="trimmer__deleting_old_messages">पुराने संदेशों को हटा रहा है</string>
     <string name="trimmer__old_messages_successfully_deleted">पुराने संदेश सफलतापूर्वक हटाए गए</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">अनुमति की आवश्यकता</string>
+    <string name="permissionsRequired">अनुमति की आवश्यकता</string>
     <string name="notNow">अभी नहीं</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">बैकअप को बाहरी स्टोरेज में सहेजा जाएगा और नीचे पासफ्रेज से एन्क्रिप्ट किया जाएगा। बैकअप को पुनर्स्थापित करने के लिए आपके पास यह पासफ्रेज़ होना चाहिए।</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">मैंने इस पासफ्रेज को लिखा है। इसके बिना, मैं बैकअप को पुनर्स्थापित करने में असमर्थ हूं।</string>
@@ -429,8 +424,8 @@
     <string name="activity_path_resolving_progress">हल किया जा रहा है</string>
     <string name="qrScan">QR कोड को स्कैन करें</string>
     <string name="fragment_enter_public_key_explanation">यूजर अपनी अकाउंट सेटिंग में जाकर और \"शेयर Session आईडी\" टैप करके, या अपना क्यूआर कोड शेयर कर सकते है।</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">क्यूआर कोड स्कैन करने के लिए Session को कैमरा एक्सेस की आवश्यकता है</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">कैमरा केउपयोग को प्रदान करें</string>
+    <string name="cameraGrantAccessQr">क्यूआर कोड स्कैन करने के लिए Session को कैमरा एक्सेस की आवश्यकता है</string>
+    <string name="cameraGrantAccess">कैमरा केउपयोग को प्रदान करें</string>
     <string name="groupNameEnter">ग्रुप का नाम डालें</string>
     <string name="activity_create_closed_group_empty_state_button_title">एक सेशन प्रारंभ करें</string>
     <string name="groupNameEnterPlease">कृपया ग्रुप नाम डालें</string>

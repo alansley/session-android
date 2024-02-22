@@ -3,7 +3,6 @@
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="delete">Supprimer</string>
-    <string name="please_wait">Veuillez patienter…</string>
     <string name="save">Enregistrer</string>
     <string name="noteToSelf">Note à mon intention</string>
     <string name="version_s">Version %s</string>
@@ -28,7 +27,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(vidéo)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session exige l’autorisation « Stockage » afin de joindre des photos, des vidéos ou du contenu audio, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner « Autorisations » et activer « Stockage ».</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session exige l’autorisation « Appareil photo » afin de prendre des photos, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner « Autorisations » et activer « Appareil photo ».</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Erreur de lecture du fichier audio !</string>
     <!-- BucketedThreadMedia -->
@@ -62,10 +60,7 @@
     <string name="blockUnblock">Débloquer</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Il n’y a aucune appli pour gérer ce lien sur votre appareil.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session exige l’autorisation Microphone afin d’envoyer des messages audio, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner « Autorisations » et activer « Microphone ».</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pour capturer des photos et des vidéos, autorisez Session à accéder à l’appareil photo.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session a besoin d\'un accès au stockage pour envoyer des photos et des vidéos.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session a besoin de l’autorisation Appareil photo afin de prendre des photos ou des vidéos, mais elle a été refusée définitivement. Veuillez accéder au menu des paramètres des applis, sélectionner Autorisations et activer Appareil photo.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session a besoin de l’autorisation Appareil photo pour prendre des photos ou des vidéos</string>
+    <string name="cameraGrantAccessStorage">Session a besoin d\'un accès au stockage pour envoyer des photos et des vidéos.</string>
     <string name="callsPermissionsRequired">Autorisations d\'appel requises</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Enregistrer dans la mémoire du téléphone ?</string>
@@ -74,7 +69,6 @@
         <item quantity="other">L’enregistrement des %1$d médias dans la mémoire permettra à n’importe quelles autres applis de votre appareil d’y accéder.\n\nContinuer ?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Photo de profil</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Personnalisé : %s</string>
     <string name="CustomDefaultPreference_using_default">Utilisation par défaut : %s</string>
@@ -93,7 +87,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Autocollants</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Avatar</string>
+    <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Touchez et maintenez pour enregistrer un message vocal, relâchez pour l’envoyer.</string>
     <!-- LongMessageActivity -->
@@ -109,7 +103,7 @@
     <string name="MediaPickerActivity_send_to">Envoyer à %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Ajouter une légende...</string>
-    <string name="MediaSendActivity_camera_unavailable">L’appareil photo n’est pas disponible</string>
+    <string name="cameraErrorUnavailable">L’appareil photo n’est pas disponible</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Vous ne pouvez pas partager plus d’%d élément.</item>
         <item quantity="other">Vous ne pouvez pas partager plus de %d éléments.</item>
@@ -388,7 +382,7 @@
     <string name="trimmer__deleting_old_messages">Suppression des anciens messages…</string>
     <string name="trimmer__old_messages_successfully_deleted">Les anciens messages ont été supprimés avec succès</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Permission exigée</string>
+    <string name="permissionsRequired">Permission exigée</string>
     <string name="notNow">Pas maintenant</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Les sauvegardes sont enregistrées dans la mémoire externe et chiffrées avec la phrase de passe ci-dessous. Vous devez avoir cette phrase de passe afin de restaurer la sauvegarde.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">J’ai pris cette phrase de passe par écrit. Sans elle, je ne pourrai pas restaurer une sauvegarde.</string>
@@ -452,8 +446,8 @@
     <string name="activity_path_resolving_progress">Contact en cours…</string>
     <string name="qrScan">Scanner un QR Code</string>
     <string name="fragment_enter_public_key_explanation">Les utilisateurs peuvent partager leur Session ID depuis les paramètres du compte ou en utilisant le code QR.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session a besoin d\'accéder à l\'appareil photo pour scanner les QR codes</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Autoriser l\'accès</string>
+    <string name="cameraGrantAccessQr">Session a besoin d\'accéder à l\'appareil photo pour scanner les QR codes</string>
+    <string name="cameraGrantAccess">Autoriser l\'accès</string>
     <string name="groupNameEnter">Saisissez un nom de groupe</string>
     <string name="activity_create_closed_group_empty_state_button_title">Démarrer une session</string>
     <string name="groupNameEnterPlease">Veuillez saisir un nom de groupe</string>

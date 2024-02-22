@@ -26,7 +26,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(vîdyo)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Ji bo zêdekirina wêne, vidyo yan deng, Session destûra Bîrbarê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe menuya sazkariyên sepanê \"Destûr\"ê bibijêre û  \"Bîrbar\"ê çalak bike.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Ji bo kişandina wêneyan Session destûra Kamera pêwîst dike, lê ew bi awayekî mayînde hate redkirin. Ji kerema xwe biçe menuya sazkariyên sepanê \"Destûr\"ê bibijêre û \"Kamera\"yê çalak bike.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Di lêdana deng de çewtî rû da!</string>
     <!-- BucketedThreadMedia -->
@@ -52,9 +51,6 @@
     <string name="blockUnblock">Astengê rake</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Ti sepana ku karibe vê girêdanê di amûra we de veke nîn e.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session ji bo şandina peyamên dengî destûra Mîkrofonê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Mîkrofon\"ê çalak bike.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ji bo kişandina vîdyo û wêneyan destura gihana Sessionê bide kamera.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Ji bo kişandina vîdyo an jî wêneyan Session destûra kamera pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Kamera\"yê çalak bike.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Ji bo kişandina vîdyo an jî wêneyan pêdiviya Sessionê bi destûra kamera heye</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Bila li bîrbarê were tomarkirin?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -62,7 +58,6 @@
         <item quantity="other">Tu %1$d medyayan teva li bîrbarê tomar bike wê sepanên din yê di amûra we de jî destûra gihînê bidin vê.\n\n Tê bidomîne?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Wêneyê profîlê</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Bikaranîna kesanekirî: %s</string>
     <string name="CustomDefaultPreference_using_default">Bikaranîna jixweberî: %s</string>
@@ -95,7 +90,7 @@
     <string name="MediaPickerActivity_send_to">Ji %s re bişîne</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Binnivîs zêdebikin</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera nayê bikar anîn.</string>
+    <string name="cameraErrorUnavailable">Kamera nayê bikar anîn.</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Hemû medya</string>
     <!-- MessageRecord -->
@@ -338,7 +333,7 @@
     <string name="trimmer__deleting_old_messages">Peyamên kevin tên jêbirin...</string>
     <string name="trimmer__old_messages_successfully_deleted">Peyamên kevin hatin jêbirin</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Destûr pêwîst e</string>
+    <string name="permissionsRequired">Destûr pêwîst e</string>
     <string name="notNow">Ne niha</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Dê paşekeft li ser bîrbara derveyî werin tomarkirin û bi pêborîna li jêr werin şîfrekirin. Ji bo paşkeftekê paşê vegerînî divê ev pêborîn bi te re hebe.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Min vê pêborînê li cihekî nivîsî. Bê wê ezê nikaribim paşekeftê vegerînim.</string>

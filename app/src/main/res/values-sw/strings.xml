@@ -17,7 +17,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(sauti)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Hifadhi\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session inahitaji ruhusa ya Kamera ili kuchukua picha, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Hitilafu ya kucheza sauti!</string>
     <!-- BucketedThreadMedia -->
@@ -42,13 +41,9 @@
     <string name="blockUnblock">Fungua</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kipaza sauti\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ili kukamata picha na video, kuruhusu upatikanaji wa Session kwa kamera.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session inahitaji kibali cha Kamera kuchukua picha au video, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kamera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session inahitaji uruhusu kamera kuchukua picha na video</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Hifadhi kwa kuhifadhi</string>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">picha ya wasifu</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">tumia desturi: 1%s</string>
     <string name="CustomDefaultPreference_none">Hakuna</string>
@@ -78,7 +73,7 @@
     <string name="MediaPickerActivity_send_to">tuma kwa 1%s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">ongeza maelezo</string>
-    <string name="MediaSendActivity_camera_unavailable">kamera haipatikani</string>
+    <string name="cameraErrorUnavailable">kamera haipatikani</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Vyombo vyote vya habari</string>
     <!-- MessageRecord -->
@@ -309,7 +304,7 @@
     <string name="trimmer__deleting_old_messages">futa ujumbe wa zamani</string>
     <string name="trimmer__old_messages_successfully_deleted">Ujumbe wa zamani umefutwa kwa ufanisi</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Ruhusa inahitajika</string>
+    <string name="permissionsRequired">Ruhusa inahitajika</string>
     <string name="notNow">sio sasa</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backups itahifadhiwa kwenye hifadhi ya nje na imetambulishwa na nenosiri chini. Lazima uwe na chapisho hili ili urejeshe upya.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Nimeandika neno hili la kupitisha. Bila hivyo, sitashindwa kurejesha salama.</string>

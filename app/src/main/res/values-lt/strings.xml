@@ -32,7 +32,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(vaizdas)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, Session reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Norint fotografuoti, Session reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Klaida atkuriant garso įrašą!</string>
     <!-- BucketedThreadMedia -->
@@ -65,9 +64,6 @@
     <string name="blockUnblock">Atblokuoti</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nėra prieinamos programėlės, kuri galėtų apdoroti šią nuorodą jūsų įrenginyje.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Norint siųsti garso žinutes, Session reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite Session prieigą prie kameros.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, Session reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Norint fotografuoti ar filmuoti, Session reikalinga prieiga prie kameros</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Įrašyti į atmintį?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -77,7 +73,6 @@
         <item quantity="other">Šių visų %1$d medijų įrašymas į atmintį leis bet kuriai programėlei jūsų įrenginyje prieigą prie jų.\n\nTęsti?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profilio nuotrauka</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Naudojamas tinkintas: %s</string>
     <string name="CustomDefaultPreference_using_default">Naudojamas numatytasis: %s</string>
@@ -96,7 +91,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Paveiksliukai</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Avataras</string>
+    <string name="photo">Avataras</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Bakstelėkite ir laikykite, kad įrašinėtumėte balso žinutę, atleiskite, kad išsiųstumėte</string>
     <!-- LongMessageActivity -->
@@ -112,7 +107,7 @@
     <string name="MediaPickerActivity_send_to">Siųsti adresatui %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Pridėti paaiškinimą...</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera neprieinama.</string>
+    <string name="cameraErrorUnavailable">Kamera neprieinama.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Jūs negalite bendrinti daugiau nei %d elementą.</item>
         <item quantity="few">Jūs negalite bendrinti daugiau nei %d elementų.</item>
@@ -375,7 +370,7 @@
     <string name="trimmer__deleting_old_messages">Ištrinamos senos žinutės...</string>
     <string name="trimmer__old_messages_successfully_deleted">Senos žinutės sėkmingai ištrintos</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Reikalingas leidimas</string>
+    <string name="permissionsRequired">Reikalingas leidimas</string>
     <string name="notNow">Ne dabar</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Atsarginės kopijos bus įrašytos į išorinę saugyklą ir bus užšifruotos, naudojant žemiau esančią slaptafrazę. Norėdami atkurti atsarginę kopiją, privalėsite turėti šią slaptafrazę.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Aš užsirašiau šią slaptafrazę. Be jos aš negalėsiu atkurti atsarginės kopijos.</string>
@@ -434,7 +429,7 @@
     <string name="onionRoutingPathDestination">Paskirties vieta</string>
     <string name="learnMore">Sužinoti daugiau</string>
     <string name="qrScan">Skenuoti QR kodą</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Suteikti prieigą prie kameros</string>
+    <string name="cameraGrantAccess">Suteikti prieigą prie kameros</string>
     <string name="groupNameEnter">Įveskite grupės pavadinimą</string>
     <string name="groupNameEnterPlease">Įveskite grupės pavadinimą</string>
     <string name="activity_join_public_chat_title">Prisijungti prie atviros grupės</string>

@@ -24,7 +24,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(shuyukuyurik)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session ari nichun munanmi shuyuman, uyayman, shuyukuyurikmanpash yaykunkapak, shinapash mana arinirishkachu.  \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Almacenamiento\" paskarichun.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session ari nichun munanmi kikinpa shuyullukchikman yaykunkapak, shinapash mana arinirishkachu. \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Cámara\" paskarichun.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">¡Uyayta mana uyay usharinchu!</string>
     <!-- BucketedThreadMedia -->
@@ -48,9 +47,6 @@
     <string name="blockUnblock">Pakashkamanta llukchi</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nima aplicación mana tiyanchu, kikinpa antahillaypi tinki ushankapak.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session ari nichun munanmi kikinpa Rimachikman yaykunkapak, shinapash mana arinirishkachu. \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Micrófono\" paskarichun.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Shuyuta, shinallata shuyukuyurikta hapinkapakka, shuyullukchikman Sessionta yaykuchun sakipay.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session ari nichun munanmi kikinpa shuyullukchikman yaykunkapak, shuyukunata, shuyukuyurikkunatapash llukchinkapak, shinapash mana arinirishkachu. \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Cámara\" paskarichun.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session ari nichun munanmi shuyullukchikman yaykunkapak, shuyuta shinallata shuyukurikta llukchinkapak.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Allichik ukupi allichinayanchu</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -58,7 +54,6 @@
         <item quantity="other">Tukuy %1$d uyayrikuchikkunata allichik ukupi allichikpika, tukuy aplicacionkunapash paskayta ushankami \n\nKatichinkichu</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Ñawishuyu</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Kanpa shuyu munashkatapacha akllakun: %s</string>
     <string name="CustomDefaultPreference_using_default">Ña rurashka shuyuta akllakunki: %s</string>
@@ -323,7 +318,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="trimmer__deleting_old_messages">Mawkayashka chaskikunata pichakun...</string>
     <string name="trimmer__old_messages_successfully_deleted">Mawka chaskikunata allipachami picharirka</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Mañayta mutsurinmi</string>
+    <string name="permissionsRequired">Mañayta mutsurinmi</string>
     <string name="notNow">Kunanka mana</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Wakaychishka chayshinakunaka kanlla allichik ukupi  allichirinkami, urapi paskachik shimiwan. Kutinlla kay wakaychishkakunata tikrachimunkapakka paskachik shimita charinami kanki.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Kay paskachik shimita killkashkanimi . Pay illakka mana chayshinalla wakaychishkakunata kallarichita usharinkachu.</string>

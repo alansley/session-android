@@ -40,7 +40,6 @@
     <string name="ConversationActivity_open_group_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">ವ್ಯಕ್ತಿಚಿತ್ರ</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_none">ಯಾವುದೂ ಇಲ್ಲ</string>
     <!-- DateUtils -->
@@ -55,7 +54,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF ಗಳು</string>
     <string name="GiphyFragmentPagerAdapter_stickers">ಸ್ಟಿಕರ್‌‌ಗಳು</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">ಚಿತ್ರಪಟ</string>
+    <string name="photo">ಚಿತ್ರಪಟ</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_your_message">ನಿಮ್ಮ ಸಂದೇಶ</string>

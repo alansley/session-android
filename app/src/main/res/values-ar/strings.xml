@@ -36,7 +36,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(فيديو)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">يحتاج Session إلى إذن سعة التخزين من أجل إضافة الصور والمرفقات ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">يحتاج Session إلى إذن الكاميرا من أجل التقاط صور ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">خطأ في تشغيل الصوت!</string>
     <!-- BucketedThreadMedia -->
@@ -69,10 +68,7 @@
     <string name="blockUnblock">إلغاء الحظر</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">لا يوجد تطبيق على الجهاز لمعالجة هذا الرابط.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">يحتاج Session إلى إذن الميكروفون من أجل الرسائل الصوتية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الميكروفون\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">لإلتقاط صور و فيديوهات, برجاء السماح لSession بالوصول إلي الكاميرا.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">يحتاج Session إلى إذن الكاميرا من أجل التقاط صور وفيديو  ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
+    <string name="cameraGrantAccessStorage">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">أحفظ في الذاكرة؟</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -84,7 +80,6 @@
         <item quantity="other">حفظ %1$d وسيط في الذاكرة يسمح ﻷي تطبيق آخر على الهاتف من النفاذ له. \n\nاستمر؟</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">الصورة الشخصية</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">استخدام التخصيص: %s</string>
     <string name="CustomDefaultPreference_using_default">الاستخدام الافتراضي: %s</string>
@@ -103,7 +98,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">صور GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">لصاقات</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">الصورة الرمزية</string>
+    <string name="photo">الصورة الرمزية</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">ألمس وأضغط لتسجيل رسالة صوتية. اسحب إصبعك للإرسال</string>
     <!-- LongMessageActivity -->
@@ -119,7 +114,7 @@
     <string name="MediaPickerActivity_send_to">إرسال إلى %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">إضافة تعليق...</string>
-    <string name="MediaSendActivity_camera_unavailable">الكاميرا غير متوفرة.</string>
+    <string name="cameraErrorUnavailable">الكاميرا غير متوفرة.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="zero">لا يمكنك مشاركة اكثر من %d عنصر.</item>
         <item quantity="one">لا يمكنك مشاركة اكثر من %d عنصر.</item>
@@ -389,7 +384,7 @@
     <string name="trimmer__deleting_old_messages">جار حذف الرسائل القديمة...</string>
     <string name="trimmer__old_messages_successfully_deleted">تم حذف الرسائل القديمة بنجاح</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">منح إحدى الأذونات مطلوب</string>
+    <string name="permissionsRequired">منح إحدى الأذونات مطلوب</string>
     <string name="notNow">ليس الآن</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">يتم حفظ النسخ الاحتياطية إلى سعة التخزين مشفرة بالعبارة السرية التالية، ومن الضروري حفظها من أجل استعادة قاعدة البيانات.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">قمت بتدوين العبارة السرية، ولا يمكنني استعادة قاعدة البيانات بدونها.</string>
@@ -452,8 +447,8 @@
     <string name="activity_path_resolving_progress">جار ربط الاِتصال…</string>
     <string name="qrScan">مسح رمز الاستجابة السريع\"QR\"</string>
     <string name="fragment_enter_public_key_explanation">يُمكن للمستخدمين مشاركة مُعرّف الجلسة الخاص بهم بالذهاب إلى إعدادات حسابهم و الضغط على \"مشاركة مُعرّف الجلسة\"، أو عبر مشاركة رمز QR الخاص بهم.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">تحتاج الجلسة إلى الوصول إلى الكاميرا لمسح رموز QR</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">منح صلاحية الكاميرا</string>
+    <string name="cameraGrantAccessQr">تحتاج الجلسة إلى الوصول إلى الكاميرا لمسح رموز QR</string>
+    <string name="cameraGrantAccess">منح صلاحية الكاميرا</string>
     <string name="groupNameEnter">أدخل إسم المجموعة</string>
     <string name="activity_create_closed_group_empty_state_button_title">بدء جلسة</string>
     <string name="groupNameEnterPlease">الرجاء إدخال إسم للمجموعة</string>

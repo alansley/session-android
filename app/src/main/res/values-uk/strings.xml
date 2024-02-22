@@ -32,7 +32,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(відео)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session потребує дозволу \"Зберігання\" для прикріплення фото, відео та аудіо, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session потребує дозволу \"Камера\", щоб фотографувати або знімати відео, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Помилка відтворення аудіо!</string>
     <!-- BucketedThreadMedia -->
@@ -65,10 +64,7 @@
     <string name="blockUnblock">Розблокувати</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Немає програми на вашому пристрої, що може відкрити це посилання.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session потребує дозволу \"Мікрофон\", щоб надсилати аудіоповідомлення але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Щоб фотографувати або знімати відео дозвольте Session доступ до камери.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session потребує дозволу \"Камера\", для фотографій, відео.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session потребує дозволу \"Камера\", щоб фотографувати або знімати відео,  але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Камера\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session потребує дозволу \"Камера\", щоб фотографувати або фільмувати.</string>
+    <string name="cameraGrantAccessStorage">Session потребує дозволу \"Камера\", для фотографій, відео.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Зберегти на носій?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -78,7 +74,6 @@
         <item quantity="other">Збереження всіх %1$d файлів до пам\'яті пристрою зробить їх доступними для інших програм на вашому пристрої.\n\nПродовжити?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Фото профілю</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Використання власного: %s</string>
     <string name="CustomDefaultPreference_using_default">Використання типового: %s</string>
@@ -97,7 +92,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Наліпки</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Фото</string>
+    <string name="photo">Фото</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Торкніться і утримуйте для запису голосового повідомлення, відпустіть, щоб надіслати</string>
     <!-- LongMessageActivity -->
@@ -113,7 +108,7 @@
     <string name="MediaPickerActivity_send_to">Відправити %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Добавити заголовок...</string>
-    <string name="MediaSendActivity_camera_unavailable">Камера не доступна</string>
+    <string name="cameraErrorUnavailable">Камера не доступна</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Ви не можете надсилати більше, ніж %d файл.</item>
         <item quantity="few">Ви не можете надсилати більше, ніж %d файлів.</item>
@@ -379,7 +374,7 @@
     <string name="trimmer__deleting_old_messages">Видалення старих повідомлень...</string>
     <string name="trimmer__old_messages_successfully_deleted">Старі повідомлення було успішно видалено</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Необхідний дозвіл</string>
+    <string name="permissionsRequired">Необхідний дозвіл</string>
     <string name="notNow">Не зараз</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервна копія буду збережена у зовнішньому сховищі та зашифрована за допомогою наведеної нижче фрази-паролю. Ви повинні використати її для відновлення резервної копії.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записав цю фразу-пароль. Без неї я не зможу відновити резервну копію.</string>
@@ -442,8 +437,8 @@
     <string name="activity_path_resolving_progress">Визначаємо…</string>
     <string name="qrScan">Сканувати QR-код</string>
     <string name="fragment_enter_public_key_explanation">Користувачі можуть поділитися своїм Session ID, увійшовши в налаштування свого облікового запису та натиснувши \"Поділитися Session ID\", або поділившись своїм QR-кодом.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session потрібен дозвіл до камери, щоб сканувати QR-код</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Дозволити доступ до камери</string>
+    <string name="cameraGrantAccessQr">Session потрібен дозвіл до камери, щоб сканувати QR-код</string>
+    <string name="cameraGrantAccess">Дозволити доступ до камери</string>
     <string name="groupNameEnter">Введіть ім\'я групи</string>
     <string name="activity_create_closed_group_empty_state_button_title">Почати сесію</string>
     <string name="groupNameEnterPlease">Будь ласка, введіть ім\'я групи</string>

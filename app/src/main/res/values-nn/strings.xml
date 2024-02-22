@@ -24,7 +24,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session treng tilgang til lagring for å legga ved bilete, film eller lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session treng tilgang til kameraet for å ta bilete, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Det oppstod ein feil under lydavspeling.</string>
     <!-- BucketedThreadMedia -->
@@ -51,9 +50,6 @@
     <string name="blockUnblock">Fjern blokkering</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har inga program på denne eininga som kan handtera denne lenkja.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session treng tilgang til mikrofonen for å senda lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon».</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Gi Session tilgang til kameraet for å ta bilete eller videoopptak.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session treng tilgang til kameraet for å ta bilete eller videoar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session treng tilgang til kameraet for å ta bilete eller videoopptak</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Vil du lagra på eininga?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -61,7 +57,6 @@
         <item quantity="other">Viss du lagrar desse %1$d media på eininga som vanlege filer, kan andre program få tilgang til dei.\n\nEr du sikker på at du vil halda fram?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profilbilete</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Brukar sjølvvald: %s</string>
     <string name="CustomDefaultPreference_using_default">Brukar forvald: %s</string>
@@ -94,7 +89,7 @@
     <string name="MediaPickerActivity_send_to">Send til %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Legg til bildetekst …</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera utilgjengeleg.</string>
+    <string name="cameraErrorUnavailable">Kamera utilgjengeleg.</string>
     <!-- MediaRepository -->
     <!-- MessageRecord -->
     <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Mottok ei melding som er kryptert med ein gammal versjon av Session som ikkje lenger vert støtta. Be avsendaren om å oppdatera til nyaste versjon og senda meldinga på nytt.</string>
@@ -330,7 +325,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="trimmer__deleting_old_messages">Slettar gamle meldingar …</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamle meldingar vart sletta</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Tilgang krevst</string>
+    <string name="permissionsRequired">Tilgang krevst</string>
     <string name="notNow">Ikkje no</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Reservekopiar blir lagra til ekstern lagring og krypterte med passordfrasen nedanfor. Du må ha denne passordfrasen for å gjenoppretta frå kopien.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Eg har skrive ned denne passordfrasen. Utan den vil eg ikkje få gjenoppretta frå reservekopien.</string>

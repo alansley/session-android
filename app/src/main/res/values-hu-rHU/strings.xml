@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(videó)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">A Session-nek szüksége van Tárhely engedélyre, hogy fotókat, videókat vagy hangokat csatolhasson, de ez jelenleg meg van tagadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Tárhely\"-t.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">A Session-nek szüksége van a Kamera engedélyre, hogy fotókat készíthessen, de ez jelenleg meg van tagadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Kamera\"-t.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Hiba történt a hang lejátszása során!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Letiltás feloldása</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nem található eszközödön megfelelő alkalmazás a hivatkozás kezeléséhez.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">A Session-nek szüksége van a Mikrofon engedélyre, hogy hangüzeneteket küldhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd az \"Mikrofon\"-t.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Fotók és videók készítéséhez engedélyezd a Session-nek a kamerához való hozzáférést.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">A Session-nek tárhely hozzáférésre van szüksége a fotók és videók küldéséhez.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">A Session-nek szüksége van a Kamera engedélyre, hogy fotót vagy videót készíthessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd a \"Kamera\"-t.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">A Session-nak szüksége van Kamera engedélyekre fotók és videók készítéséhez</string>
+    <string name="cameraGrantAccessStorage">A Session-nek tárhely hozzáférésre van szüksége a fotók és videók küldéséhez.</string>
     <!-- ConversationFragment -->
     <string name="callsPermissionsRequired">Hívás engedély szükséges</string>
     <string name="ConversationFragment_save_to_sd_card">Mentés tárolóra?</string>
@@ -73,7 +69,6 @@
         <item quantity="other">A(z) %1$d db médiafájl tárolóra mentése más alkalmazások számára is lehetővé teszi, hogy hozzájuk férjenek.\n\nFolytatod?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profilkép</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Egyéni használata: %s</string>
     <string name="CustomDefaultPreference_using_default">Alapértelmezett használata: %s</string>
@@ -92,7 +87,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF-ek</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Matricák</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Avatar</string>
+    <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Koppints és tartsd lenyomva hangüzenet rögzítéséhez, elküldéshez pedig engedd el</string>
     <!-- LongMessageActivity -->
@@ -108,7 +103,7 @@
     <string name="MediaPickerActivity_send_to">Küldés neki: %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Felirat hozzáadása...</string>
-    <string name="MediaSendActivity_camera_unavailable">A kamera nem érhető el.</string>
+    <string name="cameraErrorUnavailable">A kamera nem érhető el.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nem oszthatsz meg többet, mint %d db elem.</item>
         <item quantity="other">Nem oszthatsz meg többet, mint %d db elem.</item>
@@ -368,7 +363,7 @@
     <string name="trimmer__deleting_old_messages">Régi üzenetek törlése...</string>
     <string name="trimmer__old_messages_successfully_deleted">A régi üzenetek törlése sikerült</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Engedély szükséges</string>
+    <string name="permissionsRequired">Engedély szükséges</string>
     <string name="notNow">Most nem</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">A biztonsági mentések külső tárolóra lesznek mentve, és az alábbi jelmondattal lesznek titkosítva. Ezt a jelmondatot kell megadnod a biztonsági mentés visszaállításához.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Feljegyeztem ezt a jelmondatot. Enélkül nem leszek képes visszaállítani biztonsági mentést.</string>
@@ -431,8 +426,8 @@
     <string name="activity_path_resolving_progress">Feloldás...</string>
     <string name="qrScan">QR kód beolvasása</string>
     <string name="fragment_enter_public_key_explanation">A felhasználók megoszthatják Session azonosítójukat, ha belépnek a fiókbeállításokba, és megérintik a „Session azonosító megosztása” lehetőséget, vagy más egyéb módon átküldik QR kódjukat.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Kamera hozzáférésre van szükség a QR kód beolvasásához</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Adjon hozzáférést a kamerához</string>
+    <string name="cameraGrantAccessQr">Kamera hozzáférésre van szükség a QR kód beolvasásához</string>
+    <string name="cameraGrantAccess">Adjon hozzáférést a kamerához</string>
     <string name="groupNameEnter">Írja be a csoport nevét</string>
     <string name="activity_create_closed_group_empty_state_button_title">Egy munkamenet indítása</string>
     <string name="groupNameEnterPlease">Kérjük, adja meg a csoport nevét</string>

@@ -26,7 +26,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(视频)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session 需要\"存储空间\"权限才能发送图片、视频以及音频，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Session 应用，并启用\"存储空间\"权限。</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session 需要\"相机\"权限才能拍照并发送相片，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Session 应用，并启用\"相机\"权限。</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">播放音频时出错！</string>
     <!-- BucketedThreadMedia -->
@@ -59,17 +58,13 @@
     <string name="blockUnblock">解除屏蔽</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的设备上没有应用程序能打开这个链接。</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session 需要麦克风权限才能发送语音信息，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”。</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">要拍照或录像，请允许 Session 访问相机。</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session 需要相机权限以拍摄照片或视频</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session 需要相机权限来拍摄照片或录制视频。但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“相机”。</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session 需要相机权限以拍摄照片或视频</string>
+    <string name="cameraGrantAccessStorage">Session 需要相机权限以拍摄照片或视频</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">保存到存储？</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">保存所有的 %1$d 媒体到存储将会允许您设备上的其他应用访问她们。\n\n继续吗？</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">头像</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">使用自定义：%s</string>
     <string name="CustomDefaultPreference_using_default">使用默认：%s</string>
@@ -88,7 +83,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF图片</string>
     <string name="GiphyFragmentPagerAdapter_stickers">表情</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">头像</string>
+    <string name="photo">头像</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">按住并保持以录制语音消息，松开即发送</string>
     <!-- LongMessageActivity -->
@@ -104,7 +99,7 @@
     <string name="MediaPickerActivity_send_to">发送给%s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">添加注释...</string>
-    <string name="MediaSendActivity_camera_unavailable">摄像头不可用</string>
+    <string name="cameraErrorUnavailable">摄像头不可用</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">您最多分享 %d 项</item>
     </plurals>
@@ -360,7 +355,7 @@
     <string name="trimmer__deleting_old_messages">正在删除旧消息…</string>
     <string name="trimmer__old_messages_successfully_deleted">旧消息删除成功</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">需要相应权限</string>
+    <string name="permissionsRequired">需要相应权限</string>
     <string name="notNow">不是现在</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">备份将会保存到外部存储并使用下面的密码加密。您必须使用此密码才能恢复备份。</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已记下此密码。如果没有该密码，我将无法恢复备份</string>
@@ -423,8 +418,8 @@
     <string name="activity_path_resolving_progress">正在解决…</string>
     <string name="qrScan">扫描二维码</string>
     <string name="fragment_enter_public_key_explanation">用户可以通过进入帐号设置并点击“共享Session ID”来分享自己的Session ID，或通过共享其二维码来分享其Session ID</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session需要摄像头访问权限才能扫描二维码</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">授予摄像头访问权限</string>
+    <string name="cameraGrantAccessQr">Session需要摄像头访问权限才能扫描二维码</string>
+    <string name="cameraGrantAccess">授予摄像头访问权限</string>
     <string name="groupNameEnter">输入群组名称</string>
     <string name="activity_create_closed_group_empty_state_button_title">开始对话</string>
     <string name="groupNameEnterPlease">请输入群组名称</string>

@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(vídeo)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">El Session necessita el permís de l\'emmagatzematge per tal d\'adjuntar fotografies, vídeos o àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi l\'emmagatzematge.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">El Session necessita el permís de la càmera per tal d\'adjuntar-ne informació, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi la càmera.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">S\'ha produït un error en reproduir l\'àudio.</string>
     <!-- BucketedThreadMedia -->
@@ -59,9 +58,6 @@
     <string name="blockUnblock">Desbloca</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">No hi ha cap aplicació que pugui obrir aquest enllaç.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">El Session necessita el permís del micròfon per tal d\'enviar missatges d\'àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi el micròfon.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Per captar fotografies i vídeos, permeteu que el Session tingui accés a la càmera.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">El Session necessita el permís de la càmera per tal de fer fotografies i vídeos, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi la càmera.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">El Session necessita el permís de la càmera per fer fotografies i vídeos.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Voleu desar-ho a l\'emmagatzematge?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -69,7 +65,6 @@
         <item quantity="other">Desar els %1$d fitxers a l\'emmagatzematge permetrà que qualsevol altra aplicació del dispositiu també hi pugui accedir.\n\nVoleu continuar?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Foto del perfil</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Ús de la personalització: %s</string>
     <string name="CustomDefaultPreference_using_default">Per defecte: %s</string>
@@ -88,7 +83,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Adhesius</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Avatar</string>
+    <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Manteniu-ho premut per enregistrar un missatge de veu, deixeu anar per enviar-lo</string>
     <!-- LongMessageActivity -->
@@ -104,7 +99,7 @@
     <string name="MediaPickerActivity_send_to">Envia-ho a %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Afegiu-hi un títol...</string>
-    <string name="MediaSendActivity_camera_unavailable">Càmera no disponible</string>
+    <string name="cameraErrorUnavailable">Càmera no disponible</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">No podeu compartir més de %d elements.</item>
         <item quantity="other">No podeu compartir més de %d elements.</item>
@@ -362,7 +357,7 @@ d\'intercanvi de claus!</string>
     <string name="trimmer__deleting_old_messages">Suprimint els missatges antics...</string>
     <string name="trimmer__old_messages_successfully_deleted">S\'han suprimit correctament els missatges antics</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Cal permís</string>
+    <string name="permissionsRequired">Cal permís</string>
     <string name="notNow">Ara no</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Les còpies de seguretat es desaran a l\'emmagatzematge extern i s\'encriptaran amb la contrasenya següent. Heu de tenir aquesta contrasenya per tal de restaurar una còpia de seguretat.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">He anotat aquesta contrasenya. Sense, no podré restaurar cap còpia de seguretat.</string>
@@ -424,8 +419,8 @@ d\'intercanvi de claus!</string>
     <string name="learnMore">Aprèn-ne més</string>
     <string name="qrScan">Escaneja el codi QR</string>
     <string name="fragment_enter_public_key_explanation">Els usuaris poden compartir el seu ID de Session accedint a la configuració del compte i tocant \'Comparteix l\'ID de Session\' o compartint el seu codi QR.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session necessita accés a la càmera per escanejar codis QR</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Permet accés a la càmera</string>
+    <string name="cameraGrantAccessQr">Session necessita accés a la càmera per escanejar codis QR</string>
+    <string name="cameraGrantAccess">Permet accés a la càmera</string>
     <string name="groupNameEnter">Introdueix un nom de grup</string>
     <string name="activity_create_closed_group_empty_state_button_title">Enceta un Session</string>
     <string name="groupNameEnterPlease">Entra un nom de grup, si us plau</string>

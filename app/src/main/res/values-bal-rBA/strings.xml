@@ -15,7 +15,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(gambar)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session memerlukan akses ke Penyimpanan untuk mengirimkan foto, video, atau suara, tetapi saat ini telah ditolak secara permanen. Harap lanjutkan ke menu pengaturan aplikasi, Pilih \"Izin\", dan aktifkan \"Penyimpanan\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session memerlukan akses ke Kamera untuk mengambil foto, tetapi saat ini telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, Pilih \"Izin\", dan aktifkan \"Kamera\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Gagal memutar audio!</string>
     <!-- BucketedThreadMedia -->
@@ -42,13 +41,9 @@
     <string name="blockUnblock">Buka blokir</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi tersedia untuk menangani tautan ini pada perangkat Anda</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session memerlukan akses ke Mikrofon untuk mengirim pesan audio, namun ditolak secara permanen. Mohon lanjutkan ke pengaturan aplikasi, pilih \"Izin\" dan aktifkan \"Mikrofon\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Untuk merekam foto dan video, izinkan Session mengakses kamera.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session memerlukan izin Kamera untuk mengambil foto dan video, tetapi telah ditolak secara permanen. Silakan lanjut ke pengaturan aplikasi, pilih \"Perizinan\" dan aktifkan \"Kamera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session memerlukan izin Kamera untuk mengambil foto atau video.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Simpan ke penyimpanan?</string>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Foto profil</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Gunakan ubahsuai: %s</string>
     <string name="CustomDefaultPreference_using_default">Gunakan bawaan: %s</string>
@@ -67,7 +62,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Stiker</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Avatar</string>
+    <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Ketuk dan tahan untuk merekam pesan suara, lepas untuk mengirim</string>
     <!-- LongMessageActivity -->
@@ -83,7 +78,7 @@
     <string name="MediaPickerActivity_send_to">Kirim ke %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Tambah keterangan...</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera tidak tersedia.</string>
+    <string name="cameraErrorUnavailable">Kamera tidak tersedia.</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Semua media</string>
     <!-- MessageRecord -->
@@ -312,7 +307,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="trimmer__deleting_old_messages">Menghapus pesan lama...</string>
     <string name="trimmer__old_messages_successfully_deleted">Pesan lama berhasil dihapus</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Memerlukan izin akses</string>
+    <string name="permissionsRequired">Memerlukan izin akses</string>
     <string name="notNow">Nanti saja</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Cadangan akan disimpan ke penyimpanan luar dan mengenkripsi dengan frase di bawah. Anda mesti memiliki frase ini untuk mengembalikan cadangan.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Saya telah mencatat frase ini. Tanpa ini, saya tidak dapat mengembalikan cadangan.</string>
@@ -371,8 +366,8 @@ memproses pertukaran kunci korupsi.</string>
     <string name="learnMore">Pelajari lebih lanjut</string>
     <string name="qrScan">Pindai kode QR</string>
     <string name="fragment_enter_public_key_explanation">Pengguna bisa membagikan Session ID miliknya dengan masuk ke pengaturan akun dan mengetuk \"Bagikan Session ID\" atau dengan membagikan kode QR mereka</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session membutuhkan akses kamera untuk memindai kode QR</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Berikan akses kamera</string>
+    <string name="cameraGrantAccessQr">Session membutuhkan akses kamera untuk memindai kode QR</string>
+    <string name="cameraGrantAccess">Berikan akses kamera</string>
     <string name="groupNameEnter">Masukkan nama grup</string>
     <string name="activity_create_closed_group_empty_state_button_title">Mulai sebuah Session</string>
     <string name="groupNameEnterPlease">Masukkan nama grup</string>

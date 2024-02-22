@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, fotoğraflar, videolar, veya ses ekleyebilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session, fotoğraf çekmek için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Ses oynatılırken hata!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Engeli kaldır</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Cihazınızda bu bağlantıyı işleyebilecek uygulama bulunmamaktadır.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session, sesli iletiler göndermek için Mikrofon iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Mikrofon\"u etkinleştirin.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Fotoğraf veya video çekmek için, Session\'in kameraya erişmesine izin verin.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session, fotoğraf ve video göndermek için depolama erişimine ihtiyaç duyar.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session, fotoğraf veya video çekmek için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session fotoğraf veya video çekebilmek için kamera erişimine ihtiyaç duyar</string>
+    <string name="cameraGrantAccessStorage">Session, fotoğraf ve video göndermek için depolama erişimine ihtiyaç duyar.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Depolama alanına kaydedilsin mi?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">%1$d medyanın tümünü depolama alanına kaydetmek, telefonunuzdaki diğer uygulamaların erişimine izin verecektir.\n\nDevam edilsin mi?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profil fotoğrafı</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Özelleştirilmiş \'%s\' kullanılıyor</string>
     <string name="CustomDefaultPreference_using_default">Varsayılan \'%s\' kullanılıyor</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIFler</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Çıkartmalar</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Resim</string>
+    <string name="photo">Resim</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Sesli ileti kaydetmek için dokunun ve basılı tutun, göndermek için bırakın</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">%s alıcısına gönder</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Bir başlık ekleyin...</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera kullanılamıyor.</string>
+    <string name="cameraErrorUnavailable">Kamera kullanılamıyor.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">%d öğeden daha fazlasını paylaşamazsınız.</item>
         <item quantity="other">%d öğeden daha fazlasını paylaşamazsınız.</item>
@@ -366,7 +361,7 @@ iletisi alındı!</string>
     <string name="trimmer__deleting_old_messages">Eski iletiler siliniyor...</string>
     <string name="trimmer__old_messages_successfully_deleted">Eski iletiler başarıyla silindi</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">İzin gerekli</string>
+    <string name="permissionsRequired">İzin gerekli</string>
     <string name="notNow">Şimdi değil</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Yedekler harici depolama alanına kaydedilecek ve aşağıdaki parola ile şifrelenecektir. Yedeği geri yüklemek için bu parolaya sahip olmanız gereklidir.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Bu parolayı kaydettim. Parola olmadan yedeği geri yükleyemem.</string>
@@ -429,8 +424,8 @@ iletisi alındı!</string>
     <string name="activity_path_resolving_progress">Çözümleniyor…</string>
     <string name="qrScan">QR Kodunu Tara</string>
     <string name="fragment_enter_public_key_explanation">Kullanıcılar, hesap ayarlarına gidip \"Session Kimliğini Paylaş\"a dokunarak veya QR kodlarını paylaşarak Session Kimliklerini paylaşabilirler.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session’ın QR kodlarını taramak için kamera erişimine ihtiyacı var</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Kameraya erişim izni ver</string>
+    <string name="cameraGrantAccessQr">Session’ın QR kodlarını taramak için kamera erişimine ihtiyacı var</string>
+    <string name="cameraGrantAccess">Kameraya erişim izni ver</string>
     <string name="groupNameEnter">Yeni grup adı girin</string>
     <string name="activity_create_closed_group_empty_state_button_title">Oturumu başlat</string>
     <string name="groupNameEnterPlease">Lütfen bir grup adı girin</string>

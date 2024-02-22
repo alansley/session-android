@@ -4,7 +4,6 @@
     <string name="yes">是</string>
     <string name="no">否</string>
     <string name="delete">刪除</string>
-    <string name="please_wait">請稍候...</string>
     <string name="save">儲存</string>
     <string name="noteToSelf">給自己的筆記</string>
     <string name="version_s">版本 %s</string>
@@ -27,7 +26,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(影片)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session 需要儲存的權限，以存取照片、影片或聲音檔。但是現在被設定為永久拒絕存取。請到應用程式設定中，選擇「權限」及開啟「儲存」。</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session 需要相機的權限用以拍照，但是現在被設定為永久拒絕使用。請到應用程式設定中，選取「權限」，並啟用「相機」的權限。</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">播放音訊時出現錯誤！</string>
     <!-- BucketedThreadMedia -->
@@ -60,17 +58,13 @@
     <string name="blockUnblock">解除封鎖</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的裝置上沒有應用程式可以處理這個連結</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal 需要麥克風的權限來傳送語音訊息，但是現在系統設定為總是拒絕 Signal。請到 Session 的應用程式設定中，點選「權限」，並啟用「麥克風」的權限。</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">請授予 Session 使用相機的權限，才能拍攝照片和影片</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session 需要使用存取存儲空間的權限來發送照片和影片</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal 需要相機的權限來拍攝照片或是影片 ，但是現在系統設定為總是拒絕 Signal。請到 Session 的應用程式設定中，點選「權限」，並啟用相機的權限。</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session 需要使用相機的權限來拍攝照片和影片</string>
+    <string name="cameraGrantAccessStorage">Session 需要使用存取存儲空間的權限來發送照片和影片</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">儲存？</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">儲存所有的 %1$d 媒體至存儲將會允許您裝置上的其它軟體開啟它們。\n\n繼續嗎？</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">頭像照片</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">使用自訂：%s</string>
     <string name="CustomDefaultPreference_using_default">使用預設：%s</string>
@@ -89,7 +83,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">動態圖檔</string>
     <string name="GiphyFragmentPagerAdapter_stickers">貼圖</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">頭像</string>
+    <string name="photo">頭像</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">按住並保持以錄製語音訊息，鬆開即傳送</string>
     <!-- LongMessageActivity -->
@@ -105,7 +99,7 @@
     <string name="MediaPickerActivity_send_to">傳送給 %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">加入一個標題...</string>
-    <string name="MediaSendActivity_camera_unavailable">相機無法使用。</string>
+    <string name="cameraErrorUnavailable">相機無法使用。</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">你無法分享超過 %d 個項目。</item>
     </plurals>
@@ -363,7 +357,7 @@
     <string name="trimmer__deleting_old_messages">正在刪除舊訊息...</string>
     <string name="trimmer__old_messages_successfully_deleted">已完成刪除舊訊息</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">需要權限</string>
+    <string name="permissionsRequired">需要權限</string>
     <string name="notNow">稍後</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">備份將會儲存到外部儲存空間，並以下方的密碼加密。你必須擁有這個密碼來還原此備份。</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已經寫下密碼。沒有密碼，我將無法還原此備份。</string>
@@ -426,8 +420,8 @@
     <string name="activity_path_resolving_progress">解決中...</string>
     <string name="qrScan">掃描 QR Code</string>
     <string name="fragment_enter_public_key_explanation">使用者可以進入帳戶設定中，點擊分享 Session ID 或直接分享其 QR Code。</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session 需要使用相機存取權來掃描 QR Codes</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">授與相機權限</string>
+    <string name="cameraGrantAccessQr">Session 需要使用相機存取權來掃描 QR Codes</string>
+    <string name="cameraGrantAccess">授與相機權限</string>
     <string name="groupNameEnter">請輸入群組名稱</string>
     <string name="activity_create_closed_group_empty_state_button_title">開始一個 Session</string>
     <string name="groupNameEnterPlease">請輸入群組名稱</string>

@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session krever tillatelse fra systemet for å kunne legge til bilder, videoer eller lyd, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session krever tillatelse fra systemet for å kunne ta bilder, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Det oppstod en feil under lydavspilling.</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">Fjern blokkering</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har ingen programmer på denne enheten som kan håndtere denne lenka.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session krever tillatelse fra systemet for å kunne bruke mikrofonen, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Mikrofon».</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Du må gi Session «Kamera»-tillatelse på systemet for å kunne filme og ta bilder.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session trenger lagringstilgang for å sende bilder og videoer.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session krever tillatelse fra systemet for å kunne ta bilder eller filme, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Kamera».</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Du må gi Session «Kamera»-tillatelse på systemet for å kunne filme og ta bilder.</string>
+    <string name="cameraGrantAccessStorage">Session trenger lagringstilgang for å sende bilder og videoer.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Vil du lagre på enheten?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">Hvis du lagrer disse %1$d mediene på enheten som vanlige filer, kan andre programmer få tilgang til dem.\n\nEr du sikker på at du vil fortsette?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Profilbilde</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Bruker selvvalgt: %s</string>
     <string name="CustomDefaultPreference_using_default">Bruker forvalgt: %s</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF-bilder</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Klistremerker</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Profilbilde</string>
+    <string name="photo">Profilbilde</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Trykk og hold for å spille inn talemelding , slipp for å sende</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">Send til %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Legg til bildetekst…</string>
-    <string name="MediaSendActivity_camera_unavailable">Kamera utilgjengelig.</string>
+    <string name="cameraErrorUnavailable">Kamera utilgjengelig.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan ikke dele mer enn %d fil.</item>
         <item quantity="other">Du kan ikke dele mer enn %d filer.</item>
@@ -366,7 +361,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="trimmer__deleting_old_messages">Sletter gamle meldinger …</string>
     <string name="trimmer__old_messages_successfully_deleted">Gamle meldinger ble slettet</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">Tillatelse kreves</string>
+    <string name="permissionsRequired">Tillatelse kreves</string>
     <string name="notNow">Ikke nå</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Sikkerhetskopier blir lagret på eksterne enheter og kryptert med passordfrasen nedenfor. Du må skrive inn denne passordfrasen for å kunne gjennopprette fra en sikkerhetskopi.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Jeg har notert passordfrasen. Uten denne blir det umulig å bruke sikkerhetskopien til gjenoppretting.</string>
@@ -429,8 +424,8 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_path_resolving_progress">Løser…</string>
     <string name="qrScan">Skann QR-kode</string>
     <string name="fragment_enter_public_key_explanation">Brukere kan dele sin Session-ID ved å gå inn i sine kontoinnstillinger og trykke på \"Del Session-ID\", eller ved å dele sin QR-kode.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">Session trenger kameratilgang for å skanne QR-koder</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">Gi kameratilgang</string>
+    <string name="cameraGrantAccessQr">Session trenger kameratilgang for å skanne QR-koder</string>
+    <string name="cameraGrantAccess">Gi kameratilgang</string>
     <string name="groupNameEnter">Skriv inn et gruppenavn</string>
     <string name="activity_create_closed_group_empty_state_button_title">Start en Session</string>
     <string name="groupNameEnterPlease">Oppgi et gruppenavn</string>

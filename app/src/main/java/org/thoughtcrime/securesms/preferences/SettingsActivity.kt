@@ -163,7 +163,7 @@ class SettingsActivity : PassphraseRequiredActionBarActivity() {
                 if (inputFile == null && tempFile != null) {
                     inputFile = Uri.fromFile(tempFile)
                 }
-                AvatarSelection.circularCropImage(this, inputFile, outputFile, R.string.CropImageActivity_profile_avatar)
+                AvatarSelection.circularCropImage(this, inputFile, outputFile, R.string.photo)
             }
             AvatarSelection.REQUEST_CODE_CROP_IMAGE -> {
                 if (resultCode != Activity.RESULT_OK) {

@@ -4,7 +4,6 @@
     <string name="yes">Da</string>
     <string name="no">Nu</string>
     <string name="delete">Ștergeți</string>
-    <string name="please_wait">Vă rugăm să așteptați…</string>
     <string name="save">Salvează</string>
     <string name="noteToSelf">Notă personală</string>
     <string name="version_s">Versiunea %s</string>
@@ -31,7 +30,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session are nevoie de permisiunea pentru spațiul de stocare pentru a putea atașa poze, filme sau audio, dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Spațiu de stocare\".</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session are nevoie de permisiunea pentru Cameră pentru a putea face poze dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Cameră\".</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">Eroare la redarea audio!</string>
     <!-- BucketedThreadMedia -->
@@ -64,10 +62,7 @@
     <string name="blockUnblock">Deblochează</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nu există nici o aplicație disponibilă pe dispozitivul tău care să poată deschide acest link.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session are nevoie de permisiunea pentru Microfon pentru a putea trimite mesaje audio dar i-a fost refuzat accesul permanent. Vă rugăm să navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Microfon\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Pentru a captura poze sau filme, permite-i Session accesul la cameră.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session are nevoie de acces la stocare pentru a trimite fotografii și videoclipuri.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Cameră\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session are nevoie de permisiunea pentru Cameră pentru a captura poze sau filme</string>
+    <string name="cameraGrantAccessStorage">Session are nevoie de acces la stocare pentru a trimite fotografii și videoclipuri.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Salvez pe spațiul de stocare?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -76,7 +71,6 @@
         <item quantity="other">Salvarea tututor celor %1$d fişiere pe spaţiul de stocare va permite altor aplicaţii de pe dispozitivul tău să le acceseze.\n\nContinui?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">Poză profil</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Personalizat: %s</string>
     <string name="CustomDefaultPreference_using_default">Implicit: %s</string>
@@ -95,7 +89,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIF-uri</string>
     <string name="GiphyFragmentPagerAdapter_stickers">Autocolante</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">Avatar</string>
+    <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Țineți apăsat pentru a înregistra un mesaj vocal, eliberați pentru a-l trimite</string>
     <!-- LongMessageActivity -->
@@ -111,7 +105,7 @@
     <string name="MediaPickerActivity_send_to">Trimiteți la %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">Adăugați un titlu...</string>
-    <string name="MediaSendActivity_camera_unavailable">Cameră indisponibilă.</string>
+    <string name="cameraErrorUnavailable">Cameră indisponibilă.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nu puteți partaja mai mult de %d element.</item>
         <item quantity="few">Nu puteți partaja mai mult de %d element.</item>
@@ -375,7 +369,7 @@ schimbul de chei este corupt </string>
     <string name="trimmer__deleting_old_messages">Se șterg mesajele vechi...</string>
     <string name="trimmer__old_messages_successfully_deleted">Mesajele vechi au fost șterse cu succes</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">E nevoie de permisiune</string>
+    <string name="permissionsRequired">E nevoie de permisiune</string>
     <string name="notNow">Nu acum</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backup-urile se vor salva pe stocarea externă și vor fi criptate cu parola de mai jos. Trebuie sa aveți această parola pentru a putea restaura un backup.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Am scris parola. Fără ea nu voi putea restaura un backup.</string>

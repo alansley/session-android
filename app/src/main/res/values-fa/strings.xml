@@ -28,7 +28,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(ویدئو)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session برای ارسال فایل‌های تصویری و صوتی نیاز به دسترسی به حافظه دارد اما این دسترسی به طور همیشگی رد شده است. لطفا به بخش برنامه در تنظیمات تلفن همراه خود رفته و پس از یافتن Session وارد بخش دسترسی ها شده و گزینه حافظه را فعال کنید.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Session جهت گرفتن عکس نیاز به دسترسی دوربین دارد، اما به طور دائم رد شده است. لطفاً به منوی تنظیمات برنامه ها رفته، \"Permissions\" را انتخاب کرده، و \"Camera\" را فعال کنید.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">خطا در پخش فایل صوتی!</string>
     <!-- BucketedThreadMedia -->
@@ -61,10 +60,7 @@
     <string name="blockUnblock">رفع انسداد</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">هیچ برنامه ای برای اجرای این لینک روی دستگاه شما در دسترس نیست.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session برای ارسال صدا، نیازمند دسترسی به میکروفن دارد ولی این دسترسی قطع شده است. لطفا برای ادامه دادن، به بخش منوی تنظیمات برنامه رفته، \"اجازه ها\" را انتخاب کرده و گزینه ی \"میکروفن\" را فعال نمایید.</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">برای گرفتن تصاویر و ویدیو، به Session اجازه دسترسی دوربین را بدهید.</string>
-    <string name="ConversationActivity_to_send_photos_and_video_allow_signal_access_to_storage">Session برای ارسال تصاویر و ویدئوها نیاز به دسترسی حافظه دارد.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Session برای گرفتن عکس و فیلم، نیازمند دسترسی به دوربین دارد ولی این دسترسی برای همیشه قطع شده است. لطفا برای ادامه دادن، به بخش منوی تنظیمات برنامه رفته، \"اجازه ها\" را انتخاب کرده و گزینه ی \"دوربین\" را فعال نمایید.</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session برای عکس گرفتن یا ضبط ویدیو نیاز به دسترسی به دوربین دارد</string>
+    <string name="cameraGrantAccessStorage">Session برای ارسال تصاویر و ویدئوها نیاز به دسترسی حافظه دارد.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">ذخیره درحافظه؟</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -72,7 +68,6 @@
         <item quantity="other">ذخیره همه %1$d مدیا به حافظه دستگاه ، باعث خواهد شد که همه برنامه های دیگر نصب شده در دستگاه شما ، به این اطلاعات دسترسی پیدا کنند. \n\n آیا مایل به ادامه هستید ؟</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">عکس پروفایل</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">درحال استفاده از سفارشی: %s</string>
     <string name="CustomDefaultPreference_using_default">درحال استفاده از پیش فرض: %s</string>
@@ -91,7 +86,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">گیف ها</string>
     <string name="GiphyFragmentPagerAdapter_stickers">استیکر ها</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">تصویر پروفایل</string>
+    <string name="photo">تصویر پروفایل</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">برای ضبط کردن صدا صفحه را تپ کنید و نگه دارید - برای فرستادن انگشت را بردارید</string>
     <!-- LongMessageActivity -->
@@ -107,7 +102,7 @@
     <string name="MediaPickerActivity_send_to">ارسال به %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">یک عنوان اضافه کنید...</string>
-    <string name="MediaSendActivity_camera_unavailable">دوربین در دسترس نیست</string>
+    <string name="cameraErrorUnavailable">دوربین در دسترس نیست</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">شما نمی توانید بیش از %d آیتم را به اشتراک بگذارید.</item>
         <item quantity="other">شما نمی توانید بیش از %d آیتم را به اشتراک بگذارید.</item>
@@ -366,7 +361,7 @@
     <string name="trimmer__deleting_old_messages">در حال حذف پیام‌های قدیمی...</string>
     <string name="trimmer__old_messages_successfully_deleted">پیام‌های قدیمی با موفقیت حذف شدند</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">مجوز لازم است</string>
+    <string name="permissionsRequired">مجوز لازم است</string>
     <string name="notNow">حالا نه</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">پشتیبان ها روی یک حافظه خارجی ذخیره خواهند شد و با عبارت عبور زیر رمزنگاری خواهند شد. شما باید عبارت عبور زیر را داشته باشید تا پشتیبان خود را بازیابی کنید.</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">من این گذرمتن را نوشته‌ام. بدون آن نخواهم توانست یک پشتیبان را بازگردانی کنم.</string>
@@ -429,8 +424,8 @@
     <string name="activity_path_resolving_progress">در حال اصلاح…</string>
     <string name="qrScan">کد QR را اسکن کنید</string>
     <string name="fragment_enter_public_key_explanation">کاربران می‌توانند شناسه‌ی Session خود را با رفتن به تنظیمات حساب خود و ضربه زدن به Share Session ID یا با به اشتراک گذاشتن کد QR خود‌، با دیگران به اشتراک بگذارند.</string>
-    <string name="fragment_scan_qr_code_camera_access_explanation">اپ Session برای اسکن کدهای QR احتیاج دارد به دوربین دسترسی داشته باشد</string>
-    <string name="fragment_scan_qr_code_grant_camera_access_button_title">اجازه دسترسی به دوربین</string>
+    <string name="cameraGrantAccessQr">اپ Session برای اسکن کدهای QR احتیاج دارد به دوربین دسترسی داشته باشد</string>
+    <string name="cameraGrantAccess">اجازه دسترسی به دوربین</string>
     <string name="groupNameEnter">نام گروه را وارد کنید</string>
     <string name="activity_create_closed_group_empty_state_button_title">شروع Session</string>
     <string name="groupNameEnterPlease">لطفا یک نام گروه وارد کنید</string>

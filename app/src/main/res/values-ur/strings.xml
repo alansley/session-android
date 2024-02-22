@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(ویڈیو)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">تصاویر، ویڈیوز، یا آڈیو منسلک کرنے کے لیے سیشن کو سٹوریج کی اجازت درکار ہے، لیکن اسے مستقل طور پر مسترد کر دیا گیا ہے۔ براہ کرم ایپ کی ترتیبات کے مینو کو جاری رکھیں، \"اجازتیں\" کو منتخب کریں، اور \"اسٹوریج\" کو فعال کریں.</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">تصاویر لینے کے لیے سیشن کو کیمرے کی اجازت درکار ہے، لیکن اسے مستقل طور پر مسترد کر دیا گیا ہے۔ براہ کرم ایپ کی ترتیبات کے مینو کو جاری رکھیں، \"اجازتیں\" کو منتخب کریں، اور \"کیمرہ\" کو فعال کریں.</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">آڈیو چلانے میں خرابی!</string>
     <!-- BucketedThreadMedia -->
@@ -64,7 +63,7 @@
     <string name="GiphyFragmentPagerAdapter_gifs">GIFs</string>
     <string name="GiphyFragmentPagerAdapter_stickers">اسٹیکرز</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">تصویر</string>
+    <string name="photo">تصویر</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">صوتی پیغام ریکارڈ کرنے کے لیے تھپتھپائیں اور دبائے رکھیں، بھیجنے کے لیے چھوڑ دیں</string>
     <!-- LongMessageActivity -->

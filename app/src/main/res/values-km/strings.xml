@@ -24,7 +24,6 @@
     <string name="DraftDatabase_Draft_video_snippet">(វីដេអូ)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session ទាមទារសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកដើម្បីភ្ជាប់រូបថត វីដេអូ ឬសំឡេង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់របស់ប្រព័ន្ធ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\" ។</string>
-    <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Sessionត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីថតរូប ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"កាមេរ៉ា\"។</string>
     <!-- AudioSlidePlayer -->
     <string name="AudioSlidePlayer_error_playing_audio">បញ្ហាការចាក់សំឡេង!</string>
     <!-- BucketedThreadMedia -->
@@ -51,16 +50,12 @@
     <string name="blockUnblock">បើកវិញ</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">មិនមានកម្មវិធីដើម្បីបើកតំណនេះ នៅលើឧបករណ៍របស់អ្នកទេ។</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session សុំសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន ដើម្បីផ្ញើសារជាសំឡេង, ប៉ុន្តែ វាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់កម្មវិធី, ជ្រើសរើស  \"ការអនុញ្ញាត\", និងបើក \"ប្រដាប់ស្រូបសំឡេង\"។</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ដើម្បីថតរូបភាព និងវីដេអូ, សូមអនុញ្ញាត Session ចូលប្រើប្រាស់កាមេរ៉ា។</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Sessionត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីថតរូប ឬវីដេអូ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" ហើយបើក \"កាមេរ៉ា\"។</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Session​ សុំសិទ្ធិប្រើប្រាស់កាមេរ៉ា ដើម្បីថតរូបភាព ឬវីដេអូ</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">រក្សារទុក?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
         <item quantity="other">ការរក្សាទុកទាំងអស់ %1$d ព័ត៌មាននៅលើថាសផ្ទុក នឹងអនុញ្ញាតអោយកម្មវិធីផ្សេងៗ បើកមើលបាន.\n\nបន្ត?</item>
     </plurals>
     <!-- CreateProfileActivity -->
-    <string name="CreateProfileActivity_profile_photo">រូបថតប្រវត្តិរូប</string>
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">ប្រើផ្សេងៗ៖ %s</string>
     <string name="CustomDefaultPreference_using_default">ប្រើលំនាំដើម៖ %s</string>
@@ -78,7 +73,7 @@
     <!-- GiphyFragmentPageAdapter -->
     <string name="GiphyFragmentPagerAdapter_stickers">ស្ទីកគ័រ</string>
     <!-- CropImageActivity -->
-    <string name="CropImageActivity_profile_avatar">រូបតំណាង</string>
+    <string name="photo">រូបតំណាង</string>
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">ចុចអោយជាប់ដើម្បីថតសំឡេងជាសារ ដកដៃចេញដើម្បីផ្ញើ</string>
     <!-- LongMessageActivity -->
@@ -94,7 +89,7 @@
     <string name="MediaPickerActivity_send_to">ផ្ញើទៅកាន់ %s</string>
     <!-- MediaSendActivity -->
     <string name="MediaSendActivity_add_a_caption">ដាក់ចំណងជើង...</string>
-    <string name="MediaSendActivity_camera_unavailable">កាមេរ៉ាមិនដំណើរការ</string>
+    <string name="cameraErrorUnavailable">កាមេរ៉ាមិនដំណើរការ</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">អ្នកមិនអាចចែករំលែកចំនួនលើសពី %d ។</item>
     </plurals>
@@ -341,7 +336,7 @@
     <string name="trimmer__deleting_old_messages">កំពុងលុបសារចាស់ៗ...</string>
     <string name="trimmer__old_messages_successfully_deleted">សារចាស់ៗត្រូវបានលុបចេញដោយជោគជ័យ</string>
     <!-- transport_selection_list_item -->
-    <string name="Permissions_permission_required">ទាមទារការអនុញ្ញាត</string>
+    <string name="permissionsRequired">ទាមទារការអនុញ្ញាត</string>
     <string name="notNow">ពេលក្រោយ</string>
     <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">ការបម្រុងទុក នឹងត្រូវរក្សាទុកនៅលើអង្គរក្សាទុកខាងក្រៅ និងកូដនីយកម្មជាមួយឃ្លាសម្ងាត់ខាងក្រោម។ អ្នកត្រូវមានឃ្លាសម្ងាត់នេះដើម្បីស្តារការបម្រុងទុកឡើងវិញ។</string>
     <string name="backup_enable_dialog__i_have_written_down_this_passphrase">ខ្ញុំបានកត់ឃ្លាសម្ងាត់ទុកហើយ។ បើគ្មានវា ខ្ញុំនឹងមិនអាចស្តារការបម្រុងទុកបានទេ។</string>
