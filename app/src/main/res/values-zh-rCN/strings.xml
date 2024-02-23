@@ -428,7 +428,6 @@
     <string name="sessionPrivacy">隐私</string>
     <string name="notificationsStrategy">通知选项</string>
     <string name="useFastMode">使用快速模式</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">新消息将通过 Google 通知服务器即时可靠地发送</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">断开设备关联</string>
     <string name="clearDataAll">清除所有数据</string>
     <string name="activity_qr_code_title">二维码</string>
@@ -460,9 +459,9 @@
     <string name="activity_link_device_qr_message">在您的其他设备上导航到设置 -> 恢复口令以显示您的 QR 代码</string>
     <string name="communityJoinOfficial">或加入下列群组…</string>
     <string name="onboardingMessageNotificationExplaination">我们有两种方式来向您发送消息通知</string>
-    <string name="activity_pn_mode_fast_mode">快速模式</string>
+    <string name="notificationsFastMode">快速模式</string>
     <string name="activity_pn_mode_slow_mode">慢速模式</string>
-    <string name="activity_pn_mode_fast_mode_explanation">新消息将通过 Google 通知服务器即时可靠地发送</string>
+    <string name="notificationsFastModeDescriptionAndroid">新消息将通过 Google 通知服务器即时可靠地发送</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session 将不时在后台获取新消息</string>
     <string name="blockUnblockDescription">确定解除屏蔽%s吗?</string>
     <string name="dialog_join_open_group_explanation">您确定要加入公开群组 %s 吗？</string>

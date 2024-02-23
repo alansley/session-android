@@ -437,7 +437,6 @@
     <string name="sessionPrivacy">Գաղտնիություն</string>
     <string name="notificationsStrategy">Ծանուցումների ոճ</string>
     <string name="useFastMode">Օգտագործել արագ ռեժիմը</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Դուք մշտապես և անմիջապես կտեղեկացվեք նոր հաղորդագրությունների մասին՝ օգտագործելով Google-ի ծանուցումների սերվերները:</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Առանձնացնել սարքը</string>
     <string name="clearDataAll">Ջնջել բոլոր տվյալները</string>
     <string name="activity_qr_code_title">QR կոդ</string>
@@ -469,9 +468,9 @@
     <string name="activity_link_device_qr_message">Անցեք Կարգավորումներ → Վերականգնման Բառակապակցություն՝ ձեր QR կոդը ցուցադրելու համար:</string>
     <string name="communityJoinOfficial">Կամ միացե՛ք սրանցից մեկին…</string>
     <string name="onboardingMessageNotificationExplaination">Երկու եղանակով Session-ը կարող է ձեզ տեղեկացնել նոր հաղորդագրությունների մասին:</string>
-    <string name="activity_pn_mode_fast_mode">Արագ ռեժիմ</string>
+    <string name="notificationsFastMode">Արագ ռեժիմ</string>
     <string name="activity_pn_mode_slow_mode">Դանդաղ ռեժիմ</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Դուք մշտապես և անմիջապես կտեղեկացվեք նոր հաղորդագրությունների մասին՝ օգտագործելով Google-ի ծանուցումների սերվերները:</string>
+    <string name="notificationsFastModeDescriptionAndroid">Դուք մշտապես և անմիջապես կտեղեկացվեք նոր հաղորդագրությունների մասին՝ օգտագործելով Google-ի ծանուցումների սերվերները:</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session-ը երբեմն, ֆոնային կստուգի նոր հաղորդագրությունների առկայությունը:</string>
     <string name="blockUnblockDescription">Համոզվա՞ծ եք, որ ուզում եք արգելաբացել %s֊ին։</string>
     <string name="dialog_join_open_group_explanation">Համոզվա՞ծ եք, որ ուզում եք միանալ %s բաց խմբին։</string>

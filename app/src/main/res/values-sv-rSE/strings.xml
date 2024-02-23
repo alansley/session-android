@@ -434,7 +434,6 @@ för nyckelutbyte!</string>
     <string name="sessionPrivacy">Integritet</string>
     <string name="notificationsStrategy">Strategi för aviseringar</string>
     <string name="useFastMode">Använd snabbläge</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Kopplar bort enhet</string>
     <string name="clearDataAll">Rensa All Data</string>
     <string name="activity_qr_code_title">QR-kod</string>
@@ -466,9 +465,9 @@ för nyckelutbyte!</string>
     <string name="activity_link_device_qr_message">Navigera till Inställningar → Återställningsfras på din andra enhet för att visa din QR-kod.</string>
     <string name="communityJoinOfficial">Eller gå med i en av dessa…</string>
     <string name="onboardingMessageNotificationExplaination">Det finns två sätt som Session kan meddela dig om nya meddelanden på.</string>
-    <string name="activity_pn_mode_fast_mode">Snabbläge</string>
+    <string name="notificationsFastMode">Snabbläge</string>
     <string name="activity_pn_mode_slow_mode">Långsamt läge</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session kommer då och då att leta efter nya meddelanden i bakgrunden.</string>
     <string name="blockUnblockDescription">Är du säker på att du vill avblockera %s?</string>
     <string name="dialog_join_open_group_explanation">Är du säker på att du vill gå med i %s öppna grupp?</string>

@@ -50,7 +50,7 @@
                 android:textSize="@dimen/medium_font_size"
                 android:textColor="?android:textColorPrimary"
                 android:textStyle="bold"
-                android:text="@string/activity_pn_mode_fast_mode" />
+                android:text="@string/notificationsFastMode" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:layout_marginTop="4dp"
                 android:textSize="@dimen/very_small_font_size"
                 android:textColor="?android:textColorPrimary"
-                android:text="@string/activity_pn_mode_fast_mode_explanation" />
+                android:text="@string/notificationsFastModeDescriptionAndroid" />
 
             <TextView
                 android:layout_width="match_parent"

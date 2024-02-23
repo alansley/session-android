@@ -445,7 +445,6 @@
     <string name="sessionPrivacy">Soukromí</string>
     <string name="notificationsStrategy">Styl oznámení</string>
     <string name="useFastMode">Použít rychlý režim</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojit zařízení</string>
     <string name="clearDataAll">Vymazat všechna data</string>
     <string name="activity_qr_code_title">QR kód</string>
@@ -477,9 +476,9 @@
     <string name="activity_link_device_qr_message">Přejděte do Nastavení → Fráze pro obnovení na vašem dalším zařízení a zobrazte svůj QR kód.</string>
     <string name="communityJoinOfficial">Nebo se připojte k jedné z těchto…</string>
     <string name="onboardingMessageNotificationExplaination">Existují dva způsoby, jak vás může Session upozorňovat na nové zprávy.</string>
-    <string name="activity_pn_mode_fast_mode">Rychlý režim</string>
+    <string name="notificationsFastMode">Rychlý režim</string>
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session občas zkontroluje nové zprávy na pozadí.</string>
     <string name="blockUnblockDescription">Opravdu chcete odblokovat %s?</string>
     <string name="dialog_join_open_group_explanation">Opravdu se chcete připojit k otevřené skupině %s?</string>

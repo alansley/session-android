@@ -435,7 +435,6 @@
     <string name="sessionPrivacy">Privatumas</string>
     <string name="notificationsStrategy">Pranešimų strategija</string>
     <string name="useFastMode">Naudoti greitą veikseną</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Atsieti įrenginį</string>
     <string name="clearDataAll">Išvalyti visus duomenis</string>
     <string name="activity_qr_code_title">QR kodas</string>
@@ -459,9 +458,9 @@
     <string name="activity_backup_restore_title">Atkurti atsarginę kopiją</string>
     <string name="communityJoinOfficial">Arba prisijunkite prie vienos iš šių…</string>
     <string name="onboardingMessageNotificationExplaination">Yra du būdai kaip Session gali jums pranešti apie naujas žinutes.</string>
-    <string name="activity_pn_mode_fast_mode">Greita veiksena</string>
+    <string name="notificationsFastMode">Greita veiksena</string>
     <string name="activity_pn_mode_slow_mode">Lėta veiksena</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session programėlė retkarčiais fone tikrins, ar yra naujų žinučių.</string>
     <string name="blockUnblockDescription">Ar tikrai norite atblokuoti %s?</string>
     <string name="dialog_join_open_group_explanation">Ar tikrai norite prisijungti prie %s atviros grupės?</string>

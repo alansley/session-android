@@ -434,7 +434,6 @@
     <string name="sessionPrivacy">गोपनियता</string>
     <string name="notificationsStrategy">सूचना रणनीति</string>
     <string name="useFastMode">तीव्र मोड इस्तेमाल करे</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">डिवाइस को अनलिंक करें</string>
     <string name="clearDataAll">सभी डेटा हटाएं</string>
     <string name="activity_qr_code_title">QR कोड</string>
@@ -466,9 +465,9 @@
     <string name="activity_link_device_qr_message">अपना क्यूआर कोड दिखाने के लिए अपने अन्य डिवाइस पर सेटिंग्स →पुनर्प्राप्ति वाक्यांश में जाएंं।</string>
     <string name="communityJoinOfficial">या इनमें से एक को जोड़ें...</string>
     <string name="onboardingMessageNotificationExplaination">सेशन आपको नए संदेश के बारे में दो तरीकों से बता सकता है</string>
-    <string name="activity_pn_mode_fast_mode">फास्ट मोड</string>
+    <string name="notificationsFastMode">फास्ट मोड</string>
     <string name="activity_pn_mode_slow_mode">स्लो मोड</string>
-    <string name="activity_pn_mode_fast_mode_explanation">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
+    <string name="notificationsFastModeDescriptionAndroid">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session कभी-कभी पृष्ठभूमि में नए संदेशों की जांच करेगा।</string>
     <string name="blockUnblockDescription">क्या आप वाकई %s को अनब्लॉक करना चाहते हैं?</string>
     <string name="dialog_join_open_group_explanation">क्या आप %s open ग्रुप से जुड़ना चाहते हैं?</string>

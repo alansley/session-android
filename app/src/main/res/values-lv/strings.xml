@@ -165,9 +165,9 @@
     <string name="attachment">Pielikums</string>
     <string name="messageVoice">Balss ziņojums</string>
     <string name="details">Papildu informācija</string>
-    <string name="activity_pn_mode_fast_mode">Ātrais režīms</string>
+    <string name="notificationsFastMode">Ātrais režīms</string>
     <string name="activity_pn_mode_slow_mode">Lēnais režīms</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Jūs saņemsiet paziņojumus par jauniem ziņojumiem droši un nekavējoties, izmantojot Google paziņojumu serverus.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Jūs saņemsiet paziņojumus par jauniem ziņojumiem droši un nekavējoties, izmantojot Google paziņojumu serverus.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session laiku pa laikam fonā pārbaudīs, vai nav jaunu ziņojumu.</string>
     <string name="blockUnblockDescription">Vai esi pārliecināts, ka vēlies atbloķēt %s?</string>
     <string name="open">Atvērt</string>

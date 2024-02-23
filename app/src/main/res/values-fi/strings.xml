@@ -434,7 +434,6 @@ on viallinen!</string>
     <string name="sessionPrivacy">Yksityisyys</string>
     <string name="notificationsStrategy">Ilmoitusten Strategia</string>
     <string name="useFastMode">Käytä Nopeaa Tilaa</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Sinulle ilmoitetaan uusista viesteistä luotettavasti ja viivyttelemättä Applen ilmoituspalvelua käyttäen.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Poista laitteen linkitys</string>
     <string name="clearDataAll">Tyhjennä tiedot</string>
     <string name="activity_qr_code_title">QR-koodi</string>
@@ -466,9 +465,9 @@ on viallinen!</string>
     <string name="activity_link_device_qr_message">Siirry asetuksiin → palautusvirke toisella laitteellasi näyttääksesi QR-koodisi.</string>
     <string name="communityJoinOfficial">Tai liity johonkin näistä…</string>
     <string name="onboardingMessageNotificationExplaination">On kaksi tapaa joilla Session voi ilmoittaa sinulle uusista viesteistä.</string>
-    <string name="activity_pn_mode_fast_mode">Nopea tila</string>
+    <string name="notificationsFastMode">Nopea tila</string>
     <string name="activity_pn_mode_slow_mode">Hidastila</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Sinulle ilmoitetaan uusista viesteistä luotettavasti ja viivyttelemättä Applen ilmoituspalvelua käyttäen.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Sinulle ilmoitetaan uusista viesteistä luotettavasti ja viivyttelemättä Applen ilmoituspalvelua käyttäen.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session tarkistaa taustalla ajoittain uudet viestit.</string>
     <string name="blockUnblockDescription">Oletko varma, että haluat poistaa eston henkilöltä %s?</string>
     <string name="dialog_join_open_group_explanation">Oletko varma, että haluat liittyä %s avoimeen ryhmään?</string>

@@ -435,7 +435,6 @@
     <string name="sessionPrivacy">Privacy</string>
     <string name="notificationsStrategy">Notificatie strategie</string>
     <string name="useFastMode">Gebruik snelle modus</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">U wordt op een op een betrouwbare manier direct op de hoogte gebracht van nieuwe berichten via de notificatieservers van Google.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Apparaat ontkoppelen</string>
     <string name="clearDataAll">Wis alle gegevens</string>
     <string name="activity_qr_code_title">QR-code</string>
@@ -467,9 +466,9 @@
     <string name="activity_link_device_qr_message">Navigeer naar Instellingen → Herstel zin op je andere apparaat om je QR-code te tonen.</string>
     <string name="communityJoinOfficial">Of neem deel aan een van deze...</string>
     <string name="onboardingMessageNotificationExplaination">Er zijn twee manieren waarop de Sessie u op de hoogte kan stellen van nieuwe berichten.</string>
-    <string name="activity_pn_mode_fast_mode">Snelle modus</string>
+    <string name="notificationsFastMode">Snelle modus</string>
     <string name="activity_pn_mode_slow_mode">Langzame modus</string>
-    <string name="activity_pn_mode_fast_mode_explanation">U wordt op een betrouwbare en directe manier op de hoogte gebracht van nieuwe berichten via Googles notificatieservers.</string>
+    <string name="notificationsFastModeDescriptionAndroid">U wordt op een betrouwbare en directe manier op de hoogte gebracht van nieuwe berichten via Googles notificatieservers.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Sessie controleert af en toe op nieuwe berichten op de achtergrond.</string>
     <string name="blockUnblockDescription">Weet u zeker dat u %s wilt deblokkeren?</string>
     <string name="dialog_join_open_group_explanation">Weet u zeker dat u zich bij de %s open groep wilt aansluiten?</string>

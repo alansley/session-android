@@ -434,7 +434,6 @@ de intercambio de claves!</string>
     <string name="sessionPrivacy">Privacidad</string>
     <string name="notificationsStrategy">Estrategia de notificación</string>
     <string name="useFastMode">Usar Modo Rápido</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Se te notificará de nuevos mensajes de forma fiable e inmediata usando los servidores de notificaciones de Google.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Desvincular dispositivo</string>
     <string name="clearDataAll">Borrar todos los datos</string>
     <string name="activity_qr_code_title">Código QR</string>
@@ -466,9 +465,9 @@ de intercambio de claves!</string>
     <string name="activity_link_device_qr_message">Navega a Ajustes → Frase de Recuperación en tu otro dispositivo para mostrar tu código QR.</string>
     <string name="communityJoinOfficial">O únete a uno de estos…</string>
     <string name="onboardingMessageNotificationExplaination">Hay dos maneras en las que Session puede notificarle de nuevos mensajes.</string>
-    <string name="activity_pn_mode_fast_mode">Modo Rápido</string>
+    <string name="notificationsFastMode">Modo Rápido</string>
     <string name="activity_pn_mode_slow_mode">Modo Lento</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Se le notificará de los nuevos mensajes de forma fiable e inmediata usando los servidores de notificaciones de Google.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Se le notificará de los nuevos mensajes de forma fiable e inmediata usando los servidores de notificaciones de Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session comprobará ocasionalmente si hay nuevos mensajes en segundo plano.</string>
     <string name="blockUnblockDescription">¿Estás seguro de que quieres desbloquear a %s?</string>
     <string name="dialog_join_open_group_explanation">¿Estás seguro de que quieres unirte al grupo abierto %s?</string>

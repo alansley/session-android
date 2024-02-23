@@ -445,7 +445,6 @@
     <string name="sessionPrivacy">Prywatność</string>
     <string name="notificationsStrategy">Strategia powiadomień</string>
     <string name="useFastMode">Użyj trybu szybkiego</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Zostaniesz natychmiast powiadomiony o nowych wiadomościach w niezawodny sposób przy użyciu serwerów powiadomień Google.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odłącz urządzenie</string>
     <string name="clearDataAll">Wyczyść wszystkie dane</string>
     <string name="activity_qr_code_title">Kod QR</string>
@@ -477,9 +476,9 @@
     <string name="activity_link_device_qr_message">Przejdź do Ustawień → Fraza odzyskiwania na innym urządzeniu, aby wyświetlić kod QR.</string>
     <string name="communityJoinOfficial">Lub dołącz do jednego z tych…</string>
     <string name="onboardingMessageNotificationExplaination">Istnieją dwa sposoby powiadamiania o nowych wiadomościach.</string>
-    <string name="activity_pn_mode_fast_mode">Tryb szybki</string>
+    <string name="notificationsFastMode">Tryb szybki</string>
     <string name="activity_pn_mode_slow_mode">Tryb wolny</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Zostaniesz natychmiast powiadomiony o nowych wiadomościach w niezawodny sposób przy użyciu serwerów powiadomień Google.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Zostaniesz natychmiast powiadomiony o nowych wiadomościach w niezawodny sposób przy użyciu serwerów powiadomień Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session będzie czasami sprawdzać w tle czy są nowe wiadomości.</string>
     <string name="blockUnblockDescription">Czy na pewno chcesz odblokować %s?</string>
     <string name="dialog_join_open_group_explanation">Czy na pewno chcesz dołączyć do otwartej grupy %s?</string>

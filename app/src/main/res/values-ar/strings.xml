@@ -457,7 +457,6 @@
     <string name="sessionPrivacy">الخصوصية</string>
     <string name="notificationsStrategy">طريقة الإشعارات</string>
     <string name="useFastMode">استخدام الوضع السريع</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">سوف يتم تنبيهك بالرسائل الجديدة بشكل موثوق و فوري بإستخدام خوادم غوغل.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">ألغي ربط الجهاز</string>
     <string name="clearDataAll">اِمسح جميع البيانات</string>
     <string name="activity_qr_code_title">رمز QR</string>
@@ -489,9 +488,9 @@
     <string name="activity_link_device_qr_message">اِذهب إلى التعديلات جملة الاِسترجاع في جهازك الاآخر لإظهار رمز QR الخاص بك.</string>
     <string name="communityJoinOfficial">أو انضم إلى واحدة من…</string>
     <string name="onboardingMessageNotificationExplaination">يوجد طريقتين لتلقي التنبيهات.</string>
-    <string name="activity_pn_mode_fast_mode">الوضع السريع</string>
+    <string name="notificationsFastMode">الوضع السريع</string>
     <string name="activity_pn_mode_slow_mode">الوضع البطيء</string>
-    <string name="activity_pn_mode_fast_mode_explanation">سوف يتم إشعارك بالرسائل بشكل موثوق و فوري بإستخدام خوادم جوجل للإشعارات.</string>
+    <string name="notificationsFastModeDescriptionAndroid">سوف يتم إشعارك بالرسائل بشكل موثوق و فوري بإستخدام خوادم جوجل للإشعارات.</string>
     <string name="activity_pn_mode_slow_mode_explanation">سيقوم سيشن بالتحقق من وجود رسائل جديدة بشكل دوري في الخلفية.</string>
     <string name="blockUnblockDescription">هل أنت متأكد من اِلغاء الحظر عن %s؟</string>
     <string name="dialog_join_open_group_explanation">هل أنت متأكد من الانضمام إلى المجموعة المفتوحة %s؟</string>

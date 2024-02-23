@@ -456,8 +456,8 @@ d\'intercanvi de claus!</string>
     <string name="activity_link_device_skip_prompt">Això triga un xic, t\'ho vols saltar?</string>
     <string name="communityJoinOfficial">O uneix-te a alguns d\'aquests…</string>
     <string name="onboardingMessageNotificationExplaination">Hi ha dues maneres per les quals Session et pot notificar els missatges nous.</string>
-    <string name="activity_pn_mode_fast_mode">Mode ràpid</string>
+    <string name="notificationsFastMode">Mode ràpid</string>
     <string name="activity_pn_mode_slow_mode">Mode lent</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Es notificaran els missatges de forma immediata i fiable fent servir els servidors de notificació de Google.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Es notificaran els missatges de forma immediata i fiable fent servir els servidors de notificació de Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session ocasionalment comprovarà en pla secundari si hi ha nous missatges.</string>
 </resources>

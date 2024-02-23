@@ -435,7 +435,6 @@
     <string name="sessionPrivacy">Privacidade</string>
     <string name="notificationsStrategy">Estratégia de Notificação</string>
     <string name="useFastMode">Usar Modo Rápido</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Você será notificado de forma confiável e imediata sobre novas mensagens usando os servidores de notificação da Google.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Deslinkar dispositivo</string>
     <string name="clearDataAll">Limpar Todos os Dados</string>
     <string name="activity_qr_code_title">Código QR</string>
@@ -467,9 +466,9 @@
     <string name="activity_link_device_qr_message">Vá até as configurações → Frase de Recuperação em seu outro dispositivo para mostrar o seu código QR.</string>
     <string name="communityJoinOfficial">Ou junte-se a um desses…</string>
     <string name="onboardingMessageNotificationExplaination">Existem duas maneiras que o Session poder notificar você sobre novas mensagens.</string>
-    <string name="activity_pn_mode_fast_mode">Modo Rápido</string>
+    <string name="notificationsFastMode">Modo Rápido</string>
     <string name="activity_pn_mode_slow_mode">Modo Lento</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Você será notificado de forma confiável e imediata sobre novas mensagens usando os servidores de notificação da Google.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Você será notificado de forma confiável e imediata sobre novas mensagens usando os servidores de notificação da Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">O session verificará ocasionalmente por novas mensagens em segundo plano.</string>
     <string name="blockUnblockDescription">Você tem certeza que deseja desbloquear %s?</string>
     <string name="dialog_join_open_group_explanation">Tem certeza que deseja se juntar ao grupo aberto %s?</string>

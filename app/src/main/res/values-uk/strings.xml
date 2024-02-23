@@ -447,7 +447,6 @@
     <string name="sessionPrivacy">Конфіденційність</string>
     <string name="notificationsStrategy">Стратегія сповіщення</string>
     <string name="useFastMode">Використовувати швидкий режим</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Вас надійно повідомлятимуть про нові сповіщення негайно, використовуючи сервери сповіщень Google.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Відв’язати цей пристрій</string>
     <string name="clearDataAll">Видалити всі дані</string>
     <string name="activity_qr_code_title">QR-код</string>
@@ -479,9 +478,9 @@
     <string name="activity_link_device_qr_message">Перейдіть до Налаштувань → Фраза відновлення на вашому іншому пристрої, щоб відобразити ваш QR-код.</string>
     <string name="communityJoinOfficial">Або приєднуйтесь до одного з цих…</string>
     <string name="onboardingMessageNotificationExplaination">Існує два способи Session може сповіщати вас про нові повідомлення.</string>
-    <string name="activity_pn_mode_fast_mode">Швидкий режим</string>
+    <string name="notificationsFastMode">Швидкий режим</string>
     <string name="activity_pn_mode_slow_mode">Медленний режим</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Вас надійно повідомлятимуть про нові сповіщщеня негайно, використовуючи сервери сповіщень Google.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Вас надійно повідомлятимуть про нові сповіщщеня негайно, використовуючи сервери сповіщень Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session буде періодично перевіряти наявність нових повідомлень у фоновому режимі.</string>
     <string name="blockUnblockDescription">Ви впевнені що хочете розблокувати %s?</string>
     <string name="dialog_join_open_group_explanation">Ви впевнені, що хочете приєднатися до %s відкритої групи?</string>

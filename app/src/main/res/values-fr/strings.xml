@@ -465,7 +465,6 @@
     <string name="activity_help_settings__export_logs">Exporter les journaux</string>
     <string name="notificationsStrategy">Stratégie de notification</string>
     <string name="useFastMode">Utiliser le Mode Rapide</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Vous serez averti de nouveaux messages de manière fiable et immédiate en utilisant les serveurs de notification de Google.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Déconnecter l\'appareil</string>
     <string name="clearDataAll">Effacer toutes les données</string>
     <string name="dialog_clear_all_data_message">Cela supprimera définitivement vos messages, sessions et contacts. Voulez-vous uniquement effacer cet appareil ou supprimer l\'intégralité de votre compte ?</string>
@@ -502,9 +501,9 @@
     <string name="activity_link_device_qr_message">Allez dans Paramètres → Phrase de récupération sur votre autre appareil pour afficher votre QR code.</string>
     <string name="communityJoinOfficial">Ou rejoignez l\'un(e) de ceux-ci…</string>
     <string name="onboardingMessageNotificationExplaination">Session peut vous avertir de la présence de nouveaux messages de deux façons.</string>
-    <string name="activity_pn_mode_fast_mode">Mode rapide</string>
+    <string name="notificationsFastMode">Mode rapide</string>
     <string name="activity_pn_mode_slow_mode">Mode lent</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Vous serez averti de nouveaux messages de manière fiable et immédiate en utilisant les serveurs de notification de Google.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Vous serez averti de nouveaux messages de manière fiable et immédiate en utilisant les serveurs de notification de Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session vérifiera occasionnellement la présence de nouveaux messages en tâche de fond.</string>
     <string name="blockUnblockDescription">Êtes-vous sûr de vouloir débloquer %s ?</string>
     <string name="dialog_join_open_group_explanation">Êtes-vous sûr de vouloir rejoindre le groupe ouvert %s ?</string>

@@ -435,7 +435,6 @@
     <string name="sessionPrivacy">Gizlilik</string>
     <string name="notificationsStrategy">Bildiriş Strategiyası</string>
     <string name="useFastMode">Sürətli rejimi istifadə et</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Cihazın əlaqəsini kəs</string>
     <string name="clearDataAll">Bütün verilənləri təmizlə</string>
     <string name="activity_qr_code_title">QR Kod</string>
@@ -467,9 +466,9 @@
     <string name="activity_link_device_qr_message">QR kodunu göstərmək üçün digər cihazınızda Tənzimləmələr → \"Bərpa parolu\"na gedin.</string>
     <string name="communityJoinOfficial">Və ya bunlardan birinə qoşulun…</string>
     <string name="onboardingMessageNotificationExplaination">Session-un, sizi yeni mesajlar barəsində xəbərdar etməsinin iki yolu var.</string>
-    <string name="activity_pn_mode_fast_mode">Sürətli rejim</string>
+    <string name="notificationsFastMode">Sürətli rejim</string>
     <string name="activity_pn_mode_slow_mode">Yavaş rejim</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session, arada arxaplanda yeni mesajları yoxlayacaq.</string>
     <string name="blockUnblockDescription">%s əlaqəsini əngəldən çıxartmaq istədiyinizə əminsiniz?</string>
     <string name="dialog_join_open_group_explanation">%s açıq qrupuna qoşulmaq istədiyinizə əminsiniz?</string>

@@ -434,7 +434,6 @@ scambia un altro messaggio!</string>
     <string name="sessionPrivacy">Privacy</string>
     <string name="notificationsStrategy">Strategia di notifica</string>
     <string name="useFastMode">Usa Modalità Veloce</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Riceverai notifiche di nuovi messaggi in modo affidabile e immediato utilizzando i server di notifica di Google.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Scollega dispositivo</string>
     <string name="clearDataAll">Elimina tutti i dati</string>
     <string name="activity_qr_code_title">Codice QR</string>
@@ -466,9 +465,9 @@ scambia un altro messaggio!</string>
     <string name="activity_link_device_qr_message">Vai su Impostazioni → Frase di recupero sul tuo altro dispositivo per mostrare il tuo codice QR.</string>
     <string name="communityJoinOfficial">Oppure unisciti a uno di questi…</string>
     <string name="onboardingMessageNotificationExplaination">Ci sono due modi in cui Session ti può notificare nuovi messaggi.</string>
-    <string name="activity_pn_mode_fast_mode">Modalità Veloce</string>
+    <string name="notificationsFastMode">Modalità Veloce</string>
     <string name="activity_pn_mode_slow_mode">Modalità Lenta</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Riceverai notifiche di nuovi messaggi in modo affidabile e immediato utilizzando i server di notifica di Google.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Riceverai notifiche di nuovi messaggi in modo affidabile e immediato utilizzando i server di notifica di Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session controllerà di tanto in tanto la presenza di nuovi messaggi in background.</string>
     <string name="blockUnblockDescription">Sei sicuro di voler sbloccare %s?</string>
     <string name="dialog_join_open_group_explanation">Sei sicuro di voler unirti al gruppo aperto %s?</string>

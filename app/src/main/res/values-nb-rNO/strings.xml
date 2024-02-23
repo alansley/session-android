@@ -434,7 +434,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="sessionPrivacy">Personvern</string>
     <string name="notificationsStrategy">Melding Strategi</string>
     <string name="useFastMode">Bruk rask modus</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Koble fra enhet</string>
     <string name="clearDataAll">Fjern alle data</string>
     <string name="activity_qr_code_title">QR-kode</string>
@@ -466,9 +465,9 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_link_device_qr_message">Naviger til innstillinger → Gjenopprettingsfrasen på din andre enhet for å vise QR-koden.</string>
     <string name="communityJoinOfficial">Eller bli med i en av disse…</string>
     <string name="onboardingMessageNotificationExplaination">Det er to måter Session kan gi beskjed om nye meldinger på.</string>
-    <string name="activity_pn_mode_fast_mode">Rask modus</string>
+    <string name="notificationsFastMode">Rask modus</string>
     <string name="activity_pn_mode_slow_mode">Langsom Modus</string>
-    <string name="activity_pn_mode_fast_mode_explanation">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
+    <string name="notificationsFastModeDescriptionAndroid">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session vil av og til sjekke nye meldinger i bakgrunnen.</string>
     <string name="blockUnblockDescription">Er du sikker på at du vil oppheve blokkeringen av %s?</string>
     <string name="dialog_join_open_group_explanation">Er du sikker på at du vil bli med i den åpne gruppen for %s?</string>

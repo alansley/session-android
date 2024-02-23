@@ -434,7 +434,6 @@
     <string name="sessionPrivacy">حریم خصوصی</string>
     <string name="notificationsStrategy">استراتژی اعلان</string>
     <string name="useFastMode">استفاده از حالت سریع</string>
-    <string name="preferences_notifications_strategy_category_fast_mode_summary">با استفاده از سرورهای گوگل، شما به صورت سریع و مطمئن از پیام‌های جدید مطلع می‌شوید.</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">قطع اتصال دستگاه</string>
     <string name="clearDataAll">پاک کردن همه داده‌ها</string>
     <string name="activity_qr_code_title">کد QR</string>
@@ -466,9 +465,9 @@
     <string name="activity_link_device_qr_message">برای دیدن کد QR خود، در دستگاه دیگرتان به «تنظیمات ← عبارت بازیابی» مراجعه کنید.</string>
     <string name="communityJoinOfficial">یا به یکی از این‌ها بپیوندید…</string>
     <string name="onboardingMessageNotificationExplaination">دو راه برای اطلاع رسانی شما از پیام‌های جدید در نشست وجود دارد.</string>
-    <string name="activity_pn_mode_fast_mode">حالت سریع</string>
+    <string name="notificationsFastMode">حالت سریع</string>
     <string name="activity_pn_mode_slow_mode">حالت آهسته</string>
-    <string name="activity_pn_mode_fast_mode_explanation">شما سریع و مطمئن با استفاده از سرور‌های اطلاع‌رسانی گوگل از پیام‌های جدید مطلع می‌شوید.</string>
+    <string name="notificationsFastModeDescriptionAndroid">شما سریع و مطمئن با استفاده از سرور‌های اطلاع‌رسانی گوگل از پیام‌های جدید مطلع می‌شوید.</string>
     <string name="activity_pn_mode_slow_mode_explanation">نشست هرازگاهی در پس زمینه وجود پیام‌های جدید را بررسی می‌کند.</string>
     <string name="blockUnblockDescription">آیا مطمئن هستید که میخواهید %s را باز کنید؟</string>
     <string name="dialog_join_open_group_explanation">آیا اطمینان دارید که می‌خواهید به گروه باز %s جوین شوید؟</string>
