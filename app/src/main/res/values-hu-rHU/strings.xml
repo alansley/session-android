@@ -184,7 +184,7 @@
     <!-- SearchToolbar -->
     <string name="search">Keresés</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Érvénytelen parancsikon</string>
+    <string name="invalidShortcut">Érvénytelen parancsikon</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Új üzenet</string>
     <!-- TransferControlView -->
@@ -392,17 +392,10 @@
     <string name="next">Következő</string>
     <string name="share">Megosztás</string>
     <string name="cancel">Mégse</string>
-    <string name="activity_landing_title_2">A Session itt kezdődik...</string>
-    <string name="activity_landing_register_button_title">Session azonosító létrehozása</string>
-    <string name="activity_landing_restore_button_title">Session azonosító helyreállítása</string>
-    <string name="view_fake_chat_bubble_1">Mi az a Session?</string>
-    <string name="view_fake_chat_bubble_2">Ez egy decentralizált, titkosított üzenetküldő alkalmazás</string>
-    <string name="view_fake_chat_bubble_3">Tehát nem gyűjti a személyes adataimat vagy a beszélgetés metaadatait? Hogyan működik?</string>
     <string name="view_fake_chat_bubble_4">Fejlett anonim útválasztási és végponttól-végpontig titkosítási technológiák használatával.</string>
     <string name="view_fake_chat_bubble_5">A barátként nem engedhetem, hogy megbízhatatlan üzenetküldő appokat használj. Szívesen.</string>
     <string name="activity_register_title">Ismerd meg a Session ID-d</string>
     <string name="activity_register_explanation">A Session azonosító az az egyedi cím, amelyet az emberek használhatnak, hogy kapcsolatba lépjenek Önnel a Sessionon. Mivel nincs kapcsolat a valódi személyazonosságával, az Session azonosító teljesen névtelen, és privát.</string>
-    <string name="activity_restore_title">Fiók visszaállítása</string>
     <string name="displayNamePick">Válassza ki a megjelenítendő nevet</string>
     <string name="displayNameEnter">Írja be a megjelenítendő nevet</string>
     <string name="displayNameErrorDescription">Kérjük, válassza ki a megjelenítendő nevet</string>
@@ -444,14 +437,13 @@
     <string name="notificationsStrategy">Értesítések módja</string>
     <string name="useFastMode">Használja a Gyors módot</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">A Google értesítési szerverein keresztül megbízhatóan és azonnal értesítést kap az új üzenetekről.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Név módosítása</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Eszköz társításának megszüntetése</string>
     <string name="clearDataAll">Az összes adat törlése</string>
     <string name="activity_qr_code_title">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Olvassa be valaki QR kódját, hogy beszélgetést kezdhessen vele</string>
     <string name="fragment_view_my_qr_code_title">Szkennelj be</string>
     <string name="fragment_view_my_qr_code_share_title">QR Code megosztása</string>
-    <string name="fragment_contact_selection_contacts_title">Kapcsolatok</string>
+    <string name="contactsContacts">Kapcsolatok</string>
     <string name="fragment_contact_selection_closed_groups_title">Zárt Csoportok</string>
     <string name="fragment_contact_selection_open_groups_title">Nyílt Csoportok</string>
     <!-- Next round of translation -->
@@ -473,7 +465,6 @@
     <string name="activity_backup_restore_explanation_1">Válassz ki egy visszaállítási fájlt és add meg a hozzá tartozó visszaálítási kódmondatot.</string>
     <string name="activity_backup_restore_passphrase">30-betűs kódmondat</string>
     <string name="activity_link_device_skip_prompt">Ez eltarthat egy ideig, szeretnéd átugrani?</string>
-    <string name="activity_link_device_link_device">Eszköz társítása</string>
     <string name="activity_link_device_qr_message">A QR-kód megjelenítéséhez nyissa meg a Beállítások → Helyreállítási kifejezés elemet másik eszközén. </string>
     <string name="communityJoinOfficial">Vagy csatlakozz ezekhez…</string>
     <string name="onboardingMessageNotificationExplaination">2 mód van arra, hogy a Session értesítsen téged új üzenetekről.</string>
@@ -481,7 +472,6 @@
     <string name="activity_pn_mode_slow_mode">Lassított mód</string>
     <string name="activity_pn_mode_fast_mode_explanation">A Google értesítési szerverein keresztül megbízhatóan és azonnal értesítést kapsz az új üzenetekről.</string>
     <string name="activity_pn_mode_slow_mode_explanation">A Session alkalmanként, az új üzeneteket a háttérben fogja ellenőrizni.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Írjon be egy becenevet</string>
     <string name="blockUnblockDescription">Biztosan szeretnéd a %s-t blokkolni?</string>
     <string name="dialog_join_open_group_explanation">Biztosan csatlakozni szeretne a(z) %s nyílt csoporthoz?</string>
     <string name="open">Megnyit</string>

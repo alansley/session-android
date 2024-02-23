@@ -178,7 +178,7 @@ d\'intercanvi de claus!</string>
     <!-- SearchToolbar -->
     <string name="search">Cerca</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Drecera no vàlida</string>
+    <string name="invalidShortcut">Drecera no vàlida</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Missatge nou</string>
     <!-- TransferControlView -->
@@ -386,17 +386,10 @@ d\'intercanvi de claus!</string>
     <string name="next">Següent</string>
     <string name="share">Comparteix</string>
     <string name="cancel">Cancel·la</string>
-    <string name="activity_landing_title_2">El teu Session comença aquí...</string>
-    <string name="activity_landing_register_button_title">Crea un ID de Session</string>
-    <string name="activity_landing_restore_button_title">Continua el teu Session</string>
-    <string name="view_fake_chat_bubble_1">Què és Session?</string>
-    <string name="view_fake_chat_bubble_2">És una app xifrada i descentralitzada</string>
-    <string name="view_fake_chat_bubble_3">Per tant, no agafa les meves dades personals o les metadades de les meves converses? Com funciona?</string>
     <string name="view_fake_chat_bubble_4">Fent servir una combinació de tecnologies d\'encaminament anònim avançat i un xifratge d\'extrem a extrem.</string>
     <string name="view_fake_chat_bubble_5">Amics no deixis que els amics facin servir missatgeries compromeses. Sigueu benvinguts.</string>
     <string name="activity_register_title">Digues hola al teu ID de Session</string>
     <string name="activity_register_explanation">El teu ID de Session és l\'adreça única que els usuaris poden utilitzar per a contactar-te a Session. Sense cap connexió amb la teva identitat real, el teu ID de Session ID per disseny és totalment anònim i privat.</string>
-    <string name="activity_restore_title">Restableix el teu compte</string>
     <string name="displayNamePick">Tria el nom que es mostrarà</string>
     <string name="displayNameEnter">Escriu el nom a mostrar</string>
     <string name="displayNameErrorDescription">Tria un nom a mostrar, si us plau</string>
@@ -433,14 +426,13 @@ d\'intercanvi de claus!</string>
     <string name="activity_notification_settings_content_section_title">Contingut de notificacions</string>
     <string name="sessionPrivacy">Privadesa</string>
     <string name="notificationsStrategy">Estratègia de les notificacions</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Canvia el nom</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Desenllaça el dispositiu</string>
     <string name="clearDataAll">Esborra totes les dades</string>
     <string name="activity_qr_code_title">Codi QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneja el codi QR d\'algú altre per a encetar-hi una conversa</string>
     <string name="fragment_view_my_qr_code_title">Escaneja\'m</string>
     <string name="fragment_view_my_qr_code_share_title">Comparteix un codi QR</string>
-    <string name="fragment_contact_selection_contacts_title">Contactes</string>
+    <string name="contactsContacts">Contactes</string>
     <string name="fragment_contact_selection_closed_groups_title">Grups tancats</string>
     <string name="fragment_contact_selection_open_groups_title">Grups oberts</string>
     <!-- Next round of translation -->
@@ -462,12 +454,10 @@ d\'intercanvi de claus!</string>
     <string name="activity_backup_restore_explanation_1">Selecciona un fitxer de còpia de seguretat i entra la frase de pas amb el qual va ser creat.</string>
     <string name="activity_backup_restore_passphrase">Frase de pas de 30 dígits</string>
     <string name="activity_link_device_skip_prompt">Això triga un xic, t\'ho vols saltar?</string>
-    <string name="activity_link_device_link_device">Enllaça un dispositiu</string>
     <string name="communityJoinOfficial">O uneix-te a alguns d\'aquests…</string>
     <string name="onboardingMessageNotificationExplaination">Hi ha dues maneres per les quals Session et pot notificar els missatges nous.</string>
     <string name="activity_pn_mode_fast_mode">Mode ràpid</string>
     <string name="activity_pn_mode_slow_mode">Mode lent</string>
     <string name="activity_pn_mode_fast_mode_explanation">Es notificaran els missatges de forma immediata i fiable fent servir els servidors de notificació de Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session ocasionalment comprovarà en pla secundari si hi ha nous missatges.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Introdueix una sobrenom</string>
 </resources>

@@ -183,7 +183,7 @@
     <!-- SearchToolbar -->
     <string name="search">Axtar</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Etibarsız qısayol</string>
+    <string name="invalidShortcut">Etibarsız qısayol</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Yeni mesaj</string>
     <!-- TransferControlView -->
@@ -391,17 +391,10 @@
     <string name="next">Növbəti</string>
     <string name="share">Paylaş</string>
     <string name="cancel">İmtina</string>
-    <string name="activity_landing_title_2">Session-unuz burada başlayır...</string>
-    <string name="activity_landing_register_button_title">Session Kimliyini yarat</string>
-    <string name="activity_landing_restore_button_title">Seansınıza davam edin</string>
-    <string name="view_fake_chat_bubble_1">Session nədir?</string>
-    <string name="view_fake_chat_bubble_2">Mərkəzi olmayan, şifrəli bir mesajlaşma tətbiqidir</string>
-    <string name="view_fake_chat_bubble_3">Yəni, şəxsi məlumatlarımı və ya danışıq meta verilənlərimi yığmır? Necə işləyir?</string>
     <string name="view_fake_chat_bubble_4">Qabaqcıl anonim yönləndirmə və bir ucdan digərinə qədər şifrələmə texnologiyalarının kombinasiyasını istifadə edir.</string>
     <string name="view_fake_chat_bubble_5">Dostlar, dostlarının güvənliyi qorunmayan messencerlərdən istifadə etməsinə icazə verməz. Xoşdur, buyurun.</string>
     <string name="activity_register_title">Session kimliyinizə salam deyin</string>
     <string name="activity_register_explanation">Session kimliyiniz, əlaqələrin Session-da sizinlə əlaqə saxlamaq üçün istifadə edəcəyi unikal bir ünvandır. Gerçək kimliyinizlə heç bir bağlantısı olmadan, Session kimliyiniz, ümumilikdə anonimlik və gizlilik üzərinə dizayn edilmişdir.</string>
-    <string name="activity_restore_title">Hesabınızı bərpa edin</string>
     <string name="displayNamePick">Ekran adınızı seçin</string>
     <string name="displayNameEnter">Ekran adını daxil edin</string>
     <string name="displayNameErrorDescription">Zəhmət olmasa bir ekran adı seçin</string>
@@ -443,14 +436,13 @@
     <string name="notificationsStrategy">Bildiriş Strategiyası</string>
     <string name="useFastMode">Sürətli rejimi istifadə et</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Adı dəyişdir</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Cihazın əlaqəsini kəs</string>
     <string name="clearDataAll">Bütün verilənləri təmizlə</string>
     <string name="activity_qr_code_title">QR Kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Başqasıyla bir danışıq başlatmaq üçün onun QR kodunu skan edin</string>
     <string name="fragment_view_my_qr_code_title">Məni skan et</string>
     <string name="fragment_view_my_qr_code_share_title">QR kodu paylaş</string>
-    <string name="fragment_contact_selection_contacts_title">Əlaqələr</string>
+    <string name="contactsContacts">Əlaqələr</string>
     <string name="fragment_contact_selection_closed_groups_title">Bağlı qruplar</string>
     <string name="fragment_contact_selection_open_groups_title">Açıq qruplar</string>
     <!-- Next round of translation -->
@@ -472,7 +464,6 @@
     <string name="activity_backup_restore_explanation_1">Bir nüsxə faylı seçin və ya yaradılan vaxt verilən parolu daxil edin.</string>
     <string name="activity_backup_restore_passphrase">30 rəqəmli parol</string>
     <string name="activity_link_device_skip_prompt">Bu bir az vaxt apara bilər, ötürmək istəyirsiniz?</string>
-    <string name="activity_link_device_link_device">Bir cihazla əlaqə yarat</string>
     <string name="activity_link_device_qr_message">QR kodunu göstərmək üçün digər cihazınızda Tənzimləmələr → \"Bərpa parolu\"na gedin.</string>
     <string name="communityJoinOfficial">Və ya bunlardan birinə qoşulun…</string>
     <string name="onboardingMessageNotificationExplaination">Session-un, sizi yeni mesajlar barəsində xəbərdar etməsinin iki yolu var.</string>
@@ -480,7 +471,6 @@
     <string name="activity_pn_mode_slow_mode">Yavaş rejim</string>
     <string name="activity_pn_mode_fast_mode_explanation">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session, arada arxaplanda yeni mesajları yoxlayacaq.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Bir ləqəb daxil edin</string>
     <string name="blockUnblockDescription">%s əlaqəsini əngəldən çıxartmaq istədiyinizə əminsiniz?</string>
     <string name="dialog_join_open_group_explanation">%s açıq qrupuna qoşulmaq istədiyinizə əminsiniz?</string>
     <string name="open">Aç</string>

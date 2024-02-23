@@ -182,7 +182,7 @@
     <!-- SearchToolbar -->
     <string name="search">جستجو</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">میانبر نامعتبر</string>
+    <string name="invalidShortcut">میانبر نامعتبر</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">پیام جدید</string>
     <!-- TransferControlView -->
@@ -409,17 +409,10 @@
     <string name="next">بعدی</string>
     <string name="share">اشتراک‌گذاری</string>
     <string name="cancel">لغو</string>
-    <string name="activity_landing_title_2">Session شما از اینجا شروع می‌شود...</string>
-    <string name="activity_landing_register_button_title">ساخت شناسه‌ی Session</string>
-    <string name="activity_landing_restore_button_title">Session خود را ادامه دهید</string>
-    <string name="view_fake_chat_bubble_1">Session چیست؟</string>
-    <string name="view_fake_chat_bubble_2">Session یک برنامه پیام‌رسان غیرمتمرکز و رمزگذاری شده است.</string>
-    <string name="view_fake_chat_bubble_3">پس اطلاعات شخصی من یا داده‌های گفت‌وگو‌هایم جمع‌آوری نمی‌شود؟ چگونه کار می‌کند؟</string>
     <string name="view_fake_chat_bubble_4">Session با استفاده از ترکیبی از فناوری‌های پیشرفته مسیریابی ناشناس و رمزگذاری سرتاسری این کار را انجام می‌دهد.</string>
     <string name="view_fake_chat_bubble_5">یک دوست هیچ‌وقت به دوستان خود اجازه استفاده از پیام‌رسان‌های در معرض خطر را نمی‌دهد.</string>
     <string name="activity_register_title">به شناسه‌ی Session خود سلام کنید</string>
     <string name="activity_register_explanation">شناسه‌ی Session شما آدرس منحصر به فردی است که افراد می‌توانند از طریق آن با شما در Session تماس بگیرند. شناسه‌ی Session شما، بدون اتصال با هویت واقعی شما، کاملاً ناشناس و خصوصی است.</string>
-    <string name="activity_restore_title">حساب کاربری خود را بازیابی کنید</string>
     <string name="displayNamePick">نام خود را برای نمایش انتخاب کنید</string>
     <string name="displayNameEnter">یک نام وارد کنید</string>
     <string name="displayNameErrorDescription">لطفا یک نام انتخاب کنید</string>
@@ -470,7 +463,6 @@
     <string name="notificationsStrategy">استراتژی اعلان</string>
     <string name="useFastMode">استفاده از حالت سریع</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">با استفاده از سرورهای اعلان گوگل به طور قابل اعتماد و بلافاصله از پیام جدید مطلع خواهید شد.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">تغییر نام</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">قطع اتصال دستگاه</string>
     <string name="clearDataAll">پاک کردن همه داتا</string>
     <string name="dialog_clear_all_data_message">این کار پیام‌ها و مخاطبین شما را برای همیشه حذف می‌کند. آیا می‌خواهید فقط این دستگاه را پاک کنید یا داتا خود را از شبکه نیز حذف کنید?</string>
@@ -482,7 +474,7 @@
     <string name="activity_qr_code_view_scan_qr_code_explanation">برای شروع مکالمه با دیگران، کد QR وی را اسکن کنید.</string>
     <string name="fragment_view_my_qr_code_title">مرا اسکن کن</string>
     <string name="fragment_view_my_qr_code_share_title">کد QR را به اشتراک بگذارید</string>
-    <string name="fragment_contact_selection_contacts_title">مخاطبین</string>
+    <string name="contactsContacts">مخاطبین</string>
     <string name="fragment_contact_selection_closed_groups_title">گروه‌های خصوصی</string>
     <string name="fragment_contact_selection_open_groups_title">گروه‌های عمومی</string>
     <!-- Next round of translation -->
@@ -504,7 +496,6 @@
     <string name="activity_backup_restore_explanation_1">یک فایل پشتیبان انتخاب و عبارت عبوری که با آن ساخته شده است را وارد کنید.</string>
     <string name="activity_backup_restore_passphrase">عبارت عبور ۳۰رقمی</string>
     <string name="activity_link_device_skip_prompt">این فرآیند کمی طولانی است، دوست دارید ردش کنید؟</string>
-    <string name="activity_link_device_link_device">اتصال به یک دستگاه</string>
     <string name="activity_link_device_qr_message">برای دیدن کد QR خود، در دستگاه دیگرتان به «تنظیمات ← عبارت بازیابی» مراجعه کنید.</string>
     <string name="communityJoinOfficial">یا به یکی از این‌ها بپیوندید…</string>
     <string name="onboardingMessageNotificationExplaination">در برنامه سشن، برای مطلع کردن شما از رسیدن پیام‌های جدید، دو روش وجود دارد.</string>
@@ -512,7 +503,6 @@
     <string name="activity_pn_mode_slow_mode">حالت آهسته</string>
     <string name="activity_pn_mode_fast_mode_explanation">با استفاده از سرورهای گوگل، شما به صورت سریع و مطمئن از پیام‌های جدید مطلع می‌شوید.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session هرازگاهی در پس زمینه وجود پیام‌های جدید را بررسی می‌کند.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">یک نام مستعار وارد کنید</string>
     <string name="blockUnblockDescription">آیا مطمئن هستید که میخواهید %s را از حالت مسدود بودن خارج کنید؟</string>
     <string name="dialog_join_open_group_explanation">آیا اطمینان دارید که می‌خواهید به گروه باز %s جوین شوید؟</string>
     <string name="open">باز کردن</string>

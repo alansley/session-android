@@ -197,7 +197,7 @@
     <!-- SearchToolbar -->
     <string name="search">بحث</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">إختصار غير صالح</string>
+    <string name="invalidShortcut">إختصار غير صالح</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">رسالة جديدة</string>
     <!-- TransferControlView -->
@@ -413,17 +413,10 @@
     <string name="next">التالي</string>
     <string name="share">شارك</string>
     <string name="cancel">إلغاء</string>
-    <string name="activity_landing_title_2">اِبدأ من هنا...</string>
-    <string name="activity_landing_register_button_title">أنشئ عنوان تعريف</string>
-    <string name="activity_landing_restore_button_title">واصل بالحساب القديم</string>
-    <string name="view_fake_chat_bubble_1">ما هي الجلسة (Session)؟</string>
-    <string name="view_fake_chat_bubble_2">هو تطبيق مراسلة مشفر, لامركزي</string>
-    <string name="view_fake_chat_bubble_3">اِذن لا يقوم بجمع المعلومات الشخصية أو المعلومات الوصفية لمحادثاتي؟ كيف يعمل؟</string>
     <string name="view_fake_chat_bubble_4">باِستخدام مُركَب من تكنولوجيات التشفير من الطرفين و توجيه مجهول للمعلومات.</string>
     <string name="view_fake_chat_bubble_5">الأصدقاء لا يتركون أصدقائهم يستعملون تطبيق مراسلة مكشوف. مرحبا بك.</string>
     <string name="activity_register_title">رحب بعنوان تعريفك</string>
     <string name="activity_register_explanation">عنوان تعريفك هو عنوان وحيد خاص بك, يمكن للناس الاتصال بك عن طريقه. دون معرفة هويتك الحقيقية, هذا العنوان مصمم ليكون خاص و مجهول.</string>
-    <string name="activity_restore_title">استرجع حسابك</string>
     <string name="displayNamePick">أختر اِسم الاِظهار</string>
     <string name="displayNameEnter">ادخل اسم الِاظهار</string>
     <string name="displayNameErrorDescription">اِختر اسم من فضلك</string>
@@ -465,14 +458,13 @@
     <string name="notificationsStrategy">طريقة الإشعارات</string>
     <string name="useFastMode">استخدام الوضع السريع</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">سوف يتم تنبيهك بالرسائل الجديدة بشكل موثوق و فوري بإستخدام خوادم غوغل.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">غَير الاسم</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">ألغي ربط الجهاز</string>
     <string name="clearDataAll">اِمسح جميع البيانات</string>
     <string name="activity_qr_code_title">رمز QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">اِفحص رمز QR لبدء المحادثة</string>
     <string name="fragment_view_my_qr_code_title">امسحني</string>
     <string name="fragment_view_my_qr_code_share_title">شارك رمز QR</string>
-    <string name="fragment_contact_selection_contacts_title">متصلين</string>
+    <string name="contactsContacts">متصلين</string>
     <string name="fragment_contact_selection_closed_groups_title">مجموعات مغلقة</string>
     <string name="fragment_contact_selection_open_groups_title">مجموعات مفتوحة</string>
     <!-- Next round of translation -->
@@ -494,7 +486,6 @@
     <string name="activity_backup_restore_explanation_1">اِختر ملف النسخ الاحتياطي وأدخل عبارة المرور التي تم إنشاؤه بها.</string>
     <string name="activity_backup_restore_passphrase">جملة مرور مكونة من 30 عنصر</string>
     <string name="activity_link_device_skip_prompt">هذا يستغرق بعض الوقت، هل تريد أن تتخطى؟</string>
-    <string name="activity_link_device_link_device">اربط جهاز</string>
     <string name="activity_link_device_qr_message">اِذهب إلى التعديلات جملة الاِسترجاع في جهازك الاآخر لإظهار رمز QR الخاص بك.</string>
     <string name="communityJoinOfficial">أو انضم إلى واحدة من…</string>
     <string name="onboardingMessageNotificationExplaination">يوجد طريقتين لتلقي التنبيهات.</string>
@@ -502,7 +493,6 @@
     <string name="activity_pn_mode_slow_mode">الوضع البطيء</string>
     <string name="activity_pn_mode_fast_mode_explanation">سوف يتم إشعارك بالرسائل بشكل موثوق و فوري بإستخدام خوادم جوجل للإشعارات.</string>
     <string name="activity_pn_mode_slow_mode_explanation">سيقوم سيشن بالتحقق من وجود رسائل جديدة بشكل دوري في الخلفية.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">أدخل اسم</string>
     <string name="blockUnblockDescription">هل أنت متأكد من اِلغاء الحظر عن %s؟</string>
     <string name="dialog_join_open_group_explanation">هل أنت متأكد من الانضمام إلى المجموعة المفتوحة %s؟</string>
     <string name="open">اِفتح</string>

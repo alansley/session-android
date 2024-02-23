@@ -191,7 +191,7 @@
     <!-- SearchToolbar -->
     <string name="search">Пошук</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Недопустимий ярлик</string>
+    <string name="invalidShortcut">Недопустимий ярлик</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Нове повідомлення</string>
     <!-- TransferControlView -->
@@ -403,17 +403,10 @@
     <string name="next">Далі</string>
     <string name="share">Поділитися</string>
     <string name="cancel">Відміна</string>
-    <string name="activity_landing_title_2">Ваша сесія починається тут...</string>
-    <string name="activity_landing_register_button_title">Створити Session ID адрессу</string>
-    <string name="activity_landing_restore_button_title">Продовжити вашу сесію</string>
-    <string name="view_fake_chat_bubble_1">Що таке Session?</string>
-    <string name="view_fake_chat_bubble_2">Це децентралізований, шифрований мессенджер обміну повідомленнями</string>
-    <string name="view_fake_chat_bubble_3">Отже, він не збирає мою особисту інформацію чи мою метадані розмови? Як це працює?</string>
     <string name="view_fake_chat_bubble_4">Він використовує комбінацію анонімної мережі та скрізного енд-ту-енд шифрування.</string>
     <string name="view_fake_chat_bubble_5">Друзі не дозволяють друзям користуватися скомпромітованими мессенджерами. Ласкаво просимо.</string>
     <string name="activity_register_title">Привітайтесь з вашою Session ID адрессою</string>
     <string name="activity_register_explanation">Ваш Session ID є унікальною адресою, якою люди будуть зв’язуватимися з вами в Session. При відсутньому з\'єднанні з вашою реальною особистістю, Session ID є абсолютно анонімним та приватним, по дизайну.</string>
-    <string name="activity_restore_title">Відновити обліковий запис</string>
     <string name="displayNamePick">Виберіть ваш псевдонім для показу</string>
     <string name="displayNameEnter">Введіть відображуватинимий псевдонім</string>
     <string name="displayNameErrorDescription">Будь ласка, виберіть відображуватимий псевдонім</string>
@@ -455,14 +448,13 @@
     <string name="notificationsStrategy">Стратегія сповіщення</string>
     <string name="useFastMode">Використовувати швидкий режим</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Вас надійно повідомлятимуть про нові сповіщення негайно, використовуючи сервери сповіщень Google.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Змінити їм’я</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Відв’язати цей пристрій</string>
     <string name="clearDataAll">Видалити всі дані</string>
     <string name="activity_qr_code_title">QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Скануйте чийсь QR-код, щоб почати розмову з ними</string>
     <string name="fragment_view_my_qr_code_title">Скануйте мене</string>
     <string name="fragment_view_my_qr_code_share_title">Поділіться кудись QR-кодом</string>
-    <string name="fragment_contact_selection_contacts_title">Контакти</string>
+    <string name="contactsContacts">Контакти</string>
     <string name="fragment_contact_selection_closed_groups_title">Групи з закритим членством</string>
     <string name="fragment_contact_selection_open_groups_title">Відкриті Групи</string>
     <!-- Next round of translation -->
@@ -484,7 +476,6 @@
     <string name="activity_backup_restore_explanation_1">Виберіть файл резервної копії та введіть секретну фразу, з якою він був створений.</string>
     <string name="activity_backup_restore_passphrase">30-символьний пароль</string>
     <string name="activity_link_device_skip_prompt">Це займає деякий час, ви б хотіли це пропустити?</string>
-    <string name="activity_link_device_link_device">Зв\'язати пристрій</string>
     <string name="activity_link_device_qr_message">Перейдіть до Налаштувань → Фраза відновлення на вашому іншому пристрої, щоб відобразити ваш QR-код.</string>
     <string name="communityJoinOfficial">Або приєднуйтесь до одного з цих…</string>
     <string name="onboardingMessageNotificationExplaination">Існує два способи Session може сповіщати вас про нові повідомлення.</string>
@@ -492,7 +483,6 @@
     <string name="activity_pn_mode_slow_mode">Медленний режим</string>
     <string name="activity_pn_mode_fast_mode_explanation">Вас надійно повідомлятимуть про нові сповіщщеня негайно, використовуючи сервери сповіщень Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session буде періодично перевіряти наявність нових повідомлень у фоновому режимі.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Введіть псевдонім</string>
     <string name="blockUnblockDescription">Ви впевнені що хочете розблокувати %s?</string>
     <string name="dialog_join_open_group_explanation">Ви впевнені, що хочете приєднатися до %s відкритої групи?</string>
     <string name="open">Відкрити</string>

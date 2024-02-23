@@ -180,7 +180,7 @@
     <!-- SearchToolbar -->
     <string name="search">搜尋</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">無效的捷徑</string>
+    <string name="invalidShortcut">無效的捷徑</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">新訊息</string>
     <!-- TransferControlView -->
@@ -386,17 +386,10 @@
     <string name="next">下一步</string>
     <string name="share">分享</string>
     <string name="cancel">取消</string>
-    <string name="activity_landing_title_2">您的 Session 將從此開始⋯</string>
-    <string name="activity_landing_register_button_title">創建 Session ID</string>
-    <string name="activity_landing_restore_button_title">繼續使用 Session</string>
-    <string name="view_fake_chat_bubble_1">Session 是什麼？</string>
-    <string name="view_fake_chat_bubble_2">這是一個去中心化並且加密的訊息 app</string>
-    <string name="view_fake_chat_bubble_3">所以牠不會收集我的個人資訊或我的對話元數據？ 它是如何工作的？</string>
     <string name="view_fake_chat_bubble_4">我們結合了進階匿名連線與端對端加密技術。</string>
     <string name="view_fake_chat_bubble_5">我們不會讓自己的朋友使用不夠好的聊天 app，不客氣。</string>
     <string name="activity_register_title">與您的 Session ID 打個招呼</string>
     <string name="activity_register_explanation">您的 Session ID 是人們可以用來在 Session 上聯繫您的唯一地址。 並且與您的真實身份毫無關聯，因此您的 Session ID 在設計上是完全匿名和私密的。</string>
-    <string name="activity_restore_title">恢復您的帳號</string>
     <string name="displayNamePick">請輸入您的名稱</string>
     <string name="displayNameEnter">輸入您的名稱</string>
     <string name="displayNameErrorDescription">請選擇一個名稱</string>
@@ -438,14 +431,13 @@
     <string name="notificationsStrategy">通知類型</string>
     <string name="useFastMode">使用快速模式</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">您將會透過 Google 的通知服務可靠且迅速的收到通知。</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">變更名稱</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">取消連結裝置</string>
     <string name="clearDataAll">清除所有數據</string>
     <string name="activity_qr_code_title">QR Code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">掃描朋友的 QR Code 來開始對話。</string>
     <string name="fragment_view_my_qr_code_title">掃描我</string>
     <string name="fragment_view_my_qr_code_share_title">分享 QR Code</string>
-    <string name="fragment_contact_selection_contacts_title">聯絡人</string>
+    <string name="contactsContacts">聯絡人</string>
     <string name="fragment_contact_selection_closed_groups_title">已關閉的群組們</string>
     <string name="fragment_contact_selection_open_groups_title">查看群組</string>
     <!-- Next round of translation -->
@@ -467,7 +459,6 @@
     <string name="activity_backup_restore_explanation_1">選擇一個備份檔案，並輸入建立時的密碼。</string>
     <string name="activity_backup_restore_passphrase">30 位數密碼</string>
     <string name="activity_link_device_skip_prompt">這可能需要一些時間，要跳過嗎？</string>
-    <string name="activity_link_device_link_device">連結裝置</string>
     <string name="activity_link_device_qr_message">請使用您其他的裝置並前往「設定」→「回復用字句」來顯示您的QR Code。</string>
     <string name="communityJoinOfficial">或加入這些群組⋯</string>
     <string name="onboardingMessageNotificationExplaination">Session 有兩種方式向您傳送通知。</string>
@@ -475,7 +466,6 @@
     <string name="activity_pn_mode_slow_mode">慢速模式</string>
     <string name="activity_pn_mode_fast_mode_explanation">您將會透過 Google 的通知服務可靠且迅速的收到通知。</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session 會偶爾在背景執行時檢查新訊息。</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">輸入暱稱</string>
     <string name="blockUnblockDescription">您確定要解除封鎖 %s 嗎？</string>
     <string name="dialog_join_open_group_explanation">您確定要加入 %s 公開群組嗎？</string>
     <string name="open">開啟</string>

@@ -182,7 +182,7 @@ de intercambio de claves!</string>
     <!-- SearchToolbar -->
     <string name="search">Buscar</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Atajo no válido</string>
+    <string name="invalidShortcut">Atajo no válido</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Nuevo mensaje</string>
     <!-- TransferControlView -->
@@ -390,17 +390,10 @@ de intercambio de claves!</string>
     <string name="next">Siguiente</string>
     <string name="share">Compartir</string>
     <string name="cancel">Cancelar</string>
-    <string name="activity_landing_title_2">Tu Session comienza aquí...</string>
-    <string name="activity_landing_register_button_title">Crear ID de Session</string>
-    <string name="activity_landing_restore_button_title">Continúa tu Session</string>
-    <string name="view_fake_chat_bubble_1">¿Qué es Session?</string>
-    <string name="view_fake_chat_bubble_2">Es una aplicación de mensajería descentralizada y cifrada</string>
-    <string name="view_fake_chat_bubble_3">¿Entonces no recopila mi información personal ni los metadatos de mi conversación? ¿Cómo funciona?</string>
     <string name="view_fake_chat_bubble_4">Utiliza una combinación de enrutamiento anónimo avanzado y tecnologías de cifrado de extremo a extremo.</string>
     <string name="view_fake_chat_bubble_5">Los amigos no dejan que sus amigos usen messengers riesgosos. De nada.</string>
     <string name="activity_register_title">Saluda a tu ID de Session</string>
     <string name="activity_register_explanation">Tu ID de Session es la dirección única que las personas pueden usar para contactarte en Session. Por diseño, tu ID de Session es totalmente anónima y privada, sin vínculo con tu identidad real.</string>
-    <string name="activity_restore_title">Restaura tu cuenta</string>
     <string name="displayNamePick">Elige tu nombre</string>
     <string name="displayNameEnter">Ingresa un nombre para mostrar</string>
     <string name="displayNameErrorDescription">Por favor, elige un nombre para mostrar</string>
@@ -442,14 +435,13 @@ de intercambio de claves!</string>
     <string name="notificationsStrategy">Estrategia de notificación</string>
     <string name="useFastMode">Usar Modo Rápido</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Se te notificará de nuevos mensajes de forma fiable e inmediata usando los servidores de notificaciones de Google.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Cambiar nombre</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Desvincular dispositivo</string>
     <string name="clearDataAll">Borrar todos los datos</string>
     <string name="activity_qr_code_title">Código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escanea el código QR de una persona para comenzar una conversación con ella</string>
     <string name="fragment_view_my_qr_code_title">Escanéame</string>
     <string name="fragment_view_my_qr_code_share_title">Compartir código QR</string>
-    <string name="fragment_contact_selection_contacts_title">Contactos</string>
+    <string name="contactsContacts">Contactos</string>
     <string name="fragment_contact_selection_closed_groups_title">Grupos cerrados</string>
     <string name="fragment_contact_selection_open_groups_title">Grupos abiertos</string>
     <!-- Next round of translation -->
@@ -471,7 +463,6 @@ de intercambio de claves!</string>
     <string name="activity_backup_restore_explanation_1">Seleccione un archivo de copia de seguridad e introduzca la clave de acceso con la que fue creada.</string>
     <string name="activity_backup_restore_passphrase">Clave de acceso de 30 dígitos</string>
     <string name="activity_link_device_skip_prompt">Esto está tomando un tiempo, ¿te gustaría saltarlo?</string>
-    <string name="activity_link_device_link_device">Vincular un Dispositivo</string>
     <string name="activity_link_device_qr_message">Navega a Ajustes → Frase de Recuperación en tu otro dispositivo para mostrar tu código QR.</string>
     <string name="communityJoinOfficial">O únete a uno de estos…</string>
     <string name="onboardingMessageNotificationExplaination">Hay dos maneras en las que Session puede notificarle de nuevos mensajes.</string>
@@ -479,7 +470,6 @@ de intercambio de claves!</string>
     <string name="activity_pn_mode_slow_mode">Modo Lento</string>
     <string name="activity_pn_mode_fast_mode_explanation">Se le notificará de los nuevos mensajes de forma fiable e inmediata usando los servidores de notificaciones de Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session comprobará ocasionalmente si hay nuevos mensajes en segundo plano.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Escriba un apodo</string>
     <string name="blockUnblockDescription">¿Estás seguro de que quieres desbloquear a %s?</string>
     <string name="dialog_join_open_group_explanation">¿Estás seguro de que quieres unirte al grupo abierto %s?</string>
     <string name="open">Abrir</string>

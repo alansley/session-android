@@ -182,7 +182,7 @@ för nyckelutbyte!</string>
     <!-- SearchToolbar -->
     <string name="search">Sök</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Ogiltig genväg</string>
+    <string name="invalidShortcut">Ogiltig genväg</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Nytt meddelande</string>
     <!-- TransferControlView -->
@@ -390,17 +390,10 @@ för nyckelutbyte!</string>
     <string name="next">Nästa</string>
     <string name="share">Dela</string>
     <string name="cancel">Avbryt</string>
-    <string name="activity_landing_title_2">Din Session börjar här...</string>
-    <string name="activity_landing_register_button_title">Skapa Session-ID</string>
-    <string name="activity_landing_restore_button_title">Fortsätt din Session</string>
-    <string name="view_fake_chat_bubble_1">Vad är Session?</string>
-    <string name="view_fake_chat_bubble_2">Det är en decentraliserad, krypterad meddelandeapp</string>
-    <string name="view_fake_chat_bubble_3">Så det samlar inte in mina personuppgifter eller mina konversationers metadata? Hur fungerar det?</string>
     <string name="view_fake_chat_bubble_4">Med hjälp av en kombination av avancerad anonym routing och end-to-end-krypteringsteknik.</string>
     <string name="view_fake_chat_bubble_5">Vänner låter inte vänner använda osäkra meddelandeappar. Varsågod.</string>
     <string name="activity_register_title">Säg hej till ditt Session-ID</string>
     <string name="activity_register_explanation">Ditt Session-ID är den unika adress folk kan använda för att kontakta dig på Session. Ditt Session-ID är helt anonymt och privat rakt igenom, helt utan koppling till din riktiga identitet.</string>
-    <string name="activity_restore_title">Återställ ditt konto</string>
     <string name="displayNamePick">Välj visningsnamn</string>
     <string name="displayNameEnter">Ange ett visningsnamn</string>
     <string name="displayNameErrorDescription">Vänligen välj ett visningsnamn</string>
@@ -442,14 +435,13 @@ för nyckelutbyte!</string>
     <string name="notificationsStrategy">Strategi för aviseringar</string>
     <string name="useFastMode">Använd snabbläge</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Byt Namn</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Kopplar bort enhet</string>
     <string name="clearDataAll">Rensa All Data</string>
     <string name="activity_qr_code_title">QR-kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skanna någons QR-kod för att starta en konversation med dem</string>
     <string name="fragment_view_my_qr_code_title">Skanna mig</string>
     <string name="fragment_view_my_qr_code_share_title">Dela QR-kod</string>
-    <string name="fragment_contact_selection_contacts_title">Kontakter</string>
+    <string name="contactsContacts">Kontakter</string>
     <string name="fragment_contact_selection_closed_groups_title">Stängda Grupper</string>
     <string name="fragment_contact_selection_open_groups_title">Öppna Grupper</string>
     <!-- Next round of translation -->
@@ -471,7 +463,6 @@ för nyckelutbyte!</string>
     <string name="activity_backup_restore_explanation_1">Välj en säkerhetskopieringsfil och ange lösenfrasen som den skapades med.</string>
     <string name="activity_backup_restore_passphrase">30-siffrig lösenfras</string>
     <string name="activity_link_device_skip_prompt">Detta tar ett tag, vill du hoppa över?</string>
-    <string name="activity_link_device_link_device">Länka en enhet</string>
     <string name="activity_link_device_qr_message">Navigera till Inställningar → Återställningsfras på din andra enhet för att visa din QR-kod.</string>
     <string name="communityJoinOfficial">Eller gå med i en av dessa…</string>
     <string name="onboardingMessageNotificationExplaination">Det finns två sätt som Session kan meddela dig om nya meddelanden på.</string>
@@ -479,7 +470,6 @@ för nyckelutbyte!</string>
     <string name="activity_pn_mode_slow_mode">Långsamt läge</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session kommer då och då att leta efter nya meddelanden i bakgrunden.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Ange smeknamn</string>
     <string name="blockUnblockDescription">Är du säker på att du vill avblockera %s?</string>
     <string name="dialog_join_open_group_explanation">Är du säker på att du vill gå med i %s öppna grupp?</string>
     <string name="open">Öppna</string>

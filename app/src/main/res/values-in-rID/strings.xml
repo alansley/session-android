@@ -313,7 +313,6 @@
     <string name="next">Berikutnya</string>
     <string name="activity_register_title">Ucapkan halo pada Session ID anda</string>
     <string name="activity_register_explanation">Session ID adalah alamat unik yang bisa digunakan untuk mengontak anda. Tanpa koneksi dengan identitas asli, Session ID anda didesain bersifat anonim dan rahasia.</string>
-    <string name="activity_restore_title">Memulihkan akun Anda</string>
     <string name="displayNamePick">Pilih nama yang ditampilkan</string>
     <string name="displayNameEnter">Masukkan nama</string>
     <string name="displayNameErrorDescription">Pilih nama yang ditampilkan</string>
@@ -333,7 +332,7 @@
     <string name="clearDataAll">Hapus semua data</string>
     <string name="activity_qr_code_title">Kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>
-    <string name="fragment_contact_selection_contacts_title">Kontak</string>
+    <string name="contactsContacts">Kontak</string>
     <string name="fragment_contact_selection_closed_groups_title">Grup tertutup</string>
     <string name="fragment_contact_selection_open_groups_title">Grup terbuka</string>
     <!-- Next round of translation -->

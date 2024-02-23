@@ -188,7 +188,7 @@ schimbul de chei este corupt </string>
     <!-- SearchToolbar -->
     <string name="search">Căutați</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Scurtătură invalidă</string>
+    <string name="invalidShortcut">Scurtătură invalidă</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Mesaj nou</string>
     <!-- TransferControlView -->
@@ -398,17 +398,10 @@ schimbul de chei este corupt </string>
     <string name="next">Următorul</string>
     <string name="share">Distribuie</string>
     <string name="cancel">Anulare</string>
-    <string name="activity_landing_title_2">Sesiunea dvs. începe aici...</string>
-    <string name="activity_landing_register_button_title">Creați ID sesiune</string>
-    <string name="activity_landing_restore_button_title">Continuați sesiunea</string>
-    <string name="view_fake_chat_bubble_1">Ce este Session?</string>
-    <string name="view_fake_chat_bubble_2">Este o aplicație de mesagerie descentralizată, criptată</string>
-    <string name="view_fake_chat_bubble_3">Deci nu colectează informaţii personale sau metadatele conversaţiei? Cum funcţionează?</string>
     <string name="view_fake_chat_bubble_4">Utilizarea unei combinații avansate de rutare anonimă și de tehnologii de criptare capăt-la-capăt.</string>
     <string name="view_fake_chat_bubble_5">Prietenii nu-și lasă prietenii să folosească mesageri compromiși. Cu plăcere.</string>
     <string name="activity_register_title">Bun venit la noul tău ID Session</string>
     <string name="activity_register_explanation">ID-ul de sesiune este adresa ta unică pe care persoanele o pot folosi pentru a te contacta în Session. Neavând conexiune la identitatea ta reală, ID-ul tău Session este complet anonim și privat prin design.</string>
-    <string name="activity_restore_title">Recuperează-ți contul</string>
     <string name="displayNamePick">Alegeți numele afișat</string>
     <string name="displayNameEnter">Alege un nume de afișat</string>
     <string name="displayNameErrorDescription">Vă rugăm să alegeți un nume de afișare</string>

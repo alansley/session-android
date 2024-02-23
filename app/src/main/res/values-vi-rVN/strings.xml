@@ -262,17 +262,10 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="next">Tiếp</string>
     <string name="share">Chia sẻ</string>
     <string name="cancel">Huỷ</string>
-    <string name="activity_landing_title_2">Session của bạn bắt đầu từ đây...</string>
-    <string name="activity_landing_register_button_title">Tạo Session ID</string>
-    <string name="activity_landing_restore_button_title">Tiếp tục Session của bạn</string>
-    <string name="view_fake_chat_bubble_1">Session là gì?</string>
-    <string name="view_fake_chat_bubble_2">Đây là một ứng dụng nhắn tin phân cấp và mã hoá</string>
-    <string name="view_fake_chat_bubble_3">Vậy ứng dụng có thu thập dữ liệu cá nhân của tôi hoặc siêu dữ liệu về cuộc hội thoại của tôi không? Ứng dụng hoạt động như thế nào?</string>
     <string name="view_fake_chat_bubble_4">Sử dụng kết hợp công nghệ định tuyến ẩn danh nâng cao và công nghệ mã hoá đầu cuối.</string>
     <string name="view_fake_chat_bubble_5">Đừng để bạn bè sử dụng những ứng dụng nhắn tin dễ bị tấn công.</string>
     <string name="activity_register_title">Bắt đầu với Session ID của bạn</string>
     <string name="activity_register_explanation">Session ID của bạn là địa chỉ duy nhất mà mọi người có thể dùng để liên lạc với bạn trên ứng dụng Session. Session ID của bạn được thiết kế đảm bảo tuyệt đối ẩn danh và riêng tư vì nó không liên kết với danh tính thật của bạn.</string>
-    <string name="activity_restore_title">Khôi phục lại tài khoản của bạn</string>
     <string name="displayNamePick">Chọn tên hiển thị của bạn</string>
     <string name="displayNameEnter">Nhập một tên hiển thị</string>
     <string name="displayNameErrorDescription">Vui lòng chọn một tên hiển thị</string>
@@ -308,13 +301,12 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_notification_settings_content_section_title">Nội dung thông báo</string>
     <string name="sessionPrivacy">Riêng tưy</string>
     <string name="notificationsStrategy">Chiến lược thông báo</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Đổi tên</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Hủy liên kết thiết bị</string>
     <string name="clearDataAll">Xóa tất cả dữ liệu</string>
     <string name="activity_qr_code_title">Mã QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Quét mã QR của ai đó để bắt đầu trò chuyện với họ</string>
     <string name="fragment_view_my_qr_code_share_title">Chia sẻ mã QR </string>
-    <string name="fragment_contact_selection_contacts_title">Danh bạ</string>
+    <string name="contactsContacts">Danh bạ</string>
     <string name="fragment_contact_selection_closed_groups_title">Nhóm kín</string>
     <string name="fragment_contact_selection_open_groups_title">Nhóm mở</string>
     <!-- Next round of translation -->

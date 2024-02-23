@@ -182,7 +182,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- SearchToolbar -->
     <string name="search">Søk</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Ugyldig snarvei</string>
+    <string name="invalidShortcut">Ugyldig snarvei</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Ny melding</string>
     <!-- TransferControlView -->
@@ -390,17 +390,10 @@ nøkkelutvekslingsmelding.</string>
     <string name="next">Neste</string>
     <string name="share">Del</string>
     <string name="cancel">Avbryt</string>
-    <string name="activity_landing_title_2">Din Session begynner her...</string>
-    <string name="activity_landing_register_button_title">Opprett Session-ID</string>
-    <string name="activity_landing_restore_button_title">Fortsett din Session</string>
-    <string name="view_fake_chat_bubble_1">Hva er Session?</string>
-    <string name="view_fake_chat_bubble_2">Det er en desentralisert, kryptert meldingsapp</string>
-    <string name="view_fake_chat_bubble_3">Så den henter ikke min personlige informasjon eller samtaletadata? Hvordan virker det?</string>
     <string name="view_fake_chat_bubble_4">Bruker en kombinasjon av avansert anonym ruting og ende-til-ende-krypteringsteknologi.</string>
     <string name="view_fake_chat_bubble_5">Venner lar ikke venner bruke kompromitterte meldinger. Du er velkommen.</string>
     <string name="activity_register_title">Si hei til din Session-ID</string>
     <string name="activity_register_explanation">Din Session-ID er den unike adressen folk kan bruke for å kontakte deg på Session. Uten en forbindelse til din virkelige identitet er din Session-ID laget for å være fullstendig anonym og privat.</string>
-    <string name="activity_restore_title">Gjenopprett kontoen din</string>
     <string name="displayNamePick">Velg ditt visningsnavn</string>
     <string name="displayNameEnter">Skriv inn et visningsnavn</string>
     <string name="displayNameErrorDescription">Vennligst velg et visningsnavn</string>
@@ -442,14 +435,13 @@ nøkkelutvekslingsmelding.</string>
     <string name="notificationsStrategy">Melding Strategi</string>
     <string name="useFastMode">Bruk rask modus</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Endre navn</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Koble fra enhet</string>
     <string name="clearDataAll">Fjern alle data</string>
     <string name="activity_qr_code_title">QR-kode</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skann noens QR-kode for å starte en samtale med dem</string>
     <string name="fragment_view_my_qr_code_title">Skann meg</string>
     <string name="fragment_view_my_qr_code_share_title">Del QR-kode</string>
-    <string name="fragment_contact_selection_contacts_title">Kontakt</string>
+    <string name="contactsContacts">Kontakt</string>
     <string name="fragment_contact_selection_closed_groups_title">Lukkede grupper</string>
     <string name="fragment_contact_selection_open_groups_title">Åpne grupper</string>
     <!-- Next round of translation -->
@@ -471,7 +463,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_backup_restore_explanation_1">Velg en sikkerhetskopifil og skriv inn passordfrasen den ble opprettet med.</string>
     <string name="activity_backup_restore_passphrase">30-digit passphrase</string>
     <string name="activity_link_device_skip_prompt">Dette tar en stund, vil du hoppe over?</string>
-    <string name="activity_link_device_link_device">Koble til en enhet</string>
     <string name="activity_link_device_qr_message">Naviger til innstillinger → Gjenopprettingsfrasen på din andre enhet for å vise QR-koden.</string>
     <string name="communityJoinOfficial">Eller bli med i en av disse…</string>
     <string name="onboardingMessageNotificationExplaination">Det er to måter Session kan gi beskjed om nye meldinger på.</string>
@@ -479,7 +470,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="activity_pn_mode_slow_mode">Langsom Modus</string>
     <string name="activity_pn_mode_fast_mode_explanation">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session vil av og til sjekke nye meldinger i bakgrunnen.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Skriv inn et kallenavn</string>
     <string name="blockUnblockDescription">Er du sikker på at du vil oppheve blokkeringen av %s?</string>
     <string name="dialog_join_open_group_explanation">Er du sikker på at du vil bli med i den åpne gruppen for %s?</string>
     <string name="open">Åpne</string>

@@ -189,7 +189,7 @@
     <!-- SearchToolbar -->
     <string name="search">Ieškoti</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Neteisingas šaukinys</string>
+    <string name="invalidShortcut">Neteisingas šaukinys</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Nauja žinutė</string>
     <!-- TransferControlView -->
@@ -399,17 +399,10 @@
     <string name="next">Kitas</string>
     <string name="share">Bendrinti</string>
     <string name="cancel">Atsisakyti</string>
-    <string name="activity_landing_title_2">Jūsų Session prasideda čia...</string>
-    <string name="activity_landing_register_button_title">Susikurti Session ID</string>
-    <string name="activity_landing_restore_button_title">Tęsti savo Session</string>
-    <string name="view_fake_chat_bubble_1">Kas yra Session?</string>
-    <string name="view_fake_chat_bubble_2">Tai – decentralizuota, šifruota pokalbių programėlė</string>
-    <string name="view_fake_chat_bubble_3">Ji nerenka mano asmeninės informacijos ar mano pokalbių metaduomenų? Kaip ji veikia?</string>
     <string name="view_fake_chat_bubble_4">Naudodama išplėstinio anoniminio nukreipimo ir ištisinio šifravimo technologijų kombinaciją.</string>
     <string name="view_fake_chat_bubble_5">Draugai neleidžia savo draugams naudotis į pavojų statančiomis programėlėmis. Prašom.</string>
     <string name="activity_register_title">Pasisveikinkite su savo Session ID</string>
     <string name="activity_register_explanation">Jūsų Session ID yra unikalus adresas, kurį žmonės gali naudoti, kad susisiektų su jumis per Session programėlę. Neturėdamas jokių sąsajų su jūsų tikrąja tapatybe, jūsų Session ID yra tyčia visiškai anoniminis ir privatus.</string>
-    <string name="activity_restore_title">Atkurkite savo paskyrą</string>
     <string name="displayNamePick">Pasirinkite savo rodomą vardą</string>
     <string name="displayNameEnter">Įveskite pasirinktą rodomą vardą</string>
     <string name="displayNameErrorDescription">Pasirinkite rodomą vardą</string>
@@ -443,13 +436,12 @@
     <string name="notificationsStrategy">Pranešimų strategija</string>
     <string name="useFastMode">Naudoti greitą veikseną</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Keisti pavadinimą</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Atsieti įrenginį</string>
     <string name="clearDataAll">Išvalyti visus duomenis</string>
     <string name="activity_qr_code_title">QR kodas</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Nuskenuokite kieno nors QR kodą, kad pradėtumėte su juo pokalbį</string>
     <string name="fragment_view_my_qr_code_title">Skenuokite mane</string>
-    <string name="fragment_contact_selection_contacts_title">Adresatai</string>
+    <string name="contactsContacts">Adresatai</string>
     <string name="fragment_contact_selection_closed_groups_title">Uždaros grupės</string>
     <string name="fragment_contact_selection_open_groups_title">Atviros grupės</string>
     <!-- Next round of translation -->
@@ -465,14 +457,12 @@
     <string name="details">Išsamiau</string>
     <string name="dialog_backup_activation_failed">Nepavyko aktyvuoti atsarginių kopijų. Bandykite dar kartą arba susisiekite su palaikymu.</string>
     <string name="activity_backup_restore_title">Atkurti atsarginę kopiją</string>
-    <string name="activity_link_device_link_device">Susieti įrenginį</string>
     <string name="communityJoinOfficial">Arba prisijunkite prie vienos iš šių…</string>
     <string name="onboardingMessageNotificationExplaination">Yra du būdai kaip Session gali jums pranešti apie naujas žinutes.</string>
     <string name="activity_pn_mode_fast_mode">Greita veiksena</string>
     <string name="activity_pn_mode_slow_mode">Lėta veiksena</string>
     <string name="activity_pn_mode_fast_mode_explanation">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session programėlė retkarčiais fone tikrins, ar yra naujų žinučių.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Įveskite slapyvardį</string>
     <string name="blockUnblockDescription">Ar tikrai norite atblokuoti %s?</string>
     <string name="dialog_join_open_group_explanation">Ar tikrai norite prisijungti prie %s atviros grupės?</string>
     <string name="open">Atverti</string>

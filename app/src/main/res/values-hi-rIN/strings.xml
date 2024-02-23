@@ -182,7 +182,7 @@
     <!-- SearchToolbar -->
     <string name="search">सर्च</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">अमान्य शॉर्टकट</string>
+    <string name="invalidShortcut">अमान्य शॉर्टकट</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">नया Session सन्देश</string>
     <!-- TransferControlView -->
@@ -390,17 +390,10 @@
     <string name="next">अगला</string>
     <string name="share">साझा करें</string>
     <string name="cancel">रद्द करें</string>
-    <string name="activity_landing_title_2">आपका सेशन यहां आरंभ होता है...</string>
-    <string name="activity_landing_register_button_title">सेशन आईडी बनाएं</string>
-    <string name="activity_landing_restore_button_title">अपना सेशन जारी रखें</string>
-    <string name="view_fake_chat_bubble_1">सेशन क्या है?</string>
-    <string name="view_fake_chat_bubble_2">यह एक decentralized, encrypted मेसेजिंग ऐप है</string>
-    <string name="view_fake_chat_bubble_3">इसलिए यह मेरी निजी जानकारी या बातचीत का metadata इकठ्ठा नहीं करता? यह कैसे काम करता है?</string>
     <string name="view_fake_chat_bubble_4">एडवांस्ड anonymous routing और end-to-end encryption के मिश्रण का प्रयोग करके।</string>
     <string name="view_fake_chat_bubble_5">दोस्त दोस्तों को असुरक्षित मैसेंजर नहीं उपयोग करने देते। आपका स्वागत है।</string>
     <string name="activity_register_title">अपनी सेशन आईडी को हेल्लो कहें</string>
     <string name="activity_register_explanation">आपकी Session ID एक ऐसा अनोखा पता है जिसका उपयोग करके लोग आपसे Session पर संपर्क कर सकते हैं। आपकी वास्तविक पहचान से कोई संबंध नहीं होने के कारण, आपका Session ID डिज़ाइन द्वारा पूरी तरह से गुमनाम और निजी है |</string>
-    <string name="activity_restore_title">अकाउंट रिस्टोर करें</string>
     <string name="displayNamePick">अपना प्रदर्शन नाम चुनें</string>
     <string name="displayNameEnter">डिस्प्ले नाम डालें</string>
     <string name="displayNameErrorDescription">कृपया एक डिस्प्ले नाम चुनें</string>
@@ -442,14 +435,13 @@
     <string name="notificationsStrategy">सूचना रणनीति</string>
     <string name="useFastMode">तीव्र मोड इस्तेमाल करे</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">नाम बदलें</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">डिवाइस को अनलिंक करें</string>
     <string name="clearDataAll">सभी डेटा हटाएं</string>
     <string name="activity_qr_code_title">QR कोड</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">किसी के साथ बातचीत शुरू करने के लिए उसका क्यूआर कोड स्कैन करें</string>
     <string name="fragment_view_my_qr_code_title">मुझे स्कैन करें</string>
     <string name="fragment_view_my_qr_code_share_title">QR कोड साझा करे</string>
-    <string name="fragment_contact_selection_contacts_title">संपर्क</string>
+    <string name="contactsContacts">संपर्क</string>
     <string name="fragment_contact_selection_closed_groups_title">बंद ग्रुप</string>
     <string name="fragment_contact_selection_open_groups_title">खुले ग्रुप</string>
     <!-- Next round of translation -->
@@ -471,7 +463,6 @@
     <string name="activity_backup_restore_explanation_1">एक बैकअप फ़ाइल चुनें और वह पासफ़्रेज़ दर्ज करें जिसके साथ इसे बनाया गया था।</string>
     <string name="activity_backup_restore_passphrase">30 अंक का पासफ्रेस</string>
     <string name="activity_link_device_skip_prompt">यह समय ले रहा है, इसे छोड़ दें?</string>
-    <string name="activity_link_device_link_device">डिवाइस को लिंक करें</string>
     <string name="activity_link_device_qr_message">अपना क्यूआर कोड दिखाने के लिए अपने अन्य डिवाइस पर सेटिंग्स →पुनर्प्राप्ति वाक्यांश में जाएंं।</string>
     <string name="communityJoinOfficial">या इनमें से एक को जोड़ें...</string>
     <string name="onboardingMessageNotificationExplaination">सेशन आपको नए संदेश के बारे में दो तरीकों से बता सकता है</string>
@@ -479,7 +470,6 @@
     <string name="activity_pn_mode_slow_mode">स्लो मोड</string>
     <string name="activity_pn_mode_fast_mode_explanation">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session कभी-कभी पृष्ठभूमि में नए संदेशों की जांच करेगा।</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">उपनाम चुनें</string>
     <string name="blockUnblockDescription">क्या आप वाकई %s को अनब्लॉक करना चाहते हैं?</string>
     <string name="dialog_join_open_group_explanation">क्या आप %s open ग्रुप से जुड़ना चाहते हैं?</string>
     <string name="open">खोलें</string>

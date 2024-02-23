@@ -183,7 +183,7 @@
     <!-- SearchToolbar -->
     <string name="search">Recherche</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Le raccourci est invalide</string>
+    <string name="invalidShortcut">Le raccourci est invalide</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Nouveau message</string>
     <!-- TransferControlView -->
@@ -412,17 +412,10 @@
     <string name="next">Suivant</string>
     <string name="share">Partager</string>
     <string name="cancel">Annuler</string>
-    <string name="activity_landing_title_2">Votre Session débute ici...</string>
-    <string name="activity_landing_register_button_title">Créer un Session ID</string>
-    <string name="activity_landing_restore_button_title">Continuez votre Session</string>
-    <string name="view_fake_chat_bubble_1">Qu\'est-ce que Session ?</string>
-    <string name="view_fake_chat_bubble_2">C\'est une application de messagerie décentralisée et cryptée</string>
-    <string name="view_fake_chat_bubble_3">Elle ne recueille donc pas mes informations personnelles ou mes métadonnées de conversations ? Comment ça marche ?</string>
     <string name="view_fake_chat_bubble_4">En utilisant une combinaison de technologies avancées de routage anonyme et de chiffrement de bout en bout.</string>
     <string name="view_fake_chat_bubble_5">Les vrais amis ne laissent pas leurs amis utiliser des outils de messagerie compromis. De rien.</string>
     <string name="activity_register_title">Dites bonjour à votre Session ID</string>
     <string name="activity_register_explanation">Votre Session ID est l\'identifiant unique que les gens utilisent pour vous contacter dans Session. Sans lien avec votre identité réelle, votre Session ID est complètement anonyme et privé.</string>
-    <string name="activity_restore_title">Restaurez votre compte</string>
     <string name="displayNamePick">Choisissez votre nom d\'utilisateur</string>
     <string name="displayNameEnter">Saisissez un nom d\'utilisateur</string>
     <string name="displayNameErrorDescription">Veuillez choisir un nom d\'utilisateur</string>
@@ -473,7 +466,6 @@
     <string name="notificationsStrategy">Stratégie de notification</string>
     <string name="useFastMode">Utiliser le Mode Rapide</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Vous serez averti de nouveaux messages de manière fiable et immédiate en utilisant les serveurs de notification de Google.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Modifier le nom</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Déconnecter l\'appareil</string>
     <string name="clearDataAll">Effacer toutes les données</string>
     <string name="dialog_clear_all_data_message">Cela supprimera définitivement vos messages, sessions et contacts. Voulez-vous uniquement effacer cet appareil ou supprimer l\'intégralité de votre compte ?</string>
@@ -485,7 +477,7 @@
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scannez le QR code d\'un autre utilisateur pour démarrer une session</string>
     <string name="fragment_view_my_qr_code_title">Scannez-moi</string>
     <string name="fragment_view_my_qr_code_share_title">Partager le QR code</string>
-    <string name="fragment_contact_selection_contacts_title">Contacts</string>
+    <string name="contactsContacts">Contacts</string>
     <string name="fragment_contact_selection_closed_groups_title">Groupes privés</string>
     <string name="fragment_contact_selection_open_groups_title">Groupes publics</string>
     <!-- Next round of translation -->
@@ -507,7 +499,6 @@
     <string name="activity_backup_restore_explanation_1">Sélectionnez un fichier de sauvegarde et entrez la phrase de passe avec laquelle il a été créé.</string>
     <string name="activity_backup_restore_passphrase">Phrase de passe de 30 caractères</string>
     <string name="activity_link_device_skip_prompt">Cela prend un certain temps, voulez-vous passer ?</string>
-    <string name="activity_link_device_link_device">Relier un appareil</string>
     <string name="activity_link_device_qr_message">Allez dans Paramètres → Phrase de récupération sur votre autre appareil pour afficher votre QR code.</string>
     <string name="communityJoinOfficial">Ou rejoignez l\'un(e) de ceux-ci…</string>
     <string name="onboardingMessageNotificationExplaination">Session peut vous avertir de la présence de nouveaux messages de deux façons.</string>
@@ -515,7 +506,6 @@
     <string name="activity_pn_mode_slow_mode">Mode lent</string>
     <string name="activity_pn_mode_fast_mode_explanation">Vous serez averti de nouveaux messages de manière fiable et immédiate en utilisant les serveurs de notification de Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session vérifiera occasionnellement la présence de nouveaux messages en tâche de fond.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Saisissez un nom</string>
     <string name="blockUnblockDescription">Êtes-vous sûr de vouloir débloquer %s ?</string>
     <string name="dialog_join_open_group_explanation">Êtes-vous sûr de vouloir rejoindre le groupe ouvert %s ?</string>
     <string name="open">Ouvrir</string>

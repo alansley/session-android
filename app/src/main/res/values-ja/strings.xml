@@ -177,7 +177,7 @@
     <!-- SearchToolbar -->
     <string name="search">検索</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">不正なショートカット</string>
+    <string name="invalidShortcut">不正なショートカット</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">新着メッセージ</string>
     <!-- TransferControlView -->
@@ -383,17 +383,10 @@
     <string name="next">次</string>
     <string name="share">共有する</string>
     <string name="cancel">取り消す</string>
-    <string name="activity_landing_title_2">ここから Session が始まります...</string>
-    <string name="activity_landing_register_button_title">Session ID を作成する</string>
-    <string name="activity_landing_restore_button_title">Session を続ける</string>
-    <string name="view_fake_chat_bubble_1">Session とは？</string>
-    <string name="view_fake_chat_bubble_2">分散型の暗号化されたメッセージングアプリです</string>
-    <string name="view_fake_chat_bubble_3">個人情報や会話のメタデータは収集されませんか？どのように機能しますか？</string>
     <string name="view_fake_chat_bubble_4">高度な匿名ルーティングとエンドツーエンドの暗号化テクノロジーを組み合わせて使用します。</string>
     <string name="view_fake_chat_bubble_5">友人は、セキュリティ侵害されたメッセンジャーを自らの友人に使用させません。どういたしまして。</string>
     <string name="activity_register_title">Session ID をご紹介します</string>
     <string name="activity_register_explanation">Session ID は、Session で連絡を取るために使用できる一意のアドレスです。本当のアイデンティティに関係なく、あなたの Session ID は設計上完全に匿名でプライベートです。</string>
-    <string name="activity_restore_title">アカウントを復元する</string>
     <string name="displayNamePick">表示名を選択してください</string>
     <string name="displayNameEnter">表示名を入力してください</string>
     <string name="displayNameErrorDescription">表示名を選択してください</string>
@@ -435,14 +428,13 @@
     <string name="notificationsStrategy">通知戦略</string>
     <string name="useFastMode">高速モードを使用する</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Googleの通知サーバーを使用して、新しいメッセージが確実かつ即座に通知されます。</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">名前を変更する</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">デバイスのリンクを解除する</string>
     <string name="clearDataAll">すべてのデータを消去する</string>
     <string name="activity_qr_code_title">QR コード</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">誰かの QR コードをスキャンして、会話を始めましょう</string>
     <string name="fragment_view_my_qr_code_title">スキャンしてください</string>
     <string name="fragment_view_my_qr_code_share_title">QR コードを共有する</string>
-    <string name="fragment_contact_selection_contacts_title">連絡先</string>
+    <string name="contactsContacts">連絡先</string>
     <string name="fragment_contact_selection_closed_groups_title">閉じたグループ</string>
     <string name="fragment_contact_selection_open_groups_title">オープングループ</string>
     <!-- Next round of translation -->
@@ -462,7 +454,6 @@
     <string name="activity_backup_restore_title">バックアップを復元する</string>
     <string name="activity_backup_restore_select_file">ファイルを選択してください</string>
     <string name="activity_backup_restore_explanation_1">バックアップファイルを選択し、作成したパスフレーズを入力してください。</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">ニックネームを入力してください。</string>
     <string name="blockUnblockDescription">本当に %s のブロックを解除しますか？</string>
     <string name="dialog_join_open_group_explanation">%sの公開グループに本当に参加しますか?</string>
     <string name="open">開く</string>

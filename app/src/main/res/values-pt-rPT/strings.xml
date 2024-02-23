@@ -182,7 +182,7 @@ foi recebida está corrompida!</string>
     <!-- SearchToolbar -->
     <string name="search">Procurar</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Atalho inválido</string>
+    <string name="invalidShortcut">Atalho inválido</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Nova mensagem</string>
     <!-- TransferControlView -->
@@ -386,17 +386,10 @@ foi recebida está corrompida!</string>
     <string name="next">Próximo</string>
     <string name="share">Compartilhar</string>
     <string name="cancel">Cancelar</string>
-    <string name="activity_landing_title_2">O Session começa aqui...</string>
-    <string name="activity_landing_register_button_title">Criar ID Session</string>
-    <string name="activity_landing_restore_button_title">Continuar com seu Session</string>
-    <string name="view_fake_chat_bubble_1">O que é o Session?</string>
-    <string name="view_fake_chat_bubble_2">É um aplicativo de mensagens criptografado e descentralizado</string>
-    <string name="view_fake_chat_bubble_3">Então ele não coleta minhas informações pessoais ou meus metadados de conversa? Como funciona?</string>
     <string name="view_fake_chat_bubble_4">Usando uma combinação de tecnologias avançadas de roteamento anônimo e criptografia de ponta a ponta.</string>
     <string name="view_fake_chat_bubble_5">Amigos não deixam amigos usarem aplicativos de mensagem comprometidos. De nada.</string>
     <string name="activity_register_title">Diga olá ao seu ID Session</string>
     <string name="activity_register_explanation">Seu ID Session é o endereço exclusivo que as pessoas podem usar para entrar em contato com você no Session. Sem conexão com sua identidade real, seu ID Session é totalmente anônimo e privado por definição.</string>
-    <string name="activity_restore_title">Restaurar sua conta</string>
     <string name="displayNamePick">Escolha seu nome de exibição</string>
     <string name="displayNameEnter">Digite um nome de exibição</string>
     <string name="displayNameErrorDescription">Escolha um nome de exibição</string>
@@ -434,15 +427,13 @@ foi recebida está corrompida!</string>
     <string name="activity_notification_settings_content_section_title">Conteúdo da notificação</string>
     <string name="sessionPrivacy">Privacidade</string>
     <string name="notificationsStrategy">Estratégia de notificação</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Mudar o nome</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Dessincronizar dispositivo</string>
     <string name="clearDataAll">Limpar todos os dados</string>
     <string name="activity_qr_code_title">Código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneie o código QR de alguém para iniciar uma conversa com essa pessoa</string>
     <string name="fragment_view_my_qr_code_share_title">Compartilhar código QR</string>
-    <string name="fragment_contact_selection_contacts_title">Contatos</string>
+    <string name="contactsContacts">Contatos</string>
     <string name="fragment_contact_selection_closed_groups_title">Grupos fechados</string>
     <string name="fragment_contact_selection_open_groups_title">Grupos abertos</string>
     <!-- Next round of translation -->
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Introduza uma alcunha</string>
 </resources>

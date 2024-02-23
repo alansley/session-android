@@ -12,7 +12,7 @@
         android:id="@+id/editDisplayNameText"
         style="@style/BottomSheetActionItem"
         android:drawableStart="@drawable/ic_baseline_edit_24"
-        android:text="@string/fragment_device_list_bottom_sheet_change_name_button_title"/>
+        android:text="@string/nicknameSet"/>
 
     <TextView
         android:id="@+id/unlinkDeviceText"

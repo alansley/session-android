@@ -185,7 +185,7 @@ výmeny kľúčov.</string>
     <!-- SearchToolbar -->
     <string name="search">Hľadať</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Neplatná skratka</string>
+    <string name="invalidShortcut">Neplatná skratka</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Nová správa</string>
     <!-- TransferControlView -->
@@ -397,15 +397,10 @@ výmeny kľúčov.</string>
     <string name="next">Ďalej</string>
     <string name="share">Zdieľať</string>
     <string name="cancel">Zrušiť</string>
-    <string name="activity_landing_register_button_title">Vytvoriť Session ID</string>
-    <string name="view_fake_chat_bubble_1">Čo je Session?</string>
-    <string name="view_fake_chat_bubble_2">Je to decentralizovaná, šifrovaná aplikácia na posielanie správ</string>
-    <string name="view_fake_chat_bubble_3">Takže nezbiera moje osobné informácie alebo metadáta mojich konverzácií? Ako to funguje?</string>
     <string name="view_fake_chat_bubble_4">Použitím kombinácie pokročilých technológií anonymného smerovania a end-to-end šifrovania.</string>
     <string name="view_fake_chat_bubble_5">Priatelia nedovolia priateľom používať skompromitované chatové aplikácie. Nieje za čo.</string>
     <string name="activity_register_title">Povedzte ahoj svojmu Session ID</string>
     <string name="activity_register_explanation">Vaše Session ID je jedinečná adresa, ktorú môžu ľudia použiť aby sa s vami skontaktovali v Session. Pretože Session ID nemá žiadne spojenie s vašou skutočnou identitou, je Session ID úplne anonymné a súkromé.</string>
-    <string name="activity_restore_title">Obnoviť účet</string>
     <string name="displayNamePick">Vyberte svoje zobrazované meno</string>
     <string name="displayNameEnter">Zadajte zobrazované meno</string>
     <string name="displayNameErrorDescription">Zvoľte prosím zobrazované meno</string>
@@ -438,14 +433,13 @@ výmeny kľúčov.</string>
     <string name="notificationsStyle">Štýl upozornenia</string>
     <string name="activity_notification_settings_content_section_title">Obsah upozornenia</string>
     <string name="sessionPrivacy">Súkromie</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Zmeniť meno</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojenie zariadenia</string>
     <string name="clearDataAll">Odstrániť všetky dáta</string>
     <string name="activity_qr_code_title">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Oskenujte niečí QR kód pre začatie konverzácie</string>
     <string name="fragment_view_my_qr_code_title">Naskenuj ma</string>
     <string name="fragment_view_my_qr_code_share_title">Zdieľať QR kód</string>
-    <string name="fragment_contact_selection_contacts_title">Kontakty</string>
+    <string name="contactsContacts">Kontakty</string>
     <string name="fragment_contact_selection_closed_groups_title">Uzatvorené skupiny</string>
     <string name="fragment_contact_selection_open_groups_title">Otvorené skupiny</string>
     <!-- Next round of translation -->
@@ -464,7 +458,6 @@ výmeny kľúčov.</string>
     <string name="activity_backup_restore_select_file">Vybrať súbor</string>
     <string name="activity_backup_restore_explanation_1">Vyberte súbor zálohy a zadajte prístupovú frázu, pomocou ktorej bol vytvorený.</string>
     <string name="activity_backup_restore_passphrase">30-znaková prístupová fráza</string>
-    <string name="activity_link_device_link_device">Pripojiť zariadenie</string>
     <string name="communityJoinOfficial">Alebo sa pripojte k jednej z týchto…</string>
     <string name="activity_pn_mode_fast_mode">Rýchly režim</string>
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>

@@ -189,7 +189,7 @@
     <!-- SearchToolbar -->
     <string name="search">Hledat</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Chybná klávesová zkratka</string>
+    <string name="invalidShortcut">Chybná klávesová zkratka</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Nová zpráva</string>
     <!-- TransferControlView -->
@@ -401,17 +401,10 @@
     <string name="next">Další</string>
     <string name="share">Sdílet</string>
     <string name="cancel">Zrušit</string>
-    <string name="activity_landing_title_2">Vaše Session začíná zde...</string>
-    <string name="activity_landing_register_button_title">Vytvořit ID relace</string>
-    <string name="activity_landing_restore_button_title">Pokračujte ve své relaci</string>
-    <string name="view_fake_chat_bubble_1">Co je Session?</string>
-    <string name="view_fake_chat_bubble_2">Je to decentralizovaná a šifrovaná aplikace pro zasílání zpráv</string>
-    <string name="view_fake_chat_bubble_3">Takže neshromažďuje mé osobní údaje ani metadata mých konverzací? Jak to funguje?</string>
     <string name="view_fake_chat_bubble_4">Použitím kombinace pokročilých anonymních směrovacích a end-to-end šifrovacích technologií.</string>
     <string name="view_fake_chat_bubble_5">Přátelé nenechávají přátelé používat kompromitované aplikace. Není zač.</string>
     <string name="activity_register_title">Přivítejte své nové Session ID</string>
     <string name="activity_register_explanation">Vaše Session ID je jedinečná adresa, kterou mohou lidé použít k vašemu kontaktování na Session. Bez jakékoli návaznosti na vaší skutečnou identitu je vaše Session ID stavbou zcela anonymní a soukromí chránící.</string>
-    <string name="activity_restore_title">Obnovit účet</string>
     <string name="displayNamePick">Vaše jméno</string>
     <string name="displayNameEnter">Zadejte pseudonym</string>
     <string name="displayNameErrorDescription">Vyberte prosím pseudonym</string>
@@ -453,14 +446,13 @@
     <string name="notificationsStrategy">Styl oznámení</string>
     <string name="useFastMode">Použít rychlý režim</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Změnit jméno</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojit zařízení</string>
     <string name="clearDataAll">Vymazat všechna data</string>
     <string name="activity_qr_code_title">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pro zahájení konverzace naskenujte něčí QR kód</string>
     <string name="fragment_view_my_qr_code_title">Naskenuj mě</string>
     <string name="fragment_view_my_qr_code_share_title">Sdílet QR kód</string>
-    <string name="fragment_contact_selection_contacts_title">Kontakty</string>
+    <string name="contactsContacts">Kontakty</string>
     <string name="fragment_contact_selection_closed_groups_title">Uzavřené skupiny</string>
     <string name="fragment_contact_selection_open_groups_title">Otevřené skupiny</string>
     <!-- Next round of translation -->
@@ -482,7 +474,6 @@
     <string name="activity_backup_restore_explanation_1">Vyberte soubor se zálohou a vložte frázi pro obnovení, s níž byl vytvořen.</string>
     <string name="activity_backup_restore_passphrase">Přístupové heslo o délce 30 čísel</string>
     <string name="activity_link_device_skip_prompt">Trvá to trochu déle, chcete přeskočit?</string>
-    <string name="activity_link_device_link_device">Propojit zařízení</string>
     <string name="activity_link_device_qr_message">Přejděte do Nastavení → Fráze pro obnovení na vašem dalším zařízení a zobrazte svůj QR kód.</string>
     <string name="communityJoinOfficial">Nebo se připojte k jedné z těchto…</string>
     <string name="onboardingMessageNotificationExplaination">Existují dva způsoby, jak vás může Session upozorňovat na nové zprávy.</string>
@@ -490,7 +481,6 @@
     <string name="activity_pn_mode_slow_mode">Pomalý režim</string>
     <string name="activity_pn_mode_fast_mode_explanation">Budete spolehlivě a okamžitě informováni o nových zprávách pomocí oznamovacích serverů Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session občas zkontroluje nové zprávy na pozadí.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Zadej přezdívku</string>
     <string name="blockUnblockDescription">Opravdu chcete odblokovat %s?</string>
     <string name="dialog_join_open_group_explanation">Opravdu se chcete připojit k otevřené skupině %s?</string>
     <string name="open">Otevřít</string>

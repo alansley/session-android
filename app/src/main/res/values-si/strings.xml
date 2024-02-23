@@ -87,7 +87,7 @@
     <!-- SearchToolbar -->
     <string name="search">සොයන්න</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">වලංගු නොවන කෙටිමඟකි</string>
+    <string name="invalidShortcut">වලංගු නොවන කෙටිමඟකි</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">නව පණිවිඩය</string>
     <!-- TransferControlView -->
@@ -167,8 +167,6 @@
     <string name="copied">පසුරුපුවරුවට පිටපත් විය</string>
     <string name="share">බෙදාගන්න</string>
     <string name="cancel">අවලංගු</string>
-    <string name="view_fake_chat_bubble_1">සෙෂන් යනු කුමක්ද?</string>
-    <string name="activity_restore_title">ගිණුම ප්‍රත්‍යර්පණය කරන්න</string>
     <string name="recommended">නිර්දේශිත</string>
     <string name="groupNameEnter">සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="groupNameEnterPlease">සමූහ නාමයක් ඇතුල් කරන්න</string>
@@ -178,9 +176,8 @@
     <string name="helpFAQ">නිති පැණ</string>
     <string name="activity_notification_settings_content_section_title">දැනුම්දීමේ අන්තර්ගතය</string>
     <string name="sessionPrivacy">පෞද්ගලිකත්වය</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">නම වෙනස් කරන්න</string>
     <string name="fragment_view_my_qr_code_title">මාව සුපිරික්සන්න</string>
-    <string name="fragment_contact_selection_contacts_title">සබඳතා</string>
+    <string name="contactsContacts">සබඳතා</string>
     <string name="fragment_contact_selection_closed_groups_title">සංවෘත සමූහ</string>
     <string name="fragment_contact_selection_open_groups_title">විවෘත සමූහ</string>
     <!-- Next round of translation -->

@@ -183,7 +183,7 @@
     <!-- SearchToolbar -->
     <string name="search">Αναζήτηση</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Μη έγκυρη συντόμευση</string>
+    <string name="invalidShortcut">Μη έγκυρη συντόμευση</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Νέο μήνυμα</string>
     <!-- TransferControlView -->
@@ -391,17 +391,10 @@
     <string name="next">Επόμενο</string>
     <string name="share">Διαμοιρασμός</string>
     <string name="cancel">Ακύρωση</string>
-    <string name="activity_landing_title_2">Η συνομιλία σας ξεκινά εδώ...</string>
-    <string name="activity_landing_register_button_title">Δημιουργία Session ταυτότητας</string>
-    <string name="activity_landing_restore_button_title">Συνέχεια συνομιλίας</string>
-    <string name="view_fake_chat_bubble_1">Τι είναι το Session;</string>
-    <string name="view_fake_chat_bubble_2">Είναι μια αποκεντρωμένη, κρυπτογραφημένη εφαρμογή μηνυμάτων</string>
-    <string name="view_fake_chat_bubble_3">Δηλαδή δεν συλλέγει τα προσωπικά μου στοιχεία ή τα μεταδεδομένα των συνομιλιών μου; Πώς λειτουργεί;</string>
     <string name="view_fake_chat_bubble_4">Χρησιμοποιώντας ένα συνδυασμό προηγμένων ανώνυμων τεχνολογιών δρομολόγησης και τεχνολογίας κρυπτογράφησης από άκρο σε άκρο.</string>
     <string name="view_fake_chat_bubble_5">Οι φίλοι δεν αφήνουν τους φίλους να χρησιμοποιούν ευάλωτες εφαρμογές μηνυμάτων. Είστε ευπρόσδεκτοι.</string>
     <string name="activity_register_title">Πείτε γεια στη Session ταυτότητά σας</string>
     <string name="activity_register_explanation">Η Session ταυτότητά σας είναι η μοναδική διεύθυνση που μπορούν να χρησιμοποιήσουν τα άτομα για να επικοινωνήσουν μαζί σας στο Session. Χωρίς σύνδεση με την πραγματική σας ταυτότητα, η Session ταυτότητά σας είναι εντελώς ανώνυμη και ιδιωτική.</string>
-    <string name="activity_restore_title">Επαναφορά του λογαριασμού σας</string>
     <string name="displayNamePick">Επιλέξτε το εμφανιζόμενο όνομα σας</string>
     <string name="displayNameEnter">Εισάγετε όνομα εμφάνισης</string>
     <string name="displayNameErrorDescription">Παρακαλώ επιλέξτε ένα εμφανιζόμενο όνομα</string>
@@ -443,14 +436,13 @@
     <string name="notificationsStrategy">Περιεχόμενο Ειδοποιήσεων</string>
     <string name="useFastMode">Χρήση Ταχείας Λειτουργίας</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Θα ειδοποιηθείτε για νέα μηνύματα αξιόπιστα και άμεσα χρησιμοποιώντας τους διακομιστές ειδοποιήσεων της Google.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Αλλαγή ονόματος</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Αποσύνδεση Συσκευής</string>
     <string name="clearDataAll">Εκκαθάριση όλων των δεδομένων</string>
     <string name="activity_qr_code_title">QR κωδικός</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Σαρώστε τον κωδικό QR κάποιου για να ξεκινήσετε μια συνομιλία μαζί του</string>
     <string name="fragment_view_my_qr_code_title">Σάρωσέ Με</string>
     <string name="fragment_view_my_qr_code_share_title">Κοινοποίηση κωδικού QR</string>
-    <string name="fragment_contact_selection_contacts_title">Επαφές</string>
+    <string name="contactsContacts">Επαφές</string>
     <string name="fragment_contact_selection_closed_groups_title">Κλειστές Ομάδες</string>
     <string name="fragment_contact_selection_open_groups_title">Ανοικτές Ομάδες</string>
     <!-- Next round of translation -->
@@ -472,7 +464,6 @@
     <string name="activity_backup_restore_explanation_1">Επιλέξτε ένα αντίγραφο ασφαλείας και εισάγετε τη φράση πρόσβασης με την οποία δημιουργήθηκε.</string>
     <string name="activity_backup_restore_passphrase">φράση 30-ψηφίων</string>
     <string name="activity_link_device_skip_prompt">Αυτό παίρνει λίγο χρόνο, θα θέλατε να παραλείψετε;</string>
-    <string name="activity_link_device_link_device">Σύνδεση Συσκευής</string>
     <string name="activity_link_device_qr_message">Μεταβείτε στις Ρυθμίσεις → Φράση Ανάκτησης στην άλλη συσκευή σας για να εμφανίσετε τον QR κωδικό σας.</string>
     <string name="communityJoinOfficial">Ή συνδεθείτε σε ένα από αυτά…</string>
     <string name="onboardingMessageNotificationExplaination">Υπάρχουν δύο τρόποι με τους οποίους το Session μπορεί να σας ειδοποιήσει για νέα μηνύματα.</string>
@@ -480,7 +471,6 @@
     <string name="activity_pn_mode_slow_mode">Αργή Επιλογή</string>
     <string name="activity_pn_mode_fast_mode_explanation">Θα ειδοποιηθείτε για νέα μηνύματα αξιόπιστα και άμεσα χρησιμοποιώντας τους διακομιστές ειδοποιήσεων της Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Το Session θα ελέγχει κατά καιρούς για νέα μηνύματα στο παρασκήνιο.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Εισαγωγή ψευδώνυμου</string>
     <string name="blockUnblockDescription">Είστε βέβαιοι ότι θέλετε να ξεμπλοκάρετε %s;</string>
     <string name="dialog_join_open_group_explanation">Είστε σίγουροι ότι θέλετε να συμμετάσχετε στην ανοιχτή ομάδα %s;</string>
     <string name="open">Άνοιγμα</string>

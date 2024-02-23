@@ -175,7 +175,7 @@
     <!-- SearchToolbar -->
     <string name="search">Търсене</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Невалидена препратка</string>
+    <string name="invalidShortcut">Невалидена препратка</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Ново съобщение</string>
     <!-- TransferControlView -->
@@ -370,7 +370,5 @@
     <string name="activity_conversation_copy_public_key_button_title">Копиране на обществен ключ</string>
     <!-- Session -->
     <string name="_continue">Продължи</string>
-    <string name="activity_landing_restore_button_title">Продължете Вашата Сесия</string>
-    <string name="activity_restore_title">Възстановяване на профил</string>
     <!-- Next round of translation -->
 </resources>

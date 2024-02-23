@@ -189,7 +189,7 @@
     <!-- SearchToolbar -->
     <string name="search">Szukaj</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Nieprawidłowy skrót</string>
+    <string name="invalidShortcut">Nieprawidłowy skrót</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Nowa wiadomość</string>
     <!-- TransferControlView -->
@@ -401,17 +401,10 @@
     <string name="next">Dalej</string>
     <string name="share">Udostępnij</string>
     <string name="cancel">Anuluj</string>
-    <string name="activity_landing_title_2">Twoja sesja zaczyna się tutaj...</string>
-    <string name="activity_landing_register_button_title">Utwórz identyfikator Session</string>
-    <string name="activity_landing_restore_button_title">Kontynuuj swoją sesję</string>
-    <string name="view_fake_chat_bubble_1">Czym jest Session?</string>
-    <string name="view_fake_chat_bubble_2">To zdecentralizowana, szyfrowana aplikacja do przesyłania wiadomości</string>
-    <string name="view_fake_chat_bubble_3">Więc nie zbiera moich danych osobowych ani metadanych z mojej rozmowy? Jak to działa?</string>
     <string name="view_fake_chat_bubble_4">Wykorzystując połączenie zaawansowanych anonimowych tras i technologii szyfrowania end-to-end.</string>
     <string name="view_fake_chat_bubble_5">Przyjaciele nie pozwalają przyjaciołom korzystać z niezabezpieczonych komunikatorów. Nie ma za co.</string>
     <string name="activity_register_title">Przywitaj się z identyfikatorem Session</string>
     <string name="activity_register_explanation">Twój identyfikator Session to unikalny adres, za pomocą którego można się z Tobą kontaktować w Session. Bez połączenia z twoją prawdziwą tożsamością, identyfikator Session jest z założenia całkowicie anonimowy i prywatny.</string>
-    <string name="activity_restore_title">Przywróć swoje konto</string>
     <string name="displayNamePick">Wybierz swoją nazwę wyświetlaną</string>
     <string name="displayNameEnter">Wprowadź wyświetlaną nazwę</string>
     <string name="displayNameErrorDescription">Wybierz wyświetlaną nazwę</string>
@@ -453,14 +446,13 @@
     <string name="notificationsStrategy">Strategia powiadomień</string>
     <string name="useFastMode">Użyj trybu szybkiego</string>
     <string name="preferences_notifications_strategy_category_fast_mode_summary">Zostaniesz natychmiast powiadomiony o nowych wiadomościach w niezawodny sposób przy użyciu serwerów powiadomień Google.</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Zmień nazwę</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odłącz urządzenie</string>
     <string name="clearDataAll">Wyczyść wszystkie dane</string>
     <string name="activity_qr_code_title">Kod QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Zeskanuj czyjś kod QR, aby rozpocząć z nim rozmowę</string>
     <string name="fragment_view_my_qr_code_title">Zeskanuj mnie</string>
     <string name="fragment_view_my_qr_code_share_title">Udostępnij kod QR</string>
-    <string name="fragment_contact_selection_contacts_title">Łączność</string>
+    <string name="contactsContacts">Łączność</string>
     <string name="fragment_contact_selection_closed_groups_title">Grupy zamknięte</string>
     <string name="fragment_contact_selection_open_groups_title">Otwórz grupy</string>
     <!-- Next round of translation -->
@@ -482,7 +474,6 @@
     <string name="activity_backup_restore_explanation_1">Wybierz plik kopii zapasowej i wpisz hasło, z którym został utworzony.</string>
     <string name="activity_backup_restore_passphrase">Hasło złożone z 30 znaków</string>
     <string name="activity_link_device_skip_prompt">To zajmuje chwilę, czy chcesz pominąć?</string>
-    <string name="activity_link_device_link_device">Połącz urządzenie</string>
     <string name="activity_link_device_qr_message">Przejdź do Ustawień → Fraza odzyskiwania na innym urządzeniu, aby wyświetlić kod QR.</string>
     <string name="communityJoinOfficial">Lub dołącz do jednego z tych…</string>
     <string name="onboardingMessageNotificationExplaination">Istnieją dwa sposoby powiadamiania o nowych wiadomościach.</string>
@@ -490,7 +481,6 @@
     <string name="activity_pn_mode_slow_mode">Tryb wolny</string>
     <string name="activity_pn_mode_fast_mode_explanation">Zostaniesz natychmiast powiadomiony o nowych wiadomościach w niezawodny sposób przy użyciu serwerów powiadomień Google.</string>
     <string name="activity_pn_mode_slow_mode_explanation">Session będzie czasami sprawdzać w tle czy są nowe wiadomości.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Wpisz pseudonim</string>
     <string name="blockUnblockDescription">Czy na pewno chcesz odblokować %s?</string>
     <string name="dialog_join_open_group_explanation">Czy na pewno chcesz dołączyć do otwartej grupy %s?</string>
     <string name="open">Otwórz</string>

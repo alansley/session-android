@@ -152,7 +152,7 @@ memproses pertukaran kunci korupsi.</string>
     <!-- SearchToolbar -->
     <string name="search">Cari</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Pintasan tidak sah</string>
+    <string name="invalidShortcut">Pintasan tidak sah</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Pesan baru</string>
     <!-- TransferControlView -->
@@ -335,17 +335,10 @@ memproses pertukaran kunci korupsi.</string>
     <string name="next">Selanjutnya</string>
     <string name="share">Bagikan</string>
     <string name="cancel">Batal</string>
-    <string name="activity_landing_title_2">Session anda dimulai di sini</string>
-    <string name="activity_landing_register_button_title">Buat Session ID</string>
-    <string name="activity_landing_restore_button_title">Lanjutkan Session</string>
-    <string name="view_fake_chat_bubble_1">Apa itu Session?</string>
-    <string name="view_fake_chat_bubble_2">Session adalah aplikasi pesan terenkripsi yang terdesentralisasi</string>
-    <string name="view_fake_chat_bubble_3">Bagaimana dengan pengumpulan informasi personal atau metadata percakapan? Bagaimana cara kerjanya?</string>
     <string name="view_fake_chat_bubble_4">Menggunakan kombinasi routing yang anonim canggih dan teknologi enkripsi ujung-ke-ujung (end-to-end encryption)</string>
     <string name="view_fake_chat_bubble_5">Rekan yang baik tak membiarkan rekannya menggunakan aplikasi bertukar pesan yang tak aman. Terima kasih kembali.</string>
     <string name="activity_register_title">Ucapkan halo pada Session ID anda</string>
     <string name="activity_register_explanation">Session ID adalah alamat unik yang bisa digunakan untuk mengontak anda. Tanpa koneksi dengan identitas asli, Session ID anda didesain bersifat anonim dan rahasia.</string>
-    <string name="activity_restore_title">Kembalikan akun</string>
     <string name="displayNamePick">Pilih nama yang ditampilkan</string>
     <string name="displayNameEnter">Masukkan nama</string>
     <string name="displayNameErrorDescription">Pilih nama yang ditampilkan</string>
@@ -380,13 +373,12 @@ memproses pertukaran kunci korupsi.</string>
     <string name="activity_notification_settings_content_section_title">Isi notifikasi</string>
     <string name="sessionPrivacy">Privasi</string>
     <string name="notificationsStrategy">Strategi notofikasi</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Ubah nama</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Putuskan koneksi dengan perangkat</string>
     <string name="clearDataAll">Hapus semua data</string>
     <string name="activity_qr_code_title">Kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>
     <string name="fragment_view_my_qr_code_share_title">Bagikan kode QR</string>
-    <string name="fragment_contact_selection_contacts_title">Kontak</string>
+    <string name="contactsContacts">Kontak</string>
     <string name="fragment_contact_selection_closed_groups_title">Grup tertutup</string>
     <string name="fragment_contact_selection_open_groups_title">Grup terbuka</string>
     <!-- Next round of translation -->

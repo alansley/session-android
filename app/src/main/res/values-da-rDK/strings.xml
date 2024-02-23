@@ -181,7 +181,7 @@ udveksel besked!</string>
     <!-- SearchToolbar -->
     <string name="search">Søg</string>
     <!-- ShortcutLauncherActivity -->
-    <string name="ShortcutLauncherActivity_invalid_shortcut">Ugyldig genvej</string>
+    <string name="invalidShortcut">Ugyldig genvej</string>
     <!-- SingleRecipientNotificationBuilder -->
     <string name="SingleRecipientNotificationBuilder_new_message">Ny besked</string>
     <!-- TransferControlView -->
@@ -389,17 +389,10 @@ udveksel besked!</string>
     <string name="next">Næste</string>
     <string name="share">Del</string>
     <string name="cancel">Annuller</string>
-    <string name="activity_landing_title_2">Dit eventyr med Session begynder her...</string>
-    <string name="activity_landing_register_button_title">Opret Session ID</string>
-    <string name="activity_landing_restore_button_title">Fortsæt din Session</string>
-    <string name="view_fake_chat_bubble_1">Hvad er Session?</string>
-    <string name="view_fake_chat_bubble_2">Det er en decentraliseret, krypteret besked app</string>
-    <string name="view_fake_chat_bubble_3">Så den indsamler ikke mine personlige oplysninger eller min samtale metadata? Hvordan virker det?</string>
     <string name="view_fake_chat_bubble_4">Ved hjælp af en kombination af avanceret anonym routing og end-to-end krypteringsteknologier.</string>
     <string name="view_fake_chat_bubble_5">Venner lader ikke venner bruge usikre besked tjenester. Du er velkommen.</string>
     <string name="activity_register_title">Sig hej til dit Session ID</string>
     <string name="activity_register_explanation">Dit Session ID er den unikke adresse, som folk kan bruge til at kontakte dig i Session. Dit Session ID har ingen tilknytning til din rigtige identitet og er helt anonymt og privat.</string>
-    <string name="activity_restore_title">Gendan din konto</string>
     <string name="displayNamePick">Vælg dit visningsnavn</string>
     <string name="displayNameEnter">Tast et visningsnavn</string>
     <string name="displayNameErrorDescription">Vælg venligst et display navn</string>
@@ -432,14 +425,13 @@ udveksel besked!</string>
     <string name="activity_notification_settings_content_section_title">Meddelelsesindhold</string>
     <string name="sessionPrivacy">Privatliv</string>
     <string name="useFastMode">Brug Hurtig Tilstand</string>
-    <string name="fragment_device_list_bottom_sheet_change_name_button_title">Rediger navn</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Frakobl enhed</string>
     <string name="clearDataAll">Ryd Alt Data</string>
     <string name="activity_qr_code_title">QR-kode</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scan ens QR-kode for at starte en samtale med dem</string>
     <string name="fragment_view_my_qr_code_title">Scan Mig</string>
     <string name="fragment_view_my_qr_code_share_title">Del QR-kode</string>
-    <string name="fragment_contact_selection_contacts_title">Kontakter</string>
+    <string name="contactsContacts">Kontakter</string>
     <string name="fragment_contact_selection_closed_groups_title">Lukkede Grupper</string>
     <string name="fragment_contact_selection_open_groups_title">Åbne Grupper</string>
     <!-- Next round of translation -->
@@ -458,11 +450,9 @@ udveksel besked!</string>
     <string name="activity_backup_restore_title">Gendan sikkerhedskopi</string>
     <string name="activity_backup_restore_select_file">Vælg en fil</string>
     <string name="activity_link_device_skip_prompt">Dette tager et stykke tid, vil du gerne springe over?</string>
-    <string name="activity_link_device_link_device">Forbind en enhed</string>
     <string name="activity_link_device_qr_message">Naviger til Indstillinger → Gendannelsessætning på din anden enhed, for at vise din QR-kode.</string>
     <string name="communityJoinOfficial">Eller deltag i en af disse…</string>
     <string name="onboardingMessageNotificationExplaination">Der er to måder Session kan underrette dig om nye beskeder.</string>
-    <string name="fragment_user_details_bottom_sheet_edit_text_hint">Indtast et kaldenavn</string>
     <string name="urlCopy">Kopier URL</string>
     <string name="enable">Aktivér</string>
     <string name="download">Hent</string>
