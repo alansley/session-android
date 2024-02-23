@@ -669,9 +669,9 @@
     <string name="communityJoinOfficial">Or join one of these…</string>
     <string name="onboardingMessageNotificationExplaination">There are two ways Session can notify you of new messages.</string>
     <string name="notificationsFastMode">Fast Mode</string>
-    <string name="activity_pn_mode_slow_mode">Slow Mode</string>
+    <string name="notificationsSlowMode">Slow Mode</string>
     <string name="notificationsFastModeDescriptionAndroid">You’ll be notified of new messages reliably and immediately using Google’s notification servers.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session will occasionally check for new messages in the background.</string>
+    <string name="notificationsSlowModeDescription">Session will occasionally check for new messages in the background.</string>
     <string name="blockUnblockDescription">Are you sure you want to unblock %s?</string>
     <string name="dialog_join_open_group_explanation">Are you sure you want to join the %s open group?</string>
     <string name="open">Open</string>

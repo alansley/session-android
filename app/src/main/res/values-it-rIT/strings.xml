@@ -466,9 +466,9 @@ scambia un altro messaggio!</string>
     <string name="communityJoinOfficial">Oppure unisciti a uno di questi…</string>
     <string name="onboardingMessageNotificationExplaination">Ci sono due modi in cui Session ti può notificare nuovi messaggi.</string>
     <string name="notificationsFastMode">Modalità Veloce</string>
-    <string name="activity_pn_mode_slow_mode">Modalità Lenta</string>
+    <string name="notificationsSlowMode">Modalità Lenta</string>
     <string name="notificationsFastModeDescriptionAndroid">Riceverai notifiche di nuovi messaggi in modo affidabile e immediato utilizzando i server di notifica di Google.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session controllerà di tanto in tanto la presenza di nuovi messaggi in background.</string>
+    <string name="notificationsSlowModeDescription">Session controllerà di tanto in tanto la presenza di nuovi messaggi in background.</string>
     <string name="blockUnblockDescription">Sei sicuro di voler sbloccare %s?</string>
     <string name="dialog_join_open_group_explanation">Sei sicuro di voler unirti al gruppo aperto %s?</string>
     <string name="open">Apri</string>

@@ -89,7 +89,7 @@
                 android:textSize="@dimen/medium_font_size"
                 android:textColor="?android:textColorPrimary"
                 android:textStyle="bold"
-                android:text="@string/activity_pn_mode_slow_mode"
+                android:text="@string/notificationsSlowMode"
                 />
 
             <TextView
@@ -98,7 +98,7 @@
                 android:layout_marginTop="4dp"
                 android:textSize="@dimen/very_small_font_size"
                 android:textColor="?android:textColorPrimary"
-                android:text="@string/activity_pn_mode_slow_mode_explanation" />
+                android:text="@string/notificationsSlowModeDescription" />
 
         </org.thoughtcrime.securesms.util.PNModeView>
 

@@ -499,9 +499,9 @@
     <string name="communityJoinOfficial">یا به یکی از این‌ها بپیوندید…</string>
     <string name="onboardingMessageNotificationExplaination">در برنامه سشن، برای مطلع کردن شما از رسیدن پیام‌های جدید، دو روش وجود دارد.</string>
     <string name="notificationsFastMode">حالت سریع</string>
-    <string name="activity_pn_mode_slow_mode">حالت آهسته</string>
+    <string name="notificationsSlowMode">حالت آهسته</string>
     <string name="notificationsFastModeDescriptionAndroid">با استفاده از سرورهای گوگل، شما به صورت سریع و مطمئن از پیام‌های جدید مطلع می‌شوید.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session هرازگاهی در پس زمینه وجود پیام‌های جدید را بررسی می‌کند.</string>
+    <string name="notificationsSlowModeDescription">Session هرازگاهی در پس زمینه وجود پیام‌های جدید را بررسی می‌کند.</string>
     <string name="blockUnblockDescription">آیا مطمئن هستید که میخواهید %s را از حالت مسدود بودن خارج کنید؟</string>
     <string name="dialog_join_open_group_explanation">آیا اطمینان دارید که می‌خواهید به گروه باز %s جوین شوید؟</string>
     <string name="open">باز کردن</string>

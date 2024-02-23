@@ -466,9 +466,9 @@ on viallinen!</string>
     <string name="communityJoinOfficial">Tai liity johonkin näistä…</string>
     <string name="onboardingMessageNotificationExplaination">On kaksi tapaa joilla Session voi ilmoittaa sinulle uusista viesteistä.</string>
     <string name="notificationsFastMode">Nopea tila</string>
-    <string name="activity_pn_mode_slow_mode">Hidastila</string>
+    <string name="notificationsSlowMode">Hidastila</string>
     <string name="notificationsFastModeDescriptionAndroid">Sinulle ilmoitetaan uusista viesteistä luotettavasti ja viivyttelemättä Applen ilmoituspalvelua käyttäen.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session tarkistaa taustalla ajoittain uudet viestit.</string>
+    <string name="notificationsSlowModeDescription">Session tarkistaa taustalla ajoittain uudet viestit.</string>
     <string name="blockUnblockDescription">Oletko varma, että haluat poistaa eston henkilöltä %s?</string>
     <string name="dialog_join_open_group_explanation">Oletko varma, että haluat liittyä %s avoimeen ryhmään?</string>
     <string name="open">Avaa</string>

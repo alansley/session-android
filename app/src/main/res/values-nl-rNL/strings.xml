@@ -467,9 +467,9 @@
     <string name="communityJoinOfficial">Of neem deel aan een van deze...</string>
     <string name="onboardingMessageNotificationExplaination">Er zijn twee manieren waarop de Sessie u op de hoogte kan stellen van nieuwe berichten.</string>
     <string name="notificationsFastMode">Snelle modus</string>
-    <string name="activity_pn_mode_slow_mode">Langzame modus</string>
+    <string name="notificationsSlowMode">Langzame modus</string>
     <string name="notificationsFastModeDescriptionAndroid">U wordt op een betrouwbare en directe manier op de hoogte gebracht van nieuwe berichten via Googles notificatieservers.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Sessie controleert af en toe op nieuwe berichten op de achtergrond.</string>
+    <string name="notificationsSlowModeDescription">Sessie controleert af en toe op nieuwe berichten op de achtergrond.</string>
     <string name="blockUnblockDescription">Weet u zeker dat u %s wilt deblokkeren?</string>
     <string name="dialog_join_open_group_explanation">Weet u zeker dat u zich bij de %s open groep wilt aansluiten?</string>
     <string name="open">Open</string>

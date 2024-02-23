@@ -489,9 +489,9 @@
     <string name="communityJoinOfficial">أو انضم إلى واحدة من…</string>
     <string name="onboardingMessageNotificationExplaination">يوجد طريقتين لتلقي التنبيهات.</string>
     <string name="notificationsFastMode">الوضع السريع</string>
-    <string name="activity_pn_mode_slow_mode">الوضع البطيء</string>
+    <string name="notificationsSlowMode">الوضع البطيء</string>
     <string name="notificationsFastModeDescriptionAndroid">سوف يتم إشعارك بالرسائل بشكل موثوق و فوري بإستخدام خوادم جوجل للإشعارات.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">سيقوم سيشن بالتحقق من وجود رسائل جديدة بشكل دوري في الخلفية.</string>
+    <string name="notificationsSlowModeDescription">سيقوم سيشن بالتحقق من وجود رسائل جديدة بشكل دوري في الخلفية.</string>
     <string name="blockUnblockDescription">هل أنت متأكد من اِلغاء الحظر عن %s؟</string>
     <string name="dialog_join_open_group_explanation">هل أنت متأكد من الانضمام إلى المجموعة المفتوحة %s؟</string>
     <string name="open">اِفتح</string>

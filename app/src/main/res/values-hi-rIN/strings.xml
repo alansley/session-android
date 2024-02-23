@@ -466,9 +466,9 @@
     <string name="communityJoinOfficial">या इनमें से एक को जोड़ें...</string>
     <string name="onboardingMessageNotificationExplaination">सेशन आपको नए संदेश के बारे में दो तरीकों से बता सकता है</string>
     <string name="notificationsFastMode">फास्ट मोड</string>
-    <string name="activity_pn_mode_slow_mode">स्लो मोड</string>
+    <string name="notificationsSlowMode">स्लो मोड</string>
     <string name="notificationsFastModeDescriptionAndroid">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session कभी-कभी पृष्ठभूमि में नए संदेशों की जांच करेगा।</string>
+    <string name="notificationsSlowModeDescription">Session कभी-कभी पृष्ठभूमि में नए संदेशों की जांच करेगा।</string>
     <string name="blockUnblockDescription">क्या आप वाकई %s को अनब्लॉक करना चाहते हैं?</string>
     <string name="dialog_join_open_group_explanation">क्या आप %s open ग्रुप से जुड़ना चाहते हैं?</string>
     <string name="open">खोलें</string>

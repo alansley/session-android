@@ -502,9 +502,9 @@
     <string name="communityJoinOfficial">Ou rejoignez l\'un(e) de ceux-ci…</string>
     <string name="onboardingMessageNotificationExplaination">Session peut vous avertir de la présence de nouveaux messages de deux façons.</string>
     <string name="notificationsFastMode">Mode rapide</string>
-    <string name="activity_pn_mode_slow_mode">Mode lent</string>
+    <string name="notificationsSlowMode">Mode lent</string>
     <string name="notificationsFastModeDescriptionAndroid">Vous serez averti de nouveaux messages de manière fiable et immédiate en utilisant les serveurs de notification de Google.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session vérifiera occasionnellement la présence de nouveaux messages en tâche de fond.</string>
+    <string name="notificationsSlowModeDescription">Session vérifiera occasionnellement la présence de nouveaux messages en tâche de fond.</string>
     <string name="blockUnblockDescription">Êtes-vous sûr de vouloir débloquer %s ?</string>
     <string name="dialog_join_open_group_explanation">Êtes-vous sûr de vouloir rejoindre le groupe ouvert %s ?</string>
     <string name="open">Ouvrir</string>

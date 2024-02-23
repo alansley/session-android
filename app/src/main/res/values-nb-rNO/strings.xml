@@ -466,9 +466,9 @@ nøkkelutvekslingsmelding.</string>
     <string name="communityJoinOfficial">Eller bli med i en av disse…</string>
     <string name="onboardingMessageNotificationExplaination">Det er to måter Session kan gi beskjed om nye meldinger på.</string>
     <string name="notificationsFastMode">Rask modus</string>
-    <string name="activity_pn_mode_slow_mode">Langsom Modus</string>
+    <string name="notificationsSlowMode">Langsom Modus</string>
     <string name="notificationsFastModeDescriptionAndroid">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session vil av og til sjekke nye meldinger i bakgrunnen.</string>
+    <string name="notificationsSlowModeDescription">Session vil av og til sjekke nye meldinger i bakgrunnen.</string>
     <string name="blockUnblockDescription">Er du sikker på at du vil oppheve blokkeringen av %s?</string>
     <string name="dialog_join_open_group_explanation">Er du sikker på at du vil bli med i den åpne gruppen for %s?</string>
     <string name="open">Åpne</string>

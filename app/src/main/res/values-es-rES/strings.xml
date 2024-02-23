@@ -466,9 +466,9 @@ de intercambio de claves!</string>
     <string name="communityJoinOfficial">O únete a uno de estos…</string>
     <string name="onboardingMessageNotificationExplaination">Hay dos maneras en las que Session puede notificarle de nuevos mensajes.</string>
     <string name="notificationsFastMode">Modo Rápido</string>
-    <string name="activity_pn_mode_slow_mode">Modo Lento</string>
+    <string name="notificationsSlowMode">Modo Lento</string>
     <string name="notificationsFastModeDescriptionAndroid">Se le notificará de los nuevos mensajes de forma fiable e inmediata usando los servidores de notificaciones de Google.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session comprobará ocasionalmente si hay nuevos mensajes en segundo plano.</string>
+    <string name="notificationsSlowModeDescription">Session comprobará ocasionalmente si hay nuevos mensajes en segundo plano.</string>
     <string name="blockUnblockDescription">¿Estás seguro de que quieres desbloquear a %s?</string>
     <string name="dialog_join_open_group_explanation">¿Estás seguro de que quieres unirte al grupo abierto %s?</string>
     <string name="open">Abrir</string>

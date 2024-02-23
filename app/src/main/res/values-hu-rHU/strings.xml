@@ -468,9 +468,9 @@
     <string name="communityJoinOfficial">Vagy csatlakozz ezekhez…</string>
     <string name="onboardingMessageNotificationExplaination">2 mód van arra, hogy a Session értesítsen téged új üzenetekről.</string>
     <string name="notificationsFastMode">Gyorsított mód</string>
-    <string name="activity_pn_mode_slow_mode">Lassított mód</string>
+    <string name="notificationsSlowMode">Lassított mód</string>
     <string name="notificationsFastModeDescriptionAndroid">A Google értesítési szerverein keresztül megbízhatóan és azonnal értesítést kapsz az új üzenetekről.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">A Session alkalmanként, az új üzeneteket a háttérben fogja ellenőrizni.</string>
+    <string name="notificationsSlowModeDescription">A Session alkalmanként, az új üzeneteket a háttérben fogja ellenőrizni.</string>
     <string name="blockUnblockDescription">Biztosan szeretnéd a %s-t blokkolni?</string>
     <string name="dialog_join_open_group_explanation">Biztosan csatlakozni szeretne a(z) %s nyílt csoporthoz?</string>
     <string name="open">Megnyit</string>

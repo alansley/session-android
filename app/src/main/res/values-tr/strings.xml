@@ -466,9 +466,9 @@ iletisi alındı!</string>
     <string name="communityJoinOfficial">Veya bunlardan birine katılın…</string>
     <string name="onboardingMessageNotificationExplaination">Session\'ın sizi yeni mesajlar hakkında bilgilendirmesinin iki yolu vardır.</string>
     <string name="notificationsFastMode">Hızlı Mod</string>
-    <string name="activity_pn_mode_slow_mode">Yavaş Mod</string>
+    <string name="notificationsSlowMode">Yavaş Mod</string>
     <string name="notificationsFastModeDescriptionAndroid">Google\'ın bildirim sunucularını kullanarak yeni iletilerden güvenilir ve anında haberdar olacaksınız.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session ara sıra arka planda yeni mesajları kontrol eder.</string>
+    <string name="notificationsSlowModeDescription">Session ara sıra arka planda yeni mesajları kontrol eder.</string>
     <string name="blockUnblockDescription">%s kişisine ait engeli kaldırmak istediğinizden emin misiniz?</string>
     <string name="dialog_join_open_group_explanation">%s açık gurubuna katılmak istediğinize emin misiniz?</string>
     <string name="open">Aç</string>

@@ -465,9 +465,9 @@
     <string name="communityJoinOfficial">Oder tritt diesen bei…</string>
     <string name="onboardingMessageNotificationExplaination">Session kann dich auf zwei Arten über neue Nachrichten informieren.</string>
     <string name="notificationsFastMode">Schneller Modus</string>
-    <string name="activity_pn_mode_slow_mode">Langsamer Modus</string>
+    <string name="notificationsSlowMode">Langsamer Modus</string>
     <string name="notificationsFastModeDescriptionAndroid">Du wirst über neue Nachrichten zuverlässig und sofort über Google\'s Server benachrichtigt.</string>
-    <string name="activity_pn_mode_slow_mode_explanation">Session sucht gelegentlich nach neuen Nachrichten im Hintergrund.</string>
+    <string name="notificationsSlowModeDescription">Session sucht gelegentlich nach neuen Nachrichten im Hintergrund.</string>
     <string name="blockUnblockDescription">Bist du sicher, dass du %s freigeben möchtest?</string>
     <string name="dialog_join_open_group_explanation">Bist du sicher, dass du der offenen Gruppe %s beitreten möchtest?</string>
     <string name="open">Öffnen</string>
