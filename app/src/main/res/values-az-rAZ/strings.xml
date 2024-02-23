@@ -6,7 +6,6 @@
     <string name="delete">Sil</string>
     <string name="save">Yaddaşda saxla</string>
     <string name="noteToSelf">Özümə qeyd</string>
-    <string name="version_s">Versiya %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Yeni mesaj</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Bu gün</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Tam ölçüdə GIF alınarkən xəta baş verdi</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF-lər</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Stikerlər</string>
+    <string name="stickers">Stikerlər</string>
     <!-- CropImageActivity -->
     <string name="photo">Foto</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Bütün media</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Artıq dəstəklənməyən Session-un əvvəlki versiyası istifadə edilərək şifrələnmiş bir mesaj alındı. Zəhmət olmasa göndərən şəxsdən tətbiqi ən son versiyaya yeniləyib mesajı təkrar göndərməsini xahiş edin.</string>
+    <string name="messageErrorOld">Artıq dəstəklənməyən Session-un əvvəlki versiyası istifadə edilərək şifrələnmiş bir mesaj alındı. Zəhmət olmasa göndərən şəxsdən tətbiqi ən son versiyaya yeniləyib mesajı təkrar göndərməsini xahiş edin.</string>
     <string name="MessageRecord_you_updated_group">Qrupu yenilədiniz.</string>
     <string name="MessageRecord_s_updated_group">%s qrupu yenilədi.</string>
     <!-- ExpirationDialog -->
@@ -140,8 +137,7 @@
     <string name="ThreadRecord_you_marked_verified">Təsdiqləndi olaraq işarələdiniz</string>
     <string name="ThreadRecord_you_marked_unverified">Təsdiqlənmədi olaraq işarələdiniz</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session yeniləməsi</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session-ın yeni versiyası hazırdır, yeniləmək üçün toxunun</string>
+    <string name="updateNewVersion">Session-ın yeni versiyası hazırdır, yeniləmək üçün toxunun</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Pis şifrələnmiş mesaj</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Mesaj, mövcud olmayan seans üçün şifrələnib</string>
@@ -153,7 +149,7 @@
     <string name="lockAppUnlocked">Session-ın kilidi açıldı</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Siz</string>
-    <string name="MediaPreviewActivity_draft">Qaralama</string>
+    <string name="draft">Qaralama</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, xarici anbarda saxlamaq üçün anbara müraciət etməlidir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\"ı fəallaşdırın.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İcazə olmadan xarici anbarda saxlanıla bilmir</string>
     <!-- MessageNotifier -->
@@ -172,9 +168,8 @@
     <string name="NotificationChannel_failures">Xətalar</string>
     <string name="NotificationChannel_backups">Nüsxələr</string>
     <string name="lockAppStatus">Kilid vəziyyəti</string>
-    <string name="NotificationChannel_app_updates">Tətbiq yeniləmələri</string>
+    <string name="updateApp">Tətbiq yeniləmələri</string>
     <string name="other">Digər</string>
-    <string name="NotificationChannel_missing_display_name">Bilinmir</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session kilidli ikən, cəld cavablar əlçatmazdır!</string>
     <string name="QuickResponseService_problem_sending_message">Mesajın göndərilmə problemi!</string>
@@ -199,8 +194,7 @@
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Yerləşmə</string>
     <string name="attachment_type_selector__location_description">Yerləşmə</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Təsvir və ya video</string>
     <string name="attachment_type_selector__gallery">Qalereya</string>
     <string name="attachment_type_selector__drawer_description">Qoşma siyirməsini aç/bağla</string>
@@ -241,7 +235,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIF və stiker axtar</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Heç nə tapılmadı</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Tam danışığa bax</string>
     <string name="load_more_header__loading">Yüklənir</string>
@@ -262,10 +255,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">İlkin halı istifadə et</string>
     <string name="arrays__use_custom">Özəl halı istifadə et</string>
-    <string name="arrays__mute_for_one_hour">1 saatlıq səssizə al</string>
-    <string name="arrays__mute_for_two_hours">2 saatlıq səssizə al</string>
-    <string name="arrays__mute_for_one_day">1 günlük səssizə al</string>
-    <string name="arrays__mute_for_seven_days">7 günlük səssizə al</string>
+    <string name="notificationsMute1Hour">1 saatlıq səssizə al</string>
+    <string name="notificationsMute2Hours">2 saatlıq səssizə al</string>
+    <string name="notificationsMute1Day">1 günlük səssizə al</string>
     <string name="arrays__mute_for_one_year">1 illik səssizə al</string>
     <string name="arrays__settings_default">İlkin tənzimləmələr</string>
     <string name="arrays__enabled">Fəaldır</string>
@@ -290,7 +282,6 @@
     <string name="preferences__screen_security">Ekran güvənliyi</string>
     <string name="sessionNotifications">Bildirişlər</string>
     <string name="notificationsLedColor">LED rəng</string>
-    <string name="preferences__led_color_unknown">Bilinmir</string>
     <string name="preferences__pref_led_blink_title">LED yanıb sönmə forması</string>
     <string name="notificationsSound">Səs</string>
     <string name="preferences__repeat_alerts">Xəbərdarlıqları təkrarla</string>
@@ -437,7 +428,7 @@
     <string name="useFastMode">Sürətli rejimi istifadə et</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Cihazın əlaqəsini kəs</string>
     <string name="clearDataAll">Bütün verilənləri təmizlə</string>
-    <string name="activity_qr_code_title">QR Kod</string>
+    <string name="qrCode">QR Kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Başqasıyla bir danışıq başlatmaq üçün onun QR kodunu skan edin</string>
     <string name="fragment_view_my_qr_code_title">Məni skan et</string>
     <string name="fragment_view_my_qr_code_share_title">QR kodu paylaş</string>
@@ -456,7 +447,6 @@
     <string name="dialog_ui_mode_option_system_default">İlkin sistem</string>
     <string name="attachment">Qoşma</string>
     <string name="messageVoice">Səsyazmalı mesaj</string>
-    <string name="details">Təfsilatlar</string>
     <string name="dialog_backup_activation_failed">Nüsxələmələr aktivləşdirilmədi. Zəhmət olmasa yenidən sınayın və ya dəstəklə əlaqə saxlayın.</string>
     <string name="activity_backup_restore_title">Nüsxəni bərpa et</string>
     <string name="activity_backup_restore_select_file">Bir fayl seçin</string>

@@ -6,7 +6,6 @@
     <string name="delete">삭제</string>
     <string name="save">저장</string>
     <string name="noteToSelf">개인용 메모</string>
-    <string name="version_s">버전 %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">새 메시지</string>
     <!-- AlbumThumbnailView -->
@@ -77,10 +76,8 @@
     <string name="DeviceListItem_today">오늘</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">최대 해상도 GIF 파일을 받는 동안 오류 발생</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF 파일</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">스티커</string>
+    <string name="stickers">스티커</string>
     <!-- CropImageActivity -->
     <string name="photo">사진</string>
     <!-- InputPanel -->
@@ -100,7 +97,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">모든 미디어</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">지원하지 않는 Session 버전으로 부터 암호화된 메시지를 받았습니다. 상대방에게 최신 버전으로 업데이트 하고 다시 보내기를 요청해 주세요.</string>
+    <string name="messageErrorOld">지원하지 않는 Session 버전으로 부터 암호화된 메시지를 받았습니다. 상대방에게 최신 버전으로 업데이트 하고 다시 보내기를 요청해 주세요.</string>
     <string name="MessageRecord_you_updated_group">그룹을 갱신하였습니다.</string>
     <string name="MessageRecord_s_updated_group">%s 이 그룹을 갱신했습니다.</string>
     <!-- ExpirationDialog -->
@@ -140,7 +137,6 @@
     <string name="messageMarkRead">읽음으로 표시</string>
     <string name="MessageNotifier_unknown_contact_message">연락처</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_missing_display_name">알 수 없음</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session 잠겨 있는 경우 빠른 응답 사용할 수 없음</string>
     <string name="QuickResponseService_problem_sending_message">메시지 보내지 못함</string>
@@ -187,7 +183,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIF 파일과 스티커 검색</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">찾지 못하였습니다.</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">대화 전체 보기</string>
     <!-- media_overview_activity -->
@@ -206,10 +201,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">기본설정 사용</string>
     <string name="arrays__use_custom">맞춤설정 사용</string>
-    <string name="arrays__mute_for_one_hour">1시간 동안 알림 끄기</string>
-    <string name="arrays__mute_for_two_hours">2시간 동안 알림 끄기</string>
-    <string name="arrays__mute_for_one_day">하루 동안 알림 끄기</string>
-    <string name="arrays__mute_for_seven_days">7일 동안 알림 끄기</string>
+    <string name="notificationsMute1Hour">1시간 동안 알림 끄기</string>
+    <string name="notificationsMute2Hours">2시간 동안 알림 끄기</string>
+    <string name="notificationsMute1Day">하루 동안 알림 끄기</string>
     <string name="arrays__mute_for_one_year">1년 동안 알림 끄기</string>
     <string name="arrays__settings_default">기본설정</string>
     <string name="arrays__enabled">사용</string>
@@ -227,7 +221,6 @@
     <string name="preferences__screen_security">화면 보안</string>
     <string name="sessionNotifications">알림</string>
     <string name="notificationsLedColor">알림등 색상</string>
-    <string name="preferences__led_color_unknown">알 수 없음</string>
     <string name="preferences__pref_led_blink_title">알림등 반복 패턴</string>
     <string name="notificationsSound">소리</string>
     <string name="preferences__repeat_alerts">알림 반복</string>
@@ -310,7 +303,7 @@
     <string name="helpFAQ">자주 하는 질문</string>
     <string name="sessionClearData">데이터 지우기</string>
     <string name="sessionPrivacy">개인정보</string>
-    <string name="activity_qr_code_title">QR 코드</string>
+    <string name="qrCode">QR 코드</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">QR 코드를 스캔해서 대화를 시작하세요</string>
     <string name="fragment_view_my_qr_code_title">스캔해주세요</string>
     <!-- Next round of translation -->

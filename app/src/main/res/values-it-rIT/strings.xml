@@ -6,7 +6,6 @@
     <string name="delete">Cancella</string>
     <string name="save">Salva</string>
     <string name="noteToSelf">Note personali</string>
-    <string name="version_s">Versione %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nuovo messaggio</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Oggi</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Errore nel prelevare la GIF in risoluzione massima</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Adesivi</string>
+    <string name="stickers">Adesivi</string>
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Tutti i file multimediali</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Hai ricevuto un messaggio cifrato usando una vecchia versione di Session che non è più supportata. Ti preghiamo di chiedere al mittente di aggiornare l\'app e rimandare il messaggio.</string>
+    <string name="messageErrorOld">Hai ricevuto un messaggio cifrato usando una vecchia versione di Session che non è più supportata. Ti preghiamo di chiedere al mittente di aggiornare l\'app e rimandare il messaggio.</string>
     <string name="MessageRecord_you_updated_group">Hai aggiornato il gruppo.</string>
     <string name="MessageRecord_s_updated_group">%s ha aggiornato il gruppo.</string>
     <!-- ExpirationDialog -->
@@ -139,8 +136,7 @@ scambia un altro messaggio!</string>
     <string name="ThreadRecord_you_marked_verified">Segna come verificato</string>
     <string name="ThreadRecord_you_marked_unverified">Segna come non verificato</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Aggiornamento Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">È disponibile una nuova versione di Session, tocca per aggiornare</string>
+    <string name="updateNewVersion">È disponibile una nuova versione di Session, tocca per aggiornare</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Cifratura messaggio non valida</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Messaggio cifrato per una sessione non esistente...</string>
@@ -152,7 +148,7 @@ scambia un altro messaggio!</string>
     <string name="lockAppUnlocked">Session è sbloccato</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Tu</string>
-    <string name="MediaPreviewActivity_draft">Bozza</string>
+    <string name="draft">Bozza</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session richiede l\'autorizzazione per salvare in memoria, ma è stata negata in modo permanente. Si prega di proseguire alle impostazioni dell\'app, selezionare \"Autorizzazioni\", quindi abilitare \"Archiviazione\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Impossibile salvare sulla memoria senza l\'autorizzazione</string>
     <!-- MessageNotifier -->
@@ -171,9 +167,8 @@ scambia un altro messaggio!</string>
     <string name="NotificationChannel_failures">Errori</string>
     <string name="NotificationChannel_backups">Backup</string>
     <string name="lockAppStatus">In stato bloccato</string>
-    <string name="NotificationChannel_app_updates">Aggiornamenti app</string>
+    <string name="updateApp">Aggiornamenti app</string>
     <string name="other">Altro</string>
-    <string name="NotificationChannel_missing_display_name">Sconosciuto</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Risposta veloce non disponibile quando Session è bloccato!</string>
     <string name="QuickResponseService_problem_sending_message">Problema nell\'invio del messaggio!</string>
@@ -198,8 +193,7 @@ scambia un altro messaggio!</string>
     <string name="attachment_type_selector__camera_description">Fotocamera</string>
     <string name="attachment_type_selector__location">Posizione</string>
     <string name="attachment_type_selector__location_description">Posizione</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Immagine o video</string>
     <string name="attachment_type_selector__gallery">Galleria</string>
     <string name="attachment_type_selector__drawer_description">Mostra/nascondi pannello degli allegati</string>
@@ -240,7 +234,6 @@ scambia un altro messaggio!</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cerca GIF ed adesivi</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Non trovato</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Vedi tutta la conversazione</string>
     <string name="load_more_header__loading">Caricamento</string>
@@ -261,10 +254,9 @@ scambia un altro messaggio!</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Usa predefinito</string>
     <string name="arrays__use_custom">Usa personalizzato</string>
-    <string name="arrays__mute_for_one_hour">Silenzia per 1 ora</string>
-    <string name="arrays__mute_for_two_hours">Silenzia per 2 ore</string>
-    <string name="arrays__mute_for_one_day">Silenzia per 1 giorno</string>
-    <string name="arrays__mute_for_seven_days">Silenzia per 7 giorni</string>
+    <string name="notificationsMute1Hour">Silenzia per 1 ora</string>
+    <string name="notificationsMute2Hours">Silenzia per 2 ore</string>
+    <string name="notificationsMute1Day">Silenzia per 1 giorno</string>
     <string name="arrays__mute_for_one_year">Silenzia per 1 anno</string>
     <string name="arrays__settings_default">Impostazioni di default</string>
     <string name="arrays__enabled">Attivato</string>
@@ -289,7 +281,6 @@ scambia un altro messaggio!</string>
     <string name="preferences__screen_security">Sicurezza schermo</string>
     <string name="sessionNotifications">Notifiche</string>
     <string name="notificationsLedColor">Colore del LED</string>
-    <string name="preferences__led_color_unknown">Sconosciuto</string>
     <string name="preferences__pref_led_blink_title">Impostazioni LED</string>
     <string name="notificationsSound">Suono</string>
     <string name="preferences__repeat_alerts">Ripeti notifiche</string>
@@ -436,7 +427,7 @@ scambia un altro messaggio!</string>
     <string name="useFastMode">Usa Modalità Veloce</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Scollega dispositivo</string>
     <string name="clearDataAll">Elimina tutti i dati</string>
-    <string name="activity_qr_code_title">Codice QR</string>
+    <string name="qrCode">Codice QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scansiona il codice QR di un utente per iniziare una conversazione con questa persona</string>
     <string name="fragment_view_my_qr_code_title">Scansionami</string>
     <string name="fragment_view_my_qr_code_share_title">Condividi codice QR</string>
@@ -455,7 +446,6 @@ scambia un altro messaggio!</string>
     <string name="dialog_ui_mode_option_system_default">Predefinito di sistema</string>
     <string name="attachment">Allegato</string>
     <string name="messageVoice">Messaggio vocale</string>
-    <string name="details">Dettagli</string>
     <string name="dialog_backup_activation_failed">Impossibile attivare i backup. Riprova o contatta l\'assistenza.</string>
     <string name="activity_backup_restore_title">Ripristina backup</string>
     <string name="activity_backup_restore_select_file">Seleziona un File</string>

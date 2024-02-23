@@ -64,10 +64,8 @@
     <string name="DeviceListItem_today">วันนี้</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">เกิดข้อผิดพลาดระหว่างการดึงภาพ GIF ความละเอียดสูง</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">สติกเกอร์</string>
+    <string name="stickers">สติกเกอร์</string>
     <!-- CropImageActivity -->
     <string name="photo">อวตาร</string>
     <!-- InputPanel -->
@@ -84,7 +82,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">สื่อทั้งหมด</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ได้รับข้อความที่เข้ารหัสด้วย Session รุ่นเก่าที่ไม่รองรับอีกต่อไปแล้ว โปรดขอให้ผู้ส่งอัพเดตแอปเป็นเวอร์ชันล่าสุดและส่งข้อความอีกครั้ง</string>
+    <string name="messageErrorOld">ได้รับข้อความที่เข้ารหัสด้วย Session รุ่นเก่าที่ไม่รองรับอีกต่อไปแล้ว โปรดขอให้ผู้ส่งอัพเดตแอปเป็นเวอร์ชันล่าสุดและส่งข้อความอีกครั้ง</string>
     <string name="MessageRecord_you_updated_group">คุณได้อัพเดตกลุ่ม</string>
     <string name="MessageRecord_s_updated_group">%s ได้อัพเดตกลุ่ม</string>
     <!-- ExpirationDialog -->
@@ -114,8 +112,7 @@
     <string name="ThreadRecord_you_marked_verified">คุณถูกทำเครื่องหมายว่าถูกยืนยันแล้ว</string>
     <string name="ThreadRecord_you_marked_unverified">คุณถูกทำเครื่องหมายว่ายังไม่ได้ยืนยัน</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">อัพเดต Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session เวอร์ชันใหม่มาแล้ว แตะเพื่ออัพเดต</string>
+    <string name="updateNewVersion">Session เวอร์ชันใหม่มาแล้ว แตะเพื่ออัพเดต</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">ข้อความที่เข้ารหัสมีความผิดปกติ</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">ข้อความถูกเข้ารหัสสำหรับเซสชันที่ไม่มีอยู่</string>
@@ -127,7 +124,7 @@
     <string name="lockAppUnlocked">Session ถูกปลดล็อก</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">คุณ</string>
-    <string name="MediaPreviewActivity_draft">ร่าง</string>
+    <string name="draft">ร่าง</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ไม่สามารถบันทึกลงที่เก็บข้อมูลภายนอกได้ หากไม่ได้รับอนุญาต</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">มี %1$d ข้อความใหม่ใน %2$d การสนทนา</string>
@@ -144,9 +141,8 @@
     <string name="NotificationChannel_failures">ล้มเหลว</string>
     <string name="NotificationChannel_backups">การสำรองข้อมูล</string>
     <string name="lockAppStatus">สถานะล๊อค</string>
-    <string name="NotificationChannel_app_updates">การอัปเดตแอป</string>
+    <string name="updateApp">การอัปเดตแอป</string>
     <string name="other">ที่อื่น</string>
-    <string name="NotificationChannel_missing_display_name">ไม่ทราบ</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">การตอบด่วนใช้ไม่ได้ถ้า Session ถูกล็อกอยู่</string>
     <string name="QuickResponseService_problem_sending_message">เกิดปัญหาในการส่งข้อความ</string>
@@ -200,7 +196,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">ค้นหาภาพ GIF และสติกเกอร์</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">ไม่พบสิ่งใด</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">ดูการสนทนาแบบเต็ม</string>
     <string name="load_more_header__loading">กำลังโหลด</string>
@@ -221,10 +216,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">ใช้ค่าเริ่มต้น</string>
     <string name="arrays__use_custom">ใช้ค่าที่กำหนดเอง</string>
-    <string name="arrays__mute_for_one_hour">ปิดเสียง 1 ชั่วโมง</string>
-    <string name="arrays__mute_for_two_hours">ปิดเสียง 2 ชั่วโมง</string>
-    <string name="arrays__mute_for_one_day">ปิดเสียง 1 วัน</string>
-    <string name="arrays__mute_for_seven_days">ปิดเสียง 7 วัน</string>
+    <string name="notificationsMute1Hour">ปิดเสียง 1 ชั่วโมง</string>
+    <string name="notificationsMute2Hours">ปิดเสียง 2 ชั่วโมง</string>
+    <string name="notificationsMute1Day">ปิดเสียง 1 วัน</string>
     <string name="arrays__mute_for_one_year">ปิดเสียง 1 ปี</string>
     <string name="arrays__settings_default">การตั้งค่าเริ่มต้น</string>
     <string name="arrays__enabled">เปิดใช้งานแล้ว</string>
@@ -247,7 +241,6 @@
     <string name="preferences__screen_security">ความปลอดภัยหน้าจอ</string>
     <string name="sessionNotifications">การแจ้งเตือน</string>
     <string name="notificationsLedColor">สี LED</string>
-    <string name="preferences__led_color_unknown">ไม่ทราบ</string>
     <string name="preferences__pref_led_blink_title">รูปแบบการกระพริบไฟ LED</string>
     <string name="notificationsSound">เสียง</string>
     <string name="preferences__repeat_alerts">ทวนเสียงเตือน</string>

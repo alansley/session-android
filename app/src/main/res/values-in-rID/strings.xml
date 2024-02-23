@@ -6,7 +6,6 @@
     <string name="delete">Hapus</string>
     <string name="save">Simpan</string>
     <string name="noteToSelf">Catatan Pribadi</string>
-    <string name="version_s">Versi %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Pesan baru</string>
     <!-- AlbumThumbnailView -->
@@ -73,10 +72,8 @@
     <string name="DeviceListItem_today">Hari ini</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Kesalahan saat mengambil GIF resolusi penuh</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Stiker</string>
+    <string name="stickers">Stiker</string>
     <!-- CropImageActivity -->
     <string name="photo">Foto</string>
     <!-- InputPanel -->
@@ -101,7 +98,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Semua media</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung. Harap minta pengirim untuk memperbarui ke versi terbaru dan mengirim ulang pesannya.</string>
+    <string name="messageErrorOld">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung. Harap minta pengirim untuk memperbarui ke versi terbaru dan mengirim ulang pesannya.</string>
     <string name="MessageRecord_you_updated_group">Anda memperbarui grup.</string>
     <string name="MessageRecord_s_updated_group">%s memperbarui grup.</string>
     <!-- ExpirationDialog -->
@@ -128,8 +125,7 @@
     <string name="ThreadRecord_you_marked_verified">Anda menandai sebagai terverifikasi</string>
     <string name="ThreadRecord_you_marked_unverified">Anda menandai sebagai tidak terverifikasi</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Pembaruan Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Versi terbaru dari Session telah tersedia, klik untuk memperbarui</string>
+    <string name="updateNewVersion">Versi terbaru dari Session telah tersedia, klik untuk memperbarui</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Pesan terenkripsi buruk</string>
     <!-- MmsMessageRecord -->
@@ -139,7 +135,7 @@
     <string name="lockAppUnlocked">Session terbuka</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Anda</string>
-    <string name="MediaPreviewActivity_draft">Draf</string>
+    <string name="draft">Draf</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tidak dapat menyimpan ke penyimpanan eksternal tanpa izin</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">Pesan baru %1$d di percakapan %2$d</string>
@@ -155,9 +151,8 @@
     <string name="NotificationChannel_failures">Gagal</string>
     <string name="NotificationChannel_backups">Backup</string>
     <string name="lockAppStatus">Status kunci</string>
-    <string name="NotificationChannel_app_updates">Pembaruan aplikasi</string>
+    <string name="updateApp">Pembaruan aplikasi</string>
     <string name="other">Lainnya</string>
-    <string name="NotificationChannel_missing_display_name">Tidak Dikenal</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
     <string name="saved">Tersimpan</string>
@@ -175,8 +170,7 @@
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Lokasi</string>
     <string name="attachment_type_selector__location_description">Lokasi</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Gambar atau video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
     <!-- contact_selection_group_activity -->
@@ -206,7 +200,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cari GIF dan stiker</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Tidak ditemukan</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Lihat semua percakapan</string>
     <string name="load_more_header__loading">Memuat</string>
@@ -223,10 +216,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Gunakan default</string>
     <string name="arrays__use_custom">Gunakan kustom</string>
-    <string name="arrays__mute_for_one_hour">Senyapkan selama 1 jam</string>
-    <string name="arrays__mute_for_two_hours">Senyapkan selama 2 jam</string>
-    <string name="arrays__mute_for_one_day">Senyapkan selama 1 hari</string>
-    <string name="arrays__mute_for_seven_days">Senyapkan selama 7 hari</string>
+    <string name="notificationsMute1Hour">Senyapkan selama 1 jam</string>
+    <string name="notificationsMute2Hours">Senyapkan selama 2 jam</string>
+    <string name="notificationsMute1Day">Senyapkan selama 1 hari</string>
     <string name="arrays__mute_for_one_year">Senyapkan selama 1 tahun</string>
     <string name="arrays__enabled">Diaktifkan</string>
     <string name="arrays__disabled">Dinonaktifkan</string>
@@ -247,7 +239,6 @@
     <!-- preferences.xml -->
     <string name="sessionNotifications">Notifikasi</string>
     <string name="notificationsLedColor">Warna LED</string>
-    <string name="preferences__led_color_unknown">Tidak Dikenal</string>
     <string name="preferences__one_time">Satu kali</string>
     <string name="preferences__two_times">Dua kali</string>
     <string name="preferences__three_times">Tiga kali</string>
@@ -330,7 +321,7 @@
     <string name="groupNameEnterPlease">Masukkan nama grup</string>
     <string name="activity_join_public_chat_title">Gabung ke grup terbuka</string>
     <string name="clearDataAll">Hapus semua data</string>
-    <string name="activity_qr_code_title">Kode QR</string>
+    <string name="qrCode">Kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>
     <string name="contactsContacts">Kontak</string>
     <string name="fragment_contact_selection_closed_groups_title">Grup tertutup</string>
@@ -343,7 +334,6 @@
     <string name="dialog_ui_mode_option_day">Day</string>
     <string name="dialog_ui_mode_option_night">Night</string>
     <string name="messageVoice">Pesan Suara</string>
-    <string name="details">Detail</string>
     <string name="activity_backup_restore_select_file">Pilih file</string>
     <string name="notificationsSlowModeDescription">Session sesekali akan memeriksa pesan baru di latar belakang.</string>
     <string name="blockUnblockDescription">Apakah anda yakin ingin membuka blokir %s?</string>

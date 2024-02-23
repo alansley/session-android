@@ -6,7 +6,6 @@
     <string name="delete">Видалити</string>
     <string name="save">Зберегти</string>
     <string name="noteToSelf">Замітка для себе</string>
-    <string name="version_s">Версія %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Нове повідомлення</string>
     <!-- AlbumThumbnailView -->
@@ -87,10 +86,8 @@
     <string name="DeviceListItem_today">Сьогодні</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Помилка при отриманні GIF у повному розширенні</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Наліпки</string>
+    <string name="stickers">Наліпки</string>
     <!-- CropImageActivity -->
     <string name="photo">Фото</string>
     <!-- InputPanel -->
@@ -119,7 +116,7 @@
     <string name="conversationsSettingsAllMedia">Всі медіа-файли
 Всі зображення</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Отримано повідомлення, яке зашифроване старою версією Session, яка вже не підтримується. Попросіть друга оновитися до останньої версії та надіслати повідомлення знову.</string>
+    <string name="messageErrorOld">Отримано повідомлення, яке зашифроване старою версією Session, яка вже не підтримується. Попросіть друга оновитися до останньої версії та надіслати повідомлення знову.</string>
     <string name="MessageRecord_you_updated_group">Ви оновили групу.</string>
     <string name="MessageRecord_s_updated_group">%s оновив групу.</string>
     <!-- ExpirationDialog -->
@@ -148,8 +145,7 @@
     <string name="ThreadRecord_you_marked_verified">Ви перевірили</string>
     <string name="ThreadRecord_you_marked_unverified"> Номер безпеки є НЕперевіреним</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Оновлення Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Нова версія Session доступна, натисніть для оновлення</string>
+    <string name="updateNewVersion">Нова версія Session доступна, натисніть для оновлення</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Погано зашифроване повідомлення</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Повідомлення зашифроване для неіснуючої сесії</string>
@@ -161,7 +157,7 @@
     <string name="lockAppUnlocked">Session розблоковано</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ви</string>
-    <string name="MediaPreviewActivity_draft">Чернетка</string>
+    <string name="draft">Чернетка</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session потребує дозволу \"Зберігання\", щоб зберігати файли, але наразі цей дозвіл ви постійно відхиляли. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Без доступу до файлової системи зберегти файли неможливо</string>
     <!-- MessageNotifier -->
@@ -180,9 +176,8 @@
     <string name="NotificationChannel_failures">Відмови</string>
     <string name="NotificationChannel_backups">Резервні копії</string>
     <string name="lockAppStatus">Статус блокування</string>
-    <string name="NotificationChannel_app_updates">Оновлення додатку</string>
+    <string name="updateApp">Оновлення додатку</string>
     <string name="other">Інший</string>
-    <string name="NotificationChannel_missing_display_name">Невідомо</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Швидка відповідь неможлива, коли Session заблоковано!</string>
     <string name="QuickResponseService_problem_sending_message">Проблема під час надсилання повідомлення!</string>
@@ -209,8 +204,7 @@
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="attachment_type_selector__location">Розташування</string>
     <string name="attachment_type_selector__location_description">Розташування</string>
-    <string name="attachment_type_selector__gif">ГІФ</string>
-    <string name="attachment_type_selector__gif_description">Гіф</string>
+    <string name="gif">Гіф</string>
     <string name="attachment_type_selector__gallery_description">Зображення або відео</string>
     <string name="attachment_type_selector__gallery">Галерея</string>
     <string name="attachment_type_selector__drawer_description">Увімк/вимк скриньку вкладень</string>
@@ -251,7 +245,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Пошук GIF та наліпок</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Нічого не знайдено</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Переглянути всю розмову</string>
     <string name="load_more_header__loading">Завантаження</string>
@@ -272,10 +265,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Використовувати типово</string>
     <string name="arrays__use_custom">Використовувати власні</string>
-    <string name="arrays__mute_for_one_hour">Вимкнути звук на 1 годину</string>
-    <string name="arrays__mute_for_two_hours">Вимкнути звук на 2 години</string>
-    <string name="arrays__mute_for_one_day">Вимкнути звук на 1 день</string>
-    <string name="arrays__mute_for_seven_days">Вимкнути звук на 7 днів</string>
+    <string name="notificationsMute1Hour">Вимкнути звук на 1 годину</string>
+    <string name="notificationsMute2Hours">Вимкнути звук на 2 години</string>
+    <string name="notificationsMute1Day">Вимкнути звук на 1 день</string>
     <string name="arrays__mute_for_one_year">Вимкнути звук на 1 рік</string>
     <string name="arrays__settings_default">Типові налаштування</string>
     <string name="arrays__enabled">Увімкнено</string>
@@ -302,7 +294,6 @@
     <string name="preferences__screen_security">Безпека екрану</string>
     <string name="sessionNotifications">Сповіщення</string>
     <string name="notificationsLedColor">Колір LED</string>
-    <string name="preferences__led_color_unknown">Невідомо</string>
     <string name="preferences__pref_led_blink_title">Шаблон мерехтіння LED</string>
     <string name="notificationsSound">Звук</string>
     <string name="preferences__repeat_alerts">Повторити сигнал</string>
@@ -449,7 +440,7 @@
     <string name="useFastMode">Використовувати швидкий режим</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Відв’язати цей пристрій</string>
     <string name="clearDataAll">Видалити всі дані</string>
-    <string name="activity_qr_code_title">QR-код</string>
+    <string name="qrCode">QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Скануйте чийсь QR-код, щоб почати розмову з ними</string>
     <string name="fragment_view_my_qr_code_title">Скануйте мене</string>
     <string name="fragment_view_my_qr_code_share_title">Поділіться кудись QR-кодом</string>
@@ -468,7 +459,6 @@
     <string name="dialog_ui_mode_option_system_default">За замовчуванням системи</string>
     <string name="attachment">Вкладення</string>
     <string name="messageVoice">Голосове повідомлення</string>
-    <string name="details">Подробиці</string>
     <string name="dialog_backup_activation_failed">Не вдалося активувати резервну копію. Будь ласка, спробуйте ще раз або зверніться до служби підтримки.</string>
     <string name="activity_backup_restore_title">Відновити резервну копію</string>
     <string name="activity_backup_restore_select_file">Виберіть файл</string>

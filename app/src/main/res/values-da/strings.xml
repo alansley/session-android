@@ -6,7 +6,6 @@
     <string name="delete">Slet</string>
     <string name="save">Gem</string>
     <string name="noteToSelf">Egen note</string>
-    <string name="version_s">Version %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Ny besked</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">I dag</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Der opstod en fejl under hentning af GIF i fuld opløsning</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF´s</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Klistermærker</string>
+    <string name="stickers">Klistermærker</string>
     <!-- CropImageActivity -->
     <string name="photo">Billede</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Alle mediefiler</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Modtog en besked krypteret med en ældre version af Session, der ikke længere understøttes. Bed venligst afsenderen om at opgradere til den nyeste version og sende beskeden igen</string>
+    <string name="messageErrorOld">Modtog en besked krypteret med en ældre version af Session, der ikke længere understøttes. Bed venligst afsenderen om at opgradere til den nyeste version og sende beskeden igen</string>
     <string name="MessageRecord_you_updated_group">Du opdaterede gruppen</string>
     <string name="MessageRecord_s_updated_group">%s opdaterede gruppen</string>
     <!-- ExpirationDialog -->
@@ -139,8 +136,7 @@ udveksel besked!</string>
     <string name="ThreadRecord_you_marked_verified">Markerét som verificeret</string>
     <string name="ThreadRecord_you_marked_unverified">Markerét som ubekræftet</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session opdatering</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version af Session er tilgængelig, tap for at opdatere</string>
+    <string name="updateNewVersion">En ny version af Session er tilgængelig, tap for at opdatere</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Ugyldig krypteret besked</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Beskeden er krypteret til en session der ikke findes</string>
@@ -152,7 +148,7 @@ udveksel besked!</string>
     <string name="lockAppUnlocked">Session er låst op</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Dig</string>
-    <string name="MediaPreviewActivity_draft">Kladde</string>
+    <string name="draft">Kladde</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ikke muligt at gemme til ekstern placering, uden tilladelse</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye beskeder i %2$d samtaler</string>
@@ -170,9 +166,8 @@ udveksel besked!</string>
     <string name="NotificationChannel_failures">Registrerede fejl</string>
     <string name="NotificationChannel_backups">Sikkerhedskopier</string>
     <string name="lockAppStatus">Låse status</string>
-    <string name="NotificationChannel_app_updates">App opdateringer</string>
+    <string name="updateApp">App opdateringer</string>
     <string name="other">Andet</string>
-    <string name="NotificationChannel_missing_display_name">Ukendt</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Hurtig svar utilgængelig når Session er låst!</string>
     <string name="QuickResponseService_problem_sending_message">Problem med at sende besked!</string>
@@ -197,8 +192,7 @@ udveksel besked!</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Lokation</string>
     <string name="attachment_type_selector__location_description">Lokation</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Billed eller video</string>
     <string name="attachment_type_selector__gallery">Billeder</string>
     <string name="attachment_type_selector__drawer_description">Skift vedhæftet fil</string>
@@ -239,7 +233,6 @@ udveksel besked!</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Søg GIF´s og animationer</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Fandt ingenting</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Vis hele samtalen</string>
     <string name="load_more_header__loading">Henter</string>
@@ -260,10 +253,9 @@ udveksel besked!</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Brug standard</string>
     <string name="arrays__use_custom">Brug tilpasset</string>
-    <string name="arrays__mute_for_one_hour">Udsæt 1 time</string>
-    <string name="arrays__mute_for_two_hours">Udsæt 2 timer</string>
-    <string name="arrays__mute_for_one_day">Udsæt 1 dag</string>
-    <string name="arrays__mute_for_seven_days">Udsæt 7 dage</string>
+    <string name="notificationsMute1Hour">Udsæt 1 time</string>
+    <string name="notificationsMute2Hours">Udsæt 2 timer</string>
+    <string name="notificationsMute1Day">Udsæt 1 dag</string>
     <string name="arrays__mute_for_one_year">Udsæt 1 år</string>
     <string name="arrays__settings_default">Standardindstillinger</string>
     <string name="arrays__enabled">Aktiveret</string>
@@ -288,7 +280,6 @@ udveksel besked!</string>
     <string name="preferences__screen_security">Skærmsikkerhed</string>
     <string name="sessionNotifications">Notifikationer</string>
     <string name="notificationsLedColor">LED farve</string>
-    <string name="preferences__led_color_unknown">Ukendt</string>
     <string name="preferences__pref_led_blink_title">LED blinke mønster</string>
     <string name="notificationsSound">Lyd</string>
     <string name="preferences__repeat_alerts">Gentag alarmer</string>
@@ -427,7 +418,7 @@ udveksel besked!</string>
     <string name="useFastMode">Brug Hurtig Tilstand</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Frakobl enhed</string>
     <string name="clearDataAll">Ryd Alt Data</string>
-    <string name="activity_qr_code_title">QR-kode</string>
+    <string name="qrCode">QR-kode</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scan ens QR-kode for at starte en samtale med dem</string>
     <string name="fragment_view_my_qr_code_title">Scan Mig</string>
     <string name="fragment_view_my_qr_code_share_title">Del QR-kode</string>
@@ -445,7 +436,6 @@ udveksel besked!</string>
     <string name="dialog_ui_mode_option_night">Nat</string>
     <string name="dialog_ui_mode_option_system_default">Systemstandard</string>
     <string name="messageVoice">Talebesked</string>
-    <string name="details">Detaljer</string>
     <string name="dialog_backup_activation_failed">Kunne ikke aktivere sikkerhedskopier. Prøv igen, eller kontakt support.</string>
     <string name="activity_backup_restore_title">Gendan sikkerhedskopi</string>
     <string name="activity_backup_restore_select_file">Vælg en fil</string>

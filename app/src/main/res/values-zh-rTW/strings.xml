@@ -6,7 +6,6 @@
     <string name="delete">刪除</string>
     <string name="save">儲存</string>
     <string name="noteToSelf">給自己的筆記</string>
-    <string name="version_s">版本 %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">新訊息</string>
     <!-- AlbumThumbnailView -->
@@ -78,10 +77,8 @@
     <string name="DeviceListItem_today">今天</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">在下載完整解析度的 GIF 時發生錯誤</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">動態圖檔</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">貼圖</string>
+    <string name="stickers">貼圖</string>
     <!-- CropImageActivity -->
     <string name="photo">頭像</string>
     <!-- InputPanel -->
@@ -106,7 +103,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">所有的媒體</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">收到一則使用舊版本並已經不再支援的 Signal 加密訊息。請尋求傳送人將 Session 升級到最新的版本並再次傳送該訊息。</string>
+    <string name="messageErrorOld">收到一則使用舊版本並已經不再支援的 Signal 加密訊息。請尋求傳送人將 Session 升級到最新的版本並再次傳送該訊息。</string>
     <string name="MessageRecord_you_updated_group">你已更新群組。</string>
     <string name="MessageRecord_s_updated_group">%s 更新了群組。</string>
     <!-- ExpirationDialog -->
@@ -137,8 +134,7 @@
     <string name="ThreadRecord_you_marked_verified">您標記為已驗證</string>
     <string name="ThreadRecord_you_marked_unverified">您標記為未驗證</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session 更新</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">有新版本的 Session，輕觸更新</string>
+    <string name="updateNewVersion">有新版本的 Session，輕觸更新</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">損毀的加密訊息</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">此加密訊息的對話已不存在</string>
@@ -150,7 +146,7 @@
     <string name="lockAppUnlocked">Session 已經解鎖</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">您</string>
-    <string name="MediaPreviewActivity_draft">草稿</string>
+    <string name="draft">草稿</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">會話需要儲存空間存取權才能保存到外部儲存空間，但它已被永久拒絕。 請前往變更權限，啟用「儲存空間」。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">因為沒有儲存的權限，無法儲存到外部儲存空間</string>
     <!-- MessageNotifier -->
@@ -169,9 +165,8 @@
     <string name="NotificationChannel_failures">失敗</string>
     <string name="NotificationChannel_backups">備份</string>
     <string name="lockAppStatus">鎖定狀態</string>
-    <string name="NotificationChannel_app_updates">應用程式更新</string>
+    <string name="updateApp">應用程式更新</string>
     <string name="other">其他</string>
-    <string name="NotificationChannel_missing_display_name">未知</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">當 Session 鎖定時無法使用快速回覆！</string>
     <string name="QuickResponseService_problem_sending_message">傳送訊息出現問題！</string>
@@ -195,8 +190,7 @@
     <string name="attachment_type_selector__camera_description">相機</string>
     <string name="attachment_type_selector__location">位置</string>
     <string name="attachment_type_selector__location_description">位置</string>
-    <string name="attachment_type_selector__gif">動態圖檔</string>
-    <string name="attachment_type_selector__gif_description">動態圖檔</string>
+    <string name="gif">動態圖檔</string>
     <string name="attachment_type_selector__gallery_description">圖片或影片</string>
     <string name="attachment_type_selector__gallery">圖片庫</string>
     <string name="attachment_type_selector__drawer_description">切換附件抽屜</string>
@@ -237,7 +231,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">搜尋動態圖檔與貼圖</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">未找到任何東西</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">查閱完整對話</string>
     <string name="load_more_header__loading">讀取中</string>
@@ -258,10 +251,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">使用預設</string>
     <string name="arrays__use_custom">使用自訂</string>
-    <string name="arrays__mute_for_one_hour">靜音 1 小時</string>
-    <string name="arrays__mute_for_two_hours">靜音 2 小時</string>
-    <string name="arrays__mute_for_one_day">靜音 1 天</string>
-    <string name="arrays__mute_for_seven_days">靜音 7 天</string>
+    <string name="notificationsMute1Hour">靜音 1 小時</string>
+    <string name="notificationsMute2Hours">靜音 2 小時</string>
+    <string name="notificationsMute1Day">靜音 1 天</string>
     <string name="arrays__mute_for_one_year">靜音 1 年</string>
     <string name="arrays__settings_default">預設設定</string>
     <string name="arrays__enabled">啟用</string>
@@ -285,7 +277,6 @@
     <string name="preferences__screen_security">螢幕安全設定</string>
     <string name="sessionNotifications">通知</string>
     <string name="notificationsLedColor">LED燈號顏色</string>
-    <string name="preferences__led_color_unknown">未知</string>
     <string name="preferences__pref_led_blink_title">LED 閃爍模式</string>
     <string name="notificationsSound">提示音效</string>
     <string name="preferences__repeat_alerts">重複警報</string>
@@ -432,7 +423,7 @@
     <string name="useFastMode">使用快速模式</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">取消連結裝置</string>
     <string name="clearDataAll">清除所有數據</string>
-    <string name="activity_qr_code_title">QR Code</string>
+    <string name="qrCode">QR Code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">掃描朋友的 QR Code 來開始對話。</string>
     <string name="fragment_view_my_qr_code_title">掃描我</string>
     <string name="fragment_view_my_qr_code_share_title">分享 QR Code</string>
@@ -451,7 +442,6 @@
     <string name="dialog_ui_mode_option_system_default">系統默認</string>
     <string name="attachment">附件</string>
     <string name="messageVoice">語音訊息</string>
-    <string name="details">詳細資料</string>
     <string name="dialog_backup_activation_failed">無法啟用備份。 請重試或聯繫支援人員。</string>
     <string name="activity_backup_restore_title">恢復備份</string>
     <string name="activity_backup_restore_select_file">選擇一個檔案</string>

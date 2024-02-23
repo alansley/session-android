@@ -6,7 +6,6 @@
     <string name="delete">Изтрий</string>
     <string name="save">Запази</string>
     <string name="noteToSelf">Бележка за Мен</string>
-    <string name="version_s">Версия %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Ново съобщение</string>
     <!-- AlbumThumbnailView -->
@@ -76,10 +75,8 @@
     <string name="DeviceListItem_today">Днес</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Грешка при вземането на GIF в пълна резолюция</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF-ове</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Стикери</string>
+    <string name="stickers">Стикери</string>
     <!-- CropImageActivity -->
     <string name="photo">Снимка</string>
     <!-- InputPanel -->
@@ -105,7 +102,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Всички прикачените файлове</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Получихте съобщение криптирано със стара версия на Session, която вече не се поддържа. Моля, помолете изпращача да обнови версията си и да препрати съобщението.</string>
+    <string name="messageErrorOld">Получихте съобщение криптирано със стара версия на Session, която вече не се поддържа. Моля, помолете изпращача да обнови версията си и да препрати съобщението.</string>
     <string name="MessageRecord_you_updated_group">Обновихте групата.</string>
     <string name="MessageRecord_s_updated_group">%s обнови групата.</string>
     <!-- ExpirationDialog -->
@@ -134,8 +131,7 @@
     <string name="ThreadRecord_you_marked_verified">Отбелязахте като потвърдено</string>
     <string name="ThreadRecord_you_marked_unverified">Отбелязахте като непотвърдено</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Обновление на Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Има нова версия на Session, натиснете, за да обновите.</string>
+    <string name="updateNewVersion">Има нова версия на Session, натиснете, за да обновите.</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Грешно криптирано съобщение</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Съобщението е криптирано за несъществуаща сесия</string>
@@ -147,7 +143,7 @@
     <string name="lockAppUnlocked">Session е отключен</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ти</string>
-    <string name="MediaPreviewActivity_draft">Чернова</string>
+    <string name="draft">Чернова</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Неуспешно запазване на външен диск без нуждното разрешение за достъп</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нови съобщения в %2$d чата</string>
@@ -164,9 +160,8 @@
     <string name="NotificationChannel_failures">Грешки</string>
     <string name="NotificationChannel_backups">Архиви</string>
     <string name="lockAppStatus">Статус на заключването</string>
-    <string name="NotificationChannel_app_updates">Обновления на приложението</string>
+    <string name="updateApp">Обновления на приложението</string>
     <string name="other">Друг</string>
-    <string name="NotificationChannel_missing_display_name">Непознат</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Бърз отговор не е възможен, когато Session е заключен!</string>
     <string name="QuickResponseService_problem_sending_message">Проблем при изпрашане на съобщение!</string>
@@ -226,7 +221,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Търсене сред GIF-ове и стикери</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Няма нищо открито</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Разгледай целия разговор</string>
     <string name="load_more_header__loading">Зареждане</string>
@@ -247,10 +241,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Използване на подразбиращ се</string>
     <string name="arrays__use_custom">Използване на специален</string>
-    <string name="arrays__mute_for_one_hour">Тих режим за 1 час</string>
-    <string name="arrays__mute_for_two_hours">Тих режим за 2 часа</string>
-    <string name="arrays__mute_for_one_day">Тих режим за 1 ден</string>
-    <string name="arrays__mute_for_seven_days">Тих режим за 7 дена</string>
+    <string name="notificationsMute1Hour">Тих режим за 1 час</string>
+    <string name="notificationsMute2Hours">Тих режим за 2 часа</string>
+    <string name="notificationsMute1Day">Тих режим за 1 ден</string>
     <string name="arrays__mute_for_one_year">Тих режим за 1 година</string>
     <string name="arrays__settings_default">Настройки по подразбиране</string>
     <string name="arrays__enabled">Разрешено</string>
@@ -275,7 +268,6 @@
     <string name="preferences__screen_security">Сигурност на екрана</string>
     <string name="sessionNotifications">Известия</string>
     <string name="notificationsLedColor">LED цвят</string>
-    <string name="preferences__led_color_unknown">Непознат</string>
     <string name="preferences__pref_led_blink_title">LED известяване</string>
     <string name="notificationsSound">Мелодия</string>
     <string name="preferences__repeat_alerts">Повтарящи се аларми</string>

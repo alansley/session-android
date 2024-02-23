@@ -6,7 +6,6 @@
     <string name="delete">Xóa</string>
     <string name="save">Lưu</string>
     <string name="noteToSelf">Gửi lời nhắc cho chính mình</string>
-    <string name="version_s">Phiên bản %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Tin nhắn mới</string>
     <!-- AlbumThumbnailView -->
@@ -79,7 +78,7 @@
     <!-- MediaSendActivity -->
     <!-- MediaRepository -->
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Đã nhận một tin nhắn được mã khoá bởi phiên bản Session cũ và không còn được hỗ trợ. Hãy yêu cầu người gửi cập nhật phiên bản mới nhất và gửi lại tin nhắn.</string>
+    <string name="messageErrorOld">Đã nhận một tin nhắn được mã khoá bởi phiên bản Session cũ và không còn được hỗ trợ. Hãy yêu cầu người gửi cập nhật phiên bản mới nhất và gửi lại tin nhắn.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Điền vào cụm từ mật khẩu</string>
@@ -110,7 +109,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="messageMarkRead">Đánh dấu đã đọc</string>
     <string name="MessageNotifier_unknown_contact_message">Liên lạc</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_missing_display_name">Không rõ</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Trả lời nhanh không khả thi khi Session bị khoá!</string>
     <string name="QuickResponseService_problem_sending_message">Có vấn đề khi gửi tin nhắn!</string>
@@ -167,10 +165,9 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Dùng mặc định</string>
     <string name="arrays__use_custom">Dùng tùy chỉnh</string>
-    <string name="arrays__mute_for_one_hour">Tạm im 1 tiếng</string>
-    <string name="arrays__mute_for_two_hours">Tạm im 2 tiếng</string>
-    <string name="arrays__mute_for_one_day">Tạm im 1 ngày</string>
-    <string name="arrays__mute_for_seven_days">Tạm im 7 ngày</string>
+    <string name="notificationsMute1Hour">Tạm im 1 tiếng</string>
+    <string name="notificationsMute2Hours">Tạm im 2 tiếng</string>
+    <string name="notificationsMute1Day">Tạm im 1 ngày</string>
     <string name="arrays__mute_for_one_year">Không báo trong 1 năm</string>
     <string name="arrays__settings_default">Thiết đặt mặc định</string>
     <string name="arrays__enabled">Mở</string>
@@ -188,7 +185,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="preferences__screen_security">An ninh màn hình</string>
     <string name="sessionNotifications">Thông báo</string>
     <string name="notificationsLedColor">Màu LED</string>
-    <string name="preferences__led_color_unknown">Không rõ</string>
     <string name="preferences__pref_led_blink_title">Mô hình chớp nháy LED</string>
     <string name="notificationsSound">Âm thanh</string>
     <string name="preferences__repeat_alerts">Lập lại cảnh báo</string>
@@ -303,7 +299,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="notificationsStrategy">Chiến lược thông báo</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Hủy liên kết thiết bị</string>
     <string name="clearDataAll">Xóa tất cả dữ liệu</string>
-    <string name="activity_qr_code_title">Mã QR</string>
+    <string name="qrCode">Mã QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Quét mã QR của ai đó để bắt đầu trò chuyện với họ</string>
     <string name="fragment_view_my_qr_code_share_title">Chia sẻ mã QR </string>
     <string name="contactsContacts">Danh bạ</string>

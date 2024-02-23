@@ -6,7 +6,6 @@
     <string name="delete">Wissen</string>
     <string name="save">Opslaan</string>
     <string name="noteToSelf">Notitie aan mezelf</string>
-    <string name="version_s">Versie %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nieuw bericht</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Vandaag</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Fout bij het ophalen van de GIF in volledige resolutie</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFs</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Stickers</string>
+    <string name="stickers">Stickers</string>
     <!-- CropImageActivity -->
     <string name="photo">Profielfoto</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Alle media</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Dit bericht gebruikt verouderde versleuteling van een Session-versie die niet langer ondersteund wordt. Vraag de afzender om bij te werken naar de meest recente versie en het bericht opnieuw te verzenden.</string>
+    <string name="messageErrorOld">Dit bericht gebruikt verouderde versleuteling van een Session-versie die niet langer ondersteund wordt. Vraag de afzender om bij te werken naar de meest recente versie en het bericht opnieuw te verzenden.</string>
     <string name="MessageRecord_you_updated_group">Je hebt de groep aangepast.</string>
     <string name="MessageRecord_s_updated_group">%s heeft de groep aangepast.</string>
     <!-- ExpirationDialog -->
@@ -140,8 +137,7 @@
     <string name="ThreadRecord_you_marked_verified">Door jou als geverifieerd gemarkeerd</string>
     <string name="ThreadRecord_you_marked_unverified">Door jou als niet geverifieerd gemarkeerd</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Nieuwe versie van Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Er is een nieuwe versie van Session beschikbaar, tik om bij te werken</string>
+    <string name="updateNewVersion">Er is een nieuwe versie van Session beschikbaar, tik om bij te werken</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Verkeerd versleuteld bericht</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Bericht versleuteld voor niet-bestaande sessie</string>
@@ -153,7 +149,7 @@
     <string name="lockAppUnlocked">Session is ontgrendeld</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Jij</string>
-    <string name="MediaPreviewActivity_draft">Concept</string>
+    <string name="draft">Concept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session heeft toegang tot de camera nodig om een QR-code te scannen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Camera’ in.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan niet opslaan naar externe opslag zonder machtiging</string>
     <!-- MessageNotifier -->
@@ -172,9 +168,8 @@
     <string name="NotificationChannel_failures">Mislukkingen</string>
     <string name="NotificationChannel_backups">Back-ups</string>
     <string name="lockAppStatus">Vergrendelingstoestand</string>
-    <string name="NotificationChannel_app_updates">Nieuwe versies van de app </string>
+    <string name="updateApp">Nieuwe versies van de app </string>
     <string name="other">Anders</string>
-    <string name="NotificationChannel_missing_display_name">Onbekend</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Snel reageren niet beschikbaar wanneer Session vergrendeld is!</string>
     <string name="QuickResponseService_problem_sending_message">Fout bij verzenden van bericht!</string>
@@ -199,8 +194,7 @@
     <string name="attachment_type_selector__camera_description">Camera</string>
     <string name="attachment_type_selector__location">Locatie</string>
     <string name="attachment_type_selector__location_description">Locatie</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Afbeelding of video</string>
     <string name="attachment_type_selector__gallery">Galerij</string>
     <string name="attachment_type_selector__drawer_description">Bijlageoverzicht tonen/verbergen</string>
@@ -241,7 +235,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFs en stickers zoeken</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Niets gevonden</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Bekijk volledig gesprek</string>
     <string name="load_more_header__loading">Aan het laden</string>
@@ -262,10 +255,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Gebruik systeem-standaard</string>
     <string name="arrays__use_custom">Gebruik aangepast</string>
-    <string name="arrays__mute_for_one_hour">Demp voor 1 uur</string>
-    <string name="arrays__mute_for_two_hours">Demp voor 2 uur</string>
-    <string name="arrays__mute_for_one_day">Demp voor 1 dag</string>
-    <string name="arrays__mute_for_seven_days">Demp voor 7 dagen</string>
+    <string name="notificationsMute1Hour">Demp voor 1 uur</string>
+    <string name="notificationsMute2Hours">Demp voor 2 uur</string>
+    <string name="notificationsMute1Day">Demp voor 1 dag</string>
     <string name="arrays__mute_for_one_year">Demp voor 1 jaar</string>
     <string name="arrays__settings_default">Gebruik systeem-standaard</string>
     <string name="arrays__enabled">Ingeschakeld</string>
@@ -290,7 +282,6 @@
     <string name="preferences__screen_security">Schermafdrukken blokkeren</string>
     <string name="sessionNotifications">Meldingen</string>
     <string name="notificationsLedColor">Notificatie-LED-kleur</string>
-    <string name="preferences__led_color_unknown">Onbekend</string>
     <string name="preferences__pref_led_blink_title">Notificatie-LED-knipperpatroon</string>
     <string name="notificationsSound">Geluid</string>
     <string name="preferences__repeat_alerts">Herhaal meldingen</string>
@@ -437,7 +428,7 @@
     <string name="useFastMode">Gebruik snelle modus</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Apparaat ontkoppelen</string>
     <string name="clearDataAll">Wis alle gegevens</string>
-    <string name="activity_qr_code_title">QR-code</string>
+    <string name="qrCode">QR-code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scan iemands QR-code om een gesprek te beginnen</string>
     <string name="fragment_view_my_qr_code_title">Scan mij</string>
     <string name="fragment_view_my_qr_code_share_title">QR-code delen</string>
@@ -456,7 +447,6 @@
     <string name="dialog_ui_mode_option_system_default">Systeemstandaard</string>
     <string name="attachment">Bijlage</string>
     <string name="messageVoice">Spraakbericht</string>
-    <string name="details">Details</string>
     <string name="dialog_backup_activation_failed">Activeren van back-ups mislukt. Probeer het opnieuw of neem contact op met het ondersteuningsteam.</string>
     <string name="activity_backup_restore_title">Back-up terugzetten</string>
     <string name="activity_backup_restore_select_file">Selecteer een bestand</string>

@@ -6,7 +6,6 @@
     <string name="delete">Radera</string>
     <string name="save">Spara</string>
     <string name="noteToSelf">Notering till mig själv</string>
-    <string name="version_s">Version %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nytt meddelande</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Idag</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Fel vid hämtning av helupplöst GIF</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF:ar</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Stickers</string>
+    <string name="stickers">Stickers</string>
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">All media</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Tog emot ett meddelande som krypterats med en tidigare version av Session som inte längre stöds. Be avsändaren uppdatera till senaste versionen och skicka om meddelandet.</string>
+    <string name="messageErrorOld">Tog emot ett meddelande som krypterats med en tidigare version av Session som inte längre stöds. Be avsändaren uppdatera till senaste versionen och skicka om meddelandet.</string>
     <string name="MessageRecord_you_updated_group">Du uppdaterade gruppen.</string>
     <string name="MessageRecord_s_updated_group">%s uppdaterade gruppen.</string>
     <!-- ExpirationDialog -->
@@ -139,8 +136,7 @@ för nyckelutbyte!</string>
     <string name="ThreadRecord_you_marked_verified">Du markerade verifierad</string>
     <string name="ThreadRecord_you_marked_unverified">Du markerade overifierad</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session-uppdatering</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version av Session finns tillgänglig, tryck för att uppdatera</string>
+    <string name="updateNewVersion">En ny version av Session finns tillgänglig, tryck för att uppdatera</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Felkrypterat meddelande</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Meddelande som krypterats för obefintlig session</string>
@@ -152,7 +148,7 @@ för nyckelutbyte!</string>
     <string name="lockAppUnlocked">Session är olåst</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Du</string>
-    <string name="MediaPreviewActivity_draft">Utkast</string>
+    <string name="draft">Utkast</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session behöver behörigheten Lagring för att spara till extern lagring men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan inte spara till externt utrymme utan behörighet</string>
     <!-- MessageNotifier -->
@@ -171,9 +167,8 @@ för nyckelutbyte!</string>
     <string name="NotificationChannel_failures">Misslyckanden</string>
     <string name="NotificationChannel_backups">Säkerhetskopia</string>
     <string name="lockAppStatus">Låsstatus</string>
-    <string name="NotificationChannel_app_updates">Appuppdateringar</string>
+    <string name="updateApp">Appuppdateringar</string>
     <string name="other">Övrigt</string>
-    <string name="NotificationChannel_missing_display_name">Okänd</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Snabbsvar är ej tillgängligt när Session är låst!</string>
     <string name="QuickResponseService_problem_sending_message">Problem med att skicka meddelandet!</string>
@@ -198,8 +193,7 @@ för nyckelutbyte!</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Plats</string>
     <string name="attachment_type_selector__location_description">Plats</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Bild eller film</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
     <string name="attachment_type_selector__drawer_description">Dölj/visa bilagor</string>
@@ -240,7 +234,6 @@ för nyckelutbyte!</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Sök GIF-bilder och stickers</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Inget hittat</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Se hela konversationen</string>
     <string name="load_more_header__loading">Läser in</string>
@@ -261,10 +254,9 @@ för nyckelutbyte!</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Använd standardinställning</string>
     <string name="arrays__use_custom">Använd anpassad inställning</string>
-    <string name="arrays__mute_for_one_hour">Tysta i 1 timme</string>
-    <string name="arrays__mute_for_two_hours">Tysta i 2 timmar</string>
-    <string name="arrays__mute_for_one_day">Tysta i 1 dag</string>
-    <string name="arrays__mute_for_seven_days">Tysta i 7 dagar</string>
+    <string name="notificationsMute1Hour">Tysta i 1 timme</string>
+    <string name="notificationsMute2Hours">Tysta i 2 timmar</string>
+    <string name="notificationsMute1Day">Tysta i 1 dag</string>
     <string name="arrays__mute_for_one_year">Tysta i 1 år</string>
     <string name="arrays__settings_default">Inställningars standardvärden</string>
     <string name="arrays__enabled">Aktiverad</string>
@@ -289,7 +281,6 @@ för nyckelutbyte!</string>
     <string name="preferences__screen_security">Skärmsäkerhet</string>
     <string name="sessionNotifications">Aviseringar</string>
     <string name="notificationsLedColor">Färg på ljusindikator</string>
-    <string name="preferences__led_color_unknown">Okänd</string>
     <string name="preferences__pref_led_blink_title">Blinkmönster på ljusindikator</string>
     <string name="notificationsSound">Ljud</string>
     <string name="preferences__repeat_alerts">Upprepa aviseringar</string>
@@ -436,7 +427,7 @@ för nyckelutbyte!</string>
     <string name="useFastMode">Använd snabbläge</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Kopplar bort enhet</string>
     <string name="clearDataAll">Rensa All Data</string>
-    <string name="activity_qr_code_title">QR-kod</string>
+    <string name="qrCode">QR-kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skanna någons QR-kod för att starta en konversation med dem</string>
     <string name="fragment_view_my_qr_code_title">Skanna mig</string>
     <string name="fragment_view_my_qr_code_share_title">Dela QR-kod</string>
@@ -455,7 +446,6 @@ för nyckelutbyte!</string>
     <string name="dialog_ui_mode_option_system_default">Systemets inställning</string>
     <string name="attachment">Bilaga</string>
     <string name="messageVoice">Röstmeddelande</string>
-    <string name="details">Detaljer</string>
     <string name="dialog_backup_activation_failed">Det gick inte att aktivera säkerhetskopiering. Vänligen försök igen eller kontakta support.</string>
     <string name="activity_backup_restore_title">Återställ säkerhetskopia</string>
     <string name="activity_backup_restore_select_file">Välj en fil</string>

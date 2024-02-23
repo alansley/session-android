@@ -4,7 +4,6 @@
     <string name="yes">ඔව්</string>
     <string name="no">නැහැ</string>
     <string name="save">සුරකින්න</string>
-    <string name="version_s">අනුවාදය %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">නව පණිවිඩය</string>
     <!-- AlbumThumbnailView -->
@@ -80,7 +79,7 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ඇමතුම්</string>
     <string name="NotificationChannel_backups">උපස්ථ</string>
-    <string name="NotificationChannel_app_updates">යෙදුම් යාවත්කාල</string>
+    <string name="updateApp">යෙදුම් යාවත්කාල</string>
     <string name="other">වෙනත්</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
@@ -187,7 +186,6 @@
     <string name="dialog_ui_mode_option_day">දවස</string>
     <string name="dialog_ui_mode_option_night">රාත්‍රී</string>
     <string name="messageVoice">හඬ පණිවිඩය</string>
-    <string name="details">විස්තර</string>
     <string name="activity_backup_restore_title">උපස්ථය ප්‍රත්‍යර්පණය</string>
     <string name="open">විවෘත</string>
     <string name="enable">සබල කරන්න</string>

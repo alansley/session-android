@@ -6,7 +6,6 @@
     <string name="delete">Suprimeix</string>
     <string name="save">Desa</string>
     <string name="noteToSelf">Notifica-m\'ho</string>
-    <string name="version_s">Versió %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Missatge nou</string>
     <!-- AlbumThumbnailView -->
@@ -78,10 +77,8 @@
     <string name="DeviceListItem_today">Avui</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">S\'ha produït un error en recuperar el GIF a resolució completa</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Adhesius</string>
+    <string name="stickers">Adhesius</string>
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
@@ -107,7 +104,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Tot el contingut</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">S\'ha rebut un missatge encriptat amb una versió antiga del Session que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
+    <string name="messageErrorOld">S\'ha rebut un missatge encriptat amb una versió antiga del Session que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
     <string name="MessageRecord_you_updated_group">Heu actualitzat el grup.</string>
     <string name="MessageRecord_s_updated_group">%s ha actualitzat el grup.</string>
     <!-- ExpirationDialog -->
@@ -136,8 +133,7 @@ d\'intercanvi de claus!</string>
     <string name="ThreadRecord_you_marked_verified">Heu verificat</string>
     <string name="ThreadRecord_you_marked_unverified">Heu tret la verificació</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Actualització del Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Hi ha disponible una versió nova del Session. Toqueu per actualitzar-lo</string>
+    <string name="updateNewVersion">Hi ha disponible una versió nova del Session. Toqueu per actualitzar-lo</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Missatge mal encriptat</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Missatge encriptat per a una sessió que no existeix</string>
@@ -149,7 +145,7 @@ d\'intercanvi de claus!</string>
     <string name="lockAppUnlocked">S\'ha desblocat el Session</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Jo</string>
-    <string name="MediaPreviewActivity_draft">Esborrany</string>
+    <string name="draft">Esborrany</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">No es pot desar en un emmagatzematge extern sense permís.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d missatges nous a %2$d converses</string>
@@ -167,9 +163,8 @@ d\'intercanvi de claus!</string>
     <string name="NotificationChannel_failures">Fallades</string>
     <string name="NotificationChannel_backups">Còpies de seguretat</string>
     <string name="lockAppStatus">Estat del bloqueig</string>
-    <string name="NotificationChannel_app_updates">Actualitzacions de l\'aplicació</string>
+    <string name="updateApp">Actualitzacions de l\'aplicació</string>
     <string name="other">Altres</string>
-    <string name="NotificationChannel_missing_display_name">Desconegut</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">La resposta ràpida no és disponible si el Session està blocat!</string>
     <string name="QuickResponseService_problem_sending_message">S\'ha produït un problema en enviar el missatge!</string>
@@ -194,8 +189,7 @@ d\'intercanvi de claus!</string>
     <string name="attachment_type_selector__camera_description">Càmera</string>
     <string name="attachment_type_selector__location">Ubicació</string>
     <string name="attachment_type_selector__location_description">Ubicació</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imatge o vídeo</string>
     <string name="attachment_type_selector__gallery">Galeria</string>
     <string name="attachment_type_selector__drawer_description">Commuta la pestanya d\'adjunts</string>
@@ -236,7 +230,6 @@ d\'intercanvi de claus!</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cerca GIF i adhesius</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">No s\'ha trobat res</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Mostra tota la conversa</string>
     <string name="load_more_header__loading">S\'està carregant</string>
@@ -257,10 +250,9 @@ d\'intercanvi de claus!</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Per defecte</string>
     <string name="arrays__use_custom">Personalitzat</string>
-    <string name="arrays__mute_for_one_hour">Silencia-ho durant 1 hora</string>
-    <string name="arrays__mute_for_two_hours">Silencia-ho durant 2 hores</string>
-    <string name="arrays__mute_for_one_day">Silencia-ho durant 1 dia</string>
-    <string name="arrays__mute_for_seven_days">Silencia-ho durant 7 dies</string>
+    <string name="notificationsMute1Hour">Silencia-ho durant 1 hora</string>
+    <string name="notificationsMute2Hours">Silencia-ho durant 2 hores</string>
+    <string name="notificationsMute1Day">Silencia-ho durant 1 dia</string>
     <string name="arrays__mute_for_one_year">Silencia-ho durant 1 any</string>
     <string name="arrays__settings_default">Configuració predeterminada</string>
     <string name="arrays__enabled">Habilitat</string>
@@ -285,7 +277,6 @@ d\'intercanvi de claus!</string>
     <string name="preferences__screen_security">Seguretat de la pantalla</string>
     <string name="sessionNotifications">Notificacions</string>
     <string name="notificationsLedColor">Color del LED</string>
-    <string name="preferences__led_color_unknown">Desconegut</string>
     <string name="preferences__pref_led_blink_title">Patró lluminós per al LED</string>
     <string name="notificationsSound">So</string>
     <string name="preferences__repeat_alerts">Repeteix les alertes</string>
@@ -428,7 +419,7 @@ d\'intercanvi de claus!</string>
     <string name="notificationsStrategy">Estratègia de les notificacions</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Desenllaça el dispositiu</string>
     <string name="clearDataAll">Esborra totes les dades</string>
-    <string name="activity_qr_code_title">Codi QR</string>
+    <string name="qrCode">Codi QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneja el codi QR d\'algú altre per a encetar-hi una conversa</string>
     <string name="fragment_view_my_qr_code_title">Escaneja\'m</string>
     <string name="fragment_view_my_qr_code_share_title">Comparteix un codi QR</string>
@@ -447,7 +438,6 @@ d\'intercanvi de claus!</string>
     <string name="dialog_ui_mode_option_system_default">Per defecte del sistema</string>
     <string name="attachment">Adjunt</string>
     <string name="messageVoice">Missatge de veu</string>
-    <string name="details">Detalls</string>
     <string name="dialog_backup_activation_failed">No s\'ha pogut activar la llicència. Torneu-ho a intentar o poseu-vos en contacte amb el servei de suport.</string>
     <string name="activity_backup_restore_title">Restaura la còpia de seguretat</string>
     <string name="activity_backup_restore_select_file">Selecciona un fitxer</string>

@@ -83,10 +83,8 @@
     <string name="DeviceListItem_today">Heddiw</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Gwall wrth estyn GIF cydraniad llawn</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFau</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Sticeri</string>
+    <string name="stickers">Sticeri</string>
     <!-- CropImageActivity -->
     <string name="photo">Afatar</string>
     <!-- InputPanel -->
@@ -116,7 +114,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Pob cyfrwng</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Wedi derbyn neges wedi\'i hamgryptio gan ddefnyddio hen fersiwn o Session nad yw bellach yn cael ei gefnogi. Gofynnwch i\'r anfonwr ddiweddaru i\'r fersiwn ddiweddaraf ac ail-anfon y neges.</string>
+    <string name="messageErrorOld">Wedi derbyn neges wedi\'i hamgryptio gan ddefnyddio hen fersiwn o Session nad yw bellach yn cael ei gefnogi. Gofynnwch i\'r anfonwr ddiweddaru i\'r fersiwn ddiweddaraf ac ail-anfon y neges.</string>
     <string name="MessageRecord_you_updated_group">Rydych chi wedi diweddaru\'r grŵp.</string>
     <string name="MessageRecord_s_updated_group">Mae %s wedi diweddaru\'r grŵp.</string>
     <!-- ExpirationDialog -->
@@ -145,8 +143,7 @@
     <string name="ThreadRecord_you_marked_verified">Eich marcio wedi\'i wirio</string>
     <string name="ThreadRecord_you_marked_unverified">Eich marcio heb ei wirio</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Diweddariad Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Mae fersiwn newydd o Session ar gael. Tapiwch i ddiweddaru.</string>
+    <string name="updateNewVersion">Mae fersiwn newydd o Session ar gael. Tapiwch i ddiweddaru.</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Neges amgryptio gwael</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Neges wedi\'i hamgryptio ar gyfer sesiwn nad yw\'n bodoli</string>
@@ -158,7 +155,7 @@
     <string name="lockAppUnlocked">Mae Session wedi\'i ddatgloi</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Chi</string>
-    <string name="MediaPreviewActivity_draft">Drafft</string>
+    <string name="draft">Drafft</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Methu cadw i storfa allanol heb ganiatâd</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d neges newydd mewn %2$d sgwrs</string>
@@ -175,9 +172,8 @@
     <string name="NotificationChannel_failures">Methiannau</string>
     <string name="NotificationChannel_backups">Copïau wrth gefn</string>
     <string name="lockAppStatus">Statws y clo</string>
-    <string name="NotificationChannel_app_updates">Diweddariadau ap</string>
+    <string name="updateApp">Diweddariadau ap</string>
     <string name="other">Arall</string>
-    <string name="NotificationChannel_missing_display_name">Anhysbys</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Nid yw ymateb cyflym ar gael pan fydd Session wedi\'i gloi!</string>
     <string name="QuickResponseService_problem_sending_message">Anhawster anfon neges!</string>
@@ -240,7 +236,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Chwilio GIFau a sticeri</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Heb ganfod dim.</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Gweld y sgwrs lawn</string>
     <string name="load_more_header__loading">Llwytho</string>
@@ -261,10 +256,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Defnyddio\'r rhagosodedig</string>
     <string name="arrays__use_custom">Defnyddio cyfaddas</string>
-    <string name="arrays__mute_for_one_hour">Tewi am 1 awr</string>
-    <string name="arrays__mute_for_two_hours">Tewi am 2 awr</string>
-    <string name="arrays__mute_for_one_day">Tewi am 1 diwrnod</string>
-    <string name="arrays__mute_for_seven_days">Tewi am 7 diwrnod</string>
+    <string name="notificationsMute1Hour">Tewi am 1 awr</string>
+    <string name="notificationsMute2Hours">Tewi am 2 awr</string>
+    <string name="notificationsMute1Day">Tewi am 1 diwrnod</string>
     <string name="arrays__mute_for_one_year">Tewi am 1 blwyddyn</string>
     <string name="arrays__settings_default">Rhagosodiadau\'r gosodiadau</string>
     <string name="arrays__enabled">Galluogwyd</string>
@@ -293,7 +287,6 @@
     <string name="preferences__screen_security">Diogelu\'r sgrin</string>
     <string name="sessionNotifications">Hysbysiadau</string>
     <string name="notificationsLedColor">Lliw\'r LED</string>
-    <string name="preferences__led_color_unknown">Anhysbys</string>
     <string name="preferences__pref_led_blink_title">Patrwm fflachio\'r LED</string>
     <string name="notificationsSound">Sain</string>
     <string name="preferences__repeat_alerts">Ailadrodd rhybuddion</string>

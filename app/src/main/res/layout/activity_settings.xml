@@ -483,7 +483,7 @@
                 android:layout_marginTop="4dp"
                 android:layout_marginBottom="@dimen/medium_spacing"
                 android:gravity="center"
-                android:text="@string/version_s"
+                android:text="@string/updateVersion"
                 android:textColor="?android:textColorPrimary"
                 android:alpha="0.6"
                 android:textSize="@dimen/very_small_font_size" />

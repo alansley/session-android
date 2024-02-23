@@ -56,9 +56,8 @@
     <string name="DeviceListItem_today">Leo</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Hitilafu wakati wa kurejesha GIF kamili ya azimio</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_stickers">Stika</string>
+    <string name="stickers">Stika</string>
     <!-- CropImageActivity -->
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
@@ -77,7 +76,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Vyombo vyote vya habari</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Imepokea ujumbe uliofichwa kwa kutumia toleo la zamani la Session ambayo haitumiki tena. Tafadhali kumwomba mtumaji kuwasasishe kwa toleo la hivi karibuni na kurejesha ujumbe.</string>
+    <string name="messageErrorOld">Imepokea ujumbe uliofichwa kwa kutumia toleo la zamani la Session ambayo haitumiki tena. Tafadhali kumwomba mtumaji kuwasasishe kwa toleo la hivi karibuni na kurejesha ujumbe.</string>
     <string name="MessageRecord_you_updated_group">Umesasisha kikundi</string>
     <string name="MessageRecord_s_updated_group">1%s amesasisha kikundi</string>
     <!-- ExpirationDialog -->
@@ -104,8 +103,7 @@
     <string name="ThreadRecord_you_marked_verified">umeweka kuthibitishwa?</string>
     <string name="ThreadRecord_you_marked_unverified">umeweka haukuthibitishwa</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session iliyosasishwa</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Toleo jipya la Session inapatikana, bomba ili uhakikishe</string>
+    <string name="updateNewVersion">Toleo jipya la Session inapatikana, bomba ili uhakikishe</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">ujumbe mbaya encrypted</string>
     <!-- MmsMessageRecord -->
@@ -114,7 +112,7 @@
     <string name="lockAppUnlocked">Session imefunguliwa</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Wewe</string>
-    <string name="MediaPreviewActivity_draft">rasimu</string>
+    <string name="draft">rasimu</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">haiwezekani kuhifadhi kwenye external storage  bila ruhusa</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">1%1$d ujumbe mpya kwa  2%2$d mazungumzo</string>
@@ -131,9 +129,8 @@
     <string name="NotificationChannel_failures">Kushindwa</string>
     <string name="NotificationChannel_backups">Rudisha taarifa</string>
     <string name="lockAppStatus">Hali ya kufunga</string>
-    <string name="NotificationChannel_app_updates">Sasisho za programu</string>
+    <string name="updateApp">Sasisho za programu</string>
     <string name="other">ingine</string>
-    <string name="NotificationChannel_missing_display_name">Isiyojulikana</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Jibu la haraka halipatikani wakati Session imefungwa!</string>
     <string name="QuickResponseService_problem_sending_message">Tatizo kutuma ujumbe</string>
@@ -154,7 +151,7 @@
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">eneo</string>
     <string name="attachment_type_selector__location_description">eneo</string>
-    <string name="attachment_type_selector__gif_description">gif</string>
+    <string name="gif">gif</string>
     <string name="attachment_type_selector__gallery_description">picha au video</string>
     <string name="attachment_type_selector__gallery">nyumba ya sanaa</string>
     <string name="attachment_type_selector__drawer_description">Toggle kiambatisho drawer</string>
@@ -189,7 +186,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">tafuta GIF na stika</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">hakuna kilichopatikana</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Angalia mazungumzo yote</string>
     <string name="load_more_header__loading">Kupakia</string>
@@ -210,10 +206,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Tumia chaguo msingi</string>
     <string name="arrays__use_custom">tumia desturi</string>
-    <string name="arrays__mute_for_one_hour">nyamaza kwa saa 1</string>
-    <string name="arrays__mute_for_two_hours">nyamaza kwa masaa 2</string>
-    <string name="arrays__mute_for_one_day">toa sauti kwa siku moja</string>
-    <string name="arrays__mute_for_seven_days">toa sauti kwa siku 7</string>
+    <string name="notificationsMute1Hour">nyamaza kwa saa 1</string>
+    <string name="notificationsMute2Hours">nyamaza kwa masaa 2</string>
+    <string name="notificationsMute1Day">toa sauti kwa siku moja</string>
     <string name="arrays__mute_for_one_year">Simamisha kwa mwaka 1</string>
     <string name="arrays__settings_default">Vipimo vya chaguo msingi</string>
     <string name="arrays__enabled">wezesha</string>
@@ -233,7 +228,6 @@
     <string name="preferences__screen_security">usalamaa wa skrini</string>
     <string name="sessionNotifications">Arifa</string>
     <string name="notificationsLedColor">Rangi za LED</string>
-    <string name="preferences__led_color_unknown">Isiyojulikana</string>
     <string name="preferences__pref_led_blink_title">Mfano wa LED blink</string>
     <string name="notificationsSound">Sauti</string>
     <string name="preferences__repeat_alerts">rudia tahadhari</string>

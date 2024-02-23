@@ -5,7 +5,6 @@
     <string name="no">Не</string>
     <string name="delete">Обриши</string>
     <string name="save">Сачувај</string>
-    <string name="version_s">Верзија %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Нова порука</string>
     <!-- AlbumThumbnailView -->
@@ -82,10 +81,8 @@
     <string name="DeviceListItem_today">Данас</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Грешка при добављању ГИФ сличице пуне резолуције</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">ГИФ сличице</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Налепнице</string>
+    <string name="stickers">Налепнице</string>
     <!-- CropImageActivity -->
     <string name="photo">Слика</string>
     <!-- InputPanel -->
@@ -112,7 +109,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Сви медији</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Примљена је порука шифрована старим издањем Session-a које више није подржано. Замолите пошиљаоца да надогради на најновије издање и поново пошаље поруку.</string>
+    <string name="messageErrorOld">Примљена је порука шифрована старим издањем Session-a које више није подржано. Замолите пошиљаоца да надогради на најновије издање и поново пошаље поруку.</string>
     <string name="MessageRecord_you_updated_group">Ви сте ажурирали групу.</string>
     <string name="MessageRecord_s_updated_group">%s ажурира групу.</string>
     <!-- ExpirationDialog -->
@@ -141,8 +138,7 @@
     <string name="ThreadRecord_you_marked_verified">Означио си као верификовано</string>
     <string name="ThreadRecord_you_marked_unverified">Означио си као неверификовано</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Надоградња Session-a</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Ново издање Session-a је доступно, тапните за надоградњу</string>
+    <string name="updateNewVersion">Ново издање Session-a је доступно, тапните за надоградњу</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Лоше шифрована порука</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Порука шифрована за непостојећу сесију</string>
@@ -154,7 +150,7 @@
     <string name="lockAppUnlocked">Session је откључан</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ви</string>
-    <string name="MediaPreviewActivity_draft">Нацрт</string>
+    <string name="draft">Нацрт</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Сесија треба дозволу за складиште да сачува у спољашње складиште, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Складиште\".</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нових порука у %2$d преписки</string>
@@ -172,9 +168,8 @@
     <string name="NotificationChannel_failures">Грешке</string>
     <string name="NotificationChannel_backups">Резерве</string>
     <string name="lockAppStatus">Закључај статус</string>
-    <string name="NotificationChannel_app_updates">Ажурирања апликације</string>
+    <string name="updateApp">Ажурирања апликације</string>
     <string name="other">Остало</string>
-    <string name="NotificationChannel_missing_display_name">Непозната</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Брзи одговор није доступан ако је Session закључан!</string>
     <string name="QuickResponseService_problem_sending_message">Проблем са слањем поруке!</string>
@@ -200,8 +195,7 @@
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="attachment_type_selector__location">Локација</string>
     <string name="attachment_type_selector__location_description">Локација</string>
-    <string name="attachment_type_selector__gif">ГИФ</string>
-    <string name="attachment_type_selector__gif_description">Гиф</string>
+    <string name="gif">Гиф</string>
     <string name="attachment_type_selector__gallery_description">Слика или видео</string>
     <string name="attachment_type_selector__gallery">Галерија</string>
     <string name="attachment_type_selector__drawer_description">Фиока прилога</string>
@@ -241,7 +235,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Тражите ГИФ сличице и налепнице</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Нема резултата</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Погледај читаву преписку</string>
     <string name="load_more_header__loading">Учитавам</string>
@@ -262,10 +255,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Користи подразумевано</string>
     <string name="arrays__use_custom">Користи посебно</string>
-    <string name="arrays__mute_for_one_hour">Утишај 1 сат</string>
-    <string name="arrays__mute_for_two_hours">Утишај 2 сата</string>
-    <string name="arrays__mute_for_one_day">Утишај 1 дан</string>
-    <string name="arrays__mute_for_seven_days">Утишај 7 сати</string>
+    <string name="notificationsMute1Hour">Утишај 1 сат</string>
+    <string name="notificationsMute2Hours">Утишај 2 сата</string>
+    <string name="notificationsMute1Day">Утишај 1 дан</string>
     <string name="arrays__mute_for_one_year">Утишај 1 годину</string>
     <string name="arrays__settings_default">Подразумевана поставка</string>
     <string name="arrays__enabled">Укључи</string>
@@ -290,7 +282,6 @@
     <string name="preferences__screen_security">Безбедност екрана</string>
     <string name="sessionNotifications">Обавештавање</string>
     <string name="notificationsLedColor">Боја ЛЕД светла</string>
-    <string name="preferences__led_color_unknown">Непозната</string>
     <string name="preferences__pref_led_blink_title">Трептање ЛЕД светла</string>
     <string name="notificationsSound">Звук</string>
     <string name="preferences__repeat_alerts">Понављај обавештења</string>

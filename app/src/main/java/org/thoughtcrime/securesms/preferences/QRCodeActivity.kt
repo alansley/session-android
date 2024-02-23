@@ -39,7 +39,7 @@ class QRCodeActivity : PassphraseRequiredActionBarActivity(), ScanQRCodeWrapperF
         // Set content view
         setContentView(binding.root)
         // Set title
-        supportActionBar!!.title = resources.getString(R.string.activity_qr_code_title)
+        supportActionBar!!.title = resources.getString(R.string.qrCode)
         // Set up view pager
         binding.viewPager.adapter = adapter
         binding.tabLayout.setupWithViewPager(binding.viewPager)

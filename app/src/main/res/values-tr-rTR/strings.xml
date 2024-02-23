@@ -6,7 +6,6 @@
     <string name="delete">Sil</string>
     <string name="save">Kaydet</string>
     <string name="noteToSelf">Kendime Not</string>
-    <string name="version_s">Sürüm %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Yeni ileti</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Bugün</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Tam çözünürlüklü GIF alınırken hata</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFler</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Çıkartmalar</string>
+    <string name="stickers">Çıkartmalar</string>
     <!-- CropImageActivity -->
     <string name="photo">Resim</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Tüm medya</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Artık desteklenmeyen eski bir Signal sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Session\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
+    <string name="messageErrorOld">Artık desteklenmeyen eski bir Signal sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Session\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
     <string name="MessageRecord_you_updated_group">Grubu güncellediniz.</string>
     <string name="MessageRecord_s_updated_group">%s grubu güncelledi.</string>
     <!-- ExpirationDialog -->
@@ -139,8 +136,7 @@ iletisi alındı!</string>
     <string name="ThreadRecord_you_marked_verified">Doğrulanmış olarak işaretlediniz.</string>
     <string name="ThreadRecord_you_marked_unverified">Doğrulanmamış olarak işaretlediniz.</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session güncellemesi</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session\'in yeni sürümü mevcut, güncellemek için dokunun</string>
+    <string name="updateNewVersion">Session\'in yeni sürümü mevcut, güncellemek için dokunun</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Bozuk şifrelenmiş ileti</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">İleti var olmayan bir oturum için şifrelenmiş</string>
@@ -152,7 +148,7 @@ iletisi alındı!</string>
     <string name="lockAppUnlocked">Session kilidi açık</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Siz</string>
-    <string name="MediaPreviewActivity_draft">Taslak</string>
+    <string name="draft">Taslak</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, harici depolamaya kaydetmek için depolama erişimine ihtiyaç duyuyor, ancak kalıcı olarak reddedildi. Lütfen uygulama ayarlarına girin, \"İzinler\"i seçin ve \"Depolama\" özelliğini etkinleştirin.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İzinler olmadan harici depolamaya kaydedilemiyor</string>
     <!-- MessageNotifier -->
@@ -171,9 +167,8 @@ iletisi alındı!</string>
     <string name="NotificationChannel_failures">Hatalar</string>
     <string name="NotificationChannel_backups">Yedekler</string>
     <string name="lockAppStatus">Kilit durumu</string>
-    <string name="NotificationChannel_app_updates">Uygulama güncellemeleri</string>
+    <string name="updateApp">Uygulama güncellemeleri</string>
     <string name="other">Diğer</string>
-    <string name="NotificationChannel_missing_display_name">Bilinmeyen</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session kilitliyken hızlı cevap kullanılamaz!</string>
     <string name="QuickResponseService_problem_sending_message">İleti gönderilirken hata!</string>
@@ -198,8 +193,7 @@ iletisi alındı!</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Konum</string>
     <string name="attachment_type_selector__location_description">Konum</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Görüntü veya video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
     <string name="attachment_type_selector__drawer_description">Ek çekmecesini göster/gizle</string>
@@ -240,7 +234,6 @@ iletisi alındı!</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFleri ve çıkartmaları ara</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Hiçbir şey bulunamadı</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Tüm sohbeti gör</string>
     <string name="load_more_header__loading">Yükleniyor</string>
@@ -261,10 +254,9 @@ iletisi alındı!</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Varsayılanı kullan</string>
     <string name="arrays__use_custom">Özelleştirilmiş kullan</string>
-    <string name="arrays__mute_for_one_hour">1 saatliğine sustur</string>
-    <string name="arrays__mute_for_two_hours">2 saatliğine sustur</string>
-    <string name="arrays__mute_for_one_day">1 günlüğüne sustur</string>
-    <string name="arrays__mute_for_seven_days">7 günlüğüne sustur</string>
+    <string name="notificationsMute1Hour">1 saatliğine sustur</string>
+    <string name="notificationsMute2Hours">2 saatliğine sustur</string>
+    <string name="notificationsMute1Day">1 günlüğüne sustur</string>
     <string name="arrays__mute_for_one_year">1 yıllığına sustur</string>
     <string name="arrays__settings_default">Varsayılan ayarlar</string>
     <string name="arrays__enabled">Etkin</string>
@@ -289,7 +281,6 @@ iletisi alındı!</string>
     <string name="preferences__screen_security">Ekran güvenliği</string>
     <string name="sessionNotifications">Bildirimler</string>
     <string name="notificationsLedColor">LED rengi</string>
-    <string name="preferences__led_color_unknown">Bilinmeyen</string>
     <string name="preferences__pref_led_blink_title">LED yanıp sönme şekli</string>
     <string name="notificationsSound">Zil Sesi</string>
     <string name="preferences__repeat_alerts">Uyarıları tekrarla</string>
@@ -436,7 +427,7 @@ iletisi alındı!</string>
     <string name="useFastMode">Hızlı Modu Kullan</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Cihazın bağlantısını kaldır</string>
     <string name="clearDataAll">Tüm Verileri Temizle</string>
-    <string name="activity_qr_code_title">QR kod</string>
+    <string name="qrCode">QR kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Onlarla sohbet başlatmak için birinin QR kodunu tarayın</string>
     <string name="fragment_view_my_qr_code_title">Beni Tara</string>
     <string name="fragment_view_my_qr_code_share_title">QR kodu paylaş</string>
@@ -455,7 +446,6 @@ iletisi alındı!</string>
     <string name="dialog_ui_mode_option_system_default">Sistem varsayılanı</string>
     <string name="attachment">Ek</string>
     <string name="messageVoice">Sesli mesaj</string>
-    <string name="details">Ayrıntılar</string>
     <string name="dialog_backup_activation_failed">Yedeklemeler etkinleştirilemedi. Lütfen tekrar deneyin veya desteğe başvurun.</string>
     <string name="activity_backup_restore_title">Yedeği geri yükle</string>
     <string name="activity_backup_restore_select_file">Bir dosya seçin</string>

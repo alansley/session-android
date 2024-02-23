@@ -106,7 +106,11 @@ class SettingsActivity : PassphraseRequiredActionBarActivity() {
             helpButton.setOnClickListener { showHelp() }
             seedButton.setOnClickListener { showSeed() }
             clearAllDataButton.setOnClickListener { clearAllData() }
-            versionTextView.text = String.format(getString(R.string.version_s), "${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})")
+
+            // Pre strings replacement original
+            //versionTextView.text = String.format(getString(R.string.updateVersion), "${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})")
+            // New strings replacement version - will need some kind of substitution?
+            versionTextView.text = getString(R.string.updateVersion)
         }
     }
 

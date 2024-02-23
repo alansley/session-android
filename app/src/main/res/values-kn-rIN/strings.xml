@@ -6,7 +6,6 @@
     <string name="delete">ಅಳಿಸಿ ಹಾಕು</string>
     <string name="save">ಉಳಿಸಿ</string>
     <string name="noteToSelf">ನನಗಾಗಿ ಟಿಪ್ಪಣಿ</string>
-    <string name="version_s">%s ಆವೃತ್ತಿ</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">ಹೊಸ ಸಂದೇಶ</string>
     <!-- AlbumThumbnailView -->
@@ -51,8 +50,7 @@
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF ಗಳು</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">ಸ್ಟಿಕರ್‌‌ಗಳು</string>
+    <string name="stickers">ಸ್ಟಿಕರ್‌‌ಗಳು</string>
     <!-- CropImageActivity -->
     <string name="photo">ಚಿತ್ರಪಟ</string>
     <!-- InputPanel -->
@@ -83,7 +81,6 @@
     <string name="NotificationChannel_failures">ವಿಫಲತೆಗಳು</string>
     <string name="NotificationChannel_backups">ಬ್ಯಾಕಪ್ಪುಗಳು</string>
     <string name="other">ಇತರೆ</string>
-    <string name="NotificationChannel_missing_display_name">ಗೊತ್ತಿರದ</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
@@ -98,8 +95,7 @@
     <string name="attachment_type_selector__camera_description">ಕ್ಯಾಮರಾ</string>
     <string name="attachment_type_selector__location">ಸ್ಥಳ</string>
     <string name="attachment_type_selector__location_description">ಸ್ಥಳ</string>
-    <string name="attachment_type_selector__gif">ಗಿಫ್</string>
-    <string name="attachment_type_selector__gif_description">ಗಿಫ್</string>
+    <string name="gif">ಗಿಫ್</string>
     <string name="attachment_type_selector__gallery">ಚಿತ್ರಶಾಲೆ</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
@@ -148,7 +144,6 @@
     <string name="preferences__screen_security">ಪರದೆಯ ಭದ್ರತೆ</string>
     <string name="sessionNotifications">ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="notificationsLedColor">ಎಲಿಡಿ ಬಣ್ಣ</string>
-    <string name="preferences__led_color_unknown">ಗೊತ್ತಿರದ</string>
     <string name="notificationsSound">ಶಬ್ಧ</string>
     <string name="preferences__one_time">ಒಮ್ಮೆ</string>
     <string name="preferences__two_times">ಎರಡು ಬಾರಿ</string>
@@ -212,7 +207,6 @@
     <string name="done">ಆಗಿದೆ</string>
     <string name="dialog_ui_mode_option_day">ಹಗಲು</string>
     <string name="dialog_ui_mode_option_night">ರಾತ್ರಿ</string>
-    <string name="details">ವಿವರಗಳು</string>
     <string name="activity_backup_restore_select_file">ಕಡತವೊಂದನ್ನು ಆಯ್ಕೆಮಾಡು</string>
     <string name="open">ತೆರೆ</string>
     <string name="enable">ಸಕ್ರಿಯಗೊಳಿಸು</string>

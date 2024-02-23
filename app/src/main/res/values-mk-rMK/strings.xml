@@ -52,9 +52,8 @@
     <string name="DeviceListItem_today">ယနေ့ </string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">GIF ပုံ၏ မူရင်းအရည်အသွေးကို ပြသရန်အခက်အခဲရှိ </string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_stickers">စတစ်ကာများ </string>
+    <string name="stickers">စတစ်ကာများ </string>
     <!-- CropImageActivity -->
     <string name="photo">ရုပ်ပုံ</string>
     <!-- InputPanel -->
@@ -71,7 +70,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">ရုပ်/သံ/ပုံ စာများအားလုံး</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ထပ်မံပံ့ပိုးမှုမရှိတော့သော Session ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား signal နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
+    <string name="messageErrorOld">ထပ်မံပံ့ပိုးမှုမရှိတော့သော Session ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား signal နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
     <string name="MessageRecord_you_updated_group">အဖွဲ့အား သင်ပြောင်းလဲမှုပြုလိုက်သည်။</string>
     <string name="MessageRecord_s_updated_group">%s မှအဖွဲ့အား ပြောင်းလဲမှု လုပ်လိုက်သည်။</string>
     <!-- ExpirationDialog -->
@@ -99,8 +98,7 @@
     <string name="ThreadRecord_you_marked_verified">အတည်ပြုကြောင်း သင်မှတ်လိုက်သည်</string>
     <string name="ThreadRecord_you_marked_unverified">အတည်မပြုထားဟု သင်မှတ်လိုက်သည်</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session ဗားရှင်းအသစ်</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session ဗားရှင်းအသစ်ရပါပြီ၊ အဆင့်မြှင့်ရန် နှိပ်လိုက်ပါ</string>
+    <string name="updateNewVersion">Session ဗားရှင်းအသစ်ရပါပြီ၊ အဆင့်မြှင့်ရန် နှိပ်လိုက်ပါ</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">မှားယွင်းစွာ encrypt လုပ်ထားသောစာ</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">ရှိမနေတော့သည့် ဆက်ရှင်အတွက် စာများကို encrpyt လုပ်ထားပါသည်။</string>
@@ -112,7 +110,7 @@
     <string name="lockAppUnlocked">Session ကိုဖွင့်လိုက်ပါပြီ</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">သင်</string>
-    <string name="MediaPreviewActivity_draft">မူကြမ်း</string>
+    <string name="draft">မူကြမ်း</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ခွင့်ပြုချက်မပေးထားပါက အပြင်ဘက်တွင် သိမ်းဆည်း၍မရပါ</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">စကားဝိုင်း %2$d တွင် စာပေါင်း %1$d ရှိသည်။</string>
@@ -128,7 +126,6 @@
     <string name="NotificationChannel_calls">ဖုန်းခေါ်ဆိုမှုများ</string>
     <string name="NotificationChannel_backups">အရံသိမ်းဆည်းမှုများ</string>
     <string name="other">အခြား</string>
-    <string name="NotificationChannel_missing_display_name">မသိ</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session လော့ခ်ကျသွားသည့်အခါ ချက်ချင်းမတုံ့ပြန်နိုင်ပါ!</string>
     <string name="QuickResponseService_problem_sending_message">စာပို့ခြင်းအခက်အခဲ</string>
@@ -180,7 +177,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFs နှင့် စတစ်ကာများကိုရှာဖွေခြင်း</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">ဘာမှ မတွေ့ဘူး</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">ပြောစကားအပြည့်အစုံကိုကြည့်သည် </string>
     <string name="load_more_header__loading">လုပ်ဆောင်နေဆဲ</string>
@@ -201,10 +197,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">မူလကို သုံးပါ</string>
     <string name="arrays__use_custom">အထူးပြုကိုသုံးသည် </string>
-    <string name="arrays__mute_for_one_hour">အသံကို ၁ နာရီ ပိတ်ထားပါ။</string>
-    <string name="arrays__mute_for_two_hours">အသံကို ၂ နာရီ ပိတ်ထားပါ။</string>
-    <string name="arrays__mute_for_one_day">အသံကို ၁ ရက် ပိတ်ထားပါ</string>
-    <string name="arrays__mute_for_seven_days">အသံကို ၇ ရက် ပိတ်ထားပါ။</string>
+    <string name="notificationsMute1Hour">အသံကို ၁ နာရီ ပိတ်ထားပါ။</string>
+    <string name="notificationsMute2Hours">အသံကို ၂ နာရီ ပိတ်ထားပါ။</string>
+    <string name="notificationsMute1Day">အသံကို ၁ ရက် ပိတ်ထားပါ</string>
     <string name="arrays__mute_for_one_year">အသံကို ၁ နှစ် ပိတ်ထားပါ။</string>
     <string name="arrays__settings_default">အပြင်အဆင်များကို မူလသို့</string>
     <string name="arrays__enabled">လုပ်ဆောင်နိုင်သည်</string>
@@ -224,7 +219,6 @@
     <string name="preferences__screen_security">အဖွင့်စာမျက်နှာ လုံခြုံရေး</string>
     <string name="sessionNotifications">အသိပေးချက်များ</string>
     <string name="notificationsLedColor">LED အရောင်</string>
-    <string name="preferences__led_color_unknown">မသိ</string>
     <string name="preferences__pref_led_blink_title">LED လင်းမည့်ပုံစံ</string>
     <string name="notificationsSound">အသံ</string>
     <string name="preferences__repeat_alerts">အသိပေးချက်ကို ထပ်​ပြောပါ</string>

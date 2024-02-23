@@ -69,9 +69,8 @@
     <string name="DeviceListItem_today">ថ្ងៃនេះ</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">មានបញ្ហានៅពេលទាញយករូបភាព GIF ពេញខ្នាត</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_stickers">ស្ទីកគ័រ</string>
+    <string name="stickers">ស្ទីកគ័រ</string>
     <!-- CropImageActivity -->
     <string name="photo">រូបតំណាង</string>
     <!-- InputPanel -->
@@ -96,7 +95,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">ព័ត៌មានទាំងអស់</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Session ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
+    <string name="messageErrorOld">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Session ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
     <string name="MessageRecord_you_updated_group">អ្នកបានធ្វើបច្ចុប្បន្នភាពក្រុម។</string>
     <string name="MessageRecord_s_updated_group">%s បានធ្វើបច្ចុប្បន្នភាពក្រុម។</string>
     <!-- ExpirationDialog -->
@@ -125,8 +124,7 @@
     <string name="ThreadRecord_you_marked_verified">អ្នកបានផ្ទៀងផ្ទាត់</string>
     <string name="ThreadRecord_you_marked_unverified">អ្នកមិនបានផ្ទៀងផ្ទាត់</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">បច្ចុប្បន្នភាព Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">កំណែថ្មីរបស់ Session មានហើយ, ចុច ដើម្បីធ្វើបច្ចុប្បន្នភាព។</string>
+    <string name="updateNewVersion">កំណែថ្មីរបស់ Session មានហើយ, ចុច ដើម្បីធ្វើបច្ចុប្បន្នភាព។</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">សារដែលបានកាណាលកូដសម្ងាត់មិនត្រឹមត្រូវ</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">សារត្រូវបានកាណាល់កូដសម្ងាត់សម្រាប់កំឡុងពេលមិនប្រើប្រាស់</string>
@@ -138,7 +136,7 @@
     <string name="lockAppUnlocked"> Session បានដោះសោ</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">អ្នក</string>
-    <string name="MediaPreviewActivity_draft">ព្រាង</string>
+    <string name="draft">ព្រាង</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">មិនអាចរក្សាទុកក្នុងអង្គរក្សាទុកខាងក្រៅ ដោយគ្មានការអនុញ្ញាត</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d សារថ្មីក្នុង %2$d ការសន្ទនា</string>
@@ -155,9 +153,8 @@
     <string name="NotificationChannel_failures">បរាជ័យ</string>
     <string name="NotificationChannel_backups">បម្រុងទុក</string>
     <string name="lockAppStatus">ស្ថានភាពចាក់សោរ</string>
-    <string name="NotificationChannel_app_updates">បច្ចុប្បន្នភាពកម្មវិធី</string>
+    <string name="updateApp">បច្ចុប្បន្នភាពកម្មវិធី</string>
     <string name="other">ផ្សេងៗ</string>
-    <string name="NotificationChannel_missing_display_name">មិនស្គាល់</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">មិនមានការឆ្លើយតបភ្លាមៗ នៅពេល Session ត្រូវបានចាក់សោរ!</string>
     <string name="QuickResponseService_problem_sending_message">សារដែលបានបញ្ជូនមានបញ្ហា!</string>
@@ -217,7 +214,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">ស្វែករក GIFs និងស្ទីកគ័រ</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">ពុំរកមិនឃើញអ្វីទេ</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">មើលសារសន្ទនាទាំងស្រុង</string>
     <string name="load_more_header__loading">កំពុងផ្ទុក</string>
@@ -238,10 +234,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">ប្រើលំនាំដើម</string>
     <string name="arrays__use_custom">ប្រើផ្សេងៗ</string>
-    <string name="arrays__mute_for_one_hour">បិទសំឡេង 1 ម៉ោង</string>
-    <string name="arrays__mute_for_two_hours">បិទសំឡេង 2 ម៉ោង</string>
-    <string name="arrays__mute_for_one_day">បិទសំឡេង 1 ថ្ងៃ</string>
-    <string name="arrays__mute_for_seven_days">បិទសំឡេង 7 ថ្ងៃ</string>
+    <string name="notificationsMute1Hour">បិទសំឡេង 1 ម៉ោង</string>
+    <string name="notificationsMute2Hours">បិទសំឡេង 2 ម៉ោង</string>
+    <string name="notificationsMute1Day">បិទសំឡេង 1 ថ្ងៃ</string>
     <string name="arrays__mute_for_one_year">បិទសំឡេង 1 ឆ្នាំ</string>
     <string name="arrays__settings_default">ការកំណត់លំនាំដើម</string>
     <string name="arrays__enabled">បានបើក</string>
@@ -265,7 +260,6 @@
     <string name="preferences__screen_security">អេក្រង់សុវត្ថិភាព</string>
     <string name="sessionNotifications">សារជូនដំណឹង</string>
     <string name="notificationsLedColor">ពណ៌​LED</string>
-    <string name="preferences__led_color_unknown">មិនដឹង</string>
     <string name="preferences__pref_led_blink_title">លំនាំលោតភ្លើង LED</string>
     <string name="notificationsSound">សំឡេង</string>
     <string name="preferences__repeat_alerts">ជូនដំណឹងច្រើនដង</string>

@@ -6,7 +6,6 @@
     <string name="delete">Διαγραφή</string>
     <string name="save">Αποθήκευση</string>
     <string name="noteToSelf">Να μην ξεχάσω </string>
-    <string name="version_s">Έκδοση %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Νέο μήνυμα</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Σήμερα</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Πρόβλημα κατά την ανάκτηση της πλήρους ανάλυσης της εικόνας GIF</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">Εικόνες GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Αυτοκόλλητα</string>
+    <string name="stickers">Αυτοκόλλητα</string>
     <!-- CropImageActivity -->
     <string name="photo">Εικόνα Προφίλ</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Όλα τα πολυμέσα</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Λήφθηκε ένα μήνυμα που είναι κρυπτογραφημένο με μια παλιά έκδοση του Session που πλέον δεν υποστηρίζεται. Παρακαλώ ζητήστε από τον αποστολέα να αναβαθμίσει στην πιο πρόσφατη έκδοση και να ξαναστείλει το μήνυμα.</string>
+    <string name="messageErrorOld">Λήφθηκε ένα μήνυμα που είναι κρυπτογραφημένο με μια παλιά έκδοση του Session που πλέον δεν υποστηρίζεται. Παρακαλώ ζητήστε από τον αποστολέα να αναβαθμίσει στην πιο πρόσφατη έκδοση και να ξαναστείλει το μήνυμα.</string>
     <string name="MessageRecord_you_updated_group">Ενημερώσατε την ομάδα</string>
     <string name="MessageRecord_s_updated_group">Ο/Η %s ενημέρωσε την ομάδα.</string>
     <!-- ExpirationDialog -->
@@ -140,8 +137,7 @@
     <string name="ThreadRecord_you_marked_verified">Σημειώσατε ως επιβεβαιωμένο</string>
     <string name="ThreadRecord_you_marked_unverified">Σημειώσατε ως μη επιβεβαιωμένο</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Αναβάθμιση Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Μια νέα έκδοση του Session είναι διαθέσιμη, πατήστε για αναβάθμιση</string>
+    <string name="updateNewVersion">Μια νέα έκδοση του Session είναι διαθέσιμη, πατήστε για αναβάθμιση</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Μήνυμα με πρόβλημα στην κρυπτογράφησή του</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Το μήνυμα κρυπτογραφήθηκε για μη υπάρχον session</string>
@@ -153,7 +149,7 @@
     <string name="lockAppUnlocked">Το Session ξεκλειδώθηκε</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Εσείς</string>
-    <string name="MediaPreviewActivity_draft">Πρόχειρο</string>
+    <string name="draft">Πρόχειρο</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να αποθηκεύσει στην εξωτερική μνήμη, αλλά αυτό έχει μόνιμα αποκλειστεί . Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Αδυναμία αποθήκευσης στην εξωτερική μνήμη χωρίς δικαιώματα</string>
     <!-- MessageNotifier -->
@@ -172,9 +168,8 @@
     <string name="NotificationChannel_failures">Αποτυχίες</string>
     <string name="NotificationChannel_backups">Αντίγραφα ασφαλείας</string>
     <string name="lockAppStatus">Κατάσταση κλειδώματος</string>
-    <string name="NotificationChannel_app_updates">Αναβαθμίσεις εφαρμογής</string>
+    <string name="updateApp">Αναβαθμίσεις εφαρμογής</string>
     <string name="other">Άλλο</string>
-    <string name="NotificationChannel_missing_display_name">Άγνωστο</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Η γρήγορη απάντηση δεν είναι διαθέσιμη όταν το Session είναι κλειδωμένο!</string>
     <string name="QuickResponseService_problem_sending_message">Πρόβλημα με την αποστολή μηνύματος!</string>
@@ -199,8 +194,7 @@
     <string name="attachment_type_selector__camera_description">Κάμερα</string>
     <string name="attachment_type_selector__location">Τοποθεσία</string>
     <string name="attachment_type_selector__location_description">Τοποθεσία</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Εικόνα ή βίντεο</string>
     <string name="attachment_type_selector__gallery">Πινακοθήκη</string>
     <string name="attachment_type_selector__drawer_description">Εναλλαγή συρταριού επισυνημμένων</string>
@@ -241,7 +235,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Αναζήτηση GIFs και αυτοκολλήτων</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Δε βρέθηκε τίποτα</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Προβολή ολόκληρης της συνομιλίας</string>
     <string name="load_more_header__loading">Φορτώνει</string>
@@ -262,10 +255,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Χρήση προκαθορισμένου</string>
     <string name="arrays__use_custom">Χρήση προσαρμοσμένου</string>
-    <string name="arrays__mute_for_one_hour">Σίγαση για 1 ώρα</string>
-    <string name="arrays__mute_for_two_hours">Σίγαση για 2 ώρες</string>
-    <string name="arrays__mute_for_one_day">Σίγαση για 1 ημέρα</string>
-    <string name="arrays__mute_for_seven_days">Σίγαση για 7 ημέρες</string>
+    <string name="notificationsMute1Hour">Σίγαση για 1 ώρα</string>
+    <string name="notificationsMute2Hours">Σίγαση για 2 ώρες</string>
+    <string name="notificationsMute1Day">Σίγαση για 1 ημέρα</string>
     <string name="arrays__mute_for_one_year">Σίγαση για 1 χρόνο</string>
     <string name="arrays__settings_default">Προκαθορισμένες ρυθμίσεις</string>
     <string name="arrays__enabled">Ενεργοποιημένο</string>
@@ -290,7 +282,6 @@
     <string name="preferences__screen_security">Ασφάλεια οθόνης</string>
     <string name="sessionNotifications">Ειδοποιήσεις</string>
     <string name="notificationsLedColor">Χρώμα LED</string>
-    <string name="preferences__led_color_unknown">Άγνωστο</string>
     <string name="preferences__pref_led_blink_title">Μοτίβο αναβοσβησίματος του LED</string>
     <string name="notificationsSound">Ήχος</string>
     <string name="preferences__repeat_alerts">Επανάληψη ειδοποιήσεων</string>
@@ -437,7 +428,7 @@
     <string name="useFastMode">Χρήση Ταχείας Λειτουργίας</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Αποσύνδεση Συσκευής</string>
     <string name="clearDataAll">Εκκαθάριση όλων των δεδομένων</string>
-    <string name="activity_qr_code_title">QR κωδικός</string>
+    <string name="qrCode">QR κωδικός</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Σαρώστε τον κωδικό QR κάποιου για να ξεκινήσετε μια συνομιλία μαζί του</string>
     <string name="fragment_view_my_qr_code_title">Σάρωσέ Με</string>
     <string name="fragment_view_my_qr_code_share_title">Κοινοποίηση κωδικού QR</string>
@@ -456,7 +447,6 @@
     <string name="dialog_ui_mode_option_system_default">Προεπιλογή συστήματος</string>
     <string name="attachment">Συνημμένο</string>
     <string name="messageVoice">Ηχητικό μήνυμα</string>
-    <string name="details">Λεπτομέρειες</string>
     <string name="dialog_backup_activation_failed">Αποτυχία ενεργοποίησης αντιγράφων ασφαλείας. Παρακαλώ δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη.</string>
     <string name="activity_backup_restore_title">Επαναφορά αντίγραφου ασφαλείας</string>
     <string name="activity_backup_restore_select_file">Επιλέξτε ένα αρχείο</string>

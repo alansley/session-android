@@ -6,7 +6,6 @@
     <string name="delete">Usuń</string>
     <string name="save">Zapisz</string>
     <string name="noteToSelf">Moje notatki</string>
-    <string name="version_s">Wersja %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nowa wiadomość</string>
     <!-- AlbumThumbnailView -->
@@ -87,10 +86,8 @@
     <string name="DeviceListItem_today">Dzisiaj</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Błąd podczas pobierania pliku GIF w pełnej rozdzielczości</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">Gify</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Naklejki</string>
+    <string name="stickers">Naklejki</string>
     <!-- CropImageActivity -->
     <string name="photo">Awatar</string>
     <!-- InputPanel -->
@@ -118,7 +115,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Wszystkie multimedia</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Otrzymano zaszyfrowaną wiadomość wysłaną przy użyciu starej wersji Session, która nie jest już wspierana. Poproś nadawcę tej wiadomości o zaktualizowanie aplikacji do najnowszej wersji i przesłanie wiadomości ponownie.</string>
+    <string name="messageErrorOld">Otrzymano zaszyfrowaną wiadomość wysłaną przy użyciu starej wersji Session, która nie jest już wspierana. Poproś nadawcę tej wiadomości o zaktualizowanie aplikacji do najnowszej wersji i przesłanie wiadomości ponownie.</string>
     <string name="MessageRecord_you_updated_group">Zaktualizowałeś(aś) grupę.</string>
     <string name="MessageRecord_s_updated_group">%s zaktualizował(a) grupę.</string>
     <!-- ExpirationDialog -->
@@ -146,8 +143,7 @@
     <string name="ThreadRecord_you_marked_verified">Oznaczyłeś(aś) jako zweryfikowany</string>
     <string name="ThreadRecord_you_marked_unverified">Oznaczyłeś(aś) jako niezweryfikowany</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Aktualizacja Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Dostępna jest nowa wersja Session. Dotknij, aby zaktualizować</string>
+    <string name="updateNewVersion">Dostępna jest nowa wersja Session. Dotknij, aby zaktualizować</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Źle zaszyfrowana wiadomość</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Wiadomość zaszyfrowana dla nieistniejącej sesji</string>
@@ -159,7 +155,7 @@
     <string name="lockAppUnlocked">Session jest odblokowany</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ty</string>
-    <string name="MediaPreviewActivity_draft">Szkic</string>
+    <string name="draft">Szkic</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session wymaga pozwolenia na dostęp do danych telefonu w celu zapisu do pamięci zewnętrznej, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Przechowywanie\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nie można zapisać do pamięci zewnętrznej bez odpowiedniego pozwolenia</string>
     <!-- MessageNotifier -->
@@ -178,9 +174,8 @@
     <string name="NotificationChannel_failures">Awarie</string>
     <string name="NotificationChannel_backups">Kopie zapasowe</string>
     <string name="lockAppStatus">Status blokady</string>
-    <string name="NotificationChannel_app_updates">Aktualizacje aplikacji</string>
+    <string name="updateApp">Aktualizacje aplikacji</string>
     <string name="other">Inny</string>
-    <string name="NotificationChannel_missing_display_name">Nieznany</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Szybka odpowiedź jest niedostępna kiedy Session jest zablokowany!</string>
     <string name="QuickResponseService_problem_sending_message">Wystąpił błąd przy wysyłaniu wiadomości!</string>
@@ -207,8 +202,7 @@
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Lokalizacja</string>
     <string name="attachment_type_selector__location_description">Lokalizacja</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Obraz lub film</string>
     <string name="attachment_type_selector__gallery">Galeria</string>
     <string name="attachment_type_selector__drawer_description">Przełącz listę załączników</string>
@@ -249,7 +243,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Szukaj gifów i naklejek</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nic nie znaleziono</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Zobacz pełną konwersację</string>
     <string name="load_more_header__loading">Ładowanie</string>
@@ -270,10 +263,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Użyj domyślnych</string>
     <string name="arrays__use_custom">Użyj własnych</string>
-    <string name="arrays__mute_for_one_hour">Wycisz na 1 godzinę</string>
-    <string name="arrays__mute_for_two_hours">Wycisz na 2 godziny</string>
-    <string name="arrays__mute_for_one_day">Wycisz na 1 dzień</string>
-    <string name="arrays__mute_for_seven_days">Wycisz na 7 dni</string>
+    <string name="notificationsMute1Hour">Wycisz na 1 godzinę</string>
+    <string name="notificationsMute2Hours">Wycisz na 2 godziny</string>
+    <string name="notificationsMute1Day">Wycisz na 1 dzień</string>
     <string name="arrays__mute_for_one_year">Wycisz na 1 rok</string>
     <string name="arrays__settings_default">Ustawienia domyślne</string>
     <string name="arrays__enabled">Włączone</string>
@@ -300,7 +292,6 @@
     <string name="preferences__screen_security">Ochrona ekranu</string>
     <string name="sessionNotifications">Powiadomienia</string>
     <string name="notificationsLedColor">Kolor LED</string>
-    <string name="preferences__led_color_unknown">Nieznane</string>
     <string name="preferences__pref_led_blink_title">Wzór powiadomień LED</string>
     <string name="notificationsSound">Dźwięk</string>
     <string name="preferences__repeat_alerts">Powtarzaj alarmy</string>
@@ -447,7 +438,7 @@
     <string name="useFastMode">Użyj trybu szybkiego</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odłącz urządzenie</string>
     <string name="clearDataAll">Wyczyść wszystkie dane</string>
-    <string name="activity_qr_code_title">Kod QR</string>
+    <string name="qrCode">Kod QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Zeskanuj czyjś kod QR, aby rozpocząć z nim rozmowę</string>
     <string name="fragment_view_my_qr_code_title">Zeskanuj mnie</string>
     <string name="fragment_view_my_qr_code_share_title">Udostępnij kod QR</string>
@@ -466,7 +457,6 @@
     <string name="dialog_ui_mode_option_system_default">Domyślny dla systemu</string>
     <string name="attachment">Załącznik</string>
     <string name="messageVoice">Wiadomość głosowa</string>
-    <string name="details">Szczegóły</string>
     <string name="dialog_backup_activation_failed">Nie udało się aktywować kopii zapasowych. Spróbuj ponownie lub skontaktuj się z pomocą techniczną.</string>
     <string name="activity_backup_restore_title">Przywróć kopię zapasową</string>
     <string name="activity_backup_restore_select_file">Wybierz plik</string>

@@ -6,7 +6,6 @@
     <string name="delete">Ștergeți</string>
     <string name="save">Salvează</string>
     <string name="noteToSelf">Notă personală</string>
-    <string name="version_s">Versiunea %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Mesaj nou</string>
     <!-- AlbumThumbnailView -->
@@ -84,10 +83,8 @@
     <string name="DeviceListItem_today">Azi</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">A apărut o eroare la obținerea GIF-ului la rezoluție maximă</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF-uri</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Autocolante</string>
+    <string name="stickers">Autocolante</string>
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
@@ -114,7 +111,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Toate fișierele media</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Ai primit un mesaj care a fost criptat cu o versiune mai veche de Session care nu mai este suportată. Roagă-l pe expeditor să-și actualizeze aplicația la ultima versiune și să retrimită mesajul.</string>
+    <string name="messageErrorOld">Ai primit un mesaj care a fost criptat cu o versiune mai veche de Session care nu mai este suportată. Roagă-l pe expeditor să-și actualizeze aplicația la ultima versiune și să retrimită mesajul.</string>
     <string name="MessageRecord_you_updated_group">Ați actualizat grupul.</string>
     <string name="MessageRecord_s_updated_group">%s a actualizat grupul.</string>
     <!-- ExpirationDialog -->
@@ -145,8 +142,7 @@ schimbul de chei este corupt </string>
     <string name="ThreadRecord_you_marked_verified">Ați marcat ca și verificat</string>
     <string name="ThreadRecord_you_marked_unverified">Ați marcat ca și neverificat</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Actualizare Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">O nouă versiune de Session este disponibilă, apasă pentru actualizare</string>
+    <string name="updateNewVersion">O nouă versiune de Session este disponibilă, apasă pentru actualizare</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Mesaj criptat incorect</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Mesaj criptat pentru o sesiune inexistentă</string>
@@ -158,7 +154,7 @@ schimbul de chei este corupt </string>
     <string name="lockAppUnlocked">Session este deblocat</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Tu</string>
-    <string name="MediaPreviewActivity_draft">Ciornă</string>
+    <string name="draft">Ciornă</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session are nevoie de permisiune la spațiul de stocarea externa pentru a salva pe spațiul de stocare extern, dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicațiilor, selectați \"Permisiuni\" și activați \"Spațiu de stocare\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nu se poate salva pe spațiu de stocare extern fără permisiune</string>
     <!-- MessageNotifier -->
@@ -177,9 +173,8 @@ schimbul de chei este corupt </string>
     <string name="NotificationChannel_failures">Erori</string>
     <string name="NotificationChannel_backups">Backup-uri</string>
     <string name="lockAppStatus">Stare blocare</string>
-    <string name="NotificationChannel_app_updates">Actualizări aplicație</string>
+    <string name="updateApp">Actualizări aplicație</string>
     <string name="other">Altul</string>
-    <string name="NotificationChannel_missing_display_name">Necunoscut</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Răspunsul rapid nu este disponibil cât timp Session este blocat!</string>
     <string name="QuickResponseService_problem_sending_message">Problemă la trimiterea mesajului!</string>
@@ -205,8 +200,7 @@ schimbul de chei este corupt </string>
     <string name="attachment_type_selector__camera_description">Cameră</string>
     <string name="attachment_type_selector__location">Locație</string>
     <string name="attachment_type_selector__location_description">Locație</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imagine sau video</string>
     <string name="attachment_type_selector__gallery">Galerie</string>
     <string name="attachment_type_selector__drawer_description">Comutare panou atașamente</string>
@@ -247,7 +241,6 @@ schimbul de chei este corupt </string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Căutați GIF-uri și autocolante</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nu s-a găsit nimic</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Vezi conversația completă.</string>
     <string name="load_more_header__loading">Se încarcă</string>
@@ -268,10 +261,9 @@ schimbul de chei este corupt </string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Implicit</string>
     <string name="arrays__use_custom">Personalizat</string>
-    <string name="arrays__mute_for_one_hour">Fără sunet pentru o oră</string>
-    <string name="arrays__mute_for_two_hours">Fără sunet pentru 2 ore</string>
-    <string name="arrays__mute_for_one_day">Fără sunet pentru o zi</string>
-    <string name="arrays__mute_for_seven_days">Fără sunet pentru 7 zile</string>
+    <string name="notificationsMute1Hour">Fără sunet pentru o oră</string>
+    <string name="notificationsMute2Hours">Fără sunet pentru 2 ore</string>
+    <string name="notificationsMute1Day">Fără sunet pentru o zi</string>
     <string name="arrays__mute_for_one_year">Fără sunet pentru un an</string>
     <string name="arrays__settings_default">Setări implicite</string>
     <string name="arrays__enabled">Activat</string>
@@ -297,7 +289,6 @@ schimbul de chei este corupt </string>
     <string name="preferences__screen_security">Securitate ecran</string>
     <string name="sessionNotifications">Notificări</string>
     <string name="notificationsLedColor">Culoare LED</string>
-    <string name="preferences__led_color_unknown">Necunoscut</string>
     <string name="preferences__pref_led_blink_title">Tipar de clipire LED</string>
     <string name="notificationsSound">Sunet</string>
     <string name="preferences__repeat_alerts">Repetă alerte</string>

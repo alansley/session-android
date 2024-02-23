@@ -6,7 +6,6 @@
     <string name="delete">حذف</string>
     <string name="save">ذخیره</string>
     <string name="noteToSelf">یادداشت به خود</string>
-    <string name="version_s">نسخه</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">پیام جدید</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">امروز</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">خطا در هنگام دریافت GIF با کیفیت کامل</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">گیف ها</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">استیکر ها</string>
+    <string name="stickers">استیکر ها</string>
     <!-- CropImageActivity -->
     <string name="photo">تصویر پروفایل</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">تمام رسانه ها</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">یک پیام رمزنگاری شده با استفاده از نسخه‌ای قدیمی از Signal که دیگر پشتیبانی نمی‌شود برایتان ارسال شده است، لطفاً از فرستنده بخواهید نرم‌افزار Session خود را به آخرین نسخه بروزرسانی کرده و مجدداً پیام را برای شما ارسال کند.</string>
+    <string name="messageErrorOld">یک پیام رمزنگاری شده با استفاده از نسخه‌ای قدیمی از Signal که دیگر پشتیبانی نمی‌شود برایتان ارسال شده است، لطفاً از فرستنده بخواهید نرم‌افزار Session خود را به آخرین نسخه بروزرسانی کرده و مجدداً پیام را برای شما ارسال کند.</string>
     <string name="MessageRecord_you_updated_group">شما گروه را بروزرسانی کردید</string>
     <string name="MessageRecord_s_updated_group">%s گروه را بروزرسانی کرد</string>
     <!-- ExpirationDialog -->
@@ -139,8 +136,7 @@
     <string name="ThreadRecord_you_marked_verified">شما به عنوان تایید شده علامت زدید</string>
     <string name="ThreadRecord_you_marked_unverified">شما به عنوان تایید نشده علامت زدید</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">بروزرسانی Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">نسخه جدید Session در دسترس است، برای آپدیت اینجا را تپ کنید</string>
+    <string name="updateNewVersion">نسخه جدید Session در دسترس است، برای آپدیت اینجا را تپ کنید</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">پیام بد رمزگذاری شده</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">پیام ها، برای نشست های غیر موجود رمزنگاری شده اند</string>
@@ -152,7 +148,7 @@
     <string name="lockAppUnlocked">Session قفل شده است</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">شما</string>
-    <string name="MediaPreviewActivity_draft">پیش نویس</string>
+    <string name="draft">پیش نویس</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session برای ذخیره در حافظه‌ی خارجی نیاز به دسترسی به حافظه دارد اما این دسترسی به طور همیشگی رد شده است. لطفا به بخش برنامه در تنظیمات تلفن همراه خود رفته و پس از یافتن Session وارد بخش دسترسی ها شده و گزینه حافظه را فعال کنید.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">نمی‌توان بدون دسترسی‌ها در حافظه‌ی خارجی ذخیره‌سازی نمود</string>
     <!-- MessageNotifier -->
@@ -171,9 +167,8 @@
     <string name="NotificationChannel_failures">شکست‌ها</string>
     <string name="NotificationChannel_backups">پشتیبان ها</string>
     <string name="lockAppStatus">وضعیت قفل</string>
-    <string name="NotificationChannel_app_updates">به‌روزآوری‌های برنامه</string>
+    <string name="updateApp">به‌روزآوری‌های برنامه</string>
     <string name="other">دیگر</string>
-    <string name="NotificationChannel_missing_display_name">ناشناخته</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">پاسخگوی سریع هنگامی که نرم‌افزار Session قفل باشد غیرفعال می‌شود.</string>
     <string name="QuickResponseService_problem_sending_message">بروز خطا در ارسال پیام!</string>
@@ -198,8 +193,7 @@
     <string name="attachment_type_selector__camera_description">دوربین</string>
     <string name="attachment_type_selector__location">موقعیت</string>
     <string name="attachment_type_selector__location_description">موقعیت</string>
-    <string name="attachment_type_selector__gif">گیف</string>
-    <string name="attachment_type_selector__gif_description">گیف</string>
+    <string name="gif">گیف</string>
     <string name="attachment_type_selector__gallery_description">تصویر با ویدئو</string>
     <string name="attachment_type_selector__gallery">گالری</string>
     <string name="attachment_type_selector__drawer_description">تغییر حالت نگه دارنده پیوست</string>
@@ -240,7 +234,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">جست‌وجوی فایل گیف و استیکر</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">چیزی یافت نشد</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">گفتگو کامل را ببینید</string>
     <string name="load_more_header__loading">در حال بارگذاری</string>
@@ -261,10 +254,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">استفاده از پیش فرض</string>
     <string name="arrays__use_custom">استفاده از سفارشی</string>
-    <string name="arrays__mute_for_one_hour">بی صدا به مدت 1 ساعت</string>
-    <string name="arrays__mute_for_two_hours">بی صدا به مدت 2 ساعت</string>
-    <string name="arrays__mute_for_one_day">بی صدا برای 1 روز</string>
-    <string name="arrays__mute_for_seven_days">بی صدا به مدت 7 روز</string>
+    <string name="notificationsMute1Hour">بی صدا به مدت 1 ساعت</string>
+    <string name="notificationsMute2Hours">بی صدا به مدت 2 ساعت</string>
+    <string name="notificationsMute1Day">بی صدا برای 1 روز</string>
     <string name="arrays__mute_for_one_year">بی صدا برای 1 سال</string>
     <string name="arrays__settings_default">تنظیمات پیش فرض</string>
     <string name="arrays__enabled">فعال</string>
@@ -289,7 +281,6 @@
     <string name="preferences__screen_security">محافظ صفحه نمایش</string>
     <string name="sessionNotifications">اطلاعیه‌ها</string>
     <string name="notificationsLedColor">رنگ چراغ ال‌ای‌دی</string>
-    <string name="preferences__led_color_unknown">ناشناخته</string>
     <string name="preferences__pref_led_blink_title">الگوی چشمک زدن</string>
     <string name="notificationsSound">زنگ</string>
     <string name="preferences__repeat_alerts">تکرار هشدار</string>
@@ -436,7 +427,7 @@
     <string name="useFastMode">استفاده از حالت سریع</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">قطع اتصال دستگاه</string>
     <string name="clearDataAll">پاک کردن همه داده‌ها</string>
-    <string name="activity_qr_code_title">کد QR</string>
+    <string name="qrCode">کد QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">برای شروع مکالمه با دیگران، کد QR شخصی را اسکن کنید</string>
     <string name="fragment_view_my_qr_code_title">مرا اسکن کن</string>
     <string name="fragment_view_my_qr_code_share_title">کد QR را به اشتراک بگذارید</string>
@@ -455,7 +446,6 @@
     <string name="dialog_ui_mode_option_system_default">پیش فرض سیستم</string>
     <string name="attachment">پیوست</string>
     <string name="messageVoice">پیام صوتی</string>
-    <string name="details">جزئيات</string>
     <string name="dialog_backup_activation_failed">فعال‌سازی پشتیبان‌ها شکست خورد. لطفا دوباره امتحان کنید یا با پشتیبانی تماس بگیرید.</string>
     <string name="activity_backup_restore_title">بازگردانی پشتیبان</string>
     <string name="activity_backup_restore_select_file">انتخاب فایل</string>

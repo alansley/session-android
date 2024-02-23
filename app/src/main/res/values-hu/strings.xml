@@ -6,7 +6,6 @@
     <string name="delete">Törlés</string>
     <string name="save">Mentés</string>
     <string name="noteToSelf">Privát feljegyzés</string>
-    <string name="version_s">Verzió %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Új üzenet</string>
     <!-- AlbumThumbnailView -->
@@ -82,10 +81,8 @@
     <string name="DeviceListItem_today">Ma</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Hiba történt a teljes felbontású GIF letöltése során</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF-ek</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Matricák</string>
+    <string name="stickers">Matricák</string>
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
@@ -111,7 +108,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Összes médiafájl</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Egy olyan üzenet érkezett, amely a Session egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
+    <string name="messageErrorOld">Egy olyan üzenet érkezett, amely a Session egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
     <string name="MessageRecord_you_updated_group">Frissítetted a csoportot.</string>
     <string name="MessageRecord_s_updated_group">%s frissítette a csoportot.</string>
     <!-- ExpirationDialog -->
@@ -141,8 +138,7 @@
     <string name="ThreadRecord_you_marked_verified">Megerősítettnek jelölted</string>
     <string name="ThreadRecord_you_marked_unverified">Megerősítetlennek jelölted</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session frissítés</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A Session egy új verziója érhető el, koppints a frissítéshez</string>
+    <string name="updateNewVersion">A Session egy új verziója érhető el, koppints a frissítéshez</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Hibás titkosított üzenet</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Az üzenet nem létező munkamenethez lett titkosítva</string>
@@ -154,7 +150,7 @@
     <string name="lockAppUnlocked">Session feloldva</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Te</string>
-    <string name="MediaPreviewActivity_draft">Piszkozat</string>
+    <string name="draft">Piszkozat</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">A Session- nek szüksége van fájlhozzáférési engedélyekhez, hogy menteni tudjon külső tárhelyre. Kérlek, hogy a rendszerbeállításokban engedélyezd a \"fájlok és média\" opciót a Session számára.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nem lehet engedély nélkül menteni a külső tárolóra</string>
     <!-- MessageNotifier -->
@@ -173,9 +169,8 @@
     <string name="NotificationChannel_failures">Hibák</string>
     <string name="NotificationChannel_backups">Biztonsági mentések</string>
     <string name="lockAppStatus">Zár státusza</string>
-    <string name="NotificationChannel_app_updates">App frissítések</string>
+    <string name="updateApp">App frissítések</string>
     <string name="other">Egyéb</string>
-    <string name="NotificationChannel_missing_display_name">Ismeretlen</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">A gyors válasz nem érhető el, ha a Session zárolva van!</string>
     <string name="QuickResponseService_problem_sending_message">Probléma lépett fel az üzenet küldése során!</string>
@@ -200,8 +195,7 @@
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Hely</string>
     <string name="attachment_type_selector__location_description">Hely</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Kép vagy videó</string>
     <string name="attachment_type_selector__gallery">Galéria</string>
     <string name="attachment_type_selector__drawer_description">Mellékletcsatoló kapcsoló</string>
@@ -242,7 +236,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFek és matricák keresése</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nincs találat</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Teljes beszélgetés megtekintése</string>
     <string name="load_more_header__loading">Betöltés</string>
@@ -263,10 +256,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Alapértelmezett használata</string>
     <string name="arrays__use_custom">Egyéni használata</string>
-    <string name="arrays__mute_for_one_hour">Némítás 1 órára</string>
-    <string name="arrays__mute_for_two_hours">Némítás 2 órára</string>
-    <string name="arrays__mute_for_one_day">Némítás 1 napra</string>
-    <string name="arrays__mute_for_seven_days">Némítás 7 napra</string>
+    <string name="notificationsMute1Hour">Némítás 1 órára</string>
+    <string name="notificationsMute2Hours">Némítás 2 órára</string>
+    <string name="notificationsMute1Day">Némítás 1 napra</string>
     <string name="arrays__mute_for_one_year">Némítás 1 évre</string>
     <string name="arrays__settings_default">Alapértelmezett beállítások</string>
     <string name="arrays__enabled">Engedélyezve</string>
@@ -291,7 +283,6 @@
     <string name="preferences__screen_security">Képernyőbiztonság</string>
     <string name="sessionNotifications">Értesítések</string>
     <string name="notificationsLedColor">LED színe</string>
-    <string name="preferences__led_color_unknown">Ismeretlen</string>
     <string name="preferences__pref_led_blink_title">LED villogás mintázata</string>
     <string name="notificationsSound">Hang</string>
     <string name="preferences__repeat_alerts">Figyelmeztetések ismétlése</string>
@@ -438,7 +429,7 @@
     <string name="useFastMode">Használja a Gyors módot</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Eszköz társításának megszüntetése</string>
     <string name="clearDataAll">Az összes adat törlése</string>
-    <string name="activity_qr_code_title">QR kód</string>
+    <string name="qrCode">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Olvassa be valaki QR kódját, hogy beszélgetést kezdhessen vele</string>
     <string name="fragment_view_my_qr_code_title">Szkennelj be</string>
     <string name="fragment_view_my_qr_code_share_title">QR Code megosztása</string>
@@ -457,7 +448,6 @@
     <string name="dialog_ui_mode_option_system_default">Alapértelmezett</string>
     <string name="attachment">Csatolmány</string>
     <string name="messageVoice">Hangüzenet</string>
-    <string name="details">Részletek</string>
     <string name="dialog_backup_activation_failed">Nem sikerült aktiválni a biztonsági mentéseket. Kérjük, próbálja újra, vagy lépjen kapcsolatba az ügyfélszolgálattal.</string>
     <string name="activity_backup_restore_title">Biztonsági mentés visszaállítása</string>
     <string name="activity_backup_restore_select_file">Fájl kiválasztása</string>

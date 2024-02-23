@@ -6,7 +6,6 @@
     <string name="delete">Skrap</string>
     <string name="save">Stoor</string>
     <string name="noteToSelf">Nota aan jouself</string>
-    <string name="version_s">Weergawe %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nuwe boodskap</string>
     <!-- AlbumThumbnailView -->
@@ -63,7 +62,6 @@
     <!-- MediaPreviewActivity -->
     <!-- MessageNotifier -->
     <!-- Notification Channels -->
-    <string name="NotificationChannel_missing_display_name">Onbekend</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
     <string name="saved">Gestoor</string>

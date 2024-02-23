@@ -6,7 +6,6 @@
     <string name="delete">Ištrinti</string>
     <string name="save">Įrašyti</string>
     <string name="noteToSelf">Pastabos sau</string>
-    <string name="version_s">Versija %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nauja žinutė</string>
     <!-- AlbumThumbnailView -->
@@ -86,10 +85,8 @@
     <string name="DeviceListItem_today">Šiandien</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Klaida, gaunant pilnos raiškos GIF</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Paveiksliukai</string>
+    <string name="stickers">Paveiksliukai</string>
     <!-- CropImageActivity -->
     <string name="photo">Avataras</string>
     <!-- InputPanel -->
@@ -117,7 +114,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Visa medija</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Gauta žinutė buvo užšifruota, naudojant seną Session versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
+    <string name="messageErrorOld">Gauta žinutė buvo užšifruota, naudojant seną Session versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
     <string name="MessageRecord_you_updated_group">Jūs atnaujinote grupę.</string>
     <string name="MessageRecord_s_updated_group">%s atnaujino grupę.</string>
     <!-- ExpirationDialog -->
@@ -147,8 +144,7 @@
     <string name="ThreadRecord_you_marked_verified">Jūs pažymėjote patvirtintu</string>
     <string name="ThreadRecord_you_marked_unverified">Jūs pažymėjote nepatvirtintu</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session atnaujinimas</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja Session versija, bakstelėkite, norėdami atnaujinti</string>
+    <string name="updateNewVersion">Yra prieinama nauja Session versija, bakstelėkite, norėdami atnaujinti</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Blogai šifruota žinutė</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Žinutė šifruota seansui, kurio nėra</string>
@@ -160,7 +156,7 @@
     <string name="lockAppUnlocked">Session yra atrakinta</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Jūs</string>
-    <string name="MediaPreviewActivity_draft">Juodraštis</string>
+    <string name="draft">Juodraštis</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nepavyksta įrašyti į išorinę saugyklą be leidimų</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d naujų(-os) žinutės(-ių) %2$d pokalbyje(-iuose)</string>
@@ -178,9 +174,8 @@
     <string name="NotificationChannel_failures">Nesėkmės</string>
     <string name="NotificationChannel_backups">Atsarginės kopijos</string>
     <string name="lockAppStatus">Užrakinimo būsena</string>
-    <string name="NotificationChannel_app_updates">Programėlės atnaujinimai</string>
+    <string name="updateApp">Programėlės atnaujinimai</string>
     <string name="other">Kitas</string>
-    <string name="NotificationChannel_missing_display_name">Nežinoma</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Spartusis atsakymas neprieinamas, kai Session yra užrakinta!</string>
     <string name="QuickResponseService_problem_sending_message">Problemos siunčiant žinutę!</string>
@@ -207,8 +202,7 @@
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Vieta</string>
     <string name="attachment_type_selector__location_description">Vieta</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Paveikslas ar vaizdo įrašas</string>
     <string name="attachment_type_selector__gallery">Galerija</string>
     <string name="attachment_type_selector__drawer_description">Perjungti priedų stalčių</string>
@@ -248,7 +242,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Ieškoti GIF ir paveikslėlių</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nieko nerasta</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Rodyti visą pokalbį</string>
     <string name="load_more_header__loading">Įkeliama</string>
@@ -269,10 +262,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Naudoti numatytąjį</string>
     <string name="arrays__use_custom">Naudoti tinkintą</string>
-    <string name="arrays__mute_for_one_hour">Nutildyti 1 valandai</string>
-    <string name="arrays__mute_for_two_hours">Nutildyti 2 valandoms</string>
-    <string name="arrays__mute_for_one_day">Nutildyti 1 dienai</string>
-    <string name="arrays__mute_for_seven_days">Nutildyti 7 dienoms</string>
+    <string name="notificationsMute1Hour">Nutildyti 1 valandai</string>
+    <string name="notificationsMute2Hours">Nutildyti 2 valandoms</string>
+    <string name="notificationsMute1Day">Nutildyti 1 dienai</string>
     <string name="arrays__mute_for_one_year">Nutildyti 1 metams</string>
     <string name="arrays__settings_default">Pagal nustatymų numatymą</string>
     <string name="arrays__enabled">Įjungta</string>
@@ -299,7 +291,6 @@
     <string name="preferences__screen_security">Ekrano saugumas</string>
     <string name="sessionNotifications">Pranešimai</string>
     <string name="notificationsLedColor">Šviesos diodo spalva</string>
-    <string name="preferences__led_color_unknown">Nežinoma</string>
     <string name="preferences__pref_led_blink_title">Šviesos diodo mirksėjimo šablonas</string>
     <string name="notificationsSound">Garsas</string>
     <string name="preferences__repeat_alerts">Kartoti įspėjimus</string>
@@ -437,7 +428,7 @@
     <string name="useFastMode">Naudoti greitą veikseną</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Atsieti įrenginį</string>
     <string name="clearDataAll">Išvalyti visus duomenis</string>
-    <string name="activity_qr_code_title">QR kodas</string>
+    <string name="qrCode">QR kodas</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Nuskenuokite kieno nors QR kodą, kad pradėtumėte su juo pokalbį</string>
     <string name="fragment_view_my_qr_code_title">Skenuokite mane</string>
     <string name="contactsContacts">Adresatai</string>
@@ -453,7 +444,6 @@
     <string name="dialog_ui_mode_option_system_default">Sistemos numatytasis</string>
     <string name="attachment">Priedas</string>
     <string name="messageVoice">Balso žinutė</string>
-    <string name="details">Išsamiau</string>
     <string name="dialog_backup_activation_failed">Nepavyko aktyvuoti atsarginių kopijų. Bandykite dar kartą arba susisiekite su palaikymu.</string>
     <string name="activity_backup_restore_title">Atkurti atsarginę kopiją</string>
     <string name="communityJoinOfficial">Arba prisijunkite prie vienos iš šių…</string>

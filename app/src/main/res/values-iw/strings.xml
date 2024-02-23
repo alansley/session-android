@@ -6,7 +6,6 @@
     <string name="delete">מחק</string>
     <string name="save">שמור</string>
     <string name="noteToSelf">הערה לעצמי</string>
-    <string name="version_s">גרסה %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">הודעה חדשה</string>
     <!-- AlbumThumbnailView -->
@@ -85,10 +84,8 @@
     <string name="DeviceListItem_today">היום</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">שגיאה בעת אחזור קובץ GIF ברזולוציה מלאה</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">קבצי GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">מדבקות</string>
+    <string name="stickers">מדבקות</string>
     <!-- CropImageActivity -->
     <string name="photo">יצגן</string>
     <!-- InputPanel -->
@@ -116,7 +113,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">כל המדיה</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">התקבלה הודעה מוצפנת ע\"י שימוש בגרסה ישנה של Session שאינה נתמכת יותר. אנא בקש מהשולח לעדכן אל הגרסה העדכנית ביותר ולשלוח מחדש את ההודעה.</string>
+    <string name="messageErrorOld">התקבלה הודעה מוצפנת ע\"י שימוש בגרסה ישנה של Session שאינה נתמכת יותר. אנא בקש מהשולח לעדכן אל הגרסה העדכנית ביותר ולשלוח מחדש את ההודעה.</string>
     <string name="MessageRecord_you_updated_group">עדכנת את הקבוצה.</string>
     <string name="MessageRecord_s_updated_group">%s עדכן את הקבוצה</string>
     <!-- ExpirationDialog -->
@@ -145,8 +142,7 @@
     <string name="ThreadRecord_you_marked_verified">סימנת כמוודא</string>
     <string name="ThreadRecord_you_marked_unverified">סימנת כבלתי מוודא</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">עדכון Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">גרסה חדשה של Session זמינה, הקש כדי לעדכן</string>
+    <string name="updateNewVersion">גרסה חדשה של Session זמינה, הקש כדי לעדכן</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">הודעה מוצפנת באופן גרוע</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">הודעה הוצפנה עבור שיח בלתי־קיים</string>
@@ -158,7 +154,7 @@
     <string name="lockAppUnlocked">Session אינו נעול</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">אתה</string>
-    <string name="MediaPreviewActivity_draft">טיוטה</string>
+    <string name="draft">טיוטה</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">לא היה ניתן לשמור באחסון חיצוני ללא הרשאות</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d הודעות חדשות ב־%2$d שיחות</string>
@@ -176,9 +172,8 @@
     <string name="NotificationChannel_failures">כישלונות</string>
     <string name="NotificationChannel_backups">גיבויים</string>
     <string name="lockAppStatus">מעמד נעילה</string>
-    <string name="NotificationChannel_app_updates">עדכוני יישום</string>
+    <string name="updateApp">עדכוני יישום</string>
     <string name="other">אחר</string>
-    <string name="NotificationChannel_missing_display_name">לא ידוע</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">תגובה מהירה אינה זמינה כאשר Session נעול!</string>
     <string name="QuickResponseService_problem_sending_message">בעיה בשליחת הודעה!</string>
@@ -205,8 +200,7 @@
     <string name="attachment_type_selector__camera_description">מצלמה</string>
     <string name="attachment_type_selector__location">מיקום</string>
     <string name="attachment_type_selector__location_description">מיקום</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">GIF</string>
+    <string name="gif">GIF</string>
     <string name="attachment_type_selector__gallery_description">תמונה או וידיאו</string>
     <string name="attachment_type_selector__gallery">גלריה</string>
     <string name="attachment_type_selector__drawer_description">עורר מגירת צרופות</string>
@@ -245,7 +239,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">חיפוש קבצי GIF ומדבקות</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">לא נמצא דבר</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">ראה שיחה מלאה</string>
     <string name="load_more_header__loading">טוען</string>
@@ -266,10 +259,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">השתמש בברירת מחדל</string>
     <string name="arrays__use_custom">השתמש במותאם אישית</string>
-    <string name="arrays__mute_for_one_hour">השתק למשך שעה</string>
-    <string name="arrays__mute_for_two_hours">השתק למשך שעתיים</string>
-    <string name="arrays__mute_for_one_day">השתק למשך יום 1</string>
-    <string name="arrays__mute_for_seven_days">השתק למשך 7 ימים</string>
+    <string name="notificationsMute1Hour">השתק למשך שעה</string>
+    <string name="notificationsMute2Hours">השתק למשך שעתיים</string>
+    <string name="notificationsMute1Day">השתק למשך יום 1</string>
     <string name="arrays__mute_for_one_year">השתק למשך שנה</string>
     <string name="arrays__settings_default">הגדרות ברירת מחדל</string>
     <string name="arrays__enabled">מאופשר</string>
@@ -296,7 +288,6 @@
     <string name="preferences__screen_security">אבטחת מסך</string>
     <string name="sessionNotifications">התראות</string>
     <string name="notificationsLedColor">צבע LED</string>
-    <string name="preferences__led_color_unknown">לא ידוע</string>
     <string name="preferences__pref_led_blink_title">תבנית הבהוב LED</string>
     <string name="notificationsSound">קול</string>
     <string name="preferences__repeat_alerts">התראות חוזרות</string>

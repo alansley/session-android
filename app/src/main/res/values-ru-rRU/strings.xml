@@ -6,7 +6,6 @@
     <string name="delete">Удалить</string>
     <string name="save">Сохранить</string>
     <string name="noteToSelf">Заметка для себя</string>
-    <string name="version_s">Версия %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Новое сообщение</string>
     <!-- AlbumThumbnailView -->
@@ -87,10 +86,8 @@
     <string name="DeviceListItem_today">Сегодня</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Ошибка при получении полноразмерного GIF</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF-анимации</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Стикеры</string>
+    <string name="stickers">Стикеры</string>
     <!-- CropImageActivity -->
     <string name="photo">Аватар</string>
     <!-- InputPanel -->
@@ -118,7 +115,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Все медиафайлы</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Полученное сообщение зашифровано в старой версии Session, которая больше не поддерживается. Пожалуйста, попросите отправителя обновиться до последней версии и отправить сообщение заново.</string>
+    <string name="messageErrorOld">Полученное сообщение зашифровано в старой версии Session, которая больше не поддерживается. Пожалуйста, попросите отправителя обновиться до последней версии и отправить сообщение заново.</string>
     <string name="MessageRecord_you_updated_group">Вы обновили группу.</string>
     <string name="MessageRecord_s_updated_group">%s обновил(а) группу.</string>
     <!-- ExpirationDialog -->
@@ -148,8 +145,7 @@
     <string name="ThreadRecord_you_marked_verified">Верифицировано вами</string>
     <string name="ThreadRecord_you_marked_unverified">Верификация отменена вами</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Обновление Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Доступна новая версия Session. Нажмите для обновления</string>
+    <string name="updateNewVersion">Доступна новая версия Session. Нажмите для обновления</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Неправильно зашифрованное сообщение</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Сообщение зашифровано для несуществующей сессии</string>
@@ -161,7 +157,7 @@
     <string name="lockAppUnlocked">Session разблокирован</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Вы</string>
-    <string name="MediaPreviewActivity_draft">Черновик</string>
+    <string name="draft">Черновик</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Для сохранения во внешнее хранилище приложению Session требуется доступ к хранилищу, однако это разрешение было вами безвозвратно отклонено. Чтобы предоставить это разрешение вручную заново, перейдите в настройки вашего устройства в раздел «Приложения», найдите Session, выберите «Разрешения», и разрешите «Файлы и медиаконтент».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Не удается сохранить во внешнем хранилище. Доступ запрещен</string>
     <!-- MessageNotifier -->
@@ -180,9 +176,8 @@
     <string name="NotificationChannel_failures">Сбои</string>
     <string name="NotificationChannel_backups">Резервные копии</string>
     <string name="lockAppStatus">Статус блокировки</string>
-    <string name="NotificationChannel_app_updates">Обновления приложений</string>
+    <string name="updateApp">Обновления приложений</string>
     <string name="other">Другое</string>
-    <string name="NotificationChannel_missing_display_name">Неизвестный</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Быстрые ответы недоступны, когда Session заблокирован!</string>
     <string name="QuickResponseService_problem_sending_message">Проблема при отправке сообщения!</string>
@@ -209,8 +204,7 @@
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="attachment_type_selector__location">Место</string>
     <string name="attachment_type_selector__location_description">Место</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Изображение или видео</string>
     <string name="attachment_type_selector__gallery">Галерея</string>
     <string name="attachment_type_selector__drawer_description">Показать панель вложений</string>
@@ -251,7 +245,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Найти GIF-анимации и стикеры</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Ничего не найдено</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Посмотреть весь разговор</string>
     <string name="load_more_header__loading">Загрузка</string>
@@ -272,10 +265,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Использовать настройку по умолчанию</string>
     <string name="arrays__use_custom">Использовать пользовательскую настройку</string>
-    <string name="arrays__mute_for_one_hour">Отключить звук на 1 час</string>
-    <string name="arrays__mute_for_two_hours">Отключить звук на 2 часа</string>
-    <string name="arrays__mute_for_one_day">Отключить звук на 1 день</string>
-    <string name="arrays__mute_for_seven_days">Отключить звук на 7 дней</string>
+    <string name="notificationsMute1Hour">Отключить звук на 1 час</string>
+    <string name="notificationsMute2Hours">Отключить звук на 2 часа</string>
+    <string name="notificationsMute1Day">Отключить звук на 1 день</string>
     <string name="arrays__mute_for_one_year">Отключить звук на 1 год</string>
     <string name="arrays__settings_default">Настройки по умолчанию</string>
     <string name="arrays__enabled">Включено</string>
@@ -302,7 +294,6 @@
     <string name="preferences__screen_security">Защита экрана</string>
     <string name="sessionNotifications">Уведомления</string>
     <string name="notificationsLedColor">Цвет светодиода</string>
-    <string name="preferences__led_color_unknown">Неизвестен</string>
     <string name="preferences__pref_led_blink_title">Мигание светодиода</string>
     <string name="notificationsSound">Мелодия</string>
     <string name="preferences__repeat_alerts">Повторять сигналы</string>
@@ -449,7 +440,7 @@
     <string name="useFastMode">Использовать быстрый режим</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Отключить устройство</string>
     <string name="clearDataAll">Очистить все данные</string>
-    <string name="activity_qr_code_title">QR-код</string>
+    <string name="qrCode">QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Отсканируйте QR-код другого человека, чтобы начать с ним разговор</string>
     <string name="fragment_view_my_qr_code_title">Сканировать меня</string>
     <string name="fragment_view_my_qr_code_share_title">Поделиться QR-кодом</string>
@@ -468,7 +459,6 @@
     <string name="dialog_ui_mode_option_system_default">Системные настройки</string>
     <string name="attachment">Вложение</string>
     <string name="messageVoice">Голосовое сообщение</string>
-    <string name="details">Подробности</string>
     <string name="dialog_backup_activation_failed">Не удалось активировать резервные копии. Пожалуйста, попробуйте еще раз или обратитесь в службу поддержки.</string>
     <string name="activity_backup_restore_title">Восстановление резервной копии</string>
     <string name="activity_backup_restore_select_file">Выбрать файл</string>

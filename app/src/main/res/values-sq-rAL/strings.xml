@@ -6,7 +6,6 @@
     <string name="delete">Fshije</string>
     <string name="save">Ruaje</string>
     <string name="noteToSelf">Shënim për Veten</string>
-    <string name="version_s">Versioni_%s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Mesazh i ri</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Sot</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Gabim gjatë marrjes së GIF-it me qartësi të plotë</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFe</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Ngjitëse</string>
+    <string name="stickers">Ngjitëse</string>
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Krejt mediat</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Morët një mesazh të fshehtëzuar duke përdorur një version të vjetër të Session-it, që nuk mirëmbahet më. Ju lutemi, kërkojini dërguesit ta përditësojë me versionin më të ri dhe ta ridërgojë mesazhin.</string>
+    <string name="messageErrorOld">Morët një mesazh të fshehtëzuar duke përdorur një version të vjetër të Session-it, që nuk mirëmbahet më. Ju lutemi, kërkojini dërguesit ta përditësojë me versionin më të ri dhe ta ridërgojë mesazhin.</string>
     <string name="MessageRecord_you_updated_group">E përditësuat grupin.</string>
     <string name="MessageRecord_s_updated_group">%s përditësoi grupin.</string>
     <!-- ExpirationDialog -->
@@ -139,8 +136,7 @@
     <string name="ThreadRecord_you_marked_verified">E shënuat si të verifikuar</string>
     <string name="ThreadRecord_you_marked_unverified">E shënuat si të paverifikuar</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Përditësim i Session-it</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Është gati një version i ri i Session-it, prekeni që të përditësohet</string>
+    <string name="updateNewVersion">Është gati një version i ri i Session-it, prekeni që të përditësohet</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Mesazh i fshehtëzuar keq</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Mesazh i fshehtëzuar për sesion që s\’ekziston</string>
@@ -152,7 +148,7 @@
     <string name="lockAppUnlocked">Session-i u shkyç</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ju</string>
-    <string name="MediaPreviewActivity_draft">Skicë:</string>
+    <string name="draft">Skicë:</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Për të ruajtur gjëra në depozitë të jashtme, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">S\’bëhet dot ruajtje në depozitë të jashtme pa leje</string>
     <!-- MessageNotifier -->
@@ -171,9 +167,8 @@
     <string name="NotificationChannel_failures">Dështime</string>
     <string name="NotificationChannel_backups">Kopjeruajtje</string>
     <string name="lockAppStatus">Gjendje kyçjeje</string>
-    <string name="NotificationChannel_app_updates">Përditësime aplikacioni</string>
+    <string name="updateApp">Përditësime aplikacioni</string>
     <string name="other">Tjetër</string>
-    <string name="NotificationChannel_missing_display_name">I panjohur</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">S\’bëhet dot përgjigje e shpejtë, kur Session-i është i kyçur!</string>
     <string name="QuickResponseService_problem_sending_message">Problem në dërgim mesazhi!</string>
@@ -198,8 +193,7 @@
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Vendndodhje</string>
     <string name="attachment_type_selector__location_description">Vendndodhje</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Figurë ose video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
     <string name="attachment_type_selector__drawer_description">Hapni/mbyllni sirtarin e bashkëngjitjeve</string>
@@ -240,7 +234,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Kërko GIF-e dhe ngjitës</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">S\’u gjet gjë</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Shihni bisedën e plotë</string>
     <string name="load_more_header__loading">Po ngarkohet</string>
@@ -261,10 +254,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Përdor parazgjedhje</string>
     <string name="arrays__use_custom">Përdor vetjake</string>
-    <string name="arrays__mute_for_one_hour">Heshtoje për 1 orë</string>
-    <string name="arrays__mute_for_two_hours">Heshtoje për 2 orë</string>
-    <string name="arrays__mute_for_one_day">Heshtoje për 1 ditë</string>
-    <string name="arrays__mute_for_seven_days">Heshtoje për 7 ditë</string>
+    <string name="notificationsMute1Hour">Heshtoje për 1 orë</string>
+    <string name="notificationsMute2Hours">Heshtoje për 2 orë</string>
+    <string name="notificationsMute1Day">Heshtoje për 1 ditë</string>
     <string name="arrays__mute_for_one_year">Heshtoje për 1 vit</string>
     <string name="arrays__settings_default">Rregullime parazgjedhje</string>
     <string name="arrays__enabled">E aktivizuar</string>
@@ -289,7 +281,6 @@
     <string name="preferences__screen_security">Siguri ekrani</string>
     <string name="sessionNotifications">Njoftime</string>
     <string name="notificationsLedColor">Ngjyrë LED-i</string>
-    <string name="preferences__led_color_unknown">E panjohur</string>
     <string name="preferences__pref_led_blink_title">Rregullsi xixëllimi LED-i</string>
     <string name="notificationsSound">Tingull</string>
     <string name="preferences__repeat_alerts">Alarme të përsëritur</string>

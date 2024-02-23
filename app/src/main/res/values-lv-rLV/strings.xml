@@ -6,7 +6,6 @@
     <string name="delete">Dzēst</string>
     <string name="save">Saglabāt</string>
     <string name="noteToSelf">Piezīme sev</string>
-    <string name="version_s">Versija %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Jauns ziņojums</string>
     <!-- AlbumThumbnailView -->
@@ -60,8 +59,7 @@
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFi</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Uzlīmes</string>
+    <string name="stickers">Uzlīmes</string>
     <!-- CropImageActivity -->
     <string name="photo">Attēls</string>
     <!-- InputPanel -->
@@ -149,7 +147,7 @@
     <string name="notificationsStyle">Paziņojuma izskats</string>
     <string name="activity_notification_settings_content_section_title">Paziņojuma saturs</string>
     <string name="clearDataAll">Izdzēst visus datus</string>
-    <string name="activity_qr_code_title">QR kods</string>
+    <string name="qrCode">QR kods</string>
     <string name="fragment_view_my_qr_code_title">Skanē mani</string>
     <string name="fragment_view_my_qr_code_share_title">Dalīties ar QR kodu</string>
     <string name="contactsContacts">Kontakti</string>
@@ -164,7 +162,6 @@
     <string name="dialog_ui_mode_option_night">Nakts</string>
     <string name="attachment">Pielikums</string>
     <string name="messageVoice">Balss ziņojums</string>
-    <string name="details">Papildu informācija</string>
     <string name="notificationsFastMode">Ātrais režīms</string>
     <string name="notificationsSlowMode">Lēnais režīms</string>
     <string name="notificationsFastModeDescriptionAndroid">Jūs saņemsiet paziņojumus par jauniem ziņojumiem droši un nekavējoties, izmantojot Google paziņojumu serverus.</string>

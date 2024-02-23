@@ -6,7 +6,6 @@
     <string name="delete">Smazat</string>
     <string name="save">Uložit</string>
     <string name="noteToSelf">Poznámka sobě</string>
-    <string name="version_s">Verze %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nová zpráva</string>
     <!-- AlbumThumbnailView -->
@@ -87,10 +86,8 @@
     <string name="DeviceListItem_today">Dnes</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Chyba při získávání GIF v plném rozlišení</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFy</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Nálepky</string>
+    <string name="stickers">Nálepky</string>
     <!-- CropImageActivity -->
     <string name="photo">Obrázek</string>
     <!-- InputPanel -->
@@ -118,7 +115,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Všechna media</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Přijata zpráva šifrovaná starou verzí Session, která již není podporována. Prosím požádejte odesílatele, aby si zaktualizoval aplikaci na nejnovější verzi a poté poslal zprávu znovu.</string>
+    <string name="messageErrorOld">Přijata zpráva šifrovaná starou verzí Session, která již není podporována. Prosím požádejte odesílatele, aby si zaktualizoval aplikaci na nejnovější verzi a poté poslal zprávu znovu.</string>
     <string name="MessageRecord_you_updated_group">Upravil(a) jste skupinu.</string>
     <string name="MessageRecord_s_updated_group">%s upravil(a) skupinu.</string>
     <!-- ExpirationDialog -->
@@ -146,8 +143,7 @@
     <string name="ThreadRecord_you_marked_verified">Označen jako ověřený</string>
     <string name="ThreadRecord_you_marked_unverified">Označen jako neověřený</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Aktualizace Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Je k dispozici nová verze Session, klikněte pro aktualizaci</string>
+    <string name="updateNewVersion">Je k dispozici nová verze Session, klikněte pro aktualizaci</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Chybně zašifrovaná zpráva</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Zpráva zašifrována pro neexistující konverzaci</string>
@@ -159,7 +155,7 @@
     <string name="lockAppUnlocked">Session je odemčen</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Vy</string>
-    <string name="MediaPreviewActivity_draft">Koncept</string>
+    <string name="draft">Koncept</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session potřebuje oprávnění pro přístup k úložišti aby mohl zapisovat do externího úložiště, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Úložiště\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nelze ukládat do externího úložiště bez oprávnění</string>
     <!-- MessageNotifier -->
@@ -178,9 +174,8 @@
     <string name="NotificationChannel_failures">Chyby</string>
     <string name="NotificationChannel_backups">Zálohy</string>
     <string name="lockAppStatus">Stav zámku</string>
-    <string name="NotificationChannel_app_updates">Aktulizace aplikace</string>
+    <string name="updateApp">Aktulizace aplikace</string>
     <string name="other">Ostatní</string>
-    <string name="NotificationChannel_missing_display_name">Neznámý</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Rychlá odpověď není dostupná, pokud je Session uzamčen!</string>
     <string name="QuickResponseService_problem_sending_message">Problém při odesílání zprávy!</string>
@@ -207,8 +202,7 @@
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Poloha</string>
     <string name="attachment_type_selector__location_description">Poloha</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Obrázek nebo video</string>
     <string name="attachment_type_selector__gallery">Galerie</string>
     <string name="attachment_type_selector__drawer_description">Vybrat úložiště pro přílohy</string>
@@ -249,7 +243,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Hledat GIFy an nálepky</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nenalezeno</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Prohlédnout si celou konverzaci</string>
     <string name="load_more_header__loading">Načítám</string>
@@ -270,10 +263,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Použít výchozí</string>
     <string name="arrays__use_custom">Použít vlastní</string>
-    <string name="arrays__mute_for_one_hour">Ztišit na 1 hodinu</string>
-    <string name="arrays__mute_for_two_hours">Ztišit na 2 hodiny</string>
-    <string name="arrays__mute_for_one_day">Ztišit na 1 den</string>
-    <string name="arrays__mute_for_seven_days">Ztišit na 7 dnů</string>
+    <string name="notificationsMute1Hour">Ztišit na 1 hodinu</string>
+    <string name="notificationsMute2Hours">Ztišit na 2 hodiny</string>
+    <string name="notificationsMute1Day">Ztišit na 1 den</string>
     <string name="arrays__mute_for_one_year">Ztišit na 1 rok</string>
     <string name="arrays__settings_default">Výchozí nastavení</string>
     <string name="arrays__enabled">Povoleno</string>
@@ -300,7 +292,6 @@
     <string name="preferences__screen_security">Zabezpečení obrazovky</string>
     <string name="sessionNotifications">Upozornění</string>
     <string name="notificationsLedColor">Barva LED</string>
-    <string name="preferences__led_color_unknown">Neznámý</string>
     <string name="preferences__pref_led_blink_title">Schéma blikání LED</string>
     <string name="notificationsSound">Zvuk</string>
     <string name="preferences__repeat_alerts">Opakovat upozornění</string>
@@ -447,7 +438,7 @@
     <string name="useFastMode">Použít rychlý režim</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojit zařízení</string>
     <string name="clearDataAll">Vymazat všechna data</string>
-    <string name="activity_qr_code_title">QR kód</string>
+    <string name="qrCode">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pro zahájení konverzace naskenujte něčí QR kód</string>
     <string name="fragment_view_my_qr_code_title">Naskenuj mě</string>
     <string name="fragment_view_my_qr_code_share_title">Sdílet QR kód</string>
@@ -466,7 +457,6 @@
     <string name="dialog_ui_mode_option_system_default">Výchozí nastavení</string>
     <string name="attachment">Příloha</string>
     <string name="messageVoice">Hlasová zpráva</string>
-    <string name="details">Detaily</string>
     <string name="dialog_backup_activation_failed">Nepodařilo se aktivovat zálohy. Zkuste to prosím znovu nebo kontaktujte podporu.</string>
     <string name="activity_backup_restore_title">Obnovit zálohu</string>
     <string name="activity_backup_restore_select_file">Vybrat soubor</string>

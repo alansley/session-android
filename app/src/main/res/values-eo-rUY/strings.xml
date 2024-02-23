@@ -6,7 +6,6 @@
     <string name="delete">Forviŝi</string>
     <string name="save">Konservi</string>
     <string name="noteToSelf">Noto al Mi mem</string>
-    <string name="version_s">Versio %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nova mesaĝo</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Hodiaŭ</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Eraro dum ricevo de plendifina GIF</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF-oj</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Glumarkoj</string>
+    <string name="stickers">Glumarkoj</string>
     <!-- CropImageActivity -->
     <string name="photo">Avataro</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Ĉiuj aŭvidaĵoj</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vi ricevis mesaĝon ĉifrita per malnova Session-a versio, kiu ne plu estas subtenata. Bonvolu peti la sendinton ĝisdatigi al la plej freŝa versio, kaj resendi la mesaĝon.</string>
+    <string name="messageErrorOld">Vi ricevis mesaĝon ĉifrita per malnova Session-a versio, kiu ne plu estas subtenata. Bonvolu peti la sendinton ĝisdatigi al la plej freŝa versio, kaj resendi la mesaĝon.</string>
     <string name="MessageRecord_you_updated_group">Vi ĝisdatigis la grupon.</string>
     <string name="MessageRecord_s_updated_group">%s ĝisdatigis la grupon.</string>
     <!-- ExpirationDialog -->
@@ -139,8 +136,7 @@
     <string name="ThreadRecord_you_marked_verified">Vi markis kiel konfirmita</string>
     <string name="ThreadRecord_you_marked_unverified">Vi markis kiel nekonfirmita</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Ĝisdatigo de Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Nova versio de Session disponeblas, tuŝetu por ĝisdatigi</string>
+    <string name="updateNewVersion">Nova versio de Session disponeblas, tuŝetu por ĝisdatigi</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Malbone ĉifrita mesaĝo</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Mesaĝo ĉifrita por neekzistanta seanco</string>
@@ -152,7 +148,7 @@
     <string name="lockAppUnlocked">Session estas malŝlosita</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Vi</string>
-    <string name="MediaPreviewActivity_draft">Malneto</string>
+    <string name="draft">Malneto</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session bezonas konservejan aliron por konservi al ekstera konservejo, sed ĝi estis porĉiame malakceptita. Bonvolu iri al la aplikaĵaj agordoj, elekti \"Permesoj\", kaj ŝalti \"Konservejo\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ne eblas konservi en la ekstera konservejo sen permesoj</string>
     <!-- MessageNotifier -->
@@ -171,9 +167,8 @@
     <string name="NotificationChannel_failures">Malsukcesoj</string>
     <string name="NotificationChannel_backups">Savkopioj</string>
     <string name="lockAppStatus">Ŝlosostato</string>
-    <string name="NotificationChannel_app_updates">Aplikaĵaj ĝisdatigoj</string>
+    <string name="updateApp">Aplikaĵaj ĝisdatigoj</string>
     <string name="other">Alia</string>
-    <string name="NotificationChannel_missing_display_name">Nekonata</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Rapida respondo ne eblas, kiam Session estas ŝlosita!</string>
     <string name="QuickResponseService_problem_sending_message">Problemo dum sendo de mesaĝo!</string>
@@ -198,8 +193,7 @@
     <string name="attachment_type_selector__camera_description">Fotilo</string>
     <string name="attachment_type_selector__location">Loko</string>
     <string name="attachment_type_selector__location_description">Loko</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">GIF</string>
+    <string name="gif">GIF</string>
     <string name="attachment_type_selector__gallery_description">Bildo aŭ videaĵo</string>
     <string name="attachment_type_selector__gallery">Galerio</string>
     <string name="attachment_type_selector__drawer_description">Baskuligi kunsendaĵojn</string>
@@ -240,7 +234,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Serĉi GIF-ojn kaj glumarkojn</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nenio trovita</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Vidi plenan konversacion</string>
     <string name="load_more_header__loading">Ŝargante</string>
@@ -261,10 +254,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Uzi defaŭltan</string>
     <string name="arrays__use_custom">Uzi propran</string>
-    <string name="arrays__mute_for_one_hour">Silentigi dum 1 horo</string>
-    <string name="arrays__mute_for_two_hours">Silentigi dum 2 horoj</string>
-    <string name="arrays__mute_for_one_day">Silentigi dum 1 tago</string>
-    <string name="arrays__mute_for_seven_days">Silentigi dum 7 tagoj</string>
+    <string name="notificationsMute1Hour">Silentigi dum 1 horo</string>
+    <string name="notificationsMute2Hours">Silentigi dum 2 horoj</string>
+    <string name="notificationsMute1Day">Silentigi dum 1 tago</string>
     <string name="arrays__mute_for_one_year">Silentigi dum 1 jaro</string>
     <string name="arrays__settings_default">Laŭ la ĝenerala agordo</string>
     <string name="arrays__enabled">Ŝaltita</string>
@@ -289,7 +281,6 @@
     <string name="preferences__screen_security">Ekrana sekurigo</string>
     <string name="sessionNotifications">Sciigoj</string>
     <string name="notificationsLedColor">LED-a koloro</string>
-    <string name="preferences__led_color_unknown">Nekonata</string>
     <string name="preferences__pref_led_blink_title">LED-a pulsa modelo</string>
     <string name="notificationsSound">Sono</string>
     <string name="preferences__repeat_alerts">Ripeti avertojn</string>
@@ -436,7 +427,7 @@
     <string name="useFastMode">Uzi Rapidan Reĝimon</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Malligi aparaton</string>
     <string name="clearDataAll">Viŝi Tutajn Datumojn</string>
-    <string name="activity_qr_code_title">QR-Kodo</string>
+    <string name="qrCode">QR-Kodo</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skani ies QR-kodon por komenci konversacion kun si</string>
     <string name="fragment_view_my_qr_code_title">Skanu Min</string>
     <string name="fragment_view_my_qr_code_share_title">Kunhavigi QR-Kodon</string>
@@ -455,7 +446,6 @@
     <string name="dialog_ui_mode_option_system_default">Sistema defaŭlto</string>
     <string name="attachment">Kunsendaĵo</string>
     <string name="messageVoice">Voĉmesaĝo</string>
-    <string name="details">Detaloj</string>
     <string name="dialog_backup_activation_failed">Malsukcesis aktivigi savkopiojn. Bonvolu provi denove aŭ kontaktu subtenon.</string>
     <string name="activity_backup_restore_title">Restaŭri savkopion</string>
     <string name="activity_backup_restore_select_file">Elekti dosieron</string>

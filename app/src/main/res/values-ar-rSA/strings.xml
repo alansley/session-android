@@ -6,7 +6,6 @@
     <string name="delete">حذف</string>
     <string name="save">حفظ</string>
     <string name="noteToSelf">ملاحظة لنفسي</string>
-    <string name="version_s">النسخة %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">رسالة جديدة</string>
     <!-- AlbumThumbnailView -->
@@ -93,10 +92,8 @@
     <string name="DeviceListItem_today">اليوم</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">خطأ أثناء جلب كامل دقة صورة GIF</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">صور GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">لصاقات</string>
+    <string name="stickers">لصاقات</string>
     <!-- CropImageActivity -->
     <string name="photo">الصورة الرمزية</string>
     <!-- InputPanel -->
@@ -126,7 +123,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">جميع الوسائط</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">لقد استلمت رسالة مشفرة من إصدارة Session قديمة وتوقف دعمها. من فضلك اطلب من الراسل الترقية إلي أحدث إصدار وإعادة إرسال الرسالة.</string>
+    <string name="messageErrorOld">لقد استلمت رسالة مشفرة من إصدارة Session قديمة وتوقف دعمها. من فضلك اطلب من الراسل الترقية إلي أحدث إصدار وإعادة إرسال الرسالة.</string>
     <string name="MessageRecord_you_updated_group">قمت بتحديث المحموعة.</string>
     <string name="MessageRecord_s_updated_group">%s قام بتحديث المحموعة.</string>
     <!-- ExpirationDialog -->
@@ -154,8 +151,7 @@
     <string name="ThreadRecord_you_marked_verified">لقد قمت بتصديق</string>
     <string name="ThreadRecord_you_marked_unverified">لقد قمت بإلغاء التحقق</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">تحديث Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">إصدار جديد لـ Session متوفر، أنقر لتحديثه</string>
+    <string name="updateNewVersion">إصدار جديد لـ Session متوفر، أنقر لتحديثه</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">رسالة مشفرة رديئة</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">الرسالة مشفرة دون وجود قناة اتصال...</string>
@@ -167,7 +163,7 @@
     <string name="lockAppUnlocked">Session غير مقفول</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">أنت</string>
-    <string name="MediaPreviewActivity_draft">مسودة:</string>
+    <string name="draft">مسودة:</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">يحتاج Session إلى إذن سعة التخزين من أجل استخدام الذاكرة الخارجية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">لا يمكن الحفظ إلى الذاكرة الخارجية بدون أذونات</string>
     <!-- MessageNotifier -->
@@ -186,9 +182,8 @@
     <string name="NotificationChannel_failures">إخفاقات</string>
     <string name="NotificationChannel_backups">النُسخ الإحتياطية</string>
     <string name="lockAppStatus">حالة القفل</string>
-    <string name="NotificationChannel_app_updates">تحديثات التطبيق</string>
+    <string name="updateApp">تحديثات التطبيق</string>
     <string name="other">أخرى</string>
-    <string name="NotificationChannel_missing_display_name">مجهول</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">الردود السريعة غير متاحة عند قفل Session!</string>
     <string name="QuickResponseService_problem_sending_message">مشكلة في الإرسال!</string>
@@ -217,8 +212,7 @@
     <string name="attachment_type_selector__camera_description">كاميرا</string>
     <string name="attachment_type_selector__location">الموقع</string>
     <string name="attachment_type_selector__location_description">موقع جغرافي</string>
-    <string name="attachment_type_selector__gif">صورة GIF</string>
-    <string name="attachment_type_selector__gif_description">صورة Gif</string>
+    <string name="gif">صورة Gif</string>
     <string name="attachment_type_selector__gallery_description">صورة أو فيديو</string>
     <string name="attachment_type_selector__gallery">عرض الصور</string>
     <string name="attachment_type_selector__drawer_description">تفعيل أو تثبيط درج المرفقات</string>
@@ -259,7 +253,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">ابحث في صور GIF واللصاقات</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">لا يوجد شيء</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">مطالعة المحادثة بالكامل</string>
     <string name="load_more_header__loading">جارٍ التحميل</string>
@@ -280,10 +273,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">استخدم الافتراضي</string>
     <string name="arrays__use_custom">تخصيص</string>
-    <string name="arrays__mute_for_one_hour">كتم لمدة ساعة</string>
-    <string name="arrays__mute_for_two_hours">كتم لمدة ساعتين</string>
-    <string name="arrays__mute_for_one_day">كتم لمدة يوم</string>
-    <string name="arrays__mute_for_seven_days">كتم لمدة سبعة أيام</string>
+    <string name="notificationsMute1Hour">كتم لمدة ساعة</string>
+    <string name="notificationsMute2Hours">كتم لمدة ساعتين</string>
+    <string name="notificationsMute1Day">كتم لمدة يوم</string>
     <string name="arrays__mute_for_one_year">كتم لمدة عام واحد</string>
     <string name="arrays__settings_default">الإعدادات الافتراضية</string>
     <string name="arrays__enabled">مفعل</string>
@@ -312,7 +304,6 @@
     <string name="preferences__screen_security">تأمين الشاشة</string>
     <string name="sessionNotifications">الإشعارات</string>
     <string name="notificationsLedColor">لون ضوء التنبيه LED</string>
-    <string name="preferences__led_color_unknown">مجهول</string>
     <string name="preferences__pref_led_blink_title">نمط وميض LED</string>
     <string name="notificationsSound">صوت</string>
     <string name="preferences__repeat_alerts">تكرار التنبيهات</string>
@@ -459,7 +450,7 @@
     <string name="useFastMode">استخدام الوضع السريع</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">ألغي ربط الجهاز</string>
     <string name="clearDataAll">اِمسح جميع البيانات</string>
-    <string name="activity_qr_code_title">رمز QR</string>
+    <string name="qrCode">رمز QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">اِفحص رمز QR لبدء المحادثة</string>
     <string name="fragment_view_my_qr_code_title">امسحني</string>
     <string name="fragment_view_my_qr_code_share_title">شارك رمز QR</string>
@@ -478,7 +469,6 @@
     <string name="dialog_ui_mode_option_system_default">اختيارات النضام</string>
     <string name="attachment">مُرفق</string>
     <string name="messageVoice">رسالة صوتية</string>
-    <string name="details">تفاصيل</string>
     <string name="dialog_backup_activation_failed">فشل تفعيل النسخ الاحتياطي. حاول مجدداَ أو اِتصل بالدعم.</string>
     <string name="activity_backup_restore_title">استرجع النسخة الاِحتياطية</string>
     <string name="activity_backup_restore_select_file">إختر ملف</string>

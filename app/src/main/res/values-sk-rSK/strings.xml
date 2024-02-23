@@ -5,7 +5,6 @@
     <string name="delete">Zmazať</string>
     <string name="save">Uložiť</string>
     <string name="noteToSelf">Poznámka pre seba</string>
-    <string name="version_s">Verzia %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nová správa</string>
     <!-- AlbumThumbnailView -->
@@ -83,10 +82,8 @@
     <string name="DeviceListItem_today">Dnes</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Chyba pri prijímaní GIFu v plnom rozlíšení</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFy</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Nálepky</string>
+    <string name="stickers">Nálepky</string>
     <!-- CropImageActivity -->
     <string name="photo">Fotka</string>
     <!-- InputPanel -->
@@ -114,7 +111,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Všetky médiá</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Prijatá správa je šifrovaná starou verziou Sessionu, ktorá už nie je podporovaná. Prosím požiadajte odosielateľa o aktualizáciu na najnovšiu verziu a opätovné odoslanie správy.</string>
+    <string name="messageErrorOld">Prijatá správa je šifrovaná starou verziou Sessionu, ktorá už nie je podporovaná. Prosím požiadajte odosielateľa o aktualizáciu na najnovšiu verziu a opätovné odoslanie správy.</string>
     <string name="MessageRecord_you_updated_group">Aktualizovali ste skupinu.</string>
     <string name="MessageRecord_s_updated_group">%s aktualizoval/a skupinu.</string>
     <!-- ExpirationDialog -->
@@ -143,8 +140,7 @@ výmeny kľúčov.</string>
     <string name="ThreadRecord_you_marked_verified">Označili ste ako overené</string>
     <string name="ThreadRecord_you_marked_unverified">Označili ste ako neoverené</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Aktualizácia Sessionu</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">K dispozícii je nová verzia Sessionu, ťuknutím aktualizujte</string>
+    <string name="updateNewVersion">K dispozícii je nová verzia Sessionu, ťuknutím aktualizujte</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Zlá šifrovaná správa</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Správa šifrovaná pre neexistujúcu reláciu</string>
@@ -156,7 +152,7 @@ výmeny kľúčov.</string>
     <string name="lockAppUnlocked">Session je odomknutý</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Vy</string>
-    <string name="MediaPreviewActivity_draft">Koncept</string>
+    <string name="draft">Koncept</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bez povolenia sa nedá zapisovať na externé úložisko</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nové správy v %2$d konverzáciách</string>
@@ -174,9 +170,8 @@ výmeny kľúčov.</string>
     <string name="NotificationChannel_failures">Chyby</string>
     <string name="NotificationChannel_backups">Zálohy</string>
     <string name="lockAppStatus">Stav zámku</string>
-    <string name="NotificationChannel_app_updates">Aktualizácie aplikácie</string>
+    <string name="updateApp">Aktualizácie aplikácie</string>
     <string name="other">Iné</string>
-    <string name="NotificationChannel_missing_display_name">Neznáma</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Rýchla odpoveď nie je dostupná, keď je Session zamknutý!</string>
     <string name="QuickResponseService_problem_sending_message">Problém pri odosielaní správy!</string>
@@ -203,8 +198,7 @@ výmeny kľúčov.</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Poloha</string>
     <string name="attachment_type_selector__location_description">Poloha</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Obrázok alebo video</string>
     <string name="attachment_type_selector__gallery">Galéria</string>
     <string name="attachment_type_selector__drawer_description">Prepnúť zobrazenie príloh</string>
@@ -245,7 +239,6 @@ výmeny kľúčov.</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Hľadať GIFy a nálepky</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nič sa nenašlo</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Zobraziť celú konverzáciu</string>
     <string name="load_more_header__loading">Načítava sa</string>
@@ -266,10 +259,9 @@ výmeny kľúčov.</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Použiť predvolené</string>
     <string name="arrays__use_custom">Použiť vlastné</string>
-    <string name="arrays__mute_for_one_hour">Stlmiť na 1 hodinu</string>
-    <string name="arrays__mute_for_two_hours">Stlmiť na 2 hodiny</string>
-    <string name="arrays__mute_for_one_day">Stlmiť na 1 deň</string>
-    <string name="arrays__mute_for_seven_days">Stlmiť na 7 dní</string>
+    <string name="notificationsMute1Hour">Stlmiť na 1 hodinu</string>
+    <string name="notificationsMute2Hours">Stlmiť na 2 hodiny</string>
+    <string name="notificationsMute1Day">Stlmiť na 1 deň</string>
     <string name="arrays__mute_for_one_year">Stlmiť na 1 rok</string>
     <string name="arrays__settings_default">Predvolené nastavenie</string>
     <string name="arrays__enabled">Povolené</string>
@@ -296,7 +288,6 @@ výmeny kľúčov.</string>
     <string name="preferences__screen_security">Zabezpečenie obrazovky</string>
     <string name="sessionNotifications">Upozornenia</string>
     <string name="notificationsLedColor">LED farba</string>
-    <string name="preferences__led_color_unknown">Neznáma</string>
     <string name="preferences__pref_led_blink_title">Sekvencia blikania LED</string>
     <string name="notificationsSound">Zvuk</string>
     <string name="preferences__repeat_alerts">Opakovať oznámenia</string>
@@ -435,7 +426,7 @@ výmeny kľúčov.</string>
     <string name="sessionPrivacy">Súkromie</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojenie zariadenia</string>
     <string name="clearDataAll">Odstrániť všetky dáta</string>
-    <string name="activity_qr_code_title">QR kód</string>
+    <string name="qrCode">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Oskenujte niečí QR kód pre začatie konverzácie</string>
     <string name="fragment_view_my_qr_code_title">Naskenuj ma</string>
     <string name="fragment_view_my_qr_code_share_title">Zdieľať QR kód</string>
@@ -452,7 +443,6 @@ výmeny kľúčov.</string>
     <string name="dialog_ui_mode_option_system_default">Predvolené systémom</string>
     <string name="attachment">Príloha</string>
     <string name="messageVoice">Hlasová správa</string>
-    <string name="details">Podrobnosti</string>
     <string name="dialog_backup_activation_failed">Nepodarilo sa aktivovať zálohy. Skúste to znova alebo kontaktujte podporu.</string>
     <string name="activity_backup_restore_title">Obnoviť zálohu</string>
     <string name="activity_backup_restore_select_file">Vybrať súbor</string>

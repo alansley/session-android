@@ -6,7 +6,6 @@
     <string name="delete">削除</string>
     <string name="save">保存</string>
     <string name="noteToSelf">自分用メモ</string>
-    <string name="version_s">バージョン %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">新着メッセージ</string>
     <!-- AlbumThumbnailView -->
@@ -78,10 +77,8 @@
     <string name="DeviceListItem_today">今日</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">GIFファイルの取り込みでエラー</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">ステッカー</string>
+    <string name="stickers">ステッカー</string>
     <!-- CropImageActivity -->
     <string name="photo">アイコン</string>
     <!-- InputPanel -->
@@ -106,7 +103,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">すべてのメディア</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">受信したメッセージは古いSignalで暗号化されているので解読不能です。Sessionをアップデートして再送するよう送信者にお願いしてください。</string>
+    <string name="messageErrorOld">受信したメッセージは古いSignalで暗号化されているので解読不能です。Sessionをアップデートして再送するよう送信者にお願いしてください。</string>
     <string name="MessageRecord_you_updated_group">グループを更新しました</string>
     <string name="MessageRecord_s_updated_group">%s がグループを更新しました</string>
     <!-- ExpirationDialog -->
@@ -134,8 +131,7 @@
     <string name="ThreadRecord_you_marked_verified">検証済みにしました</string>
     <string name="ThreadRecord_you_marked_unverified">未検証にしました</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Sessionをアップデートする</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Sessionの最新版が出ました。タップしてアップデートしてください。</string>
+    <string name="updateNewVersion">Sessionの最新版が出ました。タップしてアップデートしてください。</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">メッセージの暗号化が正しくありません</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">メッセージは存在しないセッションのために暗号化されています</string>
@@ -147,7 +143,7 @@
     <string name="lockAppUnlocked">Sessionのロック解除</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">あなた</string>
-    <string name="MediaPreviewActivity_draft">下書き</string>
+    <string name="draft">下書き</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Sessionが外部ストレージにデータを保存するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『ストレージ』へのアクセス許可を有効にしてください。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">外部ストレージに保存できません。ストレージへのアクセス許可が無効になっています。</string>
     <!-- MessageNotifier -->
@@ -166,9 +162,8 @@
     <string name="NotificationChannel_failures">障害</string>
     <string name="NotificationChannel_backups">バックアップ</string>
     <string name="lockAppStatus">ロック状態</string>
-    <string name="NotificationChannel_app_updates">アプリ更新</string>
+    <string name="updateApp">アプリ更新</string>
     <string name="other">その他</string>
-    <string name="NotificationChannel_missing_display_name">不明</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Sessionのロック中はクイック・レスポンスは使えません</string>
     <string name="QuickResponseService_problem_sending_message">メッセージ送信で問題発生</string>
@@ -192,8 +187,7 @@
     <string name="attachment_type_selector__camera_description">カメラ</string>
     <string name="attachment_type_selector__location">場所</string>
     <string name="attachment_type_selector__location_description">場所</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">画像・動画</string>
     <string name="attachment_type_selector__gallery">ギャラリー</string>
     <string name="attachment_type_selector__drawer_description">添付ファイル用引き出しの切替</string>
@@ -234,7 +228,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFやステッカーを検索</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">何も見つかりませんでした</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">会話全体を見る</string>
     <string name="load_more_header__loading">読み込み中</string>
@@ -255,10 +248,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">デフォルトを使う</string>
     <string name="arrays__use_custom">カスタムを使う</string>
-    <string name="arrays__mute_for_one_hour">1時間ミュート</string>
-    <string name="arrays__mute_for_two_hours">2時間ミュート</string>
-    <string name="arrays__mute_for_one_day">1日間ミュート</string>
-    <string name="arrays__mute_for_seven_days">7日間ミュート</string>
+    <string name="notificationsMute1Hour">1時間ミュート</string>
+    <string name="notificationsMute2Hours">2時間ミュート</string>
+    <string name="notificationsMute1Day">1日間ミュート</string>
     <string name="arrays__mute_for_one_year">1年間ミュート</string>
     <string name="arrays__settings_default">既定の設定</string>
     <string name="arrays__enabled">有効</string>
@@ -282,7 +274,6 @@
     <string name="preferences__screen_security">画面セキュリティ</string>
     <string name="sessionNotifications">通知</string>
     <string name="notificationsLedColor">LED色</string>
-    <string name="preferences__led_color_unknown">不明</string>
     <string name="preferences__pref_led_blink_title">LED点滅パターン</string>
     <string name="notificationsSound">着信音</string>
     <string name="preferences__repeat_alerts">アラートの繰り返し</string>
@@ -429,7 +420,7 @@
     <string name="useFastMode">高速モードを使用する</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">デバイスのリンクを解除する</string>
     <string name="clearDataAll">すべてのデータを消去する</string>
-    <string name="activity_qr_code_title">QR コード</string>
+    <string name="qrCode">QR コード</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">誰かの QR コードをスキャンして、会話を始めましょう</string>
     <string name="fragment_view_my_qr_code_title">スキャンしてください</string>
     <string name="fragment_view_my_qr_code_share_title">QR コードを共有する</string>
@@ -448,7 +439,6 @@
     <string name="dialog_ui_mode_option_system_default">システムの既定値</string>
     <string name="attachment">添付ファイル</string>
     <string name="messageVoice">音声メッセージ</string>
-    <string name="details">詳細</string>
     <string name="dialog_backup_activation_failed">バックアップのアクティベートに失敗しました。もう一度やり直すか、サポートにお問い合わせください。</string>
     <string name="activity_backup_restore_title">バックアップを復元する</string>
     <string name="activity_backup_restore_select_file">ファイルを選択してください</string>

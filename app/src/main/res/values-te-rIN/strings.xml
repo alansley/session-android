@@ -6,7 +6,6 @@
     <string name="delete">తొలగించండి</string>
     <string name="save">భద్రపరుచు</string>
     <string name="noteToSelf">Sviya gamanika</string>
-    <string name="version_s">Sanskarana %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">కొత్త సందేశం</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">నేడు</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">పూతి స్పష్టత జి.ఐ.ఎఫ్. ను తిరిగి రప్పించుట లొ లొపము</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">గిఫ్ లు</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">స్టిక్కర్లు</string>
+    <string name="stickers">స్టిక్కర్లు</string>
     <!-- CropImageActivity -->
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">మాటతో కూడిన సందేశాన్ని రికార్డు చేయుటకు తడుతూనే ఉంచి , పంపుటకు వదిలివేయండి.</string>
@@ -101,7 +98,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">అన్ని మీడియా</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ఇకపై మద్దతు అని Session యొక్క పాత సంస్కరణను ఉపయోగించి ఎన్క్రిప్ట్ ఒక సందేశాన్ని పొందింది. దయచేసి ఇటీవల సంస్కరణకు అప్డేట్ మరియు సందేశాన్ని మళ్లీ పంపినవారు అడగండి</string>
+    <string name="messageErrorOld">ఇకపై మద్దతు అని Session యొక్క పాత సంస్కరణను ఉపయోగించి ఎన్క్రిప్ట్ ఒక సందేశాన్ని పొందింది. దయచేసి ఇటీవల సంస్కరణకు అప్డేట్ మరియు సందేశాన్ని మళ్లీ పంపినవారు అడగండి</string>
     <string name="MessageRecord_you_updated_group">మీరు ఈ సమూహాన్ని నవీకరించారు.</string>
     <string name="MessageRecord_s_updated_group">%s  సమూహాన్ని నవీకరించారు.</string>
     <!-- ExpirationDialog -->
@@ -129,8 +126,7 @@
     <string name="ThreadRecord_you_marked_verified">మీరు ధృవీకరించినట్లుగా గుర్తు పెట్టారు</string>
     <string name="ThreadRecord_you_marked_unverified">మీరు ధృవీకరించబడనిదిగా గుర్తు పెట్టారు</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session నవీకరణ</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session యొక్క కొత్త వివరణం అందుబాటులో ఉంది, నవీకరణ కొరకు తట్టండి</string>
+    <string name="updateNewVersion">Session యొక్క కొత్త వివరణం అందుబాటులో ఉంది, నవీకరణ కొరకు తట్టండి</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">సరికాని గుప్తీకరించిన సందేశం</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">సందేశం</string>
@@ -142,7 +138,7 @@
     <string name="lockAppUnlocked">Session తాళం తీయబడినది</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">మీరు</string>
-    <string name="MediaPreviewActivity_draft">చిత్తు పత్రం</string>
+    <string name="draft">చిత్తు పత్రం</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">అనుమతులు లేకుండా బాహ్య నిల్వకి సేవ్ చేయడం సాధ్యపడలేదు</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d సంభాషణలొ కొత్త %1$d సందేశాలు</string>
@@ -159,9 +155,8 @@
     <string name="NotificationChannel_failures">వైఫల్యాలు</string>
     <string name="NotificationChannel_backups">బ్యాకప్లు</string>
     <string name="lockAppStatus">స్థితి లాక్</string>
-    <string name="NotificationChannel_app_updates">అనువర్తన నవీకరణలు</string>
+    <string name="updateApp">అనువర్తన నవీకరణలు</string>
     <string name="other">ఇతర</string>
-    <string name="NotificationChannel_missing_display_name">తెలియని</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session బంధించినపుడు తక్షణ స్పందన అందుబాటులొ లేదు!</string>
     <string name="QuickResponseService_problem_sending_message">సందేశాన్ని పంపడంలొ సమస్య!</string>
@@ -182,8 +177,7 @@
     <string name="attachment_type_selector__camera_description">కెమెరా</string>
     <string name="attachment_type_selector__location">స్థానం</string>
     <string name="attachment_type_selector__location_description">స్థానం</string>
-    <string name="attachment_type_selector__gif">గిఫ్</string>
-    <string name="attachment_type_selector__gif_description">గిఫ్</string>
+    <string name="gif">గిఫ్</string>
     <string name="attachment_type_selector__gallery_description">ఇమెజ్   ఆర్   వీడియో</string>
     <string name="attachment_type_selector__gallery">వారపాక</string>
     <string name="attachment_type_selector__drawer_description">టోగుల్ అటాచ్మెంట్ సొరుగు</string>
@@ -218,7 +212,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">జిఫ్‌లు మరియు స్టిక్కర్లు వెతుకు</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">ఏమీ దొరకలేదు</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">పూర్తి సంభాషణ చూడండి</string>
     <string name="load_more_header__loading">లోడ్</string>
@@ -239,10 +232,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default"> అప్రమేయం ఉపయోగించు</string>
     <string name="arrays__use_custom"> నియమము ఉపయోగించు</string>
-    <string name="arrays__mute_for_one_hour">1 గంట నిశబ్దంగా ఉంచు</string>
-    <string name="arrays__mute_for_two_hours">2 గంటలు నిశబ్దంగా ఉంచు</string>
-    <string name="arrays__mute_for_one_day">1 రోజు నిశబ్దంగా ఉంచు</string>
-    <string name="arrays__mute_for_seven_days">7 రోజులు నిశబ్దంగా ఉంచు</string>
+    <string name="notificationsMute1Hour">1 గంట నిశబ్దంగా ఉంచు</string>
+    <string name="notificationsMute2Hours">2 గంటలు నిశబ్దంగా ఉంచు</string>
+    <string name="notificationsMute1Day">1 రోజు నిశబ్దంగా ఉంచు</string>
     <string name="arrays__mute_for_one_year">1 సంవత్సరం నిశబ్దంగా ఉంచు</string>
     <string name="arrays__settings_default">అప్రమేయ అమరికలు</string>
     <string name="arrays__enabled">చేతనం అయింది</string>
@@ -266,7 +258,6 @@
     <string name="preferences__screen_security">స్క్రీన్ భద్రత</string>
     <string name="sessionNotifications">ప్రకటనలు</string>
     <string name="notificationsLedColor">ఎల్ఈడి రంగు</string>
-    <string name="preferences__led_color_unknown">తెలియని</string>
     <string name="preferences__pref_led_blink_title">ఎల్ఇడి రెప్పపాటు నమూనా</string>
     <string name="notificationsSound">శబ్దము</string>
     <string name="preferences__repeat_alerts">రిపీట్ హెచ్చరికలు</string>

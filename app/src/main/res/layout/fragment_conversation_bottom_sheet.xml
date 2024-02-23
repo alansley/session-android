@@ -15,7 +15,7 @@
         android:contentDescription="@string/AccessibilityId_details"
         android:drawableStart="@drawable/ic_info_outline_white_24dp"
         android:drawableTint="?attr/colorControlNormal"
-        android:text="@string/details" />
+        android:text="@string/contactUserDetails" />
 
     <TextView
         android:id="@+id/copyConversationId"

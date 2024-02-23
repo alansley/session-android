@@ -6,7 +6,6 @@
     <string name="delete">Ջնջել</string>
     <string name="save">Պահպանել</string>
     <string name="noteToSelf">Նշում ինքս ինձ</string>
-    <string name="version_s">Տարբերակ %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Նոր հաղորդագրություն</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Այսօր</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">GIF-ի զնման ժամանակ խնդիր առաջացավ</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">գիֆեր</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Պիտակներ</string>
+    <string name="stickers">Պիտակներ</string>
     <!-- CropImageActivity -->
     <string name="photo">Նկար</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Բոլոր մեդիաները</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Հաղորդագրությունը չի ուղարկվել, քանի որ session-ի տվյալ տարբերակը հնացել է, խնդրում ենք թարմացնել այն, և ուղարկեք հաղորդագրությունը նորից.</string>
+    <string name="messageErrorOld">Հաղորդագրությունը չի ուղարկվել, քանի որ session-ի տվյալ տարբերակը հնացել է, խնդրում ենք թարմացնել այն, և ուղարկեք հաղորդագրությունը նորից.</string>
     <string name="MessageRecord_you_updated_group">Դուք թարմացրեցիք զրուցարանը.</string>
     <string name="MessageRecord_s_updated_group">%s զրուցարանը թարմացվել է.</string>
     <!-- ExpirationDialog -->
@@ -142,8 +139,7 @@
     <string name="ThreadRecord_you_marked_verified">Ստուգված է ձեր կողմից</string>
     <string name="ThreadRecord_you_marked_unverified">Չստուգված ձեր կողմից</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session֊ի թարմացում</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Հասանել է Session֊ի նոր տարբերակը. Սեղմեք՝ թարմացնելու համար</string>
+    <string name="updateNewVersion">Հասանել է Session֊ի նոր տարբերակը. Սեղմեք՝ թարմացնելու համար</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Սխալ գաղտնագրված նամակ</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Հաղորդագրությունը կոդավորված է գոյություն չունեցող սեսիաի համար</string>
@@ -155,7 +151,7 @@
     <string name="lockAppUnlocked">Session֊ը ապակողպված է</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Դուք</string>
-    <string name="MediaPreviewActivity_draft">Սևագիր</string>
+    <string name="draft">Սևագիր</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session֊ին պետք են հիշողությունից օգտվելու թույլտվությունները ֆայլեր ստեղծելու համար, բայց այն արգելված է։ Բացեք ծրագրի կարգավորումներն ու ընտրեք «Թույլտվություններ»֊ը, ապա միացրեք «Հիշողություն» թույլտվությունը։</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Հնարավոր չէ պահել արտաքին պահեստում առանց թույլտվությունների</string>
     <!-- MessageNotifier -->
@@ -174,9 +170,8 @@
     <string name="NotificationChannel_failures">Ձախողումներ</string>
     <string name="NotificationChannel_backups">Պահեստներ</string>
     <string name="lockAppStatus">Կողպեքի վիճակը</string>
-    <string name="NotificationChannel_app_updates">Ծրագրի թարմացումներ</string>
+    <string name="updateApp">Ծրագրի թարմացումներ</string>
     <string name="other">Այլ</string>
-    <string name="NotificationChannel_missing_display_name">Անհայտ</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Կարճ պատասխանը անհնար է, երբ Session-ը կողպված է:</string>
     <string name="QuickResponseService_problem_sending_message">Հաղորդագրություն ուղարկելիս խնդիր կա:</string>
@@ -201,8 +196,7 @@
     <string name="attachment_type_selector__camera_description">Տեսախցիկ</string>
     <string name="attachment_type_selector__location">Վայր</string>
     <string name="attachment_type_selector__location_description">Վայր</string>
-    <string name="attachment_type_selector__gif">Գիֆ</string>
-    <string name="attachment_type_selector__gif_description">Գիֆ</string>
+    <string name="gif">Գիֆ</string>
     <string name="attachment_type_selector__gallery_description">Նկար կամ վիդեո</string>
     <string name="attachment_type_selector__gallery">Պատկերասրահ</string>
     <string name="attachment_type_selector__drawer_description">Ցույց տալ կցորդի դարակը</string>
@@ -243,7 +237,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Որոնել GIF և էմոջիներ</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Ոչինչ չի գտնվել</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Տեսնել ողջ խսակցությունը</string>
     <string name="load_more_header__loading">Բեռնվում է</string>
@@ -264,10 +257,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Օգտագործել հիմնականը</string>
     <string name="arrays__use_custom">Օգտագործել հատուկ կարգավորում</string>
-    <string name="arrays__mute_for_one_hour">Անջատել 1 ժամ</string>
-    <string name="arrays__mute_for_two_hours">Խլացնել 2 ժամով</string>
-    <string name="arrays__mute_for_one_day">Անջատել 1 օր</string>
-    <string name="arrays__mute_for_seven_days">Խլացնել 7 օր</string>
+    <string name="notificationsMute1Hour">Անջատել 1 ժամ</string>
+    <string name="notificationsMute2Hours">Խլացնել 2 ժամով</string>
+    <string name="notificationsMute1Day">Անջատել 1 օր</string>
     <string name="arrays__mute_for_one_year">Անջատել 1 տարի</string>
     <string name="arrays__settings_default">Վերջին կարգավորումներ</string>
     <string name="arrays__enabled">Միացված</string>
@@ -292,7 +284,6 @@
     <string name="preferences__screen_security">Էկրանակադրի անվտանգություն</string>
     <string name="sessionNotifications">Ծանուցումներ</string>
     <string name="notificationsLedColor">LED-ի գույն</string>
-    <string name="preferences__led_color_unknown">Անհայտ</string>
     <string name="preferences__pref_led_blink_title">LED-ի թարթման նմուշ</string>
     <string name="notificationsSound">Ձայն</string>
     <string name="preferences__repeat_alerts">Կրկնել ահազանգերը</string>
@@ -439,7 +430,7 @@
     <string name="useFastMode">Օգտագործել արագ ռեժիմը</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Առանձնացնել սարքը</string>
     <string name="clearDataAll">Ջնջել բոլոր տվյալները</string>
-    <string name="activity_qr_code_title">QR կոդ</string>
+    <string name="qrCode">QR կոդ</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Սկանավորեք ինչ-որ մեկի QR կոդը՝ նրա հետ զրույց սկսելու համար</string>
     <string name="fragment_view_my_qr_code_title">Սկանավորի ինձ</string>
     <string name="fragment_view_my_qr_code_share_title">Կիսվել QR կոդով</string>
@@ -458,7 +449,6 @@
     <string name="dialog_ui_mode_option_system_default">Համակարգի լռելյայն</string>
     <string name="attachment">Կցում</string>
     <string name="messageVoice">Ձայնագրություն</string>
-    <string name="details">Մանրամասներ</string>
     <string name="dialog_backup_activation_failed">Չհաջողվեց ակտիվացնել կրկնօրինակը: Խնդրում ենք կրկին փորձել կամ կապվել աջակցության հետ:</string>
     <string name="activity_backup_restore_title">Վերականգնել կրկնօրինակը</string>
     <string name="activity_backup_restore_select_file">Ընտրել ֆայլը</string>

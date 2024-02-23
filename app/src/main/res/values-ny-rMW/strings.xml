@@ -67,9 +67,8 @@
     <string name="DeviceListItem_today">Kunan</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Mana tukuy GIF alli rikurita ushanchu</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_stickers">Llutanakukuna </string>
+    <string name="stickers">Llutanakukuna </string>
     <!-- CropImageActivity -->
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Shuk uyaychaskita rurankapakka llapishpa charipay, kachankapakka llapishkata kacharipay.</string>
@@ -84,7 +83,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Tukuylla uyayrikuchik</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Shuk pakalla chaski chayamurka ñawpa Signalmanta, mana paskarita usharinchu. Maykan kachamushkaman Sessionta mushukyachichun mañapay, chaski chayamuchun.</string>
+    <string name="messageErrorOld">Shuk pakalla chaski chayamurka ñawpa Signalmanta, mana paskarita usharinchu. Maykan kachamushkaman Sessionta mushukyachichun mañapay, chaski chayamuchun.</string>
     <string name="MessageRecord_you_updated_group">Tantakuyta mushukyachishkanki.</string>
     <string name="MessageRecord_s_updated_group">%s tantanakuy mushukyashkami.</string>
     <!-- ExpirationDialog -->
@@ -113,8 +112,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="ThreadRecord_you_marked_verified">Ari nishkanki </string>
     <string name="ThreadRecord_you_marked_unverified">Manara ari ninki</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session mushukyarina tiyan</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Mushukyachina Session tiyan, mushukyachinkapak kaypi llapi.</string>
+    <string name="updateNewVersion">Mushukyachina Session tiyan, mushukyachinkapak kaypi llapi.</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Mana alli chaski pakashka</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Chaski pakakurka  shuk  illak paskashkapa</string>
@@ -126,7 +124,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="lockAppUnlocked">Session yaykunallami kan.</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Kikin</string>
-    <string name="MediaPreviewActivity_draft">Pichak</string>
+    <string name="draft">Pichak</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kanllapi allichita mana ushanchikchu kikin mana arinikpika.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$dmushuk chaskikuna %2$drimarikunapi.</string>
@@ -144,9 +142,8 @@ ranti pakalla yupaykunamanta</string>
     <string name="NotificationChannel_failures">Pantakuna</string>
     <string name="NotificationChannel_backups">Wakaychikpa chayshinakuna</string>
     <string name="lockAppStatus">Kashkata pakana</string>
-    <string name="NotificationChannel_app_updates">Aplicacionta kunanyachikuy</string>
+    <string name="updateApp">Aplicacionta kunanyachikuy</string>
     <string name="other">Shuk yupaykuna </string>
-    <string name="NotificationChannel_missing_display_name">Mana riksishka</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session  pakashka kakpika ñapash kutichitaka mana usharinchu</string>
     <string name="QuickResponseService_problem_sending_message">Chaskita kachakushpa shuk llakimi rikurirka</string>
@@ -200,7 +197,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFkunata shinallata llutanakunata maskana </string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nimata mana taririrkachu</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Tukuylla rimariyta  rikuna.</string>
     <string name="load_more_header__loading">Paskakun</string>
@@ -221,10 +217,9 @@ ranti pakalla yupaykunamanta</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Ña charishkakunata mutsupay.</string>
     <string name="arrays__use_custom">Kikinpapacha kashkata mutsupay.</string>
-    <string name="arrays__mute_for_one_hour">1  pachata upallayachina</string>
-    <string name="arrays__mute_for_two_hours">2 pachata upallayachina</string>
-    <string name="arrays__mute_for_one_day">1 punchata upallayachina</string>
-    <string name="arrays__mute_for_seven_days">7 punchata upallayachina</string>
+    <string name="notificationsMute1Hour">1  pachata upallayachina</string>
+    <string name="notificationsMute2Hours">2 pachata upallayachina</string>
+    <string name="notificationsMute1Day">1 punchata upallayachina</string>
     <string name="arrays__mute_for_one_year">1 watata upallayachina</string>
     <string name="arrays__settings_default">Ña charishka configuración</string>
     <string name="arrays__enabled">Paskashka</string>
@@ -248,7 +243,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="preferences__screen_security">Rikuripa pakallayachina</string>
     <string name="sessionNotifications">Willachikuna</string>
     <string name="notificationsLedColor">LEDpa tulpu</string>
-    <string name="preferences__led_color_unknown">Mana riksishka</string>
     <string name="preferences__pref_led_blink_title">LEDpa imashina achik sipuriy</string>
     <string name="notificationsSound">Wakay uyari</string>
     <string name="preferences__repeat_alerts">Kutinlla unancha wakay</string>

@@ -133,7 +133,7 @@ public class NotificationChannels {
     } else if (!TextUtils.isEmpty(address.serialize())) {
       return address.serialize();
     } else {
-      return context.getString(R.string.NotificationChannel_missing_display_name);
+      return context.getString(R.string.unknown);
     }
   }
 
@@ -447,7 +447,7 @@ public class NotificationChannels {
     notificationManager.createNotificationChannels(Arrays.asList(messages, calls, failures, backups, lockedStatus, other));
 
     if (BuildConfig.PLAY_STORE_DISABLED) {
-      NotificationChannel appUpdates = new NotificationChannel(APP_UPDATES, context.getString(R.string.NotificationChannel_app_updates), NotificationManager.IMPORTANCE_HIGH);
+      NotificationChannel appUpdates = new NotificationChannel(APP_UPDATES, context.getString(R.string.updateApp), NotificationManager.IMPORTANCE_HIGH);
       notificationManager.createNotificationChannel(appUpdates);
     } else {
       notificationManager.deleteNotificationChannel(APP_UPDATES);

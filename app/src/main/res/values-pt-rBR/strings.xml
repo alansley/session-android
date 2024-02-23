@@ -6,7 +6,6 @@
     <string name="delete">Excluir</string>
     <string name="save">Salvar</string>
     <string name="noteToSelf">Nota para Si</string>
-    <string name="version_s">Versão %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Nova mensagem</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">Hoje</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Erro ao restaurar GIF com resolução total</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFs</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Figurinhas</string>
+    <string name="stickers">Figurinhas</string>
     <!-- CropImageActivity -->
     <string name="photo">Foto</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Todas as mídias</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Recebida uma mensagem encriptada usando uma versão antiga de Session que não é mais suportada. Por favor peça o(a) enviador(a) que atualize para a versão mais recente e reenvie a mensagem.</string>
+    <string name="messageErrorOld">Recebida uma mensagem encriptada usando uma versão antiga de Session que não é mais suportada. Por favor peça o(a) enviador(a) que atualize para a versão mais recente e reenvie a mensagem.</string>
     <string name="MessageRecord_you_updated_group">Você atualizou o grupo.</string>
     <string name="MessageRecord_s_updated_group">%s atualizou o grupo.</string>
     <!-- ExpirationDialog -->
@@ -140,8 +137,7 @@
     <string name="ThreadRecord_you_marked_verified">Você marcou verificado</string>
     <string name="ThreadRecord_you_marked_unverified">Você marcou não-verificado</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Atualização de Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uma nova versão de Session está disponível, toque para atualizar</string>
+    <string name="updateNewVersion">Uma nova versão de Session está disponível, toque para atualizar</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Mensagem encriptada ruim</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Mensagem encriptada para sessão não-existente</string>
@@ -153,7 +149,7 @@
     <string name="lockAppUnlocked">Session está destrancado</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Você</string>
-    <string name="MediaPreviewActivity_draft">Rascunho</string>
+    <string name="draft">Rascunho</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">O Session precisa de acesso ao armazenamento para poder salvar em um armazenamento externo, mas a permissão está sendo recusada. Por favor vá até as configurações, selecione \"Permissões\", e ative o \"Armazenamento\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Não é possível salvar em armazenamento externo sem permissões</string>
     <!-- MessageNotifier -->
@@ -172,9 +168,8 @@
     <string name="NotificationChannel_failures">Falhas</string>
     <string name="NotificationChannel_backups">Backups</string>
     <string name="lockAppStatus">Status de tranca</string>
-    <string name="NotificationChannel_app_updates">Atualizações de app</string>
+    <string name="updateApp">Atualizações de app</string>
     <string name="other">Outro</string>
-    <string name="NotificationChannel_missing_display_name">Desconhecida</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Resposta rápida indisponível quando Session está trancado!</string>
     <string name="QuickResponseService_problem_sending_message">Problema enviando mensagem!</string>
@@ -199,8 +194,7 @@
     <string name="attachment_type_selector__camera_description">Câmera</string>
     <string name="attachment_type_selector__location">Localização</string>
     <string name="attachment_type_selector__location_description">Localização</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imagem ou vídeo</string>
     <string name="attachment_type_selector__gallery">Galeria</string>
     <string name="attachment_type_selector__drawer_description">Alternar gaveta de anexos</string>
@@ -241,7 +235,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Procurar GIFs e stickers</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Nada encontrado</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Ver conversa completa</string>
     <string name="load_more_header__loading">Carregando</string>
@@ -262,10 +255,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Usar default</string>
     <string name="arrays__use_custom">Usar custom</string>
-    <string name="arrays__mute_for_one_hour">Mutar por 1 hora</string>
-    <string name="arrays__mute_for_two_hours">Mutar por 2 horas</string>
-    <string name="arrays__mute_for_one_day">Mutar por 1 dia</string>
-    <string name="arrays__mute_for_seven_days">Mutar por 7 dias</string>
+    <string name="notificationsMute1Hour">Mutar por 1 hora</string>
+    <string name="notificationsMute2Hours">Mutar por 2 horas</string>
+    <string name="notificationsMute1Day">Mutar por 1 dia</string>
     <string name="arrays__mute_for_one_year">Mutar por 1 ano</string>
     <string name="arrays__settings_default">Default de configurações</string>
     <string name="arrays__enabled">Habilitado</string>
@@ -290,7 +282,6 @@
     <string name="preferences__screen_security">Segurança de tela</string>
     <string name="sessionNotifications">Notificações</string>
     <string name="notificationsLedColor">Cor do LED</string>
-    <string name="preferences__led_color_unknown">Desconhecida</string>
     <string name="preferences__pref_led_blink_title">Padrão de piscagem do LED</string>
     <string name="notificationsSound">Som</string>
     <string name="preferences__repeat_alerts">Repetir alertas</string>
@@ -437,7 +428,7 @@
     <string name="useFastMode">Usar Modo Rápido</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Deslinkar dispositivo</string>
     <string name="clearDataAll">Limpar Todos os Dados</string>
-    <string name="activity_qr_code_title">Código QR</string>
+    <string name="qrCode">Código QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneie o código QR de alguém para iniciar uma conversa com essa pessoa</string>
     <string name="fragment_view_my_qr_code_title">Me escaneie</string>
     <string name="fragment_view_my_qr_code_share_title">Compartilhar QR Code</string>
@@ -456,7 +447,6 @@
     <string name="dialog_ui_mode_option_system_default">Default de sistema</string>
     <string name="attachment">Anexo</string>
     <string name="messageVoice">Mensagem de Voz</string>
-    <string name="details">Detalhes</string>
     <string name="dialog_backup_activation_failed">Falha em ativar backups. Por favor tente de novo ou contate suporte.</string>
     <string name="activity_backup_restore_title">Restaurar backup</string>
     <string name="activity_backup_restore_select_file">Selecione um arquivo</string>

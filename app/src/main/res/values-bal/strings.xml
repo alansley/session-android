@@ -57,10 +57,8 @@
     <string name="DeviceListItem_today">Hari ini</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Kesalahan saat mengambil berkas GIF dengan resolusi penuh</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Stiker</string>
+    <string name="stickers">Stiker</string>
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
@@ -82,7 +80,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Semua media</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung, Harap beri tahu pengirim untuk memutakhirkan ke versi terbaru dan kirim ulang pesannya.</string>
+    <string name="messageErrorOld">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung, Harap beri tahu pengirim untuk memutakhirkan ke versi terbaru dan kirim ulang pesannya.</string>
     <string name="MessageRecord_you_updated_group">Anda memperbarui grup.</string>
     <string name="MessageRecord_s_updated_group">%s memperbarui grup.</string>
     <!-- ExpirationDialog -->
@@ -111,8 +109,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="ThreadRecord_you_marked_verified">Anda ditandai terverifikasi</string>
     <string name="ThreadRecord_you_marked_unverified">Anda ditandai tidak terverifikasi</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Perbarui Session</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Versi baru Session tersedia, ketuk untuk memperbarui</string>
+    <string name="updateNewVersion">Versi baru Session tersedia, ketuk untuk memperbarui</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Pesan terenkripsi buruk</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Pesan dienkripsi untuk sesi yang tidak ada</string>
@@ -124,7 +121,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="lockAppUnlocked">Session tidak terkunci</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Anda</string>
-    <string name="MediaPreviewActivity_draft">Draf</string>
+    <string name="draft">Draf</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tidak bisa menyimpan ke penyimpanan luar tanpa izin</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d pesan baru dalam %2$d percakapan</string>
@@ -141,9 +138,8 @@ memproses pertukaran kunci korupsi.</string>
     <string name="NotificationChannel_failures">Gagal</string>
     <string name="NotificationChannel_backups">Cadangan</string>
     <string name="lockAppStatus">Status penguncian</string>
-    <string name="NotificationChannel_app_updates">pembaruan aplikasi</string>
+    <string name="updateApp">pembaruan aplikasi</string>
     <string name="other">Yang lain</string>
-    <string name="NotificationChannel_missing_display_name">Tidak dikenal</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Tanggapan cepat tidak tersedia ketika Session sedang dikunci!</string>
     <string name="QuickResponseService_problem_sending_message">Terjadi masalah saat mengirim pesan!</string>
@@ -198,7 +194,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cari GIF dan stiker</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Tidak ada yang ditemukan</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Lihat seluruh percakapan</string>
     <string name="load_more_header__loading">Memuat</string>
@@ -218,10 +213,9 @@ memproses pertukaran kunci korupsi.</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Gunakan bawaan</string>
     <string name="arrays__use_custom">Gunakan ubahsuai</string>
-    <string name="arrays__mute_for_one_hour">Bisukan selama 1 jam</string>
-    <string name="arrays__mute_for_two_hours">Bisukan selama 2 jam</string>
-    <string name="arrays__mute_for_one_day">Bisukan selama 1 hari</string>
-    <string name="arrays__mute_for_seven_days">Bisukan selama 7 hari</string>
+    <string name="notificationsMute1Hour">Bisukan selama 1 jam</string>
+    <string name="notificationsMute2Hours">Bisukan selama 2 jam</string>
+    <string name="notificationsMute1Day">Bisukan selama 1 hari</string>
     <string name="arrays__mute_for_one_year">Bisukan selama 1 tahun</string>
     <string name="arrays__settings_default">Pengaturan bawaan</string>
     <string name="arrays__enabled">Aktif</string>
@@ -239,7 +233,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="preferences__screen_security">Keamanan Layar</string>
     <string name="sessionNotifications">Pemberitahuan</string>
     <string name="notificationsLedColor">Warna LED</string>
-    <string name="preferences__led_color_unknown">Tidak dikenal</string>
     <string name="preferences__pref_led_blink_title">Pola kedip LED</string>
     <string name="notificationsSound">Bunyi</string>
     <string name="preferences__repeat_alerts">Ulangi peringatan</string>
@@ -375,7 +368,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="notificationsStrategy">Strategi notofikasi</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Putuskan koneksi dengan perangkat</string>
     <string name="clearDataAll">Hapus semua data</string>
-    <string name="activity_qr_code_title">Kode QR</string>
+    <string name="qrCode">Kode QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>
     <string name="fragment_view_my_qr_code_share_title">Bagikan kode QR</string>
     <string name="contactsContacts">Kontak</string>

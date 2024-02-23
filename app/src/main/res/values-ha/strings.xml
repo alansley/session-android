@@ -71,9 +71,7 @@
     <string name="DeviceListItem_today">Îro</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Dema GIF a bi averûtiya bilind dihat wergirtin çewtî pêk hat.</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIF</string>
     <!-- CropImageActivity -->
     <!-- InputPanel -->
     <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Ji bo peyamek dengî tomar bikî bitepîne û tiliya xwe li ser bihêle, paşê ji bo şandinê berde</string>
@@ -94,7 +92,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Hemû medya</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Peyamek ku bi guhertoyek bêkêr ya Signalê hatiye şifrekirin hate wergirtin. Ji şandiyarî re bêje bila Sessionê hildemîne û peyamê dîsa bişîne.</string>
+    <string name="messageErrorOld">Peyamek ku bi guhertoyek bêkêr ya Signalê hatiye şifrekirin hate wergirtin. Ji şandiyarî re bêje bila Sessionê hildemîne û peyamê dîsa bişîne.</string>
     <string name="MessageRecord_you_updated_group">Te komê hildemand.</string>
     <string name="MessageRecord_s_updated_group">%s komê hildemand.</string>
     <!-- ExpirationDialog -->
@@ -124,8 +122,7 @@
     <string name="ThreadRecord_you_marked_verified">Te wekî rastandî nîşan kir</string>
     <string name="ThreadRecord_you_marked_unverified">Te wekî nerastandî nîşan kir</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Hildema Sessionê</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Guhertoyeke nû ya Sessionê amade ye, ji bo hildemandinê bitepîne. </string>
+    <string name="updateNewVersion">Guhertoyeke nû ya Sessionê amade ye, ji bo hildemandinê bitepîne. </string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Peyama xirab şîfrekirî</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Peyam ji bo danişîna tuneyî hat şîfrekirin</string>
@@ -137,7 +134,7 @@
     <string name="lockAppUnlocked">Session vekirî ye</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Tu</string>
-    <string name="MediaPreviewActivity_draft">Reşnivîs</string>
+    <string name="draft">Reşnivîs</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bê destûr nabe ku li bîrbara derveyî tomar bibe</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d peyamên nû di %2$d axaftin de hene</string>
@@ -154,9 +151,8 @@
     <string name="NotificationChannel_failures">Çewtî</string>
     <string name="NotificationChannel_backups">Paşkeft</string>
     <string name="lockAppStatus">Rewşa kilîdê</string>
-    <string name="NotificationChannel_app_updates">Hildemên sepanê</string>
+    <string name="updateApp">Hildemên sepanê</string>
     <string name="other">Din</string>
-    <string name="NotificationChannel_missing_display_name">Nenas</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Dema Session kilîdkirî be zû bersiv nabe!</string>
     <string name="QuickResponseService_problem_sending_message">Pirsgirêka şandina peyamê!</string>
@@ -215,7 +211,6 @@
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Li GIF û sticker bigerre</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Tiştek nehat dîtin</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Temamiya gotûbêjê bibîne</string>
     <string name="load_more_header__loading">Tê barkirin</string>
@@ -236,10 +231,9 @@
     <!-- arrays.xml -->
     <string name="arrays__use_default">Ya jixweber bi kar bîne</string>
     <string name="arrays__use_custom">Ya taybet bi kar bîne</string>
-    <string name="arrays__mute_for_one_hour">Heta 1 demjimêrê bêdeng bike</string>
-    <string name="arrays__mute_for_two_hours">Heta 2 demjimêran bêdeng bike</string>
-    <string name="arrays__mute_for_one_day">Heta 1 rojê bêdeng bike</string>
-    <string name="arrays__mute_for_seven_days">Heta 7 rojan bêdeng bike</string>
+    <string name="notificationsMute1Hour">Heta 1 demjimêrê bêdeng bike</string>
+    <string name="notificationsMute2Hours">Heta 2 demjimêran bêdeng bike</string>
+    <string name="notificationsMute1Day">Heta 1 rojê bêdeng bike</string>
     <string name="arrays__mute_for_one_year">Heta 1 salê bêdeng bike</string>
     <string name="arrays__settings_default">Sazkariyên jixweber</string>
     <string name="arrays__enabled">Rêdayî</string>
@@ -263,7 +257,6 @@
     <string name="preferences__screen_security">Ewlehiya ekranê</string>
     <string name="sessionNotifications">Danezan</string>
     <string name="notificationsLedColor">Rengê LED</string>
-    <string name="preferences__led_color_unknown">Nenas</string>
     <string name="preferences__pref_led_blink_title">Qalibê pêketin û tefandina LEDê</string>
     <string name="notificationsSound">Deng</string>
     <string name="preferences__repeat_alerts">Hişyariyan dubare bike</string>

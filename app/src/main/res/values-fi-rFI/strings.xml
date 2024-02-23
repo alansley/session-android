@@ -6,7 +6,6 @@
     <string name="delete">Poista</string>
     <string name="save">Tallenna</string>
     <string name="noteToSelf">Viestit itselleni</string>
-    <string name="version_s">Versio %s</string>
     <!-- AbstractNotificationBuilder -->
     <string name="AbstractNotificationBuilder_new_message">Uusi viesti</string>
     <!-- AlbumThumbnailView -->
@@ -81,10 +80,8 @@
     <string name="DeviceListItem_today">tänään</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
-    <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Täysikokoisen GIFin lataaminen epäonnistui</string>
     <!-- GiphyFragmentPageAdapter -->
-    <string name="GiphyFragmentPagerAdapter_gifs">GIFit</string>
-    <string name="GiphyFragmentPagerAdapter_stickers">Tarrat</string>
+    <string name="stickers">Tarrat</string>
     <!-- CropImageActivity -->
     <string name="photo">Kuvake</string>
     <!-- InputPanel -->
@@ -110,7 +107,7 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Kaikki media</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vastaanotettiin viesti, joka on salattu Sessionin vanhalla versiolla, jota ei enää tueta. Pyydä lähettäjää päivittämään uusimpaan versioon ja lähettämään viesti uudelleen.</string>
+    <string name="messageErrorOld">Vastaanotettiin viesti, joka on salattu Sessionin vanhalla versiolla, jota ei enää tueta. Pyydä lähettäjää päivittämään uusimpaan versioon ja lähettämään viesti uudelleen.</string>
     <string name="MessageRecord_you_updated_group">Sinä päivitit ryhmää.</string>
     <string name="MessageRecord_s_updated_group">%s päivitti ryhmää.</string>
     <!-- ExpirationDialog -->
@@ -139,8 +136,7 @@ on viallinen!</string>
     <string name="ThreadRecord_you_marked_verified">Merkitsit varmennetuksi.</string>
     <string name="ThreadRecord_you_marked_unverified">Merkitsit varmentamattomaksi.</string>
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Session-päivitys</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uusi versio Sessionista on saatavilla. Päivitä napauttamalla.</string>
+    <string name="updateNewVersion">Uusi versio Sessionista on saatavilla. Päivitä napauttamalla.</string>
     <!-- MessageDisplayHelper -->
     <string name="MessageDisplayHelper_bad_encrypted_message">Viestin salaus on kelvoton</string>
     <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Viesti salattu olemattomalle istunnolle</string>
@@ -152,7 +148,7 @@ on viallinen!</string>
     <string name="lockAppUnlocked">Sessionin lukitus on auki</string>
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Sinä</string>
-    <string name="MediaPreviewActivity_draft">Luonnos</string>
+    <string name="draft">Luonnos</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session tarvitsee luvan tallentaakseen ulkoiseen tallennustilaan, mutta se on pysyvästi kielletty. Jatka sovelluksen asetuksiin, valitse \"luvat\", ja käytä \"tallennustilaa\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tallennus ulkoiseen tallennustilaan ei onnistu ilman käyttöoikeutta.</string>
     <!-- MessageNotifier -->
@@ -171,9 +167,8 @@ on viallinen!</string>
     <string name="NotificationChannel_failures">Viat</string>
     <string name="NotificationChannel_backups">Varmuuskopiot</string>
     <string name="lockAppStatus">Lukituksen tila</string>
-    <string name="NotificationChannel_app_updates">Sovellusten päivitykset</string>
+    <string name="updateApp">Sovellusten päivitykset</string>
     <string name="other">Muu</string>
-    <string name="NotificationChannel_missing_display_name">Tuntematon</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Pikavastaus ei toimi, kun Session on lukittu!</string>
     <string name="QuickResponseService_problem_sending_message">Ongelma viestin lähettämisessä!</string>
@@ -198,8 +193,7 @@ on viallinen!</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__location">Sijainti</string>
     <string name="attachment_type_selector__location_description">Sijainti</string>
-    <string name="attachment_type_selector__gif">GIF</string>
-    <string name="attachment_type_selector__gif_description">Gif</string>
+    <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Kuva tai video</string>
     <string name="attachment_type_selector__gallery">Galleria</string>
     <string name="attachment_type_selector__drawer_description">Avaa tai sulje liitetiedostovalikko</string>
@@ -240,7 +234,6 @@ on viallinen!</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Etsi GIFejä ja tarroja</string>
     <!-- giphy_fragment -->
-    <string name="giphy_fragment__nothing_found">Mitään ei löytynyt</string>
     <!-- load_more_header -->
     <string name="load_more_header__see_full_conversation">Näytä koko keskustelu</string>
     <string name="load_more_header__loading">Ladataan</string>
@@ -261,10 +254,9 @@ on viallinen!</string>
     <!-- arrays.xml -->
     <string name="arrays__use_default">Käytä oletusta</string>
     <string name="arrays__use_custom">Käytä mukautettua</string>
-    <string name="arrays__mute_for_one_hour">1 tunniksi</string>
-    <string name="arrays__mute_for_two_hours">2 tunniksi</string>
-    <string name="arrays__mute_for_one_day">1 vuorokaudeksi</string>
-    <string name="arrays__mute_for_seven_days">7 vuorokaudeksi</string>
+    <string name="notificationsMute1Hour">1 tunniksi</string>
+    <string name="notificationsMute2Hours">2 tunniksi</string>
+    <string name="notificationsMute1Day">1 vuorokaudeksi</string>
     <string name="arrays__mute_for_one_year">1 vuodeksi</string>
     <string name="arrays__settings_default">Oletus</string>
     <string name="arrays__enabled">Päällä</string>
@@ -289,7 +281,6 @@ on viallinen!</string>
     <string name="preferences__screen_security">Näytön suojaus</string>
     <string name="sessionNotifications">Ilmoitukset</string>
     <string name="notificationsLedColor">LED:in väri</string>
-    <string name="preferences__led_color_unknown">Tuntematon</string>
     <string name="preferences__pref_led_blink_title">LED:in vilkkumistahti</string>
     <string name="notificationsSound">Ääni</string>
     <string name="preferences__repeat_alerts">Hälytysten toisto</string>
@@ -436,7 +427,7 @@ on viallinen!</string>
     <string name="useFastMode">Käytä Nopeaa Tilaa</string>
     <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Poista laitteen linkitys</string>
     <string name="clearDataAll">Tyhjennä tiedot</string>
-    <string name="activity_qr_code_title">QR-koodi</string>
+    <string name="qrCode">QR-koodi</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skannaa jonkun QR-koodi aloittaaksesi keskustelun heidän kanssaan</string>
     <string name="fragment_view_my_qr_code_title">Skannaa Minut</string>
     <string name="fragment_view_my_qr_code_share_title">Jaa QR-koodi</string>
@@ -455,7 +446,6 @@ on viallinen!</string>
     <string name="dialog_ui_mode_option_system_default">Järjestelmän oletus</string>
     <string name="attachment">Liite</string>
     <string name="messageVoice">Ääniviesti</string>
-    <string name="details">Lisätiedot</string>
     <string name="dialog_backup_activation_failed">Varmuuskopioiden aktivointi epäonnistui. Yritä uudelleen tai ota yhteyttä tukeen.</string>
     <string name="activity_backup_restore_title">Palauta varmuuskopio</string>
     <string name="activity_backup_restore_select_file">Valitse tiedosto</string>

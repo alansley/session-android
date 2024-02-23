@@ -217,7 +217,7 @@
                     android:layout_height="42dp"
                     android:src="@drawable/ic_gif_white_24dp"
                     android:scaleType="center"
-                    android:contentDescription="@string/attachment_type_selector__gif_description"
+                    android:contentDescription="@string/gif"
                     app:circleColor="@color/cyan_400"/>
 
                 <TextView
@@ -225,7 +225,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/AttachmentTypeLabel"
-                    android:text="@string/attachment_type_selector__gif"/>
+                    android:text="@string/gif"/>
 
             </LinearLayout>
 
