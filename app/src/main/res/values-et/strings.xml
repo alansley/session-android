@@ -193,8 +193,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d uut sõnumit %2$d vestluses</string>
     <string name="MessageNotifier_most_recent_from_s">Viimatine kontaktilt %1$s</string>
     <string name="MessageNotifier_locked_message">Lukustatud sõnum</string>
-    <string name="MessageNotifier_message_delivery_failed">Sõnumi kohaletoimetamine ebaõnnestus.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Sõnumi kohale toimetamine ebaõnnestus.</string>
     <string name="MessageNotifier_error_delivering_message">Sõnumi kohale toimetamisel tekkis viga.</string>
     <string name="MessageNotifier_mark_all_as_read">Märgi kõik loetuks</string>
     <string name="MessageNotifier_mark_read">Märgi loetuks</string>

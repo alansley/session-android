@@ -131,8 +131,6 @@
     <!-- MessageNotifier -->
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d tin nhắn mới trong %2$d cuộc chuyện trò</string>
     <string name="MessageNotifier_most_recent_from_s">Gần đây nhất từ: %1$s</string>
-    <string name="MessageNotifier_message_delivery_failed">Phân phối tin nhắn bị thất bại.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Thất bại trong việc phân phối tin.</string>
     <string name="MessageNotifier_error_delivering_message">Có lỗi khi phân phối tin.</string>
     <string name="MessageNotifier_mark_all_as_read">Đánh dấu tất cả đã đọc</string>
     <string name="MessageNotifier_mark_read">Đánh dấu đã đọc</string>

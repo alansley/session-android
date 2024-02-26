@@ -185,8 +185,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nye meldingar i %2$d samtalar</string>
     <string name="MessageNotifier_most_recent_from_s">Nyaste frå: %1$s</string>
     <string name="MessageNotifier_locked_message">Låst melding</string>
-    <string name="MessageNotifier_message_delivery_failed">Feil ved meldingslevering.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Klarte ikkje å levera melding.</string>
     <string name="MessageNotifier_error_delivering_message">Feil under levering av melding.</string>
     <string name="MessageNotifier_mark_all_as_read">Merk alle som lesne</string>
     <string name="MessageNotifier_mark_read">Merk lesen</string>

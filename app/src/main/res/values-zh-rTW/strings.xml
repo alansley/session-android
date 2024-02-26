@@ -208,8 +208,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d 則新訊息在 %2$d 的對話中</string>
     <string name="MessageNotifier_most_recent_from_s">最新來自：%1$s</string>
     <string name="MessageNotifier_locked_message">訊息已鎖</string>
-    <string name="MessageNotifier_message_delivery_failed">訊息傳送失敗。</string>
-    <string name="MessageNotifier_failed_to_deliver_message">無法傳送訊息。</string>
     <string name="MessageNotifier_error_delivering_message">傳送訊息發生失誤。</string>
     <string name="MessageNotifier_mark_all_as_read">全部標示為已讀</string>
     <string name="MessageNotifier_mark_read">標示已讀</string>

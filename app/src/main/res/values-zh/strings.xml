@@ -204,8 +204,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d 新信息是在 %2$d 中的会话</string>
     <string name="MessageNotifier_most_recent_from_s">最新的邮件来自：%1$s</string>
     <string name="MessageNotifier_locked_message">锁定的消息</string>
-    <string name="MessageNotifier_message_delivery_failed">信息发送失败。</string>
-    <string name="MessageNotifier_failed_to_deliver_message">信息发送失败</string>
     <string name="MessageNotifier_error_delivering_message">发送信息错误。</string>
     <string name="MessageNotifier_mark_all_as_read">全部标记为已读</string>
     <string name="MessageNotifier_mark_read">标记为已读</string>

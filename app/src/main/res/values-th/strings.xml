@@ -177,8 +177,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">มี %1$d ข้อความใหม่ใน %2$d การสนทนา</string>
     <string name="MessageNotifier_most_recent_from_s">ล่าสุดจาก: %1$s</string>
     <string name="MessageNotifier_locked_message">ข้อความที่ถูกล็อก</string>
-    <string name="MessageNotifier_message_delivery_failed">การส่งข้อความล้มเหลว</string>
-    <string name="MessageNotifier_failed_to_deliver_message">ส่งข้อความล้มเหลว</string>
     <string name="MessageNotifier_error_delivering_message">เกิดข้อผิดพลาดระหว่างส่งข้อความ</string>
     <string name="MessageNotifier_mark_all_as_read">ทำเครื่องหมายทั้งหมดว่าอ่านแล้ว</string>
     <string name="MessageNotifier_mark_read">ทำเครื่องหมายว่าอ่านแล้ว</string>

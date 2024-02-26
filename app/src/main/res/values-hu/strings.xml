@@ -214,8 +214,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d új üzenet %2$d beszélgetésben</string>
     <string name="MessageNotifier_most_recent_from_s">Legutóbb tőle: %1$s</string>
     <string name="MessageNotifier_locked_message">Zárolt üzenet</string>
-    <string name="MessageNotifier_message_delivery_failed">Üzenet kézbesítése sikertelen.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Nem sikerült az üzenet kézbesítése.</string>
     <string name="MessageNotifier_error_delivering_message">Hiba történt az üzenet kézbesítése során.</string>
     <string name="MessageNotifier_mark_all_as_read">Összes megjelölése olvasottként</string>
     <string name="MessageNotifier_mark_read">Olvasottnak jelöl</string>

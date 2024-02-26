@@ -213,8 +213,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d neue Nachrichten in %2$d Unterhaltungen</string>
     <string name="MessageNotifier_most_recent_from_s">Neueste von: %1$s</string>
     <string name="MessageNotifier_locked_message">Gesperrte Nachricht</string>
-    <string name="MessageNotifier_message_delivery_failed">Nachrichtenübermittlung gescheitert.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Nachrichtenübermittlung gescheitert.</string>
     <string name="MessageNotifier_error_delivering_message">Fehler beim Zustellen der Nachricht</string>
     <string name="MessageNotifier_mark_all_as_read">Alle gelesen</string>
     <string name="MessageNotifier_mark_read">Gelesen</string>

@@ -213,8 +213,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nieuwe berichten in %2$d gesprekken</string>
     <string name="MessageNotifier_most_recent_from_s">Meest recente van: %1$s</string>
     <string name="MessageNotifier_locked_message">Versleuteld bericht</string>
-    <string name="MessageNotifier_message_delivery_failed">Berichtaflevering mislukt.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Het bericht afleveren is mislukt.</string>
     <string name="MessageNotifier_error_delivering_message">Fout bij afleveren bericht.</string>
     <string name="MessageNotifier_mark_all_as_read">Alles markeren als gelezen</string>
     <string name="MessageNotifier_mark_read">Markeren als gelezen</string>

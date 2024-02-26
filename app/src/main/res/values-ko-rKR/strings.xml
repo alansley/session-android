@@ -171,8 +171,6 @@
     <!-- MessageNotifier -->
     <string name="MessageNotifier_d_new_messages_in_d_conversations">대화 %2$d개에 새 메시지 %1$d개</string>
     <string name="MessageNotifier_most_recent_from_s">%1$s님에게서 최근 메시지</string>
-    <string name="MessageNotifier_message_delivery_failed">메시지 전송 실패</string>
-    <string name="MessageNotifier_failed_to_deliver_message">메시지가 전송되지 않았습니다.</string>
     <string name="MessageNotifier_error_delivering_message">메시지 전송 오류 발생</string>
     <string name="MessageNotifier_mark_all_as_read">모두 읽음으로 표시</string>
     <string name="MessageNotifier_mark_read">읽음으로 표시</string>

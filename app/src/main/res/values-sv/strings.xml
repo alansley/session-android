@@ -213,8 +213,6 @@
     <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nya meddelanden i %2$d konversationer</string>
     <string name="MessageNotifier_most_recent_from_s">Senaste från %1$s</string>
     <string name="MessageNotifier_locked_message">Låst meddelande</string>
-    <string name="MessageNotifier_message_delivery_failed">Meddelandeleverans misslyckades.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Kunde inte leverera meddelande.</string>
     <string name="MessageNotifier_error_delivering_message">Fel vid leverans av meddelande.</string>
     <string name="MessageNotifier_mark_all_as_read">Markera alla som lästa</string>
     <string name="MessageNotifier_mark_read">Läst</string>
