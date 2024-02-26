@@ -134,7 +134,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Lähetä yhteystiedolle %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Lisää kuvateksti...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Kohde poistettiin, koska se ylitti kokorajan</string>
     <string name="MediaSendActivity_camera_unavailable">Kamera ei käytettävissä</string>
     <string name="MediaSendActivity_message_to_s">Vastaanottaja: %s</string>

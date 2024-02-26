@@ -45,7 +45,6 @@
                 android:textSize="@dimen/medium_font_size"
                 android:maxLines="3"
                 android:maxLength="240"
-                android:hint="@string/MediaSendActivity_add_a_caption"
                 android:autoText="true"
                 android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
                 android:background="@null"/>

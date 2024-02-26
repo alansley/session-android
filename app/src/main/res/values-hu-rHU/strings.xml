@@ -135,7 +135,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Küldés neki: %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Felirat hozzáadása...</string>
     <string name="MediaSendActivity_an_item_was_removed_because_it_exceeded_the_size_limit">Egy elem el lett távolítva, mivel túllépte a megengedett mérethatárt</string>
     <string name="MediaSendActivity_camera_unavailable">A kamera nem érhető el.</string>
     <string name="MediaSendActivity_message_to_s">Üzenet neki: %s</string>
