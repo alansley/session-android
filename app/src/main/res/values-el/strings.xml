@@ -190,8 +190,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Αναβάθμιση Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Μια νέα έκδοση του Session είναι διαθέσιμη, πατήστε για αναβάθμιση</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Μήνυμα με πρόβλημα στην κρυπτογράφησή του</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Το μήνυμα κρυπτογραφήθηκε για μη υπάρχον session</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">MMS μήνυμα με πρόβλημα στην κρυπτογράφησή του</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Το MMS μήνυμα κρυπτογραφήθηκε για μη υπάρχον session</string>

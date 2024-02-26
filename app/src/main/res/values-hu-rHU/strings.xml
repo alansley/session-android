@@ -191,8 +191,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Session frissítés</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A Session egy új verziója érhető el, koppints a frissítéshez</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Hibás titkosított üzenet</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Az üzenet nem létező munkamenethez lett titkosítva</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Hibás titkosított MMS üzenet</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Az MMS üzenet nem létező munkamenethez lett titkosítva</string>

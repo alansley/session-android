@@ -190,8 +190,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Nieuwe versie van Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Er is een nieuwe versie van Session beschikbaar, tik om bij te werken</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Verkeerd versleuteld bericht</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Bericht versleuteld voor niet-bestaande sessie</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Verkeerd versleuteld mms-bericht</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mms-bericht versleuteld voor niet-bestaande sessie</string>

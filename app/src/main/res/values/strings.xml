@@ -347,8 +347,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Session update</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A new version of Session is available, tap to update</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Bad encrypted message</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Message encrypted for non-existing session</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Bad encrypted MMS message</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS message encrypted for non-existing session</string>

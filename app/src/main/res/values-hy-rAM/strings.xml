@@ -195,8 +195,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Session֊ի թարմացում</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Հասանել է Session֊ի նոր տարբերակը. Սեղմեք՝ թարմացնելու համար</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Սխալ գաղտնագրված նամակ</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Հաղորդագրությունը կոդավորված է գոյություն չունեցող սեսիաի համար</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Սխալ գաղտնագրված MMS նամակ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS հաղորդագրությունը կոդավորված է գոյություն չունեցող սեսիաի համար</string>

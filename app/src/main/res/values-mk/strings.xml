@@ -125,8 +125,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Session ဗားရှင်းအသစ်</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session ဗားရှင်းအသစ်ရပါပြီ၊ အဆင့်မြှင့်ရန် နှိပ်လိုက်ပါ</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">မှားယွင်းစွာ encrypt လုပ်ထားသောစာ</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">ရှိမနေတော့သည့် ဆက်ရှင်အတွက် စာများကို encrpyt လုပ်ထားပါသည်။</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">မှားယွင်းစာ encrpyt လုပ်ထားသော MMS စာ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ရှိမနေတော့သည့် ဆက်ရှင်အတွက် MMS စာများကို encrypt လုပ်ထားပါသည်။</string>

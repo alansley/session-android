@@ -181,8 +181,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Session 更新</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session 有新版本了，点击升级！</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">已损坏的加密消息</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">已为不存在的会话加密其中的信息</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">已损坏的加密彩信</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">已为不存在的会话加密其中的彩信</string>

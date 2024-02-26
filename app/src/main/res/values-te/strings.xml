@@ -173,8 +173,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Session నవీకరణ</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session యొక్క కొత్త వివరణం అందుబాటులో ఉంది, నవీకరణ కొరకు తట్టండి</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">సరికాని గుప్తీకరించిన సందేశం</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">సందేశం</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">చెడు ఎన్క్రిప్టెడ్ ఎంఎంఎస్ సందేశాన్ని</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ఎంఎంఎస్ సందేశాన్ని మనుగడలో కాని సెషన్ కోసం గుప్తీకరించబడింది</string>

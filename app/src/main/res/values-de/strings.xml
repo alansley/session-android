@@ -190,8 +190,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Session-Aktualisierung</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Eine neue Version von Session ist verfügbar. Zum Aktualisieren antippen.</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Fehlerhaft verschlüsselte Nachricht</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Nachricht wurde für eine nicht bestehende sichere Sitzung verschlüsselt</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Fehlerhaft verschlüsselte MMS</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS wurde für eine nicht bestehende sichere Sitzung verschlüsselt</string>

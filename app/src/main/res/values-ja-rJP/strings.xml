@@ -179,8 +179,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Sessionをアップデートする</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Sessionの最新版が出ました。タップしてアップデートしてください。</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">メッセージの暗号化が正しくありません</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">メッセージは存在しないセッションのために暗号化されています</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">MMSメッセージの暗号化が正しくありません</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMSメッセージは存在しないセッションのために暗号化されています</string>

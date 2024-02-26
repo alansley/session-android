@@ -189,8 +189,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Përditësim i Session-it</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Është gati një version i ri i Session-it, prekeni që të përditësohet</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Mesazh i fshehtëzuar keq</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Mesazh i fshehtëzuar për sesion që s\’ekziston</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Mesazh MMS i fshehtëzuar keq</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mesazh MMS i fshehtëzuar për sesion që s\’ekziston</string>

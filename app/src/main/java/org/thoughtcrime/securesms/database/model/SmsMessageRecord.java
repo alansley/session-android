@@ -57,12 +57,8 @@ public class SmsMessageRecord extends MessageRecord {
 
   @Override
   public SpannableString getDisplayBody(@NonNull Context context) {
-    if (SmsDatabase.Types.isFailedDecryptType(type)) {
-      return emphasisAdded(context.getString(R.string.MessageDisplayHelper_bad_encrypted_message));
-    } else if (SmsDatabase.Types.isDuplicateMessageType(type)) {
+    if (SmsDatabase.Types.isDuplicateMessageType(type)) {
       return emphasisAdded(context.getString(R.string.SmsMessageRecord_duplicate_message));
-    } else if (SmsDatabase.Types.isNoRemoteSessionType(type)) {
-      return emphasisAdded(context.getString(R.string.MessageDisplayHelper_message_encrypted_for_non_existing_session));
     } else {
       return super.getDisplayBody(context);
     }

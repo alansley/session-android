@@ -132,8 +132,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Perbarui Session</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Versi baru Session tersedia, ketuk untuk memperbarui</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Pesan terenkripsi buruk</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Pesan dienkripsi untuk sesi yang tidak ada</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Pesan MMS terenkripsi buruk</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Pesan MMS dienkripsi untuk sesi yang tidak ada</string>

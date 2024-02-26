@@ -190,8 +190,6 @@
     <string name="UpdateApkReadyListener_Signal_update">Session opdatering</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version af Session er tilgængelig, tap for at opdatere</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Ugyldig krypteret besked</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Beskeden er krypteret til en session der ikke findes</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Ugyldig krypteret MMS besked</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS besked krypteret til en session der ikke findes</string>
