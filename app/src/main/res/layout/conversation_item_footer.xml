@@ -38,6 +38,7 @@
 
     </LinearLayout>
 
+    // ACL THIS ENTIRE LAYOUT CAN GO - LINE 127
     <ImageView
         android:id="@+id/footer_insecure_indicator"
         android:layout_width="12dp"

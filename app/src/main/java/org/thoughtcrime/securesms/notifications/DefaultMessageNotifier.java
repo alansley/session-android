@@ -143,15 +143,6 @@ public class DefaultMessageNotifier implements MessageNotifier {
     }
   }
 
-  public void notifyMessagesPending(Context context) {
-    if (!TextSecurePreferences.isNotificationsEnabled(context)) {
-      return;
-    }
-
-    PendingMessageNotificationBuilder builder = new PendingMessageNotificationBuilder(context, TextSecurePreferences.getNotificationPrivacy(context));
-    ServiceUtil.getNotificationManager(context).notify(PENDING_MESSAGES_ID, builder.build());
-  }
-
   @Override
   public void cancelDelayedNotifications() {
     executor.cancel();

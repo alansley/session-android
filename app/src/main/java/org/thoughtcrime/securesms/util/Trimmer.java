@@ -10,6 +10,7 @@ import org.thoughtcrime.securesms.dependencies.DatabaseComponent;
 
 import network.loki.messenger.R;
 
+// ACL TRIMMER HAS NO USAGES SO CLASS CAN BE REMOVED
 public class Trimmer {
 
   public static void trimAllThreads(Context context, int threadLengthLimit) {
