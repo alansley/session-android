@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">Telefonis vin</string>
     <string name="ThreadRecord_missed_call">Maltrafita alvoko</string>
     <string name="ThreadRecord_media_message">Aŭdvida mesaĝo</string>
-    <string name="ThreadRecord_s_is_on_signal">%s estas ĉe Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Memviŝontaj mesaĝoj malŝaltita</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Daŭro de memviŝontaj mesaĝoj agordita je %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s kreis ekrankopion.</string>
@@ -248,7 +247,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Sonaĵo</string>
     <string name="attachment_type_selector__audio_description">Sonaĵo</string>
-    <string name="attachment_type_selector__contact">Kontakto</string>
     <string name="attachment_type_selector__camera">Fotilo</string>
     <string name="attachment_type_selector__camera_description">Fotilo</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -262,7 +260,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Sendi</string>
     <string name="conversation_activity__compose_description">Mesaĝa redakto</string>
-    <string name="conversation_activity__emoji_toggle_description">Baskuligi emoĝian klavaron</string>
     <string name="conversation_activity__attachment_thumbnail">Kunsendaĵa miniaturo</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Baskuligi kunsendaĵon el rapida fotilo</string>
     <!-- conversation_input_panel -->

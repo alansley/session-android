@@ -93,8 +93,6 @@ public class ThreadRecord extends DisplayRecord {
       return emphasisAdded(context.getString(network.loki.messenger.R.string.ThreadRecord_called_you));
     } else if (SmsDatabase.Types.isMissedCall(type)) {
       return emphasisAdded(context.getString(network.loki.messenger.R.string.ThreadRecord_missed_call));
-    } else if (SmsDatabase.Types.isJoinedType(type)) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_s_is_on_signal, getRecipient().toShortString()));
     } else if (SmsDatabase.Types.isExpirationTimerUpdate(type)) {
       int seconds = (int) (getExpiresIn() / 1000);
       if (seconds <= 0) {

@@ -148,7 +148,6 @@
     <string name="ThreadRecord_called_you">Menelpon anda</string>
     <string name="ThreadRecord_missed_call">Panggilan tidak terjawab</string>
     <string name="ThreadRecord_media_message">Pesan media</string>
-    <string name="ThreadRecord_s_is_on_signal">%s ada di Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Menghilangkan pesan dinonaktifkan</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Atur menghilangkan pesan ke %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s mengambil tangkapan layar.</string>
@@ -207,7 +206,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Suara</string>
     <string name="attachment_type_selector__audio_description">Suara</string>
-    <string name="attachment_type_selector__contact">Kontak</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>

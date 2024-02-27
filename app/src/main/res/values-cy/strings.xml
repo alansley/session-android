@@ -197,7 +197,6 @@
     <string name="ThreadRecord_called_you">Wedi\'ch galw chi</string>
     <string name="ThreadRecord_missed_call">Galwad coll</string>
     <string name="ThreadRecord_media_message">Neges cyfryngau</string>
-    <string name="ThreadRecord_s_is_on_signal">Mae %s ar Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Negeseuon diflanedig wedi\'u hanalluogi</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Amser neges diflanedig wedi\'i osod i %s</string>
     <string name="ThreadRecord_safety_number_changed">Mae\'r rhif diogelwch wedi newid</string>
@@ -269,7 +268,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Sain</string>
     <string name="attachment_type_selector__audio_description">Sain</string>
-    <string name="attachment_type_selector__contact">Cysylltiad</string>
     <string name="attachment_type_selector__gallery_description">Delwedd neu fideo</string>
     <string name="attachment_type_selector__file_description">Ffeil</string>
     <string name="attachment_type_selector__gallery">Oriel</string>
@@ -279,7 +277,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Anfon</string>
     <string name="conversation_activity__compose_description">Cyfansoddiad neges</string>
-    <string name="conversation_activity__emoji_toggle_description">Toglo bysellfwrdd gwenogluniau</string>
     <string name="conversation_activity__attachment_thumbnail">Llun Bach Atodiad</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Newid y drôr atodiad cyflym camera</string>
     <!-- conversation_input_panel -->

@@ -155,7 +155,6 @@
     <string name="ThreadRecord_called_you">Bang li te kir</string>
     <string name="ThreadRecord_missed_call">Banga bêbersiv</string>
     <string name="ThreadRecord_media_message">Peyama medyayê</string>
-    <string name="ThreadRecord_s_is_on_signal">%s beşdarî Sessionê bûye!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Peyamên wenda dibin ne çalak e</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Dema wendabûna peyaman %s e</string>
     <string name="ThreadRecord_safety_number_changed">Hejmara ewlehiyê hat guhertin</string>
@@ -223,7 +222,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Deng</string>
     <string name="attachment_type_selector__audio_description">Deng</string>
-    <string name="attachment_type_selector__contact">Berdeng</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gallery_description">Wêne yan vidyo</string>
@@ -235,7 +233,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Bişîne</string>
     <string name="conversation_activity__compose_description">Peyam binivîse</string>
-    <string name="conversation_activity__emoji_toggle_description">Textekilîlê emojî yê din bijerînin</string>
     <string name="conversation_activity__attachment_thumbnail">Wênoka Servehiyê</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Bijertina attachment drawer a kamera ya din</string>
     <!-- conversation_input_panel -->

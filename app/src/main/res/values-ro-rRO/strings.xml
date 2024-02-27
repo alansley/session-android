@@ -183,7 +183,6 @@
     <string name="ThreadRecord_called_you">Te-a apelat</string>
     <string name="ThreadRecord_missed_call">Apel nepreluat</string>
     <string name="ThreadRecord_media_message">Mesaj media</string>
-    <string name="ThreadRecord_s_is_on_signal">%s folosește Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Mesajele care dispar sunt dezactivate</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Timpul setat pentru mesajele care dispar este %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s a efectuat o captură de ecran.</string>
@@ -259,7 +258,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Audio</string>
     <string name="attachment_type_selector__audio_description">Audio</string>
-    <string name="attachment_type_selector__contact">Contact</string>
     <string name="attachment_type_selector__camera">Cameră</string>
     <string name="attachment_type_selector__camera_description">Cameră</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -273,7 +271,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Trimite</string>
     <string name="conversation_activity__compose_description">Compunere mesaj</string>
-    <string name="conversation_activity__emoji_toggle_description">Comutare tastatură emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatură atașament</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Comutare panou cu atașamente de la camera rapidă </string>
     <!-- conversation_input_panel -->

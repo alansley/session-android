@@ -170,7 +170,6 @@
     <string name="ThreadRecord_called_you">Us ha trucat</string>
     <string name="ThreadRecord_missed_call">Trucada perduda</string>
     <string name="ThreadRecord_media_message">Missatge multimèdia</string>
-    <string name="ThreadRecord_s_is_on_signal">%s és al Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Missatges efímers inhabilitats</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">El temps del missatge efímer s\'ha establit a %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s ha fet una captura de pantalla.</string>
@@ -244,7 +243,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Àudio</string>
     <string name="attachment_type_selector__audio_description">Àudio</string>
-    <string name="attachment_type_selector__contact">Contacte</string>
     <string name="attachment_type_selector__camera">Càmera</string>
     <string name="attachment_type_selector__camera_description">Càmera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -258,7 +256,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Envia</string>
     <string name="conversation_activity__compose_description">Cos del missatge</string>
-    <string name="conversation_activity__emoji_toggle_description">Canvia al teclat d\'emojis</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatura de l\'adjunt</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Desplega la pestanya d\'adjunts de càmera ràpida</string>
     <!-- conversation_input_panel -->

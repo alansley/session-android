@@ -179,7 +179,6 @@
     <string name="ThreadRecord_called_you">با شما تماس گرفت</string>
     <string name="ThreadRecord_missed_call">تماس از دست رفته</string>
     <string name="ThreadRecord_media_message">پیام رسانه</string>
-    <string name="ThreadRecord_s_is_on_signal">%s در Session است!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">پیام های نابود شونده غیر فعال شد</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">زمان پنهان شدن پیام بر روی %s تنظیم شد</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s از صفحه یک عکس گرفت.</string>
@@ -254,7 +253,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">صدا</string>
     <string name="attachment_type_selector__audio_description">صوت</string>
-    <string name="attachment_type_selector__contact">مخاطب</string>
     <string name="attachment_type_selector__camera">دوربین</string>
     <string name="attachment_type_selector__camera_description">دوربین</string>
     <string name="attachment_type_selector__gif">گیف</string>
@@ -268,7 +266,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">ارسال</string>
     <string name="conversation_activity__compose_description">ترکیب پیام</string>
-    <string name="conversation_activity__emoji_toggle_description">تعویض صفحه کلید شکلک</string>
     <string name="conversation_activity__attachment_thumbnail">پیوست تصویر کوچک</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">تغییر حالت نگه دارنده پیوست دوربین سریع</string>
     <!-- conversation_input_panel -->

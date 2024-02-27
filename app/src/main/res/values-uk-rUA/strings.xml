@@ -192,7 +192,6 @@
     <string name="ThreadRecord_called_you">Вам телефонували</string>
     <string name="ThreadRecord_missed_call">Пропущений виклик</string>
     <string name="ThreadRecord_media_message">Медіа повідомлення</string>
-    <string name="ThreadRecord_s_is_on_signal">%s приєднався до Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Зникаючі повідомлення заборонені</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Час зникнення повідомлень встановлено на %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s зробив скриншот.</string>
@@ -269,7 +268,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Аудіо</string>
     <string name="attachment_type_selector__audio_description">Аудіо</string>
-    <string name="attachment_type_selector__contact">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="attachment_type_selector__gif">ГІФ</string>
@@ -283,7 +281,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Надіслати</string>
     <string name="conversation_activity__compose_description">Написання повідомлення</string>
-    <string name="conversation_activity__emoji_toggle_description">Відрити клавіатуру emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Мініатюра вкладення</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Увімк/вимк скриньку прикріплень камери</string>
     <!-- conversation_input_panel -->

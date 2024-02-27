@@ -147,7 +147,6 @@
     <string name="ThreadRecord_called_you">Kayachirka</string>
     <string name="ThreadRecord_missed_call">Kayayta mana kutichishka</string>
     <string name="ThreadRecord_media_message">Willachik hillay chaski</string>
-    <string name="ThreadRecord_s_is_on_signal">¡%s Sessionpimi kan!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Chaski chinkachik wichashka</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Chaski anchurichun pachata kushkanchik%s</string>
     <string name="ThreadRecord_safety_number_changed">Alli yupay mushukyashkami</string>
@@ -211,7 +210,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Uyariy</string>
     <string name="attachment_type_selector__audio_description">Uyariy</string>
-    <string name="attachment_type_selector__contact">Yupay mashi</string>
     <string name="attachment_type_selector__camera">Shuyullukchik</string>
     <string name="attachment_type_selector__camera_description">Shuyullukchik</string>
     <string name="attachment_type_selector__gallery_description">Shuyu manakashpaka shuyukuyuriy.</string>
@@ -223,7 +221,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Kachana</string>
     <string name="conversation_activity__compose_description">Chaskita killkay</string>
-    <string name="conversation_activity__emoji_toggle_description">Ñawikukuna killkana antaman yaliy</string>
     <string name="conversation_activity__attachment_thumbnail">Uchilla kimichishka</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Shuyullukchik kimichishkapak ñapash millkata rurana</string>
     <!-- conversation_input_panel -->

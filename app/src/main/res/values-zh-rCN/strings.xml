@@ -164,7 +164,6 @@
     <string name="ThreadRecord_called_you">呼叫您的</string>
     <string name="ThreadRecord_missed_call">未接来电</string>
     <string name="ThreadRecord_media_message">多媒体信息</string>
-    <string name="ThreadRecord_s_is_on_signal">%s 在 Session 上！</string>
     <string name="ThreadRecord_disappearing_messages_disabled">阅后即焚已禁用</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">阅后即焚时间设置为 %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s 进行了截图</string>
@@ -238,7 +237,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">音频</string>
     <string name="attachment_type_selector__audio_description">音频</string>
-    <string name="attachment_type_selector__contact">联系人</string>
     <string name="attachment_type_selector__camera">相机</string>
     <string name="attachment_type_selector__camera_description">相机</string>
     <string name="attachment_type_selector__gif">GIF图片</string>
@@ -252,7 +250,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">发送</string>
     <string name="conversation_activity__compose_description">消息编写</string>
-    <string name="conversation_activity__emoji_toggle_description">切换表情键盘</string>
     <string name="conversation_activity__attachment_thumbnail">附件缩略图</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">切换快速相机附件抽屉</string>
     <!-- conversation_input_panel -->

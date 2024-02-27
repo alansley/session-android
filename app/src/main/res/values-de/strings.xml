@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">Eingegangener Anruf</string>
     <string name="ThreadRecord_missed_call">Entgangener Anruf</string>
     <string name="ThreadRecord_media_message">Nachricht mit Medieninhalten</string>
-    <string name="ThreadRecord_s_is_on_signal">%s ist bei Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Verschwindende Nachrichten deaktiviert</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Zeit für verschwindende Nachrichten auf %s festgelegt</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s hat ein Bildschirmfoto gemacht.</string>
@@ -248,7 +247,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Audio</string>
     <string name="attachment_type_selector__audio_description">Audio</string>
-    <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -262,7 +260,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Senden</string>
     <string name="conversation_activity__compose_description">Nachricht verfassen</string>
-    <string name="conversation_activity__emoji_toggle_description">Emoji-Tastatur aktivieren</string>
     <string name="conversation_activity__attachment_thumbnail">Anhangsvorschaubild</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Direktaufnahme</string>
     <!-- conversation_input_panel -->

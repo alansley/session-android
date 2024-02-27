@@ -142,7 +142,6 @@
     <string name="ThreadRecord_called_you">โทรหาคุณ</string>
     <string name="ThreadRecord_missed_call">สายที่ไม่ได้รับ</string>
     <string name="ThreadRecord_media_message">ข้อความสื่อ</string>
-    <string name="ThreadRecord_s_is_on_signal">%s ใช้งาน Session</string>
     <string name="ThreadRecord_disappearing_messages_disabled">ข้อความที่ลบตัวเองถูกปิดใช้งานแล้ว</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">ตั้งเวลาข้อความที่ลบตัวเองไว้ที่ %s</string>
     <string name="ThreadRecord_safety_number_changed">รหัสความปลอดภัยเปลี่ยนแล้ว</string>
@@ -205,7 +204,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">เสียง</string>
     <string name="attachment_type_selector__audio_description">เสียง</string>
-    <string name="attachment_type_selector__contact">ผู้ติดต่อ</string>
     <string name="attachment_type_selector__camera">กล้อง</string>
     <string name="attachment_type_selector__camera_description">กล้อง</string>
     <string name="attachment_type_selector__gallery_description">ภาพหรือวิดีโอ</string>
@@ -217,7 +215,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">ส่ง</string>
     <string name="conversation_activity__compose_description">การสร้างข้อความ</string>
-    <string name="conversation_activity__emoji_toggle_description">สลับแป้นพิมพ์อีโมจิ</string>
     <string name="conversation_activity__attachment_thumbnail">รูปย่อของไฟล์แนบ</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">สลับแถบเมนูไฟล์แนบกล้องถ่ายภาพแบบเร็ว</string>
     <!-- conversation_input_panel -->

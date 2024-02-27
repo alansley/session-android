@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">Sizi aradı</string>
     <string name="ThreadRecord_missed_call">Cevapsız arama</string>
     <string name="ThreadRecord_media_message">İçerik iletisi</string>
-    <string name="ThreadRecord_s_is_on_signal">%s Session\'e katıldı!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Kaybolan iletiler devre dışı</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Kaybolan ileti süresi %s olarak ayarlandı</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s ekran görüntüsü aldı.</string>
@@ -248,7 +247,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Ses</string>
     <string name="attachment_type_selector__audio_description">Ses</string>
-    <string name="attachment_type_selector__contact">Kişi</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -262,7 +260,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Gönder</string>
     <string name="conversation_activity__compose_description">İleti oluştur</string>
-    <string name="conversation_activity__emoji_toggle_description">Emoji klavyesini göster/gizle</string>
     <string name="conversation_activity__attachment_thumbnail">Eklenti Önizlemesi</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Hızlı kamera eki çekmecesini göster/gizle</string>
     <!-- conversation_input_panel -->

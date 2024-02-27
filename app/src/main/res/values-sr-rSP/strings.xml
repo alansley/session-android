@@ -181,7 +181,6 @@
     <string name="ThreadRecord_called_you">Позвали вас</string>
     <string name="ThreadRecord_missed_call">Пропуштен позив</string>
     <string name="ThreadRecord_media_message">Мултимедијална порука</string>
-    <string name="ThreadRecord_s_is_on_signal">%s је на Sessionу!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Нестајуће поруке искључене</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Време нестајања поруке постављено на %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s је направио скриншут.</string>
@@ -256,7 +255,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Звук</string>
     <string name="attachment_type_selector__audio_description">Звук</string>
-    <string name="attachment_type_selector__contact">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="attachment_type_selector__gif">ГИФ</string>
@@ -270,7 +268,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Пошаљи</string>
     <string name="conversation_activity__compose_description">Састављање поруке</string>
-    <string name="conversation_activity__emoji_toggle_description">Емоџи тастатура</string>
     <string name="conversation_activity__attachment_thumbnail">Сличица прилога</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Фиока брзог прилога камере</string>
     <!-- conversation_input_panel -->

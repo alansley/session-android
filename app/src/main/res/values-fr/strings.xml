@@ -180,7 +180,6 @@
     <string name="ThreadRecord_called_you">Vous a appelé·e</string>
     <string name="ThreadRecord_missed_call">Appel manqué</string>
     <string name="ThreadRecord_media_message">Message multimédia</string>
-    <string name="ThreadRecord_s_is_on_signal">%s est sur Session !</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Les messages éphémères sont désactivés</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">L’expiration des messages éphémères a été définie à %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s a effectué une capture d\'écran.</string>
@@ -255,7 +254,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Son</string>
     <string name="attachment_type_selector__audio_description">Fichiers audios</string>
-    <string name="attachment_type_selector__contact">Contact</string>
     <string name="attachment_type_selector__camera">Appareil photo</string>
     <string name="attachment_type_selector__camera_description">Appareil photo</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -269,7 +267,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Envoyer</string>
     <string name="conversation_activity__compose_description">Rédaction d’un message</string>
-    <string name="conversation_activity__emoji_toggle_description">Afficher, masquer le clavier des émojis</string>
     <string name="conversation_activity__attachment_thumbnail">Vignette de pièce jointe</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Afficher, masquer le tiroir permettant de lancer l’appareil photo à basse résolution</string>
     <!-- conversation_input_panel -->

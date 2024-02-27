@@ -150,13 +150,11 @@
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Âm thanh</string>
-    <string name="attachment_type_selector__contact">Liên lạc</string>
     <string name="attachment_type_selector__camera">Máy ảnh</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Gửi</string>
     <string name="conversation_activity__compose_description">Soạn tin nhắn</string>
-    <string name="conversation_activity__emoji_toggle_description">Chuyển bàn phím biểu tượng cảm xúc</string>
     <string name="conversation_activity__attachment_thumbnail">Ảnh nhỏ tập tin đính kèm</string>
     <!-- conversation_input_panel -->
     <string name="conversation_input_panel__slide_to_cancel">TRƯỢT ĐỂ HUỶ</string>

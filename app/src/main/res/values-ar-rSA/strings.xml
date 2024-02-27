@@ -209,7 +209,6 @@
     <string name="ThreadRecord_called_you">مكالمات واردة</string>
     <string name="ThreadRecord_missed_call">مكالمة فائتة</string>
     <string name="ThreadRecord_media_message">رسالة وسائط متعددة</string>
-    <string name="ThreadRecord_s_is_on_signal">%sمتواجد على Session !</string>
     <string name="ThreadRecord_disappearing_messages_disabled">تم تعطيل الرسائل المخفية</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">ضبط توقيت إخفاء الرسائل إلى %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">قام %s بتصوير الشاشة.</string>
@@ -288,7 +287,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">صوت</string>
     <string name="attachment_type_selector__audio_description">صوت</string>
-    <string name="attachment_type_selector__contact">جهة اتصال</string>
     <string name="attachment_type_selector__camera">كاميرا</string>
     <string name="attachment_type_selector__camera_description">كاميرا</string>
     <string name="attachment_type_selector__gif">صورة GIF</string>
@@ -302,7 +300,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">أرسل</string>
     <string name="conversation_activity__compose_description">تكوين الرسالة</string>
-    <string name="conversation_activity__emoji_toggle_description">تبديل لوحة مفاتيح الرموز التعبيرية</string>
     <string name="conversation_activity__attachment_thumbnail">المصغّرة للمرفق</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">تفعيل أو تثبيط سريع لدرج مرفقات الكاميرا </string>
     <!-- conversation_input_panel -->

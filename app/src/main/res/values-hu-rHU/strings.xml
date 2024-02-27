@@ -174,7 +174,6 @@
     <string name="ThreadRecord_called_you">Hívott téged</string>
     <string name="ThreadRecord_missed_call">Nem fogadott hívás</string>
     <string name="ThreadRecord_media_message">Média üzenet</string>
-    <string name="ThreadRecord_s_is_on_signal">%s elérhető a Session-on!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Eltűnő üzenetek letiltva</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Eltűnő üzenet ideje beállítva erre: %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s készített egy képernyőképet.</string>
@@ -249,7 +248,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Hang</string>
     <string name="attachment_type_selector__audio_description">Hang</string>
-    <string name="attachment_type_selector__contact">Névjegy</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -263,7 +261,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Küldés</string>
     <string name="conversation_activity__compose_description">Üzenet írása</string>
-    <string name="conversation_activity__emoji_toggle_description">Emoji billentyűzet kapcsoló</string>
     <string name="conversation_activity__attachment_thumbnail">Melléklet előnézet</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Gyorskamera kapcsoló</string>
     <!-- conversation_input_panel -->

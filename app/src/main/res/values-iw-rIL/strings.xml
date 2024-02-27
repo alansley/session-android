@@ -188,7 +188,6 @@
     <string name="ThreadRecord_called_you">התקשר אליך</string>
     <string name="ThreadRecord_missed_call">שיחה שלא נענתה</string>
     <string name="ThreadRecord_media_message">הודעת מדיה</string>
-    <string name="ThreadRecord_s_is_on_signal">%s משתמש ב-Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">הודעות נעלמות הושבתו</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">זמן הודעות נעלמות הוגדר אל %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">המסך צולם ע״י %s.</string>
@@ -263,7 +262,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">שמע</string>
     <string name="attachment_type_selector__audio_description">שמע</string>
-    <string name="attachment_type_selector__contact">איש קשר</string>
     <string name="attachment_type_selector__camera">מצלמה</string>
     <string name="attachment_type_selector__camera_description">מצלמה</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -277,7 +275,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">שלח</string>
     <string name="conversation_activity__compose_description">חיבור הודעה</string>
-    <string name="conversation_activity__emoji_toggle_description">עורר מקלדת אימוג\'י</string>
     <string name="conversation_activity__attachment_thumbnail">תמונה ממוזערת של צרופה</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">עורר מגירת צרופות מהירות של מצלמה</string>
     <!-- conversation_input_panel -->

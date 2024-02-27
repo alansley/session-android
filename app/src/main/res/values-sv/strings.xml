@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">Ringde dig</string>
     <string name="ThreadRecord_missed_call">Missat samtal</string>
     <string name="ThreadRecord_media_message">Mediameddelande</string>
-    <string name="ThreadRecord_s_is_on_signal">%s finns på Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Försvinnande meddelanden inaktiverat</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Tiden för försvinnande meddelanden inställd till %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s tog en skärmdump.</string>
@@ -248,7 +247,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Ljud</string>
     <string name="attachment_type_selector__audio_description">Ljud</string>
-    <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -262,7 +260,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Skicka</string>
     <string name="conversation_activity__compose_description">Skapa meddelande</string>
-    <string name="conversation_activity__emoji_toggle_description">Växla till emoji-tangentbord</string>
     <string name="conversation_activity__attachment_thumbnail">Bifogad miniatyrbild</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Dölj/Visa snabbpanel för kamerabilaga</string>
     <!-- conversation_input_panel -->

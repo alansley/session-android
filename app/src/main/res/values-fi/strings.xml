@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">Soitti sinulle</string>
     <string name="ThreadRecord_missed_call">Vastaamatta jäänyt puhelu</string>
     <string name="ThreadRecord_media_message">Mediaviesti</string>
-    <string name="ThreadRecord_s_is_on_signal">%s käyttää Sessionia!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Katoavat viestit poistettu käytöstä</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Katoavien viestien ajaksi asetettu %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s otti kuvakaappauksen.</string>
@@ -247,7 +246,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Äänitallenne</string>
     <string name="attachment_type_selector__audio_description">Äänitallenne</string>
-    <string name="attachment_type_selector__contact">Yhteystieto</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -261,7 +259,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Lähetä</string>
     <string name="conversation_activity__compose_description">Viestin kirjoitus</string>
-    <string name="conversation_activity__emoji_toggle_description">Avaa tai sulje emoji-näppäimistö</string>
     <string name="conversation_activity__attachment_thumbnail">Liitteen esikatselu</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Avaa tai sulje pikakamera</string>
     <!-- conversation_input_panel -->

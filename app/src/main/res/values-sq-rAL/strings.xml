@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">Ju thirri</string>
     <string name="ThreadRecord_missed_call">Thirrje e humbur</string>
     <string name="ThreadRecord_media_message">Mesazh media</string>
-    <string name="ThreadRecord_s_is_on_signal">%s është në Session! </string>
     <string name="ThreadRecord_disappearing_messages_disabled">Zhdukja e mesazheve është e çaktivizuar</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Koha për zhdukje mesazhesh është vënë %s</string>
     <string name="ThreadRecord_media_saved_by_s">Media u kursye me %s</string>
@@ -247,7 +246,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Audio</string>
     <string name="attachment_type_selector__audio_description">Audio</string>
-    <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -261,7 +259,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Dërgoje</string>
     <string name="conversation_activity__compose_description">Hartim mesazhi</string>
-    <string name="conversation_activity__emoji_toggle_description">Shfaq/fshih tastierë emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Miniaturë Bashkëngjitjeje</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Hap/mbyll sirtar të shpejtë bashkëngjitjesh nga kamera</string>
     <!-- conversation_input_panel -->

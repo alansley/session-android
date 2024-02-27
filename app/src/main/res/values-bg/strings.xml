@@ -166,7 +166,6 @@
     <string name="ThreadRecord_called_you">Ви се обади</string>
     <string name="ThreadRecord_missed_call">Пропуснато обаждане</string>
     <string name="ThreadRecord_media_message">Медийно съобщение</string>
-    <string name="ThreadRecord_s_is_on_signal">%s е в Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Изчезващите съобщения са деактивирани</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Времето за изчезване на съобщенията е %s</string>
     <string name="ThreadRecord_safety_number_changed">Числата за сигурност се промениха</string>
@@ -236,7 +235,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Аудио</string>
     <string name="attachment_type_selector__audio_description">Аудио</string>
-    <string name="attachment_type_selector__contact">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="attachment_type_selector__gallery_description">Изображение или видео</string>
@@ -248,7 +246,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Изпращане</string>
     <string name="conversation_activity__compose_description">Създаване на съобщение</string>
-    <string name="conversation_activity__emoji_toggle_description">Смени emoji клавиатурата</string>
     <string name="conversation_activity__attachment_thumbnail">Изображение на прикачен файл</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Затворяне/отворяне на чекмеджето за прикчаване на файл от камера</string>
     <!-- conversation_input_panel -->

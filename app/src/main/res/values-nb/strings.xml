@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">Ringte deg</string>
     <string name="ThreadRecord_missed_call">Ubesvart anrop</string>
     <string name="ThreadRecord_media_message">Mediemelding</string>
-    <string name="ThreadRecord_s_is_on_signal"> %s er på Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Forsvinner meldinger deaktivert</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Utløpstid for meldinger endret til %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s tok et skjermbilde.</string>
@@ -248,7 +247,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Lyd</string>
     <string name="attachment_type_selector__audio_description">Lyd</string>
-    <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -262,7 +260,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Send</string>
     <string name="conversation_activity__compose_description">Meldingsskriving</string>
-    <string name="conversation_activity__emoji_toggle_description">Slå på/av emoji-tastatur</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatyrbilde av vedlegg</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Slå av/på hurtig kamera-vedleggsfunksjon</string>
     <!-- conversation_input_panel -->

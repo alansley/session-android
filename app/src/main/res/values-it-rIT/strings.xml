@@ -174,7 +174,6 @@
     <string name="ThreadRecord_called_you">Ti ha chiamato</string>
     <string name="ThreadRecord_missed_call">Chiamata persa</string>
     <string name="ThreadRecord_media_message">Messaggio multimediale</string>
-    <string name="ThreadRecord_s_is_on_signal">%s è su Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Messaggi a scomparsa disabilitati</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">La scomparsa dei messaggi è settata a %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s ha fatto uno screenshot.</string>
@@ -249,7 +248,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Audio</string>
     <string name="attachment_type_selector__audio_description">Audio</string>
-    <string name="attachment_type_selector__contact">Contatto</string>
     <string name="attachment_type_selector__camera">Fotocamera</string>
     <string name="attachment_type_selector__camera_description">Fotocamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -263,7 +261,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Invia</string>
     <string name="conversation_activity__compose_description">Composizione messaggio</string>
-    <string name="conversation_activity__emoji_toggle_description">Dis/attiva la tastiera emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Anteprima allegato</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Mostra/nascondi pannello fotocamera</string>
     <!-- conversation_input_panel -->

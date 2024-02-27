@@ -191,7 +191,6 @@
     <string name="ThreadRecord_called_you">Dzwonił(a)</string>
     <string name="ThreadRecord_missed_call">Nieodebrane połączenie</string>
     <string name="ThreadRecord_media_message">Wiadomość multimedialna</string>
-    <string name="ThreadRecord_s_is_on_signal">%s jest w Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Znikające wiadomości zostały wyłączone</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Czas znikania wiadomości ustawiony na %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s wykonał zrzut ekranu.</string>
@@ -268,7 +267,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Dźwięk</string>
     <string name="attachment_type_selector__audio_description">Dźwięk</string>
-    <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -282,7 +280,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Wyślij</string>
     <string name="conversation_activity__compose_description">Kompozycja wiadomości</string>
-    <string name="conversation_activity__emoji_toggle_description">Przełącz na klawiaturę emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Miniaturka załącznika</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Bezpośrednie przechwytywanie</string>
     <!-- conversation_input_panel -->

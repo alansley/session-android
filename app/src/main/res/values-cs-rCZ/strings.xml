@@ -191,7 +191,6 @@
     <string name="ThreadRecord_called_you">Volal vás</string>
     <string name="ThreadRecord_missed_call">Zmeškaný hovor</string>
     <string name="ThreadRecord_media_message">Multimediální zpráva</string>
-    <string name="ThreadRecord_s_is_on_signal">%s má Session!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Mizení zpráv je zakázáno</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Čas zmizení zprávy nastaven na %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s pořídil snímek obrazovky.</string>
@@ -268,7 +267,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Zvuk</string>
     <string name="attachment_type_selector__audio_description">Zvuk</string>
-    <string name="attachment_type_selector__contact">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -282,7 +280,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Odeslat</string>
     <string name="conversation_activity__compose_description">Sestavení zprávy</string>
-    <string name="conversation_activity__emoji_toggle_description">Zapnout klávesnici se smajlíky</string>
     <string name="conversation_activity__attachment_thumbnail">Připojený náhled</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Vytvořit rychlou přílohu kamerou</string>
     <!-- conversation_input_panel -->

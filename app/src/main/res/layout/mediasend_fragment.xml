@@ -85,8 +85,7 @@
                         android:layout_gravity="bottom"
                         android:paddingStart="4dp"
                         android:paddingEnd="6dp"
-                        android:background="?selectableItemBackgroundBorderless"
-                        android:contentDescription="@string/conversation_activity__emoji_toggle_description" />
+                        android:background="?selectableItemBackgroundBorderless" />
 
                     <Space
                         android:layout_width="0dp"

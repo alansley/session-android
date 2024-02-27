@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">आपको बुलाया </string>
     <string name="ThreadRecord_missed_call">मिस कॉल</string>
     <string name="ThreadRecord_media_message">मीडिया संदेश</string>
-    <string name="ThreadRecord_s_is_on_signal">%sअब Session पर हैं! </string>
     <string name="ThreadRecord_disappearing_messages_disabled">संदेश जो गायब हो जाते हैं अक्षम</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">गायब संदेश समय %s तक सेट हो गया</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s ने एक स्क्रीनशॉट लिया.</string>
@@ -248,7 +247,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">ऑडियो</string>
     <string name="attachment_type_selector__audio_description">ऑडियो </string>
-    <string name="attachment_type_selector__contact">संपर्क</string>
     <string name="attachment_type_selector__camera">कैमरा</string>
     <string name="attachment_type_selector__camera_description">कैमरा</string>
     <string name="attachment_type_selector__gif">जीआईएफ</string>
@@ -262,7 +260,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">भेजें</string>
     <string name="conversation_activity__compose_description">संदेश संरचना</string>
-    <string name="conversation_activity__emoji_toggle_description">इमोजी कीबोर्ड टॉगल करें</string>
     <string name="conversation_activity__attachment_thumbnail">अटैचमेंट थंबनेल </string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">त्वरित कैमरा अनुलग्नक दराज टॉगल करें</string>
     <!-- conversation_input_panel -->

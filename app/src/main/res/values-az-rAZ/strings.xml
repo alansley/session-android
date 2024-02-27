@@ -173,7 +173,6 @@
     <string name="ThreadRecord_called_you">Sizə zəng etdi</string>
     <string name="ThreadRecord_missed_call">Cavabsız zəng</string>
     <string name="ThreadRecord_media_message">Media mesajı</string>
-    <string name="ThreadRecord_s_is_on_signal">%s artıq Session-dadır!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Yox olan mesajlar sıradan çıxarıldı</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Yox olan mesajlar üçün vaxtölçən %s olaraq tənzimləndi</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s ekran şəklini çəkdi.</string>
@@ -248,7 +247,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">Səs</string>
     <string name="attachment_type_selector__audio_description">Səs</string>
-    <string name="attachment_type_selector__contact">Əlaqə</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -262,7 +260,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">Göndər</string>
     <string name="conversation_activity__compose_description">Mesaj tərtib et</string>
-    <string name="conversation_activity__emoji_toggle_description">İfadə klaviaturasını aç/bağla</string>
     <string name="conversation_activity__attachment_thumbnail">Qoşma eskizi</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Cəld kamera qoşma siyirməsini aç/bağla</string>
     <!-- conversation_input_panel -->

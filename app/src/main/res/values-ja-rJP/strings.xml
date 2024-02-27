@@ -163,7 +163,6 @@
     <string name="ThreadRecord_called_you">着信</string>
     <string name="ThreadRecord_missed_call">不在着信</string>
     <string name="ThreadRecord_media_message">メディアでのメッセージ</string>
-    <string name="ThreadRecord_s_is_on_signal">%sがSessionに登録しています！</string>
     <string name="ThreadRecord_disappearing_messages_disabled">消えるメッセージが無効にされました</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">消えるメッセージの消去時間が%sに設定されました</string>
     <string name="ThreadRecord_s_took_a_screenshot">%sはスクリーンショットを撮りました。</string>
@@ -236,7 +235,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__audio">音声</string>
     <string name="attachment_type_selector__audio_description">音声</string>
-    <string name="attachment_type_selector__contact">連絡先</string>
     <string name="attachment_type_selector__camera">カメラ</string>
     <string name="attachment_type_selector__camera_description">カメラ</string>
     <string name="attachment_type_selector__gif">GIF</string>
@@ -250,7 +248,6 @@
     <!-- conversation_activity -->
     <string name="conversation_activity__send">送信</string>
     <string name="conversation_activity__compose_description">メッセージ新規作成</string>
-    <string name="conversation_activity__emoji_toggle_description">絵文字キーボードの切替</string>
     <string name="conversation_activity__attachment_thumbnail">添付のサムネイル</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">迅速カメラ添付用引き出しの切替</string>
     <!-- conversation_input_panel -->
