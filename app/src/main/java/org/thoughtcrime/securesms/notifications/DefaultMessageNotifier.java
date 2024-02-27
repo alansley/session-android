@@ -467,7 +467,7 @@ public class DefaultMessageNotifier implements MessageNotifier {
       if (messageRequest) {
         body = SpanUtil.italic(context.getString(R.string.message_requests_notification));
       } else if (KeyCachingService.isLocked(context)) {
-        body = SpanUtil.italic(context.getString(R.string.MessageNotifier_locked_message));
+        body = SpanUtil.italic(context.getString(R.string.notificationsContentShowNoNameOrContent));
       } else if (record.isMms() && TextUtils.isEmpty(body) && !((MmsMessageRecord) record).getSlideDeck().getSlides().isEmpty()) {
         slideDeck = ((MediaMmsMessageRecord)record).getSlideDeck();
         body = SpanUtil.italic(slideDeck.getBody());
