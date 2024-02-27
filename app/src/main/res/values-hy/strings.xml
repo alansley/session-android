@@ -182,10 +182,6 @@
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Նամակների անհետացման ժամանակը դրված է %s֊ի վրա</string>
     <string name="ThreadRecord_s_took_a_screenshot">%s֊ը նկարել է էկրանը</string>
     <string name="ThreadRecord_media_saved_by_s">%s պահպանել է մեդիա ֆայլը:</string>
-    <string name="ThreadRecord_safety_number_changed">Անվտանգության համարը փոխվել է</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ձեր անվտանգության համարը %s-ի հետ փոխվել է:</string>
-    <string name="ThreadRecord_you_marked_verified">Ստուգված է ձեր կողմից</string>
-    <string name="ThreadRecord_you_marked_unverified">Չստուգված ձեր կողմից</string>
     <string name="ThreadRecord_empty_message">Այս խոսակցությունը դատարկ է</string>
     <string name="ThreadRecord_open_group_invitation">Բացել խմբին միանալու հրավերը</string>
     <!-- UpdateApkReadyListener -->

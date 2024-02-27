@@ -213,10 +213,6 @@
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">ضبط توقيت إخفاء الرسائل إلى %s</string>
     <string name="ThreadRecord_s_took_a_screenshot">قام %s بتصوير الشاشة.</string>
     <string name="ThreadRecord_media_saved_by_s">قام %s بحفظ الوسائط.</string>
-    <string name="ThreadRecord_safety_number_changed">تم تعديل رقم الأمان</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">تم تغيير رقم الأمان الخاص بك وبـ%s.</string>
-    <string name="ThreadRecord_you_marked_verified">لقد قمت بتصديق</string>
-    <string name="ThreadRecord_you_marked_unverified">لقد قمت بإلغاء التحقق</string>
     <string name="ThreadRecord_empty_message">هذه المحادثة فارغة</string>
     <string name="ThreadRecord_open_group_invitation">دعوة إلى مجموعة مفتوحة</string>
     <!-- UpdateApkReadyListener -->

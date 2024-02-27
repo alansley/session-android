@@ -127,10 +127,6 @@
     <string name="ThreadRecord_media_message">Ujumbe wa vyombo vya habari</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Uumbe zilizopotea  imezuiliwa</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Ujumbe unapotea kwa mpangilio wa muda  kwa 1%s</string>
-    <string name="ThreadRecord_safety_number_changed">namba salama zimebadilika</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">namba yako ya usalama pamoja na 1%s imebadilika</string>
-    <string name="ThreadRecord_you_marked_verified">umeweka kuthibitishwa?</string>
-    <string name="ThreadRecord_you_marked_unverified">umeweka haukuthibitishwa</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session iliyosasishwa</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Toleo jipya la Session inapatikana, bomba ili uhakikishe</string>

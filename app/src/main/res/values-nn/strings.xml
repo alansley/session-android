@@ -153,10 +153,6 @@
     <string name="ThreadRecord_media_message">Mediemelding</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Forsvinnande meldingar skrudd av</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Utløpstid for melding endra til %s</string>
-    <string name="ThreadRecord_safety_number_changed">Endra tryggleiksnummer</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Tryggleiksnummeret ditt med %s har endra seg.</string>
-    <string name="ThreadRecord_you_marked_verified">Du markerte som stadfesta</string>
-    <string name="ThreadRecord_you_marked_unverified">Du markerte som ikkje stadfesta</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Session-oppdatering</string>
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Det finst ei ny utgåve av Session; trykk for å oppdatera</string>

@@ -104,13 +104,6 @@ public class ThreadRecord extends DisplayRecord {
       return emphasisAdded(context.getString(R.string.ThreadRecord_media_saved_by_s, getRecipient().toShortString()));
     } else if (MmsSmsColumns.Types.isScreenshotExtraction(type)) {
       return emphasisAdded(context.getString(R.string.ThreadRecord_s_took_a_screenshot, getRecipient().toShortString()));
-    } else if (SmsDatabase.Types.isIdentityUpdate(type)) {
-      if (getRecipient().isGroupRecipient()) return emphasisAdded(context.getString(R.string.ThreadRecord_safety_number_changed));
-      else                                   return emphasisAdded(context.getString(R.string.ThreadRecord_your_safety_number_with_s_has_changed, getRecipient().toShortString()));
-    } else if (SmsDatabase.Types.isIdentityVerified(type)) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_you_marked_verified));
-    } else if (SmsDatabase.Types.isIdentityDefault(type)) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_you_marked_unverified));
     } else if (MmsSmsColumns.Types.isMessageRequestResponse(type)) {
       return emphasisAdded(context.getString(R.string.message_requests_accepted));
     } else if (getCount() == 0) {

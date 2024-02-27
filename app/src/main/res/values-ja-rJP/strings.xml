@@ -167,10 +167,6 @@
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">消えるメッセージの消去時間が%sに設定されました</string>
     <string name="ThreadRecord_s_took_a_screenshot">%sはスクリーンショットを撮りました。</string>
     <string name="ThreadRecord_media_saved_by_s">%s によって保存されたメディア</string>
-    <string name="ThreadRecord_safety_number_changed">安全番号が変わりました</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">%sとの安全番号が変わりました</string>
-    <string name="ThreadRecord_you_marked_verified">検証済みにしました</string>
-    <string name="ThreadRecord_you_marked_unverified">未検証にしました</string>
     <string name="ThreadRecord_empty_message">ここに会話はありません。</string>
     <!-- UpdateApkReadyListener -->
     <string name="UpdateApkReadyListener_Signal_update">Sessionをアップデートする</string>
