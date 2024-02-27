@@ -57,11 +57,7 @@ public class SmsMessageRecord extends MessageRecord {
 
   @Override
   public SpannableString getDisplayBody(@NonNull Context context) {
-    if (SmsDatabase.Types.isDuplicateMessageType(type)) {
-      return emphasisAdded(context.getString(R.string.SmsMessageRecord_duplicate_message));
-    } else {
       return super.getDisplayBody(context);
-    }
   }
 
   @Override
