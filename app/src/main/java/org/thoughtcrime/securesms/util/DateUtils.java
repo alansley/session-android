@@ -144,43 +144,4 @@ public class DateUtils extends android.text.format.DateUtils {
       return -1;
     }
   }
-
-  // region Deprecated
-  public static String getBriefRelativeTimeSpanString(final Context c, final Locale locale, final long timestamp) {
-    if (isWithin(timestamp, 1, TimeUnit.MINUTES)) {
-      return c.getString(R.string.DateUtils_just_now);
-    } else if (isWithin(timestamp, 1, TimeUnit.HOURS)) {
-      int mins = convertDelta(timestamp, TimeUnit.MINUTES);
-      return c.getResources().getString(R.string.DateUtils_minutes_ago, mins);
-    } else if (isWithin(timestamp, 1, TimeUnit.DAYS)) {
-      int hours = convertDelta(timestamp, TimeUnit.HOURS);
-      return c.getResources().getQuantityString(R.plurals.hours_ago, hours, hours);
-    } else if (isWithin(timestamp, 6, TimeUnit.DAYS)) {
-      return getFormattedDateTime(timestamp, "EEE", locale);
-    } else if (isWithin(timestamp, 365, TimeUnit.DAYS)) {
-      return getFormattedDateTime(timestamp, "MMM d", locale);
-    } else {
-      return getFormattedDateTime(timestamp, "MMM d, yyyy", locale);
-    }
-  }
-
-  public static String getExtendedRelativeTimeSpanString(final Context c, final Locale locale, final long timestamp) {
-    if (isWithin(timestamp, 1, TimeUnit.MINUTES)) {
-      return c.getString(R.string.DateUtils_just_now);
-    } else if (isWithin(timestamp, 1, TimeUnit.HOURS)) {
-      int mins = (int)TimeUnit.MINUTES.convert(System.currentTimeMillis() - timestamp, TimeUnit.MILLISECONDS);
-      return c.getResources().getString(R.string.DateUtils_minutes_ago, mins);
-    } else {
-      StringBuilder format = new StringBuilder();
-      if      (isWithin(timestamp,   6, TimeUnit.DAYS)) format.append("EEE ");
-      else if (isWithin(timestamp, 365, TimeUnit.DAYS)) format.append("MMM d, ");
-      else                                              format.append("MMM d, yyyy, ");
-
-      if (DateFormat.is24HourFormat(c)) format.append("HH:mm");
-      else                              format.append("hh:mm a");
-
-      return getFormattedDateTime(timestamp, format.toString(), locale);
-    }
-  }
-  // endregion
 }
