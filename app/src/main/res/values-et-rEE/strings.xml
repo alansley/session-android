@@ -165,8 +165,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uus Sessioni versioon on saadaval, koputa uuendamiseks</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Halb krüptitud MSS sõnum</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-sõnum krüptitud mitteeksisteeriva sessiooni jaoks</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">Vaigista teated</string>
     <!-- KeyCachingService -->

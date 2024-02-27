@@ -189,8 +189,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">نسخه جدید Session در دسترس است، برای آپدیت اینجا را تپ کنید</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message"> پیام MMS بد رمزگذاری شده</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">پیام های MMS برای نشست های غیر موجود رمزنگاری شده اند</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">بیصدا کردن اعلان ها</string>
     <!-- KeyCachingService -->

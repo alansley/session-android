@@ -178,8 +178,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">有新版本的 Session，輕觸更新</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">損毀的加密MMS訊息</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">此加密MMS訊息的對話已不存在</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">靜音通知</string>
     <!-- KeyCachingService -->

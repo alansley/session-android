@@ -184,8 +184,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">È disponibile una nuova versione di Session, tocca per aggiornare</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Cifratura MMS non valida</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Messaggio MMS cifrato per una sessione non esistente</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">Silenzia notifiche</string>
     <!-- KeyCachingService -->

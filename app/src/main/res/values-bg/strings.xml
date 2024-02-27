@@ -173,8 +173,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Има нова версия на Session, натиснете, за да обновите.</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Грешно криптирано MMS съобщение</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS съобщението е криптирано за несъществуваща сесия</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">Тих режим за известия</string>
     <!-- KeyCachingService -->

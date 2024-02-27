@@ -183,8 +183,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">En ny version af Session er tilgængelig, tap for at opdatere</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Ugyldig krypteret MMS besked</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS besked krypteret til en session der ikke findes</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">Udsæt notifikationer</string>
     <!-- KeyCachingService -->

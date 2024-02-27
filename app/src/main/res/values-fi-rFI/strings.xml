@@ -182,8 +182,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uusi versio Sessionista on saatavilla. Päivitä napauttamalla.</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">MMS-viestin salaus on kelvoton</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-viesti salattu olemattomalle istunnolle</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">Mykistä ilmoitukset</string>
     <!-- KeyCachingService -->

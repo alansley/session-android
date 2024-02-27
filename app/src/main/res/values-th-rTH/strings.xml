@@ -148,8 +148,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session เวอร์ชันใหม่มาแล้ว แตะเพื่ออัพเดต</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">ข้อความ MMS ที่เข้ารหัสมีความผิดปกติ</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ข้อความ MMS ถูกเข้ารหัสสำหรับเซสชันที่ไม่มีอยู่</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">ปิดเสียงการแจ้งเตือน</string>
     <!-- KeyCachingService -->

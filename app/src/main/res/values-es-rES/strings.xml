@@ -183,8 +183,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Una nueva versión de Session está disponible. Toca para actualizar.</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Mensaje MMS cifrado erróneo</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">El mensaje MMS ha sido cifrado para una sesión inexistente</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">Silenciar notificaciones</string>
     <!-- KeyCachingService -->

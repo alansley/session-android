@@ -183,8 +183,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session का एक नया संस्करण उपलब्ध है, अपडेट करने के लिए टैप करें</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">खराब एन्क्रिप्टेड एमएमएस संदेश</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">गैर-मौजूदा सत्र के लिए एमएमएस संदेश एन्क्रिप्ट किया गया </string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">नोटिफिकेशन म्यूट करें</string>
     <!-- KeyCachingService -->

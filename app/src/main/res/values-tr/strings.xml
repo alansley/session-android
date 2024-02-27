@@ -183,8 +183,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Session\'in yeni sürümü mevcut, güncellemek için dokunun</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Bozuk şifrelenmiş MMS iletisi</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS iletisi var olmayan bir oturum için şifrelenmiş</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">Bildirimleri sessize al</string>
     <!-- KeyCachingService -->

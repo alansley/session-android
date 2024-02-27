@@ -193,8 +193,6 @@
     <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">O nouă versiune de Session este disponibilă, apasă pentru actualizare</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Mesaj MMS criptat incorect</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mesaj MMS criptat pentru o sesiune inexistentă</string>
     <!-- MuteDialog -->
     <string name="MuteDialog_mute_notifications">Notificări fără sunet</string>
     <!-- KeyCachingService -->
