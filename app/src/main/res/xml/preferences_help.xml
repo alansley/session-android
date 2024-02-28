@@ -4,7 +4,7 @@
     <PreferenceCategory>
         <Preference
             android:key="export_logs"
-            android:title="@string/activity_help_settings__report_bug_title"
+            android:title="@string/helpReportABug"
             android:summary="@string/activity_help_settings__report_bug_summary"
             android:widgetLayout="@layout/export_logs_widget"/>
     </PreferenceCategory>
