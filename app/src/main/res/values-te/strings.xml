@@ -20,7 +20,6 @@
         <item quantity="one">ఇది వెంటనే ఇటీవల సందేశానికి అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
         <item quantity="other">ఇది వెంటనే ఇటీవల  %d  సందేశాలకు  అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">ఆన్</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(చిత్రం)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ఆడియో)</string>
@@ -28,7 +27,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ఫోటోలు, వీడియోలు లేదా ఆడియోను అటాచ్ చేయడానికి Sessionకు నిల్వ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్ల మెనుకు కొనసాగండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"నిల్వ\" ను ప్రారంభించండి.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">ఆడియో ప్రదర్శనా లోపం!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">నేడు</string>
     <string name="BucketedThreadMedia_Yesterday">నిన్న</string>
@@ -37,18 +35,13 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">వెబ్ బ్రౌజర్ కనుగొనబడలేదు.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">సమూహాలు</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">విఫలమైంది పంపండి, వివరాల కోసం నొక్కండి</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">స్వీకరించు మీట మార్పిడి సందేశం, తట్టు తో క్రమణం</string>
     <string name="ConversationItem_click_to_approve_unencrypted">పంపడం విఫలమైంది, అసురక్షిత తిరిగి పొందడం కోసం నొక్కండి</string>
     <string name="ConversationItem_copied_text">ప్రతి  తీసుకోబడింది %s</string>
-    <string name="ConversationItem_read_more">Ekkuva chadavatam</string>
-    <string name="ConversationItem_download_more">&#160; మరింత డౌన్‌లోడ్ చేయండి</string>
-    <string name="ConversationItem_pending">&#160; పెండింగ్‌</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">అటాచ్మెంట్ జోడించండి</string>
-    <string name="ConversationActivity_select_contact_info">సంప్రదింపు సమాచారం ఎంచుకొండి</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">క్షమించండి, మీ అటాచ్మెంట్ అమర్చడంలో లోపం ఉంది.</string>
     <string name="message">సందేశం</string>
     <string name="ConversationActivity_compose">కంపోజ్</string>
@@ -84,7 +77,6 @@
     <string name="stickers">స్టిక్కర్లు</string>
     <!-- CropImageActivity -->
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">మాటతో కూడిన సందేశాన్ని రికార్డు చేయుటకు తడుతూనే ఉంచి , పంపుటకు వదిలివేయండి.</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">జోడింపుల సేకరణ ...</string>
@@ -99,8 +91,6 @@
     <string name="conversationsSettingsAllMedia">అన్ని మీడియా</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">ఇకపై మద్దతు అని Session యొక్క పాత సంస్కరణను ఉపయోగించి ఎన్క్రిప్ట్ ఒక సందేశాన్ని పొందింది. దయచేసి ఇటీవల సంస్కరణకు అప్డేట్ మరియు సందేశాన్ని మళ్లీ పంపినవారు అడగండి</string>
-    <string name="MessageRecord_you_updated_group">మీరు ఈ సమూహాన్ని నవీకరించారు.</string>
-    <string name="MessageRecord_s_updated_group">%s  సమూహాన్ని నవీకరించారు.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">మీ సందేశాలకు గడువు ఉండదు.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">వారు చూసిన తరువాత ఈ సంభాషణ లో పంపిన మరియు అందుకున్న సందేశాలు %s కనిపించదు.</string>
@@ -119,7 +109,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">సమూహం నవీకరించబడింది</string>
     <string name="ThreadRecord_secure_session_reset">సురక్షిత సెషన్ పునరుద్ధరించు.</string>
-    <string name="ThreadRecord_media_message">మీడియ సందేశం</string>
     <string name="ThreadRecord_s_is_on_signal">1%s Session ఉంది!</string>
     <string name="ThreadRecord_safety_number_changed">భద్రతా సంఖ్య మార్చబడింది</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s తో మీ భద్రత సంఖ్య మార్చబడింది.</string>
@@ -142,7 +131,6 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">అనుమతులు లేకుండా బాహ్య నిల్వకి సేవ్ చేయడం సాధ్యపడలేదు</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d సంభాషణలొ కొత్త %1$d సందేశాలు</string>
-    <string name="MessageNotifier_locked_message">బంధించబడిన సందేశం</string>
     <string name="MessageNotifier_message_delivery_failed">సందేశం పంపుట విఫలమైనది.</string>
     <string name="MessageNotifier_failed_to_deliver_message">సందేషాన్ని చెర్చడం విఫలమైనది.</string>
     <string name="MessageNotifier_error_delivering_message">సందేశం పంపడంలో లోపం</string>
@@ -182,14 +170,12 @@
     <string name="attachment_type_selector__gallery">వారపాక</string>
     <string name="attachment_type_selector__drawer_description">టోగుల్ అటాచ్మెంట్ సొరుగు</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">పరిచయాలు లోడ్ అవుతున్నాయి ...</string>
     <!-- conversation_activity -->
     <string name="send">పంపించు</string>
     <string name="conversation_activity__compose_description">సందేశాన్ని కూర్పుము</string>
     <string name="conversation_activity__emoji_toggle_description">టోగుల్ ఎమోజి కీబోర్డు</string>
     <string name="conversation_activity__attachment_thumbnail">జోడింపు సూక్ష్మచిత్రం</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">టోగుల్ శీఘ్ర కెమెరా అటాచ్మెంట్ సొరుగు</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">రికార్డు మరియు ఆడియో అటాచ్మెంట్ పంపడానికి</string>
     <string name="conversation_activity__enable_signal_for_sms">ఎస్సెమ్మెస్ చేతనం</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
@@ -199,22 +185,16 @@
     <string name="conversation_item_sent__send_failed_indicator_description">పంపడం విఫలమైంది</string>
     <string name="conversation_item_sent__delivered_description">పంపిణి ఐనది</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">పరిచయ ఫొటో</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">నడుపు</string>
-    <string name="audio_view__pause_accessibility_description">నిలుపు</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">ఫోటో</string>
     <string name="messageErrorOriginal">అసలు సందేశం కనుగొనబడలేదు</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">దిగువకు స్క్రోల్ చెయ్యి</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">జిఫ్‌లు మరియు స్టిక్కర్లు వెతుకు</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">పూర్తి సంభాషణ చూడండి</string>
-    <string name="load_more_header__loading">లోడ్</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -227,27 +207,17 @@
     <string name="message_details_header__to">ఎవరికి:</string>
     <string name="message_details_header__with">ఎవరితో:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">సంకేతపదమును తయారు చేయు</string>
     <string name="AndroidManifest__media_preview">మీడియా ప్రివ్యూ</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default"> అప్రమేయం ఉపయోగించు</string>
     <string name="arrays__use_custom"> నియమము ఉపయోగించు</string>
     <string name="notificationsMute1Hour">1 గంట నిశబ్దంగా ఉంచు</string>
     <string name="notificationsMute2Hours">2 గంటలు నిశబ్దంగా ఉంచు</string>
     <string name="notificationsMute1Day">1 రోజు నిశబ్దంగా ఉంచు</string>
-    <string name="arrays__mute_for_one_year">1 సంవత్సరం నిశబ్దంగా ఉంచు</string>
-    <string name="arrays__settings_default">అప్రమేయ అమరికలు</string>
-    <string name="arrays__enabled">చేతనం అయింది</string>
-    <string name="arrays__disabled">అచేతనం అయింది</string>
     <string name="notificationsContentShowNameOnly">పేరు మాత్రమే </string>
     <string name="arrays__images">చిత్రాలు</string>
     <string name="audio">ఆడియో</string>
     <string name="video">వీడియో</string>
-    <string name="arrays__small">చిన్న</string>
     <string name="arrays__normal">సాధారణంగా</string>
-    <string name="arrays__large">పెద్ద</string>
-    <string name="arrays__extra_large">చాలా పెద్దది</string>
-    <string name="arrays__high">అధికం</string>
     <string name="max">గరిష్టం</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -258,30 +228,12 @@
     <string name="preferences__screen_security">స్క్రీన్ భద్రత</string>
     <string name="sessionNotifications">ప్రకటనలు</string>
     <string name="notificationsLedColor">ఎల్ఈడి రంగు</string>
-    <string name="preferences__pref_led_blink_title">ఎల్ఇడి రెప్పపాటు నమూనా</string>
     <string name="notificationsSound">శబ్దము</string>
-    <string name="preferences__repeat_alerts">రిపీట్ హెచ్చరికలు</string>
-    <string name="preferences__never">ఎప్పుడూ</string>
-    <string name="preferences__one_time">ఒక్కసారి</string>
-    <string name="preferences__two_times">రెండు సార్లు</string>
-    <string name="preferences__three_times">మూడు సార్లు</string>
-    <string name="preferences__five_times">ఐదు సార్లు</string>
-    <string name="preferences__ten_times">పది సార్లు</string>
     <string name="notificationsVibrate">ప్రకంపన</string>
-    <string name="preferences__green">ఆకు పచ్చ</string>
-    <string name="preferences__red">ఎరుపు</string>
-    <string name="preferences__blue">నీలం</string>
-    <string name="preferences__orange">నారింజ</string>
-    <string name="preferences__cyan">సియన్</string>
-    <string name="preferences__magenta">మజెంటా</string>
-    <string name="preferences__white">తెలుపు</string>
-    <string name="preferences__none">ఏదీ కాదు</string>
     <string name="preferences__fast">త్వరగా</string>
     <string name="preferences__normal">సాధారణంగా</string>
     <string name="preferences__slow">మెల్లిగా</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">ఒక సంభాషణ ఒక పేర్కొన్న పొడవు మించితె స్వయంచాలకంగా పాత సందేశాలను తొలగించు</string>
     <string name="preferences__delete_old_messages">పాత సందేశాలను తొలగించు</string>
-    <string name="preferences__conversation_length_limit">సంభాషణ విస్తృతికి పరిమితి</string>
     <string name="preferences__trim_all_conversations_now">ఇప్పుడు అన్ని సంభాషణలు  కత్తిరించి సరి చేయుట </string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">అన్ని సంభాషణలు స్కాన్ చేసి తద్వారా సంభాషణ పొడవు పరిమితులు అమలుపరచు</string>
     <string name="_default">అప్రమేయ</string>
@@ -290,8 +242,6 @@
     <string name="conversationsMessageTrimming">సందేశం కత్తిరించి సరి చేయుట </string>
     <string name="preferences_advanced__use_system_emoji">యంత్రము యొక్క  ఎమొజిలను  ఉపయొగించు</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session యొక్క అంతర్నిర్మిత ఎమోజి మద్దతును నిలిపివేయి  </string>
-    <string name="preferences_notifications__messages">సందేశాలు</string>
-    <string name="preferences_notifications__in_chat_sounds">చాట్ శబ్దాలు</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -312,16 +262,10 @@
     <string name="groupLeave">సమూహాన్ని వదులు</string>
     <string name="conversationsAddToHome">హోమ్ స్క్రీన్కు జోడించండి</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">పాపప్ విస్తరించు </string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">చేర్చుట</string>
-    <string name="conversation_group_options__conversation">సంభాషణ</string>
-    <string name="conversation_group_options__broadcast">ప్రసారం </string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">బదలాయించు</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">మీడియా ప్రివ్యూ</string>
     <!-- Trimmer -->
     <string name="deleting">తొలగిపోతున్నాయ్</string>
     <string name="trimmer__deleting_old_messages">పాత సందేశాలను తొలగిస్తోంది ...</string>
@@ -342,10 +286,7 @@
     <string name="BackupDialog_delete_backups_statement">బ్యాకప్లను తొలిగించు</string>
     <string name="LocalBackupJob_creating_backup">బ్యాకప్ను సృష్టిస్తోంది ...</string>
     <string name="ProgressPreference_d_messages_so_far">ఇప్పటివరకు %d సందేశాలు</string>
-    <string name="BackupUtil_never">ఎప్పుడూ</string>
     <string name="preferences_app_protection__screen_lock">స్క్రీన్ తాళం</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">స్క్రీన్ లాక్ నిష్క్రియ సమయం</string>
-    <string name="AppProtectionPreferenceFragment_none">ఏదీ కాదు</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->

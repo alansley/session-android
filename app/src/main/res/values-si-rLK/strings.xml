@@ -9,7 +9,6 @@
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
-    <string name="ApplicationPreferencesActivity_On">සක්‍රීයයි</string>
     <!-- DraftDatabase -->
     <!-- AttachmentManager -->
     <!-- AudioSlidePlayer -->
@@ -20,10 +19,8 @@
     <string name="attachmentsThisMonth">මෙම මාසය</string>
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">සමූහ</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_copied_text">%s පිටපත් විය</string>
-    <string name="ConversationItem_read_more">තව කියවන්න</string>
     <!-- ConversationActivity -->
     <string name="message">පණිවිඩය</string>
     <string name="blockUnblock">අනවහිර</string>
@@ -63,7 +60,6 @@
     <!-- Slide -->
     <!-- SmsMessageRecord -->
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_media_message">මාධ්‍යය පණිවිඩය</string>
     <!-- UpdateApkReadyListener -->
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
@@ -74,7 +70,6 @@
     <!-- MessageNotifier -->
     <string name="MessageNotifier_message_delivery_failed">පණිවිඩය බාරදීමට අසමත්විය.</string>
     <string name="MessageNotifier_failed_to_deliver_message">පණිවිඩය බාරදීමට අසමත්විය.</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">සබඳතාව</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ඇමතුම්</string>
@@ -106,7 +101,6 @@
     <string name="conversation_item_sent__delivered_description">බාරදුනි</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">වාදනය</string>
     <!-- open_group_invitation_view -->
     <string name="join">එක්වන්න</string>
     <!-- QuoteView -->
@@ -114,7 +108,6 @@
     <!-- giphy_activity -->
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__loading">පූරණය වෙමින්</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -123,11 +116,6 @@
     <!-- arrays.xml -->
     <!-- plurals.xml -->
     <!-- preferences.xml -->
-    <string name="preferences__green">කොළ</string>
-    <string name="preferences__red">රතු</string>
-    <string name="preferences__blue">නිල්</string>
-    <string name="preferences__orange">තැඹිලි</string>
-    <string name="preferences__white">සුදු</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -143,12 +131,9 @@
     <string name="conversationsAddToHome">මුල් තිරයට එකතු කරන්න</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">බාරදීම</string>
-    <string name="conversation_group_options__conversation">සම්භාෂණය</string>
     <!-- media_preview -->
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">මාධ්‍යය පෙරදසුන</string>
     <!-- Trimmer -->
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">අවසරය අවශ්‍යයි</string>
@@ -169,22 +154,16 @@
     <string name="recommended">නිර්දේශිත</string>
     <string name="groupNameEnter">සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="groupNameEnterPlease">සමූහ නාමයක් ඇතුල් කරන්න</string>
-    <string name="activity_join_public_chat_title">විවෘත සමූහයට එක්වන්න</string>
     <string name="sessionSettings">සැකසුම්</string>
-    <string name="activity_settings_devices_button_title">උපාංග</string>
     <string name="helpFAQ">නිති පැණ</string>
     <string name="activity_notification_settings_content_section_title">දැනුම්දීමේ අන්තර්ගතය</string>
     <string name="sessionPrivacy">පෞද්ගලිකත්වය</string>
-    <string name="fragment_view_my_qr_code_title">මාව සුපිරික්සන්න</string>
     <string name="contactsContacts">සබඳතා</string>
-    <string name="fragment_contact_selection_closed_groups_title">සංවෘත සමූහ</string>
     <string name="fragment_contact_selection_open_groups_title">විවෘත සමූහ</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">යොදන්න</string>
     <string name="groupEdit">සමූහය සංස්කරණය</string>
     <string name="appearanceThemes">තේමාව</string>
-    <string name="dialog_ui_mode_option_day">දවස</string>
-    <string name="dialog_ui_mode_option_night">රාත්‍රී</string>
     <string name="messageVoice">හඬ පණිවිඩය</string>
     <string name="activity_backup_restore_title">උපස්ථය ප්‍රත්‍යර්පණය</string>
     <string name="open">විවෘත</string>
@@ -193,5 +172,4 @@
     <string name="media">මාධ්‍යය</string>
     <string name="_error">දෝෂය</string>
     <string name="warning">අවවාදයයි</string>
-    <string name="notify_type_all">සියල්ල</string>
 </resources>

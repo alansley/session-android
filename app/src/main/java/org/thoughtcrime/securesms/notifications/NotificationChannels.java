@@ -440,11 +440,10 @@ public class NotificationChannels {
 
     calls.setShowBadge(false);
     calls.setSound(null, null);
-    backups.setShowBadge(false);
     lockedStatus.setShowBadge(false);
     other.setShowBadge(false);
 
-    notificationManager.createNotificationChannels(Arrays.asList(messages, calls, failures, backups, lockedStatus, other));
+    notificationManager.createNotificationChannels(Arrays.asList(messages, calls, failures, lockedStatus, other));
 
     if (BuildConfig.PLAY_STORE_DISABLED) {
       NotificationChannel appUpdates = new NotificationChannel(APP_UPDATES, context.getString(R.string.updateApp), NotificationManager.IMPORTANCE_HIGH);

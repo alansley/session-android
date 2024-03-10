@@ -18,14 +18,12 @@
         <item quantity="one">See piirab koheselt kõiki vestlusi, jättes alles ainult viimase sõnumi.</item>
         <item quantity="other">See piirab koheselt kõiki vestlusi, jättes alles ainult %d viimast sõnumit.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Sees</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(pilt)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(heli)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session vajab fotode, videote või audiofailide manustamiseks ligipääsu salvestusmeediale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Salvestusmeedia\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Heli esitamisel tekkis viga!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Täna</string>
     <string name="BucketedThreadMedia_Yesterday">Eile</string>
@@ -34,17 +32,13 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Veebibrauserit ei leitud.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Grupid</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Saatmine ebaõnnestus, koputa üksikasjade nägemiseks</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Võtmevahetussõnum vastuvõetud, koputa töötlemiseks.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Saatmine ebaõnnestus, koputa, et saata turvamata sõnum</string>
     <string name="ConversationItem_copied_text">%s kopeeritud</string>
-    <string name="ConversationItem_download_more">  Laadi rohkem alla</string>
-    <string name="ConversationItem_pending">  Ootel</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Lisa manus</string>
-    <string name="ConversationActivity_select_contact_info">Vali kontaktandmed</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Vabandust, sinu manuse seadmisega tekkis viga.</string>
     <string name="ConversationActivity_invalid_recipient">Sobimatu saaja!</string>
     <string name="blockUnblock">Eemalda blokeering</string>
@@ -74,7 +68,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Pilt</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Koputa ja hoia all, et salvestada helisõnum, vabasta saatmiseks</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Sõnum kasutajalt %1$s</string>
     <string name="LongMessageActivity_your_message">Sinu sõnum</string>
@@ -97,8 +90,6 @@
     <string name="conversationsSettingsAllMedia">Kogu meedia</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Vastuvõetud sõnum, mis on krüptitud kasutades vana, mittetoetatud Sessioni versiooni. Palun palu saatjal uuendada uusimale versioonile ja siis sõnum uuesti saata.</string>
-    <string name="MessageRecord_you_updated_group">Sa uuendasid gruppi.</string>
-    <string name="MessageRecord_s_updated_group">%s uuendas gruppi.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Sinu sõnumid ei aegu.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Selles vestluses saadetud ja vastuvõetud sõnumid haihtuvad peale %s pärast nägemist.</string>
@@ -119,7 +110,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupp uuendatud</string>
     <string name="ThreadRecord_secure_session_reset">Turvaline sessioon lähtestatud.</string>
-    <string name="ThreadRecord_media_message">Meediasõnum</string>
     <string name="ThreadRecord_s_is_on_signal">%s on Sessionis!</string>
     <string name="ThreadRecord_safety_number_changed">Turvanumber muudetud</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sinu turvanumber kontaktiga %s on muutunud.</string>
@@ -142,7 +132,6 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Õiguste puudumise tõttu pole võimalik välisele andmekandjale salvestada.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d uut sõnumit %2$d vestluses</string>
-    <string name="MessageNotifier_locked_message">Lukustatud sõnum</string>
     <string name="MessageNotifier_message_delivery_failed">Sõnumi kohaletoimetamine ebaõnnestus.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Sõnumi kohale toimetamine ebaõnnestus.</string>
     <string name="MessageNotifier_error_delivering_message">Sõnumi kohale toimetamisel tekkis viga.</string>
@@ -185,15 +174,12 @@
     <string name="attachment_type_selector__gallery">Galerii</string>
     <string name="attachment_type_selector__drawer_description">Lülita manusesahtlit</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Laadin kontakte...</string>
     <!-- conversation_activity -->
     <string name="send">Saada</string>
     <string name="conversation_activity__compose_description">Sõnumi koostamine</string>
     <string name="conversation_activity__emoji_toggle_description">Lülita emoji klaviatuuri</string>
     <string name="conversation_activity__attachment_thumbnail">Manuse pisipilt</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Lülita kiire kaamera manuse sahtel sisse või välja</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Salvesta ja saada helimanus</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lukusta helimanuse salvestamine</string>
     <string name="conversation_activity__enable_signal_for_sms">Luba Session SMSide jaoks</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Libista tühistamiseks</string>
@@ -204,22 +190,16 @@
     <string name="conversation_item_sent__send_failed_indicator_description">Saatmine ebaõnnestus</string>
     <string name="conversation_item_sent__delivered_description">Kohale toimetatud</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Kontakti foto</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Esita</string>
-    <string name="audio_view__pause_accessibility_description">Paus</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Originaalsõnumit ei leitud</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Keri alla</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Otsi GIFe ja kleepse</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Näe tervet vestlust</string>
-    <string name="load_more_header__loading">Laadimine</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -232,26 +212,16 @@
     <string name="message_details_header__to">Saaja:</string>
     <string name="message_details_header__with">Koos:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Loo salaväljend</string>
     <string name="AndroidManifest__media_preview">Meedia eelvaade</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Kasuta vaikeväärtust</string>
     <string name="arrays__use_custom">Kasuta kohandatud väärtust</string>
     <string name="notificationsMute1Hour">Vaigista 1 tunniks</string>
     <string name="notificationsMute2Hours">Vaigista 2 tunniks</string>
     <string name="notificationsMute1Day">Vaigista 1 päevaks</string>
-    <string name="arrays__mute_for_one_year">Vaigista 1 aastaks</string>
-    <string name="arrays__settings_default">Seadete vaikeväärtus</string>
-    <string name="arrays__enabled">Lubatud</string>
-    <string name="arrays__disabled">Keelatud</string>
     <string name="notificationsContentShowNameOnly">Ainult nimi</string>
     <string name="arrays__images">Pildid</string>
     <string name="audio">Heli</string>
-    <string name="arrays__small">Väike</string>
     <string name="arrays__normal">Keskmine</string>
-    <string name="arrays__large">Suur</string>
-    <string name="arrays__extra_large">Ekstrasuur</string>
-    <string name="arrays__high">Kõrge</string>
     <string name="max">Maksimaalne</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -263,30 +233,12 @@
     <string name="preferences__screen_security">Kuva turvamine</string>
     <string name="sessionNotifications">Teated</string>
     <string name="notificationsLedColor">LEDi värv</string>
-    <string name="preferences__pref_led_blink_title">LEDi välkumismuster</string>
     <string name="notificationsSound">Heli</string>
-    <string name="preferences__repeat_alerts">Korda teateid</string>
-    <string name="preferences__never">Mitte kunagi</string>
-    <string name="preferences__one_time">Üks kord</string>
-    <string name="preferences__two_times">Kaks korda</string>
-    <string name="preferences__three_times">Kolm korda</string>
-    <string name="preferences__five_times">Viis korda</string>
-    <string name="preferences__ten_times">Kümme korda</string>
     <string name="notificationsVibrate">Vibratsioon</string>
-    <string name="preferences__green">Roheline</string>
-    <string name="preferences__red">Punane</string>
-    <string name="preferences__blue">Sinine</string>
-    <string name="preferences__orange">Oranž</string>
-    <string name="preferences__cyan">Tsüaansinine</string>
-    <string name="preferences__magenta">Fuksiinpunane</string>
-    <string name="preferences__white">Valge</string>
-    <string name="preferences__none">Puudub</string>
     <string name="preferences__fast">Kiire</string>
     <string name="preferences__normal">Keskmine</string>
     <string name="preferences__slow">Aeglane</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Kustuta automaatselt vanad sõnumid, kui vestlus ületab määratud pikkuse</string>
     <string name="preferences__delete_old_messages">Kustuta vanad sõnumid</string>
-    <string name="preferences__conversation_length_limit">Vestluse pikkuse limiit</string>
     <string name="preferences__trim_all_conversations_now">Piira kõik vestlused nüüd</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Skaneeri kõiki vestlusi ja jõusta vestluspikkuse limiite</string>
     <string name="_default">Vaikimisi</string>
@@ -296,8 +248,6 @@
     <string name="conversationsMessageTrimming">Sõnumi piiramine</string>
     <string name="preferences_advanced__use_system_emoji">Kasuta süsteemi emojisid</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Keela Sessionisse sisseehitatud emoji-tugi</string>
-    <string name="preferences_notifications__messages">Sõnumid</string>
-    <string name="preferences_notifications__in_chat_sounds">Vestlusesisesed helid</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -318,16 +268,10 @@
     <string name="groupLeave">Lahku grupist</string>
     <string name="conversationsAddToHome">Lisa avakuvale</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Laienda hüpikut</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Kohaletoimetamine</string>
-    <string name="conversation_group_options__conversation">Vestlus</string>
-    <string name="conversation_group_options__broadcast">Kanna üle</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Edasta</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Meedia eelvaade</string>
     <!-- Trimmer -->
     <string name="deleting">Kustutan</string>
     <string name="trimmer__deleting_old_messages">Kustutan vanu sõnumeid...</string>
@@ -348,10 +292,7 @@
     <string name="BackupDialog_delete_backups_statement">Kustuta varundused</string>
     <string name="LocalBackupJob_creating_backup">Varunduse loomine...</string>
     <string name="ProgressPreference_d_messages_so_far">Siiani leidsime %d sõnumit</string>
-    <string name="BackupUtil_never">Mitte kunagi</string>
     <string name="preferences_app_protection__screen_lock">Ekraanilukk</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekraaniluku ebaaktiivsuse ajalõpp</string>
-    <string name="AppProtectionPreferenceFragment_none">Puudub</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->

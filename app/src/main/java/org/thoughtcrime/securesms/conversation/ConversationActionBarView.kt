@@ -84,7 +84,7 @@ class ConversationActionBarView @JvmOverloads constructor(
 
     fun update(recipient: Recipient, openGroup: OpenGroup? = null, config: ExpirationConfiguration? = null) {
         binding.profilePictureView.update(recipient)
-        binding.conversationTitleView.text = recipient.takeUnless { it.isLocalNumber }?.toShortString() ?: context.getString(R.string.note_to_self)
+        binding.conversationTitleView.text = recipient.takeUnless { it.isLocalNumber }?.toShortString() ?: context.getString(R.string.noteToSelf)
         updateSubtitle(recipient, openGroup, config)
 
         binding.conversationTitleContainer.modifyLayoutParams<MarginLayoutParams> {
@@ -121,7 +121,7 @@ class ConversationActionBarView @JvmOverloads constructor(
                 context.getString(R.string.ConversationActivity_active_member_count, userCount)
             } else {
                 val userCount = groupDb.getGroupMemberAddresses(recipient.address.toGroupString(), true).size
-                context.getString(R.string.ConversationActivity_member_count, userCount)
+                context.getString(R.string.members, userCount)
             }
             settings += ConversationSetting(title, ConversationSettingType.MEMBER_COUNT)
         }

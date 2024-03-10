@@ -20,7 +20,6 @@
         <item quantity="one">Això reduirà immediatament totes les converses al missatge més recent.</item>
         <item quantity="other">Això reduirà immediatament totes les converses als %d missatges més recents.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Actiu</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imatge)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(àudio)</string>
@@ -28,7 +27,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">El Session necessita el permís de l\'emmagatzematge per tal d\'adjuntar fotografies, vídeos o àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi l\'emmagatzematge.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">S\'ha produït un error en reproduir l\'àudio.</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Avui</string>
     <string name="BucketedThreadMedia_Yesterday">Ahir</string>
@@ -37,22 +35,17 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">No s\'ha trobat cap navegador web.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Grups</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Ha fallat l\'enviament. Toqueu per a saber-ne més</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">S\'ha rebut el missatge de l\'intercanvi de la clau, toqueu per a processar-lo.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Ha fallat l\'enviament. Toqueu per al mode no segur.</string>
     <string name="ConversationItem_copied_text">S\'ha copiat %s</string>
-    <string name="ConversationItem_download_more">  Baixa\'n més</string>
-    <string name="ConversationItem_pending">  Pendent</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Afegeix un adjunt</string>
-    <string name="ConversationActivity_select_contact_info">Seleccioneu informació del contacte</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">S\'ha produït un error en afegir el fitxer adjunt.</string>
     <string name="message">Missatge</string>
     <string name="ConversationActivity_compose">Escriu</string>
     <string name="ConversationActivity_muted_until_date">Silenciat fins %1$s</string>
-    <string name="ConversationActivity_open_group_guidelines">Directrius de la comunitat</string>
     <string name="ConversationActivity_invalid_recipient">Destinatari no vàlid.</string>
     <string name="blockUnblock">Desbloca</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">No hi ha cap aplicació que pugui obrir aquest enllaç.</string>
@@ -82,7 +75,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Manteniu-ho premut per enregistrar un missatge de veu, deixeu anar per enviar-lo</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Missatge de %1$s</string>
     <string name="LongMessageActivity_your_message">El vostre missatge</string>
@@ -105,8 +97,6 @@
     <string name="conversationsSettingsAllMedia">Tot el contingut</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">S\'ha rebut un missatge encriptat amb una versió antiga del Session que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
-    <string name="MessageRecord_you_updated_group">Heu actualitzat el grup.</string>
-    <string name="MessageRecord_s_updated_group">%s ha actualitzat el grup.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">El missatges no caducaran.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Els missatges enviats i rebuts a aquesta conversa desapareixeran %s després que s\'hagin llegit.</string>
@@ -126,7 +116,6 @@ d\'intercanvi de claus!</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">S\'ha actualitzat el grup</string>
     <string name="ThreadRecord_secure_session_reset">Restabliment de la sessió segura.</string>
-    <string name="ThreadRecord_media_message">Missatge multimèdia</string>
     <string name="ThreadRecord_s_is_on_signal">%s és al Session!</string>
     <string name="ThreadRecord_safety_number_changed">El número de seguretat ha canviat</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">El número de seguretat amb %s ha canviat.</string>
@@ -149,14 +138,12 @@ d\'intercanvi de claus!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">No es pot desar en un emmagatzematge extern sense permís.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d missatges nous a %2$d converses</string>
-    <string name="MessageNotifier_locked_message">Missatge blocat</string>
     <string name="MessageNotifier_message_delivery_failed">El missatge no s\'ha pogut entregar.</string>
     <string name="MessageNotifier_failed_to_deliver_message">No s\'ha pogut entregar el missatge.</string>
     <string name="MessageNotifier_error_delivering_message">S\'ha produït un error en entregar el missatge.</string>
     <string name="messageMarkRead">Marca\'l com a llegit</string>
     <string name="MessageNotifier_pending_signal_messages">Missatges del Session pendents</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Teniu missatges del Session pendents, toqueu per obrir-lo i recuperar-los</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Contacte</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Telefonades</string>
@@ -194,15 +181,12 @@ d\'intercanvi de claus!</string>
     <string name="attachment_type_selector__gallery">Galeria</string>
     <string name="attachment_type_selector__drawer_description">Commuta la pestanya d\'adjunts</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">S\'estan carregant els contactes...</string>
     <!-- conversation_activity -->
     <string name="send">Envia</string>
     <string name="conversation_activity__compose_description">Cos del missatge</string>
     <string name="conversation_activity__emoji_toggle_description">Canvia al teclat d\'emojis</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatura de l\'adjunt</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Desplega la pestanya d\'adjunts de càmera ràpida</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Enregistra i envia un àudio adjunt</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Bloqueja la gravació d\'un adjunt d\'àudio</string>
     <string name="conversation_activity__enable_signal_for_sms">Habilita el Session per als SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Llisqueu per cancel·lar-ho</string>
@@ -213,26 +197,19 @@ d\'intercanvi de claus!</string>
     <string name="conversation_item_sent__send_failed_indicator_description">Ha fallat l\'enviament</string>
     <string name="conversation_item_sent__delivered_description">Entregat</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Foto del contacte</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Reprodueix</string>
-    <string name="audio_view__pause_accessibility_description">Pausa</string>
     <!-- open_group_invitation_view -->
     <string name="join">Uneix-t\'hi</string>
     <string name="open_group_guidelines_pinned_message">Missatge fixat</string>
-    <string name="open_group_guidelines_community_guidelines">Directrius de comunitat</string>
     <string name="read">Llegeix</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">No s\'ha trobat el missatge original.</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Desplaça al final</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cerca GIF i adhesius</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Mostra tota la conversa</string>
-    <string name="load_more_header__loading">S\'està carregant</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -245,27 +222,17 @@ d\'intercanvi de claus!</string>
     <string name="message_details_header__to">A:</string>
     <string name="message_details_header__with">Amb:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Crea una contrasenya</string>
     <string name="AndroidManifest__media_preview">Previsualització multimèdia</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Per defecte</string>
     <string name="arrays__use_custom">Personalitzat</string>
     <string name="notificationsMute1Hour">Silencia-ho durant 1 hora</string>
     <string name="notificationsMute2Hours">Silencia-ho durant 2 hores</string>
     <string name="notificationsMute1Day">Silencia-ho durant 1 dia</string>
-    <string name="arrays__mute_for_one_year">Silencia-ho durant 1 any</string>
-    <string name="arrays__settings_default">Configuració predeterminada</string>
-    <string name="arrays__enabled">Habilitat</string>
-    <string name="arrays__disabled">Inhabilitat</string>
     <string name="notificationsContentShowNameOnly">Només el nom</string>
     <string name="arrays__images">Imatges</string>
     <string name="audio">Àudio</string>
     <string name="video">Vídeo</string>
-    <string name="arrays__small">Petita</string>
     <string name="arrays__normal">Normal</string>
-    <string name="arrays__large">Gran</string>
-    <string name="arrays__extra_large">Molt gran</string>
-    <string name="arrays__high">Alta</string>
     <string name="max">Màxima</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -277,30 +244,12 @@ d\'intercanvi de claus!</string>
     <string name="preferences__screen_security">Seguretat de la pantalla</string>
     <string name="sessionNotifications">Notificacions</string>
     <string name="notificationsLedColor">Color del LED</string>
-    <string name="preferences__pref_led_blink_title">Patró lluminós per al LED</string>
     <string name="notificationsSound">So</string>
-    <string name="preferences__repeat_alerts">Repeteix les alertes</string>
-    <string name="preferences__never">Mai</string>
-    <string name="preferences__one_time">1 vegada</string>
-    <string name="preferences__two_times">2 vegades</string>
-    <string name="preferences__three_times">3 vegades</string>
-    <string name="preferences__five_times">5 vegades</string>
-    <string name="preferences__ten_times">10 vegades</string>
     <string name="notificationsVibrate">Vibra</string>
-    <string name="preferences__green">Verd</string>
-    <string name="preferences__red">Vermell</string>
-    <string name="preferences__blue">Blau</string>
-    <string name="preferences__orange">Taronja</string>
-    <string name="preferences__cyan">Cian</string>
-    <string name="preferences__magenta">Magenta</string>
-    <string name="preferences__white">Blanc</string>
-    <string name="preferences__none">Cap</string>
     <string name="preferences__fast">Ràpid</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Lent</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Suprimeix automàticament els missatges antics si la conversa excedeix d\'una mida concreta.</string>
     <string name="preferences__delete_old_messages">Suprimeix els missatges antics</string>
-    <string name="preferences__conversation_length_limit">Límit de la mida de la conversa</string>
     <string name="preferences__trim_all_conversations_now">Escapça totes les converses</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Escaneja totes les converses i aplica-hi els límits de mida</string>
     <string name="_default">Per defecte</string>
@@ -310,8 +259,6 @@ d\'intercanvi de claus!</string>
     <string name="conversationsMessageTrimming">Escapçament de missatges</string>
     <string name="preferences_advanced__use_system_emoji">Usa els emoji del sistema</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inhabilita els emojis inclosos al Session</string>
-    <string name="preferences_notifications__messages">Missatges</string>
-    <string name="preferences_notifications__in_chat_sounds">Sons del xat</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -333,16 +280,10 @@ d\'intercanvi de claus!</string>
     <string name="groupLeave">Abandona el grup</string>
     <string name="conversationsAddToHome">Afegeix a la pantalla d\'inici</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Expandeix la finestra emergent</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Lliurament</string>
-    <string name="conversation_group_options__conversation">Conversa</string>
-    <string name="conversation_group_options__broadcast">Difusió</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Reenvia</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Previsualització multimèdia</string>
     <!-- Trimmer -->
     <string name="deleting">Suprimint</string>
     <string name="trimmer__deleting_old_messages">Suprimint els missatges antics...</string>
@@ -363,10 +304,7 @@ d\'intercanvi de claus!</string>
     <string name="BackupDialog_delete_backups_statement">Suprimeix les còpies de seguretat</string>
     <string name="LocalBackupJob_creating_backup">S\'està creant una còpia de seguretat...</string>
     <string name="ProgressPreference_d_messages_so_far">%d missatges fins ara...</string>
-    <string name="BackupUtil_never">Mai</string>
     <string name="preferences_app_protection__screen_lock">Bloqueig de pantalla</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Temps d\'inactivitat per al bloqueig de pantalla</string>
-    <string name="AppProtectionPreferenceFragment_none">Cap</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Copia la clau pública</string>
     <!-- Session -->
@@ -379,8 +317,6 @@ d\'intercanvi de claus!</string>
     <string name="cancel">Cancel·la</string>
     <string name="view_fake_chat_bubble_4">Fent servir una combinació de tecnologies d\'encaminament anònim avançat i un xifratge d\'extrem a extrem.</string>
     <string name="view_fake_chat_bubble_5">Amics no deixis que els amics facin servir missatgeries compromeses. Sigueu benvinguts.</string>
-    <string name="activity_register_title">Digues hola al teu ID de Session</string>
-    <string name="activity_register_explanation">El teu ID de Session és l\'adreça única que els usuaris poden utilitzar per a contactar-te a Session. Sense cap connexió amb la teva identitat real, el teu ID de Session ID per disseny és totalment anònim i privat.</string>
     <string name="displayNamePick">Tria el nom que es mostrarà</string>
     <string name="displayNameEnter">Escriu el nom a mostrar</string>
     <string name="displayNameErrorDescription">Tria un nom a mostrar, si us plau</string>
@@ -402,16 +338,12 @@ d\'intercanvi de claus!</string>
     <string name="onionRoutingPathDestination">Destinació</string>
     <string name="learnMore">Aprèn-ne més</string>
     <string name="qrScan">Escaneja el codi QR</string>
-    <string name="fragment_enter_public_key_explanation">Els usuaris poden compartir el seu ID de Session accedint a la configuració del compte i tocant \'Comparteix l\'ID de Session\' o compartint el seu codi QR.</string>
     <string name="cameraGrantAccessQr">Session necessita accés a la càmera per escanejar codis QR</string>
     <string name="cameraGrantAccess">Permet accés a la càmera</string>
     <string name="groupNameEnter">Introdueix un nom de grup</string>
     <string name="activity_create_closed_group_empty_state_button_title">Enceta un Session</string>
     <string name="groupNameEnterPlease">Entra un nom de grup, si us plau</string>
-    <string name="activity_join_public_chat_title">Uneix-te a un Grup Obert</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Escaneja el codi QR del grup obert que t\'agradaria unir-t\'hi</string>
     <string name="sessionSettings">Configuració</string>
-    <string name="activity_settings_devices_button_title">Dispositius</string>
     <string name="sessionClearData">Neteja les dades</string>
     <string name="notificationsStyle">Estil de notificacions</string>
     <string name="activity_notification_settings_content_section_title">Contingut de notificacions</string>
@@ -421,10 +353,7 @@ d\'intercanvi de claus!</string>
     <string name="clearDataAll">Esborra totes les dades</string>
     <string name="qrCode">Codi QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneja el codi QR d\'algú altre per a encetar-hi una conversa</string>
-    <string name="fragment_view_my_qr_code_title">Escaneja\'m</string>
-    <string name="fragment_view_my_qr_code_share_title">Comparteix un codi QR</string>
     <string name="contactsContacts">Contactes</string>
-    <string name="fragment_contact_selection_closed_groups_title">Grups tancats</string>
     <string name="fragment_contact_selection_open_groups_title">Grups oberts</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Aplica</string>
@@ -433,16 +362,12 @@ d\'intercanvi de claus!</string>
     <string name="contactSelect">Selecciona contactes</string>
     <string name="view_reset_secure_session_done_message">S\'ha fet el restabliment de la sessió segura</string>
     <string name="appearanceThemes">Tema</string>
-    <string name="dialog_ui_mode_option_day">Dia</string>
-    <string name="dialog_ui_mode_option_night">Nit</string>
-    <string name="dialog_ui_mode_option_system_default">Per defecte del sistema</string>
     <string name="attachment">Adjunt</string>
     <string name="messageVoice">Missatge de veu</string>
     <string name="dialog_backup_activation_failed">No s\'ha pogut activar la llicència. Torneu-ho a intentar o poseu-vos en contacte amb el servei de suport.</string>
     <string name="activity_backup_restore_title">Restaura la còpia de seguretat</string>
     <string name="activity_backup_restore_select_file">Selecciona un fitxer</string>
     <string name="activity_backup_restore_explanation_1">Selecciona un fitxer de còpia de seguretat i entra la frase de pas amb el qual va ser creat.</string>
-    <string name="activity_backup_restore_passphrase">Frase de pas de 30 dígits</string>
     <string name="activity_link_device_skip_prompt">Això triga un xic, t\'ho vols saltar?</string>
     <string name="communityJoinOfficial">O uneix-te a alguns d\'aquests…</string>
     <string name="onboardingMessageNotificationExplaination">Hi ha dues maneres per les quals Session et pot notificar els missatges nous.</string>

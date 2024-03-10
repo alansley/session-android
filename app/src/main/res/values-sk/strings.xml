@@ -23,7 +23,6 @@
         <item quantity="many">Týmto sa premažú všetky konverzácie až na posledných %d správ.</item>
         <item quantity="other">Týmto sa premažú všetky konverzácie až na posledných %d správ.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Zapnuté</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(obrázok)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(zvuk)</string>
@@ -31,7 +30,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session potrebuje prístup k úložisku aby k správam mohol pridať obrázkové, video a zvukové prílohy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Úložisko\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Chyba pri prehrávaní zvuku!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Dnes</string>
     <string name="BucketedThreadMedia_Yesterday">Včera</string>
@@ -40,22 +38,17 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Nenašiel sa žiadny webový prehliadač.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Skupiny</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Odosielanie zlyhalo, ťuknutím zobrazíte podrobnosti</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Správa výmeny kľúčov prijatá, ťuknutím pokračujte.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Odosielanie zlyhalo, ťuknutím pošlete nezabezpečenú správu</string>
     <string name="ConversationItem_copied_text">Skopírovaných %s</string>
-    <string name="ConversationItem_download_more">  Stiahnuť viac</string>
-    <string name="ConversationItem_pending">  Čaká sa</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Pridať prílohu</string>
-    <string name="ConversationActivity_select_contact_info">Vyberte kontaktné informácie </string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Nastala chyba pri vytváraní prílohy.</string>
     <string name="message">Správa</string>
     <string name="ConversationActivity_compose">Napísať správu</string>
     <string name="ConversationActivity_muted_until_date">Stlmené upozornenia do %1$s</string>
-    <string name="ConversationActivity_open_group_guidelines">Usmernenia Spoločenstva</string>
     <string name="ConversationActivity_invalid_recipient">Neplatný príjemca</string>
     <string name="blockUnblock">Odblokovať</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Vo vašom zariadení nie je aplikácia schopná otvoriť tento odkaz.</string>
@@ -87,7 +80,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Fotka</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Podržte pre záznam hlasovej správy, a pustite pre odoslanie</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Správa od %1$s</string>
     <string name="LongMessageActivity_your_message">Vaša správa</string>
@@ -112,8 +104,6 @@
     <string name="conversationsSettingsAllMedia">Všetky médiá</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Prijatá správa je šifrovaná starou verziou Sessionu, ktorá už nie je podporovaná. Prosím požiadajte odosielateľa o aktualizáciu na najnovšiu verziu a opätovné odoslanie správy.</string>
-    <string name="MessageRecord_you_updated_group">Aktualizovali ste skupinu.</string>
-    <string name="MessageRecord_s_updated_group">%s aktualizoval/a skupinu.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Vaše správy nevypršia.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Správy odoslané a prijaté v tejto konverzácii zmiznú %s po prečítaní.</string>
@@ -133,7 +123,6 @@ výmeny kľúčov.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Skupina bola aktualizovaná</string>
     <string name="ThreadRecord_secure_session_reset">Bezpečná relácia obnovená.</string>
-    <string name="ThreadRecord_media_message">Multimediálna správa</string>
     <string name="ThreadRecord_s_is_on_signal">%s je na Sessione!</string>
     <string name="ThreadRecord_safety_number_changed">Bezpečnostné číslo sa zmenilo</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Vaše bezpečnostné číslo s %s sa zmenilo.</string>
@@ -156,14 +145,12 @@ výmeny kľúčov.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bez povolenia sa nedá zapisovať na externé úložisko</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nové správy v %2$d konverzáciách</string>
-    <string name="MessageNotifier_locked_message">Uzamknutá správa</string>
     <string name="MessageNotifier_message_delivery_failed">Doručenie správy zlyhalo.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Správu sa nepodarilo doručiť.</string>
     <string name="MessageNotifier_error_delivering_message">Chyba doručovania správy.</string>
     <string name="messageMarkRead">Označiť ako prečítané</string>
     <string name="MessageNotifier_pending_signal_messages">Nevybavené Session správy </string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Máte nevybavené Session správy, stlačením otvorte a prevezmite</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Volania</string>
@@ -203,15 +190,12 @@ výmeny kľúčov.</string>
     <string name="attachment_type_selector__gallery">Galéria</string>
     <string name="attachment_type_selector__drawer_description">Prepnúť zobrazenie príloh</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Načítavanie kontaktov…</string>
     <!-- conversation_activity -->
     <string name="send">Odoslať</string>
     <string name="conversation_activity__compose_description">Písanie správy</string>
     <string name="conversation_activity__emoji_toggle_description">Prepnúť na emoji klávesnicu</string>
     <string name="conversation_activity__attachment_thumbnail">Ikona prílohy</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Prepnúť na rýchlu prílohu fotoaparátom</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Nahrať a odoslať zvukovú prílohu</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Zamknúť nahrávanie zvukovej prílohy</string>
     <string name="conversation_activity__enable_signal_for_sms">Zapnúť Session pre SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Potiahnite pre zrušenie</string>
@@ -222,26 +206,19 @@ výmeny kľúčov.</string>
     <string name="conversation_item_sent__send_failed_indicator_description">Odoslanie zlyhalo</string>
     <string name="conversation_item_sent__delivered_description">Doručené</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Fotka kontaktu</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Prehrať</string>
-    <string name="audio_view__pause_accessibility_description">Pozastaviť</string>
     <!-- open_group_invitation_view -->
     <string name="join">Pripojiť sa</string>
     <string name="open_group_guidelines_pinned_message">Pripnutá správa</string>
-    <string name="open_group_guidelines_community_guidelines">Pravidlá komunity</string>
     <string name="read">Prečítané</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotka</string>
     <string name="messageErrorOriginal">Pôvodná správa sa nenašla</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Na koniec</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Hľadať GIFy a nálepky</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Zobraziť celú konverzáciu</string>
-    <string name="load_more_header__loading">Načítava sa</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -254,27 +231,17 @@ výmeny kľúčov.</string>
     <string name="message_details_header__to">Komu:</string>
     <string name="message_details_header__with">S:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Vytvoriť heslo</string>
     <string name="AndroidManifest__media_preview">Náhľad média</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Použiť predvolené</string>
     <string name="arrays__use_custom">Použiť vlastné</string>
     <string name="notificationsMute1Hour">Stlmiť na 1 hodinu</string>
     <string name="notificationsMute2Hours">Stlmiť na 2 hodiny</string>
     <string name="notificationsMute1Day">Stlmiť na 1 deň</string>
-    <string name="arrays__mute_for_one_year">Stlmiť na 1 rok</string>
-    <string name="arrays__settings_default">Predvolené nastavenie</string>
-    <string name="arrays__enabled">Povolené</string>
-    <string name="arrays__disabled">Zakázané</string>
     <string name="notificationsContentShowNameOnly">Iba meno</string>
     <string name="arrays__images">Obrázky</string>
     <string name="audio">Zvuk</string>
     <string name="video">Video</string>
-    <string name="arrays__small">Malá</string>
     <string name="arrays__normal">Normálna</string>
-    <string name="arrays__large">Veľká</string>
-    <string name="arrays__extra_large">Veľmi veľká</string>
-    <string name="arrays__high">Vysoká</string>
     <string name="max">Maximálna</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -288,30 +255,12 @@ výmeny kľúčov.</string>
     <string name="preferences__screen_security">Zabezpečenie obrazovky</string>
     <string name="sessionNotifications">Upozornenia</string>
     <string name="notificationsLedColor">LED farba</string>
-    <string name="preferences__pref_led_blink_title">Sekvencia blikania LED</string>
     <string name="notificationsSound">Zvuk</string>
-    <string name="preferences__repeat_alerts">Opakovať oznámenia</string>
-    <string name="preferences__never">Nikdy</string>
-    <string name="preferences__one_time">Raz</string>
-    <string name="preferences__two_times">Dvakrát</string>
-    <string name="preferences__three_times">Trikrát</string>
-    <string name="preferences__five_times">Päťkrát</string>
-    <string name="preferences__ten_times">Desaťkrát</string>
     <string name="notificationsVibrate">Vibrácie</string>
-    <string name="preferences__green">Zelená</string>
-    <string name="preferences__red">Červená</string>
-    <string name="preferences__blue">Modrá</string>
-    <string name="preferences__orange">Oranžová</string>
-    <string name="preferences__cyan">Azúrová</string>
-    <string name="preferences__magenta">Purpurová</string>
-    <string name="preferences__white">Biela</string>
-    <string name="preferences__none">Žiadna</string>
     <string name="preferences__fast">Rýchlo</string>
     <string name="preferences__normal">Normálne</string>
     <string name="preferences__slow">Pomaly</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Automaticky odstrániť staršie správy keď konverzácia presiahne určenú dĺžku</string>
     <string name="preferences__delete_old_messages">Vymazať staré správy</string>
-    <string name="preferences__conversation_length_limit">Obmedzenie dĺžky konverzácie</string>
     <string name="preferences__trim_all_conversations_now">Premazať všetky konverzácie teraz</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Skenovať všetky konverzácie a uplatniť limity dĺžky konverzácie</string>
     <string name="_default">Štandardné nastavenie</string>
@@ -321,8 +270,6 @@ výmeny kľúčov.</string>
     <string name="conversationsMessageTrimming">Premazávanie správ</string>
     <string name="preferences_advanced__use_system_emoji">Použiť systémové emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Vypnúť emoji zabudované v Sessione</string>
-    <string name="preferences_notifications__messages">Správy</string>
-    <string name="preferences_notifications__in_chat_sounds">Zvuky v chate</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -344,16 +291,10 @@ výmeny kľúčov.</string>
     <string name="groupLeave">Opustiť skupinu</string>
     <string name="conversationsAddToHome">Pridať na plochu</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Rozbaliť okno</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Doručenie</string>
-    <string name="conversation_group_options__conversation">Konverzácia</string>
-    <string name="conversation_group_options__broadcast">Poslať všetkým</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Preposlať</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Náhľad média</string>
     <!-- Trimmer -->
     <string name="deleting">Mazanie</string>
     <string name="trimmer__deleting_old_messages">Mažú sa staré správy...</string>
@@ -374,10 +315,7 @@ výmeny kľúčov.</string>
     <string name="BackupDialog_delete_backups_statement">Vymazať zálohy</string>
     <string name="LocalBackupJob_creating_backup">Vytváranie zálohy...</string>
     <string name="ProgressPreference_d_messages_so_far">Zatiaľ %d správ</string>
-    <string name="BackupUtil_never">Nikdy</string>
     <string name="preferences_app_protection__screen_lock">Zámok obrazovky</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Časový limit neaktivity pred uzamknutím</string>
-    <string name="AppProtectionPreferenceFragment_none">Žiadny</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopírovať verejný kľúč</string>
     <!-- Session -->
@@ -390,8 +328,6 @@ výmeny kľúčov.</string>
     <string name="cancel">Zrušiť</string>
     <string name="view_fake_chat_bubble_4">Použitím kombinácie pokročilých technológií anonymného smerovania a end-to-end šifrovania.</string>
     <string name="view_fake_chat_bubble_5">Priatelia nedovolia priateľom používať skompromitované chatové aplikácie. Nieje za čo.</string>
-    <string name="activity_register_title">Povedzte ahoj svojmu Session ID</string>
-    <string name="activity_register_explanation">Vaše Session ID je jedinečná adresa, ktorú môžu ľudia použiť aby sa s vami skontaktovali v Session. Pretože Session ID nemá žiadne spojenie s vašou skutočnou identitou, je Session ID úplne anonymné a súkromé.</string>
     <string name="displayNamePick">Vyberte svoje zobrazované meno</string>
     <string name="displayNameEnter">Zadajte zobrazované meno</string>
     <string name="displayNameErrorDescription">Zvoľte prosím zobrazované meno</string>
@@ -411,15 +347,11 @@ výmeny kľúčov.</string>
     <string name="onionRoutingPathDestination">Cieľ</string>
     <string name="learnMore">Viac informácií</string>
     <string name="qrScan">Skenovať QR kód</string>
-    <string name="fragment_enter_public_key_explanation">Používatelia môžu zdieľať svoje Session ID tak, že prejdú do nastavení svojho účtu a klepnú na možnosť „Zdieľať Session ID“ alebo zdieľajú svoj QR kód.</string>
     <string name="cameraGrantAccessQr">Session potrebuje prístup k fotoaparátu na skenovanie QR kódov</string>
     <string name="cameraGrantAccess">Udeliť prístup k fotoaparátu</string>
     <string name="groupNameEnter">Zadajte názov skupiny</string>
     <string name="groupNameEnterPlease">Zadajte prosím názov skupiny</string>
-    <string name="activity_join_public_chat_title">Pripojiť sa k otvorenej skupine</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Oskenujte QR kód skupiny ku ktorej sa chcete pripojiť</string>
     <string name="sessionSettings">Nastavenia</string>
-    <string name="activity_settings_devices_button_title">Zariadenia</string>
     <string name="sessionClearData">Odstrániť dáta</string>
     <string name="notificationsStyle">Štýl upozornenia</string>
     <string name="activity_notification_settings_content_section_title">Obsah upozornenia</string>
@@ -428,26 +360,19 @@ výmeny kľúčov.</string>
     <string name="clearDataAll">Odstrániť všetky dáta</string>
     <string name="qrCode">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Oskenujte niečí QR kód pre začatie konverzácie</string>
-    <string name="fragment_view_my_qr_code_title">Naskenuj ma</string>
-    <string name="fragment_view_my_qr_code_share_title">Zdieľať QR kód</string>
     <string name="contactsContacts">Kontakty</string>
-    <string name="fragment_contact_selection_closed_groups_title">Uzatvorené skupiny</string>
     <string name="fragment_contact_selection_open_groups_title">Otvorené skupiny</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Použiť</string>
     <string name="done">Dokončené</string>
     <string name="groupEdit">Upraviť skupinu</string>
     <string name="contactSelect">Vyberte kontakty</string>
-    <string name="dialog_ui_mode_option_day">Deň</string>
-    <string name="dialog_ui_mode_option_night">Nočný režim</string>
-    <string name="dialog_ui_mode_option_system_default">Predvolené systémom</string>
     <string name="attachment">Príloha</string>
     <string name="messageVoice">Hlasová správa</string>
     <string name="dialog_backup_activation_failed">Nepodarilo sa aktivovať zálohy. Skúste to znova alebo kontaktujte podporu.</string>
     <string name="activity_backup_restore_title">Obnoviť zálohu</string>
     <string name="activity_backup_restore_select_file">Vybrať súbor</string>
     <string name="activity_backup_restore_explanation_1">Vyberte súbor zálohy a zadajte prístupovú frázu, pomocou ktorej bol vytvorený.</string>
-    <string name="activity_backup_restore_passphrase">30-znaková prístupová fráza</string>
     <string name="communityJoinOfficial">Alebo sa pripojte k jednej z týchto…</string>
     <string name="notificationsFastMode">Rýchly režim</string>
     <string name="notificationsSlowMode">Pomalý režim</string>

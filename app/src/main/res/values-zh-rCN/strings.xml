@@ -18,7 +18,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">这将会立刻整理所有会话到 %d 最近的信息</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">开启</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(图片)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(音频)</string>
@@ -26,7 +25,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session 需要\"存储空间\"权限才能发送图片、视频以及音频，但是该权限已被永久禁用。请转到系统的应用设置菜单，找到权限设置，选择 Session 应用，并启用\"存储空间\"权限。</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">播放音频时出错！</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">今天</string>
     <string name="BucketedThreadMedia_Yesterday">昨天</string>
@@ -35,24 +33,18 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">未找到网页浏览器</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">群组</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">发送失败，点击查看详情</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">收到密钥交换消息，点击进行处理</string>
     <string name="ConversationItem_click_to_approve_unencrypted">发送失败，点击使用不安全的方式发送</string>
     <string name="ConversationItem_copied_text">已复制 %s</string>
-    <string name="ConversationItem_read_more">阅读更多</string>
-    <string name="ConversationItem_download_more">&#160; 下载更多</string>
-    <string name="ConversationItem_pending"> &#160; 等待中</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">添加附件</string>
-    <string name="ConversationActivity_select_contact_info">选择联系信息</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">抱歉，设置附件时出错</string>
     <string name="message">消息</string>
     <string name="ConversationActivity_compose">撰写</string>
     <string name="ConversationActivity_muted_until_date">禁言至 %1$s</string>
     <string name="ConversationActivity_muted_forever">已静音</string>
-    <string name="ConversationActivity_open_group_guidelines">社群准则</string>
     <string name="ConversationActivity_invalid_recipient">无效收件人！</string>
     <string name="blockUnblock">解除屏蔽</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的设备上没有应用程序能打开这个链接。</string>
@@ -82,7 +74,6 @@
     <!-- CropImageActivity -->
     <string name="photo">头像</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">按住并保持以录制语音消息，松开即发送</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">%1$s发来的消息</string>
     <string name="LongMessageActivity_your_message">您的消息</string>
@@ -104,8 +95,6 @@
     <string name="conversationsSettingsAllMedia">所有媒体</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">已收到的信息使用了旧版本的 Signal 进行加密，并且已经不再被支持。请联系发送者升级 Session 到最新版本然后再次发送该信息</string>
-    <string name="MessageRecord_you_updated_group">您更新了此群组</string>
-    <string name="MessageRecord_s_updated_group">%s 更新了此群组</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">您的信息将不会过期。</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">在此对话中已发送和已接收的消息将在 %s 后消失。</string>
@@ -125,7 +114,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">群组已更新</string>
     <string name="ThreadRecord_secure_session_reset">安全会话已重设</string>
-    <string name="ThreadRecord_media_message">多媒体信息</string>
     <string name="ThreadRecord_s_is_on_signal">%s 在 Session 上！</string>
     <string name="ThreadRecord_safety_number_changed">安全代码已改变</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">您与 %s 的安全码已经改变</string>
@@ -149,14 +137,12 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">无法在没有写入到外部存储的权限时保存到外部存储</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d 新信息是在 %2$d 中的会话</string>
-    <string name="MessageNotifier_locked_message">锁定的消息</string>
     <string name="MessageNotifier_message_delivery_failed">信息发送失败。</string>
     <string name="MessageNotifier_failed_to_deliver_message">信息发送失败</string>
     <string name="MessageNotifier_error_delivering_message">发送信息错误</string>
     <string name="messageMarkRead">标记为已读</string>
     <string name="MessageNotifier_pending_signal_messages"> Session 信息待处理</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">您有待处理的信号消息，轻触来打开和收取</string>
-    <string name="MessageNotifier_contact_message">%1$s%2$s</string>
     <string name="MessageNotifier_unknown_contact_message">联系人</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">通话</string>
@@ -193,15 +179,12 @@
     <string name="attachment_type_selector__gallery">相册</string>
     <string name="attachment_type_selector__drawer_description">切换附件抽屉</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">读取联系人…</string>
     <!-- conversation_activity -->
     <string name="send">发送</string>
     <string name="conversation_activity__compose_description">消息编写</string>
     <string name="conversation_activity__emoji_toggle_description">切换表情键盘</string>
     <string name="conversation_activity__attachment_thumbnail">附件缩略图</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">切换快速相机附件抽屉</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">录制并发送音频附件</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">保持录音状态</string>
     <string name="conversation_activity__enable_signal_for_sms"> 将 Session 设置为默认短信应用</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel"> 滑动以取消发送</string>
@@ -212,26 +195,19 @@
     <string name="conversation_item_sent__send_failed_indicator_description">发送失败</string>
     <string name="conversation_item_sent__delivered_description">已送达</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">联系人照片</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">播放</string>
-    <string name="audio_view__pause_accessibility_description">暂停</string>
     <!-- open_group_invitation_view -->
     <string name="join">加入</string>
     <string name="open_group_guidelines_pinned_message">置顶信息</string>
-    <string name="open_group_guidelines_community_guidelines">社群准则</string>
     <string name="read">阅读</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">图片</string>
     <string name="messageErrorOriginal">未找到原消息</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">滚动到底部</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">搜索 GIF图片与表情</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">查看完整会话</string>
-    <string name="load_more_header__loading">正在加载</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -244,27 +220,17 @@
     <string name="message_details_header__to">到：</string>
     <string name="message_details_header__with">与：</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">创建密码</string>
     <string name="AndroidManifest__media_preview">媒体预览</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">使用默认</string>
     <string name="arrays__use_custom">使用自定义</string>
     <string name="notificationsMute1Hour">静音 1 小时</string>
     <string name="notificationsMute2Hours">静音 2 小时</string>
     <string name="notificationsMute1Day">静音 1 天</string>
-    <string name="arrays__mute_for_one_year">静音 1 年</string>
-    <string name="arrays__settings_default">设为默认</string>
-    <string name="arrays__enabled">启用</string>
-    <string name="arrays__disabled">禁用</string>
     <string name="notificationsContentShowNameOnly">仅名称</string>
     <string name="arrays__images">图片</string>
     <string name="audio">音频</string>
     <string name="video">视频</string>
-    <string name="arrays__small">小尺寸</string>
     <string name="arrays__normal">正常尺寸</string>
-    <string name="arrays__large">大尺寸</string>
-    <string name="arrays__extra_large">超大尺寸</string>
-    <string name="arrays__high">高</string>
     <string name="max">最大</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -275,30 +241,12 @@
     <string name="preferences__screen_security">屏幕安全性</string>
     <string name="sessionNotifications">通知</string>
     <string name="notificationsLedColor">LED颜色</string>
-    <string name="preferences__pref_led_blink_title">LED闪烁规律</string>
     <string name="notificationsSound">声音</string>
-    <string name="preferences__repeat_alerts">重复警报</string>
-    <string name="preferences__never">永不</string>
-    <string name="preferences__one_time">一次</string>
-    <string name="preferences__two_times">两次</string>
-    <string name="preferences__three_times">三次</string>
-    <string name="preferences__five_times">五次</string>
-    <string name="preferences__ten_times">十次</string>
     <string name="notificationsVibrate">振动</string>
-    <string name="preferences__green">绿色</string>
-    <string name="preferences__red">红色</string>
-    <string name="preferences__blue">蓝色</string>
-    <string name="preferences__orange">橙色</string>
-    <string name="preferences__cyan">青色</string>
-    <string name="preferences__magenta">洋红色</string>
-    <string name="preferences__white">白色</string>
-    <string name="preferences__none">没有</string>
     <string name="preferences__fast">快速</string>
     <string name="preferences__normal">正常</string>
     <string name="preferences__slow">缓慢</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">对话超过指定数量时自动删除旧的信息</string>
     <string name="preferences__delete_old_messages">删除旧信息</string>
-    <string name="preferences__conversation_length_limit">对话数量限制</string>
     <string name="preferences__trim_all_conversations_now">立刻整理所有的会话</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">查找并处理所有超过限制的对话</string>
     <string name="_default">默认</string>
@@ -308,8 +256,6 @@
     <string name="conversationsMessageTrimming">信息整理</string>
     <string name="preferences_advanced__use_system_emoji">使用系统表情符号</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">禁用 Session 内置的表情支持</string>
-    <string name="preferences_notifications__messages">消息</string>
-    <string name="preferences_notifications__in_chat_sounds">聊天音效</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -331,16 +277,10 @@
     <string name="groupLeave">离开群组</string>
     <string name="conversationsAddToHome">添加到主屏幕</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">展开弹窗</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">发送</string>
-    <string name="conversation_group_options__conversation">对话</string>
-    <string name="conversation_group_options__broadcast">广播</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">转发</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">媒体预览</string>
     <!-- Trimmer -->
     <string name="deleting">正在删除</string>
     <string name="trimmer__deleting_old_messages">正在删除旧消息…</string>
@@ -361,10 +301,7 @@
     <string name="BackupDialog_delete_backups_statement">删除备份</string>
     <string name="LocalBackupJob_creating_backup">正在创建备份…</string>
     <string name="ProgressPreference_d_messages_so_far">已处理 %d 条消息</string>
-    <string name="BackupUtil_never">永不</string>
     <string name="preferences_app_protection__screen_lock">锁屏</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">不活跃锁屏超时</string>
-    <string name="AppProtectionPreferenceFragment_none">无</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">复制公钥</string>
     <!-- Session -->
@@ -377,8 +314,6 @@
     <string name="cancel">取消</string>
     <string name="view_fake_chat_bubble_4">通过结合高效的匿名路由和端到端的加密技术。</string>
     <string name="view_fake_chat_bubble_5">好朋友之间就要使用能够保证信息安全的聊天工具，不用谢啦！</string>
-    <string name="activity_register_title">向您的Session ID打个招呼吧</string>
-    <string name="activity_register_explanation">您的Session ID是其他用户在与您聊天时使用的独一无二的地址。Session ID与您的真实身份无关，它在设计上完全是匿名且私密的</string>
     <string name="displayNamePick">选择您想显示的名称</string>
     <string name="displayNameEnter">输入您想显示的名称</string>
     <string name="displayNameErrorDescription">请设定一个名称</string>
@@ -401,16 +336,12 @@
     <string name="learnMore">了解更多</string>
     <string name="activity_path_resolving_progress">正在解决…</string>
     <string name="qrScan">扫描二维码</string>
-    <string name="fragment_enter_public_key_explanation">用户可以通过进入帐号设置并点击“共享Session ID”来分享自己的Session ID，或通过共享其二维码来分享其Session ID</string>
     <string name="cameraGrantAccessQr">Session需要摄像头访问权限才能扫描二维码</string>
     <string name="cameraGrantAccess">授予摄像头访问权限</string>
     <string name="groupNameEnter">输入群组名称</string>
     <string name="activity_create_closed_group_empty_state_button_title">开始对话</string>
     <string name="groupNameEnterPlease">请输入群组名称</string>
-    <string name="activity_join_public_chat_title">加入公开群组</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">扫描您想加入的公开群组的二维码</string>
     <string name="sessionSettings">设置</string>
-    <string name="activity_settings_devices_button_title">设备</string>
     <string name="sessionInviteAFriend">邀请朋友</string>
     <string name="helpFAQ">常见问题</string>
     <string name="sessionClearData">清除数据</string>
@@ -423,10 +354,7 @@
     <string name="clearDataAll">清除所有数据</string>
     <string name="qrCode">二维码</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">扫描对方的二维码以发起对话</string>
-    <string name="fragment_view_my_qr_code_title">扫描我的二维码</string>
-    <string name="fragment_view_my_qr_code_share_title">分享二维码</string>
     <string name="contactsContacts">联系人</string>
-    <string name="fragment_contact_selection_closed_groups_title">私密群组</string>
     <string name="fragment_contact_selection_open_groups_title">公开群组</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">应用</string>
@@ -435,16 +363,12 @@
     <string name="contactSelect">选择联系人</string>
     <string name="view_reset_secure_session_done_message">安全会话重置完毕</string>
     <string name="appearanceThemes">主题</string>
-    <string name="dialog_ui_mode_option_day">白昼</string>
-    <string name="dialog_ui_mode_option_night">夜间</string>
-    <string name="dialog_ui_mode_option_system_default">系统默认</string>
     <string name="attachment">附件</string>
     <string name="messageVoice">语音消息</string>
     <string name="dialog_backup_activation_failed">无法激活备份，请稍后重试或联系客服</string>
     <string name="activity_backup_restore_title">恢复备份</string>
     <string name="activity_backup_restore_select_file">选择文件</string>
     <string name="activity_backup_restore_explanation_1">选择一个备份文件，并输入创建该文件时使用的密码</string>
-    <string name="activity_backup_restore_passphrase">30位数的密码</string>
     <string name="activity_link_device_skip_prompt">这需要一点时间，您想要跳过吗？</string>
     <string name="activity_link_device_qr_message">在您的其他设备上导航到设置 -> 恢复口令以显示您的 QR 代码</string>
     <string name="communityJoinOfficial">或加入下列群组…</string>
@@ -463,7 +387,6 @@
     <string name="media">媒体文件</string>
     <string name="_error">错误</string>
     <string name="warning">警告</string>
-    <string name="notify_type_all">所有的</string>
     <string name="pin">置顶</string>
     <string name="pinUnpin">取消置顶</string>
 </resources>

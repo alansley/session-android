@@ -486,8 +486,6 @@ public class DefaultMessageNotifier implements MessageNotifier {
       }
       if (messageRequest) {
         body = SpanUtil.italic(context.getString(R.string.messageRequestsNew));
-      } else if (KeyCachingService.isLocked(context)) {
-        body = SpanUtil.italic(context.getString(R.string.MessageNotifier_locked_message));
       } else if (record.isMms() && !((MmsMessageRecord) record).getSharedContacts().isEmpty()) {
         Contact contact = ((MmsMessageRecord) record).getSharedContacts().get(0);
         body = ContactUtil.getStringSummary(context, contact);

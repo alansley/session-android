@@ -17,7 +17,6 @@
         <item quantity="other">sarakstē ir %d ziņojumi</item>
     </plurals>
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Dzēst visus vecos ziņojumus?</string>
-    <string name="ApplicationPreferencesActivity_On">Ieslēgts</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(attēls)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(skaņa)</string>
@@ -25,7 +24,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Sesijai ir nepieciešama krātuves atļauja, lai pievienotu fotoattēlus, videoklipus vai audio, bet tā ir pastāvīgi aizliegta. Lūdzu, pārejiet uz programmu iestatījumu izvēlni, atlasiet “Atļaujas” un iespējojiet “Krātuve”.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Audio atskaņošanas kļūda!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Šodien</string>
     <string name="BucketedThreadMedia_Yesterday">Vakar</string>
@@ -33,14 +31,10 @@
     <string name="attachmentsThisMonth">Šomēnes</string>
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Grupas</string>
     <!-- ConversationItem -->
-    <string name="ConversationItem_read_more">Rādīt vairāk</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Pievienot pielikumu</string>
-    <string name="ConversationActivity_select_contact_info">Izvēlieties kontaktinformāciju</string>
     <string name="message">Paziņojums</string>
-    <string name="ConversationActivity_open_group_guidelines">Kopienas vadlīnijas</string>
     <string name="ConversationActivity_invalid_recipient">Nederīgs adresāts!</string>
     <string name="blockUnblock">Atbloķēt</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Jūsu ierīcē nav pieejama neviena programma šīs saites apstrādei.</string>
@@ -72,8 +66,6 @@
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Visa multivide</string>
     <!-- MessageRecord -->
-    <string name="MessageRecord_you_updated_group">Jūs aktualizējāt grupu.</string>
-    <string name="MessageRecord_s_updated_group">%s aktualizēja grupu.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
     <!-- RecipientPreferencesActivity -->
@@ -138,9 +130,7 @@
     <!-- transport_selection_list_item -->
     <!-- Conversation activity -->
     <!-- Session -->
-    <string name="activity_join_public_chat_title">Pievienojies atvērtajai grupai</string>
     <string name="sessionSettings">Iestatījumi</string>
-    <string name="activity_settings_devices_button_title">Ierīces</string>
     <string name="sessionInviteAFriend">Uzaicināt draugu</string>
     <string name="helpFAQ">Biežāk uzdotie jautājumi</string>
     <string name="sessionClearData">Izdzēst datus</string>
@@ -148,18 +138,13 @@
     <string name="activity_notification_settings_content_section_title">Paziņojuma saturs</string>
     <string name="clearDataAll">Izdzēst visus datus</string>
     <string name="qrCode">QR kods</string>
-    <string name="fragment_view_my_qr_code_title">Skanē mani</string>
-    <string name="fragment_view_my_qr_code_share_title">Dalīties ar QR kodu</string>
     <string name="contactsContacts">Kontakti</string>
-    <string name="fragment_contact_selection_closed_groups_title">Slēgtās grupas</string>
     <string name="fragment_contact_selection_open_groups_title">Atvērtās grupas</string>
     <!-- Next round of translation -->
     <string name="done">Pabeigts</string>
     <string name="groupEdit">Rediģēt grupu</string>
     <string name="contactSelect">Izvēlieties kontaktus</string>
     <string name="appearanceThemes">Izskats</string>
-    <string name="dialog_ui_mode_option_day">Diena</string>
-    <string name="dialog_ui_mode_option_night">Nakts</string>
     <string name="attachment">Pielikums</string>
     <string name="messageVoice">Balss ziņojums</string>
     <string name="notificationsFastMode">Ātrais režīms</string>
@@ -174,7 +159,6 @@
     <string name="media">Multivide</string>
     <string name="_error">Kļūda</string>
     <string name="warning">Brīdinājums</string>
-    <string name="notify_type_all">Viss</string>
     <string name="pin">Piespraust</string>
     <string name="pinUnpin">Atspraust</string>
 </resources>

@@ -19,7 +19,6 @@
         <item quantity="one">Ev ê niha hemû gotûbêjan biqusîne û wê tenê peyama herî nû bimîne.</item>
         <item quantity="other">Ev ê niha hemû gotûbêjan biqusîne û wê tenê %d peyamên herî nû bimînin.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Vekirî</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(wêne)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(deng)</string>
@@ -27,7 +26,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Ji bo zêdekirina wêne, vidyo yan deng, Session destûra Bîrbarê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe menuya sazkariyên sepanê \"Destûr\"ê bibijêre û  \"Bîrbar\"ê çalak bike.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Di lêdana deng de çewtî rû da!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Îro</string>
     <string name="BucketedThreadMedia_Yesterday">Doh</string>
@@ -36,16 +34,12 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Web gerok nehate dîtin.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Kom</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Şandin têk çû, ji bo hûrgiliyên bêhtir, bitepîne</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Peyama veguhastina kilîdê hate stendin, ji bo pêvajoyê bitepîne.</string>
     <string name="ConversationItem_copied_text">%s ji ber girtî</string>
-    <string name="ConversationItem_download_more">Bêhtir Daxîne  </string>
-    <string name="ConversationItem_pending">  Hilawîstiye</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Servehî lê zede bike</string>
-    <string name="ConversationActivity_select_contact_info">Agahiya têkiliyê bibijêre</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Bibore, di sazkirina servehiyê de çewtiyek rû da.</string>
     <string name="ConversationActivity_invalid_recipient">Stînerê nederbasdar!</string>
     <string name="blockUnblock">Astengê rake</string>
@@ -74,7 +68,6 @@
     <!-- GiphyFragmentPageAdapter -->
     <!-- CropImageActivity -->
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Ji bo peyamek dengî tomar bikî bitepîne û tiliya xwe li ser bihêle, paşê ji bo şandinê berde</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Ji %1$s peyam</string>
     <string name="LongMessageActivity_your_message">Peyama te</string>
@@ -93,8 +86,6 @@
     <string name="conversationsSettingsAllMedia">Hemû medya</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Peyamek ku bi guhertoyek bêkêr ya Signalê hatiye şifrekirin hate wergirtin. Ji şandiyarî re bêje bila Sessionê hildemîne û peyamê dîsa bişîne.</string>
-    <string name="MessageRecord_you_updated_group">Te komê hildemand.</string>
-    <string name="MessageRecord_s_updated_group">%s komê hildemand.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Dê peyamên te wenda nebin.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Peyamên ku di vê gotûbêjê de hatine şandin û wergiritn dê %s piştî hatin dîtin tune bibin.</string>
@@ -115,7 +106,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">Kom hat hildemandin</string>
     <string name="ThreadRecord_secure_session_reset">Danişîna parastî nûsazîne.</string>
-    <string name="ThreadRecord_media_message">Peyama medyayê</string>
     <string name="ThreadRecord_s_is_on_signal">%s beşdarî Sessionê bûye!</string>
     <string name="ThreadRecord_safety_number_changed">Hejmara ewlehiyê hat guhertin</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Hejmara te ya ewlehiyê bi %s re hate guhertin.</string>
@@ -138,7 +128,6 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bê destûr nabe ku li bîrbara derveyî tomar bibe</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d peyamên nû di %2$d axaftin de hene</string>
-    <string name="MessageNotifier_locked_message">Peyam kilîdkîrî ye</string>
     <string name="MessageNotifier_message_delivery_failed">Peyam nagihişt.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Gihandina peyamê pêk nehat.</string>
     <string name="MessageNotifier_error_delivering_message">Çewtiya gihandina peyamê.</string>
@@ -181,14 +170,12 @@
     <string name="attachment_type_selector__gallery">Pêşangeh</string>
     <string name="attachment_type_selector__drawer_description">Çaviya servehiya din bijerînin</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Berdeng tên barkirin...</string>
     <!-- conversation_activity -->
     <string name="send">Bişîne</string>
     <string name="conversation_activity__compose_description">Peyam binivîse</string>
     <string name="conversation_activity__emoji_toggle_description">Textekilîlê emojî yê din bijerînin</string>
     <string name="conversation_activity__attachment_thumbnail">Wênoka Servehiyê</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Bijertina attachment drawer a kamera ya din</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Servehîya deng tomar bike û bişîne</string>
     <string name="conversation_activity__enable_signal_for_sms">Ji bo SMS Sessionê çalak bike</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
@@ -198,22 +185,16 @@
     <string name="conversation_item_sent__send_failed_indicator_description">Şandin serneket</string>
     <string name="conversation_item_sent__delivered_description">Hat gihandin</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Wêneyê berdengî</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Lêxe</string>
-    <string name="audio_view__pause_accessibility_description">Rawestîne</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Wêne</string>
     <string name="messageErrorOriginal">Peyama orjînal nehate dîtin</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Bikişîne jêr</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Li GIF û sticker bigerre</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Temamiya gotûbêjê bibîne</string>
-    <string name="load_more_header__loading">Tê barkirin</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -226,26 +207,16 @@
     <string name="message_details_header__to">Ji bo:</string>
     <string name="message_details_header__with">Bi:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Pêderbasokê çêbike</string>
     <string name="AndroidManifest__media_preview">Pêşdîtina medyayê</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Ya jixweber bi kar bîne</string>
     <string name="arrays__use_custom">Ya taybet bi kar bîne</string>
     <string name="notificationsMute1Hour">Heta 1 demjimêrê bêdeng bike</string>
     <string name="notificationsMute2Hours">Heta 2 demjimêran bêdeng bike</string>
     <string name="notificationsMute1Day">Heta 1 rojê bêdeng bike</string>
-    <string name="arrays__mute_for_one_year">Heta 1 salê bêdeng bike</string>
-    <string name="arrays__settings_default">Sazkariyên jixweber</string>
-    <string name="arrays__enabled">Rêdayî</string>
-    <string name="arrays__disabled">Neçalakkirî</string>
     <string name="notificationsContentShowNameOnly">Tenê nav</string>
     <string name="arrays__images">Wêne</string>
     <string name="audio">Deng</string>
     <string name="video">Vîdyo</string>
-    <string name="arrays__small">Biçûk</string>
-    <string name="arrays__large">Mezin</string>
-    <string name="arrays__extra_large">Gelek mezin</string>
-    <string name="arrays__high">Bilind</string>
     <string name="max">Herî bilind</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -257,29 +228,11 @@
     <string name="preferences__screen_security">Ewlehiya ekranê</string>
     <string name="sessionNotifications">Danezan</string>
     <string name="notificationsLedColor">Rengê LED</string>
-    <string name="preferences__pref_led_blink_title">Qalibê pêketin û tefandina LEDê</string>
     <string name="notificationsSound">Deng</string>
-    <string name="preferences__repeat_alerts">Hişyariyan dubare bike</string>
-    <string name="preferences__never">Tu car</string>
-    <string name="preferences__one_time">Carek</string>
-    <string name="preferences__two_times">Du caran</string>
-    <string name="preferences__three_times">Sê caran</string>
-    <string name="preferences__five_times">Pênc caran</string>
-    <string name="preferences__ten_times">Deh caran</string>
     <string name="notificationsVibrate">Lerizîn</string>
-    <string name="preferences__green">Kesk</string>
-    <string name="preferences__red">Sor</string>
-    <string name="preferences__blue">Şîn</string>
-    <string name="preferences__orange">Pirteqalî</string>
-    <string name="preferences__cyan">Şînê vekirî</string>
-    <string name="preferences__magenta">Sorê binevşî</string>
-    <string name="preferences__white">Spî</string>
-    <string name="preferences__none">Tune</string>
     <string name="preferences__fast">Zû</string>
     <string name="preferences__slow">Hêdî</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Peyamên kevin xwe-bi-xwe jê dibe piştî ku axaftin ji mezinahiya diyarkirî dirêjtir bibe</string>
     <string name="preferences__delete_old_messages">Peyamên kevin jê bibe</string>
-    <string name="preferences__conversation_length_limit">Sînora direjiya axaftinê</string>
     <string name="preferences__trim_all_conversations_now">Hemû axaftinan qut bike</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Hemû gotûbêjan sken bike û zorê bide ku sînorên dirêjiya axaftinê</string>
     <string name="_default">Jixweber</string>
@@ -289,8 +242,6 @@
     <string name="conversationsMessageTrimming">Qusandina peyamê</string>
     <string name="preferences_advanced__use_system_emoji">Emojiya pergalê bi kar bîne</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Piştgiriya emojiyê a daxilî ya Sessionê neçalak bike </string>
-    <string name="preferences_notifications__messages">Peyam</string>
-    <string name="preferences_notifications__in_chat_sounds">Dengên di gotûbêjê de</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -311,16 +262,10 @@
     <string name="groupLeave">Ji komê veqete</string>
     <string name="conversationsAddToHome">Tevlî dîmendera destpêkê bike</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Hilpekokê berfireh bike</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Gihiştin</string>
-    <string name="conversation_group_options__conversation">Gotûbêj</string>
-    <string name="conversation_group_options__broadcast">Belav bike</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Pêşveşandin</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Pêşdîtina medyayê</string>
     <!-- Trimmer -->
     <string name="deleting">Tê jêbirin</string>
     <string name="trimmer__deleting_old_messages">Peyamên kevin tên jêbirin...</string>
@@ -341,10 +286,7 @@
     <string name="BackupDialog_delete_backups_statement">Paşekeftan jê bibe</string>
     <string name="LocalBackupJob_creating_backup">Paşekeft tê avakirin...</string>
     <string name="ProgressPreference_d_messages_so_far">Heta niha %d peyam</string>
-    <string name="BackupUtil_never">Qet</string>
     <string name="preferences_app_protection__screen_lock">Qufleya ekranê</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Demboriya neçalakbûnê ya qufleya ekranê</string>
-    <string name="AppProtectionPreferenceFragment_none">Tune</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->

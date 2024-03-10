@@ -11,14 +11,12 @@
     <string name="AlbumThumbnailView_plus">/+ 1%d</string>
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Futa sasa meseji zote za zamani </string>
-    <string name="ApplicationPreferencesActivity_On">Waka</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(picha)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sauti)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Hifadhi\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Hitilafu ya kucheza sauti!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">leo</string>
     <string name="BucketedThreadMedia_Yesterday">jana</string>
@@ -27,7 +25,6 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">hakuna kivinjari cha web kilichopatikana</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Makundi</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">imefeli kutuma, gusa kwa taarifa</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">umepokea ujumbe uliobadilishwa, gusa  kuendelea na mchakato</string>
@@ -35,7 +32,6 @@
     <string name="ConversationItem_copied_text">nakala 1%s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ongeza Kiambatanisho</string>
-    <string name="ConversationActivity_select_contact_info">Chagua taarifa za mawasiliano</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Samahani, tatizo lilitokea kwenye kuweka kiambatanisho chako.</string>
     <string name="ConversationActivity_invalid_recipient">Mpokeaji sio sahihi</string>
     <string name="blockUnblock">Fungua</string>
@@ -77,8 +73,6 @@
     <string name="conversationsSettingsAllMedia">Vyombo vyote vya habari</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Imepokea ujumbe uliofichwa kwa kutumia toleo la zamani la Session ambayo haitumiki tena. Tafadhali kumwomba mtumaji kuwasasishe kwa toleo la hivi karibuni na kurejesha ujumbe.</string>
-    <string name="MessageRecord_you_updated_group">Umesasisha kikundi</string>
-    <string name="MessageRecord_s_updated_group">1%s amesasisha kikundi</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Ujumbe wako hautopitwa na wakati</string>
     <!-- PassphrasePromptActivity -->
@@ -96,7 +90,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">Kikundi kilichosasishwa</string>
     <string name="ThreadRecord_secure_session_reset">rekebisha salama kipindi</string>
-    <string name="ThreadRecord_media_message">Ujumbe wa vyombo vya habari</string>
     <string name="ThreadRecord_s_is_on_signal">1%s yupo Session</string>
     <string name="ThreadRecord_safety_number_changed">namba salama zimebadilika</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">namba yako ya usalama pamoja na 1%s imebadilika</string>
@@ -116,7 +109,6 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">haiwezekani kuhifadhi kwenye external storage  bila ruhusa</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">1%1$d ujumbe mpya kwa  2%2$d mazungumzo</string>
-    <string name="MessageNotifier_locked_message">ujumbe umefungiwa</string>
     <string name="MessageNotifier_message_delivery_failed">utoaji wa ujumbe umefeli</string>
     <string name="MessageNotifier_failed_to_deliver_message">imefeli kutoa ujumbe</string>
     <string name="MessageNotifier_error_delivering_message">hitilafu kupokea ujumbe</string>
@@ -156,14 +148,12 @@
     <string name="attachment_type_selector__gallery">nyumba ya sanaa</string>
     <string name="attachment_type_selector__drawer_description">Toggle kiambatisho drawer</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">kupakia mawasiliano</string>
     <!-- conversation_activity -->
     <string name="send">Tuma</string>
     <string name="conversation_activity__compose_description">utungaji wa ujumbe</string>
     <string name="conversation_activity__emoji_toggle_description">Toggle katuni kibodi</string>
     <string name="conversation_activity__attachment_thumbnail">kiambatanisho thumbnail</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Toggle haraka kamera kiambatisho drawer</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Rekodi na tuma kiambatisho cha sauti</string>
     <string name="conversation_activity__enable_signal_for_sms">Wezesha Session kwa meseji</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
@@ -173,22 +163,16 @@
     <string name="conversation_item_sent__send_failed_indicator_description">imefeli kutuma</string>
     <string name="conversation_item_sent__delivered_description">imefika</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">wasiliana na picha</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">cheza</string>
-    <string name="audio_view__pause_accessibility_description">pumzika</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">picha</string>
     <string name="messageErrorOriginal">Meseji halisi haipatikani</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">sogeza hadi chini</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">tafuta GIF na stika</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Angalia mazungumzo yote</string>
-    <string name="load_more_header__loading">Kupakia</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -201,26 +185,16 @@
     <string name="message_details_header__to">Kuelekea:</string>
     <string name="message_details_header__with">Pamoja:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">kuunda phassphrase</string>
     <string name="AndroidManifest__media_preview">Uhakiki wa vyombo vya habari</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Tumia chaguo msingi</string>
     <string name="arrays__use_custom">tumia desturi</string>
     <string name="notificationsMute1Hour">nyamaza kwa saa 1</string>
     <string name="notificationsMute2Hours">nyamaza kwa masaa 2</string>
     <string name="notificationsMute1Day">toa sauti kwa siku moja</string>
-    <string name="arrays__mute_for_one_year">Simamisha kwa mwaka 1</string>
-    <string name="arrays__settings_default">Vipimo vya chaguo msingi</string>
-    <string name="arrays__enabled">wezesha</string>
-    <string name="arrays__disabled">kuzuia</string>
     <string name="notificationsContentShowNameOnly">jina tu</string>
     <string name="arrays__images">picha</string>
     <string name="audio">Sauti</string>
-    <string name="arrays__small">ndogo</string>
     <string name="arrays__normal">Kawaida</string>
-    <string name="arrays__large">kubwa</string>
-    <string name="arrays__extra_large">kubwa zaidi</string>
-    <string name="arrays__high">juu</string>
     <string name="max">mwisho</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
@@ -228,30 +202,12 @@
     <string name="preferences__screen_security">usalamaa wa skrini</string>
     <string name="sessionNotifications">Arifa</string>
     <string name="notificationsLedColor">Rangi za LED</string>
-    <string name="preferences__pref_led_blink_title">Mfano wa LED blink</string>
     <string name="notificationsSound">Sauti</string>
-    <string name="preferences__repeat_alerts">rudia tahadhari</string>
-    <string name="preferences__never">Haiwezekani</string>
-    <string name="preferences__one_time">Mara moja</string>
-    <string name="preferences__two_times">Mara mbili</string>
-    <string name="preferences__three_times">Mara tatu</string>
-    <string name="preferences__five_times">Mara tano</string>
-    <string name="preferences__ten_times">Mara kumi</string>
     <string name="notificationsVibrate">vibrate</string>
-    <string name="preferences__green">Kijani</string>
-    <string name="preferences__red">Nyekundu</string>
-    <string name="preferences__blue">Buluu</string>
-    <string name="preferences__orange">Njano</string>
-    <string name="preferences__cyan">cyan</string>
-    <string name="preferences__magenta">magenta</string>
-    <string name="preferences__white">Nyeupe</string>
-    <string name="preferences__none">Hakuna</string>
     <string name="preferences__fast">Haraka</string>
     <string name="preferences__normal">Kawaida</string>
     <string name="preferences__slow">Polepole</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Futa moja kwa moja ujumbe wa zamani mara moja mazungumzo yanazidi urefu uliojulikana</string>
     <string name="preferences__delete_old_messages">Futa ujumbe wa zamani</string>
-    <string name="preferences__conversation_length_limit">mwisho wa urefu wa maongezi</string>
     <string name="preferences__trim_all_conversations_now">Piga mazungumzo yote sasa</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Pitia kupitia mazungumzo yote na uimarishe mipaka ya urefu wa mazungumzo</string>
     <string name="_default">Chaguo Msingi</string>
@@ -261,8 +217,6 @@
     <string name="conversationsMessageTrimming">ujumbe unapunguza</string>
     <string name="preferences_advanced__use_system_emoji">kutumia emoji mfumo</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">kuzuia Session iliyojengwa kusaidia emoji</string>
-    <string name="preferences_notifications__messages">ujumbe</string>
-    <string name="preferences_notifications__in_chat_sounds">sauti wakati wa mazungumzo</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -283,16 +237,10 @@
     <string name="groupLeave">Toka kwenye kikundi</string>
     <string name="conversationsAddToHome">Ongeza kwenye skrini ya nyumbani</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Kupanua popup</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">utoaji</string>
-    <string name="conversation_group_options__conversation">Mazungumzo</string>
-    <string name="conversation_group_options__broadcast">Kutangaza</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Mbele</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Uhakiki wa vyombo vya habari</string>
     <!-- Trimmer -->
     <string name="deleting">Kufuta</string>
     <string name="trimmer__deleting_old_messages">futa ujumbe wa zamani</string>
@@ -313,10 +261,7 @@
     <string name="BackupDialog_delete_backups_statement">Futa salama</string>
     <string name="LocalBackupJob_creating_backup">Kujenga salama</string>
     <string name="ProgressPreference_d_messages_so_far">1%d ujumbe hadi sasa</string>
-    <string name="BackupUtil_never">Haiwezekani</string>
     <string name="preferences_app_protection__screen_lock">safi ya skrini</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Funga muda wa kuacha kuingia</string>
-    <string name="AppProtectionPreferenceFragment_none">Hakuna</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->

@@ -20,7 +20,6 @@
         <item quantity="one">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև վերջին հաղորդագրությունը.</item>
         <item quantity="other">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև %d վերջին հաղորդագրությունը.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Միացրած</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(նկար)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(աուդիո)</string>
@@ -28,7 +27,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session֊ը պահանջում է Ֆայլերի կառավարման թույլտվություն՝ լուսանկարներ, տեսանյութեր կամ աուդիո ֆայլեր կցելու համար, սակայն այն ընդմիշտ մերժվել է: Խնդրում ենք մտնել հավելվածի կարգավորումների ցանկը, ընտրել «Թույլտվություններ» և միացնել ֆայլերի կառավարման թույլտվությունը.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Չհաջողվեց նվագարկել ծայնը!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Այսօր</string>
     <string name="BucketedThreadMedia_Yesterday">Երեկ</string>
@@ -37,24 +35,18 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Չհաջողվեց գտնել զննիչ։</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Խմբեր</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Չուղարկվեց, սեղմեք տվյալների համար</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Հասել է նամակ բանալիները փոխարինելու համար։</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Չի ուղարկվում, սեղմեք անապահով այլընտրանքի համար</string>
     <string name="ConversationItem_copied_text">«%s»֊ը պատճենվել է</string>
-    <string name="ConversationItem_read_more">Կարդալ ավելին</string>
-    <string name="ConversationItem_download_more">&#160; Բեռնել Ավելին</string>
-    <string name="ConversationItem_pending">&#160; Հերթագրված է</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ավելացնել կցորդ</string>
-    <string name="ConversationActivity_select_contact_info">Ընտրեք կոնտակտի տվյալները</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Ներողություն, չհաջողվեց կցել Ձեր ընտրած նյութը։</string>
     <string name="message">Հաղորդագրություն</string>
     <string name="ConversationActivity_compose">Ստեղծել</string>
     <string name="ConversationActivity_muted_until_date">Անջատված է մինչև %1$s</string>
     <string name="ConversationActivity_muted_forever">Լուռ է</string>
-    <string name="ConversationActivity_open_group_guidelines">Համայնքի կանոնները</string>
     <string name="ConversationActivity_invalid_recipient">Սխալ հասցեատեր</string>
     <string name="blockUnblock">Հանել արգելափակումից</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Այս հղմամբ չկան հասանելի հավելվածներ ձեր սարքում.</string>
@@ -85,7 +77,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Նկար</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Սեղմեք և սեղմած պահեք ձայնագրելու համար, թողեք ուղարկելու համար</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Նամակ %1$s֊ից</string>
     <string name="LongMessageActivity_your_message">Ձեր նամակը</string>
@@ -108,8 +99,6 @@
     <string name="conversationsSettingsAllMedia">Բոլոր մեդիաները</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Հաղորդագրությունը չի ուղարկվել, քանի որ session-ի տվյալ տարբերակը հնացել է, խնդրում ենք թարմացնել այն, և ուղարկեք հաղորդագրությունը նորից.</string>
-    <string name="MessageRecord_you_updated_group">Դուք թարմացրեցիք զրուցարանը.</string>
-    <string name="MessageRecord_s_updated_group">%s զրուցարանը թարմացվել է.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Ձեր հաղորդագրությունների ժամկետը չի սպառվի:</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Այս հաղորդագրությունը ավտոմատ կջնջվի %s-ի տեսնելուց հետո.</string>
@@ -132,7 +121,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">Խումբը թարմացված ք</string>
     <string name="ThreadRecord_secure_session_reset">Ապահով սեսսիան վերագործարկված է:</string>
-    <string name="ThreadRecord_media_message">Մեդիաով հաղորդագրություն</string>
     <string name="ThreadRecord_s_is_on_signal">%s֊ը արդեն Session֊ում է</string>
     <string name="ThreadRecord_safety_number_changed">Անվտանգության համարը փոխվել է</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ձեր անվտանգության համարը %s-ի հետ փոխվել է:</string>
@@ -156,14 +144,12 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Հնարավոր չէ պահել արտաքին պահեստում առանց թույլտվությունների</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d նոր հաղորդագրություններ %2$d խոսակցություններում</string>
-    <string name="MessageNotifier_locked_message">Կողպված հաղորդագրություն</string>
     <string name="MessageNotifier_message_delivery_failed">Հաղորդագրության առաքումը ձախողվեց:</string>
     <string name="MessageNotifier_failed_to_deliver_message">Չհաջողվեց առաքել հաղորդագրությունը.</string>
     <string name="MessageNotifier_error_delivering_message">Հաղորդագրության առաքման սխալ։</string>
     <string name="messageMarkRead">Նշել որպես ընթերցված</string>
     <string name="MessageNotifier_pending_signal_messages">Չստացված նամակներ</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Դուք ունեք չստացած հաղորդագրություններ Session-ում: Սեղմեք՝ հավելվածը բացելու և դրանք ստանալու համար</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Կոնտակտ</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Զանգեր</string>
@@ -201,15 +187,12 @@
     <string name="attachment_type_selector__gallery">Պատկերասրահ</string>
     <string name="attachment_type_selector__drawer_description">Ցույց տալ կցորդի դարակը</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Կոնտակտների բեռնում&#8230;</string>
     <!-- conversation_activity -->
     <string name="send">Ուղարկել</string>
     <string name="conversation_activity__compose_description">Հաղորդագրության գրառում</string>
     <string name="conversation_activity__emoji_toggle_description">Toggle-ի սթիքերների ստեղնաշար</string>
     <string name="conversation_activity__attachment_thumbnail">Հավելվածի մանրապատկեր</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Միացնել արագ տեսախցիկի պանակը</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Ձայնագրել և ուղարկել աուդիոն ստացողին</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Փակել հավելվածի ձայնագրելու թույլտվությունը</string>
     <string name="conversation_activity__enable_signal_for_sms">Օգտագործել Session֊ը SMS֊ի համար</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Սահեցրե՛ք չեղարկման համար</string>
@@ -220,26 +203,19 @@
     <string name="conversation_item_sent__send_failed_indicator_description">Ուղարկումը ձախողվեց</string>
     <string name="conversation_item_sent__delivered_description">Առաքված է</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Կոնտակտի նկարը</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Միացնել</string>
-    <string name="audio_view__pause_accessibility_description">Դադար</string>
     <!-- open_group_invitation_view -->
     <string name="join">Միանալ</string>
     <string name="open_group_guidelines_pinned_message">Գամված հաղորդագրություն</string>
-    <string name="open_group_guidelines_community_guidelines">Համայնքի կանոնները</string>
     <string name="read">Կարդալ</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Նկար</string>
     <string name="messageErrorOriginal">Մեջբերված հաղորդագրությունը չի գտնվել</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Իջեք ներքև</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Որոնել GIF և էմոջիներ</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Տեսնել ողջ խսակցությունը</string>
-    <string name="load_more_header__loading">Բեռնվում է</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -252,27 +228,17 @@
     <string name="message_details_header__to">Ում:</string>
     <string name="message_details_header__with">Հետ։</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Ստեղծել գաղտնաբառ</string>
     <string name="AndroidManifest__media_preview">Տեսնել մեդիան</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Օգտագործել հիմնականը</string>
     <string name="arrays__use_custom">Օգտագործել հատուկ կարգավորում</string>
     <string name="notificationsMute1Hour">Անջատել 1 ժամ</string>
     <string name="notificationsMute2Hours">Խլացնել 2 ժամով</string>
     <string name="notificationsMute1Day">Անջատել 1 օր</string>
-    <string name="arrays__mute_for_one_year">Անջատել 1 տարի</string>
-    <string name="arrays__settings_default">Վերջին կարգավորումներ</string>
-    <string name="arrays__enabled">Միացված</string>
-    <string name="arrays__disabled">Անջատված</string>
     <string name="notificationsContentShowNameOnly">Միայն անունը</string>
     <string name="arrays__images">Նկարներ</string>
     <string name="audio">Աուդիո</string>
     <string name="video">Վիդեո</string>
-    <string name="arrays__small">Փոքր</string>
     <string name="arrays__normal">Նորմալ</string>
-    <string name="arrays__large">Մեծ</string>
-    <string name="arrays__extra_large">Չափազանց մեծ</string>
-    <string name="arrays__high">Բարձր</string>
     <string name="max">Մաքսիմում</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -284,30 +250,12 @@
     <string name="preferences__screen_security">Էկրանակադրի անվտանգություն</string>
     <string name="sessionNotifications">Ծանուցումներ</string>
     <string name="notificationsLedColor">LED-ի գույն</string>
-    <string name="preferences__pref_led_blink_title">LED-ի թարթման նմուշ</string>
     <string name="notificationsSound">Ձայն</string>
-    <string name="preferences__repeat_alerts">Կրկնել ահազանգերը</string>
-    <string name="preferences__never">Երբեք</string>
-    <string name="preferences__one_time">Մեկ անգամ</string>
-    <string name="preferences__two_times">Երկու անգամ</string>
-    <string name="preferences__three_times">Երեք անգամ</string>
-    <string name="preferences__five_times">Հինգ անգամ</string>
-    <string name="preferences__ten_times">Տասը անգամ</string>
     <string name="notificationsVibrate">Թրթռոց</string>
-    <string name="preferences__green">Կանաչ</string>
-    <string name="preferences__red">Կարմիր</string>
-    <string name="preferences__blue">Կապույտ</string>
-    <string name="preferences__orange">Նարնջագույն</string>
-    <string name="preferences__cyan">Կապտականաչ</string>
-    <string name="preferences__magenta">Մանուշակագույն</string>
-    <string name="preferences__white">Սպիտակ</string>
-    <string name="preferences__none">Չկա</string>
     <string name="preferences__fast">Արագ</string>
     <string name="preferences__normal">Նորմալ</string>
     <string name="preferences__slow">Դանդաղ</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Ավտոմատ ջնջել հին նամակները, երբ խոսակցության հերթականությունը աճում է նշված երկարությունը</string>
     <string name="preferences__delete_old_messages">Ջնջել հին հաղորդագրությունները</string>
-    <string name="preferences__conversation_length_limit">Կարգավորել հաստությունը</string>
     <string name="preferences__trim_all_conversations_now">Ջնջել խոսակցությունները հիմա</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Սկանավորել բոլոր խոսակցությունները և կիրառել խոսակցության երկարության սահմանափակումներ</string>
     <string name="_default">Սկզբնական</string>
@@ -317,8 +265,6 @@
     <string name="conversationsMessageTrimming">Նամակների կարճեցում</string>
     <string name="preferences_advanced__use_system_emoji">Օգտագործել համակարգի էմոջին</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Անջատել Session-ի ներկառուցված էմոջիների ապահովումը</string>
-    <string name="preferences_notifications__messages">Նամակներ</string>
-    <string name="preferences_notifications__in_chat_sounds">Ձայներ չատում</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -340,16 +286,10 @@
     <string name="groupLeave">Լքել խումբը</string>
     <string name="conversationsAddToHome">Ավելացնել Հիմնական էկրանին</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Ընդլայնել ծանուցումը</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Առաքում</string>
-    <string name="conversation_group_options__conversation">Զրույց</string>
-    <string name="conversation_group_options__broadcast">Հեռարձակում</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Փոխանցել</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Կցորդների նախադիտում</string>
     <!-- Trimmer -->
     <string name="deleting">Ջնջում</string>
     <string name="trimmer__deleting_old_messages">Հին հաղորդագրությունները ջնջվում են...</string>
@@ -370,10 +310,7 @@
     <string name="BackupDialog_delete_backups_statement">Ջնջել կրկնօրինակը։</string>
     <string name="LocalBackupJob_creating_backup">Ստեղծվուն է կրկնօրինակ...</string>
     <string name="ProgressPreference_d_messages_so_far">Մինչ այժմ %d հաղորդագրություն</string>
-    <string name="BackupUtil_never">Երբեք</string>
     <string name="preferences_app_protection__screen_lock">Էկրանային կողպում</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Էկրանային կողպման ինտերվալը</string>
-    <string name="AppProtectionPreferenceFragment_none">Չկա</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Պատճենել հանրային բանալին</string>
     <!-- Session -->
@@ -386,8 +323,6 @@
     <string name="cancel">Փակել</string>
     <string name="view_fake_chat_bubble_4">Այն օգտվում է հատուկ տվյալների փոխանցման միջոցներից և ամբողջական կոդավորման տեխնոլոգիաներից։</string>
     <string name="view_fake_chat_bubble_5">Ընկերները չեն թողնի ընկերներին, որ նրանք օգտվեն վտանգավոր նամակների ծրագրերից։ Խնդրեմ։</string>
-    <string name="activity_register_title">Ասեք «բարև» Ձեր Սեանսի ինքնությանը</string>
-    <string name="activity_register_explanation">Ձեր Սեանսի ինքնությունը հատուկ հասցե է, որը մարդիկ պիտի օգտագործեն Ձեզ հետ Սեանսով կապ հաստատելու համար։ Ձեր իրական ինքնության հետ կապ չունենալով, Ձեր Սեանսի ինքնությունն լիովին գաղտնի է։</string>
     <string name="displayNamePick">Ընտրեք ցուցադրվող անուն</string>
     <string name="displayNameEnter">Մուտքագրեք ցուցադրվող անուն</string>
     <string name="displayNameErrorDescription">Խնդրում ենք գրել անուն</string>
@@ -410,16 +345,12 @@
     <string name="learnMore">Իմանալ Ավելին</string>
     <string name="activity_path_resolving_progress">Լուծում է…</string>
     <string name="qrScan">Սկանավորել QR Կոդ</string>
-    <string name="fragment_enter_public_key_explanation">Օգտագործողները կարող են կիսվել իրենց session-ի այդի-ով մտնելով իրենք կարգավորումներ և սեղմելով կիսվել կոճակը կամ կիսվելով QR կոդով.</string>
     <string name="cameraGrantAccessQr">Session-ին պետք հասանելիություն տեսախցիկին որպեսզի սքանավորի QR կոդը</string>
     <string name="cameraGrantAccess">Տեսախցիկի հասանելիություն</string>
     <string name="groupNameEnter">Մուտքագրեք խմբի անուն</string>
     <string name="activity_create_closed_group_empty_state_button_title">Սկսել Սեանս</string>
     <string name="groupNameEnterPlease">Այս դաշտը չպիտի լինի դատարկ</string>
-    <string name="activity_join_public_chat_title">Մտնել զրուցարան</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Սքանավորել բաց խմբի QR կոդը</string>
     <string name="sessionSettings">Կարգավորումներ</string>
-    <string name="activity_settings_devices_button_title">Սարքեր</string>
     <string name="sessionInviteAFriend">Հրավիրել ընկերոջը</string>
     <string name="helpFAQ">Հաճախակի տրվող հարցեր</string>
     <string name="sessionClearData">Զրոյացնել</string>
@@ -432,10 +363,7 @@
     <string name="clearDataAll">Ջնջել բոլոր տվյալները</string>
     <string name="qrCode">QR կոդ</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Սկանավորեք ինչ-որ մեկի QR կոդը՝ նրա հետ զրույց սկսելու համար</string>
-    <string name="fragment_view_my_qr_code_title">Սկանավորի ինձ</string>
-    <string name="fragment_view_my_qr_code_share_title">Կիսվել QR կոդով</string>
     <string name="contactsContacts">Կոնտակտներ</string>
-    <string name="fragment_contact_selection_closed_groups_title">Փակ Խմբեր</string>
     <string name="fragment_contact_selection_open_groups_title">Բաց Խմբեր</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Հաստատել</string>
@@ -444,16 +372,12 @@
     <string name="contactSelect">Ընտրել Կոնտակտներ</string>
     <string name="view_reset_secure_session_done_message">Ապահով սեանսի զրոյացումն ավարտված է</string>
     <string name="appearanceThemes">Ոճ</string>
-    <string name="dialog_ui_mode_option_day">Ցերեկ</string>
-    <string name="dialog_ui_mode_option_night">Գիշեր</string>
-    <string name="dialog_ui_mode_option_system_default">Համակարգի լռելյայն</string>
     <string name="attachment">Կցում</string>
     <string name="messageVoice">Ձայնագրություն</string>
     <string name="dialog_backup_activation_failed">Չհաջողվեց ակտիվացնել կրկնօրինակը: Խնդրում ենք կրկին փորձել կամ կապվել աջակցության հետ:</string>
     <string name="activity_backup_restore_title">Վերականգնել կրկնօրինակը</string>
     <string name="activity_backup_restore_select_file">Ընտրել ֆայլը</string>
     <string name="activity_backup_restore_explanation_1">Ընտրեք կրկնօրինակի ֆայլ և մուտքագրեք այն գաղտնաբառը, որով ստեղծվել է:</string>
-    <string name="activity_backup_restore_passphrase">30֊թվանոց գախտնաբառ</string>
     <string name="activity_link_device_skip_prompt">Սա որոշ ժամանակ է տևում, կցանկանա՞ք բաց թողնել:</string>
     <string name="activity_link_device_qr_message">Անցեք Կարգավորումներ → Վերականգնման Բառակապակցություն՝ ձեր QR կոդը ցուցադրելու համար:</string>
     <string name="communityJoinOfficial">Կամ միացե՛ք սրանցից մեկին…</string>
@@ -472,7 +396,6 @@
     <string name="media">Մեդիա</string>
     <string name="_error">Սխալ</string>
     <string name="warning">Զգուշացում</string>
-    <string name="notify_type_all">Բոլորը</string>
     <string name="pin">Ամրացնել</string>
     <string name="pinUnpin">Արձակել</string>
     <string name="messages">Հաղորդագրություններ</string>

@@ -173,10 +173,10 @@ class NotificationsPreferenceFragment : ListSummaryPreferenceFragment() {
     }
 
     companion object {
-        @Suppress("unused")
         private val TAG = NotificationsPreferenceFragment::class.java.simpleName
+
         fun getSummary(context: Context): CharSequence = when (isNotificationsEnabled(context)) {
-                true -> R.string.ApplicationPreferencesActivity_On
+                true -> R.string.on
                 false -> R.string.off
             }.let(context::getString)
     }

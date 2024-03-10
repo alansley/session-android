@@ -20,7 +20,6 @@
         <item quantity="one">Bu, bütün danışıqları dərhal ən son mesaja qədər kəsəcək.</item>
         <item quantity="other">Bu, bütün danışıqları dərhal ən son %d mesaja qədər kəsəcək.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Açıq</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(təsvir)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(səs)</string>
@@ -28,7 +27,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, foto, video və ya səs əlavə etmək üçün Anbar icazəsi tələb edir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\" icazəsini fəallaşdırın.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Səs oxutma xətası!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Bu gün</string>
     <string name="BucketedThreadMedia_Yesterday">Dünən</string>
@@ -37,24 +35,18 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Veb səyyah tapılmadı.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Qruplar</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Göndərilmədi, təfsilatlar üçün toxunun</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Açar mübadilə mesajı alındı, emal etmək üçün toxunun.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Göndərə bilmədik, zəmanətsiz alternativ variant üçün kliklə</string>
     <string name="ConversationItem_copied_text">%s kopyalandı</string>
-    <string name="ConversationItem_read_more">Daha çox oxu</string>
-    <string name="ConversationItem_download_more">&#160; Daha çox endir</string>
-    <string name="ConversationItem_pending">&#160; Gözlənilir</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Qoşma əlavə et</string>
-    <string name="ConversationActivity_select_contact_info">Əlaqə məlumatını seç</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Təəssüf ki, qoşmanız tənzimlənərkən xəta baş verdi.</string>
     <string name="message">Mesaj</string>
     <string name="ConversationActivity_compose">Yarat</string>
     <string name="ConversationActivity_muted_until_date">%1$s qədər səssizdə</string>
     <string name="ConversationActivity_muted_forever">Səssizdə</string>
-    <string name="ConversationActivity_open_group_guidelines">Cəmiyyət Təlimatları</string>
     <string name="ConversationActivity_invalid_recipient">Etibarsız alıcı!</string>
     <string name="blockUnblock">Kilidi aç</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Cihazında bu linkin öhdəsindən gələ biləcək aplikasiya yoxdur.</string>
@@ -85,7 +77,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Foto</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Səsyazmalı mesajı qeyd etmək üçün basıb saxlayın, göndərmək üçün buraxın</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">%1$s göndərən mesaj</string>
     <string name="LongMessageActivity_your_message">Mesajınız</string>
@@ -108,8 +99,6 @@
     <string name="conversationsSettingsAllMedia">Bütün media</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Artıq dəstəklənməyən Session-un əvvəlki versiyası istifadə edilərək şifrələnmiş bir mesaj alındı. Zəhmət olmasa göndərən şəxsdən tətbiqi ən son versiyaya yeniləyib mesajı təkrar göndərməsini xahiş edin.</string>
-    <string name="MessageRecord_you_updated_group">Qrupu yenilədiniz.</string>
-    <string name="MessageRecord_s_updated_group">%s qrupu yenilədi.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Mesajlarınızın vaxtı bitməyəcək.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Bu danışıqdakı göndərilən və alınan mesajlar, görüldükdən %s sonra yox olacaq.</string>
@@ -130,7 +119,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">Qrup yeniləndi</string>
     <string name="ThreadRecord_secure_session_reset">Güvənli seansı sıfırlandı.</string>
-    <string name="ThreadRecord_media_message">Media mesajı</string>
     <string name="ThreadRecord_s_is_on_signal">%s artıq Session-dadır!</string>
     <string name="ThreadRecord_safety_number_changed">Güvənli nömrə dəyişdirildi</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s ilə olan güvənlik nömrəniz dəyişdirildi.</string>
@@ -154,14 +142,12 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İcazə olmadan xarici anbarda saxlanıla bilmir</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d danışıqda %1$d yeni mesaj</string>
-    <string name="MessageNotifier_locked_message">Kilidli mesaj</string>
     <string name="MessageNotifier_message_delivery_failed">Mesaj çatdırılmadı.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Mesaj çatdırılması uğursuz oldu.</string>
     <string name="MessageNotifier_error_delivering_message">Mesajın çatdırılma xətası.</string>
     <string name="messageMarkRead">Oxundu olaraq işarələ</string>
     <string name="MessageNotifier_pending_signal_messages">Gözləyən Session mesajları</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Gözləyən Session mesajlarınız var, almaq və açmaq üçün toxunun</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Əlaqə</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Zənglər</string>
@@ -199,15 +185,12 @@
     <string name="attachment_type_selector__gallery">Qalereya</string>
     <string name="attachment_type_selector__drawer_description">Qoşma siyirməsini aç/bağla</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Əlaqələr yüklənir&#8230;</string>
     <!-- conversation_activity -->
     <string name="send">Göndər</string>
     <string name="conversation_activity__compose_description">Mesaj tərtib et</string>
     <string name="conversation_activity__emoji_toggle_description">İfadə klaviaturasını aç/bağla</string>
     <string name="conversation_activity__attachment_thumbnail">Qoşma eskizi</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Cəld kamera qoşma siyirməsini aç/bağla</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Səs yaz və göndər</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Səsin yazılmasını kilidlə</string>
     <string name="conversation_activity__enable_signal_for_sms">Session-u SMS üçün fəallaşdır</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">İmtina etmək üçün sürüşdür</string>
@@ -218,26 +201,19 @@
     <string name="conversation_item_sent__send_failed_indicator_description">Göndərilmədi</string>
     <string name="conversation_item_sent__delivered_description">Çatdırıldı</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Əlaqə fotosu</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Oynat</string>
-    <string name="audio_view__pause_accessibility_description">Fasilə ver</string>
     <!-- open_group_invitation_view -->
     <string name="join">Qoşul</string>
     <string name="open_group_guidelines_pinned_message">Sancaqlanmış mesaj</string>
-    <string name="open_group_guidelines_community_guidelines">Cəmiyyət təlimatları</string>
     <string name="read">Oxundu</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Orijinal mesaj tapılmadı</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Aşağıya sürüşdür</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIF və stiker axtar</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Tam danışığa bax</string>
-    <string name="load_more_header__loading">Yüklənir</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -250,27 +226,17 @@
     <string name="message_details_header__to">Kimə:</string>
     <string name="message_details_header__with">İlə:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Parol yarat</string>
     <string name="AndroidManifest__media_preview">Media önbaxışı</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">İlkin halı istifadə et</string>
     <string name="arrays__use_custom">Özəl halı istifadə et</string>
     <string name="notificationsMute1Hour">1 saatlıq səssizə al</string>
     <string name="notificationsMute2Hours">2 saatlıq səssizə al</string>
     <string name="notificationsMute1Day">1 günlük səssizə al</string>
-    <string name="arrays__mute_for_one_year">1 illik səssizə al</string>
-    <string name="arrays__settings_default">İlkin tənzimləmələr</string>
-    <string name="arrays__enabled">Fəaldır</string>
-    <string name="arrays__disabled">Sıradan çıxarıldı</string>
     <string name="notificationsContentShowNameOnly">Yalnız ad</string>
     <string name="arrays__images">Təsvirlər</string>
     <string name="audio">Səs</string>
     <string name="video">Video</string>
-    <string name="arrays__small">Kiçik</string>
     <string name="arrays__normal">Normal</string>
-    <string name="arrays__large">Böyük</string>
-    <string name="arrays__extra_large">Çox böyük</string>
-    <string name="arrays__high">Yüksək</string>
     <string name="max">Maksimum</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -282,30 +248,12 @@
     <string name="preferences__screen_security">Ekran güvənliyi</string>
     <string name="sessionNotifications">Bildirişlər</string>
     <string name="notificationsLedColor">LED rəng</string>
-    <string name="preferences__pref_led_blink_title">LED yanıb sönmə forması</string>
     <string name="notificationsSound">Səs</string>
-    <string name="preferences__repeat_alerts">Xəbərdarlıqları təkrarla</string>
-    <string name="preferences__never">Heç vaxt</string>
-    <string name="preferences__one_time">Bir dəfə</string>
-    <string name="preferences__two_times">İki dəfə</string>
-    <string name="preferences__three_times">Üç dəfə</string>
-    <string name="preferences__five_times">Beş dəfə</string>
-    <string name="preferences__ten_times">On dəfə</string>
     <string name="notificationsVibrate">Titrəmə</string>
-    <string name="preferences__green">Yaşıl</string>
-    <string name="preferences__red">Qırmızı</string>
-    <string name="preferences__blue">Göy</string>
-    <string name="preferences__orange">Narıncı</string>
-    <string name="preferences__cyan">Mavi</string>
-    <string name="preferences__magenta">Bənövşəyi</string>
-    <string name="preferences__white">Ağ</string>
-    <string name="preferences__none">Heç biri</string>
     <string name="preferences__fast">Sürətli</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Yavaş</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Bir danışıq müəyyən bir uzunluğu aşanda köhnə mesajları avtomatik sil</string>
     <string name="preferences__delete_old_messages">Köhnə mesajları sil</string>
-    <string name="preferences__conversation_length_limit">Danışığın uzunluq limiti</string>
     <string name="preferences__trim_all_conversations_now">Bütün danışıqları indi kəs</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Bütün danışıqları skan et və uzunluq limitlərini məcbur edin</string>
     <string name="_default">İlkin</string>
@@ -315,8 +263,6 @@
     <string name="conversationsMessageTrimming">Mesajları kəsmə</string>
     <string name="preferences_advanced__use_system_emoji">Sistem ifadəsini istifadə et</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session-un daxili ifadə dəstəyini sıradan çıxart</string>
-    <string name="preferences_notifications__messages">Mesajlar</string>
-    <string name="preferences_notifications__in_chat_sounds">Söhbət daxili səslər</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -338,16 +284,10 @@
     <string name="groupLeave">Qrupu tərk et</string>
     <string name="conversationsAddToHome">Əsas ekrana əlavə et</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Açılan pəncərəni genişləndir</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Çatdırılma</string>
-    <string name="conversation_group_options__conversation">Danışıq</string>
-    <string name="conversation_group_options__broadcast">Yayım</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Yönləndir</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Media önbaxışı</string>
     <!-- Trimmer -->
     <string name="deleting">Silinir</string>
     <string name="trimmer__deleting_old_messages">Köhnə mesajlar silinir...</string>
@@ -368,10 +308,7 @@
     <string name="BackupDialog_delete_backups_statement">Nüsxəni sil</string>
     <string name="LocalBackupJob_creating_backup">Nüsxə yaradılır...</string>
     <string name="ProgressPreference_d_messages_so_far">İndiyə qədər %d mesaj</string>
-    <string name="BackupUtil_never">Heç vaxt</string>
     <string name="preferences_app_protection__screen_lock">Ekran kilidi</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekran kilidi üçün vaxt</string>
-    <string name="AppProtectionPreferenceFragment_none">Heç biri</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">İctimai açarı kopyala</string>
     <!-- Session -->
@@ -384,8 +321,6 @@
     <string name="cancel">İmtina</string>
     <string name="view_fake_chat_bubble_4">Qabaqcıl anonim yönləndirmə və bir ucdan digərinə qədər şifrələmə texnologiyalarının kombinasiyasını istifadə edir.</string>
     <string name="view_fake_chat_bubble_5">Dostlar, dostlarının güvənliyi qorunmayan messencerlərdən istifadə etməsinə icazə verməz. Xoşdur, buyurun.</string>
-    <string name="activity_register_title">Session kimliyinizə salam deyin</string>
-    <string name="activity_register_explanation">Session kimliyiniz, əlaqələrin Session-da sizinlə əlaqə saxlamaq üçün istifadə edəcəyi unikal bir ünvandır. Gerçək kimliyinizlə heç bir bağlantısı olmadan, Session kimliyiniz, ümumilikdə anonimlik və gizlilik üzərinə dizayn edilmişdir.</string>
     <string name="displayNamePick">Ekran adınızı seçin</string>
     <string name="displayNameEnter">Ekran adını daxil edin</string>
     <string name="displayNameErrorDescription">Zəhmət olmasa bir ekran adı seçin</string>
@@ -408,16 +343,12 @@
     <string name="learnMore">Daha Ətraflı</string>
     <string name="activity_path_resolving_progress">Həll edilir…</string>
     <string name="qrScan">QR kodu skan edin</string>
-    <string name="fragment_enter_public_key_explanation">İstifadəçilər, hesab tənzimləmələrində \"Session kimliyini paylaş\"a toxunaraq və ya öz QR kodlarını paylaşaraq Session kimliklərini paylaşa bilər.</string>
     <string name="cameraGrantAccessQr">Session, QR kodunu skan etmək üçün kameraya müraciət etməlidir</string>
     <string name="cameraGrantAccess">Kameraya müraciətə icazə ver</string>
     <string name="groupNameEnter">Qrup adını daxil edin</string>
     <string name="activity_create_closed_group_empty_state_button_title">Bir Seans Başladın</string>
     <string name="groupNameEnterPlease">Zəhmət olmasa bir qrup adı daxil edin</string>
-    <string name="activity_join_public_chat_title">Açıq Qrupa Qoşul</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Qoşulmaq istədiyiniz açıq qrupun QR kodunu skan edin</string>
     <string name="sessionSettings">Tənzimləmələr</string>
-    <string name="activity_settings_devices_button_title">Cihazlar</string>
     <string name="sessionInviteAFriend">Dostu dəvət edin</string>
     <string name="helpFAQ">TSS</string>
     <string name="sessionClearData">Verilənləri təmizlə</string>
@@ -430,10 +361,7 @@
     <string name="clearDataAll">Bütün verilənləri təmizlə</string>
     <string name="qrCode">QR Kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Başqasıyla bir danışıq başlatmaq üçün onun QR kodunu skan edin</string>
-    <string name="fragment_view_my_qr_code_title">Məni skan et</string>
-    <string name="fragment_view_my_qr_code_share_title">QR kodu paylaş</string>
     <string name="contactsContacts">Əlaqələr</string>
-    <string name="fragment_contact_selection_closed_groups_title">Bağlı qruplar</string>
     <string name="fragment_contact_selection_open_groups_title">Açıq qruplar</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Tətbiq et</string>
@@ -442,16 +370,12 @@
     <string name="contactSelect">Əlaqələri seç</string>
     <string name="view_reset_secure_session_done_message">Güvənli seans sıfırlanması bitdi</string>
     <string name="appearanceThemes">Tema</string>
-    <string name="dialog_ui_mode_option_day">Gündüz</string>
-    <string name="dialog_ui_mode_option_night">Gecə</string>
-    <string name="dialog_ui_mode_option_system_default">İlkin sistem</string>
     <string name="attachment">Qoşma</string>
     <string name="messageVoice">Səsyazmalı mesaj</string>
     <string name="dialog_backup_activation_failed">Nüsxələmələr aktivləşdirilmədi. Zəhmət olmasa yenidən sınayın və ya dəstəklə əlaqə saxlayın.</string>
     <string name="activity_backup_restore_title">Nüsxəni bərpa et</string>
     <string name="activity_backup_restore_select_file">Bir fayl seçin</string>
     <string name="activity_backup_restore_explanation_1">Bir nüsxə faylı seçin və ya yaradılan vaxt verilən parolu daxil edin.</string>
-    <string name="activity_backup_restore_passphrase">30 rəqəmli parol</string>
     <string name="activity_link_device_skip_prompt">Bu bir az vaxt apara bilər, ötürmək istəyirsiniz?</string>
     <string name="activity_link_device_qr_message">QR kodunu göstərmək üçün digər cihazınızda Tənzimləmələr → \"Bərpa parolu\"na gedin.</string>
     <string name="communityJoinOfficial">Və ya bunlardan birinə qoşulun…</string>
@@ -470,7 +394,6 @@
     <string name="media">Media</string>
     <string name="_error">Xəta</string>
     <string name="warning">Xəbərdarlıq</string>
-    <string name="notify_type_all">Hamısı</string>
     <string name="pin">Sancaqla</string>
     <string name="pinUnpin">Sancağı götür</string>
 </resources>

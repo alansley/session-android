@@ -15,11 +15,14 @@ import network.loki.messenger.R;
 public final class ContactUtil {
 
   public static @NonNull CharSequence getStringSummary(@NonNull Context context, @NonNull Contact contact) {
-    String  contactName = ContactUtil.getDisplayName(contact);
 
+    /*
+    REMOVE WHEN HAPPY THIS IS OKAY -ACL
+    String  contactName = ContactUtil.getDisplayName(contact);
     if (!TextUtils.isEmpty(contactName)) {
       return context.getString(R.string.MessageNotifier_contact_message, EmojiStrings.BUST_IN_SILHOUETTE, contactName);
     }
+    */
 
     return SpanUtil.italic(context.getString(R.string.MessageNotifier_unknown_contact_message));
   }

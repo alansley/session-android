@@ -20,7 +20,6 @@
         <item quantity="one">Bu işlem tüm sohbetleri en yeni iletiye kadar kırpar.</item>
         <item quantity="other">Bu işlem tüm sohbetleri en yeni %d iletiye kadar kırpar.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Açık</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(görüntü)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ses)</string>
@@ -28,7 +27,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, fotoğraflar, videolar, veya ses ekleyebilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Ses oynatılırken hata!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Bugün</string>
     <string name="BucketedThreadMedia_Yesterday">Dün</string>
@@ -37,24 +35,18 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Hiçbir web tarayıcısı bulunamadı.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Gruplar</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Gönderme başarısız, ayrıntılar için dokunun</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Anahtar takas iletisi alındı, işlemek için dokunun.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Gönderme başarısız oldu, şifresiz göndermek için dokunun</string>
     <string name="ConversationItem_copied_text">%s kopyalandı</string>
-    <string name="ConversationItem_read_more">Devamını Oku</string>
-    <string name="ConversationItem_download_more">  Dahasını İndirin</string>
-    <string name="ConversationItem_pending">  Beklemede </string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Eklenti ekle</string>
-    <string name="ConversationActivity_select_contact_info">Kişi bilgisi seç</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Üzgünüz, eklentiniz ayarlanırken hata oluştu.</string>
     <string name="message">İleti</string>
     <string name="ConversationActivity_compose">Oluştur</string>
     <string name="ConversationActivity_muted_until_date">%1$s\'e kadar sessiz</string>
     <string name="ConversationActivity_muted_forever">Sessize alındı</string>
-    <string name="ConversationActivity_open_group_guidelines">Topluluk İlkeleri</string>
     <string name="ConversationActivity_invalid_recipient">Geçersiz alıcı!</string>
     <string name="blockUnblock">Engeli kaldır</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Cihazınızda bu bağlantıyı işleyebilecek uygulama bulunmamaktadır.</string>
@@ -85,7 +77,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Resim</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Sesli ileti kaydetmek için dokunun ve basılı tutun, göndermek için bırakın</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">%1$s kişisinden ileti</string>
     <string name="LongMessageActivity_your_message">İletiniz</string>
@@ -108,8 +99,6 @@
     <string name="conversationsSettingsAllMedia">Tüm medya</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Artık desteklenmeyen eski bir Signal sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Session\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
-    <string name="MessageRecord_you_updated_group">Grubu güncellediniz.</string>
-    <string name="MessageRecord_s_updated_group">%s grubu güncelledi.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">İletileriniz kaybolmayacak.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Bu sohbette gönderilen ve alınan iletiler görüldükten %s sonra yok olur.</string>
@@ -129,7 +118,6 @@ iletisi alındı!</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grup güncellendi</string>
     <string name="ThreadRecord_secure_session_reset">Güvenli oturumu sıfırla.</string>
-    <string name="ThreadRecord_media_message">İçerik iletisi</string>
     <string name="ThreadRecord_s_is_on_signal">%s Session\'e katıldı!</string>
     <string name="ThreadRecord_safety_number_changed">Güvenlik numarası değişti</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s ile güvenlik numaranız değişti.</string>
@@ -153,14 +141,12 @@ iletisi alındı!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İzinler olmadan harici depolamaya kaydedilemiyor</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d sohbetten %1$d yeni ileti</string>
-    <string name="MessageNotifier_locked_message">Kilitli ileti</string>
     <string name="MessageNotifier_message_delivery_failed">İleti teslimi başarısız oldu.</string>
     <string name="MessageNotifier_failed_to_deliver_message">İleti teslim edilemedi.</string>
     <string name="MessageNotifier_error_delivering_message">İleti tesliminde hata.</string>
     <string name="messageMarkRead">Okundu işaretle</string>
     <string name="MessageNotifier_pending_signal_messages">Bekleyen Session iletileri</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Bekleyen Session iletileriniz var, almak ve açmak için dokunun</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kişi</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Aramalar</string>
@@ -198,15 +184,12 @@ iletisi alındı!</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
     <string name="attachment_type_selector__drawer_description">Ek çekmecesini göster/gizle</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Kişiler yükleniyor...</string>
     <!-- conversation_activity -->
     <string name="send">Gönder</string>
     <string name="conversation_activity__compose_description">İleti oluştur</string>
     <string name="conversation_activity__emoji_toggle_description">Emoji klavyesini göster/gizle</string>
     <string name="conversation_activity__attachment_thumbnail">Eklenti Önizlemesi</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Hızlı kamera eki çekmecesini göster/gizle</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Ses eki kaydet ve gönder</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Ses eklentisi kaydını kilitle</string>
     <string name="conversation_activity__enable_signal_for_sms">SMS için Session\'i etkinleştir</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">İptal etmek için kaydırın</string>
@@ -217,26 +200,19 @@ iletisi alındı!</string>
     <string name="conversation_item_sent__send_failed_indicator_description">Gönderme başarısız</string>
     <string name="conversation_item_sent__delivered_description">Gönderildi</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Kişi fotoğrafı</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Oynat</string>
-    <string name="audio_view__pause_accessibility_description">Durdur</string>
     <!-- open_group_invitation_view -->
     <string name="join">Katıl</string>
     <string name="open_group_guidelines_pinned_message">Sabitlenen mesaj</string>
-    <string name="open_group_guidelines_community_guidelines">Topluluk İlkeleri</string>
     <string name="read">Okundu</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotoğraf</string>
     <string name="messageErrorOriginal">İletinin aslı bulunamadı</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">En alta kaydır</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFleri ve çıkartmaları ara</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Tüm sohbeti gör</string>
-    <string name="load_more_header__loading">Yükleniyor</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -249,27 +225,17 @@ iletisi alındı!</string>
     <string name="message_details_header__to">Alıcı:</string>
     <string name="message_details_header__with">İle:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Parola oluşturun</string>
     <string name="AndroidManifest__media_preview">Medya önizleme</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Varsayılanı kullan</string>
     <string name="arrays__use_custom">Özelleştirilmiş kullan</string>
     <string name="notificationsMute1Hour">1 saatliğine sustur</string>
     <string name="notificationsMute2Hours">2 saatliğine sustur</string>
     <string name="notificationsMute1Day">1 günlüğüne sustur</string>
-    <string name="arrays__mute_for_one_year">1 yıllığına sustur</string>
-    <string name="arrays__settings_default">Varsayılan ayarlar</string>
-    <string name="arrays__enabled">Etkin</string>
-    <string name="arrays__disabled">Devre dışı</string>
     <string name="notificationsContentShowNameOnly">Yalnızca isim</string>
     <string name="arrays__images">Görüntüler</string>
     <string name="audio">Ses</string>
     <string name="video">Video</string>
-    <string name="arrays__small">Küçük</string>
     <string name="arrays__normal">Normal</string>
-    <string name="arrays__large">Büyük</string>
-    <string name="arrays__extra_large">Çok büyük</string>
-    <string name="arrays__high">Yüksek</string>
     <string name="max">En Yüksek</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -281,30 +247,12 @@ iletisi alındı!</string>
     <string name="preferences__screen_security">Ekran güvenliği</string>
     <string name="sessionNotifications">Bildirimler</string>
     <string name="notificationsLedColor">LED rengi</string>
-    <string name="preferences__pref_led_blink_title">LED yanıp sönme şekli</string>
     <string name="notificationsSound">Zil Sesi</string>
-    <string name="preferences__repeat_alerts">Uyarıları tekrarla</string>
-    <string name="preferences__never">Asla</string>
-    <string name="preferences__one_time">Bir kez</string>
-    <string name="preferences__two_times">İki kez</string>
-    <string name="preferences__three_times">Üç kez</string>
-    <string name="preferences__five_times">Beş kez</string>
-    <string name="preferences__ten_times">On kez</string>
     <string name="notificationsVibrate">Titreşim</string>
-    <string name="preferences__green">Yeşil</string>
-    <string name="preferences__red">Kırmızı</string>
-    <string name="preferences__blue">Mavi</string>
-    <string name="preferences__orange">Turuncu</string>
-    <string name="preferences__cyan">Cam Göbeği</string>
-    <string name="preferences__magenta">Eflatun</string>
-    <string name="preferences__white">Beyaz</string>
-    <string name="preferences__none">Hiçbiri</string>
     <string name="preferences__fast">Hızlı</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Yavaş</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Bir sohbet belirlenmiş bir uzunluğu aşınca eski iletileri otomatik olarak sil</string>
     <string name="preferences__delete_old_messages">Eski iletileri sil</string>
-    <string name="preferences__conversation_length_limit">Sohbet uzunluk sınırı</string>
     <string name="preferences__trim_all_conversations_now">Tüm sohbetleri şimdi kırp</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Tüm sohbetleri tara ve sohbet uzunluğu limitlerini uygula</string>
     <string name="_default">Varsayılan</string>
@@ -314,8 +262,6 @@ iletisi alındı!</string>
     <string name="conversationsMessageTrimming">İleti kırpma</string>
     <string name="preferences_advanced__use_system_emoji">Sistem emojilerini kullan</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session\'in dahili emoji desteğini devre dışı bırak</string>
-    <string name="preferences_notifications__messages">İletiler</string>
-    <string name="preferences_notifications__in_chat_sounds">Sohbet içi sesler</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -337,16 +283,10 @@ iletisi alındı!</string>
     <string name="groupLeave">Gruptan ayrıl</string>
     <string name="conversationsAddToHome">Ana ekrana ekle</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Açılır pencereyi genişlet</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">İletim</string>
-    <string name="conversation_group_options__conversation">Sohbet</string>
-    <string name="conversation_group_options__broadcast">Yayın</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Yönlendir</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Medya önizlemesi</string>
     <!-- Trimmer -->
     <string name="deleting">Siliniyor</string>
     <string name="trimmer__deleting_old_messages">Eski iletiler siliniyor...</string>
@@ -367,10 +307,7 @@ iletisi alındı!</string>
     <string name="BackupDialog_delete_backups_statement">Yedekleri sil</string>
     <string name="LocalBackupJob_creating_backup">Yedek oluşturuluyor...</string>
     <string name="ProgressPreference_d_messages_so_far">Şimdiye kadar %d ileti</string>
-    <string name="BackupUtil_never">Asla</string>
     <string name="preferences_app_protection__screen_lock">Ekran kilidi</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekran kilidi zaman aşımı</string>
-    <string name="AppProtectionPreferenceFragment_none">Hiçbiri</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Genel Anahtarı Kopyala</string>
     <!-- Session -->
@@ -383,8 +320,6 @@ iletisi alındı!</string>
     <string name="cancel">İptal</string>
     <string name="view_fake_chat_bubble_4">Gelişmiş anonim yönlendirme ve uçtan uca şifreleme teknolojilerinin bir kombinasyonunu kullan.</string>
     <string name="view_fake_chat_bubble_5">Arkadaşlar, arkadaşlarının güvenliği ihlal edilmiş mesajlaşma programlarını kullanmasına izin vermez. Rica ederim.</string>
-    <string name="activity_register_title">Yeni Session kimliğinize merhaba deyin.</string>
-    <string name="activity_register_explanation">Session Kimliğiniz, kişilerin Session\'da sizinle iletişim kurmak için kullanabileceği benzersiz adrestir. Gerçek kimliğinizle hiçbir bağlantısı olmadan, Session Kimliğiniz tasarım gereği tamamen anonim ve özeldir.</string>
     <string name="displayNamePick">Görünen adınızı seçin</string>
     <string name="displayNameEnter">Bir görünen ad girin</string>
     <string name="displayNameErrorDescription">Lütfen bir görünen ad seçin</string>
@@ -407,16 +342,12 @@ iletisi alındı!</string>
     <string name="learnMore">Fazlasını Öğrenin</string>
     <string name="activity_path_resolving_progress">Çözümleniyor…</string>
     <string name="qrScan">QR Kodunu Tara</string>
-    <string name="fragment_enter_public_key_explanation">Kullanıcılar, hesap ayarlarına gidip \"Session Kimliğini Paylaş\"a dokunarak veya QR kodlarını paylaşarak Session Kimliklerini paylaşabilirler.</string>
     <string name="cameraGrantAccessQr">Session’ın QR kodlarını taramak için kamera erişimine ihtiyacı var</string>
     <string name="cameraGrantAccess">Kameraya erişim izni ver</string>
     <string name="groupNameEnter">Yeni grup adı girin</string>
     <string name="activity_create_closed_group_empty_state_button_title">Oturumu başlat</string>
     <string name="groupNameEnterPlease">Lütfen bir grup adı girin</string>
-    <string name="activity_join_public_chat_title">Açık Gruba Katıl</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Katılmak istediğiniz açık grubun QR kodunu tarayın</string>
     <string name="sessionSettings">Ayarlar</string>
-    <string name="activity_settings_devices_button_title">Cihazlar</string>
     <string name="sessionInviteAFriend">Bir arkadaş davet et</string>
     <string name="helpFAQ">SSS</string>
     <string name="sessionClearData">Verileri Temizle</string>
@@ -429,10 +360,7 @@ iletisi alındı!</string>
     <string name="clearDataAll">Tüm Verileri Temizle</string>
     <string name="qrCode">QR kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Onlarla sohbet başlatmak için birinin QR kodunu tarayın</string>
-    <string name="fragment_view_my_qr_code_title">Beni Tara</string>
-    <string name="fragment_view_my_qr_code_share_title">QR kodu paylaş</string>
     <string name="contactsContacts">Kişiler</string>
-    <string name="fragment_contact_selection_closed_groups_title">Özel Gruplar</string>
     <string name="fragment_contact_selection_open_groups_title">Genel Gruplar</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Uygula</string>
@@ -441,16 +369,12 @@ iletisi alındı!</string>
     <string name="contactSelect">Kişileri Seçin</string>
     <string name="view_reset_secure_session_done_message">Güvenli oturum sıfırlaması tamamlandı</string>
     <string name="appearanceThemes">Tema</string>
-    <string name="dialog_ui_mode_option_day">Gün</string>
-    <string name="dialog_ui_mode_option_night">Gece</string>
-    <string name="dialog_ui_mode_option_system_default">Sistem varsayılanı</string>
     <string name="attachment">Ek</string>
     <string name="messageVoice">Sesli mesaj</string>
     <string name="dialog_backup_activation_failed">Yedeklemeler etkinleştirilemedi. Lütfen tekrar deneyin veya desteğe başvurun.</string>
     <string name="activity_backup_restore_title">Yedeği geri yükle</string>
     <string name="activity_backup_restore_select_file">Bir dosya seçin</string>
     <string name="activity_backup_restore_explanation_1">Bir yedekleme dosyası seçin ve oluşturulduğu parolayı girin.</string>
-    <string name="activity_backup_restore_passphrase">30 basamaklı parola</string>
     <string name="activity_link_device_skip_prompt">Bu biraz uzun sürüyor, atlamak ister misiniz?</string>
     <string name="activity_link_device_qr_message">QR kodunuzu göstermek için diğer cihazınızda Ayarlar → Kurtarma İfadesi\'ne gidin.</string>
     <string name="communityJoinOfficial">Veya bunlardan birine katılın…</string>
@@ -469,7 +393,6 @@ iletisi alındı!</string>
     <string name="media">Medya</string>
     <string name="_error">Hata</string>
     <string name="warning">Uyarı</string>
-    <string name="notify_type_all">Hepsi</string>
     <string name="pin">Sabitle</string>
     <string name="pinUnpin">Sabitlemeyi kaldır</string>
 </resources>

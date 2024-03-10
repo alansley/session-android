@@ -36,6 +36,12 @@ class ContactSelectionListFragment : Fragment(), LoaderManager.LoaderCallbacks<L
         @JvmField val DISPLAY_MODE = "display_mode"
         @JvmField val MULTI_SELECT = "multi_select"
         @JvmField val REFRESHABLE = "refreshable"
+
+        // Flags taken from the now-removed ContactsCursorLoader's `DisplayMode` static class
+        const val FLAG_PUSH   = 1
+        const val FLAG_SMS    = 1 shl 1
+        const val FLAG_GROUPS = 1 shl 2
+        const val FLAG_ALL    = FLAG_PUSH or FLAG_SMS or FLAG_GROUPS
     }
 
     interface OnContactSelectedListener {
@@ -75,7 +81,7 @@ class ContactSelectionListFragment : Fragment(), LoaderManager.LoaderCallbacks<L
 
     override fun onCreateLoader(id: Int, args: Bundle?): Loader<List<ContactSelectionListItem>> {
         return ContactSelectionListLoader(requireActivity(),
-            requireActivity().intent.getIntExtra(DISPLAY_MODE, ContactsCursorLoader.DisplayMode.FLAG_ALL),
+            requireActivity().intent.getIntExtra(DISPLAY_MODE, FLAG_ALL),
             cursorFilter)
     }
 

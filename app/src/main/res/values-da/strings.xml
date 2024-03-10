@@ -20,7 +20,6 @@
         <item quantity="one">Dette vil øjeblikkeligt reducere alle samtaler til den nyeste besked.</item>
         <item quantity="other">Dette vil øjeblikkeligt reducere alle samtaler til de %d nyeste beskeder.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Tændt</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(billede)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
@@ -28,7 +27,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session kræver tilladelse til lagring for at kunne vedhæfte billeder, videoer eller lyd, men den er blevet permanent nægtet. Fortsæt til menuen for appindstillinger, vælg \"Tilladelser\", og aktiver \"Lagring\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Fejl ved afspilning af lyd!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">I dag</string>
     <string name="BucketedThreadMedia_Yesterday">I går</string>
@@ -37,24 +35,18 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Ingen webbrowser fundet.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Grupper</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Afsendelse mislykkedes, tryk for detaljer</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Udvekslingsnøgle er modtaget. Tryk for at behandle.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Fejl ved afsendelse, tryk for at sende usikret</string>
     <string name="ConversationItem_copied_text">Kopierede %s</string>
-    <string name="ConversationItem_read_more">Læs mere</string>
-    <string name="ConversationItem_download_more">  &#160; Download mere</string>
-    <string name="ConversationItem_pending">&#160; Afventer</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Vedhæft fil</string>
-    <string name="ConversationActivity_select_contact_info">Vælg kontaktinformation</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Beklager, der opstod en fejl ved vedhæftning af fil.</string>
     <string name="message">Besked</string>
     <string name="ConversationActivity_compose">Skriv</string>
     <string name="ConversationActivity_muted_until_date">Lydløs indtil %1$s</string>
     <string name="ConversationActivity_muted_forever">Lyden slået fra</string>
-    <string name="ConversationActivity_open_group_guidelines">Retningslinjer For Fællesskabet</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig modtager!</string>
     <string name="blockUnblock">Fjern blokering</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Der er ingen app tilgængelig på enheden, der kan åbne linket</string>
@@ -85,7 +77,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Billede</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tap og hold for at optage en stemmebesked. Slip for at sende</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Besked fra %1$s</string>
     <string name="LongMessageActivity_your_message">Din besked</string>
@@ -108,8 +99,6 @@
     <string name="conversationsSettingsAllMedia">Alle mediefiler</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Modtog en besked krypteret med en ældre version af Session, der ikke længere understøttes. Bed venligst afsenderen om at opgradere til den nyeste version og sende beskeden igen</string>
-    <string name="MessageRecord_you_updated_group">Du opdaterede gruppen</string>
-    <string name="MessageRecord_s_updated_group">%s opdaterede gruppen</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Din besked udløber ikke </string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Beskeder sendt eller modtaget i denne samtale, vil udløbe %s efter at de er læst</string>
@@ -129,7 +118,6 @@ udveksel besked!</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Gruppe opdateret</string>
     <string name="ThreadRecord_secure_session_reset">Nulstil sikker forbindelse</string>
-    <string name="ThreadRecord_media_message">Mediebesked</string>
     <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
     <string name="ThreadRecord_safety_number_changed">Sikkerhedsnummer ændret</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Dit sikkerhedsnummer med %s er ændret</string>
@@ -152,14 +140,12 @@ udveksel besked!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ikke muligt at gemme til ekstern placering, uden tilladelse</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye beskeder i %2$d samtaler</string>
-    <string name="MessageNotifier_locked_message">Låst besked</string>
     <string name="MessageNotifier_message_delivery_failed">Levering af besked mislykkedes</string>
     <string name="MessageNotifier_failed_to_deliver_message">Kunne ikke levere besked</string>
     <string name="MessageNotifier_error_delivering_message">Fejl ved levering af besked.</string>
     <string name="messageMarkRead">Markér som læst</string>
     <string name="MessageNotifier_pending_signal_messages">Afventende Sessionbeskeder</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Du har afventende Sessionbeskeder, tap for at åbne og modtage</string>
-    <string name="MessageNotifier_contact_message">%1$s%2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Opkald</string>
@@ -197,15 +183,12 @@ udveksel besked!</string>
     <string name="attachment_type_selector__gallery">Billeder</string>
     <string name="attachment_type_selector__drawer_description">Skift vedhæftet fil</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Indlæser kontakter...</string>
     <!-- conversation_activity -->
     <string name="send">Send</string>
     <string name="conversation_activity__compose_description">Beskedsammensætning</string>
     <string name="conversation_activity__emoji_toggle_description">Slå Emoji tastatur til/fra</string>
     <string name="conversation_activity__attachment_thumbnail">Vedhæftet skabelon</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Slå kamera til/fra</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Optag og send en lydbesked</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lås den vedhæftede lydoptagelse</string>
     <string name="conversation_activity__enable_signal_for_sms">Brug Session til SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Slide for at annullere</string>
@@ -216,26 +199,19 @@ udveksel besked!</string>
     <string name="conversation_item_sent__send_failed_indicator_description">Afsendelse fejlet</string>
     <string name="conversation_item_sent__delivered_description">Besked leveret</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Kontaktbillede</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Afspil</string>
-    <string name="audio_view__pause_accessibility_description">Pause</string>
     <!-- open_group_invitation_view -->
     <string name="join">Deltag</string>
     <string name="open_group_guidelines_pinned_message">Fastgjort besked</string>
-    <string name="open_group_guidelines_community_guidelines">Retningslinjer for medlemmer</string>
     <string name="read">Læst</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Billed</string>
     <string name="messageErrorOriginal">Original besked ikke fundet</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Scroll til bunden</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Søg GIF´s og animationer</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Vis hele samtalen</string>
-    <string name="load_more_header__loading">Henter</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -248,27 +224,17 @@ udveksel besked!</string>
     <string name="message_details_header__to">Til:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Opret kodeord</string>
     <string name="AndroidManifest__media_preview">Medievisning</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Brug standard</string>
     <string name="arrays__use_custom">Brug tilpasset</string>
     <string name="notificationsMute1Hour">Udsæt 1 time</string>
     <string name="notificationsMute2Hours">Udsæt 2 timer</string>
     <string name="notificationsMute1Day">Udsæt 1 dag</string>
-    <string name="arrays__mute_for_one_year">Udsæt 1 år</string>
-    <string name="arrays__settings_default">Standardindstillinger</string>
-    <string name="arrays__enabled">Aktiveret</string>
-    <string name="arrays__disabled">Deaktiverét</string>
     <string name="notificationsContentShowNameOnly">Kun navn</string>
     <string name="arrays__images">Billeder</string>
     <string name="audio">Lyd</string>
     <string name="video">Video</string>
-    <string name="arrays__small">Lille</string>
     <string name="arrays__normal">Normal</string>
-    <string name="arrays__large">Stor</string>
-    <string name="arrays__extra_large">Ekstra stor</string>
-    <string name="arrays__high">Høj</string>
     <string name="max">Max.</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -280,30 +246,12 @@ udveksel besked!</string>
     <string name="preferences__screen_security">Skærmsikkerhed</string>
     <string name="sessionNotifications">Notifikationer</string>
     <string name="notificationsLedColor">LED farve</string>
-    <string name="preferences__pref_led_blink_title">LED blinke mønster</string>
     <string name="notificationsSound">Lyd</string>
-    <string name="preferences__repeat_alerts">Gentag alarmer</string>
-    <string name="preferences__never">Aldrig</string>
-    <string name="preferences__one_time">1 gang</string>
-    <string name="preferences__two_times">2 gange</string>
-    <string name="preferences__three_times">3 gange</string>
-    <string name="preferences__five_times">4 gange</string>
-    <string name="preferences__ten_times">10 gange</string>
     <string name="notificationsVibrate">Vibration</string>
-    <string name="preferences__green">Grøn</string>
-    <string name="preferences__red">Rød</string>
-    <string name="preferences__blue">Blå</string>
-    <string name="preferences__orange">Orange</string>
-    <string name="preferences__cyan">Turkis</string>
-    <string name="preferences__magenta">Magenta</string>
-    <string name="preferences__white">Hvid</string>
-    <string name="preferences__none">Ingen</string>
     <string name="preferences__fast">Hurtig</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Langsom</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Sletter automatisk ældre beskeder når antallet overstiger det specificerede</string>
     <string name="preferences__delete_old_messages">Slet gamle beskeder</string>
-    <string name="preferences__conversation_length_limit">Grænse for samtaler</string>
     <string name="preferences__trim_all_conversations_now">Trim alle samtaler</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Skan alle samtaler og tilpas begrænsninger for samtalelængde</string>
     <string name="_default">Standard</string>
@@ -313,8 +261,6 @@ udveksel besked!</string>
     <string name="conversationsMessageTrimming">Trimning af beskeder</string>
     <string name="preferences_advanced__use_system_emoji">Brug system-emoji</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Deaktivér Sessions indbyggede emoji understøttelse</string>
-    <string name="preferences_notifications__messages">Beskeder</string>
-    <string name="preferences_notifications__in_chat_sounds">Chat lyde</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -336,16 +282,10 @@ udveksel besked!</string>
     <string name="groupLeave">Forlad gruppe</string>
     <string name="conversationsAddToHome">Føj til startskærm</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Udvid popup</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Levering</string>
-    <string name="conversation_group_options__conversation">Samtale</string>
-    <string name="conversation_group_options__broadcast">Transmission</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Videresend</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Medie eksempelvisning</string>
     <!-- Trimmer -->
     <string name="deleting">Sletter</string>
     <string name="trimmer__deleting_old_messages">Sletter gamle beskeder...</string>
@@ -366,10 +306,7 @@ udveksel besked!</string>
     <string name="BackupDialog_delete_backups_statement">Slet backup\'s</string>
     <string name="LocalBackupJob_creating_backup">Opretter backup...</string>
     <string name="ProgressPreference_d_messages_so_far">%d beskeder ind til videre</string>
-    <string name="BackupUtil_never">Aldrig</string>
     <string name="preferences_app_protection__screen_lock">Skærmlås</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Timeout for inaktiv skærmlås</string>
-    <string name="AppProtectionPreferenceFragment_none">Ingen</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopiér offentlig nøgle</string>
     <!-- Session -->
@@ -382,8 +319,6 @@ udveksel besked!</string>
     <string name="cancel">Annuller</string>
     <string name="view_fake_chat_bubble_4">Ved hjælp af en kombination af avanceret anonym routing og end-to-end krypteringsteknologier.</string>
     <string name="view_fake_chat_bubble_5">Venner lader ikke venner bruge usikre besked tjenester. Du er velkommen.</string>
-    <string name="activity_register_title">Sig hej til dit Session ID</string>
-    <string name="activity_register_explanation">Dit Session ID er den unikke adresse, som folk kan bruge til at kontakte dig i Session. Dit Session ID har ingen tilknytning til din rigtige identitet og er helt anonymt og privat.</string>
     <string name="displayNamePick">Vælg dit visningsnavn</string>
     <string name="displayNameEnter">Tast et visningsnavn</string>
     <string name="displayNameErrorDescription">Vælg venligst et display navn</string>
@@ -406,9 +341,7 @@ udveksel besked!</string>
     <string name="cameraGrantAccess">Tildel Adgang Til Kamera</string>
     <string name="groupNameEnter">Indtast et gruppenavn</string>
     <string name="activity_create_closed_group_empty_state_button_title">Start en Session</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Scan QR-koden for den åbne gruppe, du gerne vil deltage i</string>
     <string name="sessionSettings">Indstillinger</string>
-    <string name="activity_settings_devices_button_title">Enheder</string>
     <string name="sessionInviteAFriend">Inviter en ven</string>
     <string name="helpFAQ">Ofte stillede spørgsmål</string>
     <string name="sessionClearData">Ryd data</string>
@@ -420,10 +353,7 @@ udveksel besked!</string>
     <string name="clearDataAll">Ryd Alt Data</string>
     <string name="qrCode">QR-kode</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scan ens QR-kode for at starte en samtale med dem</string>
-    <string name="fragment_view_my_qr_code_title">Scan Mig</string>
-    <string name="fragment_view_my_qr_code_share_title">Del QR-kode</string>
     <string name="contactsContacts">Kontakter</string>
-    <string name="fragment_contact_selection_closed_groups_title">Lukkede Grupper</string>
     <string name="fragment_contact_selection_open_groups_title">Åbne Grupper</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Anvend</string>
@@ -432,9 +362,6 @@ udveksel besked!</string>
     <string name="contactSelect">Vælg Kontakter</string>
     <string name="view_reset_secure_session_done_message">Sikker sessions nulstilling færdig</string>
     <string name="appearanceThemes">Tema</string>
-    <string name="dialog_ui_mode_option_day">Dag</string>
-    <string name="dialog_ui_mode_option_night">Nat</string>
-    <string name="dialog_ui_mode_option_system_default">Systemstandard</string>
     <string name="messageVoice">Talebesked</string>
     <string name="dialog_backup_activation_failed">Kunne ikke aktivere sikkerhedskopier. Prøv igen, eller kontakt support.</string>
     <string name="activity_backup_restore_title">Gendan sikkerhedskopi</string>
@@ -449,7 +376,6 @@ udveksel besked!</string>
     <string name="media">Medie</string>
     <string name="_error">Fejl</string>
     <string name="warning">Advarsel</string>
-    <string name="notify_type_all">Alle</string>
     <string name="pin">Fastgør</string>
     <string name="pinUnpin">Frigør</string>
 </resources>

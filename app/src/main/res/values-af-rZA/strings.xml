@@ -14,7 +14,6 @@
         <item quantity="one">%d boodskap per gesprek</item>
         <item quantity="other">%d boodskappe per gesprek</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Aan</string>
     <!-- DraftDatabase -->
     <!-- AttachmentManager -->
     <!-- AudioSlidePlayer -->
@@ -23,11 +22,8 @@
     <string name="BucketedThreadMedia_Yesterday">Gister</string>
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Groepe</string>
     <!-- ConversationItem -->
-    <string name="ConversationItem_read_more">Lees Meer</string>
     <!-- ConversationActivity -->
-    <string name="ConversationActivity_select_contact_info">Kies kontak besonderhede</string>
     <string name="message">Boodskap</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
@@ -91,9 +87,7 @@
     <!-- message_details_header -->
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__small">Klein</string>
     <string name="arrays__normal">Normaal</string>
-    <string name="arrays__large">Groot</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__fast">Vinnig</string>
@@ -119,6 +113,5 @@
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->
-    <string name="dialog_ui_mode_option_night">Nag</string>
     <string name="warning">Waarskuwing</string>
 </resources>

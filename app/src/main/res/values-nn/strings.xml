@@ -18,14 +18,12 @@
         <item quantity="one">Dette vil omgåande trimma alle samtalar til dei siste meldingane.</item>
         <item quantity="other">Dette forkortar alle samtalar til dei %d siste meldingane.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">På</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bilete)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session treng tilgang til lagring for å legga ved bilete, film eller lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Det oppstod ein feil under lydavspeling.</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">I dag</string>
     <string name="BucketedThreadMedia_Yesterday">I går</string>
@@ -34,17 +32,13 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Fann ingen nettlesar.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Grupper</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Feil ved sending, trykk for detaljar</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Melding for nøkkelutveksling motteken. Trykk for å handsama.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Feil ved sending, trykk for å senda med utrygg alternativ metode</string>
     <string name="ConversationItem_copied_text">Kopierte %s</string>
-    <string name="ConversationItem_download_more">  Last ned meir</string>
-    <string name="ConversationItem_pending">  Ventar</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Legg til vedlegg</string>
-    <string name="ConversationActivity_select_contact_info">Vel kontaktinformasjon</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Det oppstod ein feil under vedlegg av fil.</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig mottakar.</string>
     <string name="blockUnblock">Fjern blokkering</string>
@@ -73,7 +67,6 @@
     <string name="stickers">Klistremerke</string>
     <!-- CropImageActivity -->
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Trykk og hald for å spela inn talemelding , slepp for å senda</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Melding frå %1$s</string>
     <string name="LongMessageActivity_your_message">Di melding</string>
@@ -91,8 +84,6 @@
     <!-- MediaRepository -->
     <!-- MessageRecord -->
     <string name="messageErrorOld">Mottok ei melding som er kryptert med ein gammal versjon av Session som ikkje lenger vert støtta. Be avsendaren om å oppdatera til nyaste versjon og senda meldinga på nytt.</string>
-    <string name="MessageRecord_you_updated_group">Du oppdaterte gruppa.</string>
-    <string name="MessageRecord_s_updated_group">%s oppdaterte gruppa.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Meldingar går ikkje ut på tid.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meldingar du sender og mottek i denne samtalen forsvinn %s etter at dei er lesne.</string>
@@ -112,7 +103,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupper oppdatert</string>
     <string name="ThreadRecord_secure_session_reset">Sikker økt tilbakestilt.</string>
-    <string name="ThreadRecord_media_message">Mediemelding</string>
     <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
     <string name="ThreadRecord_safety_number_changed">Endra tryggleiksnummer</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Tryggleiksnummeret ditt med %s har endra seg.</string>
@@ -135,14 +125,12 @@ nøkkelutvekslingsmelding.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan ikkje lagra til eksterne minnekort utan tilgang</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye meldingar i %2$d samtalar</string>
-    <string name="MessageNotifier_locked_message">Låst melding</string>
     <string name="MessageNotifier_message_delivery_failed">Feil ved meldingslevering.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Klarte ikkje å levera melding.</string>
     <string name="MessageNotifier_error_delivering_message">Feil under levering av melding.</string>
     <string name="messageMarkRead">Merk lesen</string>
     <string name="MessageNotifier_pending_signal_messages">Uhenta Session-meldingar</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Du har uhenta Session-meldingar, klikk for å opna og henta</string>
-    <string name="MessageNotifier_contact_message">%1$s%2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtalar</string>
@@ -179,13 +167,11 @@ nøkkelutvekslingsmelding.</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
     <string name="attachment_type_selector__drawer_description">Vis/skjul vedleggspanel</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Lastar inn kontaktar …</string>
     <!-- conversation_activity -->
     <string name="conversation_activity__compose_description">Meldingsskriving</string>
     <string name="conversation_activity__emoji_toggle_description">Vis/skjul emoji-tastatur</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatyrbilete av vedlegg</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Vis/skjul vedleggspanel for snøggkamera</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Ta opp og senda lydvedlegg</string>
     <string name="conversation_activity__enable_signal_for_sms">Aktiver Session for SMS</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
@@ -195,21 +181,16 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_item_sent__send_failed_indicator_description">Feil ved sending</string>
     <string name="conversation_item_sent__delivered_description">Levert</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Kontaktfoto</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Spel</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Fann ikkje den opphavlege meldinga</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Rull til botnen</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Søk Gif-ar og klistremerke</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Vis heile samtalen</string>
-    <string name="load_more_header__loading">Lastar</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -221,25 +202,15 @@ nøkkelutvekslingsmelding.</string>
     <string name="message_details_header__to">Til:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Lag passordfrase</string>
     <string name="AndroidManifest__media_preview">Førehandsvising av media</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Bruk forvald</string>
     <string name="arrays__use_custom">Bruk sjølvvald</string>
     <string name="notificationsMute1Hour">Demp i 1 time</string>
     <string name="notificationsMute2Hours">Demp i 2 timar</string>
     <string name="notificationsMute1Day">Demp i 1 dag</string>
-    <string name="arrays__mute_for_one_year">Demp i 1 år</string>
-    <string name="arrays__settings_default">Standardoppsett</string>
-    <string name="arrays__enabled">Slått på</string>
-    <string name="arrays__disabled">Slått av</string>
     <string name="notificationsContentShowNameOnly">Berre namn</string>
     <string name="arrays__images">Bilete</string>
     <string name="audio">Lyd</string>
-    <string name="arrays__small">Liten</string>
-    <string name="arrays__large">Stor</string>
-    <string name="arrays__extra_large">Veldig stor</string>
-    <string name="arrays__high">Høg</string>
     <string name="max">Maks</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -251,27 +222,11 @@ nøkkelutvekslingsmelding.</string>
     <string name="preferences__screen_security">Skjermtryggleik</string>
     <string name="sessionNotifications">Varsel</string>
     <string name="notificationsLedColor">LED-farge</string>
-    <string name="preferences__pref_led_blink_title">LED-blinkemønster</string>
     <string name="notificationsSound">Lyd</string>
-    <string name="preferences__repeat_alerts">Gjenta varsel</string>
-    <string name="preferences__never">Aldri</string>
-    <string name="preferences__one_time">Éin gong</string>
-    <string name="preferences__two_times">To gongar</string>
-    <string name="preferences__three_times">Tre gongar</string>
-    <string name="preferences__five_times">Fem gongar</string>
-    <string name="preferences__ten_times">Ti gongar</string>
     <string name="notificationsVibrate">Vibrer</string>
-    <string name="preferences__green">Grøn</string>
-    <string name="preferences__red">Raud</string>
-    <string name="preferences__blue">Blå</string>
-    <string name="preferences__orange">Oransje</string>
-    <string name="preferences__white">Kvit</string>
-    <string name="preferences__none">Inga</string>
     <string name="preferences__fast">Snøgg</string>
     <string name="preferences__slow">Langsam</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Slett gamle meldingar automatisk når ein samtale overskrid vald lengd</string>
     <string name="preferences__delete_old_messages">Slett gamle meldingar</string>
-    <string name="preferences__conversation_length_limit">Lengdgrense for samtalar</string>
     <string name="preferences__trim_all_conversations_now">Rydd opp i alle samtalar no</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Søk gjennom alle samtalar og tving lengdgrenser for samtalar</string>
     <string name="_default">Forvald</string>
@@ -281,8 +236,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversationsMessageTrimming">Meldingsforkorting</string>
     <string name="preferences_advanced__use_system_emoji">Bruk emoji på systemet</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i Session</string>
-    <string name="preferences_notifications__messages">Meldingar</string>
-    <string name="preferences_notifications__in_chat_sounds">Lydar i samtalar</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -303,16 +256,10 @@ nøkkelutvekslingsmelding.</string>
     <string name="groupLeave">Forlat gruppe</string>
     <string name="conversationsAddToHome">Legg til heimeskjermen</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Utvid sprettoppvindauge</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Levering</string>
-    <string name="conversation_group_options__conversation">Samtale</string>
-    <string name="conversation_group_options__broadcast">Kringkast</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Vidaresend</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Førehandsvising av media</string>
     <!-- Trimmer -->
     <string name="deleting">Slettar</string>
     <string name="trimmer__deleting_old_messages">Slettar gamle meldingar …</string>
@@ -333,10 +280,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="BackupDialog_delete_backups_statement">Slett reservekopiar</string>
     <string name="LocalBackupJob_creating_backup">Opprettar reservekopi …</string>
     <string name="ProgressPreference_d_messages_so_far">%dmeldingar så langt</string>
-    <string name="BackupUtil_never">Aldri</string>
     <string name="preferences_app_protection__screen_lock">Skjermlås</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Tidsgrense for inaktivitet før skjermlås</string>
-    <string name="AppProtectionPreferenceFragment_none">Inga</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->

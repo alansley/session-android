@@ -82,10 +82,6 @@ public class ThreadRecord extends DisplayRecord {
       return emphasisAdded(context.getString(R.string.groupUpdated));
     } else if (isOpenGroupInvitation()) {
       return emphasisAdded(context.getString(R.string.communityInvitation));
-    } else if (SmsDatabase.Types.isFailedDecryptType(type)) {
-      return emphasisAdded(context.getString(R.string.MessageDisplayHelper_bad_encrypted_message));
-    } else if (SmsDatabase.Types.isNoRemoteSessionType(type)) {
-      return emphasisAdded(context.getString(R.string.MessageDisplayHelper_message_encrypted_for_non_existing_session));
     } else if (SmsDatabase.Types.isEndSessionType(type)) {
       return emphasisAdded(context.getString(R.string.ThreadRecord_secure_session_reset));
     } else if (MmsSmsColumns.Types.isLegacyType(type)) {
@@ -111,7 +107,8 @@ public class ThreadRecord extends DisplayRecord {
     } else if (MmsSmsColumns.Types.isMediaSavedExtraction(type)) {
       return emphasisAdded(context.getString(R.string.attachmentsMediaSaved, getRecipient().toShortString()));
     } else if (MmsSmsColumns.Types.isScreenshotExtraction(type)) {
-      return emphasisAdded(context.getString(R.string.screenshotTaken, getRecipient().toShortString()));
+      return emphasisAdded("ACL TO FIX - INCORPORATE STRING SUBSTITUTION LIBRARY");
+      //return emphasisAdded(context.getString(R.string.screenshotTaken, getRecipient().toShortString())); // OG
     } else if (SmsDatabase.Types.isIdentityUpdate(type)) {
       if (getRecipient().isGroupRecipient()) return emphasisAdded(context.getString(R.string.ThreadRecord_safety_number_changed));
       else                                   return emphasisAdded(context.getString(R.string.ThreadRecord_your_safety_number_with_s_has_changed, getRecipient().toShortString()));
@@ -125,7 +122,10 @@ public class ThreadRecord extends DisplayRecord {
       return new SpannableString(context.getString(R.string.messageEmpty));
     } else {
       if (TextUtils.isEmpty(getBody())) {
-        return new SpannableString(emphasisAdded(context.getString(R.string.ThreadRecord_media_message)));
+        // ACL TO FIX - THIS IS SHOWN WHEN WE RECEIVE MEDIA FROM AN UN-ACCEPTED CONTACT SO SHOULD PROBABLY STAY
+        // SEE STRINGS SPREADSHEET FOR: ThreadRecord_media_message
+        return new SpannableString(emphasisAdded(context.getString(R.string.mediaMessage)));
+        //return new SpannableString(emphasisAdded(context.getString(R.string.ThreadRecord_media_message)));
       } else {
         return new SpannableString(getBody());
       }

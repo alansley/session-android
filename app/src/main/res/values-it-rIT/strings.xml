@@ -20,7 +20,6 @@
         <item quantity="one">Questo porterà immediatamente tutte le conversazioni al messaggio più recente.</item>
         <item quantity="other">Saranno ridotte immediatamente tutte le conversazioni ai %d messaggi più recenti.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">On</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(immagine)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
@@ -28,7 +27,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session richiede l\'autorizzazione all\'accesso della memoria per allegare foto, video o audio, ma è stata negata in modo permanente. Si prega di continuare con il menu delle impostazioni dell\'app, selezionare \"Autorizzazioni\" e abilitare \"Archiviazione\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Errore nel riprodurre l\'audio!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Oggi</string>
     <string name="BucketedThreadMedia_Yesterday">Ieri</string>
@@ -37,24 +35,18 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Nessun browser web trovato.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Gruppi</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Invio fallito, tocca per dettagli</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Ricevuto un messaggio con chiave di scambio, tocca per processarlo.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Invio fallito, tocca per invio non sicuro</string>
     <string name="ConversationItem_copied_text">Copiato %s</string>
-    <string name="ConversationItem_read_more">Scopri di più</string>
-    <string name="ConversationItem_download_more">&#160; Scarica Altro</string>
-    <string name="ConversationItem_pending">  &#160; In attesa</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Aggiungi allegato</string>
-    <string name="ConversationActivity_select_contact_info">Seleziona informazioni dei contatti</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Attenzione, c\'è stato un errore nell\'inviare il tuo allegato.</string>
     <string name="message">Messaggio</string>
     <string name="ConversationActivity_compose">Componi</string>
     <string name="ConversationActivity_muted_until_date">Mutato fino a %1$s</string>
     <string name="ConversationActivity_muted_forever">Silenziato</string>
-    <string name="ConversationActivity_open_group_guidelines">Linee guida della comunità</string>
     <string name="ConversationActivity_invalid_recipient">Destinatario non valido!</string>
     <string name="blockUnblock">Sblocca</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Sul tuo dispositivo non sono presenti app per gestire questo link.</string>
@@ -85,7 +77,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tieni premuto per registrare un messaggio vocale, rilascia per inviare</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Messaggio da %1$s</string>
     <string name="LongMessageActivity_your_message">Il tuo messaggio</string>
@@ -108,8 +99,6 @@
     <string name="conversationsSettingsAllMedia">Tutti i file multimediali</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Hai ricevuto un messaggio cifrato usando una vecchia versione di Session che non è più supportata. Ti preghiamo di chiedere al mittente di aggiornare l\'app e rimandare il messaggio.</string>
-    <string name="MessageRecord_you_updated_group">Hai aggiornato il gruppo.</string>
-    <string name="MessageRecord_s_updated_group">%s ha aggiornato il gruppo.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">I tuoi messaggi non scadranno.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">I messaggi inviati e ricevuti in questa conversazione spariranno %s dopo essere stati visti.</string>
@@ -129,7 +118,6 @@ scambia un altro messaggio!</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Gruppo aggiornato</string>
     <string name="ThreadRecord_secure_session_reset">Sessione sicura azzerata.</string>
-    <string name="ThreadRecord_media_message">Messaggio multimediale</string>
     <string name="ThreadRecord_s_is_on_signal">%s è su Session!</string>
     <string name="ThreadRecord_safety_number_changed">Codice di sicurezza cambiato</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Il codice di sicurezza con %s è cambiato.</string>
@@ -153,14 +141,12 @@ scambia un altro messaggio!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Impossibile salvare sulla memoria senza l\'autorizzazione</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nuovi messaggi in %2$d conversazioni</string>
-    <string name="MessageNotifier_locked_message">Messaggio bloccato</string>
     <string name="MessageNotifier_message_delivery_failed">L\'invio del messaggio non è riuscito</string>
     <string name="MessageNotifier_failed_to_deliver_message">L\'invio del messaggio non è riuscito</string>
     <string name="MessageNotifier_error_delivering_message">C\'è stato un errore durante l\'invio del messaggio</string>
     <string name="messageMarkRead">Segna come già letto</string>
     <string name="MessageNotifier_pending_signal_messages">Messaggi Session in attesa</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Hai messaggi Session in attesa, tocca per aprire e ricevere</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Contatto</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Chiamate</string>
@@ -198,15 +184,12 @@ scambia un altro messaggio!</string>
     <string name="attachment_type_selector__gallery">Galleria</string>
     <string name="attachment_type_selector__drawer_description">Mostra/nascondi pannello degli allegati</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Caricamento contatti...</string>
     <!-- conversation_activity -->
     <string name="send">Invia</string>
     <string name="conversation_activity__compose_description">Composizione messaggio</string>
     <string name="conversation_activity__emoji_toggle_description">Dis/attiva la tastiera emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Anteprima allegato</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Mostra/nascondi pannello fotocamera</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Registra ed invia allegato audio</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Blocca la registrazione di un allegato audio</string>
     <string name="conversation_activity__enable_signal_for_sms">Abilita Session per gli SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Scorri per cancellare</string>
@@ -217,26 +200,19 @@ scambia un altro messaggio!</string>
     <string name="conversation_item_sent__send_failed_indicator_description">Invio non riuscito</string>
     <string name="conversation_item_sent__delivered_description">Consegnato</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Foto del contatto</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Esegui</string>
-    <string name="audio_view__pause_accessibility_description">Pausa</string>
     <!-- open_group_invitation_view -->
     <string name="join">Entra</string>
     <string name="open_group_guidelines_pinned_message">Messaggio fissato</string>
-    <string name="open_group_guidelines_community_guidelines">Linee guida della community</string>
     <string name="read">Leggi</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Messaggio originale non trovato</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Salta alla fine</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cerca GIF ed adesivi</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Vedi tutta la conversazione</string>
-    <string name="load_more_header__loading">Caricamento</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -249,27 +225,17 @@ scambia un altro messaggio!</string>
     <string name="message_details_header__to">A:</string>
     <string name="message_details_header__with">Con:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Crea password</string>
     <string name="AndroidManifest__media_preview">Anteprima contenuto multimediale</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Usa predefinito</string>
     <string name="arrays__use_custom">Usa personalizzato</string>
     <string name="notificationsMute1Hour">Silenzia per 1 ora</string>
     <string name="notificationsMute2Hours">Silenzia per 2 ore</string>
     <string name="notificationsMute1Day">Silenzia per 1 giorno</string>
-    <string name="arrays__mute_for_one_year">Silenzia per 1 anno</string>
-    <string name="arrays__settings_default">Impostazioni di default</string>
-    <string name="arrays__enabled">Attivato</string>
-    <string name="arrays__disabled">Disattivato</string>
     <string name="notificationsContentShowNameOnly">Solo nome</string>
     <string name="arrays__images">Immagini</string>
     <string name="audio">Audio</string>
     <string name="video">Video</string>
-    <string name="arrays__small">Piccolo</string>
     <string name="arrays__normal">Normale</string>
-    <string name="arrays__large">Grande</string>
-    <string name="arrays__extra_large">Enorme</string>
-    <string name="arrays__high">Alta</string>
     <string name="max">Massima</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -281,30 +247,12 @@ scambia un altro messaggio!</string>
     <string name="preferences__screen_security">Sicurezza schermo</string>
     <string name="sessionNotifications">Notifiche</string>
     <string name="notificationsLedColor">Colore del LED</string>
-    <string name="preferences__pref_led_blink_title">Impostazioni LED</string>
     <string name="notificationsSound">Suono</string>
-    <string name="preferences__repeat_alerts">Ripeti notifiche</string>
-    <string name="preferences__never">Mai</string>
-    <string name="preferences__one_time">Una volta</string>
-    <string name="preferences__two_times">Due volte</string>
-    <string name="preferences__three_times">Tre volte</string>
-    <string name="preferences__five_times">Cinque volte</string>
-    <string name="preferences__ten_times">Dieci volte</string>
     <string name="notificationsVibrate">Vibrazione</string>
-    <string name="preferences__green">Verde</string>
-    <string name="preferences__red">Rosso</string>
-    <string name="preferences__blue">Blu</string>
-    <string name="preferences__orange">Arancione</string>
-    <string name="preferences__cyan">Azzurro</string>
-    <string name="preferences__magenta">Magenta</string>
-    <string name="preferences__white">Bianco</string>
-    <string name="preferences__none">Nessuna</string>
     <string name="preferences__fast">Veloce</string>
     <string name="preferences__normal">Normale</string>
     <string name="preferences__slow">Lento</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Elimina automaticamente i messaggi più vecchi quando una conversazione supera una certa lunghezza.</string>
     <string name="preferences__delete_old_messages">Elimina i messaggi vecchi</string>
-    <string name="preferences__conversation_length_limit">Limite di lunghezza conversazione</string>
     <string name="preferences__trim_all_conversations_now">Riduci immediatamente tutte le conversazioni</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Analizza tutte le conversazioni e applica il limite di lunghezza.</string>
     <string name="_default">Predefinito</string>
@@ -314,8 +262,6 @@ scambia un altro messaggio!</string>
     <string name="conversationsMessageTrimming">Cancellazione messaggi</string>
     <string name="preferences_advanced__use_system_emoji">Usa le emoji di sistema</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Disattiva le emoji di Session</string>
-    <string name="preferences_notifications__messages">Messaggi</string>
-    <string name="preferences_notifications__in_chat_sounds">Suoni in chat</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -337,16 +283,10 @@ scambia un altro messaggio!</string>
     <string name="groupLeave">Abbandona il gruppo</string>
     <string name="conversationsAddToHome">Aggiungi alla schermata principale</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Espandi popup</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Invio</string>
-    <string name="conversation_group_options__conversation">Conversazione</string>
-    <string name="conversation_group_options__broadcast">Trasmetti</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Inoltra</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Anteprima contenuto multimediale</string>
     <!-- Trimmer -->
     <string name="deleting">Cancellazione</string>
     <string name="trimmer__deleting_old_messages">Cancellazione vecchi messaggi...</string>
@@ -367,10 +307,7 @@ scambia un altro messaggio!</string>
     <string name="BackupDialog_delete_backups_statement">Cancellare i backup</string>
     <string name="LocalBackupJob_creating_backup">Creazione backup...</string>
     <string name="ProgressPreference_d_messages_so_far">Ancora %d messaggi</string>
-    <string name="BackupUtil_never">Mai</string>
     <string name="preferences_app_protection__screen_lock">Blocco schermo</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Tempo di inattività per blocco schermo</string>
-    <string name="AppProtectionPreferenceFragment_none">Nessuna</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Copia chiave pubblica</string>
     <!-- Session -->
@@ -383,8 +320,6 @@ scambia un altro messaggio!</string>
     <string name="cancel">Annulla</string>
     <string name="view_fake_chat_bubble_4">Utilizza una combinazione di tecnologie avanzate come instradamento anonimo e crittografia end-to-end.</string>
     <string name="view_fake_chat_bubble_5">Gli amici non lasciano che i propri amici utilizzino app di messaggistica compromesse. Benvenuto/a.</string>
-    <string name="activity_register_title">Ecco il tuo ID Sessione</string>
-    <string name="activity_register_explanation">L\'ID Sessione è l\'indirizzo univoco che le persone possono utilizzare per contattarti su Session. L\'ID Sessione permette di eliminare ogni connessione con la tua identità reale: l\'ID Sessione è completamente anonimo e privato.</string>
     <string name="displayNamePick">Scegli il nome da visualizzare</string>
     <string name="displayNameEnter">Inserisci il nome da visualizzare</string>
     <string name="displayNameErrorDescription">Scegli il nome da visualizzare</string>
@@ -407,16 +342,12 @@ scambia un altro messaggio!</string>
     <string name="learnMore">Per saperne di più</string>
     <string name="activity_path_resolving_progress">In Risoluzione…</string>
     <string name="qrScan">Scansiona il codice QR</string>
-    <string name="fragment_enter_public_key_explanation">Gli utenti possono condividere il proprio ID Sessione accedendo alle impostazioni del proprio account e toccando \"Condividi ID Sessione\" o condividendo il proprio codice QR.</string>
     <string name="cameraGrantAccessQr">La Sessione richiede l\'accesso alla fotocamera per scansionare i codici QR</string>
     <string name="cameraGrantAccess">Consenti Accesso Fotocamera</string>
     <string name="groupNameEnter">Inserisci un nome per il gruppo</string>
     <string name="activity_create_closed_group_empty_state_button_title">Inizia una sessione</string>
     <string name="groupNameEnterPlease">Inserisci un nome per il gruppo</string>
-    <string name="activity_join_public_chat_title">Unisciti a un gruppo aperto</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Scansiona il codice QR del gruppo aperto a cui desideri partecipare</string>
     <string name="sessionSettings">Impostazioni</string>
-    <string name="activity_settings_devices_button_title">Dispositivi</string>
     <string name="sessionInviteAFriend">Invita un amico</string>
     <string name="helpFAQ">FAQ</string>
     <string name="sessionClearData">Elimina dati</string>
@@ -429,10 +360,7 @@ scambia un altro messaggio!</string>
     <string name="clearDataAll">Elimina tutti i dati</string>
     <string name="qrCode">Codice QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scansiona il codice QR di un utente per iniziare una conversazione con questa persona</string>
-    <string name="fragment_view_my_qr_code_title">Scansionami</string>
-    <string name="fragment_view_my_qr_code_share_title">Condividi codice QR</string>
     <string name="contactsContacts">Contatti</string>
-    <string name="fragment_contact_selection_closed_groups_title">Gruppi chiusi</string>
     <string name="fragment_contact_selection_open_groups_title">Gruppi aperti</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Applica</string>
@@ -441,16 +369,12 @@ scambia un altro messaggio!</string>
     <string name="contactSelect">Seleziona Contatti</string>
     <string name="view_reset_secure_session_done_message">Terminato ripristino sessione sicura</string>
     <string name="appearanceThemes">Tema</string>
-    <string name="dialog_ui_mode_option_day">Giorno</string>
-    <string name="dialog_ui_mode_option_night">Notte</string>
-    <string name="dialog_ui_mode_option_system_default">Predefinito di sistema</string>
     <string name="attachment">Allegato</string>
     <string name="messageVoice">Messaggio vocale</string>
     <string name="dialog_backup_activation_failed">Impossibile attivare i backup. Riprova o contatta l\'assistenza.</string>
     <string name="activity_backup_restore_title">Ripristina backup</string>
     <string name="activity_backup_restore_select_file">Seleziona un File</string>
     <string name="activity_backup_restore_explanation_1">Selezionare un file di backup ed inserire la passphrase con cui è stato creato.</string>
-    <string name="activity_backup_restore_passphrase">Frase di recupero di 30 caratteri</string>
     <string name="activity_link_device_skip_prompt">Questo sta impiegando un po\' di tempo, vorresti saltare?</string>
     <string name="activity_link_device_qr_message">Vai su Impostazioni → Frase di recupero sul tuo altro dispositivo per mostrare il tuo codice QR.</string>
     <string name="communityJoinOfficial">Oppure unisciti a uno di questi…</string>
@@ -469,7 +393,6 @@ scambia un altro messaggio!</string>
     <string name="media">Media</string>
     <string name="_error">Errore</string>
     <string name="warning">Attenzione</string>
-    <string name="notify_type_all">Tutte</string>
     <string name="pin">Fissa</string>
     <string name="pinUnpin">Non fissare in alto</string>
     <string name="messages">Messaggi</string>

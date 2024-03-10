@@ -17,7 +17,6 @@
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">វានឹងតម្រឹមការសន្ទនាទាំងអស់ភ្លាមៗ ទៅជាសារថ្មីៗ ចំនួន%d។</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">បើក</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(រូបភាព)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(សំឡេង)</string>
@@ -25,7 +24,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session ទាមទារសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកដើម្បីភ្ជាប់រូបថត វីដេអូ ឬសំឡេង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់របស់ប្រព័ន្ធ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\" ។</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">បញ្ហាការចាក់សំឡេង!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">ថ្ងៃនេះ</string>
     <string name="BucketedThreadMedia_Yesterday">ម្សិលមិញ</string>
@@ -34,17 +32,13 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">ទំព័រវែបសាយរកមិនឃើញ.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">ក្រុម</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">ផ្ញើបរាជ័យ ចុច សម្រាប់ព័ត៌មានលម្អិត</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">ទទួលបានសារ ផ្លាស់ប្តូរសោរ សូមចុច ដើម្បីដំណើរការ។</string>
     <string name="ConversationItem_click_to_approve_unencrypted">ផ្ញើបរាជ័យ ចុច សម្រាប់ជំនួសគ្មានសុវត្ថិភាព</string>
     <string name="ConversationItem_copied_text">បានចម្លង %s</string>
-    <string name="ConversationItem_download_more">  ទាញយកបន្ថែម</string>
-    <string name="ConversationItem_pending">  កំពុងរង់ចាំ</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">ភ្ជាប់ឯកសារ</string>
-    <string name="ConversationActivity_select_contact_info">ជ្រើសរើសព័ត៌មានលេខទំនាក់ទំនង</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">សុំទោស មានបញ្ហក្នុងការកំណត់ឯកសារភ្ជាប់របស់អ្នក។</string>
     <string name="ConversationActivity_invalid_recipient">អ្នកទទួលមិនត្រឹមត្រូវ!</string>
     <string name="blockUnblock">បើកវិញ</string>
@@ -74,7 +68,6 @@
     <!-- CropImageActivity -->
     <string name="photo">រូបតំណាង</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">ចុចអោយជាប់ដើម្បីថតសំឡេងជាសារ ដកដៃចេញដើម្បីផ្ញើ</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">សារពី %1$s</string>
     <string name="LongMessageActivity_your_message">សាររបស់អ្នក</string>
@@ -96,8 +89,6 @@
     <string name="conversationsSettingsAllMedia">ព័ត៌មានទាំងអស់</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Session ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
-    <string name="MessageRecord_you_updated_group">អ្នកបានធ្វើបច្ចុប្បន្នភាពក្រុម។</string>
-    <string name="MessageRecord_s_updated_group">%s បានធ្វើបច្ចុប្បន្នភាពក្រុម។</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">សាររបស់អ្នកនឹងមិនផុតកំណត់ទេ។</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">សារ ដែលបានផ្ញើនិងទទួលក្នុងការសន្ទនានេះ នឹងបាត់ក្នុងពេល %s បន្ទាប់ពីត្រូវបានបើកមើល។</string>
@@ -117,7 +108,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">បានធ្វើបច្ចុប្បន្នភាពក្រុម</string>
     <string name="ThreadRecord_secure_session_reset">កំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ</string>
-    <string name="ThreadRecord_media_message">សារក្នុងប្រព័ន្ធផ្សព្វផ្សាយ</string>
     <string name="ThreadRecord_s_is_on_signal">%s ប្រើ Session!​</string>
     <string name="ThreadRecord_safety_number_changed">លេខសុវត្ថិភាព បានផ្លាស់ប្តូរ</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">លេខសុវត្ថិភាពរបស់អ្នក %s បានផ្លាស់ប្តូរ។</string>
@@ -140,7 +130,6 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">មិនអាចរក្សាទុកក្នុងអង្គរក្សាទុកខាងក្រៅ ដោយគ្មានការអនុញ្ញាត</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d សារថ្មីក្នុង %2$d ការសន្ទនា</string>
-    <string name="MessageNotifier_locked_message">សារចាក់សោរ</string>
     <string name="MessageNotifier_message_delivery_failed">សារបញ្ជូនបរាជ័យ។</string>
     <string name="MessageNotifier_failed_to_deliver_message">ការបញ្ជូនសារបរាជ័យ។</string>
     <string name="MessageNotifier_error_delivering_message">ការបញ្ជូនសារមានបញ្ហា។</string>
@@ -182,15 +171,12 @@
     <string name="attachment_type_selector__gallery">វិចិត្រសាល</string>
     <string name="attachment_type_selector__drawer_description">បិទបើកថតឯកសារភ្ជាប់</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">កំពុងផ្ទុកបញ្ជីទំនាក់ទំនង...</string>
     <!-- conversation_activity -->
     <string name="send">ផ្ញើ</string>
     <string name="conversation_activity__compose_description">ការបង្កើតសារថ្មី</string>
     <string name="conversation_activity__emoji_toggle_description">បិទបើកក្តារចុចរូបអារម្មណ៍emoji</string>
     <string name="conversation_activity__attachment_thumbnail">ភ្ជាប់រូបភាពឯកសារ</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">បិទបើកថតឯកសារភ្ជាប់កាមេរ៉ារហ័ស</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">ថត​ និងផ្ញើឯកសារភ្ជាប់ជាសំឡេង</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">បិទការថតឯកសារសម្លេង</string>
     <string name="conversation_activity__enable_signal_for_sms">បើក Session សម្រាប់ SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">អូសដើម្បីបោះបង់</string>
@@ -201,22 +187,16 @@
     <string name="conversation_item_sent__send_failed_indicator_description">ផ្ញើបរាជ័យ</string>
     <string name="conversation_item_sent__delivered_description">បានបញ្ចូន</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">រូបភាពទំនាក់ទំនង</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">បើក</string>
-    <string name="audio_view__pause_accessibility_description">ផ្អាក់</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">រូបភាព</string>
     <string name="messageErrorOriginal">រកមិនឃើញសារដើម</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">អូសចុះក្រោម</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">ស្វែករក GIFs និងស្ទីកគ័រ</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">មើលសារសន្ទនាទាំងស្រុង</string>
-    <string name="load_more_header__loading">កំពុងផ្ទុក</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -229,27 +209,17 @@
     <string name="message_details_header__to">ទៅ៖</string>
     <string name="message_details_header__with">ជាមួយ៖</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">បង្កើតឃ្លាសម្ងាត់</string>
     <string name="AndroidManifest__media_preview">ការបង្ហាញសារ</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">ប្រើលំនាំដើម</string>
     <string name="arrays__use_custom">ប្រើផ្សេងៗ</string>
     <string name="notificationsMute1Hour">បិទសំឡេង 1 ម៉ោង</string>
     <string name="notificationsMute2Hours">បិទសំឡេង 2 ម៉ោង</string>
     <string name="notificationsMute1Day">បិទសំឡេង 1 ថ្ងៃ</string>
-    <string name="arrays__mute_for_one_year">បិទសំឡេង 1 ឆ្នាំ</string>
-    <string name="arrays__settings_default">ការកំណត់លំនាំដើម</string>
-    <string name="arrays__enabled">បានបើក</string>
-    <string name="arrays__disabled">បានបិទ</string>
     <string name="notificationsContentShowNameOnly">ឈ្មោះតែប៉ុណ្ណោះ</string>
     <string name="arrays__images">រូបភាព</string>
     <string name="audio">សំឡេង</string>
     <string name="video">វីដេអូ</string>
-    <string name="arrays__small">តូច</string>
     <string name="arrays__normal">ធម្មតា</string>
-    <string name="arrays__large">ធំ</string>
-    <string name="arrays__extra_large">ធំបំផុត</string>
-    <string name="arrays__high">ខ្ពស់</string>
     <string name="max">អតិបរិមា</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -260,30 +230,12 @@
     <string name="preferences__screen_security">អេក្រង់សុវត្ថិភាព</string>
     <string name="sessionNotifications">សារជូនដំណឹង</string>
     <string name="notificationsLedColor">ពណ៌​LED</string>
-    <string name="preferences__pref_led_blink_title">លំនាំលោតភ្លើង LED</string>
     <string name="notificationsSound">សំឡេង</string>
-    <string name="preferences__repeat_alerts">ជូនដំណឹងច្រើនដង</string>
-    <string name="preferences__never">មិនដែល</string>
-    <string name="preferences__one_time">ម្តង</string>
-    <string name="preferences__two_times">២ដង</string>
-    <string name="preferences__three_times">៣ដង</string>
-    <string name="preferences__five_times">៥ដង</string>
-    <string name="preferences__ten_times">១០ដង</string>
     <string name="notificationsVibrate">ញ័រ</string>
-    <string name="preferences__green">ពណ៌បៃតង</string>
-    <string name="preferences__red">ពណ៌ក្រហម</string>
-    <string name="preferences__blue">ពណ៌ខៀវ</string>
-    <string name="preferences__orange">ពណ៌ទឹកក្រូច</string>
-    <string name="preferences__cyan">ផ្ទៃមេឃ</string>
-    <string name="preferences__magenta">ស្វាយ</string>
-    <string name="preferences__white">ពណ៌ស</string>
-    <string name="preferences__none">គ្មាន</string>
     <string name="preferences__fast">លឿន</string>
     <string name="preferences__normal">ធម្មតា</string>
     <string name="preferences__slow">យឺត</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">លុបសារចាស់ៗដោយស្វ័យប្រវត្តិ នៅពេលការសន្ទនាលើសការកំណត់</string>
     <string name="preferences__delete_old_messages">លុបសារចាស់ៗ</string>
-    <string name="preferences__conversation_length_limit">ប្រវែងការសន្ទនាមានកំណត់</string>
     <string name="preferences__trim_all_conversations_now">តម្រឹមការសន្ទនាទាំងអស់ឥលូវនេះ</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">វិភាគតាមរយៈការសន្ទនាទាំងអស់ និងពង្រឹងដែនកំណត់ប្រវែងសន្ទនា</string>
     <string name="_default">លំនាំដើម</string>
@@ -293,8 +245,6 @@
     <string name="conversationsMessageTrimming">តម្រឹមសារ</string>
     <string name="preferences_advanced__use_system_emoji">ប្រើរូបអារម្មណ៍emoji នៅក្នុងប្រព័ន្ធ</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">បិទមិនប្រើរូបអារម្មណ៍emoji របស់ Session</string>
-    <string name="preferences_notifications__messages">សារ</string>
-    <string name="preferences_notifications__in_chat_sounds">សំឡេងក្នុងការជជែក</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -315,16 +265,10 @@
     <string name="groupLeave">ចាកចេញពីក្រុម</string>
     <string name="conversationsAddToHome">បន្ថែមទៅអេក្រង់ដើម</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">ពង្រីកការផុសឡើង</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">ការបញ្ជូន</string>
-    <string name="conversation_group_options__conversation">សន្ទនា</string>
-    <string name="conversation_group_options__broadcast">ផ្សព្វផ្សាយ</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">បញ្ជូនបន្ត</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">មើលព័ត៌មានជាមុន</string>
     <!-- Trimmer -->
     <string name="deleting">កំពុងលុប</string>
     <string name="trimmer__deleting_old_messages">កំពុងលុបសារចាស់ៗ...</string>
@@ -345,10 +289,7 @@
     <string name="BackupDialog_delete_backups_statement">លុបការបម្រុងទុក</string>
     <string name="LocalBackupJob_creating_backup">កំពុងបង្កើតការបម្រុងទុក...</string>
     <string name="ProgressPreference_d_messages_so_far">ឥឡូវនេះសារ%d</string>
-    <string name="BackupUtil_never">មិនធ្លាប់</string>
     <string name="preferences_app_protection__screen_lock">ចាក់សោរអេក្រង់</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">អេក្រង់ជាប់សោរ ទុកចោលហួសកំណត់ </string>
-    <string name="AppProtectionPreferenceFragment_none">គ្មាន</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->

@@ -9,7 +9,6 @@
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">စာအဟောင်းများအားလုံးဖျက်မှာလား?</string>
-    <string name="ApplicationPreferencesActivity_On">ဖွင့်ပါ</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ရုပ်ပုံ) </string>
     <string name="DraftDatabase_Draft_audio_snippet">(အသံ)</string>
@@ -17,7 +16,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">အဆက်အသွယ်များ၏ အချက်အလက်များကို ပို့နိုင်ရန် Sessionမှ အဆက်အသွယ်များအား အသုံးပြုခွင့်ရရန်လိုအပ်သည်။ သို့သော် အမြဲတမ်းတွက် ခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ ဖိုင်ကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">အသံဖွင့် မရပါ!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">ယနေ့ </string>
     <string name="BucketedThreadMedia_Yesterday">မနေ့က </string>
@@ -25,13 +23,11 @@
     <string name="attachmentsThisMonth">ဒီလ </string>
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">အဖွဲ့များ</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">အလဲအလှယ်စာတိုသော့ရရှိပါသည်၊ ဆက်လက်လုပ်ဆောင်ရန် နှိပ်ပါ။ </string>
     <string name="ConversationItem_copied_text">ကူးပြီးပါပြီ %s </string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">ပူးတွဲဖိုင် ထည့်ရန်</string>
-    <string name="ConversationActivity_select_contact_info">ဆက်သွယ်မည့်သူအချက်အလက်ရွေးချယ်ပါ </string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">ပူးတွဲဖိုင်ကို ထည့်ရာတွင် အမှားအယွင်းရှိသည်။ </string>
     <string name="ConversationActivity_invalid_recipient">လက်ခံမည့်သူမရှိပါ</string>
     <string name="blockUnblock">ဘလော့ဖြည်ပါ </string>
@@ -57,7 +53,6 @@
     <!-- CropImageActivity -->
     <string name="photo">ရုပ်ပုံ</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">အသံဖမ်းရန် ခလုပ်ကိုဖိထားပါ၊ ပို့ရန် ခလုပ်ကိုလွှတ်လိုက်ပါ</string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">ပူးတွဲဖိုင်များကို စုစည်းနေသည် </string>
@@ -71,8 +66,6 @@
     <string name="conversationsSettingsAllMedia">ရုပ်/သံ/ပုံ စာများအားလုံး</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">ထပ်မံပံ့ပိုးမှုမရှိတော့သော Session ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား signal နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
-    <string name="MessageRecord_you_updated_group">အဖွဲ့အား သင်ပြောင်းလဲမှုပြုလိုက်သည်။</string>
-    <string name="MessageRecord_s_updated_group">%s မှအဖွဲ့အား ပြောင်းလဲမှု လုပ်လိုက်သည်။</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">သင့်စာသည် အချိန်သတ်မှတ်ချက်မရှိပါ။</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">ယခုစာတွဲတွင် ပေးပို့၊ရယူသော စာများသည် တွေ့ရှိပြီး %s အတွင်းပျက်သွားပါမည်။</string>
@@ -91,7 +84,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">အဖွဲ့ကို ပြင်ဆင်ပြီး</string>
     <string name="ThreadRecord_secure_session_reset">လုံခြုံသော ဆက်ရှင်ကိုပြန်ညှိပြီး။</string>
-    <string name="ThreadRecord_media_message">ရုပ်/သံ/ပုံပါစာ</string>
     <string name="ThreadRecord_s_is_on_signal">%s က Session တွင်ရှိသည်!</string>
     <string name="ThreadRecord_safety_number_changed">လုံခြုံရေးနံပါတ် ပြောင်းလဲသွားသည်</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">သင်နှင့် %s ၏ လုံခြုံရေးနံပါတ် ပြောင်းလဲသွားသည်။</string>
@@ -114,7 +106,6 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ခွင့်ပြုချက်မပေးထားပါက အပြင်ဘက်တွင် သိမ်းဆည်း၍မရပါ</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">စကားဝိုင်း %2$d တွင် စာပေါင်း %1$d ရှိသည်။</string>
-    <string name="MessageNotifier_locked_message">ပိတ်ထားသော စာ</string>
     <string name="MessageNotifier_message_delivery_failed">စာပို့လွှတ်ခြင်း မအောင်မြင်</string>
     <string name="MessageNotifier_failed_to_deliver_message">စာပို့လွှတ်ရန် မအောင်မြင်။</string>
     <string name="MessageNotifier_error_delivering_message">စာပို့လွှတ်ခြင်း မှားယွင်းနေ</string>
@@ -148,14 +139,12 @@
     <string name="attachment_type_selector__gallery">ဓာတ်ပုံနှင့်ဗီဒီယိုများသိမ်းဆည်းရာ</string>
     <string name="attachment_type_selector__drawer_description">ပူးတွဲဖိုင် drawer အားတစ်ချက်နှိပ်ပါ </string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">လိပ်စာများ ရှာဖွေနေသည် ...</string>
     <!-- conversation_activity -->
     <string name="send">ပို့ပါ</string>
     <string name="conversation_activity__compose_description">စာအနေအထား</string>
     <string name="conversation_activity__emoji_toggle_description">ရုပ်စုံကီးဘုတ်အတွက်နှိပ်ပါ </string>
     <string name="conversation_activity__attachment_thumbnail">ပူးတွဲဖိုင် စီခြင်း </string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">ကင်မရာပူးတွဲဖိုင်စီစဉ်ခြင်း နှိပ်ရန် </string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">အသံဖမ်းပြီး ပေးပို့လိုက်ပါ</string>
     <string name="conversation_activity__enable_signal_for_sms">Session မှာ SMS ပို့လို့ရပါပြီ</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
@@ -165,21 +154,15 @@
     <string name="conversation_item_sent__send_failed_indicator_description">ပေးပို့ချက် မအောင်မြင်ပါ</string>
     <string name="conversation_item_sent__delivered_description">ပေးပို့ပြီး</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">လိပ်စာပါ ဓာတ်ပုံ</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">ဖွင့်သည်</string>
-    <string name="audio_view__pause_accessibility_description">ခဏရပ်သည်</string>
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
     <string name="QuoteView_photo">ရုပ်ပုံ</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">အောက်သို့ ဆွဲလိုက်ပါ</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFs နှင့် စတစ်ကာများကိုရှာဖွေခြင်း</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">ပြောစကားအပြည့်အစုံကိုကြည့်သည် </string>
-    <string name="load_more_header__loading">လုပ်ဆောင်နေဆဲ</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -192,57 +175,29 @@
     <string name="message_details_header__to">သို့</string>
     <string name="message_details_header__with">နှင့်အတူ</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">စကားဝှက်ကို ဖန်တီးပါ</string>
     <string name="AndroidManifest__media_preview"> ရုပ်/သံ/ပုံပါ စာများကို အစမ်းကြည့်ခြင်း</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">မူလကို သုံးပါ</string>
     <string name="arrays__use_custom">အထူးပြုကိုသုံးသည် </string>
     <string name="notificationsMute1Hour">အသံကို ၁ နာရီ ပိတ်ထားပါ။</string>
     <string name="notificationsMute2Hours">အသံကို ၂ နာရီ ပိတ်ထားပါ။</string>
     <string name="notificationsMute1Day">အသံကို ၁ ရက် ပိတ်ထားပါ</string>
-    <string name="arrays__mute_for_one_year">အသံကို ၁ နှစ် ပိတ်ထားပါ။</string>
-    <string name="arrays__settings_default">အပြင်အဆင်များကို မူလသို့</string>
-    <string name="arrays__enabled">လုပ်ဆောင်နိုင်သည်</string>
-    <string name="arrays__disabled">မလုပ်ဆောင်နိုင်ပါ</string>
     <string name="notificationsContentShowNameOnly">အမည်တစ်ခုတည်းသာ</string>
     <string name="arrays__images">ပုံများ</string>
     <string name="audio">အသံ</string>
     <string name="video">ဗီဒီယို</string>
-    <string name="arrays__small">သေးငယ်သော</string>
     <string name="arrays__normal">ပုံမှန်</string>
-    <string name="arrays__large">ကြီးသော</string>
-    <string name="arrays__extra_large">အလွန် ကြီးသော</string>
-    <string name="arrays__high">မြင့်သော</string>
     <string name="max">အများဆုံး</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__screen_security">အဖွင့်စာမျက်နှာ လုံခြုံရေး</string>
     <string name="sessionNotifications">အသိပေးချက်များ</string>
     <string name="notificationsLedColor">LED အရောင်</string>
-    <string name="preferences__pref_led_blink_title">LED လင်းမည့်ပုံစံ</string>
     <string name="notificationsSound">အသံ</string>
-    <string name="preferences__repeat_alerts">အသိပေးချက်ကို ထပ်​ပြောပါ</string>
-    <string name="preferences__never">ဘယ်တော့မှ</string>
-    <string name="preferences__one_time">တစ်ကြိမ်</string>
-    <string name="preferences__two_times">နှစ်ကြိမ်</string>
-    <string name="preferences__three_times">သုံးကြိမ်</string>
-    <string name="preferences__five_times">ငါးကြိမ်</string>
-    <string name="preferences__ten_times">ဆယ်ကြိမ်</string>
     <string name="notificationsVibrate">တုန်ခါသည်</string>
-    <string name="preferences__green">အစိမ်း</string>
-    <string name="preferences__red">အနီ</string>
-    <string name="preferences__blue">အပြာ</string>
-    <string name="preferences__orange">လိမ္မော်</string>
-    <string name="preferences__cyan">ခရမ်း</string>
-    <string name="preferences__magenta">ခရမ်းရင့်</string>
-    <string name="preferences__white">အဖြူ</string>
-    <string name="preferences__none">မည်သည့်အရာမှ မဟုတ်သော</string>
     <string name="preferences__fast">အမြန်</string>
     <string name="preferences__normal">ပုံမှန်</string>
     <string name="preferences__slow">အနှေး</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">စကားဝိုင်းမှ သတ်မှတ်ထားသည့် ပမာဏကျော်သည်နှင့် တစ်ပြိုင်နက် စာအဟောင်းများကို အလိုအလျောက် ဖျက်ပါ</string>
     <string name="preferences__delete_old_messages">စာတိုအဟောင်းများကို ဖျက်ပါ။</string>
-    <string name="preferences__conversation_length_limit">စာလုံးရေ အကန့်အသတ်</string>
     <string name="preferences__trim_all_conversations_now">စကားဝိုင်းများအားလုံးကို အခု ညှိပါ</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">စကားဝိုင်းများအားလုံးကို သေချာကြည့်ပြီး စကားဝိုင်း၏ အရှည်ကန့်သတ်ချက်ကို အတည်ပြုပါ</string>
     <string name="_default">မူလ</string>
@@ -251,8 +206,6 @@
     <string name="conversationsMessageTrimming">စာများကို ညှိခြင်း</string>
     <string name="preferences_advanced__use_system_emoji">emoji စနစ်ကို သုံးပါ</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session ရဲ့ emoji ကို ပိတ်ပါ</string>
-    <string name="preferences_notifications__messages">စာများ</string>
-    <string name="preferences_notifications__in_chat_sounds">စကားပြောနေစဥ် အသံ</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -272,16 +225,10 @@
     <!-- conversation -->
     <string name="groupLeave">အဖွဲ့မှ ထွက်မည်</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">popup ကို တိုးချဲ့ပါ</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">ပေးပို့ခြင်း</string>
-    <string name="conversation_group_options__conversation">စကားဝိုင်း</string>
-    <string name="conversation_group_options__broadcast">ထုတ်လွှင့်ပါ</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">ထပ်ဆင့် ပေးပို့ပါ။</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description"> ရုပ်/သံ/ပုံပါ စာများကို အစမ်းကြည့်ခြင်း</string>
     <!-- Trimmer -->
     <string name="deleting">ဖျက်နေဆဲ</string>
     <string name="trimmer__deleting_old_messages">စာအဟောင်းများကို ဖျက်နေဆဲ ....</string>
@@ -301,10 +248,7 @@
     <string name="BackupDialog_delete_backups_statement">အရံသိမ်းထားသည်များကို ဖျက်မည်</string>
     <string name="LocalBackupJob_creating_backup">အရံသိမ်းဆည်းမှုများ ဖန်တီးနေပါသည်...</string>
     <string name="ProgressPreference_d_messages_so_far">လက်ရှိအချိန်အထိ %d စာ ရှိပါသည်</string>
-    <string name="BackupUtil_never">ဘယ်တော့မှ</string>
     <string name="preferences_app_protection__screen_lock">မျက်နှာပြင် ပိတ်ထားခြင်း</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">မျက်နှာပြင်ကို ထိတွေ့မှုမရှိသောကြောင့် ပိတ်ရန်အချိန်စေ့ပါပြီ</string>
-    <string name="AppProtectionPreferenceFragment_none">မည်သည့်အရာမှ မဟုတ်သော</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->

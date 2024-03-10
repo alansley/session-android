@@ -159,7 +159,7 @@ public class ContactsCursorLoader extends CursorLoader {
 
   private Cursor getGroupsHeaderCursor() {
     MatrixCursor groupHeader = new MatrixCursor(CONTACT_PROJECTION, 1);
-    groupHeader.addRow(new Object[]{ getContext().getString(R.string.ContactsCursorLoader_groups),
+    groupHeader.addRow(new Object[]{ getContext().getString(R.string.fragment_contact_selection_closed_groups_title),
                                      "",
                                      ContactsContract.CommonDataKinds.Phone.TYPE_MOBILE,
                                      "",

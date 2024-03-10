@@ -24,7 +24,6 @@
         <item quantity="many">Все разговоры будут обрезаны до %d последних сообщений.</item>
         <item quantity="other">Все разговоры будут обрезаны до %d последних сообщений.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">Включено</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(изображение)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(аудио)</string>
@@ -32,7 +31,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Требуется разрешение на доступ к хранилищу для возможности прикрепления фото, видео и аудио, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите Настройки, выберите Приложения, найдите Session, затем выберите Разрешения и включите Хранилище.</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Ошибка при воспроизведении аудио!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Сегодня</string>
     <string name="BucketedThreadMedia_Yesterday">Вчера</string>
@@ -41,24 +39,18 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Браузер не найден.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Группы</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Ошибка отправки. Нажмите для подробностей</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Получено сообщение обмена ключами. Нажмите, чтобы его обработать.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Отправка не удалась, нажмите для негарантированного отката</string>
     <string name="ConversationItem_copied_text">Скопировано: %s</string>
-    <string name="ConversationItem_read_more">Подробнее</string>
-    <string name="ConversationItem_download_more">&#160; Скачать больше</string>
-    <string name="ConversationItem_pending">&#160; Ожидание</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Добавить вложение</string>
-    <string name="ConversationActivity_select_contact_info">Выбрать контакт</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Извините, произошла ошибка при обработке вложения.</string>
     <string name="message">Сообщение</string>
     <string name="ConversationActivity_compose">Создать</string>
     <string name="ConversationActivity_muted_until_date">Уведомления отключены до %1$s</string>
     <string name="ConversationActivity_muted_forever">Без звука</string>
-    <string name="ConversationActivity_open_group_guidelines">Правила сообщества</string>
     <string name="ConversationActivity_invalid_recipient">Неверный получатель!</string>
     <string name="blockUnblock">Разблокировать</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">На вашем устройстве не найдено приложение для открытия этой ссылки.</string>
@@ -91,7 +83,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Аватар</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Нажмите и удерживайте для записи голосового сообщение; отпустите для отправки</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Сообщение от %1$s</string>
     <string name="LongMessageActivity_your_message">Ваше сообщение</string>
@@ -116,8 +107,6 @@
     <string name="conversationsSettingsAllMedia">Все медиафайлы</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Полученное сообщение зашифровано в старой версии Session, которая больше не поддерживается. Пожалуйста, попросите отправителя обновиться до последней версии и отправить сообщение заново.</string>
-    <string name="MessageRecord_you_updated_group">Вы обновили группу.</string>
-    <string name="MessageRecord_s_updated_group">%s обновил(а) группу.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Срок показа сообщений не ограничен.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Сообщения, отправленные и полученные в этом разговоре, исчезнут спустя %s после их прочтения.</string>
@@ -138,7 +127,6 @@
     <!-- ThreadRecord -->
     <string name="groupUpdated">Группа обновлена</string>
     <string name="ThreadRecord_secure_session_reset">Защищенный сеанс сброшен.</string>
-    <string name="ThreadRecord_media_message">Медиа-сообщение</string>
     <string name="ThreadRecord_s_is_on_signal">%s теперь в Session!</string>
     <string name="ThreadRecord_safety_number_changed">Код безопасности изменился</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш код безопасности с %s был изменен.</string>
@@ -162,14 +150,12 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Не удается сохранить во внешнем хранилище. Доступ запрещен</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d новых сообщений в %2$d диалогах</string>
-    <string name="MessageNotifier_locked_message">Сообщение скрыто</string>
     <string name="MessageNotifier_message_delivery_failed">Сбой доставки сообщения.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Не удалось доставить сообщение.</string>
     <string name="MessageNotifier_error_delivering_message">Ошибка при доставке сообщения.</string>
     <string name="messageMarkRead">Пометить как прочитано</string>
     <string name="MessageNotifier_pending_signal_messages">Неполученные сообщения</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">У вас есть неполученные сообщения в Session. Нажмите, чтобы открыть приложение и получить их</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Контакт</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Звонки</string>
@@ -209,15 +195,12 @@
     <string name="attachment_type_selector__gallery">Галерея</string>
     <string name="attachment_type_selector__drawer_description">Показать панель вложений</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Загружаем контакты&#8230;</string>
     <!-- conversation_activity -->
     <string name="send">Отправить</string>
     <string name="conversation_activity__compose_description">Написание сообщения</string>
     <string name="conversation_activity__emoji_toggle_description">Клавиатура смайликов</string>
     <string name="conversation_activity__attachment_thumbnail">Миниатюра вложения</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Включить быстрое показывание камеры в панели вложений</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Записать и отправить аудио-вложение</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Зафиксировать запись аудиосообщения</string>
     <string name="conversation_activity__enable_signal_for_sms">Использовать Session для SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Проведите для отмены</string>
@@ -228,26 +211,19 @@
     <string name="conversation_item_sent__send_failed_indicator_description">Не удалось отправить</string>
     <string name="conversation_item_sent__delivered_description">Доставлено</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Фотография контакта</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Воспроизвести</string>
-    <string name="audio_view__pause_accessibility_description">Пауза</string>
     <!-- open_group_invitation_view -->
     <string name="join">Войти</string>
     <string name="open_group_guidelines_pinned_message">Закрепленное сообщение</string>
-    <string name="open_group_guidelines_community_guidelines">Правила сообщества</string>
     <string name="read">Читать</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Фото</string>
     <string name="messageErrorOriginal">Исходное сообщение не найдено</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Промотать вниз</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Найти GIF-анимации и стикеры</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Посмотреть весь разговор</string>
-    <string name="load_more_header__loading">Загрузка</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -260,27 +236,17 @@
     <string name="message_details_header__to">Кому:</string>
     <string name="message_details_header__with">Вместе с:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Создать парольную фразу</string>
     <string name="AndroidManifest__media_preview">Предпросмотр</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Использовать настройку по умолчанию</string>
     <string name="arrays__use_custom">Использовать пользовательскую настройку</string>
     <string name="notificationsMute1Hour">Отключить звук на 1 час</string>
     <string name="notificationsMute2Hours">Отключить звук на 2 часа</string>
     <string name="notificationsMute1Day">Отключить звук на 1 день</string>
-    <string name="arrays__mute_for_one_year">Отключить звук на 1 год</string>
-    <string name="arrays__settings_default">Настройки по умолчанию</string>
-    <string name="arrays__enabled">Включено</string>
-    <string name="arrays__disabled">Отключено</string>
     <string name="notificationsContentShowNameOnly">Только имя</string>
     <string name="arrays__images">Изображения</string>
     <string name="audio">Аудио</string>
     <string name="video">Видео</string>
-    <string name="arrays__small">Маленький</string>
     <string name="arrays__normal">Средний</string>
-    <string name="arrays__large">Большой</string>
-    <string name="arrays__extra_large">Очень большой</string>
-    <string name="arrays__high">Высокий</string>
     <string name="max">Максимальный</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -294,30 +260,12 @@
     <string name="preferences__screen_security">Защита экрана</string>
     <string name="sessionNotifications">Уведомления</string>
     <string name="notificationsLedColor">Цвет светодиода</string>
-    <string name="preferences__pref_led_blink_title">Мигание светодиода</string>
     <string name="notificationsSound">Мелодия</string>
-    <string name="preferences__repeat_alerts">Повторять сигналы</string>
-    <string name="preferences__never">Никогда</string>
-    <string name="preferences__one_time">Один раз</string>
-    <string name="preferences__two_times">Два раза</string>
-    <string name="preferences__three_times">Три раза</string>
-    <string name="preferences__five_times">Пять раз</string>
-    <string name="preferences__ten_times">Десять раз</string>
     <string name="notificationsVibrate">Вибрация</string>
-    <string name="preferences__green">Зеленый</string>
-    <string name="preferences__red">Красный</string>
-    <string name="preferences__blue">Синий</string>
-    <string name="preferences__orange">Оранжевый</string>
-    <string name="preferences__cyan">Голубой</string>
-    <string name="preferences__magenta">Пурпурный</string>
-    <string name="preferences__white">Белый</string>
-    <string name="preferences__none">Нет</string>
     <string name="preferences__fast">Быстрое</string>
     <string name="preferences__normal">Среднее</string>
     <string name="preferences__slow">Медленное</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Автоматически удалять старые сообщения, когда длина разговора превышает заданную</string>
     <string name="preferences__delete_old_messages">Удалять старые сообщения</string>
-    <string name="preferences__conversation_length_limit">Ограничение длины разговора</string>
     <string name="preferences__trim_all_conversations_now">Обрезать все разговоры</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Привести длину всех разговоров в соответствие с заданной</string>
     <string name="_default">По умолчанию</string>
@@ -327,8 +275,6 @@
     <string name="conversationsMessageTrimming">Обрезка сообщений</string>
     <string name="preferences_advanced__use_system_emoji">Использовать системные эмодзи</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Отключить встроенные эмодзи Session</string>
-    <string name="preferences_notifications__messages">Сообщения</string>
-    <string name="preferences_notifications__in_chat_sounds">Звуки в чате</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -350,16 +296,10 @@
     <string name="groupLeave">Покинуть группу</string>
     <string name="conversationsAddToHome">Добавить на главный экран</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Расширить</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Доставка</string>
-    <string name="conversation_group_options__conversation">Разговор</string>
-    <string name="conversation_group_options__broadcast">Вещание</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Переслать</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Предпросмотр</string>
     <!-- Trimmer -->
     <string name="deleting">Удаление</string>
     <string name="trimmer__deleting_old_messages">Удаляем старые сообщения...</string>
@@ -380,10 +320,7 @@
     <string name="BackupDialog_delete_backups_statement">Удалить резервные копии</string>
     <string name="LocalBackupJob_creating_backup">Создание резервной копии...</string>
     <string name="ProgressPreference_d_messages_so_far">еще %d сообщений</string>
-    <string name="BackupUtil_never">Никогда</string>
     <string name="preferences_app_protection__screen_lock">Блокировка экрана</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Тайм-аут бездействия для блокировки экрана</string>
-    <string name="AppProtectionPreferenceFragment_none">Нет</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Копировать публичный ключ</string>
     <!-- Session -->
@@ -396,8 +333,6 @@
     <string name="cancel">Отмена</string>
     <string name="view_fake_chat_bubble_4">С использованием комбинации передовых технологий анонимной маршрутизации и сквозного шифрования.</string>
     <string name="view_fake_chat_bubble_5">Друзья не позволят друзьям использовать ненадежные мессенджеры. Пользуйтесь на здоровье.</string>
-    <string name="activity_register_title">Познакомьтесь со своим Session ID</string>
-    <string name="activity_register_explanation">Ваш Session ID - это уникальный адрес, который другие пользователи могут использовать для связи с вами при помощи Session. Поскольку ваш Session ID никак не связан с вашей настоящей личностью, он по определению является полностью анонимным и конфиденциальным.</string>
     <string name="displayNamePick">Выберите ваше отображаемое имя</string>
     <string name="displayNameEnter">Введите отображаемое имя</string>
     <string name="displayNameErrorDescription">Пожалуйста, выберите отображаемое имя</string>
@@ -420,16 +355,12 @@
     <string name="learnMore">Узнать больше</string>
     <string name="activity_path_resolving_progress">Идет определение…</string>
     <string name="qrScan">Сканировать QR-код</string>
-    <string name="fragment_enter_public_key_explanation">Пользователи могут поделиться своим Session ID, зайдя в настройки своей учетной записи и нажав «Отправить Session ID», или поделившись своим QR-кодом.</string>
     <string name="cameraGrantAccessQr">Session нужен доступ к камере для сканирования QR-кодов</string>
     <string name="cameraGrantAccess">Предоставить доступ к камере</string>
     <string name="groupNameEnter">Введите название группы</string>
     <string name="activity_create_closed_group_empty_state_button_title">Начать Сессию</string>
     <string name="groupNameEnterPlease">Пожалуйста, введите название группы</string>
-    <string name="activity_join_public_chat_title">Присоединиться к открытой группе</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Отсканируйте QR-код открытой группы, в которую вы хотите вступить</string>
     <string name="sessionSettings">Настройки</string>
-    <string name="activity_settings_devices_button_title">Устройства</string>
     <string name="sessionInviteAFriend">Пригласить друга</string>
     <string name="helpFAQ">Часто задаваемые вопросы</string>
     <string name="sessionClearData">Очистить данные</string>
@@ -442,10 +373,7 @@
     <string name="clearDataAll">Очистить все данные</string>
     <string name="qrCode">QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Отсканируйте QR-код другого человека, чтобы начать с ним разговор</string>
-    <string name="fragment_view_my_qr_code_title">Сканировать меня</string>
-    <string name="fragment_view_my_qr_code_share_title">Поделиться QR-кодом</string>
     <string name="contactsContacts">Контакты</string>
-    <string name="fragment_contact_selection_closed_groups_title">Закрытые группы</string>
     <string name="fragment_contact_selection_open_groups_title">Открытые группы</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Применить</string>
@@ -454,16 +382,12 @@
     <string name="contactSelect">Выбрать контакты</string>
     <string name="view_reset_secure_session_done_message">Сброс защищенного сеанса выполнен</string>
     <string name="appearanceThemes">Тема</string>
-    <string name="dialog_ui_mode_option_day">День</string>
-    <string name="dialog_ui_mode_option_night">Ночь</string>
-    <string name="dialog_ui_mode_option_system_default">Системные настройки</string>
     <string name="attachment">Вложение</string>
     <string name="messageVoice">Голосовое сообщение</string>
     <string name="dialog_backup_activation_failed">Не удалось активировать резервные копии. Пожалуйста, попробуйте еще раз или обратитесь в службу поддержки.</string>
     <string name="activity_backup_restore_title">Восстановление резервной копии</string>
     <string name="activity_backup_restore_select_file">Выбрать файл</string>
     <string name="activity_backup_restore_explanation_1">Выберите файл резервной копии и введите парольную фразу, с которой он был создан.</string>
-    <string name="activity_backup_restore_passphrase">Фраза из 30 цифр</string>
     <string name="activity_link_device_skip_prompt">Это занимает некоторое время, хотите пропустить?</string>
     <string name="activity_link_device_qr_message">Перейдите в Настройки → Фраза для восстановления доступа на другом устройстве, чтобы показать ваш QR код.</string>
     <string name="communityJoinOfficial">Или присоединитесь к одной из этих…</string>
@@ -482,7 +406,6 @@
     <string name="media">Медиа</string>
     <string name="_error">Ошибка</string>
     <string name="warning">Предупреждение</string>
-    <string name="notify_type_all">Все</string>
     <string name="pin">Закрепить</string>
     <string name="pinUnpin">Открепить</string>
 </resources>

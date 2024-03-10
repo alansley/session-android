@@ -12,14 +12,12 @@
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">ಎಲ್ಲಾ ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
-    <string name="ApplicationPreferencesActivity_On">ಆನ್</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ಚಿತ್ರ)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ಆಡಿಯೋ)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ವೀಡಿಯೊ)</string>
     <!-- AttachmentManager -->
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">ಆಡಿಯೊವನ್ನು ಪ್ಲೇ ಮಾಡುವುದರಲ್ಲಿ ದೋಷವುಂಟಾಗಿದೆ!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">ಇಂದು</string>
     <string name="BucketedThreadMedia_Yesterday">ನಿನ್ನೆ</string>
@@ -28,15 +26,12 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">ಯಾವುದೇ ಜಾಲತಾಣ ವೀಕ್ಷಕ ಪತ್ತೆಯಾಗಿಲ್ಲ.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">ಗುಂಪುಗಳು</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ, ಮಾಹಿತಿಗಾಗಿ ತಟ್ಟಿ ನೋಡಿ</string>
-    <string name="ConversationItem_read_more">ಹೆಚ್ಚು ಓದಿರಿ</string>
     <!-- ConversationActivity -->
     <string name="message">ಸಂದೇಶ</string>
     <string name="ConversationActivity_compose">ರಚಿಸು</string>
     <string name="ConversationActivity_muted_forever">ಸದ್ದಡಗಿಸಿ</string>
-    <string name="ConversationActivity_open_group_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
@@ -107,10 +102,8 @@
     <!-- conversation_item_sent -->
     <!-- conversation_item_received -->
     <!-- audio_view -->
-    <string name="audio_view__pause_accessibility_description">ವಿರಾಮ</string>
     <!-- open_group_invitation_view -->
     <string name="join">ಸೇರಿ</string>
-    <string name="open_group_guidelines_community_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳು</string>
     <string name="read">ಓದು</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">ಚಿತ್ರಪಟ</string>
@@ -129,40 +122,22 @@
     <string name="message_details_header__with">ಜೊತೆಗೆ:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__enabled">ಸಕ್ರಿಯಗೊಳಿಸಿದೆ</string>
-    <string name="arrays__disabled">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದೆ</string>
     <string name="notificationsContentShowNameOnly">ಹೆಸರು ಮಾತ್ರ</string>
     <string name="arrays__images">ಚಿತ್ರಗಳು</string>
     <string name="audio">ಆಡಿಯೋ</string>
     <string name="video">ವೀಡಿಯೊ</string>
-    <string name="arrays__small">ಸಣ್ಣ</string>
     <string name="arrays__normal">ಸಾಮಾನ್ಯ</string>
-    <string name="arrays__large">ದೊಡ್ಡ</string>
-    <string name="arrays__extra_large">ಅತಿ ದೊಡ್ಡ</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__screen_security">ಪರದೆಯ ಭದ್ರತೆ</string>
     <string name="sessionNotifications">ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="notificationsLedColor">ಎಲಿಡಿ ಬಣ್ಣ</string>
     <string name="notificationsSound">ಶಬ್ಧ</string>
-    <string name="preferences__one_time">ಒಮ್ಮೆ</string>
-    <string name="preferences__two_times">ಎರಡು ಬಾರಿ</string>
-    <string name="preferences__three_times">ಮೂರು ಬಾರಿ</string>
-    <string name="preferences__five_times">ಐದು ಬಾರಿ</string>
-    <string name="preferences__ten_times">ಹತ್ತು ಬಾರಿ</string>
     <string name="notificationsVibrate">ಕಂಪಿಸು</string>
-    <string name="preferences__green">ಹಸಿರು</string>
-    <string name="preferences__red">ಕೆಂಪು</string>
-    <string name="preferences__blue">ನೀಲಿ</string>
-    <string name="preferences__orange">ಕಿತ್ತಳೆ</string>
-    <string name="preferences__magenta">ಕೆನ್ನೇರಿಳೆ</string>
-    <string name="preferences__white">ಬಿಳಿ</string>
-    <string name="preferences__none">ಯಾವುದೂ ಇಲ್ಲ</string>
     <string name="preferences__normal">ಸಾಮಾನ್ಯ</string>
     <string name="preferences__slow">ನಿಧಾನ</string>
     <string name="preferences__delete_old_messages">ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ</string>
     <string name="_default">ಪೂರ್ವನಿಯೋಜಿತ</string>
-    <string name="preferences_notifications__messages">ಸಂದೇಶಗಳು</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -178,15 +153,12 @@
     <string name="conversationsAddToHome">ಮುಖಪುಟಕ್ಕೆ ಸೇರಿಸು</string>
     <!-- conversation_popup -->
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">ವಿತರಣೆ</string>
-    <string name="conversation_group_options__conversation">ಸಂಭಾಷಣೆ</string>
     <!-- media_preview -->
     <!-- media_overview -->
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <!-- transport_selection_list_item -->
     <string name="preferences_app_protection__screen_lock">ಸ್ಕ್ರೀನ್ ಲಾಕ್</string>
-    <string name="AppProtectionPreferenceFragment_none">ಯಾವುದೂ ಇಲ್ಲ</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <string name="_continue">ಮುಂದುವರೆಯಿರಿ</string>
@@ -199,14 +171,10 @@
     <string name="onionRoutingPathDestination">ಗಮ್ಯಸ್ಥಾನ</string>
     <string name="learnMore">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
     <string name="sessionSettings">ಸಂಯೋಜನೆಗಳು</string>
-    <string name="activity_settings_devices_button_title">ಸಾಧನಗಳು</string>
     <string name="sessionInviteAFriend">ಒರ್ವ ಸ್ನೇಹಿತನನ್ನು ಆಮಂತ್ರಿಸಿ</string>
     <string name="sessionPrivacy">ಖಾಸಗಿತನ</string>
-    <string name="fragment_view_my_qr_code_share_title">QR ಸಂಕೇತವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
     <!-- Next round of translation -->
     <string name="done">ಆಗಿದೆ</string>
-    <string name="dialog_ui_mode_option_day">ಹಗಲು</string>
-    <string name="dialog_ui_mode_option_night">ರಾತ್ರಿ</string>
     <string name="activity_backup_restore_select_file">ಕಡತವೊಂದನ್ನು ಆಯ್ಕೆಮಾಡು</string>
     <string name="open">ತೆರೆ</string>
     <string name="enable">ಸಕ್ರಿಯಗೊಳಿಸು</string>
@@ -214,5 +182,4 @@
     <string name="media">ಮಾಧ್ಯಮ</string>
     <string name="_error">ದೋಷ</string>
     <string name="warning">ಎಚ್ಚರಿಕೆ</string>
-    <string name="notify_type_all">ಎಲ್ಲ</string>
 </resources>

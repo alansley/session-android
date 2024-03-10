@@ -9,14 +9,12 @@
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Obubaka obukadde bwonna busangule kati?</string>
-    <string name="ApplicationPreferencesActivity_On">Kweeri</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">Ekifananyi</string>
     <string name="DraftDatabase_Draft_audio_snippet">(doboozi)</string>
     <string name="DraftDatabase_Draft_video_snippet">olutambi</string>
     <!-- AttachmentManager -->
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Ensobi mukuzanya edoboozi</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Leero</string>
     <!-- CommunicationActions -->
@@ -25,7 +23,6 @@
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Key  exchange message efuniddwa, kwata okugenda mumaso</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Gatako ekigatiddwako</string>
-    <string name="ConversationActivity_select_contact_info">Londako obuubaka bwa kontakiti</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Tusonyiwe, wabaddewo ensobi mu kwerobooza kw\'ekigatibwako kyo</string>
     <string name="ConversationActivity_invalid_recipient">Afuna mukyamu</string>
     <string name="blockUnblock">sumulula</string>
@@ -47,7 +44,6 @@
     <string name="stickers">Enkwaso</string>
     <!-- CropImageActivity -->
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Nyiga olemezeko okukwata obubaka bwedobozi, gyako okuwereza </string>
     <!-- LongMessageActivity -->
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">ebigatibwako bikunganyizibwa</string>
@@ -73,7 +69,6 @@
     <string name="SmsMessageRecord_duplicate_message">Ddamu message</string>
     <!-- ThreadRecord -->
     <string name="ThreadRecord_secure_session_reset">Akadde akekusifu karesetinge nate</string>
-    <string name="ThreadRecord_media_message">obubaka bwemikutu</string>
     <!-- UpdateApkReadyListener -->
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
@@ -103,7 +98,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__location">wosangibwa</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Loading contacts</string>
     <!-- conversation_activity -->
     <string name="send">Sindika</string>
     <string name="conversation_activity__compose_description">Tandika obubaka</string>
@@ -118,7 +112,6 @@
     <string name="conversation_item_sent__send_failed_indicator_description">okusindika kuganye</string>
     <string name="conversation_item_sent__delivered_description">Etuuse</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Ekifananyi kya kontakiti</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
@@ -127,7 +120,6 @@
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Noonya GIFs ne sticka</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Laba emboozi yonna</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -140,18 +132,12 @@
     <string name="message_details_header__to">Eri:</string>
     <string name="message_details_header__with">Wamu</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Tonda passwadi yebigambo n\'enamba</string>
     <string name="AndroidManifest__media_preview">Lozaako ku bifaananyi, vidiyo n\'enyimba</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Kozesa nga bwebyakolebwa</string>
     <string name="arrays__use_custom">Kozesa bwoyagala</string>
     <string name="notificationsMute1Hour">Silisa okumala essawa emu  </string>
     <string name="notificationsMute2Hours">Silisa okumala esawa bbiri </string>
     <string name="notificationsMute1Day">Silisa okumala olunaku 1</string>
-    <string name="arrays__mute_for_one_year">Silisa okumala omwaka 1</string>
-    <string name="arrays__settings_default">Settingi ngabwezaali</string>
-    <string name="arrays__enabled">Etereddwaako</string>
-    <string name="arrays__disabled">Egyiddwaako</string>
     <string name="notificationsContentShowNameOnly">Linnya lyoka</string>
     <string name="arrays__images">Ebifaananyi</string>
     <string name="audio">Doboozi</string>
@@ -166,28 +152,12 @@
     <string name="preferences__screen_security">Okukuuma Screen yo</string>
     <string name="sessionNotifications">Obude</string>
     <string name="notificationsLedColor">Langi ya screen eraga</string>
-    <string name="preferences__pref_led_blink_title">Screen yo erage etya</string>
     <string name="notificationsSound">Doboozi</string>
-    <string name="preferences__repeat_alerts">ndiganamu okutemezebwako</string>
-    <string name="preferences__never">tekirisoboka</string>
-    <string name="preferences__one_time">Mulundi gumu</string>
-    <string name="preferences__two_times">Mirundi ebili</string>
-    <string name="preferences__three_times">Mirundi esatu</string>
-    <string name="preferences__five_times">Emirundi etaano </string>
-    <string name="preferences__ten_times">Mirundi kumi</string>
     <string name="notificationsVibrate">Okuwuluguma</string>
-    <string name="preferences__green">Kilagala</string>
-    <string name="preferences__red">kimyuffu</string>
-    <string name="preferences__orange">Kakyuungwa</string>
-    <string name="preferences__cyan">cyan </string>
-    <string name="preferences__white">Ngyeru</string>
-    <string name="preferences__none">tekuli</string>
     <string name="preferences__fast">Bwangu</string>
     <string name="preferences__normal">Kyabulijjo</string>
     <string name="preferences__slow">Kasoobo</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">buterevu sagula obubaka mu mboozi kasita buyitirira</string>
     <string name="preferences__delete_old_messages">sagula obubaka obukadde</string>
-    <string name="preferences__conversation_length_limit">Ekkomo ku mboozi</string>
     <string name="preferences__trim_all_conversations_now">sala ku mboozi zona kati</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">yita mu mboozi zonna otekeko ekkomo ku buwanvu bwazo.</string>
     <string name="_default">wifi calling compatiblity mode</string>
@@ -212,24 +182,16 @@
     <!-- conversation -->
     <string name="groupLeave">Vva mukibinja</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">gaziya popup</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">okutuusibwa</string>
-    <string name="conversation_group_options__conversation">Emboozi</string>
-    <string name="conversation_group_options__broadcast">Okusasaanya mubutongole</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">sindikirako omulala</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Lozaako ku bifaananyi, vidiyo n\'enyimba</string>
     <!-- Trimmer -->
     <string name="deleting">Okusangula</string>
     <string name="trimmer__deleting_old_messages">Okusangula obubaka obukadde</string>
     <string name="trimmer__old_messages_successfully_deleted">Obubaka obukadde busangulidwa ddala</string>
     <!-- transport_selection_list_item -->
     <string name="registration_activity__skip">Buuka</string>
-    <string name="BackupUtil_never">tekirisoboka</string>
-    <string name="AppProtectionPreferenceFragment_none">tekuli</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <!-- Next round of translation -->

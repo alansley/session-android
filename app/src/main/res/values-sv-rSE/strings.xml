@@ -20,7 +20,6 @@
         <item quantity="one">Detta kommer omedelbart trimma alla konversationer till det senaste meddelandet.</item>
         <item quantity="other">Detta kommer omedelbart trimma alla konversationer till de %d senaste meddelanden.</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_On">På</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bild)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ljud)</string>
@@ -28,7 +27,6 @@
     <!-- AttachmentManager -->
     <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session behöver behörigheten Lagring för att bifoga bilder, video och ljud men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <!-- AudioSlidePlayer -->
-    <string name="AudioSlidePlayer_error_playing_audio">Fel vid uppspelning av ljud!</string>
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Idag</string>
     <string name="BucketedThreadMedia_Yesterday">Igår</string>
@@ -37,24 +35,18 @@
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">Ingen webbläsare hittades.</string>
     <!-- ContactsCursorLoader -->
-    <string name="ContactsCursorLoader_groups">Grupper</string>
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Sändningen misslyckades, tryck för detaljer</string>
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Tog emot meddelande för nyckelutbyte, tryck för att behandla.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Sändningen misslyckades, tryck för oskyddad fallback</string>
     <string name="ConversationItem_copied_text">Kopierade %s</string>
-    <string name="ConversationItem_read_more">Läs mer</string>
-    <string name="ConversationItem_download_more">  Hämta mer</string>
-    <string name="ConversationItem_pending">  Väntar</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Bifoga fil</string>
-    <string name="ConversationActivity_select_contact_info">Välj kontaktinformation</string>
     <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Tyvärr uppstod det ett fel vid bifogning av din fil.</string>
     <string name="message">Meddelande</string>
     <string name="ConversationActivity_compose">Komponera</string>
     <string name="ConversationActivity_muted_until_date">Tystades till %1$s</string>
     <string name="ConversationActivity_muted_forever">Tystad</string>
-    <string name="ConversationActivity_open_group_guidelines">Communityns riktlinjer</string>
     <string name="ConversationActivity_invalid_recipient">Ogiltig mottagare!</string>
     <string name="blockUnblock">Avblockera</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Det finns ingen app på din enhet som kan hantera den här länken.</string>
@@ -85,7 +77,6 @@
     <!-- CropImageActivity -->
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
-    <string name="InputPanel_tap_and_hold_to_record_a_voice_message_release_to_send">Tryck och håll in för att spela in ett röstmeddelande, släpp för att skicka</string>
     <!-- LongMessageActivity -->
     <string name="LongMessageActivity_message_from_s">Meddelande från %1$s</string>
     <string name="LongMessageActivity_your_message">Ditt meddelande</string>
@@ -108,8 +99,6 @@
     <string name="conversationsSettingsAllMedia">All media</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Tog emot ett meddelande som krypterats med en tidigare version av Session som inte längre stöds. Be avsändaren uppdatera till senaste versionen och skicka om meddelandet.</string>
-    <string name="MessageRecord_you_updated_group">Du uppdaterade gruppen.</string>
-    <string name="MessageRecord_s_updated_group">%s uppdaterade gruppen.</string>
     <!-- ExpirationDialog -->
     <string name="ExpirationDialog_your_messages_will_not_expire">Dina meddelanden kommer inte att upphöra.</string>
     <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meddelanden som skickas och tas emot i den här konversationen kommer att försvinna %s efter att de setts.</string>
@@ -129,7 +118,6 @@ för nyckelutbyte!</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupp uppdaterad</string>
     <string name="ThreadRecord_secure_session_reset">Säker session nollställd.</string>
-    <string name="ThreadRecord_media_message">Mediameddelande</string>
     <string name="ThreadRecord_s_is_on_signal">%s finns på Session!</string>
     <string name="ThreadRecord_safety_number_changed">Säkerhetsnummer ändrat</string>
     <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ditt säkerhetsnummer med %s har ändrats.</string>
@@ -153,14 +141,12 @@ för nyckelutbyte!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan inte spara till externt utrymme utan behörighet</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nya meddelanden i %2$d konversationer</string>
-    <string name="MessageNotifier_locked_message">Låst meddelande</string>
     <string name="MessageNotifier_message_delivery_failed">Meddelandeleverans misslyckades.</string>
     <string name="MessageNotifier_failed_to_deliver_message">Kunde inte leverera meddelande.</string>
     <string name="MessageNotifier_error_delivering_message">Fel vid leverans av meddelande.</string>
     <string name="messageMarkRead">Läst</string>
     <string name="MessageNotifier_pending_signal_messages">Väntande Session-meddelanden</string>
     <string name="MessageNotifier_you_have_pending_signal_messages">Du har väntande Session-meddelanden, tryck för att öppna och hämta</string>
-    <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtal</string>
@@ -198,15 +184,12 @@ för nyckelutbyte!</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
     <string name="attachment_type_selector__drawer_description">Dölj/visa bilagor</string>
     <!-- contact_selection_group_activity -->
-    <string name="contact_selection_group_activity__finding_contacts">Läser in kontakter…</string>
     <!-- conversation_activity -->
     <string name="send">Skicka</string>
     <string name="conversation_activity__compose_description">Skapa meddelande</string>
     <string name="conversation_activity__emoji_toggle_description">Växla till emoji-tangentbord</string>
     <string name="conversation_activity__attachment_thumbnail">Bifogad miniatyrbild</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Dölj/Visa snabbpanel för kamerabilaga</string>
-    <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Spela in och skicka ljudbilaga</string>
-    <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lås inspelning av ljudbilaga</string>
     <string name="conversation_activity__enable_signal_for_sms">Aktivera Session för SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Dra för att avbryta</string>
@@ -217,26 +200,19 @@ för nyckelutbyte!</string>
     <string name="conversation_item_sent__send_failed_indicator_description">Sändningen misslyckades</string>
     <string name="conversation_item_sent__delivered_description">Levererat</string>
     <!-- conversation_item_received -->
-    <string name="conversation_item_received__contact_photo_description">Kontaktfoto</string>
     <!-- audio_view -->
-    <string name="audio_view__play_accessibility_description">Spela</string>
-    <string name="audio_view__pause_accessibility_description">Pausa</string>
     <!-- open_group_invitation_view -->
     <string name="join">Gå med</string>
     <string name="open_group_guidelines_pinned_message">Fäst meddelande</string>
-    <string name="open_group_guidelines_community_guidelines">Communityns riktlinjer</string>
     <string name="read">Läst</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Hittade inte originalmeddelandet.</string>
     <!-- conversation_fragment -->
-    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Bläddra till botten</string>
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">Sök GIF-bilder och stickers</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
-    <string name="load_more_header__see_full_conversation">Se hela konversationen</string>
-    <string name="load_more_header__loading">Läser in</string>
     <!-- media_overview_activity -->
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
@@ -249,27 +225,17 @@ för nyckelutbyte!</string>
     <string name="message_details_header__to">Till:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__create_passphrase">Skapa lösenord</string>
     <string name="AndroidManifest__media_preview">Mediaförhandsgranskning</string>
     <!-- arrays.xml -->
-    <string name="arrays__use_default">Använd standardinställning</string>
     <string name="arrays__use_custom">Använd anpassad inställning</string>
     <string name="notificationsMute1Hour">Tysta i 1 timme</string>
     <string name="notificationsMute2Hours">Tysta i 2 timmar</string>
     <string name="notificationsMute1Day">Tysta i 1 dag</string>
-    <string name="arrays__mute_for_one_year">Tysta i 1 år</string>
-    <string name="arrays__settings_default">Inställningars standardvärden</string>
-    <string name="arrays__enabled">Aktiverad</string>
-    <string name="arrays__disabled">Inaktiverad</string>
     <string name="notificationsContentShowNameOnly">Endast namn</string>
     <string name="arrays__images">Bilder</string>
     <string name="audio">Ljud</string>
     <string name="video">Filmer</string>
-    <string name="arrays__small">Liten</string>
     <string name="arrays__normal">Normal</string>
-    <string name="arrays__large">Stor</string>
-    <string name="arrays__extra_large">Extra stor</string>
-    <string name="arrays__high">Hög</string>
     <string name="max">Max</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -281,30 +247,12 @@ för nyckelutbyte!</string>
     <string name="preferences__screen_security">Skärmsäkerhet</string>
     <string name="sessionNotifications">Aviseringar</string>
     <string name="notificationsLedColor">Färg på ljusindikator</string>
-    <string name="preferences__pref_led_blink_title">Blinkmönster på ljusindikator</string>
     <string name="notificationsSound">Ljud</string>
-    <string name="preferences__repeat_alerts">Upprepa aviseringar</string>
-    <string name="preferences__never">Aldrig</string>
-    <string name="preferences__one_time">En gång</string>
-    <string name="preferences__two_times">Två gånger</string>
-    <string name="preferences__three_times">Tre gånger</string>
-    <string name="preferences__five_times">Fem gånger</string>
-    <string name="preferences__ten_times">Tio gånger</string>
     <string name="notificationsVibrate">Vibrera</string>
-    <string name="preferences__green">Grön</string>
-    <string name="preferences__red">Röd</string>
-    <string name="preferences__blue">Blå</string>
-    <string name="preferences__orange">Orange</string>
-    <string name="preferences__cyan">Turkos</string>
-    <string name="preferences__magenta">Lila</string>
-    <string name="preferences__white">Vit</string>
-    <string name="preferences__none">Inga</string>
     <string name="preferences__fast">Snabb</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Långsam</string>
-    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Radera automatiskt gamla meddelanden när en konversation överstiger en specificerad längd</string>
     <string name="preferences__delete_old_messages">Radera gamla meddelanden</string>
-    <string name="preferences__conversation_length_limit">Gräns för konversationslängd</string>
     <string name="preferences__trim_all_conversations_now">Trimma alla konversationer nu</string>
     <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Sök genom alla konversationer och påtvinga längdbegränsningar på konversationer</string>
     <string name="_default">Standard</string>
@@ -314,8 +262,6 @@ för nyckelutbyte!</string>
     <string name="conversationsMessageTrimming">Trimma meddelanden</string>
     <string name="preferences_advanced__use_system_emoji">Använd systemets emojier</string>
     <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inaktivera Sessions inbyggda emojier</string>
-    <string name="preferences_notifications__messages">Meddelanden</string>
-    <string name="preferences_notifications__in_chat_sounds">Ljud i konversationer</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -337,16 +283,10 @@ för nyckelutbyte!</string>
     <string name="groupLeave">Lämna grupp</string>
     <string name="conversationsAddToHome">Lägg till på hemskärmen</string>
     <!-- conversation_popup -->
-    <string name="conversation_popup__menu_expand_popup">Expandera popup</string>
     <!-- conversation_group_options -->
-    <string name="conversation_group_options__delivery">Leverans</string>
-    <string name="conversation_group_options__conversation">Konversation</string>
-    <string name="conversation_group_options__broadcast">Sändning</string>
     <!-- media_preview -->
-    <string name="media_preview__forward_title">Vidarebefordra</string>
     <!-- media_overview -->
     <!-- media_preview_activity -->
-    <string name="media_preview_activity__media_content_description">Mediaförhandsgranskning</string>
     <!-- Trimmer -->
     <string name="deleting">Raderar</string>
     <string name="trimmer__deleting_old_messages">Raderar gamla meddelanden...</string>
@@ -367,10 +307,7 @@ för nyckelutbyte!</string>
     <string name="BackupDialog_delete_backups_statement">Ta bort säkerhetskopior</string>
     <string name="LocalBackupJob_creating_backup">Skapar säkerhetskopia...</string>
     <string name="ProgressPreference_d_messages_so_far">%d meddelanden än så länge</string>
-    <string name="BackupUtil_never">Aldrig</string>
     <string name="preferences_app_protection__screen_lock">Skärmlås</string>
-    <string name="preferences_app_protection__screen_lock_inactivity_timeout">Skärmlåsets tidsgräns för inaktivitet </string>
-    <string name="AppProtectionPreferenceFragment_none">Inga</string>
     <!-- Conversation activity -->
     <string name="activity_conversation_copy_public_key_button_title">Kopiera Publika Nyckeln</string>
     <!-- Session -->
@@ -383,8 +320,6 @@ för nyckelutbyte!</string>
     <string name="cancel">Avbryt</string>
     <string name="view_fake_chat_bubble_4">Med hjälp av en kombination av avancerad anonym routing och end-to-end-krypteringsteknik.</string>
     <string name="view_fake_chat_bubble_5">Vänner låter inte vänner använda osäkra meddelandeappar. Varsågod.</string>
-    <string name="activity_register_title">Säg hej till ditt Session-ID</string>
-    <string name="activity_register_explanation">Ditt Session-ID är den unika adress folk kan använda för att kontakta dig på Session. Ditt Session-ID är helt anonymt och privat rakt igenom, helt utan koppling till din riktiga identitet.</string>
     <string name="displayNamePick">Välj visningsnamn</string>
     <string name="displayNameEnter">Ange ett visningsnamn</string>
     <string name="displayNameErrorDescription">Vänligen välj ett visningsnamn</string>
@@ -407,16 +342,12 @@ för nyckelutbyte!</string>
     <string name="learnMore">Mer info</string>
     <string name="activity_path_resolving_progress">Laddar…</string>
     <string name="qrScan">Skanna QR-kod</string>
-    <string name="fragment_enter_public_key_explanation">Användare kan dela sitt sessions-ID genom att gå in på sina kontoinställningar och trycka på \"Dela sessions-ID\" eller genom att dela sin QR-kod.</string>
     <string name="cameraGrantAccessQr">Sessionen behöver kameraåtkomst för att skanna QR-koder</string>
     <string name="cameraGrantAccess">Tillåt kameraåtkomst</string>
     <string name="groupNameEnter">Ange ett gruppnamn</string>
     <string name="activity_create_closed_group_empty_state_button_title">Starta en Session</string>
     <string name="groupNameEnterPlease">Vänligen ange ett gruppnamn</string>
-    <string name="activity_join_public_chat_title">Gå med i öppen grupp</string>
-    <string name="activity_join_public_chat_scan_qr_code_explanation">Skanna QR-koden för den öppna grupp du vill ansluta till</string>
     <string name="sessionSettings">Inställningar</string>
-    <string name="activity_settings_devices_button_title">Enheter</string>
     <string name="sessionInviteAFriend">Bjud in en vän</string>
     <string name="helpFAQ">Vanliga frågor</string>
     <string name="sessionClearData">Rensa data</string>
@@ -429,10 +360,7 @@ för nyckelutbyte!</string>
     <string name="clearDataAll">Rensa All Data</string>
     <string name="qrCode">QR-kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skanna någons QR-kod för att starta en konversation med dem</string>
-    <string name="fragment_view_my_qr_code_title">Skanna mig</string>
-    <string name="fragment_view_my_qr_code_share_title">Dela QR-kod</string>
     <string name="contactsContacts">Kontakter</string>
-    <string name="fragment_contact_selection_closed_groups_title">Stängda Grupper</string>
     <string name="fragment_contact_selection_open_groups_title">Öppna Grupper</string>
     <!-- Next round of translation -->
     <string name="menu_apply_button">Tillämpa</string>
@@ -441,16 +369,12 @@ för nyckelutbyte!</string>
     <string name="contactSelect">Välj Kontakter</string>
     <string name="view_reset_secure_session_done_message">Säker Session återställd</string>
     <string name="appearanceThemes">Tema</string>
-    <string name="dialog_ui_mode_option_day">Dag</string>
-    <string name="dialog_ui_mode_option_night">Natt</string>
-    <string name="dialog_ui_mode_option_system_default">Systemets inställning</string>
     <string name="attachment">Bilaga</string>
     <string name="messageVoice">Röstmeddelande</string>
     <string name="dialog_backup_activation_failed">Det gick inte att aktivera säkerhetskopiering. Vänligen försök igen eller kontakta support.</string>
     <string name="activity_backup_restore_title">Återställ säkerhetskopia</string>
     <string name="activity_backup_restore_select_file">Välj en fil</string>
     <string name="activity_backup_restore_explanation_1">Välj en säkerhetskopieringsfil och ange lösenfrasen som den skapades med.</string>
-    <string name="activity_backup_restore_passphrase">30-siffrig lösenfras</string>
     <string name="activity_link_device_skip_prompt">Detta tar ett tag, vill du hoppa över?</string>
     <string name="activity_link_device_qr_message">Navigera till Inställningar → Återställningsfras på din andra enhet för att visa din QR-kod.</string>
     <string name="communityJoinOfficial">Eller gå med i en av dessa…</string>
@@ -469,5 +393,4 @@ för nyckelutbyte!</string>
     <string name="media">Media</string>
     <string name="_error">Fel</string>
     <string name="warning">Varning</string>
-    <string name="notify_type_all">Alla</string>
 </resources>
