@@ -15,10 +15,6 @@
         <item quantity="one">%d melding per samtale</item>
         <item quantity="other">%d meldinger per samtale</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Dette forkorter alle samtaler til den nyeste meldinga umiddelbart.</item>
-        <item quantity="other">Dette forkorter alle samtaler til de %d siste meldingene umiddelbart.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bilde)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">I dag</string>
     <string name="DateUtils_yesterday">I går</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">I dag</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,26 +85,17 @@
     <string name="messageErrorOld">Mottatt en melding som er kryptert med en gammel versjon av Session som ikke lenger støttes. Be avsenderen om å oppdatere til nyeste versjon og sende meldinga på nytt.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Skriv inn passord</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokker</string>
     <!-- Slide -->
     <string name="Slide_image">Bilde</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Mottok ødelagt
-nøkkelutvekslingsmelding.</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Mottatt melding med ny sikkerhetsnummer. Trykk for å behandle og vise.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Du tilbakestilte sikker økt.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s tilbakestilte sikker økt.</string>
-    <string name="SmsMessageRecord_duplicate_message">Dupliser melding.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Gruppe oppdatert</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">En ny versjon av Session er tilgjengelig, trykk for å oppdatere</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Ugyldig kryptert MMS</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-melding kryptert for ikke-eksisterende økt</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session er låst opp</string>

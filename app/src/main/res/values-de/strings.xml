@@ -15,10 +15,6 @@
         <item quantity="one">%d Nachricht je Unterhaltung</item>
         <item quantity="other">%d Nachrichten je Unterhaltung</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Kürzt sofort alle Unterhaltungen bis auf die letzte Nachricht.</item>
-        <item quantity="other">Kürzt sofort alle Unterhaltungen bis auf die %d letzten Nachrichten.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(Bild)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(Audio)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">Heute</string>
     <string name="DateUtils_yesterday">Gestern</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Heute</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,25 +85,17 @@
     <string name="messageErrorOld">Eine empfangene Nachricht wurde mit einer alten, nicht mehr unterstützten Version von Signal verschlüsselt. Bitte den Absender, Session auf die neueste Version zu aktualisieren und die Nachricht erneut zu senden.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Passphrase eingeben</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blockieren</string>
     <!-- Slide -->
     <string name="Slide_image">Bild</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Fehlerhafte Schlüsselaustausch-Nachricht empfangen</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Nachricht mit neuer Sicherheitsnummer empfangen. Zum Verarbeiten und Anzeigen antippen.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Du hast die Verschlüsselung neu gestartet</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s hat die Verschlüsselung neu gestartet</string>
-    <string name="SmsMessageRecord_duplicate_message">Doppelte Nachricht</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Gruppe aktualisiert</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Eine neue Version von Session ist verfügbar. Zum Aktualisieren antippen.</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Fehlerhaft verschlüsselte MMS</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS wurde für eine nicht bestehende sichere Sitzung verschlüsselt</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session ist entsperrt</string>

@@ -15,10 +15,6 @@
         <item quantity="one">Danışıq başına %d mesaj</item>
         <item quantity="other">Danışıq başına %d mesaj</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Bu, bütün danışıqları dərhal ən son mesaja qədər kəsəcək.</item>
-        <item quantity="other">Bu, bütün danışıqları dərhal ən son %d mesaja qədər kəsəcək.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(təsvir)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(səs)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">Bu gün</string>
     <string name="DateUtils_yesterday">Dünən</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Bu gün</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,27 +85,17 @@
     <string name="messageErrorOld">Artıq dəstəklənməyən Session-un əvvəlki versiyası istifadə edilərək şifrələnmiş bir mesaj alındı. Zəhmət olmasa göndərən şəxsdən tətbiqi ən son versiyaya yeniləyib mesajı təkrar göndərməsini xahiş edin.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Parolu daxil edin</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Əngəllə</string>
     <!-- Slide -->
     <string name="Slide_image">Təsvir</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Zədəli açar mübadilə
-         mesajı alındı!
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Yeni güvənli nömrəsi ilə mesaj alındı. Emal edib görüntüləmək üçün toxunun.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Güvənli seansı sıfırladınız.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s, güvənli seansı sıfırladı.</string>
-    <string name="SmsMessageRecord_duplicate_message">Təkrarlanan mesaj.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Qrup yeniləndi</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session-ın yeni versiyası hazırdır, yeniləmək üçün toxunun</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Pis şifrələnmiş MMS mesaj</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS mesaj, mövcud olmayan seans üçün şifrələnib</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session-ın kilidi açıldı</string>

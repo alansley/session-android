@@ -15,10 +15,6 @@
         <item quantity="one">%d üzenet beszélgetésenként</item>
         <item quantity="other">%d üzenet beszélgetésenként</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Ez azonnal csonkolni fogja az összes beszélgetést a legfrissebb üzenetre.</item>
-        <item quantity="other">Ezzel kitörlöd az összes beszélgetés régebbi üzeneteit, és csak a(z) %d legfrissebbek fognak megmaradni.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(kép)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(hang)</string>
@@ -62,7 +58,6 @@
     <string name="DateUtils_today">Ma</string>
     <string name="DateUtils_yesterday">Tegnap</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Ma</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -91,27 +86,17 @@
     <string name="messageErrorOld">Egy olyan üzenet érkezett, amely a Session egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Add meg a jelmondatot</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokkolás</string>
     <!-- Slide -->
     <string name="Slide_image">Kép</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Sérült kulcs-csere
-üzenet érkezett!
- </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Üzenet érkezett új biztonsági számmal. Koppints a feldolgozáshoz és megjelenítéshez!</string>
-    <string name="SmsMessageRecord_secure_session_reset">Újraindítottad a biztonságos munkamenetet.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s újraindította a biztonságos munkamenetet.</string>
-    <string name="SmsMessageRecord_duplicate_message">Üzenet duplikálása.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Csoport frissítve</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">A Session egy új verziója érhető el, koppints a frissítéshez</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Hibás titkosított MMS üzenet</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Az MMS üzenet nem létező munkamenethez lett titkosítva</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session feloldva</string>

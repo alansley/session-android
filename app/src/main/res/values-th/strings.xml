@@ -11,9 +11,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">%d ข้อความต่อบทสนทนา</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">นี่จะตัดการสนทนาทั้งหมดให้สั้นลงเหลือแค่ %d ข้อความล่าสุดโดยทันที</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ภาพ)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(เสียง)</string>
@@ -51,7 +48,6 @@
     <string name="DateUtils_today">วันนี้</string>
     <string name="DateUtils_yesterday">เมื่อวานนี้</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">วันนี้</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -74,27 +70,17 @@
     <string name="messageErrorOld">ได้รับข้อความที่เข้ารหัสด้วย Session รุ่นเก่าที่ไม่รองรับอีกต่อไปแล้ว โปรดขอให้ผู้ส่งอัพเดตแอปเป็นเวอร์ชันล่าสุดและส่งข้อความอีกครั้ง</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">ใส่วลีรหัสผ่าน</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">ปิดกั้น</string>
     <!-- Slide -->
     <string name="Slide_image">ภาพ</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">ได้รับข้อความแลกเปลี่ยน
-        คีย์ที่เสียหาย
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">ได้รับข้อความที่มีรหัสความปลอดภัยชุดใหม่ แตะเพื่อประมวลผลและแสดง</string>
-    <string name="SmsMessageRecord_secure_session_reset">คุณได้ทำการรีเซ็ตเซสชันที่ปลอดภัย</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s ได้ทำการรีเซ็ตเซสชันที่ปลอดภัย</string>
-    <string name="SmsMessageRecord_duplicate_message">ข้อความซ้ำ</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">อัพเดตกลุ่มแล้ว</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session เวอร์ชันใหม่มาแล้ว แตะเพื่ออัพเดต</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">ข้อความ MMS ที่เข้ารหัสมีความผิดปกติ</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ข้อความ MMS ถูกเข้ารหัสสำหรับเซสชันที่ไม่มีอยู่</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session ถูกปลดล็อก</string>

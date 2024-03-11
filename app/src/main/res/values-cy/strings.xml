@@ -17,14 +17,6 @@
         <item quantity="many">%d neges i bob sgwrs</item>
         <item quantity="other">%d neges i bob sgwrs</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="zero">Bydd hyn yn tocio pob sgwrs i\'r neges ddiweddaraf.</item>
-        <item quantity="one">Bydd hyn yn tocio pob sgwrs i\'r %d neges ddiweddaraf.</item>
-        <item quantity="two">Bydd hyn yn tocio pob sgwrs i\'r %d neges ddiweddaraf.</item>
-        <item quantity="few">Bydd hyn yn tocio pob sgwrs i\'r %d neges ddiweddaraf.</item>
-        <item quantity="many">Bydd hyn yn tocio pob sgwrs i\'r %d neges ddiweddaraf.</item>
-        <item quantity="other">Bydd hyn yn tocio pob sgwrs i\'r %d neges ddiweddaraf.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(llun)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sain)</string>
@@ -67,7 +59,6 @@
     <string name="DateUtils_today">Heddiw</string>
     <string name="DateUtils_yesterday">Ddoe</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Heddiw</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -100,26 +91,17 @@
     <string name="messageErrorOld">Wedi derbyn neges wedi\'i hamgryptio gan ddefnyddio hen fersiwn o Session nad yw bellach yn cael ei gefnogi. Gofynnwch i\'r anfonwr ddiweddaru i\'r fersiwn ddiweddaraf ac ail-anfon y neges.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Rhoi cyfrinymadrodd</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Rhwystro</string>
     <!-- Slide -->
     <string name="Slide_image">Llun</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Wedi derbyn neges cyfnewid
-                     allwedd llygredig!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Derbyn neges gyda rhif diogelwch newydd. Tapiwch i brosesu a dangos.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Rydych yn ailosod y sesiwn ddiogel.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s ailosod y sesiwn ddiogel.</string>
-    <string name="SmsMessageRecord_duplicate_message">Neges ddyblyg.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grŵp wedi\'i ddiweddaru</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Mae fersiwn newydd o Session ar gael. Tapiwch i ddiweddaru.</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Neges MMS amgryptio gwael</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Neges MMS wedi\'i hamgryptio ar gyfer sesiwn nad yw\'n bodoli</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Mae Session wedi\'i ddatgloi</string>

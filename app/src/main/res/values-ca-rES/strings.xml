@@ -15,10 +15,6 @@
         <item quantity="one">%d missatge per conversa</item>
         <item quantity="other">%dmissatges per conversa</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Això reduirà immediatament totes les converses al missatge més recent.</item>
-        <item quantity="other">Això reduirà immediatament totes les converses als %d missatges més recents.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imatge)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(àudio)</string>
@@ -59,7 +55,6 @@
     <string name="DateUtils_today">Avui</string>
     <string name="DateUtils_yesterday">Ahir</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Avui</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -88,26 +83,17 @@
     <string name="messageErrorOld">S\'ha rebut un missatge encriptat amb una versió antiga del Session que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Introduïu la contrasenya</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Bloca</string>
     <!-- Slide -->
     <string name="Slide_image">Imatge</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">S\'ha rebut un missatge corromput
-d\'intercanvi de claus!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">S\'ha rebut un missatge amb un número de seguretat nou. Toqueu per processar-lo i mostrar-lo.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Heu restablit la sessió segura.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s ha restablit la sessió segura.</string>
-    <string name="SmsMessageRecord_duplicate_message">Missatge duplicat.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">S\'ha actualitzat el grup</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Hi ha disponible una versió nova del Session. Toqueu per actualitzar-lo</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Missatge MMS mal encriptat</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Missatge MMS encriptat per a una sessió que no existeix</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">S\'ha desblocat el Session</string>

@@ -12,10 +12,6 @@
         <item quantity="one">%drimariypi chaski.</item>
         <item quantity="other">%drimariypi chaskikuna</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Kayka ñapashmi chayralla rimarishkata pitinka.</item>
-        <item quantity="other">Kayka ñapashmi kay %d chayralla rimarishkata pitinka.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(shuyu)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(uyariy)</string>
@@ -54,7 +50,6 @@
     <string name="DateUtils_today">Kunan</string>
     <string name="DateUtils_yesterday">Kayna</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Kunan</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -75,26 +70,17 @@
     <string name="messageErrorOld">Shuk pakalla chaski chayamurka ñawpa Signalmanta, mana paskarita usharinchu. Maykan kachamushkaman Sessionta mushukyachichun mañapay, chaski chayamuchun.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Pakalla paskachikta killkapay</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Pakana</string>
     <!-- Slide -->
     <string name="Slide_image">Shuyu</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Shuk mana alli chaski chayamurka 
-ranti pakalla yupaykunamanta</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Mushuk chaski chayamurka, mushuk pakalla yupaywan. Llapipay katichinkapak, shinallata rikuchinkapakpash.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Kutinlla kallarirkanki </string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s kutinlla kallarirkanki</string>
-    <string name="SmsMessageRecord_duplicate_message">Chaskita ishkaychi</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Tantanakuy mushukyashka</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Mushukyachina Session tiyan, mushukyachinkapak kaypi llapi.</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Killkana MMS pakalla wakllimi kan</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS chaskika mana tiyashka pachapimi pakakurka.</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session yaykunallami kan.</string>

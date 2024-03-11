@@ -14,9 +14,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">%d pesan setiap percakapan</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">Ini akan memangkas semua percakapan menjadi %d percakapan terbaru.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(gambar)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(suara)</string>
@@ -53,7 +50,6 @@
     <string name="DateUtils_today">Hari ini</string>
     <string name="DateUtils_yesterday">Kemarin</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Hari ini</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -81,26 +77,17 @@
     <string name="messageErrorOld">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung. Harap minta pengirim untuk memperbarui ke versi terbaru dan mengirim ulang pesannya.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Masukkan kata frasa</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokir</string>
     <!-- Slide -->
     <string name="Slide_image">Gambar</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Menerima kunci yang rusak
-        bertukar pesan!
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Menerima pesan dengan nomor keamanan baru. Ketuk untuk memproses dan menampilkan.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Anda mengatur ulang sesi aman.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s mengatur ulang sesi aman.</string>
-    <string name="SmsMessageRecord_duplicate_message">Duplikat pesan.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grup diperbarui</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Versi terbaru dari Session telah tersedia, klik untuk memperbarui</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Pesan MMS terenkripsi buruk</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session terbuka</string>

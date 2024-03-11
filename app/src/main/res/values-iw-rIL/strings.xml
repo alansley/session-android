@@ -17,12 +17,6 @@
         <item quantity="many">%d הודעות לשיחה</item>
         <item quantity="other">%d הודעות לשיחה</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">זה יקצץ מיד את כל השיחות אל ההודעה החדשה ביותר.</item>
-        <item quantity="two">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>
-        <item quantity="many">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>
-        <item quantity="other">זה יקצץ מיד את כל השיחות אל %d ההודעות החדשות ביותר.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(תמונה)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(שמע)</string>
@@ -65,7 +59,6 @@
     <string name="DateUtils_today">היום</string>
     <string name="DateUtils_yesterday">אתמול</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">היום</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -96,26 +89,17 @@
     <string name="messageErrorOld">התקבלה הודעה מוצפנת ע\"י שימוש בגרסה ישנה של Session שאינה נתמכת יותר. אנא בקש מהשולח לעדכן אל הגרסה העדכנית ביותר ולשלוח מחדש את ההודעה.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">הכנס משפט־סיסמה</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">חסום</string>
     <!-- Slide -->
     <string name="Slide_image">תמונה</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">התקבל מפתח פגום
-החלף הודעה!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">התקבלה הודעה עם מספר ביטחון חדש. הקש כדי לעבד ולהציג.</string>
-    <string name="SmsMessageRecord_secure_session_reset">איפסת את השיח המאובטח.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">ההתחברות המאובטחת אותחלה על־ידי %s.</string>
-    <string name="SmsMessageRecord_duplicate_message">הודעה כפולה.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">הקבוצה עודכנה</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">גרסה חדשה של Session זמינה, הקש כדי לעדכן</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">הודעת MMS מוצפנת באופן גרוע</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">הודעת MMS הוצפנה עבור שיח בלתי־קיים</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session אינו נעול</string>

@@ -17,12 +17,6 @@
         <item quantity="many">%d žinučių pokalbyje</item>
         <item quantity="other">%d žinučių pokalbyje</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Tai nedelsiant išvalys visus pokalbius iki %d naujausios žinutės.</item>
-        <item quantity="few">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
-        <item quantity="many">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
-        <item quantity="other">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(paveikslas)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(garsas)</string>
@@ -66,7 +60,6 @@
     <string name="DateUtils_today">Šiandien</string>
     <string name="DateUtils_yesterday">Vakar</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Šiandien</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -97,27 +90,17 @@
     <string name="messageErrorOld">Gauta žinutė buvo užšifruota, naudojant seną Session versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Įveskite slaptafrazę</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Užblokuoti</string>
     <!-- Slide -->
     <string name="Slide_image">Paveikslas</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Gauta sugadinta šifro
-        apsikeitimo žinutė!
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Gauta žinutė su nauju saugumo numeriu. Bakstelėkite, norėdami apdoroti ir rodyti.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Jūs atstatėte saugųjį seansą.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s atstatė saugųjį seansą.</string>
-    <string name="SmsMessageRecord_duplicate_message">Dviguba žinutė.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupė atnaujinta</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Yra prieinama nauja Session versija, bakstelėkite, norėdami atnaujinti</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Blogai šifruota MMS žinutė</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS žinutė užšifruota seansui, kurio nėra</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session yra atrakinta</string>

@@ -15,10 +15,6 @@
         <item quantity="one">%d संदेश प्रति बातचीत</item>
         <item quantity="other">%d संदेश प्रति बातचीत</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">यह तुरंत सभी वार्तालापों को हाल ही के संदेश में ट्रिम कर देगा।</item>
-        <item quantity="other">यह तुरंत सभी वार्तालापों को हाल ही के %d संदेशों में ट्रिम कर देगा।</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(तस्वीर)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ऑडियो)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">आज</string>
     <string name="DateUtils_yesterday">कल</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">आज</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,26 +85,17 @@
     <string name="messageErrorOld">Session के पुराने संस्करण का उपयोग करके एन्क्रिप्ट किया गया एक संदेश प्राप्त हुआ जो अब समर्थित नहीं है। कृपया प्रेषक से नवीनतम संस्करण में अपडेट करने और संदेश भेजने के लिए कहें।</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">पासफ्रेज दर्ज करें</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">ब्लॉक</string>
     <!-- Slide -->
     <string name="Slide_image">तस्वीर </string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">दूषित कुंजी प्राप्त की
-         संदेश का आदान-प्रदान करें!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">नए सुरक्षा नंबर के साथ संदेश प्राप्त हुआ। प्रक्रिया और प्रदर्शित करने के लिए टैप करें।</string>
-    <string name="SmsMessageRecord_secure_session_reset">आपने सुरक्षित सत्र रीसेट कर दिया है।</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s ने सुरक्षित सत्र को रीसेट कर दिया है </string>
-    <string name="SmsMessageRecord_duplicate_message">संदेश डुप्लिकेट करें</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">समूह अद्यतन</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session का एक नया संस्करण उपलब्ध है, अपडेट करने के लिए टैप करें</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">खराब एन्क्रिप्टेड एमएमएस संदेश</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">गैर-मौजूदा सत्र के लिए एमएमएस संदेश एन्क्रिप्ट किया गया </string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session खुला है </string>

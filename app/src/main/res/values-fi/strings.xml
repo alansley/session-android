@@ -15,10 +15,6 @@
         <item quantity="one">%d viesti per keskustelu</item>
         <item quantity="other">%d viestiä per keskustelu</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Tämä karsii välittömästi kaikki keskustelut viimeisimpään viestiin.</item>
-        <item quantity="other">Tämä karsii välittömästi kaikki keskustelut %d viimeisimpään viestiin.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(kuva)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ääni)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">tänään</string>
     <string name="DateUtils_yesterday">eilen</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">tänään</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,26 +85,17 @@
     <string name="messageErrorOld">Vastaanotettiin viesti, joka on salattu Sessionin vanhalla versiolla, jota ei enää tueta. Pyydä lähettäjää päivittämään uusimpaan versioon ja lähettämään viesti uudelleen.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Syötä salalause</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Estä</string>
     <!-- Slide -->
     <string name="Slide_image">Kuva</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Vastaanotettu avaintenvaihtoviesti 
-on viallinen!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Vastaanotettiin viesti uudella turvanumerolla. Aloita käsittely napauttamalla.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Sinä alustit suojatun istunnon.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s alusti suojatun istunnon.</string>
-    <string name="SmsMessageRecord_duplicate_message">Viestin kaksoiskappale.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Ryhmä päivitetty</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Uusi versio Sessionista on saatavilla. Päivitä napauttamalla.</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">MMS-viestin salaus on kelvoton</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-viesti salattu olemattomalle istunnolle</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Sessionin lukitus on auki</string>

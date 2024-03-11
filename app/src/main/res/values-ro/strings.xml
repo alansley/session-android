@@ -16,11 +16,6 @@
         <item quantity="few">%d mesaje per conversație</item>
         <item quantity="other">%d  mesaje per conversație</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Această acțiune va scurta toate conversațiile până la cel mai recent mesaj.</item>
-        <item quantity="few">Această acțiune va scurta toate conversațiile până la cele mai recente %d mesaje.</item>
-        <item quantity="other">Această acțiune va scurta toate conversațiile până la cele mai recente %d mesaje.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(imagine)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
@@ -64,7 +59,6 @@
     <string name="DateUtils_today">Azi</string>
     <string name="DateUtils_yesterday">Ieri</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Azi</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -94,28 +88,17 @@
     <string name="messageErrorOld">Ai primit un mesaj care a fost criptat cu o versiune mai veche de Session care nu mai este suportată. Roagă-l pe expeditor să-și actualizeze aplicația la ultima versiune și să retrimită mesajul.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Introduceți parola</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blochează</string>
     <!-- Slide -->
     <string name="Slide_image">Imagine</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Primit mesajul conform caruia
-schimbul de chei este corupt </string>
-    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">Mesaj de schimb de chei primit pentru o versiune de protocol invalidă.
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">A fost primit un mesaj cu noul număr de siguranță. Apasă pentru a fi procesat și afișat.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Ai resetat sesiunea securizată.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s a resetat sesiunea securizată.</string>
-    <string name="SmsMessageRecord_duplicate_message">Mesaj duplicat.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupul a fost actualizat</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">O nouă versiune de Session este disponibilă, apasă pentru actualizare</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Mesaj MMS criptat incorect</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mesaj MMS criptat pentru o sesiune inexistentă</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session este deblocat</string>

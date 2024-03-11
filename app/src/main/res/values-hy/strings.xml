@@ -15,10 +15,6 @@
         <item quantity="one">%d հաղորդագրություն խոսակցությունում</item>
         <item quantity="other">%d նամակներ մի զրույցի համար</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև վերջին հաղորդագրությունը.</item>
-        <item quantity="other">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև %d վերջին հաղորդագրությունը.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(նկար)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(աուդիո)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">Այսօր</string>
     <string name="DateUtils_yesterday">Երեկ</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Այսօր</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,29 +85,17 @@
     <string name="messageErrorOld">Հաղորդագրությունը չի ուղարկվել, քանի որ session-ի տվյալ տարբերակը հնացել է, խնդրում ենք թարմացնել այն, և ուղարկեք հաղորդագրությունը նորից.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Մուտքագրեք գաղտնաբառը</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Արգելափակել</string>
     <!-- Slide -->
     <string name="Slide_image">Նկար</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Ստացվել է վնասված
-        բանալիների փոխանակման հաղորդագրություն։
-    </string>
-    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">        Ստացվել է բանալիների փոխանակման հաղորդագրություն անվավեր արձանագրման տարբերակի համար:
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Ստացվել է հաղորդագրություն նոր անվտանգության կոդով: Սեղմեք՝ հաղորդագրությունը մշակելու և ցուցադրելու համար:</string>
-    <string name="SmsMessageRecord_secure_session_reset">Դուք վերագործարկել եք ապահով սեսսիան:</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s վերագործարկել է ապահով սեսսիան:</string>
-    <string name="SmsMessageRecord_duplicate_message">Պաճենել նամակը։</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Խումբը թարմացված ք</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Հասանել է Session֊ի նոր տարբերակը. Սեղմեք՝ թարմացնելու համար</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Սխալ գաղտնագրված MMS նամակ</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS հաղորդագրությունը կոդավորված է գոյություն չունեցող սեսիաի համար</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session֊ը ապակողպված է</string>

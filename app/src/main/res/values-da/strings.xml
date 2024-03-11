@@ -15,10 +15,6 @@
         <item quantity="one">%d besked pr. samtale</item>
         <item quantity="other">%d beskeder pr. samtale</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Dette vil øjeblikkeligt reducere alle samtaler til den nyeste besked.</item>
-        <item quantity="other">Dette vil øjeblikkeligt reducere alle samtaler til de %d nyeste beskeder.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(billede)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">I dag</string>
     <string name="DateUtils_yesterday">I går</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">I dag</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,26 +85,17 @@
     <string name="messageErrorOld">Modtog en besked krypteret med en ældre version af Session, der ikke længere understøttes. Bed venligst afsenderen om at opgradere til den nyeste version og sende beskeden igen</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Indtast kodeord</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokér</string>
     <!-- Slide -->
     <string name="Slide_image">Billede</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Modtog ugyldig nøgle
-udveksel besked!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Besked med nyt sikkerhedsnummer modtaget. Tap for at behandle og vise</string>
-    <string name="SmsMessageRecord_secure_session_reset">Nulstillet sikker forbindelse</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s har nulstillet den sikre session</string>
-    <string name="SmsMessageRecord_duplicate_message">Dupliker besked</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Gruppe opdateret</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">En ny version af Session er tilgængelig, tap for at opdatere</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Ugyldig krypteret MMS besked</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS besked krypteret til en session der ikke findes</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session er låst op</string>

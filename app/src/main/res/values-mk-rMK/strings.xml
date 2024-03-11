@@ -39,7 +39,6 @@
     <string name="DateUtils_today">ယနေ့ </string>
     <string name="DateUtils_yesterday">မနေ့က </string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">ယနေ့ </string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -62,25 +61,17 @@
     <string name="messageErrorOld">ထပ်မံပံ့ပိုးမှုမရှိတော့သော Session ဗားရှင်းအဟောင်းဖြင့် encrypt လုပ်ထားသော စာကိုလက်ခံရရှိသည်။ စာပို့သူအား signal နောက်ဆုံးဗားရှင်းကိုမြှင့်ပြီး စာအားပြန်ပို့ခုိင်းပါ။</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">စကားဝှက် ထည့်ပါ။</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">ဘလော့ လုပ်မည်</string>
     <!-- Slide -->
     <string name="Slide_image">ပုံ</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">အလဲအလှယ်စာတိုသော့ အလွဲများလက်ခံရရှိပါသည်။</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">လုံခြုံရေးနံပါတ်အသစ်ပါသောစာ လက်ခံရရှိပါသည်။ ကြည့်ရန်နှိပ်ပါ။</string>
-    <string name="SmsMessageRecord_secure_session_reset">သင်သည် လုံခြုံသောဆက်ရှင်များကို ပြန်ညှိလိုက်ပါသည်။</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s သည် လုံခြုံသောဆက်ရှင်ကို ပြန်ညှိလိုက်ပါသည်။</string>
-    <string name="SmsMessageRecord_duplicate_message">ဆင်တူဖြစ်နေသောစာ</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">အဖွဲ့ကို ပြင်ဆင်ပြီး</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session ဗားရှင်းအသစ်ရပါပြီ၊ အဆင့်မြှင့်ရန် နှိပ်လိုက်ပါ</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">မှားယွင်းစာ encrpyt လုပ်ထားသော MMS စာ</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ရှိမနေတော့သည့် ဆက်ရှင်အတွက် MMS စာများကို encrypt လုပ်ထားပါသည်။</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session ကိုဖွင့်လိုက်ပါပြီ</string>

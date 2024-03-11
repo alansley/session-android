@@ -16,12 +16,6 @@
         <item quantity="many">%d správ na konverzáciu</item>
         <item quantity="other">%d správ na konverzáciu</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Týmto sa premažú všetky konverzácie až na poslednú správu.</item>
-        <item quantity="few">Týmto sa premažú všetky konverzácie až na posledné %d správy.</item>
-        <item quantity="many">Týmto sa premažú všetky konverzácie až na posledných %d správ.</item>
-        <item quantity="other">Týmto sa premažú všetky konverzácie až na posledných %d správ.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(obrázok)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(zvuk)</string>
@@ -64,7 +58,6 @@
     <string name="DateUtils_today">Dnes</string>
     <string name="DateUtils_yesterday">Včera</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Dnes</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -95,26 +88,17 @@
     <string name="messageErrorOld">Prijatá správa je šifrovaná starou verziou Sessionu, ktorá už nie je podporovaná. Prosím požiadajte odosielateľa o aktualizáciu na najnovšiu verziu a opätovné odoslanie správy.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Zadajte heslo</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokovať</string>
     <!-- Slide -->
     <string name="Slide_image">Obrázok</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Bola prijatá poškodená správa
-výmeny kľúčov.</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Prijatá správa s novým bezpečnostným číslom. Ťuknite pre spracovanie a zobrazenie.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Obnovili ste bezpečnú reláciu.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s resetoval/a zabezpečenú reláciu.</string>
-    <string name="SmsMessageRecord_duplicate_message">Duplikácia správy.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Skupina bola aktualizovaná</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">K dispozícii je nová verzia Sessionu, ťuknutím aktualizujte</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Zlá šifrovaná MMS správa</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS správa šifrovaná pre neexistujúcu reláciu</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session je odomknutý</string>

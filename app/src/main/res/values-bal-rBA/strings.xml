@@ -41,7 +41,6 @@
     <string name="DateUtils_today">Hari ini</string>
     <string name="DateUtils_yesterday">Kemarin</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Hari ini</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -66,26 +65,17 @@
     <string name="messageErrorOld">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung, Harap beri tahu pengirim untuk memutakhirkan ke versi terbaru dan kirim ulang pesannya.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Masukkan frasa sandi</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokir</string>
     <!-- Slide -->
     <string name="Slide_image">Gambar</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Pesan menerima dan 
-memproses pertukaran kunci korupsi.</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Menerima pesan dengan nomor keamanan baru. Ketuk untuk memproses dan menampilkan.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Anda mengatur ulang sesi aman.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s mengatur ulang sesi aman.</string>
-    <string name="SmsMessageRecord_duplicate_message">Pesan Duplikat</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grup diperbarui</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Versi baru Session tersedia, ketuk untuk memperbarui</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Pesan MMS terenkripsi buruk</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Pesan MMS dienkripsi untuk sesi yang tidak ada</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session tidak terkunci</string>

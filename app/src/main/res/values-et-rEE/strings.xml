@@ -13,10 +13,6 @@
         <item quantity="one">%d sõnum vestluse kohta</item>
         <item quantity="other">%d sõnumit vestluse kohta</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">See piirab koheselt kõiki vestlusi, jättes alles ainult viimase sõnumi.</item>
-        <item quantity="other">See piirab koheselt kõiki vestlusi, jättes alles ainult %d viimast sõnumit.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(pilt)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(heli)</string>
@@ -54,7 +50,6 @@
     <string name="DateUtils_today">Täna</string>
     <string name="DateUtils_yesterday">Eile</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Täna</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -83,27 +78,17 @@
     <string name="messageErrorOld">Vastuvõetud sõnum, mis on krüptitud kasutades vana, mittetoetatud Sessioni versiooni. Palun palu saatjal uuendada uusimale versioonile ja siis sõnum uuesti saata.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Sisesta salaväljend</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokeeri</string>
     <!-- Slide -->
     <string name="Slide_image">Pilt</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Vastuvõetud korrumpeerunud
-        võtmevahetussõnum!
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Vastuvõetud sõnum uue turvanumbriga. Koputa, et töödelda ja kuvada.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Sa lähtestasid turvalise sessiooni.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s lähtestas turvalise sessiooni.</string>
-    <string name="SmsMessageRecord_duplicate_message">Duplikaatsõnum.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupp uuendatud</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Uus Sessioni versioon on saadaval, koputa uuendamiseks</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Halb krüptitud MSS sõnum</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-sõnum krüptitud mitteeksisteeriva sessiooni jaoks</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session on avatud</string>

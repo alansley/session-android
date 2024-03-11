@@ -165,10 +165,6 @@ public class PassphrasePromptActivity extends BaseActionBarActivity {
     fingerprintCancellationSignal = new CancellationSignal();
     fingerprintListener           = new FingerprintListener();
 
-    SpannableString hint = new SpannableString("  " + getString(R.string.PassphrasePromptActivity_enter_passphrase));
-    hint.setSpan(new RelativeSizeSpan(0.9f), 0, hint.length(), Spanned.SPAN_INCLUSIVE_INCLUSIVE);
-    hint.setSpan(new TypefaceSpan("sans-serif"), 0, hint.length(), Spanned.SPAN_INCLUSIVE_INCLUSIVE);
-
     fingerprintPrompt.setImageResource(R.drawable.ic_fingerprint_white_48dp);
     fingerprintPrompt.getBackground().setColorFilter(getResources().getColor(R.color.signal_primary), PorterDuff.Mode.SRC_IN);
 

@@ -15,10 +15,6 @@
         <item quantity="one">%d bericht per gesprek</item>
         <item quantity="other">%d berichten per gesprek</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Dit zal onmiddellijk alle gesprekken inkorten tot het laatste bericht.</item>
-        <item quantity="other">Dit zal onmiddellijk alle gesprekken inkorten tot de laatste %d berichten.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(afbeelding)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(geluid)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">Vandaag</string>
     <string name="DateUtils_yesterday">Gisteren</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Vandaag</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,27 +85,17 @@
     <string name="messageErrorOld">Dit bericht gebruikt verouderde versleuteling van een Session-versie die niet langer ondersteund wordt. Vraag de afzender om bij te werken naar de meest recente versie en het bericht opnieuw te verzenden.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Voer wachtwoord in</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blokkeren</string>
     <!-- Slide -->
     <string name="Slide_image">Afbeelding</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Beschadigd sleuteluitwisselingsbericht
-        ontvangen!
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Er is een bericht met een nieuw veiligheidsnummer ontvangen. Tik om te verwerken en te tonen.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Je hebt de beveiligde sessie opnieuw ingesteld.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s heeft de beveiligde sessie opnieuw ingesteld.</string>
-    <string name="SmsMessageRecord_duplicate_message">Gedupliceerd bericht.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Groep aangepast</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Er is een nieuwe versie van Session beschikbaar, tik om bij te werken</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Verkeerd versleuteld mms-bericht</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Mms-bericht versleuteld voor niet-bestaande sessie</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session is ontgrendeld</string>

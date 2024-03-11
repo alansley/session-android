@@ -14,9 +14,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">每個對話中有 %d 個訊息</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">這將會立即裁剪所有對話至 %d 最新訊息。</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(圖片)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(音訊)</string>
@@ -58,7 +55,6 @@
     <string name="DateUtils_today">今天</string>
     <string name="DateUtils_yesterday">昨天</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">今天</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -86,28 +82,17 @@
     <string name="messageErrorOld">收到一則使用舊版本並已經不再支援的 Signal 加密訊息。請尋求傳送人將 Session 升級到最新的版本並再次傳送該訊息。</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">輸入自訂密碼</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">封鎖</string>
     <!-- Slide -->
     <string name="Slide_image">圖片</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">收到一組毀損的
-金鑰交換訊息！</string>
-    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">        收到的金鑰交換訊息是未知的協定／版本。
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">收到使用新安全碼的訊息。按此顯示細節並執行。</string>
-    <string name="SmsMessageRecord_secure_session_reset">您已重設安全對話。</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s 重設安全對話。</string>
-    <string name="SmsMessageRecord_duplicate_message">複製訊息</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">群組已更新</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">有新版本的 Session，輕觸更新</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">損毀的加密MMS訊息</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">此加密MMS訊息的對話已不存在</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session 已經解鎖</string>

@@ -17,12 +17,6 @@
         <item quantity="many">%d сообщений в разговоре</item>
         <item quantity="other">%d сообщений в разговоре</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Все разговоры будут обрезаны до одного последнего сообщения.</item>
-        <item quantity="few">Все разговоры будут обрезаны до %d последних сообщений.</item>
-        <item quantity="many">Все разговоры будут обрезаны до %d последних сообщений.</item>
-        <item quantity="other">Все разговоры будут обрезаны до %d последних сообщений.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(изображение)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(аудио)</string>
@@ -67,7 +61,6 @@
     <string name="DateUtils_today">Сегодня</string>
     <string name="DateUtils_yesterday">Вчера</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Сегодня</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -98,27 +91,17 @@
     <string name="messageErrorOld">Полученное сообщение зашифровано в старой версии Session, которая больше не поддерживается. Пожалуйста, попросите отправителя обновиться до последней версии и отправить сообщение заново.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Введите кодовую фразу</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Заблокировать</string>
     <!-- Slide -->
     <string name="Slide_image">Изображение</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Получено поврежденное
-        сообщение обмена ключами!
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Получено сообщение с новым кодом безопасности. Нажмите, чтобы обработать и отобразить сообщение. </string>
-    <string name="SmsMessageRecord_secure_session_reset">Вы сбросили защищенный сеанс.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s сбросил(а) защищенный сеанс.</string>
-    <string name="SmsMessageRecord_duplicate_message">Дубликат сообщения.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Группа обновлена</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Доступна новая версия Session. Нажмите для обновления</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Неправильно зашифрованное MMS-сообщение</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-сообщение зашифровано для несуществующей сессии</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session разблокирован</string>

@@ -31,7 +31,6 @@
     <string name="DateUtils_just_now">Kati</string>
     <string name="DateUtils_today">Leero</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Leero</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -50,15 +49,11 @@
     <string name="messageErrorOld">Ofuny obubaka obubuabuzidwa nga bakozesa vazoni ya signal etakyaakola. wattu saba asindise okuza obujja  signal ye  era addemu asindike obubaka</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Yingiza passiwaddi nga yabigaambo ne namba</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Zziyiiza</string>
     <!-- Slide -->
     <string name="Slide_image">ekifaananyi</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_secure_session_reset">Resetinga akadde akekusifu</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%sresettinga akade akekusifu</string>
-    <string name="SmsMessageRecord_duplicate_message">Ddamu message</string>
     <!-- ThreadRecord -->
     <!-- UpdateApkReadyListener -->
     <!-- MessageDisplayHelper -->

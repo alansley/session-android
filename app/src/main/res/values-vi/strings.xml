@@ -14,9 +14,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">%d tin nhắn trong mỗi cuộc trò chuyện</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">Thao tác này sẽ thu ngắn tức thì tất cả các cuộc hội thoại đến %d tin nhắn gần nhất.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(hình)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(âm thanh)</string>
@@ -48,7 +45,6 @@
     <string name="DateUtils_today">Hôm nay</string>
     <string name="DateUtils_yesterday">Ngày hôm qua</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Hôm nay</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -67,15 +63,11 @@
     <string name="messageErrorOld">Đã nhận một tin nhắn được mã khoá bởi phiên bản Session cũ và không còn được hỗ trợ. Hãy yêu cầu người gửi cập nhật phiên bản mới nhất và gửi lại tin nhắn.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Điền vào cụm từ mật khẩu</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Chặn</string>
     <!-- Slide -->
     <string name="Slide_image">Ảnh</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Nhận được thông tin
-trao đổi chìa khóa bị hỏng!</string>
-    <string name="SmsMessageRecord_duplicate_message">Tin nhắn trùng lập.</string>
     <!-- ThreadRecord -->
     <!-- UpdateApkReadyListener -->
     <!-- MessageDisplayHelper -->

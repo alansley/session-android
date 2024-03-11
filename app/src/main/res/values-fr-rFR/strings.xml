@@ -14,10 +14,6 @@
         <item quantity="one">%d message par conversation</item>
         <item quantity="other">%d messages par conversation</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Cela réduira immédiatement toutes les conversations au message le plus récent.</item>
-        <item quantity="other">Cela réduira immédiatement toutes les conversations aux %d messages les plus récents.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(image)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
@@ -62,7 +58,6 @@
     <string name="DateUtils_today">Aujourd’hui</string>
     <string name="DateUtils_yesterday">Hier</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Aujourd’hui</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -91,26 +86,17 @@
     <string name="messageErrorOld">Vous avez reçu un message chiffré avec une ancienne version de Signal qui n’est plus prise en charge. Veuillez demander à l’expéditeur de mettre Session à jour vers la version la plus récente et de renvoyer son message.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Saisir la phrase de passe</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Bloquer</string>
     <!-- Slide -->
     <string name="Slide_image">Image</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Vous avez reçu un message d’échange de clés corrompu !</string>
-    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">        Le message d\'échange de clé reçu est pour une version du protocole invalide.    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Vous avez reçu un message avec un nouveau numéro de sécurité. Touchez pour le traiter et l’afficher.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Vous avez réinitialisé la session sécurisée.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s a réinitialisé la session sécurisée.</string>
-    <string name="SmsMessageRecord_duplicate_message">Message en double.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Le groupe a été mis à jour</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Une nouvelle version de Session est proposée. Touchez pour lancer la mise à jour</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Message multimédia chiffré incorrect</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Le message multimédia est chiffré pour une session non existante</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session est déverrouillé</string>

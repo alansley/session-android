@@ -15,10 +15,6 @@
         <item quantity="one">సంభాషణకు %d సందేశం</item>
         <item quantity="other">సంభాషణకు %d సందేశం</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">ఇది వెంటనే ఇటీవల సందేశానికి అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
-        <item quantity="other">ఇది వెంటనే ఇటీవల  %d  సందేశాలకు  అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(చిత్రం)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ఆడియో)</string>
@@ -62,7 +58,6 @@
     <string name="DateUtils_today">నేడు</string>
     <string name="DateUtils_yesterday">నిన్న</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">నేడు</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -85,25 +80,17 @@
     <string name="messageErrorOld">ఇకపై మద్దతు అని Session యొక్క పాత సంస్కరణను ఉపయోగించి ఎన్క్రిప్ట్ ఒక సందేశాన్ని పొందింది. దయచేసి ఇటీవల సంస్కరణకు అప్డేట్ మరియు సందేశాన్ని మళ్లీ పంపినవారు అడగండి</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">సంకేతపదమును ప్రవేశపెట్టుము</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">నిరోధించు</string>
     <!-- Slide -->
     <string name="Slide_image">చిత్రం</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">తప్ఫు కీ స్వీకరించబడినది , సందేసమును మర్చండి </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">నూతన భద్రతా సంఖ్యను సందేశంలో అందుకునాం . ప్రాసెస్ మరియు ప్రదర్శనకు నొక్కండి.</string>
-    <string name="SmsMessageRecord_secure_session_reset">మీ సెషన్ సురక్షిత ంగ పునరుద్ధరించు.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s సురక్షిత భాగాన్ని మరలా మార్చు</string>
-    <string name="SmsMessageRecord_duplicate_message">నకిలీ సందేశాం.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">సమూహం నవీకరించబడింది</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session యొక్క కొత్త వివరణం అందుబాటులో ఉంది, నవీకరణ కొరకు తట్టండి</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">చెడు ఎన్క్రిప్టెడ్ ఎంఎంఎస్ సందేశాన్ని</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ఎంఎంఎస్ సందేశాన్ని మనుగడలో కాని సెషన్ కోసం గుప్తీకరించబడింది</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session తాళం తీయబడినది</string>

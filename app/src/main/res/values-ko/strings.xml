@@ -14,9 +14,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">대화방당 %d개의 메시지</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">모든 대화를 최근 메시지 %d개로 줄입니다.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(이미지)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(오디오)</string>
@@ -57,7 +54,6 @@
     <string name="DateUtils_today">오늘</string>
     <string name="DateUtils_yesterday">어제</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">오늘</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -81,17 +77,11 @@
     <string name="messageErrorOld">지원하지 않는 Session 버전으로 부터 암호화된 메시지를 받았습니다. 상대방에게 최신 버전으로 업데이트 하고 다시 보내기를 요청해 주세요.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">암호 입력</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">차단</string>
     <!-- Slide -->
     <string name="Slide_image">이미지</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">받은 키 교환 메시지가 손상되었습니다.</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">새 안전번호가 담긴 메시지를 수신했습니다. 두드려서 표시와 처리를 시작하십시오.</string>
-    <string name="SmsMessageRecord_secure_session_reset">당신은 안전 세션을 초기화 했습니다.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s 님이 안전 세션을 초기화 했습니다</string>
-    <string name="SmsMessageRecord_duplicate_message">중복된 메시지</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">그룹이 갱신되었습니다</string>
     <!-- UpdateApkReadyListener -->

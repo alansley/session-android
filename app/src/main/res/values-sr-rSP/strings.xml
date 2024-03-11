@@ -15,11 +15,6 @@
         <item quantity="few">%d поруке по преписци</item>
         <item quantity="other">%d порука по преписци</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Ово ће одмах да скрати све преписке на најскорију поруку.</item>
-        <item quantity="few">Ово ће одмах да скрати све преписке на %d најскорије поруке.</item>
-        <item quantity="other">Ово ће одмах да скрати све преписке на %d најскоријих порука.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(слика)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(звук)</string>
@@ -63,7 +58,6 @@
     <string name="DateUtils_today">Данас</string>
     <string name="DateUtils_yesterday">Јуче</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Данас</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -93,26 +87,17 @@
     <string name="messageErrorOld">Примљена је порука шифрована старим издањем Session-a које више није подржано. Замолите пошиљаоца да надогради на најновије издање и поново пошаље поруку.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Унесите лозинку</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Блокирај</string>
     <!-- Slide -->
     <string name="Slide_image">Слика</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Примљена је оштећена
-порука размене кључа!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Примљена је порука са новим безбедносним бројем. Тапните за обраду и приказ.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Ресетовали сте безбедну сесију.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s ресетова безбедну сесију.</string>
-    <string name="SmsMessageRecord_duplicate_message">Порука дупликат.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Група ажурирана.</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Ново издање Session-a је доступно, тапните за надоградњу</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Лоше шифрована ММС порука</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ММС порука шифрована за непостојећу сесију</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session је откључан</string>

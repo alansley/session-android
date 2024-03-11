@@ -15,10 +15,6 @@
         <item quantity="one">%d messaggio per conversazione</item>
         <item quantity="other">%d messaggi per conversazione</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Questo porterà immediatamente tutte le conversazioni al messaggio più recente.</item>
-        <item quantity="other">Saranno ridotte immediatamente tutte le conversazioni ai %d messaggi più recenti.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(immagine)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">Oggi</string>
     <string name="DateUtils_yesterday">Ieri</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Oggi</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,26 +85,17 @@
     <string name="messageErrorOld">Hai ricevuto un messaggio cifrato usando una vecchia versione di Session che non è più supportata. Ti preghiamo di chiedere al mittente di aggiornare l\'app e rimandare il messaggio.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Inserire la password</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Blocca</string>
     <!-- Slide -->
     <string name="Slide_image">Immagini</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Ricevuta una chiave corrotta
-scambia un altro messaggio!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Ricevuto messaggio con un nuovo codice di sicurezza. Premere per procedere e visualizzare.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Hai resettato la sessione sicura.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s ha resettato la sessione sicura.</string>
-    <string name="SmsMessageRecord_duplicate_message">Messaggio duplicato.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Gruppo aggiornato</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">È disponibile una nuova versione di Session, tocca per aggiornare</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Cifratura MMS non valida</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Messaggio MMS cifrato per una sessione non esistente</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session è sbloccato</string>

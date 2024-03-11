@@ -14,10 +14,6 @@
         <item quantity="one">Serê gotûbêjê %d peyam</item>
         <item quantity="other">Serê gotûbêjê %d peyam </item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Ev ê niha hemû gotûbêjan biqusîne û wê tenê peyama herî nû bimîne.</item>
-        <item quantity="other">Ev ê niha hemû gotûbêjan biqusîne û wê tenê %d peyamên herî nû bimînin.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(wêne)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(deng)</string>
@@ -55,7 +51,6 @@
     <string name="DateUtils_today">Îro</string>
     <string name="DateUtils_yesterday">Doh</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Îro</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -78,27 +73,17 @@
     <string name="messageErrorOld">Peyamek ku bi guhertoyek bêkêr ya Signalê hatiye şifrekirin hate wergirtin. Ji şandiyarî re bêje bila Sessionê hildemîne û peyamê dîsa bişîne.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Borînbiwêjê têkeve</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Astengkirin</string>
     <!-- Slide -->
     <string name="Slide_image">Wêne</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Peyama veguhastina
-        mifteyê xirabe hat!
-    </string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Bii hejmara ewlehiyê ya nû peyam hat. Ji bo vekirin û nîşandanê bitepîne.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Te danişîna parastî nûsazand.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s danişîna parastî nûsazand.</string>
-    <string name="SmsMessageRecord_duplicate_message">Peyamê dubare bike.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Kom hat hildemandin</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Guhertoyeke nû ya Sessionê amade ye, ji bo hildemandinê bitepîne. </string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Peyama MMSê ya xirab şîfrekirî</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Peyama MMSê ji bo danişîna tuneyî hat şîfrekirin</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session vekirî ye</string>

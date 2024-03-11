@@ -14,9 +14,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">会話ごとに%d件のメッセージ</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">最新の%d個のメッセージ以外を削除します</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(画像)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(音声)</string>
@@ -58,7 +55,6 @@
     <string name="DateUtils_today">今日</string>
     <string name="DateUtils_yesterday">昨日</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">今日</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -86,25 +82,17 @@
     <string name="messageErrorOld">受信したメッセージは古いSignalで暗号化されているので解読不能です。Sessionをアップデートして再送するよう送信者にお願いしてください。</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">パスフレーズを入力してください</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">ブロック</string>
     <!-- Slide -->
     <string name="Slide_image">画像</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">無効な鍵交換メッセージを受信しました</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">新しい安全番号が付いたメッセージを受け取りました。処理や表示を行うにはタップしてください。</string>
-    <string name="SmsMessageRecord_secure_session_reset">セキュアセッションを設定し直しました</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%sがセキュアセッションを設定し直しました。</string>
-    <string name="SmsMessageRecord_duplicate_message">重複メッセージ</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">グループが更新されました</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Sessionの最新版が出ました。タップしてアップデートしてください。</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">MMSメッセージの暗号化が正しくありません</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMSメッセージは存在しないセッションのために暗号化されています</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Sessionのロック解除</string>

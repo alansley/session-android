@@ -14,9 +14,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">每个会话限制 %d 条消息</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">这将会立刻整理所有会话到 %d 最近的信息</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(图片)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(音频)</string>
@@ -58,7 +55,6 @@
     <string name="DateUtils_today">今天</string>
     <string name="DateUtils_yesterday">昨天</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">今天</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -86,26 +82,17 @@
     <string name="messageErrorOld">已收到的信息使用了旧版本的 Signal 进行加密，并且已经不再被支持。请联系发送者升级 Session 到最新版本然后再次发送该信息</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">输入密码</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">屏蔽</string>
     <!-- Slide -->
     <string name="Slide_image">图片</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">收到损坏的密钥
-交换消息！</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">接受到了使用新的安全码的信息。点击以处理和显示</string>
-    <string name="SmsMessageRecord_secure_session_reset">您重置了安全会话。</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s 重置了安全会话</string>
-    <string name="SmsMessageRecord_duplicate_message">重复的信息。</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">群组已更新</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session 有新版本了，点击升级！</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">已损坏的加密彩信</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">已为不存在的会话加密其中的彩信</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked"> Session 已解锁</string>

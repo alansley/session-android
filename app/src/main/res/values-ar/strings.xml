@@ -19,14 +19,6 @@
         <item quantity="many">%d</item>
         <item quantity="other">%d رسائل في كل محادثة</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="zero">تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-        <item quantity="one">سوف يتم تقليم كل المحادثات إلى أحدث رسالة.</item>
-        <item quantity="two">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-        <item quantity="few">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-        <item quantity="many">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-        <item quantity="other">سوف يتم تقليم كل المحادثات إلى أحدث %d رسالة الآن.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(صورة)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(صوت)</string>
@@ -73,7 +65,6 @@
     <string name="DateUtils_today">اليوم</string>
     <string name="DateUtils_yesterday">البارحة</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">اليوم</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -106,25 +97,17 @@
     <string name="messageErrorOld">لقد استلمت رسالة مشفرة من إصدارة Session قديمة وتوقف دعمها. من فضلك اطلب من الراسل الترقية إلي أحدث إصدار وإعادة إرسال الرسالة.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">أدخل العبارة السرية</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">حظر</string>
     <!-- Slide -->
     <string name="Slide_image">صورة</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">تم استلام رسالة تبادل مفاتيح تالفة.</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">تم استلام رسالة برقم أمان جديد. انقر للمعالجة والعرض.</string>
-    <string name="SmsMessageRecord_secure_session_reset">لقد قمت بإعادة ضبط تأمين المحادثة.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s أعاد ضبط تأمين المحادثة.</string>
-    <string name="SmsMessageRecord_duplicate_message">رسالة مكررة.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">تم تحديث المحموعة</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">إصدار جديد لـ Session متوفر، أنقر لتحديثه</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">رسالة مشفرة رديئة</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">الرسالة مشفرة دون وجود قناة اتصال...</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session غير مقفول</string>

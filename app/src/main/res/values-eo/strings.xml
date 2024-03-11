@@ -15,10 +15,6 @@
         <item quantity="one">Po %d mesaĝo en interparolado</item>
         <item quantity="other">Po %d mesaĝoj en interparolo</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Tio tuj tondetos ĉiujn konversaciojn al la plej lastatempa mesaĝo.</item>
-        <item quantity="other">Tio tuj tondetos ĉiujn interparolojn al la %d plej lastatempaj mesaĝoj.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(bildo)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sonaĵo)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">Hodiaŭ</string>
     <string name="DateUtils_yesterday">Hieraŭ</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Hodiaŭ</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,26 +85,17 @@
     <string name="messageErrorOld">Vi ricevis mesaĝon ĉifrita per malnova Session-a versio, kiu ne plu estas subtenata. Bonvolu peti la sendinton ĝisdatigi al la plej freŝa versio, kaj resendi la mesaĝon.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Entajpu pasfrazon</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Bloki</string>
     <!-- Slide -->
     <string name="Slide_image">Bildo</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Ricevis difektitan mesaĝon
-        pri interŝanĝo de ŝlosiloj!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Ricevis mesaĝon kun nova sekuriga numero. Tuŝetu por trakti kaj montri ĝin.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Vi restarigis la sekuran seancon.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s restarigis la sekuran seancon.</string>
-    <string name="SmsMessageRecord_duplicate_message">Duobla mesaĝo.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupo ĝisdatigita</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Nova versio de Session disponeblas, tuŝetu por ĝisdatigi</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Malbone ĉifrita MMS-mesaĝo</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-mesaĝo ĉifrita por neekzistanta seanco</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session estas malŝlosita</string>

@@ -13,9 +13,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">%d សារក្នុងពេលសន្ទនា</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="other">វានឹងតម្រឹមការសន្ទនាទាំងអស់ភ្លាមៗ ទៅជាសារថ្មីៗ ចំនួន%d។</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(រូបភាព)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(សំឡេង)</string>
@@ -53,7 +50,6 @@
     <string name="DateUtils_today">ថ្ងៃនេះ</string>
     <string name="DateUtils_yesterday">ម្សិលមិញ</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">ថ្ងៃនេះ</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -81,26 +77,17 @@
     <string name="messageErrorOld">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Session ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">បញ្ចូលឃ្លាសម្ងាត់</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">ហាមឃាត់</string>
     <!-- Slide -->
     <string name="Slide_image">រូបភាព</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">បានទទួលសារផ្លាស់ប្តូរ
-សោរមានបញ្ហា!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">ទទួលបានសារជាមួយលេខសុវត្ថិភាពថ្មី។ ចុច ដើម្បីដំណើការនិងបង្ហាញ។</string>
-    <string name="SmsMessageRecord_secure_session_reset">អ្នកកំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ។</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s កំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ។</string>
-    <string name="SmsMessageRecord_duplicate_message">សារស្ទួន។</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">បានធ្វើបច្ចុប្បន្នភាពក្រុម</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">កំណែថ្មីរបស់ Session មានហើយ, ចុច ដើម្បីធ្វើបច្ចុប្បន្នភាព។</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">ការណាល់កូដសម្ងាត់សារMMS​ មិនត្រឹមត្រូវ</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">សារMMS ត្រូវបានកាណាល់កូដសម្ងាត់សម្រាប់កំឡុងពេលមិនប្រើប្រាស់</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked"> Session បានដោះសោ</string>

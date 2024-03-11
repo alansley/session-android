@@ -15,10 +15,6 @@
         <item quantity="one">Sohbet başına %d ileti</item>
         <item quantity="other">Sohbet başına %d ileti</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Bu işlem tüm sohbetleri en yeni iletiye kadar kırpar.</item>
-        <item quantity="other">Bu işlem tüm sohbetleri en yeni %d iletiye kadar kırpar.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(görüntü)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ses)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">Bugün</string>
     <string name="DateUtils_yesterday">Dün</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Bugün</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,26 +85,17 @@
     <string name="messageErrorOld">Artık desteklenmeyen eski bir Signal sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Session\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Parola girin</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Engelle</string>
     <!-- Slide -->
     <string name="Slide_image">Görüntü</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Bozulmuş anahtar takas
-iletisi alındı!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Yeni güvenlik numarası ile ileti alındı. İşlemek ve görüntülemek için dokunun.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Güvenli oturumu sıfırladınız.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s güvenli oturumu sıfırladı.</string>
-    <string name="SmsMessageRecord_duplicate_message">Tekrarlanan ileti.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grup güncellendi</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session\'in yeni sürümü mevcut, güncellemek için dokunun</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Bozuk şifrelenmiş MMS iletisi</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS iletisi var olmayan bir oturum için şifrelenmiş</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session kilidi açık</string>

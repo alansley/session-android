@@ -42,7 +42,6 @@
     <string name="DateUtils_today">Leo</string>
     <string name="DateUtils_yesterday">Jana</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Leo</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -66,17 +65,11 @@
     <string name="messageErrorOld">Imepokea ujumbe uliofichwa kwa kutumia toleo la zamani la Session ambayo haitumiki tena. Tafadhali kumwomba mtumaji kuwasasishe kwa toleo la hivi karibuni na kurejesha ujumbe.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Ingiza nenosiri</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Zuia</string>
     <!-- Slide -->
     <string name="Slide_image">picha</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">kupokea key iliyoharibika badilishana ujumbe</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">ujumbe uliopokelewa pamoja na namba ya usalama. Gusa kuchakata na kuonyesha.</string>
-    <string name="SmsMessageRecord_secure_session_reset">umerekebisha salama kipindi</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">1%s kupanga tena kipindi salama</string>
-    <string name="SmsMessageRecord_duplicate_message">kutoa nakala ya ujumbe</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Kikundi kilichosasishwa</string>
     <!-- UpdateApkReadyListener -->

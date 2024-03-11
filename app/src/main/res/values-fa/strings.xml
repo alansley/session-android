@@ -15,10 +15,6 @@
         <item quantity="one">%d پیام در هر گفتگو</item>
         <item quantity="other">%d پیام در هر گفتگو</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">این گزینه فورا تمامی مکالمات شما را به پیام آخر کاهش خواهد داد.</item>
-        <item quantity="other">این گزینه فورا تمامی مکالمات شما را به %d پیام آخر کاهش خواهد داد.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(تصویر)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(صدا)</string>
@@ -61,7 +57,6 @@
     <string name="DateUtils_today">امروز</string>
     <string name="DateUtils_yesterday">دیروز</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">امروز</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -90,26 +85,17 @@
     <string name="messageErrorOld">یک پیام رمزنگاری شده با استفاده از نسخه‌ای قدیمی از Signal که دیگر پشتیبانی نمی‌شود برایتان ارسال شده است، لطفاً از فرستنده بخواهید نرم‌افزار Session خود را به آخرین نسخه بروزرسانی کرده و مجدداً پیام را برای شما ارسال کند.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">رمز را وارد کنید</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">مسدود</string>
     <!-- Slide -->
     <string name="Slide_image">تصویر</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">دریافت کلید خراب
-تبادل پیام!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">پيامی با شماره امنیتی تازه دريافت شد. برای پردازش و شناسايی، لمس کنيد.</string>
-    <string name="SmsMessageRecord_secure_session_reset">شما نشست امن را ریست نموده اید.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s نشست امن را ریست نمود.</string>
-    <string name="SmsMessageRecord_duplicate_message">تکثیر پیام.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">گروه به روز شد</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">نسخه جدید Session در دسترس است، برای آپدیت اینجا را تپ کنید</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message"> پیام MMS بد رمزگذاری شده</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">پیام های MMS برای نشست های غیر موجود رمزنگاری شده اند</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session قفل شده است</string>

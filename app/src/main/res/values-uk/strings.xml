@@ -17,12 +17,6 @@
         <item quantity="many">%d повідомлень на розмову</item>
         <item quantity="other">%d повідомлень на розмову</item>
     </plurals>
-    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
-        <item quantity="one">Це одразу скоротить всі розмови до %d останнього повідомлення.</item>
-        <item quantity="few">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
-        <item quantity="many">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
-        <item quantity="other">Це одразу скоротить всі розмови до %d останніх повідомлень.</item>
-    </plurals>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(зображення)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(звук)</string>
@@ -67,7 +61,6 @@
     <string name="DateUtils_today">Сьогодні</string>
     <string name="DateUtils_yesterday">Вчора</string>
     <!-- DeviceListItem -->
-    <string name="DeviceListItem_today">Сьогодні</string>
     <!-- DocumentView -->
     <!-- GiphyActivity -->
     <!-- GiphyFragmentPageAdapter -->
@@ -99,26 +92,17 @@
     <string name="messageErrorOld">Отримано повідомлення, яке зашифроване старою версією Session, яка вже не підтримується. Попросіть друга оновитися до останньої версії та надіслати повідомлення знову.</string>
     <!-- ExpirationDialog -->
     <!-- PassphrasePromptActivity -->
-    <string name="PassphrasePromptActivity_enter_passphrase">Введіть фразу-пароль</string>
     <!-- RecipientPreferencesActivity -->
     <string name="block">Заблокувати</string>
     <!-- Slide -->
     <string name="Slide_image">Зображення</string>
     <!-- SmsMessageRecord -->
-    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Отримано пошкоджене 
-повідомлення обміну ключами!</string>
-    <string name="SmsMessageRecord_received_message_with_new_safety_number_tap_to_process">Отримано повідомлення із новим номером безпеки. Натисніть для відображення.</string>
-    <string name="SmsMessageRecord_secure_session_reset">Ви скинули безпечний сеанс.</string>
-    <string name="SmsMessageRecord_secure_session_reset_s">%s скидає безпечний сеанс.</string>
-    <string name="SmsMessageRecord_duplicate_message">Дублікат повідомлення.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Групу оновлено</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Нова версія Session доступна, натисніть для оновлення</string>
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
-    <string name="MmsMessageRecord_bad_encrypted_mms_message">Погано зашифроване MMS повідомлення</string>
-    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS повідомлення зашифроване для неіснуючої сесії</string>
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
     <string name="lockAppUnlocked">Session розблоковано</string>
