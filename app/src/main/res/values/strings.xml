@@ -1047,5 +1047,9 @@
     <string name="disappearingMessagesSetYou"><b>You</b> set messages to disappear {time} after they have been {disappearingmessagestype}.</string>
     <string name="disappearingMessagesUpdatedYou"><b>You</b> updated disappearing message settings.</string>
     <string name="groupInviteDelete">Are you sure you want to delete this group invite?</string>
+    <string name="messageVoiceErrorShort">Tap and hold to record a voice message.</string>
+    <string name="attachmentsErrorLoad">Error attaching file</string>
+    <string name="blockBlockedUser">Blocked {name}</string>
+    <string name="blockUnblockedUser">Unblocked {name}</string>
 
 </resources>
