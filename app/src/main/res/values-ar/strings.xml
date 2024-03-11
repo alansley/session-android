@@ -40,11 +40,9 @@
     <string name="BucketedThreadMedia_This_week">هذا الأسبوع</string>
     <string name="attachmentsThisMonth">هذا الشهر</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">لم يتم العثور على متصفح ويب.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">فشل الإرسال , اضغط للحصول على معلومات</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">تم استلام رسالة تبادل مفاتيح، أنقر للمتابعة.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">فشل الإرسال، انقر للرد الغير آمن</string>
     <string name="ConversationItem_copied_text">تم نسخ %s</string>
     <!-- ConversationActivity -->
@@ -52,7 +50,6 @@
     <string name="message">رسالة</string>
     <string name="ConversationActivity_muted_until_date">كتم حتى %1$s</string>
     <string name="ConversationActivity_muted_forever">كتم</string>
-    <string name="ConversationActivity_invalid_recipient">جهة اتصال غير صحيحة!</string>
     <string name="blockUnblock">إلغاء الحظر</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">يحتاج Session إلى إذن الميكروفون من أجل الرسائل الصوتية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الميكروفون\".</string>
     <string name="cameraGrantAccessStorage">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
@@ -122,12 +119,6 @@
     <string name="SmsMessageRecord_duplicate_message">رسالة مكررة.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">تم تحديث المحموعة</string>
-    <string name="ThreadRecord_secure_session_reset">إعادة ضبط جلسة آمنة.</string>
-    <string name="ThreadRecord_s_is_on_signal">%sمتواجد على Session !</string>
-    <string name="ThreadRecord_safety_number_changed">تم تعديل رقم الأمان</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">تم تغيير رقم الأمان الخاص بك وبـ%s.</string>
-    <string name="ThreadRecord_you_marked_verified">لقد قمت بتصديق</string>
-    <string name="ThreadRecord_you_marked_unverified">لقد قمت بإلغاء التحقق</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">إصدار جديد لـ Session متوفر، أنقر لتحديثه</string>
     <!-- MessageDisplayHelper -->
@@ -174,8 +165,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">جهة اتصال</string>
-    <string name="attachment_type_selector__contact_description">متصل</string>
     <string name="attachment_type_selector__camera">كاميرا</string>
     <string name="attachment_type_selector__camera_description">كاميرا</string>
     <string name="gif">صورة Gif</string>
@@ -186,10 +175,8 @@
     <!-- conversation_activity -->
     <string name="send">أرسل</string>
     <string name="conversation_activity__compose_description">تكوين الرسالة</string>
-    <string name="conversation_activity__emoji_toggle_description">تبديل لوحة مفاتيح الرموز التعبيرية</string>
     <string name="conversation_activity__attachment_thumbnail">المصغّرة للمرفق</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">تفعيل أو تثبيط سريع لدرج مرفقات الكاميرا </string>
-    <string name="conversation_activity__enable_signal_for_sms">تمكين سيقنـال للرسائل النصية</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">إسحب للإلغاء</string>
     <!-- conversation_item -->
@@ -203,7 +190,6 @@
     <string name="join">إنضم</string>
     <string name="read">قراءة</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">صورة</string>
     <string name="messageErrorOriginal">لم يتم العثور على الرسالة الأصلية</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -255,8 +241,6 @@
     <string name="preferences__read_receipts">قراءة تقارير الإستلام</string>
     <string name="preferences__typing_indicators">مؤشرات الكتابة</string>
     <string name="conversationsMessageTrimming">تقليم الرسالة</string>
-    <string name="preferences_advanced__use_system_emoji">استخدام الرموز التعبيرية بالنظام</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">تعطيل الرموز التعبيرية المدمجة في Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -297,10 +281,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">أتريد تعطيل و حذف كافة النُّسخ الإحتياطية المحلية ؟</string>
     <string name="BackupDialog_delete_backups_statement">حذف النسخ الإحتياطية</string>
     <string name="LocalBackupJob_creating_backup">جارٍ إنشاء نسخة احتياطية...</string>
-    <string name="ProgressPreference_d_messages_so_far">%dرسالة إلى الآن</string>
     <string name="preferences_app_protection__screen_lock">قفل الشاشة</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">اِنسخ المفتاح العام</string>
     <!-- Session -->
     <string name="_continue">متابعة</string>
     <string name="copy">اِنسخ</string>
@@ -347,7 +329,6 @@
     <string name="sessionPrivacy">الخصوصية</string>
     <string name="notificationsStrategy">طريقة الإشعارات</string>
     <string name="useFastMode">استخدام الوضع السريع</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">ألغي ربط الجهاز</string>
     <string name="clearDataAll">اِمسح جميع البيانات</string>
     <string name="qrCode">رمز QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">اِفحص رمز QR لبدء المحادثة</string>
@@ -358,14 +339,9 @@
     <string name="done">تم</string>
     <string name="groupEdit">عَدِل المجموعة</string>
     <string name="contactSelect">اِختر متصلين</string>
-    <string name="view_reset_secure_session_done_message">تم إعادة تعيين الجلسة الآمنة</string>
     <string name="appearanceThemes">الشكل</string>
     <string name="attachment">مُرفق</string>
     <string name="messageVoice">رسالة صوتية</string>
-    <string name="dialog_backup_activation_failed">فشل تفعيل النسخ الاحتياطي. حاول مجدداَ أو اِتصل بالدعم.</string>
-    <string name="activity_backup_restore_title">استرجع النسخة الاِحتياطية</string>
-    <string name="activity_backup_restore_select_file">إختر ملف</string>
-    <string name="activity_backup_restore_explanation_1">اِختر ملف النسخ الاحتياطي وأدخل عبارة المرور التي تم إنشاؤه بها.</string>
     <string name="activity_link_device_skip_prompt">هذا يستغرق بعض الوقت، هل تريد أن تتخطى؟</string>
     <string name="activity_link_device_qr_message">اِذهب إلى التعديلات جملة الاِسترجاع في جهازك الاآخر لإظهار رمز QR الخاص بك.</string>
     <string name="communityJoinOfficial">أو انضم إلى واحدة من…</string>

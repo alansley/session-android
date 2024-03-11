@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Ezen a héten</string>
     <string name="attachmentsThisMonth">Ebben a hónapban</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Böngésző nem található.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Sikertelen küldés, koppints a részletekért</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Kulcs-csere üzenet érkezett, koppints a feldolgozáshoz.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Sikertelen küldés, koppints a titkosítatlan üzenetküldéshez</string>
     <string name="ConversationItem_copied_text">%s másolva</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Üzenet</string>
     <string name="ConversationActivity_muted_until_date">Némítva: %1$s</string>
     <string name="ConversationActivity_muted_forever">Némítva</string>
-    <string name="ConversationActivity_invalid_recipient">Érvénytelen címzett!</string>
     <string name="blockUnblock">Letiltás feloldása</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">A Session-nek szüksége van a Mikrofon engedélyre, hogy hangüzeneteket küldhessen, de ez jelenleg nincs megadva. Kérlek menj az alkalmazásbeállításokhoz, válaszd az \"Engedélyek\"-et és engedélyezd az \"Mikrofon\"-t.</string>
     <string name="cameraGrantAccessStorage">A Session-nek tárhely hozzáférésre van szüksége a fotók és videók küldéséhez.</string>
@@ -109,12 +106,6 @@
     <string name="SmsMessageRecord_duplicate_message">Üzenet duplikálása.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Csoport frissítve</string>
-    <string name="ThreadRecord_secure_session_reset">Biztonságos munkamenet újraindítva.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s elérhető a Session-on!</string>
-    <string name="ThreadRecord_safety_number_changed">Megváltozott a biztonsági szám</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Megváltozott a biztonsági számod vele: %s.</string>
-    <string name="ThreadRecord_you_marked_verified">Megerősítettnek jelölted</string>
-    <string name="ThreadRecord_you_marked_unverified">Megerősítetlennek jelölted</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">A Session egy új verziója érhető el, koppints a frissítéshez</string>
     <!-- MessageDisplayHelper -->
@@ -157,8 +148,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Névjegy</string>
-    <string name="attachment_type_selector__contact_description">Névjegy</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">Gif</string>
@@ -169,10 +158,8 @@
     <!-- conversation_activity -->
     <string name="send">Küldés</string>
     <string name="conversation_activity__compose_description">Üzenet írása</string>
-    <string name="conversation_activity__emoji_toggle_description">Emoji billentyűzet kapcsoló</string>
     <string name="conversation_activity__attachment_thumbnail">Melléklet előnézet</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Gyorskamera kapcsoló</string>
-    <string name="conversation_activity__enable_signal_for_sms">Session engedélyezése SMS-hez</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Megszakításhoz csúsztasd</string>
     <!-- conversation_item -->
@@ -186,7 +173,6 @@
     <string name="join">Csatlalkozás</string>
     <string name="read">Olvas</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Fotó</string>
     <string name="messageErrorOriginal">Az eredeti üzenet nem található</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -234,8 +220,6 @@
     <string name="preferences__read_receipts">Olvasási nyugták</string>
     <string name="preferences__typing_indicators">Gépelésindikátorok</string>
     <string name="conversationsMessageTrimming">Üzenetek csonkítása</string>
-    <string name="preferences_advanced__use_system_emoji">Rendszer emojik használata</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">A Session beépített emoji-támogatásának letiltása</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -276,10 +260,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Letiltod és törlöd az összes helyi biztonsági mentést?</string>
     <string name="BackupDialog_delete_backups_statement">Biztonsági mentések törlése</string>
     <string name="LocalBackupJob_creating_backup">Biztonsági mentés létrehozása...</string>
-    <string name="ProgressPreference_d_messages_so_far">Eddig %d db üzenet</string>
     <string name="preferences_app_protection__screen_lock">Képernyőzár</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Nyilvános kulcs másolása</string>
     <!-- Session -->
     <string name="_continue">Folytatás</string>
     <string name="copy">Másolás</string>
@@ -326,7 +308,6 @@
     <string name="sessionPrivacy">Adatvédelem</string>
     <string name="notificationsStrategy">Értesítések módja</string>
     <string name="useFastMode">Használja a Gyors módot</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Eszköz társításának megszüntetése</string>
     <string name="clearDataAll">Az összes adat törlése</string>
     <string name="qrCode">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Olvassa be valaki QR kódját, hogy beszélgetést kezdhessen vele</string>
@@ -337,14 +318,9 @@
     <string name="done">Kész</string>
     <string name="groupEdit">Csoport szerkesztése</string>
     <string name="contactSelect">Névjegyek kiválasztása</string>
-    <string name="view_reset_secure_session_done_message">Biztonságos munkamenet visszaállítás kész</string>
     <string name="appearanceThemes">Téma</string>
     <string name="attachment">Csatolmány</string>
     <string name="messageVoice">Hangüzenet</string>
-    <string name="dialog_backup_activation_failed">Nem sikerült aktiválni a biztonsági mentéseket. Kérjük, próbálja újra, vagy lépjen kapcsolatba az ügyfélszolgálattal.</string>
-    <string name="activity_backup_restore_title">Biztonsági mentés visszaállítása</string>
-    <string name="activity_backup_restore_select_file">Fájl kiválasztása</string>
-    <string name="activity_backup_restore_explanation_1">Válassz ki egy visszaállítási fájlt és add meg a hozzá tartozó visszaálítási kódmondatot.</string>
     <string name="activity_link_device_skip_prompt">Ez eltarthat egy ideig, szeretnéd átugrani?</string>
     <string name="activity_link_device_qr_message">A QR-kód megjelenítéséhez nyissa meg a Beállítások → Helyreállítási kifejezés elemet másik eszközén. </string>
     <string name="communityJoinOfficial">Vagy csatlakozz ezekhez…</string>

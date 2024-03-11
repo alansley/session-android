@@ -27,11 +27,9 @@
     <string name="BucketedThreadMedia_This_week">இந்த வாரம்</string>
     <string name="attachmentsThisMonth">இந்த மாதம்</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">இணைய உலாவி கிடைக்கவில்லை.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">அனுப்ப முடியவில்லை. விவரங்களுக்கு தட்டவும்</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">முக்கிய பரிமாற்ற செய்தி கிடைத்தது, செயலாக்க தட்டவும்.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">அனுப்பமுடியவில்லை, பாதுகாப்பற்ற பின்னடைவுக்கு தட்டவும்</string>
     <string name="ConversationItem_copied_text">நகலெடுக்கப்பட்டது%s</string>
     <!-- ConversationActivity -->
@@ -39,7 +37,6 @@
     <string name="message">செய்தி</string>
     <string name="ConversationActivity_muted_until_date">%1$s வரை முடக்கப்பட்டுள்ளது</string>
     <string name="ConversationActivity_muted_forever">முடக்கப்பட்டடுள்ளது</string>
-    <string name="ConversationActivity_invalid_recipient">தவறான பெறுநர்!</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->

@@ -33,11 +33,9 @@
     <string name="BucketedThreadMedia_This_week">Ове седмице</string>
     <string name="attachmentsThisMonth">Овог месеца</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Прегледач није пронађен.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Слање није успело, тапните за детаље</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Примљена порука размене кључева, тапните за обраду.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Слање није успело, тапните за необезбеђену одступницу</string>
     <string name="ConversationItem_copied_text">Копирана %s</string>
     <!-- ConversationActivity -->
@@ -45,7 +43,6 @@
     <string name="message">Пошаљи поруку</string>
     <string name="ConversationActivity_muted_until_date">Мутиран до %1$s</string>
     <string name="ConversationActivity_muted_forever">Мутиран заувек</string>
-    <string name="ConversationActivity_invalid_recipient">Неисправан прималац!</string>
     <string name="blockUnblock">Одблокирај</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Сесија треба дозволу за микрофон да пошаље аудио поруке, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Микрофон\".</string>
     <string name="cameraGrantAccessStorage">Сесија треба дозволу за складиште да шаље слике и видео клипове.</string>
@@ -110,12 +107,6 @@
     <string name="SmsMessageRecord_duplicate_message">Порука дупликат.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Група ажурирана.</string>
-    <string name="ThreadRecord_secure_session_reset">Безбедна сесија је ресетована.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s је на Sessionу!</string>
-    <string name="ThreadRecord_safety_number_changed">Безбедносни број промењен</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш безбедносни број са %s је промењен.</string>
-    <string name="ThreadRecord_you_marked_verified">Означио си као верификовано</string>
-    <string name="ThreadRecord_you_marked_unverified">Означио си као неверификовано</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Ново издање Session-a је доступно, тапните за надоградњу</string>
     <!-- MessageDisplayHelper -->
@@ -158,8 +149,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Контакт</string>
-    <string name="attachment_type_selector__contact_description">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="gif">Гиф</string>
@@ -170,10 +159,8 @@
     <!-- conversation_activity -->
     <string name="send">Пошаљи</string>
     <string name="conversation_activity__compose_description">Састављање поруке</string>
-    <string name="conversation_activity__emoji_toggle_description">Емоџи тастатура</string>
     <string name="conversation_activity__attachment_thumbnail">Сличица прилога</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Фиока брзог прилога камере</string>
-    <string name="conversation_activity__enable_signal_for_sms">Укључите Session за СМС</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Мултимедијална порука</string>
@@ -186,7 +173,6 @@
     <string name="join">Придружи се</string>
     <string name="read">Прочитај</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Слика</string>
     <string name="messageErrorOriginal">Оригинална порука није нађена</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -233,8 +219,6 @@
     <string name="incognitoKeyboard">Инкогнито тастатура</string>
     <string name="preferences__read_receipts">Потврде читања</string>
     <string name="conversationsMessageTrimming">Скраћивање порука</string>
-    <string name="preferences_advanced__use_system_emoji">Користи системски емоџи</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Искључи уграђене Session-ове емоџије</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->

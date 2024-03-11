@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Tällä viikolla</string>
     <string name="attachmentsThisMonth">Tässä kuussa</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Verkkoselainta ei löytynyt.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Lähetys epäonnistui, napauta nähdäksesi lisätietoja</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Avaintenvaihtoviesti vastaanotettu. Aloita käsittely napauttamalla.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Lähetys epäonnistui, napauta lähettääksesi suojaamattomana</string>
     <string name="ConversationItem_copied_text">Kopioitu: %s</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Viesti</string>
     <string name="ConversationActivity_muted_until_date">Mykistetty %1$s asti</string>
     <string name="ConversationActivity_muted_forever">Mykistetty</string>
-    <string name="ConversationActivity_invalid_recipient">Virheellinen vastaanottaja!</string>
     <string name="blockUnblock">Poista esto</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal tarvitsee lupaa käyttää mikrofonia äänitiedostojen lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\".</string>
     <string name="cameraGrantAccessStorage">Istunto tarvitsee tallennustilan käyttöoikeuden kuvien ja videoiden lähettämiseen.</string>
@@ -107,12 +104,6 @@ on viallinen!</string>
     <string name="SmsMessageRecord_duplicate_message">Viestin kaksoiskappale.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Ryhmä päivitetty</string>
-    <string name="ThreadRecord_secure_session_reset">Suojattu istunto alustettu</string>
-    <string name="ThreadRecord_s_is_on_signal">%s käyttää Sessionia!</string>
-    <string name="ThreadRecord_safety_number_changed">Turvanumero vaihtunut</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sinun ja yhteystiedon %s turvanumero on vaihtunut.</string>
-    <string name="ThreadRecord_you_marked_verified">Merkitsit varmennetuksi.</string>
-    <string name="ThreadRecord_you_marked_unverified">Merkitsit varmentamattomaksi.</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Uusi versio Sessionista on saatavilla. Päivitä napauttamalla.</string>
     <!-- MessageDisplayHelper -->
@@ -155,8 +146,6 @@ on viallinen!</string>
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Yhteystieto</string>
-    <string name="attachment_type_selector__contact_description">Yhteystieto</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">Gif</string>
@@ -167,10 +156,8 @@ on viallinen!</string>
     <!-- conversation_activity -->
     <string name="send">Lähetä</string>
     <string name="conversation_activity__compose_description">Viestin kirjoitus</string>
-    <string name="conversation_activity__emoji_toggle_description">Avaa tai sulje emoji-näppäimistö</string>
     <string name="conversation_activity__attachment_thumbnail">Liitteen esikatselu</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Avaa tai sulje pikakamera</string>
-    <string name="conversation_activity__enable_signal_for_sms">Käytä Sessionia tekstiviesteille</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Pyyhkäise hylkääksesi</string>
     <!-- conversation_item -->
@@ -184,7 +171,6 @@ on viallinen!</string>
     <string name="join">Liity</string>
     <string name="read">Lue</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Kuva</string>
     <string name="messageErrorOriginal">Alkuperäistä viestiä ei löytynyt</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -232,8 +218,6 @@ on viallinen!</string>
     <string name="preferences__read_receipts">Lukukuittaukset</string>
     <string name="preferences__typing_indicators">Kirjoitustilaindikaattori</string>
     <string name="conversationsMessageTrimming">Keskustelujen karsiminen</string>
-    <string name="preferences_advanced__use_system_emoji">Käytä järjestelmän hymiöitä</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Ota Sessionin oletushymiöt pois käytöstä</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -274,10 +258,8 @@ on viallinen!</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Otetaanko paikalliset varmuuskopiot pois käytöstä ja poistetaanko ne?</string>
     <string name="BackupDialog_delete_backups_statement">Poista varmuuskopiot</string>
     <string name="LocalBackupJob_creating_backup">Luodaan varmuuskopiota...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d viestiä tähän mennessä</string>
     <string name="preferences_app_protection__screen_lock">Näytön lukitus</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Kopioi julkinen avain</string>
     <!-- Session -->
     <string name="_continue">Jatka</string>
     <string name="copy">Kopioi</string>
@@ -324,7 +306,6 @@ on viallinen!</string>
     <string name="sessionPrivacy">Yksityisyys</string>
     <string name="notificationsStrategy">Ilmoitusten Strategia</string>
     <string name="useFastMode">Käytä Nopeaa Tilaa</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Poista laitteen linkitys</string>
     <string name="clearDataAll">Tyhjennä tiedot</string>
     <string name="qrCode">QR-koodi</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skannaa jonkun QR-koodi aloittaaksesi keskustelun heidän kanssaan</string>
@@ -335,14 +316,9 @@ on viallinen!</string>
     <string name="done">Valmis</string>
     <string name="groupEdit">Muokkaa ryhmää</string>
     <string name="contactSelect">Valitse Yhteystiedot</string>
-    <string name="view_reset_secure_session_done_message">Suojattu istunto alustettu</string>
     <string name="appearanceThemes">Teema</string>
     <string name="attachment">Liite</string>
     <string name="messageVoice">Ääniviesti</string>
-    <string name="dialog_backup_activation_failed">Varmuuskopioiden aktivointi epäonnistui. Yritä uudelleen tai ota yhteyttä tukeen.</string>
-    <string name="activity_backup_restore_title">Palauta varmuuskopio</string>
-    <string name="activity_backup_restore_select_file">Valitse tiedosto</string>
-    <string name="activity_backup_restore_explanation_1">Valitse varmuuskopiotiedosto ja kirjoita salasana, jonka kanssa se on luotu.</string>
     <string name="activity_link_device_skip_prompt">Tämä kestää jonkin aikaa, haluaisitko ohittaa?</string>
     <string name="activity_link_device_qr_message">Siirry asetuksiin → palautusvirke toisella laitteellasi näyttääksesi QR-koodisi.</string>
     <string name="communityJoinOfficial">Tai liity johonkin näistä…</string>

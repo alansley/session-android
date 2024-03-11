@@ -30,18 +30,15 @@
     <string name="BucketedThreadMedia_This_week">Minggu ini</string>
     <string name="attachmentsThisMonth">Bulan Ini</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Web browser tidak ditemukan.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Pengiriman gagal, ketuk untuk rincian</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Pesan pertukaran kunci diterima, ketuk untuk memproses.</string>
     <string name="ConversationItem_copied_text">Tersalin %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Tambahkan lampiran</string>
     <string name="message">Pesan</string>
     <string name="ConversationActivity_muted_until_date">Senyapkan sampai %1$s</string>
     <string name="ConversationActivity_muted_forever">Disenyapkan</string>
-    <string name="ConversationActivity_invalid_recipient">Penerima tidak valid!</string>
     <string name="blockUnblock">Buka blokir</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session membutuhkan izin mikrofon untuk mengirim pesan suara, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Mikrofon\".</string>
     <string name="cameraGrantAccessStorage">Session membutuhkan akses penyimpanan untuk mengirim foto dan video.</string>
@@ -99,9 +96,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duplikat pesan.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grup diperbarui</string>
-    <string name="ThreadRecord_s_is_on_signal">%s ada di Session!</string>
-    <string name="ThreadRecord_you_marked_verified">Anda menandai sebagai terverifikasi</string>
-    <string name="ThreadRecord_you_marked_unverified">Anda menandai sebagai tidak terverifikasi</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Versi terbaru dari Session telah tersedia, klik untuk memperbarui</string>
     <!-- MessageDisplayHelper -->
@@ -136,8 +130,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Kontak</string>
-    <string name="attachment_type_selector__contact_description">Kontak</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">Gif</string>
@@ -157,7 +149,6 @@
     <!-- open_group_invitation_view -->
     <string name="join">Gabung</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Pesan asli tidak ditemukan</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -228,10 +219,8 @@
     <string name="BackupDialog_delete_backups">Hapus backup?</string>
     <string name="BackupDialog_delete_backups_statement">Hapus backup</string>
     <string name="LocalBackupJob_creating_backup">Membuat backup...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d pesan sejauh ini</string>
     <string name="preferences_app_protection__screen_lock">Kunci layar</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Salin public key</string>
     <!-- Session -->
     <string name="_continue">Lanjutkan</string>
     <string name="copy">Salin</string>
@@ -264,7 +253,6 @@
     <string name="groupEdit">Ubah Grup</string>
     <string name="appearanceThemes">Tema</string>
     <string name="messageVoice">Pesan Suara</string>
-    <string name="activity_backup_restore_select_file">Pilih file</string>
     <string name="notificationsSlowModeDescription">Session sesekali akan memeriksa pesan baru di latar belakang.</string>
     <string name="blockUnblockDescription">Apakah anda yakin ingin membuka blokir %s?</string>
     <string name="open">Buka</string>

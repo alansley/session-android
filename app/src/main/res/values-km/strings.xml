@@ -29,16 +29,13 @@
     <string name="BucketedThreadMedia_This_week">សប្តាហ៍នេះ</string>
     <string name="attachmentsThisMonth">ខែនេះ</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">ទំព័រវែបសាយរកមិនឃើញ.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">ផ្ញើបរាជ័យ ចុច សម្រាប់ព័ត៌មានលម្អិត</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">ទទួលបានសារ ផ្លាស់ប្តូរសោរ សូមចុច ដើម្បីដំណើរការ។</string>
     <string name="ConversationItem_click_to_approve_unencrypted">ផ្ញើបរាជ័យ ចុច សម្រាប់ជំនួសគ្មានសុវត្ថិភាព</string>
     <string name="ConversationItem_copied_text">បានចម្លង %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">ភ្ជាប់ឯកសារ</string>
-    <string name="ConversationActivity_invalid_recipient">អ្នកទទួលមិនត្រឹមត្រូវ!</string>
     <string name="blockUnblock">បើកវិញ</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session សុំសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន ដើម្បីផ្ញើសារជាសំឡេង, ប៉ុន្តែ វាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់កម្មវិធី, ជ្រើសរើស  \"ការអនុញ្ញាត\", និងបើក \"ប្រដាប់ស្រូបសំឡេង\"។</string>
     <!-- ConversationFragment -->
@@ -98,12 +95,6 @@
     <string name="SmsMessageRecord_duplicate_message">សារស្ទួន។</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">បានធ្វើបច្ចុប្បន្នភាពក្រុម</string>
-    <string name="ThreadRecord_secure_session_reset">កំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ</string>
-    <string name="ThreadRecord_s_is_on_signal">%s ប្រើ Session!​</string>
-    <string name="ThreadRecord_safety_number_changed">លេខសុវត្ថិភាព បានផ្លាស់ប្តូរ</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">លេខសុវត្ថិភាពរបស់អ្នក %s បានផ្លាស់ប្តូរ។</string>
-    <string name="ThreadRecord_you_marked_verified">អ្នកបានផ្ទៀងផ្ទាត់</string>
-    <string name="ThreadRecord_you_marked_unverified">អ្នកមិនបានផ្ទៀងផ្ទាត់</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">កំណែថ្មីរបស់ Session មានហើយ, ចុច ដើម្បីធ្វើបច្ចុប្បន្នភាព។</string>
     <!-- MessageDisplayHelper -->
@@ -144,8 +135,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">ទំនាក់ទំនង</string>
-    <string name="attachment_type_selector__contact_description">ទំនាក់ទំនង</string>
     <string name="attachment_type_selector__camera">កាមេរ៉ា</string>
     <string name="attachment_type_selector__camera_description">កាមេរ៉ា</string>
     <string name="attachment_type_selector__gallery_description">រូបភាព ឬវីដេអូ</string>
@@ -155,10 +144,8 @@
     <!-- conversation_activity -->
     <string name="send">ផ្ញើ</string>
     <string name="conversation_activity__compose_description">ការបង្កើតសារថ្មី</string>
-    <string name="conversation_activity__emoji_toggle_description">បិទបើកក្តារចុចរូបអារម្មណ៍emoji</string>
     <string name="conversation_activity__attachment_thumbnail">ភ្ជាប់រូបភាពឯកសារ</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">បិទបើកថតឯកសារភ្ជាប់កាមេរ៉ារហ័ស</string>
-    <string name="conversation_activity__enable_signal_for_sms">បើក Session សម្រាប់ SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">អូសដើម្បីបោះបង់</string>
     <!-- conversation_item -->
@@ -170,7 +157,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">រូបភាព</string>
     <string name="messageErrorOriginal">រកមិនឃើញសារដើម</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -217,8 +203,6 @@
     <string name="preferences__read_receipts">ទទួលបានការអាន</string>
     <string name="preferences__typing_indicators">វាស់ការវាយអក្សរ</string>
     <string name="conversationsMessageTrimming">តម្រឹមសារ</string>
-    <string name="preferences_advanced__use_system_emoji">ប្រើរូបអារម្មណ៍emoji នៅក្នុងប្រព័ន្ធ</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">បិទមិនប្រើរូបអារម្មណ៍emoji របស់ Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -258,7 +242,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">បិទ និងលុបចោលការបម្រុងទុកខាងក្នុងទាំងអស់?</string>
     <string name="BackupDialog_delete_backups_statement">លុបការបម្រុងទុក</string>
     <string name="LocalBackupJob_creating_backup">កំពុងបង្កើតការបម្រុងទុក...</string>
-    <string name="ProgressPreference_d_messages_so_far">ឥឡូវនេះសារ%d</string>
     <string name="preferences_app_protection__screen_lock">ចាក់សោរអេក្រង់</string>
     <!-- Conversation activity -->
     <!-- Session -->

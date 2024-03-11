@@ -36,11 +36,9 @@
     <string name="BucketedThreadMedia_This_week">Tento týden</string>
     <string name="attachmentsThisMonth">Tento měsíc</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Nebyl nalezen žádný webový prohlížeč.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Odeslání se nezdařilo, klikněte pro podrobnosti</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Byl vám doručen klíč, klikněte pro jeho zpracování.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Odeslání se nezdařilo, klikněte pro odeslání nezabepečeným způsobem</string>
     <string name="ConversationItem_copied_text">Zkopírováno %s</string>
     <!-- ConversationActivity -->
@@ -48,7 +46,6 @@
     <string name="message">Zpráva</string>
     <string name="ConversationActivity_muted_until_date">Ztlumeno do %1$s</string>
     <string name="ConversationActivity_muted_forever">Ztlumeno</string>
-    <string name="ConversationActivity_invalid_recipient">Chybný příjemce!</string>
     <string name="blockUnblock">Odblokovat</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signál potřebuje oprávnění pro přístup k mikrofonu aby mohl poslat audio zprávu, ale toto oprávnění je nyní zakázáno. Prosím pokračujte do menu nastavení aplikací, vyberte \"Oprávnění\" a povolte \"Mikrofon\".</string>
     <string name="cameraGrantAccessStorage">K pořizování fotografií a videa potřebuje Session přístup k úložišti.</string>
@@ -114,12 +111,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duplicitní zpráva</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Skupina upravena</string>
-    <string name="ThreadRecord_secure_session_reset">Reset zabezpečené konverzace.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s má Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Bezpečnostní kód se změnil</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Váš bezpečnostní kód s %s se změnil</string>
-    <string name="ThreadRecord_you_marked_verified">Označen jako ověřený</string>
-    <string name="ThreadRecord_you_marked_unverified">Označen jako neověřený</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Je k dispozici nová verze Session, klikněte pro aktualizaci</string>
     <!-- MessageDisplayHelper -->
@@ -164,8 +155,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Kontakt</string>
-    <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">Gif</string>
@@ -176,10 +165,8 @@
     <!-- conversation_activity -->
     <string name="send">Odeslat</string>
     <string name="conversation_activity__compose_description">Sestavení zprávy</string>
-    <string name="conversation_activity__emoji_toggle_description">Zapnout klávesnici se smajlíky</string>
     <string name="conversation_activity__attachment_thumbnail">Připojený náhled</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Vytvořit rychlou přílohu kamerou</string>
-    <string name="conversation_activity__enable_signal_for_sms">Povolit aplikaci Session pro SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Pro zrušení přejeďte</string>
     <!-- conversation_item -->
@@ -193,7 +180,6 @@
     <string name="join">Přidat se</string>
     <string name="read">Číst</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Fotografie</string>
     <string name="messageErrorOriginal">Původní zpráva nebyla nalezena</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -243,8 +229,6 @@
     <string name="preferences__read_receipts">Info o přečtení</string>
     <string name="preferences__typing_indicators">Indikátory psaní</string>
     <string name="conversationsMessageTrimming">Ořezávání práv</string>
-    <string name="preferences_advanced__use_system_emoji">Použít systémové smajlíky</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Zakázat použití interních smajlíků aplikace Session </string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -285,10 +269,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Zakázat a vymazat všechny interní zálohy?</string>
     <string name="BackupDialog_delete_backups_statement">Smazat zálohy</string>
     <string name="LocalBackupJob_creating_backup">Vytvářím zálohu...</string>
-    <string name="ProgressPreference_d_messages_so_far">%dzpráv zatím</string>
     <string name="preferences_app_protection__screen_lock">Zámek obrazovky</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Kopírovat veřejný klíč</string>
     <!-- Session -->
     <string name="_continue">Pokračovat</string>
     <string name="copy">Kopírovat</string>
@@ -335,7 +317,6 @@
     <string name="sessionPrivacy">Soukromí</string>
     <string name="notificationsStrategy">Styl oznámení</string>
     <string name="useFastMode">Použít rychlý režim</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Odpojit zařízení</string>
     <string name="clearDataAll">Vymazat všechna data</string>
     <string name="qrCode">QR kód</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Pro zahájení konverzace naskenujte něčí QR kód</string>
@@ -346,14 +327,9 @@
     <string name="done">Hotovo</string>
     <string name="groupEdit">Upravit skupinu</string>
     <string name="contactSelect">Vyber kontakty</string>
-    <string name="view_reset_secure_session_done_message">Zabezpečená relace byla obnovena</string>
     <string name="appearanceThemes">Motiv</string>
     <string name="attachment">Příloha</string>
     <string name="messageVoice">Hlasová zpráva</string>
-    <string name="dialog_backup_activation_failed">Nepodařilo se aktivovat zálohy. Zkuste to prosím znovu nebo kontaktujte podporu.</string>
-    <string name="activity_backup_restore_title">Obnovit zálohu</string>
-    <string name="activity_backup_restore_select_file">Vybrat soubor</string>
-    <string name="activity_backup_restore_explanation_1">Vyberte soubor se zálohou a vložte frázi pro obnovení, s níž byl vytvořen.</string>
     <string name="activity_link_device_skip_prompt">Trvá to trochu déle, chcete přeskočit?</string>
     <string name="activity_link_device_qr_message">Přejděte do Nastavení → Fráze pro obnovení na vašem dalším zařízení a zobrazte svůj QR kód.</string>
     <string name="communityJoinOfficial">Nebo se připojte k jedné z těchto…</string>

@@ -36,11 +36,9 @@
     <string name="BucketedThreadMedia_This_week">Ši savaitė</string>
     <string name="attachmentsThisMonth">Šis mėnuo</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Nerasta jokios saityno naršyklės.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Siuntimas nepavyko, bakstelėkite išsamesnei informacijai</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Gauta šifro apsikeitimo žinutė, bakstelėkite norėdami tęsti.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Siuntimas nepavyko, bakstelėkite, norėdami sugrįžti nesaugaus surogato</string>
     <string name="ConversationItem_copied_text">%s nukopijuota</string>
     <!-- ConversationActivity -->
@@ -48,7 +46,6 @@
     <string name="message">Žinutė</string>
     <string name="ConversationActivity_muted_until_date">Užtildytas iki %1$s</string>
     <string name="ConversationActivity_muted_forever">Užtildytas</string>
-    <string name="ConversationActivity_invalid_recipient">Neteisingas gavėjas!</string>
     <string name="blockUnblock">Atblokuoti</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Norint siųsti garso žinutes, Session reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
     <!-- ConversationFragment -->
@@ -115,12 +112,6 @@
     <string name="SmsMessageRecord_duplicate_message">Dviguba žinutė.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupė atnaujinta</string>
-    <string name="ThreadRecord_secure_session_reset">Saugusis seansas atstatytas.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s atėjo į Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Saugumo numeris pasikeitė</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %s pasikeitė.</string>
-    <string name="ThreadRecord_you_marked_verified">Jūs pažymėjote patvirtintu</string>
-    <string name="ThreadRecord_you_marked_unverified">Jūs pažymėjote nepatvirtintu</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Yra prieinama nauja Session versija, bakstelėkite, norėdami atnaujinti</string>
     <!-- MessageDisplayHelper -->
@@ -164,8 +155,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Adresatas</string>
-    <string name="attachment_type_selector__contact_description">Adresatas</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">Gif</string>
@@ -176,10 +165,8 @@
     <!-- conversation_activity -->
     <string name="send">Siųsti</string>
     <string name="conversation_activity__compose_description">Žinutės rašymas</string>
-    <string name="conversation_activity__emoji_toggle_description">Perjungti jaustukų klaviatūrą</string>
     <string name="conversation_activity__attachment_thumbnail">Priedo miniatiūra</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Perjungti sparčiosios kameros priedų stalčių</string>
-    <string name="conversation_activity__enable_signal_for_sms">Naudoti Session SMS žinutėms</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Perbraukite, norėdami atsisakyti</string>
     <!-- conversation_item -->
@@ -193,7 +180,6 @@
     <string name="join">Prisijungti</string>
     <string name="read">Skaityti</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Nuotrauka</string>
     <string name="messageErrorOriginal">Pradinė žinutė nerasta</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -243,8 +229,6 @@
     <string name="preferences__read_receipts">Pranešimai apie žinučių skaitymą</string>
     <string name="preferences__typing_indicators">Rašymo indikatoriai</string>
     <string name="conversationsMessageTrimming">Žinučių išvalymas</string>
-    <string name="preferences_advanced__use_system_emoji">Naudoti sistemos jaustukus</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Išjungti Session įtaisytą jaustukų palaikymą</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -284,10 +268,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Išjungti ir ištrinti visas vietines atsargines kopijas?</string>
     <string name="BackupDialog_delete_backups_statement">Ištrinti atsargines kopijas</string>
     <string name="LocalBackupJob_creating_backup">Daroma atsarginė kopija...</string>
-    <string name="ProgressPreference_d_messages_so_far">Jau %d žinučių</string>
     <string name="preferences_app_protection__screen_lock">Ekrano užraktas</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Kopijuoti viešąjį raktą</string>
     <!-- Session -->
     <string name="_continue">Tęsti</string>
     <string name="copy">Kopijuoti</string>
@@ -327,7 +309,6 @@
     <string name="sessionPrivacy">Privatumas</string>
     <string name="notificationsStrategy">Pranešimų strategija</string>
     <string name="useFastMode">Naudoti greitą veikseną</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Atsieti įrenginį</string>
     <string name="clearDataAll">Išvalyti visus duomenis</string>
     <string name="qrCode">QR kodas</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Nuskenuokite kieno nors QR kodą, kad pradėtumėte su juo pokalbį</string>
@@ -340,8 +321,6 @@
     <string name="appearanceThemes">Apipavidalinimas</string>
     <string name="attachment">Priedas</string>
     <string name="messageVoice">Balso žinutė</string>
-    <string name="dialog_backup_activation_failed">Nepavyko aktyvuoti atsarginių kopijų. Bandykite dar kartą arba susisiekite su palaikymu.</string>
-    <string name="activity_backup_restore_title">Atkurti atsarginę kopiją</string>
     <string name="communityJoinOfficial">Arba prisijunkite prie vienos iš šių…</string>
     <string name="onboardingMessageNotificationExplaination">Yra du būdai kaip Session gali jums pranešti apie naujas žinutes.</string>
     <string name="notificationsFastMode">Greita veiksena</string>

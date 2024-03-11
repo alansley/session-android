@@ -36,11 +36,9 @@
     <string name="BucketedThreadMedia_This_week">На этой неделе</string>
     <string name="attachmentsThisMonth">В этом месяце</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Браузер не найден.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Ошибка отправки. Нажмите для подробностей</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Получено сообщение обмена ключами. Нажмите, чтобы его обработать.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Отправка не удалась, нажмите для негарантированного отката</string>
     <string name="ConversationItem_copied_text">Скопировано: %s</string>
     <!-- ConversationActivity -->
@@ -48,7 +46,6 @@
     <string name="message">Сообщение</string>
     <string name="ConversationActivity_muted_until_date">Уведомления отключены до %1$s</string>
     <string name="ConversationActivity_muted_forever">Без звука</string>
-    <string name="ConversationActivity_invalid_recipient">Неверный получатель!</string>
     <string name="blockUnblock">Разблокировать</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Для отправки аудиосообщений требуется разрешение на доступ к микрофону, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите в «Настройки», выберите «Приложения», найдите Session, затем выберите «Разрешения» и включите Микрофон.</string>
     <string name="cameraGrantAccessStorage">Для отправки фотографий и видео Session требуется доступ к хранилищу.</string>
@@ -116,12 +113,6 @@
     <string name="SmsMessageRecord_duplicate_message">Дубликат сообщения.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Группа обновлена</string>
-    <string name="ThreadRecord_secure_session_reset">Защищенный сеанс сброшен.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s теперь в Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Код безопасности изменился</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ваш код безопасности с %s был изменен.</string>
-    <string name="ThreadRecord_you_marked_verified">Верифицировано вами</string>
-    <string name="ThreadRecord_you_marked_unverified">Верификация отменена вами</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Доступна новая версия Session. Нажмите для обновления</string>
     <!-- MessageDisplayHelper -->
@@ -166,8 +157,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Контакт</string>
-    <string name="attachment_type_selector__contact_description">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="gif">Gif</string>
@@ -178,10 +167,8 @@
     <!-- conversation_activity -->
     <string name="send">Отправить</string>
     <string name="conversation_activity__compose_description">Написание сообщения</string>
-    <string name="conversation_activity__emoji_toggle_description">Клавиатура смайликов</string>
     <string name="conversation_activity__attachment_thumbnail">Миниатюра вложения</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Включить быстрое показывание камеры в панели вложений</string>
-    <string name="conversation_activity__enable_signal_for_sms">Использовать Session для SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Проведите для отмены</string>
     <!-- conversation_item -->
@@ -195,7 +182,6 @@
     <string name="join">Войти</string>
     <string name="read">Читать</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Фото</string>
     <string name="messageErrorOriginal">Исходное сообщение не найдено</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -245,8 +231,6 @@
     <string name="preferences__read_receipts">Уведомления о прочтении</string>
     <string name="preferences__typing_indicators">Индикаторы ввода</string>
     <string name="conversationsMessageTrimming">Обрезка сообщений</string>
-    <string name="preferences_advanced__use_system_emoji">Использовать системные эмодзи</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Отключить встроенные эмодзи Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -287,10 +271,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Отключить и удалить все локальные резервные копии?</string>
     <string name="BackupDialog_delete_backups_statement">Удалить резервные копии</string>
     <string name="LocalBackupJob_creating_backup">Создание резервной копии...</string>
-    <string name="ProgressPreference_d_messages_so_far">еще %d сообщений</string>
     <string name="preferences_app_protection__screen_lock">Блокировка экрана</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Копировать публичный ключ</string>
     <!-- Session -->
     <string name="_continue">Продолжить</string>
     <string name="copy">Копировать</string>
@@ -337,7 +319,6 @@
     <string name="sessionPrivacy">Конфиденциальность</string>
     <string name="notificationsStrategy">Метод уведомлений</string>
     <string name="useFastMode">Использовать быстрый режим</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Отключить устройство</string>
     <string name="clearDataAll">Очистить все данные</string>
     <string name="qrCode">QR-код</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Отсканируйте QR-код другого человека, чтобы начать с ним разговор</string>
@@ -348,14 +329,9 @@
     <string name="done">Готово</string>
     <string name="groupEdit">Редактировать группу</string>
     <string name="contactSelect">Выбрать контакты</string>
-    <string name="view_reset_secure_session_done_message">Сброс защищенного сеанса выполнен</string>
     <string name="appearanceThemes">Тема</string>
     <string name="attachment">Вложение</string>
     <string name="messageVoice">Голосовое сообщение</string>
-    <string name="dialog_backup_activation_failed">Не удалось активировать резервные копии. Пожалуйста, попробуйте еще раз или обратитесь в службу поддержки.</string>
-    <string name="activity_backup_restore_title">Восстановление резервной копии</string>
-    <string name="activity_backup_restore_select_file">Выбрать файл</string>
-    <string name="activity_backup_restore_explanation_1">Выберите файл резервной копии и введите парольную фразу, с которой он был создан.</string>
     <string name="activity_link_device_skip_prompt">Это занимает некоторое время, хотите пропустить?</string>
     <string name="activity_link_device_qr_message">Перейдите в Настройки → Фраза для восстановления доступа на другом устройстве, чтобы показать ваш QR код.</string>
     <string name="communityJoinOfficial">Или присоединитесь к одной из этих…</string>

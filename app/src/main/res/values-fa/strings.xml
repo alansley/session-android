@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">این هفته</string>
     <string name="attachmentsThisMonth">این ماه</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">هیچ مرورگری یافت نشد.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">ارسال نشد، برای جزئیات بیشتر ضربه بزنید</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">پیام تبادل کلید رمز دریافت شد ، برای ادامه ، صفحه را لمس کنید.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">ارسال نشد, برای روش جایگزین ناامن لمس کنید</string>
     <string name="ConversationItem_copied_text">%s کپی شد</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">پیام</string>
     <string name="ConversationActivity_muted_until_date">بی صدا تا %1$s</string>
     <string name="ConversationActivity_muted_forever">بی صدا شده</string>
-    <string name="ConversationActivity_invalid_recipient">گیرنده نامعتبر است!</string>
     <string name="blockUnblock">رفع انسداد</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session برای ارسال صدا، نیازمند دسترسی به میکروفن دارد ولی این دسترسی قطع شده است. لطفا برای ادامه دادن، به بخش منوی تنظیمات برنامه رفته، \"اجازه ها\" را انتخاب کرده و گزینه ی \"میکروفن\" را فعال نمایید.</string>
     <string name="cameraGrantAccessStorage">Session برای ارسال تصاویر و ویدئوها نیاز به دسترسی حافظه دارد.</string>
@@ -107,12 +104,6 @@
     <string name="SmsMessageRecord_duplicate_message">تکثیر پیام.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">گروه به روز شد</string>
-    <string name="ThreadRecord_secure_session_reset">تنظیم مجدد جلسه امن.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s در Session است!</string>
-    <string name="ThreadRecord_safety_number_changed">شماره امنیتی تغییر یافت</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">شماره امنیتی شما با %s تغییر یافت.</string>
-    <string name="ThreadRecord_you_marked_verified">شما به عنوان تایید شده علامت زدید</string>
-    <string name="ThreadRecord_you_marked_unverified">شما به عنوان تایید نشده علامت زدید</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">نسخه جدید Session در دسترس است، برای آپدیت اینجا را تپ کنید</string>
     <!-- MessageDisplayHelper -->
@@ -155,8 +146,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">مخاطب</string>
-    <string name="attachment_type_selector__contact_description">مخاطب</string>
     <string name="attachment_type_selector__camera">دوربین</string>
     <string name="attachment_type_selector__camera_description">دوربین</string>
     <string name="gif">گیف</string>
@@ -167,10 +156,8 @@
     <!-- conversation_activity -->
     <string name="send">ارسال</string>
     <string name="conversation_activity__compose_description">ترکیب پیام</string>
-    <string name="conversation_activity__emoji_toggle_description">تعویض صفحه کلید شکلک</string>
     <string name="conversation_activity__attachment_thumbnail">پیوست تصویر کوچک</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">تغییر حالت نگه دارنده پیوست دوربین سریع</string>
-    <string name="conversation_activity__enable_signal_for_sms">فعال کردن Session برای SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">برای لغو بکشید</string>
     <!-- conversation_item -->
@@ -184,7 +171,6 @@
     <string name="join">\"پیوستن\"</string>
     <string name="read">خواندن</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">تصویر</string>
     <string name="messageErrorOriginal">پیام اصلی یافت نشد</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -232,8 +218,6 @@
     <string name="preferences__read_receipts">خواندن رسید ها</string>
     <string name="preferences__typing_indicators">نشانگر های نوشته</string>
     <string name="conversationsMessageTrimming">برش دادن پیام</string>
-    <string name="preferences_advanced__use_system_emoji">سیستم استفاده از Emoji</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">غیرفعال کردن پشتیبانی از شکلک های ساخته شده Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -274,10 +258,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">غیرفعال سازی و پاک کردن همه پشتیبان های محلی؟</string>
     <string name="BackupDialog_delete_backups_statement">حذف پشتیبان ها</string>
     <string name="LocalBackupJob_creating_backup">ایجاد پشتیبان...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d پیام تا به الان</string>
     <string name="preferences_app_protection__screen_lock">قفل صفحه</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">رونوشت کلید عمومی</string>
     <!-- Session -->
     <string name="_continue">ادامه </string>
     <string name="copy">کپی کردن</string>
@@ -324,7 +306,6 @@
     <string name="sessionPrivacy">حریم خصوصی</string>
     <string name="notificationsStrategy">استراتژی اعلان</string>
     <string name="useFastMode">استفاده از حالت سریع</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">قطع اتصال دستگاه</string>
     <string name="clearDataAll">پاک کردن همه داده‌ها</string>
     <string name="qrCode">کد QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">برای شروع مکالمه با دیگران، کد QR شخصی را اسکن کنید</string>
@@ -335,14 +316,9 @@
     <string name="done">انجام شد</string>
     <string name="groupEdit">ویرایش گروه</string>
     <string name="contactSelect">انتخاب مخاطب‌ها</string>
-    <string name="view_reset_secure_session_done_message">تنظیم مجدد جلسه امن انجام شد</string>
     <string name="appearanceThemes">قالب</string>
     <string name="attachment">پیوست</string>
     <string name="messageVoice">پیام صوتی</string>
-    <string name="dialog_backup_activation_failed">فعال‌سازی پشتیبان‌ها شکست خورد. لطفا دوباره امتحان کنید یا با پشتیبانی تماس بگیرید.</string>
-    <string name="activity_backup_restore_title">بازگردانی پشتیبان</string>
-    <string name="activity_backup_restore_select_file">انتخاب فایل</string>
-    <string name="activity_backup_restore_explanation_1">یک فایل پشتیبان انتخاب و گذرمتنی که با آن ساخته شده است را وارد کنید.</string>
     <string name="activity_link_device_skip_prompt">این مقداری طول می‌کشد، دوست دارید ردش کنید؟</string>
     <string name="activity_link_device_qr_message">برای دیدن کد QR خود، در دستگاه دیگرتان به «تنظیمات ← عبارت بازیابی» مراجعه کنید.</string>
     <string name="communityJoinOfficial">یا به یکی از این‌ها بپیوندید…</string>

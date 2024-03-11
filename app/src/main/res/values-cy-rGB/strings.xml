@@ -38,16 +38,13 @@
     <string name="BucketedThreadMedia_This_week">Wythnos hon</string>
     <string name="attachmentsThisMonth">Mis yma</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Heb ganfod porwr gwe.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Methodd yr anfon, tapiwch am fanylion</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Wedi derbyn neges cyfnewid allwedd, tapiwch i brosesu.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Methodd yr anfon, tapiwch am gam nôl anniogel</string>
     <string name="ConversationItem_copied_text">Copïwyd %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ychwanegu atodiad</string>
-    <string name="ConversationActivity_invalid_recipient">Derbynnydd annilys!</string>
     <string name="blockUnblock">Dadrwystro</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Mae ar Session angen caniatâd Meicroffon i anfon negeseuon sain, ond mae wed\'i atal yn barhaol. Ewch i osodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Microffon\".</string>
     <!-- ConversationFragment -->
@@ -117,12 +114,6 @@
     <string name="SmsMessageRecord_duplicate_message">Neges ddyblyg.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grŵp wedi\'i ddiweddaru</string>
-    <string name="ThreadRecord_secure_session_reset">Ailosod sesiwn ddiogel.</string>
-    <string name="ThreadRecord_s_is_on_signal">Mae %s ar Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Mae\'r rhif diogelwch wedi newid</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Mae\'ch rhif diogelwch gyda %1$s wedi newid.</string>
-    <string name="ThreadRecord_you_marked_verified">Eich marcio wedi\'i wirio</string>
-    <string name="ThreadRecord_you_marked_unverified">Eich marcio heb ei wirio</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Mae fersiwn newydd o Session ar gael. Tapiwch i ddiweddaru.</string>
     <!-- MessageDisplayHelper -->
@@ -168,8 +159,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Cysylltiad</string>
-    <string name="attachment_type_selector__contact_description">Cysylltiad</string>
     <string name="attachment_type_selector__gallery_description">Delwedd neu fideo</string>
     <string name="attachment_type_selector__gallery">Oriel</string>
     <string name="attachment_type_selector__drawer_description">Newid drôr yr atodiad</string>
@@ -177,10 +166,8 @@
     <!-- conversation_activity -->
     <string name="send">Anfon</string>
     <string name="conversation_activity__compose_description">Cyfansoddiad neges</string>
-    <string name="conversation_activity__emoji_toggle_description">Toglo bysellfwrdd gwenogluniau</string>
     <string name="conversation_activity__attachment_thumbnail">Llun Bach Atodiad</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Newid y drôr atodiad cyflym camera</string>
-    <string name="conversation_activity__enable_signal_for_sms">Galluogi Session ar gyfer SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Llithro i ddiddymu</string>
     <!-- conversation_item -->
@@ -192,7 +179,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Llun</string>
     <string name="messageErrorOriginal">Heb ganfod y neges wreiddiol</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -244,8 +230,6 @@
     <string name="preferences__read_receipts">Derbynebau darllen</string>
     <string name="preferences__typing_indicators">Dangosyddion Teipio</string>
     <string name="conversationsMessageTrimming">Tocio sgyrsiau</string>
-    <string name="preferences_advanced__use_system_emoji">Defnyddio gwenogluniau\'r system</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Analluogi cefnogaeth gwenogluniau Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -285,7 +269,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Analluogi a dileu\'r copïau wrth gefn lleol?</string>
     <string name="BackupDialog_delete_backups_statement">Dileu copïau wrth gefn</string>
     <string name="LocalBackupJob_creating_backup">Creu copi wrth gefn ...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d neges hyd yn hyn</string>
     <string name="preferences_app_protection__screen_lock">Clo sgrin</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -30,11 +30,9 @@
     <string name="BucketedThreadMedia_This_week">本週</string>
     <string name="attachmentsThisMonth">本月</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">找不到網路瀏覽器。</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">傳送失敗，點擊以了解細節。</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">接收到金鑰交換訊息，按此開始處理。</string>
     <string name="ConversationItem_click_to_approve_unencrypted">傳送失敗，點擊不安全的訊息退回</string>
     <string name="ConversationItem_copied_text">已複製 %s</string>
     <!-- ConversationActivity -->
@@ -42,7 +40,6 @@
     <string name="message">訊息</string>
     <string name="ConversationActivity_muted_until_date">關閉通知直到 %1$s</string>
     <string name="ConversationActivity_muted_forever">已靜音</string>
-    <string name="ConversationActivity_invalid_recipient">無效的聯絡人！</string>
     <string name="blockUnblock">解除封鎖</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal 需要麥克風的權限來傳送語音訊息，但是現在系統設定為總是拒絕 Signal。請到 Session 的應用程式設定中，點選「權限」，並啟用「麥克風」的權限。</string>
     <string name="cameraGrantAccessStorage">Session 需要使用存取存儲空間的權限來發送照片和影片</string>
@@ -105,12 +102,6 @@
     <string name="SmsMessageRecord_duplicate_message">複製訊息</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">群組已更新</string>
-    <string name="ThreadRecord_secure_session_reset">安全對話已重設</string>
-    <string name="ThreadRecord_s_is_on_signal">%s 在 Session 了！</string>
-    <string name="ThreadRecord_safety_number_changed">安全碼已改變</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">您與 %s 的安全碼已改變</string>
-    <string name="ThreadRecord_you_marked_verified">您標記為已驗證</string>
-    <string name="ThreadRecord_you_marked_unverified">您標記為未驗證</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">有新版本的 Session，輕觸更新</string>
     <!-- MessageDisplayHelper -->
@@ -152,8 +143,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">聯絡人</string>
-    <string name="attachment_type_selector__contact_description">聯絡人</string>
     <string name="attachment_type_selector__camera">相機</string>
     <string name="attachment_type_selector__camera_description">相機</string>
     <string name="gif">動態圖檔</string>
@@ -164,10 +153,8 @@
     <!-- conversation_activity -->
     <string name="send">送出</string>
     <string name="conversation_activity__compose_description">編輯簡訊</string>
-    <string name="conversation_activity__emoji_toggle_description">切換表情符號鍵盤</string>
     <string name="conversation_activity__attachment_thumbnail">附件縮圖</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">切換快速相機附件抽屜</string>
-    <string name="conversation_activity__enable_signal_for_sms">啟動 Session 簡訊功能</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">滑動以取消</string>
     <!-- conversation_item -->
@@ -181,7 +168,6 @@
     <string name="join">加入</string>
     <string name="read">已讀</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">照片</string>
     <string name="messageErrorOriginal">無法找到原始訊息</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -228,8 +214,6 @@
     <string name="preferences__read_receipts">已讀標記</string>
     <string name="preferences__typing_indicators">打字狀態</string>
     <string name="conversationsMessageTrimming">訊息整理</string>
-    <string name="preferences_advanced__use_system_emoji">使用系統表情符號</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">停用 Session 內建的表情支援</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -270,10 +254,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">關閉及刪除所有本機備份？</string>
     <string name="BackupDialog_delete_backups_statement">刪除備份</string>
     <string name="LocalBackupJob_creating_backup">正在建立備份...</string>
-    <string name="ProgressPreference_d_messages_so_far">目前有 %d 則訊息</string>
     <string name="preferences_app_protection__screen_lock">螢幕鎖定</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">複製公鑰</string>
     <!-- Session -->
     <string name="_continue">繼續</string>
     <string name="copy">複製</string>
@@ -320,7 +302,6 @@
     <string name="sessionPrivacy">隱私權</string>
     <string name="notificationsStrategy">通知類型</string>
     <string name="useFastMode">使用快速模式</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">取消連結裝置</string>
     <string name="clearDataAll">清除所有數據</string>
     <string name="qrCode">QR Code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">掃描朋友的 QR Code 來開始對話。</string>
@@ -331,14 +312,9 @@
     <string name="done">完成</string>
     <string name="groupEdit">編輯群組</string>
     <string name="contactSelect">選擇聯絡人</string>
-    <string name="view_reset_secure_session_done_message">安全對話重置完成</string>
     <string name="appearanceThemes">主題</string>
     <string name="attachment">附件</string>
     <string name="messageVoice">語音訊息</string>
-    <string name="dialog_backup_activation_failed">無法啟用備份。 請重試或聯繫支援人員。</string>
-    <string name="activity_backup_restore_title">恢復備份</string>
-    <string name="activity_backup_restore_select_file">選擇一個檔案</string>
-    <string name="activity_backup_restore_explanation_1">選擇一個備份檔案，並輸入建立時的密碼。</string>
     <string name="activity_link_device_skip_prompt">這可能需要一些時間，要跳過嗎？</string>
     <string name="activity_link_device_qr_message">請使用您其他的裝置並前往「設定」→「回復用字句」來顯示您的QR Code。</string>
     <string name="communityJoinOfficial">或加入這些群組⋯</string>

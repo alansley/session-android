@@ -32,18 +32,15 @@
     <string name="BucketedThreadMedia_This_week">Aquesta setmana</string>
     <string name="attachmentsThisMonth">Aquest mes</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">No s\'ha trobat cap navegador web.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Ha fallat l\'enviament. Toqueu per a saber-ne més</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">S\'ha rebut el missatge de l\'intercanvi de la clau, toqueu per a processar-lo.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Ha fallat l\'enviament. Toqueu per al mode no segur.</string>
     <string name="ConversationItem_copied_text">S\'ha copiat %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Afegeix un adjunt</string>
     <string name="message">Missatge</string>
     <string name="ConversationActivity_muted_until_date">Silenciat fins %1$s</string>
-    <string name="ConversationActivity_invalid_recipient">Destinatari no vàlid.</string>
     <string name="blockUnblock">Desbloca</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">El Session necessita el permís del micròfon per tal d\'enviar missatges d\'àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi el micròfon.</string>
     <!-- ConversationFragment -->
@@ -105,12 +102,6 @@ d\'intercanvi de claus!</string>
     <string name="SmsMessageRecord_duplicate_message">Missatge duplicat.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">S\'ha actualitzat el grup</string>
-    <string name="ThreadRecord_secure_session_reset">Restabliment de la sessió segura.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s és al Session!</string>
-    <string name="ThreadRecord_safety_number_changed">El número de seguretat ha canviat</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">El número de seguretat amb %s ha canviat.</string>
-    <string name="ThreadRecord_you_marked_verified">Heu verificat</string>
-    <string name="ThreadRecord_you_marked_unverified">Heu tret la verificació</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Hi ha disponible una versió nova del Session. Toqueu per actualitzar-lo</string>
     <!-- MessageDisplayHelper -->
@@ -152,8 +143,6 @@ d\'intercanvi de claus!</string>
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Contacte</string>
-    <string name="attachment_type_selector__contact_description">Contacte</string>
     <string name="attachment_type_selector__camera">Càmera</string>
     <string name="attachment_type_selector__camera_description">Càmera</string>
     <string name="gif">Gif</string>
@@ -164,10 +153,8 @@ d\'intercanvi de claus!</string>
     <!-- conversation_activity -->
     <string name="send">Envia</string>
     <string name="conversation_activity__compose_description">Cos del missatge</string>
-    <string name="conversation_activity__emoji_toggle_description">Canvia al teclat d\'emojis</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatura de l\'adjunt</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Desplega la pestanya d\'adjunts de càmera ràpida</string>
-    <string name="conversation_activity__enable_signal_for_sms">Habilita el Session per als SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Llisqueu per cancel·lar-ho</string>
     <!-- conversation_item -->
@@ -181,7 +168,6 @@ d\'intercanvi de claus!</string>
     <string name="join">Uneix-t\'hi</string>
     <string name="read">Llegeix</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">No s\'ha trobat el missatge original.</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -229,8 +215,6 @@ d\'intercanvi de claus!</string>
     <string name="preferences__read_receipts">Confirmació de lectura</string>
     <string name="preferences__typing_indicators">Indicadors de tecleig</string>
     <string name="conversationsMessageTrimming">Escapçament de missatges</string>
-    <string name="preferences_advanced__use_system_emoji">Usa els emoji del sistema</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Inhabilita els emojis inclosos al Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -271,10 +255,8 @@ d\'intercanvi de claus!</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Voleu inhabilitar i suprimir totes les còpies de seguretat locals?</string>
     <string name="BackupDialog_delete_backups_statement">Suprimeix les còpies de seguretat</string>
     <string name="LocalBackupJob_creating_backup">S\'està creant una còpia de seguretat...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d missatges fins ara...</string>
     <string name="preferences_app_protection__screen_lock">Bloqueig de pantalla</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Copia la clau pública</string>
     <!-- Session -->
     <string name="_continue">Continua</string>
     <string name="copy">Copia</string>
@@ -317,7 +299,6 @@ d\'intercanvi de claus!</string>
     <string name="activity_notification_settings_content_section_title">Contingut de notificacions</string>
     <string name="sessionPrivacy">Privadesa</string>
     <string name="notificationsStrategy">Estratègia de les notificacions</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Desenllaça el dispositiu</string>
     <string name="clearDataAll">Esborra totes les dades</string>
     <string name="qrCode">Codi QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneja el codi QR d\'algú altre per a encetar-hi una conversa</string>
@@ -328,14 +309,9 @@ d\'intercanvi de claus!</string>
     <string name="done">Fet</string>
     <string name="groupEdit">Edita el Grup</string>
     <string name="contactSelect">Selecciona contactes</string>
-    <string name="view_reset_secure_session_done_message">S\'ha fet el restabliment de la sessió segura</string>
     <string name="appearanceThemes">Tema</string>
     <string name="attachment">Adjunt</string>
     <string name="messageVoice">Missatge de veu</string>
-    <string name="dialog_backup_activation_failed">No s\'ha pogut activar la llicència. Torneu-ho a intentar o poseu-vos en contacte amb el servei de suport.</string>
-    <string name="activity_backup_restore_title">Restaura la còpia de seguretat</string>
-    <string name="activity_backup_restore_select_file">Selecciona un fitxer</string>
-    <string name="activity_backup_restore_explanation_1">Selecciona un fitxer de còpia de seguretat i entra la frase de pas amb el qual va ser creat.</string>
     <string name="activity_link_device_skip_prompt">Això triga un xic, t\'ho vols saltar?</string>
     <string name="communityJoinOfficial">O uneix-te a alguns d\'aquests…</string>
     <string name="onboardingMessageNotificationExplaination">Hi ha dues maneres per les quals Session et pot notificar els missatges nous.</string>

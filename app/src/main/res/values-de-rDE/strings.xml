@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Diese Woche</string>
     <string name="attachmentsThisMonth">Diesen Monat</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Kein Webbrowser gefunden.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Senden fehlgeschlagen, für Details tippen</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Schlüsselaustausch-Nachricht empfangen. Tippen zum Verarbeiten.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Senden fehlgeschlagen, tippen für ungesicherte Alternative</string>
     <string name="ConversationItem_copied_text">%s kopiert</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Nachricht</string>
     <string name="ConversationActivity_muted_until_date">Stummgeschaltet bis %1$s</string>
     <string name="ConversationActivity_muted_forever">Stumm gestellt</string>
-    <string name="ConversationActivity_invalid_recipient">Ungültiger Kontakt!</string>
     <string name="blockUnblock">Entsperren</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session benötigt die Berechtigung »Mikrofon« für das Senden von Sprachnachrichten, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Mikrofon«.</string>
     <string name="cameraGrantAccessStorage">Session benötigt Speicherzugriff, um Fotos und Videos zu versenden.</string>
@@ -106,12 +103,6 @@
     <string name="SmsMessageRecord_duplicate_message">Doppelte Nachricht</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Gruppe aktualisiert</string>
-    <string name="ThreadRecord_secure_session_reset">Verschlüsselung neu gestartet</string>
-    <string name="ThreadRecord_s_is_on_signal">%s ist bei Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Geänderte Sicherheitsnummer</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Deine Sicherheitsnummer mit %s hat sich geändert</string>
-    <string name="ThreadRecord_you_marked_verified">Als verifiziert markiert</string>
-    <string name="ThreadRecord_you_marked_unverified">Als nicht verifiziert markiert</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Eine neue Version von Session ist verfügbar. Zum Aktualisieren antippen.</string>
     <!-- MessageDisplayHelper -->
@@ -154,8 +145,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Kontakt</string>
-    <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">GIF</string>
@@ -166,10 +155,8 @@
     <!-- conversation_activity -->
     <string name="send">Senden</string>
     <string name="conversation_activity__compose_description">Nachricht verfassen</string>
-    <string name="conversation_activity__emoji_toggle_description">Emoji-Tastatur aktivieren</string>
     <string name="conversation_activity__attachment_thumbnail">Anhangsvorschaubild</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Direktaufnahme</string>
-    <string name="conversation_activity__enable_signal_for_sms">Session für SMS aktivieren</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Zum Abbrechen wischen</string>
     <!-- conversation_item -->
@@ -183,7 +170,6 @@
     <string name="join">Beitreten</string>
     <string name="read">Lesen</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Originalnachricht nicht gefunden</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -231,8 +217,6 @@
     <string name="preferences__read_receipts">Lesebestätigungen</string>
     <string name="preferences__typing_indicators">Tipp-Indikatoren</string>
     <string name="conversationsMessageTrimming">Kürzen von Unterhaltungen</string>
-    <string name="preferences_advanced__use_system_emoji">System-Emojis verwenden</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Integrierte Emojis deaktivieren und stattdessen System-Emojis verwenden</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -273,10 +257,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Deaktivieren und alle lokalen Sicherungen löschen?</string>
     <string name="BackupDialog_delete_backups_statement">Sicherungen löschen</string>
     <string name="LocalBackupJob_creating_backup">Sicherung wird erstellt …</string>
-    <string name="ProgressPreference_d_messages_so_far">%d Nachrichten bisher</string>
     <string name="preferences_app_protection__screen_lock">Bildschirmsperre</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Öffentlichen Schlüssel kopieren</string>
     <!-- Session -->
     <string name="_continue">Fortsetzen</string>
     <string name="copy">Kopieren</string>
@@ -323,7 +305,6 @@
     <string name="sessionPrivacy">Datenschutz</string>
     <string name="notificationsStrategy">Benachrichtigungsstrategie</string>
     <string name="useFastMode">Schnellen Modus verwenden</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Gerät trennen</string>
     <string name="clearDataAll">Alle Daten löschen</string>
     <string name="qrCode">QR-Code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scannen Sie den QR-Code einer Person, um ein Gespräch mit ihr zu beginnen.</string>
@@ -334,14 +315,9 @@
     <string name="done">Fertig</string>
     <string name="groupEdit">Gruppe bearbeiten</string>
     <string name="contactSelect">Kontakte auswählen</string>
-    <string name="view_reset_secure_session_done_message">Sicheres zurücksetzen der Sitzung abgeschlossen</string>
     <string name="appearanceThemes">Farbschema</string>
     <string name="attachment">Anhang</string>
     <string name="messageVoice">Sprachnachricht</string>
-    <string name="dialog_backup_activation_failed">Fehler beim aktivieren der Sicherung. Bitte versuche es erneut oder kontaktiere den Support.</string>
-    <string name="activity_backup_restore_title">Sicherung wiederherstellen</string>
-    <string name="activity_backup_restore_select_file">Datei auswählen</string>
-    <string name="activity_backup_restore_explanation_1">Wähle eine Sicherungs-Datei aus und gib die Passphrase von ihrer Erstellung ein.</string>
     <string name="activity_link_device_skip_prompt">Dies dauert eine Weile, möchtest du überspringen?</string>
     <string name="activity_link_device_qr_message">Navigiere zu Einstellungen → Wiederherstellungssatz auf deinem anderen Gerät, um deinen QR-Code anzuzeigen.</string>
     <string name="communityJoinOfficial">Oder tritt diesen bei…</string>

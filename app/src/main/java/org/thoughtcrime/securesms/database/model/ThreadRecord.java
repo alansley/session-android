@@ -82,8 +82,6 @@ public class ThreadRecord extends DisplayRecord {
       return emphasisAdded(context.getString(R.string.groupUpdated));
     } else if (isOpenGroupInvitation()) {
       return emphasisAdded(context.getString(R.string.communityInvitation));
-    } else if (SmsDatabase.Types.isEndSessionType(type)) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_secure_session_reset));
     } else if (MmsSmsColumns.Types.isLegacyType(type)) {
       return emphasisAdded(context.getString(R.string.messageErrorOld));
     } else if (MmsSmsColumns.Types.isDraftMessageType(type)) {
@@ -95,8 +93,6 @@ public class ThreadRecord extends DisplayRecord {
       return emphasisAdded(context.getString(R.string.callsCalledYou));
     } else if (SmsDatabase.Types.isMissedCall(type)) {
       return emphasisAdded(context.getString(R.string.callsMissedCallFrom));
-    } else if (SmsDatabase.Types.isJoinedType(type)) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_s_is_on_signal, getRecipient().toShortString()));
     } else if (SmsDatabase.Types.isExpirationTimerUpdate(type)) {
       int seconds = (int) (getExpiresIn() / 1000);
       if (seconds <= 0) {
@@ -109,13 +105,6 @@ public class ThreadRecord extends DisplayRecord {
     } else if (MmsSmsColumns.Types.isScreenshotExtraction(type)) {
       return emphasisAdded("ACL TO FIX - INCORPORATE STRING SUBSTITUTION LIBRARY");
       //return emphasisAdded(context.getString(R.string.screenshotTaken, getRecipient().toShortString())); // OG
-    } else if (SmsDatabase.Types.isIdentityUpdate(type)) {
-      if (getRecipient().isGroupRecipient()) return emphasisAdded(context.getString(R.string.ThreadRecord_safety_number_changed));
-      else                                   return emphasisAdded(context.getString(R.string.ThreadRecord_your_safety_number_with_s_has_changed, getRecipient().toShortString()));
-    } else if (SmsDatabase.Types.isIdentityVerified(type)) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_you_marked_verified));
-    } else if (SmsDatabase.Types.isIdentityDefault(type)) {
-      return emphasisAdded(context.getString(R.string.ThreadRecord_you_marked_unverified));
     } else if (MmsSmsColumns.Types.isMessageRequestResponse(type)) {
       return emphasisAdded(context.getString(R.string.messageRequestsAccepted));
     } else if (getCount() == 0) {

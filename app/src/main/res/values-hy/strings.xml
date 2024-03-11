@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Այս շաբաթ</string>
     <string name="attachmentsThisMonth">Այս ամիս</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Չհաջողվեց գտնել զննիչ։</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Չուղարկվեց, սեղմեք տվյալների համար</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Հասել է նամակ բանալիները փոխարինելու համար։</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Չի ուղարկվում, սեղմեք անապահով այլընտրանքի համար</string>
     <string name="ConversationItem_copied_text">«%s»֊ը պատճենվել է</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Հաղորդագրություն</string>
     <string name="ConversationActivity_muted_until_date">Անջատված է մինչև %1$s</string>
     <string name="ConversationActivity_muted_forever">Լուռ է</string>
-    <string name="ConversationActivity_invalid_recipient">Սխալ հասցեատեր</string>
     <string name="blockUnblock">Հանել արգելափակումից</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session-ը պահանջում է միկրոֆոնի թույտվություն, խնդրում ենք մտնել կարգավորումներ, ընտրել \"թույլտվություն\", ապա թույլատրել \"միկրոֆոնը\".</string>
     <string name="cameraGrantAccessStorage">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն, որպեսզի ունենանք մուտք դեպի նկարներ և վիդեոներ.</string>
@@ -110,12 +107,6 @@
     <string name="SmsMessageRecord_duplicate_message">Պաճենել նամակը։</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Խումբը թարմացված ք</string>
-    <string name="ThreadRecord_secure_session_reset">Ապահով սեսսիան վերագործարկված է:</string>
-    <string name="ThreadRecord_s_is_on_signal">%s֊ը արդեն Session֊ում է</string>
-    <string name="ThreadRecord_safety_number_changed">Անվտանգության համարը փոխվել է</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ձեր անվտանգության համարը %s-ի հետ փոխվել է:</string>
-    <string name="ThreadRecord_you_marked_verified">Ստուգված է ձեր կողմից</string>
-    <string name="ThreadRecord_you_marked_unverified">Չստուգված ձեր կողմից</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Հասանել է Session֊ի նոր տարբերակը. Սեղմեք՝ թարմացնելու համար</string>
     <!-- MessageDisplayHelper -->
@@ -158,8 +149,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Կոնտակտ</string>
-    <string name="attachment_type_selector__contact_description">Կոնտակտ</string>
     <string name="attachment_type_selector__camera">Տեսախցիկ</string>
     <string name="attachment_type_selector__camera_description">Տեսախցիկ</string>
     <string name="gif">Գիֆ</string>
@@ -170,10 +159,8 @@
     <!-- conversation_activity -->
     <string name="send">Ուղարկել</string>
     <string name="conversation_activity__compose_description">Հաղորդագրության գրառում</string>
-    <string name="conversation_activity__emoji_toggle_description">Toggle-ի սթիքերների ստեղնաշար</string>
     <string name="conversation_activity__attachment_thumbnail">Հավելվածի մանրապատկեր</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Միացնել արագ տեսախցիկի պանակը</string>
-    <string name="conversation_activity__enable_signal_for_sms">Օգտագործել Session֊ը SMS֊ի համար</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Սահեցրե՛ք չեղարկման համար</string>
     <!-- conversation_item -->
@@ -187,7 +174,6 @@
     <string name="join">Միանալ</string>
     <string name="read">Կարդալ</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Նկար</string>
     <string name="messageErrorOriginal">Մեջբերված հաղորդագրությունը չի գտնվել</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -235,8 +221,6 @@
     <string name="preferences__read_receipts">Կարդալու ազդանշաններ</string>
     <string name="preferences__typing_indicators">Գրելու ինդիկատորներ</string>
     <string name="conversationsMessageTrimming">Նամակների կարճեցում</string>
-    <string name="preferences_advanced__use_system_emoji">Օգտագործել համակարգի էմոջին</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Անջատել Session-ի ներկառուցված էմոջիների ապահովումը</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -277,10 +261,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Անջատե՞լ և ջնջե՞լ բոլոր տեղական կրկնօրինակները:</string>
     <string name="BackupDialog_delete_backups_statement">Ջնջել կրկնօրինակը։</string>
     <string name="LocalBackupJob_creating_backup">Ստեղծվուն է կրկնօրինակ...</string>
-    <string name="ProgressPreference_d_messages_so_far">Մինչ այժմ %d հաղորդագրություն</string>
     <string name="preferences_app_protection__screen_lock">Էկրանային կողպում</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Պատճենել հանրային բանալին</string>
     <!-- Session -->
     <string name="_continue">Շարունակել</string>
     <string name="copy">Պատճենել</string>
@@ -327,7 +309,6 @@
     <string name="sessionPrivacy">Գաղտնիություն</string>
     <string name="notificationsStrategy">Ծանուցումների ոճ</string>
     <string name="useFastMode">Օգտագործել արագ ռեժիմը</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Առանձնացնել սարքը</string>
     <string name="clearDataAll">Ջնջել բոլոր տվյալները</string>
     <string name="qrCode">QR կոդ</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Սկանավորեք ինչ-որ մեկի QR կոդը՝ նրա հետ զրույց սկսելու համար</string>
@@ -338,14 +319,9 @@
     <string name="done">Վերջ</string>
     <string name="groupEdit">Խմբագրել խումբը</string>
     <string name="contactSelect">Ընտրել Կոնտակտներ</string>
-    <string name="view_reset_secure_session_done_message">Ապահով սեանսի զրոյացումն ավարտված է</string>
     <string name="appearanceThemes">Ոճ</string>
     <string name="attachment">Կցում</string>
     <string name="messageVoice">Ձայնագրություն</string>
-    <string name="dialog_backup_activation_failed">Չհաջողվեց ակտիվացնել կրկնօրինակը: Խնդրում ենք կրկին փորձել կամ կապվել աջակցության հետ:</string>
-    <string name="activity_backup_restore_title">Վերականգնել կրկնօրինակը</string>
-    <string name="activity_backup_restore_select_file">Ընտրել ֆայլը</string>
-    <string name="activity_backup_restore_explanation_1">Ընտրեք կրկնօրինակի ֆայլ և մուտքագրեք այն գաղտնաբառը, որով ստեղծվել է:</string>
     <string name="activity_link_device_skip_prompt">Սա որոշ ժամանակ է տևում, կցանկանա՞ք բաց թողնել:</string>
     <string name="activity_link_device_qr_message">Անցեք Կարգավորումներ → Վերականգնման Բառակապակցություն՝ ձեր QR կոդը ցուցադրելու համար:</string>
     <string name="communityJoinOfficial">Կամ միացե՛ք սրանցից մեկին…</string>

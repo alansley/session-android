@@ -32,17 +32,14 @@
     <string name="BucketedThreadMedia_This_week">ఈ వారం</string>
     <string name="attachmentsThisMonth">ఈ నెల</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">వెబ్ బ్రౌజర్ కనుగొనబడలేదు.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">విఫలమైంది పంపండి, వివరాల కోసం నొక్కండి</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">స్వీకరించు మీట మార్పిడి సందేశం, తట్టు తో క్రమణం</string>
     <string name="ConversationItem_click_to_approve_unencrypted">పంపడం విఫలమైంది, అసురక్షిత తిరిగి పొందడం కోసం నొక్కండి</string>
     <string name="ConversationItem_copied_text">ప్రతి  తీసుకోబడింది %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">అటాచ్మెంట్ జోడించండి</string>
     <string name="message">సందేశం</string>
-    <string name="ConversationActivity_invalid_recipient">చెల్లని గ్రహీత!</string>
     <string name="blockUnblock">అనుమతించు</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">ఆడియో సందేశాలను పంపడానికి Sessionకు మైక్రోఫోన్ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్లకు కొనసాగించండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"మైక్రోఫోన్\" ని ప్రారంభించండి.</string>
     <!-- ConversationFragment -->
@@ -101,12 +98,6 @@
     <string name="SmsMessageRecord_duplicate_message">నకిలీ సందేశాం.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">సమూహం నవీకరించబడింది</string>
-    <string name="ThreadRecord_secure_session_reset">సురక్షిత సెషన్ పునరుద్ధరించు.</string>
-    <string name="ThreadRecord_s_is_on_signal">1%s Session ఉంది!</string>
-    <string name="ThreadRecord_safety_number_changed">భద్రతా సంఖ్య మార్చబడింది</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s తో మీ భద్రత సంఖ్య మార్చబడింది.</string>
-    <string name="ThreadRecord_you_marked_verified">మీరు ధృవీకరించినట్లుగా గుర్తు పెట్టారు</string>
-    <string name="ThreadRecord_you_marked_unverified">మీరు ధృవీకరించబడనిదిగా గుర్తు పెట్టారు</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session యొక్క కొత్త వివరణం అందుబాటులో ఉంది, నవీకరణ కొరకు తట్టండి</string>
     <!-- MessageDisplayHelper -->
@@ -144,8 +135,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">పరిచయం</string>
-    <string name="attachment_type_selector__contact_description">పరిచయం</string>
     <string name="attachment_type_selector__camera">కెమెరా</string>
     <string name="attachment_type_selector__camera_description">కెమెరా</string>
     <string name="gif">గిఫ్</string>
@@ -156,10 +145,8 @@
     <!-- conversation_activity -->
     <string name="send">పంపించు</string>
     <string name="conversation_activity__compose_description">సందేశాన్ని కూర్పుము</string>
-    <string name="conversation_activity__emoji_toggle_description">టోగుల్ ఎమోజి కీబోర్డు</string>
     <string name="conversation_activity__attachment_thumbnail">జోడింపు సూక్ష్మచిత్రం</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">టోగుల్ శీఘ్ర కెమెరా అటాచ్మెంట్ సొరుగు</string>
-    <string name="conversation_activity__enable_signal_for_sms">ఎస్సెమ్మెస్ చేతనం</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">మీడియ సందేశం</string>
@@ -170,7 +157,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">ఫోటో</string>
     <string name="messageErrorOriginal">అసలు సందేశం కనుగొనబడలేదు</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -216,8 +202,6 @@
     <string name="incognitoKeyboard">అజ్ఞాత కీబోర్డ్</string>
     <string name="preferences__read_receipts">చదివిన రసీదులు</string>
     <string name="conversationsMessageTrimming">సందేశం కత్తిరించి సరి చేయుట </string>
-    <string name="preferences_advanced__use_system_emoji">యంత్రము యొక్క  ఎమొజిలను  ఉపయొగించు</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session యొక్క అంతర్నిర్మిత ఎమోజి మద్దతును నిలిపివేయి  </string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -257,7 +241,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">అన్ని స్థానిక బ్యాకప్లను తొలగించి, డిసేబుల్ చేయాలా?</string>
     <string name="BackupDialog_delete_backups_statement">బ్యాకప్లను తొలిగించు</string>
     <string name="LocalBackupJob_creating_backup">బ్యాకప్ను సృష్టిస్తోంది ...</string>
-    <string name="ProgressPreference_d_messages_so_far">ఇప్పటివరకు %d సందేశాలు</string>
     <string name="preferences_app_protection__screen_lock">స్క్రీన్ తాళం</string>
     <!-- Conversation activity -->
     <!-- Session -->

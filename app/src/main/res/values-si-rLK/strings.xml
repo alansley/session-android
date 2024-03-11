@@ -81,8 +81,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">සබඳතාව</string>
-    <string name="attachment_type_selector__contact_description">සබඳතාව</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">යවන්න</string>
@@ -158,7 +156,6 @@
     <string name="groupEdit">සමූහය සංස්කරණය</string>
     <string name="appearanceThemes">තේමාව</string>
     <string name="messageVoice">හඬ පණිවිඩය</string>
-    <string name="activity_backup_restore_title">උපස්ථය ප්‍රත්‍යර්පණය</string>
     <string name="open">විවෘත</string>
     <string name="enable">සබල කරන්න</string>
     <string name="download">බාගන්න</string>

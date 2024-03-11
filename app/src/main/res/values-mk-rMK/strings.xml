@@ -23,11 +23,9 @@
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">အလဲအလှယ်စာတိုသော့ရရှိပါသည်၊ ဆက်လက်လုပ်ဆောင်ရန် နှိပ်ပါ။ </string>
     <string name="ConversationItem_copied_text">ကူးပြီးပါပြီ %s </string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">ပူးတွဲဖိုင် ထည့်ရန်</string>
-    <string name="ConversationActivity_invalid_recipient">လက်ခံမည့်သူမရှိပါ</string>
     <string name="blockUnblock">ဘလော့ဖြည်ပါ </string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">အသံဖိုင်များပို့နိုင်ရန် Sessionမှ မိုက်ခရိုဖုန်းအား အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်းကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
     <!-- ConversationFragment -->
@@ -77,12 +75,6 @@
     <string name="SmsMessageRecord_duplicate_message">ဆင်တူဖြစ်နေသောစာ</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">အဖွဲ့ကို ပြင်ဆင်ပြီး</string>
-    <string name="ThreadRecord_secure_session_reset">လုံခြုံသော ဆက်ရှင်ကိုပြန်ညှိပြီး။</string>
-    <string name="ThreadRecord_s_is_on_signal">%s က Session တွင်ရှိသည်!</string>
-    <string name="ThreadRecord_safety_number_changed">လုံခြုံရေးနံပါတ် ပြောင်းလဲသွားသည်</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">သင်နှင့် %s ၏ လုံခြုံရေးနံပါတ် ပြောင်းလဲသွားသည်။</string>
-    <string name="ThreadRecord_you_marked_verified">အတည်ပြုကြောင်း သင်မှတ်လိုက်သည်</string>
-    <string name="ThreadRecord_you_marked_unverified">အတည်မပြုထားဟု သင်မှတ်လိုက်သည်</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session ဗားရှင်းအသစ်ရပါပြီ၊ အဆင့်မြှင့်ရန် နှိပ်လိုက်ပါ</string>
     <!-- MessageDisplayHelper -->
@@ -115,8 +107,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">လိပ်စာ</string>
-    <string name="attachment_type_selector__contact_description">လိပ်စာ</string>
     <string name="attachment_type_selector__camera">ကင်မရာ </string>
     <string name="attachment_type_selector__camera_description">ကင်မရာ </string>
     <string name="attachment_type_selector__gallery_description">ဓာတ်ပုံ သို့မဟုတ် ဗီဒီယို </string>
@@ -126,10 +116,8 @@
     <!-- conversation_activity -->
     <string name="send">ပို့ပါ</string>
     <string name="conversation_activity__compose_description">စာအနေအထား</string>
-    <string name="conversation_activity__emoji_toggle_description">ရုပ်စုံကီးဘုတ်အတွက်နှိပ်ပါ </string>
     <string name="conversation_activity__attachment_thumbnail">ပူးတွဲဖိုင် စီခြင်း </string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">ကင်မရာပူးတွဲဖိုင်စီစဉ်ခြင်း နှိပ်ရန် </string>
-    <string name="conversation_activity__enable_signal_for_sms">Session မှာ SMS ပို့လို့ရပါပြီ</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">ရုပ်/သံ/ပုံပါစာ</string>
@@ -140,7 +128,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">ရုပ်ပုံ</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
     <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFs နှင့် စတစ်ကာများကိုရှာဖွေခြင်း</string>
@@ -181,8 +168,6 @@
     <string name="incognitoKeyboard">နောက်ယောင်ခံမှု မရှိသည့် ကီးဘုတ်</string>
     <string name="preferences__read_receipts">ဖတ်ပြီးပြီ</string>
     <string name="conversationsMessageTrimming">စာများကို ညှိခြင်း</string>
-    <string name="preferences_advanced__use_system_emoji">emoji စနစ်ကို သုံးပါ</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session ရဲ့ emoji ကို ပိတ်ပါ</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -220,7 +205,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">ဖုန်းထဲတွင် အရံသိမ်းထားသောဖိုင်များကို ပိတ်ပြီး ဖျက်မည်လား?</string>
     <string name="BackupDialog_delete_backups_statement">အရံသိမ်းထားသည်များကို ဖျက်မည်</string>
     <string name="LocalBackupJob_creating_backup">အရံသိမ်းဆည်းမှုများ ဖန်တီးနေပါသည်...</string>
-    <string name="ProgressPreference_d_messages_so_far">လက်ရှိအချိန်အထိ %d စာ ရှိပါသည်</string>
     <string name="preferences_app_protection__screen_lock">မျက်နှာပြင် ပိတ်ထားခြင်း</string>
     <!-- Conversation activity -->
     <!-- Session -->

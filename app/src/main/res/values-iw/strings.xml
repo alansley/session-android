@@ -36,17 +36,14 @@
     <string name="BucketedThreadMedia_This_week">השבוע</string>
     <string name="attachmentsThisMonth">החודש</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">לא נמצא דפדפן.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">שליחה נכשלה, הקש לפרטים</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">התקבלה הודעת החלפת מפתח, הקש כדי להמשיך.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">שליחה נכשלה, הקש לנסיגה בלתי מאובטחת</string>
     <string name="ConversationItem_copied_text">הועתק %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">הוסף צרופה</string>
     <string name="message">הודעה</string>
-    <string name="ConversationActivity_invalid_recipient">מקבל לא תקף!</string>
     <string name="blockUnblock">בטל חסימה</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session דורש את הרשאת המיקרופון על מנת לשלוח הודעות שמע, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מיקרופון\".</string>
     <string name="cameraGrantAccessStorage">Session צריך הרשאות גישה לאחסון על מנת לשלוח תמונות ווידיאו.</string>
@@ -113,12 +110,6 @@
     <string name="SmsMessageRecord_duplicate_message">הודעה כפולה.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">הקבוצה עודכנה</string>
-    <string name="ThreadRecord_secure_session_reset">שיח מאובטח אופס.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s משתמש ב-Session!</string>
-    <string name="ThreadRecord_safety_number_changed">מספר ביטחון השתנה</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">מספר הביטחון שלך עם %s השתנה.</string>
-    <string name="ThreadRecord_you_marked_verified">סימנת כמוודא</string>
-    <string name="ThreadRecord_you_marked_unverified">סימנת כבלתי מוודא</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">גרסה חדשה של Session זמינה, הקש כדי לעדכן</string>
     <!-- MessageDisplayHelper -->
@@ -162,8 +153,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">איש קשר</string>
-    <string name="attachment_type_selector__contact_description">איש קשר</string>
     <string name="attachment_type_selector__camera">מצלמה</string>
     <string name="attachment_type_selector__camera_description">מצלמה</string>
     <string name="gif">GIF</string>
@@ -174,10 +163,8 @@
     <!-- conversation_activity -->
     <string name="send">שלח</string>
     <string name="conversation_activity__compose_description">חיבור הודעה</string>
-    <string name="conversation_activity__emoji_toggle_description">עורר מקלדת אימוג\'י</string>
     <string name="conversation_activity__attachment_thumbnail">תמונה ממוזערת של צרופה</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">עורר מגירת צרופות מהירות של מצלמה</string>
-    <string name="conversation_activity__enable_signal_for_sms">אפשר את Session עבור מסרונים</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">החלק כדי לבטל</string>
     <!-- conversation_item -->
@@ -190,7 +177,6 @@
     <!-- open_group_invitation_view -->
     <string name="join">להצטרפות</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">תצלום</string>
     <string name="messageErrorOriginal">הודעה מקורית לא נמצאה</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -240,8 +226,6 @@
     <string name="preferences__read_receipts">אישורי קריאה</string>
     <string name="preferences__typing_indicators">מחווני הקלדה</string>
     <string name="conversationsMessageTrimming">קיצוץ הודעה</string>
-    <string name="preferences_advanced__use_system_emoji">השתמש באימוג\'י של מערכת</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">השבת תמיכת אימוג\'י מובנית של Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -281,10 +265,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">להשבית ולמחוק את כל הגיבויים המקומיים?</string>
     <string name="BackupDialog_delete_backups_statement">מחק גיבויים</string>
     <string name="LocalBackupJob_creating_backup">יוצר גיבוי...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d הודעות עד כה</string>
     <string name="preferences_app_protection__screen_lock">נעילת מסך</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">העתק מפתח ציבורי</string>
     <!-- Session -->
     <string name="_continue">המשך</string>
     <string name="copy">העתקה</string>

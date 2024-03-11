@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Ĉi tiu semajno</string>
     <string name="attachmentsThisMonth">Ĉi tiu monato</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Neniu retumilo trovita.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Sendado malsukcesis, tuŝetu por detaloj</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Ricevis mesaĝon pri interŝanĝo de ŝlosiloj, tuŝetu por daŭrigi.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Sendado malsukcesis, tuŝeti por nesekura retropaŝo</string>
     <string name="ConversationItem_copied_text">Kopiinta %s</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Mesaĝo</string>
     <string name="ConversationActivity_muted_until_date">Silentigita ĝis %1$s</string>
     <string name="ConversationActivity_muted_forever">Silentigite</string>
-    <string name="ConversationActivity_invalid_recipient">Nevalida ricevonto!</string>
     <string name="blockUnblock">Malbloki</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session bezonas la Mikrofono-permeson por sendi aŭdajn mesaĝojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Mikrofono“.</string>
     <string name="cameraGrantAccessStorage">Session bezonas aliron al la memoro por sendi bildojn kaj filmetojn.</string>
@@ -107,12 +104,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duobla mesaĝo.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupo ĝisdatigita</string>
-    <string name="ThreadRecord_secure_session_reset">Sekura seanco restarigita.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s estas ĉe Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Sekuriga numero ŝanĝiĝis</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Via sekuriga numero kun %s ŝanĝiĝis.</string>
-    <string name="ThreadRecord_you_marked_verified">Vi markis kiel konfirmita</string>
-    <string name="ThreadRecord_you_marked_unverified">Vi markis kiel nekonfirmita</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Nova versio de Session disponeblas, tuŝetu por ĝisdatigi</string>
     <!-- MessageDisplayHelper -->
@@ -155,8 +146,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Kontakto</string>
-    <string name="attachment_type_selector__contact_description">Kontakto</string>
     <string name="attachment_type_selector__camera">Fotilo</string>
     <string name="attachment_type_selector__camera_description">Fotilo</string>
     <string name="gif">GIF</string>
@@ -167,10 +156,8 @@
     <!-- conversation_activity -->
     <string name="send">Sendi</string>
     <string name="conversation_activity__compose_description">Mesaĝa redakto</string>
-    <string name="conversation_activity__emoji_toggle_description">Baskuligi emoĝian klavaron</string>
     <string name="conversation_activity__attachment_thumbnail">Kunsendaĵa miniaturo</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Baskuligi kunsendaĵon el rapida fotilo</string>
-    <string name="conversation_activity__enable_signal_for_sms">Mastrumi mesaĝetojn (SMS) per Session</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Deŝovu por nuligi</string>
     <!-- conversation_item -->
@@ -184,7 +171,6 @@
     <string name="join">Aliĝi</string>
     <string name="read">Legita</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Origina mesaĝo ne troveblas</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -232,8 +218,6 @@
     <string name="preferences__read_receipts">Legokonfirmoj</string>
     <string name="preferences__typing_indicators">Tajp-indikiloj</string>
     <string name="conversationsMessageTrimming">Tondeto de mesaĝoj</string>
-    <string name="preferences_advanced__use_system_emoji">Uzi sisteman emoĝiaron</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Malebligi emoĝiaron de Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -274,10 +258,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Ĉu malŝalti kaj forviŝi ĉiujn lokajn savkopiojn?</string>
     <string name="BackupDialog_delete_backups_statement">Forviŝi savkopiojn</string>
     <string name="LocalBackupJob_creating_backup">Kreo de savkopio...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d mesaĝoj ĝis nun</string>
     <string name="preferences_app_protection__screen_lock">Ekranŝloso</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Kopii publikan ŝlosilon</string>
     <!-- Session -->
     <string name="_continue">Daŭrigi</string>
     <string name="copy">Kopii</string>
@@ -324,7 +306,6 @@
     <string name="sessionPrivacy">Privateco</string>
     <string name="notificationsStrategy">Sciiga Strategio</string>
     <string name="useFastMode">Uzi Rapidan Reĝimon</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Malligi aparaton</string>
     <string name="clearDataAll">Viŝi Tutajn Datumojn</string>
     <string name="qrCode">QR-Kodo</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Skani ies QR-kodon por komenci konversacion kun si</string>
@@ -335,13 +316,9 @@
     <string name="done">Farite</string>
     <string name="groupEdit">Redakti Grupon</string>
     <string name="contactSelect">Elekti Kontaktojn</string>
-    <string name="view_reset_secure_session_done_message">Sekura sesia rekomencigo farite</string>
     <string name="appearanceThemes">Etoso</string>
     <string name="attachment">Kunsendaĵo</string>
     <string name="messageVoice">Voĉmesaĝo</string>
-    <string name="dialog_backup_activation_failed">Malsukcesis aktivigi savkopiojn. Bonvolu provi denove aŭ kontaktu subtenon.</string>
-    <string name="activity_backup_restore_title">Restaŭri savkopion</string>
-    <string name="activity_backup_restore_select_file">Elekti dosieron</string>
     <string name="communityJoinOfficial">Aŭ aliĝu unu de ĉi tiuj…</string>
     <string name="notificationsFastMode">Rapida Reĝimo</string>
     <string name="notificationsSlowMode">Malrapida Maniero</string>

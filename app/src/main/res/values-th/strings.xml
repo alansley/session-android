@@ -30,12 +30,10 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">การส่งล้มเหลว แตะเพื่อดูรายละเอียด</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">ได้รับข้อความแลกเปลี่ยนคีย์ แตะเพื่อประมวลผล</string>
     <string name="ConversationItem_click_to_approve_unencrypted">การส่งล้มเหลว แตะเพื่อกลับไปใช้วิธีที่ไม่ปลอดภัยแทน</string>
     <string name="ConversationItem_copied_text">คัดลอกแล้ว %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">เพิ่มไฟล์แนบ</string>
-    <string name="ConversationActivity_invalid_recipient">ผู้รับไม่ถูกต้อง</string>
     <string name="blockUnblock">เลิกปิดกั้น</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">เพื่อจะส่งข้อความเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงไมโครโฟน แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ไมโครโฟน\"</string>
     <!-- ConversationFragment -->
@@ -91,12 +89,6 @@
     <string name="SmsMessageRecord_duplicate_message">ข้อความซ้ำ</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">อัพเดตกลุ่มแล้ว</string>
-    <string name="ThreadRecord_secure_session_reset">เซสชันที่ปลอดภัยถูกรีเซ็ตแล้ว</string>
-    <string name="ThreadRecord_s_is_on_signal">%s ใช้งาน Session</string>
-    <string name="ThreadRecord_safety_number_changed">รหัสความปลอดภัยเปลี่ยนแล้ว</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">มีการเปลี่ยนแปลงรหัสความปลอดภัยระหว่างคุณกับ %s</string>
-    <string name="ThreadRecord_you_marked_verified">คุณถูกทำเครื่องหมายว่าถูกยืนยันแล้ว</string>
-    <string name="ThreadRecord_you_marked_unverified">คุณถูกทำเครื่องหมายว่ายังไม่ได้ยืนยัน</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session เวอร์ชันใหม่มาแล้ว แตะเพื่ออัพเดต</string>
     <!-- MessageDisplayHelper -->
@@ -133,8 +125,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">ผู้ติดต่อ</string>
-    <string name="attachment_type_selector__contact_description">ผู้ติดต่อ</string>
     <string name="attachment_type_selector__camera">กล้อง</string>
     <string name="attachment_type_selector__camera_description">กล้อง</string>
     <string name="attachment_type_selector__gallery_description">ภาพหรือวิดีโอ</string>
@@ -144,10 +134,8 @@
     <!-- conversation_activity -->
     <string name="send">ส่ง</string>
     <string name="conversation_activity__compose_description">การสร้างข้อความ</string>
-    <string name="conversation_activity__emoji_toggle_description">สลับแป้นพิมพ์อีโมจิ</string>
     <string name="conversation_activity__attachment_thumbnail">รูปย่อของไฟล์แนบ</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">สลับแถบเมนูไฟล์แนบกล้องถ่ายภาพแบบเร็ว</string>
-    <string name="conversation_activity__enable_signal_for_sms">เปิดใช้งาน Session สำหรับ SMS</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">ข้อความสื่อ</string>
@@ -158,7 +146,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">รูปภาพ</string>
     <string name="messageErrorOriginal">ไม่พบข้อความดั้งเดิม</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -203,8 +190,6 @@
     <string name="incognitoKeyboard">แป้นพิมพ์แบบลับ</string>
     <string name="preferences__read_receipts">ใบตอบรับเมื่ออ่าน</string>
     <string name="conversationsMessageTrimming">ตัดข้อความให้สั้นลง</string>
-    <string name="preferences_advanced__use_system_emoji">ใช้อีโมจิของระบบ</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">ปิดใช้งานการรองรับอีโมจิของ Session เอง</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -243,7 +228,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">ปิดใช้งานและลบการสำรองข้อมูลในเครื่องทั้งหมดหรือไม่</string>
     <string name="BackupDialog_delete_backups_statement">ลบการสำรองข้อมูล</string>
     <string name="LocalBackupJob_creating_backup">กำลังสร้างการสำรองข้อมูล...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d ข้อความจนถึงตอนนี้</string>
     <string name="preferences_app_protection__screen_lock">ล็อกหน้าจอ</string>
     <!-- Conversation activity -->
     <!-- Session -->

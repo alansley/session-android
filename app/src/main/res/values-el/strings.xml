@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Αυτή την εβδομάδα</string>
     <string name="attachmentsThisMonth">Αυτό το μήνα</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Δεν βρέθηκε web browser.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Η αποστολή απέτυχε, πατήστε για λεπτομέρειες</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Ελήφθη μήνυμα ανταλλαγής κλειδιών, πατήστε για να επεξεργαστεί.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Η αποστολή απέτυχε, πατήστε για μη ασφαλή εναλλακτική αποστολή</string>
     <string name="ConversationItem_copied_text">Αντιγράφτηκε: %s</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Μήνυμα</string>
     <string name="ConversationActivity_muted_until_date">Σε σίγαση μέχρι %1$s</string>
     <string name="ConversationActivity_muted_forever">Σίγαση</string>
-    <string name="ConversationActivity_invalid_recipient">Μη έγκυρος/η παραλήπτης/τρια!</string>
     <string name="blockUnblock">Ξεμπλοκάρισμα</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Το Session χρειάζεται τα δικαιώματα Μικροφώνου για να μπορούμε να στείλουμε μηνύματα ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Μικρόφωνο\".</string>
     <string name="cameraGrantAccessStorage">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για την αποστολή φωτογραφιών και βίντεο.</string>
@@ -108,12 +105,6 @@
     <string name="SmsMessageRecord_duplicate_message">Διπλότυπο μήνυμα.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Η ομάδα ενημερώθηκε</string>
-    <string name="ThreadRecord_secure_session_reset">Η ασφαλής συνεδρία επανεκκινήθηκε.</string>
-    <string name="ThreadRecord_s_is_on_signal">Ο/Η %s είναι στο Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Ο αριθμός ασφαλείας άλλαξε</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Ο αριθμός ασφαλείας με τον/την %s έχει αλλάξει.</string>
-    <string name="ThreadRecord_you_marked_verified">Σημειώσατε ως επιβεβαιωμένο</string>
-    <string name="ThreadRecord_you_marked_unverified">Σημειώσατε ως μη επιβεβαιωμένο</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Μια νέα έκδοση του Session είναι διαθέσιμη, πατήστε για αναβάθμιση</string>
     <!-- MessageDisplayHelper -->
@@ -156,8 +147,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Επαφή</string>
-    <string name="attachment_type_selector__contact_description">Επαφή</string>
     <string name="attachment_type_selector__camera">Κάμερα</string>
     <string name="attachment_type_selector__camera_description">Κάμερα</string>
     <string name="gif">Gif</string>
@@ -168,10 +157,8 @@
     <!-- conversation_activity -->
     <string name="send">Αποστολή</string>
     <string name="conversation_activity__compose_description">Σύνθεση μηνύματος</string>
-    <string name="conversation_activity__emoji_toggle_description">Εναλλαγή πληκτρολογίου emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Μικρογραφία συνημμένου</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Εναλλαγή συρταριού επισυνημμένων κάμερας</string>
-    <string name="conversation_activity__enable_signal_for_sms">Ενεργοποιήστε το Session για SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Σύρετε για ακύρωση</string>
     <!-- conversation_item -->
@@ -185,7 +172,6 @@
     <string name="join">Εγγραφείτε</string>
     <string name="read">Διαβάστηκε</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Φωτογραφία</string>
     <string name="messageErrorOriginal">Το αρχικό μήνυμα δε βρέθηκε</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -233,8 +219,6 @@
     <string name="preferences__read_receipts">Αποδεικτικά ανάγνωσης</string>
     <string name="preferences__typing_indicators">Δείκτες πληκτρολόγησης</string>
     <string name="conversationsMessageTrimming">Περικοπή μηνυμάτων</string>
-    <string name="preferences_advanced__use_system_emoji">Χρήση emoji συστήματος</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Απενεργοποίηση της ενσωματωμένης υποστήριξης για emoji του Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -275,10 +259,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Απενεργοποίηση και διαγραφή όλων των τοπικών αντίγραφων ασφαλείας;</string>
     <string name="BackupDialog_delete_backups_statement">Διαγραφή αντίγραφων ασφαλείας</string>
     <string name="LocalBackupJob_creating_backup">Το αντίγραφο ασφαλείας δημιουργείται...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d μηνύματα μέχρι τώρα</string>
     <string name="preferences_app_protection__screen_lock">Κλείδωμα οθόνης</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Αντιγραφή δημόσιου κλειδιού</string>
     <!-- Session -->
     <string name="_continue">Συνέχεια</string>
     <string name="copy">Αντιγραφή</string>
@@ -325,7 +307,6 @@
     <string name="sessionPrivacy">Απόρρητο</string>
     <string name="notificationsStrategy">Περιεχόμενο Ειδοποιήσεων</string>
     <string name="useFastMode">Χρήση Ταχείας Λειτουργίας</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Αποσύνδεση Συσκευής</string>
     <string name="clearDataAll">Εκκαθάριση όλων των δεδομένων</string>
     <string name="qrCode">QR κωδικός</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Σαρώστε τον κωδικό QR κάποιου για να ξεκινήσετε μια συνομιλία μαζί του</string>
@@ -336,14 +317,9 @@
     <string name="done">Τέλος</string>
     <string name="groupEdit">Επεξεργασία Ομάδας</string>
     <string name="contactSelect">Επιλογή Επαφών</string>
-    <string name="view_reset_secure_session_done_message">Η ασφαλής επαναφορά ολοκληρώθηκε</string>
     <string name="appearanceThemes">Θέμα</string>
     <string name="attachment">Συνημμένο</string>
     <string name="messageVoice">Ηχητικό μήνυμα</string>
-    <string name="dialog_backup_activation_failed">Αποτυχία ενεργοποίησης αντιγράφων ασφαλείας. Παρακαλώ δοκιμάστε ξανά ή επικοινωνήστε με την υποστήριξη.</string>
-    <string name="activity_backup_restore_title">Επαναφορά αντίγραφου ασφαλείας</string>
-    <string name="activity_backup_restore_select_file">Επιλέξτε ένα αρχείο</string>
-    <string name="activity_backup_restore_explanation_1">Επιλέξτε ένα αντίγραφο ασφαλείας και εισάγετε τη φράση πρόσβασης με την οποία δημιουργήθηκε.</string>
     <string name="activity_link_device_skip_prompt">Αυτό παίρνει λίγο χρόνο, θα θέλατε να παραλείψετε;</string>
     <string name="activity_link_device_qr_message">Μεταβείτε στις Ρυθμίσεις → Φράση Ανάκτησης στην άλλη συσκευή σας για να εμφανίσετε τον QR κωδικό σας.</string>
     <string name="communityJoinOfficial">Ή συνδεθείτε σε ένα από αυτά…</string>

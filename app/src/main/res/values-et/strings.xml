@@ -29,16 +29,13 @@
     <string name="BucketedThreadMedia_This_week">See nädal</string>
     <string name="attachmentsThisMonth">See kuu</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Veebibrauserit ei leitud.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Saatmine ebaõnnestus, koputa üksikasjade nägemiseks</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Võtmevahetussõnum vastuvõetud, koputa töötlemiseks.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Saatmine ebaõnnestus, koputa, et saata turvamata sõnum</string>
     <string name="ConversationItem_copied_text">%s kopeeritud</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Lisa manus</string>
-    <string name="ConversationActivity_invalid_recipient">Sobimatu saaja!</string>
     <string name="blockUnblock">Eemalda blokeering</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session vajab audiosõnumite saatmiseks ligipääsu seadme mikrofonile, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\".</string>
     <!-- ConversationFragment -->
@@ -101,12 +98,6 @@
     <string name="SmsMessageRecord_duplicate_message">Duplikaatsõnum.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupp uuendatud</string>
-    <string name="ThreadRecord_secure_session_reset">Turvaline sessioon lähtestatud.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s on Sessionis!</string>
-    <string name="ThreadRecord_safety_number_changed">Turvanumber muudetud</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Sinu turvanumber kontaktiga %s on muutunud.</string>
-    <string name="ThreadRecord_you_marked_verified">Sa märkisid kinnitatuks</string>
-    <string name="ThreadRecord_you_marked_unverified">Sa märkisid mittekinnitatuks</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Uus Sessioni versioon on saadaval, koputa uuendamiseks</string>
     <!-- MessageDisplayHelper -->
@@ -148,8 +139,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Kontakt</string>
-    <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kaamera</string>
     <string name="attachment_type_selector__camera_description">Kaamera</string>
     <string name="attachment_type_selector__gallery_description">Pilt või video</string>
@@ -159,10 +148,8 @@
     <!-- conversation_activity -->
     <string name="send">Saada</string>
     <string name="conversation_activity__compose_description">Sõnumi koostamine</string>
-    <string name="conversation_activity__emoji_toggle_description">Lülita emoji klaviatuuri</string>
     <string name="conversation_activity__attachment_thumbnail">Manuse pisipilt</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Lülita kiire kaamera manuse sahtel sisse või välja</string>
-    <string name="conversation_activity__enable_signal_for_sms">Luba Session SMSide jaoks</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Libista tühistamiseks</string>
     <!-- conversation_item -->
@@ -174,7 +161,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Originaalsõnumit ei leitud</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -221,8 +207,6 @@
     <string name="preferences__read_receipts">Lugemiskinnitused</string>
     <string name="preferences__typing_indicators">Kirjutamisindikaatorid</string>
     <string name="conversationsMessageTrimming">Sõnumi piiramine</string>
-    <string name="preferences_advanced__use_system_emoji">Kasuta süsteemi emojisid</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Keela Sessionisse sisseehitatud emoji-tugi</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -262,7 +246,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Kustuta ja keela kõik kohalikud varundused?</string>
     <string name="BackupDialog_delete_backups_statement">Kustuta varundused</string>
     <string name="LocalBackupJob_creating_backup">Varunduse loomine...</string>
-    <string name="ProgressPreference_d_messages_so_far">Siiani leidsime %d sõnumit</string>
     <string name="preferences_app_protection__screen_lock">Ekraanilukk</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -29,14 +29,11 @@
     <string name="BucketedThreadMedia_This_week">Tuần này</string>
     <string name="attachmentsThisMonth">Tháng này</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Không tìm thấy trình duyệt.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Đã nhận được yêu cầu trao đổi khoá, chạm để xử lý.</string>
     <string name="ConversationItem_copied_text">Đã sao chép %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Thêm tập tin đính kèm</string>
-    <string name="ConversationActivity_invalid_recipient">Người nhận không đúng!</string>
     <string name="blockUnblock">Không chặn</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session cần truy cập microphone để gửi tin nhắn thoại, nhưng quyền này đã bị chặn. Hãy đến phần cài đặt, chọn \"Quyền truy cập\" và kích hoạt \"Microphone\".</string>
     <!-- ConversationFragment -->
@@ -80,7 +77,6 @@
 trao đổi chìa khóa bị hỏng!</string>
     <string name="SmsMessageRecord_duplicate_message">Tin nhắn trùng lập.</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_secure_session_reset">Đã tái thiết lập phiên bảo mật.</string>
     <!-- UpdateApkReadyListener -->
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
@@ -105,13 +101,11 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Liên lạc</string>
     <string name="attachment_type_selector__camera">Máy ảnh</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Gửi</string>
     <string name="conversation_activity__compose_description">Soạn tin nhắn</string>
-    <string name="conversation_activity__emoji_toggle_description">Chuyển bàn phím biểu tượng cảm xúc</string>
     <string name="conversation_activity__attachment_thumbnail">Ảnh nhỏ tập tin đính kèm</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">TRƯỢT ĐỂ HUỶ</string>
@@ -162,8 +156,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="preferences__trim_all_conversations_now">Lập tức rút ngắn tất cả các cuộc hội thoại</string>
     <string name="_default">Mặc định</string>
     <string name="conversationsMessageTrimming">Thu gọn tin nhắn</string>
-    <string name="preferences_advanced__use_system_emoji">Sử dụng ký tự biểu cảm hệ thống</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Tắt hỗ trợ ký tự biểu cảm mặc định của Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -230,7 +222,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="activity_notification_settings_content_section_title">Nội dung thông báo</string>
     <string name="sessionPrivacy">Riêng tưy</string>
     <string name="notificationsStrategy">Chiến lược thông báo</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Hủy liên kết thiết bị</string>
     <string name="clearDataAll">Xóa tất cả dữ liệu</string>
     <string name="qrCode">Mã QR</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Quét mã QR của ai đó để bắt đầu trò chuyện với họ</string>

@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Bu həftə</string>
     <string name="attachmentsThisMonth">Bu ay</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Veb səyyah tapılmadı.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Göndərilmədi, təfsilatlar üçün toxunun</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Açar mübadilə mesajı alındı, emal etmək üçün toxunun.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Göndərə bilmədik, zəmanətsiz alternativ variant üçün kliklə</string>
     <string name="ConversationItem_copied_text">%s kopyalandı</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Mesaj</string>
     <string name="ConversationActivity_muted_until_date">%1$s qədər səssizdə</string>
     <string name="ConversationActivity_muted_forever">Səssizdə</string>
-    <string name="ConversationActivity_invalid_recipient">Etibarsız alıcı!</string>
     <string name="blockUnblock">Kilidi aç</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session, səsli mesaj göndərmək üçün mikrofona müraciət etməlidir, ancaq icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Mikrofon\"u fəallaşdırın.</string>
     <string name="cameraGrantAccessStorage">Session, foto və video göndərmək üçün anbara müraciət etməlidir.</string>
@@ -108,12 +105,6 @@
     <string name="SmsMessageRecord_duplicate_message">Təkrarlanan mesaj.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Qrup yeniləndi</string>
-    <string name="ThreadRecord_secure_session_reset">Güvənli seansı sıfırlandı.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s artıq Session-dadır!</string>
-    <string name="ThreadRecord_safety_number_changed">Güvənli nömrə dəyişdirildi</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s ilə olan güvənlik nömrəniz dəyişdirildi.</string>
-    <string name="ThreadRecord_you_marked_verified">Təsdiqləndi olaraq işarələdiniz</string>
-    <string name="ThreadRecord_you_marked_unverified">Təsdiqlənmədi olaraq işarələdiniz</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session-ın yeni versiyası hazırdır, yeniləmək üçün toxunun</string>
     <!-- MessageDisplayHelper -->
@@ -156,8 +147,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Əlaqə</string>
-    <string name="attachment_type_selector__contact_description">Əlaqə</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">Gif</string>
@@ -168,10 +157,8 @@
     <!-- conversation_activity -->
     <string name="send">Göndər</string>
     <string name="conversation_activity__compose_description">Mesaj tərtib et</string>
-    <string name="conversation_activity__emoji_toggle_description">İfadə klaviaturasını aç/bağla</string>
     <string name="conversation_activity__attachment_thumbnail">Qoşma eskizi</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Cəld kamera qoşma siyirməsini aç/bağla</string>
-    <string name="conversation_activity__enable_signal_for_sms">Session-u SMS üçün fəallaşdır</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">İmtina etmək üçün sürüşdür</string>
     <!-- conversation_item -->
@@ -185,7 +172,6 @@
     <string name="join">Qoşul</string>
     <string name="read">Oxundu</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Orijinal mesaj tapılmadı</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -233,8 +219,6 @@
     <string name="preferences__read_receipts">Oxundu bildirişləri</string>
     <string name="preferences__typing_indicators">Yazma göstəriciləri</string>
     <string name="conversationsMessageTrimming">Mesajları kəsmə</string>
-    <string name="preferences_advanced__use_system_emoji">Sistem ifadəsini istifadə et</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session-un daxili ifadə dəstəyini sıradan çıxart</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -275,10 +259,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Bütün yerli nüsxələr sıradan çıxarılıb silinsin?</string>
     <string name="BackupDialog_delete_backups_statement">Nüsxəni sil</string>
     <string name="LocalBackupJob_creating_backup">Nüsxə yaradılır...</string>
-    <string name="ProgressPreference_d_messages_so_far">İndiyə qədər %d mesaj</string>
     <string name="preferences_app_protection__screen_lock">Ekran kilidi</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">İctimai açarı kopyala</string>
     <!-- Session -->
     <string name="_continue">Davam</string>
     <string name="copy">Kopyala</string>
@@ -325,7 +307,6 @@
     <string name="sessionPrivacy">Gizlilik</string>
     <string name="notificationsStrategy">Bildiriş Strategiyası</string>
     <string name="useFastMode">Sürətli rejimi istifadə et</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Cihazın əlaqəsini kəs</string>
     <string name="clearDataAll">Bütün verilənləri təmizlə</string>
     <string name="qrCode">QR Kod</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Başqasıyla bir danışıq başlatmaq üçün onun QR kodunu skan edin</string>
@@ -336,14 +317,9 @@
     <string name="done">Bitdi</string>
     <string name="groupEdit">Qrupa düzəliş et</string>
     <string name="contactSelect">Əlaqələri seç</string>
-    <string name="view_reset_secure_session_done_message">Güvənli seans sıfırlanması bitdi</string>
     <string name="appearanceThemes">Tema</string>
     <string name="attachment">Qoşma</string>
     <string name="messageVoice">Səsyazmalı mesaj</string>
-    <string name="dialog_backup_activation_failed">Nüsxələmələr aktivləşdirilmədi. Zəhmət olmasa yenidən sınayın və ya dəstəklə əlaqə saxlayın.</string>
-    <string name="activity_backup_restore_title">Nüsxəni bərpa et</string>
-    <string name="activity_backup_restore_select_file">Bir fayl seçin</string>
-    <string name="activity_backup_restore_explanation_1">Bir nüsxə faylı seçin və ya yaradılan vaxt verilən parolu daxil edin.</string>
     <string name="activity_link_device_skip_prompt">Bu bir az vaxt apara bilər, ötürmək istəyirsiniz?</string>
     <string name="activity_link_device_qr_message">QR kodunu göstərmək üçün digər cihazınızda Tənzimləmələr → \"Bərpa parolu\"na gedin.</string>
     <string name="communityJoinOfficial">Və ya bunlardan birinə qoşulun…</string>

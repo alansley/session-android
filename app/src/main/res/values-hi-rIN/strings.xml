@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">इस सप्ताह</string>
     <string name="attachmentsThisMonth">इस महीना</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">कोई ब्राउज़र नहीं मिला!</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">भेजने में असफल रहा, विवरण के लिए टैप करें।</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">कुंजी एक्सचेंज संदेश प्राप्त हुआ, प्रक्रिया करने के लिए टैप करें।</string>
     <string name="ConversationItem_click_to_approve_unencrypted">भेजने में असफल रहा, असुरक्षित फ़ॉलबैक के लिए टैप करें</string>
     <string name="ConversationItem_copied_text">%s अनुकरण </string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">मैसेज</string>
     <string name="ConversationActivity_muted_until_date">%s तक मौन किया</string>
     <string name="ConversationActivity_muted_forever">म्यूट हो गए</string>
-    <string name="ConversationActivity_invalid_recipient">अवैध प्राप्तकर्ता</string>
     <string name="blockUnblock">अनब्लॉक करें</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">ऑडियो संदेशों को भेजने के लिए Session को माइक्रोफ़ोन अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"माइक्रोफ़ोन\" सक्षम करें।</string>
     <string name="cameraGrantAccessStorage">Session को फ़ोटो या वीडियो लेने के लिए Storage अनुमति चाहिए</string>
@@ -107,12 +104,6 @@
     <string name="SmsMessageRecord_duplicate_message">संदेश डुप्लिकेट करें</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">समूह अद्यतन</string>
-    <string name="ThreadRecord_secure_session_reset">सुरक्षित सत्र रीसेट कर दिया गया है</string>
-    <string name="ThreadRecord_s_is_on_signal">%sअब Session पर हैं! </string>
-    <string name="ThreadRecord_safety_number_changed">सुरक्षा संख्या बदल गई</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">%s के साथ आपका सुरक्षा नंबर बदल गया है।</string>
-    <string name="ThreadRecord_you_marked_verified">आपने सत्यापित चिह्नित किया है</string>
-    <string name="ThreadRecord_you_marked_unverified">आपने असत्यापित चिह्नित किया है</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session का एक नया संस्करण उपलब्ध है, अपडेट करने के लिए टैप करें</string>
     <!-- MessageDisplayHelper -->
@@ -155,8 +146,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">संपर्क</string>
-    <string name="attachment_type_selector__contact_description">संपर्क</string>
     <string name="attachment_type_selector__camera">कैमरा</string>
     <string name="attachment_type_selector__camera_description">कैमरा</string>
     <string name="gif">जीआईएफ</string>
@@ -167,10 +156,8 @@
     <!-- conversation_activity -->
     <string name="send">भेजें</string>
     <string name="conversation_activity__compose_description">संदेश संरचना</string>
-    <string name="conversation_activity__emoji_toggle_description">इमोजी कीबोर्ड टॉगल करें</string>
     <string name="conversation_activity__attachment_thumbnail">अटैचमेंट थंबनेल </string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">त्वरित कैमरा अनुलग्नक दराज टॉगल करें</string>
-    <string name="conversation_activity__enable_signal_for_sms">एसएमएस के लिए Session सक्षम करें</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">रद्द करने के लिए स्लाइड करें</string>
     <!-- conversation_item -->
@@ -184,7 +171,6 @@
     <string name="join">ज्वॉइन करें</string>
     <string name="read">पढ़ें</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">फ़ोटो</string>
     <string name="messageErrorOriginal">मूल संदेश नहीं मिला</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -232,8 +218,6 @@
     <string name="preferences__read_receipts">पढ़ने की रसीदें</string>
     <string name="preferences__typing_indicators">टाइपिंग सूचक</string>
     <string name="conversationsMessageTrimming">संदेश ट्रिमिंग</string>
-    <string name="preferences_advanced__use_system_emoji">सिस्टम इमोजी का प्रयोग करें</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Session के अंतर्निहित इमोजी समर्थन को अक्षम करें</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -274,10 +258,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">सभी स्थानीय बैकअप अक्षम करें और हटाएं?</string>
     <string name="BackupDialog_delete_backups_statement">बैकअप हटाएं</string>
     <string name="LocalBackupJob_creating_backup">बैकअप बनाया जा रहा है</string>
-    <string name="ProgressPreference_d_messages_so_far">अब तक %d संदेश</string>
     <string name="preferences_app_protection__screen_lock">स्क्रीन लॉक</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">पब्लिक की कॉपी करें</string>
     <!-- Session -->
     <string name="_continue">जारी रखें</string>
     <string name="copy">कॉपी करें</string>
@@ -324,7 +306,6 @@
     <string name="sessionPrivacy">गोपनियता</string>
     <string name="notificationsStrategy">सूचना रणनीति</string>
     <string name="useFastMode">तीव्र मोड इस्तेमाल करे</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">डिवाइस को अनलिंक करें</string>
     <string name="clearDataAll">सभी डेटा हटाएं</string>
     <string name="qrCode">QR कोड</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">किसी के साथ बातचीत शुरू करने के लिए उसका क्यूआर कोड स्कैन करें</string>
@@ -335,14 +316,9 @@
     <string name="done">पूरा हुआ</string>
     <string name="groupEdit">ग्रुप बदलें</string>
     <string name="contactSelect">कांटेक्ट चुनें</string>
-    <string name="view_reset_secure_session_done_message">सुरक्षित सेशन रीसेट कर दिया गया है</string>
     <string name="appearanceThemes">थीम</string>
     <string name="attachment">अटैचमेंट</string>
     <string name="messageVoice">वौइस् मैसेज</string>
-    <string name="dialog_backup_activation_failed">बैकअप सक्रिय करने में विफल। कृपया पुन: प्रयास करें या समर्थन से संपर्क करें।</string>
-    <string name="activity_backup_restore_title">बैकअप रिस्टोर करें</string>
-    <string name="activity_backup_restore_select_file">फाइल चुनें</string>
-    <string name="activity_backup_restore_explanation_1">एक बैकअप फ़ाइल चुनें और वह पासफ़्रेज़ दर्ज करें जिसके साथ इसे बनाया गया था।</string>
     <string name="activity_link_device_skip_prompt">यह समय ले रहा है, इसे छोड़ दें?</string>
     <string name="activity_link_device_qr_message">अपना क्यूआर कोड दिखाने के लिए अपने अन्य डिवाइस पर सेटिंग्स →पुनर्प्राप्ति वाक्यांश में जाएंं।</string>
     <string name="communityJoinOfficial">या इनमें से एक को जोड़ें...</string>

@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Deze week</string>
     <string name="attachmentsThisMonth">Deze maand</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Geen webbrowser gevonden.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Verzenden is mislukt, tik voor details</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Sleuteluitwisselingsbericht ontvangen, tik om te verwerken.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Verzenden is mislukt, tik om onbeveiligd te verzenden</string>
     <string name="ConversationItem_copied_text">%s gekopieerd</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Bericht</string>
     <string name="ConversationActivity_muted_until_date">Gedempt tot %1$s</string>
     <string name="ConversationActivity_muted_forever">Dempen</string>
-    <string name="ConversationActivity_invalid_recipient">Ongeldige ontvanger!</string>
     <string name="blockUnblock">Deblokkeren</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session heeft toegang nodig tot de microfoon om audioberichten te kunnen opnemen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Microfoon’ in.</string>
     <string name="cameraGrantAccessStorage">Sessie heeft toegang nodig tot de opslag om foto\'s en video\'s te kunnen versturen.</string>
@@ -108,12 +105,6 @@
     <string name="SmsMessageRecord_duplicate_message">Gedupliceerd bericht.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Groep aangepast</string>
-    <string name="ThreadRecord_secure_session_reset">Beveiligde sessie opnieuw ingesteld.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s maakt gebruik van Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Veiligheidsnummer veranderd</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Je veiligheidsnummer met %s is veranderd.</string>
-    <string name="ThreadRecord_you_marked_verified">Door jou als geverifieerd gemarkeerd</string>
-    <string name="ThreadRecord_you_marked_unverified">Door jou als niet geverifieerd gemarkeerd</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Er is een nieuwe versie van Session beschikbaar, tik om bij te werken</string>
     <!-- MessageDisplayHelper -->
@@ -156,8 +147,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Contactpersoon</string>
-    <string name="attachment_type_selector__contact_description">Contactpersoon</string>
     <string name="attachment_type_selector__camera">Camera</string>
     <string name="attachment_type_selector__camera_description">Camera</string>
     <string name="gif">Gif</string>
@@ -168,10 +157,8 @@
     <!-- conversation_activity -->
     <string name="send">Verzenden</string>
     <string name="conversation_activity__compose_description">Berichtsamenstelling</string>
-    <string name="conversation_activity__emoji_toggle_description">Emojitoetsenbord wisselen</string>
     <string name="conversation_activity__attachment_thumbnail">Bijlagevoorbeeld</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Camera overzicht tonen/verbergen</string>
-    <string name="conversation_activity__enable_signal_for_sms">Gebruik Session voor sms</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Veeg om te annuleren</string>
     <!-- conversation_item -->
@@ -185,7 +172,6 @@
     <string name="join">Aansluiten</string>
     <string name="read">Gelezen</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Oorspronkelijk bericht niet gevonden</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -233,8 +219,6 @@
     <string name="preferences__read_receipts">Leesbevestigingen</string>
     <string name="preferences__typing_indicators">Typindicatoren</string>
     <string name="conversationsMessageTrimming">Beperk bewaartermijn</string>
-    <string name="preferences_advanced__use_system_emoji">Gebruik systeem-emoji</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Schakel de ingebouwde emoji-ondersteuning van Session uit.</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -275,10 +259,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Als je Signal niet langer back-ups wilt laten maken, dan zal Signal ook alle bestaande back-ups van /Session/Backups wissen, om er zeker van te zijn dat er geen oude gesprekken op je apparaat achterblijven.</string>
     <string name="BackupDialog_delete_backups_statement">Back-ups wissen</string>
     <string name="LocalBackupJob_creating_backup">Back-up aan het maken…</string>
-    <string name="ProgressPreference_d_messages_so_far">%d berichten tot nu toe</string>
     <string name="preferences_app_protection__screen_lock">Schermvergrendeling</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Publieke sleutel kopiëren</string>
     <!-- Session -->
     <string name="_continue">Doorgaan</string>
     <string name="copy">Kopiëren</string>
@@ -325,7 +307,6 @@
     <string name="sessionPrivacy">Privacy</string>
     <string name="notificationsStrategy">Notificatie strategie</string>
     <string name="useFastMode">Gebruik snelle modus</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Apparaat ontkoppelen</string>
     <string name="clearDataAll">Wis alle gegevens</string>
     <string name="qrCode">QR-code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scan iemands QR-code om een gesprek te beginnen</string>
@@ -336,14 +317,9 @@
     <string name="done">Klaar</string>
     <string name="groupEdit">Groep bewerken</string>
     <string name="contactSelect">Contacten selecteren</string>
-    <string name="view_reset_secure_session_done_message">Beveiligde sessie opnieuw ingesteld</string>
     <string name="appearanceThemes">Thema</string>
     <string name="attachment">Bijlage</string>
     <string name="messageVoice">Spraakbericht</string>
-    <string name="dialog_backup_activation_failed">Activeren van back-ups mislukt. Probeer het opnieuw of neem contact op met het ondersteuningsteam.</string>
-    <string name="activity_backup_restore_title">Back-up terugzetten</string>
-    <string name="activity_backup_restore_select_file">Selecteer een bestand</string>
-    <string name="activity_backup_restore_explanation_1">Selecteer een backup-bestand en voer de wachtwoordzin in waarmee het is gemaakt.</string>
     <string name="activity_link_device_skip_prompt">Dit duurt een tijdje, wilt u het overslaan?</string>
     <string name="activity_link_device_qr_message">Navigeer naar Instellingen → Herstel zin op je andere apparaat om je QR-code te tonen.</string>
     <string name="communityJoinOfficial">Of neem deel aan een van deze...</string>

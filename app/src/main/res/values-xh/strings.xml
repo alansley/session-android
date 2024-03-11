@@ -19,10 +19,8 @@
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Key  exchange message efuniddwa, kwata okugenda mumaso</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Gatako ekigatiddwako</string>
-    <string name="ConversationActivity_invalid_recipient">Afuna mukyamu</string>
     <string name="blockUnblock">sumulula</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">tereka mu terekero</string>
@@ -62,7 +60,6 @@
     <string name="SmsMessageRecord_secure_session_reset_s">%sresettinga akade akekusifu</string>
     <string name="SmsMessageRecord_duplicate_message">Ddamu message</string>
     <!-- ThreadRecord -->
-    <string name="ThreadRecord_secure_session_reset">Akadde akekusifu karesetinge nate</string>
     <!-- UpdateApkReadyListener -->
     <!-- MessageDisplayHelper -->
     <!-- MmsMessageRecord -->
@@ -90,7 +87,6 @@
     <!-- conversation_activity -->
     <string name="send">Sindika</string>
     <string name="conversation_activity__compose_description">Tandika obubaka</string>
-    <string name="conversation_activity__emoji_toggle_description">kyusa yusa keybodi ya emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Ekikwasidwaako Thumbnail</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Kasindike okusazamu</string>
@@ -144,8 +140,6 @@
     <string name="preferences__trim_all_conversations_now">sala ku mboozi zona kati</string>
     <string name="_default">wifi calling compatiblity mode</string>
     <string name="conversationsMessageTrimming">Okuyimpaya obubaka</string>
-    <string name="preferences_advanced__use_system_emoji">Kozesa system emoji</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Gyako emoji support eyazimbibwa mu Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->

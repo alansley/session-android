@@ -23,11 +23,9 @@
     <string name="BucketedThreadMedia_This_week">اس ہفتے</string>
     <string name="attachmentsThisMonth">اس مہینے</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">کوئی ویب براؤزر نہیں ملا.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">بھیجنا ناکام ہو گیا، تفصیلات کے لیے تھپتھپائیں۔</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">اہم تبادلہ پیغام موصول ہوا، کارروائی کرنے کے لیے تھپتھپائیں.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">بھیجنا ناکام ہو گیا، غیر محفوظ فال بیک کے لیے تھپتھپائیں</string>
     <string name="ConversationItem_copied_text">%s کو کاپی کیا گیا</string>
     <!-- ConversationActivity -->
@@ -35,7 +33,6 @@
     <string name="message">پیغام</string>
     <string name="ConversationActivity_muted_until_date">%1$s تک خاموش کر دیا گیا۔</string>
     <string name="ConversationActivity_muted_forever">خاموش</string>
-    <string name="ConversationActivity_invalid_recipient">غلط وصول کنندہ!</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->

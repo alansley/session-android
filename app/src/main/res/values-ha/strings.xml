@@ -31,15 +31,12 @@
     <string name="BucketedThreadMedia_This_week">Ev hefte</string>
     <string name="attachmentsThisMonth">Ev meh</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Web gerok nehate dîtin.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Şandin têk çû, ji bo hûrgiliyên bêhtir, bitepîne</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Peyama veguhastina kilîdê hate stendin, ji bo pêvajoyê bitepîne.</string>
     <string name="ConversationItem_copied_text">%s ji ber girtî</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Servehî lê zede bike</string>
-    <string name="ConversationActivity_invalid_recipient">Stînerê nederbasdar!</string>
     <string name="blockUnblock">Astengê rake</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session ji bo şandina peyamên dengî destûra Mîkrofonê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Mîkrofon\"ê çalak bike.</string>
     <!-- ConversationFragment -->
@@ -96,12 +93,6 @@
     <string name="SmsMessageRecord_duplicate_message">Peyamê dubare bike.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Kom hat hildemandin</string>
-    <string name="ThreadRecord_secure_session_reset">Danişîna parastî nûsazîne.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s beşdarî Sessionê bûye!</string>
-    <string name="ThreadRecord_safety_number_changed">Hejmara ewlehiyê hat guhertin</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Hejmara te ya ewlehiyê bi %s re hate guhertin.</string>
-    <string name="ThreadRecord_you_marked_verified">Te wekî rastandî nîşan kir</string>
-    <string name="ThreadRecord_you_marked_unverified">Te wekî nerastandî nîşan kir</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Guhertoyeke nû ya Sessionê amade ye, ji bo hildemandinê bitepîne. </string>
     <!-- MessageDisplayHelper -->
@@ -143,8 +134,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Berdeng</string>
-    <string name="attachment_type_selector__contact_description">Berdeng</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gallery_description">Wêne yan vidyo</string>
@@ -154,10 +143,8 @@
     <!-- conversation_activity -->
     <string name="send">Bişîne</string>
     <string name="conversation_activity__compose_description">Peyam binivîse</string>
-    <string name="conversation_activity__emoji_toggle_description">Textekilîlê emojî yê din bijerînin</string>
     <string name="conversation_activity__attachment_thumbnail">Wênoka Servehiyê</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Bijertina attachment drawer a kamera ya din</string>
-    <string name="conversation_activity__enable_signal_for_sms">Ji bo SMS Sessionê çalak bike</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Peyama medya</string>
@@ -168,7 +155,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Wêne</string>
     <string name="messageErrorOriginal">Peyama orjînal nehate dîtin</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -214,8 +200,6 @@
     <string name="preferences__read_receipts">Girtekan bixwîne</string>
     <string name="preferences__typing_indicators">Nîşandêrên nivîsandinê</string>
     <string name="conversationsMessageTrimming">Qusandina peyamê</string>
-    <string name="preferences_advanced__use_system_emoji">Emojiya pergalê bi kar bîne</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Piştgiriya emojiyê a daxilî ya Sessionê neçalak bike </string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -255,7 +239,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Hemû paşekeftên xwecihî neçalak bike û jê bibe?</string>
     <string name="BackupDialog_delete_backups_statement">Paşekeftan jê bibe</string>
     <string name="LocalBackupJob_creating_backup">Paşekeft tê avakirin...</string>
-    <string name="ProgressPreference_d_messages_so_far">Heta niha %d peyam</string>
     <string name="preferences_app_protection__screen_lock">Qufleya ekranê</string>
     <!-- Conversation activity -->
     <!-- Session -->

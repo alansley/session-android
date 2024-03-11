@@ -22,16 +22,13 @@
     <string name="BucketedThreadMedia_This_week">Wiki hii</string>
     <string name="attachmentsThisMonth">Mwezi huu</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">hakuna kivinjari cha web kilichopatikana</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">imefeli kutuma, gusa kwa taarifa</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">umepokea ujumbe uliobadilishwa, gusa  kuendelea na mchakato</string>
     <string name="ConversationItem_click_to_approve_unencrypted">imefeli kutuma, gusa kwa isiyo salama ili kuanguka nyuma</string>
     <string name="ConversationItem_copied_text">nakala 1%s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ongeza Kiambatanisho</string>
-    <string name="ConversationActivity_invalid_recipient">Mpokeaji sio sahihi</string>
     <string name="blockUnblock">Fungua</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kipaza sauti\".</string>
     <!-- ConversationFragment -->
@@ -82,12 +79,6 @@
     <string name="SmsMessageRecord_duplicate_message">kutoa nakala ya ujumbe</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Kikundi kilichosasishwa</string>
-    <string name="ThreadRecord_secure_session_reset">rekebisha salama kipindi</string>
-    <string name="ThreadRecord_s_is_on_signal">1%s yupo Session</string>
-    <string name="ThreadRecord_safety_number_changed">namba salama zimebadilika</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">namba yako ya usalama pamoja na 1%s imebadilika</string>
-    <string name="ThreadRecord_you_marked_verified">umeweka kuthibitishwa?</string>
-    <string name="ThreadRecord_you_marked_unverified">umeweka haukuthibitishwa</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Toleo jipya la Session inapatikana, bomba ili uhakikishe</string>
     <!-- MessageDisplayHelper -->
@@ -123,8 +114,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Mawasiliano</string>
-    <string name="attachment_type_selector__contact_description">Mawasiliano</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">gif</string>
@@ -135,10 +124,8 @@
     <!-- conversation_activity -->
     <string name="send">Tuma</string>
     <string name="conversation_activity__compose_description">utungaji wa ujumbe</string>
-    <string name="conversation_activity__emoji_toggle_description">Toggle katuni kibodi</string>
     <string name="conversation_activity__attachment_thumbnail">kiambatanisho thumbnail</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Toggle haraka kamera kiambatisho drawer</string>
-    <string name="conversation_activity__enable_signal_for_sms">Wezesha Session kwa meseji</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Ujumbe wa vyombo vya habari</string>
@@ -149,7 +136,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">picha</string>
     <string name="messageErrorOriginal">Meseji halisi haipatikani</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -192,8 +178,6 @@
     <string name="preferences__read_receipts">Soma stakabadhi</string>
     <string name="preferences__typing_indicators">andika viashiria</string>
     <string name="conversationsMessageTrimming">ujumbe unapunguza</string>
-    <string name="preferences_advanced__use_system_emoji">kutumia emoji mfumo</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">kuzuia Session iliyojengwa kusaidia emoji</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -233,7 +217,6 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Zima na kufuta salama zote za ndani?</string>
     <string name="BackupDialog_delete_backups_statement">Futa salama</string>
     <string name="LocalBackupJob_creating_backup">Kujenga salama</string>
-    <string name="ProgressPreference_d_messages_so_far">1%d ujumbe hadi sasa</string>
     <string name="preferences_app_protection__screen_lock">safi ya skrini</string>
     <!-- Conversation activity -->
     <!-- Session -->

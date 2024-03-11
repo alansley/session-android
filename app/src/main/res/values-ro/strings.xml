@@ -34,11 +34,9 @@
     <string name="BucketedThreadMedia_This_week">Săptămâna aceasta</string>
     <string name="attachmentsThisMonth">Luna asta</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Nu s-a găsit nici un web browser.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Trimitere eșuată, apăsați pentru detalii</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Am primit un mesaj pentru schimbul de chei, apăsați pentru a-l procesa.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Trimitere eșuată, apăsați pentru varianta nesecurizată</string>
     <string name="ConversationItem_copied_text">Copiat %s</string>
     <!-- ConversationActivity -->
@@ -46,7 +44,6 @@
     <string name="message">Mesaj</string>
     <string name="ConversationActivity_muted_until_date">Amuțit până la %1$s</string>
     <string name="ConversationActivity_muted_forever">Ignoră</string>
-    <string name="ConversationActivity_invalid_recipient">Destinatar invalid!</string>
     <string name="blockUnblock">Deblochează</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session are nevoie de permisiunea pentru Microfon pentru a putea trimite mesaje audio dar i-a fost refuzat accesul permanent. Vă rugăm să navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Microfon\".</string>
     <string name="cameraGrantAccessStorage">Session are nevoie de acces la stocare pentru a trimite fotografii și videoclipuri.</string>
@@ -113,12 +110,6 @@ schimbul de chei este corupt </string>
     <string name="SmsMessageRecord_duplicate_message">Mesaj duplicat.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupul a fost actualizat</string>
-    <string name="ThreadRecord_secure_session_reset">Sesiune securizată resetată.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s folosește Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Numărul de siguranță s-a schimbat</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Numărul tău de siguranță pentru %s s-a schimbat.</string>
-    <string name="ThreadRecord_you_marked_verified">Ați marcat ca și verificat</string>
-    <string name="ThreadRecord_you_marked_unverified">Ați marcat ca și neverificat</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">O nouă versiune de Session este disponibilă, apasă pentru actualizare</string>
     <!-- MessageDisplayHelper -->
@@ -162,8 +153,6 @@ schimbul de chei este corupt </string>
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Contact</string>
-    <string name="attachment_type_selector__contact_description">Contact</string>
     <string name="attachment_type_selector__camera">Cameră</string>
     <string name="attachment_type_selector__camera_description">Cameră</string>
     <string name="gif">Gif</string>
@@ -174,10 +163,8 @@ schimbul de chei este corupt </string>
     <!-- conversation_activity -->
     <string name="send">Trimite</string>
     <string name="conversation_activity__compose_description">Compunere mesaj</string>
-    <string name="conversation_activity__emoji_toggle_description">Comutare tastatură emoji</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatură atașament</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Comutare panou cu atașamente de la camera rapidă </string>
-    <string name="conversation_activity__enable_signal_for_sms">Activează Session pentru SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Glisați pentru a anula</string>
     <!-- conversation_item -->
@@ -191,7 +178,6 @@ schimbul de chei este corupt </string>
     <string name="join">Alătură-te</string>
     <string name="read">Citește</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Poză</string>
     <string name="messageErrorOriginal">Mesajul original nu a fost găsit</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -240,8 +226,6 @@ schimbul de chei este corupt </string>
     <string name="preferences__read_receipts">Confirmări de citire</string>
     <string name="preferences__typing_indicators">Indicatori tastare</string>
     <string name="conversationsMessageTrimming">Scurtarea mesajelor</string>
-    <string name="preferences_advanced__use_system_emoji">Foloseşte emoji de sistem</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Dezactivați icoanele emoji oferite de Session </string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -282,10 +266,8 @@ schimbul de chei este corupt </string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Dezactivez și șterg toate backup-urile locale?</string>
     <string name="BackupDialog_delete_backups_statement">Șterge backup-urile</string>
     <string name="LocalBackupJob_creating_backup">Se creează backup-ul...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d mesaje până acum</string>
     <string name="preferences_app_protection__screen_lock">Blocare ecran</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Copie cheia publică</string>
     <!-- Session -->
     <string name="_continue">Continuă</string>
     <string name="copy">Copiază</string>

@@ -32,11 +32,9 @@
     <string name="BucketedThreadMedia_This_week">Denne uge</string>
     <string name="attachmentsThisMonth">Denne måned</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Ingen webbrowser fundet.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Afsendelse mislykkedes, tryk for detaljer</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Udvekslingsnøgle er modtaget. Tryk for at behandle.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Fejl ved afsendelse, tryk for at sende usikret</string>
     <string name="ConversationItem_copied_text">Kopierede %s</string>
     <!-- ConversationActivity -->
@@ -44,7 +42,6 @@
     <string name="message">Besked</string>
     <string name="ConversationActivity_muted_until_date">Lydløs indtil %1$s</string>
     <string name="ConversationActivity_muted_forever">Lyden slået fra</string>
-    <string name="ConversationActivity_invalid_recipient">Ugyldig modtager!</string>
     <string name="blockUnblock">Fjern blokering</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session kræver tilladelse til at tilgå mikrofonen for at kunne sende lydfiler, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Mikrofon\"</string>
     <string name="cameraGrantAccessStorage">Session har brug for lageradgang for at sende billeder og videoer.</string>
@@ -107,12 +104,6 @@ udveksel besked!</string>
     <string name="SmsMessageRecord_duplicate_message">Dupliker besked</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Gruppe opdateret</string>
-    <string name="ThreadRecord_secure_session_reset">Nulstil sikker forbindelse</string>
-    <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Sikkerhedsnummer ændret</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Dit sikkerhedsnummer med %s er ændret</string>
-    <string name="ThreadRecord_you_marked_verified">Markerét som verificeret</string>
-    <string name="ThreadRecord_you_marked_unverified">Markerét som ubekræftet</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">En ny version af Session er tilgængelig, tap for at opdatere</string>
     <!-- MessageDisplayHelper -->
@@ -154,8 +145,6 @@ udveksel besked!</string>
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Kontaktperson</string>
-    <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="gif">Gif</string>
@@ -166,10 +155,8 @@ udveksel besked!</string>
     <!-- conversation_activity -->
     <string name="send">Send</string>
     <string name="conversation_activity__compose_description">Beskedsammensætning</string>
-    <string name="conversation_activity__emoji_toggle_description">Slå Emoji tastatur til/fra</string>
     <string name="conversation_activity__attachment_thumbnail">Vedhæftet skabelon</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Slå kamera til/fra</string>
-    <string name="conversation_activity__enable_signal_for_sms">Brug Session til SMS</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Slide for at annullere</string>
     <!-- conversation_item -->
@@ -183,7 +170,6 @@ udveksel besked!</string>
     <string name="join">Deltag</string>
     <string name="read">Læst</string>
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Billed</string>
     <string name="messageErrorOriginal">Original besked ikke fundet</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -231,8 +217,6 @@ udveksel besked!</string>
     <string name="preferences__read_receipts">Læst af modtager</string>
     <string name="preferences__typing_indicators">Skrive indikator</string>
     <string name="conversationsMessageTrimming">Trimning af beskeder</string>
-    <string name="preferences_advanced__use_system_emoji">Brug system-emoji</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Deaktivér Sessions indbyggede emoji understøttelse</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -273,10 +257,8 @@ udveksel besked!</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Deaktivér og slet alle lokale backup\'s?</string>
     <string name="BackupDialog_delete_backups_statement">Slet backup\'s</string>
     <string name="LocalBackupJob_creating_backup">Opretter backup...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d beskeder ind til videre</string>
     <string name="preferences_app_protection__screen_lock">Skærmlås</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Kopiér offentlig nøgle</string>
     <!-- Session -->
     <string name="_continue">Fortsæt</string>
     <string name="copy">Kopiér</string>
@@ -317,7 +299,6 @@ udveksel besked!</string>
     <string name="activity_notification_settings_content_section_title">Meddelelsesindhold</string>
     <string name="sessionPrivacy">Privatliv</string>
     <string name="useFastMode">Brug Hurtig Tilstand</string>
-    <string name="fragment_device_list_bottom_sheet_unlink_device_button_title">Frakobl enhed</string>
     <string name="clearDataAll">Ryd Alt Data</string>
     <string name="qrCode">QR-kode</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scan ens QR-kode for at starte en samtale med dem</string>
@@ -328,12 +309,8 @@ udveksel besked!</string>
     <string name="done">Færdig</string>
     <string name="groupEdit">Rediger Gruppe</string>
     <string name="contactSelect">Vælg Kontakter</string>
-    <string name="view_reset_secure_session_done_message">Sikker sessions nulstilling færdig</string>
     <string name="appearanceThemes">Tema</string>
     <string name="messageVoice">Talebesked</string>
-    <string name="dialog_backup_activation_failed">Kunne ikke aktivere sikkerhedskopier. Prøv igen, eller kontakt support.</string>
-    <string name="activity_backup_restore_title">Gendan sikkerhedskopi</string>
-    <string name="activity_backup_restore_select_file">Vælg en fil</string>
     <string name="activity_link_device_skip_prompt">Dette tager et stykke tid, vil du gerne springe over?</string>
     <string name="activity_link_device_qr_message">Naviger til Indstillinger → Gendannelsessætning på din anden enhed, for at vise din QR-kode.</string>
     <string name="communityJoinOfficial">Eller deltag i en af disse…</string>

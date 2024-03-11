@@ -29,16 +29,13 @@
     <string name="BucketedThreadMedia_This_week">Denne veka</string>
     <string name="attachmentsThisMonth">Denne månaden</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Fann ingen nettlesar.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Feil ved sending, trykk for detaljar</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Melding for nøkkelutveksling motteken. Trykk for å handsama.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Feil ved sending, trykk for å senda med utrygg alternativ metode</string>
     <string name="ConversationItem_copied_text">Kopierte %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Legg til vedlegg</string>
-    <string name="ConversationActivity_invalid_recipient">Ugyldig mottakar.</string>
     <string name="blockUnblock">Fjern blokkering</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session treng tilgang til mikrofonen for å senda lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon».</string>
     <!-- ConversationFragment -->
@@ -94,12 +91,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="SmsMessageRecord_duplicate_message">Dupliser melding.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Grupper oppdatert</string>
-    <string name="ThreadRecord_secure_session_reset">Sikker økt tilbakestilt.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s er på Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Endra tryggleiksnummer</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Tryggleiksnummeret ditt med %s har endra seg.</string>
-    <string name="ThreadRecord_you_marked_verified">Du markerte som stadfesta</string>
-    <string name="ThreadRecord_you_marked_unverified">Du markerte som ikkje stadfesta</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Det finst ei ny utgåve av Session; trykk for å oppdatera</string>
     <!-- MessageDisplayHelper -->
@@ -141,8 +132,6 @@ nøkkelutvekslingsmelding.</string>
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Kontakt</string>
-    <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
     <string name="attachment_type_selector__gallery_description">Bilete eller video</string>
@@ -151,10 +140,8 @@ nøkkelutvekslingsmelding.</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="conversation_activity__compose_description">Meldingsskriving</string>
-    <string name="conversation_activity__emoji_toggle_description">Vis/skjul emoji-tastatur</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatyrbilete av vedlegg</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Vis/skjul vedleggspanel for snøggkamera</string>
-    <string name="conversation_activity__enable_signal_for_sms">Aktiver Session for SMS</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediemelding</string>
@@ -165,7 +152,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Foto</string>
     <string name="messageErrorOriginal">Fann ikkje den opphavlege meldinga</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -209,8 +195,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="preferences__read_receipts">Lesekvitteringar</string>
     <string name="preferences__typing_indicators">Tastevisning</string>
     <string name="conversationsMessageTrimming">Meldingsforkorting</string>
-    <string name="preferences_advanced__use_system_emoji">Bruk emoji på systemet</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i Session</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -250,7 +234,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="BackupDialog_disable_and_delete_all_local_backups">Skru av og slett alle lokale reservekopiar?</string>
     <string name="BackupDialog_delete_backups_statement">Slett reservekopiar</string>
     <string name="LocalBackupJob_creating_backup">Opprettar reservekopi …</string>
-    <string name="ProgressPreference_d_messages_so_far">%dmeldingar så langt</string>
     <string name="preferences_app_protection__screen_lock">Skjermlås</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -31,17 +31,14 @@
     <string name="BucketedThreadMedia_This_week">Тази седмица</string>
     <string name="attachmentsThisMonth">Този месец</string>
     <!-- CommunicationActions -->
-    <string name="CommunicationActions_no_browser_found">Не е открит уеб браузър.</string>
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Неуспешно изпращане, натиснете за повече информация</string>
-    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Получи се съобщение за обмяна на ключове, натисни, за да продължиш.</string>
     <string name="ConversationItem_click_to_approve_unencrypted">Неуспешно изпращане, натиснете за изпращане по несигурен начин</string>
     <string name="ConversationItem_copied_text">%s e копирано</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Прикачване на файл</string>
     <string name="message">Съобщение</string>
-    <string name="ConversationActivity_invalid_recipient">Невалиден получател!</string>
     <string name="blockUnblock">Отблокирване</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session се нуждае от достъп до микрофона Ви, за да може да изпраща аудио съобщения, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Микрофон\".</string>
     <string name="cameraGrantAccessStorage">Session се нуждае от достъп до файловете Ви за да пращате снимки и видеа.</string>
@@ -104,12 +101,6 @@
     <string name="SmsMessageRecord_duplicate_message">Дублирай съобщението.</string>
     <!-- ThreadRecord -->
     <string name="groupUpdated">Групата е обновена</string>
-    <string name="ThreadRecord_secure_session_reset">Започване на нова сигурна сесия.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s е в Session!</string>
-    <string name="ThreadRecord_safety_number_changed">Числата за сигурност се промениха</string>
-    <string name="ThreadRecord_your_safety_number_with_s_has_changed">Числата Ви за сигурност с %s са променени.</string>
-    <string name="ThreadRecord_you_marked_verified">Отбелязахте като потвърдено</string>
-    <string name="ThreadRecord_you_marked_unverified">Отбелязахте като непотвърдено</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Има нова версия на Session, натиснете, за да обновите.</string>
     <!-- MessageDisplayHelper -->
@@ -151,8 +142,6 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__contact">Контакт</string>
-    <string name="attachment_type_selector__contact_description">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
     <string name="attachment_type_selector__gallery_description">Изображение или видео</string>
@@ -162,10 +151,8 @@
     <!-- conversation_activity -->
     <string name="send">Изпращане</string>
     <string name="conversation_activity__compose_description">Създаване на съобщение</string>
-    <string name="conversation_activity__emoji_toggle_description">Смени emoji клавиатурата</string>
     <string name="conversation_activity__attachment_thumbnail">Изображение на прикачен файл</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Затворяне/отворяне на чекмеджето за прикчаване на файл от камера</string>
-    <string name="conversation_activity__enable_signal_for_sms">Активиране на Session за SMS-и</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Плъзнете за отказ</string>
     <!-- conversation_item -->
@@ -177,7 +164,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <!-- QuoteView -->
-    <string name="QuoteView_photo">Снимка</string>
     <string name="messageErrorOriginal">Оригиналното съобщение не е открито</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
@@ -225,8 +211,6 @@
     <string name="preferences__read_receipts">Потвърждения за прочитане</string>
     <string name="preferences__typing_indicators">Индикатори за писане</string>
     <string name="conversationsMessageTrimming">Съкращаване на съобщенията</string>
-    <string name="preferences_advanced__use_system_emoji">Използване на вградените emoji-та</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Деактивирай вградена в Session подръжка на emoji-та</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -267,10 +251,8 @@
     <string name="BackupDialog_disable_and_delete_all_local_backups">Деактивиране и изтриване на всички локални архиви?</string>
     <string name="BackupDialog_delete_backups_statement">Изтриване на архиви</string>
     <string name="LocalBackupJob_creating_backup">Създаване на архив...</string>
-    <string name="ProgressPreference_d_messages_so_far">%d съобщения до тук</string>
     <string name="preferences_app_protection__screen_lock">Заключен екран</string>
     <!-- Conversation activity -->
-    <string name="activity_conversation_copy_public_key_button_title">Копиране на обществен ключ</string>
     <!-- Session -->
     <string name="_continue">Продължи</string>
     <!-- Next round of translation -->
