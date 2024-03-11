@@ -29,7 +29,6 @@
     <!-- CustomDefaultPreference -->
     <!-- DateUtils -->
     <string name="DateUtils_just_now">දැන්</string>
-    <string name="DateUtils_minutes_ago">විනාඩි %d</string>
     <string name="DateUtils_today">අද</string>
     <string name="DateUtils_yesterday">ඊයේ</string>
     <!-- DeviceListItem -->
@@ -53,7 +52,6 @@
     <string name="conversationsSettingsAllMedia">සියලුම මාධ්‍යය</string>
     <!-- MessageRecord -->
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">ඔබගේ පණිවිඩ කල් ඉකුත් නොවනු ඇත.</string>
     <!-- PassphrasePromptActivity -->
     <!-- RecipientPreferencesActivity -->
     <string name="block">අවහිර</string>

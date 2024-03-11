@@ -39,7 +39,6 @@
     <string name="ConversationItem_copied_text">%s kopeeritud</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Lisa manus</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Vabandust, sinu manuse seadmisega tekkis viga.</string>
     <string name="ConversationActivity_invalid_recipient">Sobimatu saaja!</string>
     <string name="blockUnblock">Eemalda blokeering</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Sinu seadmes pole rakendust, mis oleks võimeline seda linki käsitlema.</string>
@@ -80,7 +79,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Saada kohta %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Lisa pealkiri...</string>
     <string name="cameraErrorUnavailable">Kaamera pole saadaval.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Sa ei saa jagada rohkem kui %d üksust.</item>
@@ -91,8 +89,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Vastuvõetud sõnum, mis on krüptitud kasutades vana, mittetoetatud Sessioni versiooni. Palun palu saatjal uuendada uusimale versioonile ja siis sõnum uuesti saata.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Sinu sõnumid ei aegu.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Selles vestluses saadetud ja vastuvõetud sõnumid haihtuvad peale %s pärast nägemist.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Sisesta salaväljend</string>
     <!-- RecipientPreferencesActivity -->
@@ -168,8 +164,6 @@
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kaamera</string>
     <string name="attachment_type_selector__camera_description">Kaamera</string>
-    <string name="attachment_type_selector__location">Asukoht</string>
-    <string name="attachment_type_selector__location_description">Asukoht</string>
     <string name="attachment_type_selector__gallery_description">Pilt või video</string>
     <string name="attachment_type_selector__gallery">Galerii</string>
     <string name="attachment_type_selector__drawer_description">Lülita manusesahtlit</string>
@@ -212,7 +206,6 @@
     <string name="message_details_header__to">Saaja:</string>
     <string name="message_details_header__with">Koos:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Meedia eelvaade</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Kasuta kohandatud väärtust</string>
     <string name="notificationsMute1Hour">Vaigista 1 tunniks</string>
@@ -259,7 +252,6 @@
     <string name="conversation_context_image__save_attachment">Salvesta manus</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Sõnumite aegumine</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Keela vaigistus</string>
     <!-- conversation_unmuted -->

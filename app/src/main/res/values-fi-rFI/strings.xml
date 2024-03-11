@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">Kopioitu: %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Lisää liite</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Virhe liitteen lisäämisessä</string>
     <string name="message">Viesti</string>
     <string name="ConversationActivity_compose">Aloita keskustelu</string>
     <string name="ConversationActivity_muted_until_date">Mykistetty %1$s asti</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Ei asetettu</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nyt</string>
-    <string name="DateUtils_minutes_ago">%d min</string>
     <string name="DateUtils_today">tänään</string>
     <string name="DateUtils_yesterday">eilen</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Lähetä yhteystiedolle %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Lisää kuvateksti...</string>
     <string name="cameraErrorUnavailable">Kamera ei käytettävissä</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Et voi jakaa useampaa kuin %d kappaletta.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Vastaanotettiin viesti, joka on salattu Sessionin vanhalla versiolla, jota ei enää tueta. Pyydä lähettäjää päivittämään uusimpaan versioon ja lähettämään viesti uudelleen.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Viestisi eivät vanhene.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Lähetetyt ja vastaanotetut viestit katoavat tästä keskustelusta %s siitä, kun ne on nähty.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Syötä salalause</string>
     <!-- RecipientPreferencesActivity -->
@@ -177,8 +172,6 @@ on viallinen!</string>
     <string name="attachment_type_selector__contact_description">Yhteystieto</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Sijainti</string>
-    <string name="attachment_type_selector__location_description">Sijainti</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Kuva tai video</string>
     <string name="attachment_type_selector__gallery">Galleria</string>
@@ -225,7 +218,6 @@ on viallinen!</string>
     <string name="message_details_header__to">Vastaanottajat:</string>
     <string name="message_details_header__with">Avulla:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Liitteen esikatselu</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Käytä mukautettua</string>
     <string name="notificationsMute1Hour">1 tunniksi</string>
@@ -274,7 +266,6 @@ on viallinen!</string>
     <string name="conversation_context_image__save_attachment">Tallenna liite</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Viestit vanhenevat</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Poista mykistys</string>
     <!-- conversation_unmuted -->

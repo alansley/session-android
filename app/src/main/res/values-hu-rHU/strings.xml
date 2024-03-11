@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">%s másolva</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Melléklet csatolása</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sajnos hiba történt a melléklet csatolása során.</string>
     <string name="message">Üzenet</string>
     <string name="ConversationActivity_compose">Összeállít</string>
     <string name="ConversationActivity_muted_until_date">Némítva: %1$s</string>
@@ -66,7 +65,6 @@
     <string name="CustomDefaultPreference_none">Egyik sem</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Most</string>
-    <string name="DateUtils_minutes_ago">%d perce</string>
     <string name="DateUtils_today">Ma</string>
     <string name="DateUtils_yesterday">Tegnap</string>
     <!-- DeviceListItem -->
@@ -90,7 +88,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Küldés neki: %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Felirat hozzáadása...</string>
     <string name="cameraErrorUnavailable">A kamera nem érhető el.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nem oszthatsz meg többet, mint %d db elem.</item>
@@ -101,8 +98,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Egy olyan üzenet érkezett, amely a Session egy régebbi, már nem támogatott verziójával lett titkosítva. Kérd meg a feladót, hogy frissítsen a legfrissebb verzióra, majd küldje el újra az üzenetet!</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Üzeneteid nem fognak eltűnni.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Ebben a beszélgetésben a kimenő és bejövő üzenetek el fognak tűnni a megtekintést követő %s után.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Add meg a jelmondatot</string>
     <!-- RecipientPreferencesActivity -->
@@ -179,8 +174,6 @@
     <string name="attachment_type_selector__contact_description">Névjegy</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Hely</string>
-    <string name="attachment_type_selector__location_description">Hely</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Kép vagy videó</string>
     <string name="attachment_type_selector__gallery">Galéria</string>
@@ -227,7 +220,6 @@
     <string name="message_details_header__to">Címzett:</string>
     <string name="message_details_header__with">Vele:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Média előnézete</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Egyéni használata</string>
     <string name="notificationsMute1Hour">Némítás 1 órára</string>
@@ -276,7 +268,6 @@
     <string name="conversation_context_image__save_attachment">Melléklet mentése</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Az üzenetek lejárnak</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Némítás feloldása</string>
     <!-- conversation_unmuted -->

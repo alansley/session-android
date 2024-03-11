@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">U kopjua %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Shtoni bashkëngjitje</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Na ndjeni, pati një gabim në caktimin e bashkëngjitjes tuaj.</string>
     <string name="message">Mesazh</string>
     <string name="ConversationActivity_compose">Shkruaj ne mesazh</string>
     <string name="ConversationActivity_muted_until_date">Bllokuar deri %1$s</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Asnjë</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Tani</string>
-    <string name="DateUtils_minutes_ago">%dmin</string>
     <string name="DateUtils_today">Sot</string>
     <string name="DateUtils_yesterday">Dje</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Dërgoje te %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Shtoni një përshkrim…</string>
     <string name="cameraErrorUnavailable">Kamera jo gati</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">S\’mund të ndani me të tjerët më shumë se %d objekte.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Morët një mesazh të fshehtëzuar duke përdorur një version të vjetër të Session-it, që nuk mirëmbahet më. Ju lutemi, kërkojini dërguesit ta përditësojë me versionin më të ri dhe ta ridërgojë mesazhin.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Mesazhet tuaja nuk do të skadojnë.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Mesazhet e dërguara dhe të marra në këtë bisedë do të zhduken %s pasi të jenë parë.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Jepni frazëkalimin</string>
     <!-- RecipientPreferencesActivity -->
@@ -177,8 +172,6 @@
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Vendndodhje</string>
-    <string name="attachment_type_selector__location_description">Vendndodhje</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Figurë ose video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
@@ -225,7 +218,6 @@
     <string name="message_details_header__to">Për:</string>
     <string name="message_details_header__with">Me:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Paraparje e medias</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Përdor vetjake</string>
     <string name="notificationsMute1Hour">Heshtoje për 1 orë</string>
@@ -274,7 +266,6 @@
     <string name="conversation_context_image__save_attachment">Ruaje bashkëngjitjen</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Mesazhe me skadim</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Çheshtoji</string>
     <!-- conversation_unmuted -->

@@ -37,7 +37,6 @@
     <string name="ConversationItem_copied_text">Đã sao chép %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Thêm tập tin đính kèm</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Xin lỗi, có lỗi thiết đặt tập tin đính kèm của bạn.</string>
     <string name="ConversationActivity_invalid_recipient">Người nhận không đúng!</string>
     <string name="blockUnblock">Không chặn</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Thiết bị của bạn không có ứng dụng nào tương ứng để mở đường dẫn này.</string>
@@ -51,7 +50,6 @@
     <string name="CustomDefaultPreference_none">Không</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Bây giờ</string>
-    <string name="DateUtils_minutes_ago">%d phút</string>
     <string name="DateUtils_today">Hôm nay</string>
     <string name="DateUtils_yesterday">Ngày hôm qua</string>
     <!-- DeviceListItem -->
@@ -115,7 +113,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Liên lạc</string>
     <string name="attachment_type_selector__camera">Máy ảnh</string>
-    <string name="attachment_type_selector__location">Vị trí</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Gửi</string>
@@ -149,7 +146,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="message_details_header__to">Đến:</string>
     <string name="message_details_header__with">Với:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Xem trước tệp đa phương tiện</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Dùng tùy chỉnh</string>
     <string name="notificationsMute1Hour">Tạm im 1 tiếng</string>

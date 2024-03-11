@@ -40,7 +40,6 @@
     <string name="ConversationItem_copied_text">已复制 %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">添加附件</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">抱歉，设置附件时出错</string>
     <string name="message">消息</string>
     <string name="ConversationActivity_compose">撰写</string>
     <string name="ConversationActivity_muted_until_date">禁言至 %1$s</string>
@@ -62,7 +61,6 @@
     <string name="CustomDefaultPreference_none">没有</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">现在</string>
-    <string name="DateUtils_minutes_ago">%d 分钟</string>
     <string name="DateUtils_today">今天</string>
     <string name="DateUtils_yesterday">昨天</string>
     <!-- DeviceListItem -->
@@ -86,7 +84,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">发送给%s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">添加注释...</string>
     <string name="cameraErrorUnavailable">摄像头不可用</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">您最多分享 %d 项</item>
@@ -96,8 +93,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">已收到的信息使用了旧版本的 Signal 进行加密，并且已经不再被支持。请联系发送者升级 Session 到最新版本然后再次发送该信息</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">您的信息将不会过期。</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">在此对话中已发送和已接收的消息将在 %s 后消失。</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">输入密码</string>
     <!-- RecipientPreferencesActivity -->
@@ -172,8 +167,6 @@
     <string name="attachment_type_selector__contact_description">联系人</string>
     <string name="attachment_type_selector__camera">相机</string>
     <string name="attachment_type_selector__camera_description">相机</string>
-    <string name="attachment_type_selector__location">位置</string>
-    <string name="attachment_type_selector__location_description">位置</string>
     <string name="gif">Gif图片</string>
     <string name="attachment_type_selector__gallery_description">图像或视频</string>
     <string name="attachment_type_selector__gallery">相册</string>
@@ -220,7 +213,6 @@
     <string name="message_details_header__to">到：</string>
     <string name="message_details_header__with">与：</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">媒体预览</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">使用自定义</string>
     <string name="notificationsMute1Hour">静音 1 小时</string>
@@ -268,7 +260,6 @@
     <string name="conversation_context_image__save_attachment">保存附件</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">即将过期</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">取消静音</string>
     <!-- conversation_unmuted -->

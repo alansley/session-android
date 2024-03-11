@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">S\'ha copiat %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Afegeix un adjunt</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">S\'ha produït un error en afegir el fitxer adjunt.</string>
     <string name="message">Missatge</string>
     <string name="ConversationActivity_compose">Escriu</string>
     <string name="ConversationActivity_muted_until_date">Silenciat fins %1$s</string>
@@ -63,7 +62,6 @@
     <string name="CustomDefaultPreference_none">Cap</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Ara</string>
-    <string name="DateUtils_minutes_ago">%d min</string>
     <string name="DateUtils_today">Avui</string>
     <string name="DateUtils_yesterday">Ahir</string>
     <!-- DeviceListItem -->
@@ -87,7 +85,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Envia-ho a %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Afegiu-hi un títol...</string>
     <string name="cameraErrorUnavailable">Càmera no disponible</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">No podeu compartir més de %d elements.</item>
@@ -98,8 +95,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">S\'ha rebut un missatge encriptat amb una versió antiga del Session que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">El missatges no caducaran.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Els missatges enviats i rebuts a aquesta conversa desapareixeran %s després que s\'hagin llegit.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Introduïu la contrasenya</string>
     <!-- RecipientPreferencesActivity -->
@@ -174,8 +169,6 @@ d\'intercanvi de claus!</string>
     <string name="attachment_type_selector__contact_description">Contacte</string>
     <string name="attachment_type_selector__camera">Càmera</string>
     <string name="attachment_type_selector__camera_description">Càmera</string>
-    <string name="attachment_type_selector__location">Ubicació</string>
-    <string name="attachment_type_selector__location_description">Ubicació</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imatge o vídeo</string>
     <string name="attachment_type_selector__gallery">Galeria</string>
@@ -222,7 +215,6 @@ d\'intercanvi de claus!</string>
     <string name="message_details_header__to">A:</string>
     <string name="message_details_header__with">Amb:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Previsualització multimèdia</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Personalitzat</string>
     <string name="notificationsMute1Hour">Silencia-ho durant 1 hora</string>
@@ -271,7 +263,6 @@ d\'intercanvi de claus!</string>
     <string name="conversation_context_image__save_attachment">Desa l\'adjunt</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Missatges que caduquen</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">No silenciïs</string>
     <!-- conversation_unmuted -->

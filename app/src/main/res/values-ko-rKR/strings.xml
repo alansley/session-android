@@ -40,7 +40,6 @@
     <string name="ConversationItem_copied_text">복사됨 %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">첨부</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">첨부에 오류 발생</string>
     <string name="message">메시지</string>
     <string name="ConversationActivity_compose">작성</string>
     <string name="ConversationActivity_muted_until_date">%1$s까지 알림 꺼짐</string>
@@ -61,7 +60,6 @@
     <string name="CustomDefaultPreference_none">없음</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">방금 전</string>
-    <string name="DateUtils_minutes_ago">%d분 전</string>
     <string name="DateUtils_today">오늘</string>
     <string name="DateUtils_yesterday">어제</string>
     <!-- DeviceListItem -->
@@ -90,8 +88,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">지원하지 않는 Session 버전으로 부터 암호화된 메시지를 받았습니다. 상대방에게 최신 버전으로 업데이트 하고 다시 보내기를 요청해 주세요.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">당신의 메시지들은 시한만료되지 않을 것입니다.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">이 대화에서 보내고 받은 메시지들은 , 보여진 후 %s 후에  표시에서 사라질 것입니다.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">암호 입력</string>
     <!-- RecipientPreferencesActivity -->
@@ -141,8 +137,6 @@
     <string name="attachment_type_selector__contact_description">연락처</string>
     <string name="attachment_type_selector__camera">카메라</string>
     <string name="attachment_type_selector__camera_description">카메라</string>
-    <string name="attachment_type_selector__location">위치</string>
-    <string name="attachment_type_selector__location_description">위치</string>
     <string name="attachment_type_selector__gallery">갤러리</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
@@ -179,7 +173,6 @@
     <string name="message_details_header__to">받는사람:</string>
     <string name="message_details_header__with">참가자:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">미디어 미리보기</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">맞춤설정 사용</string>
     <string name="notificationsMute1Hour">1시간 동안 알림 끄기</string>

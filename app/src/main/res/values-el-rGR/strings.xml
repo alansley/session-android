@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">Αντιγράφτηκε: %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Προσθήκη συνημμένου</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Συγγνώμη, υπήρξε πρόβλημα με τη σύναψη αρχείου.</string>
     <string name="message">Μήνυμα</string>
     <string name="ConversationActivity_compose">Δημιουργία</string>
     <string name="ConversationActivity_muted_until_date">Σε σίγαση μέχρι %1$s</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Κανένα</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Τώρα</string>
-    <string name="DateUtils_minutes_ago">%d λεπ</string>
     <string name="DateUtils_today">Σήμερα</string>
     <string name="DateUtils_yesterday">Χθες</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Αποστολή σε %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Προσθήκη λεζάντας...</string>
     <string name="cameraErrorUnavailable">Η κάμερα δεν είναι διαθέσιμη.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Δεν μπορείτε να μοιραστείτε πάνω από %d αντικείμενο.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Λήφθηκε ένα μήνυμα που είναι κρυπτογραφημένο με μια παλιά έκδοση του Session που πλέον δεν υποστηρίζεται. Παρακαλώ ζητήστε από τον αποστολέα να αναβαθμίσει στην πιο πρόσφατη έκδοση και να ξαναστείλει το μήνυμα.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Τα μηνύματά σας δε θα λήξουν.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Μηνύματα που στέλνονται και λαμβάνονται σε αυτή τη συνομιλία θα εξαφανίζονται %s αφού τα δειτε.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Εισαγωγή συνθηματικού</string>
     <!-- RecipientPreferencesActivity -->
@@ -178,8 +173,6 @@
     <string name="attachment_type_selector__contact_description">Επαφή</string>
     <string name="attachment_type_selector__camera">Κάμερα</string>
     <string name="attachment_type_selector__camera_description">Κάμερα</string>
-    <string name="attachment_type_selector__location">Τοποθεσία</string>
-    <string name="attachment_type_selector__location_description">Τοποθεσία</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Εικόνα ή βίντεο</string>
     <string name="attachment_type_selector__gallery">Πινακοθήκη</string>
@@ -226,7 +219,6 @@
     <string name="message_details_header__to">Προς:</string>
     <string name="message_details_header__with">Με:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Προεπισκόπιση</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Χρήση προσαρμοσμένου</string>
     <string name="notificationsMute1Hour">Σίγαση για 1 ώρα</string>
@@ -275,7 +267,6 @@
     <string name="conversation_context_image__save_attachment">Αποθήκευση συνημμένου</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Μηνύματα που λήγουν</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Αποσίγαση</string>
     <!-- conversation_unmuted -->

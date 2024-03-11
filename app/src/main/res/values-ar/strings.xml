@@ -50,7 +50,6 @@
     <string name="ConversationItem_copied_text">تم نسخ %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">إضافة مرفقات</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">عذراً، حصل خطأ أثناء رفع المرفق.</string>
     <string name="message">رسالة</string>
     <string name="ConversationActivity_compose">إنشاء رسالة</string>
     <string name="ConversationActivity_muted_until_date">كتم حتى %1$s</string>
@@ -77,7 +76,6 @@
     <string name="CustomDefaultPreference_none">لا شيء </string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">الآن</string>
-    <string name="DateUtils_minutes_ago">%d دقيقة</string>
     <string name="DateUtils_today">اليوم</string>
     <string name="DateUtils_yesterday">البارحة</string>
     <!-- DeviceListItem -->
@@ -101,7 +99,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">إرسال إلى %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">إضافة تعليق...</string>
     <string name="cameraErrorUnavailable">الكاميرا غير متوفرة.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="zero">لا يمكنك مشاركة اكثر من %d عنصر.</item>
@@ -116,8 +113,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">لقد استلمت رسالة مشفرة من إصدارة Session قديمة وتوقف دعمها. من فضلك اطلب من الراسل الترقية إلي أحدث إصدار وإعادة إرسال الرسالة.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">صلاحية رسائلك لن تنتهي.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">الرسائل الصادرة والواردة في هذه المحادثة سوف تختفي بعد %s من رؤيتهم.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">أدخل العبارة السرية</string>
     <!-- RecipientPreferencesActivity -->
@@ -196,8 +191,6 @@
     <string name="attachment_type_selector__contact_description">متصل</string>
     <string name="attachment_type_selector__camera">كاميرا</string>
     <string name="attachment_type_selector__camera_description">كاميرا</string>
-    <string name="attachment_type_selector__location">الموقع</string>
-    <string name="attachment_type_selector__location_description">موقع جغرافي</string>
     <string name="gif">صورة Gif</string>
     <string name="attachment_type_selector__gallery_description">صورة أو فيديو</string>
     <string name="attachment_type_selector__gallery">عرض الصور</string>
@@ -244,7 +237,6 @@
     <string name="message_details_header__to">إلى:</string>
     <string name="message_details_header__with">مع:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">معاينة الوسائط</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">تخصيص</string>
     <string name="notificationsMute1Hour">كتم لمدة ساعة</string>
@@ -297,7 +289,6 @@
     <string name="conversation_context_image__save_attachment">حفظ المرفق</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">صلاحية الرسائل</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">إلغاء الكتم.</string>
     <!-- conversation_unmuted -->

@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">Kopiert %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Legg til vedlegg</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Det oppstod en feil under forsøk på å vedlegge filen.</string>
     <string name="message">Melding</string>
     <string name="ConversationActivity_compose">Skriv ny</string>
     <string name="ConversationActivity_muted_until_date">Dempet til %1$s</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Ingen</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nå</string>
-    <string name="DateUtils_minutes_ago">%d min</string>
     <string name="DateUtils_today">I dag</string>
     <string name="DateUtils_yesterday">I går</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Send til %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Legg til bildetekst…</string>
     <string name="cameraErrorUnavailable">Kamera utilgjengelig.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan ikke dele mer enn %d fil.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Mottatt en melding som er kryptert med en gammel versjon av Session som ikke lenger støttes. Be avsenderen om å oppdatere til nyeste versjon og sende meldinga på nytt.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Meldinger går ikke ut på tid.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meldinger du sender og mottar i denne samtalen forsvinner %s etter at de er blitt sett.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Skriv inn passord</string>
     <!-- RecipientPreferencesActivity -->
@@ -177,8 +172,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Posisjon</string>
-    <string name="attachment_type_selector__location_description">Posisjon</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Bilde eller video</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
@@ -225,7 +218,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="message_details_header__to">Til:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Forhåndsvisning av medier</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Bruk selvvalgt</string>
     <string name="notificationsMute1Hour">Demp i 1 time</string>
@@ -274,7 +266,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_context_image__save_attachment">Lagre vedlegg</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Utløpende meldinger</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Vis</string>
     <!-- conversation_unmuted -->

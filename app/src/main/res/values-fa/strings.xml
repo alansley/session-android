@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">%s کپی شد</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">پیوست فایل</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">متأسفم، در تنظیم فایل پیوست شما خطا وجود دارد.</string>
     <string name="message">پیام</string>
     <string name="ConversationActivity_compose">نوشتن</string>
     <string name="ConversationActivity_muted_until_date">بی صدا تا %1$s</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">هیچ کدام</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">اکنون</string>
-    <string name="DateUtils_minutes_ago">%d دقیقه</string>
     <string name="DateUtils_today">امروز</string>
     <string name="DateUtils_yesterday">دیروز</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">ارسال به %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">یک عنوان اضافه کنید...</string>
     <string name="cameraErrorUnavailable">دوربین در دسترس نیست</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">شما نمی توانید بیش از %d آیتم را به اشتراک بگذارید.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">یک پیام رمزنگاری شده با استفاده از نسخه‌ای قدیمی از Signal که دیگر پشتیبانی نمی‌شود برایتان ارسال شده است، لطفاً از فرستنده بخواهید نرم‌افزار Session خود را به آخرین نسخه بروزرسانی کرده و مجدداً پیام را برای شما ارسال کند.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">پیام های شما منقضی نخواهد شد.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">پیامهای ارسالی و دریافتی در این گفتگو پس از %s ناپدید خواهند شد.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">رمز را وارد کنید</string>
     <!-- RecipientPreferencesActivity -->
@@ -177,8 +172,6 @@
     <string name="attachment_type_selector__contact_description">مخاطب</string>
     <string name="attachment_type_selector__camera">دوربین</string>
     <string name="attachment_type_selector__camera_description">دوربین</string>
-    <string name="attachment_type_selector__location">موقعیت</string>
-    <string name="attachment_type_selector__location_description">موقعیت</string>
     <string name="gif">گیف</string>
     <string name="attachment_type_selector__gallery_description">تصویر با ویدئو</string>
     <string name="attachment_type_selector__gallery">گالری</string>
@@ -225,7 +218,6 @@
     <string name="message_details_header__to">به:</string>
     <string name="message_details_header__with">با:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">پیش نمایش رسانه</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">استفاده از سفارشی</string>
     <string name="notificationsMute1Hour">بی صدا به مدت 1 ساعت</string>
@@ -274,7 +266,6 @@
     <string name="conversation_context_image__save_attachment">ذخیره پیوست</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">پیام های در حال منقضی شدن</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">وصل نمودن صدای مکالمه</string>
     <!-- conversation_unmuted -->

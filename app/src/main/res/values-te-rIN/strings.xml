@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">ప్రతి  తీసుకోబడింది %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">అటాచ్మెంట్ జోడించండి</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">క్షమించండి, మీ అటాచ్మెంట్ అమర్చడంలో లోపం ఉంది.</string>
     <string name="message">సందేశం</string>
     <string name="ConversationActivity_compose">కంపోజ్</string>
     <string name="ConversationActivity_invalid_recipient">చెల్లని గ్రహీత!</string>
@@ -66,7 +65,6 @@
     <string name="CustomDefaultPreference_none">ఏదీ కాదు</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">ఇప్పుడు</string>
-    <string name="DateUtils_minutes_ago">%d కనీస</string>
     <string name="DateUtils_today">నేడు</string>
     <string name="DateUtils_yesterday">నిన్న</string>
     <!-- DeviceListItem -->
@@ -92,8 +90,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">ఇకపై మద్దతు అని Session యొక్క పాత సంస్కరణను ఉపయోగించి ఎన్క్రిప్ట్ ఒక సందేశాన్ని పొందింది. దయచేసి ఇటీవల సంస్కరణకు అప్డేట్ మరియు సందేశాన్ని మళ్లీ పంపినవారు అడగండి</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">మీ సందేశాలకు గడువు ఉండదు.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">వారు చూసిన తరువాత ఈ సంభాషణ లో పంపిన మరియు అందుకున్న సందేశాలు %s కనిపించదు.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">సంకేతపదమును ప్రవేశపెట్టుము</string>
     <!-- RecipientPreferencesActivity -->
@@ -163,8 +159,6 @@
     <string name="attachment_type_selector__contact_description">పరిచయం</string>
     <string name="attachment_type_selector__camera">కెమెరా</string>
     <string name="attachment_type_selector__camera_description">కెమెరా</string>
-    <string name="attachment_type_selector__location">స్థానం</string>
-    <string name="attachment_type_selector__location_description">స్థానం</string>
     <string name="gif">గిఫ్</string>
     <string name="attachment_type_selector__gallery_description">ఇమెజ్   ఆర్   వీడియో</string>
     <string name="attachment_type_selector__gallery">వారపాక</string>
@@ -207,7 +201,6 @@
     <string name="message_details_header__to">ఎవరికి:</string>
     <string name="message_details_header__with">ఎవరితో:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">మీడియా ప్రివ్యూ</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom"> నియమము ఉపయోగించు</string>
     <string name="notificationsMute1Hour">1 గంట నిశబ్దంగా ఉంచు</string>
@@ -253,7 +246,6 @@
     <string name="conversation_context_image__save_attachment">జత పరిచినది దాచి పెట్టు </string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring"> సమయ పరిమితి లేని సందేశాలు </string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">మ్యూట్ తీసివేయి</string>
     <!-- conversation_unmuted -->

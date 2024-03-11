@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">%s kopyalandı</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Eklenti ekle</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Üzgünüz, eklentiniz ayarlanırken hata oluştu.</string>
     <string name="message">İleti</string>
     <string name="ConversationActivity_compose">Oluştur</string>
     <string name="ConversationActivity_muted_until_date">%1$s\'e kadar sessiz</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Hiçbiri</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Şimdi</string>
-    <string name="DateUtils_minutes_ago">%d dk.</string>
     <string name="DateUtils_today">Bugün</string>
     <string name="DateUtils_yesterday">Dün</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">%s alıcısına gönder</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Bir başlık ekleyin...</string>
     <string name="cameraErrorUnavailable">Kamera kullanılamıyor.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">%d öğeden daha fazlasını paylaşamazsınız.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Artık desteklenmeyen eski bir Signal sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Session\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">İletileriniz kaybolmayacak.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Bu sohbette gönderilen ve alınan iletiler görüldükten %s sonra yok olur.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Parola girin</string>
     <!-- RecipientPreferencesActivity -->
@@ -177,8 +172,6 @@ iletisi alındı!</string>
     <string name="attachment_type_selector__contact_description">Kişi</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Konum</string>
-    <string name="attachment_type_selector__location_description">Konum</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Görüntü veya video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
@@ -225,7 +218,6 @@ iletisi alındı!</string>
     <string name="message_details_header__to">Alıcı:</string>
     <string name="message_details_header__with">İle:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Medya önizleme</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Özelleştirilmiş kullan</string>
     <string name="notificationsMute1Hour">1 saatliğine sustur</string>
@@ -274,7 +266,6 @@ iletisi alındı!</string>
     <string name="conversation_context_image__save_attachment">Eklentiyi kaydet</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">İletiler kayboluyor</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Sesi aç</string>
     <!-- conversation_unmuted -->

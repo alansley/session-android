@@ -41,7 +41,6 @@
     <string name="ConversationItem_copied_text">%s e копирано</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Прикачване на файл</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">За съжаление, настъпи грешка при прикачването.</string>
     <string name="message">Съобщение</string>
     <string name="ConversationActivity_invalid_recipient">Невалиден получател!</string>
     <string name="blockUnblock">Отблокирване</string>
@@ -61,7 +60,6 @@
     <string name="CustomDefaultPreference_none">Нищо</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Току що</string>
-    <string name="DateUtils_minutes_ago">%d мин</string>
     <string name="DateUtils_today">Днес</string>
     <string name="DateUtils_yesterday">Вчера</string>
     <!-- DeviceListItem -->
@@ -85,7 +83,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Изпрати на %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Добави надпис...</string>
     <string name="cameraErrorUnavailable">Не е открита камера.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Не можете да споделяте повече от %d елемент.</item>
@@ -96,8 +93,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Получихте съобщение криптирано със стара версия на Session, която вече не се поддържа. Моля, помолете изпращача да обнови версията си и да препрати съобщението.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Съобщенията няма да изчезват.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Изпратени и получени съобщения в този разговор ще изчезнат %s след изпращането им.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Въведете паролата</string>
     <!-- RecipientPreferencesActivity -->
@@ -172,8 +167,6 @@
     <string name="attachment_type_selector__contact_description">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
-    <string name="attachment_type_selector__location">Местоположение</string>
-    <string name="attachment_type_selector__location_description">Местоположение</string>
     <string name="attachment_type_selector__gallery_description">Изображение или видео</string>
     <string name="attachment_type_selector__gallery">Галерия</string>
     <string name="attachment_type_selector__drawer_description">Затваряне/отваряне на чекмеджето с прикачени файлове</string>
@@ -216,7 +209,6 @@
     <string name="message_details_header__to">До:</string>
     <string name="message_details_header__with">С:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Преглед на медията</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Използване на специален</string>
     <string name="notificationsMute1Hour">Тих режим за 1 час</string>
@@ -265,7 +257,6 @@
     <string name="conversation_context_image__save_attachment">Запази прикачения файл</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Съобщения, които изчеват</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Изключи тих режим</string>
     <!-- conversation_unmuted -->

@@ -46,7 +46,6 @@
     <string name="ConversationItem_copied_text">%s nukopijuota</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Pridėti priedą</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Apgailestaujame, pridedant priedą, įvyko klaida.</string>
     <string name="message">Žinutė</string>
     <string name="ConversationActivity_compose">Rašyti (Automatic Translation)</string>
     <string name="ConversationActivity_muted_until_date">Užtildytas iki %1$s</string>
@@ -70,7 +69,6 @@
     <string name="CustomDefaultPreference_none">Nėra</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Dabar</string>
-    <string name="DateUtils_minutes_ago">%d min.</string>
     <string name="DateUtils_today">Šiandien</string>
     <string name="DateUtils_yesterday">Vakar</string>
     <!-- DeviceListItem -->
@@ -94,7 +92,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Siųsti adresatui %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Pridėti paaiškinimą...</string>
     <string name="cameraErrorUnavailable">Kamera neprieinama.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Jūs negalite bendrinti daugiau nei %d elementą.</item>
@@ -107,8 +104,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Gauta žinutė buvo užšifruota, naudojant seną Session versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Jūsų žinučių galiojimas nesibaigs.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Šiame pokalbyje išsiųstos ir gautos žinutės išnyks %s po to, kai jos buvo pamatytos.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Įveskite slaptafrazę</string>
     <!-- RecipientPreferencesActivity -->
@@ -186,8 +181,6 @@
     <string name="attachment_type_selector__contact_description">Adresatas</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Vieta</string>
-    <string name="attachment_type_selector__location_description">Vieta</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Paveikslas ar vaizdo įrašas</string>
     <string name="attachment_type_selector__gallery">Galerija</string>
@@ -234,7 +227,6 @@
     <string name="message_details_header__to">Kam:</string>
     <string name="message_details_header__with">Su:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Medijos peržiūra</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Naudoti tinkintą</string>
     <string name="notificationsMute1Hour">Nutildyti 1 valandai</string>
@@ -284,7 +276,6 @@
     <string name="conversation_context_image__save_attachment">Įrašyti priedą</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Nustojančios galioti žinutės</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Įjungti pranešimus</string>
     <!-- conversation_unmuted -->

@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">%s kopyalandı</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Qoşma əlavə et</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Təəssüf ki, qoşmanız tənzimlənərkən xəta baş verdi.</string>
     <string name="message">Mesaj</string>
     <string name="ConversationActivity_compose">Yarat</string>
     <string name="ConversationActivity_muted_until_date">%1$s qədər səssizdə</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Heç biri</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">İndi</string>
-    <string name="DateUtils_minutes_ago">%d dəq</string>
     <string name="DateUtils_today">Bu gün</string>
     <string name="DateUtils_yesterday">Dünən</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">%s - göndər</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Başlıq əlavə et...</string>
     <string name="cameraErrorUnavailable">Kamera əlçatmazdır.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">%d elementdən çoxunu paylaşa bilməzsiniz.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Artıq dəstəklənməyən Session-un əvvəlki versiyası istifadə edilərək şifrələnmiş bir mesaj alındı. Zəhmət olmasa göndərən şəxsdən tətbiqi ən son versiyaya yeniləyib mesajı təkrar göndərməsini xahiş edin.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Mesajlarınızın vaxtı bitməyəcək.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Bu danışıqdakı göndərilən və alınan mesajlar, görüldükdən %s sonra yox olacaq.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Parolu daxil edin</string>
     <!-- RecipientPreferencesActivity -->
@@ -178,8 +173,6 @@
     <string name="attachment_type_selector__contact_description">Əlaqə</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Yerləşmə</string>
-    <string name="attachment_type_selector__location_description">Yerləşmə</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Təsvir və ya video</string>
     <string name="attachment_type_selector__gallery">Qalereya</string>
@@ -226,7 +219,6 @@
     <string name="message_details_header__to">Kimə:</string>
     <string name="message_details_header__with">İlə:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Media önbaxışı</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Özəl halı istifadə et</string>
     <string name="notificationsMute1Hour">1 saatlıq səssizə al</string>
@@ -275,7 +267,6 @@
     <string name="conversation_context_image__save_attachment">Qoşmanı yaddaşda saxla</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Mesajların vaxtı bitir</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Səsi aç</string>
     <!-- conversation_unmuted -->

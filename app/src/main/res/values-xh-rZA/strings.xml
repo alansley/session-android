@@ -23,7 +23,6 @@
     <string name="ConversationItem_received_key_exchange_message_tap_to_process">Key  exchange message efuniddwa, kwata okugenda mumaso</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Gatako ekigatiddwako</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Tusonyiwe, wabaddewo ensobi mu kwerobooza kw\'ekigatibwako kyo</string>
     <string name="ConversationActivity_invalid_recipient">Afuna mukyamu</string>
     <string name="blockUnblock">sumulula</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tewali App kukwasaganya </string>
@@ -34,7 +33,6 @@
     <string name="CustomDefaultPreference_none">tewali</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Kati</string>
-    <string name="DateUtils_minutes_ago">%d dakiika</string>
     <string name="DateUtils_today">Leero</string>
     <!-- DeviceListItem -->
     <string name="DeviceListItem_today">Leero</string>
@@ -55,8 +53,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Ofuny obubaka obubuabuzidwa nga bakozesa vazoni ya signal etakyaakola. wattu saba asindise okuza obujja  signal ye  era addemu asindike obubaka</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Obubaka bwo tebujja kugwako.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Obubaka bwowereza ne bwofunye mu mbozi eno %s bujakubula bwomaliriza obulaba</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Yingiza passiwaddi nga yabigaambo ne namba</string>
     <!-- RecipientPreferencesActivity -->
@@ -96,7 +92,6 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__location">wosangibwa</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Sindika</string>
@@ -132,7 +127,6 @@
     <string name="message_details_header__to">Eri:</string>
     <string name="message_details_header__with">Wamu</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Lozaako ku bifaananyi, vidiyo n\'enyimba</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Kozesa bwoyagala</string>
     <string name="notificationsMute1Hour">Silisa okumala essawa emu  </string>
@@ -174,7 +168,6 @@
     <string name="conversation_context_image__save_attachment">Tereka ekigattiddwako.</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Obubaka bugwaamu ensa.</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Saako obude.</string>
     <!-- conversation_unmuted -->

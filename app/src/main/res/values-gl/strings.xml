@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">Copiouse %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Engadir anexo</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sentímolo, produciuse un erro ao configurar o teu anexo.</string>
     <string name="message">Escribe aquí a túa mensaxe</string>
     <string name="ConversationActivity_compose">Redactar</string>
     <string name="ConversationActivity_muted_until_date">Silenciado até %1$s</string>
@@ -64,7 +63,6 @@
     <string name="CustomDefaultPreference_none">Ningunha</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Agora</string>
-    <string name="DateUtils_minutes_ago">%d min</string>
     <string name="DateUtils_today">Hoxe</string>
     <string name="DateUtils_yesterday">Onte</string>
     <!-- DeviceListItem -->
@@ -88,7 +86,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Enviar a %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Engadir un título...</string>
     <string name="cameraErrorUnavailable">Cámara non dispoñible.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Non podes compartir máis de %d elemento.</item>
@@ -99,8 +96,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Recibiuse unha mensaxe cifrada a través dunha versión antiga de Session que xa non ten soporte. Por favor, pídelle ao remitente que actualice a súa versión e volva enviar a mensaxe.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">As mensaxes non desaparecerán.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">As mensaxes que se envíen e reciban nesta conversa desaparecerán %s despois de seren vistas.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Inserir frase de acceso</string>
     <!-- RecipientPreferencesActivity -->
@@ -176,8 +171,6 @@
     <string name="attachment_type_selector__contact_description">Contacto</string>
     <string name="attachment_type_selector__camera">Cámara</string>
     <string name="attachment_type_selector__camera_description">Cámara</string>
-    <string name="attachment_type_selector__location">Localización</string>
-    <string name="attachment_type_selector__location_description">Localización</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imaxe ou vídeo</string>
     <string name="attachment_type_selector__gallery">Galería</string>
@@ -224,7 +217,6 @@
     <string name="message_details_header__to">Para:</string>
     <string name="message_details_header__with">Con:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Previsualización multimedia</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Utilizar o personalizado</string>
     <string name="notificationsMute1Hour">Silenciar durante 1 hora</string>
@@ -271,7 +263,6 @@
     <string name="conversation_context_image__save_attachment">Gardar anexo</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Mensaxes que caducan</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Activar o son</string>
     <!-- conversation_unmuted -->

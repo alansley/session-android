@@ -40,7 +40,6 @@
     <string name="ConversationItem_copied_text">%sをコピーしました </string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">添付ファイルを付ける</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">添付中にエラーが発生しました。</string>
     <string name="message">メッセージ</string>
     <string name="ConversationActivity_compose">新規作成</string>
     <string name="ConversationActivity_muted_until_date">%1$sまでミュート</string>
@@ -62,7 +61,6 @@
     <string name="CustomDefaultPreference_none">なし</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">今</string>
-    <string name="DateUtils_minutes_ago">%d分</string>
     <string name="DateUtils_today">今日</string>
     <string name="DateUtils_yesterday">昨日</string>
     <!-- DeviceListItem -->
@@ -86,7 +84,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">%sに送信</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">キャプション追加...</string>
     <string name="cameraErrorUnavailable">カメラは利用できません。</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">%d以上のアイテムを共有できません</item>
@@ -96,8 +93,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">受信したメッセージは古いSignalで暗号化されているので解読不能です。Sessionをアップデートして再送するよう送信者にお願いしてください。</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">あなたのメッセージに消去期限は付きません</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">この会話内で送受信されるメッセージは閲覧後%sで消えます</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">パスフレーズを入力してください</string>
     <!-- RecipientPreferencesActivity -->
@@ -171,8 +166,6 @@
     <string name="attachment_type_selector__contact_description">連絡先</string>
     <string name="attachment_type_selector__camera">カメラ</string>
     <string name="attachment_type_selector__camera_description">カメラ</string>
-    <string name="attachment_type_selector__location">場所</string>
-    <string name="attachment_type_selector__location_description">場所</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">画像・動画</string>
     <string name="attachment_type_selector__gallery">ギャラリー</string>
@@ -219,7 +212,6 @@
     <string name="message_details_header__to">宛先:</string>
     <string name="message_details_header__with">Cc:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">メディアのプレビュー</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">カスタムを使う</string>
     <string name="notificationsMute1Hour">1時間ミュート</string>
@@ -267,7 +259,6 @@
     <string name="conversation_context_image__save_attachment">添付ファイルを保存</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">期限切れメッセージ</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">ミュートを解除</string>
     <!-- conversation_unmuted -->

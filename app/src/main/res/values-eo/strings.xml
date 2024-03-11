@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">Kopiinta %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Aldoni kunsendaĵon</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Bedaŭrinde estis eraro dum aldono de via kunsendaĵo.</string>
     <string name="message">Mesaĝo</string>
     <string name="ConversationActivity_compose">Verku</string>
     <string name="ConversationActivity_muted_until_date">Silentigita ĝis %1$s</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Neniu</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nun</string>
-    <string name="DateUtils_minutes_ago">%d min</string>
     <string name="DateUtils_today">Hodiaŭ</string>
     <string name="DateUtils_yesterday">Hieraŭ</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Sendi al %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Aldoni apudskribon...</string>
     <string name="cameraErrorUnavailable">Fotilo ne disponeblas.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Vi ne povas kunhavigi pli ol %d elementon.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Vi ricevis mesaĝon ĉifrita per malnova Session-a versio, kiu ne plu estas subtenata. Bonvolu peti la sendinton ĝisdatigi al la plej freŝa versio, kaj resendi la mesaĝon.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Viaj mesaĝoj ne senvalidiĝos.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Mesaĝoj senditaj kaj ricevitaj en tiu ĉi interparolo malaperos %s post ilia lego.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Entajpu pasfrazon</string>
     <!-- RecipientPreferencesActivity -->
@@ -177,8 +172,6 @@
     <string name="attachment_type_selector__contact_description">Kontakto</string>
     <string name="attachment_type_selector__camera">Fotilo</string>
     <string name="attachment_type_selector__camera_description">Fotilo</string>
-    <string name="attachment_type_selector__location">Loko</string>
-    <string name="attachment_type_selector__location_description">Loko</string>
     <string name="gif">GIF</string>
     <string name="attachment_type_selector__gallery_description">Bildo aŭ videaĵo</string>
     <string name="attachment_type_selector__gallery">Galerio</string>
@@ -225,7 +218,6 @@
     <string name="message_details_header__to">Al:</string>
     <string name="message_details_header__with">Kun:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Aŭdvida antaŭrigardo</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Uzi propran</string>
     <string name="notificationsMute1Hour">Silentigi dum 1 horo</string>
@@ -274,7 +266,6 @@
     <string name="conversation_context_image__save_attachment">Konservi kunsendaĵon</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Mesaĝoj senvalidiĝos je</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Malsilentigi</string>
     <!-- conversation_unmuted -->

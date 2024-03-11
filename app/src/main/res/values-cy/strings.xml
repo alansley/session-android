@@ -48,7 +48,6 @@
     <string name="ConversationItem_copied_text">Copïwyd %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ychwanegu atodiad</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Mae\'n ddrwg gennym, bu gwall wrth osod eich atodiad.</string>
     <string name="ConversationActivity_invalid_recipient">Derbynnydd annilys!</string>
     <string name="blockUnblock">Dadrwystro</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nid oes ap ar gael i drin y ddolen hon ar eich dyfais.</string>
@@ -70,7 +69,6 @@
     <string name="CustomDefaultPreference_none">Dim</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nawr</string>
-    <string name="DateUtils_minutes_ago">%d mun</string>
     <string name="DateUtils_today">Heddiw</string>
     <string name="DateUtils_yesterday">Ddoe</string>
     <!-- DeviceListItem -->
@@ -94,7 +92,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Anfon i %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Ychwanegu neges...</string>
     <string name="cameraErrorUnavailable">Camera ddim ar gael</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="zero">Nid oes modd rhannu mwy na %d eitem.</item>
@@ -109,8 +106,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Wedi derbyn neges wedi\'i hamgryptio gan ddefnyddio hen fersiwn o Session nad yw bellach yn cael ei gefnogi. Gofynnwch i\'r anfonwr ddiweddaru i\'r fersiwn ddiweddaraf ac ail-anfon y neges.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Ni fydd eich negeseuon yn dod i ben.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Bydd negeseuon sy\'n cael eu anfon a\'u derbyn yn y sgwrs yn diflannu %s ar ôl iddynt gael eu gweld.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Rhoi cyfrinymadrodd</string>
     <!-- RecipientPreferencesActivity -->
@@ -187,8 +182,6 @@
     <!-- attachment_type_selector -->
     <string name="attachment_type_selector__contact">Cysylltiad</string>
     <string name="attachment_type_selector__contact_description">Cysylltiad</string>
-    <string name="attachment_type_selector__location">Lleoliad</string>
-    <string name="attachment_type_selector__location_description">Lleoliad</string>
     <string name="attachment_type_selector__gallery_description">Delwedd neu fideo</string>
     <string name="attachment_type_selector__gallery">Oriel</string>
     <string name="attachment_type_selector__drawer_description">Newid drôr yr atodiad</string>
@@ -231,7 +224,6 @@
     <string name="message_details_header__to">At:</string>
     <string name="message_details_header__with">Gyda:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Rhagolwg cyfrwng</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Defnyddio cyfaddas</string>
     <string name="notificationsMute1Hour">Tewi am 1 awr</string>
@@ -283,7 +275,6 @@
     <string name="conversation_context_image__save_attachment">Cadw atodiad</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Neges yn dod i ben</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Dad-dewi</string>
     <!-- conversation_unmuted -->

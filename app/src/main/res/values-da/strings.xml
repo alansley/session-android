@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">Kopierede %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Vedhæft fil</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Beklager, der opstod en fejl ved vedhæftning af fil.</string>
     <string name="message">Besked</string>
     <string name="ConversationActivity_compose">Skriv</string>
     <string name="ConversationActivity_muted_until_date">Lydløs indtil %1$s</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Ingen</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nu</string>
-    <string name="DateUtils_minutes_ago">%d min.</string>
     <string name="DateUtils_today">I dag</string>
     <string name="DateUtils_yesterday">I går</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Send til %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Tilføj en billedtekst...</string>
     <string name="cameraErrorUnavailable">Kamera utilgængeligt</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan ikke dele flere end %d fil.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Modtog en besked krypteret med en ældre version af Session, der ikke længere understøttes. Bed venligst afsenderen om at opgradere til den nyeste version og sende beskeden igen</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Din besked udløber ikke </string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Beskeder sendt eller modtaget i denne samtale, vil udløbe %s efter at de er læst</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Indtast kodeord</string>
     <!-- RecipientPreferencesActivity -->
@@ -176,8 +171,6 @@ udveksel besked!</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Lokation</string>
-    <string name="attachment_type_selector__location_description">Lokation</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Billed eller video</string>
     <string name="attachment_type_selector__gallery">Billeder</string>
@@ -224,7 +217,6 @@ udveksel besked!</string>
     <string name="message_details_header__to">Til:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Medievisning</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Brug tilpasset</string>
     <string name="notificationsMute1Hour">Udsæt 1 time</string>
@@ -273,7 +265,6 @@ udveksel besked!</string>
     <string name="conversation_context_image__save_attachment">Gem vedhæftet fil</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Beskeder der udløber</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Fjern udsættelse</string>
     <!-- conversation_unmuted -->

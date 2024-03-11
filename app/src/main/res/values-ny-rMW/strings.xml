@@ -38,7 +38,6 @@
     <string name="ConversationItem_copied_text">Chayshinayarka %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Shuk imaykunata kimichipay</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Kishpichilla, mana imaykunata kimichiy usharkanchikchu.</string>
     <string name="ConversationActivity_invalid_recipient">¡Yupaymashi wakllimi kan!</string>
     <string name="blockUnblock">Pakashkamanta llukchi</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nima aplicación mana tiyanchu, kikinpa antahillaypi tinki ushankapak.</string>
@@ -56,7 +55,6 @@
     <string name="CustomDefaultPreference_none">Nimaykan</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Kunan</string>
-    <string name="DateUtils_minutes_ago">%d chinikukuna</string>
     <string name="DateUtils_today">Kunan</string>
     <string name="DateUtils_yesterday">Kayna</string>
     <!-- DeviceListItem -->
@@ -80,8 +78,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Shuk pakalla chaski chayamurka ñawpa Signalmanta, mana paskarita usharinchu. Maykan kachamushkaman Sessionta mushukyachichun mañapay, chaski chayamuchun.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Kikinpa chaskikuna mana chinkarinkachu.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Kay rimaripi chaski kachashka, chayamushkakunapash, %s kachashka hipaka chinkarinkami.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Pakalla paskachikta killkapay</string>
     <!-- RecipientPreferencesActivity -->
@@ -151,8 +147,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="attachment_type_selector__contact_description">Yupay mashi</string>
     <string name="attachment_type_selector__camera">Shuyullukchik</string>
     <string name="attachment_type_selector__camera_description">Shuyullukchik</string>
-    <string name="attachment_type_selector__location">Maypitak kanki</string>
-    <string name="attachment_type_selector__location_description">Maypitak kanki</string>
     <string name="attachment_type_selector__gallery_description">Shuyu manakashpaka shuyukuyuriy.</string>
     <string name="attachment_type_selector__gallery">Shuyukunata allichik</string>
     <string name="attachment_type_selector__drawer_description">Kimichishka millkakunata rurana</string>
@@ -194,7 +188,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="message_details_header__to">Pipak</string>
     <string name="message_details_header__with">Piwan:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Multimediata uchillapi rikunayanchu</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Kikinpapacha kashkata mutsupay.</string>
     <string name="notificationsMute1Hour">1  pachata upallayachina</string>
@@ -240,7 +233,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="conversation_context_image__save_attachment">Allichina kimichishkata</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Chaskikuna tukurinmi</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Upallayachishkata anchuchina</string>
     <!-- conversation_unmuted -->

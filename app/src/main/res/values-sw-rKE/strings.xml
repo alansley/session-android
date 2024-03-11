@@ -32,7 +32,6 @@
     <string name="ConversationItem_copied_text">nakala 1%s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ongeza Kiambatanisho</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Samahani, tatizo lilitokea kwenye kuweka kiambatanisho chako.</string>
     <string name="ConversationActivity_invalid_recipient">Mpokeaji sio sahihi</string>
     <string name="blockUnblock">Fungua</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
@@ -45,7 +44,6 @@
     <string name="CustomDefaultPreference_none">Hakuna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sasa</string>
-    <string name="DateUtils_minutes_ago">%ddk</string>
     <string name="DateUtils_today">Leo</string>
     <string name="DateUtils_yesterday">Jana</string>
     <!-- DeviceListItem -->
@@ -67,14 +65,12 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">tuma kwa 1%s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">ongeza maelezo</string>
     <string name="cameraErrorUnavailable">kamera haipatikani</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Vyombo vyote vya habari</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Imepokea ujumbe uliofichwa kwa kutumia toleo la zamani la Session ambayo haitumiki tena. Tafadhali kumwomba mtumaji kuwasasishe kwa toleo la hivi karibuni na kurejesha ujumbe.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Ujumbe wako hautopitwa na wakati</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Ingiza nenosiri</string>
     <!-- RecipientPreferencesActivity -->
@@ -141,8 +137,6 @@
     <string name="attachment_type_selector__contact_description">Mawasiliano</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">eneo</string>
-    <string name="attachment_type_selector__location_description">eneo</string>
     <string name="gif">gif</string>
     <string name="attachment_type_selector__gallery_description">picha au video</string>
     <string name="attachment_type_selector__gallery">nyumba ya sanaa</string>
@@ -185,7 +179,6 @@
     <string name="message_details_header__to">Kuelekea:</string>
     <string name="message_details_header__with">Pamoja:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Uhakiki wa vyombo vya habari</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">tumia desturi</string>
     <string name="notificationsMute1Hour">nyamaza kwa saa 1</string>
@@ -228,7 +221,6 @@
     <string name="conversation_context_image__save_attachment">Hifadhi attachment</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Ujumbe umepitwa na wakati</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Usifute</string>
     <!-- conversation_unmuted -->

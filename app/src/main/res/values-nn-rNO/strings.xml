@@ -39,7 +39,6 @@
     <string name="ConversationItem_copied_text">Kopierte %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Legg til vedlegg</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Det oppstod ein feil under vedlegg av fil.</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig mottakar.</string>
     <string name="blockUnblock">Fjern blokkering</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har inga program på denne eininga som kan handtera denne lenkja.</string>
@@ -79,14 +78,11 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Send til %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Legg til bildetekst …</string>
     <string name="cameraErrorUnavailable">Kamera utilgjengeleg.</string>
     <!-- MediaRepository -->
     <!-- MessageRecord -->
     <string name="messageErrorOld">Mottok ei melding som er kryptert med ein gammal versjon av Session som ikkje lenger vert støtta. Be avsendaren om å oppdatera til nyaste versjon og senda meldinga på nytt.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Meldingar går ikkje ut på tid.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meldingar du sender og mottek i denne samtalen forsvinn %s etter at dei er lesne.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Skriv inn passordfrase</string>
     <!-- RecipientPreferencesActivity -->
@@ -161,8 +157,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Plassering</string>
-    <string name="attachment_type_selector__location_description">Plassering</string>
     <string name="attachment_type_selector__gallery_description">Bilete eller video</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
     <string name="attachment_type_selector__drawer_description">Vis/skjul vedleggspanel</string>
@@ -202,7 +196,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="message_details_header__to">Til:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Førehandsvising av media</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Bruk sjølvvald</string>
     <string name="notificationsMute1Hour">Demp i 1 time</string>
@@ -247,7 +240,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="conversation_context_image__save_attachment">Lagra vedlegg</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Utgåande meldingar</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Vis varsel</string>
     <!-- conversation_unmuted -->

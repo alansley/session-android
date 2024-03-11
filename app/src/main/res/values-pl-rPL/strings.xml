@@ -46,7 +46,6 @@
     <string name="ConversationItem_copied_text">Skopiowano %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Dodaj załącznik</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Przepraszamy, wystąpił błąd podczas dodawania załącznika.</string>
     <string name="message">Wiadomość</string>
     <string name="ConversationActivity_compose">Napisz</string>
     <string name="ConversationActivity_muted_until_date">Wyciszono do %1$s</string>
@@ -71,7 +70,6 @@
     <string name="CustomDefaultPreference_none">Brak</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Teraz</string>
-    <string name="DateUtils_minutes_ago">%d min. temu</string>
     <string name="DateUtils_today">Dzisiaj</string>
     <string name="DateUtils_yesterday">Wczoraj</string>
     <!-- DeviceListItem -->
@@ -95,7 +93,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Wyślij do %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Dodaj podpis...</string>
     <string name="cameraErrorUnavailable">Aparat jest niedostępny.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nie można udostępnić więcej niż %d pliku multimediów.</item>
@@ -108,8 +105,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Otrzymano zaszyfrowaną wiadomość wysłaną przy użyciu starej wersji Session, która nie jest już wspierana. Poproś nadawcę tej wiadomości o zaktualizowanie aplikacji do najnowszej wersji i przesłanie wiadomości ponownie.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Twoje wiadomości nie wygasną.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Wiadomości wysłane i odebrane w tej rozmowie znikną po %s od odczytania.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Podaj hasło</string>
     <!-- RecipientPreferencesActivity -->
@@ -186,8 +181,6 @@
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Lokalizacja</string>
-    <string name="attachment_type_selector__location_description">Lokalizacja</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Obraz lub film</string>
     <string name="attachment_type_selector__gallery">Galeria</string>
@@ -234,7 +227,6 @@
     <string name="message_details_header__to">Do:</string>
     <string name="message_details_header__with">Z:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Podgląd plików multimedialnych</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Użyj własnych</string>
     <string name="notificationsMute1Hour">Wycisz na 1 godzinę</string>
@@ -285,7 +277,6 @@
     <string name="conversation_context_image__save_attachment">Zapisz załącznik</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Wiadomości wygasające</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Wyłącz wyciszenie</string>
     <!-- conversation_unmuted -->

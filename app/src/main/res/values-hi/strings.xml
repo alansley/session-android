@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">%s अनुकरण </string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">अटैचमेंट जोड़ें</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">खेद है, आपका अनुलगनक लगाने में त्रुटि हुई।</string>
     <string name="message">मैसेज</string>
     <string name="ConversationActivity_compose">लिखें</string>
     <string name="ConversationActivity_muted_until_date">%s तक मौन किया</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">कुछ नहीं</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">अभी</string>
-    <string name="DateUtils_minutes_ago">%d  मिनट</string>
     <string name="DateUtils_today">आज</string>
     <string name="DateUtils_yesterday">कल</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">%s को भेजें</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">शीर्षक जोड़ें...</string>
     <string name="cameraErrorUnavailable">कैमरा अनुपलब्ध.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">आप %d से ज्यादा चीजें शेयर नहीं कर सकते</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Session के पुराने संस्करण का उपयोग करके एन्क्रिप्ट किया गया एक संदेश प्राप्त हुआ जो अब समर्थित नहीं है। कृपया प्रेषक से नवीनतम संस्करण में अपडेट करने और संदेश भेजने के लिए कहें।</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">आपके संदेश समाप्त नहीं होंगे।</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">इस वार्तालाप में भेजे गए और प्राप्त किए गए संदेश देखे जाने के %s बाद गायब हो जाएंगे।</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">पासफ्रेज दर्ज करें</string>
     <!-- RecipientPreferencesActivity -->
@@ -177,8 +172,6 @@
     <string name="attachment_type_selector__contact_description">संपर्क</string>
     <string name="attachment_type_selector__camera">कैमरा</string>
     <string name="attachment_type_selector__camera_description">कैमरा</string>
-    <string name="attachment_type_selector__location">स्थान</string>
-    <string name="attachment_type_selector__location_description">स्थान</string>
     <string name="gif">जीआईएफ</string>
     <string name="attachment_type_selector__gallery_description">छवि या वीडियो</string>
     <string name="attachment_type_selector__gallery">गेलरी</string>
@@ -225,7 +218,6 @@
     <string name="message_details_header__to">: के लिए </string>
     <string name="message_details_header__with">साथ </string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">मीडिया पूर्वावलोकन</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">कस्टम का इस्तेमाल करें </string>
     <string name="notificationsMute1Hour">1 घंटे के लिए म्यूट करें</string>
@@ -274,7 +266,6 @@
     <string name="conversation_context_image__save_attachment">अनुलग्नक सहेजें</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">संदेश समाप्त हो रहा है</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">अनम्यूट</string>
     <!-- conversation_unmuted -->

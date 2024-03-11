@@ -36,7 +36,6 @@
     <string name="ConversationItem_copied_text">คัดลอกแล้ว %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">เพิ่มไฟล์แนบ</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">ขออภัย พบปัญหาในการตั้งค่าไฟล์แนบของคุณ</string>
     <string name="ConversationActivity_invalid_recipient">ผู้รับไม่ถูกต้อง</string>
     <string name="blockUnblock">เลิกปิดกั้น</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">อุปกรณ์ของคุณไม่มีแอปที่สามารถจัดการกับลิงก์นี้ได้</string>
@@ -53,7 +52,6 @@
     <string name="CustomDefaultPreference_none">ไม่มี</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">เดี๋ยวนี้</string>
-    <string name="DateUtils_minutes_ago">%d นาที</string>
     <string name="DateUtils_today">วันนี้</string>
     <string name="DateUtils_yesterday">เมื่อวานนี้</string>
     <!-- DeviceListItem -->
@@ -79,8 +77,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">ได้รับข้อความที่เข้ารหัสด้วย Session รุ่นเก่าที่ไม่รองรับอีกต่อไปแล้ว โปรดขอให้ผู้ส่งอัพเดตแอปเป็นเวอร์ชันล่าสุดและส่งข้อความอีกครั้ง</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">ข้อความของคุณจะไม่หมดอายุ</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">ข้อความที่ถูกส่งและได้รับในการสนทนานี้จะลบตัวเองไป %s หลังจากที่คู่สนทนาเห็นข้อความแล้ว</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">ใส่วลีรหัสผ่าน</string>
     <!-- RecipientPreferencesActivity -->
@@ -151,8 +147,6 @@
     <string name="attachment_type_selector__contact_description">ผู้ติดต่อ</string>
     <string name="attachment_type_selector__camera">กล้อง</string>
     <string name="attachment_type_selector__camera_description">กล้อง</string>
-    <string name="attachment_type_selector__location">ตำแหน่งที่ตั้ง</string>
-    <string name="attachment_type_selector__location_description">ตำแหน่งที่ตั้ง</string>
     <string name="attachment_type_selector__gallery_description">ภาพหรือวิดีโอ</string>
     <string name="attachment_type_selector__gallery">คลังภาพ</string>
     <string name="attachment_type_selector__drawer_description">สลับแถบเมนูไฟล์แนบ</string>
@@ -194,7 +188,6 @@
     <string name="message_details_header__to">ถึง:</string>
     <string name="message_details_header__with">กับ:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">ดูตัวอย่างสื่อ</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">ใช้ค่าที่กำหนดเอง</string>
     <string name="notificationsMute1Hour">ปิดเสียง 1 ชั่วโมง</string>
@@ -239,7 +232,6 @@
     <string name="conversation_context_image__save_attachment">บันทึกไฟล์แนบ</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">ข้อความที่กำลังหมดอายุ</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">เลิกปิดเสียง</string>
     <!-- conversation_unmuted -->

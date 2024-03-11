@@ -45,7 +45,6 @@
     <string name="ConversationItem_copied_text">Skopírovaných %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Pridať prílohu</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Nastala chyba pri vytváraní prílohy.</string>
     <string name="message">Správa</string>
     <string name="ConversationActivity_compose">Napísať správu</string>
     <string name="ConversationActivity_muted_until_date">Stlmené upozornenia do %1$s</string>
@@ -68,7 +67,6 @@
     <string name="CustomDefaultPreference_none">Žiadna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Teraz</string>
-    <string name="DateUtils_minutes_ago">%d minút</string>
     <string name="DateUtils_today">Dnes</string>
     <string name="DateUtils_yesterday">Včera</string>
     <!-- DeviceListItem -->
@@ -92,7 +90,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Poslať používateľovi %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Pridaj popis...</string>
     <string name="cameraErrorUnavailable">Kamera je nedostupná.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nemôžete zdieľať viac ako %d položku.</item>
@@ -105,8 +102,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Prijatá správa je šifrovaná starou verziou Sessionu, ktorá už nie je podporovaná. Prosím požiadajte odosielateľa o aktualizáciu na najnovšiu verziu a opätovné odoslanie správy.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Vaše správy nevypršia.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Správy odoslané a prijaté v tejto konverzácii zmiznú %s po prečítaní.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Zadajte heslo</string>
     <!-- RecipientPreferencesActivity -->
@@ -183,8 +178,6 @@ výmeny kľúčov.</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Poloha</string>
-    <string name="attachment_type_selector__location_description">Poloha</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Obrázok alebo video</string>
     <string name="attachment_type_selector__gallery">Galéria</string>
@@ -231,7 +224,6 @@ výmeny kľúčov.</string>
     <string name="message_details_header__to">Komu:</string>
     <string name="message_details_header__with">S:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Náhľad média</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Použiť vlastné</string>
     <string name="notificationsMute1Hour">Stlmiť na 1 hodinu</string>
@@ -282,7 +274,6 @@ výmeny kľúčov.</string>
     <string name="conversation_context_image__save_attachment">Uložiť prílohu </string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Končí doba platnosti správ</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Nahlas</string>
     <!-- conversation_unmuted -->

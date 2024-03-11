@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">«%s»֊ը պատճենվել է</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ավելացնել կցորդ</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Ներողություն, չհաջողվեց կցել Ձեր ընտրած նյութը։</string>
     <string name="message">Հաղորդագրություն</string>
     <string name="ConversationActivity_compose">Ստեղծել</string>
     <string name="ConversationActivity_muted_until_date">Անջատված է մինչև %1$s</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Չկա</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Հիմա</string>
-    <string name="DateUtils_minutes_ago">%d րոպե</string>
     <string name="DateUtils_today">Այսօր</string>
     <string name="DateUtils_yesterday">Երեկ</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Ուղարկել %s֊ին</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Ավելացնել վերնագիր...</string>
     <string name="cameraErrorUnavailable">Տեսախցիկը հասանելի չէ</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Դուք չեք կարող տարածել ավելին, քան %d իր։</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Հաղորդագրությունը չի ուղարկվել, քանի որ session-ի տվյալ տարբերակը հնացել է, խնդրում ենք թարմացնել այն, և ուղարկեք հաղորդագրությունը նորից.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Ձեր հաղորդագրությունների ժամկետը չի սպառվի:</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Այս հաղորդագրությունը ավտոմատ կջնջվի %s-ի տեսնելուց հետո.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Մուտքագրեք գաղտնաբառը</string>
     <!-- RecipientPreferencesActivity -->
@@ -180,8 +175,6 @@
     <string name="attachment_type_selector__contact_description">Կոնտակտ</string>
     <string name="attachment_type_selector__camera">Տեսախցիկ</string>
     <string name="attachment_type_selector__camera_description">Տեսախցիկ</string>
-    <string name="attachment_type_selector__location">Վայր</string>
-    <string name="attachment_type_selector__location_description">Վայր</string>
     <string name="gif">Գիֆ</string>
     <string name="attachment_type_selector__gallery_description">Նկար կամ վիդեո</string>
     <string name="attachment_type_selector__gallery">Պատկերասրահ</string>
@@ -228,7 +221,6 @@
     <string name="message_details_header__to">Ում:</string>
     <string name="message_details_header__with">Հետ։</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Տեսնել մեդիան</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Օգտագործել հատուկ կարգավորում</string>
     <string name="notificationsMute1Hour">Անջատել 1 ժամ</string>
@@ -277,7 +269,6 @@
     <string name="conversation_context_image__save_attachment">Պահպանել կցորդը</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Հաղորդագրությունների ժամկետը</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Ապախլացնել</string>
     <!-- conversation_unmuted -->

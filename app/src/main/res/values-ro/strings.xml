@@ -44,7 +44,6 @@
     <string name="ConversationItem_copied_text">Copiat %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Adăugați atașament</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Ne pare rău, a apărut o eroare în setarea atașamentului dvs.</string>
     <string name="message">Mesaj</string>
     <string name="ConversationActivity_compose">Scrie</string>
     <string name="ConversationActivity_muted_until_date">Amuțit până la %1$s</string>
@@ -68,7 +67,6 @@
     <string name="CustomDefaultPreference_none">Niciuna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Acum</string>
-    <string name="DateUtils_minutes_ago">%d min</string>
     <string name="DateUtils_today">Azi</string>
     <string name="DateUtils_yesterday">Ieri</string>
     <!-- DeviceListItem -->
@@ -92,7 +90,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Trimiteți la %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Adăugați un titlu...</string>
     <string name="cameraErrorUnavailable">Cameră indisponibilă.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Nu puteți partaja mai mult de %d element.</item>
@@ -104,8 +101,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Ai primit un mesaj care a fost criptat cu o versiune mai veche de Session care nu mai este suportată. Roagă-l pe expeditor să-și actualizeze aplicația la ultima versiune și să retrimită mesajul.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Mesajele dvs. nu vor expira.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Mesajele trimise și primite în această conversație vor dispărea după %s după ce au fost vizualizate.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Introduceți parola</string>
     <!-- RecipientPreferencesActivity -->
@@ -184,8 +179,6 @@ schimbul de chei este corupt </string>
     <string name="attachment_type_selector__contact_description">Contact</string>
     <string name="attachment_type_selector__camera">Cameră</string>
     <string name="attachment_type_selector__camera_description">Cameră</string>
-    <string name="attachment_type_selector__location">Locație</string>
-    <string name="attachment_type_selector__location_description">Locație</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imagine sau video</string>
     <string name="attachment_type_selector__gallery">Galerie</string>
@@ -232,7 +225,6 @@ schimbul de chei este corupt </string>
     <string name="message_details_header__to">Către:</string>
     <string name="message_details_header__with">Cu:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Previzualizare media</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Personalizat</string>
     <string name="notificationsMute1Hour">Fără sunet pentru o oră</string>
@@ -282,7 +274,6 @@ schimbul de chei este corupt </string>
     <string name="conversation_context_image__save_attachment">Salvează ataşamentul</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Expirarea mesejelor</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Activare sunet notificări</string>
     <!-- conversation_unmuted -->

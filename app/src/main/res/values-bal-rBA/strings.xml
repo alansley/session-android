@@ -30,7 +30,6 @@
     <string name="ConversationItem_copied_text">Disalin %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Tambahkan lampiran</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Maaf, terjadi kesalahan pada pengaturan lampiran anda.</string>
     <string name="ConversationActivity_invalid_recipient">Penerima tidak lengkap!</string>
     <string name="blockUnblock">Buka blokir</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi tersedia untuk menangani tautan ini pada perangkat Anda</string>
@@ -44,7 +43,6 @@
     <string name="CustomDefaultPreference_none">Kosong</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sekarang</string>
-    <string name="DateUtils_minutes_ago">%d mnt</string>
     <string name="DateUtils_today">Hari ini</string>
     <string name="DateUtils_yesterday">Kemarin</string>
     <!-- DeviceListItem -->
@@ -68,15 +66,12 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Kirim ke %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Tambah keterangan...</string>
     <string name="cameraErrorUnavailable">Kamera tidak tersedia.</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Semua media</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung, Harap beri tahu pengirim untuk memutakhirkan ke versi terbaru dan kirim ulang pesannya.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Pesan Anda tidak akan kedaluwarsa.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Pesan terkirim dan diterima pada percakapan ini akan lenyap %s setelah dibaca.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Masukkan frasa sandi</string>
     <!-- RecipientPreferencesActivity -->
@@ -147,8 +142,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="attachment_type_selector__contact_description">Kontak</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Lokasi</string>
-    <string name="attachment_type_selector__location_description">Lokasi</string>
     <string name="attachment_type_selector__gallery_description">Gambar atau video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
     <string name="attachment_type_selector__drawer_description">Jungkitkan laci lampiran</string>
@@ -189,7 +182,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="message_details_header__to">Kepada:</string>
     <string name="message_details_header__with">Dengan:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Pratinjau media</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Gunakan ubahsuai</string>
     <string name="notificationsMute1Hour">Bisukan selama 1 jam</string>
@@ -229,7 +221,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="conversation_context_image__save_attachment">Simpan lampiran</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Pesan berakhir</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Bunyikan</string>
     <!-- conversation_unmuted -->

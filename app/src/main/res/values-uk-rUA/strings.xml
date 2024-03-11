@@ -46,7 +46,6 @@
     <string name="ConversationItem_copied_text">Скопійовано %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Додати вкладення</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Вибачте, сталася помилка при обробці вкладення.</string>
     <string name="message">Написати</string>
     <string name="ConversationActivity_compose">Написати лист</string>
     <string name="ConversationActivity_muted_until_date">Без звуку до %1$s</string>
@@ -71,7 +70,6 @@
     <string name="CustomDefaultPreference_none">Жодного</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Зараз</string>
-    <string name="DateUtils_minutes_ago">%d хв</string>
     <string name="DateUtils_today">Сьогодні</string>
     <string name="DateUtils_yesterday">Вчора</string>
     <!-- DeviceListItem -->
@@ -95,7 +93,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Відправити %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Добавити заголовок...</string>
     <string name="cameraErrorUnavailable">Камера не доступна</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Ви не можете надсилати більше, ніж %d файл.</item>
@@ -109,8 +106,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Отримано повідомлення, яке зашифроване старою версією Session, яка вже не підтримується. Попросіть друга оновитися до останньої версії та надіслати повідомлення знову.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Ваші повідомлення не зникатимуть.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Усі повідомлення у цій розмові зникнуть через %s після прочитання.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Введіть фразу-пароль</string>
     <!-- RecipientPreferencesActivity -->
@@ -188,8 +183,6 @@
     <string name="attachment_type_selector__contact_description">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
-    <string name="attachment_type_selector__location">Розташування</string>
-    <string name="attachment_type_selector__location_description">Розташування</string>
     <string name="gif">Гіф</string>
     <string name="attachment_type_selector__gallery_description">Зображення або відео</string>
     <string name="attachment_type_selector__gallery">Галерея</string>
@@ -236,7 +229,6 @@
     <string name="message_details_header__to">Кому:</string>
     <string name="message_details_header__with">З:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Попередній перегляд медіа</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Використовувати власні</string>
     <string name="notificationsMute1Hour">Вимкнути звук на 1 годину</string>
@@ -287,7 +279,6 @@
     <string name="conversation_context_image__save_attachment">Зберегти вкладення</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Час життя повідомлень спливає</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Увімкнути звук</string>
     <!-- conversation_unmuted -->

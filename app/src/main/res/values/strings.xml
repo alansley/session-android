@@ -198,7 +198,6 @@
     <string name="ConversationItem_copied_text">Copied %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Add attachment</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Sorry, there was an error setting your attachment.</string>
     <string name="message">Message</string>
     <string name="ConversationActivity_compose">Compose</string>
     <string name="ConversationActivity_muted_until_date">Muted until %1$s</string>
@@ -225,7 +224,6 @@
     <string name="CustomDefaultPreference_none">None</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Now</string>
-    <string name="DateUtils_minutes_ago">%d min</string>
     <string name="DateUtils_today">Today</string>
     <string name="DateUtils_yesterday">Yesterday</string>
     <!-- DeviceListItem -->
@@ -249,7 +247,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Send to %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Add a caption...</string>
     <string name="cameraErrorUnavailable">Camera unavailable.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">You can\'t share more than %d item.</item>
@@ -260,8 +257,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Received a message encrypted using an old version of Session that is no longer supported. Please ask the sender to update to the most recent version and resend the message.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Your messages will not expire.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Messages sent and received in this conversation will disappear %s after they have been seen.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Enter passphrase</string>
     <!-- RecipientPreferencesActivity -->
@@ -340,8 +335,6 @@
     <string name="attachment_type_selector__contact_description">Contact</string>
     <string name="attachment_type_selector__camera">Camera</string>
     <string name="attachment_type_selector__camera_description">Camera</string>
-    <string name="attachment_type_selector__location">Location</string>
-    <string name="attachment_type_selector__location_description">Location</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Image or video</string>
     <string name="attachment_type_selector__gallery">Gallery</string>
@@ -395,7 +388,6 @@
     <string name="message_details_header__duration">Duration:</string>
 
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Media preview</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Use custom</string>
     <string name="notificationsMute1Hour">Mute for 1 hour</string>
@@ -475,7 +467,6 @@
     <string name="conversation_context_image__save_attachment">Save attachment</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Messages expiring</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Unmute</string>
     <!-- conversation_unmuted -->

@@ -46,7 +46,6 @@
     <string name="ConversationItem_copied_text">הועתק %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">הוסף צרופה</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">סליחה, אירעה שגיאה בהוספת הצרופה שלך.</string>
     <string name="message">הודעה</string>
     <string name="ConversationActivity_compose">הודעה חדשה</string>
     <string name="ConversationActivity_invalid_recipient">מקבל לא תקף!</string>
@@ -69,7 +68,6 @@
     <string name="CustomDefaultPreference_none">אין</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">עכשיו</string>
-    <string name="DateUtils_minutes_ago">%d דק׳</string>
     <string name="DateUtils_today">היום</string>
     <string name="DateUtils_yesterday">אתמול</string>
     <!-- DeviceListItem -->
@@ -93,7 +91,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">שלח אל %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">הוסף כיתוב...</string>
     <string name="cameraErrorUnavailable">מצלמה אינה זמינה.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">אינך יכול לשתף יותר מפריט %d.</item>
@@ -106,8 +103,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">התקבלה הודעה מוצפנת ע\"י שימוש בגרסה ישנה של Session שאינה נתמכת יותר. אנא בקש מהשולח לעדכן אל הגרסה העדכנית ביותר ולשלוח מחדש את ההודעה.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">ההודעות שלך לא יפוגו.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">הודעות שנשלחות ומתקבלות בשיחה זו ייעלמו %s אחרי שייראו.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">הכנס משפט־סיסמה</string>
     <!-- RecipientPreferencesActivity -->
@@ -184,8 +179,6 @@
     <string name="attachment_type_selector__contact_description">איש קשר</string>
     <string name="attachment_type_selector__camera">מצלמה</string>
     <string name="attachment_type_selector__camera_description">מצלמה</string>
-    <string name="attachment_type_selector__location">מיקום</string>
-    <string name="attachment_type_selector__location_description">מיקום</string>
     <string name="gif">GIF</string>
     <string name="attachment_type_selector__gallery_description">תמונה או וידיאו</string>
     <string name="attachment_type_selector__gallery">גלריה</string>
@@ -231,7 +224,6 @@
     <string name="message_details_header__to">אל:</string>
     <string name="message_details_header__with">עם:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">קדם־תצוגה של מדיה</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">השתמש במותאם אישית</string>
     <string name="notificationsMute1Hour">השתק למשך שעה</string>
@@ -281,7 +273,6 @@
     <string name="conversation_context_image__save_attachment">שמור צרופה</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">תפוגת הודעות</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">בטל השתקה</string>
     <!-- conversation_unmuted -->

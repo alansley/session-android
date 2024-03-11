@@ -42,7 +42,6 @@
     <string name="ConversationItem_copied_text">Kopierade %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Bifoga fil</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Tyvärr uppstod det ett fel vid bifogning av din fil.</string>
     <string name="message">Meddelande</string>
     <string name="ConversationActivity_compose">Komponera</string>
     <string name="ConversationActivity_muted_until_date">Tystades till %1$s</string>
@@ -65,7 +64,6 @@
     <string name="CustomDefaultPreference_none">Inga</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nu</string>
-    <string name="DateUtils_minutes_ago">%d min</string>
     <string name="DateUtils_today">Idag</string>
     <string name="DateUtils_yesterday">Igår</string>
     <!-- DeviceListItem -->
@@ -89,7 +87,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Skicka till %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Lägg till en rubrik...</string>
     <string name="cameraErrorUnavailable">Kamera otillgänglig.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Du kan inte dela mer än %d objekt.</item>
@@ -100,8 +97,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Tog emot ett meddelande som krypterats med en tidigare version av Session som inte längre stöds. Be avsändaren uppdatera till senaste versionen och skicka om meddelandet.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Dina meddelanden kommer inte att upphöra.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meddelanden som skickas och tas emot i den här konversationen kommer att försvinna %s efter att de setts.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Ange lösenord</string>
     <!-- RecipientPreferencesActivity -->
@@ -177,8 +172,6 @@ för nyckelutbyte!</string>
     <string name="attachment_type_selector__contact_description">Kontakt</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Plats</string>
-    <string name="attachment_type_selector__location_description">Plats</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Bild eller film</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
@@ -225,7 +218,6 @@ för nyckelutbyte!</string>
     <string name="message_details_header__to">Till:</string>
     <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Mediaförhandsgranskning</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Använd anpassad inställning</string>
     <string name="notificationsMute1Hour">Tysta i 1 timme</string>
@@ -274,7 +266,6 @@ för nyckelutbyte!</string>
     <string name="conversation_context_image__save_attachment">Spara bilaga</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Meddelanden upphör</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Ljud på</string>
     <!-- conversation_unmuted -->

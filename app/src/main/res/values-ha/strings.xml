@@ -40,7 +40,6 @@
     <string name="ConversationItem_copied_text">%s ji ber girtî</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Servehî lê zede bike</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Bibore, di sazkirina servehiyê de çewtiyek rû da.</string>
     <string name="ConversationActivity_invalid_recipient">Stînerê nederbasdar!</string>
     <string name="blockUnblock">Astengê rake</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Ti sepana ku karibe vê girêdanê di amûra we de veke nîn e.</string>
@@ -58,7 +57,6 @@
     <string name="CustomDefaultPreference_none">Hîç</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Niha</string>
-    <string name="DateUtils_minutes_ago">%d xulek</string>
     <string name="DateUtils_today">Îro</string>
     <string name="DateUtils_yesterday">Doh</string>
     <!-- DeviceListItem -->
@@ -80,15 +78,12 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Ji %s re bişîne</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Binnivîs zêdebikin</string>
     <string name="cameraErrorUnavailable">Kamera nayê bikar anîn.</string>
     <!-- MediaRepository -->
     <string name="conversationsSettingsAllMedia">Hemû medya</string>
     <!-- MessageRecord -->
     <string name="messageErrorOld">Peyamek ku bi guhertoyek bêkêr ya Signalê hatiye şifrekirin hate wergirtin. Ji şandiyarî re bêje bila Sessionê hildemîne û peyamê dîsa bişîne.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Dê peyamên te wenda nebin.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Peyamên ku di vê gotûbêjê de hatine şandin û wergiritn dê %s piştî hatin dîtin tune bibin.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Borînbiwêjê têkeve</string>
     <!-- RecipientPreferencesActivity -->
@@ -164,8 +159,6 @@
     <string name="attachment_type_selector__contact_description">Berdeng</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Cih</string>
-    <string name="attachment_type_selector__location_description">Cih</string>
     <string name="attachment_type_selector__gallery_description">Wêne yan vidyo</string>
     <string name="attachment_type_selector__gallery">Pêşangeh</string>
     <string name="attachment_type_selector__drawer_description">Çaviya servehiya din bijerînin</string>
@@ -207,7 +200,6 @@
     <string name="message_details_header__to">Ji bo:</string>
     <string name="message_details_header__with">Bi:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Pêşdîtina medyayê</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Ya taybet bi kar bîne</string>
     <string name="notificationsMute1Hour">Heta 1 demjimêrê bêdeng bike</string>
@@ -253,7 +245,6 @@
     <string name="conversation_context_image__save_attachment">Servehiyê tomar bike</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Peyam kevin dibin</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Bideng bike</string>
     <!-- conversation_unmuted -->

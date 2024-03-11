@@ -39,7 +39,6 @@
     <string name="ConversationItem_copied_text">បានចម្លង %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">ភ្ជាប់ឯកសារ</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">សុំទោស មានបញ្ហក្នុងការកំណត់ឯកសារភ្ជាប់របស់អ្នក។</string>
     <string name="ConversationActivity_invalid_recipient">អ្នកទទួលមិនត្រឹមត្រូវ!</string>
     <string name="blockUnblock">បើកវិញ</string>
     <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">មិនមានកម្មវិធីដើម្បីបើកតំណនេះ នៅលើឧបករណ៍របស់អ្នកទេ។</string>
@@ -56,7 +55,6 @@
     <string name="CustomDefaultPreference_none">គ្មាន</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">ឥឡូវនេះ</string>
-    <string name="DateUtils_minutes_ago">%d នាទី</string>
     <string name="DateUtils_today">ថ្ងៃនេះ</string>
     <string name="DateUtils_yesterday">ម្សិលមិញ</string>
     <!-- DeviceListItem -->
@@ -80,7 +78,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">ផ្ញើទៅកាន់ %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">ដាក់ចំណងជើង...</string>
     <string name="cameraErrorUnavailable">កាមេរ៉ាមិនដំណើរការ</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">អ្នកមិនអាចចែករំលែកចំនួនលើសពី %d ។</item>
@@ -90,8 +87,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Session ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">សាររបស់អ្នកនឹងមិនផុតកំណត់ទេ។</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">សារ ដែលបានផ្ញើនិងទទួលក្នុងការសន្ទនានេះ នឹងបាត់ក្នុងពេល %s បន្ទាប់ពីត្រូវបានបើកមើល។</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">បញ្ចូលឃ្លាសម្ងាត់</string>
     <!-- RecipientPreferencesActivity -->
@@ -165,8 +160,6 @@
     <string name="attachment_type_selector__contact_description">ទំនាក់ទំនង</string>
     <string name="attachment_type_selector__camera">កាមេរ៉ា</string>
     <string name="attachment_type_selector__camera_description">កាមេរ៉ា</string>
-    <string name="attachment_type_selector__location">ទីតាំង</string>
-    <string name="attachment_type_selector__location_description">ទីតាំង</string>
     <string name="attachment_type_selector__gallery_description">រូបភាព ឬវីដេអូ</string>
     <string name="attachment_type_selector__gallery">វិចិត្រសាល</string>
     <string name="attachment_type_selector__drawer_description">បិទបើកថតឯកសារភ្ជាប់</string>
@@ -209,7 +202,6 @@
     <string name="message_details_header__to">ទៅ៖</string>
     <string name="message_details_header__with">ជាមួយ៖</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">ការបង្ហាញសារ</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">ប្រើផ្សេងៗ</string>
     <string name="notificationsMute1Hour">បិទសំឡេង 1 ម៉ោង</string>
@@ -256,7 +248,6 @@
     <string name="conversation_context_image__save_attachment">រក្សាឯកសារភ្ជាប់</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">សារដែលហួសកាលកំណត់</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">បើកសំឡេង</string>
     <!-- conversation_unmuted -->

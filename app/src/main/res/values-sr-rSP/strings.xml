@@ -43,7 +43,6 @@
     <string name="ConversationItem_copied_text">Копирана %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Додај прилог</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Дошло је до грешке при постављању вашег прилога.</string>
     <string name="message">Пошаљи поруку</string>
     <string name="ConversationActivity_compose">Компонуј</string>
     <string name="ConversationActivity_muted_until_date">Мутиран до %1$s</string>
@@ -67,7 +66,6 @@
     <string name="CustomDefaultPreference_none">Ништа</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Сад</string>
-    <string name="DateUtils_minutes_ago">%d минута</string>
     <string name="DateUtils_today">Данас</string>
     <string name="DateUtils_yesterday">Јуче</string>
     <!-- DeviceListItem -->
@@ -91,7 +89,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Пошаљи %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Додај капцију...</string>
     <string name="cameraErrorUnavailable">Камера недоступна.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">Не можеш да делиш више од %d предмета.</item>
@@ -103,8 +100,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Примљена је порука шифрована старим издањем Session-a које више није подржано. Замолите пошиљаоца да надогради на најновије издање и поново пошаље поруку.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Ваше поруке неће истећи.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Примљене и послате поруке ове преписке ће нестати %s након што су погледане.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Унесите лозинку</string>
     <!-- RecipientPreferencesActivity -->
@@ -180,8 +175,6 @@
     <string name="attachment_type_selector__contact_description">Контакт</string>
     <string name="attachment_type_selector__camera">Камера</string>
     <string name="attachment_type_selector__camera_description">Камера</string>
-    <string name="attachment_type_selector__location">Локација</string>
-    <string name="attachment_type_selector__location_description">Локација</string>
     <string name="gif">Гиф</string>
     <string name="attachment_type_selector__gallery_description">Слика или видео</string>
     <string name="attachment_type_selector__gallery">Галерија</string>
@@ -227,7 +220,6 @@
     <string name="message_details_header__to">За:</string>
     <string name="message_details_header__with">Са:</string>
     <!-- AndroidManifest.xml -->
-    <string name="AndroidManifest__media_preview">Преглед медијума</string>
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Користи посебно</string>
     <string name="notificationsMute1Hour">Утишај 1 сат</string>
@@ -274,7 +266,6 @@
     <string name="conversation_context_image__save_attachment">Сачувај прилог</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
-    <string name="menu_conversation_expiring_on__messages_expiring">Истицање порука</string>
     <!-- conversation_muted -->
     <string name="conversation_muted__unmute">Укључи обавештења</string>
     <!-- conversation_unmuted -->

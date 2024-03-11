@@ -39,7 +39,6 @@
     <string name="ConversationItem_copied_text">Tersalin %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Tambahkan lampiran</string>
-    <string name="ConversationActivity_sorry_there_was_an_error_setting_your_attachment">Maaf, terjadi kesalahan pada pengaturan lampiran anda.</string>
     <string name="message">Pesan</string>
     <string name="ConversationActivity_compose">Menyusun</string>
     <string name="ConversationActivity_muted_until_date">Senyapkan sampai %1$s</string>
@@ -57,7 +56,6 @@
     <string name="CustomDefaultPreference_none">Tidak ada</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sekarang</string>
-    <string name="DateUtils_minutes_ago">%d menit</string>
     <string name="DateUtils_today">Hari ini</string>
     <string name="DateUtils_yesterday">Kemarin</string>
     <!-- DeviceListItem -->
@@ -81,7 +79,6 @@
     <!-- MediaPickerActivity -->
     <string name="MediaPickerActivity_send_to">Kirim ke %s</string>
     <!-- MediaSendActivity -->
-    <string name="MediaSendActivity_add_a_caption">Tambah keterangan...</string>
     <string name="cameraErrorUnavailable">Kamera tidak tersedia.</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="other">Anda tidak dapat membagikan lebih dari %d item.</item>
@@ -91,8 +88,6 @@
     <!-- MessageRecord -->
     <string name="messageErrorOld">Menerima pesan terenkripsi menggunakan Session versi lama tidak lagi didukung. Harap minta pengirim untuk memperbarui ke versi terbaru dan mengirim ulang pesannya.</string>
     <!-- ExpirationDialog -->
-    <string name="ExpirationDialog_your_messages_will_not_expire">Pesan Anda tidak akan kadaluwarsa.</string>
-    <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Pesan yang dikirim dan diterima pada percakapan ini akan hilang %s setelah dilihat.</string>
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Masukkan kata frasa</string>
     <!-- RecipientPreferencesActivity -->
@@ -155,8 +150,6 @@
     <string name="attachment_type_selector__contact_description">Kontak</string>
     <string name="attachment_type_selector__camera">Kamera</string>
     <string name="attachment_type_selector__camera_description">Kamera</string>
-    <string name="attachment_type_selector__location">Lokasi</string>
-    <string name="attachment_type_selector__location_description">Lokasi</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Gambar atau video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
