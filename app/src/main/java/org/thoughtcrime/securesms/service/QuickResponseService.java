@@ -55,7 +55,6 @@ public class QuickResponseService extends IntentService {
         MessageSender.send(message, Address.fromExternal(this, number));
       }
     } catch (URISyntaxException e) {
-      Toast.makeText(this, R.string.QuickResponseService_problem_sending_message, Toast.LENGTH_LONG).show();
       Log.w(TAG, e);
     }
   }

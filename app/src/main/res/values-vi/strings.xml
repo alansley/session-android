@@ -14,7 +14,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">%d tin nhắn trong mỗi cuộc trò chuyện</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Xóa tất cả tin nhắn cũ bây giờ?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">Thao tác này sẽ thu ngắn tức thì tất cả các cuộc hội thoại đến %d tin nhắn gần nhất.</item>
     </plurals>
@@ -39,7 +38,6 @@
     <string name="attachmentsAdd">Thêm tập tin đính kèm</string>
     <string name="ConversationActivity_invalid_recipient">Người nhận không đúng!</string>
     <string name="blockUnblock">Không chặn</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Thiết bị của bạn không có ứng dụng nào tương ứng để mở đường dẫn này.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session cần truy cập microphone để gửi tin nhắn thoại, nhưng quyền này đã bị chặn. Hãy đến phần cài đặt, chọn \"Quyền truy cập\" và kích hoạt \"Microphone\".</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Lưu vào thẻ nhớ?</string>
@@ -93,15 +91,11 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="onionRoutingPathYou">Bạn</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d tin nhắn mới trong %2$d cuộc chuyện trò</string>
-    <string name="MessageNotifier_message_delivery_failed">Phân phối tin nhắn bị thất bại.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Thất bại trong việc phân phối tin.</string>
-    <string name="MessageNotifier_error_delivering_message">Có lỗi khi phân phối tin.</string>
     <string name="messageMarkRead">Đánh dấu đã đọc</string>
     <string name="MessageNotifier_unknown_contact_message">Liên lạc</string>
     <!-- Notification Channels -->
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Trả lời nhanh không khả thi khi Session bị khoá!</string>
-    <string name="QuickResponseService_problem_sending_message">Có vấn đề khi gửi tin nhắn!</string>
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
     <string name="search">Tìm kiếm</string>
@@ -123,7 +117,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="messageVoiceSlideToCancel">TRƯỢT ĐỂ HUỶ</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Tin nhắn đa phương tiện</string>
-    <string name="conversation_item__secure_message_description">Tin nhắn có mã hóa</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Gửi thất bại</string>
     <string name="conversation_item_sent__delivered_description">Đã giao</string>
@@ -139,12 +132,9 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Một số việc cần bạn lưu ý.</string>
     <string name="disappearingMessagesSent">Đã gửi</string>
     <string name="received">Đã nhận</string>
     <string name="message_details_header__via">Qua</string>
-    <string name="message_details_header__to">Đến:</string>
-    <string name="message_details_header__with">Với:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Dùng tùy chỉnh</string>
@@ -169,9 +159,7 @@ trao đổi chìa khóa bị hỏng!</string>
     <string name="preferences__fast">Nhanh</string>
     <string name="preferences__normal">Bình thường</string>
     <string name="preferences__slow">Chậm</string>
-    <string name="preferences__delete_old_messages">Xóa tin nhắn cũ</string>
     <string name="preferences__trim_all_conversations_now">Lập tức rút ngắn tất cả các cuộc hội thoại</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Quét tất cả các cuộc hội thoại và áp dụng giới hạn độ dài hội thoại</string>
     <string name="_default">Mặc định</string>
     <string name="conversationsMessageTrimming">Thu gọn tin nhắn</string>
     <string name="preferences_advanced__use_system_emoji">Sử dụng ký tự biểu cảm hệ thống</string>
@@ -180,7 +168,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Tin nhắn mới cho...</string>
     <!-- conversation_context -->
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lưu đính kèm</string>
@@ -199,8 +186,6 @@ trao đổi chìa khóa bị hỏng!</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Đang xóa</string>
-    <string name="trimmer__deleting_old_messages">Đang xóa tin nhắn cũ...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Xóa thành công các tin nhắn cũ</string>
     <!-- transport_selection_list_item -->
     <string name="registration_activity__skip">Bỏ qua</string>
     <!-- Conversation activity -->

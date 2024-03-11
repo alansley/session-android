@@ -39,8 +39,6 @@
     <!-- CropImageActivity -->
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">%1$s වෙතින් පණිවිඩය</string>
-    <string name="LongMessageActivity_your_message">ඔබගේ පණීවිඩය</string>
     <!-- MediaOverviewActivity -->
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">බහුමාධ්‍ය පණිවිඩය</string>
@@ -66,8 +64,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">ඔබ</string>
     <!-- MessageNotifier -->
-    <string name="MessageNotifier_message_delivery_failed">පණිවිඩය බාරදීමට අසමත්විය.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">පණිවිඩය බාරදීමට අසමත්විය.</string>
     <string name="MessageNotifier_unknown_contact_message">සබඳතාව</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ඇමතුම්</string>
@@ -93,7 +89,6 @@
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">මාධ්‍යය පණිවිඩය</string>
-    <string name="conversation_item__secure_message_description">ආරක්ෂිත පණීවිඩය</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">යැවීමට අසමත්විය</string>
     <string name="conversation_item_sent__delivered_description">බාරදුනි</string>

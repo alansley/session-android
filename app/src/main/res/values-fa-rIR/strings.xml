@@ -14,7 +14,6 @@
         <item quantity="one">%d پیام در هر گفتگو</item>
         <item quantity="other">%d پیام در هر گفتگو</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">همه‌ی پیام‌های قدیمی حذف شوند؟</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">این گزینه ، بلافاصله تمامی مکالمات شما را به پیام آخر ، کاهش خواهد داد.</item>
         <item quantity="other">این گزینه، بلافاصله تمامی مکالمات شما را به %d پیام آخر، کاهش خواهد داد.</item>
@@ -42,12 +41,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">پیوست فایل</string>
     <string name="message">پیام</string>
-    <string name="ConversationActivity_compose">نوشتن</string>
     <string name="ConversationActivity_muted_until_date">بی صدا تا %1$s</string>
     <string name="ConversationActivity_muted_forever">بی صدا شده</string>
     <string name="ConversationActivity_invalid_recipient">گیرنده نامعتبر است!</string>
     <string name="blockUnblock">رفع مسدودیت</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">هیچ برنامه ای برای اجرای این لینک روی دستگاه شما در دسترس نیست.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session برای ارسال صدا، نیازمند دسترسی به میکروفن دارد ولی این دسترسی قطع شده است. لطفا برای ادامه دادن، به بخش منوی تنظیمات برنامه رفته، \"اجازه ها\" را انتخاب کرده و گزینه ی \"میکروفن\" را فعال نمایید.</string>
     <string name="cameraGrantAccessStorage">Session برای ارسال تصاویر و ویدئوها نیاز به دسترسی حافظه دارد.</string>
     <string name="callsPermissionsRequired">دسترسی تلفن مورد نیاز است</string>
@@ -76,8 +73,6 @@
     <string name="photo">تصویر پروفایل</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">پیام از %1$s</string>
-    <string name="LongMessageActivity_your_message">پیام شما</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">در حال جمع‌آوری پیوست‌ها...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -121,8 +116,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">نسخه جدید Session در دسترس است، برای آپدیت اینجا را تپ کنید</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">پیام بد رمزگذاری شده</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">پیام ها، برای نشست های غیر موجود رمزنگاری شده اند</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message"> پیام MMS بد رمزگذاری شده</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">پیام های MMS برای نشست های غیر موجود رمزنگاری شده اند</string>
@@ -136,12 +129,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">نمی‌توان بدون دسترسی‌ها در حافظه‌ی خارجی ذخیره‌سازی نمود</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d پیام در %2$d گفتگو</string>
-    <string name="MessageNotifier_message_delivery_failed">تحویل پیام شکست خورده است.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">ناموفق برای تحویل پیام.</string>
-    <string name="MessageNotifier_error_delivering_message">خطا در تحویل پیام.</string>
     <string name="messageMarkRead">علامت گذاری به عنوان خوانده شده</string>
-    <string name="MessageNotifier_pending_signal_messages">پیام در انتظار Session</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">شما در Session پیام در انتظار دارید، برای مشاهده و بازیابی پیام اینجا ضربه بزنید</string>
     <string name="MessageNotifier_unknown_contact_message">مخاطب</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">تماس‌ها</string>
@@ -152,7 +140,6 @@
     <string name="other">دیگر</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">پاسخگوی سریع هنگامی که نرم‌افزار Session قفل باشد غیرفعال می‌شود.</string>
-    <string name="QuickResponseService_problem_sending_message">بروز خطا در ارسال پیام!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">ذخیره شد</string>
     <!-- SearchToolbar -->
@@ -188,7 +175,6 @@
     <string name="messageVoiceSlideToCancel">برای لغو بکشید</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">پیام رسانه</string>
-    <string name="conversation_item__secure_message_description">پیام امن</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">ارسال نشد</string>
     <string name="conversation_item_sent__delivered_description">تحویل</string>
@@ -196,7 +182,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">پیوستن</string>
-    <string name="open_group_guidelines_pinned_message">پیام سنجاق شده</string>
     <string name="read">خواندن</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">تصویر</string>
@@ -210,13 +195,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">برخی از مسائل نیاز به توجه شما دارند.</string>
     <string name="disappearingMessagesSent">فرستاده</string>
     <string name="received">رسیده</string>
     <string name="message_details_header__disappears">نشان داده نشده ها</string>
     <string name="message_details_header__via">از طریق</string>
-    <string name="message_details_header__to">به:</string>
-    <string name="message_details_header__with">با:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">استفاده از سفارشی</string>
@@ -251,9 +233,7 @@
     <string name="preferences__fast">سریع</string>
     <string name="preferences__normal">عادی</string>
     <string name="preferences__slow">آهسته</string>
-    <string name="preferences__delete_old_messages">حذف پیام‌های قدیمی</string>
     <string name="preferences__trim_all_conversations_now">حذف پیام‌های قدیمی، همین حالا</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">اسکن از طریق تمام گفتگوها و اجرای محدودیت طول گفتگوها</string>
     <string name="_default">پیش فرض</string>
     <string name="incognitoKeyboard">کیبورد ناشناس</string>
     <string name="preferences__read_receipts">رسیدهای خواندن</string>
@@ -274,7 +254,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">پیام جدید به ...</string>
     <!-- conversation_context -->
     <string name="banUser">مسدود کردن کاربر</string>
     <string name="conversation_context__menu_reply">پاسخ</string>
@@ -299,8 +278,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">در حال حذف</string>
-    <string name="trimmer__deleting_old_messages">در حال حذف پیام‌های قدیمی...</string>
-    <string name="trimmer__old_messages_successfully_deleted">پیام‌های قدیمی با موفقیت حذف شدند</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">مجوز لازم است</string>
     <string name="notNow">حالا نه</string>

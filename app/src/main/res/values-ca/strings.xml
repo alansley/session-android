@@ -15,7 +15,6 @@
         <item quantity="one">%d missatge per conversa</item>
         <item quantity="other">%dmissatges per conversa</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Voleu suprimir els missatges antics?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Això reduirà immediatament totes les converses al missatge més recent.</item>
         <item quantity="other">Això reduirà immediatament totes les converses als %d missatges més recents.</item>
@@ -43,11 +42,9 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Afegeix un adjunt</string>
     <string name="message">Missatge</string>
-    <string name="ConversationActivity_compose">Escriu</string>
     <string name="ConversationActivity_muted_until_date">Silenciat fins %1$s</string>
     <string name="ConversationActivity_invalid_recipient">Destinatari no vàlid.</string>
     <string name="blockUnblock">Desbloca</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">No hi ha cap aplicació que pugui obrir aquest enllaç.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">El Session necessita el permís del micròfon per tal d\'enviar missatges d\'àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi el micròfon.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Voleu desar-ho a l\'emmagatzematge?</string>
@@ -74,8 +71,6 @@
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Missatge de %1$s</string>
-    <string name="LongMessageActivity_your_message">El vostre missatge</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">S\'estan adjuntant els fitxers...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -119,8 +114,6 @@ d\'intercanvi de claus!</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Hi ha disponible una versió nova del Session. Toqueu per actualitzar-lo</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Missatge mal encriptat</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Missatge encriptat per a una sessió que no existeix</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Missatge MMS mal encriptat</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Missatge MMS encriptat per a una sessió que no existeix</string>
@@ -133,12 +126,7 @@ d\'intercanvi de claus!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">No es pot desar en un emmagatzematge extern sense permís.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d missatges nous a %2$d converses</string>
-    <string name="MessageNotifier_message_delivery_failed">El missatge no s\'ha pogut entregar.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">No s\'ha pogut entregar el missatge.</string>
-    <string name="MessageNotifier_error_delivering_message">S\'ha produït un error en entregar el missatge.</string>
     <string name="messageMarkRead">Marca\'l com a llegit</string>
-    <string name="MessageNotifier_pending_signal_messages">Missatges del Session pendents</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Teniu missatges del Session pendents, toqueu per obrir-lo i recuperar-los</string>
     <string name="MessageNotifier_unknown_contact_message">Contacte</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Telefonades</string>
@@ -149,7 +137,6 @@ d\'intercanvi de claus!</string>
     <string name="other">Altres</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">La resposta ràpida no és disponible si el Session està blocat!</string>
-    <string name="QuickResponseService_problem_sending_message">S\'ha produït un problema en enviar el missatge!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Desat</string>
     <!-- SearchToolbar -->
@@ -185,7 +172,6 @@ d\'intercanvi de claus!</string>
     <string name="messageVoiceSlideToCancel">Llisqueu per cancel·lar-ho</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Missatge multimèdia</string>
-    <string name="conversation_item__secure_message_description">Missatge segur</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Ha fallat l\'enviament</string>
     <string name="conversation_item_sent__delivered_description">Entregat</string>
@@ -193,7 +179,6 @@ d\'intercanvi de claus!</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Uneix-t\'hi</string>
-    <string name="open_group_guidelines_pinned_message">Missatge fixat</string>
     <string name="read">Llegeix</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
@@ -207,13 +192,10 @@ d\'intercanvi de claus!</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Certs problemes necessiten la vostra atenció.</string>
     <string name="disappearingMessagesSent">Enviat</string>
     <string name="received">Rebut</string>
     <string name="message_details_header__disappears">Desapareix</string>
     <string name="message_details_header__via">Per</string>
-    <string name="message_details_header__to">A:</string>
-    <string name="message_details_header__with">Amb:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Personalitzat</string>
@@ -241,9 +223,7 @@ d\'intercanvi de claus!</string>
     <string name="preferences__fast">Ràpid</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Lent</string>
-    <string name="preferences__delete_old_messages">Suprimeix els missatges antics</string>
     <string name="preferences__trim_all_conversations_now">Escapça totes les converses</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Escaneja totes les converses i aplica-hi els límits de mida</string>
     <string name="_default">Per defecte</string>
     <string name="incognitoKeyboard">Teclat d\'incògnit</string>
     <string name="preferences__read_receipts">Confirmació de lectura</string>
@@ -255,7 +235,6 @@ d\'intercanvi de claus!</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Missatge nou per a...</string>
     <!-- conversation_context -->
     <string name="banUser">Bloca l\'usuari</string>
     <string name="conversation_context__menu_reply_to_message">Respon el missatge</string>
@@ -277,8 +256,6 @@ d\'intercanvi de claus!</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Suprimint</string>
-    <string name="trimmer__deleting_old_messages">Suprimint els missatges antics...</string>
-    <string name="trimmer__old_messages_successfully_deleted">S\'han suprimit correctament els missatges antics</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Cal permís</string>
     <string name="notNow">Ara no</string>

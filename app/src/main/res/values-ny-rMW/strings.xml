@@ -12,7 +12,6 @@
         <item quantity="one">%drimariypi chaski.</item>
         <item quantity="other">%drimariypi chaskikuna</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Yallishka chaskikunata pichanayanchu</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Kayka ñapashmi chayralla rimarishkata pitinka.</item>
         <item quantity="other">Kayka ñapashmi kay %d chayralla rimarishkata pitinka.</item>
@@ -40,7 +39,6 @@
     <string name="attachmentsAdd">Shuk imaykunata kimichipay</string>
     <string name="ConversationActivity_invalid_recipient">¡Yupaymashi wakllimi kan!</string>
     <string name="blockUnblock">Pakashkamanta llukchi</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nima aplicación mana tiyanchu, kikinpa antahillaypi tinki ushankapak.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session ari nichun munanmi kikinpa Rimachikman yaykunkapak, shinapash mana arinirishkachu. \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Micrófono\" paskarichun.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Allichik ukupi allichinayanchu</string>
@@ -102,8 +100,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Mushukyachina Session tiyan, mushukyachinkapak kaypi llapi.</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Mana alli chaski pakashka</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Chaski pakakurka  shuk  illak paskashkapa</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Killkana MMS pakalla wakllimi kan</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS chaskika mana tiyashka pachapimi pakakurka.</string>
@@ -116,12 +112,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kanllapi allichita mana ushanchikchu kikin mana arinikpika.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$dmushuk chaskikuna %2$drimarikunapi.</string>
-    <string name="MessageNotifier_message_delivery_failed">Chaskita kachayta mana usharkachu.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Chaskita kachakushpa mana usharkachu</string>
-    <string name="MessageNotifier_error_delivering_message">Chaskita chaskichikushpa pantarka.</string>
     <string name="messageMarkRead">Killkakatishkami nishpa unanchay</string>
-    <string name="MessageNotifier_pending_signal_messages">Session chaskikuna shuyanakun</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Session chaskikuna shuyanakukta charinki, paskankapak uryakuchinkapakpash llapipay</string>
     <string name="MessageNotifier_unknown_contact_message">Yupay mashi</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Kayachikuna</string>
@@ -132,7 +123,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="other">Shuk yupaykuna </string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session  pakashka kakpika ñapash kutichitaka mana usharinchu</string>
-    <string name="QuickResponseService_problem_sending_message">Chaskita kachakushpa shuk llakimi rikurirka</string>
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
     <string name="search">Maskana</string>
@@ -161,7 +151,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Multimedia chaski</string>
-    <string name="conversation_item__secure_message_description">Chaskita wakaychina</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Kachakushpa pantarka</string>
     <string name="conversation_item_sent__delivered_description">Chayashka</string>
@@ -180,13 +169,10 @@ ranti pakalla yupaykunamanta</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Wakin ruraykuna kikin rikuchun munanmi</string>
     <string name="disappearingMessagesSent">Kachashka</string>
     <string name="received">Chaskishka</string>
     <string name="message_details_header__disappears">Chinkarishka</string>
     <string name="message_details_header__via">Kay ñianta</string>
-    <string name="message_details_header__to">Pipak</string>
-    <string name="message_details_header__with">Piwan:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Kikinpapacha kashkata mutsupay.</string>
@@ -213,9 +199,7 @@ ranti pakalla yupaykunamanta</string>
     <string name="preferences__fast">Uchalla</string>
     <string name="preferences__normal">Chayshina</string>
     <string name="preferences__slow">Allillallla</string>
-    <string name="preferences__delete_old_messages">Ñawpa chaskikunata anchuchina</string>
     <string name="preferences__trim_all_conversations_now">Rimarikunata pichana</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Tukuy rimarikuna riksishpa chaykamanlla rimana.</string>
     <string name="_default">Ña rurashka </string>
     <string name="incognitoKeyboard">Killkana hillay pakallaku</string>
     <string name="preferences__read_receipts">Killkakatinata willachik </string>
@@ -226,7 +210,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Shukman mushuk chaskita...</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">Chaskita kutichina</string>
     <!-- conversation_context_image -->
@@ -247,8 +230,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Pichanakunchik</string>
-    <string name="trimmer__deleting_old_messages">Mawkayashka chaskikunata pichakun...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Mawka chaskikunata allipachami picharirka</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Mañayta mutsurinmi</string>
     <string name="notNow">Kunanka mana</string>

@@ -17,7 +17,6 @@
         <item quantity="many">%d сообщений в разговоре</item>
         <item quantity="other">%d сообщений в разговоре</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Удалить все старые сообщения?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Все разговоры будут обрезаны до одного последнего сообщения.</item>
         <item quantity="few">Все разговоры будут обрезаны до %d последних сообщений.</item>
@@ -47,12 +46,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Добавить вложение</string>
     <string name="message">Сообщение</string>
-    <string name="ConversationActivity_compose">Создать</string>
     <string name="ConversationActivity_muted_until_date">Уведомления отключены до %1$s</string>
     <string name="ConversationActivity_muted_forever">Без звука</string>
     <string name="ConversationActivity_invalid_recipient">Неверный получатель!</string>
     <string name="blockUnblock">Разблокировать</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">На вашем устройстве не найдено приложение для открытия этой ссылки.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Для отправки аудиосообщений требуется разрешение на доступ к микрофону, но оно было вами отклонено. Чтобы предоставить разрешение вручную, перейдите в «Настройки», выберите «Приложения», найдите Session, затем выберите «Разрешения» и включите Микрофон.</string>
     <string name="cameraGrantAccessStorage">Для отправки фотографий и видео Session требуется доступ к хранилищу.</string>
     <!-- ConversationFragment -->
@@ -82,8 +79,6 @@
     <string name="photo">Аватар</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Сообщение от %1$s</string>
-    <string name="LongMessageActivity_your_message">Ваше сообщение</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Сбор вложений...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -130,8 +125,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Доступна новая версия Session. Нажмите для обновления</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Неправильно зашифрованное сообщение</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Сообщение зашифровано для несуществующей сессии</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Неправильно зашифрованное MMS-сообщение</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-сообщение зашифровано для несуществующей сессии</string>
@@ -145,12 +138,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Не удается сохранить во внешнем хранилище. Доступ запрещен</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d новых сообщений в %2$d диалогах</string>
-    <string name="MessageNotifier_message_delivery_failed">Сбой доставки сообщения.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Не удалось доставить сообщение.</string>
-    <string name="MessageNotifier_error_delivering_message">Ошибка при доставке сообщения.</string>
     <string name="messageMarkRead">Пометить как прочитано</string>
-    <string name="MessageNotifier_pending_signal_messages">Неполученные сообщения</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">У вас есть неполученные сообщения в Session. Нажмите, чтобы открыть приложение и получить их</string>
     <string name="MessageNotifier_unknown_contact_message">Контакт</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Звонки</string>
@@ -161,7 +149,6 @@
     <string name="other">Другое</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Быстрые ответы недоступны, когда Session заблокирован!</string>
-    <string name="QuickResponseService_problem_sending_message">Проблема при отправке сообщения!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Сохранено</string>
     <!-- SearchToolbar -->
@@ -199,7 +186,6 @@
     <string name="messageVoiceSlideToCancel">Проведите для отмены</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">MMS-сообщение</string>
-    <string name="conversation_item__secure_message_description">Защищенное сообщение</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Не удалось отправить</string>
     <string name="conversation_item_sent__delivered_description">Доставлено</string>
@@ -207,7 +193,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Войти</string>
-    <string name="open_group_guidelines_pinned_message">Закрепленное сообщение</string>
     <string name="read">Читать</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Фото</string>
@@ -221,13 +206,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Есть проблемы, требующие вашего внимания.</string>
     <string name="disappearingMessagesSent">Отправлено</string>
     <string name="received">Получено</string>
     <string name="message_details_header__disappears">Исчезнет</string>
     <string name="message_details_header__via">Через</string>
-    <string name="message_details_header__to">Кому:</string>
-    <string name="message_details_header__with">Вместе с:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Использовать пользовательскую настройку</string>
@@ -257,9 +239,7 @@
     <string name="preferences__fast">Быстрое</string>
     <string name="preferences__normal">Среднее</string>
     <string name="preferences__slow">Медленное</string>
-    <string name="preferences__delete_old_messages">Удалять старые сообщения</string>
     <string name="preferences__trim_all_conversations_now">Обрезать все разговоры</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Привести длину всех разговоров в соответствие с заданной</string>
     <string name="_default">По умолчанию</string>
     <string name="incognitoKeyboard">Инкогнито-клавиатура</string>
     <string name="preferences__read_receipts">Уведомления о прочтении</string>
@@ -271,7 +251,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Новое сообщение для...</string>
     <!-- conversation_context -->
     <string name="banUser">Заблокировать пользователя</string>
     <string name="conversation_context__menu_reply_to_message">Ответ на сообщение</string>
@@ -293,8 +272,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Удаление</string>
-    <string name="trimmer__deleting_old_messages">Удаляем старые сообщения...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Старые сообщения успешно удалены</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Требуется разрешение</string>
     <string name="notNow">Не сейчас</string>

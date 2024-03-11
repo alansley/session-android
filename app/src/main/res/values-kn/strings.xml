@@ -11,7 +11,6 @@
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">ಎಲ್ಲಾ ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ಚಿತ್ರ)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(ಆಡಿಯೋ)</string>
@@ -30,7 +29,6 @@
     <string name="ConversationItem_error_not_delivered">ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ, ಮಾಹಿತಿಗಾಗಿ ತಟ್ಟಿ ನೋಡಿ</string>
     <!-- ConversationActivity -->
     <string name="message">ಸಂದೇಶ</string>
-    <string name="ConversationActivity_compose">ರಚಿಸು</string>
     <string name="ConversationActivity_muted_forever">ಸದ್ದಡಗಿಸಿ</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
@@ -50,7 +48,6 @@
     <string name="photo">ಚಿತ್ರಪಟ</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_your_message">ನಿಮ್ಮ ಸಂದೇಶ</string>
     <!-- MediaOverviewActivity -->
     <!-- NotificationMmsMessageRecord -->
     <string name="NotificationMmsMessageRecord_multimedia_message">ಮಲ್ಟಿಮೀಡಿಯಾ ಸಂದೇಶ</string>
@@ -96,7 +93,6 @@
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">ಮೀಡಿಯಾ ಸಂದೇಶ</string>
-    <string name="conversation_item__secure_message_description">ಸುರಕ್ಷಿತ ಸಂದೇಶ</string>
     <!-- conversation_item_sent -->
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -116,8 +112,6 @@
     <string name="disappearingMessagesSent">ಕಳುಹಿಸಿದೆ</string>
     <string name="received">ಸ್ವೀಕರಿಸಲಾಗಿದೆ</string>
     <string name="message_details_header__disappears">ಮಾಯವಾಗು</string>
-    <string name="message_details_header__to">ಗೆ:</string>
-    <string name="message_details_header__with">ಜೊತೆಗೆ:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="notificationsContentShowNameOnly">ಹೆಸರು ಮಾತ್ರ</string>
@@ -134,7 +128,6 @@
     <string name="notificationsVibrate">ಕಂಪಿಸು</string>
     <string name="preferences__normal">ಸಾಮಾನ್ಯ</string>
     <string name="preferences__slow">ನಿಧಾನ</string>
-    <string name="preferences__delete_old_messages">ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಿ</string>
     <string name="_default">ಪೂರ್ವನಿಯೋಜಿತ</string>
     <!-- **************************************** -->
     <!-- menus -->

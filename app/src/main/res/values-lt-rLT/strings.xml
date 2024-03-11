@@ -17,7 +17,6 @@
         <item quantity="many">%d žinučių pokalbyje</item>
         <item quantity="other">%d žinučių pokalbyje</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Ištrinti visas senas žinutes dabar?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Tai nedelsiant išvalys visus pokalbius iki %d naujausios žinutės.</item>
         <item quantity="few">Tai nedelsiant išvalys visus pokalbius iki %d naujausių žinučių.</item>
@@ -47,12 +46,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Pridėti priedą</string>
     <string name="message">Žinutė</string>
-    <string name="ConversationActivity_compose">Rašyti (Automatic Translation)</string>
     <string name="ConversationActivity_muted_until_date">Užtildytas iki %1$s</string>
     <string name="ConversationActivity_muted_forever">Užtildytas</string>
     <string name="ConversationActivity_invalid_recipient">Neteisingas gavėjas!</string>
     <string name="blockUnblock">Atblokuoti</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nėra prieinamos programėlės, kuri galėtų apdoroti šią nuorodą jūsų įrenginyje.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Norint siųsti garso žinutes, Session reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Įrašyti į atmintį?</string>
@@ -81,8 +78,6 @@
     <string name="photo">Avataras</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Žinutė nuo %1$s</string>
-    <string name="LongMessageActivity_your_message">Jūsų žinutė</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Renkami priedai...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -129,8 +124,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Yra prieinama nauja Session versija, bakstelėkite, norėdami atnaujinti</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Blogai šifruota žinutė</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Žinutė šifruota seansui, kurio nėra</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Blogai šifruota MMS žinutė</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS žinutė užšifruota seansui, kurio nėra</string>
@@ -143,12 +136,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nepavyksta įrašyti į išorinę saugyklą be leidimų</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d naujų(-os) žinutės(-ių) %2$d pokalbyje(-iuose)</string>
-    <string name="MessageNotifier_message_delivery_failed">Žinutės pristatymas nepavyko.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Nepavyko pristatyti žinutės.</string>
-    <string name="MessageNotifier_error_delivering_message">Klaida, pristatant žinutę.</string>
     <string name="messageMarkRead">Žymėti kaip skaitytą</string>
-    <string name="MessageNotifier_pending_signal_messages">Laukiančios Session žinutės</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Jūs turite laukiančių Session žinučių, bakstelėkite, norėdami atverti ir jas gauti</string>
     <string name="MessageNotifier_unknown_contact_message">Adresatas</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Skambučiai</string>
@@ -159,7 +147,6 @@
     <string name="other">Kitas</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Spartusis atsakymas neprieinamas, kai Session yra užrakinta!</string>
-    <string name="QuickResponseService_problem_sending_message">Problemos siunčiant žinutę!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Įrašyta</string>
     <!-- SearchToolbar -->
@@ -197,7 +184,6 @@
     <string name="messageVoiceSlideToCancel">Perbraukite, norėdami atsisakyti</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Medijos žinutė</string>
-    <string name="conversation_item__secure_message_description">Saugi žinutė</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Siuntimas nepavyko</string>
     <string name="conversation_item_sent__delivered_description">Pristatyta</string>
@@ -205,7 +191,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Prisijungti</string>
-    <string name="open_group_guidelines_pinned_message">Prisegta žinutė</string>
     <string name="read">Skaityti</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Nuotrauka</string>
@@ -219,13 +204,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Kai kurios problemos reikalauja jūsų dėmesio.</string>
     <string name="disappearingMessagesSent">Išsiųsta</string>
     <string name="received">Gauta</string>
     <string name="message_details_header__disappears">Išnyksta</string>
     <string name="message_details_header__via">Per</string>
-    <string name="message_details_header__to">Kam:</string>
-    <string name="message_details_header__with">Su:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Naudoti tinkintą</string>
@@ -255,9 +237,7 @@
     <string name="preferences__fast">Greitas</string>
     <string name="preferences__normal">Normalus</string>
     <string name="preferences__slow">Lėtas</string>
-    <string name="preferences__delete_old_messages">Ištrinti senas žinutes</string>
     <string name="preferences__trim_all_conversations_now">Išvalyti visus pokalbius dabar</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Peržiūrėti visus pokalbius ir priverstinai taikyti pokalbio ilgio ribas</string>
     <string name="_default">Numatytoji</string>
     <string name="incognitoKeyboard">Inkognito klaviatūra</string>
     <string name="preferences__read_receipts">Pranešimai apie žinučių skaitymą</string>
@@ -269,7 +249,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Nauja žinutė, skirta...</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">Atsakyti į žinutę</string>
     <!-- conversation_context_image -->
@@ -290,8 +269,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Ištrinama</string>
-    <string name="trimmer__deleting_old_messages">Ištrinamos senos žinutės...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Senos žinutės sėkmingai ištrintos</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Reikalingas leidimas</string>
     <string name="notNow">Ne dabar</string>

@@ -15,7 +15,6 @@
         <item quantity="one">%d viesti per keskustelu</item>
         <item quantity="other">%d viestiä per keskustelu</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Poistetaanko kaikki vanhat viestit nyt?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Tämä karsii välittömästi kaikki keskustelut viimeisimpään viestiin.</item>
         <item quantity="other">Tämä karsii välittömästi kaikki keskustelut %d viimeisimpään viestiin.</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Lisää liite</string>
     <string name="message">Viesti</string>
-    <string name="ConversationActivity_compose">Aloita keskustelu</string>
     <string name="ConversationActivity_muted_until_date">Mykistetty %1$s asti</string>
     <string name="ConversationActivity_muted_forever">Mykistetty</string>
     <string name="ConversationActivity_invalid_recipient">Virheellinen vastaanottaja!</string>
     <string name="blockUnblock">Poista esto</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Laitteessasi ei ole sovellusta, joka osaa avata tämän linkin.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal tarvitsee lupaa käyttää mikrofonia äänitiedostojen lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\".</string>
     <string name="cameraGrantAccessStorage">Istunto tarvitsee tallennustilan käyttöoikeuden kuvien ja videoiden lähettämiseen.</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">Kuvake</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Viesti lähettäjältä: %1$s</string>
-    <string name="LongMessageActivity_your_message">Sinun viesti</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Kerätään liitetiedostoja...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -121,8 +116,6 @@ on viallinen!</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Uusi versio Sessionista on saatavilla. Päivitä napauttamalla.</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Viestin salaus on kelvoton</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Viesti salattu olemattomalle istunnolle</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">MMS-viestin salaus on kelvoton</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-viesti salattu olemattomalle istunnolle</string>
@@ -136,12 +129,7 @@ on viallinen!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tallennus ulkoiseen tallennustilaan ei onnistu ilman käyttöoikeutta.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d uutta viestiä %2$d keskustelussa</string>
-    <string name="MessageNotifier_message_delivery_failed">Viestin toimitus epäonnistui.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Viestin lähetys ei onnistunut.</string>
-    <string name="MessageNotifier_error_delivering_message">Virhe viestiä toimitettaessa.</string>
     <string name="messageMarkRead">Luettu</string>
-    <string name="MessageNotifier_pending_signal_messages">Session-viestejä odottamassa</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Sinulle on Session-viestejä. Avaa ja hae napauttamalla.</string>
     <string name="MessageNotifier_unknown_contact_message">Yhteystieto</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Puhelut</string>
@@ -152,7 +140,6 @@ on viallinen!</string>
     <string name="other">Muu</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Pikavastaus ei toimi, kun Session on lukittu!</string>
-    <string name="QuickResponseService_problem_sending_message">Ongelma viestin lähettämisessä!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Tallennettu</string>
     <!-- SearchToolbar -->
@@ -188,7 +175,6 @@ on viallinen!</string>
     <string name="messageVoiceSlideToCancel">Pyyhkäise hylkääksesi</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediaviesti</string>
-    <string name="conversation_item__secure_message_description">Salattu viesti</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Lähetys epäonnistui</string>
     <string name="conversation_item_sent__delivered_description">Toimitettu</string>
@@ -196,7 +182,6 @@ on viallinen!</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Liity</string>
-    <string name="open_group_guidelines_pinned_message">Kiinnitetty viesti</string>
     <string name="read">Lue</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Kuva</string>
@@ -210,13 +195,10 @@ on viallinen!</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Jotkin asiat kaipaavat huomiotasi.</string>
     <string name="disappearingMessagesSent">Lähetetty</string>
     <string name="received">Vastaanotettu</string>
     <string name="message_details_header__disappears">Katoamisaika</string>
     <string name="message_details_header__via">Tyyppi</string>
-    <string name="message_details_header__to">Vastaanottajat:</string>
-    <string name="message_details_header__with">Avulla:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Käytä mukautettua</string>
@@ -244,9 +226,7 @@ on viallinen!</string>
     <string name="preferences__fast">Nopea</string>
     <string name="preferences__normal">Normaali</string>
     <string name="preferences__slow">Hidas</string>
-    <string name="preferences__delete_old_messages">Vanhojen viestien poisto</string>
     <string name="preferences__trim_all_conversations_now">Karsi kaikki keskustelut nyt</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Käy läpi kaikki keskustelut ja pakota niihin pituusrajat</string>
     <string name="_default">Oletus</string>
     <string name="incognitoKeyboard">Yksityinen näppäimistö</string>
     <string name="preferences__read_receipts">Lukukuittaukset</string>
@@ -258,7 +238,6 @@ on viallinen!</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Uusi viesti henkilölle...</string>
     <!-- conversation_context -->
     <string name="banUser">Estä käyttäjä</string>
     <string name="conversation_context__menu_reply_to_message">Vastaa viestiin</string>
@@ -280,8 +259,6 @@ on viallinen!</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Poistetaan</string>
-    <string name="trimmer__deleting_old_messages">Vanhoja viestejä poistetaan...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Vanhojen viestien poisto onnistui</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Tarvitaan käyttöoikeus</string>
     <string name="notNow">Ei nyt</string>

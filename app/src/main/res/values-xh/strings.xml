@@ -8,7 +8,6 @@
     <string name="AbstractNotificationBuilder_new_message">Obubaka obupya</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Obubaka obukadde bwonna busangule kati?</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">Ekifananyi</string>
     <string name="DraftDatabase_Draft_audio_snippet">(doboozi)</string>
@@ -25,7 +24,6 @@
     <string name="attachmentsAdd">Gatako ekigatiddwako</string>
     <string name="ConversationActivity_invalid_recipient">Afuna mukyamu</string>
     <string name="blockUnblock">sumulula</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tewali App kukwasaganya </string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">tereka mu terekero</string>
     <!-- CreateProfileActivity -->
@@ -75,14 +73,10 @@
     <string name="onionRoutingPathYou">Gwe</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d obubaka obupya mu %2$d mboozi</string>
-    <string name="MessageNotifier_message_delivery_failed">obubaka buganye okugenda</string>
-    <string name="MessageNotifier_failed_to_deliver_message">biganye okusindika obubaka</string>
-    <string name="MessageNotifier_error_delivering_message">ensobi mukuwereza obubaka</string>
     <string name="messageMarkRead">lamba osome</string>
     <!-- Notification Channels -->
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">okudamu okwangu tekubawo nga amayengo gasibidwa</string>
-    <string name="QuickResponseService_problem_sending_message">obuzibu mukusindika obubaka</string>
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
     <string name="search">Noonya</string>
@@ -102,7 +96,6 @@
     <string name="messageVoiceSlideToCancel">Kasindike okusazamu</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">obubaka bwemikutu</string>
-    <string name="conversation_item__secure_message_description">Message ekumiidwa</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">okusindika kuganye</string>
     <string name="conversation_item_sent__delivered_description">Etuuse</string>
@@ -119,13 +112,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Ensonga ezimu zetaaga gwe</string>
     <string name="disappearingMessagesSent">Esindikiddwa</string>
     <string name="received">Etuuse</string>
     <string name="message_details_header__disappears">Kibula</string>
     <string name="message_details_header__via">Okuyita</string>
-    <string name="message_details_header__to">Eri:</string>
-    <string name="message_details_header__with">Wamu</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Kozesa bwoyagala</string>
@@ -151,9 +141,7 @@
     <string name="preferences__fast">Bwangu</string>
     <string name="preferences__normal">Kyabulijjo</string>
     <string name="preferences__slow">Kasoobo</string>
-    <string name="preferences__delete_old_messages">sagula obubaka obukadde</string>
     <string name="preferences__trim_all_conversations_now">sala ku mboozi zona kati</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">yita mu mboozi zonna otekeko ekkomo ku buwanvu bwazo.</string>
     <string name="_default">wifi calling compatiblity mode</string>
     <string name="conversationsMessageTrimming">Okuyimpaya obubaka</string>
     <string name="preferences_advanced__use_system_emoji">Kozesa system emoji</string>
@@ -162,7 +150,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Obubaka obupya eri...</string>
     <!-- conversation_context -->
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Tereka ekigattiddwako.</string>
@@ -181,8 +168,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Okusangula</string>
-    <string name="trimmer__deleting_old_messages">Okusangula obubaka obukadde</string>
-    <string name="trimmer__old_messages_successfully_deleted">Obubaka obukadde busangulidwa ddala</string>
     <!-- transport_selection_list_item -->
     <string name="registration_activity__skip">Buuka</string>
     <!-- Conversation activity -->

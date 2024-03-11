@@ -14,7 +14,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">每个会话限制 %d 条消息</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">删除所有旧消息？</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">这将会立刻整理所有会话到 %d 最近的信息</item>
     </plurals>
@@ -41,12 +40,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">添加附件</string>
     <string name="message">消息</string>
-    <string name="ConversationActivity_compose">撰写</string>
     <string name="ConversationActivity_muted_until_date">禁言至 %1$s</string>
     <string name="ConversationActivity_muted_forever">已静音</string>
     <string name="ConversationActivity_invalid_recipient">无效收件人！</string>
     <string name="blockUnblock">解除屏蔽</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">您的设备上没有应用程序能打开这个链接。</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session 需要麦克风权限才能发送语音信息，但是该权限已经被永久拒绝，请进入应用程序设置，点击权限，并启用“麦克风”。</string>
     <string name="cameraGrantAccessStorage">Session 需要相机权限以拍摄照片或视频</string>
     <!-- ConversationFragment -->
@@ -73,8 +70,6 @@
     <string name="photo">头像</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">%1$s发来的消息</string>
-    <string name="LongMessageActivity_your_message">您的消息</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">正在收集附件…</string>
     <!-- NotificationMmsMessageRecord -->
@@ -117,8 +112,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session 有新版本了，点击升级！</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">已损坏的加密消息</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">已为不存在的会话加密其中的信息</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">已损坏的加密彩信</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">已为不存在的会话加密其中的彩信</string>
@@ -132,12 +125,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">无法在没有写入到外部存储的权限时保存到外部存储</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d 新信息是在 %2$d 中的会话</string>
-    <string name="MessageNotifier_message_delivery_failed">信息发送失败。</string>
-    <string name="MessageNotifier_failed_to_deliver_message">信息发送失败</string>
-    <string name="MessageNotifier_error_delivering_message">发送信息错误</string>
     <string name="messageMarkRead">标记为已读</string>
-    <string name="MessageNotifier_pending_signal_messages"> Session 信息待处理</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">您有待处理的信号消息，轻触来打开和收取</string>
     <string name="MessageNotifier_unknown_contact_message">联系人</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">通话</string>
@@ -148,7 +136,6 @@
     <string name="other">其他</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">当 Session 处于锁定状态时，快速回复不可用！</string>
-    <string name="QuickResponseService_problem_sending_message">发送信息时遇到问题！</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">已保存</string>
     <!-- SearchToolbar -->
@@ -183,7 +170,6 @@
     <string name="messageVoiceSlideToCancel"> 滑动以取消发送</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">媒体消息</string>
-    <string name="conversation_item__secure_message_description">安全消息</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">发送失败</string>
     <string name="conversation_item_sent__delivered_description">已送达</string>
@@ -191,7 +177,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">加入</string>
-    <string name="open_group_guidelines_pinned_message">置顶信息</string>
     <string name="read">阅读</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">图片</string>
@@ -205,13 +190,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">有些问题需要您注意</string>
     <string name="disappearingMessagesSent">发送</string>
     <string name="received">已接收</string>
     <string name="message_details_header__disappears">销毁</string>
     <string name="message_details_header__via">来自</string>
-    <string name="message_details_header__to">到：</string>
-    <string name="message_details_header__with">与：</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">使用自定义</string>
@@ -238,9 +220,7 @@
     <string name="preferences__fast">快速</string>
     <string name="preferences__normal">正常</string>
     <string name="preferences__slow">缓慢</string>
-    <string name="preferences__delete_old_messages">删除旧信息</string>
     <string name="preferences__trim_all_conversations_now">立刻整理所有的会话</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">查找并处理所有超过限制的对话</string>
     <string name="_default">默认</string>
     <string name="incognitoKeyboard">隐身键盘</string>
     <string name="preferences__read_receipts">已读回执</string>
@@ -252,7 +232,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">新消息给…</string>
     <!-- conversation_context -->
     <string name="banUser">封禁用户</string>
     <string name="conversation_context__menu_reply_to_message">回复该消息</string>
@@ -274,8 +253,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">正在删除</string>
-    <string name="trimmer__deleting_old_messages">正在删除旧消息…</string>
-    <string name="trimmer__old_messages_successfully_deleted">旧消息删除成功</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">需要相应权限</string>
     <string name="notNow">不是现在</string>

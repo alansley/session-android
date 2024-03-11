@@ -15,7 +15,6 @@
         <item quantity="one">%d mensaje por conversación</item>
         <item quantity="other">%d mensajes por conversación</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">¿Eliminar todos los mensajes antiguos ahora?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Esto reducirá todos los chats al mensaje más reciente.</item>
         <item quantity="other">Esto reducirá todos los chats a los %d mensajes más recientes.</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Añadir archivo adjunto</string>
     <string name="message">Mensaje</string>
-    <string name="ConversationActivity_compose">Redactar</string>
     <string name="ConversationActivity_muted_until_date">Silenciado hasta %1$s</string>
     <string name="ConversationActivity_muted_forever">Silenciado</string>
     <string name="ConversationActivity_invalid_recipient">¡Destinatario inválido!</string>
     <string name="blockUnblock">Desbloquear</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">No hay ninguna aplicación disponible para abrir este enlace.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session necesita acceso al micrófono para enviar notas de voz. Por favor, ve al menú de configuración de la aplicación, selecciona «Permisos» y activa «Micrófono».</string>
     <string name="cameraGrantAccessStorage">Session necesita permiso de almacenamiento para enviar fotos y videos.</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">Foto</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Mensaje de %1$s</string>
-    <string name="LongMessageActivity_your_message">Tu mensaje</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Recopilando adjuntos ...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -121,8 +116,6 @@ de intercambio de claves!</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Una nueva versión de Session está disponible. Toca para actualizar.</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Mensaje cifrado erróneo</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">El mensaje ha sido cifrado para una sesión inexistente</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Mensaje MMS cifrado erróneo</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">El mensaje MMS ha sido cifrado para una sesión inexistente</string>
@@ -136,12 +129,7 @@ de intercambio de claves!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">No se puede guardar en una unidad de almacenamiento externo si Session no tiene acceso</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mensajes nuevos en %2$d chats</string>
-    <string name="MessageNotifier_message_delivery_failed">Fallo al entregar el mensaje.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Fallo al entregar mensaje.</string>
-    <string name="MessageNotifier_error_delivering_message">Fallo al entregar el mensaje.</string>
     <string name="messageMarkRead">Marcar como leído</string>
-    <string name="MessageNotifier_pending_signal_messages">Mensajes de Session pendientes</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Tienes mensajes de Session pendientes, toca para abrir y descargar</string>
     <string name="MessageNotifier_unknown_contact_message">Contacto</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Llamadas</string>
@@ -152,7 +140,6 @@ de intercambio de claves!</string>
     <string name="other">Otros</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">¡La respuesta rápida no está disponible cuando Session está bloqueado!</string>
-    <string name="QuickResponseService_problem_sending_message">¡Hubo un problema al enviar el mensaje!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Guardado</string>
     <!-- SearchToolbar -->
@@ -188,7 +175,6 @@ de intercambio de claves!</string>
     <string name="messageVoiceSlideToCancel">Desliza para cancelar</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mensaje multimedia</string>
-    <string name="conversation_item__secure_message_description">Mensaje cifrado</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Fallo al enviar</string>
     <string name="conversation_item_sent__delivered_description">Entregado</string>
@@ -196,7 +182,6 @@ de intercambio de claves!</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Unirse</string>
-    <string name="open_group_guidelines_pinned_message">Mensaje fijado</string>
     <string name="read">Leer</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
@@ -210,13 +195,10 @@ de intercambio de claves!</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Hay un problema que necesita tu atención.</string>
     <string name="disappearingMessagesSent">Enviado</string>
     <string name="received">Recibido</string>
     <string name="message_details_header__disappears">Desaparición de mensajes</string>
     <string name="message_details_header__via">Vía</string>
-    <string name="message_details_header__to">Para:</string>
-    <string name="message_details_header__with">Con:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Usar personalizado</string>
@@ -244,9 +226,7 @@ de intercambio de claves!</string>
     <string name="preferences__fast">Rápido</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Despacio</string>
-    <string name="preferences__delete_old_messages">Eliminar mensajes antiguos</string>
     <string name="preferences__trim_all_conversations_now">Recortar ahora todos los chats</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Escanear todos lo chats y aplicar los límites de longitud</string>
     <string name="_default">Por defecto</string>
     <string name="incognitoKeyboard">Teclado incógnito</string>
     <string name="preferences__read_receipts">Notificaciones de lectura</string>
@@ -258,7 +238,6 @@ de intercambio de claves!</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Nuevo mensaje para ...</string>
     <!-- conversation_context -->
     <string name="banUser">Banear usuario</string>
     <string name="conversation_context__menu_reply_to_message">Responder al mensaje</string>
@@ -280,8 +259,6 @@ de intercambio de claves!</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Eliminar</string>
-    <string name="trimmer__deleting_old_messages">Eliminando mensajes antiguos ...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Mensajes antiguos eliminados con éxito</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Permiso necesario</string>
     <string name="notNow">Ahora no</string>

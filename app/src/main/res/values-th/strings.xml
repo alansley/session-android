@@ -11,7 +11,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">%d ข้อความต่อบทสนทนา</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">ลบข้อความเก่าทั้งหมดตอนนี้หรือไม่</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">นี่จะตัดการสนทนาทั้งหมดให้สั้นลงเหลือแค่ %d ข้อความล่าสุดโดยทันที</item>
     </plurals>
@@ -38,7 +37,6 @@
     <string name="attachmentsAdd">เพิ่มไฟล์แนบ</string>
     <string name="ConversationActivity_invalid_recipient">ผู้รับไม่ถูกต้อง</string>
     <string name="blockUnblock">เลิกปิดกั้น</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">อุปกรณ์ของคุณไม่มีแอปที่สามารถจัดการกับลิงก์นี้ได้</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">เพื่อจะส่งข้อความเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงไมโครโฟน แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ไมโครโฟน\"</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">บันทึกลงที่เก็บข้อมูลหรือไม่</string>
@@ -102,8 +100,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session เวอร์ชันใหม่มาแล้ว แตะเพื่ออัพเดต</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">ข้อความที่เข้ารหัสมีความผิดปกติ</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">ข้อความถูกเข้ารหัสสำหรับเซสชันที่ไม่มีอยู่</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">ข้อความ MMS ที่เข้ารหัสมีความผิดปกติ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ข้อความ MMS ถูกเข้ารหัสสำหรับเซสชันที่ไม่มีอยู่</string>
@@ -116,12 +112,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ไม่สามารถบันทึกลงที่เก็บข้อมูลภายนอกได้ หากไม่ได้รับอนุญาต</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">มี %1$d ข้อความใหม่ใน %2$d การสนทนา</string>
-    <string name="MessageNotifier_message_delivery_failed">การส่งข้อความล้มเหลว</string>
-    <string name="MessageNotifier_failed_to_deliver_message">ส่งข้อความล้มเหลว</string>
-    <string name="MessageNotifier_error_delivering_message">เกิดข้อผิดพลาดระหว่างส่งข้อความ</string>
     <string name="messageMarkRead">ทำเครื่องหมายว่าอ่านแล้ว</string>
-    <string name="MessageNotifier_pending_signal_messages">ข้อความ Session ที่รอดำเนินการ</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">คุณมีข้อความ Session ที่รอดำเนินการอยู่ แตะเพื่อเปิดและดึงข้อความ</string>
     <string name="MessageNotifier_unknown_contact_message">ผู้ติดต่อ</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">การโทร</string>
@@ -132,7 +123,6 @@
     <string name="other">ที่อื่น</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">การตอบด่วนใช้ไม่ได้ถ้า Session ถูกล็อกอยู่</string>
-    <string name="QuickResponseService_problem_sending_message">เกิดปัญหาในการส่งข้อความ</string>
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
     <string name="search">ค้นหา</string>
@@ -161,7 +151,6 @@
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">ข้อความสื่อ</string>
-    <string name="conversation_item__secure_message_description">ข้อความที่ปลอดภัย</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">การส่งล้มเหลว</string>
     <string name="conversation_item_sent__delivered_description">ส่งแล้ว</string>
@@ -180,13 +169,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">มีปัญหาบางประการที่ต้องการให้คุณพิจารณา</string>
     <string name="disappearingMessagesSent">ส่งแล้ว</string>
     <string name="received">ได้รับแล้ว</string>
     <string name="message_details_header__disappears">ลบตัวเอง</string>
     <string name="message_details_header__via">ผ่าน</string>
-    <string name="message_details_header__to">ถึง:</string>
-    <string name="message_details_header__with">กับ:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">ใช้ค่าที่กำหนดเอง</string>
@@ -212,9 +198,7 @@
     <string name="preferences__fast">เร็ว</string>
     <string name="preferences__normal">ปกติ</string>
     <string name="preferences__slow">ช้า</string>
-    <string name="preferences__delete_old_messages">ลบข้อความเก่า</string>
     <string name="preferences__trim_all_conversations_now">ตัดการสนทนาทั้งหมดให้สั้นลงเดี๋ยวนี้</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">ไล่ดูการสนทนาทั้งหมดและบังคับใช้ขีดจำกัดความยาวของการสนทนา</string>
     <string name="_default">ค่าเริ่มต้น</string>
     <string name="incognitoKeyboard">แป้นพิมพ์แบบลับ</string>
     <string name="preferences__read_receipts">ใบตอบรับเมื่ออ่าน</string>
@@ -225,7 +209,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">ข้อความใหม่ถึง...</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">ตอบกลับข้อความ</string>
     <!-- conversation_context_image -->
@@ -246,8 +229,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">กำลังลบ</string>
-    <string name="trimmer__deleting_old_messages">กำลังลบข้อความเก่า...</string>
-    <string name="trimmer__old_messages_successfully_deleted">ลบข้อความเก่าสำเร็จ</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">ต้องได้รับอนุญาตก่อน</string>
     <string name="notNow">ไม่ใช่ตอนนี้</string>

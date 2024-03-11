@@ -15,7 +15,6 @@
         <item quantity="one">%d besked pr. samtale</item>
         <item quantity="other">%d beskeder pr. samtale</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Slet alle gamle beskeder nu?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Dette vil øjeblikkeligt reducere alle samtaler til den nyeste besked.</item>
         <item quantity="other">Dette vil øjeblikkeligt reducere alle samtaler til de %d nyeste beskeder.</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Vedhæft fil</string>
     <string name="message">Besked</string>
-    <string name="ConversationActivity_compose">Skriv</string>
     <string name="ConversationActivity_muted_until_date">Lydløs indtil %1$s</string>
     <string name="ConversationActivity_muted_forever">Lyden slået fra</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig modtager!</string>
     <string name="blockUnblock">Fjern blokering</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Der er ingen app tilgængelig på enheden, der kan åbne linket</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session kræver tilladelse til at tilgå mikrofonen for at kunne sende lydfiler, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Mikrofon\"</string>
     <string name="cameraGrantAccessStorage">Session har brug for lageradgang for at sende billeder og videoer.</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">Billede</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Besked fra %1$s</string>
-    <string name="LongMessageActivity_your_message">Din besked</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Samler vedhæftninger...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -121,8 +116,6 @@ udveksel besked!</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">En ny version af Session er tilgængelig, tap for at opdatere</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Ugyldig krypteret besked</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Beskeden er krypteret til en session der ikke findes</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Ugyldig krypteret MMS besked</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS besked krypteret til en session der ikke findes</string>
@@ -135,12 +128,7 @@ udveksel besked!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ikke muligt at gemme til ekstern placering, uden tilladelse</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye beskeder i %2$d samtaler</string>
-    <string name="MessageNotifier_message_delivery_failed">Levering af besked mislykkedes</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Kunne ikke levere besked</string>
-    <string name="MessageNotifier_error_delivering_message">Fejl ved levering af besked.</string>
     <string name="messageMarkRead">Markér som læst</string>
-    <string name="MessageNotifier_pending_signal_messages">Afventende Sessionbeskeder</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Du har afventende Sessionbeskeder, tap for at åbne og modtage</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Opkald</string>
@@ -151,7 +139,6 @@ udveksel besked!</string>
     <string name="other">Andet</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Hurtig svar utilgængelig når Session er låst!</string>
-    <string name="QuickResponseService_problem_sending_message">Problem med at sende besked!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Gemt</string>
     <!-- SearchToolbar -->
@@ -187,7 +174,6 @@ udveksel besked!</string>
     <string name="messageVoiceSlideToCancel">Slide for at annullere</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Multimedie besked</string>
-    <string name="conversation_item__secure_message_description">Sikker besked</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Afsendelse fejlet</string>
     <string name="conversation_item_sent__delivered_description">Besked leveret</string>
@@ -195,7 +181,6 @@ udveksel besked!</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Deltag</string>
-    <string name="open_group_guidelines_pinned_message">Fastgjort besked</string>
     <string name="read">Læst</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Billed</string>
@@ -209,13 +194,10 @@ udveksel besked!</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Nogle problemer kræver din opmærsomhed</string>
     <string name="disappearingMessagesSent">Sendt</string>
     <string name="received">Modtaget</string>
     <string name="message_details_header__disappears">Udløber</string>
     <string name="message_details_header__via">Via</string>
-    <string name="message_details_header__to">Til:</string>
-    <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Brug tilpasset</string>
@@ -243,9 +225,7 @@ udveksel besked!</string>
     <string name="preferences__fast">Hurtig</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Langsom</string>
-    <string name="preferences__delete_old_messages">Slet gamle beskeder</string>
     <string name="preferences__trim_all_conversations_now">Trim alle samtaler</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Skan alle samtaler og tilpas begrænsninger for samtalelængde</string>
     <string name="_default">Standard</string>
     <string name="incognitoKeyboard">Inkognito tastatur</string>
     <string name="preferences__read_receipts">Læst af modtager</string>
@@ -257,7 +237,6 @@ udveksel besked!</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Ny besked til...</string>
     <!-- conversation_context -->
     <string name="banUser">Udeluk bruger</string>
     <string name="conversation_context__menu_reply_to_message">Svar på besked</string>
@@ -279,8 +258,6 @@ udveksel besked!</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Sletter</string>
-    <string name="trimmer__deleting_old_messages">Sletter gamle beskeder...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Gamle beskeder slettet</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Tilladelse krævet</string>
     <string name="notNow">Ikke nu</string>

@@ -15,7 +15,6 @@
         <item quantity="one">%d μήνυμα ανά συνομιλία</item>
         <item quantity="other">%d μηνύματα ανά συνομιλία</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Διαγραφή όλων των παλιών μηνυμάτων τώρα;</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Αυτό θα περικόψει άμεσα όλες τις συνομιλίες στο πιο πρόσφατο μήνυμα.</item>
         <item quantity="other">Αυτό θα περικόψει άμεσα όλες τις συνομιλίες στα %d πιο πρόσφατα μηνύματα.</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Προσθήκη συνημμένου</string>
     <string name="message">Μήνυμα</string>
-    <string name="ConversationActivity_compose">Δημιουργία</string>
     <string name="ConversationActivity_muted_until_date">Σε σίγαση μέχρι %1$s</string>
     <string name="ConversationActivity_muted_forever">Σίγαση</string>
     <string name="ConversationActivity_invalid_recipient">Μη έγκυρος/η παραλήπτης/τρια!</string>
     <string name="blockUnblock">Ξεμπλοκάρισμα</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Δεν υπάρχει διαθέσιμη εφαρμογή στην συσκευή σας να μπορεί να διαχειριστεί αυτό τον σύνδεσμο.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Το Session χρειάζεται τα δικαιώματα Μικροφώνου για να μπορούμε να στείλουμε μηνύματα ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Μικρόφωνο\".</string>
     <string name="cameraGrantAccessStorage">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για την αποστολή φωτογραφιών και βίντεο.</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">Εικόνα Προφίλ</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Μήνυμα από τον/την %1$s</string>
-    <string name="LongMessageActivity_your_message">Το μήνυμά σας</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Τα συνημμένα συλλέγονται...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -122,8 +117,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Μια νέα έκδοση του Session είναι διαθέσιμη, πατήστε για αναβάθμιση</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Μήνυμα με πρόβλημα στην κρυπτογράφησή του</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Το μήνυμα κρυπτογραφήθηκε για μη υπάρχον session</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">MMS μήνυμα με πρόβλημα στην κρυπτογράφησή του</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Το MMS μήνυμα κρυπτογραφήθηκε για μη υπάρχον session</string>
@@ -137,12 +130,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Αδυναμία αποθήκευσης στην εξωτερική μνήμη χωρίς δικαιώματα</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d νέα μηνύματα σε %2$d συνομιλίες</string>
-    <string name="MessageNotifier_message_delivery_failed">Η παράδοση μηνύματος απέτυχε.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Αποτυχία παράδοσης του μήνυματος.</string>
-    <string name="MessageNotifier_error_delivering_message">Πρόβλημα κατά την παράδοση του μηνύματος.</string>
     <string name="messageMarkRead">Σημείωση ως αναγνωσμένο</string>
-    <string name="MessageNotifier_pending_signal_messages">Μηνύματα Session σε αναμονή</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Έχετε μηνύματα Session σε αναμονή, πατήστε για να τα ανοίξετε και να τα λάβετε</string>
     <string name="MessageNotifier_unknown_contact_message">Επαφή</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Κλήσεις</string>
@@ -153,7 +141,6 @@
     <string name="other">Άλλο</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Η γρήγορη απάντηση δεν είναι διαθέσιμη όταν το Session είναι κλειδωμένο!</string>
-    <string name="QuickResponseService_problem_sending_message">Πρόβλημα με την αποστολή μηνύματος!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Αποθηκεύτηκε</string>
     <!-- SearchToolbar -->
@@ -189,7 +176,6 @@
     <string name="messageVoiceSlideToCancel">Σύρετε για ακύρωση</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Μήνυμα πολυμέσων</string>
-    <string name="conversation_item__secure_message_description">Ασφαλές μήνυμα</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Η αποστολή απέτυχε</string>
     <string name="conversation_item_sent__delivered_description">Παραδόθηκε</string>
@@ -197,7 +183,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Εγγραφείτε</string>
-    <string name="open_group_guidelines_pinned_message">Καρφιτσωμένο Μήνυμα</string>
     <string name="read">Διαβάστηκε</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Φωτογραφία</string>
@@ -211,13 +196,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Ορισμένα ζητήματα χρειάζονται την προσοχή σας.</string>
     <string name="disappearingMessagesSent">Στάλθηκε στις</string>
     <string name="received">Ελήφθη στις</string>
     <string name="message_details_header__disappears">Εξαφανίζεται</string>
     <string name="message_details_header__via">Μέσω</string>
-    <string name="message_details_header__to">Προς:</string>
-    <string name="message_details_header__with">Με:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Χρήση προσαρμοσμένου</string>
@@ -245,9 +227,7 @@
     <string name="preferences__fast">Γρήγορο</string>
     <string name="preferences__normal">Κανονικό</string>
     <string name="preferences__slow">Αργό</string>
-    <string name="preferences__delete_old_messages">Διαγραφή παλιών μηνυμάτων</string>
     <string name="preferences__trim_all_conversations_now">Περικοπή όλων των συνομιλιών τώρα</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Σκανάρισμα όλων των συνομιλιών και επιβολή του ορίου μήκους των συνομιλιών</string>
     <string name="_default">Προκαθορισμένο</string>
     <string name="incognitoKeyboard">Κρυφό πληκτρολόγιο</string>
     <string name="preferences__read_receipts">Αποδεικτικά ανάγνωσης</string>
@@ -259,7 +239,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Νέο μήνυμα προς...</string>
     <!-- conversation_context -->
     <string name="banUser">Αποκλεισμός χρήστη</string>
     <string name="conversation_context__menu_reply_to_message">Απαντήστε στο μήνυμα</string>
@@ -281,8 +260,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Διαγραφή</string>
-    <string name="trimmer__deleting_old_messages">Τα παλία μηνύματα διαγράφονται...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Τα παλιά μηνύματα διαγράφτηκαν επιτυχώς</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Χρειάζονται δικαιώματα πρόσβασης</string>
     <string name="notNow">Όχι τώρα</string>

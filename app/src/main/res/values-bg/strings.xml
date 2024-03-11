@@ -14,7 +14,6 @@
         <item quantity="one">%dсъобщение на разговор</item>
         <item quantity="other">%d съобщения на разговор</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Изтрий всички стари съобщения сега?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Това ще скъси всички разговори до най-новoто съобщение.</item>
         <item quantity="other">Това ще скъси всички разговори до %dте най-нови съобщения.</item>
@@ -44,7 +43,6 @@
     <string name="message">Съобщение</string>
     <string name="ConversationActivity_invalid_recipient">Невалиден получател!</string>
     <string name="blockUnblock">Отблокирване</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Нямате инсталирано приложение, което да може да използва тази препратка.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session се нуждае от достъп до микрофона Ви, за да може да изпраща аудио съобщения, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Микрофон\".</string>
     <string name="cameraGrantAccessStorage">Session се нуждае от достъп до файловете Ви за да пращате снимки и видеа.</string>
     <!-- ConversationFragment -->
@@ -72,8 +70,6 @@
     <string name="photo">Снимка</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Съобщение от %1$s</string>
-    <string name="LongMessageActivity_your_message">Вашето съобщение</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Събиране на прикачени файлове...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -117,8 +113,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Има нова версия на Session, натиснете, за да обновите.</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Грешно криптирано съобщение</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Съобщението е криптирано за несъществуаща сесия</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Грешно криптирано MMS съобщение</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS съобщението е криптирано за несъществуваща сесия</string>
@@ -131,12 +125,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Неуспешно запазване на външен диск без нуждното разрешение за достъп</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нови съобщения в %2$d чата</string>
-    <string name="MessageNotifier_message_delivery_failed">Изпращането на съобщението неуспешно.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Неуспешно изпращането на съобщението.</string>
-    <string name="MessageNotifier_error_delivering_message">Грешка при изпращането на съобщението</string>
     <string name="messageMarkRead">Прочетено</string>
-    <string name="MessageNotifier_pending_signal_messages">Непрочетени Session съобщения</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Имате непрочетени Session съобщения, натиснете, за да ги отворите и прегледате</string>
     <string name="MessageNotifier_unknown_contact_message">Контакт</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Обаждания</string>
@@ -147,7 +136,6 @@
     <string name="other">Друг</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Бърз отговор не е възможен, когато Session е заключен!</string>
-    <string name="QuickResponseService_problem_sending_message">Проблем при изпрашане на съобщение!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Запазено</string>
     <!-- SearchToolbar -->
@@ -182,7 +170,6 @@
     <string name="messageVoiceSlideToCancel">Плъзнете за отказ</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Медийно съобщение</string>
-    <string name="conversation_item__secure_message_description">Подсигурено съобщение</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Неуспешно Изпращане</string>
     <string name="conversation_item_sent__delivered_description">Доставено</string>
@@ -201,13 +188,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Няколко проблема изискват вашето внимание.</string>
     <string name="disappearingMessagesSent">Изпратен</string>
     <string name="received">Получен</string>
     <string name="message_details_header__disappears">Изчезва</string>
     <string name="message_details_header__via">През</string>
-    <string name="message_details_header__to">До:</string>
-    <string name="message_details_header__with">С:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Използване на специален</string>
@@ -235,9 +219,7 @@
     <string name="preferences__fast">Бързо</string>
     <string name="preferences__normal">Нормално</string>
     <string name="preferences__slow">Бавно</string>
-    <string name="preferences__delete_old_messages">Изтрий старите съобщения</string>
     <string name="preferences__trim_all_conversations_now">Скъси всички разговори сега</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Сканирай всички разговори и приложи ограничението за дължина на разговори</string>
     <string name="_default">По подразбиране</string>
     <string name="incognitoKeyboard">Тайна клавиатура</string>
     <string name="preferences__read_receipts">Потвърждения за прочитане</string>
@@ -249,7 +231,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Ново съобщение до...</string>
     <!-- conversation_context -->
     <string name="banUser">Забрана на потребител</string>
     <string name="conversation_context__menu_reply_to_message">Отговор на съобщение</string>
@@ -271,8 +252,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Изтриване</string>
-    <string name="trimmer__deleting_old_messages">Изтриване на стари съобщения...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Старите съобщения бяха успешно изтрити</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Нужда от разрешение за достъп</string>
     <string name="notNow">Не сега</string>

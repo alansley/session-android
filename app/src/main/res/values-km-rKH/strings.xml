@@ -13,7 +13,6 @@
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
         <item quantity="other">%d សារក្នុងពេលសន្ទនា</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">លុបសារចាស់ទាំងអស់ឥឡូវនេះ?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="other">វានឹងតម្រឹមការសន្ទនាទាំងអស់ភ្លាមៗ ទៅជាសារថ្មីៗ ចំនួន%d។</item>
     </plurals>
@@ -41,7 +40,6 @@
     <string name="attachmentsAdd">ភ្ជាប់ឯកសារ</string>
     <string name="ConversationActivity_invalid_recipient">អ្នកទទួលមិនត្រឹមត្រូវ!</string>
     <string name="blockUnblock">បើកវិញ</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">មិនមានកម្មវិធីដើម្បីបើកតំណនេះ នៅលើឧបករណ៍របស់អ្នកទេ។</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session សុំសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន ដើម្បីផ្ញើសារជាសំឡេង, ប៉ុន្តែ វាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់កម្មវិធី, ជ្រើសរើស  \"ការអនុញ្ញាត\", និងបើក \"ប្រដាប់ស្រូបសំឡេង\"។</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">រក្សារទុក?</string>
@@ -67,8 +65,6 @@
     <string name="photo">រូបតំណាង</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">សារពី %1$s</string>
-    <string name="LongMessageActivity_your_message">សាររបស់អ្នក</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">កំពុងប្រមូលឯកសារភ្ជាប់...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -111,8 +107,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">កំណែថ្មីរបស់ Session មានហើយ, ចុច ដើម្បីធ្វើបច្ចុប្បន្នភាព។</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">សារដែលបានកាណាលកូដសម្ងាត់មិនត្រឹមត្រូវ</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">សារត្រូវបានកាណាល់កូដសម្ងាត់សម្រាប់កំឡុងពេលមិនប្រើប្រាស់</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">ការណាល់កូដសម្ងាត់សារMMS​ មិនត្រឹមត្រូវ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">សារMMS ត្រូវបានកាណាល់កូដសម្ងាត់សម្រាប់កំឡុងពេលមិនប្រើប្រាស់</string>
@@ -125,12 +119,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">មិនអាចរក្សាទុកក្នុងអង្គរក្សាទុកខាងក្រៅ ដោយគ្មានការអនុញ្ញាត</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d សារថ្មីក្នុង %2$d ការសន្ទនា</string>
-    <string name="MessageNotifier_message_delivery_failed">សារបញ្ជូនបរាជ័យ។</string>
-    <string name="MessageNotifier_failed_to_deliver_message">ការបញ្ជូនសារបរាជ័យ។</string>
-    <string name="MessageNotifier_error_delivering_message">ការបញ្ជូនសារមានបញ្ហា។</string>
     <string name="messageMarkRead">សម្គាល់ថាបានអាន</string>
-    <string name="MessageNotifier_pending_signal_messages">សារ Session បញ្ចូនមិនទាន់សម្រេច</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">អ្នកមានសារSession មិនទាន់បញ្ចូនសម្រេច ចុចបើក និងទាញយកមកវិញ</string>
     <string name="MessageNotifier_unknown_contact_message">ទំនាក់ទំនង</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ការហៅ</string>
@@ -141,7 +130,6 @@
     <string name="other">ផ្សេងៗ</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">មិនមានការឆ្លើយតបភ្លាមៗ នៅពេល Session ត្រូវបានចាក់សោរ!</string>
-    <string name="QuickResponseService_problem_sending_message">សារដែលបានបញ្ជូនមានបញ្ហា!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">បានរក្សាទុក</string>
     <!-- SearchToolbar -->
@@ -175,7 +163,6 @@
     <string name="messageVoiceSlideToCancel">អូសដើម្បីបោះបង់</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">សារជាព័ត៌មាន</string>
-    <string name="conversation_item__secure_message_description">សារសុវត្ថិភាព</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">ផ្ញើបរាជ័យ</string>
     <string name="conversation_item_sent__delivered_description">បានបញ្ចូន</string>
@@ -194,13 +181,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">បញ្ហាមួយចំនួនត្រូវការ ការយកចិត្តទុកដាក់របស់អ្នក។</string>
     <string name="disappearingMessagesSent">បានផ្ញើ</string>
     <string name="received">បានទទួល</string>
     <string name="message_details_header__disappears">បាត់</string>
     <string name="message_details_header__via">តាមរយៈ</string>
-    <string name="message_details_header__to">ទៅ៖</string>
-    <string name="message_details_header__with">ជាមួយ៖</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">ប្រើផ្សេងៗ</string>
@@ -227,9 +211,7 @@
     <string name="preferences__fast">លឿន</string>
     <string name="preferences__normal">ធម្មតា</string>
     <string name="preferences__slow">យឺត</string>
-    <string name="preferences__delete_old_messages">លុបសារចាស់ៗ</string>
     <string name="preferences__trim_all_conversations_now">តម្រឹមការសន្ទនាទាំងអស់ឥលូវនេះ</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">វិភាគតាមរយៈការសន្ទនាទាំងអស់ និងពង្រឹងដែនកំណត់ប្រវែងសន្ទនា</string>
     <string name="_default">លំនាំដើម</string>
     <string name="incognitoKeyboard">ក្តារចុចអនាមឹក</string>
     <string name="preferences__read_receipts">ទទួលបានការអាន</string>
@@ -241,7 +223,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">ផ្ញើសារថ្មីទៅកាន់...</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">ឆ្លើយតបសារ</string>
     <!-- conversation_context_image -->
@@ -262,8 +243,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">កំពុងលុប</string>
-    <string name="trimmer__deleting_old_messages">កំពុងលុបសារចាស់ៗ...</string>
-    <string name="trimmer__old_messages_successfully_deleted">សារចាស់ៗត្រូវបានលុបចេញដោយជោគជ័យ</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">ទាមទារការអនុញ្ញាត</string>
     <string name="notNow">ពេលក្រោយ</string>

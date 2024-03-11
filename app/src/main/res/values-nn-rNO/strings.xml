@@ -13,7 +13,6 @@
         <item quantity="one">%d melding per samtale</item>
         <item quantity="other">%d meldingar per samtale</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Vil du sletta alle gamle meldingar no?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Dette vil omgåande trimma alle samtalar til dei siste meldingane.</item>
         <item quantity="other">Dette forkortar alle samtalar til dei %d siste meldingane.</item>
@@ -41,7 +40,6 @@
     <string name="attachmentsAdd">Legg til vedlegg</string>
     <string name="ConversationActivity_invalid_recipient">Ugyldig mottakar.</string>
     <string name="blockUnblock">Fjern blokkering</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har inga program på denne eininga som kan handtera denne lenkja.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session treng tilgang til mikrofonen for å senda lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon».</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Vil du lagra på eininga?</string>
@@ -67,8 +65,6 @@
     <!-- CropImageActivity -->
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Melding frå %1$s</string>
-    <string name="LongMessageActivity_your_message">Di melding</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Hentar vedlegg …</string>
     <!-- NotificationMmsMessageRecord -->
@@ -107,8 +103,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Det finst ei ny utgåve av Session; trykk for å oppdatera</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Dårleg kryptert melding</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Melding kryptert for ei økt som ikkje finst</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Dårleg kryptert MMS-melding</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-melding kryptert for ei økt som ikkje finst</string>
@@ -121,12 +115,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan ikkje lagra til eksterne minnekort utan tilgang</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye meldingar i %2$d samtalar</string>
-    <string name="MessageNotifier_message_delivery_failed">Feil ved meldingslevering.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Klarte ikkje å levera melding.</string>
-    <string name="MessageNotifier_error_delivering_message">Feil under levering av melding.</string>
     <string name="messageMarkRead">Merk lesen</string>
-    <string name="MessageNotifier_pending_signal_messages">Uhenta Session-meldingar</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Du har uhenta Session-meldingar, klikk for å opna og henta</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtalar</string>
@@ -137,7 +126,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="other">Anna</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Hurtigsvar er utilgjengeleg når Session er låst.</string>
-    <string name="QuickResponseService_problem_sending_message">Det oppstod eit problem under sending av melding.</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Lagra</string>
     <!-- SearchToolbar -->
@@ -170,7 +158,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediemelding</string>
-    <string name="conversation_item__secure_message_description">Sikker melding</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Feil ved sending</string>
     <string name="conversation_item_sent__delivered_description">Levert</string>
@@ -189,12 +176,9 @@ nøkkelutvekslingsmelding.</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Visse problem treng di merksemd.</string>
     <string name="disappearingMessagesSent">Sendt</string>
     <string name="received">Motteke</string>
     <string name="message_details_header__disappears">Forsvinn</string>
-    <string name="message_details_header__to">Til:</string>
-    <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Bruk sjølvvald</string>
@@ -219,9 +203,7 @@ nøkkelutvekslingsmelding.</string>
     <string name="notificationsVibrate">Vibrer</string>
     <string name="preferences__fast">Snøgg</string>
     <string name="preferences__slow">Langsam</string>
-    <string name="preferences__delete_old_messages">Slett gamle meldingar</string>
     <string name="preferences__trim_all_conversations_now">Rydd opp i alle samtalar no</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Søk gjennom alle samtalar og tving lengdgrenser for samtalar</string>
     <string name="_default">Forvald</string>
     <string name="incognitoKeyboard">Inkognitotastatur</string>
     <string name="preferences__read_receipts">Lesekvitteringar</string>
@@ -233,7 +215,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Ny melding til …</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">Svar på meldinga</string>
     <!-- conversation_context_image -->
@@ -254,8 +235,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Slettar</string>
-    <string name="trimmer__deleting_old_messages">Slettar gamle meldingar …</string>
-    <string name="trimmer__old_messages_successfully_deleted">Gamle meldingar vart sletta</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Tilgang krevst</string>
     <string name="notNow">Ikkje no</string>

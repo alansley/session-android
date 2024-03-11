@@ -14,7 +14,6 @@
         <item quantity="one">Serê gotûbêjê %d peyam</item>
         <item quantity="other">Serê gotûbêjê %d peyam </item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Bila hemû peyamên kevn niha jê biçe?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Ev ê niha hemû gotûbêjan biqusîne û wê tenê peyama herî nû bimîne.</item>
         <item quantity="other">Ev ê niha hemû gotûbêjan biqusîne û wê tenê %d peyamên herî nû bimînin.</item>
@@ -42,7 +41,6 @@
     <string name="attachmentsAdd">Servehî lê zede bike</string>
     <string name="ConversationActivity_invalid_recipient">Stînerê nederbasdar!</string>
     <string name="blockUnblock">Astengê rake</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Ti sepana ku karibe vê girêdanê di amûra we de veke nîn e.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session ji bo şandina peyamên dengî destûra Mîkrofonê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe sazkariyên sepanê \"Destûr\"ê bibijêre û \"Mîkrofon\"ê çalak bike.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Bila li bîrbarê were tomarkirin?</string>
@@ -67,8 +65,6 @@
     <!-- CropImageActivity -->
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Ji %1$s peyam</string>
-    <string name="LongMessageActivity_your_message">Peyama te</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">...Servehî tên berhevkirin</string>
     <!-- NotificationMmsMessageRecord -->
@@ -109,8 +105,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Guhertoyeke nû ya Sessionê amade ye, ji bo hildemandinê bitepîne. </string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Peyama xirab şîfrekirî</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Peyam ji bo danişîna tuneyî hat şîfrekirin</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Peyama MMSê ya xirab şîfrekirî</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Peyama MMSê ji bo danişîna tuneyî hat şîfrekirin</string>
@@ -123,12 +117,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Bê destûr nabe ku li bîrbara derveyî tomar bibe</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d peyamên nû di %2$d axaftin de hene</string>
-    <string name="MessageNotifier_message_delivery_failed">Peyam nagihişt.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Gihandina peyamê pêk nehat.</string>
-    <string name="MessageNotifier_error_delivering_message">Çewtiya gihandina peyamê.</string>
     <string name="messageMarkRead">Xwendî nîşan bike</string>
-    <string name="MessageNotifier_pending_signal_messages">Peyamên hilawistî yên Sessionê </string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Peyamên hilawistî yên Sessionê hene, ji bo vekî û werbigirî bitepîne</string>
     <string name="MessageNotifier_unknown_contact_message">Berdeng</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Gazî</string>
@@ -139,7 +128,6 @@
     <string name="other">Din</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Dema Session kilîdkirî be zû bersiv nabe!</string>
-    <string name="QuickResponseService_problem_sending_message">Pirsgirêka şandina peyamê!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Hate tomarkirin</string>
     <!-- SearchToolbar -->
@@ -173,7 +161,6 @@
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Peyama medya</string>
-    <string name="conversation_item__secure_message_description">Peyama parastî</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Şandin serneket</string>
     <string name="conversation_item_sent__delivered_description">Hat gihandin</string>
@@ -192,13 +179,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Ji bo hin pirsgirêkan eleqeya te hewce ye.</string>
     <string name="disappearingMessagesSent">Hat şandin</string>
     <string name="received">Hat</string>
     <string name="message_details_header__disappears">Winda dibe</string>
     <string name="message_details_header__via">Bi riya</string>
-    <string name="message_details_header__to">Ji bo:</string>
-    <string name="message_details_header__with">Bi:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Ya taybet bi kar bîne</string>
@@ -224,9 +208,7 @@
     <string name="notificationsVibrate">Lerizîn</string>
     <string name="preferences__fast">Zû</string>
     <string name="preferences__slow">Hêdî</string>
-    <string name="preferences__delete_old_messages">Peyamên kevin jê bibe</string>
     <string name="preferences__trim_all_conversations_now">Hemû axaftinan qut bike</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Hemû gotûbêjan sken bike û zorê bide ku sînorên dirêjiya axaftinê</string>
     <string name="_default">Jixweber</string>
     <string name="incognitoKeyboard">Textenivîsa veşartî</string>
     <string name="preferences__read_receipts">Girtekan bixwîne</string>
@@ -238,7 +220,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Peyama nû ji bo...</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">Bersiv bide peyamê</string>
     <!-- conversation_context_image -->
@@ -259,8 +240,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Tê jêbirin</string>
-    <string name="trimmer__deleting_old_messages">Peyamên kevin tên jêbirin...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Peyamên kevin hatin jêbirin</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Destûr pêwîst e</string>
     <string name="notNow">Ne niha</string>

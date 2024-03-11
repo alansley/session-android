@@ -171,7 +171,6 @@
         <item quantity="one">%d message per conversation</item>
         <item quantity="other">%d messages per conversation</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Delete all old messages now?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">This will immediately trim all conversations to the most recent message.</item>
         <item quantity="other">This will immediately trim all conversations to the %d most recent messages.</item>
@@ -199,13 +198,11 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Add attachment</string>
     <string name="message">Message</string>
-    <string name="ConversationActivity_compose">Compose</string>
     <string name="ConversationActivity_muted_until_date">Muted until %1$s</string>
     <string name="ConversationActivity_muted_forever">Muted</string>
     <string name="ConversationActivity_active_member_count">%1$d active members</string>
     <string name="ConversationActivity_invalid_recipient">Invalid recipient!</string>
     <string name="blockUnblock">Unblock</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">There is no app available to handle this link on your device.</string>
     <string name="ConversationActivity_copy_open_group_url">Copy Community URL</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session needs microphone access to send audio messages, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\".</string>
     <string name="cameraGrantAccessStorage">Session needs storage access to send photos and videos.</string>
@@ -236,8 +233,6 @@
     <string name="photo">Photo</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Message from %1$s</string>
-    <string name="LongMessageActivity_your_message">Your message</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Collecting attachments...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -284,8 +279,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">A new version of Session is available, tap to update</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Bad encrypted message</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Message encrypted for non-existing session</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Bad encrypted MMS message</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS message encrypted for non-existing session</string>
@@ -299,12 +292,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Unable to save to external storage without permissions</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d new messages in %2$d conversations</string>
-    <string name="MessageNotifier_message_delivery_failed">Message delivery failed.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Failed to deliver message.</string>
-    <string name="MessageNotifier_error_delivering_message">Error delivering message.</string>
     <string name="messageMarkRead">Mark read</string>
-    <string name="MessageNotifier_pending_signal_messages">Pending Session messages</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">You have pending Session messages, tap to open and retrieve</string>
     <string name="MessageNotifier_unknown_contact_message">Contact</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Calls</string>
@@ -315,7 +303,6 @@
     <string name="other">Other</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Quick response unavailable when Session is locked!</string>
-    <string name="QuickResponseService_problem_sending_message">Problem sending message!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Saved</string>
     <!-- SearchToolbar -->
@@ -352,7 +339,6 @@
     <string name="messageVoiceSlideToCancel">Slide to cancel</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Media message</string>
-    <string name="conversation_item__secure_message_description">Secure message</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Send Failed</string>
     <string name="conversation_item_sent__delivered_description">Delivered</string>
@@ -360,7 +346,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Join</string>
-    <string name="open_group_guidelines_pinned_message">Pinned message</string>
     <string name="read">Read</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Photo</string>
@@ -374,13 +359,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Some issues need your attention.</string>
     <string name="disappearingMessagesSent">Sent</string>
     <string name="received">Received</string>
     <string name="message_details_header__disappears">Disappears</string>
     <string name="message_details_header__via">Via</string>
-    <string name="message_details_header__to">To:</string>
-    <string name="message_details_header__with">With:</string>
     <string name="message_details_header__file_id">File Id:</string>
     <string name="message_details_header__file_type">File Type:</string>
     <string name="message_details_header__file_size">File Size:</string>
@@ -428,9 +410,7 @@
     <string name="preferences__fast">Fast</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Slow</string>
-    <string name="preferences__delete_old_messages">Delete old messages</string>
     <string name="preferences__trim_all_conversations_now">Trim all conversations now</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Scan through all conversations and enforce conversation length limits</string>
     <string name="_default">Default</string>
     <string name="incognitoKeyboard">Incognito keyboard</string>
     <string name="preferences__read_receipts">Read Receipts</string>
@@ -455,7 +435,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">New message to...</string>
     <!-- conversation_context -->
     <string name="banUser">Ban user</string>
     <string name="conversation_context__menu_resync_message">Resync message</string>
@@ -481,8 +460,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Deleting</string>
-    <string name="trimmer__deleting_old_messages">Deleting old messages...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Old messages successfully deleted</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Permission required</string>
     <string name="notNow">Not now</string>

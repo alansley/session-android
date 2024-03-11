@@ -8,7 +8,6 @@
     <string name="AbstractNotificationBuilder_new_message">စာအသစ်</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">စာအဟောင်းများအားလုံးဖျက်မှာလား?</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(ရုပ်ပုံ) </string>
     <string name="DraftDatabase_Draft_audio_snippet">(အသံ)</string>
@@ -30,7 +29,6 @@
     <string name="attachmentsAdd">ပူးတွဲဖိုင် ထည့်ရန်</string>
     <string name="ConversationActivity_invalid_recipient">လက်ခံမည့်သူမရှိပါ</string>
     <string name="blockUnblock">ဘလော့ဖြည်ပါ </string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">ယခုလင့်ခ် ကိုဖွင့်နိုင်သည့် app သင့်စက်တွင် မရှိပါ။ </string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">အသံဖိုင်များပို့နိုင်ရန် Sessionမှ မိုက်ခရိုဖုန်းအား အသုံးပြုခွင့်ရရန် လိုအပ်သည်။ သို့သော် လုံးဝခွင့်မပြုပါ ဟုရွေးထားပြီး ဖြစ်နေသဖြင့် အပ်ပလီကေးရှင်း အပြင်အဆင်သို့ သွား၍ ခွင့်ပြုချက်များကို ရွေးချယ်ကာ မိုက်ခရိုဖုန်းကို အသုံးပြုနိုင်အောင် ပြုလုပ်ပါ။</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">သိမ်းမည်လား?</string>
@@ -88,8 +86,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session ဗားရှင်းအသစ်ရပါပြီ၊ အဆင့်မြှင့်ရန် နှိပ်လိုက်ပါ</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">မှားယွင်းစွာ encrypt လုပ်ထားသောစာ</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">ရှိမနေတော့သည့် ဆက်ရှင်အတွက် စာများကို encrpyt လုပ်ထားပါသည်။</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">မှားယွင်းစာ encrpyt လုပ်ထားသော MMS စာ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ရှိမနေတော့သည့် ဆက်ရှင်အတွက် MMS စာများကို encrypt လုပ်ထားပါသည်။</string>
@@ -102,12 +98,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ခွင့်ပြုချက်မပေးထားပါက အပြင်ဘက်တွင် သိမ်းဆည်း၍မရပါ</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">စကားဝိုင်း %2$d တွင် စာပေါင်း %1$d ရှိသည်။</string>
-    <string name="MessageNotifier_message_delivery_failed">စာပို့လွှတ်ခြင်း မအောင်မြင်</string>
-    <string name="MessageNotifier_failed_to_deliver_message">စာပို့လွှတ်ရန် မအောင်မြင်။</string>
-    <string name="MessageNotifier_error_delivering_message">စာပို့လွှတ်ခြင်း မှားယွင်းနေ</string>
     <string name="messageMarkRead">ဖတ်ပြီးသား</string>
-    <string name="MessageNotifier_pending_signal_messages">Sessionတွင် စာပေးပို့/လက်ခံမှုကို ဆိုင်းငံ့ထားခြင်း</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Sessionတွင် စာပေးပို့/လက်ခံမှုကို ဆိုင်းငံ့ထားပါသည်၊ ပြန်ဖွင့်ရန် နှိပ်လိုက်ပါ</string>
     <string name="MessageNotifier_unknown_contact_message">အဆက်အသွယ်</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ဖုန်းခေါ်ဆိုမှုများ</string>
@@ -115,7 +106,6 @@
     <string name="other">အခြား</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session လော့ခ်ကျသွားသည့်အခါ ချက်ချင်းမတုံ့ပြန်နိုင်ပါ!</string>
-    <string name="QuickResponseService_problem_sending_message">စာပို့ခြင်းအခက်အခဲ</string>
     <!-- SaveAttachmentTask -->
     <!-- SearchToolbar -->
     <string name="search">ရှာရန်</string>
@@ -143,7 +133,6 @@
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">ရုပ်/သံ/ပုံပါစာ</string>
-    <string name="conversation_item__secure_message_description">လုံခြုံသောစာ</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">ပေးပို့ချက် မအောင်မြင်ပါ</string>
     <string name="conversation_item_sent__delivered_description">ပေးပို့ပြီး</string>
@@ -161,13 +150,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">တစ်ချို့ကိစ္စများကို သင်ကြည့်ဖို့ လိုနေသည်။</string>
     <string name="disappearingMessagesSent">ပို့ပြီးပြီ</string>
     <string name="received">လက်ခံရရှိသည်</string>
     <string name="message_details_header__disappears">ပျောက်သွားမည်</string>
     <string name="message_details_header__via">တဆင့်</string>
-    <string name="message_details_header__to">သို့</string>
-    <string name="message_details_header__with">နှင့်အတူ</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">အထူးပြုကိုသုံးသည် </string>
@@ -190,9 +176,7 @@
     <string name="preferences__fast">အမြန်</string>
     <string name="preferences__normal">ပုံမှန်</string>
     <string name="preferences__slow">အနှေး</string>
-    <string name="preferences__delete_old_messages">စာတိုအဟောင်းများကို ဖျက်ပါ။</string>
     <string name="preferences__trim_all_conversations_now">စကားဝိုင်းများအားလုံးကို အခု ညှိပါ</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">စကားဝိုင်းများအားလုံးကို သေချာကြည့်ပြီး စကားဝိုင်း၏ အရှည်ကန့်သတ်ချက်ကို အတည်ပြုပါ</string>
     <string name="_default">မူလ</string>
     <string name="incognitoKeyboard">နောက်ယောင်ခံမှု မရှိသည့် ကီးဘုတ်</string>
     <string name="preferences__read_receipts">ဖတ်ပြီးပြီ</string>
@@ -203,7 +187,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">သို့ စာအသစ် ...</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">စာပြန်ပို့မည်</string>
     <!-- conversation_context_image -->
@@ -223,8 +206,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">ဖျက်နေဆဲ</string>
-    <string name="trimmer__deleting_old_messages">စာအဟောင်းများကို ဖျက်နေဆဲ ....</string>
-    <string name="trimmer__old_messages_successfully_deleted">စာအဟောင်းများကို အောင်မြင်စွာ ဖျက်ပြီး</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">ခွင့်ပြုချက် လိုအပ်သည်</string>
     <string name="notNow">အခုမဟုတ်သေးပါ။</string>

@@ -10,7 +10,6 @@
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">/+ 1%d</string>
     <!-- ApplicationPreferencesActivity -->
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Futa sasa meseji zote za zamani </string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(picha)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sauti)</string>
@@ -34,7 +33,6 @@
     <string name="attachmentsAdd">Ongeza Kiambatanisho</string>
     <string name="ConversationActivity_invalid_recipient">Mpokeaji sio sahihi</string>
     <string name="blockUnblock">Fungua</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Kipaza sauti\".</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Hifadhi kwa kuhifadhi</string>
@@ -55,7 +53,6 @@
     <!-- CropImageActivity -->
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_your_message">ujumbe wako</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">kukusanya viambatisho</string>
     <!-- NotificationMmsMessageRecord -->
@@ -94,7 +91,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Toleo jipya la Session inapatikana, bomba ili uhakikishe</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">ujumbe mbaya encrypted</string>
     <!-- MmsMessageRecord -->
     <!-- MuteDialog -->
     <!-- KeyCachingService -->
@@ -105,12 +101,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">haiwezekani kuhifadhi kwenye external storage  bila ruhusa</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">1%1$d ujumbe mpya kwa  2%2$d mazungumzo</string>
-    <string name="MessageNotifier_message_delivery_failed">utoaji wa ujumbe umefeli</string>
-    <string name="MessageNotifier_failed_to_deliver_message">imefeli kutoa ujumbe</string>
-    <string name="MessageNotifier_error_delivering_message">hitilafu kupokea ujumbe</string>
     <string name="messageMarkRead">soma nakili</string>
-    <string name="MessageNotifier_pending_signal_messages">Ujumbe wa Session inasubiri</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">una ujumbe wa Session unasubiri, gusa kufungua na kurudi</string>
     <string name="MessageNotifier_unknown_contact_message">Mawasiliano</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">wito</string>
@@ -121,7 +112,6 @@
     <string name="other">ingine</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Jibu la haraka halipatikani wakati Session imefungwa!</string>
-    <string name="QuickResponseService_problem_sending_message">Tatizo kutuma ujumbe</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">imehifadhiwa</string>
     <!-- SearchToolbar -->
@@ -152,7 +142,6 @@
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Ujumbe wa vyombo vya habari</string>
-    <string name="conversation_item__secure_message_description">ujumbe salama</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">imefeli kutuma</string>
     <string name="conversation_item_sent__delivered_description">imefika</string>
@@ -171,13 +160,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">baadhi ya masuala yanahitaji umakini wako</string>
     <string name="disappearingMessagesSent">Imetumwa</string>
     <string name="received">Imepokelewa</string>
     <string name="message_details_header__disappears">kutoweka</string>
     <string name="message_details_header__via">Kupitia</string>
-    <string name="message_details_header__to">Kuelekea:</string>
-    <string name="message_details_header__with">Pamoja:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">tumia desturi</string>
@@ -200,9 +186,7 @@
     <string name="preferences__fast">Haraka</string>
     <string name="preferences__normal">Kawaida</string>
     <string name="preferences__slow">Polepole</string>
-    <string name="preferences__delete_old_messages">Futa ujumbe wa zamani</string>
     <string name="preferences__trim_all_conversations_now">Piga mazungumzo yote sasa</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Pitia kupitia mazungumzo yote na uimarishe mipaka ya urefu wa mazungumzo</string>
     <string name="_default">Chaguo Msingi</string>
     <string name="incognitoKeyboard">Kibodi cha kuingia</string>
     <string name="preferences__read_receipts">Soma stakabadhi</string>
@@ -214,7 +198,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Ujumbe mpya kuelekea..</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">Jibu ujumbe</string>
     <!-- conversation_context_image -->
@@ -235,8 +218,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Kufuta</string>
-    <string name="trimmer__deleting_old_messages">futa ujumbe wa zamani</string>
-    <string name="trimmer__old_messages_successfully_deleted">Ujumbe wa zamani umefutwa kwa ufanisi</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Ruhusa inahitajika</string>
     <string name="notNow">sio sasa</string>

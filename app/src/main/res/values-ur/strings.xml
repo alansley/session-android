@@ -10,7 +10,6 @@
     <string name="AbstractNotificationBuilder_new_message">نیا پیغام</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">تمام پرانے پیغامات کو ابھی حذف کریں?</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(تصویر)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(آڈیو)</string>
@@ -34,7 +33,6 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">منسلکہ شامل کریں</string>
     <string name="message">پیغام</string>
-    <string name="ConversationActivity_compose">تحریر</string>
     <string name="ConversationActivity_muted_until_date">%1$s تک خاموش کر دیا گیا۔</string>
     <string name="ConversationActivity_muted_forever">خاموش</string>
     <string name="ConversationActivity_invalid_recipient">غلط وصول کنندہ!</string>
@@ -54,8 +52,6 @@
     <string name="photo">تصویر</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">%1$s کی طرف سے پیغام</string>
-    <string name="LongMessageActivity_your_message">آپ کا پیغام</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">منسلکات کو جمع کرنے کا عمل جاری ہے...</string>
     <!-- NotificationMmsMessageRecord -->

@@ -17,7 +17,6 @@
         <item quantity="many">%d wiadomości na rozmowę</item>
         <item quantity="other">%d wiadomości na rozmowę</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Usunąć wszystkie stare wiadomości?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do najnowszej wiadomości.</item>
         <item quantity="few">Spowoduje to natychmiastowe przycięcie wszystkich rozmów aż do %d najnowszych wiadomości.</item>
@@ -47,12 +46,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Dodaj załącznik</string>
     <string name="message">Wiadomość</string>
-    <string name="ConversationActivity_compose">Napisz</string>
     <string name="ConversationActivity_muted_until_date">Wyciszono do %1$s</string>
     <string name="ConversationActivity_muted_forever">Wyciszono</string>
     <string name="ConversationActivity_invalid_recipient">Nieprawidłowy odbiorca!</string>
     <string name="blockUnblock">Odblokuj</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Brak aplikacji do obsługi tego linku na Twoim urządzeniu.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session wymaga pozwolenia na dostęp do mikrofonu w celu umożliwienia wysyłania wiadomości głosowych, ale zostało one na stałe odrzucone. Przejdź do ustawień aplikacji, wybierz \"Uprawnienia\" i włącz \"Mikrofon\".</string>
     <string name="cameraGrantAccessStorage">Session potrzebuje dostępu do pamięci aby wysyłać zdjęcia i filmy.</string>
     <!-- ConversationFragment -->
@@ -82,8 +79,6 @@
     <string name="photo">Awatar</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Wiadomość od %1$s</string>
-    <string name="LongMessageActivity_your_message">Twoja wiadomość</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Zbieranie załączników...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -128,8 +123,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Dostępna jest nowa wersja Session. Dotknij, aby zaktualizować</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Źle zaszyfrowana wiadomość</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Wiadomość zaszyfrowana dla nieistniejącej sesji</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Źle zaszyfrowana wiadomość MMS</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Wiadomość MMS zaszyfrowana dla nieistniejącej sesji</string>
@@ -143,12 +136,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nie można zapisać do pamięci zewnętrznej bez odpowiedniego pozwolenia</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nowych wiadomości w %2$d rozmowach</string>
-    <string name="MessageNotifier_message_delivery_failed">Nie udało się dostarczyć wiadomości.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Dostarczenie wiadomości nie powiodło się.</string>
-    <string name="MessageNotifier_error_delivering_message">Błąd przy wysyłaniu wiadomości.</string>
     <string name="messageMarkRead">Przeczytane</string>
-    <string name="MessageNotifier_pending_signal_messages">Oczekujące wiadomości Session</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Masz oczekujące wiadomości Session. Dotknij, aby otworzyć.</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Połączenia</string>
@@ -159,7 +147,6 @@
     <string name="other">Inny</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Szybka odpowiedź jest niedostępna kiedy Session jest zablokowany!</string>
-    <string name="QuickResponseService_problem_sending_message">Wystąpił błąd przy wysyłaniu wiadomości!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Zapisano</string>
     <!-- SearchToolbar -->
@@ -197,7 +184,6 @@
     <string name="messageVoiceSlideToCancel">Przesuń, aby anulować</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Wiadomość multimedialna</string>
-    <string name="conversation_item__secure_message_description">Bezpieczna wiadomość</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Nie udało się wysłać</string>
     <string name="conversation_item_sent__delivered_description">Dostarczono</string>
@@ -205,7 +191,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Dołącz</string>
-    <string name="open_group_guidelines_pinned_message">Przypięta wiadomość</string>
     <string name="read">Czytaj</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Zdjęcie</string>
@@ -219,13 +204,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Niektóre kwestie wymagają Twojej uwagi.</string>
     <string name="disappearingMessagesSent">Wysłano</string>
     <string name="received">Otrzymano</string>
     <string name="message_details_header__disappears">Wygasa</string>
     <string name="message_details_header__via">Przez</string>
-    <string name="message_details_header__to">Do:</string>
-    <string name="message_details_header__with">Z:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Użyj własnych</string>
@@ -255,9 +237,7 @@
     <string name="preferences__fast">Szybko</string>
     <string name="preferences__normal">Normalnie</string>
     <string name="preferences__slow">Wolno</string>
-    <string name="preferences__delete_old_messages">Usuń stare wiadomości</string>
     <string name="preferences__trim_all_conversations_now">Przytnij wszystkie konwersacje teraz</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Przeskanuj wszystkie konwersacje i przytnij do określonej długości</string>
     <string name="_default">Domyślne</string>
     <string name="incognitoKeyboard">Klawiatura w trybie prywatnym</string>
     <string name="preferences__read_receipts">Potwierdzenia przeczytania</string>
@@ -269,7 +249,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Nowa wiadomość do...</string>
     <!-- conversation_context -->
     <string name="banUser">Zablokuj użytkownika</string>
     <string name="conversation_context__menu_reply_to_message">Odpowiedz na wiadomość</string>
@@ -291,8 +270,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Usuwanie</string>
-    <string name="trimmer__deleting_old_messages">Usuwanie starych wiadomości...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Stare wiadomości zostały pomyślnie usunięte</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Wymagane uprawnienia</string>
     <string name="notNow">Nie teraz</string>

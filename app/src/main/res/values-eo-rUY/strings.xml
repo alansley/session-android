@@ -15,7 +15,6 @@
         <item quantity="one">Po %d mesaĝo en interparolado</item>
         <item quantity="other">Po %d mesaĝoj en interparolo</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Ĉu nun forviŝi ĉiujn malnovajn mesaĝojn?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Tio tuj tondetos ĉiujn konversaciojn al la plej lastatempa mesaĝo.</item>
         <item quantity="other">Tio tuj tondetos ĉiujn interparolojn al la %d plej lastatempaj mesaĝoj.</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Aldoni kunsendaĵon</string>
     <string name="message">Mesaĝo</string>
-    <string name="ConversationActivity_compose">Verku</string>
     <string name="ConversationActivity_muted_until_date">Silentigita ĝis %1$s</string>
     <string name="ConversationActivity_muted_forever">Silentigite</string>
     <string name="ConversationActivity_invalid_recipient">Nevalida ricevonto!</string>
     <string name="blockUnblock">Malbloki</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Estas neniu aplikaĵo disponebla por trakti ĉi tiun ligilon ĉe via aparato.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session bezonas la Mikrofono-permeson por sendi aŭdajn mesaĝojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Mikrofono“.</string>
     <string name="cameraGrantAccessStorage">Session bezonas aliron al la memoro por sendi bildojn kaj filmetojn.</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">Avataro</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Mesaĝo el %1$s</string>
-    <string name="LongMessageActivity_your_message">Via mesaĝo</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Kolekto de kunsendaĵoj...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -121,8 +116,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Nova versio de Session disponeblas, tuŝetu por ĝisdatigi</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Malbone ĉifrita mesaĝo</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Mesaĝo ĉifrita por neekzistanta seanco</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Malbone ĉifrita MMS-mesaĝo</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS-mesaĝo ĉifrita por neekzistanta seanco</string>
@@ -136,12 +129,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ne eblas konservi en la ekstera konservejo sen permesoj</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d novaj mesaĝoj en %2$d interparoloj</string>
-    <string name="MessageNotifier_message_delivery_failed">Mesaĝa livero malsukcesis.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Malsukcesis liveri mesaĝon.</string>
-    <string name="MessageNotifier_error_delivering_message">Eraro dum livero de mesaĝo.</string>
     <string name="messageMarkRead">Marki legita</string>
-    <string name="MessageNotifier_pending_signal_messages">Pritraktotaj Session-aj mesaĝoj</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Vi havas pritraktotajn Session-ajn mesaĝojn; tuŝetu por malfermi kaj ricevi ilin</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakto</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Alvokoj</string>
@@ -152,7 +140,6 @@
     <string name="other">Alia</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Rapida respondo ne eblas, kiam Session estas ŝlosita!</string>
-    <string name="QuickResponseService_problem_sending_message">Problemo dum sendo de mesaĝo!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Konservitaj</string>
     <!-- SearchToolbar -->
@@ -188,7 +175,6 @@
     <string name="messageVoiceSlideToCancel">Deŝovu por nuligi</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Aŭdvida mesaĝo</string>
-    <string name="conversation_item__secure_message_description">Sekura mesaĝo</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Sendo malsukcesis</string>
     <string name="conversation_item_sent__delivered_description">Liverita</string>
@@ -196,7 +182,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Aliĝi</string>
-    <string name="open_group_guidelines_pinned_message">Fiksita Mesaĝo</string>
     <string name="read">Legita</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
@@ -210,13 +195,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Problemoj bezonas vian atenton.</string>
     <string name="disappearingMessagesSent">Sendita</string>
     <string name="received">Ricevita</string>
     <string name="message_details_header__disappears">Malaperos je</string>
     <string name="message_details_header__via">Per</string>
-    <string name="message_details_header__to">Al:</string>
-    <string name="message_details_header__with">Kun:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Uzi propran</string>
@@ -244,9 +226,7 @@
     <string name="preferences__fast">Rapida</string>
     <string name="preferences__normal">Normala</string>
     <string name="preferences__slow">Malrapida</string>
-    <string name="preferences__delete_old_messages">Forigi malnovajn mesaĝojn</string>
     <string name="preferences__trim_all_conversations_now">Mallongigi ĉiujn interparolojn nun</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Trairi ĉiujn interparolojn por efektivigi la maksimuman nombron de mesaĝoj</string>
     <string name="_default">Defaŭlta</string>
     <string name="incognitoKeyboard">Inkognita klavaro</string>
     <string name="preferences__read_receipts">Legokonfirmoj</string>
@@ -258,7 +238,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Nova mesaĝo al...</string>
     <!-- conversation_context -->
     <string name="banUser">Forbari uzanton</string>
     <string name="conversation_context__menu_reply_to_message">Respondi mesaĝon</string>
@@ -280,8 +259,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Forviŝado</string>
-    <string name="trimmer__deleting_old_messages">Forviŝante malnovajn mesaĝojn...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Malnovaj mesaĝoj sukcese forviŝiĝis</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Permeso bezonata</string>
     <string name="notNow">Ne nun</string>

@@ -15,7 +15,6 @@
         <item quantity="one">%d meddelande per konversation</item>
         <item quantity="other">%d meddelanden per konversation</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Radera alla gamla meddelanden nu?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Detta kommer omedelbart trimma alla konversationer till det senaste meddelandet.</item>
         <item quantity="other">Detta kommer omedelbart trimma alla konversationer till de %d senaste meddelanden.</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Bifoga fil</string>
     <string name="message">Meddelande</string>
-    <string name="ConversationActivity_compose">Komponera</string>
     <string name="ConversationActivity_muted_until_date">Tystades till %1$s</string>
     <string name="ConversationActivity_muted_forever">Tystad</string>
     <string name="ConversationActivity_invalid_recipient">Ogiltig mottagare!</string>
     <string name="blockUnblock">Avblockera</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Det finns ingen app på din enhet som kan hantera den här länken.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session behöver behörigheten Mikrofon för att skicka ljudmeddelanden men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\".</string>
     <string name="cameraGrantAccessStorage">Sessionen behöver åtkomst till lagringsutrymmet för att kunna skicka foton och videor.</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Meddelande från %1$s</string>
-    <string name="LongMessageActivity_your_message">Ditt meddelande</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Samlar bifogade filer...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -121,8 +116,6 @@ för nyckelutbyte!</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">En ny version av Session finns tillgänglig, tryck för att uppdatera</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Felkrypterat meddelande</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Meddelande som krypterats för obefintlig session</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Felkrypterat MMS</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS som krypterats för obefintlig session</string>
@@ -136,12 +129,7 @@ för nyckelutbyte!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan inte spara till externt utrymme utan behörighet</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nya meddelanden i %2$d konversationer</string>
-    <string name="MessageNotifier_message_delivery_failed">Meddelandeleverans misslyckades.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Kunde inte leverera meddelande.</string>
-    <string name="MessageNotifier_error_delivering_message">Fel vid leverans av meddelande.</string>
     <string name="messageMarkRead">Läst</string>
-    <string name="MessageNotifier_pending_signal_messages">Väntande Session-meddelanden</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Du har väntande Session-meddelanden, tryck för att öppna och hämta</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtal</string>
@@ -152,7 +140,6 @@ för nyckelutbyte!</string>
     <string name="other">Övrigt</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Snabbsvar är ej tillgängligt när Session är låst!</string>
-    <string name="QuickResponseService_problem_sending_message">Problem med att skicka meddelandet!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Sparad</string>
     <!-- SearchToolbar -->
@@ -188,7 +175,6 @@ för nyckelutbyte!</string>
     <string name="messageVoiceSlideToCancel">Dra för att avbryta</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Mediameddelande</string>
-    <string name="conversation_item__secure_message_description">Säkert meddelande</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Sändningen misslyckades</string>
     <string name="conversation_item_sent__delivered_description">Levererat</string>
@@ -196,7 +182,6 @@ för nyckelutbyte!</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Gå med</string>
-    <string name="open_group_guidelines_pinned_message">Fäst meddelande</string>
     <string name="read">Läst</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Foto</string>
@@ -210,13 +195,10 @@ för nyckelutbyte!</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Vissa frågor behöver din uppmärksamhet.</string>
     <string name="disappearingMessagesSent">Skickat</string>
     <string name="received">Mottaget</string>
     <string name="message_details_header__disappears">Försvinner</string>
     <string name="message_details_header__via">Via</string>
-    <string name="message_details_header__to">Till:</string>
-    <string name="message_details_header__with">Med:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Använd anpassad inställning</string>
@@ -244,9 +226,7 @@ för nyckelutbyte!</string>
     <string name="preferences__fast">Snabb</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Långsam</string>
-    <string name="preferences__delete_old_messages">Radera gamla meddelanden</string>
     <string name="preferences__trim_all_conversations_now">Trimma alla konversationer nu</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Sök genom alla konversationer och påtvinga längdbegränsningar på konversationer</string>
     <string name="_default">Standard</string>
     <string name="incognitoKeyboard">Inkognito-tangentbord</string>
     <string name="preferences__read_receipts">Läskvittenser</string>
@@ -258,7 +238,6 @@ för nyckelutbyte!</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Nytt meddelande till...</string>
     <!-- conversation_context -->
     <string name="banUser">Bannlys användare</string>
     <string name="conversation_context__menu_reply_to_message">Svara på meddelande</string>
@@ -280,8 +259,6 @@ för nyckelutbyte!</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Raderar</string>
-    <string name="trimmer__deleting_old_messages">Raderar gamla meddelanden...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Gamla meddelanden har raderats</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Behörighet saknas</string>
     <string name="notNow">Inte nu</string>

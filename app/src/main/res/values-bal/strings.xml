@@ -9,7 +9,6 @@
     <string name="AbstractNotificationBuilder_new_message">Pesan baru</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Hapus seluruh pesan lama?</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(gambar)</string>
     <!-- AttachmentManager -->
@@ -32,7 +31,6 @@
     <string name="attachmentsAdd">Tambahkan lampiran</string>
     <string name="ConversationActivity_invalid_recipient">Penerima tidak lengkap!</string>
     <string name="blockUnblock">Buka blokir</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Tidak ada aplikasi tersedia untuk menangani tautan ini pada perangkat Anda</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session memerlukan akses ke Mikrofon untuk mengirim pesan audio, namun ditolak secara permanen. Mohon lanjutkan ke pengaturan aplikasi, pilih \"Izin\" dan aktifkan \"Mikrofon\".</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Simpan ke penyimpanan?</string>
@@ -55,8 +53,6 @@
     <string name="photo">Avatar</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">pesan dari %1$s</string>
-    <string name="LongMessageActivity_your_message">pesanmu</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Mengumpulkan lampiran...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -96,8 +92,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Versi baru Session tersedia, ketuk untuk memperbarui</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Pesan terenkripsi buruk</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Pesan dienkripsi untuk sesi yang tidak ada</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Pesan MMS terenkripsi buruk</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Pesan MMS dienkripsi untuk sesi yang tidak ada</string>
@@ -110,12 +104,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tidak bisa menyimpan ke penyimpanan luar tanpa izin</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d pesan baru dalam %2$d percakapan</string>
-    <string name="MessageNotifier_message_delivery_failed">Pengiriman pesan gagal.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Gagal mengirimkan pesan.</string>
-    <string name="MessageNotifier_error_delivering_message">Kesalahan dalam mengirimkan pesan.</string>
     <string name="messageMarkRead">Tandai sudah dibaca</string>
-    <string name="MessageNotifier_pending_signal_messages">Pesan Session tertunda</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Anda memiliki pesan Session yang tertunda, ketuk untuk membuka dan menerima</string>
     <string name="MessageNotifier_unknown_contact_message">Kontak</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Panggilan</string>
@@ -126,7 +115,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="other">Yang lain</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Tanggapan cepat tidak tersedia ketika Session sedang dikunci!</string>
-    <string name="QuickResponseService_problem_sending_message">Terjadi masalah saat mengirim pesan!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Tersimpan</string>
     <!-- SearchToolbar -->
@@ -156,7 +144,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Pesan media</string>
-    <string name="conversation_item__secure_message_description">Pesan aman</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Gagal Mengirim</string>
     <string name="conversation_item_sent__delivered_description">Terkirim</string>
@@ -175,12 +162,9 @@ memproses pertukaran kunci korupsi.</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Beberapa masalah memerlukan perhatian Anda.</string>
     <string name="disappearingMessagesSent">Terkirim</string>
     <string name="received">Diterima</string>
     <string name="message_details_header__disappears">Hilang</string>
-    <string name="message_details_header__to">Kepada:</string>
-    <string name="message_details_header__with">Dengan:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Gunakan ubahsuai</string>
@@ -200,9 +184,7 @@ memproses pertukaran kunci korupsi.</string>
     <string name="notificationsVibrate">Getar</string>
     <string name="preferences__fast">Cepat</string>
     <string name="preferences__slow">Lambat</string>
-    <string name="preferences__delete_old_messages">Hapus pesan lama</string>
     <string name="preferences__trim_all_conversations_now">Pangkas seluruh percakapan</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Pindai seluruh rangkaian percakapan dan terapkan batas panjang percakapan</string>
     <string name="_default">Bawaan</string>
     <string name="incognitoKeyboard">Papan ketik tersembunyi</string>
     <string name="preferences__read_receipts">Pesan terbaca</string>
@@ -214,7 +196,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Pesan baru ke...</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">Balas pesan</string>
     <!-- conversation_context_image -->
@@ -235,8 +216,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Menghapus</string>
-    <string name="trimmer__deleting_old_messages">Menghapus pesan lama...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Pesan lama berhasil dihapus</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Memerlukan izin akses</string>
     <string name="notNow">Nanti saja</string>

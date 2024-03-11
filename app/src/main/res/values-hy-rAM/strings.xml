@@ -15,7 +15,6 @@
         <item quantity="one">%d հաղորդագրություն խոսակցությունում</item>
         <item quantity="other">%d նամակներ մի զրույցի համար</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Ջնջե՞լ բոլոր հին հաղորդագրությունները։</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև վերջին հաղորդագրությունը.</item>
         <item quantity="other">Սա անմիջապես կջնջի բոլոր խոսակցությունները մինչև %d վերջին հաղորդագրությունը.</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ավելացնել կցորդ</string>
     <string name="message">Հաղորդագրություն</string>
-    <string name="ConversationActivity_compose">Ստեղծել</string>
     <string name="ConversationActivity_muted_until_date">Անջատված է մինչև %1$s</string>
     <string name="ConversationActivity_muted_forever">Լուռ է</string>
     <string name="ConversationActivity_invalid_recipient">Սխալ հասցեատեր</string>
     <string name="blockUnblock">Հանել արգելափակումից</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Այս հղմամբ չկան հասանելի հավելվածներ ձեր սարքում.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session-ը պահանջում է միկրոֆոնի թույտվություն, խնդրում ենք մտնել կարգավորումներ, ընտրել \"թույլտվություն\", ապա թույլատրել \"միկրոֆոնը\".</string>
     <string name="cameraGrantAccessStorage">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն, որպեսզի ունենանք մուտք դեպի նկարներ և վիդեոներ.</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">Նկար</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Նամակ %1$s֊ից</string>
-    <string name="LongMessageActivity_your_message">Ձեր նամակը</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Կցորդների հավաքում...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -124,8 +119,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Հասանել է Session֊ի նոր տարբերակը. Սեղմեք՝ թարմացնելու համար</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Սխալ գաղտնագրված նամակ</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Հաղորդագրությունը կոդավորված է գոյություն չունեցող սեսիաի համար</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Սխալ գաղտնագրված MMS նամակ</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS հաղորդագրությունը կոդավորված է գոյություն չունեցող սեսիաի համար</string>
@@ -139,12 +132,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Հնարավոր չէ պահել արտաքին պահեստում առանց թույլտվությունների</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d նոր հաղորդագրություններ %2$d խոսակցություններում</string>
-    <string name="MessageNotifier_message_delivery_failed">Հաղորդագրության առաքումը ձախողվեց:</string>
-    <string name="MessageNotifier_failed_to_deliver_message">Չհաջողվեց առաքել հաղորդագրությունը.</string>
-    <string name="MessageNotifier_error_delivering_message">Հաղորդագրության առաքման սխալ։</string>
     <string name="messageMarkRead">Նշել որպես ընթերցված</string>
-    <string name="MessageNotifier_pending_signal_messages">Չստացված նամակներ</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Դուք ունեք չստացած հաղորդագրություններ Session-ում: Սեղմեք՝ հավելվածը բացելու և դրանք ստանալու համար</string>
     <string name="MessageNotifier_unknown_contact_message">Կոնտակտ</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Զանգեր</string>
@@ -155,7 +143,6 @@
     <string name="other">Այլ</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Կարճ պատասխանը անհնար է, երբ Session-ը կողպված է:</string>
-    <string name="QuickResponseService_problem_sending_message">Հաղորդագրություն ուղարկելիս խնդիր կա:</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Պահպանված է</string>
     <!-- SearchToolbar -->
@@ -191,7 +178,6 @@
     <string name="messageVoiceSlideToCancel">Սահեցրե՛ք չեղարկման համար</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Մեդիա հաղորդագրություն</string>
-    <string name="conversation_item__secure_message_description">Անվտանգ հաղորդագրություն</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Ուղարկումը ձախողվեց</string>
     <string name="conversation_item_sent__delivered_description">Առաքված է</string>
@@ -199,7 +185,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Միանալ</string>
-    <string name="open_group_guidelines_pinned_message">Գամված հաղորդագրություն</string>
     <string name="read">Կարդալ</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Նկար</string>
@@ -213,13 +198,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Որոշ հարցեր ձեր ուշադրության կարիքն ունեն։.</string>
     <string name="disappearingMessagesSent">Ուղարկված է</string>
     <string name="received">Ստացվել է</string>
     <string name="message_details_header__disappears">Կանհետանա</string>
     <string name="message_details_header__via">Միջոցով</string>
-    <string name="message_details_header__to">Ում:</string>
-    <string name="message_details_header__with">Հետ։</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Օգտագործել հատուկ կարգավորում</string>
@@ -247,9 +229,7 @@
     <string name="preferences__fast">Արագ</string>
     <string name="preferences__normal">Նորմալ</string>
     <string name="preferences__slow">Դանդաղ</string>
-    <string name="preferences__delete_old_messages">Ջնջել հին հաղորդագրությունները</string>
     <string name="preferences__trim_all_conversations_now">Ջնջել խոսակցությունները հիմա</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Սկանավորել բոլոր խոսակցությունները և կիրառել խոսակցության երկարության սահմանափակումներ</string>
     <string name="_default">Սկզբնական</string>
     <string name="incognitoKeyboard">Չհիշել բառերը</string>
     <string name="preferences__read_receipts">Կարդալու ազդանշաններ</string>
@@ -261,7 +241,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Նոր հաղորդագրություն...</string>
     <!-- conversation_context -->
     <string name="banUser">Արգելափակել օգտատիրոչը</string>
     <string name="conversation_context__menu_reply_to_message">Պատասխանել հաղորդագրությանը</string>
@@ -283,8 +262,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Ջնջում</string>
-    <string name="trimmer__deleting_old_messages">Հին հաղորդագրությունները ջնջվում են...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Հին հաղորդագրությունները հաջողությամբ ջնջվեցին</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Անհրաժեշտ է թույլտվություն</string>
     <string name="notNow">Ոչ հիմա</string>

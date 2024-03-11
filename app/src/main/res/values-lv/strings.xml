@@ -16,7 +16,6 @@
         <item quantity="one">Sarakstē ir %d ziņojums</item>
         <item quantity="other">sarakstē ir %d ziņojumi</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Dzēst visus vecos ziņojumus?</string>
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(attēls)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(skaņa)</string>
@@ -37,7 +36,6 @@
     <string name="message">Paziņojums</string>
     <string name="ConversationActivity_invalid_recipient">Nederīgs adresāts!</string>
     <string name="blockUnblock">Atbloķēt</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Jūsu ierīcē nav pieejama neviena programma šīs saites apstrādei.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Sesijai ir nepieciešama atļauja piekļūt mikrofonam, lai sūtītu balss ziņas, bet tā ir pastāvīgi aizliegta. Lūdzu, ejiet uz programmu iestatījumiem, izvēlieties “Atļaujas” un iespējojiet “Mikrofons”.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Saglabāt krātuvē?</string>
@@ -58,7 +56,6 @@
     <string name="photo">Attēls</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">Īsziņa no %1$s</string>
     <!-- MediaOverviewActivity -->
     <!-- NotificationMmsMessageRecord -->
     <!-- MediaPickerActivity -->

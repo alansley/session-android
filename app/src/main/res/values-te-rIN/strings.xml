@@ -15,7 +15,6 @@
         <item quantity="one">సంభాషణకు %d సందేశం</item>
         <item quantity="other">సంభాషణకు %d సందేశం</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">పాత సందేశాలన్ని ఇప్పుడు చెరిపివేయాలా?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">ఇది వెంటనే ఇటీవల సందేశానికి అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
         <item quantity="other">ఇది వెంటనే ఇటీవల  %d  సందేశాలకు  అన్ని సంభాశనలో సవరణ చేస్తుంది</item>
@@ -43,10 +42,8 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">అటాచ్మెంట్ జోడించండి</string>
     <string name="message">సందేశం</string>
-    <string name="ConversationActivity_compose">కంపోజ్</string>
     <string name="ConversationActivity_invalid_recipient">చెల్లని గ్రహీత!</string>
     <string name="blockUnblock">అనుమతించు</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">మీ పరికరం ఈ లింక్ నిర్వహించడానికి ఎలాంటి అనువర్తనం లేదు.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">ఆడియో సందేశాలను పంపడానికి Sessionకు మైక్రోఫోన్ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్లకు కొనసాగించండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"మైక్రోఫోన్\" ని ప్రారంభించండి.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">నిల్వలొ దాచు?</string>
@@ -113,8 +110,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session యొక్క కొత్త వివరణం అందుబాటులో ఉంది, నవీకరణ కొరకు తట్టండి</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">సరికాని గుప్తీకరించిన సందేశం</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">సందేశం</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">చెడు ఎన్క్రిప్టెడ్ ఎంఎంఎస్ సందేశాన్ని</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">ఎంఎంఎస్ సందేశాన్ని మనుగడలో కాని సెషన్ కోసం గుప్తీకరించబడింది</string>
@@ -127,12 +122,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">అనుమతులు లేకుండా బాహ్య నిల్వకి సేవ్ చేయడం సాధ్యపడలేదు</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d సంభాషణలొ కొత్త %1$d సందేశాలు</string>
-    <string name="MessageNotifier_message_delivery_failed">సందేశం పంపుట విఫలమైనది.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">సందేషాన్ని చెర్చడం విఫలమైనది.</string>
-    <string name="MessageNotifier_error_delivering_message">సందేశం పంపడంలో లోపం</string>
     <string name="messageMarkRead">చదివినట్టు గుర్తుపెట్టు</string>
-    <string name="MessageNotifier_pending_signal_messages">Session సందేశాలు పెండింగ్లో ఉన్నాయి</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">మీ Session సందేశాలు పెండింగ్లో ఉన్నాయి, తెరవడానికి మరియు తిరిగి పొందడానికి నొక్కండి</string>
     <string name="MessageNotifier_unknown_contact_message">పరిచయం</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">కాల్స్</string>
@@ -143,7 +133,6 @@
     <string name="other">ఇతర</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session బంధించినపుడు తక్షణ స్పందన అందుబాటులొ లేదు!</string>
-    <string name="QuickResponseService_problem_sending_message">సందేశాన్ని పంపడంలొ సమస్య!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">సేవ్</string>
     <!-- SearchToolbar -->
@@ -174,7 +163,6 @@
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">మీడియ సందేశం</string>
-    <string name="conversation_item__secure_message_description">సురక్షిత సందేశం</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">పంపడం విఫలమైంది</string>
     <string name="conversation_item_sent__delivered_description">పంపిణి ఐనది</string>
@@ -193,13 +181,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">కొన్ని సమస్యలకు మీ శ్రద్ధ అవసరం.</string>
     <string name="disappearingMessagesSent">పంపిన</string>
     <string name="received">అందుకున్న</string>
     <string name="message_details_header__disappears">అదృశ్యమవుతుంది</string>
     <string name="message_details_header__via">ద్వారా</string>
-    <string name="message_details_header__to">ఎవరికి:</string>
-    <string name="message_details_header__with">ఎవరితో:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom"> నియమము ఉపయోగించు</string>
@@ -226,9 +211,7 @@
     <string name="preferences__fast">త్వరగా</string>
     <string name="preferences__normal">సాధారణంగా</string>
     <string name="preferences__slow">మెల్లిగా</string>
-    <string name="preferences__delete_old_messages">పాత సందేశాలను తొలగించు</string>
     <string name="preferences__trim_all_conversations_now">ఇప్పుడు అన్ని సంభాషణలు  కత్తిరించి సరి చేయుట </string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">అన్ని సంభాషణలు స్కాన్ చేసి తద్వారా సంభాషణ పొడవు పరిమితులు అమలుపరచు</string>
     <string name="_default">అప్రమేయ</string>
     <string name="incognitoKeyboard">అజ్ఞాత కీబోర్డ్</string>
     <string name="preferences__read_receipts">చదివిన రసీదులు</string>
@@ -239,7 +222,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">....కు కొత్త సందేశం</string>
     <!-- conversation_context -->
     <string name="conversation_context__menu_reply_to_message">సందేశానికి ప్రత్యుత్తరం ఇవ్వండి</string>
     <!-- conversation_context_image -->
@@ -260,8 +242,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">తొలగిపోతున్నాయ్</string>
-    <string name="trimmer__deleting_old_messages">పాత సందేశాలను తొలగిస్తోంది ...</string>
-    <string name="trimmer__old_messages_successfully_deleted">పాత సందేశాలు విజయవంతంగా తొలగించబడ్డాయి </string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">అనుమతి అవసరం</string>
     <string name="notNow">ఇప్పుడు కాదు</string>

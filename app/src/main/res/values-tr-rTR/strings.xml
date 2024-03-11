@@ -15,7 +15,6 @@
         <item quantity="one">Sohbet başına %d ileti</item>
         <item quantity="other">Sohbet başına %d ileti</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Eski iletilerin hepsini şimdi sil?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">Bu işlem tüm sohbetleri en yeni iletiye kadar kırpar.</item>
         <item quantity="other">Bu işlem tüm sohbetleri en yeni %d iletiye kadar kırpar.</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Eklenti ekle</string>
     <string name="message">İleti</string>
-    <string name="ConversationActivity_compose">Oluştur</string>
     <string name="ConversationActivity_muted_until_date">%1$s\'e kadar sessiz</string>
     <string name="ConversationActivity_muted_forever">Sessize alındı</string>
     <string name="ConversationActivity_invalid_recipient">Geçersiz alıcı!</string>
     <string name="blockUnblock">Engeli kaldır</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Cihazınızda bu bağlantıyı işleyebilecek uygulama bulunmamaktadır.</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session, sesli iletiler göndermek için Mikrofon iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Mikrofon\"u etkinleştirin.</string>
     <string name="cameraGrantAccessStorage">Session, fotoğraf ve video göndermek için depolama erişimine ihtiyaç duyar.</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">Resim</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">%1$s kişisinden ileti</string>
-    <string name="LongMessageActivity_your_message">İletiniz</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">Eklentiler toplanıyor...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -121,8 +116,6 @@ iletisi alındı!</string>
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session\'in yeni sürümü mevcut, güncellemek için dokunun</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">Bozuk şifrelenmiş ileti</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">İleti var olmayan bir oturum için şifrelenmiş</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">Bozuk şifrelenmiş MMS iletisi</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS iletisi var olmayan bir oturum için şifrelenmiş</string>
@@ -136,12 +129,7 @@ iletisi alındı!</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İzinler olmadan harici depolamaya kaydedilemiyor</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d sohbetten %1$d yeni ileti</string>
-    <string name="MessageNotifier_message_delivery_failed">İleti teslimi başarısız oldu.</string>
-    <string name="MessageNotifier_failed_to_deliver_message">İleti teslim edilemedi.</string>
-    <string name="MessageNotifier_error_delivering_message">İleti tesliminde hata.</string>
     <string name="messageMarkRead">Okundu işaretle</string>
-    <string name="MessageNotifier_pending_signal_messages">Bekleyen Session iletileri</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">Bekleyen Session iletileriniz var, almak ve açmak için dokunun</string>
     <string name="MessageNotifier_unknown_contact_message">Kişi</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Aramalar</string>
@@ -152,7 +140,6 @@ iletisi alındı!</string>
     <string name="other">Diğer</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session kilitliyken hızlı cevap kullanılamaz!</string>
-    <string name="QuickResponseService_problem_sending_message">İleti gönderilirken hata!</string>
     <!-- SaveAttachmentTask -->
     <string name="saved">Kaydedildi</string>
     <!-- SearchToolbar -->
@@ -188,7 +175,6 @@ iletisi alındı!</string>
     <string name="messageVoiceSlideToCancel">İptal etmek için kaydırın</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">Medya iletisi</string>
-    <string name="conversation_item__secure_message_description">Güvenli ileti</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">Gönderme başarısız</string>
     <string name="conversation_item_sent__delivered_description">Gönderildi</string>
@@ -196,7 +182,6 @@ iletisi alındı!</string>
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">Katıl</string>
-    <string name="open_group_guidelines_pinned_message">Sabitlenen mesaj</string>
     <string name="read">Okundu</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">Fotoğraf</string>
@@ -210,13 +195,10 @@ iletisi alındı!</string>
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">Bazı sorunlar ilginizi gerektiriyor.</string>
     <string name="disappearingMessagesSent">Gönderildi</string>
     <string name="received">Alındı</string>
     <string name="message_details_header__disappears">Kaybolacak</string>
     <string name="message_details_header__via">Vasıtasıyla</string>
-    <string name="message_details_header__to">Alıcı:</string>
-    <string name="message_details_header__with">İle:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Özelleştirilmiş kullan</string>
@@ -244,9 +226,7 @@ iletisi alındı!</string>
     <string name="preferences__fast">Hızlı</string>
     <string name="preferences__normal">Normal</string>
     <string name="preferences__slow">Yavaş</string>
-    <string name="preferences__delete_old_messages">Eski iletileri sil</string>
     <string name="preferences__trim_all_conversations_now">Tüm sohbetleri şimdi kırp</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Tüm sohbetleri tara ve sohbet uzunluğu limitlerini uygula</string>
     <string name="_default">Varsayılan</string>
     <string name="incognitoKeyboard">Gizli klavye</string>
     <string name="preferences__read_receipts">Okundu bilgisi</string>
@@ -258,7 +238,6 @@ iletisi alındı!</string>
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">Yeni ileti...</string>
     <!-- conversation_context -->
     <string name="banUser">Kullanıcıyı engelle</string>
     <string name="conversation_context__menu_reply_to_message">İletiyi yanıtla</string>
@@ -280,8 +259,6 @@ iletisi alındı!</string>
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">Siliniyor</string>
-    <string name="trimmer__deleting_old_messages">Eski iletiler siliniyor...</string>
-    <string name="trimmer__old_messages_successfully_deleted">Eski iletiler başarıyla silindi</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">İzin gerekli</string>
     <string name="notNow">Şimdi değil</string>

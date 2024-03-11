@@ -15,7 +15,6 @@
         <item quantity="one">%d संदेश प्रति बातचीत</item>
         <item quantity="other">%d संदेश प्रति बातचीत</item>
     </plurals>
-    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">सभी पुराने संदेश अभी नष्ट करें?</string>
     <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
         <item quantity="one">यह तुरंत सभी वार्तालापों को हाल ही के संदेश में ट्रिम कर देगा।</item>
         <item quantity="other">यह तुरंत सभी वार्तालापों को हाल ही के %d संदेशों में ट्रिम कर देगा।</item>
@@ -43,12 +42,10 @@
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">अटैचमेंट जोड़ें</string>
     <string name="message">मैसेज</string>
-    <string name="ConversationActivity_compose">लिखें</string>
     <string name="ConversationActivity_muted_until_date">%s तक मौन किया</string>
     <string name="ConversationActivity_muted_forever">म्यूट हो गए</string>
     <string name="ConversationActivity_invalid_recipient">अवैध प्राप्तकर्ता</string>
     <string name="blockUnblock">अनब्लॉक करें</string>
-    <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">आपके डिवाइस पर इस लिंक को संभालने के लिए कोई ऐप उपलब्ध नहीं है।</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">ऑडियो संदेशों को भेजने के लिए Session को माइक्रोफ़ोन अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"माइक्रोफ़ोन\" सक्षम करें।</string>
     <string name="cameraGrantAccessStorage">Session को फ़ोटो या वीडियो लेने के लिए Storage अनुमति चाहिए</string>
     <!-- ConversationFragment -->
@@ -76,8 +73,6 @@
     <string name="photo">तस्वीर</string>
     <!-- InputPanel -->
     <!-- LongMessageActivity -->
-    <string name="LongMessageActivity_message_from_s">%1$s से संदेश</string>
-    <string name="LongMessageActivity_your_message">आपका संदेश</string>
     <!-- MediaOverviewActivity -->
     <string name="attachmentsCollecting">अटैचमेंट्स इकट्ठे कर रहे हैं...</string>
     <!-- NotificationMmsMessageRecord -->
@@ -121,8 +116,6 @@
     <!-- UpdateApkReadyListener -->
     <string name="updateNewVersion">Session का एक नया संस्करण उपलब्ध है, अपडेट करने के लिए टैप करें</string>
     <!-- MessageDisplayHelper -->
-    <string name="MessageDisplayHelper_bad_encrypted_message">खराब एन्क्रिप्टेड संदेश</string>
-    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">गैर-मौजूदा सत्र के लिए संदेश एन्क्रिप्ट किया गया</string>
     <!-- MmsMessageRecord -->
     <string name="MmsMessageRecord_bad_encrypted_mms_message">खराब एन्क्रिप्टेड एमएमएस संदेश</string>
     <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">गैर-मौजूदा सत्र के लिए एमएमएस संदेश एन्क्रिप्ट किया गया </string>
@@ -136,12 +129,7 @@
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">अनुमति के बिना बाहरी भंडारण में सहेजने में असमर्थ</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d बातचीत में %1$d नए संदेश</string>
-    <string name="MessageNotifier_message_delivery_failed">संदेश प्रेषण असफल हुआ</string>
-    <string name="MessageNotifier_failed_to_deliver_message">संदेश देने में विफल रहा</string>
-    <string name="MessageNotifier_error_delivering_message">संदेश देने में त्रुटि</string>
     <string name="messageMarkRead">पढ़ा हुआ चिह्नित करें</string>
-    <string name="MessageNotifier_pending_signal_messages">लंबित Session संदेश</string>
-    <string name="MessageNotifier_you_have_pending_signal_messages">आपके पास Session संदेश लंबित हैं, खोलने और पुनर्प्राप्त करने के लिए टैप करें</string>
     <string name="MessageNotifier_unknown_contact_message">संपर्क</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">कॉल</string>
@@ -152,7 +140,6 @@
     <string name="other">अन्य</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session लॉक होने पर त्वरित प्रतिक्रिया अनुपलब्ध है!</string>
-    <string name="QuickResponseService_problem_sending_message">संदेश भेजने में दिक्कत हुआ </string>
     <!-- SaveAttachmentTask -->
     <string name="saved">सेव किया गया</string>
     <!-- SearchToolbar -->
@@ -188,7 +175,6 @@
     <string name="messageVoiceSlideToCancel">रद्द करने के लिए स्लाइड करें</string>
     <!-- conversation_item -->
     <string name="conversation_item__mms_image_description">मीडिया संदेश</string>
-    <string name="conversation_item__secure_message_description">सुरक्षित संदेश</string>
     <!-- conversation_item_sent -->
     <string name="conversation_item_sent__send_failed_indicator_description">भेजना विफल</string>
     <string name="conversation_item_sent__delivered_description">पहुंचा दिया</string>
@@ -196,7 +182,6 @@
     <!-- audio_view -->
     <!-- open_group_invitation_view -->
     <string name="join">ज्वॉइन करें</string>
-    <string name="open_group_guidelines_pinned_message">पिन किया संदेश</string>
     <string name="read">पढ़ें</string>
     <!-- QuoteView -->
     <string name="QuoteView_photo">फ़ोटो</string>
@@ -210,13 +195,10 @@
     <!-- message_recipients_list_item -->
     <!-- recipient_preferences -->
     <!-- message_details_header -->
-    <string name="message_details_header__issues_need_your_attention">कुछ मुद्दों पर ध्यान देना होगा</string>
     <string name="disappearingMessagesSent"> भेजा गया </string>
     <string name="received"> मिल गया </string>
     <string name="message_details_header__disappears">गायब हो जाता है</string>
     <string name="message_details_header__via">राह </string>
-    <string name="message_details_header__to">: के लिए </string>
-    <string name="message_details_header__with">साथ </string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">कस्टम का इस्तेमाल करें </string>
@@ -244,9 +226,7 @@
     <string name="preferences__fast">तेज</string>
     <string name="preferences__normal">साधारण</string>
     <string name="preferences__slow">धीमा</string>
-    <string name="preferences__delete_old_messages">पुराने संदेश हटाएं</string>
     <string name="preferences__trim_all_conversations_now">अब सभी वार्तालापों को ट्रिम करें</string>
-    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">सभी वार्तालापों के माध्यम से स्कैन करें और बातचीत की लंबाई सीमा लागू करें</string>
     <string name="_default">डिफ़ॉल्ट</string>
     <string name="incognitoKeyboard">गुप्त कीबोर्ड</string>
     <string name="preferences__read_receipts">पढ़ने की रसीदें</string>
@@ -258,7 +238,6 @@
     <!-- menus -->
     <!-- **************************************** -->
     <!-- contact_selection_list -->
-    <string name="contact_selection_list__unknown_contact">नया संदेश</string>
     <!-- conversation_context -->
     <string name="banUser">प्रतिबंध उपयोगकर्ता</string>
     <string name="conversation_context__menu_reply_to_message">संदेश का जवाब</string>
@@ -280,8 +259,6 @@
     <!-- media_preview_activity -->
     <!-- Trimmer -->
     <string name="deleting">विलोपन</string>
-    <string name="trimmer__deleting_old_messages">पुराने संदेशों को हटा रहा है</string>
-    <string name="trimmer__old_messages_successfully_deleted">पुराने संदेश सफलतापूर्वक हटाए गए</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">अनुमति की आवश्यकता</string>
     <string name="notNow">अभी नहीं</string>
