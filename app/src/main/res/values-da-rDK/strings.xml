@@ -124,7 +124,6 @@ udveksel besked!</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Opkald</string>
     <string name="NotificationChannel_failures">Registrerede fejl</string>
-    <string name="NotificationChannel_backups">Sikkerhedskopier</string>
     <string name="lockAppStatus">Låse status</string>
     <string name="updateApp">App opdateringer</string>
     <string name="other">Andet</string>
@@ -194,7 +193,6 @@ udveksel besked!</string>
     <string name="arrays__images">Billeder</string>
     <string name="audio">Lyd</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Normal</string>
     <string name="max">Max.</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -208,9 +206,6 @@ udveksel besked!</string>
     <string name="notificationsLedColor">LED farve</string>
     <string name="notificationsSound">Lyd</string>
     <string name="notificationsVibrate">Vibration</string>
-    <string name="preferences__fast">Hurtig</string>
-    <string name="preferences__normal">Normal</string>
-    <string name="preferences__slow">Langsom</string>
     <string name="preferences__trim_all_conversations_now">Trim alle samtaler</string>
     <string name="_default">Standard</string>
     <string name="incognitoKeyboard">Inkognito tastatur</string>
@@ -245,18 +240,7 @@ udveksel besked!</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Tilladelse krævet</string>
     <string name="notNow">Ikke nu</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backup´s vil blive gemt til ekstern placering og krypteret med koden herunder. Du skal kende denne kode for at kunne genskabe fra backup´en</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Jeg har nedskrevet koden. Uden den vil jeg ikke have mulighed for at genskabe fra backup</string>
     <string name="registration_activity__skip">Spring over</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Kan ikke importere backup´s fra nyere versioner af Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Forkert kodeord for backup</string>
-    <string name="BackupDialog_enable_local_backups">Aktiver lokale sikkerhedskopier?</string>
-    <string name="BackupDialog_enable_backups">Aktiver sikkerhedskopier</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Tilkendegiv venligst din forståelse, ved at sætte et flueben i feltet</string>
-    <string name="BackupDialog_delete_backups">Skal sikkerhedskopier slettes?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Deaktivér og slet alle lokale backup\'s?</string>
-    <string name="BackupDialog_delete_backups_statement">Slet backup\'s</string>
-    <string name="LocalBackupJob_creating_backup">Opretter backup...</string>
     <string name="preferences_app_protection__screen_lock">Skærmlås</string>
     <!-- Conversation activity -->
     <!-- Session -->

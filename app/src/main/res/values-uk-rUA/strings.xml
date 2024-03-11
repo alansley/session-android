@@ -134,7 +134,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Виклики</string>
     <string name="NotificationChannel_failures">Відмови</string>
-    <string name="NotificationChannel_backups">Резервні копії</string>
     <string name="lockAppStatus">Статус блокування</string>
     <string name="updateApp">Оновлення додатку</string>
     <string name="other">Інший</string>
@@ -206,7 +205,6 @@
     <string name="arrays__images">Зображення</string>
     <string name="audio">Аудіо</string>
     <string name="video">Відео</string>
-    <string name="arrays__normal">Звичайний</string>
     <string name="max">Максимум</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -222,9 +220,6 @@
     <string name="notificationsLedColor">Колір LED</string>
     <string name="notificationsSound">Звук</string>
     <string name="notificationsVibrate">Вібрувати</string>
-    <string name="preferences__fast">Швидко</string>
-    <string name="preferences__normal">Звичайний</string>
-    <string name="preferences__slow">Повільно</string>
     <string name="preferences__trim_all_conversations_now">Обрізати усі розмови зараз</string>
     <string name="_default">Типово</string>
     <string name="incognitoKeyboard">Клавіатура в режимі \"інкогніто\"</string>
@@ -259,18 +254,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Необхідний дозвіл</string>
     <string name="notNow">Не зараз</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервна копія буду збережена у зовнішньому сховищі та зашифрована за допомогою наведеної нижче фрази-паролю. Ви повинні використати її для відновлення резервної копії.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записав цю фразу-пароль. Без неї я не зможу відновити резервну копію.</string>
     <string name="registration_activity__skip">Пропустити</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Неможливо імпортувати резервні копії з новіших версій Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Хибна фраза-пароль!</string>
-    <string name="BackupDialog_enable_local_backups">Увімкнути локальні резервні копії?</string>
-    <string name="BackupDialog_enable_backups">Увімкнути резервні копії</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Підтвердіть, що ви розумієте про що йдеться поставивши галочку</string>
-    <string name="BackupDialog_delete_backups">Видалити резервні копії?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Вимкнути та видалити усі локальні резервні копії?</string>
-    <string name="BackupDialog_delete_backups_statement">Видалити резервні копії</string>
-    <string name="LocalBackupJob_creating_backup">Створення резервної копії...</string>
     <string name="preferences_app_protection__screen_lock">Блокування екрану</string>
     <!-- Conversation activity -->
     <!-- Session -->

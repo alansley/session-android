@@ -124,7 +124,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Chamadas</string>
     <string name="NotificationChannel_failures">Erros</string>
-    <string name="NotificationChannel_backups">Copias de seguranza</string>
     <string name="lockAppStatus">Bloquear estado</string>
     <string name="updateApp">Actualizacións da app</string>
     <string name="other">Outra</string>
@@ -207,8 +206,6 @@
     <string name="notificationsLedColor">Cor LED</string>
     <string name="notificationsSound">Son</string>
     <string name="notificationsVibrate">Vibrar</string>
-    <string name="preferences__fast">Rápida</string>
-    <string name="preferences__slow">Lenta</string>
     <string name="preferences__trim_all_conversations_now">Recortar as mensaxes agora</string>
     <string name="_default">Por defecto</string>
     <string name="incognitoKeyboard">Teclado de incógnito</string>
@@ -243,18 +240,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Permiso necesario</string>
     <string name="notNow">Agora non</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">As copias de seguranza gardaranse no almacenamento externo e cifraranse cunha frase de paso. A devandita frase é necesaria para restaurar unha copia de seguranza.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Escribín esta frase de paso. Sen ela non poderei restaurar unha copia de seguranza.</string>
     <string name="registration_activity__skip">Omitir</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Non se pode importar copias de seguranza a partir de versións de Session máis recentes</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Frase de paso incorrecta</string>
-    <string name="BackupDialog_enable_local_backups">Activar copias de seguranza locais?</string>
-    <string name="BackupDialog_enable_backups">Activar copias de seguranza</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Por favor, recoñece que o entendes marcando a caixa de comprobación.</string>
-    <string name="BackupDialog_delete_backups">Borrar copias de seguranza?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Desactivar e borrar todas as copias de seguranza locais?</string>
-    <string name="BackupDialog_delete_backups_statement">Borrar copias de seguranza</string>
-    <string name="LocalBackupJob_creating_backup">Creando copia de seguranza...</string>
     <string name="preferences_app_protection__screen_lock">Bloqueo da pantalla</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -132,7 +132,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Połączenia</string>
     <string name="NotificationChannel_failures">Awarie</string>
-    <string name="NotificationChannel_backups">Kopie zapasowe</string>
     <string name="lockAppStatus">Status blokady</string>
     <string name="updateApp">Aktualizacje aplikacji</string>
     <string name="other">Inny</string>
@@ -204,7 +203,6 @@
     <string name="arrays__images">Zdjęcia</string>
     <string name="audio">Dźwięk</string>
     <string name="video">Wideo</string>
-    <string name="arrays__normal">Normalny</string>
     <string name="max">Maksymalny</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -220,9 +218,6 @@
     <string name="notificationsLedColor">Kolor LED</string>
     <string name="notificationsSound">Dźwięk</string>
     <string name="notificationsVibrate">Wibracje</string>
-    <string name="preferences__fast">Szybko</string>
-    <string name="preferences__normal">Normalnie</string>
-    <string name="preferences__slow">Wolno</string>
     <string name="preferences__trim_all_conversations_now">Przytnij wszystkie konwersacje teraz</string>
     <string name="_default">Domyślne</string>
     <string name="incognitoKeyboard">Klawiatura w trybie prywatnym</string>
@@ -257,18 +252,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Wymagane uprawnienia</string>
     <string name="notNow">Nie teraz</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Kopia zapasowa zostanie zapisana w pamięci urządzenia i zaszyfrowana za pomocą poniższego hasła. Musisz mieć to hasło, aby przywrócić kopię zapasową.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Zapisałem(am) to hasło. Bez tego nie będę mógł(a) przywrócić kopii zapasowej.</string>
     <string name="registration_activity__skip">Pomiń</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Nie udało się zaimportować kopii zapasowej z nowszej wersji Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Nieprawidłowe hasło kopii zapasowej</string>
-    <string name="BackupDialog_enable_local_backups">Włączyć kopie zapasowe?</string>
-    <string name="BackupDialog_enable_backups">Włącz kopie zapasowe</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Potwierdź, że to rozumiesz, zaznaczając pole.</string>
-    <string name="BackupDialog_delete_backups">Usunąć kopie zapasowe?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Wyłączyć i usunąć wszystkie lokalne kopie zapasowe?</string>
-    <string name="BackupDialog_delete_backups_statement">Usuń kopie zapasowe</string>
-    <string name="LocalBackupJob_creating_backup">Tworzenie kopii zapasowej...</string>
     <string name="preferences_app_protection__screen_lock">Blokada ekranu</string>
     <!-- Conversation activity -->
     <!-- Session -->

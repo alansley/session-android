@@ -94,7 +94,6 @@
     <string name="MessageNotifier_unknown_contact_message">အဆက်အသွယ်</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ဖုန်းခေါ်ဆိုမှုများ</string>
-    <string name="NotificationChannel_backups">အရံသိမ်းဆည်းမှုများ</string>
     <string name="other">အခြား</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session လော့ခ်ကျသွားသည့်အခါ ချက်ချင်းမတုံ့ပြန်နိုင်ပါ!</string>
@@ -151,7 +150,6 @@
     <string name="arrays__images">ပုံများ</string>
     <string name="audio">အသံ</string>
     <string name="video">ဗီဒီယို</string>
-    <string name="arrays__normal">ပုံမှန်</string>
     <string name="max">အများဆုံး</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
@@ -160,9 +158,6 @@
     <string name="notificationsLedColor">LED အရောင်</string>
     <string name="notificationsSound">အသံ</string>
     <string name="notificationsVibrate">တုန်ခါသည်</string>
-    <string name="preferences__fast">အမြန်</string>
-    <string name="preferences__normal">ပုံမှန်</string>
-    <string name="preferences__slow">အနှေး</string>
     <string name="preferences__trim_all_conversations_now">စကားဝိုင်းများအားလုံးကို အခု ညှိပါ</string>
     <string name="_default">မူလ</string>
     <string name="incognitoKeyboard">နောက်ယောင်ခံမှု မရှိသည့် ကီးဘုတ်</string>
@@ -194,17 +189,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">ခွင့်ပြုချက် လိုအပ်သည်</string>
     <string name="notNow">အခုမဟုတ်သေးပါ။</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">အရံသိမ်းထားသည်များကို အပလီကေးရှင်းပြင်ပ ဖုန်းထဲတွင် သိမ်းပြီး အောက်ပါ စကားဝှက်ဖြင့် လုံခြုံစွာ သိမ်းထားပါမည်။ အရံသိမ်းထားသောဖိုင်များကို ပြန်ရယူနိုင်ရန် ဤစကားဝှက်ရှိကို ရှိရမည်။</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">စကားဝှက်ကို ရေးမှတ်ပြီးပါပြီ။ စကားဝှက်မပါလျှင် အရံသိမ်းထားသောဖိုင်များကို ပြန်မရနိုင်ပါ။</string>
     <string name="registration_activity__skip">ကျော်ပါ</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">အရံသိမ်းဆည်းမှုအတွက်စကားဝှက် မမှန်ကန်ပါ</string>
-    <string name="BackupDialog_enable_local_backups">ဖုန်းထဲတွင် အရံသိမ်းထားသည်များကို ဖွင့်မည်လား?</string>
-    <string name="BackupDialog_enable_backups">အရံသိမ်းဆည်းခြင်းကို လုပ်ဆောင်မည်</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">သင်နားလည်ပါက လေးထောင့်ကွက်အတွင်း အမှန်ခြစ်ခြစ်ပေးပါ။</string>
-    <string name="BackupDialog_delete_backups">အရံသိမ်းဆည်းထားမှုများကို ဖျက်ပစ်မည်လား?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">ဖုန်းထဲတွင် အရံသိမ်းထားသောဖိုင်များကို ပိတ်ပြီး ဖျက်မည်လား?</string>
-    <string name="BackupDialog_delete_backups_statement">အရံသိမ်းထားသည်များကို ဖျက်မည်</string>
-    <string name="LocalBackupJob_creating_backup">အရံသိမ်းဆည်းမှုများ ဖန်တီးနေပါသည်...</string>
     <string name="preferences_app_protection__screen_lock">မျက်နှာပြင် ပိတ်ထားခြင်း</string>
     <!-- Conversation activity -->
     <!-- Session -->

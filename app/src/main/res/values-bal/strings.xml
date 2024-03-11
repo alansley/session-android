@@ -100,7 +100,6 @@ memproses pertukaran kunci korupsi.</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Panggilan</string>
     <string name="NotificationChannel_failures">Gagal</string>
-    <string name="NotificationChannel_backups">Cadangan</string>
     <string name="lockAppStatus">Status penguncian</string>
     <string name="updateApp">pembaruan aplikasi</string>
     <string name="other">Yang lain</string>
@@ -168,8 +167,6 @@ memproses pertukaran kunci korupsi.</string>
     <string name="notificationsLedColor">Warna LED</string>
     <string name="notificationsSound">Bunyi</string>
     <string name="notificationsVibrate">Getar</string>
-    <string name="preferences__fast">Cepat</string>
-    <string name="preferences__slow">Lambat</string>
     <string name="preferences__trim_all_conversations_now">Pangkas seluruh percakapan</string>
     <string name="_default">Bawaan</string>
     <string name="incognitoKeyboard">Papan ketik tersembunyi</string>
@@ -203,18 +200,7 @@ memproses pertukaran kunci korupsi.</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Memerlukan izin akses</string>
     <string name="notNow">Nanti saja</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Cadangan akan disimpan ke penyimpanan luar dan mengenkripsi dengan frase di bawah. Anda mesti memiliki frase ini untuk mengembalikan cadangan.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Saya telah mencatat frase ini. Tanpa ini, saya tidak dapat mengembalikan cadangan.</string>
     <string name="registration_activity__skip">Lewati</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Tidak bisa mengimpor cadangan dari versi Session yang lebih baru</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Cadangan frase tidak benar</string>
-    <string name="BackupDialog_enable_local_backups">Aktifkan cadangan lokal?</string>
-    <string name="BackupDialog_enable_backups">Aktifkan cadangan</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Mohon informasikan jika Anda memahami dengan mencentang kotak konfirmasi.</string>
-    <string name="BackupDialog_delete_backups">Hapus cadangan?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Nonaktifkan dan hapus semua cadangan lokal?</string>
-    <string name="BackupDialog_delete_backups_statement">Hapus cadangan</string>
-    <string name="LocalBackupJob_creating_backup">Buat cadangan</string>
     <string name="preferences_app_protection__screen_lock">Layar terkunci</string>
     <!-- Conversation activity -->
     <!-- Session -->

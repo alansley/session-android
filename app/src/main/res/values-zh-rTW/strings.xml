@@ -123,7 +123,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">通話</string>
     <string name="NotificationChannel_failures">失敗</string>
-    <string name="NotificationChannel_backups">備份</string>
     <string name="lockAppStatus">鎖定狀態</string>
     <string name="updateApp">應用程式更新</string>
     <string name="other">其他</string>
@@ -192,7 +191,6 @@
     <string name="arrays__images">圖片</string>
     <string name="audio">音訊</string>
     <string name="video">影片</string>
-    <string name="arrays__normal">正常</string>
     <string name="max">最大的</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -205,9 +203,6 @@
     <string name="notificationsLedColor">LED燈號顏色</string>
     <string name="notificationsSound">提示音效</string>
     <string name="notificationsVibrate">震動</string>
-    <string name="preferences__fast">快速</string>
-    <string name="preferences__normal">正常</string>
-    <string name="preferences__slow">緩慢</string>
     <string name="preferences__trim_all_conversations_now">現在開始精簡所有的對話群組</string>
     <string name="_default">預設</string>
     <string name="incognitoKeyboard">隱私鍵盤</string>
@@ -242,18 +237,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">需要權限</string>
     <string name="notNow">稍後</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">備份將會儲存到外部儲存空間，並以下方的密碼加密。你必須擁有這個密碼來還原此備份。</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已經寫下密碼。沒有密碼，我將無法還原此備份。</string>
     <string name="registration_activity__skip">略過</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">無法從較新版本的 Session 匯入備份檔</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">不正確的備份密碼</string>
-    <string name="BackupDialog_enable_local_backups">啟用本機備份？</string>
-    <string name="BackupDialog_enable_backups">啟用備份</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">確保你已了解，請標記確認核取框</string>
-    <string name="BackupDialog_delete_backups">刪除備份？</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">關閉及刪除所有本機備份？</string>
-    <string name="BackupDialog_delete_backups_statement">刪除備份</string>
-    <string name="LocalBackupJob_creating_backup">正在建立備份...</string>
     <string name="preferences_app_protection__screen_lock">螢幕鎖定</string>
     <!-- Conversation activity -->
     <!-- Session -->

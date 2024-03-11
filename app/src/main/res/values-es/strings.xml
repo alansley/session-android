@@ -125,7 +125,6 @@ de intercambio de claves!</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Llamadas</string>
     <string name="NotificationChannel_failures">Fallos</string>
-    <string name="NotificationChannel_backups">Copias de seguridad</string>
     <string name="lockAppStatus">Estado de bloqueo</string>
     <string name="updateApp">Actualizaciones de la aplicación</string>
     <string name="other">Otros</string>
@@ -195,7 +194,6 @@ de intercambio de claves!</string>
     <string name="arrays__images">Imágenes</string>
     <string name="audio">Audio</string>
     <string name="video">Vídeo</string>
-    <string name="arrays__normal">Normal</string>
     <string name="max">Máximo</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -209,9 +207,6 @@ de intercambio de claves!</string>
     <string name="notificationsLedColor">Color del LED</string>
     <string name="notificationsSound">Sonido</string>
     <string name="notificationsVibrate">Vibración</string>
-    <string name="preferences__fast">Rápido</string>
-    <string name="preferences__normal">Normal</string>
-    <string name="preferences__slow">Despacio</string>
     <string name="preferences__trim_all_conversations_now">Recortar ahora todos los chats</string>
     <string name="_default">Por defecto</string>
     <string name="incognitoKeyboard">Teclado incógnito</string>
@@ -246,18 +241,7 @@ de intercambio de claves!</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Permiso necesario</string>
     <string name="notNow">Ahora no</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Las copias de seguridad se guardarán en una unidad de almacenamiento externo y se cifrarán con la clave de debajo. Necesitas esta clave para poder restaurar una copia de seguridad.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">He anotado esta clave. Sé que sin ella, no podré restaurar la copia de seguridad.</string>
     <string name="registration_activity__skip">Omitir</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">No se pueden importar copias de seguridad de versiones más recientes de Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">La clave de la copia de seguridad es incorrecta</string>
-    <string name="BackupDialog_enable_local_backups">¿Activar copias de seguridad locales?</string>
-    <string name="BackupDialog_enable_backups">Activar copias</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Por favor, indica que lo has comprendido marcando la casilla de confirmación.</string>
-    <string name="BackupDialog_delete_backups">¿Eliminar copias de seguridad?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">¿Desactivar y eliminar todas las copias de seguridad locales?</string>
-    <string name="BackupDialog_delete_backups_statement">Eliminar copias de seguridad</string>
-    <string name="LocalBackupJob_creating_backup">Creando copia de seguridad ...</string>
     <string name="preferences_app_protection__screen_lock">Bloqueo de pantalla</string>
     <!-- Conversation activity -->
     <!-- Session -->

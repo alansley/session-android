@@ -131,7 +131,6 @@ schimbul de chei este corupt </string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Apeluri</string>
     <string name="NotificationChannel_failures">Erori</string>
-    <string name="NotificationChannel_backups">Backup-uri</string>
     <string name="lockAppStatus">Stare blocare</string>
     <string name="updateApp">Actualizări aplicație</string>
     <string name="other">Altul</string>
@@ -202,7 +201,6 @@ schimbul de chei este corupt </string>
     <string name="arrays__images">Imagini</string>
     <string name="audio">Audio</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Normal</string>
     <string name="max">Maximă</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -217,9 +215,6 @@ schimbul de chei este corupt </string>
     <string name="notificationsLedColor">Culoare LED</string>
     <string name="notificationsSound">Sunet</string>
     <string name="notificationsVibrate">Vibrează</string>
-    <string name="preferences__fast">Rapid</string>
-    <string name="preferences__normal">Normal</string>
-    <string name="preferences__slow">Încet</string>
     <string name="preferences__trim_all_conversations_now">Scurtează acum toate conversaţiile </string>
     <string name="_default">Implicit</string>
     <string name="incognitoKeyboard">Tastatură incognito</string>
@@ -254,18 +249,7 @@ schimbul de chei este corupt </string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">E nevoie de permisiune</string>
     <string name="notNow">Nu acum</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backup-urile se vor salva pe stocarea externă și vor fi criptate cu parola de mai jos. Trebuie sa aveți această parola pentru a putea restaura un backup.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Am scris parola. Fără ea nu voi putea restaura un backup.</string>
     <string name="registration_activity__skip">Omite</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Nu se pot importa backup-uri din versiuni mai noi de Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Parola pentru backup este incorectă</string>
-    <string name="BackupDialog_enable_local_backups">Activez backup-urile locale?</string>
-    <string name="BackupDialog_enable_backups">Activează backup-urile</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Vă rog să vă dați acceptul prin marcarea căsuței de confirmare.</string>
-    <string name="BackupDialog_delete_backups">Șterg backup-urile?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Dezactivez și șterg toate backup-urile locale?</string>
-    <string name="BackupDialog_delete_backups_statement">Șterge backup-urile</string>
-    <string name="LocalBackupJob_creating_backup">Se creează backup-ul...</string>
     <string name="preferences_app_protection__screen_lock">Blocare ecran</string>
     <!-- Conversation activity -->
     <!-- Session -->

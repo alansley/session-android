@@ -125,7 +125,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">कॉल</string>
     <string name="NotificationChannel_failures">विफलतायें </string>
-    <string name="NotificationChannel_backups">बैकअप</string>
     <string name="lockAppStatus">लॉक स्थिति</string>
     <string name="updateApp">ऐप अपडेट</string>
     <string name="other">अन्य</string>
@@ -195,7 +194,6 @@
     <string name="arrays__images">तसवीरें </string>
     <string name="audio">ऑडियो </string>
     <string name="video">वीडियो </string>
-    <string name="arrays__normal">साधारण</string>
     <string name="max">अधिकतम</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -209,9 +207,6 @@
     <string name="notificationsLedColor">LED रंग </string>
     <string name="notificationsSound">आवाज़ </string>
     <string name="notificationsVibrate"> वाइब्रेट</string>
-    <string name="preferences__fast">तेज</string>
-    <string name="preferences__normal">साधारण</string>
-    <string name="preferences__slow">धीमा</string>
     <string name="preferences__trim_all_conversations_now">अब सभी वार्तालापों को ट्रिम करें</string>
     <string name="_default">डिफ़ॉल्ट</string>
     <string name="incognitoKeyboard">गुप्त कीबोर्ड</string>
@@ -246,18 +241,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">अनुमति की आवश्यकता</string>
     <string name="notNow">अभी नहीं</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">बैकअप को बाहरी स्टोरेज में सहेजा जाएगा और नीचे पासफ्रेज से एन्क्रिप्ट किया जाएगा। बैकअप को पुनर्स्थापित करने के लिए आपके पास यह पासफ्रेज़ होना चाहिए।</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">मैंने इस पासफ्रेज को लिखा है। इसके बिना, मैं बैकअप को पुनर्स्थापित करने में असमर्थ हूं।</string>
     <string name="registration_activity__skip">छोड़ दे </string>
-    <string name="RegistrationActivity_backup_failure_downgrade">सेशन के नए वर्जन से बैकअप लाने में असमर्थ</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">गलत बैकअप पासफ्रेज</string>
-    <string name="BackupDialog_enable_local_backups">स्थानीय बैकअप सक्षम करें?</string>
-    <string name="BackupDialog_enable_backups">बैकअप सक्षम करें</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">पुष्टिकरण चेक बॉक्स को चिह्नित करके कृपया अपनी समझ को स्वीकार करें।</string>
-    <string name="BackupDialog_delete_backups">बैकअप हटाएं?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">सभी स्थानीय बैकअप अक्षम करें और हटाएं?</string>
-    <string name="BackupDialog_delete_backups_statement">बैकअप हटाएं</string>
-    <string name="LocalBackupJob_creating_backup">बैकअप बनाया जा रहा है</string>
     <string name="preferences_app_protection__screen_lock">स्क्रीन लॉक</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -125,7 +125,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Thirrje</string>
     <string name="NotificationChannel_failures">Dështime</string>
-    <string name="NotificationChannel_backups">Kopjeruajtje</string>
     <string name="lockAppStatus">Gjendje kyçjeje</string>
     <string name="updateApp">Përditësime aplikacioni</string>
     <string name="other">Tjetër</string>
@@ -195,7 +194,6 @@
     <string name="arrays__images">Figura</string>
     <string name="audio">Audio</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Normale</string>
     <string name="max">Maks.</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -209,9 +207,6 @@
     <string name="notificationsLedColor">Ngjyrë LED-i</string>
     <string name="notificationsSound">Tingull</string>
     <string name="notificationsVibrate">Dridhu</string>
-    <string name="preferences__fast">I shpejtë</string>
-    <string name="preferences__normal">Normale</string>
-    <string name="preferences__slow">I ngadaltë</string>
     <string name="preferences__trim_all_conversations_now">Shkurtoji krejt bisedat tash</string>
     <string name="_default">Parazgjedhje</string>
     <string name="incognitoKeyboard">Tastatur e fshehtë</string>
@@ -246,18 +241,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Lyp leje</string>
     <string name="notNow">Jo tani</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Kopjeruajtjet do të ruhen te depozitë e jashtme dhe fshehtëzohen me frazëkalimin më poshtë. Duhet të keni këtë frazëkalim, pa të mundeni të riktheni një kopjeruajtje</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">E kam shkruar diku këtë frazëkalim. Pa të, s\’do të jem në gjendje të rikthej një kopjeruajtje</string>
     <string name="registration_activity__skip">Anashkaloje</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">S\’mund të importohen kopjeruajtje prej versionesh më të rinj të Session-it</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Jepni frazëkalim kopjeruajtjeje</string>
-    <string name="BackupDialog_enable_local_backups">Të aktivizohen kopjeruajtjet vendore?</string>
-    <string name="BackupDialog_enable_backups">Aktivizoji kopjeruajtjet</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Ju lutemi, na bëni të ditur se e keni kuptuar, duke i vënë shenjë kutizës së ripohimit</string>
-    <string name="BackupDialog_delete_backups">Të fshihen kopjeruajtjet?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Të çaktivizohen dhe fshihen krejt kopjeruajtjet vendore?</string>
-    <string name="BackupDialog_delete_backups_statement">Fshiji kopjeruajtjet</string>
-    <string name="LocalBackupJob_creating_backup">Po krijohet kopjeruajtje…</string>
     <string name="preferences_app_protection__screen_lock">Kyçje ekrani</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -118,7 +118,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">కాల్స్</string>
     <string name="NotificationChannel_failures">వైఫల్యాలు</string>
-    <string name="NotificationChannel_backups">బ్యాకప్లు</string>
     <string name="lockAppStatus">స్థితి లాక్</string>
     <string name="updateApp">అనువర్తన నవీకరణలు</string>
     <string name="other">ఇతర</string>
@@ -181,7 +180,6 @@
     <string name="arrays__images">చిత్రాలు</string>
     <string name="audio">ఆడియో</string>
     <string name="video">వీడియో</string>
-    <string name="arrays__normal">సాధారణంగా</string>
     <string name="max">గరిష్టం</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -194,9 +192,6 @@
     <string name="notificationsLedColor">ఎల్ఈడి రంగు</string>
     <string name="notificationsSound">శబ్దము</string>
     <string name="notificationsVibrate">ప్రకంపన</string>
-    <string name="preferences__fast">త్వరగా</string>
-    <string name="preferences__normal">సాధారణంగా</string>
-    <string name="preferences__slow">మెల్లిగా</string>
     <string name="preferences__trim_all_conversations_now">ఇప్పుడు అన్ని సంభాషణలు  కత్తిరించి సరి చేయుట </string>
     <string name="_default">అప్రమేయ</string>
     <string name="incognitoKeyboard">అజ్ఞాత కీబోర్డ్</string>
@@ -229,18 +224,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">అనుమతి అవసరం</string>
     <string name="notNow">ఇప్పుడు కాదు</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">బ్యాకప్ బాహ్య నిల్వకి సేవ్ చేయబడుతుంది మరియు పాస్ఫ్రేజ్తో గుప్తీకరించబడుతుంది. బ్యాకప్ను పునరుద్ధరించడానికి మీరు తప్పనిసరిగా ఈ పాస్ఫ్రేజ్ను కలిగి ఉండాలి.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">నేను ఈ పాస్ఫ్రేజ్ని వ్రాశాను. ఇది లేకుండా, నేను ఒక బ్యాకప్ పునరుద్ధరించడానికి సాధ్యం కాదు.</string>
     <string name="registration_activity__skip">వదిలివేయి</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Session యొక్క నూతన సంస్కరణల నుండి బ్యాకప్లను దిగుమతి చేయలేరు</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">సరికాని బ్యాకప్ పాస్ఫ్రేజ్</string>
-    <string name="BackupDialog_enable_local_backups">స్థానిక బ్యాకప్లను ప్రారంభించాలా?</string>
-    <string name="BackupDialog_enable_backups">బ్యాకప్స్ ప్రారంభించు</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">దయచేసి మీ అవగాహనను నిర్ధారించడానికి నిర్ధారణ తనిఖీ పెట్టెలో గుర్తించండి.</string>
-    <string name="BackupDialog_delete_backups">బ్యాకప్లను తొలగించాలా?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">అన్ని స్థానిక బ్యాకప్లను తొలగించి, డిసేబుల్ చేయాలా?</string>
-    <string name="BackupDialog_delete_backups_statement">బ్యాకప్లను తొలిగించు</string>
-    <string name="LocalBackupJob_creating_backup">బ్యాకప్ను సృష్టిస్తోంది ...</string>
     <string name="preferences_app_protection__screen_lock">స్క్రీన్ తాళం</string>
     <!-- Conversation activity -->
     <!-- Session -->

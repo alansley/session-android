@@ -125,7 +125,6 @@ för nyckelutbyte!</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtal</string>
     <string name="NotificationChannel_failures">Misslyckanden</string>
-    <string name="NotificationChannel_backups">Säkerhetskopia</string>
     <string name="lockAppStatus">Låsstatus</string>
     <string name="updateApp">Appuppdateringar</string>
     <string name="other">Övrigt</string>
@@ -195,7 +194,6 @@ för nyckelutbyte!</string>
     <string name="arrays__images">Bilder</string>
     <string name="audio">Ljud</string>
     <string name="video">Filmer</string>
-    <string name="arrays__normal">Normal</string>
     <string name="max">Max</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -209,9 +207,6 @@ för nyckelutbyte!</string>
     <string name="notificationsLedColor">Färg på ljusindikator</string>
     <string name="notificationsSound">Ljud</string>
     <string name="notificationsVibrate">Vibrera</string>
-    <string name="preferences__fast">Snabb</string>
-    <string name="preferences__normal">Normal</string>
-    <string name="preferences__slow">Långsam</string>
     <string name="preferences__trim_all_conversations_now">Trimma alla konversationer nu</string>
     <string name="_default">Standard</string>
     <string name="incognitoKeyboard">Inkognito-tangentbord</string>
@@ -246,18 +241,7 @@ för nyckelutbyte!</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Behörighet saknas</string>
     <string name="notNow">Inte nu</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Säkerhetskopieringar sparas till extern lagring och krypteras med lösenordet nedanför. Du måste ange lösenordet för att återställa säkerhetskopian.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Jag har skrivit ner lösenordet. Utan det kommer jag inte kunna återställa säkerhetskopian.</string>
     <string name="registration_activity__skip">Hoppa över</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Kan inte importera säkerhetskopior från nyare versioner av Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Fel lösenord för säkerhetskopian</string>
-    <string name="BackupDialog_enable_local_backups">Aktivera lokala säkerhetskopior?</string>
-    <string name="BackupDialog_enable_backups">Aktivera säkerhetskopior</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Bekräfta att du förstår genom att kryssa i rutan.</string>
-    <string name="BackupDialog_delete_backups">Ta bort säkerhetskopior?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Inaktivera och ta bort alla lokala säkerhetskopior?</string>
-    <string name="BackupDialog_delete_backups_statement">Ta bort säkerhetskopior</string>
-    <string name="LocalBackupJob_creating_backup">Skapar säkerhetskopia...</string>
     <string name="preferences_app_protection__screen_lock">Skärmlås</string>
     <!-- Conversation activity -->
     <!-- Session -->

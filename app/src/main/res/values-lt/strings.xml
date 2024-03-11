@@ -132,7 +132,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Skambučiai</string>
     <string name="NotificationChannel_failures">Nesėkmės</string>
-    <string name="NotificationChannel_backups">Atsarginės kopijos</string>
     <string name="lockAppStatus">Užrakinimo būsena</string>
     <string name="updateApp">Programėlės atnaujinimai</string>
     <string name="other">Kitas</string>
@@ -204,7 +203,6 @@
     <string name="arrays__images">Paveikslai</string>
     <string name="audio">Garso įrašai</string>
     <string name="video">Vaizdo įrašai</string>
-    <string name="arrays__normal">Normalus</string>
     <string name="max">Maksimali</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -220,9 +218,6 @@
     <string name="notificationsLedColor">Šviesos diodo spalva</string>
     <string name="notificationsSound">Garsas</string>
     <string name="notificationsVibrate">Vibruoti</string>
-    <string name="preferences__fast">Greitas</string>
-    <string name="preferences__normal">Normalus</string>
-    <string name="preferences__slow">Lėtas</string>
     <string name="preferences__trim_all_conversations_now">Išvalyti visus pokalbius dabar</string>
     <string name="_default">Numatytoji</string>
     <string name="incognitoKeyboard">Inkognito klaviatūra</string>
@@ -256,18 +251,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Reikalingas leidimas</string>
     <string name="notNow">Ne dabar</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Atsarginės kopijos bus įrašytos į išorinę saugyklą ir bus užšifruotos, naudojant žemiau esančią slaptafrazę. Norėdami atkurti atsarginę kopiją, privalėsite turėti šią slaptafrazę.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Aš užsirašiau šią slaptafrazę. Be jos aš negalėsiu atkurti atsarginės kopijos.</string>
     <string name="registration_activity__skip">Praleisti</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Nepavyksta importuoti atsarginių kopijų iš naujesnių Session versijų</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Neteisinga atsarginės kopijos slaptafrazė</string>
-    <string name="BackupDialog_enable_local_backups">Įjungti vietines atsargines kopijas?</string>
-    <string name="BackupDialog_enable_backups">Įjungti atsargines kopijas</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Išreikškite savo supratimą, pažymėdami patvirtinimo žymimąjį langelį.</string>
-    <string name="BackupDialog_delete_backups">Ištrinti atsargines kopijas?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Išjungti ir ištrinti visas vietines atsargines kopijas?</string>
-    <string name="BackupDialog_delete_backups_statement">Ištrinti atsargines kopijas</string>
-    <string name="LocalBackupJob_creating_backup">Daroma atsarginė kopija...</string>
     <string name="preferences_app_protection__screen_lock">Ekrano užraktas</string>
     <!-- Conversation activity -->
     <!-- Session -->

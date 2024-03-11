@@ -125,7 +125,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">تماس‌ها</string>
     <string name="NotificationChannel_failures">خطاها</string>
-    <string name="NotificationChannel_backups">پشتیبان‌ها</string>
     <string name="lockAppStatus">وضعیت قفل</string>
     <string name="updateApp">به‌روزآوری‌های برنامه</string>
     <string name="other">دیگر</string>
@@ -195,7 +194,6 @@
     <string name="arrays__images">تصویر</string>
     <string name="audio">صدا</string>
     <string name="video">ویدئو</string>
-    <string name="arrays__normal">عادی</string>
     <string name="max">حداکثر</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -216,9 +214,6 @@
     <string name="notificationsSound">صدا</string>
     <string name="preferences__in_app_sounds">صدا وقتی برنامه باز است</string>
     <string name="notificationsVibrate">لرزش</string>
-    <string name="preferences__fast">سریع</string>
-    <string name="preferences__normal">عادی</string>
-    <string name="preferences__slow">آهسته</string>
     <string name="preferences__trim_all_conversations_now">حذف پیام‌های قدیمی، همین حالا</string>
     <string name="_default">پیش فرض</string>
     <string name="incognitoKeyboard">کیبورد ناشناس</string>
@@ -265,18 +260,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">مجوز لازم است</string>
     <string name="notNow">حالا نه</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">پشتیبان ها روی یک حافظه خارجی ذخیره خواهند شد و با عبارت عبور زیر رمزنگاری خواهند شد. شما باید عبارت عبور زیر را داشته باشید تا پشتیبان خود را بازیابی کنید.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">من این گذرمتن را نوشته‌ام. بدون آن نخواهم توانست یک پشتیبان را بازگردانی کنم.</string>
     <string name="registration_activity__skip">پرش</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">امکان وارد کردن پشتیبان‌ها از نسخه‌های جدید Session وجود ندارد.</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">گذرمتن پشتیبان اشتباه است</string>
-    <string name="BackupDialog_enable_local_backups">فعال‌سازی پشتیبان‌گیری محلی؟</string>
-    <string name="BackupDialog_enable_backups">فعال‌سازی پشتیبان‌گیری</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">لطفا با علامت زدن تأیید آگاهی خود را نشان دهید.</string>
-    <string name="BackupDialog_delete_backups">نسخهٔ پشتیبان حذف شود؟</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">غیرفعال‌سازی و پاک کردن همه پشتیبان‌های محلی؟</string>
-    <string name="BackupDialog_delete_backups_statement">نسخهٔ پشتیبان حذف شود؟</string>
-    <string name="LocalBackupJob_creating_backup">در حال ایجاد نسخه پشتیبان...</string>
     <string name="preferences_app_protection__screen_lock">قفل Session</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -134,7 +134,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Звонки</string>
     <string name="NotificationChannel_failures">Сбои</string>
-    <string name="NotificationChannel_backups">Резервные копии</string>
     <string name="lockAppStatus">Статус блокировки</string>
     <string name="updateApp">Обновления приложений</string>
     <string name="other">Другое</string>
@@ -206,7 +205,6 @@
     <string name="arrays__images">Изображения</string>
     <string name="audio">Аудио</string>
     <string name="video">Видео</string>
-    <string name="arrays__normal">Средний</string>
     <string name="max">Максимальный</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -222,9 +220,6 @@
     <string name="notificationsLedColor">Цвет светодиода</string>
     <string name="notificationsSound">Мелодия</string>
     <string name="notificationsVibrate">Вибрация</string>
-    <string name="preferences__fast">Быстрое</string>
-    <string name="preferences__normal">Среднее</string>
-    <string name="preferences__slow">Медленное</string>
     <string name="preferences__trim_all_conversations_now">Обрезать все разговоры</string>
     <string name="_default">По умолчанию</string>
     <string name="incognitoKeyboard">Инкогнито-клавиатура</string>
@@ -259,18 +254,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Требуется разрешение</string>
     <string name="notNow">Не сейчас</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Резервные копии будут сохранены во внешнем хранилище и зашифрованы с помощью парольной фразы. Для восстановления резервной копии у вас должна быть эта фраза.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Я записал эту парольную фразу. Без нее я не смогу восстановить резервную копию.</string>
     <string name="registration_activity__skip">Пропустить</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Не могу импортировать резервную копию из более новых версий Session.</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Некорректная парольная фраза резервной копии</string>
-    <string name="BackupDialog_enable_local_backups">Включить локальное резервное копирование?</string>
-    <string name="BackupDialog_enable_backups">Включить резервные копии</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Пожалуйста, подтвердите что понимаете то что делаете, поставив отметку.</string>
-    <string name="BackupDialog_delete_backups">Удалить резервные копии?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Отключить и удалить все локальные резервные копии?</string>
-    <string name="BackupDialog_delete_backups_statement">Удалить резервные копии</string>
-    <string name="LocalBackupJob_creating_backup">Создание резервной копии...</string>
     <string name="preferences_app_protection__screen_lock">Блокировка экрана</string>
     <!-- Conversation activity -->
     <!-- Session -->

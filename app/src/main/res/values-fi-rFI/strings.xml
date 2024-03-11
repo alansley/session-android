@@ -125,7 +125,6 @@ on viallinen!</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Puhelut</string>
     <string name="NotificationChannel_failures">Viat</string>
-    <string name="NotificationChannel_backups">Varmuuskopiot</string>
     <string name="lockAppStatus">Lukituksen tila</string>
     <string name="updateApp">Sovellusten päivitykset</string>
     <string name="other">Muu</string>
@@ -195,7 +194,6 @@ on viallinen!</string>
     <string name="arrays__images">Kuvat</string>
     <string name="audio">Äänitallenteet</string>
     <string name="video">Videot</string>
-    <string name="arrays__normal">Normaali</string>
     <string name="max">Maksimi</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -209,9 +207,6 @@ on viallinen!</string>
     <string name="notificationsLedColor">LED:in väri</string>
     <string name="notificationsSound">Ääni</string>
     <string name="notificationsVibrate">Värinä</string>
-    <string name="preferences__fast">Nopea</string>
-    <string name="preferences__normal">Normaali</string>
-    <string name="preferences__slow">Hidas</string>
     <string name="preferences__trim_all_conversations_now">Karsi kaikki keskustelut nyt</string>
     <string name="_default">Oletus</string>
     <string name="incognitoKeyboard">Yksityinen näppäimistö</string>
@@ -246,18 +241,7 @@ on viallinen!</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Tarvitaan käyttöoikeus</string>
     <string name="notNow">Ei nyt</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Varmuuskopiot tallennetaan laitteesi tallennustilaan ja ne salataan allaolevalla salalauseella. Ilman tätä salalausetta et voi palauttaa varmuuskopiota.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Olen kirjoittanut ylös tämän salalauseen. Ilman sitä, en pysty palauttamaan varmuuskopiota.</string>
     <string name="registration_activity__skip">Ohita</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Varmuuskopioita ei voida tuoda Sessionin uudemmista versioista</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Virheellinen varmuuskopion salalause</string>
-    <string name="BackupDialog_enable_local_backups">Otetaanko paikalliset varmuuskopiot käyttöön?</string>
-    <string name="BackupDialog_enable_backups">Ota varmuuskopiot käyttöön</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Ilmaise ymmäryksesi ruksaamalla valintaruutu.</string>
-    <string name="BackupDialog_delete_backups">Poistetaanko varmuuskopiot?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Otetaanko paikalliset varmuuskopiot pois käytöstä ja poistetaanko ne?</string>
-    <string name="BackupDialog_delete_backups_statement">Poista varmuuskopiot</string>
-    <string name="LocalBackupJob_creating_backup">Luodaan varmuuskopiota...</string>
     <string name="preferences_app_protection__screen_lock">Näytön lukitus</string>
     <!-- Conversation activity -->
     <!-- Session -->

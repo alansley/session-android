@@ -126,7 +126,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Zənglər</string>
     <string name="NotificationChannel_failures">Xətalar</string>
-    <string name="NotificationChannel_backups">Nüsxələr</string>
     <string name="lockAppStatus">Kilid vəziyyəti</string>
     <string name="updateApp">Tətbiq yeniləmələri</string>
     <string name="other">Digər</string>
@@ -196,7 +195,6 @@
     <string name="arrays__images">Təsvirlər</string>
     <string name="audio">Səs</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Normal</string>
     <string name="max">Maksimum</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -210,9 +208,6 @@
     <string name="notificationsLedColor">LED rəng</string>
     <string name="notificationsSound">Səs</string>
     <string name="notificationsVibrate">Titrəmə</string>
-    <string name="preferences__fast">Sürətli</string>
-    <string name="preferences__normal">Normal</string>
-    <string name="preferences__slow">Yavaş</string>
     <string name="preferences__trim_all_conversations_now">Bütün danışıqları indi kəs</string>
     <string name="_default">İlkin</string>
     <string name="incognitoKeyboard">Gizli klaviatura</string>
@@ -247,18 +242,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">İcazə tələb edilir</string>
     <string name="notNow">İndi yox</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Nüsxələmələr xarici anbarda saxlanılacaq və aşağıdakı parolla şifrələnəcək. Bir nüsxəni bərpa etmək üçün bu parola sahib olmalısınız.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Bu parolu özümdə qeyd olaraq saxladım. Bu parol olmadan, nüsxəni bərpa edə bilmərəm.</string>
     <string name="registration_activity__skip">Ötür</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Session-ın yeni versiyalarından nüsxələr idxal edə bilmir</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Nüsxə parolu yanlışdır</string>
-    <string name="BackupDialog_enable_local_backups">Yerli nüsxələr fəallaşdırılsın?</string>
-    <string name="BackupDialog_enable_backups">Nüsxələri fəallaşdır</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Zəhmət olmasa təsdiq qutusunu işarələyərək anladığınızı qəbul edin.</string>
-    <string name="BackupDialog_delete_backups">Nüsxələr silinsin?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Bütün yerli nüsxələr sıradan çıxarılıb silinsin?</string>
-    <string name="BackupDialog_delete_backups_statement">Nüsxəni sil</string>
-    <string name="LocalBackupJob_creating_backup">Nüsxə yaradılır...</string>
     <string name="preferences_app_protection__screen_lock">Ekran kilidi</string>
     <!-- Conversation activity -->
     <!-- Session -->

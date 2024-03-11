@@ -67,7 +67,6 @@
     <string name="MessageNotifier_unknown_contact_message">සබඳතාව</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ඇමතුම්</string>
-    <string name="NotificationChannel_backups">උපස්ථ</string>
     <string name="updateApp">යෙදුම් යාවත්කාල</string>
     <string name="other">වෙනත්</string>
     <!-- QuickResponseService -->
@@ -130,9 +129,6 @@
     <string name="permissionsRequired">අවසරය අවශ්‍යයි</string>
     <string name="notNow">දැන් නොවේ</string>
     <string name="registration_activity__skip">මඟහරින්න</string>
-    <string name="BackupDialog_enable_local_backups">ස්ථානීය උපස්ථ සබලකරන්නද?</string>
-    <string name="BackupDialog_enable_backups">උපස්ථ සබල කරන්න</string>
-    <string name="LocalBackupJob_creating_backup">උපස්ථය සෑදෙමින්...</string>
     <string name="preferences_app_protection__screen_lock">තිර අගුල</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -159,7 +159,6 @@
     <string name="arrays__images">이미지</string>
     <string name="audio">오디오</string>
     <string name="video">동영상</string>
-    <string name="arrays__normal">보통</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
         <item quantity="other">%d시간 전</item>
@@ -170,9 +169,6 @@
     <string name="notificationsLedColor">알림등 색상</string>
     <string name="notificationsSound">소리</string>
     <string name="notificationsVibrate">진동</string>
-    <string name="preferences__fast">빠르게</string>
-    <string name="preferences__normal">보통</string>
-    <string name="preferences__slow">느리게</string>
     <string name="preferences__trim_all_conversations_now">모든 대화 줄이기</string>
     <string name="_default">기본</string>
     <string name="conversationsMessageTrimming">대화 줄이기</string>

@@ -126,7 +126,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Chamadas</string>
     <string name="NotificationChannel_failures">Falhas</string>
-    <string name="NotificationChannel_backups">Backups</string>
     <string name="lockAppStatus">Status de tranca</string>
     <string name="updateApp">Atualizações de app</string>
     <string name="other">Outro</string>
@@ -196,7 +195,6 @@
     <string name="arrays__images">Imagens</string>
     <string name="audio">Áudio</string>
     <string name="video">Vídeo</string>
-    <string name="arrays__normal">Normal</string>
     <string name="max">Max</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -210,9 +208,6 @@
     <string name="notificationsLedColor">Cor do LED</string>
     <string name="notificationsSound">Som</string>
     <string name="notificationsVibrate">Vibrar</string>
-    <string name="preferences__fast">Rápido</string>
-    <string name="preferences__normal">Normal</string>
-    <string name="preferences__slow">Lento</string>
     <string name="preferences__trim_all_conversations_now">Aparar todas as conversas agora</string>
     <string name="_default">Default</string>
     <string name="incognitoKeyboard">Teclado incógnito</string>
@@ -247,18 +242,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Permissão requerida</string>
     <string name="notNow">Agora não</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backups vão ser salvos no armazenamento externo e encriptados com a passphrase abaixo. Você deve ter esta passphrase a fim de restaurar um backup.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Eu anotei esta passphrase. Sem ela, eu vou ser incapaz de restaurar um backup.</string>
     <string name="registration_activity__skip">Pular</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Não é possível importar backups desde versões mais novas de Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Passphrase de backup incorreta</string>
-    <string name="BackupDialog_enable_local_backups">Habilitar backups locais?</string>
-    <string name="BackupDialog_enable_backups">Habilitar backups</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Por favor reconheça seu entendimento ao marcar a check box de confirmação.</string>
-    <string name="BackupDialog_delete_backups">Deletar backups?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Desabilitar e deletar todos os backups locais?</string>
-    <string name="BackupDialog_delete_backups_statement">Deletar backups</string>
-    <string name="LocalBackupJob_creating_backup">Criando backup...</string>
     <string name="preferences_app_protection__screen_lock">Bloqueio de tela</string>
     <!-- Conversation activity -->
     <!-- Session -->

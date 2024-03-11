@@ -113,7 +113,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Gazî</string>
     <string name="NotificationChannel_failures">Çewtî</string>
-    <string name="NotificationChannel_backups">Paşkeft</string>
     <string name="lockAppStatus">Rewşa kilîdê</string>
     <string name="updateApp">Hildemên sepanê</string>
     <string name="other">Din</string>
@@ -192,8 +191,6 @@
     <string name="notificationsLedColor">Rengê LED</string>
     <string name="notificationsSound">Deng</string>
     <string name="notificationsVibrate">Lerizîn</string>
-    <string name="preferences__fast">Zû</string>
-    <string name="preferences__slow">Hêdî</string>
     <string name="preferences__trim_all_conversations_now">Hemû axaftinan qut bike</string>
     <string name="_default">Jixweber</string>
     <string name="incognitoKeyboard">Textenivîsa veşartî</string>
@@ -227,18 +224,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Destûr pêwîst e</string>
     <string name="notNow">Ne niha</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Dê paşekeft li ser bîrbara derveyî werin tomarkirin û bi pêborîna li jêr werin şîfrekirin. Ji bo paşkeftekê paşê vegerînî divê ev pêborîn bi te re hebe.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Min vê pêborînê li cihekî nivîsî. Bê wê ezê nikaribim paşekeftê vegerînim.</string>
     <string name="registration_activity__skip">Dev jê berde</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Nikarî paşekeftên yên guhertoyên nûtir yên Sessionê bihundirînî</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Pêborîna paşekeftê şaş e</string>
-    <string name="BackupDialog_enable_local_backups">Paşekeftên xwecihî çalak bike?</string>
-    <string name="BackupDialog_enable_backups">Paşekeftan çalak bike</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Ji bo diyar bikî ku te fêm kiriye, kodika pejirandinê nîşan bike.</string>
-    <string name="BackupDialog_delete_backups">Paşekeftan jê bibe?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Hemû paşekeftên xwecihî neçalak bike û jê bibe?</string>
-    <string name="BackupDialog_delete_backups_statement">Paşekeftan jê bibe</string>
-    <string name="LocalBackupJob_creating_backup">Paşekeft tê avakirin...</string>
     <string name="preferences_app_protection__screen_lock">Qufleya ekranê</string>
     <!-- Conversation activity -->
     <!-- Session -->

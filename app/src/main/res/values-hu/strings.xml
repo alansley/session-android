@@ -127,7 +127,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Hívások</string>
     <string name="NotificationChannel_failures">Hibák</string>
-    <string name="NotificationChannel_backups">Biztonsági mentések</string>
     <string name="lockAppStatus">Zár státusza</string>
     <string name="updateApp">App frissítések</string>
     <string name="other">Egyéb</string>
@@ -197,7 +196,6 @@
     <string name="arrays__images">Képek</string>
     <string name="audio">Hang</string>
     <string name="video">Videó</string>
-    <string name="arrays__normal">Normál</string>
     <string name="max">Legmagasabb</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -211,9 +209,6 @@
     <string name="notificationsLedColor">LED színe</string>
     <string name="notificationsSound">Hang</string>
     <string name="notificationsVibrate">Rezgés</string>
-    <string name="preferences__fast">Gyors</string>
-    <string name="preferences__normal">Normál</string>
-    <string name="preferences__slow">Lassú</string>
     <string name="preferences__trim_all_conversations_now">Összes beszélgetés csonkítása most</string>
     <string name="_default">Alapértelmezett</string>
     <string name="incognitoKeyboard">Inkognitó billentyűzet</string>
@@ -248,18 +243,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Engedély szükséges</string>
     <string name="notNow">Most nem</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">A biztonsági mentések külső tárolóra lesznek mentve, és az alábbi jelmondattal lesznek titkosítva. Ezt a jelmondatot kell megadnod a biztonsági mentés visszaállításához.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Feljegyeztem ezt a jelmondatot. Enélkül nem leszek képes visszaállítani biztonsági mentést.</string>
     <string name="registration_activity__skip">Kihagyás</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Nem sikerült beolvasni a Session újabb verziójából származó biztonsági mentést</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Hibás a biztonsági mentéshez tartozó jelmondat</string>
-    <string name="BackupDialog_enable_local_backups">Engedélyezed a helyi biztonsági mentéseket?</string>
-    <string name="BackupDialog_enable_backups">Biztonsági mentések bekapcsolása</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Kérlek erősítsd meg a jelölőnégyzet bejelölésével, hogy megértetted a figyelmeztetést!</string>
-    <string name="BackupDialog_delete_backups">Törlöd a biztonsági mentéseket?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Letiltod és törlöd az összes helyi biztonsági mentést?</string>
-    <string name="BackupDialog_delete_backups_statement">Biztonsági mentések törlése</string>
-    <string name="LocalBackupJob_creating_backup">Biztonsági mentés létrehozása...</string>
     <string name="preferences_app_protection__screen_lock">Képernyőzár</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -288,7 +288,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Calls</string>
     <string name="NotificationChannel_failures">Failures</string>
-    <string name="NotificationChannel_backups">Backups</string>
     <string name="lockAppStatus">Lock status</string>
     <string name="updateApp">App updates</string>
     <string name="other">Other</string>
@@ -365,7 +364,6 @@
     <string name="arrays__images">Images</string>
     <string name="audio">Audio</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Normal</string>
     <string name="max">Max</string>
     <string name="arrays__max">Max</string>
     <string name="arrays__five_minutes">5 Minutes</string>
@@ -393,9 +391,6 @@
     <string name="notificationsSound">Sound</string>
     <string name="preferences__in_app_sounds">Sound when App is Open</string>
     <string name="notificationsVibrate">Vibrate</string>
-    <string name="preferences__fast">Fast</string>
-    <string name="preferences__normal">Normal</string>
-    <string name="preferences__slow">Slow</string>
     <string name="preferences__trim_all_conversations_now">Trim all conversations now</string>
     <string name="_default">Default</string>
     <string name="incognitoKeyboard">Incognito keyboard</string>
@@ -447,18 +442,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Permission required</string>
     <string name="notNow">Not now</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backups will be saved to external storage and encrypted with the passphrase below. You must have this passphrase in order to restore a backup.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">I have written down this passphrase. Without it, I will be unable to restore a backup.</string>
     <string name="registration_activity__skip">Skip</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Cannot import backups from newer versions of Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Incorrect backup passphrase</string>
-    <string name="BackupDialog_enable_local_backups">Enable local backups?</string>
-    <string name="BackupDialog_enable_backups">Enable backups</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Please acknowledge your understanding by marking the confirmation check box.</string>
-    <string name="BackupDialog_delete_backups">Delete backups?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Disable and delete all local backups?</string>
-    <string name="BackupDialog_delete_backups_statement">Delete backups</string>
-    <string name="LocalBackupJob_creating_backup">Creating backup...</string>
     <string name="preferences_app_protection__screen_lock">Lock Session</string>
     <!-- Conversation activity -->
     <!-- Session -->

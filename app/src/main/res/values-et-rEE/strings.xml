@@ -118,7 +118,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Kõned</string>
     <string name="NotificationChannel_failures">Ebaõnnestumised</string>
-    <string name="NotificationChannel_backups">Varundused</string>
     <string name="lockAppStatus">Luku olek</string>
     <string name="updateApp">Rakenduse uuendused</string>
     <string name="other">Muu</string>
@@ -184,7 +183,6 @@
     <string name="notificationsContentShowNameOnly">Ainult nimi</string>
     <string name="arrays__images">Pildid</string>
     <string name="audio">Heli</string>
-    <string name="arrays__normal">Keskmine</string>
     <string name="max">Maksimaalne</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -198,9 +196,6 @@
     <string name="notificationsLedColor">LEDi värv</string>
     <string name="notificationsSound">Heli</string>
     <string name="notificationsVibrate">Vibratsioon</string>
-    <string name="preferences__fast">Kiire</string>
-    <string name="preferences__normal">Keskmine</string>
-    <string name="preferences__slow">Aeglane</string>
     <string name="preferences__trim_all_conversations_now">Piira kõik vestlused nüüd</string>
     <string name="_default">Vaikimisi</string>
     <string name="incognitoKeyboard">Inkognito klaviatuur</string>
@@ -234,18 +229,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Luba on vajalik</string>
     <string name="notNow">Mitte praegu</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Varundused salvestatakse välismällu ja krüptitakse valitud salaväljendiga. Sul peab see salaväljend olemas olema, et taastada antud varundust.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ma olen salaväljendi üles kirjutanud. Ilma selleta ei saa ma varundust taastada.</string>
     <string name="registration_activity__skip">Jäta vahele</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Uuematest Sessioni versioonidest ei saa varundusi importida</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Vale varunduse salaväljend</string>
-    <string name="BackupDialog_enable_local_backups">Lubad kohalikud varundused?</string>
-    <string name="BackupDialog_enable_backups">Luba varundused</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Palun kinnita oma arusaamist, märkides kinnituse märkeruudu.</string>
-    <string name="BackupDialog_delete_backups">Kustutad varundused?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Kustuta ja keela kõik kohalikud varundused?</string>
-    <string name="BackupDialog_delete_backups_statement">Kustuta varundused</string>
-    <string name="LocalBackupJob_creating_backup">Varunduse loomine...</string>
     <string name="preferences_app_protection__screen_lock">Ekraanilukk</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -115,7 +115,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ការហៅ</string>
     <string name="NotificationChannel_failures">បរាជ័យ</string>
-    <string name="NotificationChannel_backups">បម្រុងទុក</string>
     <string name="lockAppStatus">ស្ថានភាពចាក់សោរ</string>
     <string name="updateApp">បច្ចុប្បន្នភាពកម្មវិធី</string>
     <string name="other">ផ្សេងៗ</string>
@@ -181,7 +180,6 @@
     <string name="arrays__images">រូបភាព</string>
     <string name="audio">សំឡេង</string>
     <string name="video">វីដេអូ</string>
-    <string name="arrays__normal">ធម្មតា</string>
     <string name="max">អតិបរិមា</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -194,9 +192,6 @@
     <string name="notificationsLedColor">ពណ៌​LED</string>
     <string name="notificationsSound">សំឡេង</string>
     <string name="notificationsVibrate">ញ័រ</string>
-    <string name="preferences__fast">លឿន</string>
-    <string name="preferences__normal">ធម្មតា</string>
-    <string name="preferences__slow">យឺត</string>
     <string name="preferences__trim_all_conversations_now">តម្រឹមការសន្ទនាទាំងអស់ឥលូវនេះ</string>
     <string name="_default">លំនាំដើម</string>
     <string name="incognitoKeyboard">ក្តារចុចអនាមឹក</string>
@@ -230,18 +225,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">ទាមទារការអនុញ្ញាត</string>
     <string name="notNow">ពេលក្រោយ</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">ការបម្រុងទុក នឹងត្រូវរក្សាទុកនៅលើអង្គរក្សាទុកខាងក្រៅ និងកូដនីយកម្មជាមួយឃ្លាសម្ងាត់ខាងក្រោម។ អ្នកត្រូវមានឃ្លាសម្ងាត់នេះដើម្បីស្តារការបម្រុងទុកឡើងវិញ។</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">ខ្ញុំបានកត់ឃ្លាសម្ងាត់ទុកហើយ។ បើគ្មានវា ខ្ញុំនឹងមិនអាចស្តារការបម្រុងទុកបានទេ។</string>
     <string name="registration_activity__skip">រំលង</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">មិនអាចនាំចូលឯកសារបម្រុងទុក ពី Session ជំនាន់ថ្មី</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">ឃ្លាសម្ងាត់បម្រុងទុកមិនត្រឹមត្រូវ</string>
-    <string name="BackupDialog_enable_local_backups">បើកការបម្រុងទុកខាងក្នុង?</string>
-    <string name="BackupDialog_enable_backups">បើកការបម្រុងទុក</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">សូមទទួលស្គាល់ដោយគូសក្នុងប្រអប់បញ្ជាក់។</string>
-    <string name="BackupDialog_delete_backups">លុបការបម្រុងទុក?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">បិទ និងលុបចោលការបម្រុងទុកខាងក្នុងទាំងអស់?</string>
-    <string name="BackupDialog_delete_backups_statement">លុបការបម្រុងទុក</string>
-    <string name="LocalBackupJob_creating_backup">កំពុងបង្កើតការបម្រុងទុក...</string>
     <string name="preferences_app_protection__screen_lock">ចាក់សោរអេក្រង់</string>
     <!-- Conversation activity -->
     <!-- Session -->

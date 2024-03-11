@@ -132,7 +132,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Volání</string>
     <string name="NotificationChannel_failures">Chyby</string>
-    <string name="NotificationChannel_backups">Zálohy</string>
     <string name="lockAppStatus">Stav zámku</string>
     <string name="updateApp">Aktulizace aplikace</string>
     <string name="other">Ostatní</string>
@@ -204,7 +203,6 @@
     <string name="arrays__images">Obrázky</string>
     <string name="audio">Zvuk</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Normálně</string>
     <string name="max">Maximum</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -220,9 +218,6 @@
     <string name="notificationsLedColor">Barva LED</string>
     <string name="notificationsSound">Zvuk</string>
     <string name="notificationsVibrate">Vibrovat</string>
-    <string name="preferences__fast">Rychle</string>
-    <string name="preferences__normal">Normálně</string>
-    <string name="preferences__slow">Pomalu</string>
     <string name="preferences__trim_all_conversations_now">Zkrátit všechny konverzace teď</string>
     <string name="_default">Výchozí</string>
     <string name="incognitoKeyboard">Inkognito klávesnice</string>
@@ -257,18 +252,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Vyžadovaná oprávnění</string>
     <string name="notNow">Teď ne</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Zálohy budou uloženy na externí úložiště a zašifrovány níže uvedeným heslem. Toto heslo musíte znát abyste mohli zálohy obnovit.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Heslo jsem si zapsal. Bez něj nebudu schopen obnovit data ze zálohy.</string>
     <string name="registration_activity__skip">Přeskočit</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Nemohu naimportovat zálohy z novější verze aplikace Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Chybné heslo k záloze</string>
-    <string name="BackupDialog_enable_local_backups">Povolit interní zálohy?</string>
-    <string name="BackupDialog_enable_backups">Povolit zálohy.</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Prosím potvrďte, že jste to pochopili zaškrtnutím potvrzovacího boxu.</string>
-    <string name="BackupDialog_delete_backups">Smazat zálohy?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Zakázat a vymazat všechny interní zálohy?</string>
-    <string name="BackupDialog_delete_backups_statement">Smazat zálohy</string>
-    <string name="LocalBackupJob_creating_backup">Vytvářím zálohu...</string>
     <string name="preferences_app_protection__screen_lock">Zámek obrazovky</string>
     <!-- Conversation activity -->
     <!-- Session -->

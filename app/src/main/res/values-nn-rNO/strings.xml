@@ -111,7 +111,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtalar</string>
     <string name="NotificationChannel_failures">Feil</string>
-    <string name="NotificationChannel_backups">Reservekopiar</string>
     <string name="lockAppStatus">Låsestatus</string>
     <string name="updateApp">Programoppdateringar</string>
     <string name="other">Anna</string>
@@ -187,8 +186,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="notificationsLedColor">LED-farge</string>
     <string name="notificationsSound">Lyd</string>
     <string name="notificationsVibrate">Vibrer</string>
-    <string name="preferences__fast">Snøgg</string>
-    <string name="preferences__slow">Langsam</string>
     <string name="preferences__trim_all_conversations_now">Rydd opp i alle samtalar no</string>
     <string name="_default">Forvald</string>
     <string name="incognitoKeyboard">Inkognitotastatur</string>
@@ -222,18 +219,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Tilgang krevst</string>
     <string name="notNow">Ikkje no</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Reservekopiar blir lagra til ekstern lagring og krypterte med passordfrasen nedanfor. Du må ha denne passordfrasen for å gjenoppretta frå kopien.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Eg har skrive ned denne passordfrasen. Utan den vil eg ikkje få gjenoppretta frå reservekopien.</string>
     <string name="registration_activity__skip">Hopp over</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Kan ikkje importera reservekopiar frå nyare utgåver av Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Feil passordfrase til reservekopi</string>
-    <string name="BackupDialog_enable_local_backups">Skru på lokale reservekopiar?</string>
-    <string name="BackupDialog_enable_backups">Skru på reservekopiar</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Stadfest at du forstår ved å huka av avkryssingsboksen.</string>
-    <string name="BackupDialog_delete_backups">Slett reservekopiar?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Skru av og slett alle lokale reservekopiar?</string>
-    <string name="BackupDialog_delete_backups_statement">Slett reservekopiar</string>
-    <string name="LocalBackupJob_creating_backup">Opprettar reservekopi …</string>
     <string name="preferences_app_protection__screen_lock">Skjermlås</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -126,7 +126,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Oproepen</string>
     <string name="NotificationChannel_failures">Mislukkingen</string>
-    <string name="NotificationChannel_backups">Back-ups</string>
     <string name="lockAppStatus">Vergrendelingstoestand</string>
     <string name="updateApp">Nieuwe versies van de app </string>
     <string name="other">Anders</string>
@@ -196,7 +195,6 @@
     <string name="arrays__images">Afbeeldingen</string>
     <string name="audio">Geluid</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Normaal</string>
     <string name="max">Maximaal</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -210,9 +208,6 @@
     <string name="notificationsLedColor">Notificatie-LED-kleur</string>
     <string name="notificationsSound">Geluid</string>
     <string name="notificationsVibrate">Trillen</string>
-    <string name="preferences__fast">Snel</string>
-    <string name="preferences__normal">Normaal</string>
-    <string name="preferences__slow">Langzaam</string>
     <string name="preferences__trim_all_conversations_now">Oude berichten nu verwijderen</string>
     <string name="_default">Systeem-standaard</string>
     <string name="incognitoKeyboard">Incognito toetsenbord</string>
@@ -247,18 +242,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Toestemming vereist</string>
     <string name="notNow">Niet nu</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Back-ups worden opgeslagen op het externe opslaggeheugen en versleuteld met het wachtwoord hieronder. Je hebt dit wachtwoord nodig om de back-up terug te zetten.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ik heb dit wachtwoord opgeschreven. Zonder dit wachtwoord kan ik deze back-up niet terugzetten.</string>
     <string name="registration_activity__skip">Overslaan</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Kan geen back-ups importeren uit nieuwere versies van Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Verkeerd back-upwachtwoord</string>
-    <string name="BackupDialog_enable_local_backups">Session back-ups laten maken?</string>
-    <string name="BackupDialog_enable_backups">Back-ups inschakelen</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Verklaar dat je het begrijpt door het selectievakje aan te vinken.</string>
-    <string name="BackupDialog_delete_backups">Alle back-ups wissen?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Als je Signal niet langer back-ups wilt laten maken, dan zal Signal ook alle bestaande back-ups van /Session/Backups wissen, om er zeker van te zijn dat er geen oude gesprekken op je apparaat achterblijven.</string>
-    <string name="BackupDialog_delete_backups_statement">Back-ups wissen</string>
-    <string name="LocalBackupJob_creating_backup">Back-up aan het maken…</string>
     <string name="preferences_app_protection__screen_lock">Schermvergrendeling</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -115,7 +115,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Panggilan</string>
     <string name="NotificationChannel_failures">Gagal</string>
-    <string name="NotificationChannel_backups">Backup</string>
     <string name="lockAppStatus">Status kunci</string>
     <string name="updateApp">Pembaruan aplikasi</string>
     <string name="other">Lainnya</string>
@@ -173,7 +172,6 @@
     <string name="arrays__images">Gambar</string>
     <string name="audio">Suara</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Normal</string>
     <string name="max">Maksimal</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -214,11 +212,6 @@
     <string name="permissionsRequired">Izin dibutuhkan</string>
     <string name="notNow">Lain kali</string>
     <string name="registration_activity__skip">Lewati</string>
-    <string name="BackupDialog_enable_local_backups">Aktifkan backup lokal?</string>
-    <string name="BackupDialog_enable_backups">Aktifkan backup</string>
-    <string name="BackupDialog_delete_backups">Hapus backup?</string>
-    <string name="BackupDialog_delete_backups_statement">Hapus backup</string>
-    <string name="LocalBackupJob_creating_backup">Membuat backup...</string>
     <string name="preferences_app_protection__screen_lock">Kunci layar</string>
     <!-- Conversation activity -->
     <!-- Session -->

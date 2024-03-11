@@ -128,7 +128,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Զանգեր</string>
     <string name="NotificationChannel_failures">Ձախողումներ</string>
-    <string name="NotificationChannel_backups">Պահեստներ</string>
     <string name="lockAppStatus">Կողպեքի վիճակը</string>
     <string name="updateApp">Ծրագրի թարմացումներ</string>
     <string name="other">Այլ</string>
@@ -198,7 +197,6 @@
     <string name="arrays__images">Նկարներ</string>
     <string name="audio">Աուդիո</string>
     <string name="video">Վիդեո</string>
-    <string name="arrays__normal">Նորմալ</string>
     <string name="max">Մաքսիմում</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -212,9 +210,6 @@
     <string name="notificationsLedColor">LED-ի գույն</string>
     <string name="notificationsSound">Ձայն</string>
     <string name="notificationsVibrate">Թրթռոց</string>
-    <string name="preferences__fast">Արագ</string>
-    <string name="preferences__normal">Նորմալ</string>
-    <string name="preferences__slow">Դանդաղ</string>
     <string name="preferences__trim_all_conversations_now">Ջնջել խոսակցությունները հիմա</string>
     <string name="_default">Սկզբնական</string>
     <string name="incognitoKeyboard">Չհիշել բառերը</string>
@@ -249,18 +244,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Անհրաժեշտ է թույլտվություն</string>
     <string name="notNow">Ոչ հիմա</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Կրկնօրինակները կպահվեն արտաքին պահեստում և կգաղտնագրվեն ստորև գրված գաղտնաբառով. Կրկնօրինակը վերականգնելու համար դուք պետք է ունենաք այս գաղտնաբառը.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ես գրել եմ այս գաղտնաբառը. Առանց դրա, ես չեմ կարողանա վերականգնել կրկնօրինակը.</string>
     <string name="registration_activity__skip">Բաց թողնել</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Հնարավոր չէ ներմուծել կրկնօրինակներ Session-ի նոր տարբերակներից</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Սխալ կրկնօրինակի գախտնաբառ</string>
-    <string name="BackupDialog_enable_local_backups">Միացնե՞լ տեղային կրկնօրինակումը?</string>
-    <string name="BackupDialog_enable_backups">Միացնել կրկնօրինակումները</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Խնդրում ենք հաստատել ձեր հասկացողությունը՝ նշելով հաստատման վանդակը:</string>
-    <string name="BackupDialog_delete_backups">Ջնջե՞լ կրկնօրինակը։</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Անջատե՞լ և ջնջե՞լ բոլոր տեղական կրկնօրինակները:</string>
-    <string name="BackupDialog_delete_backups_statement">Ջնջել կրկնօրինակը։</string>
-    <string name="LocalBackupJob_creating_backup">Ստեղծվուն է կրկնօրինակ...</string>
     <string name="preferences_app_protection__screen_lock">Էկրանային կողպում</string>
     <!-- Conversation activity -->
     <!-- Session -->

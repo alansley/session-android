@@ -125,7 +125,6 @@ nøkkelutvekslingsmelding.</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtaler</string>
     <string name="NotificationChannel_failures">Feil</string>
-    <string name="NotificationChannel_backups">Sikkerhetskopiering</string>
     <string name="lockAppStatus">Lås status</string>
     <string name="updateApp">Oppdateringer</string>
     <string name="other">Annet</string>
@@ -195,7 +194,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="arrays__images">Bilder</string>
     <string name="audio">Lyd</string>
     <string name="video">Video</string>
-    <string name="arrays__normal">Vanlig</string>
     <string name="max">Maks</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -209,9 +207,6 @@ nøkkelutvekslingsmelding.</string>
     <string name="notificationsLedColor">LED-farge</string>
     <string name="notificationsSound">Lyd</string>
     <string name="notificationsVibrate">Vibrer</string>
-    <string name="preferences__fast">Raskt</string>
-    <string name="preferences__normal">Vanlig</string>
-    <string name="preferences__slow">Langsomt</string>
     <string name="preferences__trim_all_conversations_now">Rydd opp i alle samtaler nå</string>
     <string name="_default">Forvalgt</string>
     <string name="incognitoKeyboard">Inkognito-tastatur</string>
@@ -246,18 +241,7 @@ nøkkelutvekslingsmelding.</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Tillatelse kreves</string>
     <string name="notNow">Ikke nå</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Sikkerhetskopier blir lagret på eksterne enheter og kryptert med passordfrasen nedenfor. Du må skrive inn denne passordfrasen for å kunne gjennopprette fra en sikkerhetskopi.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Jeg har notert passordfrasen. Uten denne blir det umulig å bruke sikkerhetskopien til gjenoppretting.</string>
     <string name="registration_activity__skip">Hopp over</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Kan ikke importere sikkerhetskopier fra nyere versjoner av Session.</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Feil passordfrase for sikkerhetskopi</string>
-    <string name="BackupDialog_enable_local_backups">Vil du slå på lokal sikkerhetskopiering?</string>
-    <string name="BackupDialog_enable_backups">Slå på sikkerhetskopiering</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Bekreft at du forstår hvordan dette fungerer ved å krysse av boksen nedenfor.</string>
-    <string name="BackupDialog_delete_backups">Vil du slette disse sikkerhetskopiene?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Vil du slå av og slette alle lokale sikkerhetskopier?</string>
-    <string name="BackupDialog_delete_backups_statement">Slett sikkerhetskopier</string>
-    <string name="LocalBackupJob_creating_backup">Tar sikkerhetskopi …</string>
     <string name="preferences_app_protection__screen_lock">Skjermlås</string>
     <!-- Conversation activity -->
     <!-- Session -->

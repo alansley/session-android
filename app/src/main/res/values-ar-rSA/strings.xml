@@ -140,7 +140,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">المُكالمات</string>
     <string name="NotificationChannel_failures">إخفاقات</string>
-    <string name="NotificationChannel_backups">النُسخ الإحتياطية</string>
     <string name="lockAppStatus">حالة القفل</string>
     <string name="updateApp">تحديثات التطبيق</string>
     <string name="other">أخرى</string>
@@ -214,7 +213,6 @@
     <string name="arrays__images">صور</string>
     <string name="audio">صوت</string>
     <string name="video">فيديو</string>
-    <string name="arrays__normal">طبيعي</string>
     <string name="max">الأقصى</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -232,9 +230,6 @@
     <string name="notificationsLedColor">لون ضوء التنبيه LED</string>
     <string name="notificationsSound">صوت</string>
     <string name="notificationsVibrate">هزاز</string>
-    <string name="preferences__fast">سريع</string>
-    <string name="preferences__normal">طبيعي</string>
-    <string name="preferences__slow">بطىء</string>
     <string name="preferences__trim_all_conversations_now">تقليم كل المحادثات الآن</string>
     <string name="_default">افتراضي</string>
     <string name="incognitoKeyboard">وضع التستّر للوحة المفاتيح</string>
@@ -269,18 +264,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">منح إحدى الأذونات مطلوب</string>
     <string name="notNow">ليس الآن</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">يتم حفظ النسخ الاحتياطية إلى سعة التخزين مشفرة بالعبارة السرية التالية، ومن الضروري حفظها من أجل استعادة قاعدة البيانات.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">قمت بتدوين العبارة السرية، ولا يمكنني استعادة قاعدة البيانات بدونها.</string>
     <string name="registration_activity__skip">تخطى</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">لا يمكن استيراد النسخ الاحتياطية من الإصدارات الأحدث</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">العبارة السرية غير صحيحة</string>
-    <string name="BackupDialog_enable_local_backups">أتريد تشغيل النُّسخ الإحتاطية المحلية ؟</string>
-    <string name="BackupDialog_enable_backups">تمكين النُسخ الإحتياطية</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">رجاء الإقرار بفهم الخاصية عبر اختيار علامة التأكيد.</string>
-    <string name="BackupDialog_delete_backups">هل تود حذف النسخ الإحتياطية ؟</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">أتريد تعطيل و حذف كافة النُّسخ الإحتياطية المحلية ؟</string>
-    <string name="BackupDialog_delete_backups_statement">حذف النسخ الإحتياطية</string>
-    <string name="LocalBackupJob_creating_backup">جارٍ إنشاء نسخة احتياطية...</string>
     <string name="preferences_app_protection__screen_lock">قفل الشاشة</string>
     <!-- Conversation activity -->
     <!-- Session -->

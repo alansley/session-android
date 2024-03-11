@@ -126,7 +126,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Κλήσεις</string>
     <string name="NotificationChannel_failures">Αποτυχίες</string>
-    <string name="NotificationChannel_backups">Αντίγραφα ασφαλείας</string>
     <string name="lockAppStatus">Κατάσταση κλειδώματος</string>
     <string name="updateApp">Αναβαθμίσεις εφαρμογής</string>
     <string name="other">Άλλο</string>
@@ -196,7 +195,6 @@
     <string name="arrays__images">Εικόνες</string>
     <string name="audio">Ήχοι</string>
     <string name="video">Βίντεο</string>
-    <string name="arrays__normal">Κανονικό</string>
     <string name="max">Μέγιστο</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -210,9 +208,6 @@
     <string name="notificationsLedColor">Χρώμα LED</string>
     <string name="notificationsSound">Ήχος</string>
     <string name="notificationsVibrate">Δόνηση</string>
-    <string name="preferences__fast">Γρήγορο</string>
-    <string name="preferences__normal">Κανονικό</string>
-    <string name="preferences__slow">Αργό</string>
     <string name="preferences__trim_all_conversations_now">Περικοπή όλων των συνομιλιών τώρα</string>
     <string name="_default">Προκαθορισμένο</string>
     <string name="incognitoKeyboard">Κρυφό πληκτρολόγιο</string>
@@ -247,18 +242,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Χρειάζονται δικαιώματα πρόσβασης</string>
     <string name="notNow">Όχι τώρα</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Τα αντίγραφα ασφαλείας αποθηκεύονται στην εξωτερική μνήμη και κρυπτογραφούνται με την παρακάτω φράση-κλειδί. Πρέπει να γνωρίζετε αυτή τη φράση-κλειδί για να επανακτήσετε το αντίγραφο ασφαλείας.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Σημείωσα σε χαρτί αυτή τη φράση-κλειδί. Χωρίς αυτή, δε θα μπορέσω να επανακτήσω το αντίγραφο ασφαλείας.</string>
     <string name="registration_activity__skip">Παράλειψη</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Δεν μπορούμε να εισάγουμε αντίγραφα ασφαλείας από νεότερες εκδόσεις του Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Λάθος φράση-κλειδί αντίγραφου ασφαλείας</string>
-    <string name="BackupDialog_enable_local_backups">Ενεργοποίηση τοπικών αντίγραφων ασφαλείας;</string>
-    <string name="BackupDialog_enable_backups">Ενεργοποίηση αντίγραφων ασφαλείας</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Παρακαλώ επιβεβαιώστε ότι καταλαβαίνετε τσεκάροντας το κουτί επιβεβαίωσης.</string>
-    <string name="BackupDialog_delete_backups">Διαγραφή αντίγραφων ασφαλείας;</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Απενεργοποίηση και διαγραφή όλων των τοπικών αντίγραφων ασφαλείας;</string>
-    <string name="BackupDialog_delete_backups_statement">Διαγραφή αντίγραφων ασφαλείας</string>
-    <string name="LocalBackupJob_creating_backup">Το αντίγραφο ασφαλείας δημιουργείται...</string>
     <string name="preferences_app_protection__screen_lock">Κλείδωμα οθόνης</string>
     <!-- Conversation activity -->
     <!-- Session -->

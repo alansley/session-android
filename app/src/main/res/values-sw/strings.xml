@@ -97,7 +97,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">wito</string>
     <string name="NotificationChannel_failures">Kushindwa</string>
-    <string name="NotificationChannel_backups">Rudisha taarifa</string>
     <string name="lockAppStatus">Hali ya kufunga</string>
     <string name="updateApp">Sasisho za programu</string>
     <string name="other">ingine</string>
@@ -159,7 +158,6 @@
     <string name="notificationsContentShowNameOnly">jina tu</string>
     <string name="arrays__images">picha</string>
     <string name="audio">Sauti</string>
-    <string name="arrays__normal">Kawaida</string>
     <string name="max">mwisho</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
@@ -169,9 +167,6 @@
     <string name="notificationsLedColor">Rangi za LED</string>
     <string name="notificationsSound">Sauti</string>
     <string name="notificationsVibrate">vibrate</string>
-    <string name="preferences__fast">Haraka</string>
-    <string name="preferences__normal">Kawaida</string>
-    <string name="preferences__slow">Polepole</string>
     <string name="preferences__trim_all_conversations_now">Piga mazungumzo yote sasa</string>
     <string name="_default">Chaguo Msingi</string>
     <string name="incognitoKeyboard">Kibodi cha kuingia</string>
@@ -205,18 +200,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Ruhusa inahitajika</string>
     <string name="notNow">sio sasa</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Backups itahifadhiwa kwenye hifadhi ya nje na imetambulishwa na nenosiri chini. Lazima uwe na chapisho hili ili urejeshe upya.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Nimeandika neno hili la kupitisha. Bila hivyo, sitashindwa kurejesha salama.</string>
     <string name="registration_activity__skip">ruka</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Haiwezi kuingiza backups kutoka kwa matoleo mapya ya Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Sahihi ya kupitisha safu ya salama</string>
-    <string name="BackupDialog_enable_local_backups">kuwezesha salama ya ndani?</string>
-    <string name="BackupDialog_enable_backups">Rudisha salama</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Tafadhali kukubali ufahamu wako kwa kuashiria sanduku la uthibitisho la kuthibitisha.</string>
-    <string name="BackupDialog_delete_backups">Futa vifungo?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Zima na kufuta salama zote za ndani?</string>
-    <string name="BackupDialog_delete_backups_statement">Futa salama</string>
-    <string name="LocalBackupJob_creating_backup">Kujenga salama</string>
     <string name="preferences_app_protection__screen_lock">safi ya skrini</string>
     <!-- Conversation activity -->
     <!-- Session -->

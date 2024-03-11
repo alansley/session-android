@@ -70,7 +70,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ಕಾಲುಗಳು</string>
     <string name="NotificationChannel_failures">ವಿಫಲತೆಗಳು</string>
-    <string name="NotificationChannel_backups">ಬ್ಯಾಕಪ್ಪುಗಳು</string>
     <string name="other">ಇತರೆ</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
@@ -116,7 +115,6 @@
     <string name="arrays__images">ಚಿತ್ರಗಳು</string>
     <string name="audio">ಆಡಿಯೋ</string>
     <string name="video">ವೀಡಿಯೊ</string>
-    <string name="arrays__normal">ಸಾಮಾನ್ಯ</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__screen_security">ಪರದೆಯ ಭದ್ರತೆ</string>
@@ -124,8 +122,6 @@
     <string name="notificationsLedColor">ಎಲಿಡಿ ಬಣ್ಣ</string>
     <string name="notificationsSound">ಶಬ್ಧ</string>
     <string name="notificationsVibrate">ಕಂಪಿಸು</string>
-    <string name="preferences__normal">ಸಾಮಾನ್ಯ</string>
-    <string name="preferences__slow">ನಿಧಾನ</string>
     <string name="_default">ಪೂರ್ವನಿಯೋಜಿತ</string>
     <!-- **************************************** -->
     <!-- menus -->

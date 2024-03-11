@@ -130,7 +130,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">שיחות</string>
     <string name="NotificationChannel_failures">כישלונות</string>
-    <string name="NotificationChannel_backups">גיבויים</string>
     <string name="lockAppStatus">מעמד נעילה</string>
     <string name="updateApp">עדכוני יישום</string>
     <string name="other">אחר</string>
@@ -201,7 +200,6 @@
     <string name="arrays__images">תמונות</string>
     <string name="audio">שמע</string>
     <string name="video">וידיאו</string>
-    <string name="arrays__normal">רגיל</string>
     <string name="max">מרבי</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -217,9 +215,6 @@
     <string name="notificationsLedColor">צבע LED</string>
     <string name="notificationsSound">קול</string>
     <string name="notificationsVibrate">רטט</string>
-    <string name="preferences__fast">מהיר</string>
-    <string name="preferences__normal">רגיל</string>
-    <string name="preferences__slow">איטי</string>
     <string name="preferences__trim_all_conversations_now">קצץ את כל השיחות כעת</string>
     <string name="_default">ברירת מחדל</string>
     <string name="incognitoKeyboard">מקלדת סמויה</string>
@@ -253,18 +248,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">דרושה הרשאה</string>
     <string name="notNow">לא עכשיו</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">גיבויים יישמרו בהתקן חיצוני ויוצפנו עם משפט־הסיסמה למטה. חייב להיות לך משפט־סיסמה זה על מנת לשחזר גיבוי.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">כתבתי משפט־סיסמה זה. בלעדיו, לא אוכל לשחזר גיבוי.</string>
     <string name="registration_activity__skip">דלג</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">לא ניתן לייבא גיבויים מגרסאות חדשות יותר של Session</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">משפט־סיסמה שגוי של גיבוי</string>
-    <string name="BackupDialog_enable_local_backups">לאפשר גיבויים מקומיים?</string>
-    <string name="BackupDialog_enable_backups">אפשר גיבויים</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">אנא הכר בהבנתך ע\"י סימון תיבת האישור.</string>
-    <string name="BackupDialog_delete_backups">למחוק גיבויים?</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">להשבית ולמחוק את כל הגיבויים המקומיים?</string>
-    <string name="BackupDialog_delete_backups_statement">מחק גיבויים</string>
-    <string name="LocalBackupJob_creating_backup">יוצר גיבוי...</string>
     <string name="preferences_app_protection__screen_lock">נעילת מסך</string>
     <!-- Conversation activity -->
     <!-- Session -->

@@ -109,7 +109,6 @@
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">การโทร</string>
     <string name="NotificationChannel_failures">ล้มเหลว</string>
-    <string name="NotificationChannel_backups">การสำรองข้อมูล</string>
     <string name="lockAppStatus">สถานะล๊อค</string>
     <string name="updateApp">การอัปเดตแอป</string>
     <string name="other">ที่อื่น</string>
@@ -170,7 +169,6 @@
     <string name="arrays__images">ภาพ</string>
     <string name="audio">เสียง</string>
     <string name="video">วิดีโอ</string>
-    <string name="arrays__normal">ปกติ</string>
     <string name="max">สูงสุด</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -182,9 +180,6 @@
     <string name="notificationsLedColor">สี LED</string>
     <string name="notificationsSound">เสียง</string>
     <string name="notificationsVibrate">สั่น</string>
-    <string name="preferences__fast">เร็ว</string>
-    <string name="preferences__normal">ปกติ</string>
-    <string name="preferences__slow">ช้า</string>
     <string name="preferences__trim_all_conversations_now">ตัดการสนทนาทั้งหมดให้สั้นลงเดี๋ยวนี้</string>
     <string name="_default">ค่าเริ่มต้น</string>
     <string name="incognitoKeyboard">แป้นพิมพ์แบบลับ</string>
@@ -217,17 +212,7 @@
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">ต้องได้รับอนุญาตก่อน</string>
     <string name="notNow">ไม่ใช่ตอนนี้</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">การสำรองข้อมูลจะถูกบันทึกไว้ที่ที่เก็บข้อมูลภายนอกและถูกเข้ารหัสด้วยวลีรหัสผ่านด้านล่างนี้ คุณจะต้องใช้วลีรหัสผ่านนี้เพื่อคืนค่าสำรองข้อมูล</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">ฉันได้จดบันทึกวลีรหัสผ่านนี้แล้ว หากจำไม่ได้ ฉันจะไม่สามารถคืนค่าสำรองข้อมูลได้</string>
     <string name="registration_activity__skip">ข้าม</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">วลีรหัสผ่านของการสำรองข้อมูลไม่ถูกต้อง</string>
-    <string name="BackupDialog_enable_local_backups">เปิดใช้งานการสำรองข้อมูลในเครื่องหรือไม่</string>
-    <string name="BackupDialog_enable_backups">เปิดใช้งานการสำรองข้อมูล</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">โปรดแสดงการยอมรับว่าคุณเข้าใจโดยทำเครื่องหมายที่กล่องกาเครื่องหมายการยืนยัน</string>
-    <string name="BackupDialog_delete_backups">ลบการสำรองข้อมูลหรือไม่</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">ปิดใช้งานและลบการสำรองข้อมูลในเครื่องทั้งหมดหรือไม่</string>
-    <string name="BackupDialog_delete_backups_statement">ลบการสำรองข้อมูล</string>
-    <string name="LocalBackupJob_creating_backup">กำลังสร้างการสำรองข้อมูล...</string>
     <string name="preferences_app_protection__screen_lock">ล็อกหน้าจอ</string>
     <!-- Conversation activity -->
     <!-- Session -->

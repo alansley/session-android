@@ -109,7 +109,6 @@ ranti pakalla yupaykunamanta</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Kayachikuna</string>
     <string name="NotificationChannel_failures">Pantakuna</string>
-    <string name="NotificationChannel_backups">Wakaychikpa chayshinakuna</string>
     <string name="lockAppStatus">Kashkata pakana</string>
     <string name="updateApp">Aplicacionta kunanyachikuy</string>
     <string name="other">Shuk yupaykuna </string>
@@ -170,7 +169,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="arrays__images">Shuyukuna</string>
     <string name="audio">Uyariy</string>
     <string name="video">Shuyurikuchik</string>
-    <string name="arrays__normal">Chayshina</string>
     <string name="max">Chaykamanlla</string>
     <!-- plurals.xml -->
     <plurals name="hours_ago">
@@ -183,9 +181,6 @@ ranti pakalla yupaykunamanta</string>
     <string name="notificationsLedColor">LEDpa tulpu</string>
     <string name="notificationsSound">Wakay uyari</string>
     <string name="notificationsVibrate">Chukchuy</string>
-    <string name="preferences__fast">Uchalla</string>
-    <string name="preferences__normal">Chayshina</string>
-    <string name="preferences__slow">Allillallla</string>
     <string name="preferences__trim_all_conversations_now">Rimarikunata pichana</string>
     <string name="_default">Ña rurashka </string>
     <string name="incognitoKeyboard">Killkana hillay pakallaku</string>
@@ -218,17 +213,7 @@ ranti pakalla yupaykunamanta</string>
     <!-- transport_selection_list_item -->
     <string name="permissionsRequired">Mañayta mutsurinmi</string>
     <string name="notNow">Kunanka mana</string>
-    <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Wakaychishka chayshinakunaka kanlla allichik ukupi  allichirinkami, urapi paskachik shimiwan. Kutinlla kay wakaychishkakunata tikrachimunkapakka paskachik shimita charinami kanki.</string>
-    <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Kay paskachik shimita killkashkanimi . Pay illakka mana chayshinalla wakaychishkakunata kallarichita usharinkachu.</string>
     <string name="registration_activity__skip">Pawana</string>
-    <string name="RegistrationActivity_incorrect_backup_passphrase">Chayshinalla wakaychishkapa paskachik shimita yaykuchishkaka mana allichu kan</string>
-    <string name="BackupDialog_enable_local_backups">Chayshinalla wakaychishkakunata paskanayanchu</string>
-    <string name="BackupDialog_enable_backups">Chayshinalla wakaychishkakunata paskana</string>
-    <string name="BackupDialog_please_acknowledge_your_understanding_by_marking_the_confirmation_check_box">Ama shina kashpa, hamutashkata riksichipay kaypi aspishpa.</string>
-    <string name="BackupDialog_delete_backups">Chayshinalla wakaychishkakunata pichanayanchu</string>
-    <string name="BackupDialog_disable_and_delete_all_local_backups">Tukuylla chayshinalla wakaychishkakunata wichashpa pichanayanchu</string>
-    <string name="BackupDialog_delete_backups_statement">Chayshinalla wakaychishkakunata pichana</string>
-    <string name="LocalBackupJob_creating_backup">Chayshinalla wakaychishkakunata wiñachikun</string>
     <string name="preferences_app_protection__screen_lock">Pakallayachina</string>
     <!-- Conversation activity -->
     <!-- Session -->
