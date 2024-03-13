@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:title="@string/conversation_context__menu_reply_to_message"
+        android:title="@string/reply"
         android:id="@+id/menu_context_reply"
         android:icon="?menu_reply_icon"
         app:showAsAction="always" />

@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">发送失败，点击查看详情</string>
-    <string name="ConversationItem_click_to_approve_unencrypted">发送失败，点击使用不安全的方式发送</string>
     <string name="ConversationItem_copied_text">已复制 %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">添加附件</string>

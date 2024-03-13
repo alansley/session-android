@@ -429,7 +429,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_toEndOf="@+id/helpContainer"
-                        android:text="@string/activity_settings_help_button" />
+                        android:text="@string/sessionHelp" />
                 </RelativeLayout>
 
                 <View

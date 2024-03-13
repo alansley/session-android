@@ -33,7 +33,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Ошибка отправки. Нажмите для подробностей</string>
-    <string name="ConversationItem_click_to_approve_unencrypted">Отправка не удалась, нажмите для негарантированного отката</string>
     <string name="ConversationItem_copied_text">Скопировано: %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Добавить вложение</string>

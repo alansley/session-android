@@ -150,7 +150,7 @@
             android:name="org.thoughtcrime.securesms.preferences.BlockedContactsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Session.DayNight.FlatActionBar"
-            android:label="@string/blocked_contacts_title"
+            android:label="@string/conversationsBlockedContacts"
             />
         <activity
             android:name="org.thoughtcrime.securesms.groups.EditClosedGroupActivity"
@@ -174,7 +174,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="org.thoughtcrime.securesms.preferences.HelpSettingsActivity"
-            android:label="@string/activity_help_settings_title"
+            android:label="@string/sessionHelp"
             android:screenOrientation="portrait" />
         <activity android:name="org.thoughtcrime.securesms.preferences.appearance.AppearanceSettingsActivity"
             android:screenOrientation="portrait"/>

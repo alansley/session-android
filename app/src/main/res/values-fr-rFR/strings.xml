@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Échec d’envoi, touchez pour obtenir des détails</string>
-    <string name="ConversationItem_click_to_approve_unencrypted">Échec de l’envoi, touchez pour utiliser la solution de rechange non sécurisée</string>
     <string name="ConversationItem_copied_text">Copié %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ajouter une pièce jointe</string>
@@ -297,7 +296,6 @@
     <string name="activity_notification_settings_content_section_title">Contenu de notification</string>
     <string name="sessionPrivacy">Confidentialité</string>
     <string name="activity_conversations_settings_title">Conversations</string>
-    <string name="activity_help_settings_title">Aide</string>
     <string name="activity_help_settings__report_bug_title">Signaler un bug</string>
     <string name="activity_help_settings__report_bug_summary">Exportez vos logs, puis télécharger le fichier au service d\'aide de Session.</string>
     <string name="activity_help_settings__translate_session">Traduire Session</string>
@@ -308,10 +306,6 @@
     <string name="notificationsStrategy">Stratégie de notification</string>
     <string name="useFastMode">Utiliser le Mode Rapide</string>
     <string name="clearDataAll">Effacer toutes les données</string>
-    <string name="dialog_clear_all_data_message">Cela supprimera définitivement vos messages, sessions et contacts. Voulez-vous uniquement effacer cet appareil ou supprimer l\'intégralité de votre compte ?</string>
-    <string name="dialog_clear_all_data_clear_device_only">Effacer l\'appareil uniquement</string>
-    <string name="dialog_clear_all_data_clear_device_and_network">Effacer l\'appareil et le réseau</string>
-    <string name="dialog_clear_all_data_clear_device_and_network_confirmation">Êtes-vous sûr de vouloir supprimer vos données du réseau ? Si vous continuez, vous ne pourrez pas restaurer vos messages ou vos contacts.</string>
     <string name="dialog_clear_all_data_clear">Effacer</string>
     <string name="qrCode">QR Code</string>
     <string name="activity_qr_code_view_scan_qr_code_explanation">Scannez le QR code d\'un autre utilisateur pour démarrer une session</string>
@@ -368,7 +362,6 @@
     <string name="dismiss">Rejeter</string>
     <string name="activity_settings_conversations_button_title">Conversations</string>
     <string name="activity_settings_message_appearance_button_title">Apparence</string>
-    <string name="activity_settings_help_button">Aide</string>
     <string name="activity_appearance_themes_category">Thèmes</string>
     <string name="ocean_dark_theme_name">Océan sombre</string>
     <string name="classic_dark_theme_name">Sombre classique</string>
@@ -401,7 +394,6 @@
     <string name="activity_appearance_follow_system_category">Thème sombre automatique</string>
     <string name="activity_appearance_follow_system_explanation">Faire correspondre aux paramètres systèmes</string>
     <string name="go_to_device_notification_settings">Accédez aux paramètres de notifications de l\'appareil</string>
-    <string name="blocked_contacts_title">Contacts bloqués</string>
     <string name="blocked_contacts_empty_state">Vous n\'avez aucun contact bloqué</string>
     <string name="Unblock_dialog__title_single">Débloquer %s</string>
     <string name="Unblock_dialog__title_multiple">Débloquer les utilisateurs</string>
