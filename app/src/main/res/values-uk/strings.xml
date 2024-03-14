@@ -7,7 +7,7 @@
     <string name="save">Зберегти</string>
     <string name="noteToSelf">Замітка для себе</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Нове повідомлення</string>
+    <string name="messageNew">Нове повідомлення</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -129,7 +129,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Недопустимий ярлик</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Нове повідомлення</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d файл</item>
@@ -313,7 +312,6 @@
     <string name="urlCopy">Копіювати URL</string>
     <string name="enable">Включити</string>
     <string name="download">Скачати</string>
-    <string name="activity_conversation_attachment_prep_failed">Не вдалося підготувати файл для надсилання.</string>
     <string name="media">Медіа-файли</string>
     <string name="_error">Помилка</string>
     <string name="warning">Увага</string>

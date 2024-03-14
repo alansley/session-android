@@ -7,7 +7,7 @@
     <string name="save">حفظ</string>
     <string name="noteToSelf">ملاحظة لنفسي</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">رسالة جديدة</string>
+    <string name="messageNew">رسالة جديدة</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -134,7 +134,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">إختصار غير صالح</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">رسالة جديدة</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="zero">صفر</item>
@@ -322,7 +321,6 @@
     <string name="urlCopy">انسخ الرابط</string>
     <string name="enable">تفعيل</string>
     <string name="download">تنزيل</string>
-    <string name="activity_conversation_attachment_prep_failed">فشل إعداد المرفق للإرسال.</string>
     <string name="media">وسائط</string>
     <string name="_error">خطأ</string>
     <string name="warning">تحذير</string>

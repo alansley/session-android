@@ -7,7 +7,7 @@
     <string name="save">Պահպանել</string>
     <string name="noteToSelf">Նշում ինքս ինձ</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Նոր հաղորդագրություն</string>
+    <string name="messageNew">Նոր հաղորդագրություն</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Սխալ կարճեցում</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Նոր նամակ</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d Իր</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">Պատճենել հղումը</string>
     <string name="enable">Միացնել</string>
     <string name="download">Ներբեռնել</string>
-    <string name="activity_conversation_attachment_prep_failed">Չհաջողվեց պատրաստել կցորդն ուղարկելու համար:</string>
     <string name="media">Մեդիա</string>
     <string name="_error">Սխալ</string>
     <string name="warning">Զգուշացում</string>

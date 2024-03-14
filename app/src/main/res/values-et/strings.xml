@@ -6,7 +6,7 @@
     <string name="save">Salvesta</string>
     <string name="noteToSelf">Märkus endale</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Uus sõnum</string>
+    <string name="messageNew">Uus sõnum</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
@@ -114,7 +114,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Sobimatu otsetee</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Uus sõnum</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d üksus</item>

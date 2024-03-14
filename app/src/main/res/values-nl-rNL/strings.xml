@@ -7,7 +7,7 @@
     <string name="save">Opslaan</string>
     <string name="noteToSelf">Notitie aan mezelf</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nieuw bericht</string>
+    <string name="messageNew">Nieuw bericht</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Ongeldige snelkoppeling</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nieuw bericht</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d item</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">Kopieer URL</string>
     <string name="enable">Inschakelen</string>
     <string name="download">Download</string>
-    <string name="activity_conversation_attachment_prep_failed">Kon bijlage niet voorbereiden voor verzending.</string>
     <string name="media">Media</string>
     <string name="_error">Error</string>
     <string name="warning">Waarschuwing</string>

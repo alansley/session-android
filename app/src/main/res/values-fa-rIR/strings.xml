@@ -6,7 +6,7 @@
     <string name="save">ذخیره</string>
     <string name="noteToSelf">یادداشت به خود</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">پیام جدید</string>
+    <string name="messageNew">پیام جدید</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">%d+\</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">میانبر نامعتبر</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">پیام جدید</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d آیتم</item>
@@ -292,7 +291,6 @@
     <string name="notificationsStyle">سبک اعلان</string>
     <string name="activity_notification_settings_content_section_title">محتوای اعلان</string>
     <string name="sessionPrivacy">حریم خصوصی</string>
-    <string name="activity_conversations_settings_title">مکالمات</string>
     <string name="activity_help_settings__report_bug_title">گزارش خرابی</string>
     <string name="activity_help_settings__report_bug_summary">گزارش‌های خود را صادر کنید، سپس فایل را از طریق Session\'s Help Desk آپلود کنید.</string>
     <string name="activity_help_settings__translate_session">ترجمه Session</string>
@@ -324,7 +322,6 @@
     <string name="communityJoinOfficial">یا به یکی از این‌ها بپیوندید…</string>
     <string name="onboardingMessageNotificationExplaination">در برنامه سشن، برای مطلع کردن شما از رسیدن پیام‌های جدید، دو روش وجود دارد.</string>
     <string name="notificationsFastMode">حالت سریع</string>
-    <string name="notificationsSlowMode">حالت آهسته</string>
     <string name="notificationsFastModeDescriptionAndroid">با استفاده از سرورهای گوگل، شما به صورت سریع و مطمئن از پیام‌های جدید مطلع می‌شوید.</string>
     <string name="notificationsSlowModeDescription">Session هرازگاهی در پس زمینه وجود پیام‌های جدید را بررسی می‌کند.</string>
     <string name="blockUnblockDescription">آیا مطمئن هستید که میخواهید %s را از حالت مسدود بودن خارج کنید؟</string>
@@ -333,8 +330,6 @@
     <string name="urlCopy">کپی URL</string>
     <string name="enable">فعال کردن</string>
     <string name="download">دانلود</string>
-    <string name="activity_conversation_block_user">مسدود کردن کاربر</string>
-    <string name="activity_conversation_attachment_prep_failed">آماده‌سازی فایل ضمیمه برای ارسال به مشکل خورده است.</string>
     <string name="media">رسانه</string>
     <string name="_error">خطا</string>
     <string name="warning">هشدار</string>
@@ -362,8 +357,7 @@
     <string name="dismiss">رد کردن</string>
     <string name="activity_settings_conversations_button_title">مکالمات</string>
     <string name="activity_settings_message_appearance_button_title">ظاهر</string>
-    <string name="activity_appearance_themes_category">تم‌ها</string>
-    <string name="activity_appearance_primary_color_category">رنگ اولیه</string>
+    <string name="appearancePrimaryColor">رنگ اولیه</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">این پیغام</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">اخیرا استفاده شده</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__smileys_and_people">شکلک‌ها و مردم</string>
@@ -387,7 +381,7 @@
     <string name="KeyboardPagerFragment_search_emoji">جستجو ایموجی</string>
     <string name="KeyboardPagerfragment_back_to_emoji">بازگشت به ایموجی</string>
     <string name="KeyboardPagerfragment_clear_search_entry">پاک کردن ورودی جستجو</string>
-    <string name="activity_appearance_follow_system_category">حالت شب خودکار</string>
+    <string name="appearanceAutoDarkMode">حالت شب خودکار</string>
     <string name="activity_appearance_follow_system_explanation">مطابق‌سازی تنظیمات سیستم</string>
     <string name="go_to_device_notification_settings">رفتن به تنظیمات اعلان دستگاه</string>
     <string name="blocked_contacts_empty_state">شما هیچ مخاطب مسدود‌شده‌ای ندارید</string>

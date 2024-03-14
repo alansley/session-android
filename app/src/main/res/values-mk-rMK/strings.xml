@@ -5,7 +5,7 @@
     <string name="delete">ဖျက်ပါ</string>
     <string name="save">သိမ်းသည် </string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">စာအသစ်</string>
+    <string name="messageNew">စာအသစ်</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <!-- DraftDatabase -->
@@ -93,7 +93,6 @@
     <string name="search">ရှာရန်</string>
     <!-- ShortcutLauncherActivity -->
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">စာအသစ်</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->

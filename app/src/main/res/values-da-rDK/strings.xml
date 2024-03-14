@@ -7,7 +7,7 @@
     <string name="save">Gem</string>
     <string name="noteToSelf">Egen note</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Ny besked</string>
+    <string name="messageNew">Ny besked</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -121,7 +121,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Ugyldig genvej</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Ny besked</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d Enheder</item>

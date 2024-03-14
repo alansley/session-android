@@ -7,7 +7,7 @@
     <string name="save">Tallenna</string>
     <string name="noteToSelf">Viestit itselleni</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Uusi viesti</string>
+    <string name="messageNew">Uusi viesti</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Virheellinen pikakuvake</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Uusi viesti</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d kappale</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">Kopioi URL</string>
     <string name="enable">Ota käyttöön</string>
     <string name="download">Lataa</string>
-    <string name="activity_conversation_attachment_prep_failed">Liitetiedoston valmistelu lähettämistä varten epäonnistui.</string>
     <string name="media">Media</string>
     <string name="_error">Virhe</string>
     <string name="warning">Varoitus</string>

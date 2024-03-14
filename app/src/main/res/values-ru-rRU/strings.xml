@@ -7,7 +7,7 @@
     <string name="save">Сохранить</string>
     <string name="noteToSelf">Заметка для себя</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Новое сообщение</string>
+    <string name="messageNew">Новое сообщение</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -128,7 +128,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Недопустимый ярлык</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Новое сообщение</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d пункт</item>
@@ -312,7 +311,6 @@
     <string name="urlCopy">Копировать ссылку</string>
     <string name="enable">Включить</string>
     <string name="download">Скачать</string>
-    <string name="activity_conversation_attachment_prep_failed">Не удалось подготовить вложение для отправки.</string>
     <string name="media">Медиа</string>
     <string name="_error">Ошибка</string>
     <string name="warning">Предупреждение</string>

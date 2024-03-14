@@ -7,7 +7,7 @@
     <string name="save">שמור</string>
     <string name="noteToSelf">הערה לעצמי</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">הודעה חדשה</string>
+    <string name="messageNew">הודעה חדשה</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -125,7 +125,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">קיצור דרך בלתי תקף</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">הודעה חדשה</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">פריט %d</item>

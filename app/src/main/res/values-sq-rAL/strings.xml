@@ -7,7 +7,7 @@
     <string name="save">Ruaje</string>
     <string name="noteToSelf">Shënim për Veten</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Mesazh i ri</string>
+    <string name="messageNew">Mesazh i ri</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">/+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Shkurtore e pavlefshme</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Mesazh i ri</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d Objekt</item>

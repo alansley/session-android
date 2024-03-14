@@ -7,7 +7,7 @@
     <string name="save">Speichern</string>
     <string name="noteToSelf">Notiz an mich</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Neue Nachricht</string>
+    <string name="messageNew">Neue Nachricht</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Ungültige Verknüpfung</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Neue Nachricht</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d Element</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">Link kopieren</string>
     <string name="enable">Aktivieren</string>
     <string name="download">Herunterladen</string>
-    <string name="activity_conversation_attachment_prep_failed">Der Anhang konnte nicht zum Senden vorbereitet werden.</string>
     <string name="media">Medien</string>
     <string name="_error">Fehler</string>
     <string name="warning">Warnung</string>

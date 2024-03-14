@@ -7,7 +7,7 @@
     <string name="save">Salvar</string>
     <string name="noteToSelf">Nota para Si</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nova mensagem</string>
+    <string name="messageNew">Nova mensagem</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Atalho inválido</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nova mensagem</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d Item</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">Copiar URLs</string>
     <string name="enable">Ativar</string>
     <string name="download">Baixar</string>
-    <string name="activity_conversation_attachment_prep_failed">Falha ao preparar o anexo para envio.</string>
     <string name="media">Mídia</string>
     <string name="_error">Erro</string>
     <string name="warning">Aviso</string>

@@ -7,7 +7,7 @@
     <string name="save">Lưu</string>
     <string name="noteToSelf">Gửi lời nhắc cho chính mình</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Tin nhắn mới</string>
+    <string name="messageNew">Tin nhắn mới</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -89,7 +89,6 @@
     <string name="search">Tìm kiếm</string>
     <!-- ShortcutLauncherActivity -->
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Tin nhắn mới</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->

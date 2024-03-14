@@ -7,7 +7,7 @@
     <string name="save">Gardar</string>
     <string name="noteToSelf">Notificarmo</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nova mensaxe</string>
+    <string name="messageNew">Nova mensaxe</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -120,7 +120,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Atallo non válido</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nova mensaxe</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d elemento</item>
@@ -250,5 +249,4 @@
     <!-- Next round of translation -->
     <string name="groupEdit">Editar grupo</string>
     <string name="dialog_join_open_group_explanation">Tes a certeza de querer entrar no grupo aberto %s?</string>
-    <string name="activity_conversation_attachment_prep_failed">No foi posible preparar o anexo para ser enviado.</string>
 </resources>

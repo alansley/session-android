@@ -7,7 +7,7 @@
     <string name="save">Αποθήκευση</string>
     <string name="noteToSelf">Να μην ξεχάσω </string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Νέο μήνυμα</string>
+    <string name="messageNew">Νέο μήνυμα</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Μη έγκυρη συντόμευση</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Νέο μήνυμα</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d αντικείμενο</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">Αντιγραφή URL</string>
     <string name="enable">Ενεργοποίηση</string>
     <string name="download">Λήψη</string>
-    <string name="activity_conversation_attachment_prep_failed">Αποτυχία προετοιμασίας συνημμένου για αποστολή.</string>
     <string name="media">Πολυμέσα</string>
     <string name="_error">Σφάλμα</string>
     <string name="warning">Προειδοποίηση</string>

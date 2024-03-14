@@ -7,7 +7,7 @@
     <string name="save">Guardar</string>
     <string name="noteToSelf">Nota para mim</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nova mensagem</string>
+    <string name="messageNew">Nova mensagem</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Atalho inválido</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nova mensagem</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->

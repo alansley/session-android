@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Everything in this section is used by the app but missing from the CrowdIn translations as of 2024-03-14 -ACL -->
+    <!-- ======================================================================================= -->
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="one">%d message per conversation</item>
+        <item quantity="other">%d messages per conversation</item>
+    </plurals>
+
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="one">Saving this media to storage will allow any other apps on your device to access it.\n\nContinue?</item>
+        <item quantity="other">Saving all %1$d media to storage will allow any other apps on your device to access them.\n\nContinue?</item>
+    </plurals>
+
+    <plurals name="MediaSendActivity_cant_share_more_than_n_items">
+        <item quantity="one">You can\'t share more than %d item.</item>
+        <item quantity="other">You can\'t share more than %d items.</item>
+    </plurals>
+
+    <plurals name="ReactionsRecipientAdapter_other_reactors">
+        <item quantity="one">And %1$d other has reacted %2$s to this message</item>
+        <item quantity="other">And %1$d others have reacted %2$s to this message</item>
+    </plurals>
+
+
+    <string name="activity_appearance_follow_system_explanation">Match system settings</string>
+
+
+
+
+
+
+
+
+    <!-- ======================================================================================= -->
+
     <string name="disappearingMessagesUpdated"><b>{adminname}</b> updated disappearing message settings.</string>
     <string name="groupMemberLeft"><b>{name}</b> left the group.</string>
     <string name="adminMorePromotedToAdmin"><b>{name}</b> and <b>{count} others</b> were promoted to Admin.</string>
@@ -321,7 +355,6 @@
     <string name="notificationsContentShowNameAndContent">Name and Content</string>
     <string name="notificationsContentShowNameOnly">Name Only</string>
     <string name="conversationsNew">New Conversation</string>
-    <string name="messageNew">New Message</string>
     <string name="messageNewMessages">New Messages</string>
     <string name="next">Next</string>
     <string name="no">No</string>
@@ -619,4 +652,6 @@
     <!-- <string name=" "></string> -->
     <string name="attachmentsDownload">Download Attachment</string>
     <string name="urlOpenBrowser">This will open in your browser.</string>
+    <string name="messageNew">New Message</string>
+    <string name="attachmentsErrorLoad">Error attaching file</string>
 </resources>

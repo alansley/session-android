@@ -7,7 +7,7 @@
     <string name="save">Įrašyti</string>
     <string name="noteToSelf">Pastabos sau</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nauja žinutė</string>
+    <string name="messageNew">Nauja žinutė</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -126,7 +126,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Neteisingas šaukinys</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nauja žinutė</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d elementas</item>
@@ -298,7 +297,6 @@
     <string name="open">Atverti</string>
     <string name="enable">Įjungti</string>
     <string name="download">Atsisiųsti</string>
-    <string name="activity_conversation_attachment_prep_failed">Nepavyko paruošti priedo išsiuntimui.</string>
     <string name="_error">Klaida</string>
     <string name="warning">Įspėjimas</string>
 </resources>

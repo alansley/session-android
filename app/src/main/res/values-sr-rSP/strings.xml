@@ -6,7 +6,7 @@
     <string name="delete">Обриши</string>
     <string name="save">Сачувај</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Нова порука</string>
+    <string name="messageNew">Нова порука</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -123,7 +123,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Неважећа пречица</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Нова порука</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d предмет</item>

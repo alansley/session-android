@@ -7,7 +7,7 @@
     <string name="save">Uložit</string>
     <string name="noteToSelf">Poznámka sobě</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nová zpráva</string>
+    <string name="messageNew">Nová zpráva</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+ %d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -128,7 +128,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Chybná klávesová zkratka</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nová zpráva</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d Položka</item>
@@ -312,7 +311,6 @@
     <string name="urlCopy">Zkopírovat URL</string>
     <string name="enable">Povolit</string>
     <string name="download">Stáhnout</string>
-    <string name="activity_conversation_attachment_prep_failed">Nepodařilo se připravit přílohu pro odesílání.</string>
     <string name="media">Média</string>
     <string name="_error">Chyba</string>
     <string name="warning">Varování</string>

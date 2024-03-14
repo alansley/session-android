@@ -6,7 +6,7 @@
     <string name="save">Cadw</string>
     <string name="noteToSelf">Nodyn i Fi Fy Hun</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Neges newydd</string>
+    <string name="messageNew">Neges newydd</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
@@ -127,7 +127,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Llwybr byr annilys</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Neges newydd</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="zero">%d Eitem</item>

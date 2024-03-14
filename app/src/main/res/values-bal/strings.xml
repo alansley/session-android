@@ -6,7 +6,7 @@
     <string name="save">Simpan</string>
     <string name="noteToSelf">Catatan Pribadi</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Pesan baru</string>
+    <string name="messageNew">Pesan baru</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <!-- DraftDatabase -->
@@ -101,7 +101,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Pintasan tidak sah</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Pesan baru</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->

@@ -7,7 +7,7 @@
     <string name="save">Lagre</string>
     <string name="noteToSelf">Notat til meg selv</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Ny melding</string>
+    <string name="messageNew">Ny melding</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Ugyldig snarvei</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Ny melding</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d Del</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">Kopier URL</string>
     <string name="enable">Aktiver</string>
     <string name="download">Last ned</string>
-    <string name="activity_conversation_attachment_prep_failed">Kunne ikke forberede vedlegg for sending.</string>
     <string name="media">Medier</string>
     <string name="_error">Feil</string>
     <string name="warning">Advarsel</string>

@@ -7,7 +7,7 @@
     <string name="save">Simpan</string>
     <string name="noteToSelf">Catatan Pribadi</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Pesan baru</string>
+    <string name="messageNew">Pesan baru</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -112,7 +112,6 @@
     <string name="search">Cari</string>
     <!-- ShortcutLauncherActivity -->
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Pesan baru</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->

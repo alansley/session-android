@@ -6,7 +6,7 @@
     <string name="save">Tomar bike</string>
     <string name="noteToSelf">Bo min Nîşe</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Peyama nû</string>
+    <string name="messageNew">Peyama nû</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">%d+\</string>
     <!-- ApplicationPreferencesActivity -->
@@ -110,7 +110,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Kurterêya nederbasdar</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Peyama nû</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%dhêman</item>

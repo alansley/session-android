@@ -274,7 +274,7 @@
             android:paddingHorizontal="@dimen/massive_spacing"
             android:paddingVertical="@dimen/small_spacing"
             android:textSize="@dimen/text_size"
-            android:text="@string/activity_conversation_block_user"/>
+            android:text="@string/block"/>
 
         <TextView
             android:id="@+id/sendAcceptsTextView"

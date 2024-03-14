@@ -7,7 +7,7 @@
     <string name="save">រក្សាទុក</string>
     <string name="noteToSelf">កំណត់ចំណាំខ្លួនឯង</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">សារថ្មី</string>
+    <string name="messageNew">សារថ្មី</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
@@ -113,7 +113,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">រូបតំណាងផ្លូវកាត់មិនត្រឹមត្រូវ</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">សារថ្មី</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="other">%d ធាតុ</item>

@@ -5,7 +5,7 @@
     <string name="delete">ลบ</string>
     <string name="save">บันทึก</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">ข้อความใหม่</string>
+    <string name="messageNew">ข้อความใหม่</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
@@ -105,7 +105,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">ชอร์ตคัทใช้ไม่ได้</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">ข้อความใหม่</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->

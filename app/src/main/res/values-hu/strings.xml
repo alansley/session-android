@@ -7,7 +7,7 @@
     <string name="save">Mentés</string>
     <string name="noteToSelf">Privát feljegyzés</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Új üzenet</string>
+    <string name="messageNew">Új üzenet</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -123,7 +123,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Érvénytelen parancsikon</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Új üzenet</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d db elem</item>
@@ -303,7 +302,6 @@
     <string name="urlCopy">URL másolása</string>
     <string name="enable">Engedélyezés</string>
     <string name="download">Letöltés</string>
-    <string name="activity_conversation_attachment_prep_failed">Nem sikerült előkészíteni a mellékletet a küldéshez.</string>
     <string name="media">Média</string>
     <string name="_error">Hiba</string>
     <string name="warning">Figyelmeztetés</string>

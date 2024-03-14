@@ -7,7 +7,7 @@
     <string name="save">保存</string>
     <string name="noteToSelf">备忘录</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">新消息</string>
+    <string name="messageNew">新消息</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -119,7 +119,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">无效的快捷方式</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">新信息</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="other">%d项目</item>
@@ -297,7 +296,6 @@
     <string name="urlCopy">复制链接</string>
     <string name="enable">启用</string>
     <string name="download">下载</string>
-    <string name="activity_conversation_attachment_prep_failed">准备发送附件失败。</string>
     <string name="media">媒体文件</string>
     <string name="_error">错误</string>
     <string name="warning">警告</string>

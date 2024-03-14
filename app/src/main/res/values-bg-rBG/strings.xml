@@ -7,7 +7,7 @@
     <string name="save">Запази</string>
     <string name="noteToSelf">Бележка за Мен</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Ново съобщение</string>
+    <string name="messageNew">Ново съобщение</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
@@ -118,7 +118,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Невалидена препратка</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Ново съобщение</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d нещо</item>

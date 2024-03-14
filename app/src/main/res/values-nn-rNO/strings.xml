@@ -6,7 +6,7 @@
     <string name="save">Lagra</string>
     <string name="noteToSelf">Notat til meg sjølv</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Ny melding</string>
+    <string name="messageNew">Ny melding</string>
     <!-- AlbumThumbnailView -->
     <!-- ApplicationPreferencesActivity -->
     <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
@@ -108,7 +108,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Ugyldig snarveg</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Ny melding</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%delement</item>

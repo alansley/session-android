@@ -7,7 +7,7 @@
     <string name="save">संरक्षित करें</string>
     <string name="noteToSelf">अपने लिए नोट</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">नया सन्देश</string>
+    <string name="messageNew">नया सन्देश</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">अमान्य शॉर्टकट</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">नया Session सन्देश</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d वस्तु</item>

@@ -7,7 +7,7 @@
     <string name="save">ذخیره</string>
     <string name="noteToSelf">یادداشت به خود</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">پیام جدید</string>
+    <string name="messageNew">پیام جدید</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">%d+\</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">میانبر نامعتبر</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">پیام جدید</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d آیتم</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">کپی URL</string>
     <string name="enable">فعال کردن</string>
     <string name="download">دانلود</string>
-    <string name="activity_conversation_attachment_prep_failed">آماده‌سازی فایل ضمیمه برای ارسال به مشکل خورده است.</string>
     <string name="media">رسانه</string>
     <string name="_error">خطا</string>
     <string name="warning">هشدار</string>

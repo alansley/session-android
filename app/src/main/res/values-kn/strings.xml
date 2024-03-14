@@ -7,7 +7,7 @@
     <string name="save">ಉಳಿಸಿ</string>
     <string name="noteToSelf">ನನಗಾಗಿ ಟಿಪ್ಪಣಿ</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">ಹೊಸ ಸಂದೇಶ</string>
+    <string name="messageNew">ಹೊಸ ಸಂದೇಶ</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -76,7 +76,6 @@
     <string name="search">ಹುಡುಕು</string>
     <!-- ShortcutLauncherActivity -->
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">ಹೊಸ ಸಂದೇಶ</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->

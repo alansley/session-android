@@ -6,7 +6,7 @@
     <string name="save">Uložiť</string>
     <string name="noteToSelf">Poznámka pre seba</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nová správa</string>
+    <string name="messageNew">Nová správa</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -124,7 +124,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Neplatná skratka</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nová správa</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d položka</item>

@@ -7,7 +7,7 @@
     <string name="save">Spara</string>
     <string name="noteToSelf">Notering till mig själv</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nytt meddelande</string>
+    <string name="messageNew">Nytt meddelande</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -122,7 +122,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Ogiltig genväg</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nytt meddelande</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d objekt</item>
@@ -302,7 +301,6 @@
     <string name="urlCopy">&amp;Kopiera webbadress</string>
     <string name="enable">Aktivera</string>
     <string name="download">Hämta</string>
-    <string name="activity_conversation_attachment_prep_failed">Det gick inte att förbereda bifogad fil för sändning.</string>
     <string name="media">Media</string>
     <string name="_error">Fel</string>
     <string name="warning">Varning</string>

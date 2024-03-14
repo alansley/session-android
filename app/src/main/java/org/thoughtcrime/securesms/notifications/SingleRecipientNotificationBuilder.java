@@ -133,7 +133,7 @@ public class SingleRecipientNotificationBuilder extends AbstractNotificationBuil
       setContentText(stringBuilder.append(message));
       this.slideDeck = slideDeck;
     } else {
-      setContentText(stringBuilder.append(context.getString(R.string.SingleRecipientNotificationBuilder_new_message)));
+      setContentText(stringBuilder.append(context.getString(R.string.messageNew)));
     }
   }
 
@@ -222,7 +222,7 @@ public class SingleRecipientNotificationBuilder extends AbstractNotificationBuil
     if (privacy.isDisplayMessage()) {
       messageBodies.add(stringBuilder.append(messageBody == null ? "" : messageBody));
     } else {
-      messageBodies.add(stringBuilder.append(context.getString(R.string.SingleRecipientNotificationBuilder_new_message)));
+      messageBodies.add(stringBuilder.append(context.getString(R.string.messageNewk)));
     }
   }
 

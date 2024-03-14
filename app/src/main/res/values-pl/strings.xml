@@ -7,7 +7,7 @@
     <string name="save">Zapisz</string>
     <string name="noteToSelf">Moje notatki</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">Nowa wiadomość</string>
+    <string name="messageNew">Nowa wiadomość</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -128,7 +128,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">Nieprawidłowy skrót</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">Nowa wiadomość</string>
     <!-- TransferControlView -->
     <plurals name="TransferControlView_n_items">
         <item quantity="one">%d obiekt</item>
@@ -312,7 +311,6 @@
     <string name="urlCopy">Skopiuj URL</string>
     <string name="enable">Włącz</string>
     <string name="download">Pobierz</string>
-    <string name="activity_conversation_attachment_prep_failed">Nie udało się przygotować załącznika do wysłania.</string>
     <string name="media">Multimedia</string>
     <string name="_error">Błąd</string>
     <string name="warning">Uwaga</string>

@@ -7,7 +7,7 @@
     <string name="save">భద్రపరుచు</string>
     <string name="noteToSelf">Sviya gamanika</string>
     <!-- AbstractNotificationBuilder -->
-    <string name="AbstractNotificationBuilder_new_message">కొత్త సందేశం</string>
+    <string name="messageNew">కొత్త సందేశం</string>
     <!-- AlbumThumbnailView -->
     <string name="AlbumThumbnailView_plus">\+%d</string>
     <!-- ApplicationPreferencesActivity -->
@@ -116,7 +116,6 @@
     <!-- ShortcutLauncherActivity -->
     <string name="invalidShortcut">చెల్లని సత్వరమార్గం</string>
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_new_message">కొత్త సందేశం</string>
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
