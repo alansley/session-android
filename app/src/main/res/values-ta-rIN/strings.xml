@@ -15,7 +15,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ஆடியோ)</string>
     <string name="DraftDatabase_Draft_video_snippet">(காணொளி)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">புகைப்படங்கள், வீடியோக்கள் அல்லது ஆடியோவை இணைக்க செஸ்ஸன்னுக்கு சேமிப்பக அனுமதி தேவை. ஆனால் அது நிரந்தரமாக மறுக்கப்பட்டுள்ளது. தயவு செய்து செயலின் ஸெடிங்ஸ் மெனுவில் \"அனுமதியை\" தேர்ந்தெடுக்கவும். அதில் \"சேமிப்பகத்தை\" தேர்ந்தெடுக்க.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">இன்று</string>
@@ -31,7 +30,7 @@
     <string name="attachmentsAdd">இணைப்பை சேர்க்கவும்</string>
     <string name="message">செய்தி</string>
     <string name="ConversationActivity_muted_until_date">%1$s வரை முடக்கப்பட்டுள்ளது</string>
-    <string name="ConversationActivity_muted_forever">முடக்கப்பட்டடுள்ளது</string>
+    <string name="notificationsMuted">முடக்கப்பட்டடுள்ளது</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->

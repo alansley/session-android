@@ -24,7 +24,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(صوت)</string>
     <string name="DraftDatabase_Draft_video_snippet">(فيديو)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">يحتاج Session إلى إذن سعة التخزين من أجل إضافة الصور والمرفقات ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">اليوم</string>
@@ -40,10 +39,9 @@
     <string name="attachmentsAdd">إضافة مرفقات</string>
     <string name="message">رسالة</string>
     <string name="ConversationActivity_muted_until_date">كتم حتى %1$s</string>
-    <string name="ConversationActivity_muted_forever">كتم</string>
+    <string name="notificationsMuted">كتم</string>
     <string name="blockUnblock">إلغاء الحظر</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">يحتاج Session إلى إذن الميكروفون من أجل الرسائل الصوتية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"الميكروفون\".</string>
-    <string name="cameraGrantAccessStorage">يحتاج Session إلي إذن الكاميرا لالتقاط صور أو تسجيل فيديو</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">أحفظ في الذاكرة؟</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -58,7 +56,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">استخدام التخصيص: %s</string>
     <string name="CustomDefaultPreference_using_default">الاستخدام الافتراضي: %s</string>
-    <string name="CustomDefaultPreference_none">لا شيء </string>
+    <string name="none">لا شيء </string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">الآن</string>
     <string name="DateUtils_today">اليوم</string>
@@ -113,7 +111,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">أنت</string>
     <string name="draft">مسودة:</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">يحتاج Session إلى إذن سعة التخزين من أجل استخدام الذاكرة الخارجية ولكن تم إيقاف الإذن على نحو دائم، رجاء زيارة إعدادات التطبيق ثم \"الأذونات\"، ثم تفعيل \"سعة التخزين\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">لا يمكن الحفظ إلى الذاكرة الخارجية بدون أذونات</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d رسائل جديدة في %2$d محادثات</string>
@@ -121,7 +118,7 @@
     <string name="MessageNotifier_unknown_contact_message">متصل</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">المُكالمات</string>
-    <string name="NotificationChannel_failures">إخفاقات</string>
+    <string name="failures">إخفاقات</string>
     <string name="lockAppStatus">حالة القفل</string>
     <string name="updateApp">تحديثات التطبيق</string>
     <string name="other">أخرى</string>
@@ -145,8 +142,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">كاميرا</string>
-    <string name="attachment_type_selector__camera_description">كاميرا</string>
+    <string name="contentDescriptionCamera">كاميرا</string>
     <string name="gif">صورة Gif</string>
     <string name="attachment_type_selector__gallery_description">صورة أو فيديو</string>
     <string name="attachment_type_selector__gallery">عرض الصور</string>
@@ -154,15 +150,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">أرسل</string>
-    <string name="conversation_activity__compose_description">تكوين الرسالة</string>
+    <string name="contentDescriptionMessageComposition">تكوين الرسالة</string>
     <string name="conversation_activity__attachment_thumbnail">المصغّرة للمرفق</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">تفعيل أو تثبيط سريع لدرج مرفقات الكاميرا </string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">إسحب للإلغاء</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">رسالة وسائط متعددة</string>
+    <string name="contentDescriptionMediaMessage">رسالة وسائط متعددة</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">الإرسال فشل</string>
     <string name="conversation_item_sent__delivered_description">تم تسليم الرسالة</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -173,7 +168,6 @@
     <string name="messageErrorOriginal">لم يتم العثور على الرسالة الأصلية</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">ابحث في صور GIF واللصاقات</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -183,7 +177,7 @@
     <string name="disappearingMessagesSent">أرسلت</string>
     <string name="received">استلمت</string>
     <string name="message_details_header__disappears">الاختفاء</string>
-    <string name="message_details_header__via">بواسطة</string>
+    <string name="via">بواسطة</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">تخصيص</string>
@@ -223,13 +217,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">منع المستخدم</string>
-    <string name="conversation_context__menu_reply_to_message">الرَدّ على الرسالة</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">حفظ المرفق</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">إلغاء الكتم.</string>
+    <string name="notificationsUnmute">إلغاء الكتم.</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">كتم الإشعارات</string>
     <!-- conversation -->
@@ -278,7 +271,7 @@
     <string name="onionRoutingPathServiceNode">عقدة الخدمة</string>
     <string name="onionRoutingPathDestination">الوجهة</string>
     <string name="learnMore">لمعرفة المزيد</string>
-    <string name="activity_path_resolving_progress">جار ربط الاِتصال…</string>
+    <string name="resolving">جار ربط الاِتصال…</string>
     <string name="qrScan">مسح رمز الاستجابة السريع\"QR\"</string>
     <string name="cameraGrantAccessQr">تحتاج الجلسة إلى الوصول إلى الكاميرا لمسح رموز QR</string>
     <string name="cameraGrantAccess">منح صلاحية الكاميرا</string>
@@ -290,13 +283,12 @@
     <string name="helpFAQ">الأسئلة الأكثر طرحاً</string>
     <string name="sessionClearData">مسح البيانات</string>
     <string name="notificationsStyle">طريقة الإشعارات</string>
-    <string name="activity_notification_settings_content_section_title">محتوى الإشعارات</string>
+    <string name="notificationsContent">محتوى الإشعارات</string>
     <string name="sessionPrivacy">الخصوصية</string>
     <string name="notificationsStrategy">طريقة الإشعارات</string>
     <string name="useFastMode">استخدام الوضع السريع</string>
     <string name="clearDataAll">اِمسح جميع البيانات</string>
     <string name="qrCode">رمز QR</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">اِفحص رمز QR لبدء المحادثة</string>
     <string name="contactsContacts">متصلين</string>
     <string name="fragment_contact_selection_open_groups_title">مجموعات مفتوحة</string>
     <!-- Next round of translation -->
@@ -316,7 +308,6 @@
     <string name="notificationsFastModeDescriptionAndroid">سوف يتم إشعارك بالرسائل بشكل موثوق و فوري بإستخدام خوادم جوجل للإشعارات.</string>
     <string name="notificationsSlowModeDescription">سيقوم سيشن بالتحقق من وجود رسائل جديدة بشكل دوري في الخلفية.</string>
     <string name="blockUnblockDescription">هل أنت متأكد من اِلغاء الحظر عن %s؟</string>
-    <string name="dialog_join_open_group_explanation">هل أنت متأكد من الانضمام إلى المجموعة المفتوحة %s؟</string>
     <string name="open">اِفتح</string>
     <string name="urlCopy">انسخ الرابط</string>
     <string name="enable">تفعيل</string>

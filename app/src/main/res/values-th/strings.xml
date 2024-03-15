@@ -16,7 +16,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(เสียง)</string>
     <string name="DraftDatabase_Draft_video_snippet">(วิดีโอ)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">เพื่อที่จะแนบรูปภาพ วิดีโอ หรือเสียงได้ Session ต้องได้รับอนุญาตให้เข้าถึงที่เก็บข้อมูล แต่คำขอนั้นถูกปฏิเสธอย่างถาวร กรุณาไปที่เมนูตั้งค่าแอป เลือก \"การอนุญาต\" และเปิดใช้งาน \"ที่เก็บข้อมูล\"</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">วันนี้</string>
@@ -41,7 +40,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">ใช้ค่าที่กำหนดเอง: %s</string>
     <string name="CustomDefaultPreference_using_default">ใช้ค่าเริ่มต้น: %s</string>
-    <string name="CustomDefaultPreference_none">ไม่มี</string>
+    <string name="none">ไม่มี</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">เดี๋ยวนี้</string>
     <string name="DateUtils_today">วันนี้</string>
@@ -93,7 +92,7 @@
     <string name="MessageNotifier_unknown_contact_message">ผู้ติดต่อ</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">การโทร</string>
-    <string name="NotificationChannel_failures">ล้มเหลว</string>
+    <string name="failures">ล้มเหลว</string>
     <string name="lockAppStatus">สถานะล๊อค</string>
     <string name="updateApp">การอัปเดตแอป</string>
     <string name="other">ที่อื่น</string>
@@ -108,22 +107,20 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">กล้อง</string>
-    <string name="attachment_type_selector__camera_description">กล้อง</string>
+    <string name="contentDescriptionCamera">กล้อง</string>
     <string name="attachment_type_selector__gallery_description">ภาพหรือวิดีโอ</string>
     <string name="attachment_type_selector__gallery">คลังภาพ</string>
     <string name="attachment_type_selector__drawer_description">สลับแถบเมนูไฟล์แนบ</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">ส่ง</string>
-    <string name="conversation_activity__compose_description">การสร้างข้อความ</string>
+    <string name="contentDescriptionMessageComposition">การสร้างข้อความ</string>
     <string name="conversation_activity__attachment_thumbnail">รูปย่อของไฟล์แนบ</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">สลับแถบเมนูไฟล์แนบกล้องถ่ายภาพแบบเร็ว</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">ข้อความสื่อ</string>
+    <string name="contentDescriptionMediaMessage">ข้อความสื่อ</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">การส่งล้มเหลว</string>
     <string name="conversation_item_sent__delivered_description">ส่งแล้ว</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -132,7 +129,6 @@
     <string name="messageErrorOriginal">ไม่พบข้อความดั้งเดิม</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">ค้นหาภาพ GIF และสติกเกอร์</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -142,7 +138,7 @@
     <string name="disappearingMessagesSent">ส่งแล้ว</string>
     <string name="received">ได้รับแล้ว</string>
     <string name="message_details_header__disappears">ลบตัวเอง</string>
-    <string name="message_details_header__via">ผ่าน</string>
+    <string name="via">ผ่าน</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">ใช้ค่าที่กำหนดเอง</string>
@@ -174,13 +170,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">ตอบกลับข้อความ</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">บันทึกไฟล์แนบ</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">เลิกปิดเสียง</string>
+    <string name="notificationsUnmute">เลิกปิดเสียง</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">ปิดเสียงการแจ้งเตือน</string>
     <!-- conversation -->

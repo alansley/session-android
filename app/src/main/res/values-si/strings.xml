@@ -83,9 +83,8 @@
     <string name="send">යවන්න</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">මාධ්‍යය පණිවිඩය</string>
+    <string name="contentDescriptionMediaMessage">මාධ්‍යය පණිවිඩය</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">යැවීමට අසමත්විය</string>
     <string name="conversation_item_sent__delivered_description">බාරදුනි</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -141,7 +140,7 @@
     <string name="groupNameEnterPlease">සමූහ නාමයක් ඇතුල් කරන්න</string>
     <string name="sessionSettings">සැකසුම්</string>
     <string name="helpFAQ">නිති පැණ</string>
-    <string name="activity_notification_settings_content_section_title">දැනුම්දීමේ අන්තර්ගතය</string>
+    <string name="notificationsContent">දැනුම්දීමේ අන්තර්ගතය</string>
     <string name="sessionPrivacy">පෞද්ගලිකත්වය</string>
     <string name="contactsContacts">සබඳතා</string>
     <string name="fragment_contact_selection_open_groups_title">විවෘත සමූහ</string>

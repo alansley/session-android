@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(Audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Që të mund të bashkëngjisë foto, video, ose audio, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, vazhdoni për te menuja e rregullimeve të aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Sot</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Shtoni bashkëngjitje</string>
     <string name="message">Mesazh</string>
     <string name="ConversationActivity_muted_until_date">Bllokuar deri %1$s</string>
-    <string name="ConversationActivity_muted_forever">Heshtur</string>
+    <string name="notificationsMuted">Heshtur</string>
     <string name="blockUnblock">Zhbllokoje</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Që të mund të dërgojë mesazhe audio, Session-i lyp leje përdorimi të Mikrofonit, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Mikrofonin\".</string>
-    <string name="cameraGrantAccessStorage">Session ka nevojë për leje hyrje ne bazën e të dhënave për të dërguar foto dhe video</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Të ruhet në depozitë?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Me përdorim të një të përshtaturi: %s</string>
     <string name="CustomDefaultPreference_using_default">Me përdorim parazgjedhjeje: %s</string>
-    <string name="CustomDefaultPreference_none">Asnjë</string>
+    <string name="none">Asnjë</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Tani</string>
     <string name="DateUtils_today">Sot</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ju</string>
     <string name="draft">Skicë:</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Për të ruajtur gjëra në depozitë të jashtme, Session-i lyp leje Depozitimi, por kjo i është mohuar. Ju lutemi, kaloni te rregullimet e aplikacionit, përzgjidhni \"Leje\", dhe aktivizoni \"Depozitim\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">S\’bëhet dot ruajtje në depozitë të jashtme pa leje</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mesazhe të reja në %2$d biseda</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Thirrje</string>
-    <string name="NotificationChannel_failures">Dështime</string>
+    <string name="failures">Dështime</string>
     <string name="lockAppStatus">Gjendje kyçjeje</string>
     <string name="updateApp">Përditësime aplikacioni</string>
     <string name="other">Tjetër</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Figurë ose video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Dërgoje</string>
-    <string name="conversation_activity__compose_description">Hartim mesazhi</string>
+    <string name="contentDescriptionMessageComposition">Hartim mesazhi</string>
     <string name="conversation_activity__attachment_thumbnail">Miniaturë Bashkëngjitjeje</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Hap/mbyll sirtar të shpejtë bashkëngjitjesh nga kamera</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Rrëshqiteni që të anulohet</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Mesazh media</string>
+    <string name="contentDescriptionMediaMessage">Mesazh media</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Dërgimi Dështoi</string>
     <string name="conversation_item_sent__delivered_description">U dorëzua</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">S\’u gjet mesazhi origjinal</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Kërko GIF-e dhe ngjitës</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Dërguar më</string>
     <string name="received">Marrë më</string>
     <string name="message_details_header__disappears">Zhduket më</string>
-    <string name="message_details_header__via">Përmes</string>
+    <string name="via">Përmes</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Përdor vetjake</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Dëboni përdorues</string>
-    <string name="conversation_context__menu_reply_to_message">Përgjigjuni mesazhin</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Ruaje bashkëngjitjen</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Çheshtoji</string>
+    <string name="notificationsUnmute">Çheshtoji</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Heshtoji njoftimet</string>
     <!-- conversation -->

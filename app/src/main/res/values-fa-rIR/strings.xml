@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(صدا)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ویدئو)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session برای ارسال فایل‌های تصویری و صوتی نیاز به دسترسی به حافظه دارد اما این دسترسی به طور همیشگی رد شده است. لطفا به بخش برنامه در تنظیمات تلفن همراه خود رفته و پس از یافتن Session وارد بخش «دسترسی ها» شده و گزینه «حافظه» را فعال کنید.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">امروز</string>
@@ -35,10 +34,9 @@
     <string name="attachmentsAdd">پیوست فایل</string>
     <string name="message">پیام</string>
     <string name="ConversationActivity_muted_until_date">بی صدا تا %1$s</string>
-    <string name="ConversationActivity_muted_forever">بی صدا شده</string>
+    <string name="notificationsMuted">بی صدا شده</string>
     <string name="blockUnblock">رفع مسدودیت</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session برای ارسال صدا، نیازمند دسترسی به میکروفن دارد ولی این دسترسی قطع شده است. لطفا برای ادامه دادن، به بخش منوی تنظیمات برنامه رفته، \"اجازه ها\" را انتخاب کرده و گزینه ی \"میکروفن\" را فعال نمایید.</string>
-    <string name="cameraGrantAccessStorage">Session برای ارسال تصاویر و ویدئوها نیاز به دسترسی حافظه دارد.</string>
     <string name="callsPermissionsRequired">دسترسی تلفن مورد نیاز است</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">ذخیره درحافظه؟</string>
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">درحال استفاده از سفارشی: %s</string>
     <string name="CustomDefaultPreference_using_default">درحال استفاده از پیش فرض: %s</string>
-    <string name="CustomDefaultPreference_none">هیچ کدام</string>
+    <string name="none">هیچ کدام</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">اکنون</string>
     <string name="DateUtils_today">امروز</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">شما</string>
     <string name="draft">پیش نویس</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session برای ذخیره در حافظه‌ی خارجی نیاز به دسترسی به حافظه دارد اما این دسترسی به طور همیشگی رد شده است. لطفا به بخش برنامه در تنظیمات تلفن همراه خود رفته و پس از یافتن Session وارد بخش دسترسی ها شده و گزینه حافظه را فعال کنید.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">نمی‌توان بدون دسترسی‌ها در حافظه‌ی خارجی ذخیره‌سازی نمود</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d پیام در %2$d گفتگو</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">مخاطب</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">تماس‌ها</string>
-    <string name="NotificationChannel_failures">خطاها</string>
+    <string name="failures">خطاها</string>
     <string name="lockAppStatus">وضعیت قفل</string>
     <string name="updateApp">به‌روزآوری‌های برنامه</string>
     <string name="other">دیگر</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">دوربین</string>
-    <string name="attachment_type_selector__camera_description">دوربین</string>
+    <string name="contentDescriptionCamera">دوربین</string>
     <string name="gif">گیف</string>
     <string name="attachment_type_selector__gallery_description">تصویر یا ویدئو</string>
     <string name="attachment_type_selector__gallery">گالری</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">ارسال</string>
-    <string name="conversation_activity__compose_description">ترکیب پیام</string>
+    <string name="contentDescriptionMessageComposition">ترکیب پیام</string>
     <string name="conversation_activity__attachment_thumbnail">پیوست تصویر کوچک</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">تغییر حالت نگه دارنده پیوست دوربین سریع</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">برای لغو بکشید</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">پیام رسانه</string>
+    <string name="contentDescriptionMediaMessage">پیام رسانه</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">ارسال نشد</string>
     <string name="conversation_item_sent__delivered_description">تحویل</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">پیام اصلی یافت نشد</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">جست‌وجوی فایل گیف و استیکر</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">فرستاده</string>
     <string name="received">رسیده</string>
     <string name="message_details_header__disappears">نشان داده نشده ها</string>
-    <string name="message_details_header__via">از طریق</string>
+    <string name="via">از طریق</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">استفاده از سفارشی</string>
@@ -219,16 +213,13 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">مسدود کردن کاربر</string>
-    <string name="conversation_context__menu_reply">پاسخ</string>
-    <string name="conversation_context__menu_reply_to_message">پاسخ به پیام</string>
     <string name="call">تماس گرفتن</string>
-    <string name="conversation_context__menu_select">انتخاب</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">ذخیره پیوست</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">وصل نمودن صدای مکالمه</string>
+    <string name="notificationsUnmute">وصل نمودن صدای مکالمه</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">بیصدا کردن اعلان ها</string>
     <!-- conversation -->
@@ -277,7 +268,7 @@
     <string name="onionRoutingPathServiceNode">گره سرویس</string>
     <string name="onionRoutingPathDestination">مقصد</string>
     <string name="learnMore">بیشتر بدانید</string>
-    <string name="activity_path_resolving_progress">در حال اصلاح…</string>
+    <string name="resolving">در حال اصلاح…</string>
     <string name="qrScan">اسکن کد QR</string>
     <string name="cameraGrantAccessQr">برنامه Session برای اسکن کدهای QR احتیاج دارد به دوربین دسترسی داشته باشد</string>
     <string name="cameraGrantAccess">اجازه دسترسی به دوربین</string>
@@ -289,24 +280,14 @@
     <string name="helpFAQ">سوالات متداول</string>
     <string name="sessionClearData">پاک کردن اطلاعات</string>
     <string name="notificationsStyle">سبک اعلان</string>
-    <string name="activity_notification_settings_content_section_title">محتوای اعلان</string>
+    <string name="notificationsContent">محتوای اعلان</string>
     <string name="sessionPrivacy">حریم خصوصی</string>
-    <string name="activity_help_settings__report_bug_title">گزارش خرابی</string>
-    <string name="activity_help_settings__report_bug_summary">گزارش‌های خود را صادر کنید، سپس فایل را از طریق Session\'s Help Desk آپلود کنید.</string>
-    <string name="activity_help_settings__translate_session">ترجمه Session</string>
-    <string name="activity_help_settings__feedback">قدردان نظریات شما هستیم</string>
     <string name="activity_help_settings__faq">سؤالات متداول</string>
-    <string name="activity_help_settings__support">همایت</string>
     <string name="activity_help_settings__export_logs">صدور گزارش‌ها</string>
     <string name="notificationsStrategy">استراتژی اعلان</string>
     <string name="useFastMode">استفاده از حالت سریع</string>
     <string name="clearDataAll">پاک کردن همه داتا</string>
-
-
-
-    <string name="dialog_clear_all_data_clear">پاک</string>
     <string name="qrCode">کد QR</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">برای شروع مکالمه با دیگران، کد QR وی را اسکن کنید.</string>
     <string name="contactsContacts">مخاطبین</string>
     <string name="fragment_contact_selection_open_groups_title">گروه‌های عمومی</string>
     <!-- Next round of translation -->
@@ -325,7 +306,6 @@
     <string name="notificationsFastModeDescriptionAndroid">با استفاده از سرورهای گوگل، شما به صورت سریع و مطمئن از پیام‌های جدید مطلع می‌شوید.</string>
     <string name="notificationsSlowModeDescription">Session هرازگاهی در پس زمینه وجود پیام‌های جدید را بررسی می‌کند.</string>
     <string name="blockUnblockDescription">آیا مطمئن هستید که میخواهید %s را از حالت مسدود بودن خارج کنید؟</string>
-    <string name="dialog_join_open_group_explanation">آیا اطمینان دارید که می‌خواهید به گروه باز %s جوین شوید؟</string>
     <string name="open">باز کردن</string>
     <string name="urlCopy">کپی URL</string>
     <string name="enable">فعال کردن</string>
@@ -355,8 +335,6 @@
     <string name="WebRtcCallActivity_Session_Call">تماس Session</string>
     <string name="callsReconnecting">در حال اتصال دوباره...</string>
     <string name="dismiss">رد کردن</string>
-    <string name="activity_settings_conversations_button_title">مکالمات</string>
-    <string name="activity_settings_message_appearance_button_title">ظاهر</string>
     <string name="appearancePrimaryColor">رنگ اولیه</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">این پیغام</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">اخیرا استفاده شده</string>
@@ -383,8 +361,6 @@
     <string name="KeyboardPagerfragment_clear_search_entry">پاک کردن ورودی جستجو</string>
     <string name="appearanceAutoDarkMode">حالت شب خودکار</string>
     <string name="activity_appearance_follow_system_explanation">مطابق‌سازی تنظیمات سیستم</string>
-    <string name="go_to_device_notification_settings">رفتن به تنظیمات اعلان دستگاه</string>
-    <string name="blocked_contacts_empty_state">شما هیچ مخاطب مسدود‌شده‌ای ندارید</string>
     <string name="Unblock_dialog__title_single">%sاز حالت مسدود خارج شود</string>
     <string name="Unblock_dialog__title_multiple">رفع مسدودیت</string>
     <string name="Unblock_dialog__message">آیا مطمئن هستید که می‌خواهید مسدودیت %s را رفع کنید?</string>
@@ -392,14 +368,7 @@
         <item quantity="one">و %1$d نفر دیگر با %2$s به این پیام واکنش نشان داده است</item>
         <item quantity="other">و %1$d نفر دیگر با %2$s به این پیام واکنش نشان داده اند</item>
     </plurals>
-    <string name="dialog_new_conversation_title">مکالمه جدید</string>
-    <string name="dialog_new_message_title">پیام جدید</string>
-    <string name="activity_create_group_title">ایجاد گروه</string>
-    <string name="dialog_join_community_title">پیوستن به انجمن</string>
     <string name="new_conversation_contacts_title">مخاطبین</string>
     <string name="fragment_enter_public_key_prompt">یک مکالمه جدید را با وارد کردن شناسه Session شخصی شروع کنید یا شناسه جلسه خود را با آنها به اشتراک بگذارید.</string>
-    <string name="activity_create_group_create_button_title">ایجاد</string>
-    <string name="activity_join_public_chat_enter_community_url_tab_title">URL انجمن</string>
-    <string name="fragment_enter_community_url_edit_text_hint">URL انجمن را وارد کنید</string>
     <string name="fragment_enter_community_url_join_button_title">پیوستن</string>
 </resources>

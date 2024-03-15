@@ -10,7 +10,7 @@
             android:summary="@string/notificationsFastModeDescriptionAndroid"
             android:defaultValue="false" />
 
-        <Preference android:title="@string/go_to_device_notification_settings"
+        <Preference android:title="@string/notificationsGoToDevice"
             android:key="pref_notification_priority" />
 
     </PreferenceCategory>
@@ -36,7 +36,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/activity_notification_settings_content_section_title">
+    <PreferenceCategory android:title="@string/notificationsContent">
 
         <org.thoughtcrime.securesms.preferences.widgets.SignalListPreference
             android:key="pref_notification_privacy"

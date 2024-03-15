@@ -22,7 +22,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(звук)</string>
     <string name="DraftDatabase_Draft_video_snippet">(відео)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session потребує дозволу \"Зберігання\" для прикріплення фото, відео та аудіо, але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Сьогодні</string>
@@ -38,10 +37,9 @@
     <string name="attachmentsAdd">Додати вкладення</string>
     <string name="message">Написати</string>
     <string name="ConversationActivity_muted_until_date">Без звуку до %1$s</string>
-    <string name="ConversationActivity_muted_forever">Беззвучний</string>
+    <string name="notificationsMuted">Беззвучний</string>
     <string name="blockUnblock">Розблокувати</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session потребує дозволу \"Мікрофон\", щоб надсилати аудіоповідомлення але наразі доступу немає. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Мікрофон\".</string>
-    <string name="cameraGrantAccessStorage">Session потребує дозволу \"Камера\", для фотографій, відео.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Зберегти на носій?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -54,7 +52,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Використання власного: %s</string>
     <string name="CustomDefaultPreference_using_default">Використання типового: %s</string>
-    <string name="CustomDefaultPreference_none">Жодного</string>
+    <string name="none">Жодного</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Зараз</string>
     <string name="DateUtils_today">Сьогодні</string>
@@ -108,7 +106,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ви</string>
     <string name="draft">Чернетка</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session потребує дозволу \"Зберігання\", щоб зберігати файли, але наразі цей дозвіл ви постійно відхиляли. Будь ласка, перейдіть до налаштувань додатку, оберіть \"Дозволи\", та увімкніть \"Зберігання\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Без доступу до файлової системи зберегти файли неможливо</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нових повідомлень у %2$d розмовах</string>
@@ -116,7 +113,7 @@
     <string name="MessageNotifier_unknown_contact_message">Контакт</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Виклики</string>
-    <string name="NotificationChannel_failures">Відмови</string>
+    <string name="failures">Відмови</string>
     <string name="lockAppStatus">Статус блокування</string>
     <string name="updateApp">Оновлення додатку</string>
     <string name="other">Інший</string>
@@ -138,8 +135,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Камера</string>
-    <string name="attachment_type_selector__camera_description">Камера</string>
+    <string name="contentDescriptionCamera">Камера</string>
     <string name="gif">Гіф</string>
     <string name="attachment_type_selector__gallery_description">Зображення або відео</string>
     <string name="attachment_type_selector__gallery">Галерея</string>
@@ -147,15 +143,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Надіслати</string>
-    <string name="conversation_activity__compose_description">Написання повідомлення</string>
+    <string name="contentDescriptionMessageComposition">Написання повідомлення</string>
     <string name="conversation_activity__attachment_thumbnail">Мініатюра вкладення</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Увімк/вимк скриньку прикріплень камери</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Проведіть щоб відмінити</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Медіа повідомлення</string>
+    <string name="contentDescriptionMediaMessage">Медіа повідомлення</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Не вдалося відправити</string>
     <string name="conversation_item_sent__delivered_description">Доставлено</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -166,7 +161,6 @@
     <string name="messageErrorOriginal">Оригінальне повідомлення не знайдено</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Пошук GIF та наліпок</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -176,7 +170,7 @@
     <string name="disappearingMessagesSent">Надіслано</string>
     <string name="received">Одержано</string>
     <string name="message_details_header__disappears">Зникає</string>
-    <string name="message_details_header__via">Через</string>
+    <string name="via">Через</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Використовувати власні</string>
@@ -214,13 +208,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Бан користувача</string>
-    <string name="conversation_context__menu_reply_to_message">Відповісти на повідомлення</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Зберегти вкладення</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Увімкнути звук</string>
+    <string name="notificationsUnmute">Увімкнути звук</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Вимкнути звук сповіщень</string>
     <!-- conversation -->
@@ -269,7 +262,7 @@
     <string name="onionRoutingPathServiceNode">Сервісний Вузел</string>
     <string name="onionRoutingPathDestination">Місце призначення</string>
     <string name="learnMore">Дізнатися більше</string>
-    <string name="activity_path_resolving_progress">Визначаємо…</string>
+    <string name="resolving">Визначаємо…</string>
     <string name="qrScan">Сканувати QR-код</string>
     <string name="cameraGrantAccessQr">Session потрібен дозвіл до камери, щоб сканувати QR-код</string>
     <string name="cameraGrantAccess">Дозволити доступ до камери</string>
@@ -281,13 +274,12 @@
     <string name="helpFAQ">Часті питання</string>
     <string name="sessionClearData">Видалити дані</string>
     <string name="notificationsStyle">Стиль сповіщень</string>
-    <string name="activity_notification_settings_content_section_title">Вміст сповіщення</string>
+    <string name="notificationsContent">Вміст сповіщення</string>
     <string name="sessionPrivacy">Конфіденційність</string>
     <string name="notificationsStrategy">Стратегія сповіщення</string>
     <string name="useFastMode">Використовувати швидкий режим</string>
     <string name="clearDataAll">Видалити всі дані</string>
     <string name="qrCode">QR-код</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Скануйте чийсь QR-код, щоб почати розмову з ними</string>
     <string name="contactsContacts">Контакти</string>
     <string name="fragment_contact_selection_open_groups_title">Відкриті Групи</string>
     <!-- Next round of translation -->
@@ -307,7 +299,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Вас надійно повідомлятимуть про нові сповіщщеня негайно, використовуючи сервери сповіщень Google.</string>
     <string name="notificationsSlowModeDescription">Session буде періодично перевіряти наявність нових повідомлень у фоновому режимі.</string>
     <string name="blockUnblockDescription">Ви впевнені що хочете розблокувати %s?</string>
-    <string name="dialog_join_open_group_explanation">Ви впевнені, що хочете приєднатися до %s відкритої групи?</string>
     <string name="open">Відкрити</string>
     <string name="urlCopy">Копіювати URL</string>
     <string name="enable">Включити</string>

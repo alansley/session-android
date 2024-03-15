@@ -21,7 +21,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session are nevoie de permisiunea pentru spațiul de stocare pentru a putea atașa poze, filme sau audio, dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Spațiu de stocare\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Azi</string>
@@ -37,10 +36,9 @@
     <string name="attachmentsAdd">Adăugați atașament</string>
     <string name="message">Mesaj</string>
     <string name="ConversationActivity_muted_until_date">Amuțit până la %1$s</string>
-    <string name="ConversationActivity_muted_forever">Ignoră</string>
+    <string name="notificationsMuted">Ignoră</string>
     <string name="blockUnblock">Deblochează</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session are nevoie de permisiunea pentru Microfon pentru a putea trimite mesaje audio dar i-a fost refuzat accesul permanent. Vă rugăm să navigați în meniul de setări al aplicației, selectați \"Permisiuni\" și activați \"Microfon\".</string>
-    <string name="cameraGrantAccessStorage">Session are nevoie de acces la stocare pentru a trimite fotografii și videoclipuri.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Salvez pe spațiul de stocare?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -52,7 +50,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Personalizat: %s</string>
     <string name="CustomDefaultPreference_using_default">Implicit: %s</string>
-    <string name="CustomDefaultPreference_none">Niciuna</string>
+    <string name="none">Niciuna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Acum</string>
     <string name="DateUtils_today">Azi</string>
@@ -104,7 +102,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Tu</string>
     <string name="draft">Ciornă</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session are nevoie de permisiune la spațiul de stocarea externa pentru a salva pe spațiul de stocare extern, dar i-a fost refuzat accesul permanent. Vă rog navigați în meniul de setări al aplicațiilor, selectați \"Permisiuni\" și activați \"Spațiu de stocare\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nu se poate salva pe spațiu de stocare extern fără permisiune</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d mesaje noi în %2$d conversaţii</string>
@@ -112,7 +109,7 @@
     <string name="MessageNotifier_unknown_contact_message">Contact</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Apeluri</string>
-    <string name="NotificationChannel_failures">Erori</string>
+    <string name="failures">Erori</string>
     <string name="lockAppStatus">Stare blocare</string>
     <string name="updateApp">Actualizări aplicație</string>
     <string name="other">Altul</string>
@@ -133,8 +130,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Cameră</string>
-    <string name="attachment_type_selector__camera_description">Cameră</string>
+    <string name="contentDescriptionCamera">Cameră</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imagine sau video</string>
     <string name="attachment_type_selector__gallery">Galerie</string>
@@ -142,15 +138,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Trimite</string>
-    <string name="conversation_activity__compose_description">Compunere mesaj</string>
+    <string name="contentDescriptionMessageComposition">Compunere mesaj</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatură atașament</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Comutare panou cu atașamente de la camera rapidă </string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Glisați pentru a anula</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Mesaj media</string>
+    <string name="contentDescriptionMediaMessage">Mesaj media</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Trimiterea a eşuat</string>
     <string name="conversation_item_sent__delivered_description">Livrat</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -161,7 +156,6 @@
     <string name="messageErrorOriginal">Mesajul original nu a fost găsit</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Căutați GIF-uri și autocolante</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -171,7 +165,7 @@
     <string name="disappearingMessagesSent">Trimis</string>
     <string name="received">Primit</string>
     <string name="message_details_header__disappears">Dispar</string>
-    <string name="message_details_header__via">Prin</string>
+    <string name="via">Prin</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Personalizat</string>
@@ -208,13 +202,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Blochează utilizator</string>
-    <string name="conversation_context__menu_reply_to_message">Răspunde la mesaj</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Salvează ataşamentul</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Activare sunet notificări</string>
+    <string name="notificationsUnmute">Activare sunet notificări</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Notificări fără sunet</string>
     <!-- conversation -->
@@ -250,7 +243,7 @@
     <string name="onionRoutingPathServiceNode">Nod servicii</string>
     <string name="onionRoutingPathDestination">Destinație</string>
     <string name="learnMore">Aflați mai multe</string>
-    <string name="activity_path_resolving_progress">Se rezolvă…</string>
+    <string name="resolving">Se rezolvă…</string>
     <string name="qrScan">Scanați codul QR</string>
     <!-- Next round of translation -->
 </resources>

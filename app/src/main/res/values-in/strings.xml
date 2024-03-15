@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(suara)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session membutuhkan izin penyimpanan untuk melampirkan foto, video, atau audio, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Penyimpanan\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Hari ini</string>
@@ -35,16 +34,15 @@
     <string name="attachmentsAdd">Tambahkan lampiran</string>
     <string name="message">Pesan</string>
     <string name="ConversationActivity_muted_until_date">Senyapkan sampai %1$s</string>
-    <string name="ConversationActivity_muted_forever">Disenyapkan</string>
+    <string name="notificationsMuted">Disenyapkan</string>
     <string name="blockUnblock">Buka blokir</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session membutuhkan izin mikrofon untuk mengirim pesan suara, namun izin tersebut telah ditolak secara permanen. Harap melanjutkan ke menu pengaturan aplikasi, pilih \"Perizinan\", dan izinkan \"Mikrofon\".</string>
-    <string name="cameraGrantAccessStorage">Session membutuhkan akses penyimpanan untuk mengirim foto dan video.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Simpan ke penyimpanan?</string>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_default">Gunakan baku: %s</string>
-    <string name="CustomDefaultPreference_none">Tidak ada</string>
+    <string name="none">Tidak ada</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sekarang</string>
     <string name="DateUtils_today">Hari ini</string>
@@ -101,7 +99,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontak</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Panggilan</string>
-    <string name="NotificationChannel_failures">Gagal</string>
+    <string name="failures">Gagal</string>
     <string name="lockAppStatus">Status kunci</string>
     <string name="updateApp">Pembaruan aplikasi</string>
     <string name="other">Lainnya</string>
@@ -115,8 +113,7 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Gambar atau video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
@@ -125,9 +122,8 @@
     <string name="send">Kirim</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Pesan media</string>
+    <string name="contentDescriptionMediaMessage">Pesan media</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Gagal Mengirim</string>
     <string name="conversation_item_sent__delivered_description">Terkirim</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -137,7 +133,6 @@
     <string name="messageErrorOriginal">Pesan asli tidak ditemukan</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cari GIF dan stiker</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -147,7 +142,7 @@
     <string name="disappearingMessagesSent">Terkirim</string>
     <string name="received">Diterima</string>
     <string name="message_details_header__disappears">Menghilang</string>
-    <string name="message_details_header__via">Melalui</string>
+    <string name="via">Melalui</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Gunakan kustom</string>
@@ -182,7 +177,7 @@
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Batalkan senyap</string>
+    <string name="notificationsUnmute">Batalkan senyap</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Senyapkan notifikasi</string>
     <!-- conversation -->
@@ -223,7 +218,6 @@
     <string name="groupNameEnterPlease">Masukkan nama grup</string>
     <string name="clearDataAll">Hapus semua data</string>
     <string name="qrCode">Kode QR</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>
     <string name="contactsContacts">Kontak</string>
     <string name="fragment_contact_selection_open_groups_title">Grup terbuka</string>
     <!-- Next round of translation -->

@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(аудио)</string>
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session се нуждае от достъп до вградения диск, за да може да прикачва снимки, видеота или аудио, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Дискове\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Днес</string>
@@ -36,7 +35,6 @@
     <string name="message">Съобщение</string>
     <string name="blockUnblock">Отблокирване</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session се нуждае от достъп до микрофона Ви, за да може да изпраща аудио съобщения, но той му е отказан. Моля, отидете в настройки в менюто и изберете \"Разрешения\" и \"Микрофон\".</string>
-    <string name="cameraGrantAccessStorage">Session се нуждае от достъп до файловете Ви за да пращате снимки и видеа.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Запази в хранилището?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -47,7 +45,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Използване на специален:  %s</string>
     <string name="CustomDefaultPreference_using_default">Използване на подразбиращ се: %s</string>
-    <string name="CustomDefaultPreference_none">Нищо</string>
+    <string name="none">Нищо</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Току що</string>
     <string name="DateUtils_today">Днес</string>
@@ -105,7 +103,7 @@
     <string name="MessageNotifier_unknown_contact_message">Контакт</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Обаждания</string>
-    <string name="NotificationChannel_failures">Грешки</string>
+    <string name="failures">Грешки</string>
     <string name="lockAppStatus">Статус на заключването</string>
     <string name="updateApp">Обновления на приложението</string>
     <string name="other">Друг</string>
@@ -125,23 +123,21 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Камера</string>
-    <string name="attachment_type_selector__camera_description">Камера</string>
+    <string name="contentDescriptionCamera">Камера</string>
     <string name="attachment_type_selector__gallery_description">Изображение или видео</string>
     <string name="attachment_type_selector__gallery">Галерия</string>
     <string name="attachment_type_selector__drawer_description">Затваряне/отваряне на чекмеджето с прикачени файлове</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Изпращане</string>
-    <string name="conversation_activity__compose_description">Създаване на съобщение</string>
+    <string name="contentDescriptionMessageComposition">Създаване на съобщение</string>
     <string name="conversation_activity__attachment_thumbnail">Изображение на прикачен файл</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Затворяне/отворяне на чекмеджето за прикчаване на файл от камера</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Плъзнете за отказ</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Медийно съобщение</string>
+    <string name="contentDescriptionMediaMessage">Медийно съобщение</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Неуспешно Изпращане</string>
     <string name="conversation_item_sent__delivered_description">Доставено</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -150,7 +146,6 @@
     <string name="messageErrorOriginal">Оригиналното съобщение не е открито</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Търсене сред GIF-ове и стикери</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -160,7 +155,7 @@
     <string name="disappearingMessagesSent">Изпратен</string>
     <string name="received">Получен</string>
     <string name="message_details_header__disappears">Изчезва</string>
-    <string name="message_details_header__via">През</string>
+    <string name="via">През</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Използване на специален</string>
@@ -196,13 +191,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Забрана на потребител</string>
-    <string name="conversation_context__menu_reply_to_message">Отговор на съобщение</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Запази прикачения файл</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Изключи тих режим</string>
+    <string name="notificationsUnmute">Изключи тих режим</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Тих режим за известия</string>
     <!-- conversation -->

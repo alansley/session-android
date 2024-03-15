@@ -15,7 +15,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(آڈیو)</string>
     <string name="DraftDatabase_Draft_video_snippet">(ویڈیو)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">تصاویر، ویڈیوز، یا آڈیو منسلک کرنے کے لیے سیشن کو سٹوریج کی اجازت درکار ہے، لیکن اسے مستقل طور پر مسترد کر دیا گیا ہے۔ براہ کرم ایپ کی ترتیبات کے مینو کو جاری رکھیں، \"اجازتیں\" کو منتخب کریں، اور \"اسٹوریج\" کو فعال کریں.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">آج</string>
@@ -31,7 +30,7 @@
     <string name="attachmentsAdd">منسلکہ شامل کریں</string>
     <string name="message">پیغام</string>
     <string name="ConversationActivity_muted_until_date">%1$s تک خاموش کر دیا گیا۔</string>
-    <string name="ConversationActivity_muted_forever">خاموش</string>
+    <string name="notificationsMuted">خاموش</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->

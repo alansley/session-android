@@ -79,7 +79,7 @@ public class CustomDefaultPreference extends DialogPreference {
   }
 
   private String getPrettyPrintValue(String value) {
-    if (TextUtils.isEmpty(value)) return getContext().getString(R.string.CustomDefaultPreference_none);
+    if (TextUtils.isEmpty(value)) return getContext().getString(R.string.none);
     else                          return value;
   }
 

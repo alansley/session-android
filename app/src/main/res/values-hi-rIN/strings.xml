@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ऑडियो)</string>
     <string name="DraftDatabase_Draft_video_snippet">(वीडियो)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">फ़ोटो, वीडियो या ऑडियो संलग्न करने के लिए Session को संग्रहण अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स मेनू पर जारी रखें, \"अनुमतियां\" चुनें, और \"संग्रहण\" सक्षम करें।</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">आज</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">अटैचमेंट जोड़ें</string>
     <string name="message">मैसेज</string>
     <string name="ConversationActivity_muted_until_date">%s तक मौन किया</string>
-    <string name="ConversationActivity_muted_forever">म्यूट हो गए</string>
+    <string name="notificationsMuted">म्यूट हो गए</string>
     <string name="blockUnblock">अनब्लॉक करें</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">ऑडियो संदेशों को भेजने के लिए Session को माइक्रोफ़ोन अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"माइक्रोफ़ोन\" सक्षम करें।</string>
-    <string name="cameraGrantAccessStorage">Session को फ़ोटो या वीडियो लेने के लिए Storage अनुमति चाहिए</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">इसे स्टोरेज में सहेजें?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">कस्टम %s का इस्तेमाल </string>
     <string name="CustomDefaultPreference_using_default">डिफ़ॉल्ट %s का इस्तेमाल </string>
-    <string name="CustomDefaultPreference_none">कुछ नहीं</string>
+    <string name="none">कुछ नहीं</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">अभी</string>
     <string name="DateUtils_today">आज</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">आप</string>
     <string name="draft">प्रारूप</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">बाहरी भंडारण को सहेजने के लिए Session को स्टोरेज अनुमति की आवश्यकता होती है, लेकिन इसे स्थायी रूप से अस्वीकार कर दिया गया है। कृपया ऐप सेटिंग्स जारी रखें, \"अनुमतियां\" चुनें, और \"संग्रहण\" सक्षम करें।</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">अनुमति के बिना बाहरी भंडारण में सहेजने में असमर्थ</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d बातचीत में %1$d नए संदेश</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">संपर्क</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">कॉल</string>
-    <string name="NotificationChannel_failures">विफलतायें </string>
+    <string name="failures">विफलतायें </string>
     <string name="lockAppStatus">लॉक स्थिति</string>
     <string name="updateApp">ऐप अपडेट</string>
     <string name="other">अन्य</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">कैमरा</string>
-    <string name="attachment_type_selector__camera_description">कैमरा</string>
+    <string name="contentDescriptionCamera">कैमरा</string>
     <string name="gif">जीआईएफ</string>
     <string name="attachment_type_selector__gallery_description">छवि या वीडियो</string>
     <string name="attachment_type_selector__gallery">गेलरी</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">भेजें</string>
-    <string name="conversation_activity__compose_description">संदेश संरचना</string>
+    <string name="contentDescriptionMessageComposition">संदेश संरचना</string>
     <string name="conversation_activity__attachment_thumbnail">अटैचमेंट थंबनेल </string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">त्वरित कैमरा अनुलग्नक दराज टॉगल करें</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">रद्द करने के लिए स्लाइड करें</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">मीडिया संदेश</string>
+    <string name="contentDescriptionMediaMessage">मीडिया संदेश</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">भेजना विफल</string>
     <string name="conversation_item_sent__delivered_description">पहुंचा दिया</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">मूल संदेश नहीं मिला</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">gifs और स्टिकर की खोज करो</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent"> भेजा गया </string>
     <string name="received"> मिल गया </string>
     <string name="message_details_header__disappears">गायब हो जाता है</string>
-    <string name="message_details_header__via">राह </string>
+    <string name="via">राह </string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">कस्टम का इस्तेमाल करें </string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">प्रतिबंध उपयोगकर्ता</string>
-    <string name="conversation_context__menu_reply_to_message">संदेश का जवाब</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">अनुलग्नक सहेजें</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">अनम्यूट</string>
+    <string name="notificationsUnmute">अनम्यूट</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">नोटिफिकेशन म्यूट करें</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">सर्विस नोड</string>
     <string name="onionRoutingPathDestination">गंतव्य</string>
     <string name="learnMore">अधिक जानें</string>
-    <string name="activity_path_resolving_progress">हल किया जा रहा है</string>
+    <string name="resolving">हल किया जा रहा है</string>
     <string name="qrScan">QR कोड को स्कैन करें</string>
     <string name="cameraGrantAccessQr">क्यूआर कोड स्कैन करने के लिए Session को कैमरा एक्सेस की आवश्यकता है</string>
     <string name="cameraGrantAccess">कैमरा केउपयोग को प्रदान करें</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">अकसर किये गए सवाल</string>
     <string name="sessionClearData">डेटा हटाएं</string>
     <string name="notificationsStyle">अधिसूचना शैली</string>
-    <string name="activity_notification_settings_content_section_title">सूचना विषय सूची</string>
+    <string name="notificationsContent">सूचना विषय सूची</string>
     <string name="sessionPrivacy">गोपनियता</string>
     <string name="notificationsStrategy">सूचना रणनीति</string>
     <string name="useFastMode">तीव्र मोड इस्तेमाल करे</string>
     <string name="clearDataAll">सभी डेटा हटाएं</string>
     <string name="qrCode">QR कोड</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">किसी के साथ बातचीत शुरू करने के लिए उसका क्यूआर कोड स्कैन करें</string>
     <string name="contactsContacts">संपर्क</string>
     <string name="fragment_contact_selection_open_groups_title">खुले ग्रुप</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">आपको नई सूचनाओं के बारे में google के नोटीफिकेशन servers से तत्काल सूचित किया जाएगा।</string>
     <string name="notificationsSlowModeDescription">Session कभी-कभी पृष्ठभूमि में नए संदेशों की जांच करेगा।</string>
     <string name="blockUnblockDescription">क्या आप वाकई %s को अनब्लॉक करना चाहते हैं?</string>
-    <string name="dialog_join_open_group_explanation">क्या आप %s open ग्रुप से जुड़ना चाहते हैं?</string>
     <string name="open">खोलें</string>
     <string name="urlCopy">यूआरएल कॉपी करें</string>
     <string name="enable">सक्षम करें</string>

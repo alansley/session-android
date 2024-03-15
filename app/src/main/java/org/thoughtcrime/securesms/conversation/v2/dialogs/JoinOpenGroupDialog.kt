@@ -21,7 +21,10 @@ class JoinOpenGroupDialog(private val name: String, private val url: String) : D
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog = createSessionDialog {
         title(resources.getString(R.string.communityJoin))
-        val explanation = resources.getString(R.string.dialog_join_open_group_explanation, name)
+
+        val explanation = resources.getString(R.string.communityJoinDescription) // ACL - Adjust this to use the new phrases library for substitution!
+        //val explanation = resources.getString(R.string.communityJoinDescription, name)
+
         val spannable = SpannableStringBuilder(explanation)
         val startIndex = explanation.indexOf(name)
         spannable.setSpan(StyleSpan(Typeface.BOLD), startIndex, startIndex + name.count(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)

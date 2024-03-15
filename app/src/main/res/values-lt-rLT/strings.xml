@@ -22,7 +22,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(garsas)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vaizdas)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, Session reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Šiandien</string>
@@ -38,7 +37,7 @@
     <string name="attachmentsAdd">Pridėti priedą</string>
     <string name="message">Žinutė</string>
     <string name="ConversationActivity_muted_until_date">Užtildytas iki %1$s</string>
-    <string name="ConversationActivity_muted_forever">Užtildytas</string>
+    <string name="notificationsMuted">Užtildytas</string>
     <string name="blockUnblock">Atblokuoti</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Norint siųsti garso žinutes, Session reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
     <!-- ConversationFragment -->
@@ -53,7 +52,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Naudojamas tinkintas: %s</string>
     <string name="CustomDefaultPreference_using_default">Naudojamas numatytasis: %s</string>
-    <string name="CustomDefaultPreference_none">Nėra</string>
+    <string name="none">Nėra</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Dabar</string>
     <string name="DateUtils_today">Šiandien</string>
@@ -113,7 +112,7 @@
     <string name="MessageNotifier_unknown_contact_message">Adresatas</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Skambučiai</string>
-    <string name="NotificationChannel_failures">Nesėkmės</string>
+    <string name="failures">Nesėkmės</string>
     <string name="lockAppStatus">Užrakinimo būsena</string>
     <string name="updateApp">Programėlės atnaujinimai</string>
     <string name="other">Kitas</string>
@@ -135,8 +134,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Paveikslas ar vaizdo įrašas</string>
     <string name="attachment_type_selector__gallery">Galerija</string>
@@ -144,15 +142,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Siųsti</string>
-    <string name="conversation_activity__compose_description">Žinutės rašymas</string>
+    <string name="contentDescriptionMessageComposition">Žinutės rašymas</string>
     <string name="conversation_activity__attachment_thumbnail">Priedo miniatiūra</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Perjungti sparčiosios kameros priedų stalčių</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Perbraukite, norėdami atsisakyti</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Medijos žinutė</string>
+    <string name="contentDescriptionMediaMessage">Medijos žinutė</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Siuntimas nepavyko</string>
     <string name="conversation_item_sent__delivered_description">Pristatyta</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -163,7 +160,6 @@
     <string name="messageErrorOriginal">Pradinė žinutė nerasta</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Ieškoti GIF ir paveikslėlių</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -173,7 +169,7 @@
     <string name="disappearingMessagesSent">Išsiųsta</string>
     <string name="received">Gauta</string>
     <string name="message_details_header__disappears">Išnyksta</string>
-    <string name="message_details_header__via">Per</string>
+    <string name="via">Per</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Naudoti tinkintą</string>
@@ -210,13 +206,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">Atsakyti į žinutę</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Įrašyti priedą</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Įjungti pranešimus</string>
+    <string name="notificationsUnmute">Įjungti pranešimus</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Nutildyti pranešimus</string>
     <!-- conversation -->
@@ -270,13 +265,12 @@
     <string name="sessionSettings">Nustatymai</string>
     <string name="sessionClearData">Išvalyti duomenis</string>
     <string name="notificationsStyle">Pranešimų stilius</string>
-    <string name="activity_notification_settings_content_section_title">Pranešimų turinys</string>
+    <string name="notificationsContent">Pranešimų turinys</string>
     <string name="sessionPrivacy">Privatumas</string>
     <string name="notificationsStrategy">Pranešimų strategija</string>
     <string name="useFastMode">Naudoti greitą veikseną</string>
     <string name="clearDataAll">Išvalyti visus duomenis</string>
     <string name="qrCode">QR kodas</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Nuskenuokite kieno nors QR kodą, kad pradėtumėte su juo pokalbį</string>
     <string name="contactsContacts">Adresatai</string>
     <string name="fragment_contact_selection_open_groups_title">Atviros grupės</string>
     <!-- Next round of translation -->
@@ -293,7 +287,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Jums bus nedelsiant ir patikimai pranešama apie naujas žinutes, naudojant „Google“ pranešimų serverius.</string>
     <string name="notificationsSlowModeDescription">Session programėlė retkarčiais fone tikrins, ar yra naujų žinučių.</string>
     <string name="blockUnblockDescription">Ar tikrai norite atblokuoti %s?</string>
-    <string name="dialog_join_open_group_explanation">Ar tikrai norite prisijungti prie %s atviros grupės?</string>
     <string name="open">Atverti</string>
     <string name="enable">Įjungti</string>
     <string name="download">Atsisiųsti</string>

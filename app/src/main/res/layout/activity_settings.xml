@@ -254,7 +254,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_toEndOf="@+id/chatsContainer"
-                        android:text="@string/activity_settings_conversations_button_title" />
+                        android:text="@string/sessionConversations" />
                 </RelativeLayout>
 
                 <View
@@ -324,7 +324,7 @@
                         android:textStyle="bold"
                         android:gravity="center"
                         android:layout_toEndOf="@+id/appearanceContainer"
-                        android:text="@string/activity_settings_message_appearance_button_title" />
+                        android:text="@string/sessionAppearance" />
                 </RelativeLayout>
 
                 <View

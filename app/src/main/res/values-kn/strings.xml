@@ -28,11 +28,11 @@
     <string name="ConversationItem_error_not_delivered">ಕಳುಹಿಸಲು ವಿಫಲವಾಗಿದೆ, ಮಾಹಿತಿಗಾಗಿ ತಟ್ಟಿ ನೋಡಿ</string>
     <!-- ConversationActivity -->
     <string name="message">ಸಂದೇಶ</string>
-    <string name="ConversationActivity_muted_forever">ಸದ್ದಡಗಿಸಿ</string>
+    <string name="notificationsMuted">ಸದ್ದಡಗಿಸಿ</string>
     <!-- ConversationFragment -->
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_none">ಯಾವುದೂ ಇಲ್ಲ</string>
+    <string name="none">ಯಾವುದೂ ಇಲ್ಲ</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">ಈಗ</string>
     <string name="DateUtils_today">ಇಂದು</string>
@@ -68,7 +68,7 @@
     <!-- MessageNotifier -->
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ಕಾಲುಗಳು</string>
-    <string name="NotificationChannel_failures">ವಿಫಲತೆಗಳು</string>
+    <string name="failures">ವಿಫಲತೆಗಳು</string>
     <string name="other">ಇತರೆ</string>
     <!-- QuickResponseService -->
     <!-- SaveAttachmentTask -->
@@ -79,8 +79,7 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">ಕ್ಯಾಮರಾ</string>
-    <string name="attachment_type_selector__camera_description">ಕ್ಯಾಮರಾ</string>
+    <string name="contentDescriptionCamera">ಕ್ಯಾಮರಾ</string>
     <string name="gif">ಗಿಫ್</string>
     <string name="attachment_type_selector__gallery">ಚಿತ್ರಶಾಲೆ</string>
     <!-- contact_selection_group_activity -->
@@ -88,7 +87,7 @@
     <string name="send">ಕಳುಹಿಸಿ</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">ಮೀಡಿಯಾ ಸಂದೇಶ</string>
+    <string name="contentDescriptionMediaMessage">ಮೀಡಿಯಾ ಸಂದೇಶ</string>
     <!-- conversation_item_sent -->
     <!-- conversation_item_received -->
     <!-- audio_view -->

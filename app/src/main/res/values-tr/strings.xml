@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ses)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, fotoğraflar, videolar, veya ses ekleyebilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Bugün</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Eklenti ekle</string>
     <string name="message">İleti</string>
     <string name="ConversationActivity_muted_until_date">%1$s\'e kadar sessiz</string>
-    <string name="ConversationActivity_muted_forever">Sessize alındı</string>
+    <string name="notificationsMuted">Sessize alındı</string>
     <string name="blockUnblock">Engeli kaldır</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session, sesli iletiler göndermek için Mikrofon iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Mikrofon\"u etkinleştirin.</string>
-    <string name="cameraGrantAccessStorage">Session, fotoğraf ve video göndermek için depolama erişimine ihtiyaç duyar.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Depolama alanına kaydedilsin mi?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Özelleştirilmiş \'%s\' kullanılıyor</string>
     <string name="CustomDefaultPreference_using_default">Varsayılan \'%s\' kullanılıyor</string>
-    <string name="CustomDefaultPreference_none">Hiçbiri</string>
+    <string name="none">Hiçbiri</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Şimdi</string>
     <string name="DateUtils_today">Bugün</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Siz</string>
     <string name="draft">Taslak</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, harici depolamaya kaydetmek için depolama erişimine ihtiyaç duyuyor, ancak kalıcı olarak reddedildi. Lütfen uygulama ayarlarına girin, \"İzinler\"i seçin ve \"Depolama\" özelliğini etkinleştirin.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İzinler olmadan harici depolamaya kaydedilemiyor</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d sohbetten %1$d yeni ileti</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kişi</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Aramalar</string>
-    <string name="NotificationChannel_failures">Hatalar</string>
+    <string name="failures">Hatalar</string>
     <string name="lockAppStatus">Kilit durumu</string>
     <string name="updateApp">Uygulama güncellemeleri</string>
     <string name="other">Diğer</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Görüntü veya video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Gönder</string>
-    <string name="conversation_activity__compose_description">İleti oluştur</string>
+    <string name="contentDescriptionMessageComposition">İleti oluştur</string>
     <string name="conversation_activity__attachment_thumbnail">Eklenti Önizlemesi</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Hızlı kamera eki çekmecesini göster/gizle</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">İptal etmek için kaydırın</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Medya iletisi</string>
+    <string name="contentDescriptionMediaMessage">Medya iletisi</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Gönderme başarısız</string>
     <string name="conversation_item_sent__delivered_description">Gönderildi</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">İletinin aslı bulunamadı</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFleri ve çıkartmaları ara</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Gönderildi</string>
     <string name="received">Alındı</string>
     <string name="message_details_header__disappears">Kaybolacak</string>
-    <string name="message_details_header__via">Vasıtasıyla</string>
+    <string name="via">Vasıtasıyla</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Özelleştirilmiş kullan</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Kullanıcıyı engelle</string>
-    <string name="conversation_context__menu_reply_to_message">İletiyi yanıtla</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Eklentiyi kaydet</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Sesi aç</string>
+    <string name="notificationsUnmute">Sesi aç</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Bildirimleri sessize al</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Hizmet Düğüm</string>
     <string name="onionRoutingPathDestination">Hedef Konum</string>
     <string name="learnMore">Fazlasını Öğrenin</string>
-    <string name="activity_path_resolving_progress">Çözümleniyor…</string>
+    <string name="resolving">Çözümleniyor…</string>
     <string name="qrScan">QR Kodunu Tara</string>
     <string name="cameraGrantAccessQr">Session’ın QR kodlarını taramak için kamera erişimine ihtiyacı var</string>
     <string name="cameraGrantAccess">Kameraya erişim izni ver</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">SSS</string>
     <string name="sessionClearData">Verileri Temizle</string>
     <string name="notificationsStyle">Bildirim Stili</string>
-    <string name="activity_notification_settings_content_section_title">Bildirim içeriği</string>
+    <string name="notificationsContent">Bildirim içeriği</string>
     <string name="sessionPrivacy">Gizlilik</string>
     <string name="notificationsStrategy">Bildirim Stili</string>
     <string name="useFastMode">Hızlı Modu Kullan</string>
     <string name="clearDataAll">Tüm Verileri Temizle</string>
     <string name="qrCode">QR kod</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Onlarla sohbet başlatmak için birinin QR kodunu tarayın</string>
     <string name="contactsContacts">Kişiler</string>
     <string name="fragment_contact_selection_open_groups_title">Genel Gruplar</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Google\'ın bildirim sunucularını kullanarak yeni iletilerden güvenilir ve anında haberdar olacaksınız.</string>
     <string name="notificationsSlowModeDescription">Session ara sıra arka planda yeni mesajları kontrol eder.</string>
     <string name="blockUnblockDescription">%s kişisine ait engeli kaldırmak istediğinizden emin misiniz?</string>
-    <string name="dialog_join_open_group_explanation">%s açık gurubuna katılmak istediğinize emin misiniz?</string>
     <string name="open">Aç</string>
     <string name="urlCopy">Bağlantıyı kopyala</string>
     <string name="enable">Etkinleştir</string>

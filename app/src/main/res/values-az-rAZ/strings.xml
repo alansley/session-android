@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(səs)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session, foto, video və ya səs əlavə etmək üçün Anbar icazəsi tələb edir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\" icazəsini fəallaşdırın.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Bu gün</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Qoşma əlavə et</string>
     <string name="message">Mesaj</string>
     <string name="ConversationActivity_muted_until_date">%1$s qədər səssizdə</string>
-    <string name="ConversationActivity_muted_forever">Səssizdə</string>
+    <string name="notificationsMuted">Səssizdə</string>
     <string name="blockUnblock">Kilidi aç</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session, səsli mesaj göndərmək üçün mikrofona müraciət etməlidir, ancaq icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Mikrofon\"u fəallaşdırın.</string>
-    <string name="cameraGrantAccessStorage">Session, foto və video göndərmək üçün anbara müraciət etməlidir.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Anbarda saxlanılsın?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Özəl istifadə edilir: %s</string>
     <string name="CustomDefaultPreference_using_default">İlkin istifadə edilir: %s</string>
-    <string name="CustomDefaultPreference_none">Heç biri</string>
+    <string name="none">Heç biri</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">İndi</string>
     <string name="DateUtils_today">Bu gün</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Siz</string>
     <string name="draft">Qaralama</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session, xarici anbarda saxlamaq üçün anbara müraciət etməlidir, ancaq bu icazə birdəfəlik rədd edilib. Zəhmət olmasa \"İcazələr\" tənzimləmələrindən \"Anbar\"ı fəallaşdırın.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İcazə olmadan xarici anbarda saxlanıla bilmir</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d danışıqda %1$d yeni mesaj</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Əlaqə</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Zənglər</string>
-    <string name="NotificationChannel_failures">Xətalar</string>
+    <string name="failures">Xətalar</string>
     <string name="lockAppStatus">Kilid vəziyyəti</string>
     <string name="updateApp">Tətbiq yeniləmələri</string>
     <string name="other">Digər</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Təsvir və ya video</string>
     <string name="attachment_type_selector__gallery">Qalereya</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Göndər</string>
-    <string name="conversation_activity__compose_description">Mesaj tərtib et</string>
+    <string name="contentDescriptionMessageComposition">Mesaj tərtib et</string>
     <string name="conversation_activity__attachment_thumbnail">Qoşma eskizi</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Cəld kamera qoşma siyirməsini aç/bağla</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">İmtina etmək üçün sürüşdür</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Media mesajı</string>
+    <string name="contentDescriptionMediaMessage">Media mesajı</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Göndərilmədi</string>
     <string name="conversation_item_sent__delivered_description">Çatdırıldı</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Orijinal mesaj tapılmadı</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIF və stiker axtar</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Göndərildi</string>
     <string name="received">Alındı</string>
     <string name="message_details_header__disappears">Yox olur</string>
-    <string name="message_details_header__via">Vasitəsilə</string>
+    <string name="via">Vasitəsilə</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Özəl halı istifadə et</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">İstifadəçiyə qadağa qoy</string>
-    <string name="conversation_context__menu_reply_to_message">Mesajı cavabla</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Qoşmanı yaddaşda saxla</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Səsi aç</string>
+    <string name="notificationsUnmute">Səsi aç</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Bildirişləri səssizə al</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Xidmət Düyünü</string>
     <string name="onionRoutingPathDestination">Təyinat</string>
     <string name="learnMore">Daha Ətraflı</string>
-    <string name="activity_path_resolving_progress">Həll edilir…</string>
+    <string name="resolving">Həll edilir…</string>
     <string name="qrScan">QR kodu skan edin</string>
     <string name="cameraGrantAccessQr">Session, QR kodunu skan etmək üçün kameraya müraciət etməlidir</string>
     <string name="cameraGrantAccess">Kameraya müraciətə icazə ver</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">TSS</string>
     <string name="sessionClearData">Verilənləri təmizlə</string>
     <string name="notificationsStyle">Bildiriş stili</string>
-    <string name="activity_notification_settings_content_section_title">Bildiriş məzmunu</string>
+    <string name="notificationsContent">Bildiriş məzmunu</string>
     <string name="sessionPrivacy">Gizlilik</string>
     <string name="notificationsStrategy">Bildiriş Strategiyası</string>
     <string name="useFastMode">Sürətli rejimi istifadə et</string>
     <string name="clearDataAll">Bütün verilənləri təmizlə</string>
     <string name="qrCode">QR Kod</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Başqasıyla bir danışıq başlatmaq üçün onun QR kodunu skan edin</string>
     <string name="contactsContacts">Əlaqələr</string>
     <string name="fragment_contact_selection_open_groups_title">Açıq qruplar</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Google-un bildiriş serverlərini istifadə edərək yeni mesajlardan dərhal və etibarlı şəkildə xəbərdar olacaqsınız.</string>
     <string name="notificationsSlowModeDescription">Session, arada arxaplanda yeni mesajları yoxlayacaq.</string>
     <string name="blockUnblockDescription">%s əlaqəsini əngəldən çıxartmaq istədiyinizə əminsiniz?</string>
-    <string name="dialog_join_open_group_explanation">%s açıq qrupuna qoşulmaq istədiyinizə əminsiniz?</string>
     <string name="open">Aç</string>
     <string name="urlCopy">URL-ni kopyala</string>
     <string name="enable">Fəallaşdır</string>

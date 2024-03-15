@@ -18,7 +18,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(សំឡេង)</string>
     <string name="DraftDatabase_Draft_video_snippet">(វីដេអូ)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session ទាមទារសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកដើម្បីភ្ជាប់រូបថត វីដេអូ ឬសំឡេង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់របស់ប្រព័ន្ធ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\" ។</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">ថ្ងៃនេះ</string>
@@ -43,7 +42,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">ប្រើផ្សេងៗ៖ %s</string>
     <string name="CustomDefaultPreference_using_default">ប្រើលំនាំដើម៖ %s</string>
-    <string name="CustomDefaultPreference_none">គ្មាន</string>
+    <string name="none">គ្មាន</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">ឥឡូវនេះ</string>
     <string name="DateUtils_today">ថ្ងៃនេះ</string>
@@ -100,7 +99,7 @@
     <string name="MessageNotifier_unknown_contact_message">ទំនាក់ទំនង</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">ការហៅ</string>
-    <string name="NotificationChannel_failures">បរាជ័យ</string>
+    <string name="failures">បរាជ័យ</string>
     <string name="lockAppStatus">ស្ថានភាពចាក់សោរ</string>
     <string name="updateApp">បច្ចុប្បន្នភាពកម្មវិធី</string>
     <string name="other">ផ្សេងៗ</string>
@@ -119,23 +118,21 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">កាមេរ៉ា</string>
-    <string name="attachment_type_selector__camera_description">កាមេរ៉ា</string>
+    <string name="contentDescriptionCamera">កាមេរ៉ា</string>
     <string name="attachment_type_selector__gallery_description">រូបភាព ឬវីដេអូ</string>
     <string name="attachment_type_selector__gallery">វិចិត្រសាល</string>
     <string name="attachment_type_selector__drawer_description">បិទបើកថតឯកសារភ្ជាប់</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">ផ្ញើ</string>
-    <string name="conversation_activity__compose_description">ការបង្កើតសារថ្មី</string>
+    <string name="contentDescriptionMessageComposition">ការបង្កើតសារថ្មី</string>
     <string name="conversation_activity__attachment_thumbnail">ភ្ជាប់រូបភាពឯកសារ</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">បិទបើកថតឯកសារភ្ជាប់កាមេរ៉ារហ័ស</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">អូសដើម្បីបោះបង់</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">សារជាព័ត៌មាន</string>
+    <string name="contentDescriptionMediaMessage">សារជាព័ត៌មាន</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">ផ្ញើបរាជ័យ</string>
     <string name="conversation_item_sent__delivered_description">បានបញ្ចូន</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -144,7 +141,6 @@
     <string name="messageErrorOriginal">រកមិនឃើញសារដើម</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">ស្វែករក GIFs និងស្ទីកគ័រ</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -154,7 +150,7 @@
     <string name="disappearingMessagesSent">បានផ្ញើ</string>
     <string name="received">បានទទួល</string>
     <string name="message_details_header__disappears">បាត់</string>
-    <string name="message_details_header__via">តាមរយៈ</string>
+    <string name="via">តាមរយៈ</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">ប្រើផ្សេងៗ</string>
@@ -188,13 +184,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">ឆ្លើយតបសារ</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">រក្សាឯកសារភ្ជាប់</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">បើកសំឡេង</string>
+    <string name="notificationsUnmute">បើកសំឡេង</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">បិទសំឡេងសារជូនដំណឹង</string>
     <!-- conversation -->

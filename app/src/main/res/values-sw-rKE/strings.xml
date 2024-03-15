@@ -14,7 +14,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(picha)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(sauti)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwawezesha \"Hifadhi\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">leo</string>
@@ -35,7 +34,7 @@
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">tumia desturi: 1%s</string>
-    <string name="CustomDefaultPreference_none">Hakuna</string>
+    <string name="none">Hakuna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sasa</string>
     <string name="DateUtils_today">Leo</string>
@@ -88,7 +87,7 @@
     <string name="MessageNotifier_unknown_contact_message">Mawasiliano</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">wito</string>
-    <string name="NotificationChannel_failures">Kushindwa</string>
+    <string name="failures">Kushindwa</string>
     <string name="lockAppStatus">Hali ya kufunga</string>
     <string name="updateApp">Sasisho za programu</string>
     <string name="other">ingine</string>
@@ -104,8 +103,7 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">gif</string>
     <string name="attachment_type_selector__gallery_description">picha au video</string>
     <string name="attachment_type_selector__gallery">nyumba ya sanaa</string>
@@ -113,14 +111,13 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Tuma</string>
-    <string name="conversation_activity__compose_description">utungaji wa ujumbe</string>
+    <string name="contentDescriptionMessageComposition">utungaji wa ujumbe</string>
     <string name="conversation_activity__attachment_thumbnail">kiambatanisho thumbnail</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Toggle haraka kamera kiambatisho drawer</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Ujumbe wa vyombo vya habari</string>
+    <string name="contentDescriptionMediaMessage">Ujumbe wa vyombo vya habari</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">imefeli kutuma</string>
     <string name="conversation_item_sent__delivered_description">imefika</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -129,7 +126,6 @@
     <string name="messageErrorOriginal">Meseji halisi haipatikani</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">tafuta GIF na stika</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -139,7 +135,7 @@
     <string name="disappearingMessagesSent">Imetumwa</string>
     <string name="received">Imepokelewa</string>
     <string name="message_details_header__disappears">kutoweka</string>
-    <string name="message_details_header__via">Kupitia</string>
+    <string name="via">Kupitia</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">tumia desturi</string>
@@ -169,13 +165,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">Jibu ujumbe</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Hifadhi attachment</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Usifute</string>
+    <string name="notificationsUnmute">Usifute</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Arifa za bubu</string>
     <!-- conversation -->

@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(sonaĵo)</string>
     <string name="DraftDatabase_Draft_video_snippet">(videaĵo)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session bezonas la Konservejo-permeson por almeti bildojn, videojn aŭ aŭdaĵojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Konservejo“.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Hodiaŭ</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Aldoni kunsendaĵon</string>
     <string name="message">Mesaĝo</string>
     <string name="ConversationActivity_muted_until_date">Silentigita ĝis %1$s</string>
-    <string name="ConversationActivity_muted_forever">Silentigite</string>
+    <string name="notificationsMuted">Silentigite</string>
     <string name="blockUnblock">Malbloki</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session bezonas la Mikrofono-permeson por sendi aŭdajn mesaĝojn, sed ĝi estis porĉiame malakceptita. Bonvolu daŭrigi al la aplikaĵaj agordoj, elekti „Permesoj“, kaj ŝalti „Mikrofono“.</string>
-    <string name="cameraGrantAccessStorage">Session bezonas aliron al la memoro por sendi bildojn kaj filmetojn.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Ĉu konservi al konservejo?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Uzante propran: %s</string>
     <string name="CustomDefaultPreference_using_default">Uzante defaŭltan: %s</string>
-    <string name="CustomDefaultPreference_none">Neniu</string>
+    <string name="none">Neniu</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nun</string>
     <string name="DateUtils_today">Hodiaŭ</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Vi</string>
     <string name="draft">Malneto</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session bezonas konservejan aliron por konservi al ekstera konservejo, sed ĝi estis porĉiame malakceptita. Bonvolu iri al la aplikaĵaj agordoj, elekti \"Permesoj\", kaj ŝalti \"Konservejo\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Ne eblas konservi en la ekstera konservejo sen permesoj</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d novaj mesaĝoj en %2$d interparoloj</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontakto</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Alvokoj</string>
-    <string name="NotificationChannel_failures">Malsukcesoj</string>
+    <string name="failures">Malsukcesoj</string>
     <string name="lockAppStatus">Ŝlosostato</string>
     <string name="updateApp">Aplikaĵaj ĝisdatigoj</string>
     <string name="other">Alia</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Fotilo</string>
-    <string name="attachment_type_selector__camera_description">Fotilo</string>
+    <string name="contentDescriptionCamera">Fotilo</string>
     <string name="gif">GIF</string>
     <string name="attachment_type_selector__gallery_description">Bildo aŭ videaĵo</string>
     <string name="attachment_type_selector__gallery">Galerio</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Sendi</string>
-    <string name="conversation_activity__compose_description">Mesaĝa redakto</string>
+    <string name="contentDescriptionMessageComposition">Mesaĝa redakto</string>
     <string name="conversation_activity__attachment_thumbnail">Kunsendaĵa miniaturo</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Baskuligi kunsendaĵon el rapida fotilo</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Deŝovu por nuligi</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Aŭdvida mesaĝo</string>
+    <string name="contentDescriptionMediaMessage">Aŭdvida mesaĝo</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Sendo malsukcesis</string>
     <string name="conversation_item_sent__delivered_description">Liverita</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Origina mesaĝo ne troveblas</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Serĉi GIF-ojn kaj glumarkojn</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Sendita</string>
     <string name="received">Ricevita</string>
     <string name="message_details_header__disappears">Malaperos je</string>
-    <string name="message_details_header__via">Per</string>
+    <string name="via">Per</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Uzi propran</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Forbari uzanton</string>
-    <string name="conversation_context__menu_reply_to_message">Respondi mesaĝon</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Konservi kunsendaĵon</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Malsilentigi</string>
+    <string name="notificationsUnmute">Malsilentigi</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silentigi sciigojn</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Serva Nodo</string>
     <string name="onionRoutingPathDestination">Celo</string>
     <string name="learnMore">Lerni pli</string>
-    <string name="activity_path_resolving_progress">Solvante…</string>
+    <string name="resolving">Solvante…</string>
     <string name="qrScan">Skani QR-Kodon</string>
     <string name="cameraGrantAccessQr">Sesio bezonas fotilan aliron por skani QR-kodojn</string>
     <string name="cameraGrantAccess">Permesi Fotilan Aliron</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">Oftaj Demandoj</string>
     <string name="sessionClearData">Viŝi Datumojn</string>
     <string name="notificationsStyle">Sciiga Stilo</string>
-    <string name="activity_notification_settings_content_section_title">Sciiga Enhavo</string>
+    <string name="notificationsContent">Sciiga Enhavo</string>
     <string name="sessionPrivacy">Privateco</string>
     <string name="notificationsStrategy">Sciiga Strategio</string>
     <string name="useFastMode">Uzi Rapidan Reĝimon</string>
     <string name="clearDataAll">Viŝi Tutajn Datumojn</string>
     <string name="qrCode">QR-Kodo</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Skani ies QR-kodon por komenci konversacion kun si</string>
     <string name="contactsContacts">Kontaktoj</string>
     <string name="fragment_contact_selection_open_groups_title">Malfermaj Grupoj</string>
     <!-- Next round of translation -->
@@ -292,7 +284,6 @@
     <string name="notificationsSlowMode">Malrapida Maniero</string>
     <string name="notificationsSlowModeDescription">Session foje serĉos novajn mesaĝojn en la fono.</string>
     <string name="blockUnblockDescription">Ĉu vi certas, ke vi volas malbloki %s?</string>
-    <string name="dialog_join_open_group_explanation">Ĉu vi certas, ke vi volas aliĝi al la %s publika grupo?</string>
     <string name="open">Malfermi</string>
     <string name="enable">Ŝalti</string>
     <string name="download">Elŝuti</string>

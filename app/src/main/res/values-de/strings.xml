@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(Audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(Video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session benötigt die Berechtigung »Speicher« für das Anhängen von Fotos, Videos oder Audiodateien, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Speicher«.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Heute</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Anhang hinzufügen</string>
     <string name="message">Nachricht</string>
     <string name="ConversationActivity_muted_until_date">Stummgeschaltet bis %1$s</string>
-    <string name="ConversationActivity_muted_forever">Stumm gestellt</string>
+    <string name="notificationsMuted">Stumm gestellt</string>
     <string name="blockUnblock">Entsperren</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session benötigt die Berechtigung »Mikrofon« für das Senden von Sprachnachrichten, diese wurde jedoch dauerhaft abgelehnt. Bitte öffne die App-Einstellungen, wähle »Berechtigungen« und aktiviere »Mikrofon«.</string>
-    <string name="cameraGrantAccessStorage">Session benötigt Speicherzugriff, um Fotos und Videos zu versenden.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Im Gerätespeicher speichern?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Benutzerdefiniert: %s</string>
     <string name="CustomDefaultPreference_using_default">Standard: %s</string>
-    <string name="CustomDefaultPreference_none">Kein Eintrag</string>
+    <string name="none">Kein Eintrag</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Jetzt</string>
     <string name="DateUtils_today">Heute</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Du</string>
     <string name="draft">Entwurf</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Die Sitzung benötigt Speicherzugriff, um auf einem externen Speicher zu speichern, aber dieser wurde dauerhaft verweigert. Gehe bitte zu den App-Einstellungen, wähle »Berechtigungen« und aktiviere »Speicher«.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Speichern in den Gerätespeicher ohne Berechtigungen nicht möglich.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d neue Nachrichten in %2$d Unterhaltungen</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Anrufe</string>
-    <string name="NotificationChannel_failures">Fehler</string>
+    <string name="failures">Fehler</string>
     <string name="lockAppStatus">Sperrstatus</string>
     <string name="updateApp">App-Aktualisierungen</string>
     <string name="other">Sonstige</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">GIF</string>
     <string name="attachment_type_selector__gallery_description">Bild oder Video</string>
     <string name="attachment_type_selector__gallery">Galerie</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Senden</string>
-    <string name="conversation_activity__compose_description">Nachricht verfassen</string>
+    <string name="contentDescriptionMessageComposition">Nachricht verfassen</string>
     <string name="conversation_activity__attachment_thumbnail">Anhangsvorschaubild</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Direktaufnahme</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Zum Abbrechen wischen</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Nachricht mit Medieninhalten</string>
+    <string name="contentDescriptionMediaMessage">Nachricht mit Medieninhalten</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Versand gescheitert</string>
     <string name="conversation_item_sent__delivered_description">Zugestellt</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Originalnachricht nicht gefunden</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFs und Sticker suchen</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Gesendet</string>
     <string name="received">Empfangen</string>
     <string name="message_details_header__disappears">Verschwindet</string>
-    <string name="message_details_header__via">Über</string>
+    <string name="via">Über</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Benutzerdefiniert verwenden</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Nutzer speeren</string>
-    <string name="conversation_context__menu_reply_to_message">Auf Nachricht antworten</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Anhang speichern</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Stummschaltung aufheben</string>
+    <string name="notificationsUnmute">Stummschaltung aufheben</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Stummschalten</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Dienstknoten</string>
     <string name="onionRoutingPathDestination">Ziel</string>
     <string name="learnMore">Mehr erfahren</string>
-    <string name="activity_path_resolving_progress">Auflösung…</string>
+    <string name="resolving">Auflösung…</string>
     <string name="qrScan">QR-Code scannen</string>
     <string name="cameraGrantAccessQr">Session benötigt Kamerazugriff, um die QR-Codes scannen zu können.</string>
     <string name="cameraGrantAccess">Kamerazugriff gewähren</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">Häufig gestellte Fragen</string>
     <string name="sessionClearData">Daten löschen</string>
     <string name="notificationsStyle">Stil der Benachrichtigungen</string>
-    <string name="activity_notification_settings_content_section_title">Inhalt der Benachrichtigungen</string>
+    <string name="notificationsContent">Inhalt der Benachrichtigungen</string>
     <string name="sessionPrivacy">Datenschutz</string>
     <string name="notificationsStrategy">Benachrichtigungsstrategie</string>
     <string name="useFastMode">Schnellen Modus verwenden</string>
     <string name="clearDataAll">Alle Daten löschen</string>
     <string name="qrCode">QR-Code</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Scannen Sie den QR-Code einer Person, um ein Gespräch mit ihr zu beginnen.</string>
     <string name="contactsContacts">Kontakte</string>
     <string name="fragment_contact_selection_open_groups_title">Gruppen öffnen</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Du wirst über neue Nachrichten zuverlässig und sofort über Google\'s Server benachrichtigt.</string>
     <string name="notificationsSlowModeDescription">Session sucht gelegentlich nach neuen Nachrichten im Hintergrund.</string>
     <string name="blockUnblockDescription">Bist du sicher, dass du %s freigeben möchtest?</string>
-    <string name="dialog_join_open_group_explanation">Bist du sicher, dass du der offenen Gruppe %s beitreten möchtest?</string>
     <string name="open">Öffnen</string>
     <string name="urlCopy">Link kopieren</string>
     <string name="enable">Aktivieren</string>

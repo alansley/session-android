@@ -17,7 +17,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(uyariy)</string>
     <string name="DraftDatabase_Draft_video_snippet">(shuyukuyurik)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session ari nichun munanmi shuyuman, uyayman, shuyukuyurikmanpash yaykunkapak, shinapash mana arinirishkachu.  \"Menú de configuración\" ukuman yaykushpa \"Permisos\" nikukta llapipay, \"Almacenamiento\" paskarichun.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Kunan</string>
@@ -43,7 +42,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Kanpa shuyu munashkatapacha akllakun: %s</string>
     <string name="CustomDefaultPreference_using_default">Ña rurashka shuyuta akllakunki: %s</string>
-    <string name="CustomDefaultPreference_none">Nimaykan</string>
+    <string name="none">Nimaykan</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Kunan</string>
     <string name="DateUtils_today">Kunan</string>
@@ -93,7 +92,7 @@
     <string name="MessageNotifier_unknown_contact_message">Yupay mashi</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Kayachikuna</string>
-    <string name="NotificationChannel_failures">Pantakuna</string>
+    <string name="failures">Pantakuna</string>
     <string name="lockAppStatus">Kashkata pakana</string>
     <string name="updateApp">Aplicacionta kunanyachikuy</string>
     <string name="other">Shuk yupaykuna </string>
@@ -108,22 +107,20 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Shuyullukchik</string>
-    <string name="attachment_type_selector__camera_description">Shuyullukchik</string>
+    <string name="contentDescriptionCamera">Shuyullukchik</string>
     <string name="attachment_type_selector__gallery_description">Shuyu manakashpaka shuyukuyuriy.</string>
     <string name="attachment_type_selector__gallery">Shuyukunata allichik</string>
     <string name="attachment_type_selector__drawer_description">Kimichishka millkakunata rurana</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Kachana</string>
-    <string name="conversation_activity__compose_description">Chaskita killkay</string>
+    <string name="contentDescriptionMessageComposition">Chaskita killkay</string>
     <string name="conversation_activity__attachment_thumbnail">Uchilla kimichishka</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Shuyullukchik kimichishkapak ñapash millkata rurana</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Multimedia chaski</string>
+    <string name="contentDescriptionMediaMessage">Multimedia chaski</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Kachakushpa pantarka</string>
     <string name="conversation_item_sent__delivered_description">Chayashka</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -132,7 +129,6 @@
     <string name="messageErrorOriginal">Mana kallari chaskita taririnchu</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFkunata shinallata llutanakunata maskana </string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -142,7 +138,7 @@
     <string name="disappearingMessagesSent">Kachashka</string>
     <string name="received">Chaskishka</string>
     <string name="message_details_header__disappears">Chinkarishka</string>
-    <string name="message_details_header__via">Kay ñianta</string>
+    <string name="via">Kay ñianta</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Kikinpapacha kashkata mutsupay.</string>
@@ -175,13 +171,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">Chaskita kutichina</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Allichina kimichishkata</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Upallayachishkata anchuchina</string>
+    <string name="notificationsUnmute">Upallayachishkata anchuchina</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Chayamuk rikunakunata upallayachina</string>
     <!-- conversation -->

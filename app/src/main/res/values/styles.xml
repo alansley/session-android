@@ -141,7 +141,7 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:imeOptions">flagNoEnterAction</item>
         <item name="android:inputType">textAutoCorrect|textCapSentences|textMultiLine</item>
-        <item name="android:contentDescription">@string/conversation_activity__compose_description</item>
+        <item name="android:contentDescription">@string/contentDescriptionMessageComposition</item>
         <item name="android:textSize">@dimen/small_font_size</item>
         <item name="android:textCursorDrawable">@drawable/session_edit_text_cursor</item>
         <item name="android:textAlignment">viewStart</item>

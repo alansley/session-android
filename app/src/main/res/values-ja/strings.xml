@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(音声)</string>
     <string name="DraftDatabase_Draft_video_snippet">(動画)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Sessionに写真や動画、音声データを添付するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定から、アプリの権限を選び、ストレージへのアクセス許可を有効にしてください。</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">今日</string>
@@ -35,10 +34,9 @@
     <string name="attachmentsAdd">添付ファイルを付ける</string>
     <string name="message">メッセージ</string>
     <string name="ConversationActivity_muted_until_date">%1$sまでミュート</string>
-    <string name="ConversationActivity_muted_forever">ミュート中</string>
+    <string name="notificationsMuted">ミュート中</string>
     <string name="blockUnblock">ブロック解除</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Sessionで音声メッセージを添付するには、『マイク』へのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『マイク』へのアクセス許可を有効にしてください。</string>
-    <string name="cameraGrantAccessStorage">セッションは写真やビデオを送信するためにストレージへのアクセスが必要です。</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">ストレージに保存しますか？</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -48,7 +46,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">カスタム利用: %s</string>
     <string name="CustomDefaultPreference_using_default">デフォルト利用: %s</string>
-    <string name="CustomDefaultPreference_none">なし</string>
+    <string name="none">なし</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">今</string>
     <string name="DateUtils_today">今日</string>
@@ -98,7 +96,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">あなた</string>
     <string name="draft">下書き</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Sessionが外部ストレージにデータを保存するには、ストレージへのアクセスを許可する必要がありますが、無効になっています。アプリ設定メニューから、『アプリの権限』を選び、『ストレージ』へのアクセス許可を有効にしてください。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">外部ストレージに保存できません。ストレージへのアクセス許可が無効になっています。</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%2$d個の会話に%1$d個の新着メッセージ</string>
@@ -106,7 +103,7 @@
     <string name="MessageNotifier_unknown_contact_message">連絡先</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">通話</string>
-    <string name="NotificationChannel_failures">障害</string>
+    <string name="failures">障害</string>
     <string name="lockAppStatus">ロック状態</string>
     <string name="updateApp">アプリ更新</string>
     <string name="other">その他</string>
@@ -125,8 +122,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">カメラ</string>
-    <string name="attachment_type_selector__camera_description">カメラ</string>
+    <string name="contentDescriptionCamera">カメラ</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">画像・動画</string>
     <string name="attachment_type_selector__gallery">ギャラリー</string>
@@ -134,15 +130,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">送信</string>
-    <string name="conversation_activity__compose_description">メッセージ新規作成</string>
+    <string name="contentDescriptionMessageComposition">メッセージ新規作成</string>
     <string name="conversation_activity__attachment_thumbnail">添付のサムネイル</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">迅速カメラ添付用引き出しの切替</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">スライドしてキャンセル</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">メディアメッセージ</string>
+    <string name="contentDescriptionMediaMessage">メディアメッセージ</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">送信失敗</string>
     <string name="conversation_item_sent__delivered_description">配信済み</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -153,7 +148,6 @@
     <string name="messageErrorOriginal">元のメッセージが見つかりません</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFやステッカーを検索</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -163,7 +157,7 @@
     <string name="disappearingMessagesSent">送信</string>
     <string name="received">受信</string>
     <string name="message_details_header__disappears">消える</string>
-    <string name="message_details_header__via">経由</string>
+    <string name="via">経由</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">カスタムを使う</string>
@@ -198,13 +192,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">ユーザーをバンする</string>
-    <string name="conversation_context__menu_reply_to_message">メッセージに返信</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">添付ファイルを保存</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">ミュートを解除</string>
+    <string name="notificationsUnmute">ミュートを解除</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">通知をミュート</string>
     <!-- conversation -->
@@ -253,7 +246,7 @@
     <string name="onionRoutingPathServiceNode">サービスノード</string>
     <string name="onionRoutingPathDestination">目的先</string>
     <string name="learnMore">詳細</string>
-    <string name="activity_path_resolving_progress">解決中...</string>
+    <string name="resolving">解決中...</string>
     <string name="qrScan">QR コードをスキャンする</string>
     <string name="cameraGrantAccessQr">Session で QR コードをスキャンするにはカメラへのアクセスが必要です</string>
     <string name="cameraGrantAccess">カメラへのアクセスを許可する</string>
@@ -265,13 +258,12 @@
     <string name="helpFAQ">よくある質問</string>
     <string name="sessionClearData">データを消去する</string>
     <string name="notificationsStyle">通知スタイル</string>
-    <string name="activity_notification_settings_content_section_title">通知内容</string>
+    <string name="notificationsContent">通知内容</string>
     <string name="sessionPrivacy">プライバシー</string>
     <string name="notificationsStrategy">通知戦略</string>
     <string name="useFastMode">高速モードを使用する</string>
     <string name="clearDataAll">すべてのデータを消去する</string>
     <string name="qrCode">QR コード</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">誰かの QR コードをスキャンして、会話を始めましょう</string>
     <string name="contactsContacts">連絡先</string>
     <string name="fragment_contact_selection_open_groups_title">オープングループ</string>
     <!-- Next round of translation -->
@@ -283,7 +275,6 @@
     <string name="attachment">添付ファイル</string>
     <string name="messageVoice">音声メッセージ</string>
     <string name="blockUnblockDescription">本当に %s のブロックを解除しますか？</string>
-    <string name="dialog_join_open_group_explanation">%sの公開グループに本当に参加しますか?</string>
     <string name="open">開く</string>
     <string name="enable">有効にする</string>
 </resources>

@@ -12,7 +12,6 @@
     <!-- DraftDatabase -->
     <string name="DraftDatabase_Draft_image_snippet">(gambar)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session memerlukan akses ke Penyimpanan untuk mengirimkan foto, video, atau suara, tetapi saat ini telah ditolak secara permanen. Harap lanjutkan ke menu pengaturan aplikasi, Pilih \"Izin\", dan aktifkan \"Penyimpanan\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Hari ini</string>
@@ -34,7 +33,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Gunakan ubahsuai: %s</string>
     <string name="CustomDefaultPreference_using_default">Gunakan bawaan: %s</string>
-    <string name="CustomDefaultPreference_none">Kosong</string>
+    <string name="none">Kosong</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sekarang</string>
     <string name="DateUtils_today">Hari ini</string>
@@ -88,7 +87,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontak</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Panggilan</string>
-    <string name="NotificationChannel_failures">Gagal</string>
+    <string name="failures">Gagal</string>
     <string name="lockAppStatus">Status penguncian</string>
     <string name="updateApp">pembaruan aplikasi</string>
     <string name="other">Yang lain</string>
@@ -104,22 +103,20 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="attachment_type_selector__gallery_description">Gambar atau video</string>
     <string name="attachment_type_selector__gallery">Galeri</string>
     <string name="attachment_type_selector__drawer_description">Jungkitkan laci lampiran</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Kirim</string>
-    <string name="conversation_activity__compose_description">Penulisan pesan</string>
+    <string name="contentDescriptionMessageComposition">Penulisan pesan</string>
     <string name="conversation_activity__attachment_thumbnail">Gambar Mini Lampiran</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Jungkitkan laci lampiran kamera cepat</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Pesan media</string>
+    <string name="contentDescriptionMediaMessage">Pesan media</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Gagal Mengirim</string>
     <string name="conversation_item_sent__delivered_description">Terkirim</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -128,7 +125,6 @@
     <string name="messageErrorOriginal">Pesan asli tidak lagi tersedia</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cari GIF dan stiker</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -166,13 +162,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">Balas pesan</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Simpan lampiran</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Bunyikan</string>
+    <string name="notificationsUnmute">Bunyikan</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Bisukan pemberitahuan</string>
     <!-- conversation -->
@@ -228,12 +223,11 @@
     <string name="sessionSettings">Pengaturan</string>
     <string name="sessionClearData">Hapus data</string>
     <string name="notificationsStyle">Gaya notifikasi</string>
-    <string name="activity_notification_settings_content_section_title">Isi notifikasi</string>
+    <string name="notificationsContent">Isi notifikasi</string>
     <string name="sessionPrivacy">Privasi</string>
     <string name="notificationsStrategy">Strategi notofikasi</string>
     <string name="clearDataAll">Hapus semua data</string>
     <string name="qrCode">Kode QR</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Pindai kode QR pengguna lain untuk memulai percakapan</string>
     <string name="contactsContacts">Kontak</string>
     <string name="fragment_contact_selection_open_groups_title">Grup terbuka</string>
     <!-- Next round of translation -->

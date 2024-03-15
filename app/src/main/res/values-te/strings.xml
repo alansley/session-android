@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ఆడియో)</string>
     <string name="DraftDatabase_Draft_video_snippet">(వీడియో)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ఫోటోలు, వీడియోలు లేదా ఆడియోను అటాచ్ చేయడానికి Sessionకు నిల్వ అనుమతి అవసరం, కానీ ఇది శాశ్వతంగా తిరస్కరించబడింది. దయచేసి అనువర్తనం సెట్టింగ్ల మెనుకు కొనసాగండి, \"అనుమతులు\" ఎంచుకోండి మరియు \"నిల్వ\" ను ప్రారంభించండి.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">నేడు</string>
@@ -51,7 +50,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">అనుకూలీకరణ ఉపయోగించి: %s</string>
     <string name="CustomDefaultPreference_using_default">ఉపయోగించి అప్రమేయం: %s</string>
-    <string name="CustomDefaultPreference_none">ఏదీ కాదు</string>
+    <string name="none">ఏదీ కాదు</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">ఇప్పుడు</string>
     <string name="DateUtils_today">నేడు</string>
@@ -103,7 +102,7 @@
     <string name="MessageNotifier_unknown_contact_message">పరిచయం</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">కాల్స్</string>
-    <string name="NotificationChannel_failures">వైఫల్యాలు</string>
+    <string name="failures">వైఫల్యాలు</string>
     <string name="lockAppStatus">స్థితి లాక్</string>
     <string name="updateApp">అనువర్తన నవీకరణలు</string>
     <string name="other">ఇతర</string>
@@ -119,8 +118,7 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">కెమెరా</string>
-    <string name="attachment_type_selector__camera_description">కెమెరా</string>
+    <string name="contentDescriptionCamera">కెమెరా</string>
     <string name="gif">గిఫ్</string>
     <string name="attachment_type_selector__gallery_description">ఇమెజ్   ఆర్   వీడియో</string>
     <string name="attachment_type_selector__gallery">వారపాక</string>
@@ -128,14 +126,13 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">పంపించు</string>
-    <string name="conversation_activity__compose_description">సందేశాన్ని కూర్పుము</string>
+    <string name="contentDescriptionMessageComposition">సందేశాన్ని కూర్పుము</string>
     <string name="conversation_activity__attachment_thumbnail">జోడింపు సూక్ష్మచిత్రం</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">టోగుల్ శీఘ్ర కెమెరా అటాచ్మెంట్ సొరుగు</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">మీడియ సందేశం</string>
+    <string name="contentDescriptionMediaMessage">మీడియ సందేశం</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">పంపడం విఫలమైంది</string>
     <string name="conversation_item_sent__delivered_description">పంపిణి ఐనది</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -144,7 +141,6 @@
     <string name="messageErrorOriginal">అసలు సందేశం కనుగొనబడలేదు</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">జిఫ్‌లు మరియు స్టిక్కర్లు వెతుకు</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -154,7 +150,7 @@
     <string name="disappearingMessagesSent">పంపిన</string>
     <string name="received">అందుకున్న</string>
     <string name="message_details_header__disappears">అదృశ్యమవుతుంది</string>
-    <string name="message_details_header__via">ద్వారా</string>
+    <string name="via">ద్వారా</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom"> నియమము ఉపయోగించు</string>
@@ -187,13 +183,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">సందేశానికి ప్రత్యుత్తరం ఇవ్వండి</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">జత పరిచినది దాచి పెట్టు </string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">మ్యూట్ తీసివేయి</string>
+    <string name="notificationsUnmute">మ్యూట్ తీసివేయి</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">  ప్రకటనలను మ్యూట్లో ఉంచు</string>
     <!-- conversation -->

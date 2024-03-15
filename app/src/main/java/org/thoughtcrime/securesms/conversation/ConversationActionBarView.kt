@@ -110,7 +110,7 @@ class ConversationActionBarView @JvmOverloads constructor(
             settings += ConversationSetting(
                 recipient.mutedUntil.takeUnless { it == Long.MAX_VALUE }
                     ?.let { context.getString(R.string.ConversationActivity_muted_until_date, DateUtils.getFormattedDateTime(it, "EEE, MMM d, yyyy HH:mm", Locale.getDefault())) }
-                    ?: context.getString(R.string.ConversationActivity_muted_forever),
+                    ?: context.getString(R.string.notificationsMuted),
                 ConversationSettingType.NOTIFICATION,
                 R.drawable.ic_outline_notifications_off_24
             )

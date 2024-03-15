@@ -252,7 +252,7 @@ public class AttachmentManager {
     } else {
       builder = builder.request(Manifest.permission.READ_EXTERNAL_STORAGE);
     }
-    builder.withPermanentDenialDialog(activity.getString(R.string.AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio))
+    builder.withPermanentDenialDialog(activity.getString(R.string.cameraGrantAccessDenied))
       .withRationaleDialog(activity.getString(R.string.cameraGrantAccessStorage), R.drawable.ic_baseline_photo_library_24)
       .onAllGranted(() -> activity.startActivityForResult(MediaSendActivity.buildGalleryIntent(activity, recipient, body), requestCode))
       .execute();

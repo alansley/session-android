@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(오디오)</string>
     <string name="DraftDatabase_Draft_video_snippet">(동영상)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session이 사진, 동영상, 그리고 소리를 첨부하기 위해 필요한 스토리지 권한이 영구적으로 차단되었습니다. 앱 설정 메뉴에서 \"권한\" 탭을 누르시고 \"저장 공간\" 권한을 허용해주세요.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">오늘</string>
@@ -35,7 +34,7 @@
     <string name="attachmentsAdd">첨부</string>
     <string name="message">메시지</string>
     <string name="ConversationActivity_muted_until_date">%1$s까지 알림 꺼짐</string>
-    <string name="ConversationActivity_muted_forever">알림 꺼짐</string>
+    <string name="notificationsMuted">알림 꺼짐</string>
     <string name="blockUnblock">차단 해제</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session이 음성 메시지를 보내기 위한 마이크 권한이 영구적으로 차단되었습니다. 앱 설정에서 \"권한\" 탭을 클릭하고, \"마이크\" 권한을 허용해주세요.</string>
     <!-- ConversationFragment -->
@@ -47,7 +46,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">맞춤값 사용: %s</string>
     <string name="CustomDefaultPreference_using_default">기본값 사용: %s</string>
-    <string name="CustomDefaultPreference_none">없음</string>
+    <string name="none">없음</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">방금 전</string>
     <string name="DateUtils_today">오늘</string>
@@ -106,20 +105,18 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">카메라</string>
-    <string name="attachment_type_selector__camera_description">카메라</string>
+    <string name="contentDescriptionCamera">카메라</string>
     <string name="attachment_type_selector__gallery">갤러리</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">보내기</string>
-    <string name="conversation_activity__compose_description">메시지 작성</string>
+    <string name="contentDescriptionMessageComposition">메시지 작성</string>
     <string name="conversation_activity__attachment_thumbnail">첨부파일 미리보기 이미지</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">취소하려면 슬라이드</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">미디어 메시지</string>
+    <string name="contentDescriptionMediaMessage">미디어 메시지</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">보내기 실패</string>
     <string name="conversation_item_sent__delivered_description">전송됨</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -127,7 +124,6 @@
     <!-- QuoteView -->
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIF 파일과 스티커 검색</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -136,7 +132,7 @@
     <!-- message_details_header -->
     <string name="disappearingMessagesSent">보낸 시간:</string>
     <string name="received">받은 시간:</string>
-    <string name="message_details_header__via">유형:</string>
+    <string name="via">유형:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">맞춤설정 사용</string>
@@ -170,7 +166,7 @@
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">알림 켜기</string>
+    <string name="notificationsUnmute">알림 켜기</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">알림 끄기</string>
     <!-- conversation -->
@@ -202,7 +198,6 @@
     <string name="sessionClearData">데이터 지우기</string>
     <string name="sessionPrivacy">개인정보</string>
     <string name="qrCode">QR 코드</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">QR 코드를 스캔해서 대화를 시작하세요</string>
     <!-- Next round of translation -->
     <string name="pin">고정</string>
     <string name="pinUnpin">고정 해제</string>

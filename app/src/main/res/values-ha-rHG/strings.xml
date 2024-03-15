@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(deng)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vîdyo)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Ji bo zêdekirina wêne, vidyo yan deng, Session destûra Bîrbarê pêwîst dike, lê ew bi awayekî mayinde hate redkirin. Ji kerema xwe biçe menuya sazkariyên sepanê \"Destûr\"ê bibijêre û  \"Bîrbar\"ê çalak bike.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Îro</string>
@@ -45,7 +44,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Bikaranîna kesanekirî: %s</string>
     <string name="CustomDefaultPreference_using_default">Bikaranîna jixweberî: %s</string>
-    <string name="CustomDefaultPreference_none">Hîç</string>
+    <string name="none">Hîç</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Niha</string>
     <string name="DateUtils_today">Îro</string>
@@ -97,7 +96,7 @@
     <string name="MessageNotifier_unknown_contact_message">Berdeng</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Gazî</string>
-    <string name="NotificationChannel_failures">Çewtî</string>
+    <string name="failures">Çewtî</string>
     <string name="lockAppStatus">Rewşa kilîdê</string>
     <string name="updateApp">Hildemên sepanê</string>
     <string name="other">Din</string>
@@ -117,22 +116,20 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="attachment_type_selector__gallery_description">Wêne yan vidyo</string>
     <string name="attachment_type_selector__gallery">Pêşangeh</string>
     <string name="attachment_type_selector__drawer_description">Çaviya servehiya din bijerînin</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Bişîne</string>
-    <string name="conversation_activity__compose_description">Peyam binivîse</string>
+    <string name="contentDescriptionMessageComposition">Peyam binivîse</string>
     <string name="conversation_activity__attachment_thumbnail">Wênoka Servehiyê</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Bijertina attachment drawer a kamera ya din</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Peyama medya</string>
+    <string name="contentDescriptionMediaMessage">Peyama medya</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Şandin serneket</string>
     <string name="conversation_item_sent__delivered_description">Hat gihandin</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -141,7 +138,6 @@
     <string name="messageErrorOriginal">Peyama orjînal nehate dîtin</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Li GIF û sticker bigerre</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -151,7 +147,7 @@
     <string name="disappearingMessagesSent">Hat şandin</string>
     <string name="received">Hat</string>
     <string name="message_details_header__disappears">Winda dibe</string>
-    <string name="message_details_header__via">Bi riya</string>
+    <string name="via">Bi riya</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Ya taybet bi kar bîne</string>
@@ -186,13 +182,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">Bersiv bide peyamê</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Servehiyê tomar bike</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Bideng bike</string>
+    <string name="notificationsUnmute">Bideng bike</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Danezanan bêdeng bike</string>
     <!-- conversation -->

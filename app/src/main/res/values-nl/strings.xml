@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(geluid)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session heeft toegang nodig tot de externe opslagruimte om foto\'s, video\'s of audio te kunnen verzenden, maar deze toestemming is permanent geweigerd. Ga naar de instellingen, selecteer \"Toestemmingen\" en schakel \"Opslagruimte\" in.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Vandaag</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Bijlage toevoegen</string>
     <string name="message">Bericht</string>
     <string name="ConversationActivity_muted_until_date">Gedempt tot %1$s</string>
-    <string name="ConversationActivity_muted_forever">Dempen</string>
+    <string name="notificationsMuted">Dempen</string>
     <string name="blockUnblock">Deblokkeren</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session heeft toegang nodig tot de microfoon om audioberichten te kunnen opnemen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Microfoon’ in.</string>
-    <string name="cameraGrantAccessStorage">Sessie heeft toegang nodig tot de opslag om foto\'s en video\'s te kunnen versturen.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Opslaan naar SD-kaart?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Aanpassing in gebruik: %s</string>
     <string name="CustomDefaultPreference_using_default">Standaard in gebruik: %s</string>
-    <string name="CustomDefaultPreference_none">Geen</string>
+    <string name="none">Geen</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nu</string>
     <string name="DateUtils_today">Vandaag</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Jij</string>
     <string name="draft">Concept</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session heeft toegang tot de camera nodig om een QR-code te scannen, maar deze is pertinent geweigerd. Ga naar de instellingen voor deze app, selecteer ‘Machtigingen’ en schakel ‘Camera’ in.</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan niet opslaan naar externe opslag zonder machtiging</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nieuwe berichten in %2$d gesprekken</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Contactpersoon</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Oproepen</string>
-    <string name="NotificationChannel_failures">Mislukkingen</string>
+    <string name="failures">Mislukkingen</string>
     <string name="lockAppStatus">Vergrendelingstoestand</string>
     <string name="updateApp">Nieuwe versies van de app </string>
     <string name="other">Anders</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Camera</string>
-    <string name="attachment_type_selector__camera_description">Camera</string>
+    <string name="contentDescriptionCamera">Camera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Afbeelding of video</string>
     <string name="attachment_type_selector__gallery">Galerij</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Verzenden</string>
-    <string name="conversation_activity__compose_description">Berichtsamenstelling</string>
+    <string name="contentDescriptionMessageComposition">Berichtsamenstelling</string>
     <string name="conversation_activity__attachment_thumbnail">Bijlagevoorbeeld</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Camera overzicht tonen/verbergen</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Veeg om te annuleren</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Mediabericht</string>
+    <string name="contentDescriptionMediaMessage">Mediabericht</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Verzenden mislukt</string>
     <string name="conversation_item_sent__delivered_description">Afgeleverd</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Oorspronkelijk bericht niet gevonden</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">GIFs en stickers zoeken</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Verzonden</string>
     <string name="received">Ontvangen</string>
     <string name="message_details_header__disappears">Wist zichzelf over</string>
-    <string name="message_details_header__via">Via</string>
+    <string name="via">Via</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Gebruik aangepast</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Verban gebruiker</string>
-    <string name="conversation_context__menu_reply_to_message">Reageren</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Bijlage opslaan</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Niet langer dempen</string>
+    <string name="notificationsUnmute">Niet langer dempen</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Demp meldingen</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Service node</string>
     <string name="onionRoutingPathDestination">Bestemming</string>
     <string name="learnMore">Kom meer te weten</string>
-    <string name="activity_path_resolving_progress">Bezig met verwerken...</string>
+    <string name="resolving">Bezig met verwerken...</string>
     <string name="qrScan">Scan QR-code</string>
     <string name="cameraGrantAccessQr">Sessie heeft cameratoegang nodig om QR-codes te scannen</string>
     <string name="cameraGrantAccess">Toegang tot camera verlenen</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">Veelgestelde vragen (FAQ)</string>
     <string name="sessionClearData">Gegevens wissen</string>
     <string name="notificationsStyle">Notificatie stijl</string>
-    <string name="activity_notification_settings_content_section_title">Notificatie inhoud</string>
+    <string name="notificationsContent">Notificatie inhoud</string>
     <string name="sessionPrivacy">Privacy</string>
     <string name="notificationsStrategy">Notificatie strategie</string>
     <string name="useFastMode">Gebruik snelle modus</string>
     <string name="clearDataAll">Wis alle gegevens</string>
     <string name="qrCode">QR-code</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Scan iemands QR-code om een gesprek te beginnen</string>
     <string name="contactsContacts">Contacten</string>
     <string name="fragment_contact_selection_open_groups_title">Open groepen</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">U wordt op een betrouwbare en directe manier op de hoogte gebracht van nieuwe berichten via Googles notificatieservers.</string>
     <string name="notificationsSlowModeDescription">Sessie controleert af en toe op nieuwe berichten op de achtergrond.</string>
     <string name="blockUnblockDescription">Weet u zeker dat u %s wilt deblokkeren?</string>
-    <string name="dialog_join_open_group_explanation">Weet u zeker dat u zich bij de %s open groep wilt aansluiten?</string>
     <string name="open">Open</string>
     <string name="urlCopy">Kopieer URL</string>
     <string name="enable">Inschakelen</string>

@@ -35,7 +35,7 @@
         android:layout_marginTop="@dimen/medium_spacing"
         app:layout_constraintStart_toStartOf="@+id/cardView"
         app:layout_constraintEnd_toEndOf="@+id/cardView"
-        android:text="@string/blocked_contacts_empty_state"
+        android:text="@string/blockBlockedNone"
         />
 
     <TextView

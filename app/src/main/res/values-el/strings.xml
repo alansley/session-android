@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ήχος)</string>
     <string name="DraftDatabase_Draft_video_snippet">(βίντεο)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio"> Το Session χρειάζεται τα δικαιώματα Αποθηκευτικού Χώρου για να μπορούμε να επισυνάψουμε φωτογραφίες, βίντεο ή κομμάτια ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\". </string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Σήμερα</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Προσθήκη συνημμένου</string>
     <string name="message">Μήνυμα</string>
     <string name="ConversationActivity_muted_until_date">Σε σίγαση μέχρι %1$s</string>
-    <string name="ConversationActivity_muted_forever">Σίγαση</string>
+    <string name="notificationsMuted">Σίγαση</string>
     <string name="blockUnblock">Ξεμπλοκάρισμα</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Το Session χρειάζεται τα δικαιώματα Μικροφώνου για να μπορούμε να στείλουμε μηνύματα ήχου, αλλά αυτά δεν έχουν δοθεί μόνιμα. Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Μικρόφωνο\".</string>
-    <string name="cameraGrantAccessStorage">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για την αποστολή φωτογραφιών και βίντεο.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Να αποθηκευτεί στη μνήμη;</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Χρησιμοποιείται το προσαρμοσμένο: %s</string>
     <string name="CustomDefaultPreference_using_default">Χρησιμοποιείται το προκαθορισμένο: %s</string>
-    <string name="CustomDefaultPreference_none">Κανένα</string>
+    <string name="none">Κανένα</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Τώρα</string>
     <string name="DateUtils_today">Σήμερα</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Εσείς</string>
     <string name="draft">Πρόχειρο</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Το Session χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να αποθηκεύσει στην εξωτερική μνήμη, αλλά αυτό έχει μόνιμα αποκλειστεί . Παρακαλώ πηγαίνετε στις ρυθμίσεις εφαρμογών, επιλέξτε τα \"Δικαιώματα\", και ενεργοποιήστε το \"Αποθηκευτικός Χώρος\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Αδυναμία αποθήκευσης στην εξωτερική μνήμη χωρίς δικαιώματα</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d νέα μηνύματα σε %2$d συνομιλίες</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Επαφή</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Κλήσεις</string>
-    <string name="NotificationChannel_failures">Αποτυχίες</string>
+    <string name="failures">Αποτυχίες</string>
     <string name="lockAppStatus">Κατάσταση κλειδώματος</string>
     <string name="updateApp">Αναβαθμίσεις εφαρμογής</string>
     <string name="other">Άλλο</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Κάμερα</string>
-    <string name="attachment_type_selector__camera_description">Κάμερα</string>
+    <string name="contentDescriptionCamera">Κάμερα</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Εικόνα ή βίντεο</string>
     <string name="attachment_type_selector__gallery">Πινακοθήκη</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Αποστολή</string>
-    <string name="conversation_activity__compose_description">Σύνθεση μηνύματος</string>
+    <string name="contentDescriptionMessageComposition">Σύνθεση μηνύματος</string>
     <string name="conversation_activity__attachment_thumbnail">Μικρογραφία συνημμένου</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Εναλλαγή συρταριού επισυνημμένων κάμερας</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Σύρετε για ακύρωση</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Μήνυμα πολυμέσων</string>
+    <string name="contentDescriptionMediaMessage">Μήνυμα πολυμέσων</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Η αποστολή απέτυχε</string>
     <string name="conversation_item_sent__delivered_description">Παραδόθηκε</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Το αρχικό μήνυμα δε βρέθηκε</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Αναζήτηση GIFs και αυτοκολλήτων</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Στάλθηκε στις</string>
     <string name="received">Ελήφθη στις</string>
     <string name="message_details_header__disappears">Εξαφανίζεται</string>
-    <string name="message_details_header__via">Μέσω</string>
+    <string name="via">Μέσω</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Χρήση προσαρμοσμένου</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Αποκλεισμός χρήστη</string>
-    <string name="conversation_context__menu_reply_to_message">Απαντήστε στο μήνυμα</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Αποθήκευση συνημμένου</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Αποσίγαση</string>
+    <string name="notificationsUnmute">Αποσίγαση</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Σίγαση ειδοποιήσεων</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Κόμβος Υπηρεσίας</string>
     <string name="onionRoutingPathDestination">Προορισμός</string>
     <string name="learnMore">Μάθετε περισσότερα</string>
-    <string name="activity_path_resolving_progress">Επίλυση…</string>
+    <string name="resolving">Επίλυση…</string>
     <string name="qrScan">Σαρώστε τον κωδικό QR</string>
     <string name="cameraGrantAccessQr">Το Session χρειάζεται πρόσβαση στην κάμερα για σάρωση κωδικών QR</string>
     <string name="cameraGrantAccess">Χορήγηση Πρόσβασης Κάμερας</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">Συχνές ερωτήσεις</string>
     <string name="sessionClearData">Εκκαθάριση Δεδομένων</string>
     <string name="notificationsStyle">Στυλ ειδοποιήσεων</string>
-    <string name="activity_notification_settings_content_section_title">Περιεχόμενο Ειδοποιήσεων</string>
+    <string name="notificationsContent">Περιεχόμενο Ειδοποιήσεων</string>
     <string name="sessionPrivacy">Απόρρητο</string>
     <string name="notificationsStrategy">Περιεχόμενο Ειδοποιήσεων</string>
     <string name="useFastMode">Χρήση Ταχείας Λειτουργίας</string>
     <string name="clearDataAll">Εκκαθάριση όλων των δεδομένων</string>
     <string name="qrCode">QR κωδικός</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Σαρώστε τον κωδικό QR κάποιου για να ξεκινήσετε μια συνομιλία μαζί του</string>
     <string name="contactsContacts">Επαφές</string>
     <string name="fragment_contact_selection_open_groups_title">Ανοικτές Ομάδες</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Θα ειδοποιηθείτε για νέα μηνύματα αξιόπιστα και άμεσα χρησιμοποιώντας τους διακομιστές ειδοποιήσεων της Google.</string>
     <string name="notificationsSlowModeDescription">Το Session θα ελέγχει κατά καιρούς για νέα μηνύματα στο παρασκήνιο.</string>
     <string name="blockUnblockDescription">Είστε βέβαιοι ότι θέλετε να ξεμπλοκάρετε %s;</string>
-    <string name="dialog_join_open_group_explanation">Είστε σίγουροι ότι θέλετε να συμμετάσχετε στην ανοιχτή ομάδα %s;</string>
     <string name="open">Άνοιγμα</string>
     <string name="urlCopy">Αντιγραφή URL</string>
     <string name="enable">Ενεργοποίηση</string>

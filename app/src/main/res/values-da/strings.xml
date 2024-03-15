@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session kræver tilladelse til lagring for at kunne vedhæfte billeder, videoer eller lyd, men den er blevet permanent nægtet. Fortsæt til menuen for appindstillinger, vælg \"Tilladelser\", og aktiver \"Lagring\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">I dag</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Vedhæft fil</string>
     <string name="message">Besked</string>
     <string name="ConversationActivity_muted_until_date">Lydløs indtil %1$s</string>
-    <string name="ConversationActivity_muted_forever">Lyden slået fra</string>
+    <string name="notificationsMuted">Lyden slået fra</string>
     <string name="blockUnblock">Fjern blokering</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session kræver tilladelse til at tilgå mikrofonen for at kunne sende lydfiler, hvilket det er blevet nægtet. Gå venligst via appens menu til Indstillinger, vælg \"Tilladelser\" og tilvælg \"Mikrofon\"</string>
-    <string name="cameraGrantAccessStorage">Session har brug for lageradgang for at sende billeder og videoer.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Gem i hukommelsen?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Anvender tilpasset: %s</string>
     <string name="CustomDefaultPreference_using_default">Anvender standard: %s</string>
-    <string name="CustomDefaultPreference_none">Ingen</string>
+    <string name="none">Ingen</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nu</string>
     <string name="DateUtils_today">I dag</string>
@@ -108,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Opkald</string>
-    <string name="NotificationChannel_failures">Registrerede fejl</string>
+    <string name="failures">Registrerede fejl</string>
     <string name="lockAppStatus">Låse status</string>
     <string name="updateApp">App opdateringer</string>
     <string name="other">Andet</string>
@@ -128,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Billed eller video</string>
     <string name="attachment_type_selector__gallery">Billeder</string>
@@ -137,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Send</string>
-    <string name="conversation_activity__compose_description">Beskedsammensætning</string>
+    <string name="contentDescriptionMessageComposition">Beskedsammensætning</string>
     <string name="conversation_activity__attachment_thumbnail">Vedhæftet skabelon</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Slå kamera til/fra</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Slide for at annullere</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Multimedie besked</string>
+    <string name="contentDescriptionMediaMessage">Multimedie besked</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Afsendelse fejlet</string>
     <string name="conversation_item_sent__delivered_description">Besked leveret</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -156,7 +152,6 @@
     <string name="messageErrorOriginal">Original besked ikke fundet</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Søg GIF´s og animationer</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -166,7 +161,7 @@
     <string name="disappearingMessagesSent">Sendt</string>
     <string name="received">Modtaget</string>
     <string name="message_details_header__disappears">Udløber</string>
-    <string name="message_details_header__via">Via</string>
+    <string name="via">Via</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Brug tilpasset</string>
@@ -202,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Udeluk bruger</string>
-    <string name="conversation_context__menu_reply_to_message">Svar på besked</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Gem vedhæftet fil</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Fjern udsættelse</string>
+    <string name="notificationsUnmute">Fjern udsættelse</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Udsæt notifikationer</string>
     <!-- conversation -->
@@ -264,12 +258,11 @@
     <string name="helpFAQ">Ofte stillede spørgsmål</string>
     <string name="sessionClearData">Ryd data</string>
     <string name="notificationsStyle">Notifikationsstil</string>
-    <string name="activity_notification_settings_content_section_title">Meddelelsesindhold</string>
+    <string name="notificationsContent">Meddelelsesindhold</string>
     <string name="sessionPrivacy">Privatliv</string>
     <string name="useFastMode">Brug Hurtig Tilstand</string>
     <string name="clearDataAll">Ryd Alt Data</string>
     <string name="qrCode">QR-kode</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Scan ens QR-kode for at starte en samtale med dem</string>
     <string name="contactsContacts">Kontakter</string>
     <string name="fragment_contact_selection_open_groups_title">Åbne Grupper</string>
     <!-- Next round of translation -->

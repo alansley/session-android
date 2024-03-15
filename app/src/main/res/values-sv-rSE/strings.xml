@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ljud)</string>
     <string name="DraftDatabase_Draft_video_snippet">(film)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session behöver behörigheten Lagring för att bifoga bilder, video och ljud men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Idag</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Bifoga fil</string>
     <string name="message">Meddelande</string>
     <string name="ConversationActivity_muted_until_date">Tystades till %1$s</string>
-    <string name="ConversationActivity_muted_forever">Tystad</string>
+    <string name="notificationsMuted">Tystad</string>
     <string name="blockUnblock">Avblockera</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session behöver behörigheten Mikrofon för att skicka ljudmeddelanden men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Mikrofon\".</string>
-    <string name="cameraGrantAccessStorage">Sessionen behöver åtkomst till lagringsutrymmet för att kunna skicka foton och videor.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Spara till lagring?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Använder anpassade: %s</string>
     <string name="CustomDefaultPreference_using_default">Använder standard: %s</string>
-    <string name="CustomDefaultPreference_none">Inga</string>
+    <string name="none">Inga</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nu</string>
     <string name="DateUtils_today">Idag</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Du</string>
     <string name="draft">Utkast</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session behöver behörigheten Lagring för att spara till extern lagring men har nekats den permanent. Fortsätt till inställningsmenyn för Appar och aviseringar, välj \"Behörigheter\" och aktivera \"Lagring\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan inte spara till externt utrymme utan behörighet</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nya meddelanden i %2$d konversationer</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtal</string>
-    <string name="NotificationChannel_failures">Misslyckanden</string>
+    <string name="failures">Misslyckanden</string>
     <string name="lockAppStatus">Låsstatus</string>
     <string name="updateApp">Appuppdateringar</string>
     <string name="other">Övrigt</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Bild eller film</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Skicka</string>
-    <string name="conversation_activity__compose_description">Skapa meddelande</string>
+    <string name="contentDescriptionMessageComposition">Skapa meddelande</string>
     <string name="conversation_activity__attachment_thumbnail">Bifogad miniatyrbild</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Dölj/Visa snabbpanel för kamerabilaga</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Dra för att avbryta</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Mediameddelande</string>
+    <string name="contentDescriptionMediaMessage">Mediameddelande</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Sändningen misslyckades</string>
     <string name="conversation_item_sent__delivered_description">Levererat</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Hittade inte originalmeddelandet.</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Sök GIF-bilder och stickers</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Skickat</string>
     <string name="received">Mottaget</string>
     <string name="message_details_header__disappears">Försvinner</string>
-    <string name="message_details_header__via">Via</string>
+    <string name="via">Via</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Använd anpassad inställning</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Bannlys användare</string>
-    <string name="conversation_context__menu_reply_to_message">Svara på meddelande</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Spara bilaga</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Ljud på</string>
+    <string name="notificationsUnmute">Ljud på</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Tysta ner aviseringar</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Tjänstnod</string>
     <string name="onionRoutingPathDestination">Destination</string>
     <string name="learnMore">Mer info</string>
-    <string name="activity_path_resolving_progress">Laddar…</string>
+    <string name="resolving">Laddar…</string>
     <string name="qrScan">Skanna QR-kod</string>
     <string name="cameraGrantAccessQr">Sessionen behöver kameraåtkomst för att skanna QR-koder</string>
     <string name="cameraGrantAccess">Tillåt kameraåtkomst</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">Vanliga frågor</string>
     <string name="sessionClearData">Rensa data</string>
     <string name="notificationsStyle">Aviseringsutseende</string>
-    <string name="activity_notification_settings_content_section_title">Aviseringsinnehåll</string>
+    <string name="notificationsContent">Aviseringsinnehåll</string>
     <string name="sessionPrivacy">Integritet</string>
     <string name="notificationsStrategy">Strategi för aviseringar</string>
     <string name="useFastMode">Använd snabbläge</string>
     <string name="clearDataAll">Rensa All Data</string>
     <string name="qrCode">QR-kod</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Skanna någons QR-kod för att starta en konversation med dem</string>
     <string name="contactsContacts">Kontakter</string>
     <string name="fragment_contact_selection_open_groups_title">Öppna Grupper</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Du kommer att meddelas om nya meddelanden på ett tillförlitligt sätt och omedelbart genom att använda Googles aviseringsservrar.</string>
     <string name="notificationsSlowModeDescription">Session kommer då och då att leta efter nya meddelanden i bakgrunden.</string>
     <string name="blockUnblockDescription">Är du säker på att du vill avblockera %s?</string>
-    <string name="dialog_join_open_group_explanation">Är du säker på att du vill gå med i %s öppna grupp?</string>
     <string name="open">Öppna</string>
     <string name="urlCopy">&amp;Kopiera webbadress</string>
     <string name="enable">Aktivera</string>

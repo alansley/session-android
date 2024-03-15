@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vídeo)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session require permiso de almacenamento para poder anexar fotografías, vídeos ou ficheiros de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Almacenamento\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Hoxe</string>
@@ -38,7 +37,6 @@
     <string name="ConversationActivity_muted_until_date">Silenciado até %1$s</string>
     <string name="blockUnblock">Desbloquear</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session require permiso para poder enviar mensaxes de audio, pero este foi denegado de forma permanente. Vai aos axustes da aplicación, selecciona \"Permisos\" e activa \"Micrófono\".</string>
-    <string name="cameraGrantAccessStorage">Para enviar fotografías e vídeos, Session necesita acceder ao almacenamento.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Gardar no almacenamento?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -49,7 +47,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Uso personalizado: %s</string>
     <string name="CustomDefaultPreference_using_default">Uso predefinido: %s</string>
-    <string name="CustomDefaultPreference_none">Ningunha</string>
+    <string name="none">Ningunha</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Agora</string>
     <string name="DateUtils_today">Hoxe</string>
@@ -107,7 +105,7 @@
     <string name="MessageNotifier_unknown_contact_message">Contacto</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Chamadas</string>
-    <string name="NotificationChannel_failures">Erros</string>
+    <string name="failures">Erros</string>
     <string name="lockAppStatus">Bloquear estado</string>
     <string name="updateApp">Actualizacións da app</string>
     <string name="other">Outra</string>
@@ -127,8 +125,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Cámara</string>
-    <string name="attachment_type_selector__camera_description">Cámara</string>
+    <string name="contentDescriptionCamera">Cámara</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imaxe ou vídeo</string>
     <string name="attachment_type_selector__gallery">Galería</string>
@@ -136,15 +133,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Enviar</string>
-    <string name="conversation_activity__compose_description">Redacción da mensaxe</string>
+    <string name="contentDescriptionMessageComposition">Redacción da mensaxe</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatura do anexo</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Activar panel rápido de ficheiros da cámara</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Pasa o dedo para cancelar</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Mensaxe multimedia</string>
+    <string name="contentDescriptionMediaMessage">Mensaxe multimedia</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Erro ao enviar</string>
     <string name="conversation_item_sent__delivered_description">Entregado</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -155,7 +151,6 @@
     <string name="messageErrorOriginal">Non se atopou a mensaxe orixinal</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Buscar GIF e adhesivos</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -165,7 +160,7 @@
     <string name="disappearingMessagesSent">Enviada</string>
     <string name="received">Recibida</string>
     <string name="message_details_header__disappears">Desaparece</string>
-    <string name="message_details_header__via">Vía</string>
+    <string name="via">Vía</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Utilizar o personalizado</string>
@@ -201,13 +196,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Bloquear usuario</string>
-    <string name="conversation_context__menu_reply_to_message">Responder á mensaxe</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Gardar anexo</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Activar o son</string>
+    <string name="notificationsUnmute">Activar o son</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silenciar notificacións</string>
     <!-- conversation -->
@@ -237,16 +231,14 @@
     <string name="view_fake_chat_bubble_4">Empregando unha combinación de tecnoloxías avanzadas de encamiñamento anónimo e cifrado punto-a-punto.</string>
     <string name="activity_home_empty_state_button_title">Iniciar unha sesión</string>
     <string name="conversationsDeleted">Conversa borrada</string>
-    <string name="activity_path_resolving_progress">Procesando…</string>
+    <string name="resolving">Procesando…</string>
     <string name="qrScan">Escanear código QR</string>
     <string name="cameraGrantAccess">Conceder acceso á cámara</string>
     <string name="groupNameEnter">Introduce o nome do grupo</string>
     <string name="activity_create_closed_group_empty_state_button_title">Iniciar unha sesión</string>
     <string name="groupNameEnterPlease">Por favor, introduce o nome do grupo</string>
     <string name="qrCode">Código QR</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Escanea o código QR dalgunha persoa para comezar unha conversa con ela</string>
     <string name="fragment_contact_selection_open_groups_title">Grupos abertos</string>
     <!-- Next round of translation -->
     <string name="groupEdit">Editar grupo</string>
-    <string name="dialog_join_open_group_explanation">Tes a certeza de querer entrar no grupo aberto %s?</string>
 </resources>

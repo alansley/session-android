@@ -39,7 +39,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Dùng tùy chỉnh: %s</string>
     <string name="CustomDefaultPreference_using_default">Dùng mặc định: %s</string>
-    <string name="CustomDefaultPreference_none">Không</string>
+    <string name="none">Không</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Bây giờ</string>
     <string name="DateUtils_today">Hôm nay</string>
@@ -92,18 +92,17 @@
     <!-- TransferControlView -->
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Máy ảnh</string>
+    <string name="contentDescriptionCamera">Máy ảnh</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Gửi</string>
-    <string name="conversation_activity__compose_description">Soạn tin nhắn</string>
+    <string name="contentDescriptionMessageComposition">Soạn tin nhắn</string>
     <string name="conversation_activity__attachment_thumbnail">Ảnh nhỏ tập tin đính kèm</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">TRƯỢT ĐỂ HUỶ</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Tin nhắn đa phương tiện</string>
+    <string name="contentDescriptionMediaMessage">Tin nhắn đa phương tiện</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Gửi thất bại</string>
     <string name="conversation_item_sent__delivered_description">Đã giao</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -119,7 +118,7 @@
     <!-- message_details_header -->
     <string name="disappearingMessagesSent">Đã gửi</string>
     <string name="received">Đã nhận</string>
-    <string name="message_details_header__via">Qua</string>
+    <string name="via">Qua</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Dùng tùy chỉnh</string>
@@ -153,7 +152,7 @@
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Tắt tạm im</string>
+    <string name="notificationsUnmute">Tắt tạm im</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Tạm im thông báo</string>
     <!-- conversation -->
@@ -206,12 +205,11 @@
     <string name="sessionSettings">Cài đặt</string>
     <string name="sessionClearData">Xóa dữ liệu</string>
     <string name="notificationsStyle">Kiểu thông báo</string>
-    <string name="activity_notification_settings_content_section_title">Nội dung thông báo</string>
+    <string name="notificationsContent">Nội dung thông báo</string>
     <string name="sessionPrivacy">Riêng tưy</string>
     <string name="notificationsStrategy">Chiến lược thông báo</string>
     <string name="clearDataAll">Xóa tất cả dữ liệu</string>
     <string name="qrCode">Mã QR</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Quét mã QR của ai đó để bắt đầu trò chuyện với họ</string>
     <string name="contactsContacts">Danh bạ</string>
     <string name="fragment_contact_selection_open_groups_title">Nhóm mở</string>
     <!-- Next round of translation -->

@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(àudio)</string>
     <string name="DraftDatabase_Draft_video_snippet">(vídeo)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">El Session necessita el permís de l\'emmagatzematge per tal d\'adjuntar fotografies, vídeos o àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i habiliteu-hi l\'emmagatzematge.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Avui</string>
@@ -48,7 +47,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Ús de la personalització: %s</string>
     <string name="CustomDefaultPreference_using_default">Per defecte: %s</string>
-    <string name="CustomDefaultPreference_none">Cap</string>
+    <string name="none">Cap</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Ara</string>
     <string name="DateUtils_today">Avui</string>
@@ -106,7 +105,7 @@
     <string name="MessageNotifier_unknown_contact_message">Contacte</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Telefonades</string>
-    <string name="NotificationChannel_failures">Fallades</string>
+    <string name="failures">Fallades</string>
     <string name="lockAppStatus">Estat del bloqueig</string>
     <string name="updateApp">Actualitzacions de l\'aplicació</string>
     <string name="other">Altres</string>
@@ -126,8 +125,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Càmera</string>
-    <string name="attachment_type_selector__camera_description">Càmera</string>
+    <string name="contentDescriptionCamera">Càmera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Imatge o vídeo</string>
     <string name="attachment_type_selector__gallery">Galeria</string>
@@ -135,15 +133,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Envia</string>
-    <string name="conversation_activity__compose_description">Cos del missatge</string>
+    <string name="contentDescriptionMessageComposition">Cos del missatge</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatura de l\'adjunt</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Desplega la pestanya d\'adjunts de càmera ràpida</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Llisqueu per cancel·lar-ho</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Missatge multimèdia</string>
+    <string name="contentDescriptionMediaMessage">Missatge multimèdia</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Ha fallat l\'enviament</string>
     <string name="conversation_item_sent__delivered_description">Entregat</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -154,7 +151,6 @@
     <string name="messageErrorOriginal">No s\'ha trobat el missatge original.</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Cerca GIF i adhesius</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -164,7 +160,7 @@
     <string name="disappearingMessagesSent">Enviat</string>
     <string name="received">Rebut</string>
     <string name="message_details_header__disappears">Desapareix</string>
-    <string name="message_details_header__via">Per</string>
+    <string name="via">Per</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Personalitzat</string>
@@ -200,13 +196,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Bloca l\'usuari</string>
-    <string name="conversation_context__menu_reply_to_message">Respon el missatge</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Desa l\'adjunt</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">No silenciïs</string>
+    <string name="notificationsUnmute">No silenciïs</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Silencia les notificacions</string>
     <!-- conversation -->
@@ -264,12 +259,11 @@
     <string name="sessionSettings">Configuració</string>
     <string name="sessionClearData">Neteja les dades</string>
     <string name="notificationsStyle">Estil de notificacions</string>
-    <string name="activity_notification_settings_content_section_title">Contingut de notificacions</string>
+    <string name="notificationsContent">Contingut de notificacions</string>
     <string name="sessionPrivacy">Privadesa</string>
     <string name="notificationsStrategy">Estratègia de les notificacions</string>
     <string name="clearDataAll">Esborra totes les dades</string>
     <string name="qrCode">Codi QR</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Escaneja el codi QR d\'algú altre per a encetar-hi una conversa</string>
     <string name="contactsContacts">Contactes</string>
     <string name="fragment_contact_selection_open_groups_title">Grups oberts</string>
     <!-- Next round of translation -->

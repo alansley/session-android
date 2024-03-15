@@ -21,7 +21,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(zvuk)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session potrebuje prístup k úložisku aby k správam mohol pridať obrázkové, video a zvukové prílohy, ale prístup bol natrvalo zakázaný. Prosím v nastaveniach aplikácií zvoľte \"Oprávnenia\", a povoľte \"Úložisko\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Dnes</string>
@@ -51,7 +50,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Používa sa vlastné: %s</string>
     <string name="CustomDefaultPreference_using_default">Používa sa predvolené: %s</string>
-    <string name="CustomDefaultPreference_none">Žiadna</string>
+    <string name="none">Žiadna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Teraz</string>
     <string name="DateUtils_today">Dnes</string>
@@ -111,7 +110,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Volania</string>
-    <string name="NotificationChannel_failures">Chyby</string>
+    <string name="failures">Chyby</string>
     <string name="lockAppStatus">Stav zámku</string>
     <string name="updateApp">Aktualizácie aplikácie</string>
     <string name="other">Iné</string>
@@ -133,8 +132,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Obrázok alebo video</string>
     <string name="attachment_type_selector__gallery">Galéria</string>
@@ -142,15 +140,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Odoslať</string>
-    <string name="conversation_activity__compose_description">Písanie správy</string>
+    <string name="contentDescriptionMessageComposition">Písanie správy</string>
     <string name="conversation_activity__attachment_thumbnail">Ikona prílohy</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Prepnúť na rýchlu prílohu fotoaparátom</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Potiahnite pre zrušenie</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Multimediálna správa</string>
+    <string name="contentDescriptionMediaMessage">Multimediálna správa</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Odoslanie zlyhalo</string>
     <string name="conversation_item_sent__delivered_description">Doručené</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -161,7 +158,6 @@
     <string name="messageErrorOriginal">Pôvodná správa sa nenašla</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Hľadať GIFy a nálepky</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -171,7 +167,7 @@
     <string name="disappearingMessagesSent">Odoslané</string>
     <string name="received">Prijaté</string>
     <string name="message_details_header__disappears">Miznúce</string>
-    <string name="message_details_header__via">Cez</string>
+    <string name="via">Cez</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Použiť vlastné</string>
@@ -209,13 +205,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Zablokovať užívateľa</string>
-    <string name="conversation_context__menu_reply_to_message">Odpovedať na správu</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Uložiť prílohu </string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Nahlas</string>
+    <string name="notificationsUnmute">Nahlas</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Stlmiť upozornenia</string>
     <!-- conversation -->
@@ -270,11 +265,10 @@
     <string name="sessionSettings">Nastavenia</string>
     <string name="sessionClearData">Odstrániť dáta</string>
     <string name="notificationsStyle">Štýl upozornenia</string>
-    <string name="activity_notification_settings_content_section_title">Obsah upozornenia</string>
+    <string name="notificationsContent">Obsah upozornenia</string>
     <string name="sessionPrivacy">Súkromie</string>
     <string name="clearDataAll">Odstrániť všetky dáta</string>
     <string name="qrCode">QR kód</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Oskenujte niečí QR kód pre začatie konverzácie</string>
     <string name="contactsContacts">Kontakty</string>
     <string name="fragment_contact_selection_open_groups_title">Otvorené skupiny</string>
     <!-- Next round of translation -->

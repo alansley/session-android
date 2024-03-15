@@ -21,7 +21,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(skaņa)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Sesijai ir nepieciešama krātuves atļauja, lai pievienotu fotoattēlus, videoklipus vai audio, bet tā ir pastāvīgi aizliegta. Lūdzu, pārejiet uz programmu iestatījumu izvēlni, atlasiet “Atļaujas” un iespējojiet “Krātuve”.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Šodien</string>
@@ -40,7 +39,7 @@
     <string name="ConversationFragment_save_to_sd_card">Saglabāt krātuvē?</string>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_none">Neviens</string>
+    <string name="none">Neviens</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Tagad</string>
     <string name="DateUtils_today">Šodien</string>
@@ -130,7 +129,7 @@
     <string name="helpFAQ">Biežāk uzdotie jautājumi</string>
     <string name="sessionClearData">Izdzēst datus</string>
     <string name="notificationsStyle">Paziņojuma izskats</string>
-    <string name="activity_notification_settings_content_section_title">Paziņojuma saturs</string>
+    <string name="notificationsContent">Paziņojuma saturs</string>
     <string name="clearDataAll">Izdzēst visus datus</string>
     <string name="qrCode">QR kods</string>
     <string name="contactsContacts">Kontakti</string>

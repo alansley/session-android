@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(ääni)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal tarvitsee lupaa käyttää laitteesi tallennustilaa kuvien, videoiden tai äänitiedostojen liittämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Tallennustila\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">tänään</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Lisää liite</string>
     <string name="message">Viesti</string>
     <string name="ConversationActivity_muted_until_date">Mykistetty %1$s asti</string>
-    <string name="ConversationActivity_muted_forever">Mykistetty</string>
+    <string name="notificationsMuted">Mykistetty</string>
     <string name="blockUnblock">Poista esto</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal tarvitsee lupaa käyttää mikrofonia äänitiedostojen lähettämistä varten, mutta tämä käyttöoikeus on pysyvästi evätty Sessionilta. Voit muuttaa tätä menemällä sovellusten asetuksiin, valitsemalla \"Sovelluksen käyttöoikeudet\" ja laittamalla päälle \"Mikrofoni\".</string>
-    <string name="cameraGrantAccessStorage">Istunto tarvitsee tallennustilan käyttöoikeuden kuvien ja videoiden lähettämiseen.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Kopioi tallennustilaan?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Käytä mukautettua: %s</string>
     <string name="CustomDefaultPreference_using_default">Käytä oletusta: %s</string>
-    <string name="CustomDefaultPreference_none">Ei asetettu</string>
+    <string name="none">Ei asetettu</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nyt</string>
     <string name="DateUtils_today">tänään</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Sinä</string>
     <string name="draft">Luonnos</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session tarvitsee luvan tallentaakseen ulkoiseen tallennustilaan, mutta se on pysyvästi kielletty. Jatka sovelluksen asetuksiin, valitse \"luvat\", ja käytä \"tallennustilaa\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Tallennus ulkoiseen tallennustilaan ei onnistu ilman käyttöoikeutta.</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d uutta viestiä %2$d keskustelussa</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Yhteystieto</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Puhelut</string>
-    <string name="NotificationChannel_failures">Viat</string>
+    <string name="failures">Viat</string>
     <string name="lockAppStatus">Lukituksen tila</string>
     <string name="updateApp">Sovellusten päivitykset</string>
     <string name="other">Muu</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Kuva tai video</string>
     <string name="attachment_type_selector__gallery">Galleria</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Lähetä</string>
-    <string name="conversation_activity__compose_description">Viestin kirjoitus</string>
+    <string name="contentDescriptionMessageComposition">Viestin kirjoitus</string>
     <string name="conversation_activity__attachment_thumbnail">Liitteen esikatselu</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Avaa tai sulje pikakamera</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Pyyhkäise hylkääksesi</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Mediaviesti</string>
+    <string name="contentDescriptionMediaMessage">Mediaviesti</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Lähetys epäonnistui</string>
     <string name="conversation_item_sent__delivered_description">Toimitettu</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Alkuperäistä viestiä ei löytynyt</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Etsi GIFejä ja tarroja</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Lähetetty</string>
     <string name="received">Vastaanotettu</string>
     <string name="message_details_header__disappears">Katoamisaika</string>
-    <string name="message_details_header__via">Tyyppi</string>
+    <string name="via">Tyyppi</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Käytä mukautettua</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Estä käyttäjä</string>
-    <string name="conversation_context__menu_reply_to_message">Vastaa viestiin</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Tallenna liite</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Poista mykistys</string>
+    <string name="notificationsUnmute">Poista mykistys</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Mykistä ilmoitukset</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Palvelu Solmu</string>
     <string name="onionRoutingPathDestination">Päämäärä</string>
     <string name="learnMore">Lisätietoja</string>
-    <string name="activity_path_resolving_progress">Ratkaistaan…</string>
+    <string name="resolving">Ratkaistaan…</string>
     <string name="qrScan">Lue QR-koodi</string>
     <string name="cameraGrantAccessQr">Session tarvitsee kameran käyttöoikeuden skannatakseensa QR-koodit</string>
     <string name="cameraGrantAccess">Myönnä Kameran Käyttöoikeus</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">UKK</string>
     <string name="sessionClearData">Tyhjennä tiedot</string>
     <string name="notificationsStyle">Ilmoitusten tyyli</string>
-    <string name="activity_notification_settings_content_section_title">Ilmoituksen Sisältö</string>
+    <string name="notificationsContent">Ilmoituksen Sisältö</string>
     <string name="sessionPrivacy">Yksityisyys</string>
     <string name="notificationsStrategy">Ilmoitusten Strategia</string>
     <string name="useFastMode">Käytä Nopeaa Tilaa</string>
     <string name="clearDataAll">Tyhjennä tiedot</string>
     <string name="qrCode">QR-koodi</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Skannaa jonkun QR-koodi aloittaaksesi keskustelun heidän kanssaan</string>
     <string name="contactsContacts">Yhteystiedot</string>
     <string name="fragment_contact_selection_open_groups_title">Avoimet Ryhmät</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Sinulle ilmoitetaan uusista viesteistä luotettavasti ja viivyttelemättä Applen ilmoituspalvelua käyttäen.</string>
     <string name="notificationsSlowModeDescription">Session tarkistaa taustalla ajoittain uudet viestit.</string>
     <string name="blockUnblockDescription">Oletko varma, että haluat poistaa eston henkilöltä %s?</string>
-    <string name="dialog_join_open_group_explanation">Oletko varma, että haluat liittyä %s avoimeen ryhmään?</string>
     <string name="open">Avaa</string>
     <string name="urlCopy">Kopioi URL</string>
     <string name="enable">Ota käyttöön</string>

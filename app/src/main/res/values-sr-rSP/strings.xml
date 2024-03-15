@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(звук)</string>
     <string name="DraftDatabase_Draft_video_snippet">(видео)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Сесија треба дозволу за складиште да би закачио слике, видео клипове или аудио снимке, али је забрањена заувек. Молим те да наставиш у мени подешавања, селектуј \"Дозволе\", и омогући \"Складиште\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Данас</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Додај прилог</string>
     <string name="message">Пошаљи поруку</string>
     <string name="ConversationActivity_muted_until_date">Мутиран до %1$s</string>
-    <string name="ConversationActivity_muted_forever">Мутиран заувек</string>
+    <string name="notificationsMuted">Мутиран заувек</string>
     <string name="blockUnblock">Одблокирај</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Сесија треба дозволу за микрофон да пошаље аудио поруке, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Микрофон\".</string>
-    <string name="cameraGrantAccessStorage">Сесија треба дозволу за складиште да шаље слике и видео клипове.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Сачувати у складиште?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -51,7 +49,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Користим посебно: %s</string>
     <string name="CustomDefaultPreference_using_default">Користим подразумевано: %s</string>
-    <string name="CustomDefaultPreference_none">Ништа</string>
+    <string name="none">Ништа</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Сад</string>
     <string name="DateUtils_today">Данас</string>
@@ -103,14 +101,13 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Ви</string>
     <string name="draft">Нацрт</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Сесија треба дозволу за складиште да сачува у спољашње складиште, али је трајно забрањено. Настави у подешавања апликације, селектуј \"Дозволе\", и укључи \"Складиште\".</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d нових порука у %2$d преписки</string>
     <string name="messageMarkRead">Означи прочитаним</string>
     <string name="MessageNotifier_unknown_contact_message">Контакт</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Позиви</string>
-    <string name="NotificationChannel_failures">Грешке</string>
+    <string name="failures">Грешке</string>
     <string name="lockAppStatus">Закључај статус</string>
     <string name="updateApp">Ажурирања апликације</string>
     <string name="other">Остало</string>
@@ -131,8 +128,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Камера</string>
-    <string name="attachment_type_selector__camera_description">Камера</string>
+    <string name="contentDescriptionCamera">Камера</string>
     <string name="gif">Гиф</string>
     <string name="attachment_type_selector__gallery_description">Слика или видео</string>
     <string name="attachment_type_selector__gallery">Галерија</string>
@@ -140,14 +136,13 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Пошаљи</string>
-    <string name="conversation_activity__compose_description">Састављање поруке</string>
+    <string name="contentDescriptionMessageComposition">Састављање поруке</string>
     <string name="conversation_activity__attachment_thumbnail">Сличица прилога</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Фиока брзог прилога камере</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Мултимедијална порука</string>
+    <string name="contentDescriptionMediaMessage">Мултимедијална порука</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Слање није успело</string>
     <string name="conversation_item_sent__delivered_description">Испоручена</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -158,7 +153,6 @@
     <string name="messageErrorOriginal">Оригинална порука није нађена</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Тражите ГИФ сличице и налепнице</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -168,7 +162,7 @@
     <string name="disappearingMessagesSent">Послата</string>
     <string name="received">Примљена</string>
     <string name="message_details_header__disappears">Нестаје</string>
-    <string name="message_details_header__via">Преко</string>
+    <string name="via">Преко</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Користи посебно</string>
@@ -202,13 +196,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">Одговори на поруку</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Сачувај прилог</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Укључи обавештења</string>
+    <string name="notificationsUnmute">Укључи обавештења</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Утишај обавештења</string>
     <!-- conversation -->

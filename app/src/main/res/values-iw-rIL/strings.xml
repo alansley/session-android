@@ -22,7 +22,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(שמע)</string>
     <string name="DraftDatabase_Draft_video_snippet">(וידיאו)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session דורש את הרשאת האחסון על מנת לצרף תצלומים, וידיאוים, או שמע, אבל היא נדחתה לצמיתות. אנא המשך אל תפריט הגדרות היישום, בחר \"הרשאות\", אפשר את \"אחסון\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">היום</string>
@@ -39,7 +38,6 @@
     <string name="message">הודעה</string>
     <string name="blockUnblock">בטל חסימה</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session דורש את הרשאת המיקרופון על מנת לשלוח הודעות שמע, אבל היא נדחתה לצמיתות. אנא המשך אל הגדרות היישום, בחר \"הרשאות\" ואפשר את \"מיקרופון\".</string>
-    <string name="cameraGrantAccessStorage">Session צריך הרשאות גישה לאחסון על מנת לשלוח תמונות ווידיאו.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">לשמור באחסון?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -52,7 +50,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">משתמש בהגדרה מותאמת אישית: %s</string>
     <string name="CustomDefaultPreference_using_default">משתמש בברירת מחדל: %s</string>
-    <string name="CustomDefaultPreference_none">אין</string>
+    <string name="none">אין</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">עכשיו</string>
     <string name="DateUtils_today">היום</string>
@@ -112,7 +110,7 @@
     <string name="MessageNotifier_unknown_contact_message">איש קשר</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">שיחות</string>
-    <string name="NotificationChannel_failures">כישלונות</string>
+    <string name="failures">כישלונות</string>
     <string name="lockAppStatus">מעמד נעילה</string>
     <string name="updateApp">עדכוני יישום</string>
     <string name="other">אחר</string>
@@ -134,8 +132,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">מצלמה</string>
-    <string name="attachment_type_selector__camera_description">מצלמה</string>
+    <string name="contentDescriptionCamera">מצלמה</string>
     <string name="gif">GIF</string>
     <string name="attachment_type_selector__gallery_description">תמונה או וידיאו</string>
     <string name="attachment_type_selector__gallery">גלריה</string>
@@ -143,15 +140,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">שלח</string>
-    <string name="conversation_activity__compose_description">חיבור הודעה</string>
+    <string name="contentDescriptionMessageComposition">חיבור הודעה</string>
     <string name="conversation_activity__attachment_thumbnail">תמונה ממוזערת של צרופה</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">עורר מגירת צרופות מהירות של מצלמה</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">החלק כדי לבטל</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">הודעת מדיה</string>
+    <string name="contentDescriptionMediaMessage">הודעת מדיה</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">השליחה נכשלה</string>
     <string name="conversation_item_sent__delivered_description">נמסר</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -161,7 +157,6 @@
     <string name="messageErrorOriginal">הודעה מקורית לא נמצאה</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">חיפוש קבצי GIF ומדבקות</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -171,7 +166,7 @@
     <string name="disappearingMessagesSent">נשלח</string>
     <string name="received">התקבל</string>
     <string name="message_details_header__disappears">נעלם</string>
-    <string name="message_details_header__via">דרך</string>
+    <string name="via">דרך</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">השתמש במותאם אישית</string>
@@ -208,13 +203,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">הגב אל הודעה</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">שמור צרופה</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">בטל השתקה</string>
+    <string name="notificationsUnmute">בטל השתקה</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">השתק התראות</string>
     <!-- conversation -->

@@ -81,7 +81,7 @@
         android:id="@+id/unMuteNotificationsTextView"
         style="@style/BottomSheetActionItem"
         android:drawableStart="@drawable/ic_outline_notifications_active_24"
-        android:text="@string/conversation_muted__unmute"
+        android:text="@string/notificationsUnmute"
         tools:visibility="visible"
         android:visibility="gone"
         />

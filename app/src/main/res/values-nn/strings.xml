@@ -17,7 +17,6 @@
     <string name="DraftDatabase_Draft_image_snippet">(bilete)</string>
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session treng tilgang til lagring for å legga ved bilete, film eller lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">I dag</string>
@@ -43,7 +42,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Brukar sjølvvald: %s</string>
     <string name="CustomDefaultPreference_using_default">Brukar forvald: %s</string>
-    <string name="CustomDefaultPreference_none">Ingen</string>
+    <string name="none">Ingen</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">No</string>
     <string name="DateUtils_today">I dag</string>
@@ -95,7 +94,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtalar</string>
-    <string name="NotificationChannel_failures">Feil</string>
+    <string name="failures">Feil</string>
     <string name="lockAppStatus">Låsestatus</string>
     <string name="updateApp">Programoppdateringar</string>
     <string name="other">Anna</string>
@@ -115,21 +114,19 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="attachment_type_selector__gallery_description">Bilete eller video</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
     <string name="attachment_type_selector__drawer_description">Vis/skjul vedleggspanel</string>
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
-    <string name="conversation_activity__compose_description">Meldingsskriving</string>
+    <string name="contentDescriptionMessageComposition">Meldingsskriving</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatyrbilete av vedlegg</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Vis/skjul vedleggspanel for snøggkamera</string>
     <!-- conversation_input_panel -->
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Mediemelding</string>
+    <string name="contentDescriptionMediaMessage">Mediemelding</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Feil ved sending</string>
     <string name="conversation_item_sent__delivered_description">Levert</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -138,7 +135,6 @@
     <string name="messageErrorOriginal">Fann ikkje den opphavlege meldinga</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Søk Gif-ar og klistremerke</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -181,13 +177,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">Svar på meldinga</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lagra vedlegg</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Vis varsel</string>
+    <string name="notificationsUnmute">Vis varsel</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Ikkje vis varsel</string>
     <!-- conversation -->

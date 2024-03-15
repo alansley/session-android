@@ -19,7 +19,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(音訊)</string>
     <string name="DraftDatabase_Draft_video_snippet">(影片)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session 需要儲存的權限，以存取照片、影片或聲音檔。但是現在被設定為永久拒絕存取。請到應用程式設定中，選擇「權限」及開啟「儲存」。</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">今天</string>
@@ -35,10 +34,9 @@
     <string name="attachmentsAdd">增加附件檔案</string>
     <string name="message">訊息</string>
     <string name="ConversationActivity_muted_until_date">關閉通知直到 %1$s</string>
-    <string name="ConversationActivity_muted_forever">已靜音</string>
+    <string name="notificationsMuted">已靜音</string>
     <string name="blockUnblock">解除封鎖</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Signal 需要麥克風的權限來傳送語音訊息，但是現在系統設定為總是拒絕 Signal。請到 Session 的應用程式設定中，點選「權限」，並啟用「麥克風」的權限。</string>
-    <string name="cameraGrantAccessStorage">Session 需要使用存取存儲空間的權限來發送照片和影片</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">儲存？</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -48,7 +46,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">使用自訂：%s</string>
     <string name="CustomDefaultPreference_using_default">使用預設：%s</string>
-    <string name="CustomDefaultPreference_none">無</string>
+    <string name="none">無</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">現在</string>
     <string name="DateUtils_today">今天</string>
@@ -98,7 +96,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">您</string>
     <string name="draft">草稿</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">會話需要儲存空間存取權才能保存到外部儲存空間，但它已被永久拒絕。 請前往變更權限，啟用「儲存空間」。</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">因為沒有儲存的權限，無法儲存到外部儲存空間</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d 則新訊息在 %2$d 的對話中</string>
@@ -106,7 +103,7 @@
     <string name="MessageNotifier_unknown_contact_message">聯絡人</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">通話</string>
-    <string name="NotificationChannel_failures">失敗</string>
+    <string name="failures">失敗</string>
     <string name="lockAppStatus">鎖定狀態</string>
     <string name="updateApp">應用程式更新</string>
     <string name="other">其他</string>
@@ -125,8 +122,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">相機</string>
-    <string name="attachment_type_selector__camera_description">相機</string>
+    <string name="contentDescriptionCamera">相機</string>
     <string name="gif">動態圖檔</string>
     <string name="attachment_type_selector__gallery_description">圖片或影片</string>
     <string name="attachment_type_selector__gallery">圖片庫</string>
@@ -134,15 +130,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">送出</string>
-    <string name="conversation_activity__compose_description">編輯簡訊</string>
+    <string name="contentDescriptionMessageComposition">編輯簡訊</string>
     <string name="conversation_activity__attachment_thumbnail">附件縮圖</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">切換快速相機附件抽屜</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">滑動以取消</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">媒體訊息</string>
+    <string name="contentDescriptionMediaMessage">媒體訊息</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">傳送失敗</string>
     <string name="conversation_item_sent__delivered_description">已傳送</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -153,7 +148,6 @@
     <string name="messageErrorOriginal">無法找到原始訊息</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">搜尋動態圖檔與貼圖</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -163,7 +157,7 @@
     <string name="disappearingMessagesSent">傳送</string>
     <string name="received">接受</string>
     <string name="message_details_header__disappears">銷毀</string>
-    <string name="message_details_header__via">來自</string>
+    <string name="via">來自</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">使用自訂</string>
@@ -198,13 +192,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">封鎖用戶</string>
-    <string name="conversation_context__menu_reply_to_message">回覆訊息</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">儲存附件檔案</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">取消靜音</string>
+    <string name="notificationsUnmute">取消靜音</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">將通知調整為靜音</string>
     <!-- conversation -->
@@ -253,7 +246,7 @@
     <string name="onionRoutingPathServiceNode">服務節點</string>
     <string name="onionRoutingPathDestination">目的地</string>
     <string name="learnMore">瞭解更多</string>
-    <string name="activity_path_resolving_progress">解決中...</string>
+    <string name="resolving">解決中...</string>
     <string name="qrScan">掃描 QR Code</string>
     <string name="cameraGrantAccessQr">Session 需要使用相機存取權來掃描 QR Codes</string>
     <string name="cameraGrantAccess">授與相機權限</string>
@@ -265,13 +258,12 @@
     <string name="helpFAQ">常見問題</string>
     <string name="sessionClearData">清除資料</string>
     <string name="notificationsStyle">通知樣式</string>
-    <string name="activity_notification_settings_content_section_title">通知內容</string>
+    <string name="notificationsContent">通知內容</string>
     <string name="sessionPrivacy">隱私權</string>
     <string name="notificationsStrategy">通知類型</string>
     <string name="useFastMode">使用快速模式</string>
     <string name="clearDataAll">清除所有數據</string>
     <string name="qrCode">QR Code</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">掃描朋友的 QR Code 來開始對話。</string>
     <string name="contactsContacts">聯絡人</string>
     <string name="fragment_contact_selection_open_groups_title">查看群組</string>
     <!-- Next round of translation -->
@@ -291,7 +283,6 @@
     <string name="notificationsFastModeDescriptionAndroid">您將會透過 Google 的通知服務可靠且迅速的收到通知。</string>
     <string name="notificationsSlowModeDescription">Session 會偶爾在背景執行時檢查新訊息。</string>
     <string name="blockUnblockDescription">您確定要解除封鎖 %s 嗎？</string>
-    <string name="dialog_join_open_group_explanation">您確定要加入 %s 公開群組嗎？</string>
     <string name="open">開啟</string>
     <string name="urlCopy">複製網址</string>
     <string name="enable">啟用</string>

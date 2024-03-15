@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(lyd)</string>
     <string name="DraftDatabase_Draft_video_snippet">(video)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session krever tillatelse fra systemet for å kunne legge til bilder, videoer eller lyd, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Lagring».</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">I dag</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Legg til vedlegg</string>
     <string name="message">Melding</string>
     <string name="ConversationActivity_muted_until_date">Dempet til %1$s</string>
-    <string name="ConversationActivity_muted_forever">Dempet</string>
+    <string name="notificationsMuted">Dempet</string>
     <string name="blockUnblock">Fjern blokkering</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session krever tillatelse fra systemet for å kunne bruke mikrofonen, men du har valgt å avslå dette permanent. Gå til «Apper»-menyen på systemet og slå på tillatelsen «Mikrofon».</string>
-    <string name="cameraGrantAccessStorage">Session trenger lagringstilgang for å sende bilder og videoer.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Vil du lagre på enheten?</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Bruker selvvalgt: %s</string>
     <string name="CustomDefaultPreference_using_default">Bruker forvalgt: %s</string>
-    <string name="CustomDefaultPreference_none">Ingen</string>
+    <string name="none">Ingen</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nå</string>
     <string name="DateUtils_today">I dag</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Deg</string>
     <string name="draft">Utkast</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session trenger lagringstilgang for å lagre til ekstern lagring, men den har blitt permanent nektet. Fortsett til appinnstillingene, velg «Tillatelser» og aktiver «Lagring».</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Du kan ikke lagre på ekstern lagringsenhet uten å slå på tillatelse i systemet først</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d nye meldinger i %2$d samtaler</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Samtaler</string>
-    <string name="NotificationChannel_failures">Feil</string>
+    <string name="failures">Feil</string>
     <string name="lockAppStatus">Lås status</string>
     <string name="updateApp">Oppdateringer</string>
     <string name="other">Annet</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Kamera</string>
-    <string name="attachment_type_selector__camera_description">Kamera</string>
+    <string name="contentDescriptionCamera">Kamera</string>
     <string name="gif">Gif</string>
     <string name="attachment_type_selector__gallery_description">Bilde eller video</string>
     <string name="attachment_type_selector__gallery">Galleri</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Send</string>
-    <string name="conversation_activity__compose_description">Meldingsskriving</string>
+    <string name="contentDescriptionMessageComposition">Meldingsskriving</string>
     <string name="conversation_activity__attachment_thumbnail">Miniatyrbilde av vedlegg</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Slå av/på hurtig kamera-vedleggsfunksjon</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Skyv for å avbryte</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Mediemelding</string>
+    <string name="contentDescriptionMediaMessage">Mediemelding</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Sending mislyktes</string>
     <string name="conversation_item_sent__delivered_description">Levert</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Opprinnelig melding ikke funnet</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Søk GIFs og klistremerker</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Sendt</string>
     <string name="received">Mottatt</string>
     <string name="message_details_header__disappears">Forsvinner</string>
-    <string name="message_details_header__via">Via</string>
+    <string name="via">Via</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Bruk selvvalgt</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Bannlys bruker</string>
-    <string name="conversation_context__menu_reply_to_message">Svar på melding</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Lagre vedlegg</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Vis</string>
+    <string name="notificationsUnmute">Vis</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Ikke vis varsler</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Tjeneste node</string>
     <string name="onionRoutingPathDestination">Destinasjon</string>
     <string name="learnMore">Lær mer</string>
-    <string name="activity_path_resolving_progress">Løser…</string>
+    <string name="resolving">Løser…</string>
     <string name="qrScan">Skann QR-kode</string>
     <string name="cameraGrantAccessQr">Session trenger kameratilgang for å skanne QR-koder</string>
     <string name="cameraGrantAccess">Gi kameratilgang</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">Ofte Stilte Spørsmål</string>
     <string name="sessionClearData">Fjern data</string>
     <string name="notificationsStyle">Varsling Stil</string>
-    <string name="activity_notification_settings_content_section_title">Varsling innhold</string>
+    <string name="notificationsContent">Varsling innhold</string>
     <string name="sessionPrivacy">Personvern</string>
     <string name="notificationsStrategy">Melding Strategi</string>
     <string name="useFastMode">Bruk rask modus</string>
     <string name="clearDataAll">Fjern alle data</string>
     <string name="qrCode">QR-kode</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Skann noens QR-kode for å starte en samtale med dem</string>
     <string name="contactsContacts">Kontakt</string>
     <string name="fragment_contact_selection_open_groups_title">Åpne grupper</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Du vil bli varslet om nye meldinger på en pålitelig måte, og umiddelbart ved hjelp av Googles varslingsservere.</string>
     <string name="notificationsSlowModeDescription">Session vil av og til sjekke nye meldinger i bakgrunnen.</string>
     <string name="blockUnblockDescription">Er du sikker på at du vil oppheve blokkeringen av %s?</string>
-    <string name="dialog_join_open_group_explanation">Er du sikker på at du vil bli med i den åpne gruppen for %s?</string>
     <string name="open">Åpne</string>
     <string name="urlCopy">Kopier URL</string>
     <string name="enable">Aktiver</string>

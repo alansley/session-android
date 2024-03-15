@@ -78,7 +78,7 @@ private class QRCodeActivityAdapter(val activity: QRCodeActivity) : FragmentPage
             1 -> {
                 val result = ScanQRCodeWrapperFragment()
                 result.delegate = activity
-                result.message = activity.resources.getString(R.string.activity_qr_code_view_scan_qr_code_explanation)
+                result.message = activity.resources.getString(R.string.messageNewDescription)
                 result
             }
             else -> throw IllegalStateException()

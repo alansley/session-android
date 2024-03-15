@@ -22,7 +22,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(sain)</string>
     <string name="DraftDatabase_Draft_video_snippet">(fideo)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Mae ar Session angen caniatâd Storio er mwyn atodi lluniau, fideos neu sain, ond mae wedi\'i wrthod yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis \"Caniatâd\", a galluogi \"Storio\".</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Heddiw</string>
@@ -52,7 +51,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Defnyddio\'r cyfaddas: %s</string>
     <string name="CustomDefaultPreference_using_default">Defnyddio rhagosodedig: %s</string>
-    <string name="CustomDefaultPreference_none">Dim</string>
+    <string name="none">Dim</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nawr</string>
     <string name="DateUtils_today">Heddiw</string>
@@ -114,7 +113,7 @@
     <string name="MessageNotifier_unknown_contact_message">Cysylltiad</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Galwadau</string>
-    <string name="NotificationChannel_failures">Methiannau</string>
+    <string name="failures">Methiannau</string>
     <string name="lockAppStatus">Statws y clo</string>
     <string name="updateApp">Diweddariadau ap</string>
     <string name="other">Arall</string>
@@ -144,15 +143,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Anfon</string>
-    <string name="conversation_activity__compose_description">Cyfansoddiad neges</string>
+    <string name="contentDescriptionMessageComposition">Cyfansoddiad neges</string>
     <string name="conversation_activity__attachment_thumbnail">Llun Bach Atodiad</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Newid y drôr atodiad cyflym camera</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Llithro i ddiddymu</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Neges cyfryngau</string>
+    <string name="contentDescriptionMediaMessage">Neges cyfryngau</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Methwyd Anfon</string>
     <string name="conversation_item_sent__delivered_description">Wedi\'i drosglwyddo</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -161,7 +159,6 @@
     <string name="messageErrorOriginal">Heb ganfod y neges wreiddiol</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Chwilio GIFau a sticeri</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -171,7 +168,7 @@
     <string name="disappearingMessagesSent">Anfonwyd</string>
     <string name="received">Derbyniwyd</string>
     <string name="message_details_header__disappears">Yn diflannu</string>
-    <string name="message_details_header__via">Drwy</string>
+    <string name="via">Drwy</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Defnyddio cyfaddas</string>
@@ -210,13 +207,12 @@
     <!-- **************************************** -->
     <!-- contact_selection_list -->
     <!-- conversation_context -->
-    <string name="conversation_context__menu_reply_to_message">Ateb neges</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Cadw atodiad</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Dad-dewi</string>
+    <string name="notificationsUnmute">Dad-dewi</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Tewi hysbysiadau</string>
     <!-- conversation -->

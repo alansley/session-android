@@ -20,7 +20,6 @@
     <string name="DraftDatabase_Draft_audio_snippet">(աուդիո)</string>
     <string name="DraftDatabase_Draft_video_snippet">(վիդեո)</string>
     <!-- AttachmentManager -->
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Session֊ը պահանջում է Ֆայլերի կառավարման թույլտվություն՝ լուսանկարներ, տեսանյութեր կամ աուդիո ֆայլեր կցելու համար, սակայն այն ընդմիշտ մերժվել է: Խնդրում ենք մտնել հավելվածի կարգավորումների ցանկը, ընտրել «Թույլտվություններ» և միացնել ֆայլերի կառավարման թույլտվությունը.</string>
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
     <string name="BucketedThreadMedia_Today">Այսօր</string>
@@ -36,10 +35,9 @@
     <string name="attachmentsAdd">Ավելացնել կցորդ</string>
     <string name="message">Հաղորդագրություն</string>
     <string name="ConversationActivity_muted_until_date">Անջատված է մինչև %1$s</string>
-    <string name="ConversationActivity_muted_forever">Լուռ է</string>
+    <string name="notificationsMuted">Լուռ է</string>
     <string name="blockUnblock">Հանել արգելափակումից</string>
     <string name="permissionsMicrophoneAccessRequiredAndroid">Session-ը պահանջում է միկրոֆոնի թույտվություն, խնդրում ենք մտնել կարգավորումներ, ընտրել \"թույլտվություն\", ապա թույլատրել \"միկրոֆոնը\".</string>
-    <string name="cameraGrantAccessStorage">Session-ը պահանջում է ֆոտոխցիկի թույլտվություն, որպեսզի ունենանք մուտք դեպի նկարներ և վիդեոներ.</string>
     <!-- ConversationFragment -->
     <string name="ConversationFragment_save_to_sd_card">Պահպանե՞լ սարքի մեջ։</string>
     <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
@@ -50,7 +48,7 @@
     <!-- CustomDefaultPreference -->
     <string name="CustomDefaultPreference_using_custom">Սովորական օգտագործելով: %s</string>
     <string name="CustomDefaultPreference_using_default">Օգտագործելով լռելյայն.%s</string>
-    <string name="CustomDefaultPreference_none">Չկա</string>
+    <string name="none">Չկա</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Հիմա</string>
     <string name="DateUtils_today">Այսօր</string>
@@ -101,7 +99,6 @@
     <!-- MediaPreviewActivity -->
     <string name="onionRoutingPathYou">Դուք</string>
     <string name="draft">Սևագիր</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session֊ին պետք են հիշողությունից օգտվելու թույլտվությունները ֆայլեր ստեղծելու համար, բայց այն արգելված է։ Բացեք ծրագրի կարգավորումներն ու ընտրեք «Թույլտվություններ»֊ը, ապա միացրեք «Հիշողություն» թույլտվությունը։</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Հնարավոր չէ պահել արտաքին պահեստում առանց թույլտվությունների</string>
     <!-- MessageNotifier -->
     <string name="notificationsAndroidSystem">%1$d նոր հաղորդագրություններ %2$d խոսակցություններում</string>
@@ -109,7 +106,7 @@
     <string name="MessageNotifier_unknown_contact_message">Կոնտակտ</string>
     <!-- Notification Channels -->
     <string name="NotificationChannel_calls">Զանգեր</string>
-    <string name="NotificationChannel_failures">Ձախողումներ</string>
+    <string name="failures">Ձախողումներ</string>
     <string name="lockAppStatus">Կողպեքի վիճակը</string>
     <string name="updateApp">Ծրագրի թարմացումներ</string>
     <string name="other">Այլ</string>
@@ -129,8 +126,7 @@
     </plurals>
     <!-- VideoPlayer -->
     <!-- attachment_type_selector -->
-    <string name="attachment_type_selector__camera">Տեսախցիկ</string>
-    <string name="attachment_type_selector__camera_description">Տեսախցիկ</string>
+    <string name="contentDescriptionCamera">Տեսախցիկ</string>
     <string name="gif">Գիֆ</string>
     <string name="attachment_type_selector__gallery_description">Նկար կամ վիդեո</string>
     <string name="attachment_type_selector__gallery">Պատկերասրահ</string>
@@ -138,15 +134,14 @@
     <!-- contact_selection_group_activity -->
     <!-- conversation_activity -->
     <string name="send">Ուղարկել</string>
-    <string name="conversation_activity__compose_description">Հաղորդագրության գրառում</string>
+    <string name="contentDescriptionMessageComposition">Հաղորդագրության գրառում</string>
     <string name="conversation_activity__attachment_thumbnail">Հավելվածի մանրապատկեր</string>
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Միացնել արագ տեսախցիկի պանակը</string>
     <!-- conversation_input_panel -->
     <string name="messageVoiceSlideToCancel">Սահեցրե՛ք չեղարկման համար</string>
     <!-- conversation_item -->
-    <string name="conversation_item__mms_image_description">Մեդիա հաղորդագրություն</string>
+    <string name="contentDescriptionMediaMessage">Մեդիա հաղորդագրություն</string>
     <!-- conversation_item_sent -->
-    <string name="conversation_item_sent__send_failed_indicator_description">Ուղարկումը ձախողվեց</string>
     <string name="conversation_item_sent__delivered_description">Առաքված է</string>
     <!-- conversation_item_received -->
     <!-- audio_view -->
@@ -157,7 +152,6 @@
     <string name="messageErrorOriginal">Մեջբերված հաղորդագրությունը չի գտնվել</string>
     <!-- conversation_fragment -->
     <!-- giphy_activity -->
-    <string name="giphy_activity_toolbar__search_gifs_and_stickers">Որոնել GIF և էմոջիներ</string>
     <!-- giphy_fragment -->
     <!-- load_more_header -->
     <!-- media_overview_activity -->
@@ -167,7 +161,7 @@
     <string name="disappearingMessagesSent">Ուղարկված է</string>
     <string name="received">Ստացվել է</string>
     <string name="message_details_header__disappears">Կանհետանա</string>
-    <string name="message_details_header__via">Միջոցով</string>
+    <string name="via">Միջոցով</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
     <string name="arrays__use_custom">Օգտագործել հատուկ կարգավորում</string>
@@ -203,13 +197,12 @@
     <!-- contact_selection_list -->
     <!-- conversation_context -->
     <string name="banUser">Արգելափակել օգտատիրոչը</string>
-    <string name="conversation_context__menu_reply_to_message">Պատասխանել հաղորդագրությանը</string>
     <!-- conversation_context_image -->
     <string name="conversation_context_image__save_attachment">Պահպանել կցորդը</string>
     <!-- conversation_expiring_off -->
     <!-- conversation_expiring_on -->
     <!-- conversation_muted -->
-    <string name="conversation_muted__unmute">Ապախլացնել</string>
+    <string name="notificationsUnmute">Ապախլացնել</string>
     <!-- conversation_unmuted -->
     <string name="notificationsMute">Խլացնել ծանուցումները</string>
     <!-- conversation -->
@@ -258,7 +251,7 @@
     <string name="onionRoutingPathServiceNode">Ծառայության Հանգույց</string>
     <string name="onionRoutingPathDestination">Նպատակակետ</string>
     <string name="learnMore">Իմանալ Ավելին</string>
-    <string name="activity_path_resolving_progress">Լուծում է…</string>
+    <string name="resolving">Լուծում է…</string>
     <string name="qrScan">Սկանավորել QR Կոդ</string>
     <string name="cameraGrantAccessQr">Session-ին պետք հասանելիություն տեսախցիկին որպեսզի սքանավորի QR կոդը</string>
     <string name="cameraGrantAccess">Տեսախցիկի հասանելիություն</string>
@@ -270,13 +263,12 @@
     <string name="helpFAQ">Հաճախակի տրվող հարցեր</string>
     <string name="sessionClearData">Զրոյացնել</string>
     <string name="notificationsStyle">Ծանուցումների Ոճ</string>
-    <string name="activity_notification_settings_content_section_title">Ծանուցումների Բովանդակություն</string>
+    <string name="notificationsContent">Ծանուցումների Բովանդակություն</string>
     <string name="sessionPrivacy">Գաղտնիություն</string>
     <string name="notificationsStrategy">Ծանուցումների ոճ</string>
     <string name="useFastMode">Օգտագործել արագ ռեժիմը</string>
     <string name="clearDataAll">Ջնջել բոլոր տվյալները</string>
     <string name="qrCode">QR կոդ</string>
-    <string name="activity_qr_code_view_scan_qr_code_explanation">Սկանավորեք ինչ-որ մեկի QR կոդը՝ նրա հետ զրույց սկսելու համար</string>
     <string name="contactsContacts">Կոնտակտներ</string>
     <string name="fragment_contact_selection_open_groups_title">Բաց Խմբեր</string>
     <!-- Next round of translation -->
@@ -296,7 +288,6 @@
     <string name="notificationsFastModeDescriptionAndroid">Դուք մշտապես և անմիջապես կտեղեկացվեք նոր հաղորդագրությունների մասին՝ օգտագործելով Google-ի ծանուցումների սերվերները:</string>
     <string name="notificationsSlowModeDescription">Session-ը երբեմն, ֆոնային կստուգի նոր հաղորդագրությունների առկայությունը:</string>
     <string name="blockUnblockDescription">Համոզվա՞ծ եք, որ ուզում եք արգելաբացել %s֊ին։</string>
-    <string name="dialog_join_open_group_explanation">Համոզվա՞ծ եք, որ ուզում եք միանալ %s բաց խմբին։</string>
     <string name="open">Բացել</string>
     <string name="urlCopy">Պատճենել հղումը</string>
     <string name="enable">Միացնել</string>
