@@ -22,8 +22,30 @@
         <item quantity="other">And %1$d others have reacted %2$s to this message</item>
     </plurals>
 
+    <!-- TransferControlView -->
+    <plurals name="TransferControlView_n_items">
+        <item quantity="one">%d Item</item>
+        <item quantity="other">%d Items</item>
+    </plurals>
+
+    <plurals name="Unblock_dialog__message_multiple_overflow">
+        <item quantity="one">and %d other</item>
+        <item quantity="other">and %d others</item>
+    </plurals>
+
+    <plurals name="hours_ago">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
 
     <string name="activity_appearance_follow_system_explanation">Match system settings</string>
+    <string name="contactsContacts">Contacts</string>
+    <string name="contentDescriptionCamera">Camera</string>
+    <string name="contentDescriptionMediaMessage">Media message</string>
+    <string name="contentDescriptionMessageComposition">Message composition</string>
+    <string name="failures">Failures</string>
+    <string name="qrCode">QR Code</string>
 
     <string name="resolving">Resolving...</string>
     <string name="conversation_item_sent__delivered_description">Delivered</string>
@@ -34,10 +56,158 @@
     <string name="_error">Error</string>
     <string name="readReceipts">Read Receipts</string>
     <string name="typingIndicators">Typing Indicators</string>
+    <string name="AlbumThumbnailView_plus">\+%d</string>
+    <string name="DateUtils_just_now">Now</string>
+    <string name="DateUtils_today">Today</string>
+    <string name="DateUtils_yesterday">Yesterday</string>
+    <!-- DraftDatabase -->
+    <string name="DraftDatabase_Draft_image_snippet">(image)</string>
+    <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
+    <string name="DraftDatabase_Draft_video_snippet">(video)</string>
+    <string name="ErrorNotifier_migration">Database Upgrade Failed</string>
+    <string name="ErrorNotifier_migration_downgrade">Please contact support to report the error.</string>
+    <string name="KeyboardPagerFragment_search_emoji">Search emoji</string>
+    <string name="KeyboardPagerfragment_clear_search_entry">Clear search entry</string>
+    <string name="MediaPickerActivity_send_to">Send to %s</string>
+    <string name="MessageNotifier_unknown_contact_message">Contact</string>
+
+    <!-- ACL added defaults -->
+
+    <!-- BucketedThreadMedia -->
+    <string name="BucketedThreadMedia_Today">Today</string>
+    <string name="BucketedThreadMedia_Yesterday">Yesterday</string>
+    <string name="BucketedThreadMedia_This_week">This week</string>
+    <string name="BucketedThreadMedia_This_month">This month</string>
+
+    <string name="ConversationActivity_active_member_count">%1$d active members</string>
+    <string name="ConversationActivity_muted_until_date">Muted until %1$s</string>
+    <string name="ConversationFragment_save_to_sd_card">Save to storage?</string>
+    <string name="ConversationItem_copied_text">Copied %s</string>
+    <string name="ConversationItem_error_not_delivered">Send failed, tap for details</string>
+    <string name="CustomDefaultPreference_using_custom">Using custom: %s</string>
+    <string name="CustomDefaultPreference_using_default">Using default: %s</string>
+    <string name="NotificationBarManager__end_call">End call</string>
+    <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia message</string>
+    <string name="NotificationMmsMessageRecord_downloading_mms_message">Downloading MMS message</string>
+    <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Error downloading MMS message, tap to retry</string>
+
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">This Message</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">Recently Used</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__smileys_and_people">Smileys &amp; People</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__nature" comment="Heading for an emoji list's category">Animals &amp; Nature</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__food" comment="Heading for an emoji list's category">Food &amp; Drink</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__activities">Activities</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__places" comment="Heading for an emoji list's category">Travel &amp; Places</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__objects">Objects</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__symbols">Symbols</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__flags">Flags</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__emoticons">Emoticons</string>
+    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__no_results_found">No results found</string>
+
+    <string name="ReactionsBottomSheetDialogFragment_all">All &#183; %1$d</string>
+
+    <string name="ReactionsConversationView_plus">+%1$d</string>
+    <string name="ReactionsConversationView_show_less">Show less</string>
+    <string name="ReactionsRecipientAdapter_you">You</string>
+
+    <string name="Slide_image">Image</string>
+    <string name="Unblock_dialog__message">Are you sure you want to unblock %s?</string>
+    <string name="Unblock_dialog__title_single">Unblock %s</string>
+    <string name="Unblock_dialog__title_multiple">Unblock Users</string>
+    <string name="WebRtcCallActivity_Session_Call">Session Call</string>
+    <string name="activity_create_closed_group_empty_state_button_title">Start a Session</string>
+    <string name="activity_help_settings__export_logs">Export Logs</string>
+    <string name="activity_help_settings__faq">FAQ</string>
+    <string name="activity_home_empty_state_button_title">Start a Session</string>
+    <string name="activity_link_device_qr_message">Navigate to Settings → Recovery Phrase on your other device to show your QR code.</string>
+    <string name="activity_link_device_skip_prompt">This is taking a while, would you like to skip?</string>
+    <string name="activity_pn_mode_no_option_picked_dialog_title">Please Pick an Option</string>
+    <string name="activity_seed_explanation">Your recovery phrase is the master key to your Session ID — you can use it to restore your Session ID if you lose access to your device. Store your recovery phrase in a safe place, and don\'t give it to anyone.</string>
+    <string name="activity_seed_reveal_button_title">Hold to reveal</string>
+    <string name="activity_seed_title_2">Meet your recovery phrase</string>
+    <string name="arrays__images">Images</string>
+    <string name="arrays__use_custom">Use custom</string>
+    <string name="attachment_type_selector__drawer_description">Toggle attachment drawer</string>
+    <string name="attachment_type_selector__gallery">Gallery</string>
+    <string name="attachment_type_selector__gallery_description">Image or video</string>
+    <string name="conversation_activity__attachment_thumbnail">Attachment Thumbnail</string>
+    <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Toggle quick camera attachment drawer</string>
+    <string name="conversation_context_image__save_attachment">Save attachment</string>
+    <string name="fragment_contact_selection_open_groups_title">Open Groups</string>
+    <string name="fragment_enter_community_url_join_button_title">Join</string>
+    <string name="fragment_enter_public_key_prompt">Start a new conversation by entering someone\'s Session ID or share your Session ID with them.</string>
+    <string name="menu_apply_button">Apply</string>
+    <string name="message_details_header__disappears">Disappears</string>
+    <string name="message_requests_decline_message">Are you sure you want to decline this message request?</string>
+    <string name="new_conversation_dialog_back_button_content_description">Navigate Back</string>
+    <string name="new_conversation_dialog_close_button_content_description">Close Dialog</string>
+    <string name="notificationsMute1Day">Mute for 1 day</string>
+    <string name="notificationsMute1Hour">Mute for 1 hour</string>
+    <string name="notificationsMute2Hours">Mute for 2 hours</string>
+    <string name="notificationsUnmute">Unmute</string>
+    <string name="preferences__pref_autoplay_audio_title">Autoplay Audio Messages</string>
+    <string name="preferences__send_link_previews">Send Link Previews</string>
+    <string name="preferences__trim_all_conversations_now">Trim all conversations now</string>
+    <string name="preferences_app_protected__screenshot_notifications_summary">Receive a notification when a contact takes a screenshot of a one-to-one chat.</string>
+    <string name="preferences_app_protection__screen_lock">Lock Session</string>
+    <string name="preferences_app_protection__screen_security">Screen Security</string>
+    <string name="preferences_app_protection__screenshot_notifications">Screenshot Notifications</string>
+    <string name="preferences_chats__message_trimming_summary">Delete messages older than 6 months from communities that have over 2,000 messages.</string>
+    <string name="preferences_chats__message_trimming_title">Trim Communities</string>
+    <string name="preferences_notifications__content">Notification Content</string>
+    <string name="preferences_notifications__content_message">Show:</string>
+    <string name="preferences_notifications__summary">The information shown in notifications.</string>
+    <string name="reaction_notification">%1$s reacted to a message %2$s</string>
+    <string name="registration_activity__skip">Skip</string>
+    <string name="search_contacts_hint">Search contacts</string>
+    <string name="view_fake_chat_bubble_4">Using a combination of advanced anonymous routing and end-to-end encryption technologies.</string>
+    <string name="view_fake_chat_bubble_5">Friends don\'t let friends use compromised messengers. You\'re welcome.</string>
+    <string name="view_seed_reminder_subtitle_1">Secure your account by saving your recovery phrase</string>
+    <string name="view_seed_reminder_subtitle_2">Tap and hold the redacted words to reveal your recovery phrase, then store it safely to secure your Session ID.</string>
+    <string name="view_seed_reminder_subtitle_3">Make sure to store your recovery phrase in a safe place</string>
+    <string name="view_seed_reminder_title">You\'re almost finished! 80%</string>
+
+    <string name="AccessibilityId_gif_button">GIF button</string>
+    <string name="AccessibilityId_documents_folder">Documents folder</string>
+    <string name="AccessibilityId_images_folder">Images folder</string>
+    <string name="AccessibilityId_select_camera_button">Select camera button</string>
+    <string name="AccessibilityId_blocked_banner">Blocked banner</string>
+    <string name="AccessibilityId_blocked_banner_text">Blocked banner text</string>
+    <string name="AccessibilityId_block_message_request_button">Block message request</string>
+    <string name="AccessibilityId_accept_message_request_button">Accept message request</string>
+    <string name="AccessibilityId_decline_message_request_button">Decline message request</string>
+    <string name="activity_disappearing_messages_title">Disappearing Messages</string>
+    <string name="activity_disappearing_messages_subtitle">This setting applies to messages you send in this conversation.</string>
+    <string name="AccessibilityId_enter_display_name">Enter display name</string>
+    <string name="AccessibilityId_continue">Continue</string>
+    <string name="AccessibilityId_cancel_name_change">Cancel name change</string>
+    <string name="AccessibilityId_group_name">Group name</string>
+    <string name="AccessibilityId_accept_name_change">Accept name change</string>
+    <string name="AccessibilityId_add_members">Add members</string>
 
 
 
 
+
+
+
+
+
+
+
+
+
+    <string name="ConversationActivity_send_after_approval">You will be able to send voice messages and attachments once the recipient has approved this message request</string>
+
+
+
+
+
+
+
+
+
+    <!-- End of ACL added defaults -->
 
 
     <!-- ======================================================================================= -->
