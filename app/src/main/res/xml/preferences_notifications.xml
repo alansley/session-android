@@ -26,7 +26,7 @@
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:key="pref_sound_when_app_open"
             android:defaultValue="false"
-            android:title="@string/preferences__in_app_sounds"
+            android:title="@string/notificationsSoundDescription"
             />
 
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat

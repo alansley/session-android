@@ -105,7 +105,6 @@
     <string name="messageMarkRead">علامت گذاری به عنوان خوانده شده</string>
     <string name="MessageNotifier_unknown_contact_message">مخاطب</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">تماس‌ها</string>
     <string name="failures">خطاها</string>
     <string name="lockAppStatus">وضعیت قفل</string>
     <string name="updateApp">به‌روزآوری‌های برنامه</string>
@@ -179,26 +178,19 @@
         <item quantity="other">%d ساعت</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_summary">با زدن روی رمز وارد‌سازی، به جای شروع یک خط جدید، پیام ارسال خواهد شد.</string>
+
     <string name="preferences__send_link_previews">ارسال پیش‌نمایش‌های لینک</string>
-    <string name="preferences__link_previews">پیش‌نمایش‌های لینک</string>
-    <string name="preferences__link_previews_summary">ایجاد پیش‌نمایش‌های لینک برای URLهای تحت پشتیبانی.</string>
-    <string name="preferences__pref_autoplay_audio_category">پیام های صوتی</string>
     <string name="preferences__pref_autoplay_audio_title">پخش خودکار پیام‌های صوتی</string>
-    <string name="preferences__pref_autoplay_audio_summary">پخش خودکار پیام‌های صوتی پشت‌سرهم.</string>
-    <string name="preferences__screen_security">امنیت صفحه</string>
+    <string name="screenSecurity">امنیت صفحه</string>
     <string name="sessionNotifications">اعلانات</string>
     <string name="notificationsLedColor">رنگ چراغ ال‌ای‌دی</string>
     <string name="notificationsSound">صدا</string>
-    <string name="preferences__in_app_sounds">صدا وقتی برنامه باز است</string>
     <string name="notificationsVibrate">لرزش</string>
     <string name="preferences__trim_all_conversations_now">حذف پیام‌های قدیمی، همین حالا</string>
     <string name="_default">پیش فرض</string>
     <string name="incognitoKeyboard">کیبورد ناشناس</string>
-    <string name="preferences__read_receipts">رسیدهای خواندن</string>
-    <string name="preferences__read_receipts_summary">رسیدهای خواندن در چت‌های یک به یک روان شود.</string>
-    <string name="preferences__typing_indicators">نشانگر‌های در حال تایپ</string>
-    <string name="preferences__typing_indicators_summary">مشاهده و به‌اشتراک‌گذاری نشانگر‌های در حال تایپ در مکالمات یک به یک.</string>
+    <string name="readReceipts">رسیدهای خواندن</string>
+    <string name="typingIndicators">نشانگر‌های در حال تایپ</string>
     <string name="conversationsMessageTrimming">مرتب‌سازی پیام</string>
     <string name="preferences_chats__message_trimming_title">مرتب‌سازی انجمن‌ها</string>
     <string name="preferences_chats__message_trimming_summary">پیام‌های قدیمی‌تر از ۶ ماه را از انجمن‌های دارای بیش از ۲۰۰۰ پیام، حذف کنید.</string>
@@ -322,16 +314,12 @@
     <string name="decline">رد کردن</string>
     <string name="clearAll">حذف همه</string>
     <string name="message_requests_decline_message">آیا مطمئن هستید که می خواهید این درخواست پیام را رد کنید؟</string>
-    <string name="message_requests_block_message">آیا مطمئن هستید که می خواهید این درخواست پیام را رد کنید؟</string>
     <string name="messageRequestsAccepted">درخواست پیام شما قبول شد.</string>
     <string name="messageRequestPending">درخواست پیام شما در انتظار پاسخ می باشد.</string>
     <string name="messageRequestsNonePending">هیچ درخواست پیامی وجود ندارد</string>
     <string name="messageRequestsNew">شما درخواست پیام جدیدی دارید</string>
     <string name="callsInProgress">در حال تماس...</string>
     <string name="NotificationBarManager__end_call">پایان تماس</string>
-    <string name="preferences__voice_video_calls">تماس‌های صوتی و تصویری</string>
-    <string name="preferences__calls_beta">تماس‌ها (بتا)</string>
-    <string name="preferences__allow_access_voice_video">فعال‌سازی تماس‌های صوتی و تصویری به و از کاربران دیگر.</string>
     <string name="WebRtcCallActivity_Session_Call">تماس Session</string>
     <string name="callsReconnecting">در حال اتصال دوباره...</string>
     <string name="dismiss">رد کردن</string>
@@ -368,7 +356,6 @@
         <item quantity="one">و %1$d نفر دیگر با %2$s به این پیام واکنش نشان داده است</item>
         <item quantity="other">و %1$d نفر دیگر با %2$s به این پیام واکنش نشان داده اند</item>
     </plurals>
-    <string name="new_conversation_contacts_title">مخاطبین</string>
     <string name="fragment_enter_public_key_prompt">یک مکالمه جدید را با وارد کردن شناسه Session شخصی شروع کنید یا شناسه جلسه خود را با آنها به اشتراک بگذارید.</string>
     <string name="fragment_enter_community_url_join_button_title">پیوستن</string>
 </resources>

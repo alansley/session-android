@@ -83,7 +83,6 @@
     <string name="messageMarkRead">ဖတ်ပြီးသား</string>
     <string name="MessageNotifier_unknown_contact_message">အဆက်အသွယ်</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">ဖုန်းခေါ်ဆိုမှုများ</string>
     <string name="other">အခြား</string>
     <!-- QuickResponseService -->
     <string name="lockAppQuickResponse">Session လော့ခ်ကျသွားသည့်အခါ ချက်ချင်းမတုံ့ပြန်နိုင်ပါ!</string>
@@ -139,7 +138,7 @@
     <string name="max">အများဆုံး</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
-    <string name="preferences__screen_security">အဖွင့်စာမျက်နှာ လုံခြုံရေး</string>
+    <string name="screenSecurity">အဖွင့်စာမျက်နှာ လုံခြုံရေး</string>
     <string name="sessionNotifications">အသိပေးချက်များ</string>
     <string name="notificationsLedColor">LED အရောင်</string>
     <string name="notificationsSound">အသံ</string>
@@ -147,7 +146,7 @@
     <string name="preferences__trim_all_conversations_now">စကားဝိုင်းများအားလုံးကို အခု ညှိပါ</string>
     <string name="_default">မူလ</string>
     <string name="incognitoKeyboard">နောက်ယောင်ခံမှု မရှိသည့် ကီးဘုတ်</string>
-    <string name="preferences__read_receipts">ဖတ်ပြီးပြီ</string>
+    <string name="readReceipts">ဖတ်ပြီးပြီ</string>
     <string name="conversationsMessageTrimming">စာများကို ညှိခြင်း</string>
     <!-- **************************************** -->
     <!-- menus -->

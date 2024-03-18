@@ -105,7 +105,6 @@
     <string name="messageMarkRead">पढ़ा हुआ चिह्नित करें</string>
     <string name="MessageNotifier_unknown_contact_message">संपर्क</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">कॉल</string>
     <string name="failures">विफलतायें </string>
     <string name="lockAppStatus">लॉक स्थिति</string>
     <string name="updateApp">ऐप अपडेट</string>
@@ -180,7 +179,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">लिंक प्रिव्यू भेजें</string>
-    <string name="preferences__screen_security">स्क्रीन सुरक्षा</string>
+    <string name="screenSecurity">स्क्रीन सुरक्षा</string>
     <string name="sessionNotifications">सूचनाएं</string>
     <string name="notificationsLedColor">LED रंग </string>
     <string name="notificationsSound">आवाज़ </string>
@@ -188,8 +187,8 @@
     <string name="preferences__trim_all_conversations_now">अब सभी वार्तालापों को ट्रिम करें</string>
     <string name="_default">डिफ़ॉल्ट</string>
     <string name="incognitoKeyboard">गुप्त कीबोर्ड</string>
-    <string name="preferences__read_receipts">पढ़ने की रसीदें</string>
-    <string name="preferences__typing_indicators">टाइपिंग सूचक</string>
+    <string name="readReceipts">पढ़ने की रसीदें</string>
+    <string name="typingIndicators">टाइपिंग सूचक</string>
     <string name="conversationsMessageTrimming">संदेश ट्रिमिंग</string>
     <!-- **************************************** -->
     <!-- menus -->

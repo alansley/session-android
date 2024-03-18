@@ -106,7 +106,6 @@
     <string name="messageMarkRead">Marquer comme lu</string>
     <string name="MessageNotifier_unknown_contact_message">Contact</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Appels</string>
     <string name="failures">Échecs</string>
     <string name="lockAppStatus">État de verrouillage</string>
     <string name="updateApp">Mises à jour de l’appli</string>
@@ -180,26 +179,20 @@
         <item quantity="other">%d heures</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__pref_enter_sends_summary">Appuyer sur la touche Entrée enverra un message au lieu de commencer une nouvelle ligne.</string>
+
     <string name="preferences__send_link_previews">Envoyer les aperçus des liens</string>
-    <string name="preferences__link_previews">Aperçus des liens</string>
-    <string name="preferences__link_previews_summary">Générer les aperçus des liens pour les URLs supportés.</string>
-    <string name="preferences__pref_autoplay_audio_category">Messages audio</string>
     <string name="preferences__pref_autoplay_audio_title">Lire automatiquement les messages audios</string>
-    <string name="preferences__pref_autoplay_audio_summary">Lire automatiquement les messages audio consécutifs.</string>
-    <string name="preferences__screen_security">Sécurité de l’écran</string>
+
+    <string name="screenSecurity">Sécurité de l’écran</string>
     <string name="sessionNotifications">Notifications</string>
     <string name="notificationsLedColor">Couleur de la DEL</string>
     <string name="notificationsSound">Son</string>
-    <string name="preferences__in_app_sounds">Son à l\'ouverture de l\'application</string>
     <string name="notificationsVibrate">Vibrer</string>
     <string name="preferences__trim_all_conversations_now">Réduire toutes les conversations maintenant</string>
     <string name="_default">Valeur par défaut</string>
     <string name="incognitoKeyboard">Clavier incognito</string>
-    <string name="preferences__read_receipts">Accusés de lecture</string>
-    <string name="preferences__read_receipts_summary">Envoyer des accusés de lecture dans les conversations individuelles.</string>
-    <string name="preferences__typing_indicators">Indicateurs de saisie</string>
-    <string name="preferences__typing_indicators_summary">Voir et envoyer les indicateurs de saisie dans les conversations un à un.</string>
+    <string name="readReceipts">Accusés de lecture</string>
+    <string name="typingIndicators">Indicateurs de saisie</string>
     <string name="conversationsMessageTrimming">Élagage des messages</string>
     <string name="preferences_chats__message_trimming_title">Raccourcir les communautés</string>
     <string name="preferences_chats__message_trimming_summary">Supprimer des messages de plus de 6 mois dans des communautés qui ont plus de 2 000 messages.</string>
@@ -326,21 +319,15 @@
     <string name="decline">Refuser</string>
     <string name="clearAll">Effacer tout</string>
     <string name="message_requests_decline_message">Êtes-vous sûr de vouloir refuser cette demande de message ?</string>
-    <string name="message_requests_block_message">Êtes-vous sûr de vouloir supprimer cette demande de message ?</string>
     <string name="messageRequestsAccepted">Votre demande de message a été acceptée.</string>
     <string name="messageRequestPending">Votre demande de message est en attente.</string>
     <string name="messageRequestsNonePending">Aucune demande de message en attente</string>
     <string name="messageRequestsNew">Vous avez une nouvelle demande de message</string>
     <string name="callsInProgress">Appel en cours</string>
     <string name="NotificationBarManager__end_call">Raccrocher</string>
-    <string name="preferences__voice_video_calls">Appels vocaux et vidéos</string>
-    <string name="preferences__calls_beta">Appels (Bêta)</string>
-    <string name="preferences__allow_access_voice_video">Active les appels vocaux et vidéo vers et depuis d\'autres utilisateurs.</string>
     <string name="WebRtcCallActivity_Session_Call">Appel Session</string>
     <string name="callsReconnecting">Reconnexion…</string>
     <string name="dismiss">Rejeter</string>
-    <string name="ocean_dark_theme_name">Océan sombre</string>
-    <string name="ocean_light_theme_name">Océan lumineux</string>
     <string name="appearancePrimaryColor">Couleur principale</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">Ce message</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">Fréquemment Utilisés</string>
@@ -378,8 +365,6 @@
         <item quantity="one">Et %1$d autre a réagi %2$s à ce message</item>
         <item quantity="other">Et %1$d autres ont réagi %2$s à ce message</item>
     </plurals>
-    <string name="new_conversation_contacts_title">Contacts</string>
-    <string name="new_conversation_unknown_contacts_section_title">Inconnu·e</string>
     <string name="fragment_enter_public_key_prompt">Commencez une nouvelle conversation en entrant l\'ID Session de quelqu\'un ou en lui partageant votre ID Session.</string>
     <string name="search_contacts_hint">Rechercher parmi les contacts</string>
     <string name="fragment_enter_community_url_join_button_title">Rejoindre</string>

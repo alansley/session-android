@@ -105,7 +105,6 @@
     <string name="messageMarkRead">Vëri shenjë si të lexuar</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Thirrje</string>
     <string name="failures">Dështime</string>
     <string name="lockAppStatus">Gjendje kyçjeje</string>
     <string name="updateApp">Përditësime aplikacioni</string>
@@ -180,7 +179,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Dërgo paraparje lidhjesh</string>
-    <string name="preferences__screen_security">Siguri ekrani</string>
+    <string name="screenSecurity">Siguri ekrani</string>
     <string name="sessionNotifications">Njoftime</string>
     <string name="notificationsLedColor">Ngjyrë LED-i</string>
     <string name="notificationsSound">Tingull</string>
@@ -188,8 +187,8 @@
     <string name="preferences__trim_all_conversations_now">Shkurtoji krejt bisedat tash</string>
     <string name="_default">Parazgjedhje</string>
     <string name="incognitoKeyboard">Tastatur e fshehtë</string>
-    <string name="preferences__read_receipts">Dëftesa leximi</string>
-    <string name="preferences__typing_indicators">Tregues shtypjeje</string>
+    <string name="readReceipts">Dëftesa leximi</string>
+    <string name="typingIndicators">Tregues shtypjeje</string>
     <string name="conversationsMessageTrimming">Shkurtim mesazhesh</string>
     <!-- **************************************** -->
     <!-- menus -->

@@ -95,7 +95,6 @@
     <string name="messageMarkRead">Xwendî nîşan bike</string>
     <string name="MessageNotifier_unknown_contact_message">Berdeng</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Gazî</string>
     <string name="failures">Çewtî</string>
     <string name="lockAppStatus">Rewşa kilîdê</string>
     <string name="updateApp">Hildemên sepanê</string>
@@ -166,7 +165,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Pêşdîtinên girêdanê bişîne</string>
-    <string name="preferences__screen_security">Ewlehiya ekranê</string>
+    <string name="screenSecurity">Ewlehiya ekranê</string>
     <string name="sessionNotifications">Danezan</string>
     <string name="notificationsLedColor">Rengê LED</string>
     <string name="notificationsSound">Deng</string>
@@ -174,8 +173,8 @@
     <string name="preferences__trim_all_conversations_now">Hemû axaftinan qut bike</string>
     <string name="_default">Jixweber</string>
     <string name="incognitoKeyboard">Textenivîsa veşartî</string>
-    <string name="preferences__read_receipts">Girtekan bixwîne</string>
-    <string name="preferences__typing_indicators">Nîşandêrên nivîsandinê</string>
+    <string name="readReceipts">Girtekan bixwîne</string>
+    <string name="typingIndicators">Nîşandêrên nivîsandinê</string>
     <string name="conversationsMessageTrimming">Qusandina peyamê</string>
     <!-- **************************************** -->
     <!-- menus -->

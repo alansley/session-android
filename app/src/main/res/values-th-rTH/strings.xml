@@ -91,7 +91,6 @@
     <string name="messageMarkRead">ทำเครื่องหมายว่าอ่านแล้ว</string>
     <string name="MessageNotifier_unknown_contact_message">ผู้ติดต่อ</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">การโทร</string>
     <string name="failures">ล้มเหลว</string>
     <string name="lockAppStatus">สถานะล๊อค</string>
     <string name="updateApp">การอัปเดตแอป</string>
@@ -155,7 +154,7 @@
         <item quantity="other">%d ชั่วโมง</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__screen_security">ความปลอดภัยหน้าจอ</string>
+    <string name="screenSecurity">ความปลอดภัยหน้าจอ</string>
     <string name="sessionNotifications">การแจ้งเตือน</string>
     <string name="notificationsLedColor">สี LED</string>
     <string name="notificationsSound">เสียง</string>
@@ -163,7 +162,7 @@
     <string name="preferences__trim_all_conversations_now">ตัดการสนทนาทั้งหมดให้สั้นลงเดี๋ยวนี้</string>
     <string name="_default">ค่าเริ่มต้น</string>
     <string name="incognitoKeyboard">แป้นพิมพ์แบบลับ</string>
-    <string name="preferences__read_receipts">ใบตอบรับเมื่ออ่าน</string>
+    <string name="readReceipts">ใบตอบรับเมื่ออ่าน</string>
     <string name="conversationsMessageTrimming">ตัดข้อความให้สั้นลง</string>
     <!-- **************************************** -->
     <!-- menus -->

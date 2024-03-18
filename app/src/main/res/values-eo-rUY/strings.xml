@@ -105,7 +105,6 @@
     <string name="messageMarkRead">Marki legita</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakto</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Alvokoj</string>
     <string name="failures">Malsukcesoj</string>
     <string name="lockAppStatus">Ŝlosostato</string>
     <string name="updateApp">Aplikaĵaj ĝisdatigoj</string>
@@ -180,7 +179,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Sendi antaŭrigardojn de ligilo</string>
-    <string name="preferences__screen_security">Ekrana sekurigo</string>
+    <string name="screenSecurity">Ekrana sekurigo</string>
     <string name="sessionNotifications">Sciigoj</string>
     <string name="notificationsLedColor">LED-a koloro</string>
     <string name="notificationsSound">Sono</string>
@@ -188,8 +187,8 @@
     <string name="preferences__trim_all_conversations_now">Mallongigi ĉiujn interparolojn nun</string>
     <string name="_default">Defaŭlta</string>
     <string name="incognitoKeyboard">Inkognita klavaro</string>
-    <string name="preferences__read_receipts">Legokonfirmoj</string>
-    <string name="preferences__typing_indicators">Tajp-indikiloj</string>
+    <string name="readReceipts">Legokonfirmoj</string>
+    <string name="typingIndicators">Tajp-indikiloj</string>
     <string name="conversationsMessageTrimming">Tondeto de mesaĝoj</string>
     <!-- **************************************** -->
     <!-- menus -->

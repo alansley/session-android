@@ -98,7 +98,6 @@
     <string name="messageMarkRead">សម្គាល់ថាបានអាន</string>
     <string name="MessageNotifier_unknown_contact_message">ទំនាក់ទំនង</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">ការហៅ</string>
     <string name="failures">បរាជ័យ</string>
     <string name="lockAppStatus">ស្ថានភាពចាក់សោរ</string>
     <string name="updateApp">បច្ចុប្បន្នភាពកម្មវិធី</string>
@@ -168,7 +167,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">ការមើល ការផ្ញើតំណភ្ជាប់</string>
-    <string name="preferences__screen_security">អេក្រង់សុវត្ថិភាព</string>
+    <string name="screenSecurity">អេក្រង់សុវត្ថិភាព</string>
     <string name="sessionNotifications">សារជូនដំណឹង</string>
     <string name="notificationsLedColor">ពណ៌​LED</string>
     <string name="notificationsSound">សំឡេង</string>
@@ -176,8 +175,8 @@
     <string name="preferences__trim_all_conversations_now">តម្រឹមការសន្ទនាទាំងអស់ឥលូវនេះ</string>
     <string name="_default">លំនាំដើម</string>
     <string name="incognitoKeyboard">ក្តារចុចអនាមឹក</string>
-    <string name="preferences__read_receipts">ទទួលបានការអាន</string>
-    <string name="preferences__typing_indicators">វាស់ការវាយអក្សរ</string>
+    <string name="readReceipts">ទទួលបានការអាន</string>
+    <string name="typingIndicators">វាស់ការវាយអក្សរ</string>
     <string name="conversationsMessageTrimming">តម្រឹមសារ</string>
     <!-- **************************************** -->
     <!-- menus -->

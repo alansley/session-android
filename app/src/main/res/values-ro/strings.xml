@@ -108,7 +108,6 @@
     <string name="messageMarkRead">Marchează ca citit</string>
     <string name="MessageNotifier_unknown_contact_message">Contact</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Apeluri</string>
     <string name="failures">Erori</string>
     <string name="lockAppStatus">Stare blocare</string>
     <string name="updateApp">Actualizări aplicație</string>
@@ -185,7 +184,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Trimite previzualizarea link-urilor</string>
-    <string name="preferences__screen_security">Securitate ecran</string>
+    <string name="screenSecurity">Securitate ecran</string>
     <string name="sessionNotifications">Notificări</string>
     <string name="notificationsLedColor">Culoare LED</string>
     <string name="notificationsSound">Sunet</string>
@@ -193,8 +192,8 @@
     <string name="preferences__trim_all_conversations_now">Scurtează acum toate conversaţiile </string>
     <string name="_default">Implicit</string>
     <string name="incognitoKeyboard">Tastatură incognito</string>
-    <string name="preferences__read_receipts">Confirmări de citire</string>
-    <string name="preferences__typing_indicators">Indicatori tastare</string>
+    <string name="readReceipts">Confirmări de citire</string>
+    <string name="typingIndicators">Indicatori tastare</string>
     <string name="conversationsMessageTrimming">Scurtarea mesajelor</string>
     <!-- **************************************** -->
     <!-- menus -->

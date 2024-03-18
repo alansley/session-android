@@ -86,7 +86,6 @@
     <string name="messageMarkRead">Tandai sudah dibaca</string>
     <string name="MessageNotifier_unknown_contact_message">Kontak</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Panggilan</string>
     <string name="failures">Gagal</string>
     <string name="lockAppStatus">Status penguncian</string>
     <string name="updateApp">pembaruan aplikasi</string>
@@ -146,7 +145,7 @@
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Kirim pratinjau tautan</string>
-    <string name="preferences__screen_security">Keamanan Layar</string>
+    <string name="screenSecurity">Keamanan Layar</string>
     <string name="sessionNotifications">Pemberitahuan</string>
     <string name="notificationsLedColor">Warna LED</string>
     <string name="notificationsSound">Bunyi</string>
@@ -154,8 +153,8 @@
     <string name="preferences__trim_all_conversations_now">Pangkas seluruh percakapan</string>
     <string name="_default">Bawaan</string>
     <string name="incognitoKeyboard">Papan ketik tersembunyi</string>
-    <string name="preferences__read_receipts">Pesan terbaca</string>
-    <string name="preferences__typing_indicators">Indikator penulisan</string>
+    <string name="readReceipts">Pesan terbaca</string>
+    <string name="typingIndicators">Indikator penulisan</string>
     <string name="conversationsMessageTrimming">Penyingkatan pesan</string>
     <!-- **************************************** -->
     <!-- menus -->

@@ -105,7 +105,6 @@
     <string name="messageMarkRead">Oxundu olaraq işarələ</string>
     <string name="MessageNotifier_unknown_contact_message">Əlaqə</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Zənglər</string>
     <string name="failures">Xətalar</string>
     <string name="lockAppStatus">Kilid vəziyyəti</string>
     <string name="updateApp">Tətbiq yeniləmələri</string>
@@ -180,7 +179,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Bağlantı önbaxışlarını göndər</string>
-    <string name="preferences__screen_security">Ekran güvənliyi</string>
+    <string name="screenSecurity">Ekran güvənliyi</string>
     <string name="sessionNotifications">Bildirişlər</string>
     <string name="notificationsLedColor">LED rəng</string>
     <string name="notificationsSound">Səs</string>
@@ -188,8 +187,8 @@
     <string name="preferences__trim_all_conversations_now">Bütün danışıqları indi kəs</string>
     <string name="_default">İlkin</string>
     <string name="incognitoKeyboard">Gizli klaviatura</string>
-    <string name="preferences__read_receipts">Oxundu bildirişləri</string>
-    <string name="preferences__typing_indicators">Yazma göstəriciləri</string>
+    <string name="readReceipts">Oxundu bildirişləri</string>
+    <string name="typingIndicators">Yazma göstəriciləri</string>
     <string name="conversationsMessageTrimming">Mesajları kəsmə</string>
     <!-- **************************************** -->
     <!-- menus -->

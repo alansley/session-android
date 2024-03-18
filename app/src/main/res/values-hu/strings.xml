@@ -106,7 +106,6 @@
     <string name="messageMarkRead">Olvasottnak jelöl</string>
     <string name="MessageNotifier_unknown_contact_message">Névjegy</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Hívások</string>
     <string name="failures">Hibák</string>
     <string name="lockAppStatus">Zár státusza</string>
     <string name="updateApp">App frissítések</string>
@@ -181,7 +180,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Hivatkozások előnézeti képének küldése</string>
-    <string name="preferences__screen_security">Képernyőbiztonság</string>
+    <string name="screenSecurity">Képernyőbiztonság</string>
     <string name="sessionNotifications">Értesítések</string>
     <string name="notificationsLedColor">LED színe</string>
     <string name="notificationsSound">Hang</string>
@@ -189,8 +188,8 @@
     <string name="preferences__trim_all_conversations_now">Összes beszélgetés csonkítása most</string>
     <string name="_default">Alapértelmezett</string>
     <string name="incognitoKeyboard">Inkognitó billentyűzet</string>
-    <string name="preferences__read_receipts">Olvasási nyugták</string>
-    <string name="preferences__typing_indicators">Gépelésindikátorok</string>
+    <string name="readReceipts">Olvasási nyugták</string>
+    <string name="typingIndicators">Gépelésindikátorok</string>
     <string name="conversationsMessageTrimming">Üzenetek csonkítása</string>
     <!-- **************************************** -->
     <!-- menus -->

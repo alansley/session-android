@@ -105,7 +105,6 @@
     <string name="messageMarkRead">Okundu işaretle</string>
     <string name="MessageNotifier_unknown_contact_message">Kişi</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Aramalar</string>
     <string name="failures">Hatalar</string>
     <string name="lockAppStatus">Kilit durumu</string>
     <string name="updateApp">Uygulama güncellemeleri</string>
@@ -180,7 +179,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Bağlantı ön izlemelerini gönder</string>
-    <string name="preferences__screen_security">Ekran güvenliği</string>
+    <string name="screenSecurity">Ekran güvenliği</string>
     <string name="sessionNotifications">Bildirimler</string>
     <string name="notificationsLedColor">LED rengi</string>
     <string name="notificationsSound">Zil Sesi</string>
@@ -188,8 +187,8 @@
     <string name="preferences__trim_all_conversations_now">Tüm sohbetleri şimdi kırp</string>
     <string name="_default">Varsayılan</string>
     <string name="incognitoKeyboard">Gizli klavye</string>
-    <string name="preferences__read_receipts">Okundu bilgisi</string>
-    <string name="preferences__typing_indicators">\'Yazıyor\' göstergeleri</string>
+    <string name="readReceipts">Okundu bilgisi</string>
+    <string name="typingIndicators">\'Yazıyor\' göstergeleri</string>
     <string name="conversationsMessageTrimming">İleti kırpma</string>
     <!-- **************************************** -->
     <!-- menus -->

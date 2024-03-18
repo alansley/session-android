@@ -84,9 +84,9 @@ class MessageRequestsActivity : PassphraseRequiredActionBarActivity(), Conversat
 
         showSessionDialog {
             title(R.string.block)
-                text(R.string.message_requests_block_message)
-                button(R.string.block) { doBlock() }
-                button(R.string.no)
+            text(R.string.blockDescription)
+            button(R.string.block) { doBlock() }
+            button(R.string.no)
         }
     }
 

@@ -105,7 +105,6 @@
     <string name="messageMarkRead">Markeren als gelezen</string>
     <string name="MessageNotifier_unknown_contact_message">Contactpersoon</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Oproepen</string>
     <string name="failures">Mislukkingen</string>
     <string name="lockAppStatus">Vergrendelingstoestand</string>
     <string name="updateApp">Nieuwe versies van de app </string>
@@ -180,7 +179,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Voorbeeldweergaven verzenden</string>
-    <string name="preferences__screen_security">Schermafdrukken blokkeren</string>
+    <string name="screenSecurity">Schermafdrukken blokkeren</string>
     <string name="sessionNotifications">Meldingen</string>
     <string name="notificationsLedColor">Notificatie-LED-kleur</string>
     <string name="notificationsSound">Geluid</string>
@@ -188,8 +187,8 @@
     <string name="preferences__trim_all_conversations_now">Oude berichten nu verwijderen</string>
     <string name="_default">Systeem-standaard</string>
     <string name="incognitoKeyboard">Incognito toetsenbord</string>
-    <string name="preferences__read_receipts">Leesbevestigingen</string>
-    <string name="preferences__typing_indicators">Typindicatoren</string>
+    <string name="readReceipts">Leesbevestigingen</string>
+    <string name="typingIndicators">Typindicatoren</string>
     <string name="conversationsMessageTrimming">Beperk bewaartermijn</string>
     <!-- **************************************** -->
     <!-- menus -->

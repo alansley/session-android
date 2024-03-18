@@ -105,7 +105,6 @@
     <string name="messageMarkRead">Σημείωση ως αναγνωσμένο</string>
     <string name="MessageNotifier_unknown_contact_message">Επαφή</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Κλήσεις</string>
     <string name="failures">Αποτυχίες</string>
     <string name="lockAppStatus">Κατάσταση κλειδώματος</string>
     <string name="updateApp">Αναβαθμίσεις εφαρμογής</string>
@@ -180,7 +179,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Αποστολή προεπισκοπήσεων συνδέσμων</string>
-    <string name="preferences__screen_security">Ασφάλεια οθόνης</string>
+    <string name="screenSecurity">Ασφάλεια οθόνης</string>
     <string name="sessionNotifications">Ειδοποιήσεις</string>
     <string name="notificationsLedColor">Χρώμα LED</string>
     <string name="notificationsSound">Ήχος</string>
@@ -188,8 +187,8 @@
     <string name="preferences__trim_all_conversations_now">Περικοπή όλων των συνομιλιών τώρα</string>
     <string name="_default">Προκαθορισμένο</string>
     <string name="incognitoKeyboard">Κρυφό πληκτρολόγιο</string>
-    <string name="preferences__read_receipts">Αποδεικτικά ανάγνωσης</string>
-    <string name="preferences__typing_indicators">Δείκτες πληκτρολόγησης</string>
+    <string name="readReceipts">Αποδεικτικά ανάγνωσης</string>
+    <string name="typingIndicators">Δείκτες πληκτρολόγησης</string>
     <string name="conversationsMessageTrimming">Περικοπή μηνυμάτων</string>
     <!-- **************************************** -->
     <!-- menus -->

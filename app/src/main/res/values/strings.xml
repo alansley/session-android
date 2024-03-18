@@ -31,7 +31,9 @@
     <string name="KeyboardPagerfragment_back_to_emoji">Back to emoji</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Unable to save to external storage without permissions</string>
     <string name="via">Via</string>
-
+    <string name="_error">Error</string>
+    <string name="readReceipts">Read Receipts</string>
+    <string name="typingIndicators">Typing Indicators</string>
 
 
 
@@ -423,7 +425,6 @@
     <string name="profile">Profile</string>
     <string name="lockAppQuickResponse">Quick response unavailable when Session is locked!</string>
     <string name="read">Read</string>
-    <string name="readReceipts">Read Receipts</string>
     <string name="received">Received</string>
     <string name="messageErrorOld">Received a message encrypted using an old version of Session that is no longer supported. Please ask the sender to update to the most recent version and resend the message.</string>
     <string name="recommended">Recommended</string>
@@ -559,7 +560,6 @@
     <string name="authenticateFailedTooManyAttempts">Too many failed authentication attempts. Please try again later.</string>
     <string name="conversationsMessageTrimmingTrimCommunities">Trim Communities</string>
     <string name="tryAgain">Try Again</string>
-    <string name="typingIndicators">Typing Indicators</string>
     <string name="linkPreviewsErrorLoad">Unable to load link preview</string>
     <string name="attachmentsErrorOpen">Unable to open file.</string>
     <string name="audioUnableToPlay">Unable to play audio file.</string>
@@ -662,5 +662,7 @@
     <string name="attachmentsErrorLoad">Error attaching file</string>
     <string name="notificationsMuted">Muted</string>
     <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Session needs storage access in order to save to external storage, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Storage\".</string>
+    <string name="unknown">Unknown</string>
+    <string name="typingIndicatorsSummary">See and share typing indicators (...)</string>
 
 </resources>

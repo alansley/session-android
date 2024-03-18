@@ -86,7 +86,6 @@
     <string name="messageMarkRead">soma nakili</string>
     <string name="MessageNotifier_unknown_contact_message">Mawasiliano</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">wito</string>
     <string name="failures">Kushindwa</string>
     <string name="lockAppStatus">Hali ya kufunga</string>
     <string name="updateApp">Sasisho za programu</string>
@@ -149,7 +148,7 @@
     <!-- plurals.xml -->
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">tuma kiungo kilichoonekana</string>
-    <string name="preferences__screen_security">usalamaa wa skrini</string>
+    <string name="screenSecurity">usalamaa wa skrini</string>
     <string name="sessionNotifications">Arifa</string>
     <string name="notificationsLedColor">Rangi za LED</string>
     <string name="notificationsSound">Sauti</string>
@@ -157,8 +156,8 @@
     <string name="preferences__trim_all_conversations_now">Piga mazungumzo yote sasa</string>
     <string name="_default">Chaguo Msingi</string>
     <string name="incognitoKeyboard">Kibodi cha kuingia</string>
-    <string name="preferences__read_receipts">Soma stakabadhi</string>
-    <string name="preferences__typing_indicators">andika viashiria</string>
+    <string name="readReceipts">Soma stakabadhi</string>
+    <string name="typingIndicators">andika viashiria</string>
     <string name="conversationsMessageTrimming">ujumbe unapunguza</string>
     <!-- **************************************** -->
     <!-- menus -->

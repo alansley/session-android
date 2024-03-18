@@ -67,7 +67,6 @@
     <!-- MediaPreviewActivity -->
     <!-- MessageNotifier -->
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">ಕಾಲುಗಳು</string>
     <string name="failures">ವಿಫಲತೆಗಳು</string>
     <string name="other">ಇತರೆ</string>
     <!-- QuickResponseService -->
@@ -114,7 +113,7 @@
     <string name="video">ವೀಡಿಯೊ</string>
     <!-- plurals.xml -->
     <!-- preferences.xml -->
-    <string name="preferences__screen_security">ಪರದೆಯ ಭದ್ರತೆ</string>
+    <string name="screenSecurity">ಪರದೆಯ ಭದ್ರತೆ</string>
     <string name="sessionNotifications">ಅಧಿಸೂಚನೆಗಳು</string>
     <string name="notificationsLedColor">ಎಲಿಡಿ ಬಣ್ಣ</string>
     <string name="notificationsSound">ಶಬ್ಧ</string>

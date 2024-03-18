@@ -109,7 +109,6 @@
     <string name="messageMarkRead">Označiť ako prečítané</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Volania</string>
     <string name="failures">Chyby</string>
     <string name="lockAppStatus">Stav zámku</string>
     <string name="updateApp">Aktualizácie aplikácie</string>
@@ -188,7 +187,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Posielať náhľady stránok</string>
-    <string name="preferences__screen_security">Zabezpečenie obrazovky</string>
+    <string name="screenSecurity">Zabezpečenie obrazovky</string>
     <string name="sessionNotifications">Upozornenia</string>
     <string name="notificationsLedColor">LED farba</string>
     <string name="notificationsSound">Zvuk</string>
@@ -196,8 +195,8 @@
     <string name="preferences__trim_all_conversations_now">Premazať všetky konverzácie teraz</string>
     <string name="_default">Štandardné nastavenie</string>
     <string name="incognitoKeyboard">Inkognito klávesnica</string>
-    <string name="preferences__read_receipts">Potvrdenia o prečítaní</string>
-    <string name="preferences__typing_indicators">Indikátory písania</string>
+    <string name="readReceipts">Potvrdenia o prečítaní</string>
+    <string name="typingIndicators">Indikátory písania</string>
     <string name="conversationsMessageTrimming">Premazávanie správ</string>
     <!-- **************************************** -->
     <!-- menus -->

@@ -99,7 +99,6 @@
     <string name="messageMarkRead">Märgi loetuks</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Kõned</string>
     <string name="failures">Ebaõnnestumised</string>
     <string name="lockAppStatus">Luku olek</string>
     <string name="updateApp">Rakenduse uuendused</string>
@@ -170,7 +169,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Saada linkide eelvaateid</string>
-    <string name="preferences__screen_security">Kuva turvamine</string>
+    <string name="screenSecurity">Kuva turvamine</string>
     <string name="sessionNotifications">Teated</string>
     <string name="notificationsLedColor">LEDi värv</string>
     <string name="notificationsSound">Heli</string>
@@ -178,8 +177,8 @@
     <string name="preferences__trim_all_conversations_now">Piira kõik vestlused nüüd</string>
     <string name="_default">Vaikimisi</string>
     <string name="incognitoKeyboard">Inkognito klaviatuur</string>
-    <string name="preferences__read_receipts">Lugemiskinnitused</string>
-    <string name="preferences__typing_indicators">Kirjutamisindikaatorid</string>
+    <string name="readReceipts">Lugemiskinnitused</string>
+    <string name="typingIndicators">Kirjutamisindikaatorid</string>
     <string name="conversationsMessageTrimming">Sõnumi piiramine</string>
     <!-- **************************************** -->
     <!-- menus -->

@@ -101,7 +101,6 @@
     <string name="messageMarkRead">చదివినట్టు గుర్తుపెట్టు</string>
     <string name="MessageNotifier_unknown_contact_message">పరిచయం</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">కాల్స్</string>
     <string name="failures">వైఫల్యాలు</string>
     <string name="lockAppStatus">స్థితి లాక్</string>
     <string name="updateApp">అనువర్తన నవీకరణలు</string>
@@ -168,7 +167,7 @@
         <item quantity="other">%d గంటలు</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__screen_security">స్క్రీన్ భద్రత</string>
+    <string name="screenSecurity">స్క్రీన్ భద్రత</string>
     <string name="sessionNotifications">ప్రకటనలు</string>
     <string name="notificationsLedColor">ఎల్ఈడి రంగు</string>
     <string name="notificationsSound">శబ్దము</string>
@@ -176,7 +175,7 @@
     <string name="preferences__trim_all_conversations_now">ఇప్పుడు అన్ని సంభాషణలు  కత్తిరించి సరి చేయుట </string>
     <string name="_default">అప్రమేయ</string>
     <string name="incognitoKeyboard">అజ్ఞాత కీబోర్డ్</string>
-    <string name="preferences__read_receipts">చదివిన రసీదులు</string>
+    <string name="readReceipts">చదివిన రసీదులు</string>
     <string name="conversationsMessageTrimming">సందేశం కత్తిరించి సరి చేయుట </string>
     <!-- **************************************** -->
     <!-- menus -->

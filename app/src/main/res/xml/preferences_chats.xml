@@ -14,7 +14,7 @@
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:defaultValue="false"
             android:key="pref_enter_sends"
-            android:summary="@string/preferences__pref_enter_sends_summary"
+            android:summary="@string/conversationsSendWithEnterKeyDescription"
             android:title="@string/conversationsSendWithEnterKey" />
     </PreferenceCategory>
 
@@ -22,7 +22,7 @@
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:defaultValue="false"
             android:key="pref_autoplay_audio"
-            android:summary="@string/preferences__pref_autoplay_audio_summary"
+            android:summary="@string/conversationsAutoplayAudioMessageDescription"
             android:title="@string/preferences__pref_autoplay_audio_title"/>
     </PreferenceCategory>
 

@@ -109,7 +109,6 @@
     <string name="messageMarkRead">סמן כנקרא</string>
     <string name="MessageNotifier_unknown_contact_message">איש קשר</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">שיחות</string>
     <string name="failures">כישלונות</string>
     <string name="lockAppStatus">מעמד נעילה</string>
     <string name="updateApp">עדכוני יישום</string>
@@ -187,7 +186,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">שלח קדם־תצוגות של קישורים</string>
-    <string name="preferences__screen_security">אבטחת מסך</string>
+    <string name="screenSecurity">אבטחת מסך</string>
     <string name="sessionNotifications">התראות</string>
     <string name="notificationsLedColor">צבע LED</string>
     <string name="notificationsSound">קול</string>
@@ -195,8 +194,8 @@
     <string name="preferences__trim_all_conversations_now">קצץ את כל השיחות כעת</string>
     <string name="_default">ברירת מחדל</string>
     <string name="incognitoKeyboard">מקלדת סמויה</string>
-    <string name="preferences__read_receipts">אישורי קריאה</string>
-    <string name="preferences__typing_indicators">מחווני הקלדה</string>
+    <string name="readReceipts">אישורי קריאה</string>
+    <string name="typingIndicators">מחווני הקלדה</string>
     <string name="conversationsMessageTrimming">קיצוץ הודעה</string>
     <!-- **************************************** -->
     <!-- menus -->

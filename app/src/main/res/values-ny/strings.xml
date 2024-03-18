@@ -91,7 +91,6 @@
     <string name="messageMarkRead">Killkakatishkami nishpa unanchay</string>
     <string name="MessageNotifier_unknown_contact_message">Yupay mashi</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Kayachikuna</string>
     <string name="failures">Pantakuna</string>
     <string name="lockAppStatus">Kashkata pakana</string>
     <string name="updateApp">Aplicacionta kunanyachikuy</string>
@@ -156,7 +155,7 @@
         <item quantity="other">%dpachakuna</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__screen_security">Rikuripa pakallayachina</string>
+    <string name="screenSecurity">Rikuripa pakallayachina</string>
     <string name="sessionNotifications">Willachikuna</string>
     <string name="notificationsLedColor">LEDpa tulpu</string>
     <string name="notificationsSound">Wakay uyari</string>
@@ -164,7 +163,7 @@
     <string name="preferences__trim_all_conversations_now">Rimarikunata pichana</string>
     <string name="_default">Ña rurashka </string>
     <string name="incognitoKeyboard">Killkana hillay pakallaku</string>
-    <string name="preferences__read_receipts">Killkakatinata willachik </string>
+    <string name="readReceipts">Killkakatinata willachik </string>
     <string name="conversationsMessageTrimming">Chaskimanta pitishka</string>
     <!-- **************************************** -->
     <!-- menus -->

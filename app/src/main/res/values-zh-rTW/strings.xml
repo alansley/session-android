@@ -102,7 +102,6 @@
     <string name="messageMarkRead">標示已讀</string>
     <string name="MessageNotifier_unknown_contact_message">聯絡人</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">通話</string>
     <string name="failures">失敗</string>
     <string name="lockAppStatus">鎖定狀態</string>
     <string name="updateApp">應用程式更新</string>
@@ -175,7 +174,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">傳送連結預覽</string>
-    <string name="preferences__screen_security">螢幕安全設定</string>
+    <string name="screenSecurity">螢幕安全設定</string>
     <string name="sessionNotifications">通知</string>
     <string name="notificationsLedColor">LED燈號顏色</string>
     <string name="notificationsSound">提示音效</string>
@@ -183,8 +182,8 @@
     <string name="preferences__trim_all_conversations_now">現在開始精簡所有的對話群組</string>
     <string name="_default">預設</string>
     <string name="incognitoKeyboard">隱私鍵盤</string>
-    <string name="preferences__read_receipts">已讀標記</string>
-    <string name="preferences__typing_indicators">打字狀態</string>
+    <string name="readReceipts">已讀標記</string>
+    <string name="typingIndicators">打字狀態</string>
     <string name="conversationsMessageTrimming">訊息整理</string>
     <!-- **************************************** -->
     <!-- menus -->

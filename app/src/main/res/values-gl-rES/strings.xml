@@ -104,7 +104,6 @@
     <string name="messageMarkRead">Marcar como lida</string>
     <string name="MessageNotifier_unknown_contact_message">Contacto</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Chamadas</string>
     <string name="failures">Erros</string>
     <string name="lockAppStatus">Bloquear estado</string>
     <string name="updateApp">Actualizacións da app</string>
@@ -179,7 +178,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Enviar previsualizacións das ligazóns.</string>
-    <string name="preferences__screen_security">Seguranza da pantalla</string>
+    <string name="screenSecurity">Seguranza da pantalla</string>
     <string name="sessionNotifications">Notificacións</string>
     <string name="notificationsLedColor">Cor LED</string>
     <string name="notificationsSound">Son</string>
@@ -187,8 +186,8 @@
     <string name="preferences__trim_all_conversations_now">Recortar as mensaxes agora</string>
     <string name="_default">Por defecto</string>
     <string name="incognitoKeyboard">Teclado de incógnito</string>
-    <string name="preferences__read_receipts">Confirmacións de lectura</string>
-    <string name="preferences__typing_indicators">Indicador de escritura</string>
+    <string name="readReceipts">Confirmacións de lectura</string>
+    <string name="typingIndicators">Indicador de escritura</string>
     <string name="conversationsMessageTrimming">Recorte das mensaxes</string>
     <!-- **************************************** -->
     <!-- menus -->

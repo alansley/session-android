@@ -105,7 +105,6 @@
     <string name="messageMarkRead">Läst</string>
     <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
     <!-- Notification Channels -->
-    <string name="NotificationChannel_calls">Samtal</string>
     <string name="failures">Misslyckanden</string>
     <string name="lockAppStatus">Låsstatus</string>
     <string name="updateApp">Appuppdateringar</string>
@@ -180,7 +179,7 @@
     </plurals>
     <!-- preferences.xml -->
     <string name="preferences__send_link_previews">Sicka länkförhandsvisning</string>
-    <string name="preferences__screen_security">Skärmsäkerhet</string>
+    <string name="screenSecurity">Skärmsäkerhet</string>
     <string name="sessionNotifications">Aviseringar</string>
     <string name="notificationsLedColor">Färg på ljusindikator</string>
     <string name="notificationsSound">Ljud</string>
@@ -188,8 +187,8 @@
     <string name="preferences__trim_all_conversations_now">Trimma alla konversationer nu</string>
     <string name="_default">Standard</string>
     <string name="incognitoKeyboard">Inkognito-tangentbord</string>
-    <string name="preferences__read_receipts">Läskvittenser</string>
-    <string name="preferences__typing_indicators">Skrivindikatorer</string>
+    <string name="readReceipts">Läskvittenser</string>
+    <string name="typingIndicators">Skrivindikatorer</string>
     <string name="conversationsMessageTrimming">Trimma meddelanden</string>
     <!-- **************************************** -->
     <!-- menus -->

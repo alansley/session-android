@@ -134,7 +134,7 @@
         <item quantity="other">%d tiếng</item>
     </plurals>
     <!-- preferences.xml -->
-    <string name="preferences__screen_security">An ninh màn hình</string>
+    <string name="screenSecurity">An ninh màn hình</string>
     <string name="sessionNotifications">Thông báo</string>
     <string name="notificationsLedColor">Màu LED</string>
     <string name="notificationsSound">Âm thanh</string>
