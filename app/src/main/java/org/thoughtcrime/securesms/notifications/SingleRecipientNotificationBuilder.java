@@ -222,7 +222,7 @@ public class SingleRecipientNotificationBuilder extends AbstractNotificationBuil
     if (privacy.isDisplayMessage()) {
       messageBodies.add(stringBuilder.append(messageBody == null ? "" : messageBody));
     } else {
-      messageBodies.add(stringBuilder.append(context.getString(R.string.messageNewk)));
+      messageBodies.add(stringBuilder.append(context.getString(R.string.messageNew)));
     }
   }
 
