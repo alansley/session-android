@@ -61,8 +61,8 @@ class PrivacySettingsPreferenceFragment : ListSummaryPreferenceFragment() {
                             super.putBoolean(key, value)
                         }
                     }
-                    title = getString(R.string.preferences__message_requests_title)
-                    summary = getString(R.string.preferences__message_requests_summary)
+                    title = getString(R.string.messageRequestsCommunities)
+                    summary = getString(R.string.messageRequestsCommunitiesDescription)
                 }.let(category::addPreference)
             }
         }
