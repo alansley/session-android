@@ -21,6 +21,7 @@ import androidx.lifecycle.repeatOnLifecycle
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.phrase.Phrase
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collect
@@ -96,6 +97,9 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
         const val FROM_ONBOARDING = "HomeActivity_FROM_ONBOARDING"
     }
 
+    // String substitution keys. Note: Do NOT include the curly braces in these keys!
+    private val NAME = "name"
+    private val GROUP_NAME = "groupname"
 
     private lateinit var binding: ActivityHomeBinding
     private lateinit var glide: GlideRequests
@@ -629,12 +633,18 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
         val message = if (recipient.isGroupRecipient) {
             val group = groupDatabase.getGroup(recipient.address.toString()).orNull()
             if (group != null && group.admins.map { it.toString() }.contains(textSecurePreferences.getLocalNumber())) {
-                "Because you are the creator of this group it will be deleted for everyone. This cannot be undone."
+                Phrase.from(this.applicationContext, R.string.groupDeleteDescription)
+                    .put(GROUP_NAME, group.title)
+                    .format()
             } else {
-                resources.getString(R.string.groupLeaveDescription)
+                Phrase.from(this.applicationContext, R.string.groupLeaveDescription)
+                    .put(GROUP_NAME, group.title)
+                    .format()
             }
         } else {
-            resources.getString(R.string.conversationsDeleteDescription)
+            Phrase.from(this.applicationContext, R.string.conversationsDeleteDescription)
+                .put(NAME, recipient.name)
+                .format()
         }
 
         showSessionDialog {

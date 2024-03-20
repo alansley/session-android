@@ -8,12 +8,14 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.phrase.Phrase
 import dagger.hilt.android.AndroidEntryPoint
 import network.loki.messenger.R
 import network.loki.messenger.databinding.ViewControlMessageBinding
 import network.loki.messenger.libsession_util.util.ExpiryMode
 import org.session.libsession.messaging.MessagingModuleConfiguration
 import org.session.libsession.messaging.messages.ExpirationConfiguration
+import org.session.libsignal.utilities.Log
 import org.thoughtcrime.securesms.conversation.disappearingmessages.DisappearingMessages
 import org.thoughtcrime.securesms.conversation.disappearingmessages.expiryMode
 import org.thoughtcrime.securesms.database.model.MessageRecord
@@ -26,6 +28,10 @@ class ControlMessageView : LinearLayout {
     private val TAG = "ControlMessageView"
 
     private lateinit var binding: ViewControlMessageBinding
+
+    // String substitution keys. Note: Do NOT include the curly braces in these keys!
+    private val NAME = "name"
+    private val GROUPNAME = "groupname"
 
     constructor(context: Context) : super(context) { initialize() }
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs) { initialize() }
@@ -77,7 +83,17 @@ class ControlMessageView : LinearLayout {
             }
             message.isMessageRequestResponse -> {
                 binding.textView.text =  context.getString(R.string.messageRequestsAccepted)
-                binding.root.contentDescription=context.getString(R.string.AccessibilityId_message_request_config_message)
+
+                // ACL - Changing 'AccessibilityId_message_request_config_message' to 'messageRequestYouHaveAccepted'
+                // Text is: "You have accepted the message request from <b>{name}</b>."
+                // OG:
+                //binding.root.contentDescription=context.getString(R.string.AccessibilityId_message_request_config_message)
+                // New:
+                binding.root.contentDescription = Phrase.from(context, R.string.messageRequestYouHaveAccepted)
+                    .put(NAME, message.individualRecipient.name)
+                    .format()
+                // Note: Content descriptions are NON-VISUAL so we have to print it to check it's correct!
+                //Log.d("[ACL]", "Content description is: " + binding.root.contentDescription.toString())
             }
             message.isCallLog -> {
                 val drawable = when {

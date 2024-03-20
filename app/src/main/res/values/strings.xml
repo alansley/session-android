@@ -491,7 +491,6 @@
     <string name="groupLeaveDescriptionAdmin">Are you sure you want to leave {groupname}? This will deactivate the group for all members.</string>
     <string name="urlOpenDescription">Are you sure you want to open {url} in your browser?</string>
     <string name="recoveryPasswordHidePermanentlyDescription2">Are you sure you want to permanently hide your recovery password on this device? This cannot be undone.</string>
-    <string name="blockUnblockDescription">Are you sure you want to unblock {name}?</string>
     <string name="attachment">Attachment</string>
     <string name="attachmentsExpired">Attachment expired</string>
     <string name="audio">Audio</string>
@@ -1036,5 +1035,6 @@
 
     <string name="messageRequestsCommunities">Community Message Requests</string>
     <string name="messageRequestsCommunitiesDescription">Allow message requests from Community conversations</string>
+    <string name="blockUnblockDescription">Are you sure you want to block <b>{name}</b>? Blocked users cannot send you message requests, group invites or call you.</string>
 
 </resources>

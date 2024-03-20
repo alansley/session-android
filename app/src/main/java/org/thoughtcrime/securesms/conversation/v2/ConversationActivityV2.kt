@@ -51,6 +51,7 @@ import androidx.loader.content.Loader
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.annimon.stream.Stream
+import com.squareup.phrase.Phrase
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.BufferOverflow
@@ -199,6 +200,10 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     SearchBottomBar.EventListener, LoaderManager.LoaderCallbacks<Cursor>, ConversationActionBarDelegate,
     OnReactionSelectedListener, ReactWithAnyEmojiDialogFragment.Callback, ReactionsDialogFragment.Callback,
     ConversationMenuHelper.ConversationMenuListener {
+
+    // String substitution keys for phrase library. Note: Do NOT include the curly braces in these keys!
+    private val NAME = "name"
+    private val GROUP_NAME = "groupname"
 
     private var binding: ActivityConversationV2Binding? = null
 
@@ -1117,9 +1122,12 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     }
 
     override fun block(deleteThread: Boolean) {
+        val recipient = viewModel.recipient ?: return Log.w("Loki", "Recipient was null for block action")
         showSessionDialog {
             title(R.string.block)
-            text(R.string.blockDescription)
+            text(Phrase.from(context, R.string.blockDescription)
+                .put(NAME, recipient.name)
+                .format())
             destructiveButton(R.string.block, R.string.AccessibilityId_block_confirm) {
                 viewModel.block()
                 if (deleteThread) {
