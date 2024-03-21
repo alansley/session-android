@@ -6,7 +6,7 @@
         <org.thoughtcrime.securesms.components.SwitchPreferenceCompat
             android:defaultValue="false"
             android:key="pref_trim_threads"
-            android:summary="@string/preferences_chats__message_trimming_summary"
+            android:summary="@string/conversationsMessageTrimmingTrimCommunitiesDescription"
             android:title="@string/preferences_chats__message_trimming_title" />
     </PreferenceCategory>
 

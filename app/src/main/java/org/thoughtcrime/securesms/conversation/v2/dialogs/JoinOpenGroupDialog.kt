@@ -28,9 +28,7 @@ class JoinOpenGroupDialog(private val name: String, private val url: String) : D
         title(resources.getString(R.string.communityJoin))
 
         // ACL string substitution
-        val explanation = Phrase.from(context, R.string.communityJoinDescription)
-            .put(COMMUNITY_NAME, name)
-            .format()
+        val explanation = Phrase.from(context, R.string.communityJoinDescription).put(COMMUNITY_NAME, name).format()
         //val explanation = resources.getString(R.string.communityJoinDescription, name) // OG
 
         val spannable = SpannableStringBuilder(explanation)

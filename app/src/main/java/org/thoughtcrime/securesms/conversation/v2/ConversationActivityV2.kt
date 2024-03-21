@@ -1168,14 +1168,19 @@ class ConversationActivityV2 : PassphraseRequiredActionBarActivity(), InputBarDe
     }
 
     override fun unblock() {
-        showSessionDialog {
-            title(R.string.blockUnblock)
-            text(R.string.blockUnblockDescription)
-            destructiveButton(
-                R.string.blockUnblock,
-                R.string.AccessibilityId_block_confirm
-            ) { viewModel.unblock() }
-            cancelButton()
+        val recipient = viewModel.recipient ?: return Log.w("Loki", "Recipient was null for unblock action")
+        if (recipient.isContactRecipient) {
+            showSessionDialog {
+                title(R.string.blockUnblock)
+                text(Phrase.from(context, R.string.blockUnblockDescription).put(NAME, recipient.name).format())
+                destructiveButton(
+                    R.string.blockUnblock,
+                    R.string.AccessibilityId_block_confirm
+                ) { viewModel.unblock() }
+                cancelButton()
+            }
+        } else {
+            Log.w("Loki", "Cannot unblock a user who is not a contact recipient - aborting unblock attempt.")
         }
     }
 

@@ -6,6 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import app.cash.copper.flow.observeQuery
+import com.squareup.phrase.Phrase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Dispatchers.IO
@@ -30,12 +31,12 @@ import javax.inject.Inject
 @HiltViewModel
 class BlockedContactsViewModel @Inject constructor(private val storage: Storage): ViewModel() {
 
+    // String substitution keys for phrase library. Note: Do NOT include the curly braces in these keys!
+    private val NAME = "name"
+
     private val executor = viewModelScope + SupervisorJob()
-
     private val listUpdateChannel = Channel<Unit>(capacity = Channel.CONFLATED)
-
     private val _state = MutableLiveData(BlockedContactsViewState())
-
     val state get() = _state.value!!
 
     fun subscribe(context: Context): LiveData<BlockedContactsViewState> {
@@ -77,14 +78,17 @@ class BlockedContactsViewModel @Inject constructor(private val storage: Storage)
 
     fun getTitle(context: Context): String =
         if (state.selectedItems.size == 1) {
-            context.getString(R.string.Unblock_dialog__title_single, state.selectedItems.first().name)
+            // ACL adjusted
+            Phrase.from(context, R.string.blockUnblock).put(NAME, state.selectedItems.first().name).format().toString()
+            //context.getString(R.string.Unblock_dialog__title_single, state.selectedItems.first().name) // OG
         } else {
-            context.getString(R.string.Unblock_dialog__title_multiple)
+            context.getString(R.string.blockUnblock)
         }
 
     fun getMessage(context: Context): String {
         if (state.selectedItems.size == 1) {
-            return context.getString(R.string.Unblock_dialog__message, state.selectedItems.first().name)
+            return Phrase.from(context, R.string.blockUnblockDescription).put(NAME, state.selectedItems.first().name).format().toString()
+            //return context.getString(R.string.blockUnblockDescription, state.selectedItems.first().name) // OG
         }
         val stringBuilder = StringBuilder()
         val iterator = state.selectedItems.iterator()
@@ -102,7 +106,8 @@ class BlockedContactsViewModel @Inject constructor(private val storage: Storage)
             val string = context.resources.getQuantityString(R.plurals.Unblock_dialog__message_multiple_overflow, overflow)
             stringBuilder.append(string.format(overflow))
         }
-       return context.getString(R.string.Unblock_dialog__message, stringBuilder.toString())
+        return Phrase.from(context, R.string.blockUnblockDescription).put(NAME, stringBuilder.toString()).format().toString()
+       //return context.getString(R.string.Unblock_dialog__message, stringBuilder.toString()) // OG
     }
 
     fun toggle(selectable: SelectableItem<Recipient>) {

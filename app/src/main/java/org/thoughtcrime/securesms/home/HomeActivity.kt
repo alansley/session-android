@@ -571,7 +571,8 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
     private fun unblockConversation(thread: ThreadRecord) {
         showSessionDialog {
             title(R.string.blockUnblock)
-            text(R.string.blockUnblockDescription)
+            text(Phrase.from(context, R.string.blockUnblockDescription).put(NAME, thread.recipient.name).format()) // ACL replaced
+            //text(R.string.blockUnblockDescription) // OG
             button(R.string.blockUnblock) {
                 lifecycleScope.launch(Dispatchers.IO) {
                     storage.setBlocked(listOf(thread.recipient), false)

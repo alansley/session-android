@@ -92,7 +92,7 @@ class NotificationsPreferenceFragment : ListSummaryPreferenceFragment() {
         findPreference<Preference>(TextSecurePreferences.NOTIFICATION_PRIVACY_PREF)!!.onPreferenceClickListener =
             Preference.OnPreferenceClickListener { preference: Preference ->
                 val listPreference = preference as ListPreference
-                listPreference.setDialogMessage(R.string.preferences_notifications__content_message)
+                //listPreference.setDialogMessage(R.string.preferences_notifications__content_message) // ACL put back if needs be
                 listPreferenceDialog(requireContext(), listPreference) {
                     initializeListSummary(findPreference(TextSecurePreferences.NOTIFICATION_PRIVACY_PREF))
                 }

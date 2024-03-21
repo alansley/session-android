@@ -40,7 +40,7 @@
 
         <org.thoughtcrime.securesms.preferences.widgets.SignalListPreference
             android:key="pref_notification_privacy"
-            android:title="@string/preferences_notifications__content"
+            android:title="@string/notificationsContent"
             android:defaultValue="all"
             android:entries="@array/pref_notification_privacy_entries"
             android:entryValues="@array/pref_notification_privacy_values" />

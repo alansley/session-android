@@ -195,13 +195,7 @@
     <string name="typingIndicators">Indicateurs de saisie</string>
     <string name="conversationsMessageTrimming">Élagage des messages</string>
     <string name="preferences_chats__message_trimming_title">Raccourcir les communautés</string>
-    <string name="preferences_chats__message_trimming_summary">Supprimer des messages de plus de 6 mois dans des communautés qui ont plus de 2 000 messages.</string>
-    <string name="preferences_app_protection__screen_security">Sécurité d\'écran</string>
-    <string name="preferences_notifications__content">Contenu de la notification</string>
     <string name="preferences_notifications__content_message">Afficher :</string>
-    <string name="preferences_notifications__summary">Informations affichées dans les notifications.</string>
-    <string name="preferences_app_protection__screenshot_notifications">Notifications de capture d\'écran</string>
-    <string name="preferences_app_protected__screenshot_notifications_summary">Recevoir une notification lorsqu\'un contact prend une capture d\'écran d\'une conversation individuelle.</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -231,7 +225,6 @@
     <string name="permissionsRequired">Permission exigée</string>
     <string name="notNow">Pas maintenant</string>
     <string name="registration_activity__skip">Ignorer</string>
-    <string name="preferences_app_protection__screen_lock">Verrouiller Session</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <string name="_continue">Continuer</string>
@@ -328,7 +321,6 @@
     <string name="callsReconnecting">Reconnexion…</string>
     <string name="dismiss">Rejeter</string>
     <string name="appearancePrimaryColor">Couleur principale</string>
-    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">Ce message</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">Fréquemment Utilisés</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__smileys_and_people">Émoticônes et personnes</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__nature" comment="Heading for an emoji list's category">Nature</string>
@@ -339,9 +331,6 @@
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__symbols">Symboles</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__flags">Drapeaux</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__emoticons">Emoticônes</string>
-    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__no_results_found">Aucun résultat trouvé</string>
-    <!-- ReactionsBottomSheetDialogFragment -->
-    <string name="ReactionsBottomSheetDialogFragment_all">Tous &#183; %1$d</string>
     <!-- ReactionsConversationView -->
     <string name="ReactionsConversationView_plus">+%1$d</string>
     <!-- ReactionsRecipientAdapter -->
@@ -354,8 +343,6 @@
     <string name="appearanceAutoDarkMode">Thème sombre automatique</string>
     <string name="activity_appearance_follow_system_explanation">Faire correspondre aux paramètres systèmes</string>
     <string name="Unblock_dialog__title_single">Débloquer %s</string>
-    <string name="Unblock_dialog__title_multiple">Débloquer les utilisateurs</string>
-    <string name="Unblock_dialog__message">Êtes-vous sûr·e de vouloir débloquer %s ?</string>
     <plurals name="Unblock_dialog__message_multiple_overflow">
         <item quantity="one">et %d autre</item>
         <item quantity="other">et %d autres</item>
@@ -365,7 +352,6 @@
         <item quantity="other">Et %1$d autres ont réagi %2$s à ce message</item>
     </plurals>
     <string name="fragment_enter_public_key_prompt">Commencez une nouvelle conversation en entrant l\'ID Session de quelqu\'un ou en lui partageant votre ID Session.</string>
-    <string name="search_contacts_hint">Rechercher parmi les contacts</string>
     <string name="fragment_enter_community_url_join_button_title">Rejoindre</string>
     <string name="new_conversation_dialog_back_button_content_description">Revenir en arrière</string>
     <string name="new_conversation_dialog_close_button_content_description">Fermer la fenêtre</string>

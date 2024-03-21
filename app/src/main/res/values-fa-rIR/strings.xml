@@ -193,12 +193,6 @@
     <string name="typingIndicators">نشانگر‌های در حال تایپ</string>
     <string name="conversationsMessageTrimming">مرتب‌سازی پیام</string>
     <string name="preferences_chats__message_trimming_title">مرتب‌سازی انجمن‌ها</string>
-    <string name="preferences_chats__message_trimming_summary">پیام‌های قدیمی‌تر از ۶ ماه را از انجمن‌های دارای بیش از ۲۰۰۰ پیام، حذف کنید.</string>
-    <string name="preferences_app_protection__screen_security">امنیت صفحه</string>
-    <string name="preferences_notifications__content">محتوی اعلان</string>
-    <string name="preferences_notifications__summary">اطلاعات که در اعلانات نمایش میشود.</string>
-    <string name="preferences_app_protection__screenshot_notifications">اعلانات اسکرین‌شات</string>
-    <string name="preferences_app_protected__screenshot_notifications_summary">هنگامی که یک مخاطب از یک چت یک به یک اسکرین شات می‌گیرد، اعلان دریافت کنید.</string>
     <!-- **************************************** -->
     <!-- menus -->
     <!-- **************************************** -->
@@ -228,7 +222,6 @@
     <string name="permissionsRequired">مجوز لازم است</string>
     <string name="notNow">حالا نه</string>
     <string name="registration_activity__skip">پرش</string>
-    <string name="preferences_app_protection__screen_lock">قفل Session</string>
     <!-- Conversation activity -->
     <!-- Session -->
     <string name="_continue">ادامه </string>
@@ -323,7 +316,6 @@
     <string name="callsReconnecting">در حال اتصال دوباره...</string>
     <string name="dismiss">رد کردن</string>
     <string name="appearancePrimaryColor">رنگ اولیه</string>
-    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">این پیغام</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">اخیرا استفاده شده</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__smileys_and_people">شکلک‌ها و مردم</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__nature" comment="Heading for an emoji list's category">حیوانات و طبیعت</string>
@@ -334,9 +326,6 @@
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__symbols">نمادها</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__flags">پرچم ها</string>
     <string name="ReactWithAnyEmojiBottomSheetDialogFragment__emoticons">شکلک‌ها</string>
-    <string name="ReactWithAnyEmojiBottomSheetDialogFragment__no_results_found">جستجو بی‌نتیجه بود</string>
-    <!-- ReactionsBottomSheetDialogFragment -->
-    <string name="ReactionsBottomSheetDialogFragment_all">همه &#183; %1$d</string>
     <!-- ReactionsConversationView -->
     <string name="ReactionsConversationView_plus">+%1$d</string>
     <!-- ReactionsRecipientAdapter -->
@@ -349,8 +338,6 @@
     <string name="appearanceAutoDarkMode">حالت شب خودکار</string>
     <string name="activity_appearance_follow_system_explanation">مطابق‌سازی تنظیمات سیستم</string>
     <string name="Unblock_dialog__title_single">%sاز حالت مسدود خارج شود</string>
-    <string name="Unblock_dialog__title_multiple">رفع مسدودیت</string>
-    <string name="Unblock_dialog__message">آیا مطمئن هستید که می‌خواهید مسدودیت %s را رفع کنید?</string>
     <plurals name="ReactionsRecipientAdapter_other_reactors">
         <item quantity="one">و %1$d نفر دیگر با %2$s به این پیام واکنش نشان داده است</item>
         <item quantity="other">و %1$d نفر دیگر با %2$s به این پیام واکنش نشان داده اند</item>

@@ -78,7 +78,7 @@
         app:layout_constraintTop_toBottomOf="@id/nameEditText"
         app:search_bar_tint="?conversationMenuSearchBackgroundColor"
         app:search_icon_tint="?conversationMenuSearchTintColor"
-        app:search_hint="@string/search_contacts_hint"
+        app:search_hint="@string/searchContacts"
         app:show_always="true" />
 
     <androidx.recyclerview.widget.RecyclerView
