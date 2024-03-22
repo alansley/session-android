@@ -614,7 +614,7 @@
     <string name="attachmentsFileSize">File Size:</string>
     <string name="attachmentsFileType">File Type:</string>
     <string name="files">Files</string>
-    <string name="attachmentsErrorSize">Files must be less than 10Mb</string>
+    <string name="attachmentsErrorSize">Files must be less than 10MB</string>
     <string name="callsCannotStart">You cannot start a new call. Finish your current call first.</string>
     <string name="qrYoursDescription">Friends can message you by scanning your QR code.</string>
     <string name="from">From</string>
@@ -628,7 +628,7 @@
     <string name="groupInviteSuccessful">Group invite successful</string>
     <string name="groupMembers">Group Members</string>
     <string name="groupName">Group Name</string>
-    <string name="groupNameNew">Group name is now {groupname}. </string>
+    <string name="groupNameNew">Group name is now {groupname}.</string>
     <string name="groupNameUpdated">Group name updated.</string>
     <string name="groupUpdated">Group updated</string>
     <string name="groupAddMemberMaximum">Groups have a maximum of 100 members</string>
@@ -693,8 +693,8 @@
     <string name="conversationsMessageTrimming">Message Trimming</string>
     <string name="messages">Messages</string>
     <string name="deleteMessagesDeleted">Messages deleted</string>
-    <string name="disappearingMessagesDisappearAfterReadDescription">Messages disappear after they have been read.</string>
-    <string name="disappearingMessagesDisappearAfterSendDescription">Messages disappear after they have been sent.</string>
+    <string name="disappearingMessagesDeleteAfterReadDescription">Messages delete after they have been read.</string>
+    <string name="disappearingMessagesDeleteAfterSendDescription">Messages delete after they have been sent.</string>
     <string name="permissionsMicrophone">Microphone</string>
     <string name="permissionsMicrophoneAccessRequired">Microphone Access Required</string>
     <string name="minimize">Minimize</string>

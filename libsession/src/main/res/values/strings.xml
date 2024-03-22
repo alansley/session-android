@@ -1,28 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Serialized Strings replaced by ACL - these are duplicated in the Session `:app` module as I'm not sure how to share across -ACL -->
-    <string name="groupMemberYouLeft">You left the group.</string>
+    <!-- Adding these strings here temporarily while I figure out how to get them from the ':app' strings.xml -ACL -->
+    <!-- ========================================================================================================= -->
+    <string name="groupCreated">You created a new group.</string>                   <!-- PLACEHOLDER WITH ACL NAMING - old: MessageRecord_you_created_a_new_group       -->
+
+    <string name="groupYouLeft">You left the group.</string>
+    <string name="groupNameNew">Group name is now {groupname}.</string>
+
+    <string name="groupRenamedBy">{name} renamed the group to {groupname}.</string>             <!-- ACL PLACEHOLDER - old: MessageRecord_s_renamed_the_group_to_s          -->
+    <string name="groupAddedYou">{name} added you to the group.</string>                  <!-- ACL PLACEHOLDER - old: MessageRecord_s_added_you_to_the_group          -->
+    <string name="groupYouRenamed">You renamed the group to {groupname}</string>                <!-- ACL PLACEHOLDER - old: MessageRecord_you_renamed_the_group_to_s        -->
+    <string name="groupYouAdded">You added {members} to the group.</string>                     <!-- ACL PLACEHOLDER - old: MessageRecord_you_added_s_to_the_group          -->
+    <string name="groupMemberAdded">{name} added {members} to the group.</string>         <!-- ACL PLACEHOLDER - old: MessageRecord_s_added_s_to_the_group            -->
+    <string name="groupRemovedYou">You were removed from the group.</string>                    <!-- ACL PLACEHOLDER - old: MessageRecord_you_were_removed_from_the_group   -->
+    <string name="groupYouRemoved">You removed {members} from the group.</string>               <!-- ACL PLACEHOLDER - old: MessageRecord_you_removed_s_from_the_group      -->
+    <string name="groupMemberRemoved">{name} removed {members} from the group.</string>   <!-- ACL PLACEHOLDER - old: MessageRecord_s_removed_s_from_the_group        -->
+    <string name="groupMemberLeft">{name} has left the group.</string>
+
+
+    <string name="disappearingMessagesDisabledYou">You turned disappearing messages off.</string>                                                   <!-- old: MessageRecord_you_disabled_disappearing_messages -->
+    <string name="disappearingMessagesTurnedOffOneOnOne">You turned off disappearing messages. Messages you send will no longer disappear.</string> <!-- old: MessageRecord_you_turned_off_disappearing_messages_1_on_1 -->
+    <string name="disappearingMessagesYouHaveTurnedOff">You have turned off disappearing messages.</string>                                         <!-- old: MessageRecord_you_turned_off_disappearing_messages -->
+
+    <string name="callsCalledYou">{name} called you</string>            <!-- Official rename from: MessageRecord_s_called_you     -->
+    <string name="callsYouCalled">Called {name}</string>                <!-- Official rename from: MessageRecord_called_s         -->
+    <string name="callsMissedCallFrom">Missed call from {name}</string> <!-- Official rename from: MessageRecord_missed_call_from -->
+
+    <!-- ========================================================================================================= -->
+
+    <!-- REMOVED BY ACL
+        ===== Groups =====
+        <string name="MessageRecord_you_created_a_new_group">You created a new group.</string>
+        <string name="MessageRecord_s_renamed_the_group_to_s">%1$s renamed the group to: %2$s</string>
+        <string name="MessageRecord_you_removed_s_from_the_group">You removed %1$s from the group.</string>
+        <string name="MessageRecord_s_added_you_to_the_group">%1$s added you to the group.</string>
+        <string name="MessageRecord_you_renamed_the_group_to_s">You renamed the group to %1$s</string>
+        <string name="MessageRecord_you_added_s_to_the_group">You added %1$s to the group.</string>
+        <string name="MessageRecord_s_added_s_to_the_group">%1$s added %2$s to the group.</string>
+        <string name="MessageRecord_you_were_removed_from_the_group">You were removed from the group.</string>
+        <string name="MessageRecord_s_removed_s_from_the_group">%1$s removed %2$s from the group.</string>
+        <string name="ConversationItem_group_action_left">%1$s has left the group.</string>
+
+        ===== Disappearing Messages =====
+        <string name="MessageRecord_you_disabled_disappearing_messages">You disabled disappearing messages.</string>
+        <string name="MessageRecord_you_turned_off_disappearing_messages_1_on_1">You turned off disappearing messages. Messages you send will no longer disappear.</string>
+        <string name="MessageRecord_you_turned_off_disappearing_messages">You have turned off disappearing messages.</string>
+
+        ===== Calls =====
+        <string name="MessageRecord_s_called_you">%s called you</string>
+        <string name="MessageRecord_called_s">Called %s</string>
+        <string name="MessageRecord_missed_call_from">Missed call from %s</string>
+
+    -->
 
     <!-- MessageRecord -->
-    <string name="MessageRecord_you_created_a_new_group">You created a new group.</string>
-    <string name="MessageRecord_s_added_you_to_the_group">%1$s added you to the group.</string>
-    <string name="MessageRecord_you_renamed_the_group_to_s">You renamed the group to %1$s</string>
-    <string name="MessageRecord_s_renamed_the_group_to_s">%1$s renamed the group to: %2$s</string>
-    <string name="MessageRecord_you_added_s_to_the_group">You added %1$s to the group.</string>
-    <string name="MessageRecord_s_added_s_to_the_group">%1$s added %2$s to the group.</string>
-    <string name="MessageRecord_you_removed_s_from_the_group">You removed %1$s from the group.</string>
-    <string name="MessageRecord_s_removed_s_from_the_group">%1$s removed %2$s from the group.</string>
-    <string name="MessageRecord_you_were_removed_from_the_group">You were removed from the group.</string>
+
+
+
+
     <string name="MessageRecord_you">You</string>
-    <string name="MessageRecord_s_called_you">%s called you</string>
-    <string name="MessageRecord_called_s">Called %s</string>
-    <string name="MessageRecord_missed_call_from">Missed call from %s</string>
+
     <string name="MessageRecord_follow_setting">Follow Setting</string>
     <string name="AccessibilityId_follow_setting">Follow setting</string>
-    <string name="MessageRecord_you_disabled_disappearing_messages">You disabled disappearing messages.</string>
-    <string name="MessageRecord_you_turned_off_disappearing_messages">You have turned off disappearing messages.</string>
-    <string name="MessageRecord_you_turned_off_disappearing_messages_1_on_1">You turned off disappearing messages. Messages you send will no longer disappear.</string>
     <string name="MessageRecord_s_disabled_disappearing_messages">%1$s disabled disappearing messages.</string>
     <string name="MessageRecord_s_turned_off_disappearing_messages">%1$s turned off disappearing messages.</string>
     <string name="MessageRecord_s_turned_off_disappearing_messages_1_on_1">%1$s has turned off disappearing messages. Messages they send will no longer disappear.</string>
@@ -77,7 +117,7 @@
 
     <string name="expiration_weeks_abbreviated">%dw</string>
 
-    <string name="ConversationItem_group_action_left">%1$s has left the group.</string>
+
     <!-- RecipientProvider -->
     <string name="RecipientProvider_unnamed_group">Unnamed group</string>
 </resources>

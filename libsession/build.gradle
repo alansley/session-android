@@ -18,9 +18,13 @@ android {
 }
 
 dependencies {
+    //implementation 'com.android.application:com.android.application.gradle.plugin:7.3.1'
+    //implementation project(":app") // Required to access string resources -ACL
+
     implementation project(":libsignal")
     implementation project(":libsession-util")
     implementation project(":liblazysodium")
+
     implementation "net.java.dev.jna:jna:5.12.1@aar"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
     implementation "androidx.core:core-ktx:$coreVersion"
@@ -39,6 +43,7 @@ dependencies {
     implementation "com.fasterxml.jackson.core:jackson-databind:$jacksonDatabindVersion"
     implementation "com.github.oxen-io.session-android-curve-25519:curve25519-java:$curve25519Version"
     implementation "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    implementation "com.squareup.phrase:phrase:$phraseVersion"
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
