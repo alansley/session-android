@@ -1,5 +1,12 @@
 package network.loki.messenger
 
+import android.content.Context
+import android.icu.text.RelativeDateTimeFormatter
+import android.icu.text.RelativeDateTimeFormatter.RelativeUnit.DAYS
+import android.icu.text.RelativeDateTimeFormatter.RelativeUnit.HOURS
+import android.icu.text.RelativeDateTimeFormatter.RelativeUnit.MINUTES
+import android.icu.text.RelativeDateTimeFormatter.RelativeUnit.SECONDS
+import android.icu.text.RelativeDateTimeFormatter.RelativeUnit.WEEKS
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import androidx.test.platform.app.InstrumentationRegistry
@@ -8,10 +15,12 @@ import org.junit.runner.RunWith
 import org.session.libsignal.utilities.Log
 import org.thoughtcrime.securesms.ApplicationContext
 import org.thoughtcrime.securesms.util.DateUtils
+import java.time.format.DateTimeFormatter
 import java.util.Locale
 import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
+import kotlin.time.Duration.Companion.milliseconds
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
 
@@ -31,6 +40,34 @@ class LocalisedStringTests {
         //return DateUtils.getRelativeDateTimeString(duration.inWholeMilliseconds, 0L, DateUtils.MINUTE_IN_MILLIS, DateUtils.FORMAT_ABBREV_RELATIVE).toString()
         //return DateUtils.getTimeSpanString(duration, nowMS, DateUtils.MINUTE_IN_MILLIS, DateUtils.FORMAT_ABBREV_RELATIVE).toString()
     }
+
+    // DateUtils
+    fun getDateUtilsStringWithoutPreposition(context: Context, duration: Duration) : String {
+        return DateUtils.getRelativeTimeSpanString(context, duration.inWholeMilliseconds, false).toString()
+    }
+
+    fun Duration.inWholeWeeks(): Long {
+      return this.inWholeDays.floorDiv(7)
+    }
+
+
+    fun getKotlinRelativeDateTimeFormatterString(futureOrPastTimestamp: Duration, style: RelativeDateTimeFormatter.Style): String {
+
+        val now = System.currentTimeMillis().milliseconds
+        val direction = RelativeDateTimeFormatter.Direction.NEXT //if (futureOrPastTimestamp.inWholeMilliseconds > now.inWholeSeconds) RelativeDateTimeFormatter.Direction.NEXT else RelativeDateTimeFormatter.Direction.LAST
+
+        var f = RelativeDateTimeFormatter.getInstance()
+        var dtf = DateTimeFormatter()
+        //f.formatStyle
+
+        if (futureOrPastTimestamp.inWholeWeeks() > 0) return f.format(futureOrPastTimestamp.inWholeDays.toDouble(), direction, WEEKS)
+        if (futureOrPastTimestamp.inWholeDays > 7) return f.format(futureOrPastTimestamp.inWholeDays.toDouble(), direction, DAYS)
+        else if (futureOrPastTimestamp.inWholeHours > 24) return f.format(futureOrPastTimestamp.inWholeHours.toDouble(), direction, HOURS)
+        else if (futureOrPastTimestamp.inWholeMinutes > 60) return f.format(futureOrPastTimestamp.inWholeMinutes.toDouble(), direction, MINUTES)
+        else if (futureOrPastTimestamp.inWholeSeconds > 60) return f.format(futureOrPastTimestamp.inWholeSeconds.toDouble(), direction, SECONDS)
+    }
+
+
 
     fun print_relative_times(localeString: String) {
 
@@ -94,6 +131,25 @@ class LocalisedStringTests {
         val back8Days = nowMS - (MS_PER_SEC * SECS_PER_MIN * MINS_PER_HOUR * HOURS_PER_DAY * 8L)
 
         val context = InstrumentationRegistry.getInstrumentation().targetContext.applicationContext as ApplicationContext
+
+        val now = System.currentTimeMillis().milliseconds
+
+        Log.d(TAG, "NoPreposition - 1 minute        : " + getDateUtilsStringWithoutPreposition(context, now.plus(1.minutes)))
+        Log.d(TAG, "NoPreposition - 1 hour          : " + getDateUtilsStringWithoutPreposition(context, now.plus(1.hours)))
+        Log.d(TAG, "NoPreposition - 1 day           : " + getDateUtilsStringWithoutPreposition(context, now.plus(1.days)))
+        Log.d(TAG, "NoPreposition - 1 day 7 hours   : " + getDateUtilsStringWithoutPreposition(context, now.plus(1.days.plus(7.hours))))
+        Log.d(TAG, "NoPreposition - 4 days 23 hours : " + getDateUtilsStringWithoutPreposition(context, now.plus(4.days.plus(23.hours))))
+        Log.d(TAG, "NoPreposition - 1 week 2 days   : " + getDateUtilsStringWithoutPreposition(context, now.plus(9.days)))
+
+        Log.d(TAG, "KOTLIN - 1 minute        : " + getKotlinRelativeDateTimeFormatterString(1.minutes))
+        Log.d(TAG, "KOTLIN - 1 hour          : " + getKotlinRelativeDateTimeFormatterString(1.hours))
+        Log.d(TAG, "KOTLIN - 1 day           : " + getKotlinRelativeDateTimeFormatterString(1.days))
+        Log.d(TAG, "KOTLIN - 1 day 7 hours   : " + getKotlinRelativeDateTimeFormatterString(1.days.plus(7.hours)))
+        Log.d(TAG, "KOTLIN - 4 days 23 hours : " + getKotlinRelativeDateTimeFormatterString(4.days.plus(23.hours)))
+        Log.d(TAG, "KOTLIN - 1 week 2 days   : " + getKotlinRelativeDateTimeFormatterString(9.days))
+
+
+
 
 
         // ----- Going forward -----
