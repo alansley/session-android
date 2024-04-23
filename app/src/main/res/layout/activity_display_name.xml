@@ -43,7 +43,9 @@
         android:paddingBottom="0dp"
         android:gravity="center_vertical"
         android:inputType="textCapWords"
-        android:hint="@string/displayNameEnter" />
+        android:hint="@string/displayNameEnter"
+        android:maxLength="@integer/max_user_nickname_length_chars"
+        android:maxLines="1" />
 
     <View
         android:layout_width="match_parent"

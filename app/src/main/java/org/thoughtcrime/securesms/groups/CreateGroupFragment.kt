@@ -78,9 +78,12 @@ class CreateGroupFragment : Fragment() {
             if (name.isEmpty()) {
                 return@setOnClickListener Toast.makeText(context, R.string.groupNameEnterPlease, Toast.LENGTH_LONG).show()
             }
-            if (name.length >= 30) {
+
+            // Limit the group name length if it exceeds the limit
+            if (name.length > resources.getInteger(R.integer.max_group_and_community_name_length_chars)) {
                 return@setOnClickListener Toast.makeText(context, R.string.groupNameEnterShorter, Toast.LENGTH_LONG).show()
             }
+
             val selectedMembers = adapter.selectedMembers
             if (selectedMembers.isEmpty()) {
                 return@setOnClickListener Toast.makeText(context, R.string.groupCreateErrorNoMembers, Toast.LENGTH_LONG).show()

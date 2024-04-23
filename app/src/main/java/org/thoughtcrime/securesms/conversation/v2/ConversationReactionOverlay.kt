@@ -39,7 +39,6 @@ import org.thoughtcrime.securesms.components.menu.ActionItem
 import org.thoughtcrime.securesms.conversation.v2.menus.ConversationMenuItemHelper.userCanBanSelectedUsers
 import org.thoughtcrime.securesms.conversation.v2.menus.ConversationMenuItemHelper.userCanDeleteSelectedItems
 import org.thoughtcrime.securesms.database.MmsSmsDatabase
-import org.thoughtcrime.securesms.database.SessionContactDatabase
 import org.thoughtcrime.securesms.database.model.MediaMmsMessageRecord
 import org.thoughtcrime.securesms.database.model.MessageRecord
 import org.thoughtcrime.securesms.database.model.ReactionRecord
@@ -529,47 +528,60 @@ class ConversationReactionOverlay : FrameLayout {
         val recipient = get(context).threadDatabase().getRecipientForThreadId(message.threadId)
                 ?: return emptyList()
         val userPublicKey = getLocalNumber(context)!!
+
         // Select message
         items += ActionItem(R.attr.menu_select_icon, R.string.select, { handleActionItemClicked(Action.SELECT) }, R.string.AccessibilityId_select)
+
         // Reply
         val canWrite = openGroup == null || openGroup.canWrite
-        if (canWrite && !message.isPending && !message.isFailed) {
+        if (canWrite && !message.isPending && !message.isFailed && !message.isOpenGroupInvitation) {
             items += ActionItem(R.attr.menu_reply_icon, R.string.reply, { handleActionItemClicked(Action.REPLY) }, R.string.AccessibilityId_reply_message)
+
         }
+
         // Copy message text
         if (!containsControlMessage && hasText) {
             items += ActionItem(R.attr.menu_copy_icon, R.string.copy, { handleActionItemClicked(Action.COPY_MESSAGE) })
         }
+
         // Copy Session ID
-        if (recipient.isGroupRecipient && !recipient.isOpenGroupRecipient && message.recipient.address.toString() != userPublicKey) {
+        if (recipient.isGroupRecipient && !recipient.isCommunityRecipient && message.recipient.address.toString() != userPublicKey) {
             items += ActionItem(R.attr.menu_copy_icon, R.string.accountIDCopy, { handleActionItemClicked(Action.COPY_SESSION_ID) })
         }
+
         // Delete message
         if (userCanDeleteSelectedItems(context, message, openGroup, userPublicKey, blindedPublicKey)) {
             items += ActionItem(R.attr.menu_trash_icon, R.string.delete, { handleActionItemClicked(Action.DELETE) }, R.string.AccessibilityId_delete_message, message.subtitle, R.color.destructive)
         }
+
         // Ban user
         if (userCanBanSelectedUsers(context, message, openGroup, userPublicKey, blindedPublicKey)) {
             items += ActionItem(R.attr.menu_block_icon, R.string.banUser, { handleActionItemClicked(Action.BAN_USER) })
         }
+
         // Ban and delete all
         if (userCanBanSelectedUsers(context, message, openGroup, userPublicKey, blindedPublicKey)) {
             items += ActionItem(R.attr.menu_trash_icon, R.string.banUser, { handleActionItemClicked(Action.BAN_AND_DELETE_ALL) })
         }
+
         // Message detail
         items += ActionItem(R.attr.menu_info_icon, R.string.messageInfo, { handleActionItemClicked(Action.VIEW_INFO) })
+
         // Resend
         if (message.isFailed) {
             items += ActionItem(R.attr.menu_reply_icon, R.string.resend, { handleActionItemClicked(Action.RESEND) })
         }
+
         // Resync
         if (message.isSyncFailed) {
             items += ActionItem(R.attr.menu_reply_icon, R.string.conversation_context__menu_resync_message, { handleActionItemClicked(Action.RESYNC) })
         }
+
         // Save media
         if (message.isMms && (message as MediaMmsMessageRecord).containsMediaSlide()) {
             items += ActionItem(R.attr.menu_save_icon, R.string.conversation_context_image__save_attachment, { handleActionItemClicked(Action.DOWNLOAD) }, R.string.AccessibilityId_save_attachment)
         }
+
         backgroundView.visibility = VISIBLE
         foregroundView.visibility = VISIBLE
         return items

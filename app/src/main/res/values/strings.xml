@@ -412,7 +412,6 @@
     <string name="linkPreviewsEnable">Enable Link Previews</string>
     <string name="conversationsSpellCheckDescription">Enable spell check when typing messages</string>
     <string name="callsVoiceAndVideoToggleDescription">Enables voice and video calls to and from other users</string>
-    <string name="displayNameEnter">Enter a display name</string>
     <string name="groupDescriptionEnter">Enter a group description</string>
     <string name="accountIdEnter">Enter Account ID</string>
     <string name="accountIdOrOnsEnter">Enter Account ID or ONS</string>
@@ -850,5 +849,6 @@
     <string name="messageRequestsCommunities">Community Message Requests</string>
     <string name="messageRequestsCommunitiesDescription">Allow message requests from Community conversations</string>
     <string name="blockUnblockDescription">Are you sure you want to unblock {name}?</string>
+    <string name="displayNameEnter">Enter your display name</string>
 
 </resources>
