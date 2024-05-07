@@ -177,7 +177,7 @@ private class LinkDeviceActivityAdapter(private val activity: LinkDeviceActivity
             1 -> {
                 val result = ScanQRCodeWrapperFragment()
                 result.delegate = activity
-                result.message = activity.getString(R.string.activity_link_device_qr_message)
+                result.message = "ACL REMOVE THIS AS THE TEXT IS DIFF AFTER ONBOARDING - used to be R.string.activity_link_device_qr_message" // activity.getString(R.string.activity_link_device_qr_message)
                 result
             }
             else -> throw IllegalStateException()

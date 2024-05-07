@@ -133,7 +133,6 @@
     <string name="activity_help_settings__export_logs">Export Logs</string>
     <string name="activity_help_settings__faq">FAQ</string>
     <string name="activity_home_empty_state_button_title">Start a Session</string>
-    <string name="activity_link_device_qr_message">Navigate to Settings → Recovery Phrase on your other device to show your QR code.</string>
     <string name="activity_link_device_skip_prompt">This is taking a while, would you like to skip?</string>
     <string name="activity_pn_mode_no_option_picked_dialog_title">Please Pick an Option</string>
     <string name="activity_seed_explanation">Your recovery phrase is the master key to your Session ID — you can use it to restore your Session ID if you lose access to your device. Store your recovery phrase in a safe place, and don\'t give it to anyone.</string>
