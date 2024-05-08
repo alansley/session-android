@@ -32,7 +32,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Помилка відправлення, переглянути деталі</string>
-    <string name="ConversationItem_copied_text">Скопійовано %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Додати вкладення</string>
     <string name="message">Написати</string>
@@ -50,8 +49,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Використання власного: %s</string>
-    <string name="CustomDefaultPreference_using_default">Використання типового: %s</string>
     <string name="none">Жодного</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Зараз</string>
@@ -172,7 +169,6 @@
     <string name="via">Через</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Використовувати власні</string>
     <string name="notificationsMute1Hour">Вимкнути звук на 1 годину</string>
     <string name="notificationsMute2Hours">Вимкнути звук на 2 години</string>
     <string name="notificationsMute1Day">Вимкнути звук на 1 день</string>

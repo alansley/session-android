@@ -34,7 +34,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">فشل الإرسال , اضغط للحصول على معلومات</string>
-    <string name="ConversationItem_copied_text">تم نسخ %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">إضافة مرفقات</string>
     <string name="message">رسالة</string>
@@ -54,8 +53,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">استخدام التخصيص: %s</string>
-    <string name="CustomDefaultPreference_using_default">الاستخدام الافتراضي: %s</string>
     <string name="none">لا شيء </string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">الآن</string>
@@ -179,7 +176,6 @@
     <string name="via">بواسطة</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">تخصيص</string>
     <string name="notificationsMute1Hour">كتم لمدة ساعة</string>
     <string name="notificationsMute2Hours">كتم لمدة ساعتين</string>
     <string name="notificationsMute1Day">كتم لمدة يوم</string>

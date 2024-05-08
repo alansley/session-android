@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Lähetys epäonnistui, napauta nähdäksesi lisätietoja</string>
-    <string name="ConversationItem_copied_text">Kopioitu: %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Lisää liite</string>
     <string name="message">Viesti</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Käytä mukautettua: %s</string>
-    <string name="CustomDefaultPreference_using_default">Käytä oletusta: %s</string>
     <string name="none">Ei asetettu</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nyt</string>
@@ -163,7 +160,6 @@
     <string name="via">Tyyppi</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Käytä mukautettua</string>
     <string name="notificationsMute1Hour">1 tunniksi</string>
     <string name="notificationsMute2Hours">2 tunniksi</string>
     <string name="notificationsMute1Day">1 vuorokaudeksi</string>

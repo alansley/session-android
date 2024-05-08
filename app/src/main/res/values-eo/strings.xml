@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Sendado malsukcesis, tuŝetu por detaloj</string>
-    <string name="ConversationItem_copied_text">Kopiinta %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Aldoni kunsendaĵon</string>
     <string name="message">Mesaĝo</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Uzante propran: %s</string>
-    <string name="CustomDefaultPreference_using_default">Uzante defaŭltan: %s</string>
     <string name="none">Neniu</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nun</string>
@@ -163,7 +160,6 @@
     <string name="via">Per</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Uzi propran</string>
     <string name="notificationsMute1Hour">Silentigi dum 1 horo</string>
     <string name="notificationsMute2Hours">Silentigi dum 2 horoj</string>
     <string name="notificationsMute1Day">Silentigi dum 1 tago</string>

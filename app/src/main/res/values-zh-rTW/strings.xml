@@ -29,7 +29,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">傳送失敗，點擊以了解細節。</string>
-    <string name="ConversationItem_copied_text">已複製 %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">增加附件檔案</string>
     <string name="message">訊息</string>
@@ -44,8 +43,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">使用自訂：%s</string>
-    <string name="CustomDefaultPreference_using_default">使用預設：%s</string>
     <string name="none">無</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">現在</string>
@@ -159,7 +156,6 @@
     <string name="via">來自</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">使用自訂</string>
     <string name="notificationsMute1Hour">靜音 1 小時</string>
     <string name="notificationsMute2Hours">靜音 2 小時</string>
     <string name="notificationsMute1Day">靜音 1 天</string>

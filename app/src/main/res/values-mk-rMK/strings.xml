@@ -22,7 +22,6 @@
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
-    <string name="ConversationItem_copied_text">ကူးပြီးပါပြီ %s </string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">ပူးတွဲဖိုင် ထည့်ရန်</string>
     <string name="blockUnblock">ဘလော့ဖြည်ပါ </string>
@@ -31,8 +30,6 @@
     <string name="ConversationFragment_save_to_sd_card">သိမ်းမည်လား?</string>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">အထူးပြုသုံး %s</string>
-    <string name="CustomDefaultPreference_using_default">မူရင်းကိုသုံး %s </string>
     <string name="none">မည်သည့်အရာမှ မဟုတ်သော</string>
     <!-- DateUtils -->
     <string name="DateUtils_today">ယနေ့ </string>
@@ -127,7 +124,6 @@
     <string name="via">တဆင့်</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">အထူးပြုကိုသုံးသည် </string>
     <string name="notificationsMute1Hour">အသံကို ၁ နာရီ ပိတ်ထားပါ။</string>
     <string name="notificationsMute2Hours">အသံကို ၂ နာရီ ပိတ်ထားပါ။</string>
     <string name="notificationsMute1Day">အသံကို ၁ ရက် ပိတ်ထားပါ</string>

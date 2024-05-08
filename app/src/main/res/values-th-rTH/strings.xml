@@ -26,7 +26,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">การส่งล้มเหลว แตะเพื่อดูรายละเอียด</string>
-    <string name="ConversationItem_copied_text">คัดลอกแล้ว %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">เพิ่มไฟล์แนบ</string>
     <string name="blockUnblock">เลิกปิดกั้น</string>
@@ -38,8 +37,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">ใช้ค่าที่กำหนดเอง: %s</string>
-    <string name="CustomDefaultPreference_using_default">ใช้ค่าเริ่มต้น: %s</string>
     <string name="none">ไม่มี</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">เดี๋ยวนี้</string>
@@ -140,7 +137,6 @@
     <string name="via">ผ่าน</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">ใช้ค่าที่กำหนดเอง</string>
     <string name="notificationsMute1Hour">ปิดเสียง 1 ชั่วโมง</string>
     <string name="notificationsMute2Hours">ปิดเสียง 2 ชั่วโมง</string>
     <string name="notificationsMute1Day">ปิดเสียง 1 วัน</string>

@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Sändningen misslyckades, tryck för detaljer</string>
-    <string name="ConversationItem_copied_text">Kopierade %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Bifoga fil</string>
     <string name="message">Meddelande</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Använder anpassade: %s</string>
-    <string name="CustomDefaultPreference_using_default">Använder standard: %s</string>
     <string name="none">Inga</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nu</string>
@@ -163,7 +160,6 @@
     <string name="via">Via</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Använd anpassad inställning</string>
     <string name="notificationsMute1Hour">Tysta i 1 timme</string>
     <string name="notificationsMute2Hours">Tysta i 2 timmar</string>
     <string name="notificationsMute1Day">Tysta i 1 dag</string>

@@ -28,7 +28,6 @@
     <!-- CommunicationActions -->
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
-    <string name="ConversationItem_copied_text">Đã sao chép %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Thêm tập tin đính kèm</string>
     <string name="blockUnblock">Không chặn</string>
@@ -37,8 +36,6 @@
     <string name="ConversationFragment_save_to_sd_card">Lưu vào thẻ nhớ?</string>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Dùng tùy chỉnh: %s</string>
-    <string name="CustomDefaultPreference_using_default">Dùng mặc định: %s</string>
     <string name="none">Không</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Bây giờ</string>
@@ -121,7 +118,6 @@
     <string name="via">Qua</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Dùng tùy chỉnh</string>
     <string name="notificationsMute1Hour">Tạm im 1 tiếng</string>
     <string name="notificationsMute2Hours">Tạm im 2 tiếng</string>
     <string name="notificationsMute1Day">Tạm im 1 ngày</string>

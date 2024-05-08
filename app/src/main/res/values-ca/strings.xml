@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Ha fallat l\'enviament. Toqueu per a saber-ne més</string>
-    <string name="ConversationItem_copied_text">S\'ha copiat %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Afegeix un adjunt</string>
     <string name="message">Missatge</string>
@@ -45,8 +44,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Ús de la personalització: %s</string>
-    <string name="CustomDefaultPreference_using_default">Per defecte: %s</string>
     <string name="none">Cap</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Ara</string>
@@ -162,7 +159,6 @@
     <string name="via">Per</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Personalitzat</string>
     <string name="notificationsMute1Hour">Silencia-ho durant 1 hora</string>
     <string name="notificationsMute2Hours">Silencia-ho durant 2 hores</string>
     <string name="notificationsMute1Day">Silencia-ho durant 1 dia</string>

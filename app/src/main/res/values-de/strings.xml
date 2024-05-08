@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Senden fehlgeschlagen, für Details tippen</string>
-    <string name="ConversationItem_copied_text">%s kopiert</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Anhang hinzufügen</string>
     <string name="message">Nachricht</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Benutzerdefiniert: %s</string>
-    <string name="CustomDefaultPreference_using_default">Standard: %s</string>
     <string name="none">Kein Eintrag</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Jetzt</string>
@@ -163,7 +160,6 @@
     <string name="via">Über</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Benutzerdefiniert verwenden</string>
     <string name="notificationsMute1Hour">Für 1 Stunde</string>
     <string name="notificationsMute2Hours">Für 2 Stunden</string>
     <string name="notificationsMute1Day">Für 1 Tag</string>

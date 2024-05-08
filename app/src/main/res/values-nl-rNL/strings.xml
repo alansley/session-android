@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Verzenden is mislukt, tik voor details</string>
-    <string name="ConversationItem_copied_text">%s gekopieerd</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Bijlage toevoegen</string>
     <string name="message">Bericht</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Aanpassing in gebruik: %s</string>
-    <string name="CustomDefaultPreference_using_default">Standaard in gebruik: %s</string>
     <string name="none">Geen</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nu</string>
@@ -163,7 +160,6 @@
     <string name="via">Via</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Gebruik aangepast</string>
     <string name="notificationsMute1Hour">Demp voor 1 uur</string>
     <string name="notificationsMute2Hours">Demp voor 2 uur</string>
     <string name="notificationsMute1Day">Demp voor 1 dag</string>

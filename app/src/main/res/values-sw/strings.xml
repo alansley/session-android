@@ -24,7 +24,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">imefeli kutuma, gusa kwa taarifa</string>
-    <string name="ConversationItem_copied_text">nakala 1%s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ongeza Kiambatanisho</string>
     <string name="blockUnblock">Fungua</string>
@@ -33,7 +32,6 @@
     <string name="ConversationFragment_save_to_sd_card">Hifadhi kwa kuhifadhi</string>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">tumia desturi: 1%s</string>
     <string name="none">Hakuna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sasa</string>
@@ -137,7 +135,6 @@
     <string name="via">Kupitia</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">tumia desturi</string>
     <string name="notificationsMute1Hour">nyamaza kwa saa 1</string>
     <string name="notificationsMute2Hours">nyamaza kwa masaa 2</string>
     <string name="notificationsMute1Day">toa sauti kwa siku moja</string>

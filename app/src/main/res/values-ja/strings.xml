@@ -29,7 +29,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">送信失敗、タップして詳細を見る</string>
-    <string name="ConversationItem_copied_text">%sをコピーしました </string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">添付ファイルを付ける</string>
     <string name="message">メッセージ</string>
@@ -44,8 +43,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">カスタム利用: %s</string>
-    <string name="CustomDefaultPreference_using_default">デフォルト利用: %s</string>
     <string name="none">なし</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">今</string>
@@ -159,7 +156,6 @@
     <string name="via">経由</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">カスタムを使う</string>
     <string name="notificationsMute1Hour">1時間ミュート</string>
     <string name="notificationsMute2Hours">2時間ミュート</string>
     <string name="notificationsMute1Day">1日間ミュート</string>

@@ -32,7 +32,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Siuntimas nepavyko, bakstelėkite išsamesnei informacijai</string>
-    <string name="ConversationItem_copied_text">%s nukopijuota</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Pridėti priedą</string>
     <string name="message">Žinutė</string>
@@ -50,8 +49,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Naudojamas tinkintas: %s</string>
-    <string name="CustomDefaultPreference_using_default">Naudojamas numatytasis: %s</string>
     <string name="none">Nėra</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Dabar</string>
@@ -171,7 +168,6 @@
     <string name="via">Per</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Naudoti tinkintą</string>
     <string name="notificationsMute1Hour">Nutildyti 1 valandai</string>
     <string name="notificationsMute2Hours">Nutildyti 2 valandoms</string>
     <string name="notificationsMute1Day">Nutildyti 1 dienai</string>

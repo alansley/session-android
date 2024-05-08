@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Слање није успело, тапните за детаље</string>
-    <string name="ConversationItem_copied_text">Копирана %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Додај прилог</string>
     <string name="message">Пошаљи поруку</string>
@@ -47,8 +46,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Користим посебно: %s</string>
-    <string name="CustomDefaultPreference_using_default">Користим подразумевано: %s</string>
     <string name="none">Ништа</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Сад</string>
@@ -164,7 +161,6 @@
     <string name="via">Преко</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Користи посебно</string>
     <string name="notificationsMute1Hour">Утишај 1 сат</string>
     <string name="notificationsMute2Hours">Утишај 2 сата</string>
     <string name="notificationsMute1Day">Утишај 1 дан</string>

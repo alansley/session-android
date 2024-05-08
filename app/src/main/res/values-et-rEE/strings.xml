@@ -27,7 +27,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Saatmine ebaõnnestus, koputa üksikasjade nägemiseks</string>
-    <string name="ConversationItem_copied_text">%s kopeeritud</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Lisa manus</string>
     <string name="blockUnblock">Eemalda blokeering</string>
@@ -40,8 +39,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Kasutan kohandatud: %s</string>
-    <string name="CustomDefaultPreference_using_default">Kasutan vaikimisi: %s</string>
     <string name="none">Puudub</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nüüd</string>
@@ -154,7 +151,6 @@
     <string name="via">Saatmisviis:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Kasuta kohandatud väärtust</string>
     <string name="notificationsMute1Hour">Vaigista 1 tunniks</string>
     <string name="notificationsMute2Hours">Vaigista 2 tunniks</string>
     <string name="notificationsMute1Day">Vaigista 1 päevaks</string>

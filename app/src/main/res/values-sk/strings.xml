@@ -31,7 +31,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Odosielanie zlyhalo, ťuknutím zobrazíte podrobnosti</string>
-    <string name="ConversationItem_copied_text">Skopírovaných %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Pridať prílohu</string>
     <string name="message">Správa</string>
@@ -48,8 +47,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Používa sa vlastné: %s</string>
-    <string name="CustomDefaultPreference_using_default">Používa sa predvolené: %s</string>
     <string name="none">Žiadna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Teraz</string>
@@ -169,7 +166,6 @@
     <string name="via">Cez</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Použiť vlastné</string>
     <string name="notificationsMute1Hour">Stlmiť na 1 hodinu</string>
     <string name="notificationsMute2Hours">Stlmiť na 2 hodiny</string>
     <string name="notificationsMute1Day">Stlmiť na 1 deň</string>

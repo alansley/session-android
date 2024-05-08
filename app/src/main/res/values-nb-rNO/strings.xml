@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Sending mislyktes, trykk for detaljer</string>
-    <string name="ConversationItem_copied_text">Kopiert %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Legg til vedlegg</string>
     <string name="message">Melding</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Bruker selvvalgt: %s</string>
-    <string name="CustomDefaultPreference_using_default">Bruker forvalgt: %s</string>
     <string name="none">Ingen</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Nå</string>
@@ -163,7 +160,6 @@
     <string name="via">Via</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Bruk selvvalgt</string>
     <string name="notificationsMute1Hour">Demp i 1 time</string>
     <string name="notificationsMute2Hours">Demp i 2 timer</string>
     <string name="notificationsMute1Day">Demp i 1 dag</string>

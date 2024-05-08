@@ -27,7 +27,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Mana rirkachu, ashtawan yachankapak munashpaka kaypi llapipay</string>
-    <string name="ConversationItem_copied_text">Chayshinayarka %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Shuk imaykunata kimichipay</string>
     <string name="blockUnblock">Pakashkamanta llukchi</string>
@@ -40,8 +39,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Kanpa shuyu munashkatapacha akllakun: %s</string>
-    <string name="CustomDefaultPreference_using_default">Ña rurashka shuyuta akllakunki: %s</string>
     <string name="none">Nimaykan</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Kunan</string>
@@ -140,7 +137,6 @@
     <string name="via">Kay ñianta</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Kikinpapacha kashkata mutsupay.</string>
     <string name="notificationsMute1Hour">1  pachata upallayachina</string>
     <string name="notificationsMute2Hours">2 pachata upallayachina</string>
     <string name="notificationsMute1Day">1 punchata upallayachina</string>

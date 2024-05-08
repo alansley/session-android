@@ -29,7 +29,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">전송 실패, 탭해서 자세히 보기</string>
-    <string name="ConversationItem_copied_text">복사됨 %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">첨부</string>
     <string name="message">메시지</string>
@@ -44,8 +43,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">맞춤값 사용: %s</string>
-    <string name="CustomDefaultPreference_using_default">기본값 사용: %s</string>
     <string name="none">없음</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">방금 전</string>
@@ -135,7 +132,6 @@
     <string name="via">유형:</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">맞춤설정 사용</string>
     <string name="notificationsMute1Hour">1시간 동안 알림 끄기</string>
     <string name="notificationsMute2Hours">2시간 동안 알림 끄기</string>
     <string name="notificationsMute1Day">하루 동안 알림 끄기</string>

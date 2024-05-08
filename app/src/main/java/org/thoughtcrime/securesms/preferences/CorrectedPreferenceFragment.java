@@ -1,6 +1,5 @@
 package org.thoughtcrime.securesms.preferences;
 
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Typeface;
@@ -9,7 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.ViewCompat;
@@ -21,10 +19,7 @@ import androidx.preference.PreferenceGroupAdapter;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
-
-import org.thoughtcrime.securesms.components.CustomDefaultPreference;
 import org.thoughtcrime.securesms.conversation.v2.ViewUtil;
-
 import network.loki.messenger.R;
 
 public abstract class CorrectedPreferenceFragment extends PreferenceFragmentCompat {
@@ -57,10 +52,6 @@ public abstract class CorrectedPreferenceFragment extends PreferenceFragmentComp
   @Override
   public void onDisplayPreferenceDialog(Preference preference) {
     DialogFragment dialogFragment = null;
-
-    if (preference instanceof CustomDefaultPreference) {
-      dialogFragment = CustomDefaultPreference.CustomDefaultPreferenceDialogFragmentCompat.newInstance(preference.getKey());
-    }
 
     if (dialogFragment != null) {
       dialogFragment.setTargetFragment(this, 0);

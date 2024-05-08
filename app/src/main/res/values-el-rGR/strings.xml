@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Η αποστολή απέτυχε, πατήστε για λεπτομέρειες</string>
-    <string name="ConversationItem_copied_text">Αντιγράφτηκε: %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Προσθήκη συνημμένου</string>
     <string name="message">Μήνυμα</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Χρησιμοποιείται το προσαρμοσμένο: %s</string>
-    <string name="CustomDefaultPreference_using_default">Χρησιμοποιείται το προκαθορισμένο: %s</string>
     <string name="none">Κανένα</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Τώρα</string>
@@ -163,7 +160,6 @@
     <string name="via">Μέσω</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Χρήση προσαρμοσμένου</string>
     <string name="notificationsMute1Hour">Σίγαση για 1 ώρα</string>
     <string name="notificationsMute2Hours">Σίγαση για 2 ώρες</string>
     <string name="notificationsMute1Day">Σίγαση για 1 ημέρα</string>

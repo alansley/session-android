@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Չուղարկվեց, սեղմեք տվյալների համար</string>
-    <string name="ConversationItem_copied_text">«%s»֊ը պատճենվել է</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ավելացնել կցորդ</string>
     <string name="message">Հաղորդագրություն</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Սովորական օգտագործելով: %s</string>
-    <string name="CustomDefaultPreference_using_default">Օգտագործելով լռելյայն.%s</string>
     <string name="none">Չկա</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Հիմա</string>
@@ -163,7 +160,6 @@
     <string name="via">Միջոցով</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Օգտագործել հատուկ կարգավորում</string>
     <string name="notificationsMute1Hour">Անջատել 1 ժամ</string>
     <string name="notificationsMute2Hours">Խլացնել 2 ժամով</string>
     <string name="notificationsMute1Day">Անջատել 1 օր</string>

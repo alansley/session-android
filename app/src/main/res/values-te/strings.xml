@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">విఫలమైంది పంపండి, వివరాల కోసం నొక్కండి</string>
-    <string name="ConversationItem_copied_text">ప్రతి  తీసుకోబడింది %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">అటాచ్మెంట్ జోడించండి</string>
     <string name="message">సందేశం</string>
@@ -48,8 +47,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">అనుకూలీకరణ ఉపయోగించి: %s</string>
-    <string name="CustomDefaultPreference_using_default">ఉపయోగించి అప్రమేయం: %s</string>
     <string name="none">ఏదీ కాదు</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">ఇప్పుడు</string>
@@ -152,7 +149,6 @@
     <string name="via">ద్వారా</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom"> నియమము ఉపయోగించు</string>
     <string name="notificationsMute1Hour">1 గంట నిశబ్దంగా ఉంచు</string>
     <string name="notificationsMute2Hours">2 గంటలు నిశబ్దంగా ఉంచు</string>
     <string name="notificationsMute1Day">1 రోజు నిశబ్దంగా ఉంచు</string>

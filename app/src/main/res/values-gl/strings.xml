@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Erro ao enviar; toca para máis detalles</string>
-    <string name="ConversationItem_copied_text">Copiouse %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Engadir anexo</string>
     <string name="message">Escribe aquí a túa mensaxe</string>
@@ -45,8 +44,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Uso personalizado: %s</string>
-    <string name="CustomDefaultPreference_using_default">Uso predefinido: %s</string>
     <string name="none">Ningunha</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Agora</string>
@@ -162,7 +159,6 @@
     <string name="via">Vía</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Utilizar o personalizado</string>
     <string name="notificationsMute1Hour">Silenciar durante 1 hora</string>
     <string name="notificationsMute2Hours">Silenciar durante 2 horas</string>
     <string name="notificationsMute1Day">Silenciar durante 1 día</string>

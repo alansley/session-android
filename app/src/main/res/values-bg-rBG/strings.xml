@@ -29,7 +29,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Неуспешно изпращане, натиснете за повече информация</string>
-    <string name="ConversationItem_copied_text">%s e копирано</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Прикачване на файл</string>
     <string name="message">Съобщение</string>
@@ -43,8 +42,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Използване на специален:  %s</string>
-    <string name="CustomDefaultPreference_using_default">Използване на подразбиращ се: %s</string>
     <string name="none">Нищо</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Току що</string>
@@ -157,7 +154,6 @@
     <string name="via">През</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Използване на специален</string>
     <string name="notificationsMute1Hour">Тих режим за 1 час</string>
     <string name="notificationsMute2Hours">Тих режим за 2 часа</string>
     <string name="notificationsMute1Day">Тих режим за 1 ден</string>

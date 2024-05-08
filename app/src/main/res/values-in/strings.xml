@@ -29,7 +29,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Pengiriman gagal, ketuk untuk rincian</string>
-    <string name="ConversationItem_copied_text">Tersalin %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Tambahkan lampiran</string>
     <string name="message">Pesan</string>
@@ -41,7 +40,6 @@
     <string name="ConversationFragment_save_to_sd_card">Simpan ke penyimpanan?</string>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_default">Gunakan baku: %s</string>
     <string name="none">Tidak ada</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sekarang</string>
@@ -144,7 +142,6 @@
     <string name="via">Melalui</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Gunakan kustom</string>
     <string name="notificationsMute1Hour">Senyapkan selama 1 jam</string>
     <string name="notificationsMute2Hours">Senyapkan selama 2 jam</string>
     <string name="notificationsMute1Day">Senyapkan selama 1 hari</string>

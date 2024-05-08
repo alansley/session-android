@@ -29,7 +29,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Şandin têk çû, ji bo hûrgiliyên bêhtir, bitepîne</string>
-    <string name="ConversationItem_copied_text">%s ji ber girtî</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Servehî lê zede bike</string>
     <string name="blockUnblock">Astengê rake</string>
@@ -42,8 +41,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Bikaranîna kesanekirî: %s</string>
-    <string name="CustomDefaultPreference_using_default">Bikaranîna jixweberî: %s</string>
     <string name="none">Hîç</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Niha</string>
@@ -149,7 +146,6 @@
     <string name="via">Bi riya</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Ya taybet bi kar bîne</string>
     <string name="notificationsMute1Hour">Heta 1 demjimêrê bêdeng bike</string>
     <string name="notificationsMute2Hours">Heta 2 demjimêran bêdeng bike</string>
     <string name="notificationsMute1Day">Heta 1 rojê bêdeng bike</string>

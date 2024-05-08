@@ -22,7 +22,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Gagal mengirim, ketuk untuk detil</string>
-    <string name="ConversationItem_copied_text">Disalin %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Tambahkan lampiran</string>
     <string name="blockUnblock">Buka blokir</string>
@@ -31,8 +30,6 @@
     <string name="ConversationFragment_save_to_sd_card">Simpan ke penyimpanan?</string>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Gunakan ubahsuai: %s</string>
-    <string name="CustomDefaultPreference_using_default">Gunakan bawaan: %s</string>
     <string name="none">Kosong</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Sekarang</string>
@@ -135,7 +132,6 @@
     <string name="message_details_header__disappears">Hilang</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Gunakan ubahsuai</string>
     <string name="notificationsMute1Hour">Bisukan selama 1 jam</string>
     <string name="notificationsMute2Hours">Bisukan selama 2 jam</string>
     <string name="notificationsMute1Day">Bisukan selama 1 hari</string>

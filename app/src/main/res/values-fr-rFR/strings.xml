@@ -29,7 +29,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Échec d’envoi, touchez pour obtenir des détails</string>
-    <string name="ConversationItem_copied_text">Copié %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Ajouter une pièce jointe</string>
     <string name="message">Message</string>
@@ -47,8 +46,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Personnalisé : %s</string>
-    <string name="CustomDefaultPreference_using_default">Utilisation par défaut : %s</string>
     <string name="none">Aucun</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">À l’instant</string>
@@ -164,7 +161,6 @@
     <string name="via">Par</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Personnalisé</string>
     <string name="notificationsMute1Hour">Sourdine pendant 1 heure</string>
     <string name="notificationsMute2Hours">Sourdine pendant 2 heures</string>
     <string name="notificationsMute1Day">Sourdine pendant 1 jour</string>

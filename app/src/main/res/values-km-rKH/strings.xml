@@ -28,7 +28,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">ផ្ញើបរាជ័យ ចុច សម្រាប់ព័ត៌មានលម្អិត</string>
-    <string name="ConversationItem_copied_text">បានចម្លង %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">ភ្ជាប់ឯកសារ</string>
     <string name="blockUnblock">បើកវិញ</string>
@@ -40,8 +39,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">ប្រើផ្សេងៗ៖ %s</string>
-    <string name="CustomDefaultPreference_using_default">ប្រើលំនាំដើម៖ %s</string>
     <string name="none">គ្មាន</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">ឥឡូវនេះ</string>
@@ -152,7 +149,6 @@
     <string name="via">តាមរយៈ</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">ប្រើផ្សេងៗ</string>
     <string name="notificationsMute1Hour">បិទសំឡេង 1 ម៉ោង</string>
     <string name="notificationsMute2Hours">បិទសំឡេង 2 ម៉ោង</string>
     <string name="notificationsMute1Day">បិទសំឡេង 1 ថ្ងៃ</string>

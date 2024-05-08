@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">ارسال نشد، برای جزئیات بیشتر ضربه بزنید</string>
-    <string name="ConversationItem_copied_text">%s کپی شد</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">پیوست فایل</string>
     <string name="message">پیام</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">درحال استفاده از سفارشی: %s</string>
-    <string name="CustomDefaultPreference_using_default">درحال استفاده از پیش فرض: %s</string>
     <string name="none">هیچ کدام</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">اکنون</string>
@@ -163,7 +160,6 @@
     <string name="via">از طریق</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">استفاده از سفارشی</string>
     <string name="notificationsMute1Hour">بی صدا به مدت 1 ساعت</string>
     <string name="notificationsMute2Hours">بی صدا به مدت 2 ساعت</string>
     <string name="notificationsMute1Day">بی صدا برای 1 روز</string>

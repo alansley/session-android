@@ -149,11 +149,7 @@
       <item>custom</item>
   </string-array>
 
-  <string-array name="default_or_custom_entries">
-      <item>@string/arrays__use_custom</item>
-  </string-array>
-
-    <string-array name="pref_notification_privacy_entries">
+  <string-array name="pref_notification_privacy_entries">
       <item>@string/notificationsContentShowNameAndContent</item>
       <item>@string/notificationsContentShowNameOnly</item>
       <item>@string/notificationsContentShowNoNameOrContent</item>

@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Dërgimi dështoi, për hollësi, prekeni</string>
-    <string name="ConversationItem_copied_text">U kopjua %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Shtoni bashkëngjitje</string>
     <string name="message">Mesazh</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Me përdorim të një të përshtaturi: %s</string>
-    <string name="CustomDefaultPreference_using_default">Me përdorim parazgjedhjeje: %s</string>
     <string name="none">Asnjë</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Tani</string>
@@ -163,7 +160,6 @@
     <string name="via">Përmes</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Përdor vetjake</string>
     <string name="notificationsMute1Hour">Heshtoje për 1 orë</string>
     <string name="notificationsMute2Hours">Heshtoje për 2 orë</string>
     <string name="notificationsMute1Day">Heshtoje për 1 ditë</string>

@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Sikertelen küldés, koppints a részletekért</string>
-    <string name="ConversationItem_copied_text">%s másolva</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Melléklet csatolása</string>
     <string name="message">Üzenet</string>
@@ -47,8 +46,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Egyéni használata: %s</string>
-    <string name="CustomDefaultPreference_using_default">Alapértelmezett használata: %s</string>
     <string name="none">Egyik sem</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Most</string>
@@ -164,7 +161,6 @@
     <string name="via">Csatorna</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Egyéni használata</string>
     <string name="notificationsMute1Hour">Némítás 1 órára</string>
     <string name="notificationsMute2Hours">Némítás 2 órára</string>
     <string name="notificationsMute1Day">Némítás 1 napra</string>

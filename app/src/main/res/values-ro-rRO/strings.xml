@@ -31,7 +31,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Trimitere eșuată, apăsați pentru detalii</string>
-    <string name="ConversationItem_copied_text">Copiat %s</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Adăugați atașament</string>
     <string name="message">Mesaj</string>
@@ -48,8 +47,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Personalizat: %s</string>
-    <string name="CustomDefaultPreference_using_default">Implicit: %s</string>
     <string name="none">Niciuna</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">Acum</string>
@@ -167,7 +164,6 @@
     <string name="via">Prin</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Personalizat</string>
     <string name="notificationsMute1Hour">Fără sunet pentru o oră</string>
     <string name="notificationsMute2Hours">Fără sunet pentru 2 ore</string>
     <string name="notificationsMute1Day">Fără sunet pentru o zi</string>

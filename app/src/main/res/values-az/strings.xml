@@ -30,7 +30,6 @@
     <!-- ContactsCursorLoader -->
     <!-- ConversationItem -->
     <string name="ConversationItem_error_not_delivered">Göndərilmədi, təfsilatlar üçün toxunun</string>
-    <string name="ConversationItem_copied_text">%s kopyalandı</string>
     <!-- ConversationActivity -->
     <string name="attachmentsAdd">Qoşma əlavə et</string>
     <string name="message">Mesaj</string>
@@ -46,8 +45,6 @@
     </plurals>
     <!-- CreateProfileActivity -->
     <!-- CustomDefaultPreference -->
-    <string name="CustomDefaultPreference_using_custom">Özəl istifadə edilir: %s</string>
-    <string name="CustomDefaultPreference_using_default">İlkin istifadə edilir: %s</string>
     <string name="none">Heç biri</string>
     <!-- DateUtils -->
     <string name="DateUtils_just_now">İndi</string>
@@ -163,7 +160,6 @@
     <string name="via">Vasitəsilə</string>
     <!-- AndroidManifest.xml -->
     <!-- arrays.xml -->
-    <string name="arrays__use_custom">Özəl halı istifadə et</string>
     <string name="notificationsMute1Hour">1 saatlıq səssizə al</string>
     <string name="notificationsMute2Hours">2 saatlıq səssizə al</string>
     <string name="notificationsMute1Day">1 günlük səssizə al</string>
