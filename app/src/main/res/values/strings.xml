@@ -79,9 +79,6 @@
 
     <!-- DraftDatabase -->
     <!-- Ticket to remove these three `DraftDatabase` strings - https://optf.atlassian.net/browse/SES-1500 -->
-    <string name="DraftDatabase_Draft_image_snippet">(image)</string>
-    <string name="DraftDatabase_Draft_audio_snippet">(audio)</string>
-    <string name="DraftDatabase_Draft_video_snippet">(video)</string>
 
     <string name="ErrorNotifier_migration">Database Upgrade Failed</string>
     <string name="ErrorNotifier_migration_downgrade">Please contact support to report the error.</string>
@@ -211,28 +208,28 @@
 
     <!-- ======================================================================================= -->
 
-    <string name="disappearingMessagesUpdated"><b>{adminname}</b> updated disappearing message settings.</string>
+    <string name="disappearingMessagesUpdated"><b>{admin_name}</b> updated disappearing message settings.</string>
     <string name="groupMemberLeft"><b>{name}</b> left the group.</string>
     <string name="adminMorePromotedToAdmin"><b>{name}</b> and <b>{count} others</b> were promoted to Admin.</string>
-    <string name="adminTwoPromotedToAdmin"><b>{name}</b> and <b>{othername}</b> were promoted to Admin.</string>
+    <string name="adminTwoPromotedToAdmin"><b>{name}</b> and <b>{other_name}</b> were promoted to Admin.</string>
     <string name="adminPromotedToAdmin"><b>{name}</b> was promoted to Admin.</string>
     <string name="groupMemberMoreNew"><b>{name}</b> and <b>{count} others</b> joined the group.</string>
-    <string name="groupRemovedMore"><b>{name}</b> and <b>{othername}</b> were removed from the group.</string>
-    <string name="groupMemberTwoNew"><b>{name}</b> and <b>{othername}</b> joined the group.</string>
-    <string name="groupRemovedTwo"><b>{name}</b> and <b>{othername}</b> were removed from the group.</string>
+    <string name="groupRemovedMore"><b>{name}</b> and <b>{other_name}</b> were removed from the group.</string>
+    <string name="groupMemberTwoNew"><b>{name}</b> and <b>{other_name}</b> joined the group.</string>
+    <string name="groupRemovedTwo"><b>{name}</b> and <b>{other_name}</b> were removed from the group.</string>
     <string name="groupMemberNew"><b>{name}</b> joined the group.</string>
-    <string name="searchMatches">{count} of {totalcount} matches</string>
+    <string name="searchMatches">{count} of {total_count} matches</string>
     <string name="members">{count} members</string>
     <string name="callsCalledYou">{name} called you</string>
-    <string name="disappearingMessagesChanged"><b>{name}</b> has changed messages to disappear {time} after they have been {disappearingmessagestype}.</string>
-    <string name="disappearingMessagesSet"><b>{name}</b> has set messages to disappear {time} after they have been {disappearingmessagestype}.</string>
+    <string name="disappearingMessagesChanged"><b>{name}</b> has changed messages to disappear {time} after they have been {disappearing_messages_type}.</string>
+    <string name="disappearingMessagesSet"><b>{name}</b> has set messages to disappear {time} after they have been {disappearing_messages_type}.</string>
     <string name="screenshotTaken"><b>{name}</b> took a screenshot.</string>
     <string name="disappearingMessagesTurnedOff"><b>{name}</b> has turned disappearing messages off.</string>
     <string name="adminRemovedUser"><b>{name}</b> was removed as Admin.</string>
     <string name="groupRemoved"><b>{name}</b> was removed from the group.</string>
     <string name="attachmentsMedia">{name} on {datetime}</string>
-    <string name="notificationsIosGroup">{name} to {conversationname}</string>
-    <string name="notificationsAndroidSystem">{messagecount} new messages in {conversationcount} conversations</string>
+    <string name="notificationsIosGroup">{name} to {conversation_name}</string>
+    <string name="notificationsAndroidSystem">{message_count} new messages in {conversation_count} conversations</string>
     <string name="disappearingMessagesOneDay">1 Day</string>
     <string name="disappearingMessagesOneHour">1 Hour</string>
     <string name="disappearingMessagesOneWeek">1 Week</string>
@@ -271,19 +268,19 @@
     <string name="anonymous">Anonymous</string>
     <string name="updateApp">App updates</string>
     <string name="sessionAppearance">Appearance</string>
-    <string name="adminPromoteTwoDescription">Are you sure you want to promote <b>{name}</b> and <b>{othername}</b> to admin? Admins cannot be removed.</string>
+    <string name="adminPromoteTwoDescription">Are you sure you want to promote <b>{name}</b> and <b>{other_name}</b> to admin? Admins cannot be removed.</string>
     <string name="adminPromoteMoreDescription">Are you sure you want to promote <b>{name}</b> and <b>{count} others</b> to admin? Admins cannot be removed.</string>
     <string name="adminPromoteDescription">Are you sure you want to promote <b>{name}</b> to admin? Admins cannot be removed.</string>
     <string name="blockDescription">Are you sure you want to block <b>{name}</b>? Blocked users cannot send you message requests, group invites or call you.</string>
-    <string name="clearMessagesGroupDescription">Are you sure you want to clear all <b>{groupname}</b> messages from your device?</string>
-    <string name="clearMessagesGroupAdminDescription">Are you sure you want to clear all <b>{groupname}</b> messages?</string>
+    <string name="clearMessagesGroupDescription">Are you sure you want to clear all <b>{group_name}</b> messages from your device?</string>
+    <string name="clearMessagesGroupAdminDescription">Are you sure you want to clear all <b>{group_name}</b> messages?</string>
     <string name="attachmentsClearAllDescription">Are you sure you want to clear all attachments? Messages with attachments will also be deleted.</string>
     <string name="messageRequestsClearAllExplanation">Are you sure you want to clear all message and group invites?</string>
     <string name="clearMessagesChatDescription">Are you sure you want to clear all messages from your conversation with <b>{name}</b> from your device?</string>
     <string name="clearMessagesNoteToSelfDescription">Are you sure you want to clear all Note to Self messages from your device?</string>
-    <string name="clearMessagesCommunity">Are you sure you want to clear all <b>{communityname}</b> messages from your device?</string>
+    <string name="clearMessagesCommunity">Are you sure you want to clear all <b>{community_name}</b> messages from your device?</string>
     <string name="clearDeviceDescription">Are you sure you want to clear your device?</string>
-    <string name="groupDeleteDescription">Are you sure you want to delete <b>{groupname}</b>? This will remove all members and delete all group content.</string>
+    <string name="groupDeleteDescription">Are you sure you want to delete <b>{group_name}</b>? This will remove all members and delete all group content.</string>
     <string name="contactDeleteDescription">Are you sure you want to delete <b>{name}</b> from your contacts? New messages from <b>{name}</b> will arrive as a message request.</string>
     <string name="deleteMessagesDescriptionEveryone">Are you sure you want to delete these messages for everyone?</string>
     <string name="groupInviteDelete">Are you sure you want to delete this group invite?</string>
@@ -294,10 +291,10 @@
     <string name="conversationsDeleteDescription">Are you sure you want to delete your conversation with <b>{name}</b>? New messages from <b>{name}</b> will start a new conversation.</string>
     <string name="clearDeviceAndNetworkConfirm">Are you sure you want to delete your data from the network? If you continue, you will not be able to restore your messages or contacts.</string>
     <string name="noteToSelfHideDescription">Are you sure you want to hide Note to Self?</string>
-    <string name="communityJoinDescription">Are you sure you want to join {communityname}?</string>
-    <string name="communityLeaveDescription">Are you sure you want to leave {communityname}?</string>
-    <string name="groupLeaveDescription">Are you sure you want to leave {groupname}?</string>
-    <string name="groupLeaveDescriptionAdmin">Are you sure you want to leave {groupname}? This will deactivate the group for all members.</string>
+    <string name="communityJoinDescription">Are you sure you want to join {community_name}?</string>
+    <string name="communityLeaveDescription">Are you sure you want to leave {community_name}?</string>
+    <string name="groupLeaveDescription">Are you sure you want to leave {group_name}?</string>
+    <string name="groupLeaveDescriptionAdmin">Are you sure you want to leave {group_name}? This will deactivate the group for all members.</string>
     <string name="urlOpenDescription">Are you sure you want to open {url} in your browser?</string>
     <string name="recoveryPasswordHidePermanentlyDescription2">Are you sure you want to permanently hide your recovery password on this device? This cannot be undone.</string>
     <string name="attachment">Attachment</string>
@@ -344,7 +341,7 @@
     <string name="clearDeviceOnly">Clear device only</string>
     <string name="clearMessagesForEveryone">Clear for everyone</string>
     <string name="clearMessagesForMe">Clear for me</string>
-    <string name="attachmentsClickToDownload">Click to download {filetype}</string>
+    <string name="attachmentsClickToDownload">Click to download {file_type}</string>
     <string name="close">Close</string>
     <string name="closeWindow">Close Window</string>
     <string name="attachmentsCollapseOptions">Collapse attachment options</string>
@@ -374,8 +371,8 @@
     <string name="onboardingBubbleCreatingAnAccountIsEasy">Creating an account is instant, free, and anonymous</string>
     <string name="cut">Cut</string>
     <string name="clearDataError">Data Not Deleted</string>
-    <string name="clearDataErrorDescription2">Data not deleted by {count} Service Nodes. Service Node IDs: {servicenodeid}.</string>
-    <string name="clearDataErrorDescription1">Data not deleted by 1 Service Node. Service Node ID: {servicenodeid}.</string>
+    <string name="clearDataErrorDescription2">Data not deleted by {count} Service Nodes. Service Node IDs: {service_node_id}.</string>
+    <string name="clearDataErrorDescription1">Data not deleted by 1 Service Node. Service Node ID: {service_node_id}.</string>
     <string name="errorDatabase">Database Error</string>
     <string name="decline">Decline</string>
     <string name="_default">Default</string>
@@ -389,7 +386,7 @@
     <string name="disappearingMessagesDeleteType">Delete Type</string>
     <string name="deleting">Deleting</string>
     <string name="onionRoutingPathDestination">Destination</string>
-    <string name="disappearingMessagesDisappear">Disappear After {disappearingmessagestype} - {time}</string>
+    <string name="disappearingMessagesDisappear">Disappear After {disappearing_messages_type} - {time}</string>
     <string name="disappearingMessagesDisappearAfterRead">Disappear After Read</string>
     <string name="disappearingMessagesDisappearAfterSend">Disappear After Send</string>
     <string name="disappearingMessages">Disappearing Messages</string>
@@ -419,13 +416,13 @@
     <string name="error">Error</string>
     <string name="attachmentsErrorSending">Error sending file.</string>
     <string name="helpReportABugExportLogs">Export Logs</string>
-    <string name="groupInviteFailedUser">Failed to invite {name} to {groupname}</string>
-    <string name="groupInviteFailedTwo">Failed to invite {name} and {othername} to {groupname}</string>
-    <string name="groupInviteFailedMore">Failed to invite {name} and {count} others to {groupname}</string>
-    <string name="groupLeaveErrorFailed">Failed to leave {groupname}.</string>
-    <string name="adminPromotionFailedDescription">Failed to promote {name} in {groupname}</string>
-    <string name="adminPromotionFailedDescriptionMore">Failed to promote {name} and {othername} in {groupname}</string>
-    <string name="adminPromotionFailedDescriptionMany">Failed to promote {name} and {count} others in {groupname}</string>
+    <string name="groupInviteFailedUser">Failed to invite {name} to {group_name}</string>
+    <string name="groupInviteFailedTwo">Failed to invite {name} and {other_name} to {group_name}</string>
+    <string name="groupInviteFailedMore">Failed to invite {name} and {count} others to {group_name}</string>
+    <string name="groupLeaveErrorFailed">Failed to leave {group_name}.</string>
+    <string name="adminPromotionFailedDescription">Failed to promote {name} in {group_name}</string>
+    <string name="adminPromotionFailedDescriptionMore">Failed to promote {name} and {other_name} in {group_name}</string>
+    <string name="adminPromotionFailedDescriptionMany">Failed to promote {name} and {count} others in {group_name}</string>
     <string name="adminRemoveFailed">Failed to remove {name} as Admin.</string>
     <string name="messageStatusFailedToSend">Failed to send</string>
     <string name="passwordFailed">Failed to set password</string>
@@ -451,7 +448,7 @@
     <string name="groupInviteSuccessful">Group invite successful</string>
     <string name="groupMembers">Group Members</string>
     <string name="groupName">Group Name</string>
-    <string name="groupNameNew">Group name is now {groupname}.</string>
+    <string name="groupNameNew">Group name is now {group_name}.</string>
     <string name="groupNameUpdated">Group name updated.</string>
     <string name="groupUpdated">Group updated</string>
     <string name="groupAddMemberMaximum">Groups have a maximum of 100 members</string>
@@ -699,7 +696,7 @@
     <string name="stickers">Stickers</string>
     <string name="helpSupport">Support</string>
     <string name="messageStatusSyncing">Syncing</string>
-    <string name="attachmentsTapToDownload">Tap to download {filetype}</string>
+    <string name="attachmentsTapToDownload">Tap to download {file_type}</string>
     <string name="lockAppUnlock">Tap to unlock</string>
     <string name="conversationsSendWithEnterKeyDescription">Tapping the Enter Key will send message instead of starting a new line.</string>
     <string name="notificationsContentDescription">The information shown in notifications.</string>
@@ -709,7 +706,7 @@
     <string name="updateDownloaded">The update has been downloaded. Restart Session to apply the updates.</string>
     <string name="appearanceThemes">Themes</string>
     <string name="adminRemoveCommunityNone">There are no Admins in this Community.</string>
-    <string name="conversationsEmpty">There are no messages in {conversationname}.</string>
+    <string name="conversationsEmpty">There are no messages in {conversation_name}.</string>
     <string name="groupMembersNone">There are no other members in this group.</string>
     <string name="onboardingMessageNotificationExplaination">There are two ways Session can notify you of new messages.</string>
     <string name="updateNewVersionDescription">There is a new version of Session available. Would you like to download the update?</string>
@@ -768,18 +765,18 @@
     <string name="onboardingBubbleWelcomeToSession">Welcome to Session</string>
     <string name="window">Window</string>
     <string name="recoveryPasswordHidePermanentlyDescription1">Without your recovery password, you cannot load your account on new devices. We strongly recommend you save your recovery password in a safe and secure place before continuing.</string>
-    <string name="attachmentsAutoDownloadModalDescription">Would you like to automatically download all files from <b>{conversationname}</b>?</string>
+    <string name="attachmentsAutoDownloadModalDescription">Would you like to automatically download all files from <b>{conversation_name}</b>?</string>
     <string name="helpReportABugExportLogsDescription">Export your logs, then upload the file through Session\'s Help Desk.</string>
-    <string name="groupRemoveMoreDescription">Would you like to remove <b>{name}</b> and <b>{count} others</b> from <b>{groupname}</b>?</string>
-    <string name="groupRemoveTwoDescription">Would you like to remove <b>{name}</b> and <b>{othername}</b> from <b>{groupname}</b>?</string>
-    <string name="groupRemoveDescription">Would you like to remove <b>{name}</b> from <b>{groupname}</b>?</string>
-    <string name="membersInviteShareTwoDescription">Would you like to share group message history with <b>{name}</b> and <b>{othername}</b>?</string>
+    <string name="groupRemoveMoreDescription">Would you like to remove <b>{name}</b> and <b>{count} others</b> from <b>{group_name}</b>?</string>
+    <string name="groupRemoveTwoDescription">Would you like to remove <b>{name}</b> and <b>{other_name}</b> from <b>{group_name}</b>?</string>
+    <string name="groupRemoveDescription">Would you like to remove <b>{name}</b> from <b>{group_name}</b>?</string>
+    <string name="membersInviteShareTwoDescription">Would you like to share group message history with <b>{name}</b> and <b>{other_name}</b>?</string>
     <string name="membersInviteShareMoreDescription">Would you like to share group message history with <b>{name}</b> and <b>{count} others</b>?</string>
     <string name="membersInviteShareDescription">Would you like to share group message history with <b>{name}</b>?</string>
     <string name="yes">Yes</string>
     <string name="onionRoutingPathYou">You</string>
     <string name="communityJoinedAlready">You are already a member of this community.</string>
-    <string name="groupOnlyAdmin">You are the only admin in <b>{groupname}</b>. Group members and settings cannot be changed without an admin.</string>
+    <string name="groupOnlyAdmin">You are the only admin in <b>{group_name}</b>. Group members and settings cannot be changed without an admin.</string>
     <string name="callsYouCalled">You called {name}</string>
     <string name="permissionsMicrophoneAccessRequiredDesktop">You can enable microphone access in Session\'s privacy settings</string>
     <string name="callsPermissionsRequiredDescription">You can enable the \"Voice and Video Calls\" permission in Privacy Settings.</string>
@@ -790,8 +787,8 @@
     <string name="attachmentsMediaEmpty">You don\'t have any media in this conversation.</string>
     <string name="messageRequestsNew">You have a new message request</string>
     <string name="messageRequestYouHaveAccepted">You have accepted the message request from <b>{name}</b>.</string>
-    <string name="messageRequestGroupInvite"><b>{name}</b> invited you to join <b>{groupname}</b>.</string>
-    <string name="groupNoMessages">You have no messages from <b>{groupname}</b>. Send a message to start the conversation!</string>
+    <string name="messageRequestGroupInvite"><b>{name}</b> invited you to join <b>{group_name}</b>.</string>
+    <string name="groupNoMessages">You have no messages from <b>{group_name}</b>. Send a message to start the conversation!</string>
     <string name="noteToSelfEmpty">You have no messages in Note to Self.</string>
     <string name="groupMemberYouLeft"><b>You</b> left the group.</string>
     <string name="notificationsIosRestart">You may have received messages while your {device} was restarting.</string>
@@ -799,11 +796,11 @@
     <string name="callsMissed">Missed Call</string>
     <string name="lockAppEnablePasscode">You must enable a passcode in your iOS Settings in order to use Screen Lock.</string>
     <string name="settingsRestartDescription">You must restart Session to apply your new settings.</string>
-    <string name="disappearingMessagesSetYou"><b>You</b> set messages to disappear {time} after they have been {disappearingmessagestype}.</string>
+    <string name="disappearingMessagesSetYou"><b>You</b> set messages to disappear {time} after they have been {disappearing_messages_type}.</string>
     <string name="disappearingMessagesTurnedOffYou"><b>You</b> turned disappearing messages off.</string>
     <string name="disappearingMessagesUpdatedYou"><b>You</b> updated disappearing message settings.</string>
     <string name="groupInviteYou"><b>You</b> were invited to join the group.</string>
-    <string name="groupRemovedYou">You were removed from <b>{groupname}</b>.</string>
+    <string name="groupRemovedYou">You were removed from <b>{group_name}</b>.</string>
     <string name="groupPromotedYou"><b>You</b> were promoted to Admin.</string>
     <string name="messageRequestPendingDescription">You will be able to send voice messages and attachments once the recipient has approved this message request.</string>
     <string name="linkPreviewsSendModalDescription">You will not have full metadata protection when sending link previews.</string>
@@ -822,7 +819,7 @@
     <string name="appearanceZoom">Zoom</string>
     <string name="appearanceZoomIn">Zoom In</string>
     <string name="appearanceZoomOut">Zoom Out</string>
-    <string name="groupMemberLeftTwo"><b>{name}</b> and <b>{othername}</b> left the group.</string>
+    <string name="groupMemberLeftTwo"><b>{name}</b> and <b>{other_name}</b> left the group.</string>
     <string name="groupMemberLeftMore"><b>{name}</b> and <b>{count} others</b> left the group.</string>
     <!-- <string name=" "></string> -->
     <string name="attachmentsDownload">Download Attachment</string>

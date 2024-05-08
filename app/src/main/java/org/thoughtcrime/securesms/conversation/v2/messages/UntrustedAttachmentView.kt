@@ -5,12 +5,13 @@ import android.util.AttributeSet
 import android.widget.LinearLayout
 import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
+import com.squareup.phrase.Phrase
 import network.loki.messenger.R
 import network.loki.messenger.databinding.ViewUntrustedAttachmentBinding
 import org.session.libsession.utilities.recipients.Recipient
 import org.thoughtcrime.securesms.conversation.v2.dialogs.DownloadDialog
 import org.thoughtcrime.securesms.util.ActivityDispatcher
-import java.util.Locale
+import org.thoughtcrime.securesms.util.StringSubKeys.StringSubstitutionConstants.FILE_TYPE
 
 class UntrustedAttachmentView: LinearLayout {
     private val binding: ViewUntrustedAttachmentBinding by lazy { ViewUntrustedAttachmentBinding.bind(this) }
@@ -36,9 +37,9 @@ class UntrustedAttachmentView: LinearLayout {
         }
         val iconDrawable = ContextCompat.getDrawable(context,iconRes)!!
         iconDrawable.mutate().setTint(textColor)
-        val text = context.getString(R.string.attachmentsTapToDownload)
-
         binding.untrustedAttachmentIcon.setImageDrawable(iconDrawable)
+
+        val text = Phrase.from(context, R.string.attachmentsTapToDownload).put(FILE_TYPE, stringRes).format()
         binding.untrustedAttachmentTitle.text = text
     }
     // endregion

@@ -79,6 +79,8 @@ import org.thoughtcrime.securesms.showSessionDialog
 import org.thoughtcrime.securesms.util.ConfigurationMessageUtilities
 import org.thoughtcrime.securesms.util.DateUtils
 import org.thoughtcrime.securesms.util.IP2Country
+import org.thoughtcrime.securesms.util.StringSubKeys.StringSubstitutionConstants.GROUP_NAME
+import org.thoughtcrime.securesms.util.StringSubKeys.StringSubstitutionConstants.NAME
 import org.thoughtcrime.securesms.util.disableClipping
 import org.thoughtcrime.securesms.util.push
 import org.thoughtcrime.securesms.util.show
@@ -97,9 +99,7 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
         const val FROM_ONBOARDING = "HomeActivity_FROM_ONBOARDING"
     }
 
-    // String substitution keys. Note: Do NOT include the curly braces in these keys!
-    private val NAME = "name"
-    private val GROUP_NAME = "groupname"
+
 
     private lateinit var binding: ActivityHomeBinding
     private lateinit var glide: GlideRequests
@@ -570,8 +570,8 @@ class HomeActivity : PassphraseRequiredActionBarActivity(),
     private fun unblockConversation(thread: ThreadRecord) {
         showSessionDialog {
             title(R.string.blockUnblock)
-            text(Phrase.from(context, R.string.blockUnblockDescription).put(NAME, thread.recipient.name).format()) // ACL replaced
-            //text(R.string.blockUnblockDescription) // OG
+            //text("ACL")
+            //text(Phrase.from(context, R.string.blockUnblockDescription).put(StringSubKeys.NAME, thread.recipient.name).format())
             button(R.string.blockUnblock) {
                 lifecycleScope.launch(Dispatchers.IO) {
                     storage.setBlocked(listOf(thread.recipient), false)

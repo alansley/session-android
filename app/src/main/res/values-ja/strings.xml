@@ -15,9 +15,6 @@
         <item quantity="other">会話ごとに%d件のメッセージ</item>
     </plurals>
     <!-- DraftDatabase -->
-    <string name="DraftDatabase_Draft_image_snippet">(画像)</string>
-    <string name="DraftDatabase_Draft_audio_snippet">(音声)</string>
-    <string name="DraftDatabase_Draft_video_snippet">(動画)</string>
     <!-- AttachmentManager -->
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->

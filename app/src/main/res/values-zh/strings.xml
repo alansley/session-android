@@ -15,9 +15,6 @@
         <item quantity="other">每个会话限制 %d 条消息</item>
     </plurals>
     <!-- DraftDatabase -->
-    <string name="DraftDatabase_Draft_image_snippet">(图片)</string>
-    <string name="DraftDatabase_Draft_audio_snippet">(音频)</string>
-    <string name="DraftDatabase_Draft_video_snippet">(视频)</string>
     <!-- AttachmentManager -->
     <!-- AudioSlidePlayer -->
     <!-- BucketedThreadMedia -->
