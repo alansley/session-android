@@ -8,7 +8,6 @@ import android.text.style.BackgroundColorSpan
 import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
 import android.util.Range
-import androidx.appcompat.widget.ThemeUtils
 import androidx.core.content.res.ResourcesCompat
 import network.loki.messenger.R
 import nl.komponents.kovenant.combine.Tuple2
@@ -16,9 +15,7 @@ import org.session.libsession.messaging.contacts.Contact
 import org.session.libsession.messaging.utilities.SodiumUtilities
 import org.session.libsession.utilities.TextSecurePreferences
 import org.session.libsession.utilities.ThemeUtil
-import org.session.libsignal.utilities.Log
 import org.thoughtcrime.securesms.dependencies.DatabaseComponent
-import org.thoughtcrime.securesms.util.UiModeUtilities
 import org.thoughtcrime.securesms.util.getAccentColor
 import org.thoughtcrime.securesms.util.getColorResourceIdFromAttr
 import org.thoughtcrime.securesms.util.getMessageTextColourAttr
@@ -83,7 +80,7 @@ object MentionUtilities {
         {
             val mentionTextColourAttributeId = getMessageTextColourAttr(isOutgoingMessage)
             val mentionTextColourResourceId = getColorResourceIdFromAttr(context, mentionTextColourAttributeId)
-            mentionTextColour = ResourcesCompat.getColor(context.resources, mentionTextColourResourceId, context.theme)
+            mentionTextColour = context.getAccentColor() //ResourcesCompat.getColor(context.resources, mentionTextColourResourceId, context.theme)
         }
 
         for (mention in mentions) {

@@ -63,7 +63,7 @@
 
     <string name="disappearingMessagesTypeSent">sent</string>
     <string name="disappearingMessagesTypeRead">read</string>
-    <string name="groupInviteVersion">Users must have version {version} or higher to receive invitations</string>
+    <string name="groupInviteVersion">Users must have version {version} or higher to receive invitations</string> <!-- ACL: Unused at present - used in onboarding? -->
     <string name="communityLeaveError">Couldn\'t leave community</string>
 
 
@@ -76,9 +76,6 @@
     <string name="message_details_header__file_size">File Size:</string>
     <string name="message_details_header__resolution">Resolution:</string>
     <string name="message_details_header__duration">Duration:</string>
-
-    <!-- DraftDatabase -->
-    <!-- Ticket to remove these three `DraftDatabase` strings - https://optf.atlassian.net/browse/SES-1500 -->
 
     <string name="ErrorNotifier_migration">Database Upgrade Failed</string>
     <string name="ErrorNotifier_migration_downgrade">Please contact support to report the error.</string>
@@ -99,6 +96,7 @@
     <string name="ConversationFragment_save_to_sd_card">Save to storage?</string>
     <string name="ConversationItem_error_not_delivered">Send failed, tap for details</string>
     <string name="NotificationBarManager__end_call">End call</string>
+
     <string name="NotificationMmsMessageRecord_multimedia_message">Multimedia message</string>
     <string name="NotificationMmsMessageRecord_downloading_mms_message">Downloading MMS message</string>
     <string name="NotificationMmsMessageRecord_error_downloading_mms_message">Error downloading MMS message, tap to retry</string>
